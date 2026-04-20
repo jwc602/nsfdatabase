@@ -1,0 +1,1942 @@
+{
+  "doi": "10.1007/s00366-024-02069-w",
+  "openalex": {
+    "id": "https://openalex.org/W4405116051",
+    "doi": "https://doi.org/10.1007/s00366-024-02069-w",
+    "title": "A monolithic overset finite element method for CFD with application to bio-inspired fliers",
+    "display_name": "A monolithic overset finite element method for CFD with application to bio-inspired fliers",
+    "publication_year": 2024,
+    "publication_date": "2024-12-06",
+    "ids": {
+      "openalex": "https://openalex.org/W4405116051",
+      "doi": "https://doi.org/10.1007/s00366-024-02069-w"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1007/s00366-024-02069-w",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/s00366-024-02069-w",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S89333158",
+        "display_name": "Engineering With Computers",
+        "issn_l": "0177-0667",
+        "issn": [
+          "0177-0667",
+          "1435-5663"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Engineering with Computers",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5109479783",
+          "display_name": "Ze Zhao",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157725225",
+            "display_name": "University of Illinois Urbana-Champaign",
+            "ror": "https://ror.org/047426m28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ze Zhao",
+        "raw_affiliation_strings": [
+          "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA",
+            "institution_ids": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5054856514",
+          "display_name": "Shashwot Paudel",
+          "orcid": "https://orcid.org/0009-0006-0054-1378"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157725225",
+            "display_name": "University of Illinois Urbana-Champaign",
+            "ror": "https://ror.org/047426m28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shashwot Paudel",
+        "raw_affiliation_strings": [
+          "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA",
+            "institution_ids": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102986565",
+          "display_name": "Yongjia Xu",
+          "orcid": "https://orcid.org/0000-0003-1492-9673"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157725225",
+            "display_name": "University of Illinois Urbana-Champaign",
+            "ror": "https://ror.org/047426m28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yongjia Xu",
+        "raw_affiliation_strings": [
+          "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA",
+            "institution_ids": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101598360",
+          "display_name": "Xuguang Wang",
+          "orcid": "https://orcid.org/0000-0002-0555-7620"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I889458895",
+            "display_name": "University of Hong Kong",
+            "ror": "https://ror.org/02zhqgq86",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xuguang Wang",
+        "raw_affiliation_strings": [
+          "Department of Civil Engineering, The University of Hong Kong, Pok Fu Lam, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Civil Engineering, The University of Hong Kong, Pok Fu Lam, China",
+            "institution_ids": [
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5025179327",
+          "display_name": "Qiming Zhu",
+          "orcid": "https://orcid.org/0009-0005-6410-5578"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157725225",
+            "display_name": "University of Illinois Urbana-Champaign",
+            "ror": "https://ror.org/047426m28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qiming Zhu",
+        "raw_affiliation_strings": [
+          "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA",
+            "institution_ids": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5017759050",
+          "display_name": "Jinhui Yan",
+          "orcid": "https://orcid.org/0000-0003-4676-0702"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157725225",
+            "display_name": "University of Illinois Urbana-Champaign",
+            "ror": "https://ror.org/047426m28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jinhui Yan",
+        "raw_affiliation_strings": [
+          "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA",
+            "institution_ids": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 2390,
+      "currency": "EUR",
+      "value_usd": 2990
+    },
+    "apc_paid": null,
+    "fwci": 2.88318587,
+    "has_fulltext": false,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.86354515,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "41",
+      "issue": "3",
+      "first_page": "1791",
+      "last_page": "1808"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11751",
+      "display_name": "Lattice Boltzmann Simulation Studies",
+      "score": 0.9988999962806702,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11751",
+        "display_name": "Lattice Boltzmann Simulation Studies",
+        "score": 0.9988999962806702,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10360",
+        "display_name": "Fluid Dynamics and Turbulent Flows",
+        "score": 0.9973999857902527,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10339",
+        "display_name": "Advanced Numerical Methods in Computational Mathematics",
+        "score": 0.9932000041007996,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/domain-decomposition-methods",
+        "display_name": "Domain decomposition methods",
+        "score": 0.6469748616218567
+      },
+      {
+        "id": "https://openalex.org/keywords/polygon-mesh",
+        "display_name": "Polygon mesh",
+        "score": 0.6061679124832153
+      },
+      {
+        "id": "https://openalex.org/keywords/finite-element-method",
+        "display_name": "Finite element method",
+        "score": 0.5930917263031006
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5905555486679077
+      },
+      {
+        "id": "https://openalex.org/keywords/generalized-minimal-residual-method",
+        "display_name": "Generalized minimal residual method",
+        "score": 0.5732722878456116
+      },
+      {
+        "id": "https://openalex.org/keywords/convergence",
+        "display_name": "Convergence (economics)",
+        "score": 0.51329106092453
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematical-optimization",
+        "display_name": "Mathematical optimization",
+        "score": 0.4962039589881897
+      },
+      {
+        "id": "https://openalex.org/keywords/solver",
+        "display_name": "Solver",
+        "score": 0.47958484292030334
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-science",
+        "display_name": "Computational science",
+        "score": 0.4639451503753662
+      },
+      {
+        "id": "https://openalex.org/keywords/nonlinear-system",
+        "display_name": "Nonlinear system",
+        "score": 0.4543033540248871
+      },
+      {
+        "id": "https://openalex.org/keywords/applied-mathematics",
+        "display_name": "Applied mathematics",
+        "score": 0.4486008286476135
+      },
+      {
+        "id": "https://openalex.org/keywords/node",
+        "display_name": "Node (physics)",
+        "score": 0.4369441568851471
+      },
+      {
+        "id": "https://openalex.org/keywords/octree",
+        "display_name": "Octree",
+        "score": 0.4284821152687073
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.41171500086784363
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.3470141887664795
+      },
+      {
+        "id": "https://openalex.org/keywords/iterative-method",
+        "display_name": "Iterative method",
+        "score": 0.3252515494823456
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C198880260",
+        "wikidata": "https://www.wikidata.org/wiki/Q5289813",
+        "display_name": "Domain decomposition methods",
+        "level": 3,
+        "score": 0.6469748616218567
+      },
+      {
+        "id": "https://openalex.org/C31487907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1154597",
+        "display_name": "Polygon mesh",
+        "level": 2,
+        "score": 0.6061679124832153
+      },
+      {
+        "id": "https://openalex.org/C135628077",
+        "wikidata": "https://www.wikidata.org/wiki/Q220184",
+        "display_name": "Finite element method",
+        "level": 2,
+        "score": 0.5930917263031006
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5905555486679077
+      },
+      {
+        "id": "https://openalex.org/C155332342",
+        "wikidata": "https://www.wikidata.org/wiki/Q1432976",
+        "display_name": "Generalized minimal residual method",
+        "level": 3,
+        "score": 0.5732722878456116
+      },
+      {
+        "id": "https://openalex.org/C2777303404",
+        "wikidata": "https://www.wikidata.org/wiki/Q759757",
+        "display_name": "Convergence (economics)",
+        "level": 2,
+        "score": 0.51329106092453
+      },
+      {
+        "id": "https://openalex.org/C126255220",
+        "wikidata": "https://www.wikidata.org/wiki/Q141495",
+        "display_name": "Mathematical optimization",
+        "level": 1,
+        "score": 0.4962039589881897
+      },
+      {
+        "id": "https://openalex.org/C2778770139",
+        "wikidata": "https://www.wikidata.org/wiki/Q1966904",
+        "display_name": "Solver",
+        "level": 2,
+        "score": 0.47958484292030334
+      },
+      {
+        "id": "https://openalex.org/C459310",
+        "wikidata": "https://www.wikidata.org/wiki/Q117801",
+        "display_name": "Computational science",
+        "level": 1,
+        "score": 0.4639451503753662
+      },
+      {
+        "id": "https://openalex.org/C158622935",
+        "wikidata": "https://www.wikidata.org/wiki/Q660848",
+        "display_name": "Nonlinear system",
+        "level": 2,
+        "score": 0.4543033540248871
+      },
+      {
+        "id": "https://openalex.org/C28826006",
+        "wikidata": "https://www.wikidata.org/wiki/Q33521",
+        "display_name": "Applied mathematics",
+        "level": 1,
+        "score": 0.4486008286476135
+      },
+      {
+        "id": "https://openalex.org/C62611344",
+        "wikidata": "https://www.wikidata.org/wiki/Q1062658",
+        "display_name": "Node (physics)",
+        "level": 2,
+        "score": 0.4369441568851471
+      },
+      {
+        "id": "https://openalex.org/C141297171",
+        "wikidata": "https://www.wikidata.org/wiki/Q1143237",
+        "display_name": "Octree",
+        "level": 2,
+        "score": 0.4284821152687073
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.41171500086784363
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.3470141887664795
+      },
+      {
+        "id": "https://openalex.org/C159694833",
+        "wikidata": "https://www.wikidata.org/wiki/Q2321565",
+        "display_name": "Iterative method",
+        "level": 2,
+        "score": 0.3252515494823456
+      },
+      {
+        "id": "https://openalex.org/C97355855",
+        "wikidata": "https://www.wikidata.org/wiki/Q11473",
+        "display_name": "Thermodynamics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C50522688",
+        "wikidata": "https://www.wikidata.org/wiki/Q189833",
+        "display_name": "Economic growth",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C121684516",
+        "wikidata": "https://www.wikidata.org/wiki/Q7600677",
+        "display_name": "Computer graphics (images)",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C66938386",
+        "wikidata": "https://www.wikidata.org/wiki/Q633538",
+        "display_name": "Structural engineering",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1007/s00366-024-02069-w",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s00366-024-02069-w",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S89333158",
+          "display_name": "Engineering With Computers",
+          "issn_l": "0177-0667",
+          "issn": [
+            "0177-0667",
+            "1435-5663"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Engineering with Computers",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/13",
+        "score": 0.5,
+        "display_name": "Climate action"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G6489114194",
+        "display_name": null,
+        "funder_award_id": "DE-EE0009447",
+        "funder_id": "https://openalex.org/F4320306084",
+        "funder_display_name": "U.S. Department of Energy"
+      },
+      {
+        "id": "https://openalex.org/G5785736636",
+        "display_name": null,
+        "funder_award_id": "N000142112670",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306084",
+        "display_name": "U.S. Department of Energy",
+        "ror": "https://ror.org/01bj3aw27"
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 67,
+    "referenced_works": [
+      "https://openalex.org/W2084131634",
+      "https://openalex.org/W1572985915",
+      "https://openalex.org/W1479835491",
+      "https://openalex.org/W4304694829",
+      "https://openalex.org/W2075289636",
+      "https://openalex.org/W2767049640",
+      "https://openalex.org/W2793340000",
+      "https://openalex.org/W3011828542",
+      "https://openalex.org/W2018060978",
+      "https://openalex.org/W2009204009",
+      "https://openalex.org/W3000752936",
+      "https://openalex.org/W2024542950",
+      "https://openalex.org/W2883301412",
+      "https://openalex.org/W1968870441",
+      "https://openalex.org/W2464127993",
+      "https://openalex.org/W2279921481",
+      "https://openalex.org/W2106808142",
+      "https://openalex.org/W2085304822",
+      "https://openalex.org/W2029520499",
+      "https://openalex.org/W1980079754",
+      "https://openalex.org/W2317726784",
+      "https://openalex.org/W2586571837",
+      "https://openalex.org/W3019305312",
+      "https://openalex.org/W2616331843",
+      "https://openalex.org/W2164416221",
+      "https://openalex.org/W2555439517",
+      "https://openalex.org/W2000582360",
+      "https://openalex.org/W3003764262",
+      "https://openalex.org/W1780245888",
+      "https://openalex.org/W2058512280",
+      "https://openalex.org/W2093905601",
+      "https://openalex.org/W1973550362",
+      "https://openalex.org/W2090014326",
+      "https://openalex.org/W2219222017",
+      "https://openalex.org/W4292410849",
+      "https://openalex.org/W4238493769",
+      "https://openalex.org/W4281611113",
+      "https://openalex.org/W2020633626",
+      "https://openalex.org/W2590291506",
+      "https://openalex.org/W1824473420",
+      "https://openalex.org/W4381333157",
+      "https://openalex.org/W2072402527",
+      "https://openalex.org/W2082642308",
+      "https://openalex.org/W2140153041",
+      "https://openalex.org/W2051309010",
+      "https://openalex.org/W1978388984",
+      "https://openalex.org/W2310020092",
+      "https://openalex.org/W2088230448",
+      "https://openalex.org/W2083801566",
+      "https://openalex.org/W3008383527",
+      "https://openalex.org/W2998804489",
+      "https://openalex.org/W2811040222",
+      "https://openalex.org/W2334002371",
+      "https://openalex.org/W1788335260",
+      "https://openalex.org/W2070232376",
+      "https://openalex.org/W2068004915",
+      "https://openalex.org/W2073897969",
+      "https://openalex.org/W1979560958",
+      "https://openalex.org/W2154122281",
+      "https://openalex.org/W2129689397",
+      "https://openalex.org/W2172014636",
+      "https://openalex.org/W2550093246",
+      "https://openalex.org/W2082043116",
+      "https://openalex.org/W2026136326",
+      "https://openalex.org/W2083983594",
+      "https://openalex.org/W4392638504",
+      "https://openalex.org/W2068362934"
+    ],
+    "related_works": [
+      "https://openalex.org/W2358905935",
+      "https://openalex.org/W3046241855",
+      "https://openalex.org/W2139875628",
+      "https://openalex.org/W1995427418",
+      "https://openalex.org/W2944364885",
+      "https://openalex.org/W2086725690",
+      "https://openalex.org/W2390085174",
+      "https://openalex.org/W2467000395",
+      "https://openalex.org/W1518427489",
+      "https://openalex.org/W2045642207"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 4
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          19
+        ]
+      ],
+      "date-time": "2025-12-19T08:49:42Z",
+      "timestamp": 1766134182503,
+      "version": "3.45.0"
+    },
+    "reference-count": 77,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              6
+            ]
+          ],
+          "date-time": "2024-12-06T00:00:00Z",
+          "timestamp": 1733443200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              6
+            ]
+          ],
+          "date-time": "2024-12-06T00:00:00Z",
+          "timestamp": 1733443200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-EE0009447"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-EE0009447"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N000142112670"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N000142112670"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Engineering with Computers"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1007/s00366-024-02069-w",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          6
+        ]
+      ],
+      "date-time": "2024-12-06T03:56:38Z",
+      "timestamp": 1733457398000
+    },
+    "page": "1791-1808",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "A monolithic overset finite element method for CFD with application to bio-inspired fliers"
+    ],
+    "prefix": "10.1007",
+    "volume": "41",
+    "author": [
+      {
+        "given": "Ze",
+        "family": "Zhao",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Shashwot",
+        "family": "Paudel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yongjia",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xuguang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qiming",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jinhui",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2069_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "479",
+        "DOI": "10.1017/S0962492902000077",
+        "volume": "11",
+        "author": "CS Peskin",
+        "year": "2002",
+        "unstructured": "Peskin CS (2002) The immersed boundary method. Acta Numer 11:479–517",
+        "journal-title": "Acta Numer"
+      },
+      {
+        "issue": "7",
+        "key": "2069_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "472",
+        "DOI": "10.1002/nme.4823",
+        "volume": "104",
+        "author": "E Burman",
+        "year": "2015",
+        "unstructured": "Burman E, Claus S, Hansbo P, Larson M, Massing A (2015) Cutfem: discretizing geometry and partial differential equations. Int J Numer Methods Eng 104(7):472–501",
+        "journal-title": "Int J Numer Methods Eng"
+      },
+      {
+        "issue": "1",
+        "key": "2069_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "121",
+        "DOI": "10.1007/s00466-007-0173-y",
+        "volume": "41",
+        "author": "J Parvizian",
+        "year": "2007",
+        "unstructured": "Parvizian J, Düster A, Rank E (2007) Finite cell method: h-and p-extension for embedded domain problems in solid mechanics. Comput Mech 41(1):121–133",
+        "journal-title": "Comput Mech"
+      },
+      {
+        "key": "2069_CR4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2022.115667",
+        "volume": "401",
+        "author": "Z Zhao",
+        "year": "2022",
+        "unstructured": "Zhao Z, Yan J (2022) Enriched immersed boundary method (EIBM) for interface-coupled multi-physics and applications to convective conjugate heat transfer. Comput Methods Appl Mech Eng 401:115667",
+        "journal-title": "Comput Methods Appl Mech Eng"
+      },
+      {
+        "issue": "12",
+        "key": "2069_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "1557",
+        "DOI": "10.1002/nme.2631",
+        "volume": "79",
+        "author": "P Bastian",
+        "year": "2009",
+        "unstructured": "Bastian P, Engwer C (2009) An unfitted finite element method using discontinuous galerkin. Int J Numer Methods Eng 79(12):1557–1576",
+        "journal-title": "Int J Numer Methods Eng"
+      },
+      {
+        "key": "2069_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "972",
+        "DOI": "10.1016/j.jcp.2017.10.026",
+        "volume": "372",
+        "author": "A Main",
+        "year": "2018",
+        "unstructured": "Main A, Scovazzi G (2018) The shifted boundary method for embedded domain computations. Part I: Poisson and Stokes problems. J Comput Phys 372:972–995",
+        "journal-title": "J Comput Phys"
+      },
+      {
+        "key": "2069_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "996",
+        "DOI": "10.1016/j.jcp.2018.01.023",
+        "volume": "372",
+        "author": "A Main",
+        "year": "2018",
+        "unstructured": "Main A, Scovazzi G (2018) The shifted boundary method for embedded domain computations. Part II: linear advection-diffusion and incompressible Navier-Stokes equations. J Comput Phys 372:996–1026",
+        "journal-title": "J Comput Phys"
+      },
+      {
+        "issue": "2",
+        "key": "2069_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1008",
+        "DOI": "10.1137/19M1248947",
+        "volume": "58",
+        "author": "M Duprez",
+        "year": "2020",
+        "unstructured": "Duprez M, Lozinski A (2020) $$\\phi$$-fem: a finite element method on domains defined by level-sets. SIAM J Numer Anal 58(2):1008–1028",
+        "journal-title": "SIAM J Numer Anal"
+      },
+      {
+        "key": "2069_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "1055",
+        "DOI": "10.1007/s00466-014-1059-4",
+        "volume": "54",
+        "author": "M-C Hsu",
+        "year": "2014",
+        "unstructured": "Hsu M-C, Kamensky D, Bazilevs Y, Sacks MS, Hughes TJR (2014) Fluid-structure interaction analysis of bioprosthetic heart valves: significance of arterial wall deformation. Comput Mech 54:1055–1071",
+        "journal-title": "Comput Mech"
+      },
+      {
+        "key": "2069_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1005",
+        "DOI": "10.1016/j.cma.2014.10.040",
+        "volume": "284",
+        "author": "D Kamensky",
+        "year": "2015",
+        "unstructured": "Kamensky D, Hsu M-C, Schillinger D, Evans JA, Aggarwal A, Bazilevs Y, Sacks MS, Hughes TJR (2015) An immersogeometric variational framework for fluid-structure interaction: application to bioprosthetic heart valves. Comput Methods Appl Mech Eng 284:1005–1053",
+        "journal-title": "Comput Methods Appl Mech Eng"
+      },
+      {
+        "key": "2069_CR11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2019.112748",
+        "volume": "361",
+        "author": "Q Zhu",
+        "year": "2020",
+        "unstructured": "Zhu Q, Xu F, Xu S, Hsu M, Yan J (2020) An immersogeometric formulation for free-surface flows with application to marine engineering problems. Comput Methods Appl Mech Eng 361:112748",
+        "journal-title": "Comput Methods Appl Mech Eng"
+      },
+      {
+        "key": "2069_CR12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcp.2020.109872",
+        "volume": "425",
+        "author": "H Casquero",
+        "year": "2021",
+        "unstructured": "Casquero H, Bona-Casas C, Toshniwal D, Hughes T, Gomez H, Zhang Y (2021) The divergence-conforming immersed boundary method: application to vesicle and capsule dynamics. J Comput Phys 425:109872",
+        "journal-title": "J Comput Phys"
+      },
+      {
+        "key": "2069_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "943",
+        "DOI": "10.1016/j.cma.2014.10.055",
+        "volume": "284",
+        "author": "H Casquero",
+        "year": "2015",
+        "unstructured": "Casquero H, Bona-Casas C, Gomez H (2015) A nurbs-based immersed methodology for fluid-structure interaction. Comput Methods Appl Mech Eng 284:943–970",
+        "journal-title": "Comput Methods Appl Mech Eng"
+      },
+      {
+        "key": "2069_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "114",
+        "DOI": "10.1016/j.jmps.2018.07.008",
+        "volume": "121",
+        "author": "G Moutsanidis",
+        "year": "2018",
+        "unstructured": "Moutsanidis G, Kamensky D, Chen J, Bazilevs Y (2018) Hyperbolic phase field modeling of brittle fracture: part II-immersed IGA-RKPM coupling for air-blast-structure interaction. J Mech Phys Solids 121:114–132",
+        "journal-title": "J Mech Phys Solids"
+      },
+      {
+        "key": "2069_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "143",
+        "DOI": "10.1007/s00466-008-0277-z",
+        "volume": "43",
+        "author": "Y Bazilevs",
+        "year": "2008",
+        "unstructured": "Bazilevs Y, Hughes T (2008) Nurbs-based isogeometric analysis for the computation of flows about rotating components. Comput Mech 43:143–150",
+        "journal-title": "Comput Mech"
+      },
+      {
+        "key": "2069_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan J, Deng X, Korobenko A, Bazilevs Y (2016) Free-surface flow modeling and simulation of horizontal-axis tidal-stream turbines. Comput Fluids",
+        "DOI": "10.1016/j.compfluid.2016.06.016"
+      },
+      {
+        "key": "2069_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "965",
+        "DOI": "10.1007/s00466-016-1272-4",
+        "volume": "57",
+        "author": "K Takizawa",
+        "year": "2016",
+        "unstructured": "Takizawa K, Tezduyar T, Kuraishi T, Tabata S, Takagi H (2016) Computational thermo-fluid analysis of a disk brake. Comput Mech 57:965–977",
+        "journal-title": "Comput Mech"
+      },
+      {
+        "issue": "12",
+        "key": "2069_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "2377",
+        "DOI": "10.1142/S0218202515400126",
+        "volume": "25",
+        "author": "K Takizawa",
+        "year": "2015",
+        "unstructured": "Takizawa K, Tezduyar T, Mochizuki H, Hattori H, Mei S, Pan L, Montel K (2015) Space-time vms method for flow computations with slip interfaces (st-si). Math Models Methods Appl Sci 25(12):2377–2406",
+        "journal-title": "Math Models Methods Appl Sci"
+      },
+      {
+        "key": "2069_CR19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00466-012-0772-0",
+        "author": "M-C Hsu",
+        "year": "2012",
+        "unstructured": "Hsu M-C, Bazilevs Y (2012) Fluid-structure interaction modeling of wind turbines: simulating the full machine. Comput Mech. https://doi.org/10.1007/s00466-012-0772-0",
+        "journal-title": "Comput Mech"
+      },
+      {
+        "key": "2069_CR20",
+        "first-page": "117",
+        "volume": "96",
+        "author": "E Volkov",
+        "year": "1968",
+        "unstructured": "Volkov E (1968) The method of composite meshes for finite and infinite regions with piecewise smooth boundary. Trudy Matematicheskogo Instituta imeni VA Steklova 96:117–148",
+        "journal-title": "Trudy Matematicheskogo Instituta imeni VA Steklova"
+      },
+      {
+        "issue": "1",
+        "key": "2069_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "13",
+        "DOI": "10.1006/jcph.1994.1114",
+        "volume": "113",
+        "author": "W Henshaw",
+        "year": "1994",
+        "unstructured": "Henshaw W (1994) A fourth-order accurate method for the incompressible Navier–Stokes equations on overlapping grids. J Comput Phys 113(1):13–25",
+        "journal-title": "J Comput Phys"
+      },
+      {
+        "issue": "10",
+        "key": "2069_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "3708",
+        "DOI": "10.1016/j.jcp.2009.02.007",
+        "volume": "228",
+        "author": "W Henshaw",
+        "year": "2009",
+        "unstructured": "Henshaw W, Chand K (2009) A composite grid solver for conjugate heat transfer in fluid-structure systems. J Comput Phys 228(10):3708–3741",
+        "journal-title": "J Comput Phys"
+      },
+      {
+        "issue": "18",
+        "key": "2069_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "6012",
+        "DOI": "10.1016/j.jcp.2012.04.008",
+        "volume": "231",
+        "author": "D Appelö",
+        "year": "2012",
+        "unstructured": "Appelö D, Banks J, Henshaw W, Schwendeman D (2012) Numerical methods for solid mechanics on overlapping grids: linear elasticity. J Comput Phys 231(18):6012–6050",
+        "journal-title": "J Comput Phys"
+      },
+      {
+        "key": "2069_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "414",
+        "DOI": "10.1016/j.jcp.2017.04.058",
+        "volume": "343",
+        "author": "A Koblitz",
+        "year": "2017",
+        "unstructured": "Koblitz A, Lovett S, Nikiforakis N, Henshaw W (2017) Direct numerical simulation of particulate flows with an overset grid method. J Comput Phys 343:414–431",
+        "journal-title": "J Comput Phys"
+      },
+      {
+        "key": "2069_CR25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cma.2020.113040",
+        "volume": "366",
+        "author": "F Meng",
+        "year": "2020",
+        "unstructured": "Meng F, Banks J, Henshaw W, Schwendeman D (2020) Fourth-order accurate fractional-step imex schemes for the incompressible Navier–Stokes equations on moving overlapping grids. Comput Methods Appl Mech Eng 366:113040",
+        "journal-title": "Comput Methods Appl Mech Eng"
+      },
+      {
+        "key": "2069_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "157",
+        "DOI": "10.1016/j.compfluid.2016.06.016",
+        "volume": "158",
+        "author": "J Yan",
+        "year": "2017",
+        "unstructured": "Yan J, Deng X, Korobenko A, Bazilevs Y (2017) Free-surface flow modeling and simulation of horizontal-axis tidal-stream turbines. Comput Fluids 158:157–166",
+        "journal-title": "Comput Fluids"
+      },
+      {
+        "key": "2069_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "167",
+        "DOI": "10.1016/j.compfluid.2017.05.010",
+        "volume": "158",
+        "author": "A Korobenko",
+        "year": "2017",
+        "unstructured": "Korobenko A, Yan J, Gohari S, Sarkar S, Bazilevs Y (2017) Fsi simulation of two back-to-back wind turbines in atmospheric boundary layer flow. Comput Fluids 158:167–175",
+        "journal-title": "Comput Fluids"
+      },
+      {
+        "issue": "6",
+        "key": "2069_CR28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.4046317",
+        "volume": "87",
+        "author": "J Yan",
+        "year": "2020",
+        "unstructured": "Yan J, Deng X, Xu F, Xu S, Zhu Q (2020) Numerical simulations of two back-to-back horizontal axis tidal stream turbines in free-surface flows. J Appl Mech 87(6):061001",
+        "journal-title": "J Appl Mech"
+      },
+      {
+        "issue": "2",
+        "key": "2069_CR29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.4024415",
+        "volume": "81",
+        "author": "A Korobenko",
+        "year": "2014",
+        "unstructured": "Korobenko A, Hsu M, Akkerman I, Bazilevs Y (2014) Aerodynamic simulation of vertical-axis wind turbines. J Appl Mech 81(2):021011",
+        "journal-title": "J Appl Mech"
+      },
+      {
+        "key": "2069_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "1033",
+        "DOI": "10.1007/s11831-016-9198-8",
+        "volume": "24",
+        "author": "G Houzeaux",
+        "year": "2017",
+        "unstructured": "Houzeaux G, Cajas J, Discacciati M, Eguzkitza B, Gargallo-Peiró A, Rivero M, Vázquez M (2017) Domain decomposition methods for domain composition purpose: chimera, overset, gluing and sliding mesh methods. Arch Comput Methods Eng 24:1033–1070",
+        "journal-title": "Arch Comput Methods Eng"
+      },
+      {
+        "key": "2069_CR31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780198501787.001.0001",
+        "volume-title": "Domain decomposition methods for partial differential equations",
+        "author": "A Quarteroni",
+        "year": "1999",
+        "unstructured": "Quarteroni A, Valli A (1999) Domain decomposition methods for partial differential equations. Oxford University Press, Oxford"
+      },
+      {
+        "key": "2069_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "841",
+        "DOI": "10.1007/s11831-019-09394-0",
+        "volume": "28",
+        "author": "H Tang",
+        "year": "2021",
+        "unstructured": "Tang H, Haynes R, Houzeaux G (2021) A review of domain decomposition methods for simulation of fluid flows: concepts, algorithms, and applications. Arch Comput Methods Eng 28:841–873",
+        "journal-title": "Arch Comput Methods Eng"
+      },
+      {
+        "key": "2069_CR33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9781611974065",
+        "volume-title": "An introduction to domain decomposition methods: algorithms, theory, and parallel implementation",
+        "author": "V Dolean",
+        "year": "2015",
+        "unstructured": "Dolean V, Jolivet P, Nataf F (2015) An introduction to domain decomposition methods: algorithms, theory, and parallel implementation. SIAM, Philadelphia"
+      },
+      {
+        "issue": "70",
+        "key": "2069_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "105",
+        "DOI": "10.1515/crll.1869.70.105",
+        "volume": "1869",
+        "author": "H Schwarz",
+        "year": "1869",
+        "unstructured": "Schwarz H (1869) Ueber einige abbildungsaufgaben. Journal für die reine und angewandte Mathematik 1869(70):105–120",
+        "journal-title": "Journal für die reine und angewandte Mathematik"
+      },
+      {
+        "key": "2069_CR35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meakin R (1993) Moving body overset grid methods for complete aircraft tiltrotor simulations. In  11th computational fluid dynamics conference, p 3350",
+        "DOI": "10.2514/6.1993-3350"
+      },
+      {
+        "issue": "3",
+        "key": "2069_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "496",
+        "DOI": "10.1016/j.compfluid.2008.06.009",
+        "volume": "38",
+        "author": "W Chan",
+        "year": "2009",
+        "unstructured": "Chan W (2009) Overset grid technology development at nasa ames research center. Comput Fluids 38(3):496–503",
+        "journal-title": "Comput Fluids"
+      },
+      {
+        "issue": "1",
+        "key": "2069_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "141",
+        "DOI": "10.2514/1.44456",
+        "volume": "47",
+        "author": "D Chandar",
+        "year": "2010",
+        "unstructured": "Chandar D, Damodaran M (2010) Numerical study of the free flight characteristics of a flapping wing in low Reynolds numbers. AIAA J Aircr 47(1):141–150",
+        "journal-title": "AIAA J Aircr"
+      },
+      {
+        "issue": "2",
+        "key": "2069_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "583",
+        "DOI": "10.4208/cicp.240811.090312a",
+        "volume": "13",
+        "author": "A Lani",
+        "year": "2013",
+        "unstructured": "Lani A, Sjögreen B, Yee H, Henshaw W (2013) Variable high-order multiblock overlapping grid methods for mixed steady and unsteady multiscale viscous flows, part II: hypersonic nonequilibrium flows. Commun Comput Phys 13(2):583–602",
+        "journal-title": "Commun Comput Phys"
+      },
+      {
+        "issue": "1",
+        "key": "2069_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "71",
+        "DOI": "10.1007/s00466-022-02217-3",
+        "volume": "71",
+        "author": "Z Zhao",
+        "year": "2023",
+        "unstructured": "Zhao Z, Zhu Q, Karuppiah A, Stuebner M, Lua J, Phan N, Yan J (2023) Computational multi-phase convective conjugate heat transfer on overlapping meshes: a quasi-direct coupling approach via Schwarz alternating method. Comput Mech 71(1):71–88",
+        "journal-title": "Comput Mech"
+      },
+      {
+        "issue": "5",
+        "key": "2069_CR40",
+        "first-page": "228",
+        "volume": "31",
+        "author": "M Gander",
+        "year": "2008",
+        "unstructured": "Gander M (2008) Schwarz methods over the course of time. Electron Trans Numer Anal 31(5):228–255",
+        "journal-title": "Electron Trans Numer Anal"
+      },
+      {
+        "key": "2069_CR41",
+        "unstructured": "Oliger J, Skamarock W, Tang W (1986) Convergence analysis and acceleration of the Schwarz alternating method. Stanford Tech. Report. Stanford Univ Stanford"
+      },
+      {
+        "key": "2069_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nataf F, Rogier F, de Sturler E (1994) Optimal interface conditions for domain decomposition methods. PhD thesis, CMAP Ecole Polytechnique,",
+        "DOI": "10.1090/conm/180/01984"
+      },
+      {
+        "key": "2069_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1017/S0962492922000034",
+        "volume": "31",
+        "author": "M Gander",
+        "year": "2022",
+        "unstructured": "Gander M, Zhang H (2022) Schwarz methods by domain truncation. Acta Numer 31:1–134",
+        "journal-title": "Acta Numer"
+      },
+      {
+        "issue": "4",
+        "key": "2069_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "401",
+        "DOI": "10.1016/j.apnum.2004.08.022",
+        "volume": "52",
+        "author": "V Martin",
+        "year": "2005",
+        "unstructured": "Martin V (2005) An optimized Schwarz waveform relaxation method for the unsteady convection diffusion equation in two dimensions. Appl Numer Math 52(4):401–428",
+        "journal-title": "Appl Numer Math"
+      },
+      {
+        "key": "2069_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "19",
+        "DOI": "10.1016/j.cma.2017.02.006",
+        "volume": "319",
+        "author": "A Mota",
+        "year": "2017",
+        "unstructured": "Mota A, Tezaur I, Alleman C (2017) The Schwarz alternating method in solid mechanics. Comput Methods Appl Mech Eng 319:19–51",
+        "journal-title": "Comput Methods Appl Mech Eng"
+      },
+      {
+        "issue": "1",
+        "key": "2069_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "69",
+        "DOI": "10.1002/fld.3733",
+        "volume": "72",
+        "author": "H Alcin",
+        "year": "2013",
+        "unstructured": "Alcin H, Koobus B, Allain O, Dervieux A (2013) Efficiency and scalability of a two-level Schwarz algorithm for incompressible and compressible flows. Int J Numer Methods Fluids 72(1):69–89",
+        "journal-title": "Int J Numer Methods Fluids"
+      },
+      {
+        "key": "2069_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "179",
+        "DOI": "10.1016/j.apnum.2023.06.007",
+        "volume": "192",
+        "author": "D Martínez",
+        "year": "2023",
+        "unstructured": "Martínez D, Pla F, Herrero H, Fernández-Pérez A (2023) A Schwarz alternating method for an evolution convection problem. Appl Numer Math 192:179–96",
+        "journal-title": "Appl Numer Math"
+      },
+      {
+        "issue": "2",
+        "key": "2069_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "171",
+        "DOI": "10.1007/s11831-012-9071-3",
+        "volume": "19",
+        "author": "K Takizawa",
+        "year": "2012",
+        "unstructured": "Takizawa K, Bazilevs Y, Tezduyar T (2012) Space-time and ALE-VMS techniques for patient-specific cardiovascular fluid-structure interaction modeling. Arch Comput Methods Eng 19(2):171–225",
+        "journal-title": "Arch Comput Methods Eng"
+      },
+      {
+        "issue": "supp02",
+        "key": "2069_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "1230002",
+        "DOI": "10.1142/S0218202512300025",
+        "volume": "22",
+        "author": "Y Bazilevs",
+        "year": "2012",
+        "unstructured": "Bazilevs Y, Hsu M, Takizawa K, Tezduyar T (2012) ALE-VMS and ST-VMS methods for computer modeling of wind-turbine rotor aerodynamics and fluid-structure interaction. Math Models Methods Appl Sci 22(supp02):1230002",
+        "journal-title": "Math Models Methods Appl Sci"
+      },
+      {
+        "key": "2069_CR50",
+        "unstructured": "Karypis G, Kumar V (1997) Metis: a software package for partitioning unstructured graphs, partitioning meshes, and computing fill-reducing orderings of sparse matrices"
+      },
+      {
+        "key": "2069_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "856",
+        "DOI": "10.1137/0907058",
+        "volume": "7",
+        "author": "Y Saad",
+        "year": "1986",
+        "unstructured": "Saad Y, Schultz M (1986) GMRES: a generalized minimal residual algorithm for solving nonsymmetric linear systems. SIAM J Sci Stat Comput 7:856–869",
+        "journal-title": "SIAM J Sci Stat Comput"
+      },
+      {
+        "issue": "8",
+        "key": "2069_CR52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.4027466",
+        "volume": "81",
+        "author": "Y Bazilevs",
+        "year": "2014",
+        "unstructured": "Bazilevs Y, Korobenko A, Deng X, Yan J, Kinzel M, Dabiri JO (2014) Fluid-structure interaction modeling of vertical-axis wind turbines. J Appl Mech 81(8):081006",
+        "journal-title": "J Appl Mech"
+      },
+      {
+        "issue": "02",
+        "key": "2069_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "249",
+        "DOI": "10.1142/S0218202513400034",
+        "volume": "23",
+        "author": "A Korobenko",
+        "year": "2013",
+        "unstructured": "Korobenko A, Hsu M-C, Akkerman I, Tippmann J, Bazilevs Y (2013) Structural mechanics modeling and fsi simulation of wind turbines. Math Models Methods Appl Sci 23(02):249–272",
+        "journal-title": "Math Models Methods Appl Sci"
+      },
+      {
+        "key": "2069_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "155",
+        "DOI": "10.1016/j.compfluid.2016.03.008",
+        "volume": "141",
+        "author": "J Yan",
+        "year": "2016",
+        "unstructured": "Yan J, Korobenko A, Deng X, Bazilevs Y (2016) Computational free-surface fluid-structure interaction with application to floating offshore wind turbines. Comput Fluids 141:155–174",
+        "journal-title": "Comput Fluids"
+      },
+      {
+        "issue": "1",
+        "key": "2069_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1007/s00466-008-0315-x",
+        "volume": "43",
+        "author": "Y Bazilevs",
+        "year": "2008",
+        "unstructured": "Bazilevs Y, Calo V, Hughes TJR, Zhang Y (2008) Isogeometric fluid-structure interaction: theory, algorithms, and computations. Comput Mech 43(1):3–37",
+        "journal-title": "Comput Mech"
+      },
+      {
+        "issue": "4–5",
+        "key": "2069_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "403",
+        "DOI": "10.1007/s00466-006-0059-4",
+        "volume": "38",
+        "author": "R Khurram",
+        "year": "2006",
+        "unstructured": "Khurram R, Masud A (2006) A multiscale/stabilized formulation of the incompressible Navier–Stokes equations for moving boundary flows and fluid-structure interaction. Comput Mech 38(4–5):403–416",
+        "journal-title": "Comput Mech"
+      },
+      {
+        "issue": "12",
+        "key": "2069_CR57",
+        "doi-asserted-by": "publisher",
+        "first-page": "3310",
+        "DOI": "10.1016/j.camwa.2020.01.021",
+        "volume": "79",
+        "author": "B Storti",
+        "year": "2020",
+        "unstructured": "Storti B, Garelli L, Storti M, D’Elía J (2020) A matrix-free chimera approach based on Dirichlet–Dirichlet coupling for domain composition purposes. Comput Math Appl 79(12):3310–3330",
+        "journal-title": "Comput Math Appl"
+      },
+      {
+        "key": "2069_CR58",
+        "unstructured": "Jude, DPN (2019) Advancing the multi-solver paradigm for overset CFD toward heterogeneous architectures. PhD thesis, University of Maryland, College Park"
+      },
+      {
+        "issue": "1",
+        "key": "2069_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "61",
+        "DOI": "10.1080/10618562.2019.1710137",
+        "volume": "34",
+        "author": "D Jude",
+        "year": "2020",
+        "unstructured": "Jude D, Sitaraman J, Lakshminarayan V, Baeder J (2020) An overset generalised minimal residual method for the multi-solver paradigm. Int J Comput Fluid Dyn 34(1):61–74",
+        "journal-title": "Int J Comput Fluid Dyn"
+      },
+      {
+        "key": "2069_CR60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jude D, Sitaraman J, Lakshminarayan VK Baeder JD (2018) An overset generalized minimal residual method for the multi-solver paradigm in helios. In: 2018 fluid dynamics conference, p 3247",
+        "DOI": "10.2514/6.2018-3247"
+      },
+      {
+        "key": "2069_CR61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Galbraith M, Knapke R, Orkwis P, Benek J (2013) A discontinuous galerkin chimera scheme with implicit artificial boundaries. In: 51st AIAA aerospace sciences meeting including the new horizons forum and aerospace exposition, p 514",
+        "DOI": "10.2514/6.2013-514"
+      },
+      {
+        "key": "2069_CR62",
+        "unstructured": "Cai X, Gropp W, Keyes D (1992) A comparison of some domain decomposition algorithms for nonsymmetric elliptic problems. In: Fifth international symposium on domain decomposition methods for partial differential equations, Philadelphia"
+      },
+      {
+        "key": "2069_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "135",
+        "DOI": "10.1016/j.compfluid.2015.08.027",
+        "volume": "141",
+        "author": "F Xu",
+        "year": "2016",
+        "unstructured": "Xu F, Schillinger D, Kamensky D, Varduhn V, Wang C, Hsu M-C (2016) The tetrahedral finite cell method for fluids: immersogeometric analysis of turbulent flow around complex geometries. Comput Fluids 141:135–154",
+        "journal-title": "Comput Fluids"
+      },
+      {
+        "issue": "1",
+        "key": "2069_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "359",
+        "DOI": "10.1137/S1064827595287997",
+        "volume": "20",
+        "author": "G Karypis",
+        "year": "1998",
+        "unstructured": "Karypis G, Kumar V (1998) A fast and high quality multilevel scheme for partitioning irregular graphs. SIAM J Sci Comput 20(1):359–392",
+        "journal-title": "SIAM J Sci Comput"
+      },
+      {
+        "issue": "2",
+        "key": "2069_CR65",
+        "doi-asserted-by": "publisher",
+        "first-page": "223",
+        "DOI": "10.1002/(SICI)1097-0363(20000530)33:2<223::AID-FLD10>3.0.CO;2-V",
+        "volume": "33",
+        "author": "N Qin",
+        "year": "2000",
+        "unstructured": "Qin N, Ludlow DK, Shaw S (2000) A matrix-free preconditioned newton/gmres method for unsteady Navier–Stokes solutions. Int J Numer Methods Fluids 33(2):223–248",
+        "journal-title": "Int J Numer Methods Fluids"
+      },
+      {
+        "key": "2069_CR66",
+        "doi-asserted-by": "publisher",
+        "first-page": "199",
+        "DOI": "10.1016/0045-7825(82)90071-8",
+        "volume": "32",
+        "author": "AN Brooks",
+        "year": "1982",
+        "unstructured": "Brooks AN, Hughes TJR (1982) Streamline upwind/Petrov–Galerkin formulations for convection dominated flows with particular emphasis on the incompressible Navier–Stokes equations. Comput Methods Appl Mech Eng 32:199–259",
+        "journal-title": "Comput Methods Appl Mech Eng"
+      },
+      {
+        "key": "2069_CR67",
+        "first-page": "1",
+        "volume": "28",
+        "author": "TE Tezduyar",
+        "year": "1992",
+        "unstructured": "Tezduyar TE (1992) Stabilized finite element formulations for incompressible flow computations. Adv Appl Mech 28:1–44",
+        "journal-title": "Adv Appl Mech"
+      },
+      {
+        "issue": "2",
+        "key": "2069_CR68",
+        "doi-asserted-by": "publisher",
+        "first-page": "173",
+        "DOI": "10.1016/0045-7825(89)90111-4",
+        "volume": "73",
+        "author": "T Hughes",
+        "year": "1989",
+        "unstructured": "Hughes T, Franca L, Hulbert G (1989) A new finite element formulation for computational fluid dynamics: VIII. The Galerkin/least-squares method for advective-diffusive equations. Comput Methods Appl Mech Eng 73(2):173–189",
+        "journal-title": "Comput Methods Appl Mech Eng"
+      },
+      {
+        "key": "2069_CR69",
+        "doi-asserted-by": "publisher",
+        "first-page": "173",
+        "DOI": "10.1016/j.cma.2007.07.016",
+        "volume": "197",
+        "author": "Y Bazilevs",
+        "year": "2007",
+        "unstructured": "Bazilevs Y, Calo VM, Cottrel JA, Hughes TJR, Reali A, Scovazzi G (2007) Variational multiscale residual-based turbulence modeling for large eddy simulation of incompressible flows. Comput Methods Appl Mech Eng 197:173–201",
+        "journal-title": "Comput Methods Appl Mech Eng"
+      },
+      {
+        "key": "2069_CR70",
+        "doi-asserted-by": "publisher",
+        "first-page": "411",
+        "DOI": "10.1016/S0045-7825(00)00211-5",
+        "volume": "190",
+        "author": "TE Tezduyar",
+        "year": "2000",
+        "unstructured": "Tezduyar TE, Osawa Y (2000) Finite element stabilization parameters computed from element matrices and vectors. Comput Methods Appl Mech Eng 190:411–430",
+        "journal-title": "Comput Methods Appl Mech Eng"
+      },
+      {
+        "issue": "3–4",
+        "key": "2069_CR71",
+        "doi-asserted-by": "publisher",
+        "first-page": "305",
+        "DOI": "10.1016/S0045-7825(00)00203-6",
+        "volume": "190",
+        "author": "KE Jansen",
+        "year": "2000",
+        "unstructured": "Jansen KE, Whiting CH, Hulbert GM (2000) A generalized-$$\\alpha$$ method for integrating the filtered Navier–Stokes equations with a stabilized finite element method. Comput Methods Appl Mech Eng 190(3–4):305–319",
+        "journal-title": "Comput Methods Appl Mech Eng"
+      },
+      {
+        "issue": "3",
+        "key": "2069_CR72",
+        "doi-asserted-by": "publisher",
+        "first-page": "67",
+        "DOI": "10.1061/JMCEA3.0000098",
+        "volume": "85",
+        "author": "NM Newmark",
+        "year": "1959",
+        "unstructured": "Newmark NM (1959) A method of computation for structural dynamics. J Eng Mech Div 85(3):67–94",
+        "journal-title": "J Eng Mech Div"
+      },
+      {
+        "issue": "2",
+        "key": "2069_CR73",
+        "doi-asserted-by": "publisher",
+        "first-page": "371",
+        "DOI": "10.1115/1.2900803",
+        "volume": "60",
+        "author": "J Chung",
+        "year": "1993",
+        "unstructured": "Chung J, Hulbert GM (1993) A time integration algorithm for structural dynamics with improved numerical dissipation: the generalized-$$\\alpha$$ method. J Appl Mech 60(2):371–375",
+        "journal-title": "J Appl Mech"
+      },
+      {
+        "key": "2069_CR74",
+        "doi-asserted-by": "publisher",
+        "first-page": "19",
+        "DOI": "10.1017/S0022112098003206",
+        "volume": "378",
+        "author": "TA Johnson",
+        "year": "1999",
+        "unstructured": "Johnson TA, Patel VC (1999) Flow past a sphere up to a Reynolds number of 300. J Fluid Mech 378:19–70",
+        "journal-title": "J Fluid Mech"
+      },
+      {
+        "issue": "12",
+        "key": "2069_CR75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.4028754",
+        "volume": "81",
+        "author": "Y Bazilevs",
+        "year": "2014",
+        "unstructured": "Bazilevs Y, Yan J, De Stadler M, Sarkar S (2014) Computation of the flow over a sphere at Re = 3700: a comparison of uniform and turbulent inflow conditions. J Appl Mech 81(12):121003",
+        "journal-title": "J Appl Mech"
+      },
+      {
+        "issue": "3",
+        "key": "2069_CR76",
+        "doi-asserted-by": "publisher",
+        "first-page": "110",
+        "DOI": "10.1093/pnasnexus/pgae110",
+        "volume": "3",
+        "author": "J Kim",
+        "year": "2024",
+        "unstructured": "...Kim J, Yoon H, Cheng S, Liu F, Kang S, Paudel S, Cho D, Luan H, Lee M, Jeong J, Park G, Huang Y, Lee S, Cho M, Lee G, Han M, Kim B, Yan J, Park Y, Jung S, Chamorro L, Rogers J (2024) Functional bio-inspired hybrid fliers with separated ring and leading edge vortices. PNAS Nexus 3(3):110",
+        "journal-title": "PNAS Nexus"
+      },
+      {
+        "key": "2069_CR77",
+        "doi-asserted-by": "publisher",
+        "first-page": "12",
+        "DOI": "10.1016/j.compfluid.2005.07.012",
+        "volume": "36",
+        "author": "Y Bazilevs",
+        "year": "2007",
+        "unstructured": "Bazilevs Y, Hughes TJR (2007) Weak imposition of Dirichlet boundary conditions in fluid mechanics. Comput Fluids 36:12–26",
+        "journal-title": "Comput Fluids"
+      }
+    ],
+    "container-title": [
+      "Engineering with Computers"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s00366-024-02069-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s00366-024-02069-w/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s00366-024-02069-w.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          6
+        ]
+      ],
+      "date-time": "2025-09-06T04:21:21Z",
+      "timestamp": 1757132481000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s00366-024-02069-w"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          6
+        ]
+      ]
+    },
+    "references-count": 77,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "2069"
+    ],
+    "URL": "https://doi.org/10.1007/s00366-024-02069-w",
+    "relation": {},
+    "ISSN": [
+      "0177-0667",
+      "1435-5663"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0177-0667"
+      },
+      {
+        "type": "electronic",
+        "value": "1435-5663"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "23 June 2024",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "26 September 2024",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "6 December 2024",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Conflict of interest"
+        }
+      }
+    ]
+  }
+}

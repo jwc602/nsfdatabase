@@ -1,0 +1,1583 @@
+{
+  "doi": "10.1016/j.jbi.2023.104415",
+  "openalex": {
+    "id": "https://openalex.org/W4221155469",
+    "doi": "https://doi.org/10.1016/j.jbi.2023.104415",
+    "title": "Multimodal learning on graphs for disease relation extraction",
+    "display_name": "Multimodal learning on graphs for disease relation extraction",
+    "publication_year": 2023,
+    "publication_date": "2023-06-03",
+    "ids": {
+      "openalex": "https://openalex.org/W4221155469",
+      "doi": "https://doi.org/10.1016/j.jbi.2023.104415"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.jbi.2023.104415",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.jbi.2023.104415",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S11622463",
+        "display_name": "Journal of Biomedical Informatics",
+        "issn_l": "1532-0464",
+        "issn": [
+          "1532-0464",
+          "1532-0480"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "publisher-specific-oa",
+      "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Biomedical Informatics",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "arxiv",
+      "crossref",
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://arxiv.org/pdf/2203.08893",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5066874145",
+          "display_name": "Yucong Lin",
+          "orcid": "https://orcid.org/0000-0002-9039-0318"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Lin, Yucong",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5056808064",
+          "display_name": "Kening Lu",
+          "orcid": "https://orcid.org/0000-0002-1551-5619"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Lu, Keming",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": null,
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Yu, Sheng",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5078003862",
+          "display_name": "Tianxi Cai",
+          "orcid": "https://orcid.org/0000-0002-5379-2502"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Cai, Tianxi",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5086052373",
+          "display_name": "Marinka Žitnik",
+          "orcid": "https://orcid.org/0000-0001-8530-7228"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Zitnik, Marinka",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 2980,
+      "currency": "USD",
+      "value_usd": 2980
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.04418318,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "143",
+      "issue": null,
+      "first_page": "104415",
+      "last_page": "104415"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13497",
+      "display_name": "Hermeneutics and Narrative Identity",
+      "score": 0.9879000186920166,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13497",
+        "display_name": "Hermeneutics and Narrative Identity",
+        "score": 0.9879000186920166,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13695",
+        "display_name": "Aging, Elder Care, and Social Issues",
+        "score": 0.9749000072479248,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3600",
+          "display_name": "General Health Professions"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13099",
+        "display_name": "Health, Medicine and Society",
+        "score": 0.95660001039505,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3600",
+          "display_name": "General Health Professions"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.8259238600730896
+      },
+      {
+        "id": "https://openalex.org/keywords/relationship-extraction",
+        "display_name": "Relationship extraction",
+        "score": 0.8122596144676208
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-graph",
+        "display_name": "Knowledge graph",
+        "score": 0.7652899026870728
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.6381072998046875
+      },
+      {
+        "id": "https://openalex.org/keywords/leverage",
+        "display_name": "Leverage (statistics)",
+        "score": 0.5877524614334106
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.5717098712921143
+      },
+      {
+        "id": "https://openalex.org/keywords/information-extraction",
+        "display_name": "Information extraction",
+        "score": 0.528112530708313
+      },
+      {
+        "id": "https://openalex.org/keywords/natural-language-processing",
+        "display_name": "Natural language processing",
+        "score": 0.47964054346084595
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.471874862909317
+      },
+      {
+        "id": "https://openalex.org/keywords/relation",
+        "display_name": "Relation (database)",
+        "score": 0.4564022123813629
+      },
+      {
+        "id": "https://openalex.org/keywords/conceptual-graph",
+        "display_name": "Conceptual graph",
+        "score": 0.4502892792224884
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-extraction",
+        "display_name": "Knowledge extraction",
+        "score": 0.4380577802658081
+      },
+      {
+        "id": "https://openalex.org/keywords/information-retrieval",
+        "display_name": "Information retrieval",
+        "score": 0.4103477895259857
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-representation-and-reasoning",
+        "display_name": "Knowledge representation and reasoning",
+        "score": 0.3039712607860565
+      },
+      {
+        "id": "https://openalex.org/keywords/data-mining",
+        "display_name": "Data mining",
+        "score": 0.22071358561515808
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.12384694814682007
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8259238600730896
+      },
+      {
+        "id": "https://openalex.org/C153604712",
+        "wikidata": "https://www.wikidata.org/wiki/Q7310755",
+        "display_name": "Relationship extraction",
+        "level": 3,
+        "score": 0.8122596144676208
+      },
+      {
+        "id": "https://openalex.org/C2987255567",
+        "wikidata": "https://www.wikidata.org/wiki/Q33002955",
+        "display_name": "Knowledge graph",
+        "level": 2,
+        "score": 0.7652899026870728
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.6381072998046875
+      },
+      {
+        "id": "https://openalex.org/C153083717",
+        "wikidata": "https://www.wikidata.org/wiki/Q6535263",
+        "display_name": "Leverage (statistics)",
+        "level": 2,
+        "score": 0.5877524614334106
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.5717098712921143
+      },
+      {
+        "id": "https://openalex.org/C195807954",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662562",
+        "display_name": "Information extraction",
+        "level": 2,
+        "score": 0.528112530708313
+      },
+      {
+        "id": "https://openalex.org/C204321447",
+        "wikidata": "https://www.wikidata.org/wiki/Q30642",
+        "display_name": "Natural language processing",
+        "level": 1,
+        "score": 0.47964054346084595
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.471874862909317
+      },
+      {
+        "id": "https://openalex.org/C25343380",
+        "wikidata": "https://www.wikidata.org/wiki/Q277521",
+        "display_name": "Relation (database)",
+        "level": 2,
+        "score": 0.4564022123813629
+      },
+      {
+        "id": "https://openalex.org/C234837",
+        "wikidata": "https://www.wikidata.org/wiki/Q1420493",
+        "display_name": "Conceptual graph",
+        "level": 3,
+        "score": 0.4502892792224884
+      },
+      {
+        "id": "https://openalex.org/C120567893",
+        "wikidata": "https://www.wikidata.org/wiki/Q1582085",
+        "display_name": "Knowledge extraction",
+        "level": 2,
+        "score": 0.4380577802658081
+      },
+      {
+        "id": "https://openalex.org/C23123220",
+        "wikidata": "https://www.wikidata.org/wiki/Q816826",
+        "display_name": "Information retrieval",
+        "level": 1,
+        "score": 0.4103477895259857
+      },
+      {
+        "id": "https://openalex.org/C161301231",
+        "wikidata": "https://www.wikidata.org/wiki/Q3478658",
+        "display_name": "Knowledge representation and reasoning",
+        "level": 2,
+        "score": 0.3039712607860565
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.22071358561515808
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.12384694814682007
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.jbi.2023.104415",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.jbi.2023.104415",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S11622463",
+          "display_name": "Journal of Biomedical Informatics",
+          "issn_l": "1532-0464",
+          "issn": [
+            "1532-0464",
+            "1532-0480"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "publisher-specific-oa",
+        "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Biomedical Informatics",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2203.08893",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2203.08893",
+        "pdf_url": "https://arxiv.org/pdf/2203.08893",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      {
+        "id": "doi:10.48550/arxiv.2203.08893",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.2203.08893",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:arXiv.org:2203.08893",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/2203.08893",
+      "pdf_url": "https://arxiv.org/pdf/2203.08893",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "text"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 62,
+    "referenced_works": [
+      "https://openalex.org/W3137864305",
+      "https://openalex.org/W3211201308",
+      "https://openalex.org/W2094728533",
+      "https://openalex.org/W6681188176",
+      "https://openalex.org/W1512387364",
+      "https://openalex.org/W2016753842",
+      "https://openalex.org/W6629967362",
+      "https://openalex.org/W3167136668",
+      "https://openalex.org/W2107598941",
+      "https://openalex.org/W6784761116",
+      "https://openalex.org/W6678830454",
+      "https://openalex.org/W2914592219",
+      "https://openalex.org/W2810986024",
+      "https://openalex.org/W2998251279",
+      "https://openalex.org/W3096655658",
+      "https://openalex.org/W3169066049",
+      "https://openalex.org/W3048303631",
+      "https://openalex.org/W6702248584",
+      "https://openalex.org/W2970771982",
+      "https://openalex.org/W6806772006",
+      "https://openalex.org/W2740401597",
+      "https://openalex.org/W2759136286",
+      "https://openalex.org/W6846729960",
+      "https://openalex.org/W2320155933",
+      "https://openalex.org/W2556343638",
+      "https://openalex.org/W2184957013",
+      "https://openalex.org/W2945623882",
+      "https://openalex.org/W2893775232",
+      "https://openalex.org/W2158028897",
+      "https://openalex.org/W2250342289",
+      "https://openalex.org/W6734023787",
+      "https://openalex.org/W6735632219",
+      "https://openalex.org/W2911286998",
+      "https://openalex.org/W2786016794",
+      "https://openalex.org/W2998385486",
+      "https://openalex.org/W2953356739",
+      "https://openalex.org/W3098266846",
+      "https://openalex.org/W3114916066",
+      "https://openalex.org/W2970288995",
+      "https://openalex.org/W2950851846",
+      "https://openalex.org/W2919278763",
+      "https://openalex.org/W3011170682",
+      "https://openalex.org/W3032211907",
+      "https://openalex.org/W2964105358",
+      "https://openalex.org/W3080935714",
+      "https://openalex.org/W2965487497",
+      "https://openalex.org/W2942489367",
+      "https://openalex.org/W2807776204",
+      "https://openalex.org/W2809410879",
+      "https://openalex.org/W2787801451",
+      "https://openalex.org/W103340358",
+      "https://openalex.org/W3035321581",
+      "https://openalex.org/W6771270995",
+      "https://openalex.org/W2997522493",
+      "https://openalex.org/W2123442489",
+      "https://openalex.org/W1832693441",
+      "https://openalex.org/W6682691769",
+      "https://openalex.org/W6781031682",
+      "https://openalex.org/W4221153690",
+      "https://openalex.org/W2034160355",
+      "https://openalex.org/W6720644698",
+      "https://openalex.org/W4318983406"
+    ],
+    "related_works": [
+      "https://openalex.org/W864442",
+      "https://openalex.org/W855327",
+      "https://openalex.org/W14854443",
+      "https://openalex.org/W4531093",
+      "https://openalex.org/W9675080",
+      "https://openalex.org/W7665668",
+      "https://openalex.org/W4657079",
+      "https://openalex.org/W16691669",
+      "https://openalex.org/W13464624",
+      "https://openalex.org/W18012477"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2022-04-03T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          23
+        ]
+      ],
+      "date-time": "2025-12-23T23:01:08Z",
+      "timestamp": 1766530868110,
+      "version": "3.37.3"
+    },
+    "reference-count": 86,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2024-07-01T00:00:00Z",
+          "timestamp": 1719792000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 366,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2023-07-01T00:00:00Z",
+          "timestamp": 1688169600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100016268",
+        "name": "US Department of the Air Force",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100016268",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Biomedical Informatics"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jbi.2023.104415",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          3
+        ]
+      ],
+      "date-time": "2023-06-03T15:36:30Z",
+      "timestamp": 1685806590000
+    },
+    "page": "104415",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 22,
+    "special_numbering": "C",
+    "title": [
+      "Multimodal learning on graphs for disease relation extraction"
+    ],
+    "prefix": "10.1016",
+    "volume": "143",
+    "author": [
+      {
+        "given": "Yucong",
+        "family": "Lin",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Keming",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6347-0507",
+        "authenticated-orcid": false,
+        "given": "Sheng",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5379-2502",
+        "authenticated-orcid": false,
+        "given": "Tianxi",
+        "family": "Cai",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8530-7228",
+        "authenticated-orcid": false,
+        "given": "Marinka",
+        "family": "Zitnik",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbi.2023.104415_b1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-021-21770-8",
+        "article-title": "Identification of disease treatment mechanisms through the multiscale interactome",
+        "volume": "12",
+        "author": "Ruiz",
+        "year": "2021",
+        "journal-title": "Nature Commun."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbi.2023.104415_b2",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41746-021-00519-z",
+        "article-title": "Clinical knowledge extraction via sparse embedding regression (KESER) with multi-center large scale electronic health record data",
+        "volume": "4",
+        "author": "Hong",
+        "year": "2021",
+        "journal-title": "npj Digit. Med."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Bollacker, C. Evans, P. Paritosh, T. Sturge, J. Taylor, Freebase: a collaboratively created graph database for structuring human knowledge, in: ACM SIGMOD, 2008, pp. 1247–1250.",
+        "DOI": "10.1145/1376616.1376746"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b4",
+        "first-page": "15",
+        "article-title": "Semantic MEDLINE: An advanced information management application for biomedicine",
+        "author": "Rindflesch",
+        "year": "2011",
+        "journal-title": "Inf. Serv. Use"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Carlson, J. Betteridge, B. Kisiel, B. Settles, E.R. Hruschka, T.M. Mitchell, Toward an architecture for never-ending language learning, in: AAAI, 2010.",
+        "DOI": "10.1609/aaai.v24i1.7519"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Dong, E. Gabrilovich, G. Heitz, W. Horn, N. Lao, K. Murphy, T. Strohmann, S. Sun, W. Zhang, Knowledge vault: A web-scale approach to probabilistic knowledge fusion, in: ACM SIGKDD, 2014, pp. 601–610.",
+        "DOI": "10.1145/2623330.2623623"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b7",
+        "unstructured": "L.B. Soares, N. FitzGerald, J. Ling, T. Kwiatkowski, Matching the blanks: Distributional similarity for relation learning, in: ACL, 2019, pp. 2895–2905."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Zhong, D. Chen, A Frustratingly Easy Approach for Joint Entity and Relation Extraction, in: NAACL-HT, 2021, pp. 50–61.",
+        "DOI": "10.18653/v1/2021.naacl-main.5"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Mintz, S. Bills, R. Snow, D. Jurafsky, Distant supervision for relation extraction without labeled data, in: ACL-IJCNLP, 2009, pp. 1003–1011.",
+        "DOI": "10.3115/1690219.1690287"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b10",
+        "unstructured": "K. Lei, D. Chen, Y. Li, N. Du, M. Yang, W. Fan, Y. Shen, Cooperative Denoising for Distantly Supervised Relation Extraction, in: COLING, 2018, pp. 426–436."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b11",
+        "series-title": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing",
+        "first-page": "3683",
+        "article-title": "Denoising relation extraction from document-level distant supervision",
+        "author": "Xiao",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b12",
+        "first-page": "2787",
+        "article-title": "Translating embeddings for modeling multi-relational data",
+        "volume": "26",
+        "author": "Bordes",
+        "year": "2013",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Balažević, C. Allen, T.M. Hospedales, TuckER: Tensor Factorization for Knowledge Graph Completion, in: EMNLP, 2019.",
+        "DOI": "10.18653/v1/D19-1522"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b14",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1016/j.inffus.2018.09.012",
+        "article-title": "Machine learning for integrating data in biology and medicine: Principles, practice, and opportunities",
+        "volume": "50",
+        "author": "Zitnik",
+        "year": "2019",
+        "journal-title": "Inf. Fusion"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. He, W. Chen, Y. Wang, W. Zhang, G. Wang, M. Zhang, Improving neural relation extraction with positive and unlabeled learning, in: AAAI, Vol. 34, 2020, pp. 7927–7934.",
+        "DOI": "10.1609/aaai.v34i05.6300"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/ACCESS.2020.3031549",
+        "article-title": "Contrastive representation learning: A framework and review",
+        "author": "Le-Khac",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Su, Y. Peng, K. Vijay-Shanker, Improving BERT Model Using Contrastive Learning for Biomedical Relation Extraction, in: BIONLP, 2021.",
+        "DOI": "10.18653/v1/2021.bionlp-1.1"
+      },
+      {
+        "year": "2020",
+        "series-title": "High-throughput relation extraction algorithm development associating knowledge articles and electronic health records",
+        "author": "Lin",
+        "key": "10.1016/j.jbi.2023.104415_b18"
+      },
+      {
+        "year": "2022",
+        "series-title": "Multimodal learning with graphs",
+        "author": "Ektefaie",
+        "key": "10.1016/j.jbi.2023.104415_b19"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b20",
+        "article-title": "A. The unified medical language system",
+        "author": "Cray",
+        "year": "1993",
+        "journal-title": "Methods Inf. Med."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jbi.2020.103529",
+        "article-title": "Long-distance disorder-disorder relation extraction with bootstrapped noisy data",
+        "volume": "109",
+        "author": "Lin",
+        "year": "2020",
+        "journal-title": "J. Biomed. Inform."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b22",
+        "unstructured": "J. Devlin, M.-W. Chang, K. Lee, K. Toutanova, BERT: Pre-training of deep bidirectional transformers for language understanding, in: NAACL-HLT, 2019, pp. 4171–4186."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Beltagy, K. Lo, A. Cohan, SciBERT: A Pretrained Language Model for Scientific Text, in: EMNLP-IJCNLP, 2019, pp. 3615–3620.",
+        "DOI": "10.18653/v1/D19-1371"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b24",
+        "first-page": "1",
+        "article-title": "Biomedical relation extraction via knowledge-enhanced reading comprehension",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Li, C. Wu, K. Vijay-Shanker, Noise reduction methods for distantly supervised biomedical relation extraction, in: BioNLP, 2017, pp. 184–193.",
+        "DOI": "10.18653/v1/W17-2323"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.jbi.2023.104415_b26",
+        "doi-asserted-by": "crossref",
+        "first-page": "2724",
+        "DOI": "10.1109/TKDE.2017.2754499",
+        "article-title": "Knowledge graph embedding: A survey of approaches and applications",
+        "volume": "29",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b27",
+        "first-page": "1",
+        "article-title": "Graph representation learning in biomedicine and healthcare",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Zitnik, B. Zupan, Collective pairwise classification for multi-way analysis of disease and drug data, in: The Pacific Symposium on Biocomputing, 2016, pp. 81–92.",
+        "DOI": "10.1142/9789814749411_0008"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Shi, T. Weninger, ProjE: Embedding projection for knowledge graph completion, in: AAAI, Vol. 31, 2017.",
+        "DOI": "10.1609/aaai.v31i1.10677"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Lin, Z. Liu, M. Sun, Y. Liu, X. Zhu, Learning entity and relation embeddings for knowledge graph completion, in: AAAI, 2015.",
+        "DOI": "10.1609/aaai.v29i1.9491"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Wang, X. He, Y. Cao, M. Liu, T.-S. Chua, KGAT: Knowledge graph attention network for recommendation, in: KDD, 2019, pp. 950–958.",
+        "DOI": "10.1145/3292500.3330989"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Sun, J. Yang, J. Zhang, A. Bozzon, L.-K. Huang, C. Xu, Recurrent knowledge graph embedding for effective recommendation, in: ACM Conference on Recommender Systems, 2018, pp. 297–305.",
+        "DOI": "10.1145/3240323.3240361"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Wang, J. Zhang, J. Feng, Z. Chen, Knowledge graph and text jointly embedding, in: EMNLP, 2014, pp. 1591–1601.",
+        "DOI": "10.3115/v1/D14-1167"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Ji, S. He, L. Xu, K. Liu, J. Zhao, Knowledge graph embedding via dynamic mapping matrix, in: ACL, 2015, pp. 687–696.",
+        "DOI": "10.3115/v1/P15-1067"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b35",
+        "unstructured": "M. Nickel, V. Tresp, H.-P. Kriegel, A three-way model for collective learning on multi-relational data, in: ICML, 2011."
+      },
+      {
+        "year": "2015",
+        "series-title": "Embedding entities and relations for learning and inference in knowledge bases",
+        "author": "Yang",
+        "key": "10.1016/j.jbi.2023.104415_b36"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b37",
+        "article-title": "Knowledge graph completion via complex tensor factorization",
+        "volume": "18",
+        "author": "Trouillon",
+        "year": "2017",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Balazevic, C. Allen, T. Hospedales, TuckER: Tensor Factorization for Knowledge Graph Completion, in: EMNLP-IJCNLP, 2019, pp. 5185–5194.",
+        "DOI": "10.18653/v1/D19-1522"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b39",
+        "series-title": "European Semantic Web Conference",
+        "first-page": "593",
+        "article-title": "Modeling relational data with graph convolutional networks",
+        "author": "Schlichtkrull",
+        "year": "2018"
+      },
+      {
+        "year": "2019",
+        "series-title": "Relational graph attention networks",
+        "author": "Busbridge",
+        "key": "10.1016/j.jbi.2023.104415_b40"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Wang, H. Ji, C. Shi, B. Wang, Y. Ye, P. Cui, P.S. Yu, Heterogeneous graph attention network, in: WWW, 2019, pp. 2022–2032.",
+        "DOI": "10.1145/3308558.3313562"
+      },
+      {
+        "issue": "13",
+        "key": "10.1016/j.jbi.2023.104415_b42",
+        "doi-asserted-by": "crossref",
+        "first-page": "i457",
+        "DOI": "10.1093/bioinformatics/bty294",
+        "article-title": "Modeling polypharmacy side effects with graph convolutional networks",
+        "volume": "34",
+        "author": "Zitnik",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W. Liu, P. Zhou, Z. Zhao, Z. Wang, Q. Ju, H. Deng, P. Wang, K-BERT: Enabling language representation with knowledge graph, in: AAAI, Vol. 34, 2020, pp. 2901–2908.",
+        "DOI": "10.1609/aaai.v34i03.5681"
+      },
+      {
+        "year": "2019",
+        "series-title": "ERNIE: Enhanced representation through knowledge integration",
+        "author": "Sun",
+        "key": "10.1016/j.jbi.2023.104415_b44"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Zhang, X. Han, Z. Liu, X. Jiang, M. Sun, Q. Liu, ERNIE: Enhanced language representation with informative entities, in: ACL, 2019, pp. 1441–1451.",
+        "DOI": "10.18653/v1/P19-1139"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. He, D. Zhou, J. Xiao, X. Jiang, Q. Liu, N.J. Yuan, T. Xu, BERT-MK: Integrating Graph Contextualized Knowledge into Pre-trained Language Models, in: Findings of EMNLP, 2020, pp. 2281–2290.",
+        "DOI": "10.18653/v1/2020.findings-emnlp.207"
+      },
+      {
+        "year": "2019",
+        "series-title": "Text generation from knowledge graphs with graph transformers",
+        "author": "Koncel-Kedziorski",
+        "key": "10.1016/j.jbi.2023.104415_b47"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Sun, Y. Shao, X. Qiu, Q. Guo, Y. Hu, X. Huang, Z. Zhang, CoLAKE: Contextualized Language and Knowledge Embedding, in: International Conference on Computational Linguistics, 2020, pp. 3660–3670.",
+        "DOI": "10.18653/v1/2020.coling-main.327"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Hu, L. Zhang, C. Shi, L. Nie, W. Guan, C. Yang, Improving distantly-supervised relation extraction with joint label embedding, in: EMNLP, 2019, pp. 3812–3820.",
+        "DOI": "10.18653/v1/D19-1395"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Xu, D. Barbosa, Connecting language and knowledge with heterogeneous representations for neural relation extraction, in: NAACL-HLT, 2019, pp. 3201–3206.",
+        "DOI": "10.18653/v1/N19-1323"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. Zhang, S. Deng, Z. Sun, G. Wang, X. Chen, W. Zhang, H. Chen, Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks, in: NAACL-HLT, 2019, pp. 3016–3025.",
+        "DOI": "10.18653/v1/N19-1306"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b52",
+        "doi-asserted-by": "crossref",
+        "first-page": "52895",
+        "DOI": "10.1109/ACCESS.2020.2981212",
+        "article-title": "A model of text-enhanced knowledge graph representation learning with mutual attention",
+        "volume": "8",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "year": "2016",
+        "series-title": "Joint representation learning of text and knowledge for knowledge graph completion",
+        "author": "Han",
+        "key": "10.1016/j.jbi.2023.104415_b53"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b54",
+        "doi-asserted-by": "crossref",
+        "first-page": "1362",
+        "DOI": "10.1587/transinf.2019EDP7229",
+        "article-title": "Joint representations of knowledge graphs and textual information via reference sentences",
+        "author": "Ji",
+        "year": "2020",
+        "journal-title": "IEICE Trans. Inf. Syst."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Dai, N. Inoue, P. Reisert, R. Takahashi, K. Inui, Distantly supervised biomedical knowledge acquisition via knowledge graph based attention, in: The Workshop on Extracting Structured Knowledge from Scientific Publications, 2019, pp. 1–10.",
+        "DOI": "10.18653/v1/W19-2601"
+      },
+      {
+        "year": "2020",
+        "series-title": "Improving relation extraction by leveraging knowledge graph link prediction",
+        "author": "Stoica",
+        "key": "10.1016/j.jbi.2023.104415_b56"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Wang, L. Zhan, P. Thompson, J. Zhou, Multimodal Learning with Incomplete Modalities by Knowledge Distillation, in: SIGKDD, 2020, pp. 1828–1838.",
+        "DOI": "10.1145/3394486.3403234"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Suo, W. Zhong, F. Ma, Y. Yuan, J. Gao, A. Zhang, Metric Learning on Healthcare Data with Incomplete Modalities, in: IJCAI, 2019, pp. 3534–3540.",
+        "DOI": "10.24963/ijcai.2019/490"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b59",
+        "doi-asserted-by": "crossref",
+        "first-page": "2411",
+        "DOI": "10.1109/TMI.2019.2913158",
+        "article-title": "Latent representation learning for Alzheimer’s disease diagnosis with incomplete multi-modality neuroimaging and genetic data",
+        "author": "Zhou",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Yang, D.-C. Zhan, X.-R. Sheng, Y. Jiang, Semi-Supervised Multi-Modal Learning with Incomplete Modalities, in: IJCAI, 2018, pp. 2998–3004.",
+        "DOI": "10.24963/ijcai.2018/416"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Cai, Z. Wang, H. Gao, D. Shen, S. Ji, Deep adversarial learning for multi-modality missing data completion, in: ACM SIGKDD, 2018, pp. 1158–1166.",
+        "DOI": "10.1145/3219819.3219963"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. Jaques, S. Taylor, A. Sano, R. Picard, Multimodal autoencoder: A deep learning approach to filling in missing sensor data and enabling better mood prediction, in: ACII, 2017, pp. 202–208.",
+        "DOI": "10.1109/ACII.2017.8273601"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Sun, J. Han, X. Yan, P.S. Yu, T. Wu, PathSim: Meta path-based top-k similarity search in heterogeneous information networks, in: VLDB, 2011, pp. 992–1003.",
+        "DOI": "10.14778/3402707.3402736"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b64",
+        "unstructured": "X. Lan, X. Zhu, S. Gong, Knowledge Distillation by On-the-Fly Native Ensemble, in: NeurIPS, 2018."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Guo, X. Wang, Y. Wu, Z. Yu, D. Liang, X. Hu, P. Luo, Online knowledge distillation via collaborative learning, in: CVPR, 2020, pp. 11020–11029.",
+        "DOI": "10.1109/CVPR42600.2020.01103"
+      },
+      {
+        "year": "2015",
+        "series-title": "Laptop diseases database ver 2.0; medical lists and links diseases database [internet]",
+        "key": "10.1016/j.jbi.2023.104415_b66"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b67",
+        "first-page": "5",
+        "article-title": "Medscape–The first 5 years",
+        "author": "Frishauf",
+        "year": "2005",
+        "journal-title": "Medscape Gen. Med."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A.L. Beam, B. Kompa, A. Schmaltz, I. Fried, G. Weber, N. Palmer, X. Shi, T. Cai, I.S. Kohane, Clinical concept embeddings learned from massive sources of multimodal medical data, in: Pacific Symposium on Biocomputing 2020, 2019, pp. 295–306.",
+        "DOI": "10.1142/9789811215636_0027"
+      },
+      {
+        "year": "2019",
+        "series-title": "Huggingface’s transformers: State-of-the-art natural language processing",
+        "author": "Wolf",
+        "key": "10.1016/j.jbi.2023.104415_b69"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b70",
+        "unstructured": "B. Yang, W. tau Yih, X. He, J. Gao, L. Deng, Embedding Entities and Relations for Learning and Inference in Knowledge Bases, in: ICLR, 2015."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b71",
+        "unstructured": "T. Trouillon, J. Welbl, S. Riedel, E. Gaussier, G. Bouchard, Complex Embeddings for Simple Link Prediction, in: ICML, 2016."
+      },
+      {
+        "year": "2017",
+        "series-title": "Modeling relational data with graph convolutional networks",
+        "author": "Schlichtkrull",
+        "key": "10.1016/j.jbi.2023.104415_b72"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C.D. Manning, M. Surdeanu, J. Bauer, J.R. Finkel, S. Bethard, D. McClosky, The Stanford CoreNLP natural language processing toolkit, in: Proceedings of 52nd Annual Meeting of the Association for Computational Linguistics: System Demonstrations, 2014, pp. 55–60.",
+        "DOI": "10.3115/v1/P14-5010"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Kim, Convolutional Neural Networks for Sentence Classification, in: EMNLP, 2014, pp. 1746–1751.",
+        "DOI": "10.3115/v1/D14-1181"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b75",
+        "article-title": "Distributed representations of words and phrases and their compositionality",
+        "volume": "26",
+        "author": "Mikolov",
+        "year": "2013",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "year": "2014",
+        "series-title": "On the properties of neural machine translation: Encoder-decoder approaches",
+        "author": "Cho",
+        "key": "10.1016/j.jbi.2023.104415_b76"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b77",
+        "first-page": "1",
+        "article-title": "Domain-specific language model pretraining for biomedical natural language processing",
+        "author": "Gu",
+        "year": "2021",
+        "journal-title": "ACM Trans. Comput. Healthc. (HEALTH)"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Yasunaga, J. Leskovec, P. Liang, LinkBERT: Pretraining Language Models with Document Links, in: Association for Computational Linguistics, ACL, 2022.",
+        "DOI": "10.18653/v1/2022.acl-long.551"
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b79",
+        "unstructured": "W. Hu, M. Fey, M. Zitnik, Y. Dong, H. Ren, B. Liu, M. Catasta, J. Leskovec, Open Graph Benchmark: Datasets for machine learning on graphs, in: NeurIPS, 2020."
+      },
+      {
+        "key": "10.1016/j.jbi.2023.104415_b80",
+        "unstructured": "X. Glorot, Y. Bengio, Understanding the difficulty of training deep feedforward neural networks, in: AISTATS, 2010, pp. 249–256."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.jbi.2023.104415_b81",
+        "doi-asserted-by": "crossref",
+        "first-page": "470",
+        "DOI": "10.1194/jlr.M200342-JLR200",
+        "article-title": "Fatty liver in familial hypobetalipoproteinemia: triglyceride assembly into VLDL particles is affected by the extent of hepatic steatosis",
+        "volume": "44",
+        "author": "Schonfeld",
+        "year": "2003",
+        "journal-title": "J. Lipid Res."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jbi.2023.104415_b82",
+        "first-page": "104",
+        "article-title": "Non-alcoholic fatty liver disease associated with hypobetalipoproteinemia: report of three cases and a novel mutation in apob gene",
+        "volume": "25",
+        "author": "Rodrigues",
+        "year": "2016",
+        "journal-title": "Nascer e Crescer-Birth Growth Med. J."
+      },
+      {
+        "year": "2022",
+        "series-title": "Bios: An algorithmically generated biomedical knowledge graph",
+        "author": "Yu",
+        "key": "10.1016/j.jbi.2023.104415_b83"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.jbi.2023.104415_b84",
+        "doi-asserted-by": "crossref",
+        "first-page": "67",
+        "DOI": "10.1038/s41597-023-01960-3",
+        "article-title": "Building a knowledge graph to enable precision medicine",
+        "volume": "10",
+        "author": "Chandak",
+        "year": "2023",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "year": "2019",
+        "series-title": "OpenNRE: An open and extensible toolkit for neural relation extraction",
+        "author": "Han",
+        "key": "10.1016/j.jbi.2023.104415_b85"
+      },
+      {
+        "year": "2021",
+        "series-title": "Manual evaluation matters: reviewing test protocols of distantly supervised relation extraction",
+        "author": "Gao",
+        "key": "10.1016/j.jbi.2023.104415_b86"
+      }
+    ],
+    "container-title": [
+      "Journal of Biomedical Informatics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1532046423001363?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1532046423001363?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2024-10-21T19:31:32Z",
+      "timestamp": 1729539092000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1532046423001363"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "references-count": 86,
+    "alternative-id": [
+      "S1532046423001363"
+    ],
+    "URL": "https://doi.org/10.1016/j.jbi.2023.104415",
+    "relation": {},
+    "ISSN": [
+      "1532-0464"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1532-0464"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Multimodal learning on graphs for disease relation extraction",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Biomedical Informatics",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jbi.2023.104415",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "104415"
+  }
+}

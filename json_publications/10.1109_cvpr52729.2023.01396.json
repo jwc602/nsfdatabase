@@ -1,0 +1,2319 @@
+{
+  "doi": "10.1109/cvpr52729.2023.01396",
+  "openalex": {
+    "id": "https://openalex.org/W4386076218",
+    "doi": "https://doi.org/10.1109/cvpr52729.2023.01396",
+    "title": "Visual Dependency Transformers: Dependency Tree Emerges from Reversed Attention",
+    "display_name": "Visual Dependency Transformers: Dependency Tree Emerges from Reversed Attention",
+    "publication_year": 2023,
+    "publication_date": "2023-06-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4386076218",
+      "doi": "https://doi.org/10.1109/cvpr52729.2023.01396"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/cvpr52729.2023.01396",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/cvpr52729.2023.01396",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5022382771",
+          "display_name": "Mingyu Ding",
+          "orcid": "https://orcid.org/0000-0001-6556-8359"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I889458895",
+            "display_name": "University of Hong Kong",
+            "ror": "https://ror.org/02zhqgq86",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mingyu Ding",
+        "raw_affiliation_strings": [
+          "The University of Hong Kong"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The University of Hong Kong",
+            "institution_ids": [
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5073742611",
+          "display_name": "Yikang Shen",
+          "orcid": "https://orcid.org/0000-0001-6836-0510"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1341412227",
+            "display_name": "IBM (United States)",
+            "ror": "https://ror.org/05hh8d621",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I1341412227"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yikang Shen",
+        "raw_affiliation_strings": [
+          "MIT-IBM Watson AI Lab"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "MIT-IBM Watson AI Lab",
+            "institution_ids": [
+              "https://openalex.org/I1341412227"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100537622",
+          "display_name": "Lijie Fan",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210109586",
+            "display_name": "Moscow Institute of Thermal Technology",
+            "ror": "https://ror.org/021es5e59",
+            "country_code": "RU",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210109586"
+            ]
+          }
+        ],
+        "countries": [
+          "RU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lijie Fan",
+        "raw_affiliation_strings": [
+          "MIT"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "MIT",
+            "institution_ids": [
+              "https://openalex.org/I4210109586"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5042636572",
+          "display_name": "Zhenfang Chen",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1341412227",
+            "display_name": "IBM (United States)",
+            "ror": "https://ror.org/05hh8d621",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I1341412227"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhenfang Chen",
+        "raw_affiliation_strings": [
+          "MIT-IBM Watson AI Lab"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "MIT-IBM Watson AI Lab",
+            "institution_ids": [
+              "https://openalex.org/I1341412227"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5081201135",
+          "display_name": "Zitian Chen",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24603500",
+            "display_name": "University of Massachusetts Amherst",
+            "ror": "https://ror.org/0072zz521",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24603500"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zitian Chen",
+        "raw_affiliation_strings": [
+          "UMass Amherst"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "UMass Amherst",
+            "institution_ids": [
+              "https://openalex.org/I24603500"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100752686",
+          "display_name": "Ping Luo",
+          "orcid": "https://orcid.org/0000-0002-6685-7950"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I889458895",
+            "display_name": "University of Hong Kong",
+            "ror": "https://ror.org/02zhqgq86",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ping Luo",
+        "raw_affiliation_strings": [
+          "The University of Hong Kong"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The University of Hong Kong",
+            "institution_ids": [
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5047843932",
+          "display_name": "Josh Tenenbaum",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210109586",
+            "display_name": "Moscow Institute of Thermal Technology",
+            "ror": "https://ror.org/021es5e59",
+            "country_code": "RU",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210109586"
+            ]
+          }
+        ],
+        "countries": [
+          "RU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Josh Tenenbaum",
+        "raw_affiliation_strings": [
+          "MIT"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "MIT",
+            "institution_ids": [
+              "https://openalex.org/I4210109586"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5040877128",
+          "display_name": "Chuang Gan",
+          "orcid": "https://orcid.org/0000-0003-4031-5886"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1341412227",
+            "display_name": "IBM (United States)",
+            "ror": "https://ror.org/05hh8d621",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I1341412227"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I24603500",
+            "display_name": "University of Massachusetts Amherst",
+            "ror": "https://ror.org/0072zz521",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24603500"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chuang Gan",
+        "raw_affiliation_strings": [
+          "MIT-IBM Watson AI Lab",
+          "UMass Amherst"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "UMass Amherst",
+            "institution_ids": [
+              "https://openalex.org/I24603500"
+            ]
+          },
+          {
+            "raw_affiliation_string": "MIT-IBM Watson AI Lab",
+            "institution_ids": [
+              "https://openalex.org/I1341412227"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.63771506,
+    "has_fulltext": false,
+    "cited_by_count": 9,
+    "citation_normalized_percentile": {
+      "value": 0.82785467,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 98
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "14528",
+      "last_page": "14539"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10036",
+      "display_name": "Advanced Neural Network Applications",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10036",
+        "display_name": "Advanced Neural Network Applications",
+        "score": 0.9994000196456909,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11605",
+        "display_name": "Visual Attention and Saliency Detection",
+        "score": 0.9994000196456909,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11307",
+        "display_name": "Domain Adaptation and Few-Shot Learning",
+        "score": 0.9988999962806702,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.765785813331604
+      },
+      {
+        "id": "https://openalex.org/keywords/dependency",
+        "display_name": "Dependency (UML)",
+        "score": 0.7184337377548218
+      },
+      {
+        "id": "https://openalex.org/keywords/pooling",
+        "display_name": "Pooling",
+        "score": 0.6956315040588379
+      },
+      {
+        "id": "https://openalex.org/keywords/security-token",
+        "display_name": "Security token",
+        "score": 0.664237916469574
+      },
+      {
+        "id": "https://openalex.org/keywords/visualization",
+        "display_name": "Visualization",
+        "score": 0.6023718118667603
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.5445054769515991
+      },
+      {
+        "id": "https://openalex.org/keywords/dependency-graph",
+        "display_name": "Dependency graph",
+        "score": 0.4722670316696167
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.47048285603523254
+      },
+      {
+        "id": "https://openalex.org/keywords/tree",
+        "display_name": "Tree (set theory)",
+        "score": 0.4148682951927185
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.35141390562057495
+      },
+      {
+        "id": "https://openalex.org/keywords/pattern-recognition",
+        "display_name": "Pattern recognition (psychology)",
+        "score": 0.34352558851242065
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.3366779088973999
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.1349678635597229
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.765785813331604
+      },
+      {
+        "id": "https://openalex.org/C19768560",
+        "wikidata": "https://www.wikidata.org/wiki/Q320727",
+        "display_name": "Dependency (UML)",
+        "level": 2,
+        "score": 0.7184337377548218
+      },
+      {
+        "id": "https://openalex.org/C70437156",
+        "wikidata": "https://www.wikidata.org/wiki/Q7228652",
+        "display_name": "Pooling",
+        "level": 2,
+        "score": 0.6956315040588379
+      },
+      {
+        "id": "https://openalex.org/C48145219",
+        "wikidata": "https://www.wikidata.org/wiki/Q1335365",
+        "display_name": "Security token",
+        "level": 2,
+        "score": 0.664237916469574
+      },
+      {
+        "id": "https://openalex.org/C36464697",
+        "wikidata": "https://www.wikidata.org/wiki/Q451553",
+        "display_name": "Visualization",
+        "level": 2,
+        "score": 0.6023718118667603
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5445054769515991
+      },
+      {
+        "id": "https://openalex.org/C16311509",
+        "wikidata": "https://www.wikidata.org/wiki/Q4148050",
+        "display_name": "Dependency graph",
+        "level": 3,
+        "score": 0.4722670316696167
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.47048285603523254
+      },
+      {
+        "id": "https://openalex.org/C113174947",
+        "wikidata": "https://www.wikidata.org/wiki/Q2859736",
+        "display_name": "Tree (set theory)",
+        "level": 2,
+        "score": 0.4148682951927185
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.35141390562057495
+      },
+      {
+        "id": "https://openalex.org/C153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "level": 2,
+        "score": 0.34352558851242065
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.3366779088973999
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.1349678635597229
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/cvpr52729.2023.01396",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/cvpr52729.2023.01396",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G8971407064",
+        "display_name": null,
+        "funder_award_id": "2022ZD0161000",
+        "funder_id": "https://openalex.org/F4320335777",
+        "funder_display_name": "National Key Research and Development Program of China"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320307791",
+        "display_name": "Cisco Systems",
+        "ror": "https://ror.org/03yt1ez60"
+      },
+      {
+        "id": "https://openalex.org/F4320315072",
+        "display_name": "Mitsubishi Electric Research Laboratories",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320335777",
+        "display_name": "National Key Research and Development Program of China",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 141,
+    "referenced_works": [
+      "https://openalex.org/W6796494063",
+      "https://openalex.org/W3164267792",
+      "https://openalex.org/W6796487566",
+      "https://openalex.org/W6620707391",
+      "https://openalex.org/W2150593711",
+      "https://openalex.org/W3138516171",
+      "https://openalex.org/W6791821072",
+      "https://openalex.org/W6767021658",
+      "https://openalex.org/W3166171970",
+      "https://openalex.org/W6639102338",
+      "https://openalex.org/W6804477249",
+      "https://openalex.org/W1920234547",
+      "https://openalex.org/W3035638749",
+      "https://openalex.org/W6794906783",
+      "https://openalex.org/W3139445856",
+      "https://openalex.org/W2222512263",
+      "https://openalex.org/W4312689172",
+      "https://openalex.org/W6809816361",
+      "https://openalex.org/W2963318290",
+      "https://openalex.org/W2104408738",
+      "https://openalex.org/W6810423238",
+      "https://openalex.org/W3145450063",
+      "https://openalex.org/W3151348293",
+      "https://openalex.org/W2254462240",
+      "https://openalex.org/W3151130473",
+      "https://openalex.org/W3159481202",
+      "https://openalex.org/W6763665168",
+      "https://openalex.org/W6796237581",
+      "https://openalex.org/W2963143796",
+      "https://openalex.org/W2962784289",
+      "https://openalex.org/W2194775991",
+      "https://openalex.org/W2963150697",
+      "https://openalex.org/W4214636423",
+      "https://openalex.org/W6755977528",
+      "https://openalex.org/W3174480456",
+      "https://openalex.org/W6955071965",
+      "https://openalex.org/W2997891818",
+      "https://openalex.org/W6795736418",
+      "https://openalex.org/W4214588794",
+      "https://openalex.org/W2168356304",
+      "https://openalex.org/W6810290955",
+      "https://openalex.org/W6851167519",
+      "https://openalex.org/W6810607895",
+      "https://openalex.org/W6680793672",
+      "https://openalex.org/W6803870738",
+      "https://openalex.org/W6803699412",
+      "https://openalex.org/W4214669216",
+      "https://openalex.org/W6792695861",
+      "https://openalex.org/W6804160461",
+      "https://openalex.org/W6810615099",
+      "https://openalex.org/W6847372347",
+      "https://openalex.org/W2047670868",
+      "https://openalex.org/W6792405717",
+      "https://openalex.org/W4205969993",
+      "https://openalex.org/W2007339694",
+      "https://openalex.org/W2108598243",
+      "https://openalex.org/W3170898657",
+      "https://openalex.org/W6803673840",
+      "https://openalex.org/W6792112992",
+      "https://openalex.org/W6797602710",
+      "https://openalex.org/W6791705549",
+      "https://openalex.org/W2737258237",
+      "https://openalex.org/W6797153837",
+      "https://openalex.org/W6810563863",
+      "https://openalex.org/W6795901243",
+      "https://openalex.org/W2002781701",
+      "https://openalex.org/W6804198819",
+      "https://openalex.org/W3113037084",
+      "https://openalex.org/W2039313011",
+      "https://openalex.org/W6747050675",
+      "https://openalex.org/W2092919213",
+      "https://openalex.org/W6797235774",
+      "https://openalex.org/W2895526696",
+      "https://openalex.org/W3203701986",
+      "https://openalex.org/W4214493665",
+      "https://openalex.org/W4221161778",
+      "https://openalex.org/W3131500599",
+      "https://openalex.org/W6797533734",
+      "https://openalex.org/W3034230284",
+      "https://openalex.org/W3009224666",
+      "https://openalex.org/W6796761347",
+      "https://openalex.org/W6803916128",
+      "https://openalex.org/W3179869055",
+      "https://openalex.org/W2056860348",
+      "https://openalex.org/W2740667773",
+      "https://openalex.org/W7062406522",
+      "https://openalex.org/W6788135285",
+      "https://openalex.org/W6810521590",
+      "https://openalex.org/W6811014117",
+      "https://openalex.org/W4221167012",
+      "https://openalex.org/W2294182682",
+      "https://openalex.org/W2162820221",
+      "https://openalex.org/W3172509117",
+      "https://openalex.org/W6796716886",
+      "https://openalex.org/W2121947440",
+      "https://openalex.org/W6743446608",
+      "https://openalex.org/W1861492603",
+      "https://openalex.org/W3138796575",
+      "https://openalex.org/W4309611266",
+      "https://openalex.org/W4379382445",
+      "https://openalex.org/W3212610063",
+      "https://openalex.org/W4363675964",
+      "https://openalex.org/W4386221015",
+      "https://openalex.org/W4285661751",
+      "https://openalex.org/W2785994986",
+      "https://openalex.org/W3211393675",
+      "https://openalex.org/W3172942063",
+      "https://openalex.org/W4288325991",
+      "https://openalex.org/W4386075553",
+      "https://openalex.org/W4313156423",
+      "https://openalex.org/W3163747765",
+      "https://openalex.org/W2953106684",
+      "https://openalex.org/W2963703618",
+      "https://openalex.org/W4225531180",
+      "https://openalex.org/W3175227919",
+      "https://openalex.org/W3150679290",
+      "https://openalex.org/W2899663614",
+      "https://openalex.org/W3171206729",
+      "https://openalex.org/W4221142474",
+      "https://openalex.org/W3213836217",
+      "https://openalex.org/W4295308583",
+      "https://openalex.org/W3139049060",
+      "https://openalex.org/W2139381543",
+      "https://openalex.org/W3170874841",
+      "https://openalex.org/W3175515048",
+      "https://openalex.org/W3215758366",
+      "https://openalex.org/W2775143585",
+      "https://openalex.org/W3170863103",
+      "https://openalex.org/W3167597877",
+      "https://openalex.org/W2970642899",
+      "https://openalex.org/W3139633126",
+      "https://openalex.org/W4312881242",
+      "https://openalex.org/W2619947201",
+      "https://openalex.org/W3168101492",
+      "https://openalex.org/W4287121196",
+      "https://openalex.org/W3137963805",
+      "https://openalex.org/W3156811085",
+      "https://openalex.org/W3168124404",
+      "https://openalex.org/W4287115696",
+      "https://openalex.org/W4311730295",
+      "https://openalex.org/W4226244084"
+    ],
+    "related_works": [
+      "https://openalex.org/W2327631927",
+      "https://openalex.org/W2093568763",
+      "https://openalex.org/W1985166372",
+      "https://openalex.org/W2003096546",
+      "https://openalex.org/W2430210575",
+      "https://openalex.org/W4289354592",
+      "https://openalex.org/W2099112646",
+      "https://openalex.org/W2165069859",
+      "https://openalex.org/W2112258778",
+      "https://openalex.org/W2626477053"
+    ],
+    "abstract_inverted_index": {
+      "Humans": [
+        0
+      ],
+      "possess": [
+        1
+      ],
+      "a": [
+        2,
+        65,
+        87,
+        91,
+        109,
+        122,
+        132
+      ],
+      "versatile": [
+        3
+      ],
+      "mechanism": [
+        4
+      ],
+      "for": [
+        5
+      ],
+      "extracting": [
+        6
+      ],
+      "structured": [
+        7
+      ],
+      "representations": [
+        8
+      ],
+      "of": [
+        9
+      ],
+      "our": [
+        10
+      ],
+      "visual": [
+        11,
+        56,
+        77,
+        171
+      ],
+      "world.": [
+        12
+      ],
+      "When": [
+        13
+      ],
+      "looking": [
+        14
+      ],
+      "at": [
+        15
+      ],
+      "an": [
+        16,
+        157
+      ],
+      "image,": [
+        17
+      ],
+      "we": [
+        18,
+        40,
+        83,
+        194
+      ],
+      "can": [
+        19,
+        54,
+        73,
+        183
+      ],
+      "decompose": [
+        20
+      ],
+      "the": [
+        21,
+        32,
+        142,
+        188,
+        196,
+        201
+      ],
+      "scene": [
+        22
+      ],
+      "into": [
+        23
+      ],
+      "entities": [
+        24
+      ],
+      "and": [
+        25,
+        105,
+        131,
+        153,
+        203,
+        213,
+        219,
+        226,
+        233,
+        237
+      ],
+      "their": [
+        26,
+        154
+      ],
+      "parts": [
+        27,
+        155
+      ],
+      "as": [
+        28,
+        30,
+        86,
+        230
+      ],
+      "well": [
+        29,
+        209
+      ],
+      "obtain": [
+        31
+      ],
+      "dependencies": [
+        33,
+        57,
+        78
+      ],
+      "between": [
+        34,
+        79
+      ],
+      "them.": [
+        35
+      ],
+      "To": [
+        36
+      ],
+      "mimic": [
+        37
+      ],
+      "such": [
+        38,
+        121,
+        229
+      ],
+      "capability,": [
+        39
+      ],
+      "propose": [
+        41,
+        195
+      ],
+      "Visual": [
+        42
+      ],
+      "Dependency": [
+        43
+      ],
+      "Transformers": [
+        44
+      ],
+      "(DependencyViT)": [
+        45
+      ],
+      "<sup": [
+        46,
+        49
+      ],
+      "xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"": [
+        47,
+        50
+      ],
+      "xmlns:xlink=\"http://www.w3.org/1999/xlink\">1</sup>": [
+        48,
+        51
+      ],
+      "https://github.com/dingmyu/DependencyViT": [
+        52
+      ],
+      "that": [
+        53,
+        63,
+        72
+      ],
+      "induce": [
+        55
+      ],
+      "without": [
+        58,
+        186
+      ],
+      "any": [
+        59
+      ],
+      "labels.": [
+        60
+      ],
+      "We": [
+        61
+      ],
+      "achieve": [
+        62
+      ],
+      "with": [
+        64
+      ],
+      "novel": [
+        66
+      ],
+      "neural": [
+        67
+      ],
+      "operator": [
+        68
+      ],
+      "called": [
+        69
+      ],
+      "reversed": [
+        70,
+        95,
+        128
+      ],
+      "attention": [
+        71,
+        96,
+        129
+      ],
+      "naturally": [
+        74,
+        125
+      ],
+      "capture": [
+        75
+      ],
+      "long-range": [
+        76
+      ],
+      "image": [
+        80,
+        158
+      ],
+      "patches.": [
+        81
+      ],
+      "Specifically,": [
+        82
+      ],
+      "formulate": [
+        84
+      ],
+      "it": [
+        85
+      ],
+      "dependency": [
+        88,
+        133
+      ],
+      "graph": [
+        89
+      ],
+      "where": [
+        90
+      ],
+      "child": [
+        92
+      ],
+      "token": [
+        93
+      ],
+      "in": [
+        94,
+        117,
+        156
+      ],
+      "is": [
+        97,
+        135,
+        173
+      ],
+      "trained": [
+        98
+      ],
+      "to": [
+        99,
+        101,
+        141,
+        199
+      ],
+      "attend": [
+        100
+      ],
+      "its": [
+        102,
+        221
+      ],
+      "parent": [
+        103
+      ],
+      "tokens": [
+        104
+      ],
+      "send": [
+        106,
+        181
+      ],
+      "information": [
+        107,
+        116
+      ],
+      "following": [
+        108
+      ],
+      "normalized": [
+        110
+      ],
+      "probability": [
+        111
+      ],
+      "distribution": [
+        112
+      ],
+      "rather": [
+        113
+      ],
+      "than": [
+        114
+      ],
+      "gathering": [
+        115
+      ],
+      "conventional": [
+        118
+      ],
+      "self-attention.": [
+        119
+      ],
+      "With": [
+        120
+      ],
+      "design,": [
+        123
+      ],
+      "hierarchies": [
+        124
+      ],
+      "emerge": [
+        126
+      ],
+      "from": [
+        127,
+        138,
+        167
+      ],
+      "layers,": [
+        130
+      ],
+      "tree": [
+        134
+      ],
+      "progressively": [
+        136
+      ],
+      "induced": [
+        137
+      ],
+      "leaf": [
+        139,
+        177
+      ],
+      "nodes": [
+        140,
+        178
+      ],
+      "root": [
+        143
+      ],
+      "node": [
+        144
+      ],
+      "unsupervisedly.": [
+        145
+      ],
+      "DependencyViT": [
+        146,
+        207
+      ],
+      "offers": [
+        147
+      ],
+      "several": [
+        148
+      ],
+      "appealing": [
+        149
+      ],
+      "benefits.": [
+        150
+      ],
+      "(i)": [
+        151
+      ],
+      "Entities": [
+        152
+      ],
+      "are": [
+        159
+      ],
+      "represented": [
+        160
+      ],
+      "by": [
+        161
+      ],
+      "different": [
+        162
+      ],
+      "subtrees,": [
+        163
+      ],
+      "enabling": [
+        164
+      ],
+      "part": [
+        165,
+        232
+      ],
+      "partitioning": [
+        166
+      ],
+      "dependencies;": [
+        168
+      ],
+      "(ii)": [
+        169
+      ],
+      "Dynamic": [
+        170
+      ],
+      "pooling": [
+        172
+      ],
+      "made": [
+        174
+      ],
+      "possible.": [
+        175
+      ],
+      "The": [
+        176
+      ],
+      "which": [
+        179,
+        193
+      ],
+      "rarely": [
+        180
+      ],
+      "messages": [
+        182
+      ],
+      "be": [
+        184
+      ],
+      "pruned": [
+        185
+      ],
+      "hindering": [
+        187
+      ],
+      "model": [
+        189
+      ],
+      "performance,": [
+        190
+      ],
+      "based": [
+        191
+      ],
+      "on": [
+        192,
+        210,
+        217,
+        223
+      ],
+      "lightweight": [
+        197
+      ],
+      "DependencyViT-Lite": [
+        198
+      ],
+      "reduce": [
+        200
+      ],
+      "computational": [
+        202
+      ],
+      "memory": [
+        204
+      ],
+      "footprints;": [
+        205
+      ],
+      "(iii)": [
+        206
+      ],
+      "works": [
+        208
+      ],
+      "both": [
+        211
+      ],
+      "self-": [
+        212
+      ],
+      "weakly-supervised": [
+        214
+      ],
+      "pretraining": [
+        215
+      ],
+      "paradigms": [
+        216
+      ],
+      "ImageNet,": [
+        218
+      ],
+      "demonstrates": [
+        220
+      ],
+      "effectiveness": [
+        222
+      ],
+      "8": [
+        224
+      ],
+      "datasets": [
+        225
+      ],
+      "5": [
+        227
+      ],
+      "tasks,": [
+        228
+      ],
+      "unsupervised": [
+        231
+      ],
+      "saliency": [
+        234
+      ],
+      "segmentation,": [
+        235
+      ],
+      "recognition,": [
+        236
+      ],
+      "detection.": [
+        238
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2025-12-18T14:23:38Z",
+      "timestamp": 1766067818668,
+      "version": "3.37.3"
+    },
+    "reference-count": 99,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2023-06-01T00:00:00Z",
+          "timestamp": 1685577600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2023-06-01T00:00:00Z",
+          "timestamp": 1685577600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key R&D Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2022ZD0161000"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2022ZD0161000"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014462",
+        "name": "MERL",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100014462",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100004351",
+        "name": "Cisco",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004351",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52729.2023.01396",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          22
+        ]
+      ],
+      "date-time": "2023-08-22T17:30:52Z",
+      "timestamp": 1692725452000
+    },
+    "page": "14528-14539",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Visual Dependency Transformers: Dependency Tree Emerges from Reversed Attention"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Mingyu",
+        "family": "Ding",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "The University of Hong Kong"
+          }
+        ]
+      },
+      {
+        "given": "Yikang",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MIT-IBM Watson AI Lab"
+          }
+        ]
+      },
+      {
+        "given": "Lijie",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MIT"
+          }
+        ]
+      },
+      {
+        "given": "Zhenfang",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MIT-IBM Watson AI Lab"
+          }
+        ]
+      },
+      {
+        "given": "Zitian",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UMass Amherst"
+          }
+        ]
+      },
+      {
+        "given": "Ping",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The University of Hong Kong"
+          }
+        ]
+      },
+      {
+        "given": "Josh",
+        "family": "Tenenbaum",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MIT"
+          }
+        ]
+      },
+      {
+        "given": "Chuang",
+        "family": "Gan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MIT-IBM Watson AI Lab"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref57",
+        "article-title": "Dynamicvit: Efficient vision transformers with dynamic token sparsification",
+        "author": "rao",
+        "year": "0",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40747-021-00397-8"
+      },
+      {
+        "key": "ref59",
+        "article-title": "Scaling vision with sparse mixture of experts",
+        "volume": "34",
+        "author": "riquelme",
+        "year": "2021",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref58",
+        "article-title": "Faster r-cnn: Towards real-time object detection with region proposal networks",
+        "volume": "28",
+        "author": "ren",
+        "year": "2015",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.1982.1056489"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "ref55",
+        "article-title": "Scalable visual transformers with hierarchical pooling",
+        "author": "pan",
+        "year": "2021",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref54",
+        "article-title": "Deepusps: Deep robust unsupervised saliency prediction via self-supervision",
+        "volume": "32",
+        "author": "nguyen",
+        "year": "2019",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00825"
+      },
+      {
+        "key": "ref50",
+        "first-page": "740",
+        "article-title": "Microsoft coco: Common objects in context",
+        "author": "lin",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref46",
+        "article-title": "Improved multiscale vision transformers for classification and detection",
+        "author": "li",
+        "year": "2021",
+        "journal-title": "arXiv Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299158"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00411"
+      },
+      {
+        "key": "ref47",
+        "article-title": "Localvit: Bringing locality to vision transformers",
+        "author": "li",
+        "year": "2021",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01206"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/nav.3800020109"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00131"
+      },
+      {
+        "key": "ref43",
+        "article-title": "Uniformer: Unifying convolution and self-attention for visual recognition",
+        "author": "li",
+        "year": "2022",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00085"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.254"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Context autoencoder for self-supervised representation learning",
+        "author": "chen",
+        "year": "2022",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00950"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-71278-5_25"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46487-9_38"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00041"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00951"
+      },
+      {
+        "key": "ref40",
+        "article-title": "Stacked capsule autoencoders",
+        "volume": "32",
+        "author": "kosiorek",
+        "year": "2019",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Shuffle transformer: Rethinking spatial shuffle for vision transformer",
+        "author": "huang",
+        "year": "2021",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Matrix capsules with em routing",
+        "author": "geoffrey",
+        "year": "0",
+        "journal-title": "International Conference on Learning Representations"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-11015-4_38"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00096"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.322"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01172"
+      },
+      {
+        "key": "ref32",
+        "article-title": "Gaussian error linear units (gelus)",
+        "author": "hendrycks",
+        "year": "2016",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00014"
+      },
+      {
+        "key": "ref38",
+        "article-title": "The kinetics human action video dataset",
+        "author": "kay",
+        "year": "2017",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6703"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Visual grounding with transformers",
+        "author": "du",
+        "year": "2021",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01204"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1627",
+        "DOI": "10.1109/TPAMI.2009.167",
+        "article-title": "Object detection with discriminatively trained part-based models",
+        "volume": "32",
+        "author": "pedro",
+        "year": "2010",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Davit: Dual attention vision transformers",
+        "author": "ding",
+        "year": "2022",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref22",
+        "article-title": "An image is worth 16&#x00D7;16 words: Transformers for image recognition at scale",
+        "author": "dosovitskiy",
+        "year": "0",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref21",
+        "first-page": "1743",
+        "article-title": "Embodied concept learner: Self-supervised learning of concepts and mapping through instruction following",
+        "author": "ding",
+        "year": "0",
+        "journal-title": "Conference on Robot Learning"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Neighborhood attention transformer",
+        "author": "hassani",
+        "year": "2022",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref27",
+        "first-page": "59",
+        "article-title": "Bottom-up/top-down image parsing with attribute grammar",
+        "volume": "31",
+        "author": "han",
+        "year": "2008",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "ref29",
+        "article-title": "Masked autoencoders are scalable vision learners",
+        "author": "he",
+        "year": "2021",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref13",
+        "first-page": "28104",
+        "article-title": "Unsupervised part discovery from contrastive reconstruction",
+        "volume": "34",
+        "author": "choudhury",
+        "year": "2021",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00063"
+      },
+      {
+        "key": "ref15",
+        "first-page": "1396",
+        "article-title": "On the shortest arborescence of a directed graph",
+        "volume": "14",
+        "author": "chu",
+        "year": "1965",
+        "journal-title": "Scientia sinica"
+      },
+      {
+        "key": "ref14",
+        "article-title": "Conditional positional encodings for vision transformers",
+        "author": "chu",
+        "year": "2021",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref97",
+        "article-title": "Ibot: Image bert pre-training with online tokenizer",
+        "author": "zhou",
+        "year": "2021",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref96",
+        "article-title": "Elsa: Enhanced local self-attention for vision transformer",
+        "author": "zhou",
+        "year": "2021",
+        "journal-title": "arXiv Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Mod-squad: Designing mixture of experts as modular multitask learners",
+        "author": "chen",
+        "year": "2022",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.360"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Grounding physical concepts of objects and events through dynamic visual reasoning",
+        "author": "chen",
+        "year": "0",
+        "journal-title": "International Conference on Learning Representations"
+      },
+      {
+        "key": "ref98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/0600000018"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MSP.2012.2211477"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00300"
+      },
+      {
+        "key": "ref18",
+        "first-page": "887",
+        "article-title": "Dynamic visual reasoning by learning differentiable physics models from video and language",
+        "volume": "34",
+        "author": "ding",
+        "year": "2021",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref93",
+        "article-title": "Multi-scale vision long- former: A new vision transformer for high-resolution image encoding",
+        "author": "zhang",
+        "year": "0",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref92",
+        "article-title": "Scaling vision transformers",
+        "author": "zhai",
+        "year": "2021",
+        "journal-title": "arXiv Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref95",
+        "article-title": "Deepvit: Towards deeper vision transformer",
+        "author": "zhou",
+        "year": "2021",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.544"
+      },
+      {
+        "key": "ref91",
+        "article-title": "Volo: Vision outlooker for visual recognition",
+        "author": "yuan",
+        "year": "2021",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref90",
+        "article-title": "Boat: Bilateral local attention vision transformer",
+        "author": "yu",
+        "year": "2022",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref89",
+        "article-title": "Glance-and-gaze vision transformer",
+        "volume": "34",
+        "author": "yu",
+        "year": "2021",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.153"
+      },
+      {
+        "key": "ref85",
+        "article-title": "Probing intermodality: Visual parsing with self-attention for vision-and- language pre-training",
+        "author": "xue",
+        "year": "2021",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v35i12.17268"
+      },
+      {
+        "key": "ref87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.407"
+      },
+      {
+        "key": "ref82",
+        "article-title": "Capsule network performance on complex data",
+        "author": "xi",
+        "year": "2017",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-010-0346-6"
+      },
+      {
+        "key": "ref84",
+        "article-title": "Vitae: Vision transformer advanced by exploring intrinsic inductive bias",
+        "volume": "34",
+        "author": "xu",
+        "year": "2021",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LSP.2018.2873892"
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00988"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00009"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01414"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00061"
+      },
+      {
+        "key": "ref74",
+        "article-title": "Pvtv2: Improved baselines with pyramid vision transformer",
+        "author": "wang",
+        "year": "2021",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00895"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00580"
+      },
+      {
+        "key": "ref2",
+        "article-title": "BEiT: BERT pretraining of image transformers",
+        "author": "bao",
+        "year": "2021",
+        "journal-title": "ArXiv"
+      },
+      {
+        "key": "ref1",
+        "article-title": "Xcit: Cross-covariance image transformers",
+        "volume": "34",
+        "author": "ali",
+        "year": "2021",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01270"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-005-6642-x"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.404"
+      },
+      {
+        "key": "ref72",
+        "article-title": "Unsupervised vision-language grammar induction with shared structure modeling",
+        "author": "wan",
+        "year": "0",
+        "journal-title": "International Conference on Learning Representations"
+      },
+      {
+        "key": "ref68",
+        "first-page": "10347",
+        "article-title": "Training data-efficient image transformers & distillation through attention",
+        "author": "touvron",
+        "year": "0",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref67",
+        "article-title": "Quadtree attention for vision transformers",
+        "author": "tang",
+        "year": "2022",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref69",
+        "article-title": "Patches are all you need?",
+        "author": "trockman",
+        "year": "2022",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW56347.2022.00442"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2015.2465960"
+      },
+      {
+        "key": "ref66",
+        "first-page": "1331",
+        "article-title": "Learning hierarchical models of scenes, objects, and parts",
+        "volume": "1",
+        "author": "erik",
+        "year": "0",
+        "journal-title": "Tenth IEEE International Conference on Computer Vision (ICCV'05)"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01625"
+      },
+      {
+        "key": "ref60",
+        "article-title": "Tokenlearner: What can 8 learned tokens do for images and videos?",
+        "author": "ryoo",
+        "year": "2021",
+        "journal-title": "arXiv Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.868688"
+      },
+      {
+        "key": "ref61",
+        "article-title": "Dynamic routing between capsules",
+        "volume": "30",
+        "author": "sabour",
+        "year": "2017",
+        "journal-title": "Advances in neural information processing systems"
+      }
+    ],
+    "event": {
+      "name": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            17
+          ]
+        ]
+      },
+      "location": "Vancouver, BC, Canada",
+      "end": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            24
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/10203037/10203050/10204288.pdf?arnumber=10204288",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          11
+        ]
+      ],
+      "date-time": "2023-09-11T17:57:33Z",
+      "timestamp": 1694455053000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10204288/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "references-count": 99,
+    "URL": "https://doi.org/10.1109/cvpr52729.2023.01396",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    }
+  }
+}

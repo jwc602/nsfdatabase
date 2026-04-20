@@ -1,0 +1,1762 @@
+{
+  "doi": "10.1080/01621459.2024.2319897",
+  "openalex": {
+    "id": "https://openalex.org/W4391839621",
+    "doi": "https://doi.org/10.1080/01621459.2024.2319897",
+    "title": "Modeling Recurrent Failures on Large Directed Networks",
+    "display_name": "Modeling Recurrent Failures on Large Directed Networks",
+    "publication_year": 2024,
+    "publication_date": "2024-02-15",
+    "ids": {
+      "openalex": "https://openalex.org/W4391839621",
+      "doi": "https://doi.org/10.1080/01621459.2024.2319897"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/01621459.2024.2319897",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/01621459.2024.2319897",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4394736638",
+        "display_name": "Journal of the American Statistical Association",
+        "issn_l": "0162-1459",
+        "issn": [
+          "0162-1459",
+          "1537-274X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of the American Statistical Association",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5041608015",
+          "display_name": "Qingqing Zhai",
+          "orcid": "https://orcid.org/0000-0001-6549-6906"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I113940042",
+            "display_name": "Shanghai University",
+            "ror": "https://ror.org/006teas31",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qingqing Zhai",
+        "raw_affiliation_strings": [
+          "School of Management, Shanghai University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Management, Shanghai University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5053268509",
+          "display_name": "Zhi‐Sheng Ye",
+          "orcid": "https://orcid.org/0000-0001-5731-3911"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165932596",
+            "display_name": "National University of Singapore",
+            "ror": "https://ror.org/01tgyzw49",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Zhisheng Ye",
+        "raw_affiliation_strings": [
+          "Department of Industrial Systems Engineering &amp; Management, National University of Singapore, Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Industrial Systems Engineering &amp; Management, National University of Singapore, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100354228",
+          "display_name": "Cheng Li",
+          "orcid": "https://orcid.org/0000-0001-7522-7072"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165932596",
+            "display_name": "National University of Singapore",
+            "ror": "https://ror.org/01tgyzw49",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Cheng Li",
+        "raw_affiliation_strings": [
+          "Department of Statistics and Data Science, National University of Singapore, Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Statistics and Data Science, National University of Singapore, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5006456714",
+          "display_name": "Matthew Revie",
+          "orcid": "https://orcid.org/0000-0002-0130-8109"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I181647926",
+            "display_name": "University of Strathclyde",
+            "ror": "https://ror.org/00n3w3b69",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I181647926"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Matthew Revie",
+        "raw_affiliation_strings": [
+          "Department of Management Science, University of Strathclyde, Glasgow, UK"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Management Science, University of Strathclyde, Glasgow, UK",
+            "institution_ids": [
+              "https://openalex.org/I181647926"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5002768909",
+          "display_name": "David B. Dunson",
+          "orcid": "https://orcid.org/0000-0003-4942-1597"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I170897317",
+            "display_name": "Duke University",
+            "ror": "https://ror.org/00py81415",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I170897317"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1343558604",
+            "display_name": "Statistical and Applied Mathematical Sciences Institute",
+            "ror": "https://ror.org/01shctp43",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I1343558604"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "David B. Dunson",
+        "raw_affiliation_strings": [
+          "Department of Statistical Science &amp; Mathematics, Duke University, Durham, NC"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Statistical Science &amp; Mathematics, Duke University, Durham, NC",
+            "institution_ids": [
+              "https://openalex.org/I1343558604",
+              "https://openalex.org/I170897317"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 4,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5100354228",
+      "https://openalex.org/A5053268509"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I165932596"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 5.71578901,
+    "has_fulltext": false,
+    "cited_by_count": 8,
+    "citation_normalized_percentile": {
+      "value": 0.9291918,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "120",
+      "issue": "549",
+      "first_page": "251",
+      "last_page": "265"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11941",
+      "display_name": "Power System Reliability and Maintenance",
+      "score": 0.9534000158309937,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2213",
+        "display_name": "Safety, Risk, Reliability and Quality"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11941",
+        "display_name": "Power System Reliability and Maintenance",
+        "score": 0.9534000158309937,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2213",
+          "display_name": "Safety, Risk, Reliability and Quality"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11303",
+        "display_name": "Bayesian Modeling and Causal Inference",
+        "score": 0.9470999836921692,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11807",
+        "display_name": "Infrastructure Resilience and Vulnerability Analysis",
+        "score": 0.9448000192642212,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2205",
+          "display_name": "Civil and Structural Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/poisson-distribution",
+        "display_name": "Poisson distribution",
+        "score": 0.6596976518630981
+      },
+      {
+        "id": "https://openalex.org/keywords/autoregressive-model",
+        "display_name": "Autoregressive model",
+        "score": 0.5960529446601868
+      },
+      {
+        "id": "https://openalex.org/keywords/marginal-distribution",
+        "display_name": "Marginal distribution",
+        "score": 0.5826459527015686
+      },
+      {
+        "id": "https://openalex.org/keywords/node",
+        "display_name": "Node (physics)",
+        "score": 0.5719120502471924
+      },
+      {
+        "id": "https://openalex.org/keywords/inference",
+        "display_name": "Inference",
+        "score": 0.5704131126403809
+      },
+      {
+        "id": "https://openalex.org/keywords/conditional-probability-distribution",
+        "display_name": "Conditional probability distribution",
+        "score": 0.5519006252288818
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5250893831253052
+      },
+      {
+        "id": "https://openalex.org/keywords/poisson-regression",
+        "display_name": "Poisson regression",
+        "score": 0.45099377632141113
+      },
+      {
+        "id": "https://openalex.org/keywords/data-mining",
+        "display_name": "Data mining",
+        "score": 0.34089261293411255
+      },
+      {
+        "id": "https://openalex.org/keywords/econometrics",
+        "display_name": "Econometrics",
+        "score": 0.32569772005081177
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.32400017976760864
+      },
+      {
+        "id": "https://openalex.org/keywords/statistics",
+        "display_name": "Statistics",
+        "score": 0.3070424199104309
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.23448574542999268
+      },
+      {
+        "id": "https://openalex.org/keywords/random-variable",
+        "display_name": "Random variable",
+        "score": 0.22504201531410217
+      },
+      {
+        "id": "https://openalex.org/keywords/population",
+        "display_name": "Population",
+        "score": 0.10006594657897949
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C100906024",
+        "wikidata": "https://www.wikidata.org/wiki/Q205692",
+        "display_name": "Poisson distribution",
+        "level": 2,
+        "score": 0.6596976518630981
+      },
+      {
+        "id": "https://openalex.org/C159877910",
+        "wikidata": "https://www.wikidata.org/wiki/Q2202883",
+        "display_name": "Autoregressive model",
+        "level": 2,
+        "score": 0.5960529446601868
+      },
+      {
+        "id": "https://openalex.org/C165216359",
+        "wikidata": "https://www.wikidata.org/wiki/Q670653",
+        "display_name": "Marginal distribution",
+        "level": 3,
+        "score": 0.5826459527015686
+      },
+      {
+        "id": "https://openalex.org/C62611344",
+        "wikidata": "https://www.wikidata.org/wiki/Q1062658",
+        "display_name": "Node (physics)",
+        "level": 2,
+        "score": 0.5719120502471924
+      },
+      {
+        "id": "https://openalex.org/C2776214188",
+        "wikidata": "https://www.wikidata.org/wiki/Q408386",
+        "display_name": "Inference",
+        "level": 2,
+        "score": 0.5704131126403809
+      },
+      {
+        "id": "https://openalex.org/C43555835",
+        "wikidata": "https://www.wikidata.org/wiki/Q2300258",
+        "display_name": "Conditional probability distribution",
+        "level": 2,
+        "score": 0.5519006252288818
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5250893831253052
+      },
+      {
+        "id": "https://openalex.org/C73269764",
+        "wikidata": "https://www.wikidata.org/wiki/Q954529",
+        "display_name": "Poisson regression",
+        "level": 3,
+        "score": 0.45099377632141113
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.34089261293411255
+      },
+      {
+        "id": "https://openalex.org/C149782125",
+        "wikidata": "https://www.wikidata.org/wiki/Q160039",
+        "display_name": "Econometrics",
+        "level": 1,
+        "score": 0.32569772005081177
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.32400017976760864
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.3070424199104309
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.23448574542999268
+      },
+      {
+        "id": "https://openalex.org/C122123141",
+        "wikidata": "https://www.wikidata.org/wiki/Q176623",
+        "display_name": "Random variable",
+        "level": 2,
+        "score": 0.22504201531410217
+      },
+      {
+        "id": "https://openalex.org/C2908647359",
+        "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+        "display_name": "Population",
+        "level": 2,
+        "score": 0.10006594657897949
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C66938386",
+        "wikidata": "https://www.wikidata.org/wiki/Q633538",
+        "display_name": "Structural engineering",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C149923435",
+        "wikidata": "https://www.wikidata.org/wiki/Q37732",
+        "display_name": "Demography",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1080/01621459.2024.2319897",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/01621459.2024.2319897",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4394736638",
+          "display_name": "Journal of the American Statistical Association",
+          "issn_l": "0162-1459",
+          "issn": [
+            "0162-1459",
+            "1537-274X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of the American Statistical Association",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:RePEc:taf:jnlasa:v:120:y:2025:i:549:p:251-265",
+        "is_oa": false,
+        "landing_page_url": "http://hdl.handle.net/10.1080/01621459.2024.2319897",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401271",
+          "display_name": "RePEc: Research Papers in Economics",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I77793887",
+          "host_organization_name": "Federal Reserve Bank of St. Louis",
+          "host_organization_lineage": [
+            "https://openalex.org/I77793887"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.44999998807907104,
+        "display_name": "Industry, innovation and infrastructure",
+        "id": "https://metadata.un.org/sdg/9"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G7711309590",
+        "display_name": null,
+        "funder_award_id": "N00014-21-1-2510",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      },
+      {
+        "id": "https://openalex.org/G5278613688",
+        "display_name": null,
+        "funder_award_id": "72271154, 71901138",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      },
+      {
+        "id": "https://openalex.org/F4320338453",
+        "display_name": "HORIZON EUROPE European Research Council",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 27,
+    "referenced_works": [
+      "https://openalex.org/W2127405101",
+      "https://openalex.org/W3121777082",
+      "https://openalex.org/W2018502278",
+      "https://openalex.org/W3121165875",
+      "https://openalex.org/W2053761729",
+      "https://openalex.org/W1988827501",
+      "https://openalex.org/W1995994041",
+      "https://openalex.org/W764535677",
+      "https://openalex.org/W2137813581",
+      "https://openalex.org/W2026056258",
+      "https://openalex.org/W2109993473",
+      "https://openalex.org/W2071059494",
+      "https://openalex.org/W1544965375",
+      "https://openalex.org/W1987275494",
+      "https://openalex.org/W2132806676",
+      "https://openalex.org/W2069019677",
+      "https://openalex.org/W769703914",
+      "https://openalex.org/W6767490785",
+      "https://openalex.org/W3104732956",
+      "https://openalex.org/W1972625678",
+      "https://openalex.org/W632423791",
+      "https://openalex.org/W6640330755",
+      "https://openalex.org/W2165567190",
+      "https://openalex.org/W2169415915",
+      "https://openalex.org/W2982658424",
+      "https://openalex.org/W1923274812",
+      "https://openalex.org/W1494478641"
+    ],
+    "related_works": [
+      "https://openalex.org/W2503331259",
+      "https://openalex.org/W1590941618",
+      "https://openalex.org/W3096804274",
+      "https://openalex.org/W2509788866",
+      "https://openalex.org/W3134844154",
+      "https://openalex.org/W3200250056",
+      "https://openalex.org/W2385896179",
+      "https://openalex.org/W2150462512",
+      "https://openalex.org/W2885596111",
+      "https://openalex.org/W4289685881"
+    ],
+    "abstract_inverted_index": {
+      "Many": [
+        0
+      ],
+      "lifeline": [
+        1
+      ],
+      "infrastructure": [
+        2,
+        18
+      ],
+      "systems": [
+        3
+      ],
+      "consist": [
+        4
+      ],
+      "of": [
+        5,
+        7,
+        16,
+        38,
+        42,
+        53,
+        79,
+        159,
+        201,
+        217
+      ],
+      "thousands": [
+        6
+      ],
+      "components": [
+        8
+      ],
+      "configured": [
+        9
+      ],
+      "in": [
+        10,
+        194
+      ],
+      "a": [
+        11,
+        20,
+        25,
+        60,
+        86,
+        99,
+        116,
+        167,
+        214
+      ],
+      "complex": [
+        12
+      ],
+      "directed": [
+        13,
+        26,
+        73
+      ],
+      "network.": [
+        14,
+        27
+      ],
+      "Disruption": [
+        15
+      ],
+      "the": [
+        17,
+        39,
+        82,
+        95,
+        108,
+        111,
+        121,
+        129,
+        149,
+        170,
+        173,
+        184,
+        187,
+        202,
+        218,
+        223
+      ],
+      "constitutes": [
+        19
+      ],
+      "recurrent": [
+        21,
+        68
+      ],
+      "failure": [
+        22,
+        69
+      ],
+      "process": [
+        23
+      ],
+      "over": [
+        24
+      ],
+      "Statistical": [
+        28
+      ],
+      "inference": [
+        29
+      ],
+      "for": [
+        30,
+        67,
+        124,
+        139,
+        164,
+        207,
+        221
+      ],
+      "such": [
+        31
+      ],
+      "network": [
+        32,
+        61
+      ],
+      "recurrence": [
+        33,
+        130
+      ],
+      "data": [
+        34,
+        70
+      ],
+      "is": [
+        35,
+        176
+      ],
+      "challenging": [
+        36
+      ],
+      "because": [
+        37
+      ],
+      "large": [
+        40
+      ],
+      "number": [
+        41
+      ],
+      "nodes": [
+        43
+      ],
+      "with": [
+        44,
+        91
+      ],
+      "irregular": [
+        45
+      ],
+      "connections": [
+        46
+      ],
+      "among": [
+        47,
+        107
+      ],
+      "them.": [
+        48
+      ],
+      "Motivated": [
+        49
+      ],
+      "by": [
+        50
+      ],
+      "16": [
+        51
+      ],
+      "years": [
+        52
+      ],
+      "Scottish": [
+        54,
+        188
+      ],
+      "Water": [
+        55,
+        189
+      ],
+      "operation": [
+        56,
+        196
+      ],
+      "records,": [
+        57
+      ],
+      "we": [
+        58,
+        114,
+        191
+      ],
+      "propose": [
+        59
+      ],
+      "Gamma-Poisson": [
+        62
+      ],
+      "Autoregressive": [
+        63
+      ],
+      "NHPP": [
+        64
+      ],
+      "(GPAN)": [
+        65
+      ],
+      "model": [
+        66,
+        77
+      ],
+      "from": [
+        71,
+        172
+      ],
+      "large-scale": [
+        72
+      ],
+      "physical": [
+        74
+      ],
+      "networks.": [
+        75
+      ],
+      "The": [
+        76,
+        132
+      ],
+      "consists": [
+        78
+      ],
+      "two": [
+        80
+      ],
+      "layers:": [
+        81
+      ],
+      "temporal": [
+        83
+      ],
+      "layer": [
+        84,
+        97
+      ],
+      "applies": [
+        85
+      ],
+      "Non-Homogeneous": [
+        87
+      ],
+      "Poisson": [
+        88
+      ],
+      "Process": [
+        89
+      ],
+      "(NHPP)": [
+        90
+      ],
+      "node-specific": [
+        92
+      ],
+      "frailties,": [
+        93
+      ],
+      "and": [
+        94,
+        198
+      ],
+      "spatial": [
+        96
+      ],
+      "uses": [
+        98
+      ],
+      "well-orchestrated": [
+        100
+      ],
+      "gamma-Poisson": [
+        101
+      ],
+      "autoregressive": [
+        102
+      ],
+      "scheme": [
+        103
+      ],
+      "to": [
+        104,
+        119,
+        151,
+        178,
+        186
+      ],
+      "establish": [
+        105
+      ],
+      "correlations": [
+        106
+      ],
+      "frailties.": [
+        109
+      ],
+      "Under": [
+        110
+      ],
+      "network-GPAN": [
+        112
+      ],
+      "model,": [
+        113
+      ],
+      "develop": [
+        115
+      ],
+      "sum-product": [
+        117,
+        174
+      ],
+      "algorithm": [
+        118,
+        163,
+        175
+      ],
+      "compute": [
+        120,
+        153,
+        179
+      ],
+      "marginal": [
+        122,
+        133,
+        155
+      ],
+      "distribution": [
+        123
+      ],
+      "each": [
+        125
+      ],
+      "frailty": [
+        126,
+        135
+      ],
+      "conditional": [
+        127,
+        134
+      ],
+      "on": [
+        128,
+        144
+      ],
+      "data.": [
+        131,
+        146
+      ],
+      "distributions": [
+        136,
+        156
+      ],
+      "are": [
+        137,
+        210
+      ],
+      "useful": [
+        138
+      ],
+      "predicting": [
+        140
+      ],
+      "future": [
+        141
+      ],
+      "failures": [
+        142
+      ],
+      "based": [
+        143
+      ],
+      "historical": [
+        145
+      ],
+      "In": [
+        147
+      ],
+      "addition,": [
+        148
+      ],
+      "ability": [
+        150
+      ],
+      "rapidly": [
+        152
+      ],
+      "these": [
+        154
+      ],
+      "allows": [
+        157
+      ],
+      "adoption": [
+        158
+      ],
+      "an": [
+        160
+      ],
+      "EM": [
+        161
+      ],
+      "type": [
+        162
+      ],
+      "estimation.": [
+        165
+      ],
+      "Through": [
+        166
+      ],
+      "Bethe": [
+        168
+      ],
+      "approximation,": [
+        169
+      ],
+      "output": [
+        171
+      ],
+      "used": [
+        177
+      ],
+      "maximum": [
+        180
+      ],
+      "log-likelihood": [
+        181
+      ],
+      "estimates.": [
+        182
+      ],
+      "Applying": [
+        183
+      ],
+      "methods": [
+        185
+      ],
+      "network,": [
+        190
+      ],
+      "demonstrate": [
+        192
+      ],
+      "utility": [
+        193
+      ],
+      "aiding": [
+        195
+      ],
+      "management": [
+        197
+      ],
+      "risk": [
+        199
+      ],
+      "assessment": [
+        200
+      ],
+      "water": [
+        203
+      ],
+      "utility.": [
+        204
+      ],
+      "Supplementary": [
+        205
+      ],
+      "materials": [
+        206,
+        219
+      ],
+      "this": [
+        208
+      ],
+      "article": [
+        209
+      ],
+      "available": [
+        211,
+        220
+      ],
+      "online": [
+        212
+      ],
+      "including": [
+        213
+      ],
+      "standardized": [
+        215
+      ],
+      "description": [
+        216
+      ],
+      "reproducing": [
+        222
+      ],
+      "work.": [
+        224
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 7
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2025-11-18T22:38:00Z",
+      "timestamp": 1763505480385,
+      "version": "3.45.0"
+    },
+    "reference-count": 25,
+    "publisher": "Informa UK Limited",
+    "issue": "549",
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "72271154, 71901138"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "72271154, 71901138"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Singapore Ministry of Education Academic Research Funds Tier 2",
+        "award": [
+          "MOE2019-T2-1-177"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "MOE2019-T2-1-177"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100019180",
+        "name": "European Research Council",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100019180",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "the European Union’s Horizon 2020 research and innovation programme",
+        "award": [
+          "856506"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "856506"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "United States National Institutes of Health",
+        "award": [
+          "R01ES028804, R01ES035625"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01ES028804, R01ES035625"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N00014-21-1-2510"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N00014-21-1-2510"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.tandfonline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of the American Statistical Association"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1080/01621459.2024.2319897",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          15
+        ]
+      ],
+      "date-time": "2024-02-15T11:23:33Z",
+      "timestamp": 1707996213000
+    },
+    "page": "251-265",
+    "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Modeling Recurrent Failures on Large Directed Networks"
+    ],
+    "prefix": "10.1080",
+    "volume": "120",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6549-6906",
+        "authenticated-orcid": false,
+        "given": "Qingqing",
+        "family": "Zhai",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Management, Shanghai University",
+            "place": [
+              "Shanghai, China"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5731-3911",
+        "authenticated-orcid": false,
+        "given": "Zhisheng",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Industrial Systems Engineering & Management, National University of Singapore",
+            "place": [
+              "Singapore"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7522-7072",
+        "authenticated-orcid": false,
+        "given": "Cheng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Statistics and Data Science, National University of Singapore",
+            "place": [
+              "Singapore"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0130-8109",
+        "authenticated-orcid": false,
+        "given": "Matthew",
+        "family": "Revie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Management Science, University of Strathclyde",
+            "place": [
+              "Glasgow, UK"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4942-1597",
+        "authenticated-orcid": false,
+        "given": "David B.",
+        "family": "Dunson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Statistical Science & Mathematics, Duke University",
+            "place": [
+              "Durham"
+            ]
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_4_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.socnet.2005.11.005"
+      },
+      {
+        "key": "e_1_3_4_3_1",
+        "volume-title": "The Statistical Analysis of Recurrent Events",
+        "author": "Cook R. J.",
+        "year": "2007",
+        "unstructured": "Cook, R. J., and Lawless, J. (2007), The Statistical Analysis of Recurrent Events, New York: Springer."
+      },
+      {
+        "key": "e_1_3_4_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/07350015.2015.1092977"
+      },
+      {
+        "key": "e_1_3_4_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/000313006X152207"
+      },
+      {
+        "key": "e_1_3_4_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3982/ECTA7192"
+      },
+      {
+        "key": "e_1_3_4_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1462-0758(00)00057-1"
+      },
+      {
+        "key": "e_1_3_4_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/016214504000000151"
+      },
+      {
+        "key": "e_1_3_4_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-9868.00230"
+      },
+      {
+        "key": "e_1_3_4_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ress.2015.06.011"
+      },
+      {
+        "key": "e_1_3_4_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/18.910572"
+      },
+      {
+        "key": "e_1_3_4_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00401706.2012.680373"
+      },
+      {
+        "key": "e_1_3_4_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/088342306000000448"
+      },
+      {
+        "key": "e_1_3_4_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/jasa.2009.tm08086"
+      },
+      {
+        "key": "e_1_3_4_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-985X.2012.01039.x"
+      },
+      {
+        "key": "e_1_3_4_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-9469.00298"
+      },
+      {
+        "key": "e_1_3_4_17_1",
+        "first-page": "117",
+        "article-title": "“The Bethe Partition Function of Log-Supermodular Graphical Models,”",
+        "author": "Ruozzi N.",
+        "year": "2012",
+        "unstructured": "Ruozzi, N. (2012), “The Bethe Partition Function of Log-Supermodular Graphical Models,” in Advances in Neural Information Processing Systems, pp. 117–125.",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_3_4_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.corsci.2009.12.026"
+      },
+      {
+        "key": "e_1_3_4_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.watres.2015.06.027"
+      },
+      {
+        "key": "e_1_3_4_20_1",
+        "article-title": "“Poisson-Randomized Gamma Dynamical Systems,”",
+        "volume": "32",
+        "author": "Schein A.",
+        "year": "2019",
+        "unstructured": "Schein, A., Linderman, S., Zhou, M., Blei, D., and Wallach, H. (2019), “Poisson-Randomized Gamma Dynamical Systems,” in Advances in Neural Information Processing Systems (Vol. 32).",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "e_1_3_4_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/20-AOAS1333"
+      },
+      {
+        "key": "e_1_3_4_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-985X.2009.00587.x"
+      },
+      {
+        "key": "e_1_3_4_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4614-8715-9"
+      },
+      {
+        "key": "e_1_3_4_24_1",
+        "first-page": "5",
+        "article-title": "“An Overview of Composite Likelihood Methods,”",
+        "volume": "21",
+        "author": "Varin C.",
+        "year": "2011",
+        "unstructured": "Varin, C., Reid, N., and Firth, D. (2011), “An Overview of Composite Likelihood Methods,” Statistica Sinica, 21, 5–42.",
+        "journal-title": "Statistica Sinica"
+      },
+      {
+        "key": "e_1_3_4_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/009053607000000181"
+      },
+      {
+        "key": "e_1_3_4_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2005.850085"
+      }
+    ],
+    "container-title": [
+      "Journal of the American Statistical Association"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/01621459.2024.2319897",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2025-11-18T22:36:09Z",
+      "timestamp": 1763505369000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2319897"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "references-count": 25,
+    "journal-issue": {
+      "issue": "549",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/01621459.2024.2319897"
+    ],
+    "URL": "https://doi.org/10.1080/01621459.2024.2319897",
+    "relation": {},
+    "ISSN": [
+      "0162-1459",
+      "1537-274X"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0162-1459"
+      },
+      {
+        "type": "electronic",
+        "value": "1537-274X"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+        "order": 1,
+        "name": "peerreview_statement",
+        "label": "Peer Review Statement"
+      },
+      {
+        "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=uasa20",
+        "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=uasa20",
+        "order": 2,
+        "name": "aims_and_scope_url",
+        "label": "Aim & Scope"
+      },
+      {
+        "value": "2022-04-07",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-09-05",
+        "order": 1,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-01-25",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-04-01",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

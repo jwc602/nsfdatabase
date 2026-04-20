@@ -1,0 +1,1133 @@
+{
+  "doi": "10.1109/tc.2024.3441860",
+  "openalex": {
+    "id": "https://openalex.org/W4401508067",
+    "doi": "https://doi.org/10.1109/tc.2024.3441860",
+    "title": "Edge-MPQ: Layer-Wise Mixed-Precision Quantization With Tightly Integrated Versatile Inference Units for Edge Computing",
+    "display_name": "Edge-MPQ: Layer-Wise Mixed-Precision Quantization With Tightly Integrated Versatile Inference Units for Edge Computing",
+    "publication_year": 2024,
+    "publication_date": "2024-08-12",
+    "ids": {
+      "openalex": "https://openalex.org/W4401508067",
+      "doi": "https://doi.org/10.1109/tc.2024.3441860"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tc.2024.3441860",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tc.2024.3441860",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S157670870",
+        "display_name": "IEEE Transactions on Computers",
+        "issn_l": "0018-9340",
+        "issn": [
+          "0018-9340",
+          "1557-9956",
+          "2326-3814"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Computers",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100772007",
+          "display_name": "Xiaotian Zhao",
+          "orcid": "https://orcid.org/0009-0001-3088-8229"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaotian Zhao",
+        "raw_affiliation_strings": [
+          "University of Michigan &#x2013; Shanghai Jiao Tong University Joint Institute, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Michigan &#x2013; Shanghai Jiao Tong University Joint Institute, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101481055",
+          "display_name": "Ruge Xu",
+          "orcid": "https://orcid.org/0009-0002-8632-0883"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ruge Xu",
+        "raw_affiliation_strings": [
+          "University of Michigan &#x2013; Shanghai Jiao Tong University Joint Institute, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Michigan &#x2013; Shanghai Jiao Tong University Joint Institute, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100631409",
+          "display_name": "Y Gao",
+          "orcid": "https://orcid.org/0009-0002-9526-6954"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I51556381",
+            "display_name": "University of Virginia",
+            "ror": "https://ror.org/0153tk833",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I51556381"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yimin Gao",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, University of Virginia, Charlottesville, VA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Virginia, Charlottesville, VA, USA",
+            "institution_ids": [
+              "https://openalex.org/I51556381"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102008354",
+          "display_name": "Vaibhav Verma",
+          "orcid": "https://orcid.org/0000-0001-9403-6319"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I51556381",
+            "display_name": "University of Virginia",
+            "ror": "https://ror.org/0153tk833",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I51556381"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Vaibhav Verma",
+        "raw_affiliation_strings": [
+          "University of Virginia, Charlottesville, VA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Virginia, Charlottesville, VA, USA",
+            "institution_ids": [
+              "https://openalex.org/I51556381"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5068766978",
+          "display_name": "Mircea R. Stan",
+          "orcid": "https://orcid.org/0000-0003-0577-9976"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I51556381",
+            "display_name": "University of Virginia",
+            "ror": "https://ror.org/0153tk833",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I51556381"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mircea R. Stan",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, University of Virginia, Charlottesville, VA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Virginia, Charlottesville, VA, USA",
+            "institution_ids": [
+              "https://openalex.org/I51556381"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5061878430",
+          "display_name": "Xinfei Guo",
+          "orcid": "https://orcid.org/0000-0002-2374-3953"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xinfei Guo",
+        "raw_affiliation_strings": [
+          "University of Michigan &#x2013; Shanghai Jiao Tong University Joint Institute, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Michigan &#x2013; Shanghai Jiao Tong University Joint Institute, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 5.11022839,
+    "has_fulltext": false,
+    "cited_by_count": 8,
+    "citation_normalized_percentile": {
+      "value": 0.93718965,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "73",
+      "issue": "11",
+      "first_page": "2504",
+      "last_page": "2519"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10320",
+      "display_name": "Neural Networks and Applications",
+      "score": 0.9444000124931335,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10320",
+        "display_name": "Neural Networks and Applications",
+        "score": 0.9444000124931335,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12702",
+        "display_name": "Brain Tumor Detection and Classification",
+        "score": 0.9229999780654907,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2808",
+          "display_name": "Neurology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6483122110366821
+      },
+      {
+        "id": "https://openalex.org/keywords/enhanced-data-rates-for-gsm-evolution",
+        "display_name": "Enhanced Data Rates for GSM Evolution",
+        "score": 0.6120121479034424
+      },
+      {
+        "id": "https://openalex.org/keywords/inference",
+        "display_name": "Inference",
+        "score": 0.5526691675186157
+      },
+      {
+        "id": "https://openalex.org/keywords/quantization",
+        "display_name": "Quantization (signal processing)",
+        "score": 0.5446258783340454
+      },
+      {
+        "id": "https://openalex.org/keywords/edge-computing",
+        "display_name": "Edge computing",
+        "score": 0.5345470309257507
+      },
+      {
+        "id": "https://openalex.org/keywords/layer",
+        "display_name": "Layer (electronics)",
+        "score": 0.4744630455970764
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.4146233797073364
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-science",
+        "display_name": "Computational science",
+        "score": 0.32813024520874023
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.2840481996536255
+      },
+      {
+        "id": "https://openalex.org/keywords/materials-science",
+        "display_name": "Materials science",
+        "score": 0.21831193566322327
+      },
+      {
+        "id": "https://openalex.org/keywords/nanotechnology",
+        "display_name": "Nanotechnology",
+        "score": 0.17125672101974487
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6483122110366821
+      },
+      {
+        "id": "https://openalex.org/C162307627",
+        "wikidata": "https://www.wikidata.org/wiki/Q204833",
+        "display_name": "Enhanced Data Rates for GSM Evolution",
+        "level": 2,
+        "score": 0.6120121479034424
+      },
+      {
+        "id": "https://openalex.org/C2776214188",
+        "wikidata": "https://www.wikidata.org/wiki/Q408386",
+        "display_name": "Inference",
+        "level": 2,
+        "score": 0.5526691675186157
+      },
+      {
+        "id": "https://openalex.org/C28855332",
+        "wikidata": "https://www.wikidata.org/wiki/Q198099",
+        "display_name": "Quantization (signal processing)",
+        "level": 2,
+        "score": 0.5446258783340454
+      },
+      {
+        "id": "https://openalex.org/C2778456923",
+        "wikidata": "https://www.wikidata.org/wiki/Q5337692",
+        "display_name": "Edge computing",
+        "level": 3,
+        "score": 0.5345470309257507
+      },
+      {
+        "id": "https://openalex.org/C2779227376",
+        "wikidata": "https://www.wikidata.org/wiki/Q6505497",
+        "display_name": "Layer (electronics)",
+        "level": 2,
+        "score": 0.4744630455970764
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.4146233797073364
+      },
+      {
+        "id": "https://openalex.org/C459310",
+        "wikidata": "https://www.wikidata.org/wiki/Q117801",
+        "display_name": "Computational science",
+        "level": 1,
+        "score": 0.32813024520874023
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.2840481996536255
+      },
+      {
+        "id": "https://openalex.org/C192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "level": 0,
+        "score": 0.21831193566322327
+      },
+      {
+        "id": "https://openalex.org/C171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "level": 1,
+        "score": 0.17125672101974487
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/tc.2024.3441860",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tc.2024.3441860",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S157670870",
+          "display_name": "IEEE Transactions on Computers",
+          "issn_l": "0018-9340",
+          "issn": [
+            "0018-9340",
+            "1557-9956",
+            "2326-3814"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Computers",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 39,
+    "referenced_works": [
+      "https://openalex.org/W3137147200",
+      "https://openalex.org/W4378800993",
+      "https://openalex.org/W2982479999",
+      "https://openalex.org/W3042701997",
+      "https://openalex.org/W3040522390",
+      "https://openalex.org/W2884150179",
+      "https://openalex.org/W4312831168",
+      "https://openalex.org/W3032746325",
+      "https://openalex.org/W3013186616",
+      "https://openalex.org/W2905102070",
+      "https://openalex.org/W4386075087",
+      "https://openalex.org/W4224228206",
+      "https://openalex.org/W4386952738",
+      "https://openalex.org/W3042944763",
+      "https://openalex.org/W2970796375",
+      "https://openalex.org/W3216111572",
+      "https://openalex.org/W3034940165",
+      "https://openalex.org/W2963367920",
+      "https://openalex.org/W2895531329",
+      "https://openalex.org/W4312997782",
+      "https://openalex.org/W3036554530",
+      "https://openalex.org/W3047342117",
+      "https://openalex.org/W4360831846",
+      "https://openalex.org/W4312739039",
+      "https://openalex.org/W3093756531",
+      "https://openalex.org/W2803549871",
+      "https://openalex.org/W4292828577",
+      "https://openalex.org/W2194775991",
+      "https://openalex.org/W2110798204",
+      "https://openalex.org/W2031493867",
+      "https://openalex.org/W2882995207",
+      "https://openalex.org/W3034887213",
+      "https://openalex.org/W4311277703",
+      "https://openalex.org/W2963163009",
+      "https://openalex.org/W3102860086",
+      "https://openalex.org/W3166859509",
+      "https://openalex.org/W2786771851",
+      "https://openalex.org/W4320721392",
+      "https://openalex.org/W3132986466"
+    ],
+    "related_works": [
+      "https://openalex.org/W2055243143",
+      "https://openalex.org/W4321636575",
+      "https://openalex.org/W1986418932",
+      "https://openalex.org/W2357796999",
+      "https://openalex.org/W2045526782",
+      "https://openalex.org/W4324372666",
+      "https://openalex.org/W4225706866",
+      "https://openalex.org/W2914646191",
+      "https://openalex.org/W4386004629",
+      "https://openalex.org/W2942586735"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 8
+      }
+    ],
+    "updated_date": "2025-12-26T23:08:49.675405",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          5
+        ]
+      ],
+      "date-time": "2026-01-05T11:19:59Z",
+      "timestamp": 1767611999221,
+      "version": "3.37.3"
+    },
+    "reference-count": 46,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Joint Laboratory for Edge Intelligence between UM-SJTU JI and Inspur Academy of Science and Technology"
+      },
+      {
+        "name": "CCF-Tencent Open Research Fund"
+      },
+      {
+        "name": "UM-SJTU JI Startup Fund"
+      },
+      {
+        "name": "SRC AI Hardware program"
+      },
+      {
+        "name": "MIST IUCRC"
+      },
+      {
+        "name": "VMEC Summer Scholar Program"
+      },
+      {
+        "name": "CRISP, one of six centers in JUMP, a Semiconductor Research Corporation (SRC) program sponsored by DARPA"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Comput."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1109/tc.2024.3441860",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          12
+        ]
+      ],
+      "date-time": "2024-08-12T17:28:48Z",
+      "timestamp": 1723483728000
+    },
+    "page": "2504-2519",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Edge-MPQ: Layer-Wise Mixed-Precision Quantization With Tightly Integrated Versatile Inference Units for Edge Computing"
+    ],
+    "prefix": "10.1109",
+    "volume": "73",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0001-3088-8229",
+        "authenticated-orcid": false,
+        "given": "Xiaotian",
+        "family": "Zhao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Michigan &#x2013; Shanghai Jiao Tong University Joint Institute, Shanghai Jiao Tong University, Shanghai, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-8632-0883",
+        "authenticated-orcid": false,
+        "given": "Ruge",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Michigan &#x2013; Shanghai Jiao Tong University Joint Institute, Shanghai Jiao Tong University, Shanghai, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-9526-6954",
+        "authenticated-orcid": false,
+        "given": "Yimin",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Virginia, Charlottesville, VA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9403-6319",
+        "authenticated-orcid": false,
+        "given": "Vaibhav",
+        "family": "Verma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Virginia, Charlottesville, VA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0577-9976",
+        "authenticated-orcid": false,
+        "given": "Mircea R.",
+        "family": "Stan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Virginia, Charlottesville, VA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2374-3953",
+        "authenticated-orcid": false,
+        "given": "Xinfei",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Michigan &#x2013; Shanghai Jiao Tong University Joint Institute, Shanghai Jiao Tong University, Shanghai, China"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9781003162810-13"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3583781.3590292"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00881"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MM.2020.3009475"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v35i12.17269"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01237-3_23"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19775-8_10"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3387902.3394038"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSII.2020.2983648"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v33i01.33013329"
+      },
+      {
+        "key": "ref11",
+        "first-page": "11875",
+        "article-title": "HAWQ-V3: Dyadic neural network quantization",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Yao",
+        "year": "2021"
+      },
+      {
+        "article-title": "BSQ: Exploring bit-level sparsity for mixed-precision neural network quantization",
+        "year": "2021",
+        "author": "Yang",
+        "key": "ref12"
+      },
+      {
+        "article-title": "PACT: Parameterized clipping activation for quantized neural networks",
+        "year": "2018",
+        "author": "Choi",
+        "key": "ref13"
+      },
+      {
+        "key": "ref14",
+        "first-page": "38087",
+        "article-title": "SmoothQuant: Accurate and efficient post-training quantization for large language models",
+        "volume-title": "Int. Conf. Mach. Learn.",
+        "author": "Xiao",
+        "year": "2023"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CSTIC58779.2023.10219214"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.suscom.2022.100742"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SOCC58585.2023.10257058"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA45697.2020.00016"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsta.2019.0155"
+      },
+      {
+        "key": "ref20",
+        "first-page": "9295",
+        "article-title": "Sdq: Stochastic differentiable quantization with mixed precision",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Huang",
+        "year": "2022"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISOCC53507.2021.9613969"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01318"
+      },
+      {
+        "article-title": "BRECQ: Pushing the limit of post-training quantization by block reconstruction",
+        "year": "2021",
+        "author": "Li",
+        "key": "ref23"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISOCC53507.2021.9613969"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA.2018.00069"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSSC.2018.2865489"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCAS48785.2022.9937753"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23919/DATE48585.2020.9116529"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISVLSI49217.2020.000-5"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/HPCA56546.2023.10071076"
+      },
+      {
+        "article-title": "ASIP university day 2021: Application-specific processors (ASIPs) in system-on-chip design",
+        "year": "2021",
+        "author": "Verbist",
+        "key": "ref31"
+      },
+      {
+        "year": "2024",
+        "key": "ref32",
+        "article-title": "Synopsys ASIP Designer"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00489"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SBAC-PAD49847.2020.00024"
+      },
+      {
+        "key": "ref35",
+        "first-page": "578",
+        "article-title": "TVM: An automated end-to-end optimizing compiler for deep learning",
+        "volume-title": "Proc. 13th USENIX Symp. Operating Syst. Des. Implementation (OSDI 18)",
+        "author": "Chen",
+        "year": "2018"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3444943"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW56347.2022.00311"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7551/mitpress/7503.003.0024"
+      },
+      {
+        "key": "ref40",
+        "first-page": "6666",
+        "article-title": "Leveraging inter-layer dependency for post-training quantization",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "35",
+        "author": "Zheng",
+        "year": "2022"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compchemeng.2014.04.013"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/pr6080106"
+      },
+      {
+        "article-title": "A practical mixed precision algorithm for post-training quantization",
+        "year": "2023",
+        "author": "Pandey",
+        "key": "ref43"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00242"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IGSC55832.2022.9969373"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00474"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Computers"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/12/10712152/10633877.pdf?arnumber=10633877",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2024-10-10T13:55:06Z",
+      "timestamp": 1728568506000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10633877/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "references-count": 46,
+    "journal-issue": {
+      "issue": "11"
+    },
+    "URL": "https://doi.org/10.1109/tc.2024.3441860",
+    "relation": {},
+    "ISSN": [
+      "0018-9340",
+      "1557-9956",
+      "2326-3814"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0018-9340"
+      },
+      {
+        "type": "electronic",
+        "value": "1557-9956"
+      },
+      {
+        "type": "electronic",
+        "value": "2326-3814"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    }
+  }
+}

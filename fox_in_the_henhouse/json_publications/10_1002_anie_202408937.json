@@ -1,0 +1,2067 @@
+{
+  "doi": "10.1002/anie.202408937",
+  "openalex": {
+    "id": "https://openalex.org/W4400287747",
+    "doi": "https://doi.org/10.1002/anie.202408937",
+    "title": "Taming Two‐Dimensional Polymerization by a Machine‐Learning Discovered Crystallization Model",
+    "display_name": "Taming Two‐Dimensional Polymerization by a Machine‐Learning Discovered Crystallization Model",
+    "publication_year": 2024,
+    "publication_date": "2024-07-03",
+    "ids": {
+      "openalex": "https://openalex.org/W4400287747",
+      "doi": "https://doi.org/10.1002/anie.202408937",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38958453"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1002/anie.202408937",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1002/anie.202408937",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.202408937",
+      "source": {
+        "id": "https://openalex.org/S67393510",
+        "display_name": "Angewandte Chemie International Edition",
+        "issn_l": "1433-7851",
+        "issn": [
+          "1433-7851",
+          "1521-3773"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Angewandte Chemie International Edition",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.202408937",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5009934710",
+          "display_name": "Jiaxin Tian",
+          "orcid": "https://orcid.org/0009-0000-2127-9010"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I113940042",
+            "display_name": "Shanghai University",
+            "ror": "https://ror.org/006teas31",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiaxin Tian",
+        "raw_affiliation_strings": [
+          "Shanghai University, School of Microelectronics, CHINA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai University, School of Microelectronics, CHINA",
+            "institution_ids": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5095962507",
+          "display_name": "Kiana A. Treaster",
+          "orcid": "https://orcid.org/0009-0003-3273-0403"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I33213144",
+            "display_name": "University of Florida",
+            "ror": "https://ror.org/02y3ad647",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kiana A. Treaster",
+        "raw_affiliation_strings": [
+          "University of Florida, Chemistry, UNITED STATES"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Florida, Chemistry, UNITED STATES",
+            "institution_ids": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5014116005",
+          "display_name": "Liangtao Xiong",
+          "orcid": "https://orcid.org/0009-0006-7919-4929"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I113940042",
+            "display_name": "Shanghai University",
+            "ror": "https://ror.org/006teas31",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Liangtao Xiong",
+        "raw_affiliation_strings": [
+          "Shanghai University, School of Microelectronics, CHINA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai University, School of Microelectronics, CHINA",
+            "institution_ids": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100742343",
+          "display_name": "Zixiao Wang",
+          "orcid": "https://orcid.org/0000-0002-8901-1915"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I113940042",
+            "display_name": "Shanghai University",
+            "ror": "https://ror.org/006teas31",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zixiao Wang",
+        "raw_affiliation_strings": [
+          "Shanghai University, School of Microelectronics, CHINA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai University, School of Microelectronics, CHINA",
+            "institution_ids": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5086833077",
+          "display_name": "Austin M. Evans",
+          "orcid": "https://orcid.org/0000-0002-3597-2454"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I33213144",
+            "display_name": "University of Florida",
+            "ror": "https://ror.org/02y3ad647",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Austin M Evans",
+        "raw_affiliation_strings": [
+          "University of Florida, Chemistry, 1680 Union Road, 32611 Gainesville, UNITED STATES OF AMERICA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Florida, Chemistry, 1680 Union Road, 32611 Gainesville, UNITED STATES OF AMERICA",
+            "institution_ids": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100673435",
+          "display_name": "Haoyuan Li",
+          "orcid": "https://orcid.org/0000-0002-2469-5842"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I113940042",
+            "display_name": "Shanghai University",
+            "ror": "https://ror.org/006teas31",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Haoyuan Li",
+        "raw_affiliation_strings": [
+          "Shanghai University, School of Microelectronics, CHINA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai University, School of Microelectronics, CHINA",
+            "institution_ids": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5086833077"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I33213144"
+    ],
+    "apc_list": {
+      "value": 5250,
+      "currency": "USD",
+      "value_usd": 5250
+    },
+    "apc_paid": null,
+    "fwci": 1.86278593,
+    "has_fulltext": false,
+    "cited_by_count": 11,
+    "citation_normalized_percentile": {
+      "value": 0.87720846,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "63",
+      "issue": "39",
+      "first_page": "e202408937",
+      "last_page": "e202408937"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11948",
+      "display_name": "Machine Learning in Materials Science",
+      "score": 0.998199999332428,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11948",
+        "display_name": "Machine Learning in Materials Science",
+        "score": 0.998199999332428,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10405",
+        "display_name": "Advanced Polymer Synthesis and Characterization",
+        "score": 0.9970999956130981,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1605",
+          "display_name": "Organic Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/16",
+          "display_name": "Chemistry"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12038",
+        "display_name": "Covalent Organic Framework Applications",
+        "score": 0.9926999807357788,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/crystallization",
+        "display_name": "Crystallization",
+        "score": 0.7124952077865601
+      },
+      {
+        "id": "https://openalex.org/keywords/polymerization",
+        "display_name": "Polymerization",
+        "score": 0.6263527274131775
+      },
+      {
+        "id": "https://openalex.org/keywords/materials-science",
+        "display_name": "Materials science",
+        "score": 0.4172682464122772
+      },
+      {
+        "id": "https://openalex.org/keywords/polymer-science",
+        "display_name": "Polymer science",
+        "score": 0.4067170023918152
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.35432374477386475
+      },
+      {
+        "id": "https://openalex.org/keywords/chemical-engineering",
+        "display_name": "Chemical engineering",
+        "score": 0.29133909940719604
+      },
+      {
+        "id": "https://openalex.org/keywords/engineering",
+        "display_name": "Engineering",
+        "score": 0.17437881231307983
+      },
+      {
+        "id": "https://openalex.org/keywords/polymer",
+        "display_name": "Polymer",
+        "score": 0.13981300592422485
+      },
+      {
+        "id": "https://openalex.org/keywords/composite-material",
+        "display_name": "Composite material",
+        "score": 0.11453381180763245
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C203036418",
+        "wikidata": "https://www.wikidata.org/wiki/Q284256",
+        "display_name": "Crystallization",
+        "level": 2,
+        "score": 0.7124952077865601
+      },
+      {
+        "id": "https://openalex.org/C44228677",
+        "wikidata": "https://www.wikidata.org/wiki/Q181898",
+        "display_name": "Polymerization",
+        "level": 3,
+        "score": 0.6263527274131775
+      },
+      {
+        "id": "https://openalex.org/C192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "level": 0,
+        "score": 0.4172682464122772
+      },
+      {
+        "id": "https://openalex.org/C126348684",
+        "wikidata": "https://www.wikidata.org/wiki/Q3456979",
+        "display_name": "Polymer science",
+        "level": 1,
+        "score": 0.4067170023918152
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.35432374477386475
+      },
+      {
+        "id": "https://openalex.org/C42360764",
+        "wikidata": "https://www.wikidata.org/wiki/Q83588",
+        "display_name": "Chemical engineering",
+        "level": 1,
+        "score": 0.29133909940719604
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.17437881231307983
+      },
+      {
+        "id": "https://openalex.org/C521977710",
+        "wikidata": "https://www.wikidata.org/wiki/Q81163",
+        "display_name": "Polymer",
+        "level": 2,
+        "score": 0.13981300592422485
+      },
+      {
+        "id": "https://openalex.org/C159985019",
+        "wikidata": "https://www.wikidata.org/wiki/Q181790",
+        "display_name": "Composite material",
+        "level": 1,
+        "score": 0.11453381180763245
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1002/anie.202408937",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1002/anie.202408937",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.202408937",
+        "source": {
+          "id": "https://openalex.org/S67393510",
+          "display_name": "Angewandte Chemie International Edition",
+          "issn_l": "1433-7851",
+          "issn": [
+            "1433-7851",
+            "1521-3773"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Angewandte Chemie International Edition",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38958453",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38958453",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Angewandte Chemie (International ed. in English)",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1002/anie.202408937",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1002/anie.202408937",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/anie.202408937",
+      "source": {
+        "id": "https://openalex.org/S67393510",
+        "display_name": "Angewandte Chemie International Edition",
+        "issn_l": "1433-7851",
+        "issn": [
+          "1433-7851",
+          "1521-3773"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Angewandte Chemie International Edition",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G6286441666",
+        "display_name": null,
+        "funder_award_id": "NTFA",
+        "funder_id": "https://openalex.org/F4320307785",
+        "funder_display_name": "3M"
+      },
+      {
+        "id": "https://openalex.org/G8133113641",
+        "display_name": null,
+        "funder_award_id": "W911NF2310260",
+        "funder_id": "https://openalex.org/F4320338507",
+        "funder_display_name": "Life Sciences Division, Army Research Office"
+      },
+      {
+        "id": "https://openalex.org/G2753993392",
+        "display_name": null,
+        "funder_award_id": "22103053",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320307785",
+        "display_name": "3M",
+        "ror": "https://ror.org/00mgss748"
+      },
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320338280",
+        "display_name": "Medical Research and Materiel Command",
+        "ror": "https://ror.org/03cd02q50"
+      },
+      {
+        "id": "https://openalex.org/F4320338507",
+        "display_name": "Life Sciences Division, Army Research Office",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 85,
+    "referenced_works": [
+      "https://openalex.org/W1998358855",
+      "https://openalex.org/W4367834780",
+      "https://openalex.org/W4386326089",
+      "https://openalex.org/W1801166380",
+      "https://openalex.org/W4321369132",
+      "https://openalex.org/W4315786542",
+      "https://openalex.org/W4391577493",
+      "https://openalex.org/W3030488208",
+      "https://openalex.org/W3026448577",
+      "https://openalex.org/W4293480705",
+      "https://openalex.org/W2998862480",
+      "https://openalex.org/W3132252165",
+      "https://openalex.org/W3023123403",
+      "https://openalex.org/W4318823121",
+      "https://openalex.org/W4390227557",
+      "https://openalex.org/W4402598919",
+      "https://openalex.org/W6603115210",
+      "https://openalex.org/W4362521469",
+      "https://openalex.org/W3004327229",
+      "https://openalex.org/W3001218623",
+      "https://openalex.org/W2974836847",
+      "https://openalex.org/W3041881567",
+      "https://openalex.org/W2814654128",
+      "https://openalex.org/W3111457036",
+      "https://openalex.org/W3216138237",
+      "https://openalex.org/W2809379320",
+      "https://openalex.org/W2917608395",
+      "https://openalex.org/W2930815130",
+      "https://openalex.org/W4306832109",
+      "https://openalex.org/W4383371012",
+      "https://openalex.org/W3023085115",
+      "https://openalex.org/W4366520863",
+      "https://openalex.org/W2982899751",
+      "https://openalex.org/W2268566230",
+      "https://openalex.org/W2526029269",
+      "https://openalex.org/W2089255470",
+      "https://openalex.org/W1979847090",
+      "https://openalex.org/W3131676233",
+      "https://openalex.org/W2765766688",
+      "https://openalex.org/W4364322238",
+      "https://openalex.org/W4395668403",
+      "https://openalex.org/W2329956991",
+      "https://openalex.org/W2001202386",
+      "https://openalex.org/W4220768029",
+      "https://openalex.org/W4221020651",
+      "https://openalex.org/W2790078182",
+      "https://openalex.org/W3093384975",
+      "https://openalex.org/W2809892896",
+      "https://openalex.org/W4316591188",
+      "https://openalex.org/W4386484459",
+      "https://openalex.org/W2605034771",
+      "https://openalex.org/W4387165508",
+      "https://openalex.org/W2579020379",
+      "https://openalex.org/W2996887232",
+      "https://openalex.org/W2270082247",
+      "https://openalex.org/W2991639996",
+      "https://openalex.org/W4399379575",
+      "https://openalex.org/W4399366236",
+      "https://openalex.org/W4378187117",
+      "https://openalex.org/W2884430236",
+      "https://openalex.org/W4360949780",
+      "https://openalex.org/W2972418846",
+      "https://openalex.org/W3016401366",
+      "https://openalex.org/W2260934868",
+      "https://openalex.org/W4225286241",
+      "https://openalex.org/W3083754078",
+      "https://openalex.org/W2787269252",
+      "https://openalex.org/W2044944060",
+      "https://openalex.org/W2049145344",
+      "https://openalex.org/W3136276343",
+      "https://openalex.org/W6600291067",
+      "https://openalex.org/W2971537925",
+      "https://openalex.org/W4306940605",
+      "https://openalex.org/W2751656105",
+      "https://openalex.org/W3043302510",
+      "https://openalex.org/W2911964244",
+      "https://openalex.org/W4362458529",
+      "https://openalex.org/W2999615587",
+      "https://openalex.org/W4386553931",
+      "https://openalex.org/W3203569367",
+      "https://openalex.org/W2922192682",
+      "https://openalex.org/W6600159499",
+      "https://openalex.org/W4390721408",
+      "https://openalex.org/W2104015519",
+      "https://openalex.org/W4392120151"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W1975066220",
+      "https://openalex.org/W2361648762",
+      "https://openalex.org/W2385571654",
+      "https://openalex.org/W2751847288",
+      "https://openalex.org/W3021725558",
+      "https://openalex.org/W2371738293",
+      "https://openalex.org/W4246450666",
+      "https://openalex.org/W4388998267"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Rapidly": [
+        1
+      ],
+      "synthesizing": [
+        2
+      ],
+      "high‐quality": [
+        3
+      ],
+      "two‐dimensional": [
+        4
+      ],
+      "covalent": [
+        5
+      ],
+      "organic": [
+        6
+      ],
+      "frameworks": [
+        7
+      ],
+      "(2D": [
+        8
+      ],
+      "COFs)": [
+        9
+      ],
+      "is": [
+        10
+      ],
+      "crucial": [
+        11
+      ],
+      "for": [
+        12,
+        62,
+        94,
+        130,
+        154,
+        190,
+        203
+      ],
+      "their": [
+        13,
+        32
+      ],
+      "practical": [
+        14
+      ],
+      "applications.": [
+        15
+      ],
+      "While": [
+        16
+      ],
+      "strategies": [
+        17
+      ],
+      "such": [
+        18
+      ],
+      "as": [
+        19,
+        74
+      ],
+      "slow": [
+        20
+      ],
+      "monomer": [
+        21,
+        151
+      ],
+      "addition": [
+        22,
+        152
+      ],
+      "have": [
+        23
+      ],
+      "been": [
+        24,
+        119
+      ],
+      "developed": [
+        25
+      ],
+      "based": [
+        26
+      ],
+      "on": [
+        27
+      ],
+      "an": [
+        28
+      ],
+      "empirical": [
+        29,
+        125
+      ],
+      "understanding": [
+        30,
+        135
+      ],
+      "of": [
+        31,
+        43,
+        148,
+        196,
+        205
+      ],
+      "formation": [
+        33
+      ],
+      "process,": [
+        34
+      ],
+      "quantitative": [
+        35
+      ],
+      "guidance": [
+        36
+      ],
+      "remains": [
+        37
+      ],
+      "absent,": [
+        38
+      ],
+      "which": [
+        39,
+        117,
+        170,
+        199
+      ],
+      "prohibits": [
+        40
+      ],
+      "precise": [
+        41
+      ],
+      "optimizations": [
+        42
+      ],
+      "the": [
+        44,
+        55,
+        63,
+        79,
+        106,
+        110,
+        136,
+        141,
+        188,
+        193,
+        206
+      ],
+      "experimental": [
+        45
+      ],
+      "conditions.": [
+        46
+      ],
+      "Here,": [
+        47
+      ],
+      "we": [
+        48
+      ],
+      "use": [
+        49
+      ],
+      "a": [
+        50,
+        100,
+        145
+      ],
+      "machine‐learning": [
+        51
+      ],
+      "approach": [
+        52
+      ],
+      "that": [
+        53,
+        97
+      ],
+      "overcomes": [
+        54
+      ],
+      "challenges": [
+        56
+      ],
+      "associated": [
+        57
+      ],
+      "with": [
+        58,
+        127
+      ],
+      "bottom‐up": [
+        59
+      ],
+      "model": [
+        60,
+        143
+      ],
+      "derivation": [
+        61
+      ],
+      "non‐classical": [
+        64
+      ],
+      "2D": [
+        65,
+        95,
+        131,
+        157,
+        197,
+        209
+      ],
+      "COF": [
+        66,
+        132,
+        158
+      ],
+      "crystallization": [
+        67
+      ],
+      "processes.": [
+        68
+      ],
+      "The": [
+        69,
+        103
+      ],
+      "resulting": [
+        70
+      ],
+      "model,": [
+        71
+      ],
+      "referred": [
+        72
+      ],
+      "to": [
+        73,
+        164,
+        213
+      ],
+      "NEgen1,": [
+        75
+      ],
+      "establishes": [
+        76
+      ],
+      "correlations": [
+        77
+      ],
+      "among": [
+        78
+      ],
+      "induction": [
+        80
+      ],
+      "time,": [
+        81
+      ],
+      "nucleation": [
+        82,
+        111
+      ],
+      "rate,": [
+        83,
+        85
+      ],
+      "growth": [
+        84,
+        113
+      ],
+      "bond‐forming": [
+        86
+      ],
+      "rate": [
+        87
+      ],
+      "constants,": [
+        88
+      ],
+      "and": [
+        89,
+        112
+      ],
+      "common": [
+        90
+      ],
+      "solution": [
+        91
+      ],
+      "synthesis": [
+        92
+      ],
+      "conditions": [
+        93
+      ],
+      "COFs": [
+        96,
+        210
+      ],
+      "grow": [
+        98
+      ],
+      "by": [
+        99,
+        123,
+        176,
+        181
+      ],
+      "nucleation‐elongation": [
+        101
+      ],
+      "mechanism.": [
+        102
+      ],
+      "results": [
+        104,
+        186
+      ],
+      "elucidate": [
+        105
+      ],
+      "detailed": [
+        107
+      ],
+      "competition": [
+        108
+      ],
+      "between": [
+        109
+      ],
+      "dynamics": [
+        114
+      ],
+      "in": [
+        115
+      ],
+      "solution,": [
+        116
+      ],
+      "has": [
+        118,
+        200
+      ],
+      "inappropriately": [
+        120
+      ],
+      "described": [
+        121
+      ],
+      "previously": [
+        122,
+        175
+      ],
+      "classical,": [
+        124
+      ],
+      "models": [
+        126
+      ],
+      "assumptions": [
+        128
+      ],
+      "invalid": [
+        129
+      ],
+      "polymerization.": [
+        133
+      ],
+      "By": [
+        134
+      ],
+      "dynamic": [
+        137
+      ],
+      "processes": [
+        138
+      ],
+      "at": [
+        139
+      ],
+      "play,": [
+        140
+      ],
+      "NEgen1": [
+        142
+      ],
+      "reveals": [
+        144
+      ],
+      "simple": [
+        146
+      ],
+      "strategy": [
+        147
+      ],
+      "gradually": [
+        149
+      ],
+      "increasing": [
+        150
+      ],
+      "speed": [
+        153
+      ],
+      "growing": [
+        155
+      ],
+      "large": [
+        156,
+        167
+      ],
+      "crystals.": [
+        159
+      ],
+      "This": [
+        160
+      ],
+      "insight": [
+        161
+      ],
+      "enables": [
+        162
+      ],
+      "us": [
+        163
+      ],
+      "rapidly": [
+        165
+      ],
+      "synthesize": [
+        166
+      ],
+      "COF‐5": [
+        168
+      ],
+      "colloids,": [
+        169
+      ],
+      "could": [
+        171
+      ],
+      "only": [
+        172
+      ],
+      "be": [
+        173,
+        214
+      ],
+      "achieved": [
+        174
+      ],
+      "prolonged": [
+        177
+      ],
+      "reaction": [
+        178
+      ],
+      "times": [
+        179
+      ],
+      "or": [
+        180
+      ],
+      "introducing": [
+        182
+      ],
+      "chemical": [
+        183
+      ],
+      "modulators.": [
+        184
+      ],
+      "These": [
+        185
+      ],
+      "highlight": [
+        187
+      ],
+      "potential": [
+        189
+      ],
+      "systematically": [
+        191
+      ],
+      "improving": [
+        192
+      ],
+      "crystal": [
+        194
+      ],
+      "quality": [
+        195
+      ],
+      "COFs,": [
+        198
+      ],
+      "wide‐reaching": [
+        201
+      ],
+      "relevance": [
+        202
+      ],
+      "many": [
+        204
+      ],
+      "applications": [
+        207
+      ],
+      "where": [
+        208
+      ],
+      "are": [
+        211
+      ],
+      "speculated": [
+        212
+      ],
+      "valuable.": [
+        215
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-12-26T23:08:49.675405",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          26
+        ]
+      ],
+      "date-time": "2025-12-26T11:19:21Z",
+      "timestamp": 1766747961108,
+      "version": "3.41.2"
+    },
+    "reference-count": 81,
+    "publisher": "Wiley",
+    "issue": "39",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              3
+            ]
+          ],
+          "date-time": "2025-07-03T00:00:00Z",
+          "timestamp": 1751500800000
+        },
+        "content-version": "am",
+        "delay-in-days": 311,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#am"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              26
+            ]
+          ],
+          "date-time": "2024-08-26T00:00:00Z",
+          "timestamp": 1724630400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100016461",
+        "name": "Life Sciences Division, Army Research Office",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W911NF2310260"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF2310260"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100016461",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "22103053"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "22103053"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100016156",
+        "name": "U.S. Army Medical Research and Development Command",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100016156",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100004343",
+        "name": "3M",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NTFA"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NTFA"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100004343",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Angew Chem Int Ed"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          23
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Rapidly synthesizing high‐quality two‐dimensional covalent organic frameworks (2D COFs) is crucial for their practical applications. While strategies such as slow monomer addition have been developed based on an empirical understanding of their formation process, quantitative guidance remains absent, which prohibits precise optimizations of the experimental conditions. Here, we use a machine‐learning approach that overcomes the challenges associated with bottom‐up model derivation for the non‐classical 2D COF crystallization processes. The resulting model, referred to as NEgen1, establishes correlations among the induction time, nucleation rate, growth rate, bond‐forming rate constants, and common solution synthesis conditions for 2D COFs that grow by a nucleation‐elongation mechanism. The results elucidate the detailed competition between the nucleation and growth dynamics in solution, which has been inappropriately described previously by classical, empirical models with assumptions invalid for 2D COF polymerization. By understanding the dynamic processes at play, the NEgen1 model reveals a simple strategy of gradually increasing monomer addition speed for growing large 2D COF crystals. This insight enables us to rapidly synthesize large COF‐5 colloids, which could only be achieved previously by prolonged reaction times or by introducing chemical modulators. These results highlight the potential for systematically improving the crystal quality of 2D COFs, which has wide‐reaching relevance for many of the applications where 2D COFs are speculated to be valuable.</jats:p>",
+    "DOI": "10.1002/anie.202408937",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          3
+        ]
+      ],
+      "date-time": "2024-07-03T12:45:58Z",
+      "timestamp": 1720010758000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Taming Two‐Dimensional Polymerization by a Machine‐Learning Discovered Crystallization Model"
+    ],
+    "prefix": "10.1002",
+    "volume": "63",
+    "author": [
+      {
+        "given": "Jiaxin",
+        "family": "Tian",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Microelectronics Shanghai University, Jiading  Shanghai 201800 China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-3273-0403",
+        "authenticated-orcid": false,
+        "given": "Kiana A.",
+        "family": "Treaster",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "George and Josephine Butler Polymer Laboratory, Department of Chemistry University of Florida  Gainesville, Florida 32611-7200 United States"
+          }
+        ]
+      },
+      {
+        "given": "Liangtao",
+        "family": "Xiong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Microelectronics Shanghai University, Jiading  Shanghai 201800 China"
+          }
+        ]
+      },
+      {
+        "given": "Zixiao",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Microelectronics Shanghai University, Jiading  Shanghai 201800 China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3597-2454",
+        "authenticated-orcid": false,
+        "given": "Austin M.",
+        "family": "Evans",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "George and Josephine Butler Polymer Laboratory, Department of Chemistry University of Florida  Gainesville, Florida 32611-7200 United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2469-5842",
+        "authenticated-orcid": false,
+        "given": "Haoyuan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Microelectronics Shanghai University, Jiading  Shanghai 201800 China"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_1_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/cr400544s"
+      },
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsnano.3c01758"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemmater.3c01120"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aaa6760"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemrev.2c00700"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43586-022-00181-z"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41578-023-00637-y"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acscentsci.0c00463"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.enchem.2020.100035"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/anie.202208919"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C9CS00807A"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ccr.2021.213781"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D0CS00017E"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D2EE02742A"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsmaterialslett.3c01429"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.31635/ccschem.024.202404866"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adma.202300525"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C9CS00827F"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemrev.9b00550"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C9MH00856J"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D0TA05894G"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adfm.201705553"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D0CS00620C"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemrev.0c01184"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aar7883"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C9SC00289H"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adma.201807865"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D2CC04374B"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemmater.3c01220"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D0CC02033H"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chempr.2023.03.026"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acscentsci.9b00944"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.5b10708"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.cgd.6b00794"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1732832"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ar800217x"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03300-0"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.7b09169"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D2NR06685H"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/5.0197656"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ja5037868"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C5CC00379B"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-04409-6"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-29086-x"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemmater.7b05121"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.0c08390"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C8SC01683F"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.2c11071"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.3c06265"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C6CP08449D"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.3c03868"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acscentsci.6b00331"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.9b10869"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C5CC10221A"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adma.201905776"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.4c04674"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-024-07483-0"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.3c01783"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-018-0337-2"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41524-023-01000-z"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/inf2.12028"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.aay2631"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0029-5515/56/2/026005"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3847/1538-4357/ac610c"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. M. Filho A. Lacerda G. L. Pappa in2020 IEEE Congr. Evol. Comput. CEC IEEE Glasgow United Kingdom2020 pp. 1–8.",
+        "DOI": "10.1109/CEC48606.2020.9185683"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemmater.8b00117"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ja0751781"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1120411"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsmaterialslett.1c00002"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemmater.9b01273"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.2c07166"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.7b06913"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.0c04570"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1010933404324"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.2c12762"
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-019-0138-9"
+      },
+      {
+        "key": "e_1_2_8_77_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsabm.3c00527"
+      },
+      {
+        "key": "e_1_2_8_78_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13321-021-00542-y"
+      },
+      {
+        "key": "e_1_2_8_79_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C9NJ00830F"
+      },
+      {
+        "key": "e_1_2_8_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adfm.202313905"
+      },
+      {
+        "key": "e_1_2_8_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/anie.200705710"
+      }
+    ],
+    "container-title": [
+      "Angewandte Chemie International Edition"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/am-pdf/10.1002/anie.202408937",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/anie.202408937",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          26
+        ]
+      ],
+      "date-time": "2025-02-26T09:16:25Z",
+      "timestamp": 1740561385000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/anie.202408937"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ]
+    },
+    "references-count": 81,
+    "journal-issue": {
+      "issue": "39",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            23
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/anie.202408937"
+    ],
+    "URL": "https://doi.org/10.1002/anie.202408937",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "1433-7851",
+      "1521-3773"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1433-7851"
+      },
+      {
+        "type": "electronic",
+        "value": "1521-3773"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          26
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-05-11",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-08-26",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e202408937"
+  }
+}

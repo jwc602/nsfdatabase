@@ -1,0 +1,1355 @@
+{
+  "doi": "10.1109/tccn.2024.3522088",
+  "openalex": {
+    "id": "https://openalex.org/W4405718184",
+    "doi": "https://doi.org/10.1109/tccn.2024.3522088",
+    "title": "CPPU: Policy Space Diversity for Informative Path Planning and GAI-Enabled Updating CSI in ISAC",
+    "display_name": "CPPU: Policy Space Diversity for Informative Path Planning and GAI-Enabled Updating CSI in ISAC",
+    "publication_year": 2024,
+    "publication_date": "2024-12-23",
+    "ids": {
+      "openalex": "https://openalex.org/W4405718184",
+      "doi": "https://doi.org/10.1109/tccn.2024.3522088"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tccn.2024.3522088",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tccn.2024.3522088",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2484188435",
+        "display_name": "IEEE Transactions on Cognitive Communications and Networking",
+        "issn_l": "2332-7731",
+        "issn": [
+          "2332-7731",
+          "2372-2045"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Cognitive Communications and Networking",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5008168475",
+          "display_name": "Xiaoqiang Zhu",
+          "orcid": "https://orcid.org/0000-0001-7294-9547"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I21193070",
+            "display_name": "Beijing Jiaotong University",
+            "ror": "https://ror.org/01yj56c84",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I21193070"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaoqiang Zhu",
+        "raw_affiliation_strings": [
+          "School of Cyberspace Science and Technology, Beijing Jiaotong University, Beijing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Cyberspace Science and Technology, Beijing Jiaotong University, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I21193070"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5070828650",
+          "display_name": "Jiqiang Liu",
+          "orcid": "https://orcid.org/0000-0003-1147-4327"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I21193070",
+            "display_name": "Beijing Jiaotong University",
+            "ror": "https://ror.org/01yj56c84",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I21193070"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiqiang Liu",
+        "raw_affiliation_strings": [
+          "School of Cyberspace Science and Technology, Beijing Jiaotong University, Beijing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Cyberspace Science and Technology, Beijing Jiaotong University, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I21193070"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100375796",
+          "display_name": "Tao Zhang",
+          "orcid": "https://orcid.org/0000-0002-3366-7640"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I21193070",
+            "display_name": "Beijing Jiaotong University",
+            "ror": "https://ror.org/01yj56c84",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I21193070"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tao Zhang",
+        "raw_affiliation_strings": [
+          "School of Cyberspace Science and Technology, Beijing Jiaotong University, Beijing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Cyberspace Science and Technology, Beijing Jiaotong University, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I21193070"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100390976",
+          "display_name": "Yuan Liu",
+          "orcid": "https://orcid.org/0009-0009-0788-6995"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I162868743",
+            "display_name": "Tianjin University",
+            "ror": "https://ror.org/012tb2g32",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I162868743"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuan Liu",
+        "raw_affiliation_strings": [
+          "College of Intelligent and Computing, Tianjin University, Tianjin, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Intelligent and Computing, Tianjin University, Tianjin, China",
+            "institution_ids": [
+              "https://openalex.org/I162868743"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100424695",
+          "display_name": "Chenyang Wang",
+          "orcid": "https://orcid.org/0000-0002-0295-3468"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Chenyang Wang",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5068503490",
+          "display_name": "Chunpeng Wang",
+          "orcid": "https://orcid.org/0000-0002-3742-5614"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I180726961",
+            "display_name": "Shenzhen University",
+            "ror": "https://ror.org/01vy4gh70",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I180726961"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chunpeng Wang",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Software Engineering, Shenzhen University, and Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ), Shenzhen, Guangdong, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer Science and Software Engineering, Shenzhen University, and Guangdong Laboratory of Artificial Intelligence and Digital Economy (SZ), Shenzhen, Guangdong, China",
+            "institution_ids": [
+              "https://openalex.org/I180726961"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003436789",
+          "display_name": "Zhongqi Zhao",
+          "orcid": "https://orcid.org/0009-0004-1315-7434"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I44461941",
+            "display_name": "University of Houston",
+            "ror": "https://ror.org/048sx0r50",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I44461941"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhongqi Zhao",
+        "raw_affiliation_strings": [
+          "with the Department of Electrical and Computer Engineering, University of Houston, Houston, TX, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "with the Department of Electrical and Computer Engineering, University of Houston, Houston, TX, USA",
+            "institution_ids": [
+              "https://openalex.org/I44461941"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5063667378",
+          "display_name": "Zhu Han",
+          "orcid": "https://orcid.org/0000-0002-6606-5822"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I44461941",
+            "display_name": "University of Houston",
+            "ror": "https://ror.org/048sx0r50",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I44461941"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhu Han",
+        "raw_affiliation_strings": [
+          "with the Department of Electrical and Computer Engineering, University of Houston, Houston, TX, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "with the Department of Electrical and Computer Engineering, University of Houston, Houston, TX, USA",
+            "institution_ids": [
+              "https://openalex.org/I44461941"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.00048402,
+    "has_fulltext": false,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.73613322,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 95
+    },
+    "biblio": {
+      "volume": "11",
+      "issue": "2",
+      "first_page": "777",
+      "last_page": "790"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12326",
+      "display_name": "Network Packet Processing and Optimization",
+      "score": 0.9617999792098999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12326",
+        "display_name": "Network Packet Processing and Optimization",
+        "score": 0.9617999792098999,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1708",
+          "display_name": "Hardware and Architecture"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10927",
+        "display_name": "Access Control and Trust",
+        "score": 0.9282000064849854,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10743",
+        "display_name": "Software Testing and Debugging Techniques",
+        "score": 0.9236000180244446,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.8238421678543091
+      },
+      {
+        "id": "https://openalex.org/keywords/path",
+        "display_name": "Path (computing)",
+        "score": 0.5629262924194336
+      },
+      {
+        "id": "https://openalex.org/keywords/diversity",
+        "display_name": "Diversity (politics)",
+        "score": 0.4977732002735138
+      },
+      {
+        "id": "https://openalex.org/keywords/antenna-diversity",
+        "display_name": "Antenna diversity",
+        "score": 0.45839226245880127
+      },
+      {
+        "id": "https://openalex.org/keywords/space",
+        "display_name": "Space (punctuation)",
+        "score": 0.41818705201148987
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-network",
+        "display_name": "Computer network",
+        "score": 0.3681532144546509
+      },
+      {
+        "id": "https://openalex.org/keywords/telecommunications",
+        "display_name": "Telecommunications",
+        "score": 0.36279305815696716
+      },
+      {
+        "id": "https://openalex.org/keywords/wireless",
+        "display_name": "Wireless",
+        "score": 0.14679989218711853
+      },
+      {
+        "id": "https://openalex.org/keywords/political-science",
+        "display_name": "Political science",
+        "score": 0.08253788948059082
+      },
+      {
+        "id": "https://openalex.org/keywords/operating-system",
+        "display_name": "Operating system",
+        "score": 0.07034638524055481
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8238421678543091
+      },
+      {
+        "id": "https://openalex.org/C2777735758",
+        "wikidata": "https://www.wikidata.org/wiki/Q817765",
+        "display_name": "Path (computing)",
+        "level": 2,
+        "score": 0.5629262924194336
+      },
+      {
+        "id": "https://openalex.org/C2781316041",
+        "wikidata": "https://www.wikidata.org/wiki/Q1230584",
+        "display_name": "Diversity (politics)",
+        "level": 2,
+        "score": 0.4977732002735138
+      },
+      {
+        "id": "https://openalex.org/C60069766",
+        "wikidata": "https://www.wikidata.org/wiki/Q357054",
+        "display_name": "Antenna diversity",
+        "level": 3,
+        "score": 0.45839226245880127
+      },
+      {
+        "id": "https://openalex.org/C2778572836",
+        "wikidata": "https://www.wikidata.org/wiki/Q380933",
+        "display_name": "Space (punctuation)",
+        "level": 2,
+        "score": 0.41818705201148987
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.3681532144546509
+      },
+      {
+        "id": "https://openalex.org/C76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "level": 1,
+        "score": 0.36279305815696716
+      },
+      {
+        "id": "https://openalex.org/C555944384",
+        "wikidata": "https://www.wikidata.org/wiki/Q249",
+        "display_name": "Wireless",
+        "level": 2,
+        "score": 0.14679989218711853
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.08253788948059082
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.07034638524055481
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/tccn.2024.3522088",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tccn.2024.3522088",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2484188435",
+          "display_name": "IEEE Transactions on Cognitive Communications and Networking",
+          "issn_l": "2332-7731",
+          "issn": [
+            "2332-7731",
+            "2372-2045"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Cognitive Communications and Networking",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "display_name": "Sustainable cities and communities",
+        "id": "https://metadata.un.org/sdg/11",
+        "score": 0.5899999737739563
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G6471033387",
+        "display_name": null,
+        "funder_award_id": "GZC20230223",
+        "funder_id": "https://openalex.org/F4320321543",
+        "funder_display_name": "China Postdoctoral Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G2864866767",
+        "display_name": null,
+        "funder_award_id": "GZC20230224",
+        "funder_id": "https://openalex.org/F4320321543",
+        "funder_display_name": "China Postdoctoral Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G6828966536",
+        "display_name": null,
+        "funder_award_id": "62401037",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G8453512985",
+        "display_name": null,
+        "funder_award_id": "2023YFB2703702",
+        "funder_id": "https://openalex.org/F4320335777",
+        "funder_display_name": "National Key Research and Development Program of China"
+      },
+      {
+        "id": "https://openalex.org/G3537629211",
+        "display_name": null,
+        "funder_award_id": "2024M750166",
+        "funder_id": "https://openalex.org/F4320321543",
+        "funder_display_name": "China Postdoctoral Science Foundation"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320321543",
+        "display_name": "China Postdoctoral Science Foundation",
+        "ror": "https://ror.org/0426zh255"
+      },
+      {
+        "id": "https://openalex.org/F4320335777",
+        "display_name": "National Key Research and Development Program of China",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 45,
+    "referenced_works": [
+      "https://openalex.org/W3047491762",
+      "https://openalex.org/W3155535021",
+      "https://openalex.org/W4377231518",
+      "https://openalex.org/W4364322927",
+      "https://openalex.org/W4285148832",
+      "https://openalex.org/W3155725449",
+      "https://openalex.org/W4386275697",
+      "https://openalex.org/W4402125726",
+      "https://openalex.org/W4360770791",
+      "https://openalex.org/W4285410860",
+      "https://openalex.org/W3199469864",
+      "https://openalex.org/W4379618794",
+      "https://openalex.org/W3119079594",
+      "https://openalex.org/W3107627141",
+      "https://openalex.org/W3216643731",
+      "https://openalex.org/W3046167303",
+      "https://openalex.org/W3024058540",
+      "https://openalex.org/W4399601978",
+      "https://openalex.org/W4404520562",
+      "https://openalex.org/W4285102342",
+      "https://openalex.org/W3207462752",
+      "https://openalex.org/W4313479325",
+      "https://openalex.org/W4285132117",
+      "https://openalex.org/W3113024443",
+      "https://openalex.org/W2972941110",
+      "https://openalex.org/W3172086257",
+      "https://openalex.org/W3191425715",
+      "https://openalex.org/W4226057687",
+      "https://openalex.org/W4360595377",
+      "https://openalex.org/W3084212472",
+      "https://openalex.org/W4384787274",
+      "https://openalex.org/W4226038290",
+      "https://openalex.org/W3189280485",
+      "https://openalex.org/W4285212371",
+      "https://openalex.org/W3154784371",
+      "https://openalex.org/W3200600175",
+      "https://openalex.org/W4400943840",
+      "https://openalex.org/W4403511166",
+      "https://openalex.org/W4402080058",
+      "https://openalex.org/W4401508043",
+      "https://openalex.org/W3006821066",
+      "https://openalex.org/W4383503893",
+      "https://openalex.org/W4226026671",
+      "https://openalex.org/W4403936891",
+      "https://openalex.org/W3047400633"
+    ],
+    "related_works": [
+      "https://openalex.org/W4236583520",
+      "https://openalex.org/W2322261865",
+      "https://openalex.org/W4398861705",
+      "https://openalex.org/W2734736160",
+      "https://openalex.org/W2409468626",
+      "https://openalex.org/W4206863193",
+      "https://openalex.org/W4387158780",
+      "https://openalex.org/W4205351689",
+      "https://openalex.org/W4283518176",
+      "https://openalex.org/W2936964361"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-12-27T23:08:20.325037",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          26
+        ]
+      ],
+      "date-time": "2025-12-26T07:15:15Z",
+      "timestamp": 1766733315437,
+      "version": "build-2065373602"
+    },
+    "reference-count": 46,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2025-04-01T00:00:00Z",
+          "timestamp": 1743465600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Open Project Fund of Key Laboratory of Computing Power Network and Information Security",
+        "award": [
+          "2023ZD039"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2023ZD039"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002858",
+        "name": "China Postdoctoral Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2024M750166",
+          "GZC20230223",
+          "GZC20230224"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2024M750166",
+              "GZC20230223",
+              "GZC20230224"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002858",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62401037"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62401037"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Talent Fund of Beijing Jiaotong University",
+        "award": [
+          "2023XKRC016",
+          "2023XKRC050"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2023XKRC016",
+              "2023XKRC050"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2023YFB2703702"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2023YFB2703702"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Cogn. Commun. Netw."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1109/tccn.2024.3522088",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          23
+        ]
+      ],
+      "date-time": "2024-12-23T14:27:11Z",
+      "timestamp": 1734964031000
+    },
+    "page": "777-790",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "CPPU: Policy Space Diversity for Informative Path Planning and GAI-Enabled Updating CSI in ISAC"
+    ],
+    "prefix": "10.1109",
+    "volume": "11",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7294-9547",
+        "authenticated-orcid": false,
+        "given": "Xiaoqiang",
+        "family": "Zhu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Cyberspace Science and Technology and the Beijing Key Laboratory of Security and Privacy in Intelligent Transportation, Beijing Jiaotong University, Beijing, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1147-4327",
+        "authenticated-orcid": false,
+        "given": "Jiqiang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Cyberspace Science and Technology and the Beijing Key Laboratory of Security and Privacy in Intelligent Transportation, Beijing Jiaotong University, Beijing, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3366-7640",
+        "authenticated-orcid": false,
+        "given": "Tao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Cyberspace Science and Technology and the Beijing Key Laboratory of Security and Privacy in Intelligent Transportation, Beijing Jiaotong University, Beijing, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0009-0788-6995",
+        "authenticated-orcid": false,
+        "given": "Yuan",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Intelligent and Computing, Tianjin University, Tianjin, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0295-3468",
+        "authenticated-orcid": false,
+        "given": "Chenyang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computer Science and Software Engineering, Shenzhen University, Shenzhen, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3742-5614",
+        "authenticated-orcid": false,
+        "given": "Chunpeng",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Computing Power Network and Information Security, Ministry of Education, Qilu University of Technology (Shandong Academy of Sciences), Jinan, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-1315-7434",
+        "authenticated-orcid": false,
+        "given": "Zhongqi",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Houston, Houston, TX, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6606-5822",
+        "authenticated-orcid": false,
+        "given": "Zhu",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Houston, Houston, TX, USA"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/COMST.2020.3014304"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/COMST.2022.3149272"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCOMM.2023.3277872"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MWC.131.2200442"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TII.2022.3190556"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMC.2021.3073005"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSAC.2023.3310072"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMC.2024.3453069"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNSE.2023.3260882"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2022.3190845"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TWC.2021.3109789"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2023.3283502"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sysarc.2021.102016"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMC.2020.3040945"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMC.2021.3131318"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IWCMC48107.2020.9148111"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.adhoc.2020.102176"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSAC.2024.3414001"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tccn.2024.3502493"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA46639.2022.9812190"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA48506.2021.9561963"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jocs.2022.101937"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TITS.2022.3180288"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSAC.2020.3036946"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2020.2964159"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSAC.2021.3088669"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2021.3102185"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TWC.2022.3165588"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LWC.2023.3260443"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2020.3022573"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2023.3296334"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2022.3164441"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LCOMM.2021.3098419"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TWC.2022.3183255"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/INFOCOM42981.2021.9488669"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2021.3110412"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/comst.2024.3432871"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/comst.2024.3482978"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCC.2024.3452094"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/INFOCOM52122.2024.10621084"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TASE.2020.2971324"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2023.3293319"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNSE.2022.3163358"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tbdata.2024.3489425"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/INFOCOM41043.2020.9155528"
+      },
+      {
+        "volume-title": "Deep Reinforcement Learning with Python: Master Classic RL, Deep RL, Distributional RL, Inverse RL, and More with OpenAI Gym and Tensorflow",
+        "year": "2020",
+        "author": "Ravichandiran",
+        "key": "ref46"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Cognitive Communications and Networking"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://ieeexplore.ieee.org/ielam/6687307/10957747/10812952-aam.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/6687307/10957747/10812952.pdf?arnumber=10812952",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2025-11-05T18:41:45Z",
+      "timestamp": 1762368105000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10812952/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "references-count": 46,
+    "journal-issue": {
+      "issue": "2"
+    },
+    "URL": "https://doi.org/10.1109/tccn.2024.3522088",
+    "relation": {},
+    "ISSN": [
+      "2332-7731",
+      "2372-2045"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2332-7731"
+      },
+      {
+        "type": "electronic",
+        "value": "2372-2045"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1505 @@
+{
+  "doi": "10.1109/hpca57654.2024.00026",
+  "openalex": {
+    "id": "https://openalex.org/W4393591871",
+    "doi": "https://doi.org/10.1109/hpca57654.2024.00026",
+    "title": "Data Enclave: A Data-Centric Trusted Execution Environment",
+    "display_name": "Data Enclave: A Data-Centric Trusted Execution Environment",
+    "publication_year": 2024,
+    "publication_date": "2024-03-02",
+    "ids": {
+      "openalex": "https://openalex.org/W4393591871",
+      "doi": "https://doi.org/10.1109/hpca57654.2024.00026"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/hpca57654.2024.00026",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/hpca57654.2024.00026",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2024 IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5016606164",
+          "display_name": "Yuanchao Xu",
+          "orcid": "https://orcid.org/0000-0003-4165-9138"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185103710",
+            "display_name": "University of California, Santa Cruz",
+            "ror": "https://ror.org/03s65by71",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185103710"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuanchao Xu",
+        "raw_affiliation_strings": [
+          "University of California, Santa Cruz"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Santa Cruz",
+            "institution_ids": [
+              "https://openalex.org/I185103710"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5094335093",
+          "display_name": "James Pangia",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I137902535",
+            "display_name": "North Carolina State University",
+            "ror": "https://ror.org/04tj63d06",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I137902535"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "James Pangia",
+        "raw_affiliation_strings": [
+          "North Carolina State University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "North Carolina State University",
+            "institution_ids": [
+              "https://openalex.org/I137902535"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102871859",
+          "display_name": "Chencheng Ye",
+          "orcid": "https://orcid.org/0000-0003-3432-855X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I47720641",
+            "display_name": "Huazhong University of Science and Technology",
+            "ror": "https://ror.org/00p991c53",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I47720641"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chencheng Ye",
+        "raw_affiliation_strings": [
+          "Huazhong University of Science and Technology"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Huazhong University of Science and Technology",
+            "institution_ids": [
+              "https://openalex.org/I47720641"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5061775189",
+          "display_name": "Yan Solihin",
+          "orcid": "https://orcid.org/0000-0002-8863-941X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I106165777",
+            "display_name": "University of Central Florida",
+            "ror": "https://ror.org/036nfer12",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I106165777"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yan Solihin",
+        "raw_affiliation_strings": [
+          "University of Central Florida"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Central Florida",
+            "institution_ids": [
+              "https://openalex.org/I106165777"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100624451",
+          "display_name": "Xipeng Shen",
+          "orcid": "https://orcid.org/0000-0003-3599-8010"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I137902535",
+            "display_name": "North Carolina State University",
+            "ror": "https://ror.org/04tj63d06",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I137902535"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xipeng Shen",
+        "raw_affiliation_strings": [
+          "North Carolina State University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "North Carolina State University",
+            "institution_ids": [
+              "https://openalex.org/I137902535"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 4.1843305,
+    "has_fulltext": false,
+    "cited_by_count": 5,
+    "citation_normalized_percentile": {
+      "value": 0.88628447,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 98
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "218",
+      "last_page": "232"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11181",
+      "display_name": "Advanced Data Storage Technologies",
+      "score": 0.9965999722480774,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11181",
+        "display_name": "Advanced Data Storage Technologies",
+        "score": 0.9965999722480774,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11424",
+        "display_name": "Security and Verification in Computing",
+        "score": 0.9952999949455261,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11614",
+        "display_name": "Cloud Data Security Solutions",
+        "score": 0.9922000169754028,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6948062181472778
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-security",
+        "display_name": "Computer security",
+        "score": 0.45255130529403687
+      },
+      {
+        "id": "https://openalex.org/keywords/direct-anonymous-attestation",
+        "display_name": "Direct Anonymous Attestation",
+        "score": 0.4215022921562195
+      },
+      {
+        "id": "https://openalex.org/keywords/trusted-computing",
+        "display_name": "Trusted Computing",
+        "score": 0.3629786968231201
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6948062181472778
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.45255130529403687
+      },
+      {
+        "id": "https://openalex.org/C169796023",
+        "wikidata": "https://www.wikidata.org/wiki/Q3708936",
+        "display_name": "Direct Anonymous Attestation",
+        "level": 3,
+        "score": 0.4215022921562195
+      },
+      {
+        "id": "https://openalex.org/C2776831232",
+        "wikidata": "https://www.wikidata.org/wiki/Q966812",
+        "display_name": "Trusted Computing",
+        "level": 2,
+        "score": 0.3629786968231201
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/hpca57654.2024.00026",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/hpca57654.2024.00026",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2024 IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G590521923",
+        "display_name": null,
+        "funder_award_id": "N00014-23-1-2136",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 71,
+    "referenced_works": [
+      "https://openalex.org/W6730426483",
+      "https://openalex.org/W2061643296",
+      "https://openalex.org/W6742578501",
+      "https://openalex.org/W3022891344",
+      "https://openalex.org/W2904364493",
+      "https://openalex.org/W2788385473",
+      "https://openalex.org/W6777115252",
+      "https://openalex.org/W3043192809",
+      "https://openalex.org/W6718865826",
+      "https://openalex.org/W6759672608",
+      "https://openalex.org/W3191918078",
+      "https://openalex.org/W2946377927",
+      "https://openalex.org/W2946820880",
+      "https://openalex.org/W2889574497",
+      "https://openalex.org/W3188481800",
+      "https://openalex.org/W6753224742",
+      "https://openalex.org/W6755923984",
+      "https://openalex.org/W6767618566",
+      "https://openalex.org/W3138943459",
+      "https://openalex.org/W3176786489",
+      "https://openalex.org/W6763022551",
+      "https://openalex.org/W6687131398",
+      "https://openalex.org/W2112736324",
+      "https://openalex.org/W2911594609",
+      "https://openalex.org/W2147657366",
+      "https://openalex.org/W6732215895",
+      "https://openalex.org/W6712237015",
+      "https://openalex.org/W2093460657",
+      "https://openalex.org/W2151396176",
+      "https://openalex.org/W3148657381",
+      "https://openalex.org/W4244889001",
+      "https://openalex.org/W1985623009",
+      "https://openalex.org/W2320204756",
+      "https://openalex.org/W6762668627",
+      "https://openalex.org/W2794357950",
+      "https://openalex.org/W3036557299",
+      "https://openalex.org/W6753443810",
+      "https://openalex.org/W3015844221",
+      "https://openalex.org/W2136032111",
+      "https://openalex.org/W6766553057",
+      "https://openalex.org/W6797785253",
+      "https://openalex.org/W4250686612",
+      "https://openalex.org/W2795148882",
+      "https://openalex.org/W2767156774",
+      "https://openalex.org/W3043343008",
+      "https://openalex.org/W2979935438",
+      "https://openalex.org/W3011123179",
+      "https://openalex.org/W4280619525",
+      "https://openalex.org/W2009160449",
+      "https://openalex.org/W2794796225",
+      "https://openalex.org/W2140972824",
+      "https://openalex.org/W2080285432",
+      "https://openalex.org/W1651597767",
+      "https://openalex.org/W2108028555",
+      "https://openalex.org/W6719314992",
+      "https://openalex.org/W2762625979",
+      "https://openalex.org/W2899688953",
+      "https://openalex.org/W3198531562",
+      "https://openalex.org/W4206314719",
+      "https://openalex.org/W2000375627",
+      "https://openalex.org/W2143020967",
+      "https://openalex.org/W3104608106",
+      "https://openalex.org/W1512773843",
+      "https://openalex.org/W2576037784",
+      "https://openalex.org/W2914775513",
+      "https://openalex.org/W2945018059",
+      "https://openalex.org/W3206229470",
+      "https://openalex.org/W2734941459",
+      "https://openalex.org/W2189153846",
+      "https://openalex.org/W3093006088",
+      "https://openalex.org/W4299801748"
+    ],
+    "related_works": [
+      "https://openalex.org/W2372678089",
+      "https://openalex.org/W2695299078",
+      "https://openalex.org/W2355956995",
+      "https://openalex.org/W2390768934",
+      "https://openalex.org/W2350048275",
+      "https://openalex.org/W2086874776",
+      "https://openalex.org/W2168345601",
+      "https://openalex.org/W2028268185",
+      "https://openalex.org/W2377235694",
+      "https://openalex.org/W2001281341"
+    ],
+    "abstract_inverted_index": {
+      "Trusted": [
+        0
+      ],
+      "Execution": [
+        1
+      ],
+      "Environments": [
+        2
+      ],
+      "(TEEs)": [
+        3
+      ],
+      "protect": [
+        4
+      ],
+      "sensitive": [
+        5
+      ],
+      "applications": [
+        6,
+        116
+      ],
+      "in": [
+        7,
+        14
+      ],
+      "the": [
+        8,
+        11,
+        15,
+        74,
+        83,
+        90,
+        106,
+        125,
+        135
+      ],
+      "cloud": [
+        9,
+        16
+      ],
+      "with": [
+        10,
+        20,
+        64
+      ],
+      "minimal": [
+        12
+      ],
+      "trust": [
+        13
+      ],
+      "provider.": [
+        17
+      ],
+      "Existing": [
+        18
+      ],
+      "TEEs": [
+        19
+      ],
+      "integrity": [
+        21,
+        93
+      ],
+      "protection": [
+        22
+      ],
+      "however": [
+        23
+      ],
+      "lack": [
+        24
+      ],
+      "support": [
+        25
+      ],
+      "for": [
+        26,
+        46,
+        76,
+        95
+      ],
+      "data": [
+        27,
+        31,
+        44,
+        48,
+        54,
+        120
+      ],
+      "management": [
+        28
+      ],
+      "primitives,": [
+        29
+      ],
+      "causing": [
+        30
+      ],
+      "sharing": [
+        32
+      ],
+      "between": [
+        33
+      ],
+      "enclaves": [
+        34,
+        77,
+        128
+      ],
+      "either": [
+        35
+      ],
+      "insecure": [
+        36
+      ],
+      "or": [
+        37
+      ],
+      "cumbersome.": [
+        38
+      ],
+      "This": [
+        39,
+        97
+      ],
+      "paper": [
+        40,
+        98
+      ],
+      "proposes": [
+        41
+      ],
+      "a": [
+        42,
+        51
+      ],
+      "new": [
+        43,
+        101
+      ],
+      "abstraction": [
+        45
+      ],
+      "TEEs,": [
+        47
+      ],
+      "enclave.": [
+        49
+      ],
+      "As": [
+        50
+      ],
+      "data-centric": [
+        52
+      ],
+      "abstraction,": [
+        53,
+        102
+      ],
+      "enclave": [
+        55,
+        121
+      ],
+      "is": [
+        56,
+        62
+      ],
+      "decoupled": [
+        57
+      ],
+      "from": [
+        58
+      ],
+      "an": [
+        59
+      ],
+      "enclave's": [
+        60
+      ],
+      "existence,": [
+        61
+      ],
+      "equipped": [
+        63
+      ],
+      "flexible": [
+        65
+      ],
+      "secure": [
+        66
+      ],
+      "permission": [
+        67
+      ],
+      "controls,": [
+        68
+      ],
+      "and": [
+        69,
+        81,
+        105,
+        113,
+        129
+      ],
+      "crytographically": [
+        70
+      ],
+      "isolated.": [
+        71
+      ],
+      "It": [
+        72
+      ],
+      "eliminates": [
+        73
+      ],
+      "hurdles": [
+        75
+      ],
+      "to": [
+        78
+      ],
+      "cooperate": [
+        79
+      ],
+      "efficiently,": [
+        80
+      ],
+      "at": [
+        82
+      ],
+      "same": [
+        84
+      ],
+      "time,": [
+        85
+      ],
+      "enables": [
+        86
+      ],
+      "dynamic": [
+        87
+      ],
+      "shrinking": [
+        88
+      ],
+      "of": [
+        89,
+        92,
+        127
+      ],
+      "height": [
+        91
+      ],
+      "tree": [
+        94
+      ],
+      "performance.": [
+        96
+      ],
+      "presents": [
+        99
+      ],
+      "this": [
+        100
+      ],
+      "its": [
+        103
+      ],
+      "properties,": [
+        104
+      ],
+      "architecture": [
+        107
+      ],
+      "support.": [
+        108
+      ],
+      "Experiments": [
+        109
+      ],
+      "on": [
+        110
+      ],
+      "synthetic": [
+        111
+      ],
+      "benchmarks": [
+        112
+      ],
+      "three": [
+        114
+      ],
+      "real-world": [
+        115
+      ],
+      "all": [
+        117
+      ],
+      "show": [
+        118
+      ],
+      "that": [
+        119
+      ],
+      "can": [
+        122
+      ],
+      "help": [
+        123
+      ],
+      "improve": [
+        124
+      ],
+      "efficiency": [
+        126
+      ],
+      "inter-enclave": [
+        130
+      ],
+      "cooperations": [
+        131
+      ],
+      "significantly": [
+        132
+      ],
+      "while": [
+        133
+      ],
+      "enhancing": [
+        134
+      ],
+      "security": [
+        136
+      ],
+      "protection.": [
+        137
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 5
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          7
+        ]
+      ],
+      "date-time": "2026-01-07T22:56:38Z",
+      "timestamp": 1767826598382,
+      "version": "3.49.0"
+    },
+    "reference-count": 74,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              2
+            ]
+          ],
+          "date-time": "2024-03-02T00:00:00Z",
+          "timestamp": 1709337600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              2
+            ]
+          ],
+          "date-time": "2024-03-02T00:00:00Z",
+          "timestamp": 1709337600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N00014-23-1-2136"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N00014-23-1-2136"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1109/hpca57654.2024.00026",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          2
+        ]
+      ],
+      "date-time": "2024-04-02T18:36:37Z",
+      "timestamp": 1712082997000
+    },
+    "page": "218-232",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Data Enclave: A Data-Centric Trusted Execution Environment"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Yuanchao",
+        "family": "Xu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of California,Santa Cruz"
+          }
+        ]
+      },
+      {
+        "given": "James",
+        "family": "Pangia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "North Carolina State University"
+          }
+        ]
+      },
+      {
+        "given": "Chencheng",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Huazhong University of Science and Technology"
+          }
+        ]
+      },
+      {
+        "given": "Yan",
+        "family": "Solihin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Central Florida"
+          }
+        ]
+      },
+      {
+        "given": "Xipeng",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "North Carolina State University"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "first-page": "689",
+        "article-title": "Scone: Secure linux containers with intel sgx",
+        "volume-title": "12th USENIX Symposium on Operating Systems Design and Implementation (OSDI 16)",
+        "author": "Arnautov"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2799647"
+      },
+      {
+        "key": "ref3",
+        "first-page": "1",
+        "article-title": "Confidential zookeeper using intel sgx",
+        "volume-title": "Proceedings of the 17th International Middleware Conference",
+        "author": "Brenner"
+      },
+      {
+        "key": "ref4",
+        "first-page": "645",
+        "article-title": "{Graphene-SGX}: A practical library {OS} for unmodified applications on {SGX}",
+        "volume-title": "2017 USENIX Annual Technical Conference (USENIX ATC 17)",
+        "author": "Tsai"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3342195.3387552"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3231594"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP.2018.00025"
+      },
+      {
+        "key": "ref8",
+        "first-page": "505",
+        "article-title": "Civet: An efficient java partitioning framework for hardware enclaves",
+        "volume-title": "29th USENIX Security Symposium (USENIX Security 20)",
+        "author": "Tsai"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA45697.2020.00069"
+      },
+      {
+        "key": "ref11",
+        "first-page": "619",
+        "article-title": "Oblivious {MultiParty} machine learning on trusted processors",
+        "volume-title": "25th USENIX Security Symposium (USENIX Security 16)",
+        "author": "Ohrimenko"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Building microservices",
+        "author": "Newman",
+        "year": "2021",
+        "journal-title": "OReilly Media, Inc.”"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA52012.2021.00032"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3319647.3325825"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3319647.3325835"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CLOUD.2018.00113"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CCGrid51090.2021.00058"
+      },
+      {
+        "key": "ref18",
+        "first-page": "645",
+        "article-title": "Putting the” micro” back in microservice",
+        "volume-title": "2018 USENIX Annual Technical Conference (USENIX ATC 18)",
+        "author": "Boucher"
+      },
+      {
+        "key": "ref19",
+        "first-page": "427",
+        "article-title": "Pocket: Elastic ephemeral storage for serverless analytics",
+        "volume-title": "13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18)",
+        "author": "Klimovic"
+      },
+      {
+        "key": "ref20",
+        "first-page": "353",
+        "article-title": "{SGXJail}: Defeating enclave malware via confinement",
+        "volume-title": "22nd International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2019)",
+        "author": "Weiser"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14722/ndss.2021.24057"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3458864.3466628"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Toward scalable fully homomorphic encryption through light trusted computing assistance",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref25",
+        "first-page": "34",
+        "article-title": "This poodle bites:¨ exploiting the ssl 3.0 fallback",
+        "volume": "21",
+        "author": "Moller",
+        "year": "2014",
+        "journal-title": "Security Advisory"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2663716.2663755"
+      },
+      {
+        "key": "ref27",
+        "article-title": "The wolf in sgx clothing",
+        "author": "Marschalek",
+        "year": "2018",
+        "journal-title": "Bluehat IL"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-22038-9_9"
+      },
+      {
+        "key": "ref29",
+        "author": "Yu",
+        "year": "2020",
+        "journal-title": "Elasticlave: An efficient memory model for enclaves"
+      },
+      {
+        "key": "ref30",
+        "article-title": "Intel scalable sealing",
+        "year": "Jun, 2022"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2024716.2024718"
+      },
+      {
+        "key": "ref32",
+        "article-title": "A memory encryption engine suitable for general purpose processors",
+        "author": "Gueron",
+        "year": "2016",
+        "journal-title": "Cryptology ePrint Archive"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Intel sgx explained",
+        "author": "Costan",
+        "year": "2016",
+        "journal-title": "Cryptology ePrint Archive"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2487726.2488370"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Ctr-mode encryption",
+        "volume-title": "First NIST Workshop on Modes of Operation",
+        "volume": "39",
+        "author": "Lipmaa",
+        "year": "2000"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1150019.1136502"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MICRO.2007.16"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MICRO.2003.1253207"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0000(81)90033-7"
+      },
+      {
+        "key": "ref40",
+        "article-title": "Intel sgx development guide",
+        "year": "Jun, 2022"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Intel sgx attestation services",
+        "year": "Jun, 2022"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/COMST.2016.2548426"
+      },
+      {
+        "key": "ref45",
+        "article-title": "Intel 64 and ia-32 architectures software developers manual",
+        "year": "2019"
+      },
+      {
+        "key": "ref46",
+        "first-page": "241",
+        "article-title": "libmpk: Software abstraction for intel memory protection keys (intel {MPK})",
+        "volume-title": "2019 {USENIX} Annual Technical Conference ({USENIX}{ATC} 19)",
+        "author": "Park"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3173162.3177155"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3399742"
+      },
+      {
+        "key": "ref50",
+        "first-page": "973",
+        "article-title": "Meltdown: Reading kernel memory from user space",
+        "volume-title": "27th {USENIX} Security Symposium ({USENIX} Security 18)",
+        "author": "Lipp"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP40000.2020.00089"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MC.2002.1039518"
+      },
+      {
+        "key": "ref53",
+        "article-title": "Enclavedom: Privilege separation for large-tcb applications in trusted execution environments",
+        "author": "Melara",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref54",
+        "first-page": "3129",
+        "article-title": "A {Hardware-Software} co-design for efficient {Intra-Enclave} isolation",
+        "volume-title": "31st USENIX Security Symposium (USENIX Security 22)",
+        "author": "Gu"
+      },
+      {
+        "key": "ref55",
+        "first-page": "275",
+        "article-title": "Scalable memory protection in the {PENGLAI} enclave",
+        "volume-title": "15th {USENIX} Symposium on Operating Systems Design and Implementation ({OSDI} 21)",
+        "author": "Feng"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MICRO.2016.7783741"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/HPCA.2018.00046"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PACT.2017.38"
+      },
+      {
+        "key": "ref59",
+        "article-title": "Iozone filesystem benchmark",
+        "author": "WilliamD",
+        "year": "2003"
+      },
+      {
+        "key": "ref60",
+        "article-title": "Recommender is a c library for product recommendations/suggestions using collaborative filtering (cf)",
+        "year": "2022"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA45697.2020.00062"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3352460.3358290"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3373376.3378492"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/HPCA53966.2022.00071"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/OL.31.001044"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/DSN.2018.00031"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/hpca.2003.1183547"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2611765.2611774"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/11693383_7"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-74735-2_20"
+      },
+      {
+        "key": "ref73",
+        "article-title": "Arm trustzone for cortex",
+        "year": "Jun, 2022"
+      },
+      {
+        "key": "ref74",
+        "first-page": "857",
+        "article-title": "Sanctum: Minimal hardware extensions for strong software isolation",
+        "volume-title": "25th USENIX Security Symposium (USENIX Security 16)",
+        "author": "Costan"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3132747.3132782"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14722/ndss.2019.23068"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3466752.3480109"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/782814.782838"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1995896.1995914"
+      },
+      {
+        "key": "ref80",
+        "first-page": "1",
+        "article-title": "Secureblue++: Cpu support for secure execution",
+        "volume-title": "IBM, IBM Research Division, RC25287 (WAT1205-070)",
+        "author": "Boivie"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2508859.2516692"
+      }
+    ],
+    "event": {
+      "name": "2024 IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "location": "Edinburgh, United Kingdom",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            2
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            6
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2024 IEEE International Symposium on High-Performance Computer Architecture (HPCA)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/10476359/10476395/10476466.pdf?arnumber=10476466",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2024-04-03T05:32:17Z",
+      "timestamp": 1712122337000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10476466/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          2
+        ]
+      ]
+    },
+    "references-count": 74,
+    "URL": "https://doi.org/10.1109/hpca57654.2024.00026",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          2
+        ]
+      ]
+    }
+  }
+}

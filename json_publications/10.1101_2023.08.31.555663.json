@@ -1,0 +1,2984 @@
+{
+  "doi": "10.1101/2023.08.31.555663",
+  "openalex": {
+    "id": "https://openalex.org/W4386376331",
+    "doi": "https://doi.org/10.1101/2023.08.31.555663",
+    "title": "Computational exploration of the global microbiome for antibiotic discovery",
+    "display_name": "Computational exploration of the global microbiome for antibiotic discovery",
+    "publication_year": 2023,
+    "publication_date": "2023-08-31",
+    "ids": {
+      "openalex": "https://openalex.org/W4386376331",
+      "doi": "https://doi.org/10.1101/2023.08.31.555663",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/37693522"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1101/2023.08.31.555663",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1101/2023.08.31.555663",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/11/2023.08.31.555663.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402567",
+        "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2750212522",
+        "host_organization_name": "Cold Spring Harbor Laboratory",
+        "host_organization_lineage": [
+          "https://openalex.org/I2750212522"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "type": "preprint",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/11/2023.08.31.555663.full.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5008950610",
+          "display_name": "Célio Dias Santos Júnior",
+          "orcid": "https://orcid.org/0000-0002-1974-1736"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210164150",
+            "display_name": "Shanghai Center for Brain Science and Brain-Inspired Technology",
+            "ror": "https://ror.org/0551a0y31",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210164150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210085920",
+            "display_name": "Shanghai Institute for Science of Science",
+            "ror": "https://ror.org/004srxn73",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210085920"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Célio Dias Santos-Júnior",
+        "raw_affiliation_strings": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I24943067",
+              "https://openalex.org/I4210085920",
+              "https://openalex.org/I4210164150"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5080190091",
+          "display_name": "Marcelo D. T. Torres",
+          "orcid": "https://orcid.org/0000-0002-6165-9138"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I922845939",
+            "display_name": "Philadelphia University",
+            "ror": "https://ror.org/03zzmyz63",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I922845939"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210125521",
+            "display_name": "Translational Therapeutics (United States)",
+            "ror": "https://ror.org/02z3rcy16",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210125521"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Marcelo Der Torossian Torres",
+        "raw_affiliation_strings": [
+          "Machine Biology Group, Departments of Psychiatry and Microbiology, Institute for Biomedical Informatics, Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania",
+          "Penn Institute for Computational Science, University of Pennsylvania",
+          "Philadelphia, Pennsylvania, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Penn Institute for Computational Science, University of Pennsylvania",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Machine Biology Group, Departments of Psychiatry and Microbiology, Institute for Biomedical Informatics, Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania",
+            "institution_ids": [
+              "https://openalex.org/I4210125521"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Philadelphia, Pennsylvania, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I922845939"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5092730834",
+          "display_name": "Yiqian Duan",
+          "orcid": "https://orcid.org/0000-0002-8046-9831"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210164150",
+            "display_name": "Shanghai Center for Brain Science and Brain-Inspired Technology",
+            "ror": "https://ror.org/0551a0y31",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210164150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210085920",
+            "display_name": "Shanghai Institute for Science of Science",
+            "ror": "https://ror.org/004srxn73",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210085920"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yiqian Duan",
+        "raw_affiliation_strings": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I24943067",
+              "https://openalex.org/I4210085920",
+              "https://openalex.org/I4210164150"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5005533408",
+          "display_name": "Álvaro Rodríguez del Río",
+          "orcid": "https://orcid.org/0000-0003-3907-3904"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210162265",
+            "display_name": "Centre for Plant Biotechnology and Genomics",
+            "ror": "https://ror.org/04mfzb702",
+            "country_code": "ES",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I134820265",
+              "https://openalex.org/I4210162265"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210106474",
+            "display_name": "Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria",
+            "ror": "https://ror.org/011q66e29",
+            "country_code": "ES",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I134820265",
+              "https://openalex.org/I4210106474"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I88060688",
+            "display_name": "Universidad Politécnica de Madrid",
+            "ror": "https://ror.org/03n6nwv02",
+            "country_code": "ES",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I88060688"
+            ]
+          }
+        ],
+        "countries": [
+          "ES"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Álvaro Rodríguez del Río",
+        "raw_affiliation_strings": [
+          "Centro de Biotecnología y Genómica de Plantas, Universidad Politécnica de Madrid (UPM) - Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA-CSIC), Campus de Montegancedo-UPM, 28223 Pozuelo de Alarcón, Madrid, Spain"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Centro de Biotecnología y Genómica de Plantas, Universidad Politécnica de Madrid (UPM) - Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA-CSIC), Campus de Montegancedo-UPM, 28223 Pozuelo de Alarcón, Madrid, Spain",
+            "institution_ids": [
+              "https://openalex.org/I4210106474",
+              "https://openalex.org/I4210162265",
+              "https://openalex.org/I88060688"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5067475853",
+          "display_name": "Thomas Schmidt",
+          "orcid": "https://orcid.org/0000-0001-8587-4177"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210153543",
+            "display_name": "European Molecular Biology Laboratory",
+            "ror": "https://ror.org/050589e39",
+            "country_code": "DE",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I4210138560",
+              "https://openalex.org/I4210153543"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Thomas S.B. Schmidt",
+        "raw_affiliation_strings": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4210153543"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102757357",
+          "display_name": "Hui Chong",
+          "orcid": "https://orcid.org/0000-0002-7676-7975"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210164150",
+            "display_name": "Shanghai Center for Brain Science and Brain-Inspired Technology",
+            "ror": "https://ror.org/0551a0y31",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210164150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210085920",
+            "display_name": "Shanghai Institute for Science of Science",
+            "ror": "https://ror.org/004srxn73",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210085920"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hui Chong",
+        "raw_affiliation_strings": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I24943067",
+              "https://openalex.org/I4210085920",
+              "https://openalex.org/I4210164150"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5030545838",
+          "display_name": "Anthony Fullam",
+          "orcid": "https://orcid.org/0000-0002-0884-8124"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210153543",
+            "display_name": "European Molecular Biology Laboratory",
+            "ror": "https://ror.org/050589e39",
+            "country_code": "DE",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I4210138560",
+              "https://openalex.org/I4210153543"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Anthony Fullam",
+        "raw_affiliation_strings": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4210153543"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5083798629",
+          "display_name": "Michael Kuhn",
+          "orcid": "https://orcid.org/0000-0002-2841-872X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210153543",
+            "display_name": "European Molecular Biology Laboratory",
+            "ror": "https://ror.org/050589e39",
+            "country_code": "DE",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I4210138560",
+              "https://openalex.org/I4210153543"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kuhn Michael",
+        "raw_affiliation_strings": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4210153543"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103000934",
+          "display_name": "Chengkai Zhu",
+          "orcid": "https://orcid.org/0000-0002-8967-0531"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210164150",
+            "display_name": "Shanghai Center for Brain Science and Brain-Inspired Technology",
+            "ror": "https://ror.org/0551a0y31",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210164150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210085920",
+            "display_name": "Shanghai Institute for Science of Science",
+            "ror": "https://ror.org/004srxn73",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210085920"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chengkai Zhu",
+        "raw_affiliation_strings": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I24943067",
+              "https://openalex.org/I4210085920",
+              "https://openalex.org/I4210164150"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5086972328",
+          "display_name": "Amy Houseman",
+          "orcid": "https://orcid.org/0000-0003-0695-3331"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210164150",
+            "display_name": "Shanghai Center for Brain Science and Brain-Inspired Technology",
+            "ror": "https://ror.org/0551a0y31",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210164150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210085920",
+            "display_name": "Shanghai Institute for Science of Science",
+            "ror": "https://ror.org/004srxn73",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210085920"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Amy Houseman",
+        "raw_affiliation_strings": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I24943067",
+              "https://openalex.org/I4210085920",
+              "https://openalex.org/I4210164150"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046287537",
+          "display_name": "Jelena Somborski",
+          "orcid": "https://orcid.org/0000-0002-5321-522X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210164150",
+            "display_name": "Shanghai Center for Brain Science and Brain-Inspired Technology",
+            "ror": "https://ror.org/0551a0y31",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210164150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210085920",
+            "display_name": "Shanghai Institute for Science of Science",
+            "ror": "https://ror.org/004srxn73",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210085920"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jelena Somborski",
+        "raw_affiliation_strings": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I24943067",
+              "https://openalex.org/I4210085920",
+              "https://openalex.org/I4210164150"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5094339134",
+          "display_name": "Anna Vines",
+          "orcid": "https://orcid.org/0000-0002-5149-7737"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210164150",
+            "display_name": "Shanghai Center for Brain Science and Brain-Inspired Technology",
+            "ror": "https://ror.org/0551a0y31",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210164150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210085920",
+            "display_name": "Shanghai Institute for Science of Science",
+            "ror": "https://ror.org/004srxn73",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210085920"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Anna Vines",
+        "raw_affiliation_strings": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I24943067",
+              "https://openalex.org/I4210085920",
+              "https://openalex.org/I4210164150"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5049435754",
+          "display_name": "Xing‐Ming Zhao",
+          "orcid": "https://orcid.org/0000-0002-4531-3970"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210164150",
+            "display_name": "Shanghai Center for Brain Science and Brain-Inspired Technology",
+            "ror": "https://ror.org/0551a0y31",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210164150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210085920",
+            "display_name": "Shanghai Institute for Science of Science",
+            "ror": "https://ror.org/004srxn73",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210085920"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I157773358",
+            "display_name": "Sun Yat-sen University",
+            "ror": "https://ror.org/0064kty71",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157773358"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210128921",
+            "display_name": "The First Affiliated Hospital, Sun Yat-sen University",
+            "ror": "https://ror.org/037p24858",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210128921"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210127074",
+            "display_name": "Zhongshan Hospital",
+            "ror": "https://ror.org/032x22645",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210127074"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xing-Ming Zhao",
+        "raw_affiliation_strings": [
+          "Department of Neurology, Zhongshan Hospital, Fudan University, Shanghai, China",
+          "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China",
+          "International Human Phenome Institute, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Neurology, Zhongshan Hospital, Fudan University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I157773358",
+              "https://openalex.org/I4210127074",
+              "https://openalex.org/I4210128921"
+            ]
+          },
+          {
+            "raw_affiliation_string": "International Human Phenome Institute, Shanghai, China",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I24943067",
+              "https://openalex.org/I4210085920",
+              "https://openalex.org/I4210164150"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5074309419",
+          "display_name": "Peer Bork",
+          "orcid": "https://orcid.org/0000-0002-2627-833X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210153543",
+            "display_name": "European Molecular Biology Laboratory",
+            "ror": "https://ror.org/050589e39",
+            "country_code": "DE",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I4210138560",
+              "https://openalex.org/I4210153543"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I205582932",
+            "display_name": "Max Delbrück Center",
+            "ror": "https://ror.org/04p5ggc03",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1305996414",
+              "https://openalex.org/I205582932"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I25974101",
+            "display_name": "University of Würzburg",
+            "ror": "https://ror.org/00fbnyb24",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I25974101"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Peer Bork",
+        "raw_affiliation_strings": [
+          "Department of Bioinformatics, Biocenter, University of Würzburg, Würzburg, Germany",
+          "Max Delbrück Centre for Molecular Medicine, Berlin, Germany",
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4210153543"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Bioinformatics, Biocenter, University of Würzburg, Würzburg, Germany",
+            "institution_ids": [
+              "https://openalex.org/I25974101"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Max Delbrück Centre for Molecular Medicine, Berlin, Germany",
+            "institution_ids": [
+              "https://openalex.org/I205582932"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5050318013",
+          "display_name": "Jaime Huerta‐Cepas",
+          "orcid": "https://orcid.org/0000-0003-4195-5025"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210162265",
+            "display_name": "Centre for Plant Biotechnology and Genomics",
+            "ror": "https://ror.org/04mfzb702",
+            "country_code": "ES",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I134820265",
+              "https://openalex.org/I4210162265"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210106474",
+            "display_name": "Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria",
+            "ror": "https://ror.org/011q66e29",
+            "country_code": "ES",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I134820265",
+              "https://openalex.org/I4210106474"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I88060688",
+            "display_name": "Universidad Politécnica de Madrid",
+            "ror": "https://ror.org/03n6nwv02",
+            "country_code": "ES",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I88060688"
+            ]
+          }
+        ],
+        "countries": [
+          "ES"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jaime Huerta-Cepas",
+        "raw_affiliation_strings": [
+          "Centro de Biotecnología y Genómica de Plantas, Universidad Politécnica de Madrid (UPM) - Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA-CSIC), Campus de Montegancedo-UPM, 28223 Pozuelo de Alarcón, Madrid, Spain"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Centro de Biotecnología y Genómica de Plantas, Universidad Politécnica de Madrid (UPM) - Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria (INIA-CSIC), Campus de Montegancedo-UPM, 28223 Pozuelo de Alarcón, Madrid, Spain",
+            "institution_ids": [
+              "https://openalex.org/I4210106474",
+              "https://openalex.org/I4210162265",
+              "https://openalex.org/I88060688"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5012089635",
+          "display_name": "César de la Fuente‐Núñez",
+          "orcid": "https://orcid.org/0000-0002-2005-5629"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I922845939",
+            "display_name": "Philadelphia University",
+            "ror": "https://ror.org/03zzmyz63",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I922845939"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210125521",
+            "display_name": "Translational Therapeutics (United States)",
+            "ror": "https://ror.org/02z3rcy16",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210125521"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Cesar de la Fuente-Nunez",
+        "raw_affiliation_strings": [
+          "Machine Biology Group, Departments of Psychiatry and Microbiology, Institute for Biomedical Informatics, Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania",
+          "Penn Institute for Computational Science, University of Pennsylvania",
+          "Philadelphia, Pennsylvania, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Philadelphia, Pennsylvania, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I922845939"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Machine Biology Group, Departments of Psychiatry and Microbiology, Institute for Biomedical Informatics, Institute for Translational Medicine and Therapeutics, Perelman School of Medicine, University of Pennsylvania",
+            "institution_ids": [
+              "https://openalex.org/I4210125521"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Penn Institute for Computational Science, University of Pennsylvania",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5078114370",
+          "display_name": "Luís Pedro Coelho",
+          "orcid": "https://orcid.org/0000-0002-9280-7885"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210164150",
+            "display_name": "Shanghai Center for Brain Science and Brain-Inspired Technology",
+            "ror": "https://ror.org/0551a0y31",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210164150"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210085920",
+            "display_name": "Shanghai Institute for Science of Science",
+            "ror": "https://ror.org/004srxn73",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210085920"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Luis Pedro Coelho",
+        "raw_affiliation_strings": [
+          "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Science and Technology for Brain-Inspired Intelligence - ISTBI, Fudan University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I24943067",
+              "https://openalex.org/I4210085920",
+              "https://openalex.org/I4210164150"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 4,
+    "institutions_distinct_count": 17,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5012089635",
+      "https://openalex.org/A5078114370"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I24943067",
+      "https://openalex.org/I4210085920",
+      "https://openalex.org/I4210125521",
+      "https://openalex.org/I4210164150",
+      "https://openalex.org/I79576946",
+      "https://openalex.org/I922845939"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 5.29138542,
+    "has_fulltext": true,
+    "cited_by_count": 18,
+    "citation_normalized_percentile": {
+      "value": 0.93780507,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 99
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10141",
+      "display_name": "Probiotics and Fermented Foods",
+      "score": 0.9965000152587891,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10141",
+        "display_name": "Probiotics and Fermented Foods",
+        "score": 0.9965000152587891,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1106",
+          "display_name": "Food Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10015",
+        "display_name": "Genomics and Phylogenetic Studies",
+        "score": 0.996399998664856,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11103",
+        "display_name": "Antimicrobial Peptides and Activities",
+        "score": 0.9958999752998352,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2404",
+          "display_name": "Microbiology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/24",
+          "display_name": "Immunology and Microbiology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/microbiome",
+        "display_name": "Microbiome",
+        "score": 0.8069201111793518
+      },
+      {
+        "id": "https://openalex.org/keywords/antibiotics",
+        "display_name": "Antibiotics",
+        "score": 0.5631041526794434
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.531647264957428
+      },
+      {
+        "id": "https://openalex.org/keywords/drug-discovery",
+        "display_name": "Drug discovery",
+        "score": 0.4579327404499054
+      },
+      {
+        "id": "https://openalex.org/keywords/metagenomics",
+        "display_name": "Metagenomics",
+        "score": 0.4483182430267334
+      },
+      {
+        "id": "https://openalex.org/keywords/data-science",
+        "display_name": "Data science",
+        "score": 0.41252461075782776
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.3672543466091156
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.32926660776138306
+      },
+      {
+        "id": "https://openalex.org/keywords/bioinformatics",
+        "display_name": "Bioinformatics",
+        "score": 0.24890395998954773
+      },
+      {
+        "id": "https://openalex.org/keywords/microbiology",
+        "display_name": "Microbiology",
+        "score": 0.22049254179000854
+      },
+      {
+        "id": "https://openalex.org/keywords/genetics",
+        "display_name": "Genetics",
+        "score": 0.1553700864315033
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C143121216",
+        "wikidata": "https://www.wikidata.org/wiki/Q1330402",
+        "display_name": "Microbiome",
+        "level": 2,
+        "score": 0.8069201111793518
+      },
+      {
+        "id": "https://openalex.org/C501593827",
+        "wikidata": "https://www.wikidata.org/wiki/Q12187",
+        "display_name": "Antibiotics",
+        "level": 2,
+        "score": 0.5631041526794434
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.531647264957428
+      },
+      {
+        "id": "https://openalex.org/C74187038",
+        "wikidata": "https://www.wikidata.org/wiki/Q1418791",
+        "display_name": "Drug discovery",
+        "level": 2,
+        "score": 0.4579327404499054
+      },
+      {
+        "id": "https://openalex.org/C15151743",
+        "wikidata": "https://www.wikidata.org/wiki/Q903778",
+        "display_name": "Metagenomics",
+        "level": 3,
+        "score": 0.4483182430267334
+      },
+      {
+        "id": "https://openalex.org/C2522767166",
+        "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+        "display_name": "Data science",
+        "level": 1,
+        "score": 0.41252461075782776
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.3672543466091156
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.32926660776138306
+      },
+      {
+        "id": "https://openalex.org/C60644358",
+        "wikidata": "https://www.wikidata.org/wiki/Q128570",
+        "display_name": "Bioinformatics",
+        "level": 1,
+        "score": 0.24890395998954773
+      },
+      {
+        "id": "https://openalex.org/C89423630",
+        "wikidata": "https://www.wikidata.org/wiki/Q7193",
+        "display_name": "Microbiology",
+        "level": 1,
+        "score": 0.22049254179000854
+      },
+      {
+        "id": "https://openalex.org/C54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "level": 1,
+        "score": 0.1553700864315033
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1101/2023.08.31.555663",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1101/2023.08.31.555663",
+        "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/11/2023.08.31.555663.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402567",
+          "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I2750212522",
+          "host_organization_name": "Cold Spring Harbor Laboratory",
+          "host_organization_lineage": [
+            "https://openalex.org/I2750212522"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      },
+      {
+        "id": "pmid:37693522",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37693522",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "bioRxiv : the preprint server for biology",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:10491242",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10491242",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10491242/pdf/nihpp-2023.08.31.555663v2.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "bioRxiv",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1101/2023.08.31.555663",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1101/2023.08.31.555663",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/11/2023.08.31.555663.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402567",
+        "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2750212522",
+        "host_organization_name": "Cold Spring Harbor Laboratory",
+        "host_organization_lineage": [
+          "https://openalex.org/I2750212522"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "referenced_works_count": 139,
+    "referenced_works": [
+      "https://openalex.org/W4206677002",
+      "https://openalex.org/W3007309629",
+      "https://openalex.org/W3210778917",
+      "https://openalex.org/W2796712624",
+      "https://openalex.org/W4214943162",
+      "https://openalex.org/W2605129970",
+      "https://openalex.org/W1544835748",
+      "https://openalex.org/W2900536926",
+      "https://openalex.org/W2936188727",
+      "https://openalex.org/W2775879243",
+      "https://openalex.org/W3164329385",
+      "https://openalex.org/W2795309385",
+      "https://openalex.org/W1976579934",
+      "https://openalex.org/W2007274537",
+      "https://openalex.org/W4309621390",
+      "https://openalex.org/W2891160423",
+      "https://openalex.org/W2626858578",
+      "https://openalex.org/W2763715289",
+      "https://openalex.org/W2783984468",
+      "https://openalex.org/W2604454608",
+      "https://openalex.org/W2347061404",
+      "https://openalex.org/W2783718385",
+      "https://openalex.org/W4290466629",
+      "https://openalex.org/W2562261325",
+      "https://openalex.org/W2979730937",
+      "https://openalex.org/W2969673299",
+      "https://openalex.org/W3129601032",
+      "https://openalex.org/W1992775178",
+      "https://openalex.org/W3191779239",
+      "https://openalex.org/W2979238556",
+      "https://openalex.org/W4213332010",
+      "https://openalex.org/W2143485490",
+      "https://openalex.org/W3213835556",
+      "https://openalex.org/W2121350645",
+      "https://openalex.org/W1999137349",
+      "https://openalex.org/W2968334948",
+      "https://openalex.org/W2139119508",
+      "https://openalex.org/W2978901899",
+      "https://openalex.org/W3117992890",
+      "https://openalex.org/W2981913463",
+      "https://openalex.org/W2410393014",
+      "https://openalex.org/W2934656438",
+      "https://openalex.org/W3188372451",
+      "https://openalex.org/W2582554428",
+      "https://openalex.org/W4200175714",
+      "https://openalex.org/W2097892623",
+      "https://openalex.org/W2900629010",
+      "https://openalex.org/W4210606617",
+      "https://openalex.org/W4291885598",
+      "https://openalex.org/W2908796034",
+      "https://openalex.org/W2806420781",
+      "https://openalex.org/W2014014302",
+      "https://openalex.org/W2605880356",
+      "https://openalex.org/W2753961085",
+      "https://openalex.org/W3019706413",
+      "https://openalex.org/W4317242243",
+      "https://openalex.org/W3097405028",
+      "https://openalex.org/W2175270296",
+      "https://openalex.org/W2906960763",
+      "https://openalex.org/W2041678107",
+      "https://openalex.org/W2132662146",
+      "https://openalex.org/W2579003427",
+      "https://openalex.org/W2903333978",
+      "https://openalex.org/W3091921711",
+      "https://openalex.org/W2962201066",
+      "https://openalex.org/W3133321096",
+      "https://openalex.org/W3193749012",
+      "https://openalex.org/W3023413280",
+      "https://openalex.org/W1549447858",
+      "https://openalex.org/W3106031838",
+      "https://openalex.org/W2950747344",
+      "https://openalex.org/W2765678881",
+      "https://openalex.org/W2170747616",
+      "https://openalex.org/W2950954328",
+      "https://openalex.org/W2011301426",
+      "https://openalex.org/W3035965352",
+      "https://openalex.org/W2342249984",
+      "https://openalex.org/W3003257820",
+      "https://openalex.org/W2101234009",
+      "https://openalex.org/W2114850508",
+      "https://openalex.org/W3168568464",
+      "https://openalex.org/W2138122982",
+      "https://openalex.org/W2611281850",
+      "https://openalex.org/W2031611770",
+      "https://openalex.org/W2781226659",
+      "https://openalex.org/W2303656007",
+      "https://openalex.org/W3112376646",
+      "https://openalex.org/W2937346329",
+      "https://openalex.org/W3095583226",
+      "https://openalex.org/W2096476896",
+      "https://openalex.org/W4237629094",
+      "https://openalex.org/W2899542898",
+      "https://openalex.org/W3137047737",
+      "https://openalex.org/W2224056471",
+      "https://openalex.org/W2154776515",
+      "https://openalex.org/W2120683379",
+      "https://openalex.org/W2087064593",
+      "https://openalex.org/W2094519647",
+      "https://openalex.org/W2158714788",
+      "https://openalex.org/W2142678478",
+      "https://openalex.org/W2140874466",
+      "https://openalex.org/W2103441770",
+      "https://openalex.org/W2181523240",
+      "https://openalex.org/W2920716817",
+      "https://openalex.org/W2950049915",
+      "https://openalex.org/W4293055551",
+      "https://openalex.org/W2108234281",
+      "https://openalex.org/W2102619694",
+      "https://openalex.org/W2127322768",
+      "https://openalex.org/W3106988153",
+      "https://openalex.org/W2970147901",
+      "https://openalex.org/W2044044562",
+      "https://openalex.org/W2045204781",
+      "https://openalex.org/W2969443468",
+      "https://openalex.org/W2982531601",
+      "https://openalex.org/W3137444090",
+      "https://openalex.org/W2791848964",
+      "https://openalex.org/W3094708881",
+      "https://openalex.org/W2998197489",
+      "https://openalex.org/W4226148785",
+      "https://openalex.org/W2039718386",
+      "https://openalex.org/W1987750101",
+      "https://openalex.org/W1977191511",
+      "https://openalex.org/W2337777524",
+      "https://openalex.org/W4295929883",
+      "https://openalex.org/W1979973356",
+      "https://openalex.org/W4280502047",
+      "https://openalex.org/W4393596803",
+      "https://openalex.org/W2531800017",
+      "https://openalex.org/W3099878876",
+      "https://openalex.org/W4389890051",
+      "https://openalex.org/W3103145119",
+      "https://openalex.org/W4226435533",
+      "https://openalex.org/W2096525273",
+      "https://openalex.org/W3043115370",
+      "https://openalex.org/W4226250938",
+      "https://openalex.org/W4385351582",
+      "https://openalex.org/W3203343200",
+      "https://openalex.org/W2951254987"
+    ],
+    "related_works": [
+      "https://openalex.org/W638577851",
+      "https://openalex.org/W2968354375",
+      "https://openalex.org/W2359440920",
+      "https://openalex.org/W2889550857",
+      "https://openalex.org/W3013372948",
+      "https://openalex.org/W3135997498",
+      "https://openalex.org/W4242417330",
+      "https://openalex.org/W4388282505",
+      "https://openalex.org/W3198631238",
+      "https://openalex.org/W4255657129"
+    ],
+    "abstract_inverted_index": {
+      "Summary": [
+        0
+      ],
+      "Novel": [
+        1
+      ],
+      "antibiotics": [
+        2
+      ],
+      "are": [
+        3
+      ],
+      "urgently": [
+        4
+      ],
+      "needed": [
+        5
+      ],
+      "to": [
+        6,
+        17,
+        37,
+        74
+      ],
+      "combat": [
+        7
+      ],
+      "the": [
+        8,
+        38,
+        49,
+        68,
+        118,
+        127,
+        147
+      ],
+      "antibiotic-resistance": [
+        9
+      ],
+      "crisis.": [
+        10
+      ],
+      "We": [
+        11,
+        56
+      ],
+      "present": [
+        12
+      ],
+      "a": [
+        13,
+        25,
+        42
+      ],
+      "machine": [
+        14
+      ],
+      "learning-based": [
+        15
+      ],
+      "approach": [
+        16,
+        135
+      ],
+      "predict": [
+        18
+      ],
+      "prokaryotic": [
+        19,
+        140
+      ],
+      "antimicrobial": [
+        20
+      ],
+      "peptides": [
+        21
+      ],
+      "(AMPs)": [
+        22
+      ],
+      "by": [
+        23,
+        62,
+        116
+      ],
+      "leveraging": [
+        24
+      ],
+      "vast": [
+        26
+      ],
+      "dataset": [
+        27
+      ],
+      "of": [
+        28,
+        40,
+        51,
+        71,
+        130,
+        149
+      ],
+      "63,410": [
+        29
+      ],
+      "metagenomes": [
+        30
+      ],
+      "and": [
+        31,
+        92,
+        108
+      ],
+      "87,920": [
+        32
+      ],
+      "microbial": [
+        33
+      ],
+      "genomes.": [
+        34
+      ],
+      "This": [
+        35
+      ],
+      "led": [
+        36
+      ],
+      "creation": [
+        39
+      ],
+      "AMPSphere,": [
+        41
+      ],
+      "comprehensive": [
+        43
+      ],
+      "catalog": [
+        44
+      ],
+      "comprising": [
+        45
+      ],
+      "863,498": [
+        46
+      ],
+      "non-redundant": [
+        47
+      ],
+      "peptides,": [
+        48
+      ],
+      "majority": [
+        50
+      ],
+      "which": [
+        52
+      ],
+      "were": [
+        53,
+        84
+      ],
+      "previously": [
+        54
+      ],
+      "unknown.": [
+        55
+      ],
+      "observed": [
+        57
+      ],
+      "that": [
+        58
+      ],
+      "AMP": [
+        59,
+        137
+      ],
+      "production": [
+        60
+      ],
+      "varies": [
+        61
+      ],
+      "habitat,": [
+        63
+      ],
+      "with": [
+        64
+      ],
+      "animal-associated": [
+        65
+      ],
+      "samples": [
+        66
+      ],
+      "displaying": [
+        67
+      ],
+      "highest": [
+        69
+      ],
+      "proportion": [
+        70
+      ],
+      "AMPs": [
+        72,
+        112
+      ],
+      "compared": [
+        73
+      ],
+      "other": [
+        75
+      ],
+      "habitats.": [
+        76
+      ],
+      "Furthermore,": [
+        77
+      ],
+      "within": [
+        78,
+        139
+      ],
+      "different": [
+        79
+      ],
+      "human-associated": [
+        80
+      ],
+      "microbiota,": [
+        81
+      ],
+      "strain-level": [
+        82
+      ],
+      "differences": [
+        83
+      ],
+      "evident.": [
+        85
+      ],
+      "To": [
+        86
+      ],
+      "validate": [
+        87
+      ],
+      "our": [
+        88,
+        134
+      ],
+      "predictions,": [
+        89
+      ],
+      "we": [
+        90
+      ],
+      "synthesized": [
+        91
+      ],
+      "experimentally": [
+        93
+      ],
+      "tested": [
+        94
+      ],
+      "50": [
+        95
+      ],
+      "AMPs,": [
+        96
+      ],
+      "demonstrating": [
+        97
+      ],
+      "their": [
+        98
+      ],
+      "efficacy": [
+        99
+      ],
+      "against": [
+        100
+      ],
+      "clinically": [
+        101
+      ],
+      "relevant": [
+        102
+      ],
+      "drug-resistant": [
+        103
+      ],
+      "pathogens": [
+        104
+      ],
+      "both": [
+        105
+      ],
+      "in": [
+        106,
+        109
+      ],
+      "vitro": [
+        107
+      ],
+      "vivo.": [
+        110
+      ],
+      "These": [
+        111
+      ],
+      "exhibited": [
+        113
+      ],
+      "antibacterial": [
+        114
+      ],
+      "activity": [
+        115
+      ],
+      "targeting": [
+        117
+      ],
+      "bacterial": [
+        119
+      ],
+      "membrane.": [
+        120
+      ],
+      "Additionally,": [
+        121
+      ],
+      "AMPSphere": [
+        122
+      ],
+      "provides": [
+        123
+      ],
+      "valuable": [
+        124
+      ],
+      "insights": [
+        125
+      ],
+      "into": [
+        126
+      ],
+      "evolutionary": [
+        128
+      ],
+      "origins": [
+        129
+      ],
+      "peptides.": [
+        131
+      ],
+      "In": [
+        132
+      ],
+      "conclusion,": [
+        133
+      ],
+      "identified": [
+        136
+      ],
+      "sequences": [
+        138
+      ],
+      "microbiomes,": [
+        141
+      ],
+      "opening": [
+        142
+      ],
+      "up": [
+        143
+      ],
+      "new": [
+        144
+      ],
+      "avenues": [
+        145
+      ],
+      "for": [
+        146
+      ],
+      "discovery": [
+        148
+      ],
+      "antibiotics.": [
+        150
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 5
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          19
+        ]
+      ],
+      "date-time": "2025-12-19T15:47:37Z",
+      "timestamp": 1766159257723,
+      "version": "3.41.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          31
+        ]
+      ]
+    },
+    "group-title": "Microbiology",
+    "reference-count": 139,
+    "publisher": "Cold Spring Harbor Laboratory",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Summary</jats:title><jats:p>Novel antibiotics are urgently needed to combat the antibiotic-resistance crisis. We present a machine learning-based approach to predict prokaryotic antimicrobial peptides (AMPs) by leveraging a vast dataset of 63,410 metagenomes and 87,920 microbial genomes. This led to the creation of AMPSphere, a comprehensive catalog comprising 863,498 non-redundant peptides, the majority of which were previously unknown. We observed that AMP production varies by habitat, with animal-associated samples displaying the highest proportion of AMPs compared to other habitats. Furthermore, within different human-associated microbiota, strain-level differences were evident. To validate our predictions, we synthesized and experimentally tested 50 AMPs, demonstrating their efficacy against clinically relevant drug-resistant pathogens both in vitro and in vivo. These AMPs exhibited antibacterial activity by targeting the bacterial membrane. Additionally, AMPSphere provides valuable insights into the evolutionary origins of peptides. In conclusion, our approach identified AMP sequences within prokaryotic microbiomes, opening up new avenues for the discovery of antibiotics.</jats:p>",
+    "DOI": "10.1101/2023.08.31.555663",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2023-09-01T04:00:26Z",
+      "timestamp": 1693540826000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 18,
+    "title": [
+      "Computational exploration of the global microbiome for antibiotic discovery"
+    ],
+    "prefix": "10.1101",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1974-1736",
+        "authenticated-orcid": false,
+        "given": "Célio Dias",
+        "family": "Santos-Júnior",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6165-9138",
+        "authenticated-orcid": false,
+        "given": "Marcelo Der Torossian",
+        "family": "Torres",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8046-9831",
+        "authenticated-orcid": false,
+        "given": "Yiqian",
+        "family": "Duan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3907-3904",
+        "authenticated-orcid": false,
+        "given": "Álvaro",
+        "family": "Rodríguez del Río",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8587-4177",
+        "authenticated-orcid": false,
+        "given": "Thomas S.B.",
+        "family": "Schmidt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7676-7975",
+        "authenticated-orcid": false,
+        "given": "Hui",
+        "family": "Chong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0884-8124",
+        "authenticated-orcid": false,
+        "given": "Anthony",
+        "family": "Fullam",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2841-872X",
+        "authenticated-orcid": false,
+        "given": "Kuhn",
+        "family": "Michael",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8967-0531",
+        "authenticated-orcid": false,
+        "given": "Chengkai",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0695-3331",
+        "authenticated-orcid": false,
+        "given": "Amy",
+        "family": "Houseman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5321-522X",
+        "authenticated-orcid": false,
+        "given": "Jelena",
+        "family": "Somborski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5149-7737",
+        "authenticated-orcid": false,
+        "given": "Anna",
+        "family": "Vines",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4531-3970",
+        "authenticated-orcid": false,
+        "given": "Xing-Ming",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2627-833X",
+        "authenticated-orcid": false,
+        "given": "Peer",
+        "family": "Bork",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4195-5025",
+        "authenticated-orcid": false,
+        "given": "Jaime",
+        "family": "Huerta-Cepas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2005-5629",
+        "authenticated-orcid": false,
+        "given": "Cesar",
+        "family": "de la Fuente-Nunez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9280-7885",
+        "authenticated-orcid": false,
+        "given": "Luis Pedro",
+        "family": "Coelho",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "246",
+    "reference": [
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0140-6736(21)02724-0"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2020.01.021"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41551-021-00801-1"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-018-03746-3"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-022-01226-0"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00792-017-0931-5"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrmicro2937"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.compbiolchem.2018.11.019"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-981-13-3588-4_1"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12918-017-0503-4"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41579-021-00569-w"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2174/1381612824666180327165012"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cbic.200800438"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ja.2013.138"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.11.15.516443"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aat2456"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chom.2017.05.004"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrmicro.2017.104"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aap8775"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/mBio.00259-17"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1523899113"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.biotechadv.2018.01.004"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/antibiotics11081062"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mahlapuu, M. , Håkansson, J. , Ringstad, L. , and Björn, C . (2016). Antimicrobial Peptides: An Emerging Category of Therapeutic Agents. Frontiers in Cellular and Infection Microbiology 6.",
+        "DOI": "10.3389/fcimb.2016.00194"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmicb.2019.02261"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1501-z"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-021-01256-2"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/AEM.02150-07"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/jam.15250"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-12364-6"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsnano.1c04496"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-11-119"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/JB.00353-21"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-biochem-070611-102400"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fgene.2013.00286"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2019.07.016"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2014.08.032"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btaa653/5873588"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aax9176"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7717/peerj.10555"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz1002"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.22037/jps.v7i3.12584"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmicb.2019.00539"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkab651"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbx005"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-04233-4"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/protein/13.3.149"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky1085"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.01.26.477801"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/ijms23169123"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/mSystems.00281-18"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmicb.2018.01298"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/mic.0.064782-0"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0174701"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41564-017-0012-7"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-020-0501-8"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-05620-1"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/NAR/GKAA991"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv1278"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2018.12.015"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/282109a0"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1260580"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/slct.201601590"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42003-018-0224-2"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2012379117"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Morris, F.C. , Dexter, C. , Kostoulias, X. , Uddin, M.I. , and Peleg, A.Y . (2019). The Mechanisms of Disease Caused by Acinetobacter baumannii. Frontiers in Microbiology 10.",
+        "DOI": "10.3389/fmicb.2019.01601"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40168-020-00981-z"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fmolb.2021.705069"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aau5480"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/mmi.12078"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/scitranslmed.aay5445"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s40168-019-0684-8"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5334/jors.161"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bts565"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.3988"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.76",
+        "unstructured": "Van Rossum, G. (2020). Python Release Python 3.8.2. Python.org. https://www.python.org/downloads/release/python-382/."
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCSE.2007.55"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2649-2"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.25080/Majora-92bf1922-00a"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-019-0686-2"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.81",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine Learning in Python",
+        "volume": "12",
+        "year": "2011",
+        "journal-title": "Machine Learning in Python"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.82",
+        "unstructured": "The scikit-bio development team (2020). scikit-bio: A Bioinformatics Library for Data Scientists, Students, and Developers. http://scikit-bio.org/"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp163"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.06.03.446934"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1002195"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btx285"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0009490"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/225342"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymeth.2016.02.020"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkaa1100"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz260"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkaa913"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/database/bas003"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gku1130"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky1061"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btab184"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv1344"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.24936"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp164"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-2836(81)90087-5"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.87.6.2264"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/25.17.3389"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.103",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1471-2105-10-421"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.104",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1261/rna.2536111"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp324"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.106",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.25080/Majora-92bf1922-011"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-08844-4"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1099/mgen.0.000260"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.109",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2022.06.27.497766"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btp352"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq033"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/msb.2011.75"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/femsml/uqaa002"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.114",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msz197"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.115",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/molbev/msv035"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.116",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmeth.3176"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.117",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/pro.3711"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.118",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz935"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.119",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/molecules26061664"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.120",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bty179"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.121",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btaa917"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.122",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12859-019-3327-y"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.123",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12864-022-08310-4"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.124",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1367-5931(99)00024-1"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.125",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/psc.479"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.126",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/c4ra02458c"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.127",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/psc.2836"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.128",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41591-022-01913-0"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.129",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nprot.2007.521"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.130",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkac345"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.131",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5281/zenodo.4606582"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.132",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nmicrobiol.2016.180"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.133",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7717/peerj.10555"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.134",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shi G , Kang X , Dong F , et al. DRAMP 3.0: an enhanced comprehensive data repository of antimicrobial peptides. Nucleic Acids Research 2021.",
+        "DOI": "10.1093/nar/gkab651"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.135",
+        "doi-asserted-by": "crossref",
+        "first-page": "252",
+        "DOI": "10.1038/s41586-021-04233-4",
+        "article-title": "Towards the biogeography of prokaryotic genes",
+        "volume": "601",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.136",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gky1085"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.137",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/PRO.3711"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.138",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz935"
+      },
+      {
+        "key": "2023091414150959000_2023.08.31.555663v2.139",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cantalapiedra CP , Hernández-Plaza A , Letunic I , Bork P , Huerta-Cepas J. eggNOG-mapper v2: Functional Annotation, Orthology Assignments, and Domain Prediction at the Metagenomic Scale.; 2021:2021.06.03.446934.",
+        "DOI": "10.1101/2021.06.03.446934"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.31.555663",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          3
+        ]
+      ],
+      "date-time": "2025-06-03T02:28:03Z",
+      "timestamp": 1748917683000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.08.31.555663"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          31
+        ]
+      ]
+    },
+    "references-count": 139,
+    "URL": "https://doi.org/10.1101/2023.08.31.555663",
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1016/j.cell.2024.05.013",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          31
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

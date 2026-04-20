@@ -1,0 +1,866 @@
+{
+  "doi": "https://openalex.org/W4319731277",
+  "openalex": {
+    "id": "https://openalex.org/W4319731277",
+    "doi": "https://doi.org/10.1186/s13059-023-02865-5",
+    "title": "REPAC: analysis of alternative polyadenylation from RNA-sequencing data",
+    "display_name": "REPAC: analysis of alternative polyadenylation from RNA-sequencing data",
+    "publication_year": 2023,
+    "publication_date": "2023-02-09",
+    "ids": {
+      "openalex": "https://openalex.org/W4319731277",
+      "doi": "https://doi.org/10.1186/s13059-023-02865-5",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/36759904"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1186/s13059-023-02865-5",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1186/s13059-023-02865-5",
+      "pdf_url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-023-02865-5",
+      "source": {
+        "id": "https://openalex.org/S81160022",
+        "display_name": "Genome biology",
+        "issn_l": "1474-7596",
+        "issn": [
+          "1474-7596",
+          "1474-760X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320256",
+        "host_organization_name": "BioMed Central",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320256",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "BioMed Central",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Genome Biology",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-023-02865-5",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5027111342",
+          "display_name": "Eddie L. Imada",
+          "orcid": "https://orcid.org/0000-0001-9527-3703"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4387153466",
+            "display_name": "Weill Cornell Medicine",
+            "ror": "https://ror.org/02r109517",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205783295",
+              "https://openalex.org/I4387153466"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I205783295",
+            "display_name": "Cornell University",
+            "ror": "https://ror.org/05bnh6r87",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Eddie L. Imada",
+        "raw_affiliation_strings": [
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, USA. eimada@med.cornell.edu",
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, USA. eimada@med.cornell.edu",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, USA",
+            "institution_ids": [
+              "https://openalex.org/I205783295",
+              "https://openalex.org/I4387153466"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040039068",
+          "display_name": "Christopher Wilks",
+          "orcid": "https://orcid.org/0000-0002-9838-502X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Christopher Wilks",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Johns Hopkins University, Baltimore, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Johns Hopkins University, Baltimore, USA",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5009556658",
+          "display_name": "Ben Langmead",
+          "orcid": "https://orcid.org/0000-0003-2437-1976"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ben Langmead",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Johns Hopkins University, Baltimore, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Johns Hopkins University, Baltimore, USA",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5079978893",
+          "display_name": "Luigi Marchionni",
+          "orcid": "https://orcid.org/0000-0002-7336-8071"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4387153466",
+            "display_name": "Weill Cornell Medicine",
+            "ror": "https://ror.org/02r109517",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205783295",
+              "https://openalex.org/I4387153466"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I205783295",
+            "display_name": "Cornell University",
+            "ror": "https://ror.org/05bnh6r87",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Luigi Marchionni",
+        "raw_affiliation_strings": [
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, USA. marchion@med.cornell.edu",
+          "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, USA. marchion@med.cornell.edu",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, USA",
+            "institution_ids": [
+              "https://openalex.org/I205783295",
+              "https://openalex.org/I4387153466"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5027111342"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4387153466",
+      "https://openalex.org/I205783295"
+    ],
+    "apc_list": {
+      "value": 4090,
+      "currency": "EUR",
+      "value_usd": 5030
+    },
+    "apc_paid": {
+      "value": 4090,
+      "currency": "EUR",
+      "value_usd": 5030
+    },
+    "fwci": 2.97072652,
+    "has_fulltext": true,
+    "cited_by_count": 16,
+    "citation_normalized_percentile": {
+      "value": 0.89766755,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "24",
+      "issue": "1",
+      "first_page": "22",
+      "last_page": "22"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10604",
+      "display_name": "RNA Research and Splicing",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10604",
+        "display_name": "RNA Research and Splicing",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11482",
+        "display_name": "RNA modifications and cancer",
+        "score": 0.9993000030517578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13157",
+        "display_name": "Cancer-related gene regulation",
+        "score": 0.9968000054359436,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/polyadenylation",
+        "display_name": "Polyadenylation",
+        "score": 0.8828883171081543
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.8011162281036377
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.6950438022613525
+      },
+      {
+        "id": "https://openalex.org/keywords/rna",
+        "display_name": "RNA",
+        "score": 0.5918874740600586
+      },
+      {
+        "id": "https://openalex.org/keywords/dna-sequencing",
+        "display_name": "DNA sequencing",
+        "score": 0.519925057888031
+      },
+      {
+        "id": "https://openalex.org/keywords/genetics",
+        "display_name": "Genetics",
+        "score": 0.49666744470596313
+      },
+      {
+        "id": "https://openalex.org/keywords/deep-sequencing",
+        "display_name": "Deep sequencing",
+        "score": 0.4529208540916443
+      },
+      {
+        "id": "https://openalex.org/keywords/human-genetics",
+        "display_name": "Human genetics",
+        "score": 0.43524715304374695
+      },
+      {
+        "id": "https://openalex.org/keywords/mechanism",
+        "display_name": "Mechanism (biology)",
+        "score": 0.431894451379776
+      },
+      {
+        "id": "https://openalex.org/keywords/gene",
+        "display_name": "Gene",
+        "score": 0.24517661333084106
+      },
+      {
+        "id": "https://openalex.org/keywords/genome",
+        "display_name": "Genome",
+        "score": 0.1205945611000061
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C142575336",
+        "wikidata": "https://www.wikidata.org/wiki/Q412148",
+        "display_name": "Polyadenylation",
+        "level": 4,
+        "score": 0.8828883171081543
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.8011162281036377
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.6950438022613525
+      },
+      {
+        "id": "https://openalex.org/C67705224",
+        "wikidata": "https://www.wikidata.org/wiki/Q11053",
+        "display_name": "RNA",
+        "level": 3,
+        "score": 0.5918874740600586
+      },
+      {
+        "id": "https://openalex.org/C51679486",
+        "wikidata": "https://www.wikidata.org/wiki/Q380546",
+        "display_name": "DNA sequencing",
+        "level": 3,
+        "score": 0.519925057888031
+      },
+      {
+        "id": "https://openalex.org/C54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "level": 1,
+        "score": 0.49666744470596313
+      },
+      {
+        "id": "https://openalex.org/C132917006",
+        "wikidata": "https://www.wikidata.org/wiki/Q5250436",
+        "display_name": "Deep sequencing",
+        "level": 4,
+        "score": 0.4529208540916443
+      },
+      {
+        "id": "https://openalex.org/C47042493",
+        "wikidata": "https://www.wikidata.org/wiki/Q265799",
+        "display_name": "Human genetics",
+        "level": 3,
+        "score": 0.43524715304374695
+      },
+      {
+        "id": "https://openalex.org/C89611455",
+        "wikidata": "https://www.wikidata.org/wiki/Q6804646",
+        "display_name": "Mechanism (biology)",
+        "level": 2,
+        "score": 0.431894451379776
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.24517661333084106
+      },
+      {
+        "id": "https://openalex.org/C141231307",
+        "wikidata": "https://www.wikidata.org/wiki/Q7020",
+        "display_name": "Genome",
+        "level": 3,
+        "score": 0.1205945611000061
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D026723",
+        "descriptor_name": "Polyadenylation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D059014",
+        "descriptor_name": "High-Throughput Nucleotide Sequencing",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D020413",
+        "descriptor_name": "3' Untranslated Regions",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012333",
+        "descriptor_name": "RNA, Messenger",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D017423",
+        "descriptor_name": "Sequence Analysis, RNA",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D026723",
+        "descriptor_name": "Polyadenylation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D059014",
+        "descriptor_name": "High-Throughput Nucleotide Sequencing",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D020413",
+        "descriptor_name": "3' Untranslated Regions",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012333",
+        "descriptor_name": "RNA, Messenger",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D017423",
+        "descriptor_name": "Sequence Analysis, RNA",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1186/s13059-023-02865-5",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1186/s13059-023-02865-5",
+        "pdf_url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-023-02865-5",
+        "source": {
+          "id": "https://openalex.org/S81160022",
+          "display_name": "Genome biology",
+          "issn_l": "1474-7596",
+          "issn": [
+            "1474-7596",
+            "1474-760X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320256",
+          "host_organization_name": "BioMed Central",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320256",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "BioMed Central",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Genome Biology",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:36759904",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/36759904",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Genome biology",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:9912678",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9912678",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9912678/pdf/13059_2023_Article_2865.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Genome Biol",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:7e968b6a62e94e5794bc75f7fce5eadb",
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/7e968b6a62e94e5794bc75f7fce5eadb",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Genome Biology, Vol 24, Iss 1, Pp 1-14 (2023)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1186/s13059-023-02865-5",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1186/s13059-023-02865-5",
+      "pdf_url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-023-02865-5",
+      "source": {
+        "id": "https://openalex.org/S81160022",
+        "display_name": "Genome biology",
+        "issn_l": "1474-7596",
+        "issn": [
+          "1474-7596",
+          "1474-760X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320256",
+        "host_organization_name": "BioMed Central",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320256",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "BioMed Central",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Genome Biology",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G5607769708",
+        "display_name": null,
+        "funder_award_id": "R35GM139602",
+        "funder_id": "https://openalex.org/F4320306080",
+        "funder_display_name": "Foundation for the National Institutes of Health"
+      },
+      {
+        "id": "https://openalex.org/G761683009",
+        "display_name": null,
+        "funder_award_id": "W81XWH-16-1-0739",
+        "funder_id": "https://openalex.org/F4320338485",
+        "funder_display_name": "DOD Prostate Cancer Research Program"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306078",
+        "display_name": "U.S. Department of Defense",
+        "ror": "https://ror.org/0447fe631"
+      },
+      {
+        "id": "https://openalex.org/F4320306080",
+        "display_name": "Foundation for the National Institutes of Health",
+        "ror": "https://ror.org/00k86s890"
+      },
+      {
+        "id": "https://openalex.org/F4320332161",
+        "display_name": "National Institutes of Health",
+        "ror": "https://ror.org/01cwqze88"
+      },
+      {
+        "id": "https://openalex.org/F4320332513",
+        "display_name": "Weill Cornell Medical College",
+        "ror": "https://ror.org/02r109517"
+      },
+      {
+        "id": "https://openalex.org/F4320337354",
+        "display_name": "National Institute of General Medical Sciences",
+        "ror": "https://ror.org/04q48ey07"
+      },
+      {
+        "id": "https://openalex.org/F4320338273",
+        "display_name": "Congressionally Directed Medical Research Programs",
+        "ror": "https://ror.org/03g2zjp07"
+      },
+      {
+        "id": "https://openalex.org/F4320338485",
+        "display_name": "DOD Prostate Cancer Research Program",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4319731277.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4319731277.grobid-xml"
+    },
+    "referenced_works_count": 33,
+    "referenced_works": [
+      "https://openalex.org/W2108264419",
+      "https://openalex.org/W2621632799",
+      "https://openalex.org/W2163741321",
+      "https://openalex.org/W2795614118",
+      "https://openalex.org/W2534208693",
+      "https://openalex.org/W2036065307",
+      "https://openalex.org/W2904250115",
+      "https://openalex.org/W3216633781",
+      "https://openalex.org/W3176141851",
+      "https://openalex.org/W2592811885",
+      "https://openalex.org/W1963952972",
+      "https://openalex.org/W2114672936",
+      "https://openalex.org/W2016450373",
+      "https://openalex.org/W3036098465",
+      "https://openalex.org/W2099915768",
+      "https://openalex.org/W2009580887",
+      "https://openalex.org/W1964797499",
+      "https://openalex.org/W2166635088",
+      "https://openalex.org/W1988458651",
+      "https://openalex.org/W2093067368",
+      "https://openalex.org/W2025316432",
+      "https://openalex.org/W2176081522",
+      "https://openalex.org/W2739038514",
+      "https://openalex.org/W2073145822",
+      "https://openalex.org/W2197124664",
+      "https://openalex.org/W2053057991",
+      "https://openalex.org/W4241872665",
+      "https://openalex.org/W2146512944",
+      "https://openalex.org/W2137526110",
+      "https://openalex.org/W2110065044",
+      "https://openalex.org/W6969302876",
+      "https://openalex.org/W2466314544",
+      "https://openalex.org/W2980708325"
+    ],
+    "related_works": [
+      "https://openalex.org/W1969673184",
+      "https://openalex.org/W3132115146",
+      "https://openalex.org/W2947266077",
+      "https://openalex.org/W2619166255",
+      "https://openalex.org/W1539994441",
+      "https://openalex.org/W2472738690",
+      "https://openalex.org/W3011303654",
+      "https://openalex.org/W2359210733",
+      "https://openalex.org/W1970342753",
+      "https://openalex.org/W3089600567"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 10
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-01-25T03:40:55.926884",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {}
+}

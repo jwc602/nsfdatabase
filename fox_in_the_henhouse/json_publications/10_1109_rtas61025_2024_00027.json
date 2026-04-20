@@ -1,0 +1,1549 @@
+{
+  "doi": "10.1109/rtas61025.2024.00027",
+  "openalex": {
+    "id": "https://openalex.org/W4400034380",
+    "doi": "https://doi.org/10.1109/rtas61025.2024.00027",
+    "title": "OmniWasm: Efficient, Granular Fault Isolation and Control-Flow Integrity for Arm Microcontrollers",
+    "display_name": "OmniWasm: Efficient, Granular Fault Isolation and Control-Flow Integrity for Arm Microcontrollers",
+    "publication_year": 2024,
+    "publication_date": "2024-05-13",
+    "ids": {
+      "openalex": "https://openalex.org/W4400034380",
+      "doi": "https://doi.org/10.1109/rtas61025.2024.00027"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/rtas61025.2024.00027",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/rtas61025.2024.00027",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2024 IEEE 30th Real-Time and Embedded Technology and Applications Symposium (RTAS)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100597495",
+          "display_name": "Maorui Bai",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I193531525",
+            "display_name": "George Washington University",
+            "ror": "https://ror.org/00y4zzh67",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I193531525"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Maorui Bai",
+        "raw_affiliation_strings": [
+          "The George Washington University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The George Washington University",
+            "institution_ids": [
+              "https://openalex.org/I193531525"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5050190534",
+          "display_name": "Runyu Pan",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154099455",
+            "display_name": "Shandong University",
+            "ror": "https://ror.org/0207yh398",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154099455"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Runyu Pan",
+        "raw_affiliation_strings": [
+          "Shandong University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shandong University",
+            "institution_ids": [
+              "https://openalex.org/I154099455"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5026572895",
+          "display_name": "Gabriel Parmer",
+          "orcid": "https://orcid.org/0000-0003-1343-4492"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I193531525",
+            "display_name": "George Washington University",
+            "ror": "https://ror.org/00y4zzh67",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I193531525"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Gabriel Parmer",
+        "raw_affiliation_strings": [
+          "The George Washington University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The George Washington University",
+            "institution_ids": [
+              "https://openalex.org/I193531525"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.63877855,
+    "has_fulltext": false,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.67808408,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 95
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "239",
+      "last_page": "251"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11512",
+      "display_name": "Anomaly Detection Techniques and Applications",
+      "score": 0.974399983882904,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11512",
+        "display_name": "Anomaly Detection Techniques and Applications",
+        "score": 0.974399983882904,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.9430999755859375,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10917",
+        "display_name": "Smart Grid Security and Resilience",
+        "score": 0.942799985408783,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/microcontroller",
+        "display_name": "Microcontroller",
+        "score": 0.7715363502502441
+      },
+      {
+        "id": "https://openalex.org/keywords/isolation",
+        "display_name": "Isolation (microbiology)",
+        "score": 0.7194567918777466
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5643172264099121
+      },
+      {
+        "id": "https://openalex.org/keywords/control-flow",
+        "display_name": "Control flow",
+        "score": 0.5217293500900269
+      },
+      {
+        "id": "https://openalex.org/keywords/fault-detection-and-isolation",
+        "display_name": "Fault detection and isolation",
+        "score": 0.5047465562820435
+      },
+      {
+        "id": "https://openalex.org/keywords/flow",
+        "display_name": "Flow (mathematics)",
+        "score": 0.45030248165130615
+      },
+      {
+        "id": "https://openalex.org/keywords/embedded-system",
+        "display_name": "Embedded system",
+        "score": 0.43853840231895447
+      },
+      {
+        "id": "https://openalex.org/keywords/programming-language",
+        "display_name": "Programming language",
+        "score": 0.08655154705047607
+      },
+      {
+        "id": "https://openalex.org/keywords/actuator",
+        "display_name": "Actuator",
+        "score": 0.07665708661079407
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.07240146398544312
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.072031170129776
+      },
+      {
+        "id": "https://openalex.org/keywords/mechanics",
+        "display_name": "Mechanics",
+        "score": 0.06380635499954224
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.060053080320358276
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C173018170",
+        "wikidata": "https://www.wikidata.org/wiki/Q165678",
+        "display_name": "Microcontroller",
+        "level": 2,
+        "score": 0.7715363502502441
+      },
+      {
+        "id": "https://openalex.org/C2775941552",
+        "wikidata": "https://www.wikidata.org/wiki/Q25212305",
+        "display_name": "Isolation (microbiology)",
+        "level": 2,
+        "score": 0.7194567918777466
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5643172264099121
+      },
+      {
+        "id": "https://openalex.org/C160191386",
+        "wikidata": "https://www.wikidata.org/wiki/Q868299",
+        "display_name": "Control flow",
+        "level": 2,
+        "score": 0.5217293500900269
+      },
+      {
+        "id": "https://openalex.org/C152745839",
+        "wikidata": "https://www.wikidata.org/wiki/Q5438153",
+        "display_name": "Fault detection and isolation",
+        "level": 3,
+        "score": 0.5047465562820435
+      },
+      {
+        "id": "https://openalex.org/C38349280",
+        "wikidata": "https://www.wikidata.org/wiki/Q1434290",
+        "display_name": "Flow (mathematics)",
+        "level": 2,
+        "score": 0.45030248165130615
+      },
+      {
+        "id": "https://openalex.org/C149635348",
+        "wikidata": "https://www.wikidata.org/wiki/Q193040",
+        "display_name": "Embedded system",
+        "level": 1,
+        "score": 0.43853840231895447
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.08655154705047607
+      },
+      {
+        "id": "https://openalex.org/C172707124",
+        "wikidata": "https://www.wikidata.org/wiki/Q423488",
+        "display_name": "Actuator",
+        "level": 2,
+        "score": 0.07665708661079407
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.07240146398544312
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.072031170129776
+      },
+      {
+        "id": "https://openalex.org/C57879066",
+        "wikidata": "https://www.wikidata.org/wiki/Q41217",
+        "display_name": "Mechanics",
+        "level": 1,
+        "score": 0.06380635499954224
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.060053080320358276
+      },
+      {
+        "id": "https://openalex.org/C89423630",
+        "wikidata": "https://www.wikidata.org/wiki/Q7193",
+        "display_name": "Microbiology",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/rtas61025.2024.00027",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/rtas61025.2024.00027",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2024 IEEE 30th Real-Time and Embedded Technology and Applications Symposium (RTAS)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.6800000071525574,
+        "id": "https://metadata.un.org/sdg/13",
+        "display_name": "Climate action"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G7782065390",
+        "display_name": null,
+        "funder_award_id": "N000142212084",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      },
+      {
+        "id": "https://openalex.org/G567444735",
+        "display_name": null,
+        "funder_award_id": "CPS 1837382,CNS 1815690",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 27,
+    "referenced_works": [
+      "https://openalex.org/W6805175422",
+      "https://openalex.org/W2062340141",
+      "https://openalex.org/W2138538875",
+      "https://openalex.org/W2937703543",
+      "https://openalex.org/W2109219878",
+      "https://openalex.org/W2117798902",
+      "https://openalex.org/W2089448621",
+      "https://openalex.org/W2625141509",
+      "https://openalex.org/W3089947917",
+      "https://openalex.org/W3152950651",
+      "https://openalex.org/W2979976652",
+      "https://openalex.org/W2932657656",
+      "https://openalex.org/W2762171171",
+      "https://openalex.org/W1982216551",
+      "https://openalex.org/W2113350481",
+      "https://openalex.org/W4232751114",
+      "https://openalex.org/W6731783927",
+      "https://openalex.org/W2009248821",
+      "https://openalex.org/W2930837359",
+      "https://openalex.org/W2027827874",
+      "https://openalex.org/W4283724762",
+      "https://openalex.org/W3008498533",
+      "https://openalex.org/W6779398090",
+      "https://openalex.org/W2887010826",
+      "https://openalex.org/W2113173252",
+      "https://openalex.org/W2577141201",
+      "https://openalex.org/W2752929869"
+    ],
+    "related_works": [
+      "https://openalex.org/W4316095964",
+      "https://openalex.org/W2383001583",
+      "https://openalex.org/W2771395446",
+      "https://openalex.org/W2131084560",
+      "https://openalex.org/W3112038843",
+      "https://openalex.org/W3209836052",
+      "https://openalex.org/W2088310429",
+      "https://openalex.org/W2161641032",
+      "https://openalex.org/W3091627987",
+      "https://openalex.org/W2147310439"
+    ],
+    "abstract_inverted_index": {
+      "Traditional": [
+        0
+      ],
+      "embedded": [
+        1,
+        178
+      ],
+      "systems": [
+        2,
+        17,
+        33
+      ],
+      "often": [
+        3,
+        43,
+        80
+      ],
+      "ignore": [
+        4
+      ],
+      "security,": [
+        5
+      ],
+      "instead": [
+        6
+      ],
+      "focusing": [
+        7
+      ],
+      "on": [
+        8,
+        82,
+        89,
+        98,
+        131,
+        176
+      ],
+      "simplicity.": [
+        9
+      ],
+      "Unfortunately,": [
+        10
+      ],
+      "increasingly": [
+        11
+      ],
+      "per-vasive": [
+        12
+      ],
+      "network": [
+        13
+      ],
+      "connectivity": [
+        14
+      ],
+      "exposes": [
+        15
+      ],
+      "these": [
+        16,
+        141
+      ],
+      "to": [
+        18,
+        48,
+        60,
+        72,
+        154,
+        170,
+        180
+      ],
+      "malicious": [
+        19,
+        51
+      ],
+      "input,": [
+        20
+      ],
+      "and": [
+        21,
+        29,
+        97,
+        127,
+        163,
+        199
+      ],
+      "the": [
+        22,
+        35,
+        55,
+        62,
+        138,
+        168,
+        207
+      ],
+      "consolidation": [
+        23
+      ],
+      "of": [
+        24,
+        26,
+        37,
+        57,
+        64,
+        140,
+        148,
+        209
+      ],
+      "code": [
+        25
+      ],
+      "various": [
+        27
+      ],
+      "qualities": [
+        28
+      ],
+      "sources": [
+        30
+      ],
+      "onto": [
+        31
+      ],
+      "single": [
+        32
+      ],
+      "increases": [
+        34
+      ],
+      "chance": [
+        36
+      ],
+      "errant": [
+        38
+      ],
+      "behavior.": [
+        39
+      ],
+      "Microcontrollers": [
+        40
+      ],
+      "do": [
+        41
+      ],
+      "not": [
+        42,
+        68
+      ],
+      "have": [
+        44
+      ],
+      "advanced": [
+        45
+      ],
+      "security": [
+        46,
+        75
+      ],
+      "facilities": [
+        47,
+        190
+      ],
+      "help": [
+        49
+      ],
+      "prevent": [
+        50
+      ],
+      "threats": [
+        52
+      ],
+      "-": [
+        53
+      ],
+      "even": [
+        54
+      ],
+      "use": [
+        56
+      ],
+      "memory": [
+        58,
+        85,
+        90,
+        152,
+        158,
+        165,
+        223
+      ],
+      "protection": [
+        59
+      ],
+      "constrain": [
+        61
+      ],
+      "ill-effects": [
+        63
+      ],
+      "a": [
+        65,
+        145
+      ],
+      "compromise": [
+        66
+      ],
+      "is": [
+        67
+      ],
+      "pervasive.": [
+        69
+      ],
+      "Software": [
+        70
+      ],
+      "techniques": [
+        71,
+        142,
+        218
+      ],
+      "provide": [
+        73,
+        124
+      ],
+      "strong": [
+        74
+      ],
+      "properties": [
+        76
+      ],
+      "for": [
+        77,
+        234
+      ],
+      "application": [
+        78,
+        147
+      ],
+      "execution": [
+        79
+      ],
+      "focus": [
+        81
+      ],
+      "limiting": [
+        83
+      ],
+      "accessible": [
+        84
+      ],
+      "through": [
+        86,
+        92,
+        108
+      ],
+      "dynamic": [
+        87
+      ],
+      "checks": [
+        88
+      ],
+      "accesses": [
+        91,
+        159,
+        166
+      ],
+      "software": [
+        93,
+        101,
+        215
+      ],
+      "fault": [
+        94
+      ],
+      "isolation": [
+        95
+      ],
+      "(SFI),": [
+        96
+      ],
+      "ensuring": [
+        99
+      ],
+      "that": [
+        100,
+        123,
+        193,
+        206,
+        228
+      ],
+      "cannot": [
+        102
+      ],
+      "suffer": [
+        103
+      ],
+      "from": [
+        104
+      ],
+      "control-flow": [
+        105,
+        109
+      ],
+      "hijack": [
+        106
+      ],
+      "attacks": [
+        107
+      ],
+      "integrity": [
+        110
+      ],
+      "(CFI).": [
+        111
+      ],
+      "This": [
+        112
+      ],
+      "paper": [
+        113
+      ],
+      "introduces": [
+        114
+      ],
+      "OmniWasm,": [
+        115
+      ],
+      "which": [
+        116,
+        120
+      ],
+      "provides": [
+        117
+      ],
+      "sandboxes": [
+        118,
+        185
+      ],
+      "in": [
+        119
+      ],
+      "applications": [
+        121
+      ],
+      "execute": [
+        122
+      ],
+      "both": [
+        125,
+        155
+      ],
+      "SFI": [
+        126
+      ],
+      "CFI.": [
+        128,
+        172
+      ],
+      "OmniWasm": [
+        129,
+        210,
+        229
+      ],
+      "focuses": [
+        130,
+        175
+      ],
+      "two": [
+        132
+      ],
+      "core": [
+        133
+      ],
+      "contributions.": [
+        134
+      ],
+      "First,": [
+        135
+      ],
+      "it": [
+        136,
+        174
+      ],
+      "reduces": [
+        137
+      ],
+      "overhead": [
+        139
+      ],
+      "by": [
+        143,
+        186
+      ],
+      "using": [
+        144,
+        161
+      ],
+      "novel": [
+        146
+      ],
+      "common,": [
+        149
+      ],
+      "but": [
+        150
+      ],
+      "obscure": [
+        151
+      ],
+      "operations": [
+        153
+      ],
+      "limit": [
+        156
+      ],
+      "sandboxed": [
+        157
+      ],
+      "(SFI)": [
+        160
+      ],
+      "hardware,": [
+        162
+      ],
+      "allow": [
+        164
+      ],
+      "outside": [
+        167
+      ],
+      "sandbox": [
+        169
+      ],
+      "enable": [
+        171
+      ],
+      "Second,": [
+        173
+      ],
+      "enabling": [
+        177
+      ],
+      "soft-ware": [
+        179
+      ],
+      "be": [
+        181
+      ],
+      "decomposed": [
+        182
+      ],
+      "into": [
+        183
+      ],
+      "multiple": [
+        184
+      ],
+      "providing": [
+        187,
+        200,
+        221
+      ],
+      "optimized": [
+        188
+      ],
+      "communication": [
+        189,
+        236
+      ],
+      "between": [
+        191
+      ],
+      "them": [
+        192
+      ],
+      "avoid": [
+        194
+      ],
+      "thread": [
+        195
+      ],
+      "context": [
+        196
+      ],
+      "switching": [
+        197
+      ],
+      "overheads": [
+        198,
+        208
+      ],
+      "single-copy": [
+        201
+      ],
+      "message": [
+        202,
+        239
+      ],
+      "passing.": [
+        203
+      ],
+      "We": [
+        204,
+        225
+      ],
+      "show": [
+        205,
+        227
+      ],
+      "are": [
+        211
+      ],
+      "better": [
+        212,
+        222
+      ],
+      "than": [
+        213
+      ],
+      "existing": [
+        214
+      ],
+      "address": [
+        216
+      ],
+      "validation": [
+        217
+      ],
+      "while": [
+        219
+      ],
+      "also": [
+        220,
+        226
+      ],
+      "utilization.": [
+        224
+      ],
+      "enables": [
+        230
+      ],
+      "significant": [
+        231
+      ],
+      "performance": [
+        232
+      ],
+      "gains": [
+        233
+      ],
+      "inter-sandbox": [
+        235
+      ],
+      "across": [
+        237
+      ],
+      "varying": [
+        238
+      ],
+      "sizes.": [
+        240
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          7
+        ]
+      ],
+      "date-time": "2025-06-07T04:51:47Z",
+      "timestamp": 1749271907618
+    },
+    "reference-count": 43,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              13
+            ]
+          ],
+          "date-time": "2024-05-13T00:00:00Z",
+          "timestamp": 1715558400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              13
+            ]
+          ],
+          "date-time": "2024-05-13T00:00:00Z",
+          "timestamp": 1715558400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "CPS 1837382,CNS 1815690"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CPS 1837382,CNS 1815690"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N000142212084"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N000142212084"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.1109/rtas61025.2024.00027",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          26
+        ]
+      ],
+      "date-time": "2024-06-26T17:54:16Z",
+      "timestamp": 1719424456000
+    },
+    "page": "239-251",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "OmniWasm: Efficient, Granular Fault Isolation and Control-Flow Integrity for Arm Microcontrollers"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Maorui",
+        "family": "Bai",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "The George Washington University"
+          }
+        ]
+      },
+      {
+        "given": "Runyu",
+        "family": "Pan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shandong University"
+          }
+        ]
+      },
+      {
+        "given": "Gabriel",
+        "family": "Parmer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The George Washington University"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "article-title": "In-kernel control-flow integrity on commodity oses using arm pointer authentication",
+        "volume-title": "31 st USENIX Security Symposium (USENIX Security)",
+        "author": "Yoo",
+        "key": "ref1"
+      },
+      {
+        "article-title": "Software-based fault isolation",
+        "volume-title": "Proceedings of the 14th SOSP",
+        "author": "Wahbe",
+        "key": "ref2"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP.2009.25"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1145/2038642.2038687",
+        "article-title": "Armor: Fully verified software fault isolation",
+        "volume-title": "Proceedings of the Ninth ACM International Conference on Embedded Software (EMS OFT)",
+        "author": "Zhao"
+      },
+      {
+        "article-title": "Control-Flow Integrity for Real-Time Embedded Systems",
+        "volume-title": "31st Euromicro Conference on Real-Time Systems (ECRTS)",
+        "author": "Walls",
+        "key": "ref5"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1102120.1102165"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP.2013.13"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2133375.2133377"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3062341.3062363"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCAD.2020.3012647"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/INFOCOM42981.2021.9488424"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3357390.3361029"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3302505.3310084"
+      },
+      {
+        "volume-title": "Webassembly Specification",
+        "year": "2019",
+        "key": "ref14"
+      },
+      {
+        "article-title": "Multiprogramming a 64 kB computer safely and efficiently",
+        "volume-title": "Proceedings of the 26th Symposium on Operating Systems Principles (SOSP)",
+        "author": "Amit",
+        "key": "ref15"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/RTAS.2014.6925989"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/357980.357993"
+      },
+      {
+        "volume-title": "FreeRTOS",
+        "key": "ref18"
+      },
+      {
+        "volume-title": "aWsm. An Awesome Wasm Compiler and Runtime",
+        "year": "2020",
+        "key": "ref19"
+      },
+      {
+        "volume-title": "WASI CIC++ SDK repository",
+        "year": "2021",
+        "key": "ref20"
+      },
+      {
+        "volume-title": "UVWasi",
+        "year": "2021",
+        "key": "ref21"
+      },
+      {
+        "volume-title": "WASI. WebAssembly System Interface",
+        "year": "2021",
+        "key": "ref22"
+      },
+      {
+        "volume-title": "The LLVM Compiler Infrastructure",
+        "key": "ref23"
+      },
+      {
+        "volume-title": "PolyBench/C: the Polyhedral Benchmark suite",
+        "year": "2019",
+        "key": "ref24"
+      },
+      {
+        "volume-title": "EEMBCs CoreMark",
+        "year": "2022",
+        "key": "ref25"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WWC.2001.990739"
+      },
+      {
+        "journal-title": "16th International Workshop on Worst-Case Execution Time Analysis (WCET 2016), 2016",
+        "article-title": "TACLeBench: A benchmark collection to support worst-case execution time research",
+        "author": "Falk",
+        "key": "ref27"
+      },
+      {
+        "volume-title": "TinyEKF: Lightweight CIC++ Extended Kalman Filter with Python for prototyping",
+        "year": "2019",
+        "key": "ref28"
+      },
+      {
+        "volume-title": "Arduino PID Library",
+        "year": "2019",
+        "key": "ref29"
+      },
+      {
+        "volume-title": "CMSIS NN Software Library",
+        "year": "2019",
+        "key": "ref30"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2254064.2254111"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-17184-1_18"
+      },
+      {
+        "article-title": "Provably-safe multilingual software sandboxing using webassembly",
+        "volume-title": "31 st USENIX Security Symposium",
+        "author": "Bosamiya",
+        "key": "ref33"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CSF.2014.10"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/RTAS54340.2022.00027"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14722/ndss.2020.24016"
+      },
+      {
+        "article-title": "Silhouette: Efficient protected shadow stacks for embedded systems",
+        "volume-title": "29th USENIX Security Symposium, 2020",
+        "author": "Zhou",
+        "key": "ref37"
+      },
+      {
+        "article-title": "Holistic {Control-Flow} protection on {Real-Time} embedded sys-tems with kage",
+        "volume-title": "31st USENIX Security Symposium, 2022",
+        "author": "Du",
+        "key": "ref38"
+      },
+      {
+        "volume-title": "Wamr. a lightweight standalone WebAssembly (Wasm) runtime",
+        "year": "2022",
+        "key": "ref39"
+      },
+      {
+        "volume-title": "Wasmer. The universal WebAssembly runtime supporting WAS I and Emscripten",
+        "year": "2018",
+        "key": "ref40"
+      },
+      {
+        "volume-title": "Wasm3. A high performance WebAssembly interpreter written in C",
+        "year": "2019",
+        "key": "ref41"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/RTAS.2018.00012"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/RTSS.2009.18"
+      }
+    ],
+    "event": {
+      "name": "2024 IEEE 30th Real-Time and Embedded Technology and Applications Symposium (RTAS)",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            13
+          ]
+        ]
+      },
+      "location": "Hong Kong, Hong Kong",
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            16
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2024 IEEE 30th Real-Time and Embedded Technology and Applications Symposium (RTAS)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10566868/10568032/10568063.pdf?arnumber=10568063",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          28
+        ]
+      ],
+      "date-time": "2024-06-28T04:37:29Z",
+      "timestamp": 1719549449000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10568063/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          13
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1109/rtas61025.2024.00027",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          13
+        ]
+      ]
+    }
+  }
+}

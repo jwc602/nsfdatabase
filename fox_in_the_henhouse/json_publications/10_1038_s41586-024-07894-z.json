@@ -1,0 +1,3496 @@
+{
+  "doi": "10.1038/s41586-024-07894-z",
+  "openalex": {
+    "id": "https://openalex.org/W4402220065",
+    "doi": "https://doi.org/10.1038/s41586-024-07894-z",
+    "title": "A pathology foundation model for cancer diagnosis and prognosis prediction",
+    "display_name": "A pathology foundation model for cancer diagnosis and prognosis prediction",
+    "publication_year": 2024,
+    "publication_date": "2024-09-04",
+    "ids": {
+      "openalex": "https://openalex.org/W4402220065",
+      "doi": "https://doi.org/10.1038/s41586-024-07894-z",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39232164"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s41586-024-07894-z",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1038/s41586-024-07894-z",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S137773608",
+        "display_name": "Nature",
+        "issn_l": "0028-0836",
+        "issn": [
+          "0028-0836",
+          "1476-4687"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://s3.amazonaws.com/edu.psu.libraries.scholarsphere-prod/store/4531074d9323f427626eea32172a1b04.pdf?response-content-disposition=inline%3B%20filename%3D%22s41586-024-07894-z.pdf%22%3B%20filename%2A%3DUTF-8%27%27s41586-024-07894-z.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUNVJ736SYTXKYJG7%2F20250225%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250225T143143Z&X-Amz-Expires=6&X-Amz-SignedHeaders=host&X-Amz-Signature=259f20b267f166d2744cd9c2b8787511f3339ef33c8aa98bdc334ed8d78c1de5",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5061309609",
+          "display_name": "Xiyue Wang",
+          "orcid": "https://orcid.org/0000-0002-3597-9090"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I136199984",
+            "display_name": "Harvard University",
+            "ror": "https://ror.org/03vek6s52",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I136199984"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiyue Wang",
+        "raw_affiliation_strings": [
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA.",
+          "Department of Radiation Oncology, Stanford University School of Medicine, Stanford, CA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Radiation Oncology, Stanford University School of Medicine, Stanford, CA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I136199984"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5033670526",
+          "display_name": "Junhan Zhao",
+          "orcid": "https://orcid.org/0000-0002-0316-8365"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I136199984",
+            "display_name": "Harvard University",
+            "ror": "https://ror.org/03vek6s52",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I136199984"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Junhan Zhao",
+        "raw_affiliation_strings": [
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA.",
+          "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I136199984"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I136199984"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5030529105",
+          "display_name": "Eliana Marostica",
+          "orcid": "https://orcid.org/0000-0002-2061-243X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I136199984",
+            "display_name": "Harvard University",
+            "ror": "https://ror.org/03vek6s52",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I136199984"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I63966007",
+            "display_name": "Massachusetts Institute of Technology",
+            "ror": "https://ror.org/042nb2s44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Eliana Marostica",
+        "raw_affiliation_strings": [
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA.",
+          "Division of Health Sciences and Technology, Harvard-Massachusetts Institute of Technology, Boston, MA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Division of Health Sciences and Technology, Harvard-Massachusetts Institute of Technology, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I63966007"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I136199984"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100344876",
+          "display_name": "Wei Yuan",
+          "orcid": "https://orcid.org/0000-0002-8143-231X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24185976",
+            "display_name": "Sichuan University",
+            "ror": "https://ror.org/011ashp19",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24185976"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wei Yuan",
+        "raw_affiliation_strings": [
+          "College of Biomedical Engineering, Sichuan University, Chengdu, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Biomedical Engineering, Sichuan University, Chengdu, China.",
+            "institution_ids": [
+              "https://openalex.org/I24185976"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5007568865",
+          "display_name": "Jietian Jin",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157773358",
+            "display_name": "Sun Yat-sen University",
+            "ror": "https://ror.org/0064kty71",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157773358"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210146711",
+            "display_name": "Sun Yat-sen University Cancer Center",
+            "ror": "https://ror.org/0400g8r85",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210146711"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jietian Jin",
+        "raw_affiliation_strings": [
+          "Department of Pathology, Sun Yat-sen University Cancer Center, Guangzhou, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, Sun Yat-sen University Cancer Center, Guangzhou, China.",
+            "institution_ids": [
+              "https://openalex.org/I157773358",
+              "https://openalex.org/I4210146711"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5115595724",
+          "display_name": "Jiayu Zhang",
+          "orcid": "https://orcid.org/0009-0001-3565-3584"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24185976",
+            "display_name": "Sichuan University",
+            "ror": "https://ror.org/011ashp19",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24185976"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiayu Zhang",
+        "raw_affiliation_strings": [
+          "College of Biomedical Engineering, Sichuan University, Chengdu, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Biomedical Engineering, Sichuan University, Chengdu, China.",
+            "institution_ids": [
+              "https://openalex.org/I24185976"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5007642188",
+          "display_name": "Ruijiang Li",
+          "orcid": "https://orcid.org/0000-0002-0232-5998"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ruijiang Li",
+        "raw_affiliation_strings": [
+          "Department of Radiation Oncology, Stanford University School of Medicine, Stanford, CA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Radiation Oncology, Stanford University School of Medicine, Stanford, CA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5058072464",
+          "display_name": "Hongping Tang",
+          "orcid": "https://orcid.org/0000-0001-8263-8996"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210104539",
+            "display_name": "Shenzhen Maternity and Child Healthcare Hospital",
+            "ror": "https://ror.org/01me2d674",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210104539"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hongping Tang",
+        "raw_affiliation_strings": [
+          "Department of Pathology, Shenzhen Maternity & Child Healthcare Hospital, Shenzhen, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, Shenzhen Maternity & Child Healthcare Hospital, Shenzhen, China.",
+            "institution_ids": [
+              "https://openalex.org/I4210104539"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5020783788",
+          "display_name": "Kanran Wang",
+          "orcid": "https://orcid.org/0000-0002-6958-7677"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210154480",
+            "display_name": "Chongqing Cancer Hospital",
+            "ror": "https://ror.org/047d8yx24",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210154480"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I158842170",
+            "display_name": "Chongqing University",
+            "ror": "https://ror.org/023rhb549",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I158842170"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kanran Wang",
+        "raw_affiliation_strings": [
+          "Department of Radiation Oncology, Chongqing University Cancer Hospital, Chongqing, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Radiation Oncology, Chongqing University Cancer Hospital, Chongqing, China.",
+            "institution_ids": [
+              "https://openalex.org/I158842170",
+              "https://openalex.org/I4210154480"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5107952250",
+          "display_name": "Yu Li",
+          "orcid": "https://orcid.org/0009-0009-5046-0316"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210154480",
+            "display_name": "Chongqing Cancer Hospital",
+            "ror": "https://ror.org/047d8yx24",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210154480"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I158842170",
+            "display_name": "Chongqing University",
+            "ror": "https://ror.org/023rhb549",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I158842170"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yu Li",
+        "raw_affiliation_strings": [
+          "Department of Pathology, Chongqing University Cancer Hospital, Chongqing, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, Chongqing University Cancer Hospital, Chongqing, China.",
+            "institution_ids": [
+              "https://openalex.org/I158842170",
+              "https://openalex.org/I4210154480"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103147978",
+          "display_name": "Fang Wang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I108688024",
+            "display_name": "Qingdao University",
+            "ror": "https://ror.org/021cj6z65",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I108688024"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I3018397418",
+            "display_name": "Yuhuangding Hospital",
+            "ror": "https://ror.org/05vawe413",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I3018397418"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Fang Wang",
+        "raw_affiliation_strings": [
+          "Department of Pathology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, Yantai, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, The Affiliated Yantai Yuhuangding Hospital of Qingdao University, Yantai, China.",
+            "institution_ids": [
+              "https://openalex.org/I108688024",
+              "https://openalex.org/I3018397418"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102220941",
+          "display_name": "Yulong Peng",
+          "orcid": "https://orcid.org/0000-0002-8710-400X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210162753",
+            "display_name": "First Affiliated Hospital of Jinan University",
+            "ror": "https://ror.org/05d5vvz89",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210162753"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yulong Peng",
+        "raw_affiliation_strings": [
+          "Department of Pathology, The First Affiliated Hospital of Jinan University, Guangzhou, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, The First Affiliated Hospital of Jinan University, Guangzhou, China.",
+            "institution_ids": [
+              "https://openalex.org/I4210162753"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103876144",
+          "display_name": "Junyou Zhu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157773358",
+            "display_name": "Sun Yat-sen University",
+            "ror": "https://ror.org/0064kty71",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157773358"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210128921",
+            "display_name": "The First Affiliated Hospital, Sun Yat-sen University",
+            "ror": "https://ror.org/037p24858",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210128921"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Junyou Zhu",
+        "raw_affiliation_strings": [
+          "Department of Burn, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Burn, The First Affiliated Hospital, Sun Yat-sen University, Guangzhou, China.",
+            "institution_ids": [
+              "https://openalex.org/I157773358",
+              "https://openalex.org/I4210128921"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5044207097",
+          "display_name": "Jing Zhang",
+          "orcid": "https://orcid.org/0000-0003-2663-053X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24185976",
+            "display_name": "Sichuan University",
+            "ror": "https://ror.org/011ashp19",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24185976"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jing Zhang",
+        "raw_affiliation_strings": [
+          "College of Biomedical Engineering, Sichuan University, Chengdu, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Biomedical Engineering, Sichuan University, Chengdu, China.",
+            "institution_ids": [
+              "https://openalex.org/I24185976"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5038100208",
+          "display_name": "Christopher Jackson",
+          "orcid": "https://orcid.org/0000-0003-2373-2098"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I136199984",
+            "display_name": "Harvard University",
+            "ror": "https://ror.org/03vek6s52",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I136199984"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210087915",
+            "display_name": "Massachusetts General Hospital",
+            "ror": "https://ror.org/002pd6e78",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210087915",
+              "https://openalex.org/I48633490"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I130769515",
+            "display_name": "Pennsylvania State University",
+            "ror": "https://ror.org/04p491231",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I130769515"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Christopher R Jackson",
+        "raw_affiliation_strings": [
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA.",
+          "Department of Pathology and Laboratory Medicine, Pennsylvania State University, Hummelstown, PA, USA.",
+          "Department of Pathology, Massachusetts General Hospital, Boston, MA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, Massachusetts General Hospital, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I4210087915"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, Pennsylvania State University, Hummelstown, PA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I130769515"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I136199984"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100433042",
+          "display_name": "Jun Zhang",
+          "orcid": "https://orcid.org/0000-0001-5579-7094"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250653659",
+            "display_name": "Tencent (China)",
+            "ror": "https://ror.org/00hhjss72",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250653659"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jun Zhang",
+        "raw_affiliation_strings": [
+          "Tencent AI Lab, Shenzhen, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Tencent AI Lab, Shenzhen, China.",
+            "institution_ids": [
+              "https://openalex.org/I2250653659"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5065796363",
+          "display_name": "Deborah Dillon",
+          "orcid": "https://orcid.org/0000-0002-4977-6673"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1283280774",
+            "display_name": "Brigham and Women's Hospital",
+            "ror": "https://ror.org/04b6nzv94",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1283280774",
+              "https://openalex.org/I48633490"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Deborah Dillon",
+        "raw_affiliation_strings": [
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1283280774"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5049174232",
+          "display_name": "Nancy U. Lin",
+          "orcid": "https://orcid.org/0000-0003-2263-5413"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210117453",
+            "display_name": "Dana-Farber Cancer Institute",
+            "ror": "https://ror.org/02jzgtq86",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210117453"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Nancy U Lin",
+        "raw_affiliation_strings": [
+          "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I4210117453"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5090956629",
+          "display_name": "Lynette M. Sholl",
+          "orcid": "https://orcid.org/0000-0002-9532-9735"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1283280774",
+            "display_name": "Brigham and Women's Hospital",
+            "ror": "https://ror.org/04b6nzv94",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1283280774",
+              "https://openalex.org/I48633490"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210117453",
+            "display_name": "Dana-Farber Cancer Institute",
+            "ror": "https://ror.org/02jzgtq86",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210117453"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lynette Sholl",
+        "raw_affiliation_strings": [
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Pathology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I4210117453"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1283280774"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5025893013",
+          "display_name": "Thomas Denize",
+          "orcid": "https://orcid.org/0000-0002-8618-7691"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1283280774",
+            "display_name": "Brigham and Women's Hospital",
+            "ror": "https://ror.org/04b6nzv94",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1283280774",
+              "https://openalex.org/I48633490"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210117453",
+            "display_name": "Dana-Farber Cancer Institute",
+            "ror": "https://ror.org/02jzgtq86",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210117453"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Thomas Denize",
+        "raw_affiliation_strings": [
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Pathology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I4210117453"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1283280774"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5047837571",
+          "display_name": "David M. Meredith",
+          "orcid": "https://orcid.org/0000-0002-7054-8624"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1283280774",
+            "display_name": "Brigham and Women's Hospital",
+            "ror": "https://ror.org/04b6nzv94",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1283280774",
+              "https://openalex.org/I48633490"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "David Meredith",
+        "raw_affiliation_strings": [
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1283280774"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5010270402",
+          "display_name": "Keith L. Ligon",
+          "orcid": "https://orcid.org/0000-0002-7733-600X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1283280774",
+            "display_name": "Brigham and Women's Hospital",
+            "ror": "https://ror.org/04b6nzv94",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1283280774",
+              "https://openalex.org/I48633490"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210117453",
+            "display_name": "Dana-Farber Cancer Institute",
+            "ror": "https://ror.org/02jzgtq86",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210117453"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Keith L Ligon",
+        "raw_affiliation_strings": [
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Pathology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1283280774"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Pathology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I4210117453"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046795494",
+          "display_name": "Sabina Signoretti",
+          "orcid": "https://orcid.org/0000-0002-5000-9105"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1283280774",
+            "display_name": "Brigham and Women's Hospital",
+            "ror": "https://ror.org/04b6nzv94",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1283280774",
+              "https://openalex.org/I48633490"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210117453",
+            "display_name": "Dana-Farber Cancer Institute",
+            "ror": "https://ror.org/02jzgtq86",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210117453"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sabina Signoretti",
+        "raw_affiliation_strings": [
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Pathology, Dana-Farber Cancer Institute, Boston, MA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I4210117453"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1283280774"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5076818447",
+          "display_name": "Shuji Ogino",
+          "orcid": "https://orcid.org/0000-0002-3909-2323"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1283280774",
+            "display_name": "Brigham and Women's Hospital",
+            "ror": "https://ror.org/04b6nzv94",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1283280774",
+              "https://openalex.org/I48633490"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107606265",
+            "display_name": "Broad Institute",
+            "ror": "https://ror.org/05a0ya142",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I107606265"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I136199984",
+            "display_name": "Harvard University",
+            "ror": "https://ror.org/03vek6s52",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I136199984"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shuji Ogino",
+        "raw_affiliation_strings": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+          "Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I136199984"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Broad Institute of MIT and Harvard, Cambridge, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I107606265"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1283280774"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5009572751",
+          "display_name": "Jeffrey A. Golden",
+          "orcid": "https://orcid.org/0000-0001-9933-5502"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1283280774",
+            "display_name": "Brigham and Women's Hospital",
+            "ror": "https://ror.org/04b6nzv94",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1283280774",
+              "https://openalex.org/I48633490"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1282927834",
+            "display_name": "Cedars-Sinai Medical Center",
+            "ror": "https://ror.org/02pammg90",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jeffrey A Golden",
+        "raw_affiliation_strings": [
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+          "Department of Pathology, Cedars-Sinai Medical Center, Los Angeles, CA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, Cedars-Sinai Medical Center, Los Angeles, CA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1283280774"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5052402717",
+          "display_name": "MacLean P. Nasrallah",
+          "orcid": "https://orcid.org/0000-0003-4861-0898"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "MacLean P Nasrallah",
+        "raw_affiliation_strings": [
+          "Department of Pathology and Laboratory Medicine, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, PA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100611801",
+          "display_name": "Xiao Han",
+          "orcid": "https://orcid.org/0000-0002-5151-6547"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250653659",
+            "display_name": "Tencent (China)",
+            "ror": "https://ror.org/00hhjss72",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250653659"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiao Han",
+        "raw_affiliation_strings": [
+          "Tencent AI Lab, Shenzhen, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Tencent AI Lab, Shenzhen, China.",
+            "institution_ids": [
+              "https://openalex.org/I2250653659"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5057464765",
+          "display_name": "Sen Yang",
+          "orcid": "https://orcid.org/0000-0002-0639-4122"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I136199984",
+            "display_name": "Harvard University",
+            "ror": "https://ror.org/03vek6s52",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I136199984"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sen Yang",
+        "raw_affiliation_strings": [
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA. sen.yang.scu@gmail.com.",
+          "Department of Radiation Oncology, Stanford University School of Medicine, Stanford, CA, USA. sen.yang.scu@gmail.com."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Radiation Oncology, Stanford University School of Medicine, Stanford, CA, USA. sen.yang.scu@gmail.com.",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA. sen.yang.scu@gmail.com.",
+            "institution_ids": [
+              "https://openalex.org/I136199984"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5061562703",
+          "display_name": "Kun‐Hsing Yu",
+          "orcid": "https://orcid.org/0000-0001-9892-8218"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1283280774",
+            "display_name": "Brigham and Women's Hospital",
+            "ror": "https://ror.org/04b6nzv94",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1283280774",
+              "https://openalex.org/I48633490"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210134579",
+            "display_name": "Dana-Farber/Harvard Cancer Center",
+            "ror": "https://ror.org/03pvyf116",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I136199984",
+              "https://openalex.org/I4210117453",
+              "https://openalex.org/I4210134579"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I136199984",
+            "display_name": "Harvard University",
+            "ror": "https://ror.org/03vek6s52",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I136199984"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kun-Hsing Yu",
+        "raw_affiliation_strings": [
+          "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA. Kun-Hsing_Yu@hms.harvard.edu.",
+          "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA. Kun-Hsing_Yu@hms.harvard.edu.",
+          "Harvard Data Science Initiative, Harvard University, Cambridge, MA, USA. Kun-Hsing_Yu@hms.harvard.edu."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA. Kun-Hsing_Yu@hms.harvard.edu.",
+            "institution_ids": [
+              "https://openalex.org/I136199984"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Harvard Data Science Initiative, Harvard University, Cambridge, MA, USA. Kun-Hsing_Yu@hms.harvard.edu.",
+            "institution_ids": [
+              "https://openalex.org/I136199984",
+              "https://openalex.org/I4210134579"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Pathology, Brigham and Women's Hospital, Boston, MA, USA. Kun-Hsing_Yu@hms.harvard.edu.",
+            "institution_ids": [
+              "https://openalex.org/I1283280774"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 29,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 9750,
+      "currency": "EUR",
+      "value_usd": 11690
+    },
+    "apc_paid": null,
+    "fwci": 166.72120132,
+    "has_fulltext": false,
+    "cited_by_count": 261,
+    "citation_normalized_percentile": {
+      "value": 0.99977637,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "634",
+      "issue": "8035",
+      "first_page": "970",
+      "last_page": "978"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10862",
+      "display_name": "AI in cancer detection",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10862",
+        "display_name": "AI in cancer detection",
+        "score": 0.9995999932289124,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12422",
+        "display_name": "Radiomics and Machine Learning in Medical Imaging",
+        "score": 0.9983999729156494,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12859",
+        "display_name": "Cell Image Analysis Techniques",
+        "score": 0.9783999919891357,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1304",
+          "display_name": "Biophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/foundation",
+        "display_name": "Foundation (evidence)",
+        "score": 0.5624346733093262
+      },
+      {
+        "id": "https://openalex.org/keywords/medicine",
+        "display_name": "Medicine",
+        "score": 0.43469634652137756
+      },
+      {
+        "id": "https://openalex.org/keywords/pathology",
+        "display_name": "Pathology",
+        "score": 0.41653311252593994
+      },
+      {
+        "id": "https://openalex.org/keywords/history",
+        "display_name": "History",
+        "score": 0.07923135161399841
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2780966255",
+        "wikidata": "https://www.wikidata.org/wiki/Q5474306",
+        "display_name": "Foundation (evidence)",
+        "level": 2,
+        "score": 0.5624346733093262
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.43469634652137756
+      },
+      {
+        "id": "https://openalex.org/C142724271",
+        "wikidata": "https://www.wikidata.org/wiki/Q7208",
+        "display_name": "Pathology",
+        "level": 1,
+        "score": 0.41653311252593994
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.07923135161399841
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D066264",
+        "descriptor_name": "Datasets as Topic",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006651",
+        "descriptor_name": "Histocytochemistry",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000145",
+        "qualifier_name": "classification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000175",
+        "qualifier_name": "diagnosis",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000473",
+        "qualifier_name": "pathology",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010338",
+        "descriptor_name": "Pathology, Clinical",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010338",
+        "descriptor_name": "Pathology, Clinical",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010363",
+        "descriptor_name": "Pattern Recognition, Automated",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010363",
+        "descriptor_name": "Pattern Recognition, Automated",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D011379",
+        "descriptor_name": "Prognosis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015203",
+        "descriptor_name": "Reproducibility of Results",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012680",
+        "descriptor_name": "Sensitivity and Specificity",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000069553",
+        "descriptor_name": "Supervised Machine Learning",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000175",
+        "qualifier_name": "diagnosis",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000473",
+        "qualifier_name": "pathology",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D011379",
+        "descriptor_name": "Prognosis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000069553",
+        "descriptor_name": "Supervised Machine Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D010338",
+        "descriptor_name": "Pathology, Clinical",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000175",
+        "qualifier_name": "diagnosis",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000473",
+        "qualifier_name": "pathology",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D011379",
+        "descriptor_name": "Prognosis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000069553",
+        "descriptor_name": "Supervised Machine Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D010338",
+        "descriptor_name": "Pathology, Clinical",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D066264",
+        "descriptor_name": "Datasets as Topic",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006651",
+        "descriptor_name": "Histocytochemistry",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000145",
+        "qualifier_name": "classification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000175",
+        "qualifier_name": "diagnosis",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000473",
+        "qualifier_name": "pathology",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010338",
+        "descriptor_name": "Pathology, Clinical",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010338",
+        "descriptor_name": "Pathology, Clinical",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010363",
+        "descriptor_name": "Pattern Recognition, Automated",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010363",
+        "descriptor_name": "Pattern Recognition, Automated",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D011379",
+        "descriptor_name": "Prognosis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015203",
+        "descriptor_name": "Reproducibility of Results",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012680",
+        "descriptor_name": "Sensitivity and Specificity",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000069553",
+        "descriptor_name": "Supervised Machine Learning",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D066264",
+        "descriptor_name": "Datasets as Topic",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006651",
+        "descriptor_name": "Histocytochemistry",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000145",
+        "qualifier_name": "classification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000175",
+        "qualifier_name": "diagnosis",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000473",
+        "qualifier_name": "pathology",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010338",
+        "descriptor_name": "Pathology, Clinical",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010338",
+        "descriptor_name": "Pathology, Clinical",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010363",
+        "descriptor_name": "Pattern Recognition, Automated",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010363",
+        "descriptor_name": "Pattern Recognition, Automated",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D011379",
+        "descriptor_name": "Prognosis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015203",
+        "descriptor_name": "Reproducibility of Results",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012680",
+        "descriptor_name": "Sensitivity and Specificity",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000069553",
+        "descriptor_name": "Supervised Machine Learning",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D066264",
+        "descriptor_name": "Datasets as Topic",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006651",
+        "descriptor_name": "Histocytochemistry",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000145",
+        "qualifier_name": "classification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000175",
+        "qualifier_name": "diagnosis",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000473",
+        "qualifier_name": "pathology",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010338",
+        "descriptor_name": "Pathology, Clinical",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010338",
+        "descriptor_name": "Pathology, Clinical",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010363",
+        "descriptor_name": "Pattern Recognition, Automated",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010363",
+        "descriptor_name": "Pattern Recognition, Automated",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D011379",
+        "descriptor_name": "Prognosis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015203",
+        "descriptor_name": "Reproducibility of Results",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012680",
+        "descriptor_name": "Sensitivity and Specificity",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000069553",
+        "descriptor_name": "Supervised Machine Learning",
+        "qualifier_ui": "Q000592",
+        "qualifier_name": "standards",
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1038/s41586-024-07894-z",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1038/s41586-024-07894-z",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S137773608",
+          "display_name": "Nature",
+          "issn_l": "0028-0836",
+          "issn": [
+            "0028-0836",
+            "1476-4687"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:39232164",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39232164",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:scholarsphere.psu.edu:5dc5aff3-c183-431b-8578-de0d4c030534",
+        "is_oa": true,
+        "landing_page_url": "https://scholarsphere.psu.edu/resources/5dc5aff3-c183-431b-8578-de0d4c030534",
+        "pdf_url": "https://s3.amazonaws.com/edu.psu.libraries.scholarsphere-prod/store/4531074d9323f427626eea32172a1b04.pdf?response-content-disposition=inline%3B%20filename%3D%22s41586-024-07894-z.pdf%22%3B%20filename%2A%3DUTF-8%27%27s41586-024-07894-z.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUNVJ736SYTXKYJG7%2F20250225%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250225T143143Z&X-Amz-Expires=6&X-Amz-SignedHeaders=host&X-Amz-Signature=259f20b267f166d2744cd9c2b8787511f3339ef33c8aa98bdc334ed8d78c1de5",
+        "source": {
+          "id": "https://openalex.org/S4306401507",
+          "display_name": "ScholarSphere (Penn State Libraries)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I3130638595",
+          "host_organization_name": "Pangasinan State University",
+          "host_organization_lineage": [
+            "https://openalex.org/I3130638595"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      },
+      {
+        "id": "pmh:oai:europepmc.org:10996522",
+        "is_oa": false,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12186853",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400806",
+          "display_name": "Europe PMC (PubMed Central)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1303153112",
+          "host_organization_name": "European Bioinformatics Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/I1303153112"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:scholarsphere.psu.edu:5dc5aff3-c183-431b-8578-de0d4c030534",
+      "is_oa": true,
+      "landing_page_url": "https://scholarsphere.psu.edu/resources/5dc5aff3-c183-431b-8578-de0d4c030534",
+      "pdf_url": "https://s3.amazonaws.com/edu.psu.libraries.scholarsphere-prod/store/4531074d9323f427626eea32172a1b04.pdf?response-content-disposition=inline%3B%20filename%3D%22s41586-024-07894-z.pdf%22%3B%20filename%2A%3DUTF-8%27%27s41586-024-07894-z.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAUNVJ736SYTXKYJG7%2F20250225%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250225T143143Z&X-Amz-Expires=6&X-Amz-SignedHeaders=host&X-Amz-Signature=259f20b267f166d2744cd9c2b8787511f3339ef33c8aa98bdc334ed8d78c1de5",
+      "source": {
+        "id": "https://openalex.org/S4306401507",
+        "display_name": "ScholarSphere (Penn State Libraries)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I3130638595",
+        "host_organization_name": "Pangasinan State University",
+        "host_organization_lineage": [
+          "https://openalex.org/I3130638595"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.41999998688697815,
+        "id": "https://metadata.un.org/sdg/3",
+        "display_name": "Good health and well-being"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 63,
+    "referenced_works": [
+      "https://openalex.org/W3160261825",
+      "https://openalex.org/W4296693015",
+      "https://openalex.org/W4387259074",
+      "https://openalex.org/W2956228567",
+      "https://openalex.org/W2772723798",
+      "https://openalex.org/W3135547872",
+      "https://openalex.org/W2760946358",
+      "https://openalex.org/W4383533409",
+      "https://openalex.org/W4365447146",
+      "https://openalex.org/W3023087441",
+      "https://openalex.org/W2769322745",
+      "https://openalex.org/W4291021272",
+      "https://openalex.org/W3139326336",
+      "https://openalex.org/W2514628397",
+      "https://openalex.org/W4293476620",
+      "https://openalex.org/W3049190448",
+      "https://openalex.org/W4313830579",
+      "https://openalex.org/W3044996171",
+      "https://openalex.org/W3104135675",
+      "https://openalex.org/W3216119570",
+      "https://openalex.org/W2895763047",
+      "https://openalex.org/W4291023040",
+      "https://openalex.org/W4386697749",
+      "https://openalex.org/W4304084212",
+      "https://openalex.org/W4298395281",
+      "https://openalex.org/W4392947521",
+      "https://openalex.org/W4386303561",
+      "https://openalex.org/W4385948838",
+      "https://openalex.org/W4392947532",
+      "https://openalex.org/W4288809219",
+      "https://openalex.org/W3163753640",
+      "https://openalex.org/W3208123223",
+      "https://openalex.org/W4302028065",
+      "https://openalex.org/W3176719058",
+      "https://openalex.org/W3043835773",
+      "https://openalex.org/W2071071105",
+      "https://openalex.org/W3042684909",
+      "https://openalex.org/W2614443510",
+      "https://openalex.org/W3174246647",
+      "https://openalex.org/W4212843676",
+      "https://openalex.org/W4383620846",
+      "https://openalex.org/W2573152477",
+      "https://openalex.org/W4327810158",
+      "https://openalex.org/W4390041933",
+      "https://openalex.org/W4379878309",
+      "https://openalex.org/W2158485828",
+      "https://openalex.org/W2018838463",
+      "https://openalex.org/W4207066074",
+      "https://openalex.org/W4376114601",
+      "https://openalex.org/W3207232829",
+      "https://openalex.org/W4386121230",
+      "https://openalex.org/W4210395604",
+      "https://openalex.org/W3135367836",
+      "https://openalex.org/W2133059825",
+      "https://openalex.org/W3103275761",
+      "https://openalex.org/W3037083567",
+      "https://openalex.org/W2273090769",
+      "https://openalex.org/W3211647829",
+      "https://openalex.org/W4362589322",
+      "https://openalex.org/W2978882452",
+      "https://openalex.org/W2974825848",
+      "https://openalex.org/W4212909472",
+      "https://openalex.org/W3159302505"
+    ],
+    "related_works": [
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W3031052312",
+      "https://openalex.org/W4389568370",
+      "https://openalex.org/W3032375762",
+      "https://openalex.org/W1995515455",
+      "https://openalex.org/W2080531066",
+      "https://openalex.org/W3108674512",
+      "https://openalex.org/W1506200166",
+      "https://openalex.org/W1489783725",
+      "https://openalex.org/W2148612803"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 241
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 20
+      }
+    ],
+    "updated_date": "2025-12-22T23:10:17.713674",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          8
+        ]
+      ],
+      "date-time": "2026-01-08T05:57:27Z",
+      "timestamp": 1767851847611,
+      "version": "3.49.0"
+    },
+    "reference-count": 64,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "8035",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2024-09-04T00:00:00Z",
+          "timestamp": 1725408000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              4
+            ]
+          ],
+          "date-time": "2024-09-04T00:00:00Z",
+          "timestamp": 1725408000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nature"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          24
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-024-07894-z",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          4
+        ]
+      ],
+      "date-time": "2024-09-04T16:02:22Z",
+      "timestamp": 1725465742000
+    },
+    "page": "970-978",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 273,
+    "title": [
+      "A pathology foundation model for cancer diagnosis and prognosis prediction"
+    ],
+    "prefix": "10.1038",
+    "volume": "634",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3597-9090",
+        "authenticated-orcid": false,
+        "given": "Xiyue",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0316-8365",
+        "authenticated-orcid": false,
+        "given": "Junhan",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eliana",
+        "family": "Marostica",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wei",
+        "family": "Yuan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jietian",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jiayu",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0232-5998",
+        "authenticated-orcid": false,
+        "given": "Ruijiang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hongping",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kanran",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yu",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yulong",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Junyou",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2663-053X",
+        "authenticated-orcid": false,
+        "given": "Jing",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christopher R.",
+        "family": "Jackson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jun",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Deborah",
+        "family": "Dillon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2263-5413",
+        "authenticated-orcid": false,
+        "given": "Nancy U.",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lynette",
+        "family": "Sholl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas",
+        "family": "Denize",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Meredith",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7733-600X",
+        "authenticated-orcid": false,
+        "given": "Keith L.",
+        "family": "Ligon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5000-9105",
+        "authenticated-orcid": false,
+        "given": "Sabina",
+        "family": "Signoretti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3909-2323",
+        "authenticated-orcid": false,
+        "given": "Shuji",
+        "family": "Ogino",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jeffrey A.",
+        "family": "Golden",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4861-0898",
+        "authenticated-orcid": false,
+        "given": "MacLean P.",
+        "family": "Nasrallah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5151-6547",
+        "authenticated-orcid": false,
+        "given": "Xiao",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0639-4122",
+        "authenticated-orcid": false,
+        "given": "Sen",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9892-8218",
+        "authenticated-orcid": false,
+        "given": "Kun-Hsing",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "7894_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "775",
+        "DOI": "10.1038/s41591-021-01343-4",
+        "volume": "27",
+        "author": "J Van der Laak",
+        "year": "2021",
+        "unstructured": "Van der Laak, J., Litjens, G. & Ciompi, F. Deep learning in histopathology: the path to the clinic. Nat. Med. 27, 775–784 (2021).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "7894_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "1026",
+        "DOI": "10.1038/s43018-022-00436-4",
+        "volume": "3",
+        "author": "A Shmatko",
+        "year": "2022",
+        "unstructured": "Shmatko, A., Ghaffari Laleh, N., Gerstung, M. & Kather, J. N. Artificial intelligence in histopathology: enhancing cancer research and clinical oncology. Nat. Cancer 3, 1026–1038 (2022).",
+        "journal-title": "Nat. Cancer"
+      },
+      {
+        "key": "7894_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "930",
+        "DOI": "10.1038/s44222-023-00096-8",
+        "volume": "1",
+        "author": "AH Song",
+        "year": "2023",
+        "unstructured": "Song, A. H. et al. Artificial intelligence for digital and computational pathology. Nat. Rev. Bioeng. 1, 930–949 (2023).",
+        "journal-title": "Nat. Rev. Bioeng."
+      },
+      {
+        "key": "7894_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "1301",
+        "DOI": "10.1038/s41591-019-0508-1",
+        "volume": "25",
+        "author": "G Campanella",
+        "year": "2019",
+        "unstructured": "Campanella, G. et al. Clinical-grade computational pathology using weakly supervised deep learning on whole slide images. Nat. Med. 25, 1301–1309 (2019).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "7894_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "2199",
+        "DOI": "10.1001/jama.2017.14585",
+        "volume": "318",
+        "author": "BE Bejnordi",
+        "year": "2017",
+        "unstructured": "Bejnordi, B. E. et al. Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer. JAMA 318, 2199–2210 (2017).",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "7894_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "555",
+        "DOI": "10.1038/s41551-020-00682-w",
+        "volume": "5",
+        "author": "MY Lu",
+        "year": "2021",
+        "unstructured": "Lu, M. Y. et al. Data-efficient and weakly supervised computational pathology on whole-slide images. Nat. Biomed. Eng. 5, 555–570 (2021).",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "7894_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1559",
+        "DOI": "10.1038/s41591-018-0177-5",
+        "volume": "24",
+        "author": "N Coudray",
+        "year": "2018",
+        "unstructured": "Coudray, N. et al. Classification and mutation prediction from non–small cell lung cancer histopathology images using deep learning. Nat. Med. 24, 1559–1567 (2018).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "7894_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "526",
+        "DOI": "10.1016/j.medj.2023.06.002",
+        "volume": "4",
+        "author": "MP Nasrallah",
+        "year": "2023",
+        "unstructured": "Nasrallah, M. P. et al. Machine learning for cryosection pathology predicts the 2021 WHO classification of glioma. Med 4, 526–540 (2023).",
+        "journal-title": "Med"
+      },
+      {
+        "key": "7894_CR9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-37179-4",
+        "volume": "14",
+        "author": "P-C Tsai",
+        "year": "2023",
+        "unstructured": "Tsai, P.-C. et al. Histopathology images predict multi-omics aberrations and prognoses in colorectal cancer patients. Nat. Commun. 14, 2102 (2023).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "7894_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "757",
+        "DOI": "10.1093/jamia/ocz230",
+        "volume": "27",
+        "author": "K-H Yu",
+        "year": "2020",
+        "unstructured": "Yu, K.-H. et al. Classifying non-small cell lung cancer types and transcriptomic subtypes using convolutional neural networks. J. Am. Med. Inform. Assoc. 27, 757–769 (2020).",
+        "journal-title": "J. Am. Med. Inform. Assoc."
+      },
+      {
+        "key": "7894_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "620",
+        "DOI": "10.1016/j.cels.2017.10.014",
+        "volume": "5",
+        "author": "K-H Yu",
+        "year": "2017",
+        "unstructured": "Yu, K.-H. et al. Association of omics features with histopathology patterns in lung adenocarcinoma. Cell Syst. 5, 620–627 (2017).",
+        "journal-title": "Cell Syst."
+      },
+      {
+        "key": "7894_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "865",
+        "DOI": "10.1016/j.ccell.2022.07.004",
+        "volume": "40",
+        "author": "RJ Chen",
+        "year": "2022",
+        "unstructured": "Chen, R. J. et al. Pan-cancer integrative histology-genomic analysis via multimodal deep learning. Cancer Cell 40, 865–878 (2022).",
+        "journal-title": "Cancer Cell"
+      },
+      {
+        "key": "7894_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "2868",
+        "DOI": "10.1158/1078-0432.CCR-20-4119",
+        "volume": "27",
+        "author": "E Marostica",
+        "year": "2021",
+        "unstructured": "Marostica, E. et al. Development of a histopathology informatics pipeline for classification and prediction of clinical outcomes in subtypes of renal cell carcinoma. Clin. Cancer Res. 27, 2868–2878 (2021).",
+        "journal-title": "Clin. Cancer Res."
+      },
+      {
+        "key": "7894_CR14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ncomms12474",
+        "volume": "7",
+        "author": "K-H Yu",
+        "year": "2016",
+        "unstructured": "Yu, K.-H. et al. Predicting non-small cell lung cancer prognosis by fully automated microscopic pathology image features. Nat. Commun. 7, 12474 (2016).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "7894_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1151",
+        "DOI": "10.1038/s43018-022-00416-8",
+        "volume": "3",
+        "author": "RS Vanguri",
+        "year": "2022",
+        "unstructured": "Vanguri, R. S. et al. Multimodal integration of radiology, pathology and genomics for prediction of response to PD-(L)1 blockade in patients with non-small cell lung cancer. Nat. Cancer 3, 1151–1164 (2022).",
+        "journal-title": "Nat. Cancer"
+      },
+      {
+        "key": "7894_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "236",
+        "DOI": "10.1186/s12916-020-01684-w",
+        "volume": "18",
+        "author": "K-H Yu",
+        "year": "2020",
+        "unstructured": "Yu, K.-H. et al. Deciphering serous ovarian carcinoma histopathology and platinum response by convolutional neural networks. BMC Med. 18, 236 (2020).",
+        "journal-title": "BMC Med."
+      },
+      {
+        "key": "7894_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "430",
+        "DOI": "10.1038/s41591-022-02134-1",
+        "volume": "29",
+        "author": "S Foersch",
+        "year": "2023",
+        "unstructured": "Foersch, S. et al. Multistain deep learning for prediction of prognosis and therapy response in colorectal cancer. Nat. Med. 29, 430–439 (2023).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "7894_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "789",
+        "DOI": "10.1038/s43018-020-0087-6",
+        "volume": "1",
+        "author": "JN Kather",
+        "year": "2020",
+        "unstructured": "Kather, J. N. et al. Pan-cancer image-based detection of clinically actionable genetic alterations. Nat. Cancer 1, 789–799 (2020).",
+        "journal-title": "Nat. Cancer"
+      },
+      {
+        "key": "7894_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "686",
+        "DOI": "10.1038/s41416-020-01122-x",
+        "volume": "124",
+        "author": "A Echle",
+        "year": "2021",
+        "unstructured": "Echle, A. et al. Deep learning in cancer pathology: a new generation of clinical biomarkers. Br. J. Cancer 124, 686–696 (2021).",
+        "journal-title": "Br. J. Cancer"
+      },
+      {
+        "key": "7894_CR20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41523-021-00357-y",
+        "volume": "7",
+        "author": "Y Ektefaie",
+        "year": "2021",
+        "unstructured": "Ektefaie, Y. et al. Integrative multiomics-histopathology analysis for breast cancer classification. NPJ Breast Cancer 7, 147 (2021).",
+        "journal-title": "NPJ Breast Cancer"
+      },
+      {
+        "key": "7894_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "719",
+        "DOI": "10.1038/s41551-018-0305-z",
+        "volume": "2",
+        "author": "K-H Yu",
+        "year": "2018",
+        "unstructured": "Yu, K.-H., Beam, A. L. & Kohane, I. S. Artificial intelligence in healthcare. Nat. Biomed. Eng. 2, 719–731 (2018).",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "7894_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "1346",
+        "DOI": "10.1038/s41551-022-00914-1",
+        "volume": "6",
+        "author": "R Krishnan",
+        "year": "2022",
+        "unstructured": "Krishnan, R., Rajpurkar, P. & Topol, E. J. Self-supervised learning in medicine and healthcare. Nat. Biomed. Eng. 6, 1346–1352 (2022).",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "7894_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, Y. et al. A foundation model for generalizable disease detection from retinal images. Nature 622, 156–1638 (2023).",
+        "DOI": "10.1038/s41586-023-06555-x"
+      },
+      {
+        "key": "7894_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1420",
+        "DOI": "10.1038/s41551-022-00929-8",
+        "volume": "6",
+        "author": "C Chen",
+        "year": "2022",
+        "unstructured": "Chen, C. et al. Fast and scalable search of whole-slide images via self-supervised deep learning. Nat. Biomed. Eng. 6, 1420–1434 (2022).",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "7894_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "102645",
+        "DOI": "10.1016/j.media.2022.102645",
+        "volume": "83",
+        "author": "X Wang",
+        "year": "2023",
+        "unstructured": "Wang, X. et al. RetCCL: clustering-guided contrastive learning for whole-slide image retrieval. Med. Image Anal. 83, 102645 (2023).",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "7894_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, R. J. et al. Towards a general-purpose foundation model for computational pathology. Nat. Med. 30, 850–862 (2024).",
+        "DOI": "10.1038/s41591-024-02857-3"
+      },
+      {
+        "key": "7894_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "1650",
+        "DOI": "10.1016/j.ccell.2023.08.002",
+        "volume": "41",
+        "author": "SJ Wagner",
+        "year": "2023",
+        "unstructured": "Wagner, S. J. et al. Transformer-based biomarker prediction from colorectal cancer histology: a large-scale multicentric study. Cancer Cell 41, 1650–1661 (2023).",
+        "journal-title": "Cancer Cell"
+      },
+      {
+        "key": "7894_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "2307",
+        "DOI": "10.1038/s41591-023-02504-3",
+        "volume": "29",
+        "author": "Z Huang",
+        "year": "2023",
+        "unstructured": "Huang, Z., Bianchi, F., Yuksekgonul, M., Montine, T. J. & Zou, J. A visual–language foundation model for pathology image analysis using medical twitter. Nat. Med. 29, 2307–2316 (2023).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "7894_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lu, M. Y. et al. A visual-language foundation model for computational pathology. Nat. Med. 30, 863–874 (2024).",
+        "DOI": "10.1038/s41591-024-02856-4"
+      },
+      {
+        "key": "7894_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "102559",
+        "DOI": "10.1016/j.media.2022.102559",
+        "volume": "81",
+        "author": "X Wang",
+        "year": "2022",
+        "unstructured": "Wang, X. et al. Transformer-based unsupervised contrastive learning for histopathological image classification. Med. Image Anal. 81, 102559 (2022).",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "7894_CR31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-024-52183-4",
+        "volume": "14",
+        "author": "M Koziarski",
+        "year": "2024",
+        "unstructured": "Koziarski, M. et al. Diagset: a dataset for prostate cancer histopathological image classification. Sci. Rep. 14, 6780 (2024).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "7894_CR32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-26643-8",
+        "volume": "12",
+        "author": "G Yu",
+        "year": "2021",
+        "unstructured": "Yu, G. et al. Accurate recognition of colorectal cancer with semi-supervised deep learning on pathological images. Nat. Commun. 12, 6311 (2021).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "7894_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "100149",
+        "DOI": "10.1016/j.jpi.2022.100149",
+        "volume": "13",
+        "author": "N Loménie",
+        "year": "2022",
+        "unstructured": "Loménie, N. et al. Can AI predict epithelial lesion categories via automated analysis of cervical biopsies: the TissueNet challenge? J. Pathol. Inform. 13, 100149 (2022).",
+        "journal-title": "J. Pathol. Inform."
+      },
+      {
+        "key": "7894_CR34",
+        "unstructured": "Ilse, M., Tomczak, J. & Welling, M. Attention-based deep multiple instance learning. In Proc. 35th International Conference on Machine Learning (eds Dy, J. & Krause, A.) 2127–2136 (PMLR, 2018)."
+      },
+      {
+        "key": "7894_CR35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, B., Li, Y. & Eliceiri, K. W. Dual-stream multiple instance learning network for whole slide image classification with self-supervised contrastive learning. In Proc. 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition 14313–14323 (IEEE, 2021).",
+        "DOI": "10.1109/CVPR46437.2021.01409"
+      },
+      {
+        "key": "7894_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "800",
+        "DOI": "10.1038/s43018-020-0085-8",
+        "volume": "1",
+        "author": "Y Fu",
+        "year": "2020",
+        "unstructured": "Fu, Y. et al. Pan-cancer computational histopathology reveals mutations, tumor composition and prognosis. Nat. Cancer 1, 800–810 (2020).",
+        "journal-title": "Nat. Cancer"
+      },
+      {
+        "key": "7894_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "844",
+        "DOI": "10.1038/ng.3016",
+        "volume": "46",
+        "author": "I Petrini",
+        "year": "2014",
+        "unstructured": "Petrini, I. et al. A specific missense mutation in GTF2I occurs at high frequency in thymic epithelial tumors. Nat. Genet. 46, 844–849 (2014).",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "7894_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "1103",
+        "DOI": "10.1158/2159-8290.CD-19-1220",
+        "volume": "10",
+        "author": "M Carbone",
+        "year": "2020",
+        "unstructured": "Carbone, M. et al. Biological mechanisms and clinical significance of BAP1 mutations in human cancer. Cancer Discov. 10, 1103–1120 (2020).",
+        "journal-title": "Cancer Discov."
+      },
+      {
+        "key": "7894_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1200/PO.17.00011",
+        "volume": "1",
+        "author": "D Chakravarty",
+        "year": "2017",
+        "unstructured": "Chakravarty, D. et al. OncoKB: a precision oncology knowledge base. JCO Precision Oncology 1, 1–16 (2017).",
+        "journal-title": "JCO Precision Oncology"
+      },
+      {
+        "key": "7894_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "1231",
+        "DOI": "10.1093/neuonc/noab106",
+        "volume": "23",
+        "author": "DN Louis",
+        "year": "2021",
+        "unstructured": "Louis, D. N. et al. The 2021 WHO Classification of Tumors of the Central Nervous System: a summary. Neuro-Oncology 23, 1231–1251 (2021).",
+        "journal-title": "Neuro-Oncology"
+      },
+      {
+        "key": "7894_CR41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-022-01157-0",
+        "volume": "9",
+        "author": "T Roetzer-Pejrimovsky",
+        "year": "2022",
+        "unstructured": "Roetzer-Pejrimovsky, T. et al. The Digital Brain Tumour Atlas, an open histopathology resource. Sci. Data 9, 55 (2022).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "7894_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "102886",
+        "DOI": "10.1016/j.media.2023.102886",
+        "volume": "89",
+        "author": "K Kim",
+        "year": "2023",
+        "unstructured": "Kim, K. et al. PAIP 2020: microsatellite instability prediction in colorectal cancer. Med. Image Anal. 89, 102886 (2023).",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "7894_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "93",
+        "DOI": "10.3322/caac.21388",
+        "volume": "67",
+        "author": "MB Amin",
+        "year": "2017",
+        "unstructured": "Amin, M. B. et al. The Eighth Edition AJCC Cancer Staging Manual: continuing to build a bridge from a population-based to a more “personalized” approach to cancer staging. CA Cancer J. Clin. 67, 93–99 (2017).",
+        "journal-title": "CA Cancer J. Clin."
+      },
+      {
+        "key": "7894_CR44",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Achiam, J. et al. GPT-4 technical report. Preprint at https://doi.org/10.48550/arXiv.2303.08774 (2023).",
+        "DOI": "10.48550/arXiv.2303.08774"
+      },
+      {
+        "key": "7894_CR45",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Team, G. et al. Gemini: a family of highly capable multimodal models. Preprint at https://doi.org/10.48550/arXiv.2312.11805 (2023).",
+        "DOI": "10.48550/arXiv.2312.11805"
+      },
+      {
+        "key": "7894_CR46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Azizi, S. et al. Robust and data-efficient generalization of self-supervised machine learning for diagnostic imaging. Nat. Biomed. Eng. 7, 756–779 (2023).",
+        "DOI": "10.1038/s41551-023-01049-7"
+      },
+      {
+        "key": "7894_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "1113",
+        "DOI": "10.1038/ng.2764",
+        "volume": "45",
+        "author": "Cancer Genome Atlas Research Network, J.",
+        "year": "2013",
+        "unstructured": "Cancer Genome Atlas Research Network, J. et al. The Cancer Genome Atlas Pan-Cancer analysis project. Nat. Genet. 45, 1113–1120 (2013).",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "7894_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "580",
+        "DOI": "10.1038/ng.2653",
+        "volume": "45",
+        "author": "J Lonsdale",
+        "year": "2013",
+        "unstructured": "Lonsdale, J. et al. The genotype-tissue expression (GTEx) project. Nat. Genet. 45, 580–585 (2013).",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "7894_CR49",
+        "unstructured": "Bulten, W. et al. Artificial intelligence for diagnosis and Gleason grading of prostate cancer: the PANDA challenge. Nat. Med. 28, 154–163 (2022)."
+      },
+      {
+        "key": "7894_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "7555",
+        "DOI": "10.1038/s41598-023-33863-z",
+        "volume": "13",
+        "author": "F Yacob",
+        "year": "2023",
+        "unstructured": "Yacob, F. et al. Weakly supervised detection and classification of basal cell carcinoma using graph-transformer on whole slide images. Sci Rep. 13, 7555 (2023).",
+        "journal-title": "Sci Rep."
+      },
+      {
+        "key": "7894_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "4133",
+        "DOI": "10.3389/fonc.2021.759007",
+        "volume": "11",
+        "author": "F Xu",
+        "year": "2021",
+        "unstructured": "Xu, F. et al. Predicting axillary lymph node metastasis in early breast cancer using deep learning on primary tumor biopsy slides. Front. Oncol. 11, 4133 (2021).",
+        "journal-title": "Front. Oncol."
+      },
+      {
+        "key": "7894_CR52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-023-02422-6",
+        "volume": "10",
+        "author": "P Weitz",
+        "year": "2023",
+        "unstructured": "Weitz, P. et al. A multi-stain breast cancer histological whole-slide-image data set from routine diagnostics. Sci. Data 10, 562 (2023).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "7894_CR53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-022-01127-6",
+        "volume": "9",
+        "author": "C-W Wang",
+        "year": "2022",
+        "unstructured": "Wang, C.-W. et al. Histopathological whole slide image dataset for classification of treatment effectiveness to ovarian cancer. Sci. Data 9, 25 (2022).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "7894_CR54",
+        "unstructured": "Radford, A. et al. Learning transferable visual models from natural language supervision. In Proc. 38th International Conference on Machine Learning (eds Meila, M. & Zhang, T.) 8748–8763 (PMLR, 2021)."
+      },
+      {
+        "key": "7894_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "62",
+        "DOI": "10.1109/TSMC.1979.4310076",
+        "volume": "9",
+        "author": "N Otsu",
+        "year": "1979",
+        "unstructured": "Otsu, N. A threshold selection method from gray-level histograms. IEEE Trans. Syst. Man Cybern. Syst. 9, 62–66 (1979).",
+        "journal-title": "IEEE Trans. Syst. Man Cybern. Syst."
+      },
+      {
+        "key": "7894_CR56",
+        "unstructured": "Kingma, D. P. & Ba, J. L. Adam: a method for stochastic optimization. In Proc. 3rd International Conference on Learning Representations (eds Bengio, Y. & LeCun, Y.) (ICLR, 2015)."
+      },
+      {
+        "key": "7894_CR57",
+        "unstructured": "Loshchilov, I. & Hutter, F. SGDR: stochastic gradient descent with warm restarts. In Proc. 5th International Conference on Learning Representations 1769–1784 (ICLR, 2017)."
+      },
+      {
+        "key": "7894_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "105",
+        "DOI": "10.1007/s10278-020-00384-4",
+        "volume": "34",
+        "author": "CB Stadler",
+        "year": "2021",
+        "unstructured": "Stadler, C. B. et al. Proactive construction of an annotated imaging database for artificial intelligence training. J. Digit. Imaging 34, 105–115 (2021).",
+        "journal-title": "J. Digit. Imaging"
+      },
+      {
+        "key": "7894_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "106",
+        "DOI": "10.1038/s41586-021-03512-4",
+        "volume": "594",
+        "author": "MY Lu",
+        "year": "2021",
+        "unstructured": "Lu, M. Y. et al. AI-based pathology predicts origins for cancers of unknown primary. Nature 594, 106–110 (2021).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "7894_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "238",
+        "DOI": "10.2174/157488711003150928130654",
+        "volume": "10",
+        "author": "A Black",
+        "year": "2015",
+        "unstructured": "Black, A. et al. PLCO: evolution of an epidemiologic resource and opportunities for future studies. Rev. Recent Clin. Trials 10, 238–245 (2015).",
+        "journal-title": "Rev. Recent Clin. Trials"
+      },
+      {
+        "key": "7894_CR61",
+        "first-page": "2136",
+        "volume": "34",
+        "author": "Z Shao",
+        "year": "2021",
+        "unstructured": "Shao, Z. et al. TransMIL: Transformer based correlated multiple instance learning for whole slide image classification. Adv. Neural Inf. Process. Syst. 34, 2136–2147 (2021).",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "7894_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "408",
+        "DOI": "10.1038/s42256-023-00635-3",
+        "volume": "5",
+        "author": "J Liang",
+        "year": "2023",
+        "unstructured": "Liang, J. et al. Deep learning supported discovery of biomarkers for clinical prognosis of liver cancer. Nat. Mach. Intell. 5, 408–420 (2023).",
+        "journal-title": "Nat. Mach. Intell."
+      },
+      {
+        "key": "7894_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "1519",
+        "DOI": "10.1038/s41591-019-0583-3",
+        "volume": "25",
+        "author": "P Courtiol",
+        "year": "2019",
+        "unstructured": "Courtiol, P. et al. Deep learning-based classification of mesothelioma improves prediction of patient outcome. Nat. Med. 25, 1519–1525 (2019).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "7894_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "101563",
+        "DOI": "10.1016/j.media.2019.101563",
+        "volume": "58",
+        "author": "S Graham",
+        "year": "2019",
+        "unstructured": "Graham, S. et al. Hover-Net: simultaneous segmentation and classification of nuclei in multi-tissue histology images. Med. Image Anal. 58, 101563 (2019).",
+        "journal-title": "Med. Image Anal."
+      }
+    ],
+    "container-title": [
+      "Nature"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41586-024-07894-z.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41586-024-07894-z",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41586-024-07894-z.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2024-10-23T12:05:16Z",
+      "timestamp": 1729685116000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41586-024-07894-z"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          4
+        ]
+      ]
+    },
+    "references-count": 64,
+    "journal-issue": {
+      "issue": "8035",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            24
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "7894"
+    ],
+    "URL": "https://doi.org/10.1038/s41586-024-07894-z",
+    "relation": {},
+    "ISSN": [
+      "0028-0836",
+      "1476-4687"
+    ],
+    "issn-type": [
+      {
+        "value": "0028-0836",
+        "type": "print"
+      },
+      {
+        "value": "1476-4687",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "16 November 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "1 August 2024",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "4 September 2024",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "Jun Zhang and X.H. were employees of Tencent AI Lab. K.-H.Y. is an inventor on US patent 16/179,101 (patent assigned to Harvard University) and was a consultant for Curatio.DL (not related to this work). K.L.L. was a consultant for Travera, BMS, Servier, Integragen, LEK and Blaze Bioscience, received equity from Travera, and has research funding from BMS and Lilly (not related to this work). C.R.J is an inventor on US patent applications 17/073,123 and 63/528,496 (patents assigned to Dartmouth Hitchcock Medical Center and ViewsML) and is a consultant and CSO for ViewsML, none of which is related to this work.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ]
+  }
+}

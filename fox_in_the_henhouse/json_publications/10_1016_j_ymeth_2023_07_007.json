@@ -1,0 +1,2747 @@
+{
+  "doi": "10.1016/j.ymeth.2023.07.007",
+  "openalex": {
+    "id": "https://openalex.org/W4385362969",
+    "doi": "https://doi.org/10.1016/j.ymeth.2023.07.007",
+    "title": "Preference matrix guided sparse canonical correlation analysis for mining brain imaging genetic associations in Alzheimer's disease",
+    "display_name": "Preference matrix guided sparse canonical correlation analysis for mining brain imaging genetic associations in Alzheimer's disease",
+    "publication_year": 2023,
+    "publication_date": "2023-07-27",
+    "ids": {
+      "openalex": "https://openalex.org/W4385362969",
+      "doi": "https://doi.org/10.1016/j.ymeth.2023.07.007",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/37507059"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.ymeth.2023.07.007",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.ymeth.2023.07.007",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S73539393",
+        "display_name": "Methods",
+        "issn_l": "1046-2023",
+        "issn": [
+          "1046-2023",
+          "1095-9130"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Methods",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10528049/pdf/nihms-1920651.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5078581055",
+          "display_name": "Jiahang Sha",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiahang Sha",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046842618",
+          "display_name": "Jingxuan Bao",
+          "orcid": "https://orcid.org/0000-0001-7127-3258"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingxuan Bao",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101858721",
+          "display_name": "Kefei Liu",
+          "orcid": "https://orcid.org/0000-0003-0737-9976"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I308837",
+            "display_name": "Suzhou University of Science and Technology",
+            "ror": "https://ror.org/04en8wb91",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I308837"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kefei Liu",
+        "raw_affiliation_strings": [
+          "Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, 215000, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Suzhou Institute for Advanced Research, University of Science and Technology of China, Suzhou, Jiangsu, 215000, China",
+            "institution_ids": [
+              "https://openalex.org/I308837"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5005417395",
+          "display_name": "Shu Yang",
+          "orcid": "https://orcid.org/0000-0002-8507-7191"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shu Yang",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5008029473",
+          "display_name": "Zixuan Wen",
+          "orcid": "https://orcid.org/0000-0002-4573-4134"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zixuan Wen",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5084369967",
+          "display_name": "Junhao Wen",
+          "orcid": "https://orcid.org/0000-0003-2077-3070"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1174212",
+            "display_name": "University of Southern California",
+            "ror": "https://ror.org/03taz7m60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I1174212"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Junhao Wen",
+        "raw_affiliation_strings": [
+          "Center for Biomedical Image Computing and Analytics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA",
+          "Stevens Neuroimaging and Informatics Institute, University of Southern California, 2025 Zonal Ave, Los Angeles, CA, 90033, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stevens Neuroimaging and Informatics Institute, University of Southern California, 2025 Zonal Ave, Los Angeles, CA, 90033, USA",
+            "institution_ids": [
+              "https://openalex.org/I1174212"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Biomedical Image Computing and Analytics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5075303712",
+          "display_name": "Yuhan Cui",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuhan Cui",
+        "raw_affiliation_strings": [
+          "Center for Biomedical Image Computing and Analytics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Biomedical Image Computing and Analytics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5007343210",
+          "display_name": "Boning Tong",
+          "orcid": "https://orcid.org/0009-0004-9268-9614"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Boning Tong",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5032971510",
+          "display_name": "Jason H. Moore",
+          "orcid": "https://orcid.org/0000-0002-5015-1099"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1282927834",
+            "display_name": "Cedars-Sinai Medical Center",
+            "ror": "https://ror.org/02pammg90",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jason H. Moore",
+        "raw_affiliation_strings": [
+          "Department of Computational Biomedicine, Cedars-Sinai Medical Center, 8700 Beverly Blvd., Los Angeles, CA, 90048, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Biomedicine, Cedars-Sinai Medical Center, 8700 Beverly Blvd., Los Angeles, CA, 90048, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5026257338",
+          "display_name": "Andrew J. Saykin",
+          "orcid": "https://orcid.org/0000-0002-1376-8532"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I55769427",
+            "display_name": "Indiana University – Purdue University Indianapolis",
+            "ror": "https://ror.org/05gxnyn08",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55769427",
+              "https://openalex.org/I592451"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Andrew J. Saykin",
+        "raw_affiliation_strings": [
+          "Department of Radiology and Imaging Sciences, Indiana University, 550 N. University Blvd., Indianapolis, IN, 46202, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Radiology and Imaging Sciences, Indiana University, 550 N. University Blvd., Indianapolis, IN, 46202, USA",
+            "institution_ids": [
+              "https://openalex.org/I55769427"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5034999945",
+          "display_name": "Christos Davatzikos",
+          "orcid": "https://orcid.org/0000-0002-1025-8561"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Christos Davatzikos",
+        "raw_affiliation_strings": [
+          "Center for Biomedical Image Computing and Analytics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Biomedical Image Computing and Analytics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5002149616",
+          "display_name": "Qi Long",
+          "orcid": "https://orcid.org/0000-0003-0660-5230"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qi Long",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100333320",
+          "display_name": "Li Shen",
+          "orcid": "https://orcid.org/0000-0002-5443-0503"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Li Shen",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biostatistics, Epidemiology and Informatics, University of Pennsylvania, 3700 Hamilton Walk, Philadelphia, PA, 19104, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 13,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5100333320"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I79576946"
+    ],
+    "apc_list": {
+      "value": 3390,
+      "currency": "USD",
+      "value_usd": 3390
+    },
+    "apc_paid": null,
+    "fwci": 0.92835204,
+    "has_fulltext": false,
+    "cited_by_count": 5,
+    "citation_normalized_percentile": {
+      "value": 0.75843505,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "218",
+      "issue": null,
+      "first_page": "27",
+      "last_page": "38"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10885",
+      "display_name": "Gene expression and cancer classification",
+      "score": 0.989300012588501,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10885",
+        "display_name": "Gene expression and cancer classification",
+        "score": 0.989300012588501,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10887",
+        "display_name": "Bioinformatics and Genomic Networks",
+        "score": 0.9772999882698059,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10261",
+        "display_name": "Genetic Associations and Epidemiology",
+        "score": 0.9524999856948853,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/canonical-correlation",
+        "display_name": "Canonical correlation",
+        "score": 0.7740415334701538
+      },
+      {
+        "id": "https://openalex.org/keywords/correlation",
+        "display_name": "Correlation",
+        "score": 0.6204062700271606
+      },
+      {
+        "id": "https://openalex.org/keywords/imaging-genetics",
+        "display_name": "Imaging genetics",
+        "score": 0.6101127862930298
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5359436273574829
+      },
+      {
+        "id": "https://openalex.org/keywords/prior-probability",
+        "display_name": "Prior probability",
+        "score": 0.5123994946479797
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.511732816696167
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.46609535813331604
+      },
+      {
+        "id": "https://openalex.org/keywords/pattern-recognition",
+        "display_name": "Pattern recognition (psychology)",
+        "score": 0.4256266951560974
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.4192982017993927
+      },
+      {
+        "id": "https://openalex.org/keywords/neuroimaging",
+        "display_name": "Neuroimaging",
+        "score": 0.33011573553085327
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.29474300146102905
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.23211818933486938
+      },
+      {
+        "id": "https://openalex.org/keywords/bayesian-probability",
+        "display_name": "Bayesian probability",
+        "score": 0.15231546759605408
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C153874254",
+        "wikidata": "https://www.wikidata.org/wiki/Q115542",
+        "display_name": "Canonical correlation",
+        "level": 2,
+        "score": 0.7740415334701538
+      },
+      {
+        "id": "https://openalex.org/C117220453",
+        "wikidata": "https://www.wikidata.org/wiki/Q5172842",
+        "display_name": "Correlation",
+        "level": 2,
+        "score": 0.6204062700271606
+      },
+      {
+        "id": "https://openalex.org/C18183760",
+        "wikidata": "https://www.wikidata.org/wiki/Q6002833",
+        "display_name": "Imaging genetics",
+        "level": 3,
+        "score": 0.6101127862930298
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5359436273574829
+      },
+      {
+        "id": "https://openalex.org/C177769412",
+        "wikidata": "https://www.wikidata.org/wiki/Q278090",
+        "display_name": "Prior probability",
+        "level": 3,
+        "score": 0.5123994946479797
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.511732816696167
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.46609535813331604
+      },
+      {
+        "id": "https://openalex.org/C153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "level": 2,
+        "score": 0.4256266951560974
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.4192982017993927
+      },
+      {
+        "id": "https://openalex.org/C58693492",
+        "wikidata": "https://www.wikidata.org/wiki/Q551875",
+        "display_name": "Neuroimaging",
+        "level": 2,
+        "score": 0.33011573553085327
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.29474300146102905
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.23211818933486938
+      },
+      {
+        "id": "https://openalex.org/C107673813",
+        "wikidata": "https://www.wikidata.org/wiki/Q812534",
+        "display_name": "Bayesian probability",
+        "level": 2,
+        "score": 0.15231546759605408
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000089342",
+        "descriptor_name": "Canonical Correlation Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008279",
+        "descriptor_name": "Magnetic Resonance Imaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000089342",
+        "descriptor_name": "Canonical Correlation Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008279",
+        "descriptor_name": "Magnetic Resonance Imaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000089342",
+        "descriptor_name": "Canonical Correlation Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008279",
+        "descriptor_name": "Magnetic Resonance Imaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000089342",
+        "descriptor_name": "Canonical Correlation Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008279",
+        "descriptor_name": "Magnetic Resonance Imaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000089342",
+        "descriptor_name": "Canonical Correlation Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008279",
+        "descriptor_name": "Magnetic Resonance Imaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000089342",
+        "descriptor_name": "Canonical Correlation Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008279",
+        "descriptor_name": "Magnetic Resonance Imaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000089342",
+        "descriptor_name": "Canonical Correlation Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008279",
+        "descriptor_name": "Magnetic Resonance Imaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000089342",
+        "descriptor_name": "Canonical Correlation Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008279",
+        "descriptor_name": "Magnetic Resonance Imaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.ymeth.2023.07.007",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.ymeth.2023.07.007",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S73539393",
+          "display_name": "Methods",
+          "issn_l": "1046-2023",
+          "issn": [
+            "1046-2023",
+            "1095-9130"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Methods",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:37507059",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37507059",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Methods (San Diego, Calif.)",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:10528049",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10528049",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10528049/pdf/nihms-1920651.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Methods",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:scholarworks.indianapolis.iu.edu:1805/44529",
+        "is_oa": false,
+        "landing_page_url": "https://hdl.handle.net/1805/44529",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306522653",
+          "display_name": "PMC",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "PMC",
+        "raw_type": "Article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:pubmedcentral.nih.gov:10528049",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10528049",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10528049/pdf/nihms-1920651.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Methods",
+      "raw_type": "Text"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 71,
+    "referenced_works": [
+      "https://openalex.org/W2104549677",
+      "https://openalex.org/W2147246240",
+      "https://openalex.org/W2103017472",
+      "https://openalex.org/W4323350075",
+      "https://openalex.org/W6805407653",
+      "https://openalex.org/W6805309855",
+      "https://openalex.org/W4223591189",
+      "https://openalex.org/W2080531304",
+      "https://openalex.org/W4200632195",
+      "https://openalex.org/W2901303766",
+      "https://openalex.org/W2099085143",
+      "https://openalex.org/W1837941181",
+      "https://openalex.org/W2004136146",
+      "https://openalex.org/W2129771097",
+      "https://openalex.org/W1527927437",
+      "https://openalex.org/W2604808360",
+      "https://openalex.org/W2950595506",
+      "https://openalex.org/W2510973425",
+      "https://openalex.org/W2302574298",
+      "https://openalex.org/W6631577498",
+      "https://openalex.org/W4241074797",
+      "https://openalex.org/W3215063364",
+      "https://openalex.org/W2122273223",
+      "https://openalex.org/W6682979755",
+      "https://openalex.org/W2043518719",
+      "https://openalex.org/W2745246014",
+      "https://openalex.org/W2076455317",
+      "https://openalex.org/W4200628709",
+      "https://openalex.org/W1993571512",
+      "https://openalex.org/W1906409993",
+      "https://openalex.org/W4377233107",
+      "https://openalex.org/W2166536611",
+      "https://openalex.org/W3212752056",
+      "https://openalex.org/W6783868378",
+      "https://openalex.org/W3135100175",
+      "https://openalex.org/W3043705966",
+      "https://openalex.org/W2257069458",
+      "https://openalex.org/W2030105242",
+      "https://openalex.org/W6638781516",
+      "https://openalex.org/W2900044275",
+      "https://openalex.org/W2917101543",
+      "https://openalex.org/W2996898645",
+      "https://openalex.org/W1967827763",
+      "https://openalex.org/W1976564639",
+      "https://openalex.org/W1901948746",
+      "https://openalex.org/W2038486060",
+      "https://openalex.org/W113475142",
+      "https://openalex.org/W2166348468",
+      "https://openalex.org/W2122066039",
+      "https://openalex.org/W2982638646",
+      "https://openalex.org/W1984983329",
+      "https://openalex.org/W2543324357",
+      "https://openalex.org/W2102735577",
+      "https://openalex.org/W1984068087",
+      "https://openalex.org/W2091619946",
+      "https://openalex.org/W2007044705",
+      "https://openalex.org/W2601368841",
+      "https://openalex.org/W2098290597",
+      "https://openalex.org/W2008929650",
+      "https://openalex.org/W4292999320",
+      "https://openalex.org/W2167792187",
+      "https://openalex.org/W2030879023",
+      "https://openalex.org/W2124757386",
+      "https://openalex.org/W2155624710",
+      "https://openalex.org/W3217512928",
+      "https://openalex.org/W4200612463",
+      "https://openalex.org/W1525222323",
+      "https://openalex.org/W3090855434",
+      "https://openalex.org/W2951337635",
+      "https://openalex.org/W2941473988",
+      "https://openalex.org/W2063389953"
+    ],
+    "related_works": [
+      "https://openalex.org/W2367413540",
+      "https://openalex.org/W2755450364",
+      "https://openalex.org/W1968846550",
+      "https://openalex.org/W2483130478",
+      "https://openalex.org/W1991315556",
+      "https://openalex.org/W4387164999",
+      "https://openalex.org/W2070623039",
+      "https://openalex.org/W2006749424",
+      "https://openalex.org/W336817979",
+      "https://openalex.org/W3131670725"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2025-11-05T14:56:12Z",
+      "timestamp": 1762354572728,
+      "version": "build-2065373602"
+    },
+    "reference-count": 63,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              2
+            ]
+          ],
+          "date-time": "2024-08-02T00:00:00Z",
+          "timestamp": 1722556800000
+        },
+        "content-version": "am",
+        "delay-in-days": 306,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute on Aging",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "RF1 AG063481"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RF1 AG063481"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000049",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000070",
+        "name": "National Institute of Biomedical Imaging and Bioengineering",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000070",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000092",
+        "name": "NLM",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01 LM013463"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01 LM013463"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000092",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007333",
+        "name": "Alzheimer's Disease Neuroimaging Initiative",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007333",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014489",
+        "name": "Johnson and Johnson Pharmaceutical Research and Development",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100014489",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000005",
+        "name": "U.S. Department of Defense",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W81XWH-12-2-0012"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W81XWH-12-2-0012"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000005",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "RF1 AG068191",
+          "S10 OD023495",
+          "U01 AG024904",
+          "U01 AG066833",
+          "U01 AG068057"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RF1 AG068191",
+              "S10 OD023495",
+              "U01 AG024904",
+              "U01 AG066833",
+              "U01 AG068057"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Methods"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ymeth.2023.07.007",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          27
+        ]
+      ],
+      "date-time": "2023-07-27T08:35:39Z",
+      "timestamp": 1690446939000
+    },
+    "page": "27-38",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "special_numbering": "C",
+    "title": [
+      "Preference matrix guided sparse canonical correlation analysis for mining brain imaging genetic associations in Alzheimer's disease"
+    ],
+    "prefix": "10.1016",
+    "volume": "218",
+    "author": [
+      {
+        "given": "Jiahang",
+        "family": "Sha",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Jingxuan",
+        "family": "Bao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kefei",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shu",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zixuan",
+        "family": "Wen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Junhao",
+        "family": "Wen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yuhan",
+        "family": "Cui",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Boning",
+        "family": "Tong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jason H.",
+        "family": "Moore",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew J.",
+        "family": "Saykin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christos",
+        "family": "Davatzikos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qi",
+        "family": "Long",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5443-0503",
+        "authenticated-orcid": false,
+        "given": "Li",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "7571",
+        "key": "10.1016/j.ymeth.2023.07.007_br0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "68",
+        "DOI": "10.1038/nature15393",
+        "article-title": "A global reference for human genetic variation",
+        "volume": "526",
+        "author": "1000 Genomes Project Consortium",
+        "year": "2015",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "6769",
+        "key": "10.1016/j.ymeth.2023.07.007_br0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "503",
+        "DOI": "10.1038/35000501",
+        "article-title": "Distinct types of diffuse large b-cell lymphoma identified by gene expression profiling",
+        "volume": "403",
+        "author": "Alizadeh",
+        "year": "2000",
+        "journal-title": "Nature"
+      },
+      {
+        "year": "2012",
+        "series-title": "Spm8 Manual",
+        "author": "Ashburner",
+        "key": "10.1016/j.ymeth.2023.07.007_br0030"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1038/75556",
+        "article-title": "Gene ontology: tool for the unification of biology",
+        "volume": "25",
+        "author": "Ashburner",
+        "year": "2000",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0050",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/bib/bbad073",
+        "article-title": "Integrative analysis of multi-omics and imaging data with incorporation of biological information via structural Bayesian factor analysis",
+        "author": "Bao",
+        "year": "2023",
+        "journal-title": "Brief. Bioinform."
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0060",
+        "series-title": "Pacific Symposium on Biocomputing 2022",
+        "first-page": "97",
+        "article-title": "Identifying imaging genetic associations via regional morphometricity estimation",
+        "author": "Bao",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0070",
+        "series-title": "Pacific Symposium on Biocomputing 2022",
+        "first-page": "109",
+        "article-title": "Identifying highly heritable brain amyloid phenotypes through mining Alzheimer's imaging and sequencing biobank data",
+        "author": "Bao",
+        "year": "2021"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ymeth.2023.07.007_br0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "412",
+        "DOI": "10.1038/s41588-022-01024-z",
+        "article-title": "New insights into the genetic etiology of Alzheimer's disease and related dementias",
+        "volume": "54",
+        "author": "Bellenguez",
+        "year": "2022",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "450",
+        "DOI": "10.1016/j.neuroimage.2014.11.055",
+        "article-title": "Improved longitudinal [18f]-av45 amyloid pet by white matter reference and voi-based partial volume effect correction",
+        "volume": "108",
+        "author": "Brendel",
+        "year": "2015",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "issue": "D1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "D1005",
+        "DOI": "10.1093/nar/gky1120",
+        "article-title": "The nhgri-ebi gwas catalog of published genome-wide association studies, targeted arrays and summary statistics 2019",
+        "volume": "47",
+        "author": "Buniello",
+        "year": "2019",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0110",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1186/s13742-015-0047-8",
+        "article-title": "Second-generation plink: rising to the challenge of larger and richer datasets",
+        "volume": "4",
+        "author": "Chang",
+        "year": "2015",
+        "journal-title": "GigaScience"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ymeth.2023.07.007_br0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "560",
+        "DOI": "10.2967/jnumed.114.149732",
+        "article-title": "Improved power for characterizing longitudinal amyloid-β pet changes and evaluating amyloid-modifying treatments with a cerebral white matter reference region",
+        "volume": "56",
+        "author": "Chen",
+        "year": "2015",
+        "journal-title": "J. Nucl. Med."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ymeth.2023.07.007_br0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.1001/jama.2010.2008",
+        "article-title": "Use of florbetapir-pet for imaging β-amyloid pathology",
+        "volume": "305",
+        "author": "Clark",
+        "year": "2011",
+        "journal-title": "JAMA"
+      },
+      {
+        "issue": "suppl_1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0140",
+        "first-page": "D258",
+        "article-title": "The gene ontology (go) database and informatics resource",
+        "volume": "32",
+        "year": "2004",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "issue": "D1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "D331",
+        "DOI": "10.1093/nar/gkw1108",
+        "article-title": "Expansion of the gene ontology knowledgebase and resources",
+        "volume": "45",
+        "year": "2017",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "issue": "D1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "D330",
+        "DOI": "10.1093/nar/gky1055",
+        "article-title": "The gene ontology resource: 20 years and still going strong",
+        "volume": "47",
+        "year": "2019",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ymeth.2023.07.007_br0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "1284",
+        "DOI": "10.1038/ng.3656",
+        "article-title": "Next-generation genotype imputation service and methods",
+        "volume": "48",
+        "author": "Das",
+        "year": "2016",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ymeth.2023.07.007_br0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "1544",
+        "DOI": "10.1093/bioinformatics/btw033",
+        "article-title": "Structured sparse canonical correlation analysis for brain imaging genetics: an improved graphnet method",
+        "volume": "32",
+        "author": "Du",
+        "year": "2016",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "Pt 3",
+        "key": "10.1016/j.ymeth.2023.07.007_br0190",
+        "first-page": "329",
+        "article-title": "A novel structure-aware sparse learning algorithm for brain imaging genetics",
+        "volume": "17",
+        "author": "Du",
+        "year": "2014",
+        "journal-title": "Med. Image Comput. Comput. Assist. Interv."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ymeth.2023.07.007_br0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "774",
+        "DOI": "10.1016/j.neuroimage.2012.01.021",
+        "article-title": "Freesurfer",
+        "volume": "62",
+        "author": "Fischl",
+        "year": "2012",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "53",
+        "DOI": "10.1038/s41583-021-00533-w",
+        "article-title": "The probabilistic model of Alzheimer disease: the amyloid hypothesis revised",
+        "volume": "23",
+        "author": "Frisoni",
+        "year": "2022",
+        "journal-title": "Nat. Rev., Neurosci."
+      },
+      {
+        "issue": "13",
+        "key": "10.1016/j.ymeth.2023.07.007_br0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "2790",
+        "DOI": "10.1016/j.neuropsychologia.2009.06.002",
+        "article-title": "A role for right ventrolateral prefrontal cortex in reasoning about indeterminate relations",
+        "volume": "47",
+        "author": "Goel",
+        "year": "2009",
+        "journal-title": "Neuropsychologia"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ymeth.2023.07.007_br0230",
+        "article-title": "Neurovault.org: a web-based repository for collecting and sharing unthresholded statistical maps of the human brain",
+        "volume": "9",
+        "author": "Gorgolewski",
+        "year": "2015",
+        "journal-title": "Front. Neuroinform."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "325",
+        "DOI": "10.1016/j.neuroimage.2005.09.006",
+        "article-title": "Segregated neural representation of distinct emotion dimensions in the prefrontal cortex—an fmri study",
+        "volume": "30",
+        "author": "Grimm",
+        "year": "2006",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ymeth.2023.07.007_br0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "4521",
+        "DOI": "10.3892/mmr.2017.7203",
+        "article-title": "Amyloid β-42 induces neuronal apoptosis by targeting mitochondria",
+        "volume": "16",
+        "author": "Han",
+        "year": "2017",
+        "journal-title": "Mol. Med. Rep."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ymeth.2023.07.007_br0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "331",
+        "DOI": "10.1007/s10994-010-5222-7",
+        "article-title": "Sparse canonical correlation analysis",
+        "volume": "83",
+        "author": "Hardoon",
+        "year": "2010",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ymeth.2023.07.007_br0270",
+        "doi-asserted-by": "crossref",
+        "first-page": "207",
+        "DOI": "10.1016/S1474-4422(12)70291-0",
+        "article-title": "Tracking pathophysiological processes in Alzheimer's disease: an updated hypothetical model of dynamic biomarkers",
+        "volume": "12",
+        "author": "Jack",
+        "year": "2013",
+        "journal-title": "Lancet Neurol."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.ymeth.2023.07.007_br0280",
+        "doi-asserted-by": "crossref",
+        "first-page": "757",
+        "DOI": "10.1016/j.jalz.2015.05.001",
+        "article-title": "The Alzheimer's disease neuroimaging initiative 2 pet core: 2015",
+        "volume": "11",
+        "author": "Jagust",
+        "year": "2015",
+        "journal-title": "Alzheimer's Dement."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ymeth.2023.07.007_br0290",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pgen.1010517",
+        "article-title": "Canonical correlation analysis for multi-omics: application to cross-cohort analysis",
+        "volume": "19",
+        "author": "Jiang",
+        "year": "2023",
+        "journal-title": "PLoS Genet."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ymeth.2023.07.007_br0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "378",
+        "DOI": "10.2967/jnumed.111.090340",
+        "article-title": "Performance characteristics of amyloid pet with florbetapir f 18 in patients with Alzheimer's disease and cognitively normal subjects",
+        "volume": "53",
+        "author": "Joshi",
+        "year": "2012",
+        "journal-title": "J. Nucl. Med."
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0310",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2021.102297",
+        "article-title": "Multi-task learning based structured sparse canonical correlation analysis for brain imaging genetics",
+        "volume": "76",
+        "author": "Kim",
+        "year": "2022",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0320",
+        "series-title": "Machine Learning in Medical Imaging",
+        "first-page": "292",
+        "article-title": "Structural connectivity enriched functional brain network using simplex regression with graphnet",
+        "author": "Kim",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0330",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2021.102026",
+        "article-title": "A structural enriched functional network: an application to predict brain cognitive performance",
+        "volume": "71",
+        "author": "Kim",
+        "year": "2021",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0340",
+        "doi-asserted-by": "crossref",
+        "first-page": "197",
+        "DOI": "10.1093/schbul/sbaa078",
+        "article-title": "A white matter connection of Schizophrenia and Alzheimer's disease",
+        "volume": "47",
+        "author": "Kochunov",
+        "year": "2020",
+        "journal-title": "Schizophr. Bull."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ymeth.2023.07.007_br0350",
+        "doi-asserted-by": "crossref",
+        "first-page": "567",
+        "DOI": "10.2967/jnumed.114.148981",
+        "article-title": "Measurement of longitudinal β-amyloid change with 18f-florbetapir pet and standardized uptake value ratios",
+        "volume": "56",
+        "author": "Landau",
+        "year": "2015",
+        "journal-title": "J. Nucl. Med."
+      },
+      {
+        "issue": "36",
+        "key": "10.1016/j.ymeth.2023.07.007_br0360",
+        "doi-asserted-by": "crossref",
+        "first-page": "13520",
+        "DOI": "10.1073/pnas.0804295105",
+        "article-title": "Molecular subtypes of diffuse large b-cell lymphoma arise by distinct genetic pathways",
+        "volume": "105",
+        "author": "Lenz",
+        "year": "2008",
+        "journal-title": "Proc. Natl. Acad. Sci."
+      },
+      {
+        "author": "Liu",
+        "key": "10.1016/j.ymeth.2023.07.007_br0370"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.ymeth.2023.07.007_br0380",
+        "first-page": "1959",
+        "article-title": "Simplified quantification of Pittsburgh compound b amyloid imaging pet studies: a comparative analysis",
+        "volume": "46",
+        "author": "Lopresti",
+        "year": "2005",
+        "journal-title": "J. Nucl. Med."
+      },
+      {
+        "issue": "D1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0390",
+        "doi-asserted-by": "crossref",
+        "first-page": "D419",
+        "DOI": "10.1093/nar/gky1038",
+        "article-title": "Panther version 14: more genomes, a new panther go-slim and improvements in enrichment analysis tools",
+        "volume": "47",
+        "author": "Mi",
+        "year": "2019",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ymeth.2023.07.007_br0400",
+        "doi-asserted-by": "crossref",
+        "first-page": "703",
+        "DOI": "10.1038/s41596-019-0128-8",
+        "article-title": "Protocol update for large-scale genome and gene function analysis with the panther classification system (v. 14.0)",
+        "volume": "14",
+        "author": "Mi",
+        "year": "2019",
+        "journal-title": "Nat. Protoc."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0410",
+        "doi-asserted-by": "crossref",
+        "first-page": "e253",
+        "DOI": "10.1002/sta4.253",
+        "article-title": "Tensor canonical correlation analysis",
+        "volume": "8",
+        "author": "Min",
+        "year": "2019",
+        "journal-title": "Stat"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0420",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.2202/1544-6115.1406",
+        "article-title": "Sparse canonical correlation analysis with application to genomic data integration",
+        "volume": "8",
+        "author": "Parkhomenko",
+        "year": "2009",
+        "journal-title": "Stat. Appl. Genet. Mol. Biol."
+      },
+      {
+        "issue": "25",
+        "key": "10.1016/j.ymeth.2023.07.007_br0430",
+        "doi-asserted-by": "crossref",
+        "first-page": "1937",
+        "DOI": "10.1056/NEJMoa012914",
+        "article-title": "The use of molecular profiling to predict survival after chemotherapy for diffuse large-b-cell lymphoma",
+        "volume": "346",
+        "author": "Rosenwald",
+        "year": "2002",
+        "journal-title": "N. Engl. J. Med."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.ymeth.2023.07.007_br0440",
+        "doi-asserted-by": "crossref",
+        "first-page": "792",
+        "DOI": "10.1016/j.jalz.2015.05.009",
+        "article-title": "Genetic studies of quantitative mci and ad phenotypes in adni: progress, opportunities, and plans",
+        "volume": "11",
+        "author": "Saykin",
+        "year": "2015",
+        "journal-title": "Alzheimer's Dement."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0450",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.1016/j.jcomdis.2012.09.002",
+        "article-title": "Personal fm systems for children with autism spectrum disorders (asd) and/or attention-deficit hyperactivity disorder (adhd): an initial investigation",
+        "volume": "46",
+        "author": "Schafer",
+        "year": "2013",
+        "journal-title": "J. Commun. Disord."
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0460",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1007/978-3-642-24446-9_4",
+        "article-title": "Identifying neuroimaging and proteomic biomarkers for mci and ad via the elastic net",
+        "volume": "7012",
+        "author": "Shen",
+        "year": "2011",
+        "journal-title": "Multimod. Brain Image Anal."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ymeth.2023.07.007_br0470",
+        "doi-asserted-by": "crossref",
+        "first-page": "1051",
+        "DOI": "10.1016/j.neuroimage.2010.01.042",
+        "article-title": "Whole genome association study of brain-wide imaging phenotypes for identifying quantitative trait loci in mci and ad: a study of the adni cohort",
+        "volume": "53",
+        "author": "Shen",
+        "year": "2010",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ymeth.2023.07.007_br0480",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1007/s11682-013-9262-z",
+        "article-title": "Genetic analysis of quantitative phenotypes in ad and mci: imaging, cognition and biomarkers",
+        "volume": "8",
+        "author": "Shen",
+        "year": "2014",
+        "journal-title": "Brain Imaging Behav."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0490",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1109/JPROC.2019.2947272",
+        "article-title": "Brain imaging genomics: integrated analysis and machine learning",
+        "volume": "108",
+        "author": "Shen",
+        "year": "2020",
+        "journal-title": "Proc. IEEE"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0500",
+        "doi-asserted-by": "crossref",
+        "first-page": "194",
+        "DOI": "10.1109/TPAMI.2010.160",
+        "article-title": "Canonical correlation analysis for multilabel classification: a least-squares formulation, extensions, and analysis",
+        "volume": "33",
+        "author": "Sun",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0510",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1186/s40478-016-0387-3",
+        "article-title": "Epidermal growth factor prevents apoe4 and amyloid-beta-induced cognitive and cerebrovascular deficits in female mice",
+        "volume": "4",
+        "author": "Thomas",
+        "year": "2016",
+        "journal-title": "Acta Neuropathol. Commun."
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0520",
+        "doi-asserted-by": "crossref",
+        "first-page": "1629",
+        "DOI": "10.1007/s00259-009-1129-6",
+        "article-title": "Test-retest variability of quantitative [11 c] pib studies in Alzheimer's disease",
+        "volume": "36",
+        "author": "Tolboom",
+        "year": "2009",
+        "journal-title": "Eur. J. Nucl. Med. Mol. Imaging"
+      },
+      {
+        "issue": "16",
+        "key": "10.1016/j.ymeth.2023.07.007_br0530",
+        "doi-asserted-by": "crossref",
+        "first-page": "e164",
+        "DOI": "10.1093/nar/gkq603",
+        "article-title": "Annovar: functional annotation of genetic variants from high-throughput sequencing data",
+        "volume": "38",
+        "author": "Wang",
+        "year": "2010",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "issue": "41",
+        "key": "10.1016/j.ymeth.2023.07.007_br0540",
+        "doi-asserted-by": "crossref",
+        "first-page": "16743",
+        "DOI": "10.1073/pnas.1208011109",
+        "article-title": "Epidermal growth factor receptor is a preferred target for treating amyloid-β–induced memory loss",
+        "volume": "109",
+        "author": "Wang",
+        "year": "2012",
+        "journal-title": "Proc. Natl. Acad. Sci."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ymeth.2023.07.007_br0550",
+        "doi-asserted-by": "crossref",
+        "first-page": "e111",
+        "DOI": "10.1016/j.jalz.2013.05.1769",
+        "article-title": "The Alzheimer's disease neuroimaging initiative: a review of papers published since its inception",
+        "volume": "9",
+        "author": "Weiner",
+        "year": "2013",
+        "journal-title": "Alzheimer's Dement."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.ymeth.2023.07.007_br0560",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1",
+        "DOI": "10.1016/j.jalz.2016.11.007",
+        "article-title": "Recent publications from the Alzheimer's disease neuroimaging initiative: reviewing progress toward improved ad clinical trials",
+        "volume": "13",
+        "author": "Weiner",
+        "year": "2017",
+        "journal-title": "Alzheimer's Dement."
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0570",
+        "first-page": "2022-09",
+        "article-title": "Genetic, clinical underpinnings of subtle early brain change along Alzheimer's dimensions",
+        "author": "Wen",
+        "year": "2022",
+        "journal-title": "bioRxiv"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ymeth.2023.07.007_br0580",
+        "doi-asserted-by": "crossref",
+        "first-page": "515",
+        "DOI": "10.1093/biostatistics/kxp008",
+        "article-title": "A penalized matrix decomposition, with applications to sparse principal components and canonical correlation analysis",
+        "volume": "10",
+        "author": "Witten",
+        "year": "2009",
+        "journal-title": "Biostatistics"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ymeth.2023.07.007_br0600",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.2202/1544-6115.1470",
+        "article-title": "Extensions of sparse canonical correlation analysis with applications to genomic data",
+        "volume": "8",
+        "author": "Witten",
+        "year": "2009",
+        "journal-title": "Stat. Appl. Genet. Mol. Biol."
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.ymeth.2023.07.007_br0610",
+        "doi-asserted-by": "crossref",
+        "first-page": "1520",
+        "DOI": "10.3390/genes13091520",
+        "article-title": "Mining high-level imaging genetic associations via clustering ad candidate variants with similar brain association patterns",
+        "volume": "13",
+        "author": "Wu",
+        "year": "2022",
+        "journal-title": "Genes"
+      },
+      {
+        "issue": "17",
+        "key": "10.1016/j.ymeth.2023.07.007_br0620",
+        "doi-asserted-by": "crossref",
+        "first-page": "i564",
+        "DOI": "10.1093/bioinformatics/btu465",
+        "article-title": "Transcriptome-guided amyloid imaging genetic analysis via a novel structured sparse learning algorithm",
+        "volume": "30",
+        "author": "Yan",
+        "year": "2014",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.ymeth.2023.07.007_br0630",
+        "doi-asserted-by": "crossref",
+        "first-page": "1149",
+        "DOI": "10.1523/JNEUROSCI.4736-04.2005",
+        "article-title": "β-amyloid-induced neuronal apoptosis involves c-jun n-terminal kinase-dependent downregulation of bcl-w",
+        "volume": "25",
+        "author": "Yao",
+        "year": "2005",
+        "journal-title": "J. Neurosci."
+      },
+      {
+        "key": "10.1016/j.ymeth.2023.07.007_br0640",
+        "doi-asserted-by": "crossref",
+        "first-page": "665",
+        "DOI": "10.1038/nmeth.1635",
+        "article-title": "Large-scale automated synthesis of human functional neuroimaging data",
+        "volume": "8",
+        "author": "Yarkoni",
+        "year": "2011",
+        "journal-title": "Nat. Methods"
+      }
+    ],
+    "container-title": [
+      "Methods"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1046202323001184?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1046202323001184?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2025-11-05T14:52:02Z",
+      "timestamp": 1762354322000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1046202323001184"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10
+        ]
+      ]
+    },
+    "references-count": 63,
+    "alternative-id": [
+      "S1046202323001184"
+    ],
+    "URL": "https://doi.org/10.1016/j.ymeth.2023.07.007",
+    "relation": {},
+    "ISSN": [
+      "1046-2023"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1046-2023"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Preference matrix guided sparse canonical correlation analysis for mining brain imaging genetic associations in Alzheimer's disease",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Methods",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ymeth.2023.07.007",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 Elsevier Inc. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2779 @@
+{
+  "doi": "10.5194/essd-16-2717-2024",
+  "openalex": {
+    "id": "https://openalex.org/W4399586683",
+    "doi": "https://doi.org/10.5194/essd-16-2717-2024",
+    "title": "IPB-MSA&amp;SO <sub>4</sub> : a daily 0.25° resolution dataset of in situ-produced biogenic methanesulfonic acid and sulfate over the North Atlantic during 1998–2022 based on machine learning",
+    "display_name": "IPB-MSA&amp;SO <sub>4</sub> : a daily 0.25° resolution dataset of in situ-produced biogenic methanesulfonic acid and sulfate over the North Atlantic during 1998–2022 based on machine learning",
+    "publication_year": 2024,
+    "publication_date": "2024-06-12",
+    "ids": {
+      "openalex": "https://openalex.org/W4399586683",
+      "doi": "https://doi.org/10.5194/essd-16-2717-2024"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.5194/essd-16-2717-2024",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5194/essd-16-2717-2024",
+      "pdf_url": "https://essd.copernicus.org/articles/16/2717/2024/essd-16-2717-2024.pdf",
+      "source": {
+        "id": "https://openalex.org/S106909380",
+        "display_name": "Earth system science data",
+        "issn_l": "1866-3508",
+        "issn": [
+          "1866-3508",
+          "1866-3516"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310313756",
+        "host_organization_name": "Copernicus Publications",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310313756"
+        ],
+        "host_organization_lineage_names": [
+          "Copernicus Publications"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Earth System Science Data",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://essd.copernicus.org/articles/16/2717/2024/essd-16-2717-2024.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5067503124",
+          "display_name": "Karam Mansour",
+          "orcid": "https://orcid.org/0000-0003-0588-9411"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I84524832",
+            "display_name": "Alexandria University",
+            "ror": "https://ror.org/00mzz1w90",
+            "country_code": "EG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I84524832"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210096500",
+            "display_name": "Institute of Atmospheric Sciences and Climate",
+            "ror": "https://ror.org/00n8ttd98",
+            "country_code": "IT",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210096500",
+              "https://openalex.org/I4210155236"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210155236",
+            "display_name": "National Research Council",
+            "ror": "https://ror.org/04zaypm56",
+            "country_code": "IT",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I4210155236"
+            ]
+          }
+        ],
+        "countries": [
+          "EG",
+          "IT"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Karam Mansour",
+        "raw_affiliation_strings": [
+          "Institute of Atmospheric Sciences and Climate, Italian National Research Council (CNR-ISAC), Bologna, Italy",
+          "Oceanography Department, Faculty of Science, Alexandria University, Alexandria, Egypt"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Atmospheric Sciences and Climate, Italian National Research Council (CNR-ISAC), Bologna, Italy",
+            "institution_ids": [
+              "https://openalex.org/I4210096500",
+              "https://openalex.org/I4210155236"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Oceanography Department, Faculty of Science, Alexandria University, Alexandria, Egypt",
+            "institution_ids": [
+              "https://openalex.org/I84524832"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5002517482",
+          "display_name": "Stefano Decesari",
+          "orcid": "https://orcid.org/0000-0001-6486-3786"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210096500",
+            "display_name": "Institute of Atmospheric Sciences and Climate",
+            "ror": "https://ror.org/00n8ttd98",
+            "country_code": "IT",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210096500",
+              "https://openalex.org/I4210155236"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210155236",
+            "display_name": "National Research Council",
+            "ror": "https://ror.org/04zaypm56",
+            "country_code": "IT",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I4210155236"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Stefano Decesari",
+        "raw_affiliation_strings": [
+          "Institute of Atmospheric Sciences and Climate, Italian National Research Council (CNR-ISAC), Bologna, Italy"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Atmospheric Sciences and Climate, Italian National Research Council (CNR-ISAC), Bologna, Italy",
+            "institution_ids": [
+              "https://openalex.org/I4210096500",
+              "https://openalex.org/I4210155236"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5065098652",
+          "display_name": "Darius Čeburnis",
+          "orcid": "https://orcid.org/0000-0003-0231-5324"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I188760350",
+            "display_name": "Ollscoil na Gaillimhe – University of Galway",
+            "ror": "https://ror.org/03bea9k73",
+            "country_code": "IE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I188760350"
+            ]
+          }
+        ],
+        "countries": [
+          "IE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Darius Ceburnis",
+        "raw_affiliation_strings": [
+          "School of Natural Sciences, Ryan Institute Centre for Climate and Air Pollution Studies, University of Galway, Galway, Ireland"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Natural Sciences, Ryan Institute Centre for Climate and Air Pollution Studies, University of Galway, Galway, Ireland",
+            "institution_ids": [
+              "https://openalex.org/I188760350"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5080432883",
+          "display_name": "Jurgita Ovadnevaitė",
+          "orcid": "https://orcid.org/0000-0001-7201-0118"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I188760350",
+            "display_name": "Ollscoil na Gaillimhe – University of Galway",
+            "ror": "https://ror.org/03bea9k73",
+            "country_code": "IE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I188760350"
+            ]
+          }
+        ],
+        "countries": [
+          "IE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jurgita Ovadnevaite",
+        "raw_affiliation_strings": [
+          "School of Natural Sciences, Ryan Institute Centre for Climate and Air Pollution Studies, University of Galway, Galway, Ireland"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Natural Sciences, Ryan Institute Centre for Climate and Air Pollution Studies, University of Galway, Galway, Ireland",
+            "institution_ids": [
+              "https://openalex.org/I188760350"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019213085",
+          "display_name": "Lynn M. Russell",
+          "orcid": "https://orcid.org/0000-0002-6108-2375"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I150209017",
+            "display_name": "Scripps Institution of Oceanography",
+            "ror": "https://ror.org/04v7hvq31",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I150209017",
+              "https://openalex.org/I36258959"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I36258959",
+            "display_name": "University of California, San Diego",
+            "ror": "https://ror.org/0168r3w48",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36258959"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Lynn M. Russell",
+        "raw_affiliation_strings": [
+          "Scripps Institution of Oceanography, University of California, San Diego, La Jolla, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Scripps Institution of Oceanography, University of California, San Diego, La Jolla, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I150209017",
+              "https://openalex.org/I36258959"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5057972623",
+          "display_name": "Marco Paglione",
+          "orcid": "https://orcid.org/0000-0002-4423-2570"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210096500",
+            "display_name": "Institute of Atmospheric Sciences and Climate",
+            "ror": "https://ror.org/00n8ttd98",
+            "country_code": "IT",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210096500",
+              "https://openalex.org/I4210155236"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210155236",
+            "display_name": "National Research Council",
+            "ror": "https://ror.org/04zaypm56",
+            "country_code": "IT",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I4210155236"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Marco Paglione",
+        "raw_affiliation_strings": [
+          "Institute of Atmospheric Sciences and Climate, Italian National Research Council (CNR-ISAC), Bologna, Italy"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Atmospheric Sciences and Climate, Italian National Research Council (CNR-ISAC), Bologna, Italy",
+            "institution_ids": [
+              "https://openalex.org/I4210096500",
+              "https://openalex.org/I4210155236"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5017098429",
+          "display_name": "Laurent Poulain",
+          "orcid": "https://orcid.org/0000-0002-9128-7881"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210117062",
+            "display_name": "Leibniz Institute for Tropospheric Research",
+            "ror": "https://ror.org/03a5xsc56",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I315704651",
+              "https://openalex.org/I4210117062"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Laurent Poulain",
+        "raw_affiliation_strings": [
+          "Atmospheric Chemistry Department (ACD), Leibniz Institute for Tropospheric Research (TROPOS), Leipzig, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Atmospheric Chemistry Department (ACD), Leibniz Institute for Tropospheric Research (TROPOS), Leipzig, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4210117062"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019925944",
+          "display_name": "Shan Huang",
+          "orcid": "https://orcid.org/0000-0001-5575-4510"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I159948400",
+            "display_name": "Jinan University",
+            "ror": "https://ror.org/02xe5ns62",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I159948400"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210117062",
+            "display_name": "Leibniz Institute for Tropospheric Research",
+            "ror": "https://ror.org/03a5xsc56",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I315704651",
+              "https://openalex.org/I4210117062"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "DE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Shan Huang",
+        "raw_affiliation_strings": [
+          "Atmospheric Chemistry Department (ACD), Leibniz Institute for Tropospheric Research (TROPOS), Leipzig, Germany",
+          "now at: Institute for Environmental and Climate Research (ECI), Jinan University, Guangzhou, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Atmospheric Chemistry Department (ACD), Leibniz Institute for Tropospheric Research (TROPOS), Leipzig, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4210117062"
+            ]
+          },
+          {
+            "raw_affiliation_string": "now at: Institute for Environmental and Climate Research (ECI), Jinan University, Guangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I159948400"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5059148076",
+          "display_name": "Colin O’Dowd",
+          "orcid": "https://orcid.org/0000-0002-3068-2212"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I188760350",
+            "display_name": "Ollscoil na Gaillimhe – University of Galway",
+            "ror": "https://ror.org/03bea9k73",
+            "country_code": "IE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I188760350"
+            ]
+          }
+        ],
+        "countries": [
+          "IE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Colin O'Dowd",
+        "raw_affiliation_strings": [
+          "School of Natural Sciences, Ryan Institute Centre for Climate and Air Pollution Studies, University of Galway, Galway, Ireland"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Natural Sciences, Ryan Institute Centre for Climate and Air Pollution Studies, University of Galway, Galway, Ireland",
+            "institution_ids": [
+              "https://openalex.org/I188760350"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5034517552",
+          "display_name": "Matteo Rinaldi",
+          "orcid": "https://orcid.org/0000-0001-6543-4000"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210096500",
+            "display_name": "Institute of Atmospheric Sciences and Climate",
+            "ror": "https://ror.org/00n8ttd98",
+            "country_code": "IT",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210096500",
+              "https://openalex.org/I4210155236"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210155236",
+            "display_name": "National Research Council",
+            "ror": "https://ror.org/04zaypm56",
+            "country_code": "IT",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I4210155236"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Matteo Rinaldi",
+        "raw_affiliation_strings": [
+          "Institute of Atmospheric Sciences and Climate, Italian National Research Council (CNR-ISAC), Bologna, Italy"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Atmospheric Sciences and Climate, Italian National Research Council (CNR-ISAC), Bologna, Italy",
+            "institution_ids": [
+              "https://openalex.org/I4210096500",
+              "https://openalex.org/I4210155236"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 6,
+    "institutions_distinct_count": 10,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5019925944",
+      "https://openalex.org/A5065098652",
+      "https://openalex.org/A5059148076",
+      "https://openalex.org/A5034517552",
+      "https://openalex.org/A5057972623",
+      "https://openalex.org/A5017098429",
+      "https://openalex.org/A5019213085",
+      "https://openalex.org/A5002517482",
+      "https://openalex.org/A5080432883",
+      "https://openalex.org/A5067503124"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I150209017",
+      "https://openalex.org/I159948400",
+      "https://openalex.org/I188760350",
+      "https://openalex.org/I36258959",
+      "https://openalex.org/I4210096500",
+      "https://openalex.org/I4210117062",
+      "https://openalex.org/I4210155236",
+      "https://openalex.org/I84524832"
+    ],
+    "apc_list": {
+      "value": 1400,
+      "currency": "EUR",
+      "value_usd": 1509
+    },
+    "apc_paid": {
+      "value": 1400,
+      "currency": "EUR",
+      "value_usd": 1509
+    },
+    "fwci": 3.93837791,
+    "has_fulltext": false,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": {
+      "value": 0.92745352,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 94,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "16",
+      "issue": "6",
+      "first_page": "2717",
+      "last_page": "2740"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10075",
+      "display_name": "Atmospheric chemistry and aerosols",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10075",
+        "display_name": "Atmospheric chemistry and aerosols",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1902",
+          "display_name": "Atmospheric Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12120",
+        "display_name": "Air Quality Monitoring and Forecasting",
+        "score": 0.9930999875068665,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10347",
+        "display_name": "Atmospheric aerosols and clouds",
+        "score": 0.9879999756813049,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2306",
+          "display_name": "Global and Planetary Change"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/methanesulfonic-acid",
+        "display_name": "Methanesulfonic acid",
+        "score": 0.6551041603088379
+      },
+      {
+        "id": "https://openalex.org/keywords/aerosol",
+        "display_name": "Aerosol",
+        "score": 0.6358469128608704
+      },
+      {
+        "id": "https://openalex.org/keywords/environmental-science",
+        "display_name": "Environmental science",
+        "score": 0.6312806606292725
+      },
+      {
+        "id": "https://openalex.org/keywords/sulfate",
+        "display_name": "Sulfate",
+        "score": 0.499204158782959
+      },
+      {
+        "id": "https://openalex.org/keywords/mean-squared-error",
+        "display_name": "Mean squared error",
+        "score": 0.4385245442390442
+      },
+      {
+        "id": "https://openalex.org/keywords/climatology",
+        "display_name": "Climatology",
+        "score": 0.41330739855766296
+      },
+      {
+        "id": "https://openalex.org/keywords/meteorology",
+        "display_name": "Meteorology",
+        "score": 0.34283602237701416
+      },
+      {
+        "id": "https://openalex.org/keywords/atmospheric-sciences",
+        "display_name": "Atmospheric sciences",
+        "score": 0.32523417472839355
+      },
+      {
+        "id": "https://openalex.org/keywords/geology",
+        "display_name": "Geology",
+        "score": 0.25417131185531616
+      },
+      {
+        "id": "https://openalex.org/keywords/chemistry",
+        "display_name": "Chemistry",
+        "score": 0.12286782264709473
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.09692811965942383
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2776792860",
+        "wikidata": "https://www.wikidata.org/wiki/Q414168",
+        "display_name": "Methanesulfonic acid",
+        "level": 2,
+        "score": 0.6551041603088379
+      },
+      {
+        "id": "https://openalex.org/C2779345167",
+        "wikidata": "https://www.wikidata.org/wiki/Q104541",
+        "display_name": "Aerosol",
+        "level": 2,
+        "score": 0.6358469128608704
+      },
+      {
+        "id": "https://openalex.org/C39432304",
+        "wikidata": "https://www.wikidata.org/wiki/Q188847",
+        "display_name": "Environmental science",
+        "level": 0,
+        "score": 0.6312806606292725
+      },
+      {
+        "id": "https://openalex.org/C2778343803",
+        "wikidata": "https://www.wikidata.org/wiki/Q172290",
+        "display_name": "Sulfate",
+        "level": 2,
+        "score": 0.499204158782959
+      },
+      {
+        "id": "https://openalex.org/C139945424",
+        "wikidata": "https://www.wikidata.org/wiki/Q1940696",
+        "display_name": "Mean squared error",
+        "level": 2,
+        "score": 0.4385245442390442
+      },
+      {
+        "id": "https://openalex.org/C49204034",
+        "wikidata": "https://www.wikidata.org/wiki/Q52139",
+        "display_name": "Climatology",
+        "level": 1,
+        "score": 0.41330739855766296
+      },
+      {
+        "id": "https://openalex.org/C153294291",
+        "wikidata": "https://www.wikidata.org/wiki/Q25261",
+        "display_name": "Meteorology",
+        "level": 1,
+        "score": 0.34283602237701416
+      },
+      {
+        "id": "https://openalex.org/C91586092",
+        "wikidata": "https://www.wikidata.org/wiki/Q757520",
+        "display_name": "Atmospheric sciences",
+        "level": 1,
+        "score": 0.32523417472839355
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.25417131185531616
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.12286782264709473
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.09692811965942383
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.5194/essd-16-2717-2024",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5194/essd-16-2717-2024",
+        "pdf_url": "https://essd.copernicus.org/articles/16/2717/2024/essd-16-2717-2024.pdf",
+        "source": {
+          "id": "https://openalex.org/S106909380",
+          "display_name": "Earth system science data",
+          "issn_l": "1866-3508",
+          "issn": [
+            "1866-3508",
+            "1866-3516"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310313756",
+          "host_organization_name": "Copernicus Publications",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310313756"
+          ],
+          "host_organization_lineage_names": [
+            "Copernicus Publications"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Earth System Science Data",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:b564d99c43d947e989ad34c01af45e4c",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/b564d99c43d947e989ad34c01af45e4c",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Earth System Science Data, Vol 16, Pp 2717-2740 (2024)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:frl.publisso.de:frl:6486979",
+        "is_oa": true,
+        "landing_page_url": "https://repository.publisso.de/resource/frl:6486979",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402606",
+          "display_name": "Informationszentrum Lebenswissenschaften (ZB MED)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4210112663",
+          "host_organization_name": "ZB MED - Information Centre for Life Sciences",
+          "host_organization_lineage": [
+            "https://openalex.org/I4210112663"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "http://lobid.org/resources/990173331710206441#!, 16(6):2717-2740",
+        "raw_type": "Zeitschriftenartikel"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.5194/essd-16-2717-2024",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5194/essd-16-2717-2024",
+      "pdf_url": "https://essd.copernicus.org/articles/16/2717/2024/essd-16-2717-2024.pdf",
+      "source": {
+        "id": "https://openalex.org/S106909380",
+        "display_name": "Earth system science data",
+        "issn_l": "1866-3508",
+        "issn": [
+          "1866-3508",
+          "1866-3516"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310313756",
+        "host_organization_name": "Copernicus Publications",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310313756"
+        ],
+        "host_organization_lineage_names": [
+          "Copernicus Publications"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Earth System Science Data",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/14",
+        "display_name": "Life below water",
+        "score": 0.8500000238418579
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G4629197022",
+        "display_name": null,
+        "funder_award_id": "821205",
+        "funder_id": "https://openalex.org/F4320332999",
+        "funder_display_name": "Horizon 2020 Framework Programme"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320332999",
+        "display_name": "Horizon 2020 Framework Programme",
+        "ror": "https://ror.org/00k4n6c32"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 85,
+    "referenced_works": [
+      "https://openalex.org/W2162912069",
+      "https://openalex.org/W2901950602",
+      "https://openalex.org/W2023046337",
+      "https://openalex.org/W2074154634",
+      "https://openalex.org/W2925045803",
+      "https://openalex.org/W3119842029",
+      "https://openalex.org/W4285802971",
+      "https://openalex.org/W2996798492",
+      "https://openalex.org/W2911964244",
+      "https://openalex.org/W2213026911",
+      "https://openalex.org/W2021198116",
+      "https://openalex.org/W1994796172",
+      "https://openalex.org/W1982254235",
+      "https://openalex.org/W2075674156",
+      "https://openalex.org/W2081118881",
+      "https://openalex.org/W2564065614",
+      "https://openalex.org/W2889246260",
+      "https://openalex.org/W2781410850",
+      "https://openalex.org/W2143657488",
+      "https://openalex.org/W1678356000",
+      "https://openalex.org/W2091908936",
+      "https://openalex.org/W4210278176",
+      "https://openalex.org/W2085281262",
+      "https://openalex.org/W2808638327",
+      "https://openalex.org/W2216244657",
+      "https://openalex.org/W2017316488",
+      "https://openalex.org/W2139024495",
+      "https://openalex.org/W2597076614",
+      "https://openalex.org/W2793997912",
+      "https://openalex.org/W3025949386",
+      "https://openalex.org/W2900363876",
+      "https://openalex.org/W2560683442",
+      "https://openalex.org/W4283806045",
+      "https://openalex.org/W2900933286",
+      "https://openalex.org/W2117610650",
+      "https://openalex.org/W2088874310",
+      "https://openalex.org/W2173957055",
+      "https://openalex.org/W2893975959",
+      "https://openalex.org/W1987552279",
+      "https://openalex.org/W2013662189",
+      "https://openalex.org/W2080534936",
+      "https://openalex.org/W2159172550",
+      "https://openalex.org/W2889698793",
+      "https://openalex.org/W2997922492",
+      "https://openalex.org/W3027895624",
+      "https://openalex.org/W4281552009",
+      "https://openalex.org/W4319939982",
+      "https://openalex.org/W6963042929",
+      "https://openalex.org/W2031566797",
+      "https://openalex.org/W4221088376",
+      "https://openalex.org/W2061082730",
+      "https://openalex.org/W2042343920",
+      "https://openalex.org/W2414213475",
+      "https://openalex.org/W2063359930",
+      "https://openalex.org/W2943403746",
+      "https://openalex.org/W2117764666",
+      "https://openalex.org/W4236137412",
+      "https://openalex.org/W2071512373",
+      "https://openalex.org/W2037143349",
+      "https://openalex.org/W1977805209",
+      "https://openalex.org/W2113678116",
+      "https://openalex.org/W2013858314",
+      "https://openalex.org/W3202521227",
+      "https://openalex.org/W2158143121",
+      "https://openalex.org/W2674884973",
+      "https://openalex.org/W2060245706",
+      "https://openalex.org/W2807107999",
+      "https://openalex.org/W3082198895",
+      "https://openalex.org/W2792260101",
+      "https://openalex.org/W2954936648",
+      "https://openalex.org/W2997981891",
+      "https://openalex.org/W4296810027",
+      "https://openalex.org/W2079123570",
+      "https://openalex.org/W2159672259",
+      "https://openalex.org/W1485504984",
+      "https://openalex.org/W2143385076",
+      "https://openalex.org/W2004475355",
+      "https://openalex.org/W4230674625",
+      "https://openalex.org/W2517171266",
+      "https://openalex.org/W2169573491",
+      "https://openalex.org/W2036600345",
+      "https://openalex.org/W2120943354",
+      "https://openalex.org/W3205103598",
+      "https://openalex.org/W4385798139",
+      "https://openalex.org/W2081200609"
+    ],
+    "related_works": [
+      "https://openalex.org/W2361853192",
+      "https://openalex.org/W2357009917",
+      "https://openalex.org/W2953105051",
+      "https://openalex.org/W2055950801",
+      "https://openalex.org/W2023508403",
+      "https://openalex.org/W2132390220",
+      "https://openalex.org/W1980994695",
+      "https://openalex.org/W2162370844",
+      "https://openalex.org/W1967584785",
+      "https://openalex.org/W1995126443"
+    ],
+    "abstract_inverted_index": {
+      "Abstract.": [
+        0
+      ],
+      "Accurate": [
+        1
+      ],
+      "long-term": [
+        2
+      ],
+      "marine-derived": [
+        3,
+        42
+      ],
+      "biogenic": [
+        4,
+        43,
+        83,
+        242,
+        303,
+        380
+      ],
+      "sulfur": [
+        5,
+        44,
+        134,
+        381
+      ],
+      "aerosol": [
+        6,
+        45,
+        49,
+        135,
+        382
+      ],
+      "concentrations": [
+        7,
+        46,
+        91,
+        284,
+        308
+      ],
+      "at": [
+        8,
+        402
+      ],
+      "high": [
+        9,
+        100,
+        385,
+        389
+      ],
+      "spatial": [
+        10,
+        101,
+        374
+      ],
+      "and": [
+        11,
+        26,
+        58,
+        87,
+        106,
+        120,
+        150,
+        156,
+        173,
+        202,
+        217,
+        244,
+        261,
+        280,
+        282,
+        305,
+        321,
+        341,
+        375,
+        387
+      ],
+      "temporal": [
+        12,
+        376
+      ],
+      "resolutions": [
+        13
+      ],
+      "are": [
+        14,
+        285
+      ],
+      "critical": [
+        15
+      ],
+      "for": [
+        16,
+        34,
+        51,
+        63,
+        183
+      ],
+      "a": [
+        17,
+        296
+      ],
+      "wide": [
+        18
+      ],
+      "range": [
+        19
+      ],
+      "of": [
+        20,
+        38,
+        41,
+        54,
+        80,
+        99,
+        133,
+        148,
+        208,
+        219,
+        258,
+        265,
+        300,
+        339,
+        378
+      ],
+      "studies,": [
+        21
+      ],
+      "including": [
+        22
+      ],
+      "climatology,": [
+        23
+      ],
+      "trend": [
+        24
+      ],
+      "analysis,": [
+        25
+      ],
+      "model": [
+        27,
+        190
+      ],
+      "evaluation;": [
+        28
+      ],
+      "this": [
+        29
+      ],
+      "information": [
+        30
+      ],
+      "is": [
+        31,
+        98,
+        399
+      ],
+      "also": [
+        32
+      ],
+      "imperative": [
+        33
+      ],
+      "the": [
+        35,
+        39,
+        48,
+        52,
+        73,
+        93,
+        145,
+        152,
+        163,
+        167,
+        180,
+        209,
+        229,
+        234,
+        241,
+        254,
+        262,
+        276,
+        291,
+        310,
+        324,
+        336,
+        346,
+        354,
+        373,
+        379,
+        395
+      ],
+      "accurate": [
+        36
+      ],
+      "investigation": [
+        37
+      ],
+      "contribution": [
+        40
+      ],
+      "to": [
+        47,
+        59,
+        239,
+        334
+      ],
+      "burden,": [
+        50
+      ],
+      "elucidation": [
+        53
+      ],
+      "their": [
+        55
+      ],
+      "radiative": [
+        56
+      ],
+      "impacts,": [
+        57
+      ],
+      "provide": [
+        60
+      ],
+      "boundary": [
+        61
+      ],
+      "conditions": [
+        62
+      ],
+      "regional": [
+        64
+      ],
+      "models.": [
+        65
+      ],
+      "By": [
+        66
+      ],
+      "applying": [
+        67
+      ],
+      "machine": [
+        68,
+        123,
+        188
+      ],
+      "learning": [
+        69,
+        124,
+        189
+      ],
+      "algorithms,": [
+        70
+      ],
+      "we": [
+        71,
+        185,
+        294,
+        314
+      ],
+      "constructed": [
+        72,
+        168
+      ],
+      "first": [
+        74
+      ],
+      "publicly": [
+        75,
+        400
+      ],
+      "available": [
+        76,
+        401
+      ],
+      "daily": [
+        77,
+        249,
+        298
+      ],
+      "gridded": [
+        78
+      ],
+      "dataset": [
+        79,
+        97,
+        299,
+        371
+      ],
+      "in": [
+        81,
+        130,
+        162,
+        301,
+        394
+      ],
+      "situ-produced": [
+        82,
+        302
+      ],
+      "methanesulfonic": [
+        84
+      ],
+      "acid": [
+        85
+      ],
+      "(MSA)": [
+        86
+      ],
+      "non-sea-salt": [
+        88
+      ],
+      "sulfate": [
+        89
+      ],
+      "(nss-SO4=)": [
+        90
+      ],
+      "covering": [
+        92
+      ],
+      "North": [
+        94,
+        153,
+        311,
+        325
+      ],
+      "Atlantic.": [
+        95
+      ],
+      "The": [
+        96,
+        122,
+        328
+      ],
+      "resolution": [
+        102
+      ],
+      "(0.25°": [
+        103
+      ],
+      "×": [
+        104
+      ],
+      "0.25°)": [
+        105
+      ],
+      "spans": [
+        107
+      ],
+      "25": [
+        108
+      ],
+      "years": [
+        109
+      ],
+      "(1998–2022),": [
+        110
+      ],
+      "far": [
+        111
+      ],
+      "exceeding": [
+        112
+      ],
+      "what": [
+        113
+      ],
+      "observations": [
+        114,
+        132
+      ],
+      "alone": [
+        115
+      ],
+      "could": [
+        116
+      ],
+      "achieve": [
+        117
+      ],
+      "both": [
+        118
+      ],
+      "spatially": [
+        119
+      ],
+      "temporally.": [
+        121
+      ],
+      "models": [
+        125,
+        236
+      ],
+      "were": [
+        126
+      ],
+      "generated": [
+        127
+      ],
+      "by": [
+        128
+      ],
+      "combining": [
+        129
+      ],
+      "situ": [
+        131
+      ],
+      "data": [
+        136,
+        331
+      ],
+      "from": [
+        137,
+        151
+      ],
+      "Mace": [
+        138
+      ],
+      "Head": [
+        139
+      ],
+      "Atmospheric": [
+        140,
+        361
+      ],
+      "Research": [
+        141
+      ],
+      "Station,": [
+        142
+      ],
+      "located": [
+        143
+      ],
+      "on": [
+        144
+      ],
+      "west": [
+        146
+      ],
+      "coast": [
+        147
+      ],
+      "Ireland,": [
+        149
+      ],
+      "Atlantic": [
+        154,
+        165,
+        396
+      ],
+      "Aerosols": [
+        155
+      ],
+      "Marine": [
+        157
+      ],
+      "Ecosystems": [
+        158
+      ],
+      "Study": [
+        159
+      ],
+      "(NAAMES)": [
+        160
+      ],
+      "cruises": [
+        161
+      ],
+      "northwestern": [
+        164
+      ],
+      "with": [
+        166,
+        237,
+        353,
+        384,
+        391
+      ],
+      "sea-to-air": [
+        169
+      ],
+      "dimethylsulfide": [
+        170
+      ],
+      "flux": [
+        171
+      ],
+      "(FDMS)": [
+        172
+      ],
+      "ECMWF": [
+        174,
+        360
+      ],
+      "ERA5": [
+        175
+      ],
+      "reanalysis": [
+        176,
+        366
+      ],
+      "datasets.": [
+        177
+      ],
+      "To": [
+        178
+      ],
+      "determine": [
+        179
+      ],
+      "optimal": [
+        181
+      ],
+      "method": [
+        182
+      ],
+      "regression,": [
+        184,
+        201
+      ],
+      "employed": [
+        186
+      ],
+      "five": [
+        187
+      ],
+      "types:": [
+        191
+      ],
+      "support": [
+        192
+      ],
+      "vector": [
+        193
+      ],
+      "machines,": [
+        194
+      ],
+      "decision": [
+        195
+      ],
+      "tree,": [
+        196
+      ],
+      "regression": [
+        197,
+        226
+      ],
+      "ensemble,": [
+        198
+      ],
+      "Gaussian": [
+        199,
+        224
+      ],
+      "process": [
+        200,
+        225
+      ],
+      "artificial": [
+        203
+      ],
+      "neural": [
+        204
+      ],
+      "networks.": [
+        205
+      ],
+      "A": [
+        206,
+        351
+      ],
+      "comparison": [
+        207,
+        352
+      ],
+      "mean": [
+        210
+      ],
+      "absolute": [
+        211
+      ],
+      "error": [
+        212,
+        215
+      ],
+      "(MAE),": [
+        213
+      ],
+      "root-mean-square": [
+        214
+      ],
+      "(RMSE),": [
+        216
+      ],
+      "coefficient": [
+        218
+      ],
+      "determination": [
+        220
+      ],
+      "(R2)": [
+        221
+      ],
+      "revealed": [
+        222
+      ],
+      "that": [
+        223,
+        275,
+        368
+      ],
+      "(GPR)": [
+        227
+      ],
+      "was": [
+        228
+      ],
+      "most": [
+        230
+      ],
+      "effective": [
+        231
+      ],
+      "algorithm,": [
+        232,
+        293
+      ],
+      "outperforming": [
+        233
+      ],
+      "other": [
+        235
+      ],
+      "respect": [
+        238
+      ],
+      "simulating": [
+        240
+      ],
+      "MSA": [
+        243,
+        250,
+        281,
+        304,
+        340
+      ],
+      "nss-SO4=": [
+        245,
+        283,
+        306,
+        342
+      ],
+      "concentrations.": [
+        246
+      ],
+      "For": [
+        247
+      ],
+      "predicting": [
+        248
+      ],
+      "(nss-SO4=),": [
+        251
+      ],
+      "GPR": [
+        252,
+        270,
+        292
+      ],
+      "displayed": [
+        253
+      ],
+      "highest": [
+        255
+      ],
+      "R2": [
+        256
+      ],
+      "value": [
+        257
+      ],
+      "0.86": [
+        259
+      ],
+      "(0.72)": [
+        260
+      ],
+      "lowest": [
+        263
+      ],
+      "MAE": [
+        264
+      ],
+      "0.014": [
+        266
+      ],
+      "(0.10)": [
+        267
+      ],
+      "µg": [
+        268
+      ],
+      "m−3.": [
+        269
+      ],
+      "partial": [
+        271
+      ],
+      "dependence": [
+        272
+      ],
+      "analysis": [
+        273
+      ],
+      "suggests": [
+        274
+      ],
+      "relationships": [
+        277
+      ],
+      "between": [
+        278,
+        348
+      ],
+      "predictors": [
+        279
+      ],
+      "complex": [
+        286
+      ],
+      "rather": [
+        287
+      ],
+      "than": [
+        288
+      ],
+      "linear.": [
+        289
+      ],
+      "Using": [
+        290
+      ],
+      "produced": [
+        295
+      ],
+      "high-resolution": [
+        297,
+        370
+      ],
+      "sea-level": [
+        307
+      ],
+      "over": [
+        309,
+        323
+      ],
+      "Atlantic,": [
+        312
+      ],
+      "which": [
+        313
+      ],
+      "named": [
+        315
+      ],
+      "“In-situ": [
+        316
+      ],
+      "Produced": [
+        317
+      ],
+      "Biogenic": [
+        318
+      ],
+      "Methanesulfonic": [
+        319
+      ],
+      "Acid": [
+        320
+      ],
+      "Sulfate": [
+        322
+      ],
+      "Atlantic”": [
+        326
+      ],
+      "(IPB-MSA&amp;amp;SO4).": [
+        327
+      ],
+      "obtained": [
+        329
+      ],
+      "IPB-MSA&amp;amp;SO4": [
+        330,
+        398
+      ],
+      "allowed": [
+        332
+      ],
+      "us": [
+        333
+      ],
+      "analyze": [
+        335
+      ],
+      "spatiotemporal": [
+        337
+      ],
+      "patterns": [
+        338,
+        377
+      ],
+      "as": [
+        343,
+        345
+      ],
+      "well": [
+        344
+      ],
+      "ratio": [
+        347
+      ],
+      "them": [
+        349
+      ],
+      "(MSA:nss-SO4=).": [
+        350
+      ],
+      "existing": [
+        355
+      ],
+      "Copernicus": [
+        356
+      ],
+      "Atmosphere": [
+        357
+      ],
+      "Monitoring": [
+        358
+      ],
+      "Service": [
+        359
+      ],
+      "Composition": [
+        362
+      ],
+      "Reanalysis": [
+        363
+      ],
+      "4": [
+        364
+      ],
+      "(CAMS-EAC4)": [
+        365
+      ],
+      "suggested": [
+        367
+      ],
+      "our": [
+        369
+      ],
+      "reproduces": [
+        372
+      ],
+      "concentration": [
+        383
+      ],
+      "accuracy": [
+        386
+      ],
+      "has": [
+        388
+      ],
+      "consistency": [
+        390
+      ],
+      "independent": [
+        392
+      ],
+      "measurements": [
+        393
+      ],
+      "Ocean.": [
+        397
+      ],
+      "https://doi.org/10.17632/j8bzd5dvpx.1": [
+        403
+      ],
+      "(Mansour": [
+        404
+      ],
+      "et": [
+        405
+      ],
+      "al.,": [
+        406
+      ],
+      "2023b).": [
+        407
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-11-25T14:43:58.451035",
+    "created_date": "2024-06-13T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          23
+        ]
+      ],
+      "date-time": "2025-11-23T14:05:11Z",
+      "timestamp": 1763906711196,
+      "version": "3.45.0"
+    },
+    "reference-count": 86,
+    "publisher": "Copernicus GmbH",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              12
+            ]
+          ],
+          "date-time": "2024-06-12T00:00:00Z",
+          "timestamp": 1718150400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100010661",
+        "name": "Horizon 2020 Framework Programme",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "821205"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "821205"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100010661",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Earth Syst. Sci. Data"
+    ],
+    "abstract": "<jats:p>Abstract. Accurate long-term marine-derived biogenic sulfur aerosol concentrations at high spatial and temporal resolutions are critical for a wide range of studies, including climatology, trend analysis, and model evaluation; this information is also imperative for the accurate investigation of the contribution of marine-derived biogenic sulfur aerosol concentrations to the aerosol burden, for the elucidation of their radiative impacts, and to provide boundary conditions for regional models. By applying machine learning algorithms, we constructed the first publicly available daily gridded dataset of in situ-produced biogenic methanesulfonic acid (MSA) and non-sea-salt sulfate (nss-SO4=) concentrations covering the North Atlantic. The dataset is of high spatial resolution (0.25° × 0.25°) and spans 25 years (1998–2022), far exceeding what observations alone could achieve both spatially and temporally. The machine learning models were generated by combining in situ observations of sulfur aerosol data from Mace Head Atmospheric Research Station, located on the west coast of Ireland, and from the North Atlantic Aerosols and Marine Ecosystems Study (NAAMES) cruises in the northwestern Atlantic with the constructed sea-to-air dimethylsulfide flux (FDMS) and ECMWF ERA5 reanalysis datasets. To determine the optimal method for regression, we employed five machine learning model types: support vector machines, decision tree, regression ensemble, Gaussian process regression, and artificial neural networks. A comparison of the mean absolute error (MAE), root-mean-square error (RMSE), and coefficient of determination (R2) revealed that Gaussian process regression (GPR) was the most effective algorithm, outperforming the other models with respect to simulating the biogenic MSA and nss-SO4= concentrations. For predicting daily MSA (nss-SO4=), GPR displayed the highest R2 value of 0.86 (0.72) and the lowest MAE of 0.014 (0.10) µg m−3. GPR partial dependence analysis suggests that the relationships between predictors and MSA and nss-SO4= concentrations are complex rather than linear. Using the GPR algorithm, we produced a high-resolution daily dataset of in situ-produced biogenic MSA and nss-SO4= sea-level concentrations over the North Atlantic, which we named “In-situ Produced Biogenic Methanesulfonic Acid and Sulfate over the North Atlantic” (IPB-MSA&amp;amp;SO4). The obtained IPB-MSA&amp;amp;SO4 data allowed us to analyze the spatiotemporal patterns of MSA and nss-SO4= as well as the ratio between them (MSA:nss-SO4=). A comparison with the existing Copernicus Atmosphere Monitoring Service ECMWF Atmospheric Composition Reanalysis 4 (CAMS-EAC4) reanalysis suggested that our high-resolution dataset reproduces the spatial and temporal patterns of the biogenic sulfur aerosol concentration with high accuracy and has high consistency with independent measurements in the Atlantic Ocean. IPB-MSA&amp;amp;SO4 is publicly available at https://doi.org/10.17632/j8bzd5dvpx.1 (Mansour et al., 2023b).</jats:p>",
+    "DOI": "10.5194/essd-16-2717-2024",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2024-06-12T06:22:59Z",
+      "timestamp": 1718173379000
+    },
+    "page": "2717-2740",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "IPB-MSA&amp;SO\n                    <sub>4</sub>\n                    : a daily 0.25° resolution dataset of in situ-produced biogenic methanesulfonic acid and sulfate over the North Atlantic during 1998–2022 based on machine learning"
+    ],
+    "prefix": "10.5194",
+    "volume": "16",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0588-9411",
+        "authenticated-orcid": false,
+        "given": "Karam",
+        "family": "Mansour",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6486-3786",
+        "authenticated-orcid": false,
+        "given": "Stefano",
+        "family": "Decesari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Darius",
+        "family": "Ceburnis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jurgita",
+        "family": "Ovadnevaite",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6108-2375",
+        "authenticated-orcid": false,
+        "given": "Lynn M.",
+        "family": "Russell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4423-2570",
+        "authenticated-orcid": false,
+        "given": "Marco",
+        "family": "Paglione",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9128-7881",
+        "authenticated-orcid": false,
+        "given": "Laurent",
+        "family": "Poulain",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5575-4510",
+        "authenticated-orcid": false,
+        "given": "Shan",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Colin",
+        "family": "O'Dowd",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6543-4000",
+        "authenticated-orcid": false,
+        "given": "Matteo",
+        "family": "Rinaldi",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Allan, J. D., Jimenez, J. L., Williams, P. I., Alfarra, M. R., Bower, K. N., Jayne, J. T., Coe, H., and Worsnop, D. R.: Quantitative sampling using an Aerodyne aerosol mass spectrometer – 1. Techniques of data interpretation and error analysis, J. Geophys. Res.-Atmos., 108, 4090, https://doi.org/10.1029/2002jd002358, 2003.",
+        "DOI": "10.1029/2002JD002358"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Asante-Okyere, S., Shen, C. B., Ziggah, Y. Y., Rulegeya, M. M., and Zhu, X. F.: Investigating the Predictive Performance of Gaussian Process Regression in Evaluating Reservoir Porosity and Permeability, Energies, 11, https://doi.org/10.3390/en11123261, 2018.",
+        "DOI": "10.3390/en11123261"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barone, S. B., Turnipseed, A. A., and Ravishankara, A. R.: Role of adducts in the atmospheric oxidation of dimethyl sulfide, Faraday Discuss., 100, 39–54, https://doi.org/10.1039/fd9950000039, 1995.",
+        "DOI": "10.1039/fd9950000039"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bates, T. S., Calhoun, J. A., and Quinn, P. K.: Variations in the Methanesulfonate to Sulfate Molar Ratio in Submicrometer Marine Aerosol-Particles over the South-Pacific Ocean, J. Geophys. Res.-Atmos., 97, 9859–9865, https://doi.org/10.1029/92jd00411, 1992.",
+        "DOI": "10.1029/92JD00411"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Behrenfeld, M. J., Moore, R. H., Hostetler, C. A., Graff, J., Gaube, P., Russell, L. M., Chen, G., Doney, S. C., Giovannoni, S., Liu, H. Y., Proctor, C., Bolalios, L. M., Baetge, N., Davie-Martin, C., Westberry, T. K., Bates, T. S., Bell, T. G., Bidle, K. D., Boss, E. S., Brooks, S. D., Cairns, B., Carlson, C., Halsey, K., Harvey, E. L., Hu, C. M., Karp-Boss, L., Kleb, M., Menden-Deuer, S., Morison, F., Quinn, P. K., Scarino, A. J., Anderson, B., Chowdhary, J., Crosbie, E., Ferrare, R., Haire, J. W., Hu, Y. X., Janz, S., Redemann, J., Saltzman, E., Shook, M., Siegel, D. A., Wisthaler, A., Martine, M. Y., and Ziemba, L.: The North Atlantic Aerosol and Marine Ecosystem Study (NAAMES): Science Motive and Mission Overview, Frontiers in Marine Science, 6, 122, https://doi.org/10.3389/fmars.2019.00122, 2019.",
+        "DOI": "10.3389/fmars.2019.00122"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bock, J., Michou, M., Nabat, P., Abe, M., Mulcahy, J. P., Olivié, D. J. L., Schwinger, J., Suntharalingam, P., Tjiputra, J., van Hulten, M., Watanabe, M., Yool, A., and Séférian, R.: Evaluation of ocean dimethylsulfide concentration and emission in CMIP6 models, Biogeosciences, 18, 3823–3860, https://doi.org/10.5194/bg-18-3823-2021, 2021.",
+        "DOI": "10.5194/bg-18-3823-2021"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bograd, S. J., Jacox, M. G., Hazen, E. L., Lovecchio, E., Montes, I., Buil, M. P., Shannon, L. J., Sydeman, W. J., and Rykaczewski, R. R.: Climate Change Impacts on Eastern Boundary Upwelling Systems, Annu. Rev. Mar. Sci., 15, 303–328, https://doi.org/10.1146/annurev-marine-032122-021945, 2023.",
+        "DOI": "10.1146/annurev-marine-032122-021945"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bonino, G., Di Lorenzo, E., Masina, S., and Iovino, D.: Interannual to decadal variability within and across the major Eastern Boundary Upwelling Systems, Scientific Reports, 9, https://doi.org/10.1038/s41598-019-56514-8, 2019.",
+        "DOI": "10.1038/s41598-019-56514-8"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Breiman, L.: Random forests, Machine Learning, 45, 5–32, https://doi.org/10.1023/a:1010933404324, 2001.",
+        "DOI": "10.1023/A:1010933404324"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Buckley, M. W. and Marshall, J.: Observations, inferences, and mechanisms of the Atlantic Meridional Overturning Circulation: A review, Rev. Geophys., 54, 5–63, https://doi.org/10.1002/2015rg000493, 2016.",
+        "DOI": "10.1002/2015RG000493"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Canagaratna, M. R., Jayne, J. T., Jimenez, J. L., Allan, J. D., Alfarra, M. R., Zhang, Q., Onasch, T. B., Drewnick, F., Coe, H., Middlebrook, A., Delia, A., Williams, L. R., Trimborn, A. M., Northway, M. J., DeCarlo, P. F., Kolb, C. E., Davidovits, P., and Worsnop, D. R.: Chemical and microphysical characterization of ambient aerosols with the aerodyne aerosol mass spectrometer, Mass Spectrom. Rev., 26, 185–222, https://doi.org/10.1002/mas.20115, 2007.",
+        "DOI": "10.1002/mas.20115"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carr, M. E.: Estimation of potential productivity in Eastern Boundary Currents using remote sensing, Deep-Sea Res. Pt. II, 49, 59–80, 2001.",
+        "DOI": "10.1016/S0967-0645(01)00094-7"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Charlson, R. J., Lovelock, J. E., Andreae, M. O., and Warren, S. G.: Oceanic Phytoplankton, Atmospheric Sulfur, Cloud Albedo and Climate, Nature, 326, 655–661, https://doi.org/10.1038/326655a0, 1987.",
+        "DOI": "10.1038/326655a0"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chavez, F. P. and Messié, M.: A comparison of Eastern Boundary Upwelling Ecosystems, Prog. Oceanogr., 83, 80–96, https://doi.org/10.1016/j.pocean.2009.07.032, 2009.",
+        "DOI": "10.1016/j.pocean.2009.07.032"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "DeCarlo, P. F., Kimmel, J. R., Trimborn, A., Northway, M. J., Jayne, J. T., Aiken, A. C., Gonin, M., Fuhrer, K., Horvath, T., Docherty, K. S., Worsnop, D. R., and Jimenez, J. L.: Field-deployable, high-resolution, time-of-flight aerosol mass spectrometer, Anal. Chem., 78, 8281–8289, https://doi.org/10.1021/ac061249n, 2006.",
+        "DOI": "10.1021/ac061249n"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Etminan, M., Myhre, G., Highwood, E. J., and Shine, K. P.: Radiative forcing of carbon dioxide, methane, and nitrous oxide: A significant revision of the methane radiative forcing, Geophys. Res. Lett., 43, 12614–12623, https://doi.org/10.1002/2016gl071930, 2016.",
+        "DOI": "10.1002/2016GL071930"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan, J. L., Yue, W. J., Wu, L. F., Zhang, F. C., Cai, H. J., Wang, X. K., Lu, X. H., and Xiang, Y. Z.: Evaluation of SVM, ELM and four tree-based ensemble models for predicting daily reference evapotranspiration using limited meteorological data in different climates of China, Agr. Forest Meteorol., 263, 225–241, https://doi.org/10.1016/j.agrformet.2018.08.019, 2018.",
+        "DOI": "10.1016/j.agrformet.2018.08.019"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fiddes, S. L., Woodhouse, M. T., Nicholls, Z., Lane, T. P., and Schofield, R.: Cloud, precipitation and radiation responses to large perturbations in global dimethyl sulfide, Atmos. Chem. Phys., 18, 10177–10198, https://doi.org/10.5194/acp-18-10177-2018, 2018.",
+        "DOI": "10.5194/acp-18-10177-2018"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fratantoni, D. M.: North Atlantic surface circulation during the 1990's observed with satellite-tracked drifters, J. Geophys. Res.-Oceans, 106, 22067–22093, https://doi.org/10.1029/2000jc000730, 2001.",
+        "DOI": "10.1029/2000JC000730"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Friedman, J. H.: Greedy function approximation: A gradient boosting machine, Ann. Stat., 29, 1189–1232, https://doi.org/10.1214/aos/1013203451, 2001.",
+        "DOI": "10.1214/aos/1013203451"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Frossard, A. A., Russell, L. M., Massoli, P., Bates, T. S., and Quinn, P. K.: Side-by-Side Comparison of Four Techniques Explains the Apparent Differences in the Organic Composition of Generated and Ambient Marine Aerosol Particles, Aerosol Sci. Tech., 48, V–X, https://doi.org/10.1080/02786826.2013.879979, 2014.",
+        "DOI": "10.1080/02786826.2013.879979"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fung, K. M., Heald, C. L., Kroll, J. H., Wang, S., Jo, D. S., Gettelman, A., Lu, Z., Liu, X., Zaveri, R. A., Apel, E. C., Blake, D. R., Jimenez, J.-L., Campuzano-Jost, P., Veres, P. R., Bates, T. S., Shilling, J. E., and Zawadowicz, M.: Exploring dimethyl sulfide (DMS) oxidation and implications for global aerosol radiative forcing, Atmos. Chem. Phys., 22, 1549–1573, https://doi.org/10.5194/acp-22-1549-2022, 2022.",
+        "DOI": "10.5194/acp-22-1549-2022"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fushiki, T.: Estimation of prediction error by using K-fold cross-validation, Stat. Comput., 21, 137–146, https://doi.org/10.1007/s11222-009-9153-8, 2011.",
+        "DOI": "10.1007/s11222-009-9153-8"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Galí, M., Levasseur, M., Devred, E., Simó, R., and Babin, M.: Sea-surface dimethylsulfide (DMS) concentration from satellite data at global and regional scales, Biogeosciences, 15, 3497–3519, https://doi.org/10.5194/bg-15-3497-2018, 2018.",
+        "DOI": "10.5194/bg-15-3497-2018"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "García-Reyes, M., Sydeman, W. J., Schoeman, D. S., Rykaczewski, R. R., Black, B. A., Smit, A. J., and Bograd, S. J.: Under Pressure: Climate Change, Upwelling, and Eastern Boundary Upwelling Ecosystems, Frontiers in Marine Science, 2, 109, https://doi.org/10.3389/fmars.2015.00109, 2015.",
+        "DOI": "10.3389/fmars.2015.00109"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Goddijn-Murphy, L., Woolf, D. K., and Marandino, C.: Space-based retrievals of air-sea gas transfer velocities using altimeters: Calibration for dimethyl sulfide, J. Geophys. Res.-Oceans, 117, C08028, https://doi.org/10.1029/2011jc007535, 2012.",
+        "DOI": "10.1029/2011JC007535"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gondwe, M., Krol, M., Gieskes, W., Klaassen, W., and de Baar, H.: The contribution of ocean-leaving DMS to the global atmospheric burdens of DMS, MSA, SO2, and NSS SO4=, Global Biogeochem. Cy., 17, 1056, https://doi.org/10.1029/2002gb001937, 2003.",
+        "DOI": "10.1029/2002GB001937"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Grigas, T., Ovadnevaite, J., Ceburnis, D., Moran, E., McGovern, F. M., Jennings, S. G., and O'Dowd, C.: Sophisticated Clean Air Strategies Required to Mitigate Against Particulate Organic Pollution, Scientific Reports, 7, 44737, https://doi.org/10.1038/srep44737, 2017.",
+        "DOI": "10.1038/srep44737"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hengl, T., Nussbaum, M., Wright, M. N., Heuvelink, G. B. M., and Graler, B.: Random forest as a generic framework for predictive modeling of spatial and spatio-temporal variables, PeerJ, 6, e5518, https://doi.org/10.7717/peerj.5518, 2018.",
+        "DOI": "10.7717/peerj.5518"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Horanyi, A., Munoz-Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers, D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold, P., Biavati, G., Bidlot, J., Bonavita, M., De Chiara, G., Dahlgren, P., Dee, D., Diamantakis, M., Dragani, R., Flemming, J., Forbes, R., Fuentes, M., Geer, A., Haimberger, L., Healy, S., Hogan, R. J., Holm, E., Janiskova, M., Keeley, S., Laloyaux, P., Lopez, P., Lupu, C., Radnoti, G., de Rosnay, P., Rozum, I., Vamborg, F., Villaume, S., and Thepaut, J. N.: The ERA5 global reanalysis, Q. J. Roy. Meteor. Soc., 146, 1999–2049, https://doi.org/10.1002/qj.3803, 2020.",
+        "DOI": "10.1002/qj.3803"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hodshire, A. L., Campuzano-Jost, P., Kodros, J. K., Croft, B., Nault, B. A., Schroder, J. C., Jimenez, J. L., and Pierce, J. R.: The potential role of methanesulfonic acid (MSA) in aerosol formation and growth and the associated radiative forcings, Atmos. Chem. Phys., 19, 3137–3160, https://doi.org/10.5194/acp-19-3137-2019, 2019.",
+        "DOI": "10.5194/acp-19-3137-2019"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, S., Poulain, L., van Pinxteren, D., van Pinxteren, M., Wu, Z. J., Herrmann, H., and Wiedensohler, A.: Latitudinal and Seasonal Distribution of Particulate MSA over the Atlantic using a Validated Quantification Method with HR-ToF-AMS, Environ. Sci. Technol., 51, 418–426, https://doi.org/10.1021/acs.est.6b03186, 2017.",
+        "DOI": "10.1021/acs.est.6b03186"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hulswar, S., Simó, R., Galí, M., Bell, T. G., Lana, A., Inamdar, S., Halloran, P. R., Manville, G., and Mahajan, A. S.: Third revision of the global surface seawater dimethyl sulfide climatology (DMS-Rev3), Earth Syst. Sci. Data, 14, 2963–2987, https://doi.org/10.5194/essd-14-2963-2022, 2022.",
+        "DOI": "10.5194/essd-14-2963-2022"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Inness, A., Ades, M., Agustí-Panareda, A., Barré, J., Benedictow, A., Blechschmidt, A.-M., Dominguez, J. J., Engelen, R., Eskes, H., Flemming, J., Huijnen, V., Jones, L., Kipling, Z., Massart, S., Parrington, M., Peuch, V.-H., Razinger, M., Remy, S., Schulz, M., and Suttie, M.: The CAMS reanalysis of atmospheric composition, Atmos. Chem. Phys., 19, 3515–3556, https://doi.org/10.5194/acp-19-3515-2019, 2019.",
+        "DOI": "10.5194/acp-19-3515-2019"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jimenez, J. L., Jayne, J. T., Shi, Q., Kolb, C. E., Worsnop, D. R., Yourshaw, I., Seinfeld, J. H., Flagan, R. C., Zhang, X. F., Smith, K. A., Morris, J. W., and Davidovits, P.: Ambient aerosol sampling using the Aerodyne Aerosol Mass Spectrometer, J. Geophys. Res.-Atmos., 108, 8425, https://doi.org/10.1029/2001jd001213, 2003.",
+        "DOI": "10.1029/2001JD001213"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kalogirou, S. A.: Artificial neural networks in renewable energy systems applications: a review, Renew. Sust. Energ. Rev., 5, 373–401, https://doi.org/10.1016/s1364-0321(01)00006-5, 2001.",
+        "DOI": "10.1016/S1364-0321(01)00006-5"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Katsman, C. A., Spall, M. A., and Pickart, R. S.: Boundary current eddies and their role in the restratification of the Labrador Sea, J. Phys. Oceanogr., 34, 1967–1983, https://doi.org/10.1175/1520-0485(2004)034&amp;lt;1967:bceatr&amp;gt;2.0.co;2, 2004.",
+        "DOI": "10.1175/1520-0485(2004)034<1967:BCEATR>2.0.CO;2"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim, A. H., Yum, S. S., Lee, H., Chang, D. Y., and Shim, S.: Polar Cooling Effect Due to Increase of Phytoplankton and Dimethyl-Sulfide Emission, Atmosphere, 9, 384 https://doi.org/10.3390/atmos9100384, 2018.",
+        "DOI": "10.3390/atmos9100384"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kotsiantis, S. B.: Decision trees: a recent overview, Artif. Intell. Rev., 39, 261–283, https://doi.org/10.1007/s10462-011-9272-4, 2013.",
+        "DOI": "10.1007/s10462-011-9272-4"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Langmann, B., Scannell, C., and O'Dowd, C.: New Directions: Organic matter contribution to marine aerosols and cloud condensation nuclei, Atmos. Environ., 42, 7821–7822, https://doi.org/10.1016/j.atmosenv.2008.09.002, 2008.",
+        "DOI": "10.1016/j.atmosenv.2008.09.002"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lins, I. D., Araujo, M., Moura, M. D., Silva, M. A., and Droguett, E. L.: Prediction of sea surface temperature in the tropical Atlantic by support vector machines, Comput. Stat. Data An., 61, 187–198, https://doi.org/10.1016/j.csda.2012.12.003, 2013.",
+        "DOI": "10.1016/j.csda.2012.12.003"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mahajan, A. S., Fadnavis, S., Thomas, M. A., Pozzoli, L., Gupta, S., Royer, S. J., Saiz-Lopez, A., and Simo, R.: Quantifying the impacts of an updated global dimethyl sulfide climatology on cloud microphysics and aerosol radiative forcing, J. Geophys. Res.-Atmos., 120, 2524–2536, https://doi.org/10.1002/2014jd022687, 2015.",
+        "DOI": "10.1002/2014JD022687"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mahmood, R., von Salzen, K., Norman, A.-L., Galí, M., and Levasseur, M.: Sensitivity of Arctic sulfate aerosol and clouds to changes in future surface seawater dimethylsulfide concentrations, Atmos. Chem. Phys., 19, 6419–6435, https://doi.org/10.5194/acp-19-6419-2019, 2019.",
+        "DOI": "10.5194/acp-19-6419-2019"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mansour, K., Decesari, S., Bellacicco, M., Marullo, S., Santoleri, R., Bonasoni, P., Facchini, M. C., Ovadnevaite, J., Ceburnis, D., O'Dowd, C., and Rinaldi, M.: Particulate methanesulfonic acid over the central Mediterranean Sea: Source region identification and relationship with phytoplankton activity, Atmos. Res., 237, 104837, https://doi.org/10.1016/j.atmosres.2019.104837, 2020a.",
+        "DOI": "10.1016/j.atmosres.2019.104837"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mansour, K., Decesari, S., Facchini, M. C., Belosi, F., Paglione, M., Sandrini, S., Bellacicco, M., Marullo, S., Santoleri, R., Ovadnevaite, J., Ceburnis, D., O'Dowd, C., Roberts, G., Sanchez, K., and Rinaldi, M.: Linking Marine Biological Activity to Aerosol Chemical Composition and Cloud-Relevant Properties Over the North Atlantic Ocean, J. Geophys. Res.-Atmos., 125, e2019JD032246, https://doi.org/10.1029/2019jd032246, 2020b.",
+        "DOI": "10.1029/2019JD032246"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mansour, K., Rinaldi, M., Preissler, J., Decesari, S., Ovadnevaite, J., Ceburnis, D., Paglione, M., Facchini, M. C., and O'Dowd, C.: Phytoplankton Impact on Marine Cloud Microphysical Properties Over the Northeast Atlantic Ocean, J. Geophys. Res.-Atmos., 127, e2021JD036355, https://doi.org/10.1029/2021jd036355, 2022.",
+        "DOI": "10.1029/2021JD036355"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mansour, K., Decesari, S., Ceburnis, D., Ovadnevaite, J., and Rinaldi, M.: Machine learning for prediction of daily sea surface dimethylsulfide concentration and emission flux over the North Atlantic Ocean (1998–2021) Sci. Total Environ., 871, 162123, https://doi.org/10.1016/j.scitotenv.2023.162123, 2023a.",
+        "DOI": "10.1016/j.scitotenv.2023.162123"
+      },
+      {
+        "key": "ref48",
+        "unstructured": "Mansour, K., Decesari, S., Ceburnis, D., Ovadnevaite, J., Russell, L., Paglione, M., O'Dowd, C., and Rinaldi, M.: IPB-MSA&amp;amp;SO4: In-situ Produced Biogenic Methanesulfonic Acid and Sulfate over the North Atlantic (V1), Mendeley Data [data set], https://doi.org/10.17632/j8bzd5dvpx.1, 2023b."
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Marzocchi, A., Hirschi, J. J. M., Holliday, N. P., Cunningham, S. A., Blaker, A. T., and Coward, A. C.: The North Atlantic subpolar circulation in an eddy-resolving global ocean model, J. Marine Syst., 142, 126–143, https://doi.org/10.1016/j.jmarsys.2014.10.007, 2015.",
+        "DOI": "10.1016/j.jmarsys.2014.10.007"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McNabb, B. J. and Tortell, P. D.: Improved prediction of dimethyl sulfide (DMS) distributions in the northeast subarctic Pacific using machine-learning algorithms, Biogeosciences, 19, 1705–1721, https://doi.org/10.5194/bg-19-1705-2022, 2022.",
+        "DOI": "10.5194/bg-19-1705-2022"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mendes-Moreira, J., Soares, C., Jorge, A. M., and De Sousa, J. F.: Ensemble Approaches for Regression: A Survey, ACM Comput. Surv., 45, 10, https://doi.org/10.1145/2379776.2379786, 2012.",
+        "DOI": "10.1145/2379776.2379786"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O'Dowd, C., Ceburnis, D., Ovadnevaite, J., Vaishya, A., Rinaldi, M., and Facchini, M. C.: Do anthropogenic, continental or coastal aerosol sources impact on a marine aerosol signature at Mace Head?, Atmos. Chem. Phys., 14, 10687–10704, https://doi.org/10.5194/acp-14-10687-2014, 2014.",
+        "DOI": "10.5194/acp-14-10687-2014"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O'Dowd, C., Ceburnis, D., Ovadnevaite, J., Bialek, J., Stengel, D. B., Zacharias, M., Nitschke, U., Connan, S., Rinaldi, M., Fuzzi, S., Decesari, S., Facchini, M. C., Marullo, S., Santoleri, R., Dell'Anno, A., Corinaldesi, C., Tangherlini, M., and Danovaro, R.: Connecting marine productivity to sea-spray via nanoscale biological processes: Phytoplankton Dance or Death Disco?, Scientific Reports, 5, 14883, https://doi.org/10.1038/srep14883, 2015.",
+        "DOI": "10.1038/srep14883"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "O'Dowd, C. D., Facchini, M. C., Cavalli, F., Ceburnis, D., Mircea, M., Decesari, S., Fuzzi, S., Yoon, Y. J., and Putaud, J. P.: Biogenically driven organic contribution to marine aerosol, Nature, 431, 676–680, https://doi.org/10.1038/nature02959, 2004.",
+        "DOI": "10.1038/nature02959"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Osman, M. B., Das, S. B., Trusel, L. D., Evans, M. J., Fischer, H., Grieman, M. M., Kipfstuhl, S., McConnell, J. R., and Saltzman, E. S.: Industrial-era decline in subarctic Atlantic productivity, Nature, 569, 551–555, https://doi.org/10.1038/s41586-019-1181-8, 2019.",
+        "DOI": "10.1038/s41586-019-1181-8"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ovadnevaite, J., Ceburnis, D., Leinert, S., Dall'Osto, M., Canagaratna, M., O'Doherty, S., Berresheim, H., and O'Dowd, C.: Submicron NE Atlantic marine aerosol chemical composition and abundance: Seasonal trends and air mass categorization, J. Geophys. Res.-Atmos., 119, 11850–11863, https://doi.org/10.1002/2013jd021330, 2014.",
+        "DOI": "10.1002/2013JD021330"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Quinlan, J. R.: Induction of decision trees, Machine Learning, 1, 81–106, https://doi.org/10.1007/BF00116251, 1986.",
+        "DOI": "10.1007/BF00116251"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Quinn, P. K. and Bates, T. S.: The case against climate regulation via oceanic phytoplankton sulphur emissions, Nature, 480, 51–56, https://doi.org/10.1038/nature10580, 2011.",
+        "DOI": "10.1038/nature10580"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rhein, M., Kieke, D., Huttl-Kabus, S., Roessler, A., Mertens, C., Meissner, R., Klein, B., Boning, C. W., and Yashayaev, I.: Deep water formation, the subpolar gyre, and the meridional overturning circulation in the subpolar North Atlantic, Deep-Sea Res. Pt. II, 58, 1819–1832, https://doi.org/10.1016/j.dsr2.2010.10.061, 2011.",
+        "DOI": "10.1016/j.dsr2.2010.10.061"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Riccobono, F., Schobesberger, S., Scott, C. E., Dommen, J., Ortega, I. K., Rondo, L., Almeida, J., Amorim, A., Bianchi, F., Breitenlechner, M., David, A., Downard, A., Dunne, E. M., Duplissy, J., Ehrhart, S., Flagan, R. C., Franchin, A., Hansel, A., Junninen, H., Kajos, M., Keskinen, H., Kupc, A., Kurten, A., Kvashin, A. N., Laaksonen, A., Lehtipalo, K., Makhmutov, V., Mathot, S., Nieminen, T., Onnela, A., Petaja, T., Praplan, A. P., Santos, F. D., Schallhart, S., Seinfeld, J. H., Sipila, M., Spracklen, D. V., Stozhkov, Y., Stratmann, F., Tome, A., Tsagkogeorgas, G., Vaattovaara, P., Viisanen, Y., Vrtala, A., Wagner, P. E., Weingartner, E., Wex, H., Wimmer, D., Carslaw, K. S., Curtius, J., Donahue, N. M., Kirkby, J., Kulmala, M., Worsnop, D. R., and Baltensperger, U.: Oxidation Products of Biogenic Emissions Contribute to Nucleation of Atmospheric Particles, Science, 344, 717–721, https://doi.org/10.1126/science.1243527, 2014.",
+        "DOI": "10.1126/science.1243527"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rinaldi, M., Facchini, M. C., Decesari, S., Carbone, C., Finessi, E., Mircea, M., Fuzzi, S., Ceburnis, D., Ehn, M., Kulmala, M., de Leeuw, G., and O'Dowd, C. D.: On the representativeness of coastal aerosol studies to open ocean studies: Mace Head – a case study, Atmos. Chem. Phys., 9, 9635–9646, https://doi.org/10.5194/acp-9-9635-2009, 2009.",
+        "DOI": "10.5194/acp-9-9635-2009"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rinaldi, M., Decesari, S., Finessi, E., Giulianelli, L., Carbone, C., Fuzzi, S., O'Dowd, C. D., Ceburnis, D., and Facchini, M. C.: Primary and Secondary Organic Marine Aerosol and Oceanic Biological Activity: Recent Results and New Perspectives for Future Studies, Adv. Meteorol., 2010, 310682, https://doi.org/10.1155/2010/310682, 2010.",
+        "DOI": "10.1155/2010/310682"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rinaldi, M., Hiranuma, N., Santachiara, G., Mazzola, M., Mansour, K., Paglione, M., Rodriguez, C. A., Traversi, R., Becagli, S., Cappelletti, D., and Belosi, F.: Ice-nucleating particle concentration measurements from Ny-Ålesund during the Arctic spring–summer in 2018, Atmos. Chem. Phys., 21, 14725–14748, https://doi.org/10.5194/acp-21-14725-2021, 2021.",
+        "DOI": "10.5194/acp-21-14725-2021"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rodriguez, J. D., Perez, A., and Lozano, J. A.: Sensitivity Analysis of k-Fold Cross Validation in Prediction Error Estimation, IEEE T. Pattern Anal., 32, 569–575, https://doi.org/10.1109/tpami.2009.187, 2010.",
+        "DOI": "10.1109/TPAMI.2009.187"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rolph, G., Stein, A., and Stunder, B.: Real-time Environmental Applications and Display sYstem: READY, Environ. Modell. Softw., 95, 210–228, https://doi.org/10.1016/j.envsoft.2017.06.025, 2017.",
+        "DOI": "10.1016/j.envsoft.2017.06.025"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Royer, S. J., Mahajan, A. S., Galí, M., Saltzman, E., and Simo, R.: Small-scale variability patterns of DMS and phytoplankton in surface waters of the tropical and subtropical Atlantic, Indian, and Pacific Oceans, Geophys. Res. Lett., 42, 475–483, https://doi.org/10.1002/2014gl062543, 2015.",
+        "DOI": "10.1002/2014GL062543"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sachindra, D. A., Ahmed, K., Rashid, M. M., Shahid, S., and Perera, B. J. C.: Statistical downscaling of precipitation using machine learning techniques, Atmos. Res., 212, 240–258, https://doi.org/10.1016/j.atmosres.2018.05.022, 2018.",
+        "DOI": "10.1016/j.atmosres.2018.05.022"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saliba, G., Chen, C. L., Lewis, S., Russell, L. M., Quinn, P. K., Bates, T. S., Bell, T. G., Lawler, M. J., Saltzman, E. S., Sanchez, K. J., Moore, R., Shook, M., Rivellini, L. H., Lee, A., Baetge, N., Carlson, C. A., and Behrenfeld, M. J.: Seasonal Differences and Variability of Concentrations, Chemical Composition, and Cloud Condensation Nuclei of Marine Aerosol Over the North Atlantic, J. Geophys. Res.-Atmos., 125, e2020JD033145, https://doi.org/10.1029/2020jd033145, 2020.",
+        "DOI": "10.1029/2020JD033145"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sanchez, K. J., Chen, C. L., Russell, L. M., Betha, R., Liu, J., Price, D. J., Massoli, P., Ziemba, L. D., Crosbie, E. C., Moore, R. H., Muller, M., Schiller, S. A., Wisthaler, A., Lee, A. K. Y., Quinn, P. K., Bates, T. S., Porter, J., Bell, T. G., Saltzman, E. S., Vaillancourt, R. D., and Behrenfeld, M. J.: Substantial Seasonal Contribution of Observed Biogenic Sulfate Particles to Cloud Condensation Nuclei, Scientific Reports, 8, 3235, https://doi.org/10.1038/s41598-018-21590-9, 2018.",
+        "DOI": "10.1038/s41598-018-21590-9"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sarker, I. H., Kayes, A. S. M., and Watters, P.: Effectiveness analysis of machine learning classification models for predicting personalized context-aware smartphone usage, Journal of Big Data, 6, 57, https://doi.org/10.1186/s40537-019-0219-y, 2019.",
+        "DOI": "10.1186/s40537-019-0219-y"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shabani, S., Samadianfard, S., Sattari, M. T., Mosavi, A., Shamshirband, S., Kmet, T., and Varkonyi-Koczy, A. R.: Modeling Pan Evaporation Using Gaussian Process Regression K-Nearest Neighbors Random Forest and Support Vector Machines; Comparative Analysis, Atmosphere, 11, 66, https://doi.org/10.3390/atmos11010066, 2020.",
+        "DOI": "10.3390/atmos11010066"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shen, J. L., Scholz, W., He, X. C., Zhou, P. T., Marie, G., Wang, M. Y., Marten, R., Surdu, M., Rorup, B., Baalbaki, R., Amorim, A., Ataei, F., Bell, D. M., Bertozzi, B., Brasseur, Z., Caudillo, L., Chen, D. X., Chu, B. W., Dada, L., Duplissy, J., Finkenzeller, H., Granzin, M., Guida, R., Heinritzi, M., Hofbauer, V., Iyer, S., Kemppainen, D., Kong, W. M., Krechmer, J. E., Kurten, A., Lamkaddam, H., Lee, C. P., Lopez, B., Mahfouz, N. G. A., Manninen, H. E., Massabo, D., Mauldin, R. L., Mentler, B., Muller, T., Pfeifer, J., Philippov, M., Piedehierro, A. A., Roldin, P., Schobesberger, S., Simon, M., Stolzenburg, D., Tham, Y. J., Tome, A., Umo, N. S., Wang, D. Y., Wang, Y. H., Weber, S. K., Welti, A., de Jonge, R. W., Wu, Y. S., Zauner-Wieczorek, M., Zust, F., Baltensperger, U., Curtius, J., Flagan, R. C., Hansel, A., Mohler, O., Petaja, T., Volkamer, R., Kulmala, M., Lehtipalo, K., Rissanen, M., Kirkby, J., El-Haddad, I., Bianchi, F., Sipila, M., Donahue, N. M., and Worsnop, D. R.: High Gas-Phase Methanesulfonic Acid Production in the OH-Initiated Oxidation of Dimethyl Sulfide at Low Temperatures, Environ. Sci. Technol., 56, 13931–13944, https://doi.org/10.1021/acs.est.2c05154, 2022.",
+        "DOI": "10.1021/acs.est.2c05154"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shrestha, N. K. and Shukla, S.: Support vector machine based modeling of evapotranspiration using hydro-climatic variables in a sub-tropical environment, Agr. Forest Meteorol., 200, 172–184, https://doi.org/10.1016/j.agrformet.2014.09.025, 2015.",
+        "DOI": "10.1016/j.agrformet.2014.09.025"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Simo, R.: Production of atmospheric sulfur by oceanic plankton: biogeochemical, ecological and evolutionary links, Trends Ecol. Evol., 16, 287–294, https://doi.org/10.1016/s0169-5347(01)02152-8, 2001.",
+        "DOI": "10.1016/S0169-5347(01)02152-8"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stein, A. F., Draxler, R. R., Rolph, G. D., Stunder, B. J. B., Cohen, M. D., and Ngan, F.: NOAA's Hysplit Atmospheric Transport and Dispersion Modeling System, B. Am. Meteorol. Soc., 96, 2059–2077, https://doi.org/10.1175/bams-d-14-00110.1, 2015.",
+        "DOI": "10.1175/BAMS-D-14-00110.1"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sydeman, W. J., García-Reyes, M., Schoeman, D. S., Rykaczewski, R. R., Thompson, S. A., Black, B. A., and Bograd, S. J.: Climate change and wind intensification in coastal upwelling ecosystems, Science, 345, 77–80, https://doi.org/10.1126/science.1251635, 2014.",
+        "DOI": "10.1126/science.1251635"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thomas, M. A., Suntharalingam, P., Pozzoli, L., Rast, S., Devasthale, A., Kloster, S., Feichter, J., and Lenton, T. M.: Quantification of DMS aerosol-cloud-climate interactions using the ECHAM5-HAMMOZ model in a current climate scenario, Atmos. Chem. Phys., 10, 7425–7438, https://doi.org/10.5194/acp-10-7425-2010, 2010.",
+        "DOI": "10.5194/acp-10-7425-2010"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vapnik, V. N.: The Nature of Statistical Learning Theory, 2, Springer New York, NY, https://doi.org/10.1007/978-1-4757-3264-1, 2013.",
+        "DOI": "10.1007/978-1-4757-3264-1"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Verrelst, J., Rivera, J. P., Gitelson, A., Delegido, J., Moreno, J., and Camps-Valls, G.: Spectral band selection for vegetation properties retrieval using Gaussian processes regression, Int. J. Appl. Earth Obs., 52, 554–567, https://doi.org/10.1016/j.jag.2016.07.016, 2016.",
+        "DOI": "10.1016/j.jag.2016.07.016"
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "von Glasow, R. and Crutzen, P. J.: Model study of multiphase DMS oxidation with a focus on halogens, Atmos. Chem. Phys., 4, 589–608, https://doi.org/10.5194/acp-4-589-2004, 2004.",
+        "DOI": "10.5194/acp-4-589-2004"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, D. W., Gouhier, T. C., Menge, B. A., and Ganguly, A. R.: Intensification and spatial homogenization of coastal upwelling under climate change, Nature, 518, 390–394, https://doi.org/10.1038/nature14235, 2015.",
+        "DOI": "10.1038/nature14235"
+      },
+      {
+        "key": "ref82",
+        "unstructured": "Williams, C. K. I. and Rasmussen, C. E.: Gaussian processes for regression, Advances in Neural Information Processing Systems 8: Proceedings of the 1995 Conference, Denver, Colorado, USA, 3–5 December 1996, 8, 514–520, https://papers.nips.cc/paper_files/paper/1995/hash/7cce53cf90577442771720a370c3c723-Abstract.html (last access: 10 January 2023), 1996."
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Woodhouse, M. T., Carslaw, K. S., Mann, G. W., Vallina, S. M., Vogt, M., Halloran, P. R., and Boucher, O.: Low sensitivity of cloud condensation nuclei to changes in the sea-air flux of dimethyl-sulphide, Atmos. Chem. Phys., 10, 7545–7559, https://doi.org/10.5194/acp-10-7545-2010, 2010.",
+        "DOI": "10.5194/acp-10-7545-2010"
+      },
+      {
+        "key": "ref84",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, S. Q., Chen, Y., Paytan, A., Li, H. W., Wang, F. H., Zhu, Y. C., Yang, T. J., Zhang, Y., and Zhang, R. F.: Non-Marine Sources Contribute to Aerosol Methanesulfonate Over Coastal Seas, J. Geophys. Res.-Atmos., 126, e2021JD034960, https://doi.org/10.1029/2021jd034960, 2021.",
+        "DOI": "10.1029/2021JD034960"
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, S. Q., Chen, Y., Wang, F. H., Bao, Y., Ding, X. P., and Xu, Z. J.: Assessing the Intensity of Marine Biogenic Influence on the Lower Atmosphere: An Insight into the Distribution of Marine Biogenic Aerosols over the Eastern China Seas, Environ. Sci. Technol., 57, 12741–12751 https://doi.org/10.1021/acs.est.3c04382, 2023.",
+        "DOI": "10.1021/acs.est.3c04382"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu, L., Nenes, A., Wine, P. H., and Nicovich, J. M.: Effects of aqueous organosulfur chemistry on particulate methanesulfonate to non-sea salt sulfate ratios in the marine atmosphere, J. Geophys. Res.-Atmos., 111, D05316, https://doi.org/10.1029/2005jd006326, 2006.",
+        "DOI": "10.1029/2005JD006326"
+      }
+    ],
+    "container-title": [
+      "Earth System Science Data"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://essd.copernicus.org/articles/16/2717/2024/essd-16-2717-2024.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2025-01-22T13:35:27Z",
+      "timestamp": 1737552927000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://essd.copernicus.org/articles/16/2717/2024/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          12
+        ]
+      ]
+    },
+    "references-count": 86,
+    "journal-issue": {
+      "issue": "6",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/essd-16-2717-2024",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/essd-2023-352",
+          "asserted-by": "subject"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/essd-2023-352-RC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/essd-2023-352-AC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/essd-2023-352-RC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/essd-2023-352-AC2",
+          "asserted-by": "subject"
+        }
+      ],
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "10.17632/j8bzd5dvpx.1",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1866-3516"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1866-3516"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          12
+        ]
+      ]
+    }
+  }
+}

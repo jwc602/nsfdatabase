@@ -1,0 +1,2348 @@
+{
+  "doi": "10.1371/journal.pcbi.1011171",
+  "openalex": {
+    "id": "https://openalex.org/W4391467698",
+    "doi": "https://doi.org/10.1371/journal.pcbi.1011171",
+    "title": "Foldy: An open-source web application for interactive protein structure analysis",
+    "display_name": "Foldy: An open-source web application for interactive protein structure analysis",
+    "publication_year": 2024,
+    "publication_date": "2024-02-02",
+    "ids": {
+      "openalex": "https://openalex.org/W4391467698",
+      "doi": "https://doi.org/10.1371/journal.pcbi.1011171",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38306398"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1371/journal.pcbi.1011171",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pcbi.1011171",
+      "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011171&type=printable",
+      "source": {
+        "id": "https://openalex.org/S86033158",
+        "display_name": "PLoS Computational Biology",
+        "issn_l": "1553-734X",
+        "issn": [
+          "1553-734X",
+          "1553-7358"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PLOS Computational Biology",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011171&type=printable",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5001195842",
+          "display_name": "Jacob B. Roberts",
+          "orcid": "https://orcid.org/0000-0001-7564-1708"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I53012624",
+            "display_name": "Joint BioEnergy Institute",
+            "ror": "https://ror.org/03ww55028",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I148283060",
+            "display_name": "Lawrence Berkeley National Laboratory",
+            "ror": "https://ror.org/02jbv0t02",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I39565521"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jacob B. Roberts",
+        "raw_affiliation_strings": [
+          "Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America",
+          "Department of Bioengineering, University of California, Berkeley, Berkeley, California, United States of America",
+          "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I148283060"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Bioengineering, University of California, Berkeley, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5051167729",
+          "display_name": "Alberto A. Nava",
+          "orcid": "https://orcid.org/0000-0002-0172-4145"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I53012624",
+            "display_name": "Joint BioEnergy Institute",
+            "ror": "https://ror.org/03ww55028",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I148283060",
+            "display_name": "Lawrence Berkeley National Laboratory",
+            "ror": "https://ror.org/02jbv0t02",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I39565521"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Alberto A. Nava",
+        "raw_affiliation_strings": [
+          "Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America",
+          "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California, United States of America",
+          "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I148283060"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5026701240",
+          "display_name": "Allison N. Pearson",
+          "orcid": "https://orcid.org/0000-0002-5383-4944"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I53012624",
+            "display_name": "Joint BioEnergy Institute",
+            "ror": "https://ror.org/03ww55028",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I148283060",
+            "display_name": "Lawrence Berkeley National Laboratory",
+            "ror": "https://ror.org/02jbv0t02",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I39565521"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Allison N. Pearson",
+        "raw_affiliation_strings": [
+          "Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America",
+          "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, California, United States of America",
+          "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I148283060"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019425952",
+          "display_name": "Matthew R. Incha",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I53012624",
+            "display_name": "Joint BioEnergy Institute",
+            "ror": "https://ror.org/03ww55028",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I148283060",
+            "display_name": "Lawrence Berkeley National Laboratory",
+            "ror": "https://ror.org/02jbv0t02",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I39565521"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Matthew R. Incha",
+        "raw_affiliation_strings": [
+          "Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America",
+          "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, California, United States of America",
+          "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I148283060"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Plant and Microbial Biology, University of California, Berkeley, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I53012624"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5053060487",
+          "display_name": "Luis E. Valencia",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I53012624",
+            "display_name": "Joint BioEnergy Institute",
+            "ror": "https://ror.org/03ww55028",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I148283060",
+            "display_name": "Lawrence Berkeley National Laboratory",
+            "ror": "https://ror.org/02jbv0t02",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I39565521"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Luis E. Valencia",
+        "raw_affiliation_strings": [
+          "Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America",
+          "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California, United States of America",
+          "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I148283060"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I53012624"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100583950",
+          "display_name": "Melody Ma",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Melody Ma",
+        "raw_affiliation_strings": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, California, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5108837017",
+          "display_name": "Abhay Rao",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Abhay Rao",
+        "raw_affiliation_strings": [
+          "Department of Bioengineering, University of California, Berkeley, Berkeley, California, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Bioengineering, University of California, Berkeley, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5108717754",
+          "display_name": "Jay D. Keasling",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210145761",
+            "display_name": "Shenzhen Institutes of Advanced Technology",
+            "ror": "https://ror.org/04gh4er46",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210145761"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2801134892",
+            "display_name": "Novo Nordisk Foundation",
+            "ror": "https://ror.org/04txyc737",
+            "country_code": "DK",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I2801134892"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I53012624",
+            "display_name": "Joint BioEnergy Institute",
+            "ror": "https://ror.org/03ww55028",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I148283060",
+            "display_name": "Lawrence Berkeley National Laboratory",
+            "ror": "https://ror.org/02jbv0t02",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I39565521"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "DK",
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jay D. Keasling",
+        "raw_affiliation_strings": [
+          "Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America",
+          "Center for Synthetic Biochemistry, Shenzhen Institutes for Advanced Technologies, Shenzhen, People's Republic of China",
+          "Department of Bioengineering, University of California, Berkeley, Berkeley, California, United States of America",
+          "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California, United States of America",
+          "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California, United States of America",
+          "The Novo Nordisk Foundation Center for Biosustainability, Technical University Denmark, Kemitorvet, Denmark"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Biological Systems and Engineering, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I148283060"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Bioengineering, University of California, Berkeley, Berkeley, California, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Synthetic Biochemistry, Shenzhen Institutes for Advanced Technologies, Shenzhen, People's Republic of China",
+            "institution_ids": [
+              "https://openalex.org/I4210145761"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Novo Nordisk Foundation Center for Biosustainability, Technical University Denmark, Kemitorvet, Denmark",
+            "institution_ids": [
+              "https://openalex.org/I2801134892"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5108837017",
+      "https://openalex.org/A5051167729",
+      "https://openalex.org/A5108717754",
+      "https://openalex.org/A5053060487",
+      "https://openalex.org/A5001195842",
+      "https://openalex.org/A5019425952",
+      "https://openalex.org/A5026701240",
+      "https://openalex.org/A5100583950"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I148283060",
+      "https://openalex.org/I2801134892",
+      "https://openalex.org/I4210145761",
+      "https://openalex.org/I53012624",
+      "https://openalex.org/I95457486"
+    ],
+    "apc_list": {
+      "value": 2655,
+      "currency": "USD",
+      "value_usd": 2655
+    },
+    "apc_paid": {
+      "value": 2655,
+      "currency": "USD",
+      "value_usd": 2655
+    },
+    "fwci": 0.96049445,
+    "has_fulltext": false,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.6592826,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 95
+    },
+    "biblio": {
+      "volume": "20",
+      "issue": "2",
+      "first_page": "e1011171",
+      "last_page": "e1011171"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10044",
+      "display_name": "Protein Structure and Dynamics",
+      "score": 0.9940999746322632,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10044",
+        "display_name": "Protein Structure and Dynamics",
+        "score": 0.9940999746322632,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10932",
+        "display_name": "Microbial Metabolic Engineering and Bioproduction",
+        "score": 0.9908000230789185,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10887",
+        "display_name": "Bioinformatics and Genomic Networks",
+        "score": 0.983299970626831,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7363259792327881
+      },
+      {
+        "id": "https://openalex.org/keywords/software-deployment",
+        "display_name": "Software deployment",
+        "score": 0.7055705189704895
+      },
+      {
+        "id": "https://openalex.org/keywords/interface",
+        "display_name": "Interface (matter)",
+        "score": 0.6426799893379211
+      },
+      {
+        "id": "https://openalex.org/keywords/cloud-computing",
+        "display_name": "Cloud computing",
+        "score": 0.6395688056945801
+      },
+      {
+        "id": "https://openalex.org/keywords/function",
+        "display_name": "Function (biology)",
+        "score": 0.49916529655456543
+      },
+      {
+        "id": "https://openalex.org/keywords/field",
+        "display_name": "Field (mathematics)",
+        "score": 0.4711381793022156
+      },
+      {
+        "id": "https://openalex.org/keywords/user-interface",
+        "display_name": "User interface",
+        "score": 0.45336371660232544
+      },
+      {
+        "id": "https://openalex.org/keywords/data-science",
+        "display_name": "Data science",
+        "score": 0.44822484254837036
+      },
+      {
+        "id": "https://openalex.org/keywords/structural-bioinformatics",
+        "display_name": "Structural bioinformatics",
+        "score": 0.4417668581008911
+      },
+      {
+        "id": "https://openalex.org/keywords/software-engineering",
+        "display_name": "Software engineering",
+        "score": 0.4045363962650299
+      },
+      {
+        "id": "https://openalex.org/keywords/world-wide-web",
+        "display_name": "World Wide Web",
+        "score": 0.38787826895713806
+      },
+      {
+        "id": "https://openalex.org/keywords/protein-structure",
+        "display_name": "Protein structure",
+        "score": 0.21873325109481812
+      },
+      {
+        "id": "https://openalex.org/keywords/programming-language",
+        "display_name": "Programming language",
+        "score": 0.16585588455200195
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.1331925392150879
+      },
+      {
+        "id": "https://openalex.org/keywords/operating-system",
+        "display_name": "Operating system",
+        "score": 0.11330428719520569
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7363259792327881
+      },
+      {
+        "id": "https://openalex.org/C105339364",
+        "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+        "display_name": "Software deployment",
+        "level": 2,
+        "score": 0.7055705189704895
+      },
+      {
+        "id": "https://openalex.org/C113843644",
+        "wikidata": "https://www.wikidata.org/wiki/Q901882",
+        "display_name": "Interface (matter)",
+        "level": 4,
+        "score": 0.6426799893379211
+      },
+      {
+        "id": "https://openalex.org/C79974875",
+        "wikidata": "https://www.wikidata.org/wiki/Q483639",
+        "display_name": "Cloud computing",
+        "level": 2,
+        "score": 0.6395688056945801
+      },
+      {
+        "id": "https://openalex.org/C14036430",
+        "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+        "display_name": "Function (biology)",
+        "level": 2,
+        "score": 0.49916529655456543
+      },
+      {
+        "id": "https://openalex.org/C9652623",
+        "wikidata": "https://www.wikidata.org/wiki/Q190109",
+        "display_name": "Field (mathematics)",
+        "level": 2,
+        "score": 0.4711381793022156
+      },
+      {
+        "id": "https://openalex.org/C89505385",
+        "wikidata": "https://www.wikidata.org/wiki/Q47146",
+        "display_name": "User interface",
+        "level": 2,
+        "score": 0.45336371660232544
+      },
+      {
+        "id": "https://openalex.org/C2522767166",
+        "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+        "display_name": "Data science",
+        "level": 1,
+        "score": 0.44822484254837036
+      },
+      {
+        "id": "https://openalex.org/C69131567",
+        "wikidata": "https://www.wikidata.org/wiki/Q2068215",
+        "display_name": "Structural bioinformatics",
+        "level": 3,
+        "score": 0.4417668581008911
+      },
+      {
+        "id": "https://openalex.org/C115903868",
+        "wikidata": "https://www.wikidata.org/wiki/Q80993",
+        "display_name": "Software engineering",
+        "level": 1,
+        "score": 0.4045363962650299
+      },
+      {
+        "id": "https://openalex.org/C136764020",
+        "wikidata": "https://www.wikidata.org/wiki/Q466",
+        "display_name": "World Wide Web",
+        "level": 1,
+        "score": 0.38787826895713806
+      },
+      {
+        "id": "https://openalex.org/C47701112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735188",
+        "display_name": "Protein structure",
+        "level": 2,
+        "score": 0.21873325109481812
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.16585588455200195
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.1331925392150879
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.11330428719520569
+      },
+      {
+        "id": "https://openalex.org/C157915830",
+        "wikidata": "https://www.wikidata.org/wiki/Q2928001",
+        "display_name": "Bubble",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C202444582",
+        "wikidata": "https://www.wikidata.org/wiki/Q837863",
+        "display_name": "Pure mathematics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C78458016",
+        "wikidata": "https://www.wikidata.org/wiki/Q840400",
+        "display_name": "Evolutionary biology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C129307140",
+        "wikidata": "https://www.wikidata.org/wiki/Q6795880",
+        "display_name": "Maximum bubble pressure method",
+        "level": 3,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012984",
+        "descriptor_name": "Software",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D011506",
+        "descriptor_name": "Proteins",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000596",
+        "descriptor_name": "Amino Acids",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012984",
+        "descriptor_name": "Software",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D011506",
+        "descriptor_name": "Proteins",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000596",
+        "descriptor_name": "Amino Acids",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012984",
+        "descriptor_name": "Software",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D011506",
+        "descriptor_name": "Proteins",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000596",
+        "descriptor_name": "Amino Acids",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 8,
+    "locations": [
+      {
+        "id": "doi:10.1371/journal.pcbi.1011171",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1371/journal.pcbi.1011171",
+        "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011171&type=printable",
+        "source": {
+          "id": "https://openalex.org/S86033158",
+          "display_name": "PLoS Computational Biology",
+          "issn_l": "1553-734X",
+          "issn": [
+            "1553-734X",
+            "1553-7358"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315706",
+          "host_organization_name": "Public Library of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315706"
+          ],
+          "host_organization_lineage_names": [
+            "Public Library of Science"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PLOS Computational Biology",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38306398",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38306398",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PLoS computational biology",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:10866462",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10866462",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10866462/pdf/pcbi.1011171.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "PLoS Comput Biol",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:2575bc688d0540fea5c4ae20c9273503",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/2575bc688d0540fea5c4ae20c9273503",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "PLoS Computational Biology, Vol 20, Iss 2, p e1011171 (2024)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:escholarship.org:ark:/13030/qt09n305ss",
+        "is_oa": true,
+        "landing_page_url": "https://escholarship.org/uc/item/09n305ss",
+        "pdf_url": null,
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "PLoS Computational Biology, vol 20, iss 2",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:osti.gov:2283777",
+        "is_oa": true,
+        "landing_page_url": "https://www.osti.gov/biblio/2283777",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": ""
+      },
+      {
+        "id": "pmh:oai:osti.gov:2305421",
+        "is_oa": true,
+        "landing_page_url": "https://www.osti.gov/biblio/2305421",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": ""
+      },
+      {
+        "id": "pmh:oai:osti.gov:2470584",
+        "is_oa": true,
+        "landing_page_url": "https://www.osti.gov/biblio/2470584",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": ""
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1371/journal.pcbi.1011171",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pcbi.1011171",
+      "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011171&type=printable",
+      "source": {
+        "id": "https://openalex.org/S86033158",
+        "display_name": "PLoS Computational Biology",
+        "issn_l": "1553-734X",
+        "issn": [
+          "1553-734X",
+          "1553-7358"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PLOS Computational Biology",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Responsible consumption and production",
+        "id": "https://metadata.un.org/sdg/12",
+        "score": 0.4699999988079071
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1143651532",
+        "display_name": null,
+        "funder_award_id": "DE-AC02-05CH11231",
+        "funder_id": "https://openalex.org/F4320338292",
+        "funder_display_name": "Lawrence Berkeley National Laboratory"
+      },
+      {
+        "id": "https://openalex.org/G5568374030",
+        "display_name": null,
+        "funder_award_id": "2018253421",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G7999210852",
+        "display_name": null,
+        "funder_award_id": "FA9550-21-F-0003",
+        "funder_id": "https://openalex.org/F4320333566",
+        "funder_display_name": "National Defense Science and Engineering Graduate"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320333566",
+        "display_name": "National Defense Science and Engineering Graduate",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320338292",
+        "display_name": "Lawrence Berkeley National Laboratory",
+        "ror": "https://ror.org/02jbv0t02"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 19,
+    "referenced_works": [
+      "https://openalex.org/W3177828909",
+      "https://openalex.org/W3186179742",
+      "https://openalex.org/W6802033083",
+      "https://openalex.org/W4286500588",
+      "https://openalex.org/W4286488966",
+      "https://openalex.org/W3212912034",
+      "https://openalex.org/W4281790889",
+      "https://openalex.org/W3183475563",
+      "https://openalex.org/W3095583226",
+      "https://openalex.org/W3168436232",
+      "https://openalex.org/W2806399642",
+      "https://openalex.org/W7067497315",
+      "https://openalex.org/W1992837075",
+      "https://openalex.org/W3070101385",
+      "https://openalex.org/W2146781683",
+      "https://openalex.org/W4296060337",
+      "https://openalex.org/W3202105508",
+      "https://openalex.org/W4327550249",
+      "https://openalex.org/W4387871382"
+    ],
+    "related_works": [
+      "https://openalex.org/W2770234245",
+      "https://openalex.org/W96612179",
+      "https://openalex.org/W4229499248",
+      "https://openalex.org/W2566006169",
+      "https://openalex.org/W1567818861",
+      "https://openalex.org/W2987774938",
+      "https://openalex.org/W4256492088",
+      "https://openalex.org/W632915154",
+      "https://openalex.org/W1649706580",
+      "https://openalex.org/W3195608031"
+    ],
+    "abstract_inverted_index": {
+      "Foldy": [
+        0,
+        53,
+        151,
+        163
+      ],
+      "is": [
+        1
+      ],
+      "a": [
+        2,
+        153
+      ],
+      "cloud-based": [
+        3
+      ],
+      "application": [
+        4,
+        101
+      ],
+      "that": [
+        5
+      ],
+      "allows": [
+        6
+      ],
+      "non-computational": [
+        7
+      ],
+      "biologists": [
+        8
+      ],
+      "to": [
+        9,
+        48,
+        56,
+        65
+      ],
+      "easily": [
+        10
+      ],
+      "utilize": [
+        11,
+        49
+      ],
+      "advanced": [
+        12
+      ],
+      "AI-based": [
+        13
+      ],
+      "structural": [
+        14
+      ],
+      "biology": [
+        15
+      ],
+      "tools,": [
+        16
+      ],
+      "including": [
+        17,
+        105
+      ],
+      "AlphaFold": [
+        18
+      ],
+      "and": [
+        19,
+        33,
+        62,
+        74,
+        80,
+        92,
+        109,
+        122,
+        128,
+        142,
+        160,
+        170
+      ],
+      "DiffDock.": [
+        20,
+        81
+      ],
+      "With": [
+        21
+      ],
+      "many": [
+        22
+      ],
+      "deployment": [
+        23,
+        90
+      ],
+      "options,": [
+        24
+      ],
+      "it": [
+        25,
+        43
+      ],
+      "can": [
+        26,
+        44,
+        164
+      ],
+      "be": [
+        27,
+        46
+      ],
+      "employed": [
+        28
+      ],
+      "by": [
+        29
+      ],
+      "individuals,": [
+        30
+      ],
+      "labs,": [
+        31
+      ],
+      "universities,": [
+        32
+      ],
+      "companies": [
+        34
+      ],
+      "in": [
+        35,
+        132,
+        138
+      ],
+      "the": [
+        36,
+        58,
+        133,
+        148
+      ],
+      "cloud": [
+        37
+      ],
+      "without": [
+        38
+      ],
+      "requiring": [
+        39
+      ],
+      "hardware": [
+        40
+      ],
+      "resources,": [
+        41
+      ],
+      "but": [
+        42
+      ],
+      "also": [
+        45
+      ],
+      "configured": [
+        47
+      ],
+      "locally": [
+        50
+      ],
+      "available": [
+        51
+      ],
+      "computers.": [
+        52
+      ],
+      "enables": [
+        54
+      ],
+      "scientists": [
+        55
+      ],
+      "predict": [
+        57
+      ],
+      "structure": [
+        59
+      ],
+      "of": [
+        60,
+        114,
+        150
+      ],
+      "proteins": [
+        61,
+        111
+      ],
+      "complexes": [
+        63
+      ],
+      "up": [
+        64
+      ],
+      "6000": [
+        66
+      ],
+      "amino": [
+        67
+      ],
+      "acids": [
+        68
+      ],
+      "with": [
+        69,
+        77,
+        112,
+        125
+      ],
+      "AlphaFold,": [
+        70
+      ],
+      "visualize": [
+        71
+      ],
+      "Pfam": [
+        72
+      ],
+      "annotations,": [
+        73
+      ],
+      "dock": [
+        75
+      ],
+      "ligands": [
+        76
+      ],
+      "AutoDock": [
+        78
+      ],
+      "Vina": [
+        79
+      ],
+      "In": [
+        82
+      ],
+      "our": [
+        83
+      ],
+      "manuscript,": [
+        84
+      ],
+      "we": [
+        85,
+        118
+      ],
+      "detail": [
+        86
+      ],
+      "Foldy’s": [
+        87,
+        120
+      ],
+      "interface": [
+        88,
+        121
+      ],
+      "design,": [
+        89
+      ],
+      "strategies,": [
+        91
+      ],
+      "optimization": [
+        93
+      ],
+      "for": [
+        94,
+        156
+      ],
+      "various": [
+        95
+      ],
+      "user": [
+        96
+      ],
+      "scenarios.": [
+        97
+      ],
+      "We": [
+        98
+      ],
+      "demonstrate": [
+        99
+      ],
+      "its": [
+        100,
+        136
+      ],
+      "through": [
+        102
+      ],
+      "case": [
+        103
+      ],
+      "studies": [
+        104
+      ],
+      "rational": [
+        106
+      ],
+      "enzyme": [
+        107
+      ],
+      "design": [
+        108
+      ],
+      "analyzing": [
+        110
+      ],
+      "domains": [
+        113
+      ],
+      "unknown": [
+        115
+      ],
+      "function.": [
+        116
+      ],
+      "Furthermore,": [
+        117
+      ],
+      "compare": [
+        119
+      ],
+      "management": [
+        123
+      ],
+      "capabilities": [
+        124
+      ],
+      "other": [
+        126
+      ],
+      "open": [
+        127
+      ],
+      "closed": [
+        129
+      ],
+      "source": [
+        130
+      ],
+      "tools": [
+        131,
+        167
+      ],
+      "field,": [
+        134
+      ],
+      "illustrating": [
+        135
+      ],
+      "practicality": [
+        137
+      ],
+      "managing": [
+        139
+      ],
+      "complex": [
+        140
+      ],
+      "data": [
+        141
+      ],
+      "computation": [
+        143
+      ],
+      "tasks.": [
+        144
+      ],
+      "Our": [
+        145
+      ],
+      "manuscript": [
+        146
+      ],
+      "underlines": [
+        147
+      ],
+      "benefits": [
+        149
+      ],
+      "as": [
+        152
+      ],
+      "day-to-day": [
+        154
+      ],
+      "tool": [
+        155
+      ],
+      "life": [
+        157
+      ],
+      "science": [
+        158
+      ],
+      "researchers,": [
+        159
+      ],
+      "shows": [
+        161
+      ],
+      "how": [
+        162
+      ],
+      "make": [
+        165
+      ],
+      "modern": [
+        166
+      ],
+      "more": [
+        168
+      ],
+      "accessible": [
+        169
+      ],
+      "efficient.": [
+        171
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T06:51:31.235846",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2025-12-31T10:52:35Z",
+      "timestamp": 1767178355203,
+      "version": "build-2238731810"
+    },
+    "update-to": [
+      {
+        "DOI": "10.1371/journal.pcbi.1011171",
+        "type": "new_version",
+        "label": "New version",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              14
+            ]
+          ],
+          "date-time": "2024-02-14T00:00:00Z",
+          "timestamp": 1707868800000
+        }
+      }
+    ],
+    "reference-count": 20,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              2
+            ]
+          ],
+          "date-time": "2024-02-02T00:00:00Z",
+          "timestamp": 1706832000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006235",
+        "name": "Lawrence Berkeley National Laboratory",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-AC02-05CH11231"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC02-05CH11231"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006235",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014037",
+        "name": "National Defense Science and Engineering Graduate",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "FA9550-21-F-0003"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "FA9550-21-F-0003"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014037",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2018253421"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2018253421"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.ploscompbiol.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS Comput Biol"
+    ],
+    "abstract": "<jats:p>Foldy is a cloud-based application that allows non-computational biologists to easily utilize advanced AI-based structural biology tools, including AlphaFold and DiffDock. With many deployment options, it can be employed by individuals, labs, universities, and companies in the cloud without requiring hardware resources, but it can also be configured to utilize locally available computers. Foldy enables scientists to predict the structure of proteins and complexes up to 6000 amino acids with AlphaFold, visualize Pfam annotations, and dock ligands with AutoDock Vina and DiffDock.</jats:p>\n                  <jats:p>In our manuscript, we detail Foldy’s interface design, deployment strategies, and optimization for various user scenarios. We demonstrate its application through case studies including rational enzyme design and analyzing proteins with domains of unknown function. Furthermore, we compare Foldy’s interface and management capabilities with other open and closed source tools in the field, illustrating its practicality in managing complex data and computation tasks. Our manuscript underlines the benefits of Foldy as a day-to-day tool for life science researchers, and shows how Foldy can make modern tools more accessible and efficient.</jats:p>",
+    "DOI": "10.1371/journal.pcbi.1011171",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          2
+        ]
+      ],
+      "date-time": "2024-02-02T13:35:00Z",
+      "timestamp": 1706880900000
+    },
+    "page": "e1011171",
+    "update-policy": "https://doi.org/10.1371/journal.pcbi.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Foldy: An open-source web application for interactive protein structure analysis"
+    ],
+    "prefix": "10.1371",
+    "volume": "20",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7564-1708",
+        "authenticated-orcid": true,
+        "given": "Jacob B.",
+        "family": "Roberts",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0172-4145",
+        "authenticated-orcid": true,
+        "given": "Alberto A.",
+        "family": "Nava",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5383-4944",
+        "authenticated-orcid": true,
+        "given": "Allison N.",
+        "family": "Pearson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew R.",
+        "family": "Incha",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Luis E.",
+        "family": "Valencia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Melody",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Abhay",
+        "family": "Rao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1490-8074",
+        "authenticated-orcid": true,
+        "given": "Jay D.",
+        "family": "Keasling",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "pcbi.1011171.ref001",
+        "first-page": "1",
+        "article-title": "Highly accurate protein structure prediction with AlphaFold",
+        "author": "J Jumper",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "pcbi.1011171.ref002",
+        "first-page": "eabj8754",
+        "article-title": "Accurate prediction of protein structures and interactions using a three-track neural network",
+        "author": "M Baek",
+        "year": "2021",
+        "journal-title": "Science"
+      },
+      {
+        "key": "pcbi.1011171.ref003",
+        "article-title": "Protein complex prediction with AlphaFold-Multimer",
+        "author": "R Evans",
+        "year": "2021",
+        "journal-title": "bioRxiv"
+      },
+      {
+        "key": "pcbi.1011171.ref004",
+        "article-title": "Evolutionary-scale prediction of atomic level protein structure with a language model",
+        "author": "Z Lin",
+        "year": "2022",
+        "journal-title": "bioRxiv"
+      },
+      {
+        "issue": "6604",
+        "key": "pcbi.1011171.ref005",
+        "doi-asserted-by": "crossref",
+        "first-page": "387",
+        "DOI": "10.1126/science.abn2100",
+        "article-title": "Scaffolding protein functional sites using deep learning",
+        "volume": "377",
+        "author": "J Wang",
+        "year": "2022",
+        "journal-title": "Science"
+      },
+      {
+        "issue": "6573",
+        "key": "pcbi.1011171.ref006",
+        "doi-asserted-by": "crossref",
+        "first-page": "eabm4805",
+        "DOI": "10.1126/science.abm4805",
+        "article-title": "Computed structures of core eukaryotic protein complexes",
+        "volume": "374",
+        "author": "IR Humphreys",
+        "year": "2021",
+        "journal-title": "Science"
+      },
+      {
+        "issue": "6",
+        "key": "pcbi.1011171.ref007",
+        "doi-asserted-by": "crossref",
+        "first-page": "679",
+        "DOI": "10.1038/s41592-022-01488-1",
+        "article-title": "ColabFold: making protein folding accessible to all",
+        "volume": "19",
+        "author": "M Mirdita",
+        "year": "2022",
+        "journal-title": "Nat Methods"
+      },
+      {
+        "issue": "7873",
+        "key": "pcbi.1011171.ref008",
+        "doi-asserted-by": "crossref",
+        "first-page": "590",
+        "DOI": "10.1038/s41586-021-03828-1",
+        "article-title": "Highly accurate protein structure prediction for the human proteome",
+        "volume": "596",
+        "author": "K Tunyasuvunakool",
+        "year": "2021",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "pcbi.1011171.ref009",
+        "unstructured": "Predict protein structures with AlphaFold [Internet]. Benchling. [cited 2023 Sep 14]. https://help.benchling.com/hc/en-us/articles/15260470636173-Predict-protein-structures-with-AlphaFold."
+      },
+      {
+        "key": "pcbi.1011171.ref010",
+        "unstructured": "LatchBio [Internet]. LatchBio. [cited 2023 Sep 14]. https://latch.bio/."
+      },
+      {
+        "key": "pcbi.1011171.ref011",
+        "unstructured": "Neurosnap—Computational Biology, Simplified [Internet]. [cited 2023 Sep 14]. https://neurosnap.ai/."
+      },
+      {
+        "issue": "D1",
+        "key": "pcbi.1011171.ref012",
+        "doi-asserted-by": "crossref",
+        "first-page": "D412",
+        "DOI": "10.1093/nar/gkaa913",
+        "article-title": "Pfam: The protein families database in 2021",
+        "volume": "49",
+        "author": "J Mistry",
+        "year": "2021",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "issue": "8",
+        "key": "pcbi.1011171.ref013",
+        "doi-asserted-by": "crossref",
+        "first-page": "3891",
+        "DOI": "10.1021/acs.jcim.1c00203",
+        "article-title": "AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings",
+        "volume": "61",
+        "author": "J Eberhardt",
+        "year": "2021",
+        "journal-title": "J Chem Inf Model"
+      },
+      {
+        "key": "pcbi.1011171.ref014",
+        "unstructured": "Corso G, Stärk H, Jing B, Barzilay R, Jaakkola T. DiffDock: Diffusion Steps, Twists, and Turns for Molecular Docking [Internet]. arXiv [q-bio.BM]. 2022. http://arxiv.org/abs/2210.01776."
+      },
+      {
+        "issue": "21",
+        "key": "pcbi.1011171.ref015",
+        "doi-asserted-by": "crossref",
+        "first-page": "3755",
+        "DOI": "10.1093/bioinformatics/bty419",
+        "article-title": "NGL viewer: web-based molecular graphics for large complexes",
+        "volume": "34",
+        "author": "AS Rose",
+        "year": "2018",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "pcbi.1011171.ref016",
+        "unstructured": "Inc. PT. Collaborative data science [Internet]. Montreal, QC: Plotly Technologies Inc.; 2015. https://plot.ly."
+      },
+      {
+        "key": "pcbi.1011171.ref017",
+        "article-title": "Module-Based Polyketide Synthase Engineering for de Novo Polyketide Biosynthesis",
+        "author": "AA Nava",
+        "year": "2023",
+        "journal-title": "ACS Synth Biol"
+      },
+      {
+        "issue": "2",
+        "key": "pcbi.1011171.ref018",
+        "doi-asserted-by": "crossref",
+        "first-page": "143",
+        "DOI": "10.1016/j.chembiol.2006.12.002",
+        "article-title": "Rational Design and Assembly of Synthetic Trimodular Polyketide Synthases",
+        "volume": "14",
+        "author": "HG Menzella",
+        "year": "2007",
+        "journal-title": "Chem Biol"
+      },
+      {
+        "issue": "21",
+        "key": "pcbi.1011171.ref019",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1128/AEM.01665-20",
+        "article-title": "Fatty Acid and Alcohol Metabolism in Pseudomonas putida: Functional Analysis Using Random Barcode Transposon Sequencing",
+        "volume": "86",
+        "author": "MG Thompson",
+        "year": "2020",
+        "journal-title": "Appl Environ Microbiol"
+      },
+      {
+        "issue": "5",
+        "key": "pcbi.1011171.ref020",
+        "doi-asserted-by": "crossref",
+        "first-page": "461",
+        "DOI": "10.1016/j.intcom.2011.07.002",
+        "article-title": "The dilemma of the hedonic–Appreciated, but hard to justify",
+        "volume": "23",
+        "author": "S Diefenbach",
+        "year": "2011",
+        "journal-title": "Interact Comput"
+      }
+    ],
+    "updated-by": [
+      {
+        "DOI": "10.1371/journal.pcbi.1011171",
+        "type": "new_version",
+        "label": "New version",
+        "source": "publisher",
+        "updated": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              14
+            ]
+          ],
+          "date-time": "2024-02-14T00:00:00Z",
+          "timestamp": 1707868800000
+        }
+      }
+    ],
+    "container-title": [
+      "PLOS Computational Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dx.plos.org/10.1371/journal.pcbi.1011171",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          14
+        ]
+      ],
+      "date-time": "2024-02-14T13:42:12Z",
+      "timestamp": 1707918132000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pcbi.1011171"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Christos A.",
+        "family": "Ouzounis",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          2
+        ]
+      ]
+    },
+    "references-count": 20,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pcbi.1011171",
+    "relation": {},
+    "ISSN": [
+      "1553-7358"
+    ],
+    "issn-type": [
+      {
+        "value": "1553-7358",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          2
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,2058 @@
+{
+  "doi": "10.1021/acs.jctc.4c00054",
+  "openalex": {
+    "id": "https://openalex.org/W4394622979",
+    "doi": "https://doi.org/10.1021/acs.jctc.4c00054",
+    "title": "No Headache for PIPs: A PIP Potential for Aspirin Runs Much Faster and with Similar Precision Than Other Machine-Learned Potentials",
+    "display_name": "No Headache for PIPs: A PIP Potential for Aspirin Runs Much Faster and with Similar Precision Than Other Machine-Learned Potentials",
+    "publication_year": 2024,
+    "publication_date": "2024-04-09",
+    "ids": {
+      "openalex": "https://openalex.org/W4394622979",
+      "doi": "https://doi.org/10.1021/acs.jctc.4c00054",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38593438"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1021/acs.jctc.4c00054",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1021/acs.jctc.4c00054",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S189701308",
+        "display_name": "Journal of Chemical Theory and Computation",
+        "issn_l": "1549-9618",
+        "issn": [
+          "1549-9618",
+          "1549-9626"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320006",
+        "host_organization_name": "American Chemical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320006"
+        ],
+        "host_organization_lineage_names": [
+          "American Chemical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Chemical Theory and Computation",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://hdl.handle.net/2434/1047810",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5023296050",
+          "display_name": "Paul L. Houston",
+          "orcid": "https://orcid.org/0000-0003-2566-9539"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205783295",
+            "display_name": "Cornell University",
+            "ror": "https://ror.org/05bnh6r87",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205783295"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I130701444",
+            "display_name": "Georgia Institute of Technology",
+            "ror": "https://ror.org/01zkghx44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Paul L. Houston",
+        "raw_affiliation_strings": [
+          "Department of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, Georgia 30332, United States",
+          "Department of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, Georgia 30332, United States",
+            "institution_ids": [
+              "https://openalex.org/I130701444"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853, United States",
+            "institution_ids": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5071923786",
+          "display_name": "Chen Qu",
+          "orcid": "https://orcid.org/0000-0001-8889-4851"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Chen Qu",
+        "raw_affiliation_strings": [
+          "Independent Researcher, Toronto, Ontario M9B0E3, Canada"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Independent Researcher, Toronto, Ontario M9B0E3, Canada",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5004060782",
+          "display_name": "Qi Yu",
+          "orcid": "https://orcid.org/0000-0002-2030-0671"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Qi Yu",
+        "raw_affiliation_strings": [
+          "Department of Chemistry, Fudan University, Shanghai 200438, P. R. China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemistry, Fudan University, Shanghai 200438, P. R. China",
+            "institution_ids": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101545854",
+          "display_name": "Priyanka Pandey",
+          "orcid": "https://orcid.org/0000-0002-6930-792X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I90022754",
+            "display_name": "Atlanta University Center",
+            "ror": "https://ror.org/01wmj1g45",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I90022754"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210117810",
+            "display_name": "Emerson (United States)",
+            "ror": "https://ror.org/02aga1t67",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210117810"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I150468666",
+            "display_name": "Emory University",
+            "ror": "https://ror.org/03czfpz43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I150468666"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Priyanka Pandey",
+        "raw_affiliation_strings": [
+          "Department of Chemistry, Cherry L. Emerson Center for Scientific Computation, Emory University, Atlanta, Georgia 30322, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemistry, Cherry L. Emerson Center for Scientific Computation, Emory University, Atlanta, Georgia 30322, United States",
+            "institution_ids": [
+              "https://openalex.org/I150468666",
+              "https://openalex.org/I4210117810",
+              "https://openalex.org/I90022754"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5029027689",
+          "display_name": "Riccardo Conte",
+          "orcid": "https://orcid.org/0000-0003-3026-3875"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189158943",
+            "display_name": "University of Milan",
+            "ror": "https://ror.org/00wjc7c48",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I189158943"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Riccardo Conte",
+        "raw_affiliation_strings": [
+          "Dipartimento di Chimica, Università degli Studi di Milano, via Golgi 19, 20133 Milano, Italy"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Dipartimento di Chimica, Università degli Studi di Milano, via Golgi 19, 20133 Milano, Italy",
+            "institution_ids": [
+              "https://openalex.org/I189158943"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023209828",
+          "display_name": "Apurba Nandi",
+          "orcid": "https://orcid.org/0000-0002-6191-5584"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I186903577",
+            "display_name": "University of Luxembourg",
+            "ror": "https://ror.org/036x5ad56",
+            "country_code": "LU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I186903577"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I90022754",
+            "display_name": "Atlanta University Center",
+            "ror": "https://ror.org/01wmj1g45",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I90022754"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210117810",
+            "display_name": "Emerson (United States)",
+            "ror": "https://ror.org/02aga1t67",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210117810"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I150468666",
+            "display_name": "Emory University",
+            "ror": "https://ror.org/03czfpz43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I150468666"
+            ]
+          }
+        ],
+        "countries": [
+          "LU",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Apurba Nandi",
+        "raw_affiliation_strings": [
+          "Department of Chemistry, Cherry L. Emerson Center for Scientific Computation, Emory University, Atlanta, Georgia 30322, United States",
+          "Department of Physics and Materials Science, University of Luxembourg, Luxembourg City L-1511, Luxembourg"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemistry, Cherry L. Emerson Center for Scientific Computation, Emory University, Atlanta, Georgia 30322, United States",
+            "institution_ids": [
+              "https://openalex.org/I150468666",
+              "https://openalex.org/I4210117810",
+              "https://openalex.org/I90022754"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Physics and Materials Science, University of Luxembourg, Luxembourg City L-1511, Luxembourg",
+            "institution_ids": [
+              "https://openalex.org/I186903577"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5064654490",
+          "display_name": "Joel M. Bowman",
+          "orcid": "https://orcid.org/0000-0001-9692-2672"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I90022754",
+            "display_name": "Atlanta University Center",
+            "ror": "https://ror.org/01wmj1g45",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I90022754"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210117810",
+            "display_name": "Emerson (United States)",
+            "ror": "https://ror.org/02aga1t67",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210117810"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I150468666",
+            "display_name": "Emory University",
+            "ror": "https://ror.org/03czfpz43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I150468666"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Joel M. Bowman",
+        "raw_affiliation_strings": [
+          "Department of Chemistry, Cherry L. Emerson Center for Scientific Computation, Emory University, Atlanta, Georgia 30322, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemistry, Cherry L. Emerson Center for Scientific Computation, Emory University, Atlanta, Georgia 30322, United States",
+            "institution_ids": [
+              "https://openalex.org/I150468666",
+              "https://openalex.org/I4210117810",
+              "https://openalex.org/I90022754"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 4,
+    "institutions_distinct_count": 7,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5064654490",
+      "https://openalex.org/A5023296050",
+      "https://openalex.org/A5071923786",
+      "https://openalex.org/A5004060782"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I130701444",
+      "https://openalex.org/I150468666",
+      "https://openalex.org/I205783295",
+      "https://openalex.org/I24943067",
+      "https://openalex.org/I4210117810",
+      "https://openalex.org/I90022754"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.86278593,
+    "has_fulltext": false,
+    "cited_by_count": 11,
+    "citation_normalized_percentile": {
+      "value": 0.87949926,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "20",
+      "issue": "8",
+      "first_page": "3008",
+      "last_page": "3018"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11948",
+      "display_name": "Machine Learning in Materials Science",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11948",
+        "display_name": "Machine Learning in Materials Science",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10211",
+        "display_name": "Computational Drug Discovery Methods",
+        "score": 0.9965000152587891,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12613",
+        "display_name": "X-ray Diffraction in Crystallography",
+        "score": 0.9763000011444092,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5385580658912659
+      },
+      {
+        "id": "https://openalex.org/keywords/linear-regression",
+        "display_name": "Linear regression",
+        "score": 0.4764036238193512
+      },
+      {
+        "id": "https://openalex.org/keywords/set",
+        "display_name": "Set (abstract data type)",
+        "score": 0.4606378972530365
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.45075222849845886
+      },
+      {
+        "id": "https://openalex.org/keywords/polynomial",
+        "display_name": "Polynomial",
+        "score": 0.41401034593582153
+      },
+      {
+        "id": "https://openalex.org/keywords/invariant",
+        "display_name": "Invariant (physics)",
+        "score": 0.4132170081138611
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.28999102115631104
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.25606533885002136
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.20561912655830383
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-mechanics",
+        "display_name": "Quantum mechanics",
+        "score": 0.1243351399898529
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematical-analysis",
+        "display_name": "Mathematical analysis",
+        "score": 0.1165933907032013
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5385580658912659
+      },
+      {
+        "id": "https://openalex.org/C48921125",
+        "wikidata": "https://www.wikidata.org/wiki/Q10861030",
+        "display_name": "Linear regression",
+        "level": 2,
+        "score": 0.4764036238193512
+      },
+      {
+        "id": "https://openalex.org/C177264268",
+        "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+        "display_name": "Set (abstract data type)",
+        "level": 2,
+        "score": 0.4606378972530365
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.45075222849845886
+      },
+      {
+        "id": "https://openalex.org/C90119067",
+        "wikidata": "https://www.wikidata.org/wiki/Q43260",
+        "display_name": "Polynomial",
+        "level": 2,
+        "score": 0.41401034593582153
+      },
+      {
+        "id": "https://openalex.org/C190470478",
+        "wikidata": "https://www.wikidata.org/wiki/Q2370229",
+        "display_name": "Invariant (physics)",
+        "level": 2,
+        "score": 0.4132170081138611
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.28999102115631104
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.25606533885002136
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.20561912655830383
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.1243351399898529
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.1165933907032013
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1021/acs.jctc.4c00054",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1021/acs.jctc.4c00054",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S189701308",
+          "display_name": "Journal of Chemical Theory and Computation",
+          "issn_l": "1549-9618",
+          "issn": [
+            "1549-9618",
+            "1549-9626"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320006",
+          "host_organization_name": "American Chemical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320006"
+          ],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Chemical Theory and Computation",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38593438",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38593438",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of chemical theory and computation",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:air.unimi.it:2434/1047810",
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/2434/1047810",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400516",
+          "display_name": "Archivio Istituzionale della Ricerca (Universita Degli Studi Di Milano)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I189158943",
+          "host_organization_name": "University of Milan",
+          "host_organization_lineage": [
+            "https://openalex.org/I189158943"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:air.unimi.it:2434/1047810",
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/2434/1047810",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400516",
+        "display_name": "Archivio Istituzionale della Ricerca (Universita Degli Studi Di Milano)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I189158943",
+        "host_organization_name": "University of Milan",
+        "host_organization_lineage": [
+          "https://openalex.org/I189158943"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "info:eu-repo/semantics/article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G8671728988",
+        "display_name": null,
+        "funder_award_id": "80NSSC22K1167",
+        "funder_id": "https://openalex.org/F4320306101",
+        "funder_display_name": "National Aeronautics and Space Administration"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306101",
+        "display_name": "National Aeronautics and Space Administration",
+        "ror": "https://ror.org/027ka1x80"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 66,
+    "referenced_works": [
+      "https://openalex.org/W1964882117",
+      "https://openalex.org/W2048195126",
+      "https://openalex.org/W4313481788",
+      "https://openalex.org/W2050771003",
+      "https://openalex.org/W2786791309",
+      "https://openalex.org/W3129258001",
+      "https://openalex.org/W4296082026",
+      "https://openalex.org/W1849638187",
+      "https://openalex.org/W2123889389",
+      "https://openalex.org/W2597429058",
+      "https://openalex.org/W2050765243",
+      "https://openalex.org/W2520205627",
+      "https://openalex.org/W4281709715",
+      "https://openalex.org/W4378745743",
+      "https://openalex.org/W3012140320",
+      "https://openalex.org/W3116563477",
+      "https://openalex.org/W4200635768",
+      "https://openalex.org/W1978183953",
+      "https://openalex.org/W2541404351",
+      "https://openalex.org/W2742127985",
+      "https://openalex.org/W2788652239",
+      "https://openalex.org/W2912317159",
+      "https://openalex.org/W2923693308",
+      "https://openalex.org/W2725390203",
+      "https://openalex.org/W2951646322",
+      "https://openalex.org/W2008574207",
+      "https://openalex.org/W2001071225",
+      "https://openalex.org/W2585152223",
+      "https://openalex.org/W3133762917",
+      "https://openalex.org/W3208707586",
+      "https://openalex.org/W3200588771",
+      "https://openalex.org/W4362656960",
+      "https://openalex.org/W3088965305",
+      "https://openalex.org/W3087364265",
+      "https://openalex.org/W3162848891",
+      "https://openalex.org/W4366464141",
+      "https://openalex.org/W4319162181",
+      "https://openalex.org/W4283021369",
+      "https://openalex.org/W2940310853",
+      "https://openalex.org/W2923606146",
+      "https://openalex.org/W1981368803",
+      "https://openalex.org/W2054704030",
+      "https://openalex.org/W1988091937",
+      "https://openalex.org/W2119547517",
+      "https://openalex.org/W4281556106",
+      "https://openalex.org/W2061088327",
+      "https://openalex.org/W2011218651",
+      "https://openalex.org/W3116713967",
+      "https://openalex.org/W2078841894",
+      "https://openalex.org/W4287828570",
+      "https://openalex.org/W2948990653",
+      "https://openalex.org/W2778051509",
+      "https://openalex.org/W2527189750",
+      "https://openalex.org/W3199869894",
+      "https://openalex.org/W1966702069",
+      "https://openalex.org/W2119270906",
+      "https://openalex.org/W2025444507",
+      "https://openalex.org/W2055526416",
+      "https://openalex.org/W2058370262",
+      "https://openalex.org/W3088400469",
+      "https://openalex.org/W4390062618",
+      "https://openalex.org/W2044767278",
+      "https://openalex.org/W3104644561",
+      "https://openalex.org/W3135136416",
+      "https://openalex.org/W3106310231",
+      "https://openalex.org/W3102448310"
+    ],
+    "related_works": [
+      "https://openalex.org/W2051487156",
+      "https://openalex.org/W2073681303",
+      "https://openalex.org/W2053286651",
+      "https://openalex.org/W2181743346",
+      "https://openalex.org/W2187401768",
+      "https://openalex.org/W2181413294",
+      "https://openalex.org/W2989452537",
+      "https://openalex.org/W2052122378",
+      "https://openalex.org/W2544423928",
+      "https://openalex.org/W2062023542"
+    ],
+    "abstract_inverted_index": {
+      "Assessments": [
+        0
+      ],
+      "of": [
+        1,
+        9,
+        13,
+        21,
+        95,
+        108,
+        141,
+        211
+      ],
+      "machine-learning": [
+        2
+      ],
+      "(ML)": [
+        3
+      ],
+      "potentials": [
+        4
+      ],
+      "are": [
+        5,
+        101,
+        130
+      ],
+      "an": [
+        6,
+        19,
+        127,
+        214
+      ],
+      "important": [
+        7
+      ],
+      "aspect": [
+        8
+      ],
+      "the": [
+        10,
+        22,
+        32,
+        42,
+        80,
+        85,
+        93,
+        106,
+        118,
+        135,
+        139,
+        178,
+        200
+      ],
+      "rapid": [
+        11
+      ],
+      "development": [
+        12
+      ],
+      "this": [
+        14,
+        77
+      ],
+      "field.": [
+        15
+      ],
+      "We": [
+        16,
+        39,
+        132,
+        196
+      ],
+      "recently": [
+        17
+      ],
+      "reported": [
+        18,
+        160
+      ],
+      "assessment": [
+        20,
+        78
+      ],
+      "linear-regression": [
+        23
+      ],
+      "permutationally": [
+        24
+      ],
+      "invariant": [
+        25
+      ],
+      "polynomial": [
+        26
+      ],
+      "(PIP)": [
+        27
+      ],
+      "method": [
+        28
+      ],
+      "for": [
+        29,
+        103,
+        113,
+        126
+      ],
+      "ethanol,": [
+        30
+      ],
+      "using": [
+        31,
+        84
+      ],
+      "widely": [
+        33
+      ],
+      "used": [
+        34,
+        102
+      ],
+      "(revised)": [
+        35
+      ],
+      "rMD17": [
+        36,
+        86
+      ],
+      "data": [
+        37,
+        87
+      ],
+      "set.": [
+        38
+      ],
+      "demonstrated": [
+        40
+      ],
+      "that": [
+        41,
+        134,
+        177,
+        194,
+        199
+      ],
+      "PIP": [
+        43,
+        136,
+        179,
+        201
+      ],
+      "approach": [
+        44,
+        137
+      ],
+      "outperformed": [
+        45
+      ],
+      "numerous": [
+        46
+      ],
+      "other": [
+        47,
+        145,
+        186
+      ],
+      "methods,": [
+        48,
+        147,
+        152,
+        158,
+        188
+      ],
+      "e.g.,": [
+        49,
+        148
+      ],
+      "ANI,": [
+        50
+      ],
+      "PhysNet,": [
+        51
+      ],
+      "sGDML,": [
+        52
+      ],
+      "and": [
+        53,
+        59,
+        99,
+        105,
+        122,
+        156
+      ],
+      "p-KRR,": [
+        54
+      ],
+      "with": [
+        55,
+        61,
+        89
+      ],
+      "respect": [
+        56,
+        62
+      ],
+      "to": [
+        57,
+        63,
+        79,
+        206
+      ],
+      "precision": [
+        58,
+        107,
+        142
+      ],
+      "notably": [
+        60
+      ],
+      "speed": [
+        64,
+        94
+      ],
+      "[Houston": [
+        65
+      ],
+      "et": [
+        66,
+        163
+      ],
+      "al.,": [
+        67
+      ],
+      "<i>J.": [
+        68,
+        166
+      ],
+      "Chem.": [
+        69,
+        167
+      ],
+      "Phys.</i>": [
+        70
+      ],
+      "<b>2022</b>,": [
+        71
+      ],
+      "156,": [
+        72
+      ],
+      "044120].": [
+        73
+      ],
+      "Here,": [
+        74
+      ],
+      "we": [
+        75,
+        175
+      ],
+      "extend": [
+        76
+      ],
+      "21-atom": [
+        81
+      ],
+      "aspirin": [
+        82
+      ],
+      "molecule,": [
+        83
+      ],
+      "set,": [
+        88
+      ],
+      "a": [
+        90
+      ],
+      "focus": [
+        91
+      ],
+      "on": [
+        92
+      ],
+      "evaluation.": [
+        96
+      ],
+      "Both": [
+        97
+      ],
+      "energies": [
+        98,
+        125
+      ],
+      "forces": [
+        100
+      ],
+      "training,": [
+        104
+      ],
+      "several": [
+        109,
+        208
+      ],
+      "PIPs": [
+        110
+      ],
+      "is": [
+        111
+      ],
+      "examined": [
+        112
+      ],
+      "both.": [
+        114
+      ],
+      "Normal": [
+        115
+      ],
+      "mode": [
+        116
+      ],
+      "frequencies,": [
+        117
+      ],
+      "methyl": [
+        119
+      ],
+      "torsional": [
+        120
+      ],
+      "potential,": [
+        121
+      ],
+      "1d": [
+        123
+      ],
+      "vibrational": [
+        124
+      ],
+      "OH": [
+        128,
+        215
+      ],
+      "stretch": [
+        129
+      ],
+      "presented.": [
+        131
+      ],
+      "show": [
+        133,
+        176,
+        198
+      ],
+      "achieves": [
+        138
+      ],
+      "level": [
+        140
+      ],
+      "obtained": [
+        143
+      ],
+      "from": [
+        144
+      ],
+      "ML": [
+        146,
+        187
+      ],
+      "atom-centered": [
+        149
+      ],
+      "neural": [
+        150
+      ],
+      "network": [
+        151
+      ],
+      "linear": [
+        153
+      ],
+      "regression": [
+        154
+      ],
+      "ACE,": [
+        155
+      ],
+      "kernel": [
+        157
+      ],
+      "as": [
+        159
+      ],
+      "by": [
+        161
+      ],
+      "Kovács": [
+        162
+      ],
+      "al.": [
+        164
+      ],
+      "in": [
+        165,
+        193
+      ],
+      "Theory": [
+        168
+      ],
+      "Comput.</i>": [
+        169
+      ],
+      "<b>2021</b>,": [
+        170
+      ],
+      "17,": [
+        171
+      ],
+      "7696-7711.": [
+        172
+      ],
+      "More": [
+        173
+      ],
+      "significantly,": [
+        174
+      ],
+      "PESs": [
+        180
+      ],
+      "run": [
+        181
+      ],
+      "much": [
+        182
+      ],
+      "faster": [
+        183
+      ],
+      "than": [
+        184
+      ],
+      "all": [
+        185
+      ],
+      "whose": [
+        189
+      ],
+      "timings": [
+        190
+      ],
+      "were": [
+        191
+      ],
+      "evaluated": [
+        192
+      ],
+      "paper.": [
+        195
+      ],
+      "also": [
+        197
+      ],
+      "PES": [
+        202
+      ],
+      "extrapolates": [
+        203
+      ],
+      "well": [
+        204
+      ],
+      "enough": [
+        205
+      ],
+      "describe": [
+        207
+      ],
+      "internal": [
+        209
+      ],
+      "motions": [
+        210
+      ],
+      "aspirin,": [
+        212
+      ],
+      "including": [
+        213
+      ],
+      "stretch.": [
+        216
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 4
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          27
+        ]
+      ],
+      "date-time": "2025-12-27T07:32:18Z",
+      "timestamp": 1766820738213,
+      "version": "3.37.3"
+    },
+    "reference-count": 70,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              9
+            ]
+          ],
+          "date-time": "2024-04-09T00:00:00Z",
+          "timestamp": 1712620800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              9
+            ]
+          ],
+          "date-time": "2024-04-09T00:00:00Z",
+          "timestamp": 1712620800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              9
+            ]
+          ],
+          "date-time": "2024-04-09T00:00:00Z",
+          "timestamp": 1712620800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-045"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "80NSSC22K1167"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "80NSSC22K1167"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J. Chem. Theory Comput."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          23
+        ]
+      ]
+    },
+    "DOI": "10.1021/acs.jctc.4c00054",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          9
+        ]
+      ],
+      "date-time": "2024-04-09T20:51:03Z",
+      "timestamp": 1712695863000
+    },
+    "page": "3008-3018",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "No Headache for PIPs: A PIP Potential for Aspirin Runs Much Faster and with Similar Precision Than Other Machine-Learned Potentials"
+    ],
+    "prefix": "10.1021",
+    "volume": "20",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2566-9539",
+        "authenticated-orcid": true,
+        "given": "Paul L.",
+        "family": "Houston",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry and Chemical Biology, Cornell University, Ithaca, New York 14853, United States"
+          },
+          {
+            "name": "Department of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, Georgia 30332, United States"
+          }
+        ]
+      },
+      {
+        "given": "Chen",
+        "family": "Qu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Independent Researcher, Toronto, Ontario M9B0E3, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Qi",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry, Fudan University, Shanghai 200438, P. R. China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6930-792X",
+        "authenticated-orcid": true,
+        "given": "Priyanka",
+        "family": "Pandey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry, Cherry L. Emerson Center for Scientific Computation, Emory University, Atlanta, Georgia 30322, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3026-3875",
+        "authenticated-orcid": true,
+        "given": "Riccardo",
+        "family": "Conte",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dipartimento di Chimica, Università degli Studi di Milano, via Golgi 19, 20133 Milano, Italy"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6191-5584",
+        "authenticated-orcid": true,
+        "given": "Apurba",
+        "family": "Nandi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry, Cherry L. Emerson Center for Scientific Computation, Emory University, Atlanta, Georgia 30322, United States"
+          },
+          {
+            "name": "Department of Physics and Materials Science, University of Luxembourg, Luxembourg City L-1511, Luxembourg"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9692-2672",
+        "authenticated-orcid": true,
+        "given": "Joel M.",
+        "family": "Bowman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry, Cherry L. Emerson Center for Scientific Computation, Emory University, Atlanta, Georgia 30322, United States"
+          }
+        ]
+      }
+    ],
+    "member": "316",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1/cit1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01442350903234923"
+      },
+      {
+        "key": "ref2/cit2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ct9004917"
+      },
+      {
+        "key": "ref3/cit3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/5.0134442"
+      },
+      {
+        "key": "ref4/cit4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/c0cp02722g"
+      },
+      {
+        "key": "ref5/cit5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-physchem-050317-021139"
+      },
+      {
+        "key": "ref6/cit6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jpca.0c11531"
+      },
+      {
+        "key": "ref7/cit7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jctc.2c00645"
+      },
+      {
+        "key": "ref8/cit8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4929338"
+      },
+      {
+        "key": "ref9/cit9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C4CP05913A"
+      },
+      {
+        "key": "ref10/cit10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4979601"
+      },
+      {
+        "key": "ref11/cit11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.3196178"
+      },
+      {
+        "key": "ref12/cit12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4967719"
+      },
+      {
+        "key": "ref13/cit13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jpclett.2c00966"
+      },
+      {
+        "key": "ref14/cit14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jctc.3c00326"
+      },
+      {
+        "key": "ref15/cit15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/2632-2153/ab527c"
+      },
+      {
+        "key": "ref16/cit16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/2632-2153/abd51e"
+      },
+      {
+        "key": "ref17/cit17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/5.0080506"
+      },
+      {
+        "key": "ref18/cit18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qua.24927"
+      },
+      {
+        "key": "ref19/cit19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C6SC05720A"
+      },
+      {
+        "key": "ref20/cit20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/physrevlett.120.143001"
+      },
+      {
+        "key": "ref21/cit21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-018-06169-2"
+      },
+      {
+        "key": "ref22/cit22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.5078687"
+      },
+      {
+        "key": "ref23/cit23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jctc.9b00181"
+      },
+      {
+        "key": "ref24/cit24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4989536"
+      },
+      {
+        "key": "ref25/cit25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jcc.26004"
+      },
+      {
+        "key": "ref26/cit26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/newbio231232a0"
+      },
+      {
+        "key": "ref27/cit27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmgm.2012.12.013"
+      },
+      {
+        "key": "ref28/cit28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.1603015"
+      },
+      {
+        "key": "ref29/cit29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/5.0038516"
+      },
+      {
+        "key": "ref30/cit30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jctc.1c00647"
+      },
+      {
+        "key": "ref31/cit31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D1SC03564A"
+      },
+      {
+        "key": "ref32/cit32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jctc.2c01038"
+      },
+      {
+        "key": "ref33/cit33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/2632-2153/abba6f"
+      },
+      {
+        "key": "ref34/cit34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D0CP04221H"
+      },
+      {
+        "key": "ref35/cit35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jpclett.1c01142"
+      },
+      {
+        "key": "ref36/cit36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.3c00769"
+      },
+      {
+        "key": "ref37/cit37",
+        "first-page": "e1603015",
+        "volume": "139",
+        "author": "Schütt K. T.",
+        "year": "2021",
+        "journal-title": "PMLR"
+      },
+      {
+        "key": "ref38/cit38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-36329-y"
+      },
+      {
+        "key": "ref39/cit39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2206.07697"
+      },
+      {
+        "key": "ref40/cit40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.5092794"
+      },
+      {
+        "key": "ref41/cit41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jctc.9b00043"
+      },
+      {
+        "key": "ref42/cit42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.77.3865"
+      },
+      {
+        "key": "ref43/cit43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.78.1396"
+      },
+      {
+        "key": "ref44/cit44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/b508541a"
+      },
+      {
+        "key": "ref45/cit45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/b515623h"
+      },
+      {
+        "key": "ref46/cit46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/5.0089200"
+      },
+      {
+        "key": "ref47/cit47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1119/1.18168"
+      },
+      {
+        "key": "ref48/cit48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01442350600679347"
+      },
+      {
+        "key": "ref49/cit49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/5.0037175"
+      },
+      {
+        "key": "ref50/cit50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02163027"
+      },
+      {
+        "key": "ref51/cit51",
+        "unstructured": "MSA Software with Gradients. https://github.com/szquchen/MSA-2.0, 2019 (accessed Jan 20, 2019)."
+      },
+      {
+        "key": "ref52/cit52",
+        "unstructured": "Original MSA Software. https://www.mcs.anl.gov/research/projects/msa/, 2019 (accessed Jan 20, 2019)."
+      },
+      {
+        "key": "ref53/cit53",
+        "unstructured": "Wolfram Research., Inc., Mathematic, version 12.0. Champaign, IL, 2019."
+      },
+      {
+        "key": "ref54/cit54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2003.03123"
+      },
+      {
+        "key": "ref55/cit55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1906.04015"
+      },
+      {
+        "key": "ref56/cit56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.5019779"
+      },
+      {
+        "key": "ref57/cit57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ncomms13890"
+      },
+      {
+        "key": "ref58/cit58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jctc.1c00527"
+      },
+      {
+        "key": "ref59/cit59",
+        "unstructured": "Werner, H.J.; Knowles, P. J.; Knizia, G.; Manby, F. R.; Schütz, M.  MOLPRO, version 2010.1, a package of ab initio programs, 2010 see http://www.molpro.net."
+      },
+      {
+        "key": "ref60/cit60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.462100"
+      },
+      {
+        "key": "ref61/cit61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00268977900101331"
+      },
+      {
+        "key": "ref62/cit62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.98.146401"
+      },
+      {
+        "key": "ref63/cit63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/qua.24890"
+      },
+      {
+        "key": "ref64/cit64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/c1cp21668f"
+      },
+      {
+        "key": "ref65/cit65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jpclett.0c02501"
+      },
+      {
+        "key": "ref66/cit66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nsr/nwad321"
+      },
+      {
+        "key": "ref67/cit67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4929338"
+      },
+      {
+        "key": "ref68/cit68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4811653"
+      },
+      {
+        "key": "ref69/cit69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/5.0037175"
+      },
+      {
+        "key": "ref70/cit70",
+        "unstructured": "QM-22 Datasets. https://github.com/jmbowma/QM-22."
+      }
+    ],
+    "container-title": [
+      "Journal of Chemical Theory and Computation"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.4c00054",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "unspecified"
+      },
+      {
+        "URL": "https://pubs.acs.org/doi/pdf/10.1021/acs.jctc.4c00054",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          23
+        ]
+      ],
+      "date-time": "2024-04-23T08:13:27Z",
+      "timestamp": 1713860007000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.acs.org/doi/10.1021/acs.jctc.4c00054"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          9
+        ]
+      ]
+    },
+    "references-count": 70,
+    "journal-issue": {
+      "issue": "8",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            23
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1021/acs.jctc.4c00054"
+    ],
+    "URL": "https://doi.org/10.1021/acs.jctc.4c00054",
+    "relation": {},
+    "ISSN": [
+      "1549-9618",
+      "1549-9626"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1549-9618"
+      },
+      {
+        "type": "electronic",
+        "value": "1549-9626"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          9
+        ]
+      ]
+    }
+  }
+}

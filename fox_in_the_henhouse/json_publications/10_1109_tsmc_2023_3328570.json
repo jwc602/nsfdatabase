@@ -1,0 +1,1444 @@
+{
+  "doi": "10.1109/tsmc.2023.3328570",
+  "openalex": {
+    "id": "https://openalex.org/W4388878386",
+    "doi": "https://doi.org/10.1109/tsmc.2023.3328570",
+    "title": "Structural Analysis of the Stochastic Influence Model for Identifiability and Reduced-Order Estimation",
+    "display_name": "Structural Analysis of the Stochastic Influence Model for Identifiability and Reduced-Order Estimation",
+    "publication_year": 2023,
+    "publication_date": "2023-11-21",
+    "ids": {
+      "openalex": "https://openalex.org/W4388878386",
+      "doi": "https://doi.org/10.1109/tsmc.2023.3328570"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tsmc.2023.3328570",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tsmc.2023.3328570",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210209078",
+        "display_name": "IEEE Transactions on Systems Man and Cybernetics Systems",
+        "issn_l": "2168-2216",
+        "issn": [
+          "2168-2216",
+          "2168-2232"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5080972496",
+          "display_name": "Lu Zhao",
+          "orcid": "https://orcid.org/0000-0001-9150-9424"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189196454",
+            "display_name": "The University of Texas at Arlington",
+            "ror": "https://ror.org/019kgqr73",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I189196454"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lu Zhao",
+        "raw_affiliation_strings": [
+          "Department of Electrical Engineering, University of Texas at Arlington, Arlington, TX, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical Engineering, University of Texas at Arlington, Arlington, TX, USA",
+            "institution_ids": [
+              "https://openalex.org/I189196454"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5029213376",
+          "display_name": "Yan Wan",
+          "orcid": "https://orcid.org/0000-0002-7508-5833"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189196454",
+            "display_name": "The University of Texas at Arlington",
+            "ror": "https://ror.org/019kgqr73",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I189196454"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yan Wan",
+        "raw_affiliation_strings": [
+          "Department of Electrical Engineering, University of Texas at Arlington, Arlington, TX, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical Engineering, University of Texas at Arlington, Arlington, TX, USA",
+            "institution_ids": [
+              "https://openalex.org/I189196454"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5005265888",
+          "display_name": "Chenyuan He",
+          "orcid": "https://orcid.org/0000-0002-9378-7935"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I115592961",
+            "display_name": "Jiangsu University",
+            "ror": "https://ror.org/03jc41j30",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I115592961"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chenyuan He",
+        "raw_affiliation_strings": [
+          "School of Automotive and Traffic Engineering, Jiangsu University, Zhenjiang, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Automotive and Traffic Engineering, Jiangsu University, Zhenjiang, China",
+            "institution_ids": [
+              "https://openalex.org/I115592961"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5016137188",
+          "display_name": "Frank L. Lewis",
+          "orcid": "https://orcid.org/0000-0003-4074-1615"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Frank L. Lewis",
+        "raw_affiliation_strings": [
+          "UTA Research Institute, University of Texas at Arlington, Fort Worth, TX, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "UTA Research Institute, University of Texas at Arlington, Fort Worth, TX, USA",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.18567041,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.61656048,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 95
+    },
+    "biblio": {
+      "volume": "54",
+      "issue": "3",
+      "first_page": "1451",
+      "last_page": "1463"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10621",
+      "display_name": "Gene Regulatory Network Analysis",
+      "score": 0.9904000163078308,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10621",
+        "display_name": "Gene Regulatory Network Analysis",
+        "score": 0.9904000163078308,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10064",
+        "display_name": "Complex Network Analysis Techniques",
+        "score": 0.9847000241279602,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12592",
+        "display_name": "Opinion Dynamics and Social Influence",
+        "score": 0.9703999757766724,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/identifiability",
+        "display_name": "Identifiability",
+        "score": 0.9888136386871338
+      },
+      {
+        "id": "https://openalex.org/keywords/markov-chain",
+        "display_name": "Markov chain",
+        "score": 0.6393347978591919
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6361784934997559
+      },
+      {
+        "id": "https://openalex.org/keywords/representation",
+        "display_name": "Representation (politics)",
+        "score": 0.567767858505249
+      },
+      {
+        "id": "https://openalex.org/keywords/markov-process",
+        "display_name": "Markov process",
+        "score": 0.5495796799659729
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematical-optimization",
+        "display_name": "Mathematical optimization",
+        "score": 0.5338360667228699
+      },
+      {
+        "id": "https://openalex.org/keywords/homogeneous",
+        "display_name": "Homogeneous",
+        "score": 0.5257989764213562
+      },
+      {
+        "id": "https://openalex.org/keywords/estimation-theory",
+        "display_name": "Estimation theory",
+        "score": 0.4723295569419861
+      },
+      {
+        "id": "https://openalex.org/keywords/order",
+        "display_name": "Order (exchange)",
+        "score": 0.47218647599220276
+      },
+      {
+        "id": "https://openalex.org/keywords/connection",
+        "display_name": "Connection (principal bundle)",
+        "score": 0.42917728424072266
+      },
+      {
+        "id": "https://openalex.org/keywords/markov-model",
+        "display_name": "Markov model",
+        "score": 0.42366036772727966
+      },
+      {
+        "id": "https://openalex.org/keywords/estimation",
+        "display_name": "Estimation",
+        "score": 0.41543930768966675
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.3480907082557678
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.3396984040737152
+      },
+      {
+        "id": "https://openalex.org/keywords/applied-mathematics",
+        "display_name": "Applied mathematics",
+        "score": 0.3395099937915802
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.32506343722343445
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.1470496654510498
+      },
+      {
+        "id": "https://openalex.org/keywords/statistics",
+        "display_name": "Statistics",
+        "score": 0.11890217661857605
+      },
+      {
+        "id": "https://openalex.org/keywords/combinatorics",
+        "display_name": "Combinatorics",
+        "score": 0.06900352239608765
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C122770356",
+        "wikidata": "https://www.wikidata.org/wiki/Q1656753",
+        "display_name": "Identifiability",
+        "level": 2,
+        "score": 0.9888136386871338
+      },
+      {
+        "id": "https://openalex.org/C98763669",
+        "wikidata": "https://www.wikidata.org/wiki/Q176645",
+        "display_name": "Markov chain",
+        "level": 2,
+        "score": 0.6393347978591919
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6361784934997559
+      },
+      {
+        "id": "https://openalex.org/C2776359362",
+        "wikidata": "https://www.wikidata.org/wiki/Q2145286",
+        "display_name": "Representation (politics)",
+        "level": 3,
+        "score": 0.567767858505249
+      },
+      {
+        "id": "https://openalex.org/C159886148",
+        "wikidata": "https://www.wikidata.org/wiki/Q176645",
+        "display_name": "Markov process",
+        "level": 2,
+        "score": 0.5495796799659729
+      },
+      {
+        "id": "https://openalex.org/C126255220",
+        "wikidata": "https://www.wikidata.org/wiki/Q141495",
+        "display_name": "Mathematical optimization",
+        "level": 1,
+        "score": 0.5338360667228699
+      },
+      {
+        "id": "https://openalex.org/C66882249",
+        "wikidata": "https://www.wikidata.org/wiki/Q169336",
+        "display_name": "Homogeneous",
+        "level": 2,
+        "score": 0.5257989764213562
+      },
+      {
+        "id": "https://openalex.org/C167928553",
+        "wikidata": "https://www.wikidata.org/wiki/Q1376021",
+        "display_name": "Estimation theory",
+        "level": 2,
+        "score": 0.4723295569419861
+      },
+      {
+        "id": "https://openalex.org/C182306322",
+        "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+        "display_name": "Order (exchange)",
+        "level": 2,
+        "score": 0.47218647599220276
+      },
+      {
+        "id": "https://openalex.org/C13355873",
+        "wikidata": "https://www.wikidata.org/wiki/Q2920850",
+        "display_name": "Connection (principal bundle)",
+        "level": 2,
+        "score": 0.42917728424072266
+      },
+      {
+        "id": "https://openalex.org/C163836022",
+        "wikidata": "https://www.wikidata.org/wiki/Q6771326",
+        "display_name": "Markov model",
+        "level": 3,
+        "score": 0.42366036772727966
+      },
+      {
+        "id": "https://openalex.org/C96250715",
+        "wikidata": "https://www.wikidata.org/wiki/Q965330",
+        "display_name": "Estimation",
+        "level": 2,
+        "score": 0.41543930768966675
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.3480907082557678
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.3396984040737152
+      },
+      {
+        "id": "https://openalex.org/C28826006",
+        "wikidata": "https://www.wikidata.org/wiki/Q33521",
+        "display_name": "Applied mathematics",
+        "level": 1,
+        "score": 0.3395099937915802
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.32506343722343445
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.1470496654510498
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.11890217661857605
+      },
+      {
+        "id": "https://openalex.org/C114614502",
+        "wikidata": "https://www.wikidata.org/wiki/Q76592",
+        "display_name": "Combinatorics",
+        "level": 1,
+        "score": 0.06900352239608765
+      },
+      {
+        "id": "https://openalex.org/C187736073",
+        "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+        "display_name": "Management",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C10138342",
+        "wikidata": "https://www.wikidata.org/wiki/Q43015",
+        "display_name": "Finance",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/tsmc.2023.3328570",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tsmc.2023.3328570",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210209078",
+          "display_name": "IEEE Transactions on Systems Man and Cybernetics Systems",
+          "issn_l": "2168-2216",
+          "issn": [
+            "2168-2216",
+            "2168-2232"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1742339193",
+        "display_name": null,
+        "funder_award_id": "W911NF-20-1-0132",
+        "funder_id": "https://openalex.org/F4320338281",
+        "funder_display_name": "Army Research Office"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320338281",
+        "display_name": "Army Research Office",
+        "ror": "https://ror.org/05epdh915"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 37,
+    "referenced_works": [
+      "https://openalex.org/W6634951452",
+      "https://openalex.org/W2097264805",
+      "https://openalex.org/W2308728076",
+      "https://openalex.org/W2109251929",
+      "https://openalex.org/W6781763566",
+      "https://openalex.org/W1976657637",
+      "https://openalex.org/W2061820396",
+      "https://openalex.org/W2055104126",
+      "https://openalex.org/W4241569833",
+      "https://openalex.org/W2148108980",
+      "https://openalex.org/W6730845448",
+      "https://openalex.org/W2001285096",
+      "https://openalex.org/W3153160161",
+      "https://openalex.org/W4315472040",
+      "https://openalex.org/W2118820208",
+      "https://openalex.org/W2171322701",
+      "https://openalex.org/W2169397725",
+      "https://openalex.org/W2323086495",
+      "https://openalex.org/W2146137840",
+      "https://openalex.org/W3033213567",
+      "https://openalex.org/W3158728960",
+      "https://openalex.org/W6632673551",
+      "https://openalex.org/W7057400389",
+      "https://openalex.org/W4205549659",
+      "https://openalex.org/W2605489464",
+      "https://openalex.org/W4226070870",
+      "https://openalex.org/W3046013311",
+      "https://openalex.org/W2078011332",
+      "https://openalex.org/W3044907503",
+      "https://openalex.org/W4312340612",
+      "https://openalex.org/W2476917595",
+      "https://openalex.org/W1513765022",
+      "https://openalex.org/W2941072788",
+      "https://openalex.org/W3159527824",
+      "https://openalex.org/W3048538976",
+      "https://openalex.org/W1544705235",
+      "https://openalex.org/W1586505959"
+    ],
+    "related_works": [
+      "https://openalex.org/W1974129636",
+      "https://openalex.org/W2552635486",
+      "https://openalex.org/W1598584175",
+      "https://openalex.org/W3006948849",
+      "https://openalex.org/W3214883977",
+      "https://openalex.org/W1998523300",
+      "https://openalex.org/W2173736524",
+      "https://openalex.org/W1972488940",
+      "https://openalex.org/W2130590832",
+      "https://openalex.org/W1998999699"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        67,
+        129
+      ],
+      "influence": [
+        1
+      ],
+      "model": [
+        2,
+        9
+      ],
+      "(IM)": [
+        3
+      ],
+      "is": [
+        4,
+        109
+      ],
+      "a": [
+        5,
+        16,
+        112,
+        117
+      ],
+      "reduced-order": [
+        6,
+        24,
+        45,
+        135
+      ],
+      "stochastic": [
+        7
+      ],
+      "network": [
+        8,
+        17,
+        62
+      ],
+      "that": [
+        10,
+        115
+      ],
+      "captures": [
+        11
+      ],
+      "the": [
+        12,
+        27,
+        38,
+        47,
+        57,
+        72,
+        93,
+        103,
+        121,
+        127,
+        140
+      ],
+      "spatiotemporal": [
+        13
+      ],
+      "dynamics": [
+        14
+      ],
+      "in": [
+        15,
+        71
+      ],
+      "of": [
+        18,
+        26,
+        40,
+        51,
+        60,
+        126,
+        139
+      ],
+      "interactive": [
+        19
+      ],
+      "Markov": [
+        20
+      ],
+      "chains.": [
+        21
+      ],
+      "Identifiability": [
+        22
+      ],
+      "and": [
+        23,
+        49,
+        63,
+        79,
+        105,
+        123,
+        142
+      ],
+      "estimation": [
+        25,
+        50,
+        84,
+        137
+      ],
+      "IM": [
+        28,
+        35,
+        41,
+        52,
+        83
+      ],
+      "from": [
+        29
+      ],
+      "observation": [
+        30
+      ],
+      "data": [
+        31
+      ],
+      "are": [
+        32,
+        53
+      ],
+      "crucial": [
+        33
+      ],
+      "for": [
+        34,
+        82,
+        101
+      ],
+      "applications.": [
+        36
+      ],
+      "Despite": [
+        37
+      ],
+      "tractability": [
+        39
+      ],
+      "analysis": [
+        42,
+        114,
+        131
+      ],
+      "with": [
+        43,
+        145
+      ],
+      "its": [
+        44
+      ],
+      "representation,": [
+        46
+      ],
+      "identifiability": [
+        48,
+        69,
+        94,
+        130
+      ],
+      "challenging": [
+        54
+      ],
+      "due": [
+        55
+      ],
+      "to": [
+        56,
+        76,
+        134
+      ],
+      "tight": [
+        58
+      ],
+      "coupling": [
+        59
+      ],
+      "both": [
+        61,
+        102
+      ],
+      "local": [
+        64
+      ],
+      "level": [
+        65
+      ],
+      "interactions.": [
+        66
+      ],
+      "limited": [
+        68
+      ],
+      "studies": [
+        70
+      ],
+      "literature": [
+        73
+      ],
+      "only": [
+        74
+      ],
+      "apply": [
+        75
+      ],
+      "homogeneous": [
+        77,
+        104,
+        141
+      ],
+      "IMs": [
+        78,
+        144
+      ],
+      "existing": [
+        80
+      ],
+      "methods": [
+        81
+      ],
+      "incur": [
+        85
+      ],
+      "high-computational": [
+        86
+      ],
+      "cost.": [
+        87
+      ],
+      "In": [
+        88
+      ],
+      "this": [
+        89
+      ],
+      "article,": [
+        90
+      ],
+      "we": [
+        91
+      ],
+      "solve": [
+        92
+      ],
+      "problem": [
+        95
+      ],
+      "by": [
+        96
+      ],
+      "providing": [
+        97
+      ],
+      "succinct": [
+        98
+      ],
+      "if-and-only-if": [
+        99
+      ],
+      "conditions": [
+        100
+      ],
+      "heterogeneous": [
+        106,
+        143
+      ],
+      "IMs.": [
+        107,
+        128
+      ],
+      "This": [
+        108
+      ],
+      "obtained": [
+        110
+      ],
+      "through": [
+        111
+      ],
+      "structural": [
+        113
+      ],
+      "establishes": [
+        116
+      ],
+      "novel": [
+        118
+      ],
+      "connection": [
+        119
+      ],
+      "between": [
+        120
+      ],
+      "high-order": [
+        122
+      ],
+      "low-order": [
+        124
+      ],
+      "representations": [
+        125
+      ],
+      "further": [
+        132
+      ],
+      "leads": [
+        133
+      ],
+      "parameter": [
+        136
+      ],
+      "algorithms": [
+        138
+      ],
+      "reduced": [
+        146
+      ],
+      "computation.": [
+        147
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2025-11-20T13:07:32Z",
+      "timestamp": 1763644052072,
+      "version": "3.37.3"
+    },
+    "reference-count": 34,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2024-03-01T00:00:00Z",
+          "timestamp": 1709251200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2024-03-01T00:00:00Z",
+          "timestamp": 1709251200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2024-03-01T00:00:00Z",
+          "timestamp": 1709251200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000183",
+        "name": "Army Research Office",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W911NF-20-1-0132"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF-20-1-0132"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000183",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Syst. Man Cybern, Syst."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1109/tsmc.2023.3328570",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2023-11-21T19:50:08Z",
+      "timestamp": 1700596208000
+    },
+    "page": "1451-1463",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Structural Analysis of the Stochastic Influence Model for Identifiability and Reduced-Order Estimation"
+    ],
+    "prefix": "10.1109",
+    "volume": "54",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9150-9424",
+        "authenticated-orcid": false,
+        "given": "Lu",
+        "family": "Zhao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering, University of Texas at Arlington, Arlington, TX, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7508-5833",
+        "authenticated-orcid": false,
+        "given": "Yan",
+        "family": "Wan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering, University of Texas at Arlington, Arlington, TX, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9378-7935",
+        "authenticated-orcid": false,
+        "given": "Chenyuan",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Automotive and Traffic Engineering, Jiangsu University, Zhenjiang, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4074-1615",
+        "authenticated-orcid": false,
+        "given": "Frank L.",
+        "family": "Lewis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UTA Research Institute, University of Texas at Arlington, Fort Worth, TX, USA"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "article-title": "The influence model: A tractable representation for the dynamics of networked Markov chains",
+        "year": "2001",
+        "author": "Asavathiratham",
+        "key": "ref1"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/37.969135"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCNC.2016.7440712"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/15501320701260063"
+      },
+      {
+        "article-title": "Reliability analysis of power grids and its interdependent infrastructures: An interaction graph-based approach",
+        "year": "2020",
+        "author": "Nakarmi",
+        "key": "ref5"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISGT.2013.6497799"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/956750.956769"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physa.2006.11.046"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4614-6309-2_9"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/iswc.2003.1241414"
+      },
+      {
+        "key": "ref11",
+        "first-page": "1",
+        "article-title": "Learning human interactions with the influence model",
+        "volume-title": "Proc. NIPS*2001 Conf.",
+        "author": "Basu"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0217979214502129"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0129183121501035"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cdc51059.2022.9993134"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNET.2008.925623"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/INFCOM.2003.1209209"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00607-011-0155-y"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/6.2011-6514"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2514/6.2010-8150"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSMC.2019.2946856"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LCSYS.2020.3046380"
+      },
+      {
+        "article-title": "Aspects of inference for the influence model and related graphical models",
+        "year": "2004",
+        "author": "Jammalamadaka",
+        "key": "ref22"
+      },
+      {
+        "article-title": "Influence modeling of complex stochastic processes",
+        "year": "2006",
+        "author": "Dong",
+        "key": "ref23"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2021.2023550"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSMC.2017.2690827"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jeconom.2021.10.011"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23919/ACC45564.2020.9147348"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSMC.2014.2359857"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSMC.2020.3004848"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNSE.2022.3212124"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/1-84628-168-7"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1912329"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCYB.2019.2908430"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.automatica.2021.109664"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6221021/10438110/10324370.pdf?arnumber=10324370",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          14
+        ]
+      ],
+      "date-time": "2024-03-14T00:30:08Z",
+      "timestamp": 1710376208000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10324370/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "references-count": 34,
+    "journal-issue": {
+      "issue": "3"
+    },
+    "URL": "https://doi.org/10.1109/tsmc.2023.3328570",
+    "relation": {},
+    "ISSN": [
+      "2168-2216",
+      "2168-2232"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2168-2216"
+      },
+      {
+        "type": "electronic",
+        "value": "2168-2232"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    }
+  }
+}

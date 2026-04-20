@@ -1,0 +1,1733 @@
+{
+  "doi": "10.1109/tnnls.2021.3114612",
+  "openalex": {
+    "id": "https://openalex.org/W3203504876",
+    "doi": "https://doi.org/10.1109/tnnls.2021.3114612",
+    "title": "Inverse Reinforcement Learning for Adversarial Apprentice Games",
+    "display_name": "Inverse Reinforcement Learning for Adversarial Apprentice Games",
+    "publication_year": 2021,
+    "publication_date": "2021-10-10",
+    "ids": {
+      "openalex": "https://openalex.org/W3203504876",
+      "doi": "https://doi.org/10.1109/tnnls.2021.3114612",
+      "mag": "3203504876",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/34623278"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tnnls.2021.3114612",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tnnls.2021.3114612",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210175523",
+        "display_name": "IEEE Transactions on Neural Networks and Learning Systems",
+        "issn_l": "2162-237X",
+        "issn": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Neural Networks and Learning Systems",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5001862814",
+          "display_name": "Bosen Lian",
+          "orcid": "https://orcid.org/0000-0002-3275-9551"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Bosen Lian",
+        "raw_affiliation_strings": [
+          "University of Texas at Arlington Research Institute, Fort Worth, TX, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Texas at Arlington Research Institute, Fort Worth, TX, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102973745",
+          "display_name": "Wenqian Xue",
+          "orcid": "https://orcid.org/0000-0002-3670-3854"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4391767858",
+            "display_name": "State Key Laboratory of Synthetical Automation for Process Industries",
+            "ror": "https://ror.org/0380ng272",
+            "country_code": null,
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4391767858",
+              "https://openalex.org/I9224756"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I9224756",
+            "display_name": "Northeastern University",
+            "ror": "https://ror.org/03awzbc87",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I9224756"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wenqian Xue",
+        "raw_affiliation_strings": [
+          "State Key Laboratory of Synthetical Automation for Process Industries and the International Joint Research Laboratory of Integrated Automation, Northeastern University, Shenyang, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "State Key Laboratory of Synthetical Automation for Process Industries and the International Joint Research Laboratory of Integrated Automation, Northeastern University, Shenyang, China",
+            "institution_ids": [
+              "https://openalex.org/I4391767858",
+              "https://openalex.org/I9224756"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5016137188",
+          "display_name": "Frank L. Lewis",
+          "orcid": "https://orcid.org/0000-0003-4074-1615"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Frank L. Lewis",
+        "raw_affiliation_strings": [
+          "University of Texas at Arlington Research Institute, Fort Worth, TX, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Texas at Arlington Research Institute, Fort Worth, TX, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5042520521",
+          "display_name": "Tianyou Chai",
+          "orcid": "https://orcid.org/0000-0002-4623-1483"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4391767858",
+            "display_name": "State Key Laboratory of Synthetical Automation for Process Industries",
+            "ror": "https://ror.org/0380ng272",
+            "country_code": null,
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4391767858",
+              "https://openalex.org/I9224756"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I9224756",
+            "display_name": "Northeastern University",
+            "ror": "https://ror.org/03awzbc87",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I9224756"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tianyou Chai",
+        "raw_affiliation_strings": [
+          "State Key Laboratory of Synthetical Automation for Process Industries and the International Joint Research Laboratory of Integrated Automation, Northeastern University, Shenyang, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "State Key Laboratory of Synthetical Automation for Process Industries and the International Joint Research Laboratory of Integrated Automation, Northeastern University, Shenyang, China",
+            "institution_ids": [
+              "https://openalex.org/I4391767858",
+              "https://openalex.org/I9224756"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 5.76331631,
+    "has_fulltext": false,
+    "cited_by_count": 49,
+    "citation_normalized_percentile": {
+      "value": 0.96448306,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "34",
+      "issue": "8",
+      "first_page": "4596",
+      "last_page": "4609"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12794",
+      "display_name": "Adaptive Dynamic Programming Control",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12794",
+        "display_name": "Adaptive Dynamic Programming Control",
+        "score": 0.9997000098228455,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10462",
+        "display_name": "Reinforcement Learning in Robotics",
+        "score": 0.9958000183105469,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10791",
+        "display_name": "Advanced Control Systems Optimization",
+        "score": 0.9628000259399414,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7112671732902527
+      },
+      {
+        "id": "https://openalex.org/keywords/reinforcement-learning",
+        "display_name": "Reinforcement learning",
+        "score": 0.6584985256195068
+      },
+      {
+        "id": "https://openalex.org/keywords/inverse",
+        "display_name": "Inverse",
+        "score": 0.5952572822570801
+      },
+      {
+        "id": "https://openalex.org/keywords/adversarial-system",
+        "display_name": "Adversarial system",
+        "score": 0.575583815574646
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.5560916662216187
+      },
+      {
+        "id": "https://openalex.org/keywords/process",
+        "display_name": "Process (computing)",
+        "score": 0.4853729009628296
+      },
+      {
+        "id": "https://openalex.org/keywords/trajectory",
+        "display_name": "Trajectory",
+        "score": 0.46383437514305115
+      },
+      {
+        "id": "https://openalex.org/keywords/function",
+        "display_name": "Function (biology)",
+        "score": 0.4596642255783081
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematical-optimization",
+        "display_name": "Mathematical optimization",
+        "score": 0.44686949253082275
+      },
+      {
+        "id": "https://openalex.org/keywords/apprenticeship",
+        "display_name": "Apprenticeship",
+        "score": 0.4203207492828369
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-neural-network",
+        "display_name": "Artificial neural network",
+        "score": 0.4197496771812439
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.4179782271385193
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.32555678486824036
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.19023138284683228
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7112671732902527
+      },
+      {
+        "id": "https://openalex.org/C97541855",
+        "wikidata": "https://www.wikidata.org/wiki/Q830687",
+        "display_name": "Reinforcement learning",
+        "level": 2,
+        "score": 0.6584985256195068
+      },
+      {
+        "id": "https://openalex.org/C207467116",
+        "wikidata": "https://www.wikidata.org/wiki/Q4385666",
+        "display_name": "Inverse",
+        "level": 2,
+        "score": 0.5952572822570801
+      },
+      {
+        "id": "https://openalex.org/C37736160",
+        "wikidata": "https://www.wikidata.org/wiki/Q1801315",
+        "display_name": "Adversarial system",
+        "level": 2,
+        "score": 0.575583815574646
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5560916662216187
+      },
+      {
+        "id": "https://openalex.org/C98045186",
+        "wikidata": "https://www.wikidata.org/wiki/Q205663",
+        "display_name": "Process (computing)",
+        "level": 2,
+        "score": 0.4853729009628296
+      },
+      {
+        "id": "https://openalex.org/C13662910",
+        "wikidata": "https://www.wikidata.org/wiki/Q193139",
+        "display_name": "Trajectory",
+        "level": 2,
+        "score": 0.46383437514305115
+      },
+      {
+        "id": "https://openalex.org/C14036430",
+        "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+        "display_name": "Function (biology)",
+        "level": 2,
+        "score": 0.4596642255783081
+      },
+      {
+        "id": "https://openalex.org/C126255220",
+        "wikidata": "https://www.wikidata.org/wiki/Q141495",
+        "display_name": "Mathematical optimization",
+        "level": 1,
+        "score": 0.44686949253082275
+      },
+      {
+        "id": "https://openalex.org/C107806365",
+        "wikidata": "https://www.wikidata.org/wiki/Q253567",
+        "display_name": "Apprenticeship",
+        "level": 2,
+        "score": 0.4203207492828369
+      },
+      {
+        "id": "https://openalex.org/C50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "level": 2,
+        "score": 0.4197496771812439
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.4179782271385193
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.32555678486824036
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.19023138284683228
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C1276947",
+        "wikidata": "https://www.wikidata.org/wiki/Q333",
+        "display_name": "Astronomy",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C78458016",
+        "wikidata": "https://www.wikidata.org/wiki/Q840400",
+        "display_name": "Evolutionary biology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1109/tnnls.2021.3114612",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tnnls.2021.3114612",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210175523",
+          "display_name": "IEEE Transactions on Neural Networks and Learning Systems",
+          "issn_l": "2162-237X",
+          "issn": [
+            "2162-237X",
+            "2162-2388"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Neural Networks and Learning Systems",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:34623278",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/34623278",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE transactions on neural networks and learning systems",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1742339193",
+        "display_name": null,
+        "funder_award_id": "W911NF-20-1-0132",
+        "funder_id": "https://openalex.org/F4320338281",
+        "funder_display_name": "Army Research Office"
+      },
+      {
+        "id": "https://openalex.org/G4155764213",
+        "display_name": null,
+        "funder_award_id": "N00014-18-1-2221",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      },
+      {
+        "id": "https://openalex.org/F4320338281",
+        "display_name": "Army Research Office",
+        "ror": "https://ror.org/05epdh915"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 56,
+    "referenced_works": [
+      "https://openalex.org/W2026018281",
+      "https://openalex.org/W2096013396",
+      "https://openalex.org/W3138984732",
+      "https://openalex.org/W3037298378",
+      "https://openalex.org/W6631168379",
+      "https://openalex.org/W2134491302",
+      "https://openalex.org/W2484646121",
+      "https://openalex.org/W2734548765",
+      "https://openalex.org/W1603698551",
+      "https://openalex.org/W2027161089",
+      "https://openalex.org/W6718092244",
+      "https://openalex.org/W6638440308",
+      "https://openalex.org/W6632235069",
+      "https://openalex.org/W6751503080",
+      "https://openalex.org/W1999874108",
+      "https://openalex.org/W3009014967",
+      "https://openalex.org/W2794108217",
+      "https://openalex.org/W1614417283",
+      "https://openalex.org/W2019271926",
+      "https://openalex.org/W2954682350",
+      "https://openalex.org/W4252284432",
+      "https://openalex.org/W6802025844",
+      "https://openalex.org/W2963208223",
+      "https://openalex.org/W5108103",
+      "https://openalex.org/W6794270814",
+      "https://openalex.org/W6677555207",
+      "https://openalex.org/W2132468772",
+      "https://openalex.org/W6789361803",
+      "https://openalex.org/W6782915976",
+      "https://openalex.org/W2802441085",
+      "https://openalex.org/W2012451615",
+      "https://openalex.org/W1970916399",
+      "https://openalex.org/W3170519291",
+      "https://openalex.org/W4301018745",
+      "https://openalex.org/W3009702296",
+      "https://openalex.org/W6783469618",
+      "https://openalex.org/W1511887321",
+      "https://openalex.org/W2789386227",
+      "https://openalex.org/W6676728370",
+      "https://openalex.org/W6753207554",
+      "https://openalex.org/W2811409798",
+      "https://openalex.org/W2046888764",
+      "https://openalex.org/W3121683757",
+      "https://openalex.org/W3088597768",
+      "https://openalex.org/W2883057932",
+      "https://openalex.org/W3085531353",
+      "https://openalex.org/W1519783625",
+      "https://openalex.org/W2980903217",
+      "https://openalex.org/W2800901244",
+      "https://openalex.org/W2117675763",
+      "https://openalex.org/W2113023245",
+      "https://openalex.org/W3200276130",
+      "https://openalex.org/W1801976851",
+      "https://openalex.org/W1540685400",
+      "https://openalex.org/W2963277051",
+      "https://openalex.org/W3156476459"
+    ],
+    "related_works": [
+      "https://openalex.org/W2130264791",
+      "https://openalex.org/W2502115930",
+      "https://openalex.org/W2155887593",
+      "https://openalex.org/W4235622043",
+      "https://openalex.org/W2102428166",
+      "https://openalex.org/W1600547024",
+      "https://openalex.org/W3125491562",
+      "https://openalex.org/W2239395319",
+      "https://openalex.org/W2573907782",
+      "https://openalex.org/W2980420562"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0,
+        69
+      ],
+      "article": [
+        1
+      ],
+      "proposes": [
+        2
+      ],
+      "new": [
+        3,
+        86
+      ],
+      "inverse": [
+        4,
+        47,
+        66,
+        76,
+        79,
+        89,
+        177
+      ],
+      "reinforcement": [
+        5
+      ],
+      "learning": [
+        6,
+        54,
+        59,
+        63,
+        153
+      ],
+      "(RL)": [
+        7
+      ],
+      "algorithms": [
+        8,
+        126
+      ],
+      "to": [
+        9,
+        92,
+        145,
+        191
+      ],
+      "solve": [
+        10
+      ],
+      "our": [
+        11
+      ],
+      "defined": [
+        12
+      ],
+      "Adversarial": [
+        13,
+        135
+      ],
+      "Apprentice": [
+        14,
+        136
+      ],
+      "Games": [
+        15
+      ],
+      "for": [
+        16,
+        161,
+        173
+      ],
+      "nonlinear": [
+        17
+      ],
+      "learner": [
+        18,
+        37,
+        120,
+        139,
+        175,
+        189
+      ],
+      "and": [
+        19,
+        60,
+        78,
+        109,
+        140,
+        167,
+        198,
+        203,
+        208
+      ],
+      "expert": [
+        20,
+        34,
+        96,
+        108,
+        142
+      ],
+      "systems.": [
+        21
+      ],
+      "The": [
+        22,
+        99
+      ],
+      "games": [
+        23
+      ],
+      "are": [
+        24,
+        127,
+        143,
+        196
+      ],
+      "solved": [
+        25,
+        169
+      ],
+      "by": [
+        26,
+        35
+      ],
+      "extracting": [
+        27
+      ],
+      "the": [
+        28,
+        73,
+        94,
+        107,
+        119,
+        122,
+        138,
+        141,
+        152,
+        174,
+        184,
+        188,
+        193,
+        206,
+        209,
+        212
+      ],
+      "unknown": [
+        29,
+        95
+      ],
+      "cost": [
+        30,
+        97,
+        185
+      ],
+      "function": [
+        31
+      ],
+      "of": [
+        32,
+        52,
+        106,
+        117,
+        163,
+        211
+      ],
+      "an": [
+        33,
+        56
+      ],
+      "a": [
+        36,
+        45,
+        61,
+        85,
+        171
+      ],
+      "using": [
+        38,
+        130
+      ],
+      "demonstrated": [
+        39
+      ],
+      "expert's": [
+        40,
+        194
+      ],
+      "behaviors.": [
+        41
+      ],
+      "We": [
+        42
+      ],
+      "first": [
+        43
+      ],
+      "develop": [
+        44
+      ],
+      "model-based": [
+        46
+      ],
+      "RL": [
+        48,
+        77,
+        90
+      ],
+      "algorithm": [
+        49,
+        70,
+        91,
+        101
+      ],
+      "that": [
+        50,
+        183,
+        187
+      ],
+      "consists": [
+        51
+      ],
+      "two": [
+        53,
+        125,
+        165
+      ],
+      "stages:": [
+        55
+      ],
+      "optimal": [
+        57,
+        67,
+        80
+      ],
+      "control": [
+        58
+      ],
+      "second": [
+        62
+      ],
+      "based": [
+        64
+      ],
+      "on": [
+        65
+      ],
+      "control.": [
+        68,
+        81
+      ],
+      "also": [
+        71
+      ],
+      "clarifies": [
+        72
+      ],
+      "relationships": [
+        74
+      ],
+      "between": [
+        75
+      ],
+      "Then,": [
+        82
+      ],
+      "we": [
+        83
+      ],
+      "propose": [
+        84
+      ],
+      "model-free": [
+        87,
+        100
+      ],
+      "integral": [
+        88
+      ],
+      "reconstruct": [
+        93
+      ],
+      "function.": [
+        98
+      ],
+      "only": [
+        102
+      ],
+      "needs": [
+        103
+      ],
+      "online": [
+        104
+      ],
+      "demonstration": [
+        105
+      ],
+      "learner's": [
+        110
+      ],
+      "trajectory": [
+        111
+      ],
+      "data": [
+        112
+      ],
+      "without": [
+        113
+      ],
+      "knowing": [
+        114
+      ],
+      "system": [
+        115
+      ],
+      "dynamics": [
+        116
+      ],
+      "either": [
+        118
+      ],
+      "or": [
+        121
+      ],
+      "expert.": [
+        123
+      ],
+      "These": [
+        124
+      ],
+      "further": [
+        128
+      ],
+      "implemented": [
+        129
+      ],
+      "neural": [
+        131
+      ],
+      "networks": [
+        132
+      ],
+      "(NNs).": [
+        133
+      ],
+      "In": [
+        134
+      ],
+      "Games,": [
+        137
+      ],
+      "allowed": [
+        144
+      ],
+      "suffer": [
+        146
+      ],
+      "from": [
+        147
+      ],
+      "different": [
+        148
+      ],
+      "adversarial": [
+        149
+      ],
+      "attacks": [
+        150
+      ],
+      "in": [
+        151,
+        176
+      ],
+      "process.": [
+        154
+      ],
+      "A": [
+        155
+      ],
+      "two-player": [
+        156
+      ],
+      "zero-sum": [
+        157
+      ],
+      "game": [
+        158
+      ],
+      "is": [
+        159,
+        168,
+        181
+      ],
+      "formulated": [
+        160
+      ],
+      "each": [
+        162
+      ],
+      "these": [
+        164
+      ],
+      "agents": [
+        166
+      ],
+      "as": [
+        170
+      ],
+      "subproblem": [
+        172
+      ],
+      "RL.": [
+        178
+      ],
+      "Furthermore,": [
+        179
+      ],
+      "it": [
+        180
+      ],
+      "shown": [
+        182
+      ],
+      "functions": [
+        186
+      ],
+      "learns": [
+        190
+      ],
+      "mimic": [
+        192
+      ],
+      "behavior": [
+        195
+      ],
+      "stabilizing": [
+        197
+      ],
+      "not": [
+        199
+      ],
+      "unique.": [
+        200
+      ],
+      "Finally,": [
+        201
+      ],
+      "simulations": [
+        202
+      ],
+      "comparisons": [
+        204
+      ],
+      "show": [
+        205
+      ],
+      "effectiveness": [
+        207
+      ],
+      "superiority": [
+        210
+      ],
+      "proposed": [
+        213
+      ],
+      "algorithms.": [
+        214
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          24
+        ]
+      ],
+      "date-time": "2025-12-24T12:39:30Z",
+      "timestamp": 1766579970735,
+      "version": "3.37.3"
+    },
+    "reference-count": 45,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N00014-18-1-2221"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N00014-18-1-2221"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000183",
+        "name": "Army Research Office",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W911NF-20-1-0132"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF-20-1-0132"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000183",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Neural Netw. Learning Syst."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1109/tnnls.2021.3114612",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2021-10-10T22:30:46Z",
+      "timestamp": 1633905046000
+    },
+    "page": "4596-4609",
+    "source": "Crossref",
+    "is-referenced-by-count": 46,
+    "title": [
+      "Inverse Reinforcement Learning for Adversarial Apprentice Games"
+    ],
+    "prefix": "10.1109",
+    "volume": "34",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3275-9551",
+        "authenticated-orcid": false,
+        "given": "Bosen",
+        "family": "Lian",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Texas at Arlington Research Institute, Fort Worth, TX, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3670-3854",
+        "authenticated-orcid": false,
+        "given": "Wenqian",
+        "family": "Xue",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Synthetical Automation for Process Industries and the International Joint Research Laboratory of Integrated Automation, Northeastern University, Shenyang, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4074-1615",
+        "authenticated-orcid": false,
+        "given": "Frank L.",
+        "family": "Lewis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Texas at Arlington Research Institute, Fort Worth, TX, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4623-1483",
+        "authenticated-orcid": false,
+        "given": "Tianyou",
+        "family": "Chai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Synthetical Automation for Process Industries and the International Joint Research Laboratory of Integrated Automation, Northeastern University, Shenyang, China"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TAC.2011.2173412"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CDC.2010.5716974"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.artint.2021.103500"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.arcontrol.2020.06.001"
+      },
+      {
+        "key": "ref15",
+        "first-page": "322",
+        "article-title": "Friend-or-foe Q-learning in general-sum games",
+        "volume": "1",
+        "author": "littman",
+        "year": "2001",
+        "journal-title": "Proc 8th Int Conf Mach Learn"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0278364910371999"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9781118122631"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12555-015-0483-3"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/b14779"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CDC.2013.6760325"
+      },
+      {
+        "key": "ref11",
+        "first-page": "4565",
+        "article-title": "Generative adversarial imitation learning",
+        "author": "ho",
+        "year": "2016",
+        "journal-title": "Proc Conf Neural Inf Process Syst"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Continuous inverse optimal control with locally optimal examples",
+        "author": "levine",
+        "year": "2012",
+        "journal-title": "arXiv 1206 4617"
+      },
+      {
+        "key": "ref10",
+        "first-page": "12",
+        "article-title": "Robot learning from demonstration",
+        "volume": "97",
+        "author": "atkeson",
+        "year": "1997",
+        "journal-title": "Proc 14th Int Conf Mach Learn"
+      },
+      {
+        "key": "ref32",
+        "first-page": "767",
+        "article-title": "Trajectory tracking on complex networks via inverse optimal pinning control",
+        "volume": "64",
+        "author": "vega",
+        "year": "2019",
+        "journal-title": "IEEE Trans Autom Control"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1015330.1015430"
+      },
+      {
+        "key": "ref1",
+        "first-page": "663",
+        "article-title": "Algorithms for inverse reinforcement learning",
+        "volume": "1",
+        "author": "ng",
+        "year": "2000",
+        "journal-title": "Proc 17th Int Conf Mach Learn"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCYB.2020.2970969"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CDC.2018.8619204"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2015.2441749"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10846-009-9331-0"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCNS.2019.2927201"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511811654"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Inverse reinforcement Q-learning through expert imitation for discrete-time systems",
+        "author": "xue",
+        "year": "2021",
+        "journal-title": "IEEE Trans Neural Netw Learn Syst"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v32i1.11755"
+      },
+      {
+        "article-title": "Constrained nonlinear optimal control: A converse HJB approach",
+        "year": "1996",
+        "author": "nevisti?",
+        "key": "ref45"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Inverse reinforcement learning in tracking control based on inverse optimal control",
+        "author": "xue",
+        "year": "2021",
+        "journal-title": "IEEE Trans Cybern"
+      },
+      {
+        "key": "ref25",
+        "article-title": "Robust inverse Q-learning for continuous-time linear systems in adversarial environments",
+        "author": "lian",
+        "year": "2021",
+        "journal-title": "IEEE Trans Cybern"
+      },
+      {
+        "key": "ref20",
+        "first-page": "19",
+        "article-title": "Nonlinear inverse reinforcement learning with Gaussian processes",
+        "volume": "24",
+        "author": "levine",
+        "year": "2011",
+        "journal-title": "Proc 25th Annu Conf Neural Inf Process Syst (NeurIPS)"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNN.2008.2000204"
+      },
+      {
+        "article-title": "Beyond regression&#x2019;: New tools for prediction and analysis in the behavioral sciences",
+        "year": "1974",
+        "author": "werbos",
+        "key": "ref41"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Scalable inverse reinforcement learning through multifidelity Bayesian optimization",
+        "author": "imani",
+        "year": "2021",
+        "journal-title": "IEEE Trans Neural Netw Learn Syst"
+      },
+      {
+        "key": "ref44",
+        "article-title": "Off-policy reinforcement learning for tracking in continuous-time systems on two time scales",
+        "author": "xue",
+        "year": "2020",
+        "journal-title": "IEEE Trans Neural Netw Learn Syst"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCBB.2018.2830357"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCYB.2014.2319577"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.3653115"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/rnc.5626"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/j.ctvcm4hws"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23919/ACC45564.2020.9147344"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Disturbance-aware neuro-optimal system control using generative adversarial control networks",
+        "author": "chu",
+        "year": "2020",
+        "journal-title": "IEEE Trans Neural Netw Learn Syst"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-1-55860-247-2.50055-3"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCIAIG.2017.2679115"
+      },
+      {
+        "key": "ref3",
+        "first-page": "1449",
+        "article-title": "A game-theoretic approach to apprenticeship learning",
+        "author": "syed",
+        "year": "2008",
+        "journal-title": "Proc 22nd Annu Conf Neural Inf Process Syst (NeurIPS)"
+      },
+      {
+        "key": "ref6",
+        "article-title": "Multi-agent generative adversarial imitation learning",
+        "author": "song",
+        "year": "2018",
+        "journal-title": "arXiv 1807 09936"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1613/jair.1.11541"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CDC.2011.6160778"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Neural Networks and Learning Systems"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/5962385/10208115/09565156.pdf?arnumber=9565156",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2023-08-21T17:57:28Z",
+      "timestamp": 1692640648000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9565156/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "references-count": 45,
+    "journal-issue": {
+      "issue": "8"
+    },
+    "URL": "https://doi.org/10.1109/tnnls.2021.3114612",
+    "relation": {},
+    "ISSN": [
+      "2162-237X",
+      "2162-2388"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2162-237X"
+      },
+      {
+        "type": "electronic",
+        "value": "2162-2388"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1790 @@
+{
+  "doi": "10.1109/tit.2023.3307553",
+  "openalex": {
+    "id": "https://openalex.org/W4386113385",
+    "doi": "https://doi.org/10.1109/tit.2023.3307553",
+    "title": "Toward Designing Optimal Sensing Matrices for Generalized Linear Inverse Problems",
+    "display_name": "Toward Designing Optimal Sensing Matrices for Generalized Linear Inverse Problems",
+    "publication_year": 2023,
+    "publication_date": "2023-08-22",
+    "ids": {
+      "openalex": "https://openalex.org/W4386113385",
+      "doi": "https://doi.org/10.1109/tit.2023.3307553"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tit.2023.3307553",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tit.2023.3307553",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4502562",
+        "display_name": "IEEE Transactions on Information Theory",
+        "issn_l": "0018-9448",
+        "issn": [
+          "0018-9448",
+          "1557-9654"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Information Theory",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100687838",
+          "display_name": "Junjie Ma",
+          "orcid": "https://orcid.org/0000-0003-1263-5006"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210120485",
+            "display_name": "Academy of Mathematics and Systems Science",
+            "ror": "https://ror.org/02jkmyk67",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210120485"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I19820366",
+            "display_name": "Chinese Academy of Sciences",
+            "ror": "https://ror.org/034t30j35",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I19820366"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I78577930",
+            "display_name": "Columbia University",
+            "ror": "https://ror.org/00hj8s172",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78577930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Junjie Ma",
+        "raw_affiliation_strings": [
+          "Department of Statistics, Columbia University, New York City, NY, USA",
+          "Institute of Computational Mathematics and Scientific/Engineering Computing, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Computational Mathematics and Scientific/Engineering Computing, Academy of Mathematics and Systems Science, Chinese Academy of Sciences, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210120485"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Statistics, Columbia University, New York City, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I78577930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101558585",
+          "display_name": "Ji Xu",
+          "orcid": "https://orcid.org/0000-0002-2341-2089"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78577930",
+            "display_name": "Columbia University",
+            "ror": "https://ror.org/00hj8s172",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78577930"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ji Xu",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Columbia University, New York City, NY, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Columbia University, New York City, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I78577930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5017771205",
+          "display_name": "Arian Maleki",
+          "orcid": "https://orcid.org/0000-0002-5626-5206"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78577930",
+            "display_name": "Columbia University",
+            "ror": "https://ror.org/00hj8s172",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78577930"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Arian Maleki",
+        "raw_affiliation_strings": [
+          "Department of Statistics, Columbia University, New York City, NY, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Statistics, Columbia University, New York City, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I78577930"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.23584482,
+    "has_fulltext": false,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.79103775,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "70",
+      "issue": "1",
+      "first_page": "482",
+      "last_page": "508"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10792",
+      "display_name": "Matrix Theory and Algorithms",
+      "score": 0.9922000169754028,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10792",
+        "display_name": "Matrix Theory and Algorithms",
+        "score": 0.9922000169754028,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11205",
+        "display_name": "Numerical methods in inverse problems",
+        "score": 0.9822999835014343,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2610",
+          "display_name": "Mathematical Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13487",
+        "display_name": "Statistical and numerical algorithms",
+        "score": 0.9456999897956848,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2604",
+          "display_name": "Applied Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/inverse",
+        "display_name": "Inverse",
+        "score": 0.5308821201324463
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.41988512873649597
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.37714317440986633
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.2554337978363037
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C207467116",
+        "wikidata": "https://www.wikidata.org/wiki/Q4385666",
+        "display_name": "Inverse",
+        "level": 2,
+        "score": 0.5308821201324463
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.41988512873649597
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.37714317440986633
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.2554337978363037
+      },
+      {
+        "id": "https://openalex.org/C2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/tit.2023.3307553",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tit.2023.3307553",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4502562",
+          "display_name": "IEEE Transactions on Information Theory",
+          "issn_l": "0018-9448",
+          "issn": [
+            "0018-9448",
+            "1557-9654"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Information Theory",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G8140782327",
+        "display_name": null,
+        "funder_award_id": "XDPB15",
+        "funder_id": "https://openalex.org/F4320321133",
+        "funder_display_name": "Chinese Academy of Sciences"
+      },
+      {
+        "id": "https://openalex.org/G5775843194",
+        "display_name": null,
+        "funder_award_id": "12101592",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G1789288648",
+        "display_name": null,
+        "funder_award_id": "XDA27010102",
+        "funder_id": "https://openalex.org/F4320321133",
+        "funder_display_name": "Chinese Academy of Sciences"
+      },
+      {
+        "id": "https://openalex.org/G3817266978",
+        "display_name": null,
+        "funder_award_id": "N00014-23-1-2371",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320309327",
+        "display_name": "Google",
+        "ror": "https://ror.org/00njsd438"
+      },
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320321133",
+        "display_name": "Chinese Academy of Sciences",
+        "ror": "https://ror.org/034t30j35"
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 79,
+    "referenced_works": [
+      "https://openalex.org/W2078397124",
+      "https://openalex.org/W2060430274",
+      "https://openalex.org/W2166670884",
+      "https://openalex.org/W2142402521",
+      "https://openalex.org/W2970915144",
+      "https://openalex.org/W2749742930",
+      "https://openalex.org/W2048269188",
+      "https://openalex.org/W2121716262",
+      "https://openalex.org/W2142949395",
+      "https://openalex.org/W2542482481",
+      "https://openalex.org/W2964262188",
+      "https://openalex.org/W6712627111",
+      "https://openalex.org/W3083892503",
+      "https://openalex.org/W2962941403",
+      "https://openalex.org/W6728487739",
+      "https://openalex.org/W2761315682",
+      "https://openalex.org/W2963519307",
+      "https://openalex.org/W3048800059",
+      "https://openalex.org/W6640231202",
+      "https://openalex.org/W6681107968",
+      "https://openalex.org/W2963050343",
+      "https://openalex.org/W2963521429",
+      "https://openalex.org/W4248709896",
+      "https://openalex.org/W2964047892",
+      "https://openalex.org/W2082029531",
+      "https://openalex.org/W2808465306",
+      "https://openalex.org/W6774415256",
+      "https://openalex.org/W2883209791",
+      "https://openalex.org/W2610971674",
+      "https://openalex.org/W2123202508",
+      "https://openalex.org/W2918745211",
+      "https://openalex.org/W2596690402",
+      "https://openalex.org/W2963060833",
+      "https://openalex.org/W3088518194",
+      "https://openalex.org/W3080250514",
+      "https://openalex.org/W4292482091",
+      "https://openalex.org/W2041467025",
+      "https://openalex.org/W2962760202",
+      "https://openalex.org/W2980141162",
+      "https://openalex.org/W2977180743",
+      "https://openalex.org/W6740205083",
+      "https://openalex.org/W3080443566",
+      "https://openalex.org/W2962714615",
+      "https://openalex.org/W2964130120",
+      "https://openalex.org/W3120690350",
+      "https://openalex.org/W3012452232",
+      "https://openalex.org/W6779672848",
+      "https://openalex.org/W6771611559",
+      "https://openalex.org/W1986051087",
+      "https://openalex.org/W2050556604",
+      "https://openalex.org/W1777590223",
+      "https://openalex.org/W2005914283",
+      "https://openalex.org/W2111616148",
+      "https://openalex.org/W2963791198",
+      "https://openalex.org/W3087219089",
+      "https://openalex.org/W2980405707",
+      "https://openalex.org/W2164595191",
+      "https://openalex.org/W2950135859",
+      "https://openalex.org/W6804801488",
+      "https://openalex.org/W6796882390",
+      "https://openalex.org/W6784429329",
+      "https://openalex.org/W2165350939",
+      "https://openalex.org/W1976078268",
+      "https://openalex.org/W2295513759",
+      "https://openalex.org/W2157638198",
+      "https://openalex.org/W1460189015",
+      "https://openalex.org/W2020365037",
+      "https://openalex.org/W2736716203",
+      "https://openalex.org/W3101693249",
+      "https://openalex.org/W3009717121",
+      "https://openalex.org/W2032121576",
+      "https://openalex.org/W572526246",
+      "https://openalex.org/W2723734710",
+      "https://openalex.org/W3098848552",
+      "https://openalex.org/W3100762814",
+      "https://openalex.org/W3106237694",
+      "https://openalex.org/W1989008275",
+      "https://openalex.org/W3103929211",
+      "https://openalex.org/W3098725392"
+    ],
+    "related_works": [
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2051487156",
+      "https://openalex.org/W2073681303",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W2376932109",
+      "https://openalex.org/W2001405890",
+      "https://openalex.org/W2382290278",
+      "https://openalex.org/W2350741829",
+      "https://openalex.org/W2530322880"
+    ],
+    "abstract_inverted_index": {
+      "We": [
+        0,
+        167,
+        196
+      ],
+      "consider": [
+        1
+      ],
+      "an": [
+        2
+      ],
+      "inverse": [
+        3
+      ],
+      "problem": [
+        4
+      ],
+      "<inline-formula": [
+        5,
+        16,
+        30,
+        41,
+        52,
+        80,
+        95,
+        130,
+        138,
+        177,
+        212
+      ],
+      "xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"": [
+        6,
+        17,
+        31,
+        42,
+        53,
+        81,
+        96,
+        131,
+        139,
+        178,
+        213
+      ],
+      "xmlns:xlink=\"http://www.w3.org/1999/xlink\">": [
+        7,
+        18,
+        32,
+        43,
+        54,
+        82,
+        97,
+        132,
+        140,
+        179,
+        214
+      ],
+      "<tex-math": [
+        8,
+        19,
+        33,
+        44,
+        55,
+        83,
+        98,
+        133,
+        141,
+        180,
+        215
+      ],
+      "notation=\"LaTeX\">$\\boldsymbol": [
+        9,
+        20,
+        34,
+        56,
+        84,
+        99,
+        134,
+        142,
+        181
+      ],
+      "{y}=": [
+        10
+      ],
+      "f(\\boldsymbol": [
+        11
+      ],
+      "{Ax})$": [
+        12
+      ],
+      "</tex-math></inline-formula>": [
+        13,
+        24,
+        36,
+        46,
+        61,
+        86,
+        101,
+        136,
+        144,
+        183,
+        217
+      ],
+      ",": [
+        14,
+        87
+      ],
+      "where": [
+        15
+      ],
+      "{x}\\in": [
+        21
+      ],
+      "\\mathbb": [
+        22,
+        59
+      ],
+      "{R}^{n}$": [
+        23
+      ],
+      "is": [
+        25,
+        37,
+        47,
+        62,
+        115
+      ],
+      "the": [
+        26,
+        38,
+        63,
+        77,
+        119,
+        122,
+        126,
+        151,
+        156,
+        162,
+        174,
+        186,
+        192,
+        207
+      ],
+      "signal": [
+        27
+      ],
+      "of": [
+        28,
+        73,
+        121,
+        128,
+        153,
+        155,
+        171,
+        176,
+        188,
+        194
+      ],
+      "interest,": [
+        29
+      ],
+      "{A}$": [
+        35,
+        85,
+        100,
+        182
+      ],
+      "sensing": [
+        39,
+        78,
+        123,
+        244,
+        274
+      ],
+      "matrix,": [
+        40
+      ],
+      "notation=\"LaTeX\">$f$": [
+        45,
+        216
+      ],
+      "a": [
+        48,
+        108,
+        169,
+        200,
+        269
+      ],
+      "nonlinear": [
+        49
+      ],
+      "function": [
+        50
+      ],
+      "and": [
+        51,
+        88,
+        184,
+        256,
+        264,
+        267
+      ],
+      "{y}": [
+        57
+      ],
+      "\\in": [
+        58
+      ],
+      "{R}^{m}$": [
+        60
+      ],
+      "measurement": [
+        64
+      ],
+      "vector.": [
+        65
+      ],
+      "In": [
+        66,
+        146
+      ],
+      "many": [
+        67
+      ],
+      "applications,": [
+        68
+      ],
+      "we": [
+        69,
+        92,
+        149,
+        223
+      ],
+      "have": [
+        70
+      ],
+      "some": [
+        71
+      ],
+      "level": [
+        72
+      ],
+      "freedom": [
+        74
+      ],
+      "to": [
+        75,
+        102,
+        117,
+        226,
+        250
+      ],
+      "design": [
+        76
+      ],
+      "matrix": [
+        79,
+        124
+      ],
+      "in": [
+        89,
+        229,
+        241
+      ],
+      "such": [
+        90
+      ],
+      "circumstances": [
+        91
+      ],
+      "could": [
+        93
+      ],
+      "optimize": [
+        94
+      ],
+      "achieve": [
+        103
+      ],
+      "better": [
+        104,
+        237,
+        251
+      ],
+      "reconstruction": [
+        105
+      ],
+      "performance.": [
+        106,
+        252
+      ],
+      "As": [
+        107
+      ],
+      "first": [
+        109
+      ],
+      "step": [
+        110
+      ],
+      "towards": [
+        111,
+        271
+      ],
+      "optimal": [
+        112,
+        273
+      ],
+      "design,": [
+        113
+      ],
+      "it": [
+        114
+      ],
+      "important": [
+        116
+      ],
+      "understand": [
+        118
+      ],
+      "impact": [
+        120
+      ],
+      "on": [
+        125,
+        211,
+        220
+      ],
+      "difficulty": [
+        127
+      ],
+      "recovering": [
+        129
+      ],
+      "{x}$": [
+        135
+      ],
+      "from": [
+        137
+      ],
+      "{y}$": [
+        143
+      ],
+      ".": [
+        145,
+        218
+      ],
+      "this": [
+        147,
+        189
+      ],
+      "paper,": [
+        148
+      ],
+      "study": [
+        150
+      ],
+      "performance": [
+        152,
+        193,
+        209
+      ],
+      "one": [
+        154
+      ],
+      "most": [
+        157
+      ],
+      "successful": [
+        158
+      ],
+      "recovery": [
+        159,
+        208
+      ],
+      "methods,": [
+        160
+      ],
+      "i.e.,": [
+        161
+      ],
+      "expectation": [
+        163
+      ],
+      "propagation": [
+        164
+      ],
+      "(EP)": [
+        165
+      ],
+      "algorithm.": [
+        166
+      ],
+      "define": [
+        168
+      ],
+      "notion": [
+        170
+      ],
+      "spikiness": [
+        172
+      ],
+      "for": [
+        173,
+        191,
+        238
+      ],
+      "spectrum": [
+        175,
+        202
+      ],
+      "show": [
+        185,
+        197,
+        227
+      ],
+      "importance": [
+        187
+      ],
+      "measure": [
+        190
+      ],
+      "EP.": [
+        195
+      ],
+      "that": [
+        198,
+        261
+      ],
+      "whether": [
+        199
+      ],
+      "spikier": [
+        201,
+        234
+      ],
+      "can": [
+        203
+      ],
+      "hurt": [
+        204
+      ],
+      "or": [
+        205
+      ],
+      "help": [
+        206
+      ],
+      "depends": [
+        210
+      ],
+      "Based": [
+        219
+      ],
+      "our": [
+        221
+      ],
+      "framework,": [
+        222
+      ],
+      "are": [
+        224,
+        236
+      ],
+      "able": [
+        225
+      ],
+      "that,": [
+        228
+      ],
+      "phase-retrieval": [
+        230
+      ],
+      "problems,": [
+        231,
+        245
+      ],
+      "matrices": [
+        232
+      ],
+      "with": [
+        233
+      ],
+      "spectrums": [
+        235,
+        248
+      ],
+      "EP,": [
+        239
+      ],
+      "while": [
+        240
+      ],
+      "1-bit": [
+        242
+      ],
+      "compressed": [
+        243
+      ],
+      "less": [
+        246
+      ],
+      "spiky": [
+        247
+      ],
+      "lead": [
+        249
+      ],
+      "Our": [
+        253
+      ],
+      "results": [
+        254,
+        260
+      ],
+      "unify": [
+        255
+      ],
+      "substantially": [
+        257
+      ],
+      "generalize": [
+        258
+      ],
+      "existing": [
+        259
+      ],
+      "compare": [
+        262
+      ],
+      "Gaussian": [
+        263
+      ],
+      "orthogonal": [
+        265
+      ],
+      "matrices,": [
+        266
+      ],
+      "provide": [
+        268
+      ],
+      "platform": [
+        270
+      ],
+      "designing": [
+        272
+      ],
+      "systems.": [
+        275
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          23
+        ]
+      ],
+      "date-time": "2025-05-23T04:49:23Z",
+      "timestamp": 1747975763350,
+      "version": "3.37.3"
+    },
+    "reference-count": 71,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "12101592"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "12101592"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002367",
+        "name": "Key Research Program of the Chinese Academy of Sciences",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "XDPB15",
+          "XDA27010102"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "XDPB15",
+              "XDA27010102"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002367",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006785",
+        "name": "Google Faculty Research Award",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006785",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N00014-23-1-2371"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N00014-23-1-2371"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Inform. Theory"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/tit.2023.3307553",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          22
+        ]
+      ],
+      "date-time": "2023-08-22T17:38:44Z",
+      "timestamp": 1692725924000
+    },
+    "page": "482-508",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Toward Designing Optimal Sensing Matrices for Generalized Linear Inverse Problems"
+    ],
+    "prefix": "10.1109",
+    "volume": "70",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1263-5006",
+        "authenticated-orcid": false,
+        "given": "Junjie",
+        "family": "Ma",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Statistics, Columbia University, New York City, NY, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2341-2089",
+        "authenticated-orcid": false,
+        "given": "Ji",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Columbia University, New York City, NY, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5626-5206",
+        "authenticated-orcid": false,
+        "given": "Arian",
+        "family": "Maleki",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Statistics, Columbia University, New York City, NY, USA"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cpa.21432"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CISS.2008.4558487"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISIT.2011.6033942"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCOMM.2010.102910.090040"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SPAWC.2019.8815392"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2019.2932426"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1751-8113/41/32/324013"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2016.2517008"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2015.2399924"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cpa.21638"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2017.2756858"
+      },
+      {
+        "key": "ref12",
+        "first-page": "2622",
+        "article-title": "Reshaped Wirtinger flow for solving quadratic system of equations",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "author": "Zhang"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSP.2020.3022817"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2018.2800768"
+      },
+      {
+        "key": "ref15",
+        "first-page": "252",
+        "article-title": "Phase retrieval meets statistical learning theory: A flexible convex relaxation",
+        "volume-title": "Proc. Artif. Intell. Statist.",
+        "author": "Bahmani"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSP.2014.2386294"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2019.2893254"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2020.3016183"
+      },
+      {
+        "key": "ref19",
+        "first-page": "362",
+        "article-title": "Expectation propagation for approximate Bayesian inference",
+        "volume-title": "Proc. 17th Conf. Uncertainty Artif. Intell.",
+        "author": "Minka"
+      },
+      {
+        "key": "ref20",
+        "first-page": "2177",
+        "article-title": "Expectation consistent approximate inference",
+        "volume": "6",
+        "author": "Opper",
+        "year": "2005",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISIT.2016.7541287"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISIT.2017.8006946"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2017.2653119"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISIT.2017.8006797"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0909892106"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742-5468/ab43d2"
+      },
+      {
+        "key": "ref27",
+        "first-page": "1078",
+        "article-title": "The estimation error of general first order methods",
+        "volume-title": "Proc. Conf. Learn. Theory",
+        "author": "Celentano"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-93773-1"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2010.2094817"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2011.2174612"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1802705116"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2018.2816681"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1810420116"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2020.3025272"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/21-AOS2101"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/2200000092"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LSP.2015.2414951"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACSSC.2016.7869633"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2019.2947058"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISIT.2019.8849321"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Inference in deep networks in high dimensions",
+        "author": "Fletcher",
+        "year": "2017",
+        "journal-title": "arXiv:1706.06549"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISIT44484.2020.9173999"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/imaiai/iaz020"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10208-018-9395-y"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2021.3049172"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2020.2981910"
+      },
+      {
+        "key": "ref47",
+        "first-page": "11071",
+        "article-title": "Phase retrieval in high dimensions: Statistical and computational phase transitions",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "33",
+        "author": "Maillard"
+      },
+      {
+        "key": "ref48",
+        "first-page": "55",
+        "article-title": "Exact asymptotics for phase retrieval and compressed sensing with random generative priors",
+        "volume-title": "Mathematical and Scientific Machine Learning",
+        "author": "Aubin"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2010.2050803"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2012.2205894"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISIT.2015.7282605"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02063299"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2005.844072"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/17-AOS1651"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/19-AOS1906"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/imaiai/iaz017"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2011.2165823"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742-5468/ab4bbb"
+      },
+      {
+        "key": "ref59",
+        "first-page": "22120",
+        "article-title": "Estimation in rotationally invariant generalized linear models via approximate message passing",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Venkataramanan"
+      },
+      {
+        "key": "ref60",
+        "first-page": "29616",
+        "article-title": "PCA initialization for approximate message passing in rotationally invariant models",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "34",
+        "author": "Mondelli"
+      },
+      {
+        "key": "ref61",
+        "first-page": "397",
+        "article-title": "Approximate message passing with spectral initialization for generalized linear models",
+        "volume-title": "Proc. Int. Conf. Artif. Intell. Statist.",
+        "author": "Mondelli"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSP.2003.815393"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2016.2525824"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2011.2158905"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2011.2111010"
+      },
+      {
+        "volume-title": "Dimension Theory in Dynamical Systems: Contemporary Views and Applications",
+        "year": "2008",
+        "author": "Pesin",
+        "key": "ref66"
+      },
+      {
+        "volume-title": "Fractal Geometry: Mathematical Foundations and Applications",
+        "year": "2014",
+        "author": "Falconer",
+        "key": "ref67"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511802256"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1307/mmj/1029003816"
+      },
+      {
+        "key": "ref70",
+        "volume-title": "Information Theory and Reliable Communication",
+        "volume": "2",
+        "author": "Gallager",
+        "year": "1968"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2017.2717585"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Information Theory"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/18/10375320/10226297.pdf?arnumber=10226297",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          12
+        ]
+      ],
+      "date-time": "2024-01-12T01:02:31Z",
+      "timestamp": 1705021351000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10226297/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "references-count": 71,
+    "journal-issue": {
+      "issue": "1"
+    },
+    "URL": "https://doi.org/10.1109/tit.2023.3307553",
+    "relation": {},
+    "ISSN": [
+      "0018-9448",
+      "1557-9654"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0018-9448"
+      },
+      {
+        "type": "electronic",
+        "value": "1557-9654"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1878 @@
+{
+  "doi": "10.1109/tmm.2023.3338413",
+  "openalex": {
+    "id": "https://openalex.org/W4389252586",
+    "doi": "https://doi.org/10.1109/tmm.2023.3338413",
+    "title": "Natural &amp; Adversarial Bokeh Rendering via Circle-of-Confusion Predictive Network",
+    "display_name": "Natural &amp; Adversarial Bokeh Rendering via Circle-of-Confusion Predictive Network",
+    "publication_year": 2023,
+    "publication_date": "2023-12-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4389252586",
+      "doi": "https://doi.org/10.1109/tmm.2023.3338413"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tmm.2023.3338413",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tmm.2023.3338413",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S137030581",
+        "display_name": "IEEE Transactions on Multimedia",
+        "issn_l": "1520-9210",
+        "issn": [
+          "1520-9210",
+          "1941-0077"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Multimedia",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5036183844",
+          "display_name": "Yihao Huang",
+          "orcid": "https://orcid.org/0000-0002-5784-770X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I172675005",
+            "display_name": "Nanyang Technological University",
+            "ror": "https://ror.org/02e7b5302",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yihao Huang",
+        "raw_affiliation_strings": [
+          "Nanyang Technological University, Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanyang Technological University, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5034751153",
+          "display_name": "Felix Juefei-Xu",
+          "orcid": "https://orcid.org/0000-0002-0857-8611"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I57206974",
+            "display_name": "New York University",
+            "ror": "https://ror.org/0190ak572",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I57206974"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Felix Juefei-Xu",
+        "raw_affiliation_strings": [
+          "New York University, New York, NY, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "New York University, New York, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I57206974"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5026239594",
+          "display_name": "Qing Guo",
+          "orcid": "https://orcid.org/0000-0003-0974-9299"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I115228651",
+            "display_name": "Agency for Science, Technology and Research",
+            "ror": "https://ror.org/036wvzt09",
+            "country_code": "SG",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I115228651"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I3004594783",
+            "display_name": "Institute of High Performance Computing",
+            "ror": "https://ror.org/02n0ejh50",
+            "country_code": "SG",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I115228651",
+              "https://openalex.org/I3004594783",
+              "https://openalex.org/I91275662"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qing Guo",
+        "raw_affiliation_strings": [
+          "Institute of High Performance Computing (IHPC) and Centre for Frontier AI Research (CFAR), Agency for Science, Technology and Research (A*STAR), Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of High Performance Computing (IHPC) and Centre for Frontier AI Research (CFAR), Agency for Science, Technology and Research (A*STAR), Singapore",
+            "institution_ids": [
+              "https://openalex.org/I115228651",
+              "https://openalex.org/I3004594783"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5054490662",
+          "display_name": "Geguang Pu",
+          "orcid": "https://orcid.org/0000-0001-9750-8334"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I66867065",
+            "display_name": "East China Normal University",
+            "ror": "https://ror.org/02n96ep67",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I66867065"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Geguang Pu",
+        "raw_affiliation_strings": [
+          "East China Normal University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "East China Normal University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I66867065"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100355692",
+          "display_name": "Yang Liu",
+          "orcid": "https://orcid.org/0000-0001-7300-9215"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I172675005",
+            "display_name": "Nanyang Technological University",
+            "ror": "https://ror.org/02e7b5302",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yang Liu",
+        "raw_affiliation_strings": [
+          "Nanyang Technological University, Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanyang Technological University, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.54590502,
+    "has_fulltext": false,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.65169751,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "26",
+      "issue": null,
+      "first_page": "5729",
+      "last_page": "5740"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11105",
+      "display_name": "Advanced Image Processing Techniques",
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11105",
+        "display_name": "Advanced Image Processing Techniques",
+        "score": 0.9991000294685364,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10531",
+        "display_name": "Advanced Vision and Imaging",
+        "score": 0.9977999925613403,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13114",
+        "display_name": "Image Processing Techniques and Applications",
+        "score": 0.9958999752998352,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2214",
+          "display_name": "Media Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/rendering",
+        "display_name": "Rendering (computer graphics)",
+        "score": 0.846298336982727
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7683506011962891
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.6090764403343201
+      },
+      {
+        "id": "https://openalex.org/keywords/adversarial-system",
+        "display_name": "Adversarial system",
+        "score": 0.5537435412406921
+      },
+      {
+        "id": "https://openalex.org/keywords/confusion",
+        "display_name": "Confusion",
+        "score": 0.4796024560928345
+      },
+      {
+        "id": "https://openalex.org/keywords/deep-learning",
+        "display_name": "Deep learning",
+        "score": 0.47487303614616394
+      },
+      {
+        "id": "https://openalex.org/keywords/pixel",
+        "display_name": "Pixel",
+        "score": 0.42883315682411194
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.36734187602996826
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-vision",
+        "display_name": "Computer vision",
+        "score": 0.34072810411453247
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C205711294",
+        "wikidata": "https://www.wikidata.org/wiki/Q176953",
+        "display_name": "Rendering (computer graphics)",
+        "level": 2,
+        "score": 0.846298336982727
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7683506011962891
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.6090764403343201
+      },
+      {
+        "id": "https://openalex.org/C37736160",
+        "wikidata": "https://www.wikidata.org/wiki/Q1801315",
+        "display_name": "Adversarial system",
+        "level": 2,
+        "score": 0.5537435412406921
+      },
+      {
+        "id": "https://openalex.org/C2781140086",
+        "wikidata": "https://www.wikidata.org/wiki/Q557945",
+        "display_name": "Confusion",
+        "level": 2,
+        "score": 0.4796024560928345
+      },
+      {
+        "id": "https://openalex.org/C108583219",
+        "wikidata": "https://www.wikidata.org/wiki/Q197536",
+        "display_name": "Deep learning",
+        "level": 2,
+        "score": 0.47487303614616394
+      },
+      {
+        "id": "https://openalex.org/C160633673",
+        "wikidata": "https://www.wikidata.org/wiki/Q355198",
+        "display_name": "Pixel",
+        "level": 2,
+        "score": 0.42883315682411194
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.36734187602996826
+      },
+      {
+        "id": "https://openalex.org/C31972630",
+        "wikidata": "https://www.wikidata.org/wiki/Q844240",
+        "display_name": "Computer vision",
+        "level": 1,
+        "score": 0.34072810411453247
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C11171543",
+        "wikidata": "https://www.wikidata.org/wiki/Q41630",
+        "display_name": "Psychoanalysis",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/tmm.2023.3338413",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tmm.2023.3338413",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S137030581",
+          "display_name": "IEEE Transactions on Multimedia",
+          "issn_l": "1520-9210",
+          "issn": [
+            "1520-9210",
+            "1941-0077"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Multimedia",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "display_name": "Sustainable cities and communities",
+        "score": 0.6100000143051147,
+        "id": "https://metadata.un.org/sdg/11"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G6036235291",
+        "display_name": null,
+        "funder_award_id": "NCRP25-P04-TAICeN",
+        "funder_id": "https://openalex.org/F4320320709",
+        "funder_display_name": "National Research Foundation Singapore"
+      },
+      {
+        "id": "https://openalex.org/G2275947126",
+        "display_name": null,
+        "funder_award_id": "2020AAA0107800",
+        "funder_id": "https://openalex.org/F4320335777",
+        "funder_display_name": "National Key Research and Development Program of China"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320709",
+        "display_name": "National Research Foundation Singapore",
+        "ror": "https://ror.org/03cpyc314"
+      },
+      {
+        "id": "https://openalex.org/F4320335777",
+        "display_name": "National Key Research and Development Program of China",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 54,
+    "referenced_works": [
+      "https://openalex.org/W3034960835",
+      "https://openalex.org/W2914002435",
+      "https://openalex.org/W2896512449",
+      "https://openalex.org/W3029088438",
+      "https://openalex.org/W3003641532",
+      "https://openalex.org/W2808434111",
+      "https://openalex.org/W3174957407",
+      "https://openalex.org/W3094704991",
+      "https://openalex.org/W3126718261",
+      "https://openalex.org/W2997300022",
+      "https://openalex.org/W3174970555",
+      "https://openalex.org/W3148178367",
+      "https://openalex.org/W3192790666",
+      "https://openalex.org/W4321021233",
+      "https://openalex.org/W4226020516",
+      "https://openalex.org/W3016556061",
+      "https://openalex.org/W2116196132",
+      "https://openalex.org/W2066476997",
+      "https://openalex.org/W2136129837",
+      "https://openalex.org/W2155113687",
+      "https://openalex.org/W2518810941",
+      "https://openalex.org/W2400000673",
+      "https://openalex.org/W2894627214",
+      "https://openalex.org/W3012123759",
+      "https://openalex.org/W4283718752",
+      "https://openalex.org/W4385815603",
+      "https://openalex.org/W4385801674",
+      "https://openalex.org/W3048190013",
+      "https://openalex.org/W6805606072",
+      "https://openalex.org/W4285227025",
+      "https://openalex.org/W4323896829",
+      "https://openalex.org/W3034196143",
+      "https://openalex.org/W6762970624",
+      "https://openalex.org/W6783083507",
+      "https://openalex.org/W3198796530",
+      "https://openalex.org/W6776523612",
+      "https://openalex.org/W3204896399",
+      "https://openalex.org/W3089816516",
+      "https://openalex.org/W6797227673",
+      "https://openalex.org/W2985321619",
+      "https://openalex.org/W2795727551",
+      "https://openalex.org/W3109494165",
+      "https://openalex.org/W2133665775",
+      "https://openalex.org/W2064076387",
+      "https://openalex.org/W2962785568",
+      "https://openalex.org/W6631943919",
+      "https://openalex.org/W6739868092",
+      "https://openalex.org/W3008653537",
+      "https://openalex.org/W4320008790",
+      "https://openalex.org/W4319663704",
+      "https://openalex.org/W3134685667",
+      "https://openalex.org/W3173383415",
+      "https://openalex.org/W4205523955",
+      "https://openalex.org/W3121404598"
+    ],
+    "related_works": [
+      "https://openalex.org/W2502115930",
+      "https://openalex.org/W4246396837",
+      "https://openalex.org/W2482350142",
+      "https://openalex.org/W3176240006",
+      "https://openalex.org/W3126451824",
+      "https://openalex.org/W1561927205",
+      "https://openalex.org/W3191453585",
+      "https://openalex.org/W4297672492",
+      "https://openalex.org/W4288019534",
+      "https://openalex.org/W3176659669"
+    ],
+    "abstract_inverted_index": {
+      "Bokeh": [
+        0
+      ],
+      "effect": [
+        1
+      ],
+      "is": [
+        2
+      ],
+      "a": [
+        3,
+        18,
+        59,
+        98,
+        141,
+        190,
+        214,
+        283
+      ],
+      "natural": [
+        4,
+        119
+      ],
+      "shallow": [
+        5
+      ],
+      "depth-of-field": [
+        6
+      ],
+      "phenomenon": [
+        7
+      ],
+      "that": [
+        8,
+        54,
+        264
+      ],
+      "blurs": [
+        9
+      ],
+      "the": [
+        10,
+        55,
+        65,
+        80,
+        89,
+        123,
+        135,
+        146,
+        157,
+        166,
+        186,
+        197,
+        209,
+        221,
+        227,
+        231,
+        235,
+        245,
+        253,
+        257,
+        272,
+        277
+      ],
+      "out-of-focus": [
+        11
+      ],
+      "part": [
+        12
+      ],
+      "in": [
+        13,
+        256
+      ],
+      "photography.": [
+        14
+      ],
+      "In": [
+        15
+      ],
+      "recent": [
+        16
+      ],
+      "years,": [
+        17
+      ],
+      "series": [
+        19
+      ],
+      "of": [
+        20,
+        82,
+        113,
+        149,
+        194,
+        247
+      ],
+      "works": [
+        21,
+        52
+      ],
+      "have": [
+        22
+      ],
+      "proposed": [
+        23
+      ],
+      "automatic": [
+        24
+      ],
+      "and": [
+        25,
+        32,
+        47,
+        72,
+        118,
+        121,
+        151,
+        169,
+        213
+      ],
+      "realistic": [
+        26,
+        117,
+        205,
+        269
+      ],
+      "bokeh": [
+        27,
+        56,
+        108,
+        120,
+        223,
+        270
+      ],
+      "rendering": [
+        28,
+        116,
+        206
+      ],
+      "methods": [
+        29,
+        274
+      ],
+      "for": [
+        30,
+        178
+      ],
+      "artistic": [
+        31
+      ],
+      "aesthetic": [
+        33
+      ],
+      "purposes.": [
+        34
+      ],
+      "They": [
+        35
+      ],
+      "usually": [
+        36
+      ],
+      "employ": [
+        37
+      ],
+      "cutting-edge": [
+        38
+      ],
+      "data-driven": [
+        39,
+        74,
+        137,
+        150
+      ],
+      "deep": [
+        40,
+        248,
+        279
+      ],
+      "generative": [
+        41
+      ],
+      "networks": [
+        42,
+        250,
+        281
+      ],
+      "with": [
+        43,
+        208,
+        282
+      ],
+      "complex": [
+        44
+      ],
+      "training": [
+        45,
+        211
+      ],
+      "strategies": [
+        46
+      ],
+      "network": [
+        48,
+        162
+      ],
+      "architectures.": [
+        49
+      ],
+      "However,": [
+        50
+      ],
+      "these": [
+        51
+      ],
+      "neglect": [
+        53
+      ],
+      "effect,": [
+        57
+      ],
+      "as": [
+        58,
+        172
+      ],
+      "real": [
+        60,
+        258
+      ],
+      "phenomenon,": [
+        61
+      ],
+      "can": [
+        62
+      ],
+      "inevitably": [
+        63
+      ],
+      "affect": [
+        64
+      ],
+      "subsequent": [
+        66
+      ],
+      "visual": [
+        67,
+        124,
+        236
+      ],
+      "intelligent": [
+        68,
+        90
+      ],
+      "tasks": [
+        69
+      ],
+      "like": [
+        70
+      ],
+      "recognition,": [
+        71
+      ],
+      "their": [
+        73
+      ],
+      "nature": [
+        75
+      ],
+      "prevents": [
+        76
+      ],
+      "them": [
+        77
+      ],
+      "from": [
+        78
+      ],
+      "studying": [
+        79
+      ],
+      "influence": [
+        81
+      ],
+      "bokeh-related": [
+        83
+      ],
+      "physical": [
+        84,
+        192
+      ],
+      "parameters": [
+        85,
+        177
+      ],
+      "(i.e.,": [
+        86,
+        127
+      ],
+      "depth-of-the-field)": [
+        87
+      ],
+      "on": [
+        88
+      ],
+      "tasks.": [
+        91,
+        238
+      ],
+      "To": [
+        92,
+        131
+      ],
+      "fill": [
+        93
+      ],
+      "this": [
+        94,
+        132
+      ],
+      "gap,": [
+        95
+      ],
+      "we": [
+        96,
+        139,
+        155,
+        219,
+        240
+      ],
+      "study": [
+        97,
+        244
+      ],
+      "totally": [
+        99
+      ],
+      "new": [
+        100
+      ],
+      "problem,": [
+        101
+      ],
+      "i.e.,": [
+        102
+      ],
+      "<italic": [
+        103,
+        158
+      ],
+      "xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"": [
+        104,
+        159
+      ],
+      "xmlns:xlink=\"http://www.w3.org/1999/xlink\">natural": [
+        105
+      ],
+      "&amp;": [
+        106
+      ],
+      "adversarial": [
+        107,
+        129,
+        222
+      ],
+      "rendering</i>": [
+        109
+      ],
+      ",": [
+        110
+      ],
+      "which": [
+        111,
+        181
+      ],
+      "consists": [
+        112
+      ],
+      "two": [
+        114
+      ],
+      "objectives:": [
+        115
+      ],
+      "fooling": [
+        122,
+        276
+      ],
+      "perception": [
+        125,
+        237
+      ],
+      "models": [
+        126
+      ],
+      "bokeh-based": [
+        128
+      ],
+      "attack).": [
+        130
+      ],
+      "end,": [
+        133
+      ],
+      "beyond": [
+        134
+      ],
+      "pure": [
+        136
+      ],
+      "solution,": [
+        138,
+        199
+      ],
+      "propose": [
+        140,
+        156,
+        220
+      ],
+      "hybrid": [
+        142,
+        198
+      ],
+      "alternative": [
+        143
+      ],
+      "by": [
+        144,
+        164,
+        225
+      ],
+      "taking": [
+        145,
+        165
+      ],
+      "respective": [
+        147
+      ],
+      "advantages": [
+        148
+      ],
+      "physical-aware": [
+        152
+      ],
+      "methods.": [
+        153
+      ],
+      "Specifically,": [
+        154
+      ],
+      "xmlns:xlink=\"http://www.w3.org/1999/xlink\">circle-of-confusion": [
+        160
+      ],
+      "predictive": [
+        161
+      ],
+      "(CoCNet)</i>": [
+        163
+      ],
+      "all-in-focus": [
+        167
+      ],
+      "image": [
+        168,
+        171,
+        188
+      ],
+      "depth": [
+        170,
+        232,
+        254
+      ],
+      "inputs": [
+        173
+      ],
+      "to": [
+        174,
+        184,
+        243,
+        252
+      ],
+      "estimate": [
+        175
+      ],
+      "circle-of-confusion": [
+        176
+      ],
+      "each": [
+        179
+      ],
+      "pixel,": [
+        180
+      ],
+      "are": [
+        182,
+        241
+      ],
+      "employed": [
+        183
+      ],
+      "render": [
+        185
+      ],
+      "final": [
+        187
+      ],
+      "through": [
+        189
+      ],
+      "well-known": [
+        191
+      ],
+      "model": [
+        193
+      ],
+      "bokeh.": [
+        195
+      ],
+      "With": [
+        196
+      ],
+      "our": [
+        200,
+        265
+      ],
+      "method": [
+        201,
+        266
+      ],
+      "could": [
+        202
+      ],
+      "achieve": [
+        203
+      ],
+      "more": [
+        204,
+        268
+      ],
+      "results": [
+        207
+      ],
+      "naive": [
+        210
+      ],
+      "strategy": [
+        212
+      ],
+      "much": [
+        215
+      ],
+      "lighter": [
+        216
+      ],
+      "network.": [
+        217
+      ],
+      "Moreover,": [
+        218
+      ],
+      "attack": [
+        224
+      ],
+      "fixing": [
+        226
+      ],
+      "CoCNet": [
+        228
+      ],
+      "while": [
+        229,
+        275
+      ],
+      "optimizing": [
+        230
+      ],
+      "map": [
+        233
+      ],
+      "w.r.t.": [
+        234
+      ],
+      "Then,": [
+        239
+      ],
+      "able": [
+        242
+      ],
+      "vulnerability": [
+        246
+      ],
+      "neural": [
+        249,
+        280
+      ],
+      "according": [
+        251
+      ],
+      "variations": [
+        255
+      ],
+      "world.": [
+        259
+      ],
+      "The": [
+        260
+      ],
+      "extensive": [
+        261
+      ],
+      "experiments": [
+        262
+      ],
+      "show": [
+        263
+      ],
+      "produces": [
+        267
+      ],
+      "than": [
+        271
+      ],
+      "state-of-the-art": [
+        273
+      ],
+      "powerful": [
+        278
+      ],
+      "high": [
+        284
+      ],
+      "accuracy": [
+        285
+      ],
+      "drop.": [
+        286
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          11
+        ]
+      ],
+      "date-time": "2025-12-11T03:24:34Z",
+      "timestamp": 1765423474267,
+      "version": "3.37.3"
+    },
+    "reference-count": 50,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "2020AAA0107800"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2020AAA0107800"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "Shanghai Collaborative Innovation Center of Trusted Industry Internet Software"
+      },
+      {
+        "DOI": "10.13039/501100001381",
+        "name": "National Research Foundation, Singapore",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/501100001381",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "DSO National Laboratories through AI Singapore Programme",
+        "award": [
+          "AISG2-GC-2023-008"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "AISG2-GC-2023-008"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "A*STAR Centre for Frontier AI Research"
+      },
+      {
+        "DOI": "10.13039/501100001381",
+        "name": "National Research Foundation, Singapore",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "NCRP25-P04-TAICeN"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NCRP25-P04-TAICeN"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001381",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "NRF Investigatorship",
+        "award": [
+          "NRF-NRFI06-2020-0001"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NRF-NRFI06-2020-0001"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NTU-DESAY SV Research Program",
+        "award": [
+          "2018-0980"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2018-0980"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Multimedia"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1109/tmm.2023.3338413",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          1
+        ]
+      ],
+      "date-time": "2023-12-01T18:43:39Z",
+      "timestamp": 1701456219000
+    },
+    "page": "5729-5740",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Natural &amp; Adversarial Bokeh Rendering via Circle-of-Confusion Predictive Network"
+    ],
+    "prefix": "10.1109",
+    "volume": "26",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5784-770X",
+        "authenticated-orcid": false,
+        "given": "Yihao",
+        "family": "Huang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University, Singapore"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0857-8611",
+        "authenticated-orcid": false,
+        "given": "Felix",
+        "family": "Juefei-Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "New York University, New York, NY, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0974-9299",
+        "authenticated-orcid": false,
+        "given": "Qing",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of High Performance Computing (IHPC) and Centre for Frontier AI Research (CFAR), Agency for Science, Technology and Research (A*STAR), Singapore"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9750-8334",
+        "authenticated-orcid": false,
+        "given": "Geguang",
+        "family": "Pu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "East China Normal University, Shanghai, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7300-9215",
+        "authenticated-orcid": false,
+        "given": "Yang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University, Singapore"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW50498.2020.00217"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3272127.3275032"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3272127.3275013"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jvcir.2021.103089"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/ICCVW.2019.00411",
+        "article-title": "Sterefo: Efficient image refocusing with stereo vision",
+        "volume-title": "Proc. IEEE/CVF Int. Conf. Comput. Vis. Workshops",
+        "author": "Busam",
+        "year": "2019"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3197517.3201329"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW53098.2021.00272"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-67070-2_14"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-67070-2_15"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2019.00444"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00207"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2021.3070972"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2021.3096009"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tmm.2023.3244398"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2022.3168560"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/97880.97913"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1778765.1778802"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1516522.1516529"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00371-010-0459-5"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-8659.2010.01797.x"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46448-0_6"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/cgf.12814"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01240-3_3"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2019.00424"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jvcir.2022.103580"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW59228.2023.00165"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW59228.2023.00157"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TVCG.2020.3014474"
+      },
+      {
+        "article-title": "Bokeh effect rendering with vision transformers",
+        "year": "2022",
+        "author": "Nagasubramaniam",
+        "key": "ref29"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2022.3173533"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tmm.2023.3255742"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00123"
+      },
+      {
+        "key": "ref33",
+        "first-page": "1802",
+        "article-title": "Exploring the landscape of spatial robustness",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Engstrom",
+        "year": "2019"
+      },
+      {
+        "key": "ref34",
+        "first-page": "975",
+        "article-title": "Watch out! motion is blurring the vision of your deep neural networks",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "author": "Guo",
+        "year": "2020"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2021.3108009"
+      },
+      {
+        "key": "ref36",
+        "article-title": "Adversarial color enhancement: Generating unrestricted adversarial images by optimizing a color filter",
+        "volume-title": "Proc. 31st Brit. Mach. Vis. Conf.",
+        "author": "Zhao",
+        "year": "2020"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00229"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICIP40778.2020.9191087"
+      },
+      {
+        "article-title": "Nonuniform defocus removal for image classification",
+        "year": "2021",
+        "author": "Thao",
+        "key": "ref39"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2950923"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-94042-7_11"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58607-2_7"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2003.819861"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICPR.2010.579"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00068"
+      },
+      {
+        "key": "ref46",
+        "first-page": "249",
+        "article-title": "Understanding the difficulty of training deep feedforward neural networks",
+        "volume-title": "Proc. thirteenth Int. Conf. Artif. Intell. Statistics. JMLR Workshop Conf. Proc.",
+        "author": "Glorot",
+        "year": "2010"
+      },
+      {
+        "key": "ref47",
+        "article-title": "Towards deep learning models resistant to adversarial attacks",
+        "volume-title": "Proc. Int. Conf. Learn. Representations",
+        "author": "Madry",
+        "year": "2017"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2020.2975961"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tmm.2023.3238554"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tmm.2023.3243659"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Multimedia"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6046/10384483/10337751.pdf?arnumber=10337751",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          9
+        ]
+      ],
+      "date-time": "2024-04-09T19:39:15Z",
+      "timestamp": 1712691555000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10337751/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "references-count": 50,
+    "URL": "https://doi.org/10.1109/tmm.2023.3338413",
+    "relation": {},
+    "ISSN": [
+      "1520-9210",
+      "1941-0077"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1520-9210"
+      },
+      {
+        "type": "electronic",
+        "value": "1941-0077"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1892 @@
+{
+  "doi": "10.1039/d4sc05168h",
+  "openalex": {
+    "id": "https://openalex.org/W4403110628",
+    "doi": "https://doi.org/10.1039/d4sc05168h",
+    "title": "Growth of two-dimensional covalent organic frameworks on substrates: insight from microsecond atomistic simulations",
+    "display_name": "Growth of two-dimensional covalent organic frameworks on substrates: insight from microsecond atomistic simulations",
+    "publication_year": 2024,
+    "publication_date": "2024-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4403110628",
+      "doi": "https://doi.org/10.1039/d4sc05168h",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39386909"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1039/d4sc05168h",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1039/d4sc05168h",
+      "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2024/sc/d4sc05168h",
+      "source": {
+        "id": "https://openalex.org/S184645833",
+        "display_name": "Chemical Science",
+        "issn_l": "2041-6520",
+        "issn": [
+          "2041-6520",
+          "2041-6539"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320556",
+        "host_organization_name": "Royal Society of Chemistry",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320556"
+        ],
+        "host_organization_lineage_names": [
+          "Royal Society of Chemistry"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Chemical Science",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://pubs.rsc.org/en/content/articlepdf/2024/sc/d4sc05168h",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101479021",
+          "display_name": "Zilin Wang",
+          "orcid": "https://orcid.org/0000-0002-5554-6719"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I113940042",
+            "display_name": "Shanghai University",
+            "ror": "https://ror.org/006teas31",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zilin Wang",
+        "raw_affiliation_strings": [
+          "Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China",
+          "School of Microelectronics, Shanghai University, Shanghai 201800, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China",
+            "institution_ids": [
+              "https://openalex.org/I113940042"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Microelectronics, Shanghai University, Shanghai 201800, China",
+            "institution_ids": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5109000065",
+          "display_name": "Hong Du",
+          "orcid": "https://orcid.org/0009-0007-8703-6055"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I113940042",
+            "display_name": "Shanghai University",
+            "ror": "https://ror.org/006teas31",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hong Du",
+        "raw_affiliation_strings": [
+          "Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China",
+          "School of Microelectronics, Shanghai University, Shanghai 201800, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Microelectronics, Shanghai University, Shanghai 201800, China",
+            "institution_ids": [
+              "https://openalex.org/I113940042"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China",
+            "institution_ids": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5086833077",
+          "display_name": "Austin M. Evans",
+          "orcid": "https://orcid.org/0000-0002-3597-2454"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I33213144",
+            "display_name": "University of Florida",
+            "ror": "https://ror.org/02y3ad647",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Austin M. Evans",
+        "raw_affiliation_strings": [
+          "George and Josephine Butler Polymer Laboratory, Department of Chemistry, University of Florida, Gainesville, Florida 32611-7200, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "George and Josephine Butler Polymer Laboratory, Department of Chemistry, University of Florida, Gainesville, Florida 32611-7200, USA",
+            "institution_ids": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5086980669",
+          "display_name": "Xiaojuan Ni",
+          "orcid": "https://orcid.org/0000-0002-5845-7404"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I138006243",
+            "display_name": "University of Arizona",
+            "ror": "https://ror.org/03m2x1q45",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138006243"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaojuan Ni",
+        "raw_affiliation_strings": [
+          "Department of Chemistry and Biochemistry, The University of Arizona, Tucson, Arizona 85721-0041, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemistry and Biochemistry, The University of Arizona, Tucson, Arizona 85721-0041, USA",
+            "institution_ids": [
+              "https://openalex.org/I138006243"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5021231690",
+          "display_name": "Jean‐Luc Brédas",
+          "orcid": "https://orcid.org/0000-0001-7278-4471"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I138006243",
+            "display_name": "University of Arizona",
+            "ror": "https://ror.org/03m2x1q45",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138006243"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jean-Luc Bredas",
+        "raw_affiliation_strings": [
+          "Department of Chemistry and Biochemistry, The University of Arizona, Tucson, Arizona 85721-0041, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemistry and Biochemistry, The University of Arizona, Tucson, Arizona 85721-0041, USA",
+            "institution_ids": [
+              "https://openalex.org/I138006243"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100673435",
+          "display_name": "Haoyuan Li",
+          "orcid": "https://orcid.org/0000-0002-2469-5842"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I113940042",
+            "display_name": "Shanghai University",
+            "ror": "https://ror.org/006teas31",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Haoyuan Li",
+        "raw_affiliation_strings": [
+          "Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China",
+          "School of Microelectronics, Shanghai University, Shanghai 201800, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Microelectronics, Shanghai University, Shanghai 201800, China",
+            "institution_ids": [
+              "https://openalex.org/I113940042"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China",
+            "institution_ids": [
+              "https://openalex.org/I113940042"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.3547534,
+    "has_fulltext": false,
+    "cited_by_count": 8,
+    "citation_normalized_percentile": {
+      "value": 0.82827009,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "15",
+      "issue": "42",
+      "first_page": "17629",
+      "last_page": "17641"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12038",
+      "display_name": "Covalent Organic Framework Applications",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12038",
+        "display_name": "Covalent Organic Framework Applications",
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12285",
+        "display_name": "Surface Chemistry and Catalysis",
+        "score": 0.983299970626831,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11471",
+        "display_name": "Block Copolymer Self-Assembly",
+        "score": 0.979200005531311,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/microsecond",
+        "display_name": "Microsecond",
+        "score": 0.7942792177200317
+      },
+      {
+        "id": "https://openalex.org/keywords/covalent-bond",
+        "display_name": "Covalent bond",
+        "score": 0.5661857724189758
+      },
+      {
+        "id": "https://openalex.org/keywords/molecular-dynamics",
+        "display_name": "Molecular dynamics",
+        "score": 0.49459072947502136
+      },
+      {
+        "id": "https://openalex.org/keywords/nanotechnology",
+        "display_name": "Nanotechnology",
+        "score": 0.4847249984741211
+      },
+      {
+        "id": "https://openalex.org/keywords/chemical-physics",
+        "display_name": "Chemical physics",
+        "score": 0.44888439774513245
+      },
+      {
+        "id": "https://openalex.org/keywords/materials-science",
+        "display_name": "Materials science",
+        "score": 0.4288840889930725
+      },
+      {
+        "id": "https://openalex.org/keywords/chemistry",
+        "display_name": "Chemistry",
+        "score": 0.38056087493896484
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-chemistry",
+        "display_name": "Computational chemistry",
+        "score": 0.28909939527511597
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.16721215844154358
+      },
+      {
+        "id": "https://openalex.org/keywords/organic-chemistry",
+        "display_name": "Organic chemistry",
+        "score": 0.10433033108711243
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C34742353",
+        "wikidata": "https://www.wikidata.org/wiki/Q842015",
+        "display_name": "Microsecond",
+        "level": 2,
+        "score": 0.7942792177200317
+      },
+      {
+        "id": "https://openalex.org/C180577832",
+        "wikidata": "https://www.wikidata.org/wiki/Q127920",
+        "display_name": "Covalent bond",
+        "level": 2,
+        "score": 0.5661857724189758
+      },
+      {
+        "id": "https://openalex.org/C59593255",
+        "wikidata": "https://www.wikidata.org/wiki/Q901663",
+        "display_name": "Molecular dynamics",
+        "level": 2,
+        "score": 0.49459072947502136
+      },
+      {
+        "id": "https://openalex.org/C171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "level": 1,
+        "score": 0.4847249984741211
+      },
+      {
+        "id": "https://openalex.org/C159467904",
+        "wikidata": "https://www.wikidata.org/wiki/Q2001702",
+        "display_name": "Chemical physics",
+        "level": 1,
+        "score": 0.44888439774513245
+      },
+      {
+        "id": "https://openalex.org/C192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "level": 0,
+        "score": 0.4288840889930725
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.38056087493896484
+      },
+      {
+        "id": "https://openalex.org/C147597530",
+        "wikidata": "https://www.wikidata.org/wiki/Q369472",
+        "display_name": "Computational chemistry",
+        "level": 1,
+        "score": 0.28909939527511597
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.16721215844154358
+      },
+      {
+        "id": "https://openalex.org/C178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "level": 1,
+        "score": 0.10433033108711243
+      },
+      {
+        "id": "https://openalex.org/C1276947",
+        "wikidata": "https://www.wikidata.org/wiki/Q333",
+        "display_name": "Astronomy",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1039/d4sc05168h",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1039/d4sc05168h",
+        "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2024/sc/d4sc05168h",
+        "source": {
+          "id": "https://openalex.org/S184645833",
+          "display_name": "Chemical Science",
+          "issn_l": "2041-6520",
+          "issn": [
+            "2041-6520",
+            "2041-6539"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320556",
+          "host_organization_name": "Royal Society of Chemistry",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320556"
+          ],
+          "host_organization_lineage_names": [
+            "Royal Society of Chemistry"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Chemical Science",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:39386909",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39386909",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Chemical science",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11459634",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11459634",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Chem Sci",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1039/d4sc05168h",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1039/d4sc05168h",
+      "pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2024/sc/d4sc05168h",
+      "source": {
+        "id": "https://openalex.org/S184645833",
+        "display_name": "Chemical Science",
+        "issn_l": "2041-6520",
+        "issn": [
+          "2041-6520",
+          "2041-6539"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320556",
+        "host_organization_name": "Royal Society of Chemistry",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320556"
+        ],
+        "host_organization_lineage_names": [
+          "Royal Society of Chemistry"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Chemical Science",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G2753993392",
+        "display_name": null,
+        "funder_award_id": "22103053",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G8515873358",
+        "display_name": null,
+        "funder_award_id": "N00014-24-1-2114",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320310160",
+        "display_name": "University of Arizona",
+        "ror": "https://ror.org/03m2x1q45"
+      },
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320325553",
+        "display_name": "Shanghai University",
+        "ror": "https://ror.org/006teas31"
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 65,
+    "referenced_works": [
+      "https://openalex.org/W3216138237",
+      "https://openalex.org/W2576354280",
+      "https://openalex.org/W2814654128",
+      "https://openalex.org/W2164077322",
+      "https://openalex.org/W2072763674",
+      "https://openalex.org/W2779166747",
+      "https://openalex.org/W4387871771",
+      "https://openalex.org/W2598983261",
+      "https://openalex.org/W3111011686",
+      "https://openalex.org/W2150251688",
+      "https://openalex.org/W2064006616",
+      "https://openalex.org/W2318164071",
+      "https://openalex.org/W1980391100",
+      "https://openalex.org/W2048913201",
+      "https://openalex.org/W2010043113",
+      "https://openalex.org/W2807962003",
+      "https://openalex.org/W3112912837",
+      "https://openalex.org/W4390227557",
+      "https://openalex.org/W2999992026",
+      "https://openalex.org/W3126851548",
+      "https://openalex.org/W2513445582",
+      "https://openalex.org/W3111959782",
+      "https://openalex.org/W4293793115",
+      "https://openalex.org/W3097038101",
+      "https://openalex.org/W3138707807",
+      "https://openalex.org/W4396773873",
+      "https://openalex.org/W4210971513",
+      "https://openalex.org/W4308432477",
+      "https://openalex.org/W4292731269",
+      "https://openalex.org/W4220768029",
+      "https://openalex.org/W2605034771",
+      "https://openalex.org/W2788494295",
+      "https://openalex.org/W4393716191",
+      "https://openalex.org/W1998829408",
+      "https://openalex.org/W2333787883",
+      "https://openalex.org/W2155155530",
+      "https://openalex.org/W2765766688",
+      "https://openalex.org/W3136276343",
+      "https://openalex.org/W1973641880",
+      "https://openalex.org/W1990561609",
+      "https://openalex.org/W3101850685",
+      "https://openalex.org/W2050626247",
+      "https://openalex.org/W2052637367",
+      "https://openalex.org/W2039462622",
+      "https://openalex.org/W3096000526",
+      "https://openalex.org/W2147993766",
+      "https://openalex.org/W1976161355",
+      "https://openalex.org/W4393064782",
+      "https://openalex.org/W4391924329",
+      "https://openalex.org/W4393927413",
+      "https://openalex.org/W4390698784",
+      "https://openalex.org/W1963989017",
+      "https://openalex.org/W2328684721",
+      "https://openalex.org/W2081463986",
+      "https://openalex.org/W1981368803",
+      "https://openalex.org/W1991149034",
+      "https://openalex.org/W2016168218",
+      "https://openalex.org/W4212948753",
+      "https://openalex.org/W1991794210",
+      "https://openalex.org/W2323178299",
+      "https://openalex.org/W2087698390",
+      "https://openalex.org/W2007395042",
+      "https://openalex.org/W2019465613",
+      "https://openalex.org/W2132525235",
+      "https://openalex.org/W4214577052"
+    ],
+    "related_works": [
+      "https://openalex.org/W2468739399",
+      "https://openalex.org/W2026253269",
+      "https://openalex.org/W1576112914",
+      "https://openalex.org/W2326607960",
+      "https://openalex.org/W2060791431",
+      "https://openalex.org/W1989854992",
+      "https://openalex.org/W2313069754",
+      "https://openalex.org/W2017394797",
+      "https://openalex.org/W2316398224",
+      "https://openalex.org/W4281654480"
+    ],
+    "abstract_inverted_index": {
+      "Microsecond": [
+        0
+      ],
+      "atomistic": [
+        1
+      ],
+      "simulations": [
+        2
+      ],
+      "reveal": [
+        3
+      ],
+      "the": [
+        4
+      ],
+      "complex": [
+        5
+      ],
+      "interplay": [
+        6
+      ],
+      "among": [
+        7
+      ],
+      "monomer": [
+        8
+      ],
+      "mobility": [
+        9
+      ],
+      "and": [
+        10,
+        16
+      ],
+      "coordination,": [
+        11
+      ],
+      "monomer-substrate": [
+        12
+      ],
+      "anchoring,": [
+        13
+      ],
+      "framework": [
+        14
+      ],
+      "rigidity,": [
+        15
+      ],
+      "bonding": [
+        17
+      ],
+      "rates": [
+        18
+      ],
+      "in": [
+        19
+      ],
+      "polymerization": [
+        20
+      ],
+      "on": [
+        21
+      ],
+      "metal": [
+        22
+      ],
+      "surfaces.": [
+        23
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 8
+      }
+    ],
+    "updated_date": "2025-12-27T23:08:20.325037",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          2
+        ]
+      ],
+      "date-time": "2026-01-02T17:15:23Z",
+      "timestamp": 1767374123729,
+      "version": "3.37.3"
+    },
+    "reference-count": 66,
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "issue": "42",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              3
+            ]
+          ],
+          "date-time": "2024-10-03T00:00:00Z",
+          "timestamp": 1727913600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 276,
+        "URL": "http://creativecommons.org/licenses/by-nc/3.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N00014-24-1-2114"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N00014-24-1-2114"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "22103053"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "22103053"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100009002",
+        "name": "Shanghai University",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100009002",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007899",
+        "name": "University of Arizona",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007899",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "rsc.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Chem. Sci."
+    ],
+    "abstract": "<jats:p>Microsecond atomistic simulations reveal the complex interplay among monomer mobility and coordination, monomer-substrate anchoring, framework rigidity, and bonding rates in polymerization on metal surfaces.</jats:p>",
+    "DOI": "10.1039/d4sc05168h",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          3
+        ]
+      ],
+      "date-time": "2024-10-03T03:01:02Z",
+      "timestamp": 1727924462000
+    },
+    "page": "17629-17641",
+    "update-policy": "https://doi.org/10.1039/rsc_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Growth of two-dimensional covalent organic frameworks on substrates: insight from microsecond atomistic simulations"
+    ],
+    "prefix": "10.1039",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5554-6719",
+        "authenticated-orcid": false,
+        "given": "Zilin",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Microelectronics, Shanghai University, Shanghai 201800, China"
+          },
+          {
+            "name": "Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0007-8703-6055",
+        "authenticated-orcid": false,
+        "given": "Hong",
+        "family": "Du",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Microelectronics, Shanghai University, Shanghai 201800, China"
+          },
+          {
+            "name": "Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China"
+          }
+        ]
+      },
+      {
+        "given": "Austin M.",
+        "family": "Evans",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "George and Josephine Butler Polymer Laboratory, Department of Chemistry, University of Florida, Gainesville, Florida 32611-7200, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5845-7404",
+        "authenticated-orcid": false,
+        "given": "Xiaojuan",
+        "family": "Ni",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry and Biochemistry, The University of Arizona, Tucson, Arizona 85721-0041, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7278-4471",
+        "authenticated-orcid": false,
+        "given": "Jean-Luc",
+        "family": "Bredas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry and Biochemistry, The University of Arizona, Tucson, Arizona 85721-0041, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2469-5842",
+        "authenticated-orcid": false,
+        "given": "Haoyuan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Microelectronics, Shanghai University, Shanghai 201800, China"
+          },
+          {
+            "name": "Department of Chemistry, College of Sciences, Shanghai University, Shanghai 200444, China"
+          }
+        ]
+      }
+    ],
+    "member": "292",
+    "published-online": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "1",
+        "key": "D4SC05168H/cit1/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "442",
+        "DOI": "10.1021/acs.chemrev.0c01184",
+        "volume": "122",
+        "author": "Evans",
+        "year": "2022",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "issue": "3",
+        "key": "D4SC05168H/cit2/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "2706",
+        "DOI": "10.1021/acsnano.6b07692",
+        "volume": "11",
+        "author": "Medina",
+        "year": "2017",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "issue": "33",
+        "key": "D4SC05168H/cit3/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1705553",
+        "DOI": "10.1002/adfm.201705553",
+        "volume": "28",
+        "author": "Lohse",
+        "year": "2018",
+        "journal-title": "Adv. Funct. Mater."
+      },
+      {
+        "issue": "14",
+        "key": "D4SC05168H/cit4/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "4024",
+        "DOI": "10.1002/anie.201208597",
+        "volume": "52",
+        "author": "Gao",
+        "year": "2013",
+        "journal-title": "Angew. Chem., Int. Ed."
+      },
+      {
+        "issue": "15",
+        "key": "D4SC05168H/cit5/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "5567",
+        "DOI": "10.1021/ja501308s",
+        "volume": "136",
+        "author": "Zhou",
+        "year": "2014",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "issue": "1",
+        "key": "D4SC05168H/cit6/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "385",
+        "DOI": "10.1021/acsnano.7b06529",
+        "volume": "12",
+        "author": "Chen",
+        "year": "2018",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "issue": "21",
+        "key": "D4SC05168H/cit7/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "21411",
+        "DOI": "10.1021/acsnano.3c06142",
+        "volume": "17",
+        "author": "Daum",
+        "year": "2023",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "issue": "4",
+        "key": "D4SC05168H/cit8/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "4183",
+        "DOI": "10.1021/acsnano.7b01109",
+        "volume": "11",
+        "author": "Zint",
+        "year": "2017",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "issue": "24",
+        "key": "D4SC05168H/cit9/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "10688",
+        "DOI": "10.1021/acs.chemmater.0c03901",
+        "volume": "32",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "Chem. Mater."
+      },
+      {
+        "issue": "3",
+        "key": "D4SC05168H/cit10/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "215",
+        "DOI": "10.1038/nchem.1242",
+        "volume": "4",
+        "author": "Lafferentz",
+        "year": "2012",
+        "journal-title": "Nat. Chem."
+      },
+      {
+        "issue": "12",
+        "key": "D4SC05168H/cit11/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "125421",
+        "DOI": "10.1103/PhysRevB.84.125421",
+        "volume": "84",
+        "author": "Ourdjini",
+        "year": "2011",
+        "journal-title": "Phys. Rev. B: Condens. Matter Mater. Phys."
+      },
+      {
+        "issue": "8",
+        "key": "D4SC05168H/cit12/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "7880",
+        "DOI": "10.1021/nn501567p",
+        "volume": "8",
+        "author": "Eichhorn",
+        "year": "2014",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "issue": "29",
+        "key": "D4SC05168H/cit13/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "4456",
+        "DOI": "10.1039/b906836h",
+        "author": "Gutzler",
+        "year": "2009",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "issue": "45",
+        "key": "D4SC05168H/cit14/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "12355",
+        "DOI": "10.1039/c1cc13896k",
+        "volume": "47",
+        "author": "Schlögl",
+        "year": "2011",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "issue": "46",
+        "key": "D4SC05168H/cit15/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "16669",
+        "DOI": "10.1021/ja107947z",
+        "volume": "132",
+        "author": "Bieri",
+        "year": "2010",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "issue": "13",
+        "key": "D4SC05168H/cit16/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "6189",
+        "DOI": "10.1021/acs.chemrev.8b00056",
+        "volume": "118",
+        "author": "Dong",
+        "year": "2018",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "issue": "3",
+        "key": "D4SC05168H/cit17/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1813",
+        "DOI": "10.1039/D0CS00793E",
+        "volume": "50",
+        "author": "Keller",
+        "year": "2021",
+        "journal-title": "Chem. Soc. Rev."
+      },
+      {
+        "issue": "2",
+        "key": "D4SC05168H/cit18/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "335",
+        "DOI": "10.1021/acsmaterialslett.3c01429",
+        "volume": "6",
+        "author": "Du",
+        "year": "2023",
+        "journal-title": "ACS Mater. Lett."
+      },
+      {
+        "issue": "15",
+        "key": "D4SC05168H/cit19/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "6028",
+        "DOI": "10.1002/anie.201915217",
+        "volume": "59",
+        "author": "Sahabudeen",
+        "year": "2020",
+        "journal-title": "Angew. Chem., Int. Ed."
+      },
+      {
+        "issue": "4",
+        "key": "D4SC05168H/cit20/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1341",
+        "DOI": "10.1021/acs.chemmater.0c04382",
+        "volume": "33",
+        "author": "Castano",
+        "year": "2021",
+        "journal-title": "Chem. Mater."
+      },
+      {
+        "issue": "36",
+        "key": "D4SC05168H/cit21/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "11433",
+        "DOI": "10.1021/jacs.6b04669",
+        "volume": "138",
+        "author": "Bisbey",
+        "year": "2016",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "issue": "50",
+        "key": "D4SC05168H/cit22/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "21131",
+        "DOI": "10.1021/jacs.0c10151",
+        "volume": "142",
+        "author": "Balch",
+        "year": "2020",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "issue": "7925",
+        "key": "D4SC05168H/cit23/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "58",
+        "DOI": "10.1038/s41586-022-05032-1",
+        "volume": "609",
+        "author": "Jiang",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "1",
+        "key": "D4SC05168H/cit24/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "5534",
+        "DOI": "10.1038/s41467-020-19315-6",
+        "volume": "11",
+        "author": "Yu",
+        "year": "2020",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "issue": "8",
+        "key": "D4SC05168H/cit25/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1142",
+        "DOI": "10.1038/s41563-021-00934-3",
+        "volume": "20",
+        "author": "Evans",
+        "year": "2021",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "issue": "20",
+        "key": "D4SC05168H/cit26/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "14079",
+        "DOI": "10.1021/jacs.4c02418",
+        "volume": "146",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "issue": "7",
+        "key": "D4SC05168H/cit27/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "3233",
+        "DOI": "10.1021/jacs.1c13195",
+        "volume": "144",
+        "author": "Ou",
+        "year": "2022",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "issue": "1",
+        "key": "D4SC05168H/cit28/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "136",
+        "DOI": "10.1038/s41557-022-01071-3",
+        "volume": "15",
+        "author": "Sun",
+        "year": "2023",
+        "journal-title": "Nat. Chem."
+      },
+      {
+        "issue": "34",
+        "key": "D4SC05168H/cit29/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "8062",
+        "DOI": "10.1021/acs.jpclett.2c01481",
+        "volume": "13",
+        "author": "Niu",
+        "year": "2022",
+        "journal-title": "J. Phys. Chem. Lett."
+      },
+      {
+        "issue": "7903",
+        "key": "D4SC05168H/cit30/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "835",
+        "DOI": "10.1038/s41586-022-04409-6",
+        "volume": "603",
+        "author": "Zhan",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "15",
+        "key": "D4SC05168H/cit31/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "9745",
+        "DOI": "10.1039/C6CP08449D",
+        "volume": "19",
+        "author": "Koo",
+        "year": "2017",
+        "journal-title": "Phys. Chem. Chem. Phys."
+      },
+      {
+        "issue": "9",
+        "key": "D4SC05168H/cit32/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "3306",
+        "DOI": "10.1021/jacs.7b12529",
+        "volume": "140",
+        "author": "Nguyen",
+        "year": "2018",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "issue": "15",
+        "key": "D4SC05168H/cit33/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "10485",
+        "DOI": "10.1021/acsnano.3c11787",
+        "volume": "18",
+        "author": "Hao",
+        "year": "2024",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "issue": "19",
+        "key": "D4SC05168H/cit34/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "6654",
+        "DOI": "10.1073/pnas.0500193102",
+        "volume": "102",
+        "author": "Iftimie",
+        "year": "2005",
+        "journal-title": "Proc. Natl. Acad. Sci. U.S.A."
+      },
+      {
+        "issue": "1",
+        "key": "D4SC05168H/cit35/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/npjcompumats.2015.11",
+        "volume": "2",
+        "author": "Senftle",
+        "year": "2016",
+        "journal-title": "npj Comput. Mater."
+      },
+      {
+        "issue": "41",
+        "key": "D4SC05168H/cit36/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "9396",
+        "DOI": "10.1021/jp004368u",
+        "volume": "105",
+        "author": "Van Duin",
+        "year": "2001",
+        "journal-title": "J. Phys. Chem. A"
+      },
+      {
+        "issue": "45",
+        "key": "D4SC05168H/cit37/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "16310",
+        "DOI": "10.1021/jacs.7b09169",
+        "volume": "139",
+        "author": "Li",
+        "year": "2017",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "issue": "4",
+        "key": "D4SC05168H/cit38/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "398",
+        "DOI": "10.1021/acsmaterialslett.1c00002",
+        "volume": "3",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "ACS Mater. Lett."
+      },
+      {
+        "key": "D4SC05168H/cit39/1",
+        "first-page": "e202408937",
+        "author": "Tian",
+        "year": "2024",
+        "journal-title": "Angew. Chem., Int. Ed."
+      },
+      {
+        "key": "D4SC05168H/cit40/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "253",
+        "DOI": "10.1007/s10820-006-9042-9",
+        "volume": "14",
+        "author": "Chatterjee",
+        "year": "2007",
+        "journal-title": "J. Comput.-Aided Mater. Des."
+      },
+      {
+        "issue": "13",
+        "key": "D4SC05168H/cit41/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "134104",
+        "DOI": "10.1063/1.3369627",
+        "volume": "132",
+        "author": "Puchala",
+        "year": "2010",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "issue": "22",
+        "key": "D4SC05168H/cit42/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "9953",
+        "DOI": "10.1021/acs.macromol.0c02012",
+        "volume": "53",
+        "author": "Gissinger",
+        "year": "2020",
+        "journal-title": "Macromolecules"
+      },
+      {
+        "issue": "1",
+        "key": "D4SC05168H/cit43/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "51",
+        "DOI": "10.1002/asia.200600338",
+        "volume": "2",
+        "author": "Pisula",
+        "year": "2007",
+        "journal-title": "Chem.–Asian J."
+      },
+      {
+        "issue": "10",
+        "key": "D4SC05168H/cit44/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "5048",
+        "DOI": "10.1103/PhysRevB.23.5048",
+        "volume": "23",
+        "author": "Perdew",
+        "year": "1981",
+        "journal-title": "Phys. Rev. B: Condens. Matter Mater. Phys."
+      },
+      {
+        "issue": "21",
+        "key": "D4SC05168H/cit45/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "6678",
+        "DOI": "10.1021/ja800906f",
+        "volume": "130",
+        "author": "Zwaneveld",
+        "year": "2008",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "issue": "23",
+        "key": "D4SC05168H/cit46/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "8469",
+        "DOI": "10.1039/D0CS01027H",
+        "volume": "49",
+        "author": "Haase",
+        "year": "2020",
+        "journal-title": "Chem. Soc. Rev."
+      },
+      {
+        "issue": "9",
+        "key": "D4SC05168H/cit47/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1157",
+        "DOI": "10.1002/jcc.20035",
+        "volume": "25",
+        "author": "Wang",
+        "year": "2004",
+        "journal-title": "J. Comput. Chem."
+      },
+      {
+        "issue": "40",
+        "key": "D4SC05168H/cit48/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "10269",
+        "DOI": "10.1021/j100142a004",
+        "volume": "97",
+        "author": "Bayly",
+        "year": "1993",
+        "journal-title": "J. Phys. Chem."
+      },
+      {
+        "issue": "13",
+        "key": "D4SC05168H/cit49/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "6694",
+        "DOI": "10.1021/acs.langmuir.3c03294",
+        "volume": "40",
+        "author": "Lau",
+        "year": "2024",
+        "journal-title": "Langmuir"
+      },
+      {
+        "issue": "9",
+        "key": "D4SC05168H/cit50/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "7037",
+        "DOI": "10.1021/acsnano.3c10469",
+        "volume": "18",
+        "author": "Lyu",
+        "year": "2024",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "issue": "8",
+        "key": "D4SC05168H/cit51/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "6313",
+        "DOI": "10.1021/acs.jmedchem.3c02265",
+        "volume": "67",
+        "author": "Liu",
+        "year": "2024",
+        "journal-title": "J. Med. Chem."
+      },
+      {
+        "issue": "1",
+        "key": "D4SC05168H/cit52/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "417",
+        "DOI": "10.1038/s41467-023-44637-6",
+        "volume": "15",
+        "author": "Gradisch",
+        "year": "2024",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "issue": "12",
+        "key": "D4SC05168H/cit53/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "7983",
+        "DOI": "10.1103/PhysRevB.33.7983",
+        "volume": "33",
+        "author": "Foiles",
+        "year": "1986",
+        "journal-title": "Phys. Rev. B: Condens. Matter Mater. Phys."
+      },
+      {
+        "issue": "27",
+        "key": "D4SC05168H/cit54/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "14514",
+        "DOI": "10.1021/jp3042445",
+        "volume": "116",
+        "author": "Leuty",
+        "year": "2012",
+        "journal-title": "J. Phys. Chem. C"
+      },
+      {
+        "issue": "44",
+        "key": "D4SC05168H/cit55/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "17281",
+        "DOI": "10.1021/jp801931d",
+        "volume": "112",
+        "author": "Heinz",
+        "year": "2008",
+        "journal-title": "J. Phys. Chem. C"
+      },
+      {
+        "issue": "18",
+        "key": "D4SC05168H/cit56/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "3865",
+        "DOI": "10.1103/PhysRevLett.77.3865",
+        "volume": "77",
+        "author": "Perdew",
+        "year": "1996",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "issue": "11",
+        "key": "D4SC05168H/cit57/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "7413",
+        "DOI": "10.1103/PhysRevB.59.7413",
+        "volume": "59",
+        "author": "Hammer",
+        "year": "1999",
+        "journal-title": "Phys. Rev. B: Condens. Matter Mater. Phys."
+      },
+      {
+        "issue": "13",
+        "key": "D4SC05168H/cit58/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "136406",
+        "DOI": "10.1103/PhysRevLett.100.136406",
+        "volume": "100",
+        "author": "Perdew",
+        "year": "2008",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "issue": "5",
+        "key": "D4SC05168H/cit59/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1474",
+        "DOI": "10.1021/acs.macromol.1c01408",
+        "volume": "55",
+        "author": "Monteferrante",
+        "year": "2022",
+        "journal-title": "Macromolecules"
+      },
+      {
+        "issue": "3",
+        "key": "D4SC05168H/cit60/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1695",
+        "DOI": "10.1103/PhysRevA.31.1695",
+        "volume": "31",
+        "author": "Hoover",
+        "year": "1992",
+        "journal-title": "Phys. Rev. A"
+      },
+      {
+        "issue": "1",
+        "key": "D4SC05168H/cit61/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "98",
+        "DOI": "10.1103/PhysRev.159.98",
+        "volume": "159",
+        "author": "Verlet",
+        "year": "1967",
+        "journal-title": "Phys. Rev."
+      },
+      {
+        "issue": "20",
+        "key": "D4SC05168H/cit63/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "14251",
+        "DOI": "10.1103/PhysRevB.49.14251",
+        "volume": "49",
+        "author": "Kresse",
+        "year": "1994",
+        "journal-title": "Phys. Rev. B: Condens. Matter Mater. Phys."
+      },
+      {
+        "issue": "1",
+        "key": "D4SC05168H/cit64/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1016/0927-0256(96)00008-0",
+        "volume": "6",
+        "author": "Kresse",
+        "year": "1996",
+        "journal-title": "Comput. Mater. Sci."
+      },
+      {
+        "issue": "1",
+        "key": "D4SC05168H/cit65/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1006/jcph.1995.1039",
+        "volume": "117",
+        "author": "Plimpton",
+        "year": "1995",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "issue": "5",
+        "key": "D4SC05168H/cit66/1",
+        "doi-asserted-by": "crossref",
+        "first-page": "580",
+        "DOI": "10.1002/jcc.22885",
+        "volume": "33",
+        "author": "Lu",
+        "year": "2012",
+        "journal-title": "J. Comput. Chem."
+      },
+      {
+        "key": "D4SC05168H/cit67/1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1201/9780367806934",
+        "volume-title": "Computer Simulation Using Particles",
+        "author": "Hockney",
+        "year": "2021",
+        "unstructured": "R. W.Hockney  and  J. W.Eastwood ,  Computer Simulation Using Particles ,  crc Press ,  2021"
+      }
+    ],
+    "container-title": [
+      "Chemical Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.rsc.org/en/content/articlepdf/2024/SC/D4SC05168H",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://pubs.rsc.org/en/content/articlepdf/2024/SC/D4SC05168H",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          31
+        ]
+      ],
+      "date-time": "2024-10-31T10:08:23Z",
+      "timestamp": 1730369303000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://xlink.rsc.org/?DOI=D4SC05168H"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "references-count": 66,
+    "journal-issue": {
+      "issue": "42",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            30
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1039/d4sc05168h",
+    "relation": {},
+    "ISSN": [
+      "2041-6520",
+      "2041-6539"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2041-6520"
+      },
+      {
+        "type": "electronic",
+        "value": "2041-6539"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  }
+}

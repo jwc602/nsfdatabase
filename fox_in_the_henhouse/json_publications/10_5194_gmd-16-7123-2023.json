@@ -1,0 +1,3093 @@
+{
+  "doi": "10.5194/gmd-16-7123-2023",
+  "openalex": {
+    "id": "https://openalex.org/W4389515742",
+    "doi": "https://doi.org/10.5194/gmd-16-7123-2023",
+    "title": "Data assimilation for the Model for Prediction Across Scales – Atmosphere with the Joint Effort for Data assimilation Integration (JEDI-MPAS 2.0.0-beta): ensemble of 3D ensemble-variational (En-3DEnVar) assimilations",
+    "display_name": "Data assimilation for the Model for Prediction Across Scales – Atmosphere with the Joint Effort for Data assimilation Integration (JEDI-MPAS 2.0.0-beta): ensemble of 3D ensemble-variational (En-3DEnVar) assimilations",
+    "publication_year": 2023,
+    "publication_date": "2023-12-08",
+    "ids": {
+      "openalex": "https://openalex.org/W4389515742",
+      "doi": "https://doi.org/10.5194/gmd-16-7123-2023"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.5194/gmd-16-7123-2023",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5194/gmd-16-7123-2023",
+      "pdf_url": "https://gmd.copernicus.org/articles/16/7123/2023/gmd-16-7123-2023.pdf",
+      "source": {
+        "id": "https://openalex.org/S60406085",
+        "display_name": "Geoscientific model development",
+        "issn_l": "1991-959X",
+        "issn": [
+          "1991-959X",
+          "1991-9603"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310313756",
+        "host_organization_name": "Copernicus Publications",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310313756"
+        ],
+        "host_organization_lineage_names": [
+          "Copernicus Publications"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geoscientific Model Development",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://gmd.copernicus.org/articles/16/7123/2023/gmd-16-7123-2023.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5054940027",
+          "display_name": "Jonathan J. Guerrette",
+          "orcid": "https://orcid.org/0000-0002-2260-3801"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210132622",
+            "display_name": "Microscale (United States)",
+            "ror": "https://ror.org/03ak5tq12",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210154505",
+            "display_name": "Tomorrows Children’s Fund",
+            "ror": "https://ror.org/04wgs4413",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I4210154505"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jonathan J. Guerrette",
+        "raw_affiliation_strings": [
+          "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+          "now at: Tomorrow.io, Golden, CO 80401, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "now at: Tomorrow.io, Golden, CO 80401, USA",
+            "institution_ids": [
+              "https://openalex.org/I4210154505"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210132622"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100608598",
+          "display_name": "Zhiquan Liu",
+          "orcid": "https://orcid.org/0000-0003-4917-7686"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210132622",
+            "display_name": "Microscale (United States)",
+            "ror": "https://ror.org/03ak5tq12",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Zhiquan Liu",
+        "raw_affiliation_strings": [
+          "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210132622"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5067228362",
+          "display_name": "Chris Snyder",
+          "orcid": "https://orcid.org/0000-0002-2257-9776"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210132622",
+            "display_name": "Microscale (United States)",
+            "ror": "https://ror.org/03ak5tq12",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Chris Snyder",
+        "raw_affiliation_strings": [
+          "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210132622"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5021076723",
+          "display_name": "Byoung‐Joo Jung",
+          "orcid": "https://orcid.org/0000-0003-4691-058X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210132622",
+            "display_name": "Microscale (United States)",
+            "ror": "https://ror.org/03ak5tq12",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Byoung-Joo Jung",
+        "raw_affiliation_strings": [
+          "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210132622"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5035325621",
+          "display_name": "Craig S. Schwartz",
+          "orcid": "https://orcid.org/0009-0006-5887-4386"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210132622",
+            "display_name": "Microscale (United States)",
+            "ror": "https://ror.org/03ak5tq12",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Craig S. Schwartz",
+        "raw_affiliation_strings": [
+          "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210132622"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5113900561",
+          "display_name": "Junmei Ban",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210132622",
+            "display_name": "Microscale (United States)",
+            "ror": "https://ror.org/03ak5tq12",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Junmei Ban",
+        "raw_affiliation_strings": [
+          "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210132622"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5014162435",
+          "display_name": "Steven Vahl",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210132622",
+            "display_name": "Microscale (United States)",
+            "ror": "https://ror.org/03ak5tq12",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2799356940",
+            "display_name": "University Corporation for Atmospheric Research",
+            "ror": "https://ror.org/04zhhyn23",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Steven Vahl",
+        "raw_affiliation_strings": [
+          "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+          "now at:  Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "raw_affiliation_string": "now at:  Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5039745845",
+          "display_name": "Yali Wu",
+          "orcid": "https://orcid.org/0000-0003-3257-6058"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210132622",
+            "display_name": "Microscale (United States)",
+            "ror": "https://ror.org/03ak5tq12",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Yali Wu",
+        "raw_affiliation_strings": [
+          "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+          "now at:  Shenzhen Institute of Meteorological Innovation, Shenzhen, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "raw_affiliation_string": "now at:  Shenzhen Institute of Meteorological Innovation, Shenzhen, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5001841884",
+          "display_name": "Ivette Hernández Baños",
+          "orcid": "https://orcid.org/0000-0003-3821-1770"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210132622",
+            "display_name": "Microscale (United States)",
+            "ror": "https://ror.org/03ak5tq12",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Ivette Hernández Baños",
+        "raw_affiliation_strings": [
+          "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210132622"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101577603",
+          "display_name": "Yonggang G. Yu",
+          "orcid": "https://orcid.org/0000-0003-0539-0311"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210132622",
+            "display_name": "Microscale (United States)",
+            "ror": "https://ror.org/03ak5tq12",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I880747138",
+            "display_name": "Science Applications International Corporation (United States)",
+            "ror": "https://ror.org/00zv91802",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I880747138"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Yonggang G. Yu",
+        "raw_affiliation_strings": [
+          "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+          "now at:  Science Applications International Corporation, Reston, VA 20190, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "raw_affiliation_string": "now at:  Science Applications International Corporation, Reston, VA 20190, USA",
+            "institution_ids": [
+              "https://openalex.org/I880747138"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5000851455",
+          "display_name": "Soyoung Ha",
+          "orcid": "https://orcid.org/0000-0002-6970-8950"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210132622",
+            "display_name": "Microscale (United States)",
+            "ror": "https://ror.org/03ak5tq12",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210132622"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Soyoung Ha",
+        "raw_affiliation_strings": [
+          "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Mesoscale and Microscale Meteorology Laboratory, National Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210132622"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019603677",
+          "display_name": "Yannick Trémolet",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2799356940",
+            "display_name": "University Corporation for Atmospheric Research",
+            "ror": "https://ror.org/04zhhyn23",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Yannick Trémolet",
+        "raw_affiliation_strings": [
+          "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5111657108",
+          "display_name": "Thomas Auligné",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2799356940",
+            "display_name": "University Corporation for Atmospheric Research",
+            "ror": "https://ror.org/04zhhyn23",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Thomas Auligné",
+        "raw_affiliation_strings": [
+          "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5056403367",
+          "display_name": "Clementine Gas",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2799356940",
+            "display_name": "University Corporation for Atmospheric Research",
+            "ror": "https://ror.org/04zhhyn23",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Clementine Gas",
+        "raw_affiliation_strings": [
+          "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5034705960",
+          "display_name": "Benjamin Ménétrier",
+          "orcid": "https://orcid.org/0000-0002-2593-3398"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2799356940",
+            "display_name": "University Corporation for Atmospheric Research",
+            "ror": "https://ror.org/04zhhyn23",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Benjamin Ménétrier",
+        "raw_affiliation_strings": [
+          "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040878216",
+          "display_name": "Anna Shlyaeva",
+          "orcid": "https://orcid.org/0000-0002-7146-7316"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2799356940",
+            "display_name": "University Corporation for Atmospheric Research",
+            "ror": "https://ror.org/04zhhyn23",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Anna Shlyaeva",
+        "raw_affiliation_strings": [
+          "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5018307461",
+          "display_name": "Mark S. Miesch",
+          "orcid": "https://orcid.org/0000-0003-1976-0811"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4387930242",
+            "display_name": "NOAA Space Weather Prediction Center",
+            "ror": "https://ror.org/01j6j9107",
+            "country_code": null,
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1308126019",
+              "https://openalex.org/I1343035065",
+              "https://openalex.org/I1343035065",
+              "https://openalex.org/I4210093799",
+              "https://openalex.org/I4210095787",
+              "https://openalex.org/I4387930242"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1308126019",
+            "display_name": "National Oceanic and Atmospheric Administration",
+            "ror": "https://ror.org/02z5nhe81",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1308126019",
+              "https://openalex.org/I1343035065"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2799356940",
+            "display_name": "University Corporation for Atmospheric Research",
+            "ror": "https://ror.org/04zhhyn23",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Mark Miesch",
+        "raw_affiliation_strings": [
+          "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+          "now at: CIRES, University of Colorado, NOAA Space Weather Prediction Center, Boulder, CO 80309, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799356940"
+            ]
+          },
+          {
+            "raw_affiliation_string": "now at: CIRES, University of Colorado, NOAA Space Weather Prediction Center, Boulder, CO 80309, USA",
+            "institution_ids": [
+              "https://openalex.org/I1308126019",
+              "https://openalex.org/I4387930242"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062786612",
+          "display_name": "Stephen Herbener",
+          "orcid": "https://orcid.org/0000-0003-3926-9624"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2799356940",
+            "display_name": "University Corporation for Atmospheric Research",
+            "ror": "https://ror.org/04zhhyn23",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Stephen Herbener",
+        "raw_affiliation_strings": [
+          "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5002387866",
+          "display_name": "Emily Liu",
+          "orcid": "https://orcid.org/0000-0002-6396-067X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210093799",
+            "display_name": "NOAA National Centers for Environmental Prediction",
+            "ror": "https://ror.org/00ndyev54",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1308126019",
+              "https://openalex.org/I1343035065",
+              "https://openalex.org/I1343035065",
+              "https://openalex.org/I4210093799",
+              "https://openalex.org/I4210095787"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2799356940",
+            "display_name": "University Corporation for Atmospheric Research",
+            "ror": "https://ror.org/04zhhyn23",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Emily Liu",
+        "raw_affiliation_strings": [
+          "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+          "now at:  National Centers for Environmental Prediction, NOAA, College Park, MD 20740, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799356940"
+            ]
+          },
+          {
+            "raw_affiliation_string": "now at:  National Centers for Environmental Prediction, NOAA, College Park, MD 20740, USA",
+            "institution_ids": [
+              "https://openalex.org/I4210093799"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5085383374",
+          "display_name": "Daniel Holdaway",
+          "orcid": "https://orcid.org/0000-0002-3672-2588"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1306266525",
+            "display_name": "Goddard Space Flight Center",
+            "ror": "https://ror.org/0171mag52",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1306266525",
+              "https://openalex.org/I4210124779"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2799356940",
+            "display_name": "University Corporation for Atmospheric Research",
+            "ror": "https://ror.org/04zhhyn23",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Daniel Holdaway",
+        "raw_affiliation_strings": [
+          "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+          "now at:  NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799356940"
+            ]
+          },
+          {
+            "raw_affiliation_string": "now at:  NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+            "institution_ids": [
+              "https://openalex.org/I1306266525"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5084494352",
+          "display_name": "Benjamin T. Johnson",
+          "orcid": "https://orcid.org/0000-0003-4746-2328"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2799356940",
+            "display_name": "University Corporation for Atmospheric Research",
+            "ror": "https://ror.org/04zhhyn23",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Benjamin T. Johnson",
+        "raw_affiliation_strings": [
+          "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint Center for Satellite Data Assimilation, University Center for Atmospheric Research, Boulder, CO 80301, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799356940"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 21,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5040878216",
+      "https://openalex.org/A5019603677",
+      "https://openalex.org/A5100608598",
+      "https://openalex.org/A5062786612",
+      "https://openalex.org/A5039745845",
+      "https://openalex.org/A5113900561",
+      "https://openalex.org/A5018307461",
+      "https://openalex.org/A5014162435",
+      "https://openalex.org/A5101577603",
+      "https://openalex.org/A5056403367",
+      "https://openalex.org/A5034705960",
+      "https://openalex.org/A5085383374",
+      "https://openalex.org/A5111657108",
+      "https://openalex.org/A5084494352",
+      "https://openalex.org/A5067228362",
+      "https://openalex.org/A5000851455",
+      "https://openalex.org/A5021076723",
+      "https://openalex.org/A5035325621",
+      "https://openalex.org/A5002387866",
+      "https://openalex.org/A5001841884",
+      "https://openalex.org/A5054940027"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I107766831",
+      "https://openalex.org/I1306266525",
+      "https://openalex.org/I1308126019",
+      "https://openalex.org/I2799356940",
+      "https://openalex.org/I4210093799",
+      "https://openalex.org/I4210132622",
+      "https://openalex.org/I4210154505",
+      "https://openalex.org/I4387930242",
+      "https://openalex.org/I880747138"
+    ],
+    "apc_list": {
+      "value": 1600,
+      "currency": "EUR",
+      "value_usd": 1725
+    },
+    "apc_paid": {
+      "value": 1600,
+      "currency": "EUR",
+      "value_usd": 1725
+    },
+    "fwci": 0.86225891,
+    "has_fulltext": true,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.74773313,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 94,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "16",
+      "issue": "23",
+      "first_page": "7123",
+      "last_page": "7142"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10466",
+      "display_name": "Meteorological Phenomena and Simulations",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10466",
+        "display_name": "Meteorological Phenomena and Simulations",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1902",
+          "display_name": "Atmospheric Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10029",
+        "display_name": "Climate variability and models",
+        "score": 0.9997000098228455,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2306",
+          "display_name": "Global and Planetary Change"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11371",
+        "display_name": "Wind and Air Flow Studies",
+        "score": 0.996999979019165,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/data-assimilation",
+        "display_name": "Data assimilation",
+        "score": 0.8376606702804565
+      },
+      {
+        "id": "https://openalex.org/keywords/ensemble-forecasting",
+        "display_name": "Ensemble forecasting",
+        "score": 0.7510451078414917
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5741965770721436
+      },
+      {
+        "id": "https://openalex.org/keywords/ensemble-kalman-filter",
+        "display_name": "Ensemble Kalman filter",
+        "score": 0.5649464726448059
+      },
+      {
+        "id": "https://openalex.org/keywords/ensemble-learning",
+        "display_name": "Ensemble learning",
+        "score": 0.5523005723953247
+      },
+      {
+        "id": "https://openalex.org/keywords/forecast-skill",
+        "display_name": "Forecast skill",
+        "score": 0.5422043204307556
+      },
+      {
+        "id": "https://openalex.org/keywords/kalman-filter",
+        "display_name": "Kalman filter",
+        "score": 0.4399884343147278
+      },
+      {
+        "id": "https://openalex.org/keywords/covariance",
+        "display_name": "Covariance",
+        "score": 0.41921043395996094
+      },
+      {
+        "id": "https://openalex.org/keywords/meteorology",
+        "display_name": "Meteorology",
+        "score": 0.3942132592201233
+      },
+      {
+        "id": "https://openalex.org/keywords/environmental-science",
+        "display_name": "Environmental science",
+        "score": 0.3701924979686737
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.3202883303165436
+      },
+      {
+        "id": "https://openalex.org/keywords/statistics",
+        "display_name": "Statistics",
+        "score": 0.20707014203071594
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.2049146294593811
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.17417943477630615
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.1331545114517212
+      },
+      {
+        "id": "https://openalex.org/keywords/extended-kalman-filter",
+        "display_name": "Extended Kalman filter",
+        "score": 0.1112007200717926
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C24552861",
+        "wikidata": "https://www.wikidata.org/wiki/Q2670177",
+        "display_name": "Data assimilation",
+        "level": 2,
+        "score": 0.8376606702804565
+      },
+      {
+        "id": "https://openalex.org/C119898033",
+        "wikidata": "https://www.wikidata.org/wiki/Q3433888",
+        "display_name": "Ensemble forecasting",
+        "level": 2,
+        "score": 0.7510451078414917
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5741965770721436
+      },
+      {
+        "id": "https://openalex.org/C79334102",
+        "wikidata": "https://www.wikidata.org/wiki/Q3072268",
+        "display_name": "Ensemble Kalman filter",
+        "level": 4,
+        "score": 0.5649464726448059
+      },
+      {
+        "id": "https://openalex.org/C45942800",
+        "wikidata": "https://www.wikidata.org/wiki/Q245652",
+        "display_name": "Ensemble learning",
+        "level": 2,
+        "score": 0.5523005723953247
+      },
+      {
+        "id": "https://openalex.org/C170061395",
+        "wikidata": "https://www.wikidata.org/wiki/Q5468164",
+        "display_name": "Forecast skill",
+        "level": 2,
+        "score": 0.5422043204307556
+      },
+      {
+        "id": "https://openalex.org/C157286648",
+        "wikidata": "https://www.wikidata.org/wiki/Q846780",
+        "display_name": "Kalman filter",
+        "level": 2,
+        "score": 0.4399884343147278
+      },
+      {
+        "id": "https://openalex.org/C178650346",
+        "wikidata": "https://www.wikidata.org/wiki/Q201984",
+        "display_name": "Covariance",
+        "level": 2,
+        "score": 0.41921043395996094
+      },
+      {
+        "id": "https://openalex.org/C153294291",
+        "wikidata": "https://www.wikidata.org/wiki/Q25261",
+        "display_name": "Meteorology",
+        "level": 1,
+        "score": 0.3942132592201233
+      },
+      {
+        "id": "https://openalex.org/C39432304",
+        "wikidata": "https://www.wikidata.org/wiki/Q188847",
+        "display_name": "Environmental science",
+        "level": 0,
+        "score": 0.3701924979686737
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.3202883303165436
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.20707014203071594
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.2049146294593811
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.17417943477630615
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.1331545114517212
+      },
+      {
+        "id": "https://openalex.org/C206833254",
+        "wikidata": "https://www.wikidata.org/wiki/Q5421817",
+        "display_name": "Extended Kalman filter",
+        "level": 3,
+        "score": 0.1112007200717926
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.5194/gmd-16-7123-2023",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5194/gmd-16-7123-2023",
+        "pdf_url": "https://gmd.copernicus.org/articles/16/7123/2023/gmd-16-7123-2023.pdf",
+        "source": {
+          "id": "https://openalex.org/S60406085",
+          "display_name": "Geoscientific model development",
+          "issn_l": "1991-959X",
+          "issn": [
+            "1991-959X",
+            "1991-9603"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310313756",
+          "host_organization_name": "Copernicus Publications",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310313756"
+          ],
+          "host_organization_lineage_names": [
+            "Copernicus Publications"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Geoscientific Model Development",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:8bad33cc031043f787e778e416a336af",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/8bad33cc031043f787e778e416a336af",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Geoscientific Model Development, Vol 16, Pp 7123-7142 (2023)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:noaa.stacks:noaa:64356",
+        "is_oa": true,
+        "landing_page_url": "https://repository.library.noaa.gov/view/noaa/64356",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4377196172",
+          "display_name": "NOAA Institutional Repository",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Geoscientific Model Development, 16(23), 7123-7142",
+        "raw_type": ""
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.5194/gmd-16-7123-2023",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5194/gmd-16-7123-2023",
+      "pdf_url": "https://gmd.copernicus.org/articles/16/7123/2023/gmd-16-7123-2023.pdf",
+      "source": {
+        "id": "https://openalex.org/S60406085",
+        "display_name": "Geoscientific model development",
+        "issn_l": "1991-959X",
+        "issn": [
+          "1991-959X",
+          "1991-9603"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310313756",
+        "host_organization_name": "Copernicus Publications",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310313756"
+        ],
+        "host_organization_lineage_names": [
+          "Copernicus Publications"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geoscientific Model Development",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/13",
+        "score": 0.699999988079071,
+        "display_name": "Climate action"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G2057315777",
+        "display_name": null,
+        "funder_award_id": "NA21OAR4310383",
+        "funder_id": "https://openalex.org/F4320332467",
+        "funder_display_name": "U.S. Air Force"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320332467",
+        "display_name": "U.S. Air Force",
+        "ror": "https://ror.org/006gmme17"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 66,
+    "referenced_works": [
+      "https://openalex.org/W1999070801",
+      "https://openalex.org/W2179584279",
+      "https://openalex.org/W2174105915",
+      "https://openalex.org/W2011088711",
+      "https://openalex.org/W3025396014",
+      "https://openalex.org/W2067210975",
+      "https://openalex.org/W2610474129",
+      "https://openalex.org/W2048163104",
+      "https://openalex.org/W1978990678",
+      "https://openalex.org/W2748353018",
+      "https://openalex.org/W1869591416",
+      "https://openalex.org/W2092814042",
+      "https://openalex.org/W2554030136",
+      "https://openalex.org/W2582001085",
+      "https://openalex.org/W1981476726",
+      "https://openalex.org/W3011749387",
+      "https://openalex.org/W2538865650",
+      "https://openalex.org/W2179860363",
+      "https://openalex.org/W2033530468",
+      "https://openalex.org/W6910975597",
+      "https://openalex.org/W4252141316",
+      "https://openalex.org/W2166317254",
+      "https://openalex.org/W2009104157",
+      "https://openalex.org/W2796594653",
+      "https://openalex.org/W2105617589",
+      "https://openalex.org/W2762011891",
+      "https://openalex.org/W2176106259",
+      "https://openalex.org/W2138126731",
+      "https://openalex.org/W6927563438",
+      "https://openalex.org/W1989111797",
+      "https://openalex.org/W1987308763",
+      "https://openalex.org/W1978801107",
+      "https://openalex.org/W6963693736",
+      "https://openalex.org/W6969150581",
+      "https://openalex.org/W4384298379",
+      "https://openalex.org/W2173251738",
+      "https://openalex.org/W2024560462",
+      "https://openalex.org/W2607239096",
+      "https://openalex.org/W2095924101",
+      "https://openalex.org/W2170391029",
+      "https://openalex.org/W2042151453",
+      "https://openalex.org/W1980578404",
+      "https://openalex.org/W2902089242",
+      "https://openalex.org/W4307258668",
+      "https://openalex.org/W1980785126",
+      "https://openalex.org/W2565909529",
+      "https://openalex.org/W2554067483",
+      "https://openalex.org/W2884149865",
+      "https://openalex.org/W2019577161",
+      "https://openalex.org/W6911098925",
+      "https://openalex.org/W6892136577",
+      "https://openalex.org/W6910787570",
+      "https://openalex.org/W2932882460",
+      "https://openalex.org/W1975872175",
+      "https://openalex.org/W2172819965",
+      "https://openalex.org/W2150052759",
+      "https://openalex.org/W2786108340",
+      "https://openalex.org/W1915827288",
+      "https://openalex.org/W2076690115",
+      "https://openalex.org/W2886853681",
+      "https://openalex.org/W2147119488",
+      "https://openalex.org/W2045381799",
+      "https://openalex.org/W2168823409",
+      "https://openalex.org/W2173785495",
+      "https://openalex.org/W2737355539",
+      "https://openalex.org/W4220738091"
+    ],
+    "related_works": [
+      "https://openalex.org/W4212971657",
+      "https://openalex.org/W1949985943",
+      "https://openalex.org/W2089385108",
+      "https://openalex.org/W2363380593",
+      "https://openalex.org/W2377052976",
+      "https://openalex.org/W2991541038",
+      "https://openalex.org/W1988097696",
+      "https://openalex.org/W2121296646",
+      "https://openalex.org/W2538865650",
+      "https://openalex.org/W4313648446"
+    ],
+    "abstract_inverted_index": {
+      "Abstract.": [
+        0
+      ],
+      "An": [
+        1,
+        210
+      ],
+      "ensemble": [
+        2,
+        61,
+        68,
+        75,
+        114,
+        126,
+        137,
+        187,
+        208,
+        221
+      ],
+      "of": [
+        3,
+        62,
+        251
+      ],
+      "3D": [
+        4
+      ],
+      "ensemble-variational": [
+        5
+      ],
+      "(En-3DEnVar)": [
+        6
+      ],
+      "data": [
+        7
+      ],
+      "assimilations": [
+        8
+      ],
+      "is": [
+        9,
+        55,
+        241,
+        256
+      ],
+      "demonstrated": [
+        10
+      ],
+      "with": [
+        11,
+        20,
+        46,
+        67,
+        223
+      ],
+      "the": [
+        12,
+        21,
+        108,
+        134,
+        185,
+        205,
+        219,
+        233
+      ],
+      "Joint": [
+        13
+      ],
+      "Effort": [
+        14
+      ],
+      "for": [
+        15,
+        23,
+        246,
+        271
+      ],
+      "Data": [
+        16,
+        109
+      ],
+      "assimilation": [
+        17
+      ],
+      "Integration": [
+        18
+      ],
+      "(JEDI)": [
+        19
+      ],
+      "Model": [
+        22
+      ],
+      "Prediction": [
+        24
+      ],
+      "Across": [
+        25
+      ],
+      "Scales": [
+        26
+      ],
+      "–": [
+        27
+      ],
+      "Atmosphere": [
+        28
+      ],
+      "(MPAS-A)": [
+        29
+      ],
+      "(i.e.,": [
+        30
+      ],
+      "JEDI-MPAS).": [
+        31
+      ],
+      "Basic": [
+        32
+      ],
+      "software": [
+        33
+      ],
+      "building": [
+        34
+      ],
+      "blocks": [
+        35
+      ],
+      "are": [
+        36,
+        65,
+        97,
+        145,
+        155,
+        196,
+        265
+      ],
+      "reused": [
+        37
+      ],
+      "from": [
+        38,
+        140,
+        167
+      ],
+      "previously": [
+        39
+      ],
+      "presented": [
+        40
+      ],
+      "deterministic": [
+        41,
+        150,
+        191
+      ],
+      "3DEnVar": [
+        42,
+        152,
+        236
+      ],
+      "functionality": [
+        43
+      ],
+      "and": [
+        44,
+        92,
+        129,
+        142,
+        204,
+        244,
+        254,
+        261
+      ],
+      "combined": [
+        45
+      ],
+      "a": [
+        47,
+        71,
+        78,
+        103,
+        124,
+        158,
+        224
+      ],
+      "formal": [
+        48
+      ],
+      "experimental": [
+        49,
+        176
+      ],
+      "workflow": [
+        50
+      ],
+      "manager": [
+        51
+      ],
+      "in": [
+        52,
+        70,
+        149,
+        189,
+        200
+      ],
+      "MPAS-Workflow.": [
+        53
+      ],
+      "En-3DEnVar": [
+        54,
+        90,
+        122,
+        141,
+        220,
+        240
+      ],
+      "used": [
+        56,
+        146
+      ],
+      "to": [
+        57,
+        99,
+        128,
+        157,
+        232,
+        258,
+        267
+      ],
+      "produce": [
+        58
+      ],
+      "an": [
+        59
+      ],
+      "80-member": [
+        60
+      ],
+      "analyses,": [
+        63
+      ],
+      "which": [
+        64,
+        154,
+        217
+      ],
+      "cycled": [
+        66
+      ],
+      "forecasts": [
+        69,
+        76,
+        138,
+        165
+      ],
+      "1-month": [
+        72
+      ],
+      "experiment.": [
+        73,
+        237
+      ],
+      "The": [
+        74,
+        89,
+        119,
+        136,
+        175,
+        238
+      ],
+      "approximate": [
+        77
+      ],
+      "purely": [
+        79
+      ],
+      "flow-dependent": [
+        80
+      ],
+      "background": [
+        81
+      ],
+      "error": [
+        82
+      ],
+      "covariance": [
+        83
+      ],
+      "(BEC)": [
+        84
+      ],
+      "at": [
+        85
+      ],
+      "each": [
+        86
+      ],
+      "analysis": [
+        87
+      ],
+      "time.": [
+        88
+      ],
+      "BECs": [
+        91,
+        148
+      ],
+      "prior": [
+        93
+      ],
+      "ensemble-mean": [
+        94
+      ],
+      "forecast": [
+        95,
+        229
+      ],
+      "errors": [
+        96,
+        132,
+        253
+      ],
+      "compared": [
+        98,
+        156,
+        231
+      ],
+      "those": [
+        100
+      ],
+      "produced": [
+        101
+      ],
+      "by": [
+        102
+      ],
+      "similar": [
+        104,
+        125
+      ],
+      "experiment": [
+        105,
+        120,
+        160,
+        212
+      ],
+      "that": [
+        106,
+        161,
+        213
+      ],
+      "uses": [
+        107,
+        162,
+        214
+      ],
+      "Assimilation": [
+        110
+      ],
+      "Research": [
+        111
+      ],
+      "Testbed": [
+        112
+      ],
+      "(DART)": [
+        113
+      ],
+      "adjustment": [
+        115
+      ],
+      "Kalman": [
+        116
+      ],
+      "filter": [
+        117
+      ],
+      "(EAKF).": [
+        118
+      ],
+      "using": [
+        121
+      ],
+      "produces": [
+        123
+      ],
+      "spread": [
+        127,
+        255
+      ],
+      "slightly": [
+        130
+      ],
+      "smaller": [
+        131
+      ],
+      "than": [
+        133,
+        184
+      ],
+      "EAKF.": [
+        135
+      ],
+      "initialized": [
+        139,
+        166
+      ],
+      "EAKF": [
+        143
+      ],
+      "analyses": [
+        144
+      ],
+      "as": [
+        147
+      ],
+      "cycling": [
+        151,
+        192
+      ],
+      "experiments,": [
+        153
+      ],
+      "control": [
+        159
+      ],
+      "20-member": [
+        163
+      ],
+      "MPAS-A": [
+        164
+      ],
+      "Global": [
+        168
+      ],
+      "Ensemble": [
+        169
+      ],
+      "Forecast": [
+        170
+      ],
+      "System": [
+        171
+      ],
+      "(GEFS)": [
+        172
+      ],
+      "initial": [
+        173
+      ],
+      "conditions.": [
+        174
+      ],
+      "ensembles": [
+        177
+      ],
+      "achieve": [
+        178
+      ],
+      "mostly": [
+        179
+      ],
+      "equivalent": [
+        180
+      ],
+      "or": [
+        181
+      ],
+      "better": [
+        182
+      ],
+      "performance": [
+        183
+      ],
+      "off-the-shelf": [
+        186
+      ],
+      "system": [
+        188
+      ],
+      "this": [
+        190
+      ],
+      "setting,": [
+        193
+      ],
+      "although": [
+        194
+      ],
+      "there": [
+        195
+      ],
+      "many": [
+        197
+      ],
+      "obvious": [
+        198
+      ],
+      "differences": [
+        199
+      ],
+      "configuration": [
+        201
+      ],
+      "between": [
+        202
+      ],
+      "GEFS": [
+        203
+      ],
+      "two": [
+        206
+      ],
+      "MPAS": [
+        207
+      ],
+      "systems.": [
+        209
+      ],
+      "additional": [
+        211
+      ],
+      "hybrid": [
+        215
+      ],
+      "3DEnVar,": [
+        216
+      ],
+      "combines": [
+        218
+      ],
+      "BEC": [
+        222
+      ],
+      "climatological": [
+        225
+      ],
+      "BEC,": [
+        226
+      ],
+      "increases": [
+        227
+      ],
+      "tropospheric": [
+        228
+      ],
+      "quality": [
+        230
+      ],
+      "corresponding": [
+        234
+      ],
+      "pure": [
+        235
+      ],
+      "JEDI-MPAS": [
+        239
+      ],
+      "technically": [
+        242
+      ],
+      "working": [
+        243
+      ],
+      "useful": [
+        245
+      ],
+      "future": [
+        247
+      ],
+      "research": [
+        248
+      ],
+      "studies.": [
+        249
+      ],
+      "Tuning": [
+        250
+      ],
+      "observation": [
+        252
+      ],
+      "needed": [
+        257,
+        266
+      ],
+      "improve": [
+        259,
+        268
+      ],
+      "performance,": [
+        260
+      ],
+      "several": [
+        262
+      ],
+      "algorithmic": [
+        263
+      ],
+      "advancements": [
+        264
+      ],
+      "computational": [
+        269
+      ],
+      "efficiency": [
+        270
+      ],
+      "larger-scale": [
+        272
+      ],
+      "applications.": [
+        273
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-12-28T23:10:05.387466",
+    "created_date": "2023-12-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          23
+        ]
+      ],
+      "date-time": "2025-11-23T14:22:22Z",
+      "timestamp": 1763907742939,
+      "version": "3.45.0"
+    },
+    "reference-count": 74,
+    "publisher": "Copernicus GmbH",
+    "issue": "23",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              8
+            ]
+          ],
+          "date-time": "2023-12-08T00:00:00Z",
+          "timestamp": 1701993600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006831",
+        "name": "U.S. Air Force",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NA21OAR4310383"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NA21OAR4310383"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006831",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Geosci. Model Dev."
+    ],
+    "abstract": "<jats:p>Abstract. An ensemble of 3D ensemble-variational (En-3DEnVar) data assimilations is demonstrated with the Joint Effort for Data assimilation Integration (JEDI) with the Model for Prediction Across Scales – Atmosphere (MPAS-A) (i.e., JEDI-MPAS). Basic software building blocks are reused from previously presented deterministic 3DEnVar functionality and combined with a formal experimental workflow manager in MPAS-Workflow. En-3DEnVar is used to produce an 80-member ensemble of analyses, which are cycled with ensemble forecasts in a 1-month experiment. The ensemble forecasts approximate a purely flow-dependent background error covariance (BEC) at each analysis time. The En-3DEnVar BECs and prior ensemble-mean forecast errors are compared to those produced by a similar experiment that uses the Data Assimilation Research Testbed (DART) ensemble adjustment Kalman filter (EAKF). The experiment using En-3DEnVar produces a similar ensemble spread to and slightly smaller errors than the EAKF. The ensemble forecasts initialized from En-3DEnVar and EAKF analyses are used as BECs in deterministic cycling 3DEnVar experiments, which are compared to a control experiment that uses 20-member MPAS-A forecasts initialized from Global Ensemble Forecast System (GEFS) initial conditions. The experimental ensembles achieve mostly equivalent or better performance than the off-the-shelf ensemble system in this deterministic cycling setting, although there are many obvious differences in configuration between GEFS and the two MPAS ensemble systems. An additional experiment that uses hybrid 3DEnVar, which combines the En-3DEnVar ensemble BEC with a climatological BEC, increases tropospheric forecast quality compared to the corresponding pure 3DEnVar experiment. The JEDI-MPAS En-3DEnVar is technically working and useful for future research studies. Tuning of observation errors and spread is needed to improve performance, and several algorithmic advancements are needed to improve computational efficiency for larger-scale applications.</jats:p>",
+    "DOI": "10.5194/gmd-16-7123-2023",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          8
+        ]
+      ],
+      "date-time": "2023-12-08T03:41:08Z",
+      "timestamp": 1702006868000
+    },
+    "page": "7123-7142",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Data assimilation for the Model for Prediction Across Scales – Atmosphere with the Joint Effort for Data assimilation Integration (JEDI-MPAS 2.0.0-beta): ensemble of 3D ensemble-variational (En-3DEnVar) assimilations"
+    ],
+    "prefix": "10.5194",
+    "volume": "16",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2260-3801",
+        "authenticated-orcid": false,
+        "given": "Jonathan J.",
+        "family": "Guerrette",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4917-7686",
+        "authenticated-orcid": false,
+        "given": "Zhiquan",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2257-9776",
+        "authenticated-orcid": false,
+        "given": "Chris",
+        "family": "Snyder",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4691-058X",
+        "authenticated-orcid": false,
+        "given": "Byoung-Joo",
+        "family": "Jung",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Craig S.",
+        "family": "Schwartz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Junmei",
+        "family": "Ban",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Steven",
+        "family": "Vahl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yali",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ivette Hernández",
+        "family": "Baños",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yonggang G.",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6970-8950",
+        "authenticated-orcid": false,
+        "given": "Soyoung",
+        "family": "Ha",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yannick",
+        "family": "Trémolet",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas",
+        "family": "Auligné",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Clementine",
+        "family": "Gas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Benjamin",
+        "family": "Ménétrier",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anna",
+        "family": "Shlyaeva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mark",
+        "family": "Miesch",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3926-9624",
+        "authenticated-orcid": false,
+        "given": "Stephen",
+        "family": "Herbener",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Emily",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "Holdaway",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Benjamin T.",
+        "family": "Johnson",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "3145",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          8
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anderson, J., Hoar, T., Raeder, K., Liu, H., Collins, N., Torn, R., and Avellano, A.: The Data Assimilation Research Testbed: A Community Facility, B. Am. Meteor. Soc., 90, 1283–1296, https://doi.org/10.1175/2009bams2618.1, 2009. a, b",
+        "DOI": "10.1175/2009BAMS2618.1"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anderson, J. L.: An Ensemble Adjustment Kalman Filter for Data Assimilation, Mon. Weather Rev., 129, 2884–2903, https://doi.org/10.1175/1520-0493(2001)129&amp;lt;2884:aeakff&amp;gt;2.0.co;2, 2001. a, b",
+        "DOI": "10.1175/1520-0493(2001)129<2884:AEAKFF>2.0.CO;2"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anderson, J. L.: A Local Least Squares Framework for Ensemble Filtering, Mon. Weather Rev., 131, 634–642, https://doi.org/10.1175/1520-0493(2003)131&amp;lt;0634:allsff&amp;gt;2.0.co;2, 2003. a",
+        "DOI": "10.1175/1520-0493(2003)131<0634:ALLSFF>2.0.CO;2"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anderson, J. L.: A Non-Gaussian Ensemble Filter Update for Data Assimilation, Mon. Weather Rev., 138, 4186–4198, https://doi.org/10.1175/2010mwr3253.1, 2010. a",
+        "DOI": "10.1175/2010MWR3253.1"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anderson, J. L.: A Marginal Adjustment Rank Histogram Filter for Non-Gaussian Ensemble Data Assimilation, Mon. Weather Rev., 148, 3361–3378, https://doi.org/10.1175/mwr-d-19-0307.1, 2020. a",
+        "DOI": "10.1175/MWR-D-19-0307.1"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anderson, J. L. and Collins, N.: Scalable Implementations of Ensemble Filter Algorithms for Data Assimilation, J. Atmos. Ocean. Tech., 24, 1452–1463, https://doi.org/10.1175/jtech2049.1, 2007. a",
+        "DOI": "10.1175/JTECH2049.1"
+      },
+      {
+        "key": "ref7",
+        "unstructured": "Andersson, E., Bouttier, F., Cardinali, C., Isaksen, L., and Saarinen, S.: Modelling of innovation statistics, in: Workshop on recent developments in data assimilation for atmosphere and ocean, ECMWF Annual Seminar 2003, ECMWF, Reading, UK, 8–12 September 2003, https://www.ecmwf.int/en/elibrary/15973-modelling-innovation-statistics (last access: 30 November 2022), 2003. a"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Arbogast, É., Desroziers, G., and Berre, L.: A parallel implementation of a 4DEnVar ensemble, Q. J. Roy. Meteor. Soc., 143, 2073–2083, https://doi.org/10.1002/qj.3061, 2017. a, b",
+        "DOI": "10.1002/qj.3061"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Berre, L. and Desroziers, G.: Filtering of Background Error Variances and Correlations by Local Spatial Averaging: A Review, Mon. Weather Rev., 138, 3693–3720, https://doi.org/10.1175/2010mwr3111.1, 2010. a",
+        "DOI": "10.1175/2010MWR3111.1"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Berre, L., Ştefănescu, S. E., and Pereira, M. B.: The representation of the analysis effect in three error simulation techniques, Tellus A, 58, 196, https://doi.org/10.1111/j.1600-0870.2006.00165.x, 2006. a",
+        "DOI": "10.1111/j.1600-0870.2006.00165.x"
+      },
+      {
+        "key": "ref11",
+        "unstructured": "Berre, L., Pannekoucke, O., Desroziers, G., Stefanescu, S. E., Chapnik, B., and Raynaud, L.: A variational assimilation ensemble and the spatial filtering of its error covariances: increase of sample size by local spatial averaging, in: Workshop on Flow-dependent aspects of data assimilation, 11–13 June 2007, ECMWF, Shinfield Park, Reading, https://www.ecmwf.int/en/elibrary/8172-variational-assimilation-ensemble-and-spatial-filtering-its-error-covariances (last access: 28 October 2022), 2007. a"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bishop, C. H., Whitaker, J. S., and Lei, L.: Gain Form of the Ensemble Transform Kalman Filter and Its Relevance to Satellite Data Assimilation with Model Space Ensemble Covariance Localization, Mon. Weather Rev., 145, 4575–4592, https://doi.org/10.1175/mwr-d-17-0102.1, 2017. a",
+        "DOI": "10.1175/MWR-D-17-0102.1"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bonavita, M., Hamrud, M., and Isaksen, L.: EnKF and Hybrid Gain Ensemble Data Assimilation. Part II: EnKF and Hybrid Gain Results, Mon. Weather Rev., 143, 4865–4882, https://doi.org/10.1175/mwr-d-15-0071.1, 2015. a",
+        "DOI": "10.1175/MWR-D-15-0071.1"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bowler, N. E., Flowerdew, J., and Pring, S. R.: Tests of different flavours of EnKF on a simple model, Q. J. Roy. Meteor. Soc., 139, 1505–1519, https://doi.org/10.1002/qj.2055, 2012. a",
+        "DOI": "10.1002/qj.2055"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bowler, N. E., Clayton, A. M., Jardak, M., Jermey, P. M., Lorenc, A. C., Wlasak, M. A., Barker, D. M., Inverarity, G. W., and Swinbank, R.: The effect of improved ensemble covariances on hybrid variational data assimilation, Q. J. Roy. Meteor. Soc., 143, 785–797, https://doi.org/10.1002/qj.2964, 2017a. a, b, c",
+        "DOI": "10.1002/qj.2964"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bowler, N. E., Clayton, A. M., Jardak, M., Lee, E., Lorenc, A. C., Piccolo, C., Pring, S. R., Wlasak, M. A., Barker, D. M., Inverarity, G. W., and Swinbank, R.: Inflation and localization tests in the development of an ensemble of 4D-ensemble variational assimilations, Q. J. Roy. Meteor. Soc., 143, 1280–1302, https://doi.org/10.1002/qj.3004, 2017b. a, b, c, d, e, f, g, h, i, j",
+        "DOI": "10.1002/qj.3004"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Buehner, M.: Ensemble-derived stationary and flow-dependent background-error covariances: Evaluation in a quasi-operational NWP setting, Q. J. Roy. Meteor. Soc., 131, 1013–1043, https://doi.org/10.1256/qj.04.15, 2005. a",
+        "DOI": "10.1256/qj.04.15"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Buehner, M.: Local Ensemble Transform Kalman Filter with Cross Validation, Mon. Weather Rev., 148, 2265–2282, https://doi.org/10.1175/mwr-d-19-0402.1, 2020. a, b, c",
+        "DOI": "10.1175/MWR-D-19-0402.1"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Buehner, M., McTaggart-Cowan, R., and Heilliette, S.: An ensemble Kalman filter for numerical weather prediction based on variational data assimilation: VarEnKF, Mon. Weather Rev., 145, 617–635, https://doi.org/10.1175/MWR-D-16-0106.1, 2017. a, b, c",
+        "DOI": "10.1175/MWR-D-16-0106.1"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Burgers, G., van Leeuwen, P. J., and Evensen, G.: Analysis Scheme in the Ensemble Kalman Filter, Mon. Weather Rev., 126, 1719–1724, https://doi.org/10.1175/1520-0493(1998)126&amp;lt;1719:asitek&amp;gt;2.0.co;2, 1998. a",
+        "DOI": "10.1175/1520-0493(1998)126<1719:ASITEK>2.0.CO;2"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Campbell, W. F., Bishop, C. H., and Hodyss, D.: Vertical Covariance Localization for Satellite Radiances in Ensemble Kalman Filters, Mon. Weather Rev., 138, 282–290, https://doi.org/10.1175/2009mwr3017.1, 2010. a",
+        "DOI": "10.1175/2009MWR3017.1"
+      },
+      {
+        "key": "ref22",
+        "unstructured": "Computational and Information Systems Laboratory: Cheyenne: HPE/SGI ICE XA System (NCAR Community Computing), Boulder, CO: National Center for Atmospheric Research, https://doi.org/10.5065/D6RX99HX, 2019. a"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Derber, J. and Bouttier, F.: A reformulation of the background error covariance in the ECMWF global data assimilation system, Tellus A, 51, 195–221, https://doi.org/10.3402/tellusa.v51i2.12316, 1999. a",
+        "DOI": "10.1034/j.1600-0870.1999.t01-2-00003.x"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Desroziers, G., Berre, L., Chapnik, B., and Poli, P.: Diagnosis of observation, background and analysis-error statistics in observation space, Q. J. Roy. Meteor. Soc., 131, 3385–3396, https://doi.org/10.1256/qj.05.108, 2005. a, b, c",
+        "DOI": "10.1256/qj.05.108"
+      },
+      {
+        "key": "ref25",
+        "unstructured": "Desroziers, G., Berre, L., and Pannekoucke, O.: Flow-dependent error covariances from variational assimilation ensembles on global and regional domains, Météo-France, Toulouse, France, HIRLAM Technical Report No. 68, https://www.umr-cnrm.fr/recyf/IMG/pdf/HIRLAM_TR68_Paper1_Desroziers.pdf (last access: 28 October 2022), 2008. a"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Evensen, G.: The Ensemble Kalman Filter: theoretical formulation and practical implementation, Ocean Dynam., 53, 343–367, https://doi.org/10.1007/s10236-003-0036-9, 2003. a",
+        "DOI": "10.1007/s10236-003-0036-9"
+      },
+      {
+        "key": "ref27",
+        "unstructured": "Fisher, M.: Background Error Covariance Modeling, in: Seminar on Recent developments in data assimilation for atmosphere and ocean, ECMWF, Shinfield Park, Reading, 8–12 September 2003, https://www.ecmwf.int/en/elibrary/9404-background-error-covariance-modelling (last access: 28 October 2022), 2003. a"
+      },
+      {
+        "key": "ref28",
+        "unstructured": "Gas, C.: Block Method Minimizer for Solving Ensemble of Data Assimilation, 18th JCSDA Technical Review Meeting and Science Workshop, Held Virtually, 7–11 June 2021, http://data.jcsda.org/Workshops/JCSDA-18th-Workshop/Tuesday/8.Gas.pdf (last access: 28 October 2022), 2021. a"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gilleland, E., Hering, A. S., Fowler, T. L., and Brown, B. G.: Testing the Tests: What Are the Impacts of Incorrect Assumptions When Applying Confidence Intervals or Hypothesis Tests to Compare Competing Forecasts?, Mon. Weather Rev., 146, 1685–1703, https://doi.org/10.1175/mwr-d-17-0295.1, 2018. a",
+        "DOI": "10.1175/MWR-D-17-0295.1"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Greybush, S. J., Kalnay, E., Miyoshi, T., Ide, K., and Hunt, B. R.: Balance and Ensemble Kalman Filter Localization Techniques, Mon. Weather Rev., 139, 511–522, https://doi.org/10.1175/2010mwr3328.1, 2011. a",
+        "DOI": "10.1175/2010MWR3328.1"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ha, S., Snyder, C., Skamarock, W. C., Anderson, J., and Collins, N.: Ensemble Kalman Filter Data Assimilation for the Model for Prediction Across Scales (MPAS), Mon. Weather Rev., 145, 4673–4692, https://doi.org/10.1175/mwr-d-17-0145.1, 2017. a, b",
+        "DOI": "10.1175/MWR-D-17-0145.1"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hamill, T. M., Snyder, C., and Morss, R. E.: A comparison of probabilistic forecasts from bred, singular-vector, and perturbed observation ensembles, Mon. Weather Rev., 128, 1835–1851, https://doi.org/10.1175/1520-0493(2000)128&amp;lt;1835:ACOPFF&amp;gt;2.0.CO;2, 2000. a",
+        "DOI": "10.1175/1520-0493(2000)128<1835:ACOPFF>2.0.CO;2"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hamrud, M., Bonavita, M., and Isaksen, L.: EnKF and Hybrid Gain Ensemble Data Assimilation. Part I: EnKF Implementation, Mon. Weather Rev., 143, 4847–4864, https://doi.org/10.1175/mwr-d-14-00333.1, 2015. a",
+        "DOI": "10.1175/MWR-D-14-00333.1"
+      },
+      {
+        "key": "ref34",
+        "unstructured": "Honeyager, R., Herbener, S., Zhang, X., Shlyaeva, A., and Trémolet, Y.: Observations in the Joint Effort for Data Assimilation Integration (JEDI) – Unified Forward Operator (UFO) and Interface for Observation Data Access (IODA), JCSDA Quarterly Newsletter, 66, 24–34, https://doi.org/10.25923/RB19-0Q26, 2020. a, b"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Houtekamer, P. L. and Derome, J.: Methods for ensemble prediction, Mon. Weather Rev., 123, 2181–2196, https://doi.org/10.1175/1520-0493(1995)123&amp;lt;2181:MFEP&amp;gt;2.0.CO;2, 1995. a",
+        "DOI": "10.1175/1520-0493(1995)123<2181:MFEP>2.0.CO;2"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Houtekamer, P. L. and Mitchell, H. L.: Data Assimilation Using an Ensemble Kalman Filter Technique, Mon. Weather Rev., 126, 796–811, https://doi.org/10.1175/1520-0493(1998)126&amp;lt;0796:dauaek&amp;gt;2.0.co;2, 1998. a, b",
+        "DOI": "10.1175/1520-0493(1998)126<0796:DAUAEK>2.0.CO;2"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Houtekamer, P. L., Lefaivre, L., Derome, J., Ritchie, H., and Mitchell, H. L.: A system simulation approach to ensemble prediction, Mon. Weather Rev., 124, 1225–1242, https://doi.org/10.1175/1520-0493(1996)124&amp;lt;1225:ASSATE&amp;gt;2.0.CO;2, 1996. a",
+        "DOI": "10.1175/1520-0493(1996)124<1225:ASSATE>2.0.CO;2"
+      },
+      {
+        "key": "ref38",
+        "unstructured": "Ingleby, B.: Global assimilation of air temperature, humidity, wind and pressure from surface stations: practice and performance, Met Office, Exeter, UK, Forecasting Research Technical Report 582, https://digital.nmla.metoffice.gov.uk/digitalFile_e12ba2af-84e9-45f2-8f30-146ae421f45c/ (last access: 28 October 2022), 2013. a"
+      },
+      {
+        "key": "ref39",
+        "unstructured": "Isaksen, L., Bonavita, M., Buizza, R., Fisher, M., Haseler, J., Leutbecher, M., and Raynaud, L.: Ensemble of data assimilations at ECMWF, Technical Memoranda 636, https://doi.org/10.21957/OBKE4K60, 2010. a"
+      },
+      {
+        "key": "ref40",
+        "unstructured": "Joint Center For Satellite Data Assimilation and National Center For Atmospheric Research: JEDI-MPAS Data Assimilation System v2.0.0-beta, Zenodo [code], https://doi.org/10.5281/zenodo.7630054, 2022. a"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jung, B.-J., Ménétrier, B., Snyder, C., Liu, Z., Guerrette, J. J., Ban, J., Baños, I. H., Yu, Y. G., and Skamarock, W. C.: Three-dimensional variational assimilation with a multivariate background error covariance for the Model for Prediction Across Scales–Atmosphere with the Joint Effort for data Assimilation Integration (JEDI-MPAS 2.0.0-beta), Geosci. Model Dev. Discuss. [preprint], https://doi.org/10.5194/gmd-2023-131, in review, 2023. a, b, c, d, e, f",
+        "DOI": "10.5194/gmd-2023-131"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kalnay, E., Kanamitsu, M., Kistler, R., Collins, W., Deaven, D., Gandin, L., Iredell, M., Saha, S., White, G., Woollen, J., Zhu, Y., Leetmaa, A., Reynolds, R., Chelliah, M., Ebisuzaki, W., Higgins, W., Janowiak, J., Mo, K. C., Ropelewski, C., Wang, J., Jenne, R., and Joseph, D.: The NCEP/NCAR 40-Year Reanalysis Project, B. Am. Meteor. Soc., 77, 437–471, https://doi.org/10.1175/1520-0477(1996)077&amp;lt;0437:TNYRP&amp;gt;2.0.CO;2, 1996. a",
+        "DOI": "10.1175/1520-0477(1996)077<0437:TNYRP>2.0.CO;2"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kleist, D. T. and Ide, K.: An OSSE-Based Evaluation of Hybrid Variational–Ensemble Data Assimilation for the NCEP GFS. Part II: 4DEnVar and Hybrid Variants, Mon. Weather Rev., 143, 452–470, https://doi.org/10.1175/mwr-d-13-00350.1, 2015. a",
+        "DOI": "10.1175/MWR-D-13-00350.1"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kotsuki, S., Ota, Y., and Miyoshi, T.: Adaptive covariance relaxation methods for ensemble data assimilation: experiments in the real atmosphere, Q. J. Roy. Meteor. Soc., 143, 2001–2015, https://doi.org/10.1002/qj.3060, 2017. a",
+        "DOI": "10.1002/qj.3060"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Krishnamurti, T. N., Rajendran, K., Kumar, T. S. V. V., Lord, S., Toth, Z., Zou, X., Cocke, S., Ahlquist, J. E., and Navon, I. M.: Improved Skill for the Anomaly Correlation of Geopotential Heights at 500 hPa, Mon. Weather Rev., 131, 1082–1102, https://doi.org/10.1175/1520-0493(2003)131&amp;lt;1082:isftac&amp;gt;2.0.co;2, 2003. a",
+        "DOI": "10.1175/1520-0493(2003)131<1082:ISFTAC>2.0.CO;2"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lawless, A. S., Gratton, S., and Nichols, N. K.: Approximate iterative methods for variational data assimilation, Int. J. Numer. Meth. Fl., 47, 1129–1135, https://doi.org/10.1002/fld.851, 2005. a",
+        "DOI": "10.1002/fld.851"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lawson, W. G. and Hansen, J. A.: Implications of Stochastic and Deterministic Filters as Ensemble-Based Data Assimilation Methods in Varying Regimes of Error Growth, Mon. Weather Rev., 132, 1966–1981, https://doi.org/10.1175/1520-0493(2004)132&amp;lt;1966:IOSADF&amp;gt;2.0.CO;2, 2004. a",
+        "DOI": "10.1175/1520-0493(2004)132<1966:IOSADF>2.0.CO;2"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lei, J., Bickel, P., and Snyder, C.: Comparison of Ensemble Kalman Filters under Non-Gaussianity, Mon. Weather Rev., 138, 1293–1306, https://doi.org/10.1175/2009mwr3133.1, 2010. a",
+        "DOI": "10.1175/2009MWR3133.1"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lei, L., Whitaker, J. S., and Bishop, C.: Improving Assimilation of Radiance Observations by Implementing Model Space Localization in an Ensemble Kalman Filter, J. Adv. Model. Earth Sy., 10, 3221–3232, https://doi.org/10.1029/2018ms001468, 2018. a, b",
+        "DOI": "10.1029/2018MS001468"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Z., Snyder, C., Guerrette, J. J., Jung, B.-J., Ban, J., Vahl, S., Wu, Y., Trémolet, Y., Auligné, T., Ménétrier, B., Shlyaeva, A., Herbener, S., Liu, E., Holdaway, D., and Johnson, B. T.: Data assimilation for the Model for Prediction Across Scales – Atmosphere with the Joint Effort for Data assimilation Integration (JEDI-MPAS 1.0.0): EnVar implementation and evaluation, Geosci. Model Dev., 15, 7859–7878, https://doi.org/10.5194/gmd-15-7859-2022, 2022. a, b, c, d, e, f, g, h, i, j, k, l, m, n, o",
+        "DOI": "10.5194/gmd-15-7859-2022"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lorenc, A. C.: The potential of the ensemble Kalman filter for NWP–a comparison with 4D-Var, Q. J. Roy. Meteor. Soc., 129, 3183–3203, https://doi.org/10.1256/qj.02.132, 2003. a",
+        "DOI": "10.1256/qj.02.132"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lorenc, A. C.: Improving ensemble covariances in hybrid variational data assimilation without increasing ensemble size, Q. J. Roy. Meteor. Soc., 143, 1062–1072, https://doi.org/10.1002/qj.2990, 2017. a, b",
+        "DOI": "10.1002/qj.2990"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lorenc, A. C., Jardak, M., Payne, T., Bowler, N. E., and Wlasak, M. A.: Computing an ensemble of variational data assimilations using its mean and perturbations, Q. J. Roy. Meteor. Soc., 143, 798–805, https://doi.org/10.1002/qj.2965, 2017. a, b, c, d, e",
+        "DOI": "10.1002/qj.2965"
+      },
+      {
+        "key": "ref54",
+        "unstructured": "Ménétrier, B.: Normalized Interpolated Convolution from an Adaptive Subgrid documentation, https://github.com/benjaminmenetrier/nicas_doc/blob/master/nicas_doc.pdf (last access: 28 October 2022), 2020. a"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mercier, F., Gürol, S., Jolivet, P., Michel, Y., and Montmerle, T.: Block Krylov methods for accelerating ensembles of variational data assimilations, Q. J. Roy. Meteor. Soc., 144, 2463–2480, https://doi.org/10.1002/qj.3329, 2018. a, b",
+        "DOI": "10.1002/qj.3329"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mitchell, H. L. and Houtekamer, P. L.: Ensemble Kalman Filter Configurations and Their Performance with the Logistic Map, Mon. Weather Rev., 137, 4325–4343, https://doi.org/10.1175/2009mwr2823.1, 2009. a",
+        "DOI": "10.1175/2009MWR2823.1"
+      },
+      {
+        "key": "ref57",
+        "unstructured": "National Centers for Environmental Prediction/National Weather Service/NOAA/U.S. Department of Commerce: updated daily, NCEP ADP Global Upper Air and Surface Weather Observations (PREPBUFR format), Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory [data set], https://doi.org/10.5065/Z83F-N512, 2008. a"
+      },
+      {
+        "key": "ref58",
+        "unstructured": "National Centers for Environmental Prediction/National Weather Service/NOAA/U.S. Department of Commerce: updated daily, NCEP GDAS Satellite Data 2004-continuing, Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory [data set], https://doi.org/10.5065/DWYZ-Q852, 2009. a"
+      },
+      {
+        "key": "ref59",
+        "unstructured": "National Centers for Environmental Prediction/National Weather Service/NOAA/U.S. Department of Commerce: updated daily, NCEP GFS 0.25 Degree Global Forecast Grids Historical Archive, Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory [data set], https://doi.org/10.5065/D65D8PWK, 2015. a"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oliver, H., Shin, M., Matthews, D., Sanders, O., Bartholomew, S., Clark, A., Fitzpatrick, B., van Haren, R., Hut, R., and Drost, N.: Workflow Automation for Cycling Systems, Comput. Sci. Eng., 21, 7–21, https://doi.org/10.1109/mcse.2019.2906593, 2019. a",
+        "DOI": "10.1109/MCSE.2019.2906593"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Park, S.-H., Klemp, J. B., and Skamarock, W. C.: A Comparison of Mesh Refinement in the Global MPAS-A and WRF Models Using an Idealized Normal-Mode Baroclinic Wave Simulation, Mon. Weather Rev., 142, 3614–3634, https://doi.org/10.1175/mwr-d-14-00004.1, 2014. a",
+        "DOI": "10.1175/MWR-D-14-00004.1"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Parrish, D. F. and Derber, J. C.: The National Meteorological Center's Spectral Statistical-Interpolation Analysis System, Mon. Weather Rev., 120, 1747–1763, https://doi.org/10.1175/1520-0493(1992)120&amp;lt;1747:tnmcss&amp;gt;2.0.co;2, 1992. a",
+        "DOI": "10.1175/1520-0493(1992)120<1747:TNMCSS>2.0.CO;2"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sacher, W. and Bartello, P.: Sampling Errors in Ensemble Kalman Filtering. Part I: Theory, Mon. Weather Rev., 136, 3035–3049, https://doi.org/10.1175/2007mwr2323.1, 2008. a",
+        "DOI": "10.1175/2007MWR2323.1"
+      },
+      {
+        "key": "ref64",
+        "unstructured": "Satellite Services Division/Office of Satellite Data Processing and Distribution/NESDIS/NOAA/U.S. Department of Commerce, and National Centers for Environmental Prediction/National Weather Service/NOAA/U.S. Department of Commerce: NCEP ADP Global Upper Air Observational Weather Data, October 1999–continuing, Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory, updated daily, https://doi.org/10.5065/39C5-Z211, 2004. a"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shao, H., Derber, J., Huang, X.-Y., Hu, M., Newman, K., Stark, D., Lueken, M., Zhou, C., Nance, L., Kuo, Y.-H., and Brown, B.: Bridging Research to Operations Transitions: Status and Plans of Community GSI, B. Am. Meteor. Soc., 97, 1427–1440, https://doi.org/10.1175/bams-d-13-00245.1, 2016. a",
+        "DOI": "10.1175/BAMS-D-13-00245.1"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Skamarock, W. C., Klemp, J. B., Duda, M. G., Fowler, L. D., Park, S.-H., and Ringler, T. D.: A Multiscale Nonhydrostatic Atmospheric Model Using Centroidal Voronoi Tesselations and C-Grid Staggering, Mon. Weather Rev., 140, 3090–3105, https://doi.org/10.1175/mwr-d-11-00215.1, 2012. a, b",
+        "DOI": "10.1175/MWR-D-11-00215.1"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Skamarock, W. C., Duda, M. G., Ha, S., and Park, S.-H.: Limited-Area Atmospheric Modeling Using an Unstructured Mesh, Mon. Weather Rev., 146, 3445–3460, https://doi.org/10.1175/mwr-d-18-0155.1, 2018. a",
+        "DOI": "10.1175/MWR-D-18-0155.1"
+      },
+      {
+        "key": "ref68",
+        "unstructured": "Trémolet, Y. and Auligné, T.: The Joint Effort for Data Assimilation Integration (JEDI), JCSDA Quarterly Newsletter, 66, 1–5, https://doi.org/10.25923/RB19-0Q26, 2020. a"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Whitaker, J. S. and Hamill, T. M.: Ensemble Data Assimilation without Perturbed Observations, Mon. Weather Rev., 130, 1913–1924, https://doi.org/10.1175/1520-0493(2002)130&amp;lt;1913:EDAWPO&amp;gt;2.0.CO;2, 2002. a",
+        "DOI": "10.1175/1520-0493(2002)130<1913:EDAWPO>2.0.CO;2"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Whitaker, J. S. and Hamill, T. M.: Evaluating Methods to Account for System Errors in Ensemble Data Assimilation, Mon. Weather Rev., 140, 3078–3089, https://doi.org/10.1175/mwr-d-11-00276.1, 2012. a",
+        "DOI": "10.1175/MWR-D-11-00276.1"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zagar, N., Andersson, E., and Fisher, M.: Balanced tropical data assimilation based on a study of equatorial waves in ECMWF short-range forecast errors, Q. J. Roy. Meteor. Soc., 131, 987–1011, https://doi.org/10.1256/qj.04.54, 2005.  a",
+        "DOI": "10.1256/qj.04.54"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, F., Snyder, C., and Sun, J.: Impacts of Initial Estimate and Observation Availability on Convective-Scale Data Assimilation with an Ensemble Kalman Filter, Mon. Weather Rev., 132, 1238–1253, https://doi.org/10.1175/1520-0493(2004)132&amp;lt;1238:ioieao&amp;gt;2.0.co;2, 2004. a",
+        "DOI": "10.1175/1520-0493(2004)132<1238:IOIEAO>2.0.CO;2"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, X., Zhu, Y., Hou, D., Luo, Y., Peng, J., and Wobus, R.: Performance of the new NCEP Global Ensemble Forecast System in a parallel experiment, Weather Forecast., 32, 1989–2004, https://doi.org/10.1175/WAF-D-17-0023.1, 2017. a, b",
+        "DOI": "10.1175/WAF-D-17-0023.1"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, X., Zhu, Y., Hou, D., Fu, B., Li, W., Guan, H., Sinsky, E., Kolczynski, W., Xue, X., Luo, Y., Peng, J., Yang, B., Tallapragada, V., and Pegion, P.: The Development of the NCEP Global Ensemble Forecast System Version 12, Weather Forecast., 37, 1069–1084, https://doi.org/10.1175/waf-d-21-0112.1, 2022. a",
+        "DOI": "10.1175/WAF-D-21-0112.1"
+      }
+    ],
+    "container-title": [
+      "Geoscientific Model Development"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://gmd.copernicus.org/articles/16/7123/2023/gmd-16-7123-2023.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          22
+        ]
+      ],
+      "date-time": "2025-01-22T15:37:42Z",
+      "timestamp": 1737560262000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://gmd.copernicus.org/articles/16/7123/2023/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          8
+        ]
+      ]
+    },
+    "references-count": 74,
+    "journal-issue": {
+      "issue": "23",
+      "published-online": {
+        "date-parts": [
+          [
+            2023
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.5194/gmd-16-7123-2023",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-54",
+          "asserted-by": "subject"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-54-CC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-54-AC2",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-54-RC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-54-AC1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5194/gmd-2023-54-AC1",
+          "asserted-by": "subject"
+        }
+      ],
+      "is-part-of": [
+        {
+          "id-type": "doi",
+          "id": "10.5065/D65D8PWK",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5065/Z83F-N512",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5065/DWYZ-Q852",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5281/zenodo.7630054",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "1991-9603"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1991-9603"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          8
+        ]
+      ]
+    }
+  }
+}

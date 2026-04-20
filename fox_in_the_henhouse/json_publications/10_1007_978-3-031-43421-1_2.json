@@ -1,0 +1,1300 @@
+{
+  "doi": "10.1007/978-3-031-43421-1_2",
+  "openalex": {
+    "id": "https://openalex.org/W4386811773",
+    "doi": "https://doi.org/10.1007/978-3-031-43421-1_2",
+    "title": "Corpus-Based Relation Extraction by Identifying and Refining Relation Patterns",
+    "display_name": "Corpus-Based Relation Extraction by Identifying and Refining Relation Patterns",
+    "publication_year": 2023,
+    "publication_date": "2023-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4386811773",
+      "doi": "https://doi.org/10.1007/978-3-031-43421-1_2"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1007/978-3-031-43421-1_2",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/978-3-031-43421-1_2",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106296714",
+        "display_name": "Lecture notes in computer science",
+        "issn_l": "0302-9743",
+        "issn": [
+          "0302-9743",
+          "1611-3349"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "book series"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Lecture Notes in Computer Science",
+      "raw_type": "book-chapter"
+    },
+    "type": "book-chapter",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5040682019",
+          "display_name": "Sizhe Zhou",
+          "orcid": "https://orcid.org/0009-0005-5145-7152"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sizhe Zhou",
+        "raw_affiliation_strings": [
+          "Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5050943163",
+          "display_name": "Suyu Ge",
+          "orcid": "https://orcid.org/0000-0003-4802-6392"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157725225",
+            "display_name": "University of Illinois Urbana-Champaign",
+            "ror": "https://ror.org/047426m28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Suyu Ge",
+        "raw_affiliation_strings": [
+          "University of Illinois Urbana-Champaign, Urbana, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Illinois Urbana-Champaign, Urbana, USA",
+            "institution_ids": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5041327449",
+          "display_name": "Jiaming Shen",
+          "orcid": "https://orcid.org/0000-0002-0467-4956"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1291425158",
+            "display_name": "Google (United States)",
+            "ror": "https://ror.org/00njsd438",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I1291425158",
+              "https://openalex.org/I4210128969"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiaming Shen",
+        "raw_affiliation_strings": [
+          "Google Research, New York, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Google Research, New York, USA",
+            "institution_ids": [
+              "https://openalex.org/I1291425158"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5019539533",
+          "display_name": "Jiawei Han",
+          "orcid": "https://orcid.org/0000-0002-3629-2696"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157725225",
+            "display_name": "University of Illinois Urbana-Champaign",
+            "ror": "https://ror.org/047426m28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiawei Han",
+        "raw_affiliation_strings": [
+          "University of Illinois Urbana-Champaign, Urbana, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Illinois Urbana-Champaign, Urbana, USA",
+            "institution_ids": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 5000,
+      "currency": "EUR",
+      "value_usd": 5392
+    },
+    "apc_paid": null,
+    "fwci": 2.60240821,
+    "has_fulltext": false,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.89625017,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 97
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "20",
+      "last_page": "38"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10028",
+      "display_name": "Topic Modeling",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10028",
+        "display_name": "Topic Modeling",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10181",
+        "display_name": "Natural Language Processing Techniques",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11550",
+        "display_name": "Text and Document Classification Technologies",
+        "score": 0.9979000091552734,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/relationship-extraction",
+        "display_name": "Relationship extraction",
+        "score": 0.8271510004997253
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7981176376342773
+      },
+      {
+        "id": "https://openalex.org/keywords/relation",
+        "display_name": "Relation (database)",
+        "score": 0.7861263155937195
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.5682768225669861
+      },
+      {
+        "id": "https://openalex.org/keywords/precision-and-recall",
+        "display_name": "Precision and recall",
+        "score": 0.5499944686889648
+      },
+      {
+        "id": "https://openalex.org/keywords/cluster-analysis",
+        "display_name": "Cluster analysis",
+        "score": 0.4483385384082794
+      },
+      {
+        "id": "https://openalex.org/keywords/margin",
+        "display_name": "Margin (machine learning)",
+        "score": 0.44393351674079895
+      },
+      {
+        "id": "https://openalex.org/keywords/task",
+        "display_name": "Task (project management)",
+        "score": 0.43637973070144653
+      },
+      {
+        "id": "https://openalex.org/keywords/data-mining",
+        "display_name": "Data mining",
+        "score": 0.436023473739624
+      },
+      {
+        "id": "https://openalex.org/keywords/path",
+        "display_name": "Path (computing)",
+        "score": 0.4211091101169586
+      },
+      {
+        "id": "https://openalex.org/keywords/pattern-recognition",
+        "display_name": "Pattern recognition (psychology)",
+        "score": 0.41747209429740906
+      },
+      {
+        "id": "https://openalex.org/keywords/natural-language-processing",
+        "display_name": "Natural language processing",
+        "score": 0.4082247018814087
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.3447495102882385
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C153604712",
+        "wikidata": "https://www.wikidata.org/wiki/Q7310755",
+        "display_name": "Relationship extraction",
+        "level": 3,
+        "score": 0.8271510004997253
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7981176376342773
+      },
+      {
+        "id": "https://openalex.org/C25343380",
+        "wikidata": "https://www.wikidata.org/wiki/Q277521",
+        "display_name": "Relation (database)",
+        "level": 2,
+        "score": 0.7861263155937195
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5682768225669861
+      },
+      {
+        "id": "https://openalex.org/C81669768",
+        "wikidata": "https://www.wikidata.org/wiki/Q2359161",
+        "display_name": "Precision and recall",
+        "level": 2,
+        "score": 0.5499944686889648
+      },
+      {
+        "id": "https://openalex.org/C73555534",
+        "wikidata": "https://www.wikidata.org/wiki/Q622825",
+        "display_name": "Cluster analysis",
+        "level": 2,
+        "score": 0.4483385384082794
+      },
+      {
+        "id": "https://openalex.org/C774472",
+        "wikidata": "https://www.wikidata.org/wiki/Q6760393",
+        "display_name": "Margin (machine learning)",
+        "level": 2,
+        "score": 0.44393351674079895
+      },
+      {
+        "id": "https://openalex.org/C2780451532",
+        "wikidata": "https://www.wikidata.org/wiki/Q759676",
+        "display_name": "Task (project management)",
+        "level": 2,
+        "score": 0.43637973070144653
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.436023473739624
+      },
+      {
+        "id": "https://openalex.org/C2777735758",
+        "wikidata": "https://www.wikidata.org/wiki/Q817765",
+        "display_name": "Path (computing)",
+        "level": 2,
+        "score": 0.4211091101169586
+      },
+      {
+        "id": "https://openalex.org/C153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "level": 2,
+        "score": 0.41747209429740906
+      },
+      {
+        "id": "https://openalex.org/C204321447",
+        "wikidata": "https://www.wikidata.org/wiki/Q30642",
+        "display_name": "Natural language processing",
+        "level": 1,
+        "score": 0.4082247018814087
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.3447495102882385
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C187736073",
+        "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+        "display_name": "Management",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1007/978-3-031-43421-1_2",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/978-3-031-43421-1_2",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S106296714",
+          "display_name": "Lecture notes in computer science",
+          "issn_l": "0302-9743",
+          "issn": [
+            "0302-9743",
+            "1611-3349"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "book series"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Lecture Notes in Computer Science",
+        "raw_type": "book-chapter"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 43,
+    "referenced_works": [
+      "https://openalex.org/W2952831501",
+      "https://openalex.org/W3034891697",
+      "https://openalex.org/W2250560707",
+      "https://openalex.org/W6778883912",
+      "https://openalex.org/W2086342113",
+      "https://openalex.org/W2049633694",
+      "https://openalex.org/W2963341956",
+      "https://openalex.org/W3195893957",
+      "https://openalex.org/W2097960255",
+      "https://openalex.org/W4309811444",
+      "https://openalex.org/W2963028402",
+      "https://openalex.org/W3188542058",
+      "https://openalex.org/W6600286444",
+      "https://openalex.org/W2123442489",
+      "https://openalex.org/W6767280078",
+      "https://openalex.org/W2890931111",
+      "https://openalex.org/W3042602466",
+      "https://openalex.org/W3143371164",
+      "https://openalex.org/W2775968236",
+      "https://openalex.org/W2769041395",
+      "https://openalex.org/W3092571094",
+      "https://openalex.org/W3096580779",
+      "https://openalex.org/W4206534605",
+      "https://openalex.org/W3098267758",
+      "https://openalex.org/W2962724755",
+      "https://openalex.org/W1979065383",
+      "https://openalex.org/W2149557440",
+      "https://openalex.org/W3176214425",
+      "https://openalex.org/W2911424454",
+      "https://openalex.org/W2129615379",
+      "https://openalex.org/W2970297748",
+      "https://openalex.org/W2566831985",
+      "https://openalex.org/W2964217331",
+      "https://openalex.org/W3112076981",
+      "https://openalex.org/W3172399575",
+      "https://openalex.org/W3200496214",
+      "https://openalex.org/W2759211898",
+      "https://openalex.org/W3012687255",
+      "https://openalex.org/W3101606352",
+      "https://openalex.org/W3098507080",
+      "https://openalex.org/W3105538385",
+      "https://openalex.org/W3190766156",
+      "https://openalex.org/W2959716049"
+    ],
+    "related_works": [
+      "https://openalex.org/W3125011624",
+      "https://openalex.org/W1508631387",
+      "https://openalex.org/W2370917603",
+      "https://openalex.org/W2952760143",
+      "https://openalex.org/W2017776670",
+      "https://openalex.org/W2347897961",
+      "https://openalex.org/W2340870721",
+      "https://openalex.org/W2358318464",
+      "https://openalex.org/W2979236518",
+      "https://openalex.org/W2251315883"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          23
+        ]
+      ],
+      "date-time": "2025-08-23T05:26:43Z",
+      "timestamp": 1755926803235,
+      "version": "3.40.3"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 48,
+    "publisher": "Springer Nature Switzerland",
+    "isbn-type": [
+      {
+        "type": "print",
+        "value": "9783031434204"
+      },
+      {
+        "type": "electronic",
+        "value": "9783031434211"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2023-01-01T00:00:00Z",
+          "timestamp": 1672531200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2023-01-01T00:00:00Z",
+          "timestamp": 1672531200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-031-43421-1_2",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          17
+        ]
+      ],
+      "date-time": "2023-09-17T20:37:24Z",
+      "timestamp": 1694983044000
+    },
+    "page": "20-38",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Corpus-Based Relation Extraction by Identifying and Refining Relation Patterns"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Sizhe",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Suyu",
+        "family": "Ge",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jiaming",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jiawei",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "unstructured": "Agarap, A.F.: Deep learning using rectified linear units (relu). CoRR abs/1803.08375 (2018). http://arxiv.org/abs/1803.08375",
+        "key": "2_CR1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Aina, L., Gulordava, K., Boleda, G.: Putting words in context: LSTM language models and lexical ambiguity. In: Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, pp. 3342–3348. Association for Computational Linguistics, Florence, Italy (2019). https://doi.org/10.18653/v1/P19-1324, https://aclanthology.org/P19-1324",
+        "key": "2_CR2",
+        "DOI": "10.18653/v1/P19-1324"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Alt, C., Gabryszak, A., Hennig, L.: TACRED revisited: a thorough evaluation of the TACRED relation extraction task. In: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, pp. 1558–1569. Association for Computational Linguistics, Online (2020). https://doi.org/10.18653/v1/2020.acl-main.142, https://aclanthology.org/2020.acl-main.142",
+        "key": "2_CR3",
+        "DOI": "10.18653/v1/2020.acl-main.142"
+      },
+      {
+        "key": "2_CR4",
+        "first-page": "1345",
+        "volume": "6",
+        "author": "A Banerjee",
+        "year": "2005",
+        "unstructured": "Banerjee, A., Dhillon, I.S., Ghosh, J., Sra, S.: Clustering on the unit hypersphere using von Mises-Fisher distributions. J. Mach. Learn. Res. 6, 1345–1382 (2005)",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Batista, D.S., Martins, B., Silva, M.J.: Semi-supervised bootstrapping of relationship extractors with distributional semantics. In: Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, pp. 499–504. Association for Computational Linguistics, Lisbon, Portugal (2015). https://doi.org/10.18653/v1/D15-1056, https://aclanthology.org/D15-1056",
+        "key": "2_CR5",
+        "DOI": "10.18653/v1/D15-1056"
+      },
+      {
+        "unstructured": "Brown, T., et al.: Language models are few-shot learners. In: Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M., Lin, H. (eds.) Advances in Neural Information Processing Systems, vol. 33, pp. 1877–1901. Curran Associates, Inc. (2020). https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf",
+        "key": "2_CR6"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Chen, Y.N., Hakkani-Tür, D., Tur, G.: Deriving local relational surface forms from dependency-based entity embeddings for unsupervised spoken language understanding. In: 2014 IEEE Spoken Language Technology Workshop (SLT), pp. 242–247 (2014). https://doi.org/10.1109/SLT.2014.7078581",
+        "key": "2_CR7",
+        "DOI": "10.1109/SLT.2014.7078581"
+      },
+      {
+        "unstructured": "Curran, J., Murphy, T., Scholz, B.: Minimising semantic drift with mutual exclusion bootstrapping. In: Proceedings of the 10th Conference of the Pacific Association for Computational Linguistics, pp. 172–180 (2008)",
+        "key": "2_CR8"
+      },
+      {
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dempster, A.P., Laird, N.M., Rubin, D.B.: Maximum likelihood from incomplete data via the EM algorithm. J. Royal Stat. Soc. Ser. B (Methodological) 39(1), 1–38 (1977). http://www.jstor.org/stable/2984875",
+        "key": "2_CR9",
+        "DOI": "10.1111/j.2517-6161.1977.tb01600.x"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Devlin, J., Chang, M.W., Lee, K., Toutanova, K.: BERT: pre-training of deep bidirectional transformers for language understanding. In: Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pp. 4171–4186. Association for Computational Linguistics, Minneapolis, Minnesota (2019). https://doi.org/10.18653/v1/N19-1423, https://aclanthology.org/N19-1423",
+        "key": "2_CR10",
+        "DOI": "10.18653/v1/N19-1423"
+      },
+      {
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ding, N., et al.: Prompt-learning for fine-grained entity typing. ArXiv abs/2108.10604 (2021)",
+        "key": "2_CR11",
+        "DOI": "10.18653/v1/2022.findings-emnlp.512"
+      },
+      {
+        "doi-asserted-by": "crossref",
+        "unstructured": "Küffner, K., Zimmer, R., Fundel, R.: Relex - relation extraction using dependency parse trees. Bioinformatics 23(3), 365–71 (2007)",
+        "key": "2_CR12",
+        "DOI": "10.1093/bioinformatics/btl616"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Han, X., Zhao, W., Ding, N., Liu, Z., Sun, M.: PTR: prompt tuning with rules for text classification. AI Open 3, 182–192 (2022). https://doi.org/10.1016/j.aiopen.2022.11.003, https://www.sciencedirect.com/science/article/pii/S2666651022000183",
+        "key": "2_CR13",
+        "DOI": "10.1016/j.aiopen.2022.11.003"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Hancock, B., Varma, P., Wang, S., Bringmann, M., Liang, P., Ré, C.: Training classifiers with natural language explanations. In: Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 1884–1895. Association for Computational Linguistics, Melbourne, Australia (2018). https://doi.org/10.18653/v1/P18-1175, https://aclanthology.org/P18-1175",
+        "key": "2_CR14",
+        "DOI": "10.18653/v1/P18-1175"
+      },
+      {
+        "unstructured": "Hinton, G.E., Zemel, R.S.: Autoencoders, minimum description length and Helmholtz free energy. In: Proceedings of the 6th International Conference on Neural Information Processing Systems, pp. 3–10. NIPS’93, Morgan Kaufmann Publishers Inc., San Francisco, CA, USA (1993)",
+        "key": "2_CR15"
+      },
+      {
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, S., Ding, N., Wang, H., Liu, Z., Li, J.Z., Sun, M.: Knowledgeable prompt-tuning: Incorporating knowledge into prompt verbalizer for text classification. In: Annual Meeting of the Association for Computational Linguistics (2021)",
+        "key": "2_CR16",
+        "DOI": "10.18653/v1/2022.acl-long.158"
+      },
+      {
+        "unstructured": "Lu, Y., Bartolo, M., Moore, A., Riedel, S., Stenetorp, P.: Fantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity. CoRR abs/2104.08786 (2021). https://arxiv.org/abs/2104.08786",
+        "key": "2_CR17"
+      },
+      {
+        "unstructured": "van der Maaten, L., Hinton, G.: Visualizing data using t-SNE. J. Mach. Learn. Res. 9(86), 2579–2605 (2008). http://jmlr.org/papers/v9/vandermaaten08a.html",
+        "key": "2_CR18"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Manning, C., Surdeanu, M., Bauer, J., Finkel, J., Bethard, S., McClosky, D.: The Stanford CoreNLP natural language processing toolkit. In: Proceedings of 52nd Annual Meeting of the Association for Computational Linguistics: System Demonstrations, pp. 55–60. Association for Computational Linguistics, Baltimore, Maryland (2014). https://doi.org/10.3115/v1/P14-5010, https://aclanthology.org/P14-5010",
+        "key": "2_CR19",
+        "DOI": "10.3115/v1/P14-5010"
+      },
+      {
+        "unstructured": "Mausam, Schmitz, M., Soderland, S., Bart, R., Etzioni, O.: Open language learning for information extraction. In: Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning, pp. 523–534. Association for Computational Linguistics, Jeju Island, Korea (2012). https://aclanthology.org/D12-1048",
+        "key": "2_CR20"
+      },
+      {
+        "unstructured": "Meng, Y., et al.: Spherical text embedding. In: Advances in Neural Information Processing Systems (2019)",
+        "key": "2_CR21"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Meng, Y., Shen, J., Zhang, C., Han, J.: Weakly-supervised neural text classification. In: Proceedings of the 27th ACM International Conference on Information and Knowledge Management, pp. 983–992. CIKM ’18, Association for Computing Machinery, New York, NY, USA (2018). https://doi.org/10.1145/3269206.3271737, https://doi.org/10.1145/3269206.3271737",
+        "key": "2_CR22",
+        "DOI": "10.1145/3269206.3271737"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Meng, Y., Zhang, Y., Huang, J., Zhang, Y., Zhang, C., Han, J.: Hierarchical topic mining via joint spherical tree and text embedding. In: Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, pp. 1908–1917. KDD ’20, Association for Computing Machinery, New York, NY, USA (2020). https://doi.org/10.1145/3394486.3403242, https://doi.org/10.1145/3394486.3403242",
+        "key": "2_CR23",
+        "DOI": "10.1145/3394486.3403242"
+      },
+      {
+        "unstructured": "Nakashole, N., Weikum, G., Suchanek, F.: PATTY: A taxonomy of relational patterns with semantic types. In: Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning, pp. 1135–1145. Association for Computational Linguistics, Jeju Island, Korea (2012). https://aclanthology.org/D12-1104",
+        "key": "2_CR24"
+      },
+      {
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nayak, T., Majumder, N., Goyal, P., Poria, S.: Deep neural approaches to relation triplets extraction: a comprehensive survey. Cognitive Comput. 13, 1215–1232 (2021)",
+        "key": "2_CR25",
+        "DOI": "10.1007/s12559-021-09917-7"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Qu, M., Ren, X., Zhang, Y., Han, J.: Weakly-supervised relation extraction by pattern-enhanced embedding learning. In: Proceedings of the 2018 World Wide Web Conference, pp. 1257–1266. WWW ’18, International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE (2018). https://doi.org/10.1145/3178876.3186024, https://doi.org/10.1145/3178876.3186024",
+        "key": "2_CR26",
+        "DOI": "10.1145/3178876.3186024"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Ratner, A., Bach, S.H., Ehrenberg, H., Fries, J., Wu, S., Ré, C.: Snorkel: rapid training data creation with weak supervision. Proc. VLDB Endowment 11(3), 269–282 (2017). https://doi.org/10.14778/3157794.3157797",
+        "key": "2_CR27",
+        "DOI": "10.14778/3157794.3157797"
+      },
+      {
+        "unstructured": "Ratner, A., Sa, C.D., Wu, S., Selsam, D., Ré, C.: Data programming: creating large training sets, quickly. In: Proceedings of the 30th International Conference on Neural Information Processing Systems, pp. 3574–3582. NIPS’16, Curran Associates Inc., Red Hook, NY, USA (2016)",
+        "key": "2_CR28"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Ren, W., Li, Y., Su, H., Kartchner, D., Mitchell, C., Zhang, C.: Denoising multi-source weak supervision for neural text classification. In: Findings of the Association for Computational Linguistics: EMNLP 2020, pp. 3739–3754. Association for Computational Linguistics, Online (2020). https://doi.org/10.18653/v1/2020.findings-emnlp.334, https://aclanthology.org/2020.findings-emnlp.334",
+        "key": "2_CR29",
+        "DOI": "10.18653/v1/2020.findings-emnlp.334"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Schick, T., Schmid, H., Schütze, H.: Automatically identifying words that can serve as labels for few-shot text classification. In: Proceedings of the 28th International Conference on Computational Linguistics, pp. 5569–5578. International Committee on Computational Linguistics, Barcelona, Spain (Online) (2020). https://doi.org/10.18653/v1/2020.coling-main.488, https://aclanthology.org/2020.coling-main.488",
+        "key": "2_CR30",
+        "DOI": "10.18653/v1/2020.coling-main.488"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Shen, J., Zhang, Y., Ji, H., Han, J.: Corpus-based open-domain event type induction. In: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, pp. 5427–5440. Association for Computational Linguistics, Online and Punta Cana, Dominican Republic (2021). https://doi.org/10.18653/v1/2021.emnlp-main.441, https://aclanthology.org/2021.emnlp-main.441",
+        "key": "2_CR31",
+        "DOI": "10.18653/v1/2021.emnlp-main.441"
+      },
+      {
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shin, T., Razeghi, Y., IV, R.L.L., Wallace, E., Singh, S.: Eliciting knowledge from language models using automatically generated prompts. ArXiv abs/2010.15980 (2020)",
+        "key": "2_CR32",
+        "DOI": "10.18653/v1/2020.emnlp-main.346"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Shwartz, V., Goldberg, Y., Dagan, I.: Improving hypernymy detection with an integrated path-based and distributional method. In: Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2389–2398. Association for Computational Linguistics, Berlin, Germany (2016). https://doi.org/10.18653/v1/P16-1226, https://aclanthology.org/P16-1226",
+        "key": "2_CR33",
+        "DOI": "10.18653/v1/P16-1226"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Simmons, R.F.: Answering English questions by computer: a survey. Commun. ACM 8(1), 53–70 (1965). https://doi.org/10.1145/363707.363732",
+        "key": "2_CR34",
+        "DOI": "10.1145/363707.363732"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Socher, R., Karpathy, A., Le, Q.V., Manning, C.D., Ng, A.Y.: Grounded compositional semantics for finding and describing images with sentences. Trans. Assoc. Comput. Linguist. 2, 207–218 (2014). https://doi.org/10.1162/tacl_a_00177, https://aclanthology.org/Q14-1017",
+        "key": "2_CR35",
+        "DOI": "10.1162/tacl_a_00177"
+      },
+      {
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stoica, G., Platanios, E.A., P’oczos, B.: Re-TACRED: addressing shortcomings of the TACRED dataset. In: AAAI Conference on Artificial Intelligence (2021)",
+        "key": "2_CR36",
+        "DOI": "10.1609/aaai.v35i15.17631"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Varma, P., Ré, C.: Snuba: Automating weak supervision to label training data. Proc. VLDB Endow. 12(3), 223–236 (2018). https://doi.org/10.14778/3291264.3291268",
+        "key": "2_CR37",
+        "DOI": "10.14778/3291264.3291268"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wang, C., Kalyanpur, A., Fan, J., Boguraev, B.K., Gondek, D.C.: Relation extraction and scoring in deepqa. IBM J. Res. Dev. 56(3.4), 9:1–9:12 (2012). https://doi.org/10.1147/JRD.2012.2187239",
+        "key": "2_CR38",
+        "DOI": "10.1147/JRD.2012.2187239"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wang, H., Liu, B., Li, C., Yang, Y., Li, T.: Learning with noisy labels for sentence-level sentiment classification. In: Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pp. 6286–6292. Association for Computational Linguistics, Hong Kong, China (2019). https://doi.org/10.18653/v1/D19-1655, https://aclanthology.org/D19-1655",
+        "key": "2_CR39",
+        "DOI": "10.18653/v1/D19-1655"
+      },
+      {
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, H., Tian, F., Gao, B., Zhu, C., Bian, J., Liu, T.Y.: Solving verbal questions in IQ test by knowledge-powered word embedding. In: Conference on Empirical Methods in Natural Language Processing (2015)",
+        "key": "2_CR40",
+        "DOI": "10.18653/v1/D16-1052"
+      },
+      {
+        "unstructured": "Xie, J., Girshick, R., Farhadi, A.: Unsupervised deep embedding for clustering analysis. In: Proceedings of the 33rd International Conference on International Conference on Machine Learning - Volume 48, pp. 478–487. ICML’16, JMLR.org (2016)",
+        "key": "2_CR41"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Xu, Y., Mou, L., Li, G., Chen, Y., Peng, H., Jin, Z.: Classifying relations via long short term memory networks along shortest dependency paths. In: Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, pp. 1785–1794. Association for Computational Linguistics, Lisbon, Portugal (2015). https://doi.org/10.18653/v1/D15-1206, https://aclanthology.org/D15-1206",
+        "key": "2_CR42",
+        "DOI": "10.18653/v1/D15-1206"
+      },
+      {
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xue, F., Sun, A., Zhang, H., Chng, E.S.: GDPNet: refining latent multi-view graph for relation extraction. In: AAAI Conference on Artificial Intelligence (2020)",
+        "key": "2_CR43",
+        "DOI": "10.1609/aaai.v35i16.17670"
+      },
+      {
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu, Y., Zuo, S., Jiang, H., Ren, W., Zhao, T., Zhang, C.: Fine-tuning pre-trained language model with weak supervision: a contrastive-regularized self-training approach. ArXiv abs/2010.07835 (2020)",
+        "key": "2_CR44",
+        "DOI": "10.18653/v1/2021.naacl-main.84"
+      },
+      {
+        "unstructured": "Zhang, J., et al.: WRENCH: a comprehensive benchmark for weak supervision. In: Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2) (2021). https://openreview.net/forum?id=Q9SKS5k8io",
+        "key": "2_CR45"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Zhang, Y., Zhong, V., Chen, D., Angeli, G., Manning, C.D.: Position-aware attention and supervised data improve slot filling. In: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, pp. 35–45. Association for Computational Linguistics, Copenhagen, Denmark (2017). https://doi.org/10.18653/v1/D17-1004, https://aclanthology.org/D17-1004",
+        "key": "2_CR46",
+        "DOI": "10.18653/v1/D17-1004"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Zhou, W., et al.: NERO: a neural rule grounding framework for label-efficient relation extraction. In: Proceedings of The Web Conference 2020, pp. 2166–2176. WWW ’20, Association for Computing Machinery, New York, NY, USA (2020). https://doi.org/10.1145/3366423.3380282",
+        "key": "2_CR47",
+        "DOI": "10.1145/3366423.3380282"
+      },
+      {
+        "unstructured": "Zhuang, L., Wayne, L., Ya, S., Jun, Z.: A robustly optimized BERT pre-training approach with post-training. In: Proceedings of the 20th Chinese National Conference on Computational Linguistics, pp. 1218–1227. Chinese Information Processing Society of China, Huhhot, China (2021). https://aclanthology.org/2021.ccl-1.108",
+        "key": "2_CR48"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Machine Learning and Knowledge Discovery in Databases: Research Track"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-43421-1_2",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          17
+        ]
+      ],
+      "date-time": "2023-09-17T20:41:38Z",
+      "timestamp": 1694983298000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-031-43421-1_2"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783031434204",
+      "9783031434211"
+    ],
+    "references-count": 48,
+    "URL": "https://doi.org/10.1007/978-3-031-43421-1_2",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0302-9743"
+      },
+      {
+        "type": "electronic",
+        "value": "1611-3349"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "18 September 2023",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "To the best of our knowledge, there is no specific ethical concern for the methodology of <scp>RClus</scp>. However, since <scp>RClus</scp> is dependent on external entity typing tools, pre-trained language models and also the given corpus, potential errors or bias should be given appropriate awareness and be taken good care of.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Ethical Statement"
+        }
+      },
+      {
+        "value": "ECML PKDD",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Joint European Conference on Machine Learning and Knowledge Discovery in Databases",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Turin",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Italy",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2023",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "18 September 2023",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "22 September 2023",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "23",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "ecml2023",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "https://2023.ecmlpkdd.org/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Double-blind",
+        "order": 1,
+        "name": "type",
+        "label": "Type",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "CMT",
+        "order": 2,
+        "name": "conference_management_system",
+        "label": "Conference Management System",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "829",
+        "order": 3,
+        "name": "number_of_submissions_sent_for_review",
+        "label": "Number of Submissions Sent for Review",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "196",
+        "order": 4,
+        "name": "number_of_full_papers_accepted",
+        "label": "Number of Full Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "0",
+        "order": 5,
+        "name": "number_of_short_papers_accepted",
+        "label": "Number of Short Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "24% - The value is computed by the equation \"Number of Full Papers Accepted / Number of Submissions Sent for Review * 100\" and then rounded to a whole number.",
+        "order": 6,
+        "name": "acceptance_rate_of_full_papers",
+        "label": "Acceptance Rate of Full Papers",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "3.63",
+        "order": 7,
+        "name": "average_number_of_reviews_per_paper",
+        "label": "Average Number of Reviews per Paper",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "4.5",
+        "order": 8,
+        "name": "average_number_of_papers_per_reviewer",
+        "label": "Average Number of Papers per Reviewer",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "Yes",
+        "order": 9,
+        "name": "external_reviewers_involved",
+        "label": "External Reviewers Involved",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "Applied Data Science Track: 239 submissions, 58 accepted papers; Demo Track: 31 submissions, 16 accepted papers.",
+        "order": 10,
+        "name": "additional_info_on_review_process",
+        "label": "Additional Info on Review Process",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      }
+    ]
+  }
+}

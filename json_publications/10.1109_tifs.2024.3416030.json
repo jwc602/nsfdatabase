@@ -1,0 +1,1535 @@
+{
+  "doi": "10.1109/tifs.2024.3416030",
+  "openalex": {
+    "id": "https://openalex.org/W4399729223",
+    "doi": "https://doi.org/10.1109/tifs.2024.3416030",
+    "title": "Texture Re-Scalable Universal Adversarial Perturbation",
+    "display_name": "Texture Re-Scalable Universal Adversarial Perturbation",
+    "publication_year": 2024,
+    "publication_date": "2024-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4399729223",
+      "doi": "https://doi.org/10.1109/tifs.2024.3416030"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tifs.2024.3416030",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tifs.2024.3416030",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S61310614",
+        "display_name": "IEEE Transactions on Information Forensics and Security",
+        "issn_l": "1556-6013",
+        "issn": [
+          "1556-6013",
+          "1556-6021"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Information Forensics and Security",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5036183844",
+          "display_name": "Yihao Huang",
+          "orcid": "https://orcid.org/0000-0002-5784-770X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I172675005",
+            "display_name": "Nanyang Technological University",
+            "ror": "https://ror.org/02e7b5302",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yihao Huang",
+        "raw_affiliation_strings": [
+          "Nanyang Technological University, Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanyang Technological University, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5026239594",
+          "display_name": "Qing Guo",
+          "orcid": "https://orcid.org/0000-0003-0974-9299"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I115228651",
+            "display_name": "Agency for Science, Technology and Research",
+            "ror": "https://ror.org/036wvzt09",
+            "country_code": "SG",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I115228651"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I3004594783",
+            "display_name": "Institute of High Performance Computing",
+            "ror": "https://ror.org/02n0ejh50",
+            "country_code": "SG",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I115228651",
+              "https://openalex.org/I3004594783",
+              "https://openalex.org/I91275662"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qing Guo",
+        "raw_affiliation_strings": [
+          "Institute of High Performance Computing (IHPC) and Centre for Frontier AI Research (CFAR), Agency for Science, Technology and Research (A*STAR), Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of High Performance Computing (IHPC) and Centre for Frontier AI Research (CFAR), Agency for Science, Technology and Research (A*STAR), Singapore",
+            "institution_ids": [
+              "https://openalex.org/I115228651",
+              "https://openalex.org/I3004594783"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5034751153",
+          "display_name": "Felix Juefei-Xu",
+          "orcid": "https://orcid.org/0000-0002-0857-8611"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I115228651",
+            "display_name": "Agency for Science, Technology and Research",
+            "ror": "https://ror.org/036wvzt09",
+            "country_code": "SG",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I115228651"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I3004594783",
+            "display_name": "Institute of High Performance Computing",
+            "ror": "https://ror.org/02n0ejh50",
+            "country_code": "SG",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I115228651",
+              "https://openalex.org/I3004594783",
+              "https://openalex.org/I91275662"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Felix Juefei-Xu",
+        "raw_affiliation_strings": [
+          "Institute of High Performance Computing (IHPC) and Centre for Frontier AI Research (CFAR), Agency for Science, Technology and Research (A*STAR), Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of High Performance Computing (IHPC) and Centre for Frontier AI Research (CFAR), Agency for Science, Technology and Research (A*STAR), Singapore",
+            "institution_ids": [
+              "https://openalex.org/I115228651",
+              "https://openalex.org/I3004594783"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5017425520",
+          "display_name": "Ming Hu",
+          "orcid": "https://orcid.org/0000-0002-5058-4660"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I172675005",
+            "display_name": "Nanyang Technological University",
+            "ror": "https://ror.org/02e7b5302",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ming Hu",
+        "raw_affiliation_strings": [
+          "Nanyang Technological University, Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanyang Technological University, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5084784341",
+          "display_name": "Xiaojun Jia",
+          "orcid": "https://orcid.org/0000-0002-2018-9344"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I172675005",
+            "display_name": "Nanyang Technological University",
+            "ror": "https://ror.org/02e7b5302",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaojun Jia",
+        "raw_affiliation_strings": [
+          "Nanyang Technological University, Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanyang Technological University, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5068837264",
+          "display_name": "Xiaochun Cao",
+          "orcid": "https://orcid.org/0000-0001-7141-708X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157773358",
+            "display_name": "Sun Yat-sen University",
+            "ror": "https://ror.org/0064kty71",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157773358"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaochun Cao",
+        "raw_affiliation_strings": [
+          "School of Cyber Science and Technology, Shenzhen Campus, Sun Yat-sen University, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Cyber Science and Technology, Shenzhen Campus, Sun Yat-sen University, China",
+            "institution_ids": [
+              "https://openalex.org/I157773358"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5054490662",
+          "display_name": "Geguang Pu",
+          "orcid": "https://orcid.org/0000-0001-9750-8334"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I66867065",
+            "display_name": "East China Normal University",
+            "ror": "https://ror.org/02n96ep67",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I66867065"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Geguang Pu",
+        "raw_affiliation_strings": [
+          "East China Normal University, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "East China Normal University, China",
+            "institution_ids": [
+              "https://openalex.org/I66867065"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100355692",
+          "display_name": "Yang Liu",
+          "orcid": "https://orcid.org/0000-0001-7300-9215"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I172675005",
+            "display_name": "Nanyang Technological University",
+            "ror": "https://ror.org/02e7b5302",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yang Liu",
+        "raw_affiliation_strings": [
+          "Nanyang Technological University, Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanyang Technological University, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 18.25089783,
+    "has_fulltext": false,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.91730731,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "19",
+      "issue": null,
+      "first_page": "8291",
+      "last_page": "8305"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12859",
+      "display_name": "Cell Image Analysis Techniques",
+      "score": 0.9682000279426575,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1304",
+        "display_name": "Biophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12859",
+        "display_name": "Cell Image Analysis Techniques",
+        "score": 0.9682000279426575,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1304",
+          "display_name": "Biophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12111",
+        "display_name": "Industrial Vision Systems and Defect Detection",
+        "score": 0.9611999988555908,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10531",
+        "display_name": "Advanced Vision and Imaging",
+        "score": 0.9575999975204468,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.776130199432373
+      },
+      {
+        "id": "https://openalex.org/keywords/adversarial-system",
+        "display_name": "Adversarial system",
+        "score": 0.7228450775146484
+      },
+      {
+        "id": "https://openalex.org/keywords/scalability",
+        "display_name": "Scalability",
+        "score": 0.5105382204055786
+      },
+      {
+        "id": "https://openalex.org/keywords/perturbation",
+        "display_name": "Perturbation (astronomy)",
+        "score": 0.45623138546943665
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.4011882543563843
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.3799758553504944
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-vision",
+        "display_name": "Computer vision",
+        "score": 0.32791438698768616
+      },
+      {
+        "id": "https://openalex.org/keywords/database",
+        "display_name": "Database",
+        "score": 0.09419173002243042
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.776130199432373
+      },
+      {
+        "id": "https://openalex.org/C37736160",
+        "wikidata": "https://www.wikidata.org/wiki/Q1801315",
+        "display_name": "Adversarial system",
+        "level": 2,
+        "score": 0.7228450775146484
+      },
+      {
+        "id": "https://openalex.org/C48044578",
+        "wikidata": "https://www.wikidata.org/wiki/Q727490",
+        "display_name": "Scalability",
+        "level": 2,
+        "score": 0.5105382204055786
+      },
+      {
+        "id": "https://openalex.org/C177918212",
+        "wikidata": "https://www.wikidata.org/wiki/Q803623",
+        "display_name": "Perturbation (astronomy)",
+        "level": 2,
+        "score": 0.45623138546943665
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.4011882543563843
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.3799758553504944
+      },
+      {
+        "id": "https://openalex.org/C31972630",
+        "wikidata": "https://www.wikidata.org/wiki/Q844240",
+        "display_name": "Computer vision",
+        "level": 1,
+        "score": 0.32791438698768616
+      },
+      {
+        "id": "https://openalex.org/C77088390",
+        "wikidata": "https://www.wikidata.org/wiki/Q8513",
+        "display_name": "Database",
+        "level": 1,
+        "score": 0.09419173002243042
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/tifs.2024.3416030",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tifs.2024.3416030",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S61310614",
+          "display_name": "IEEE Transactions on Information Forensics and Security",
+          "issn_l": "1556-6013",
+          "issn": [
+            "1556-6013",
+            "1556-6021"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Information Forensics and Security",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/13",
+        "score": 0.46000000834465027,
+        "display_name": "Climate action"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G2275947126",
+        "display_name": null,
+        "funder_award_id": "2020AAA0107800",
+        "funder_id": "https://openalex.org/F4320335777",
+        "funder_display_name": "National Key Research and Development Program of China"
+      },
+      {
+        "id": "https://openalex.org/G8982717833",
+        "display_name": null,
+        "funder_award_id": "AISG2-GC-2023-008",
+        "funder_id": "https://openalex.org/F4320320709",
+        "funder_display_name": "National Research Foundation Singapore"
+      },
+      {
+        "id": "https://openalex.org/G6036235291",
+        "display_name": null,
+        "funder_award_id": "NCRP25-P04-TAICeN",
+        "funder_id": "https://openalex.org/F4320320709",
+        "funder_display_name": "National Research Foundation Singapore"
+      },
+      {
+        "id": "https://openalex.org/G7822712350",
+        "display_name": null,
+        "funder_award_id": "NRF-NRFI06-2020-0001",
+        "funder_id": "https://openalex.org/F4320320709",
+        "funder_display_name": "National Research Foundation Singapore"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320709",
+        "display_name": "National Research Foundation Singapore",
+        "ror": "https://ror.org/03cpyc314"
+      },
+      {
+        "id": "https://openalex.org/F4320335777",
+        "display_name": "National Key Research and Development Program of China",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 64,
+    "referenced_works": [
+      "https://openalex.org/W2194775991",
+      "https://openalex.org/W6762718338",
+      "https://openalex.org/W4282934494",
+      "https://openalex.org/W4210541032",
+      "https://openalex.org/W3163465952",
+      "https://openalex.org/W1536680647",
+      "https://openalex.org/W3034971973",
+      "https://openalex.org/W4386076325",
+      "https://openalex.org/W4225125774",
+      "https://openalex.org/W4382568144",
+      "https://openalex.org/W2963150697",
+      "https://openalex.org/W3138516171",
+      "https://openalex.org/W4312420092",
+      "https://openalex.org/W4312543911",
+      "https://openalex.org/W6839656003",
+      "https://openalex.org/W6637162671",
+      "https://openalex.org/W6838695150",
+      "https://openalex.org/W4390190425",
+      "https://openalex.org/W6852885530",
+      "https://openalex.org/W4393212485",
+      "https://openalex.org/W4392904558",
+      "https://openalex.org/W3207908683",
+      "https://openalex.org/W4389252586",
+      "https://openalex.org/W4393152558",
+      "https://openalex.org/W6640425456",
+      "https://openalex.org/W6729756640",
+      "https://openalex.org/W2963857521",
+      "https://openalex.org/W6774469542",
+      "https://openalex.org/W6803813760",
+      "https://openalex.org/W4381785636",
+      "https://openalex.org/W4226243523",
+      "https://openalex.org/W4293704294",
+      "https://openalex.org/W4388623454",
+      "https://openalex.org/W2994027480",
+      "https://openalex.org/W4388189238",
+      "https://openalex.org/W6859228745",
+      "https://openalex.org/W6862893066",
+      "https://openalex.org/W2543927648",
+      "https://openalex.org/W2243397390",
+      "https://openalex.org/W3190041646",
+      "https://openalex.org/W2963855547",
+      "https://openalex.org/W2963560523",
+      "https://openalex.org/W3034643863",
+      "https://openalex.org/W3208993340",
+      "https://openalex.org/W2997502936",
+      "https://openalex.org/W6739868092",
+      "https://openalex.org/W2963809642",
+      "https://openalex.org/W2963047332",
+      "https://openalex.org/W4308831279",
+      "https://openalex.org/W2983042735",
+      "https://openalex.org/W4283817929",
+      "https://openalex.org/W4390871686",
+      "https://openalex.org/W2963184668",
+      "https://openalex.org/W2971848556",
+      "https://openalex.org/W2962858109",
+      "https://openalex.org/W4246193833",
+      "https://openalex.org/W6637373629",
+      "https://openalex.org/W2963446712",
+      "https://openalex.org/W2963163009",
+      "https://openalex.org/W2117539524",
+      "https://openalex.org/W2732026016",
+      "https://openalex.org/W4387968577",
+      "https://openalex.org/W6851123249",
+      "https://openalex.org/W4288104392"
+    ],
+    "related_works": [
+      "https://openalex.org/W2502115930",
+      "https://openalex.org/W2482350142",
+      "https://openalex.org/W4246396837",
+      "https://openalex.org/W3126451824",
+      "https://openalex.org/W1561927205",
+      "https://openalex.org/W3191453585",
+      "https://openalex.org/W4297672492",
+      "https://openalex.org/W4310988119",
+      "https://openalex.org/W4285226279",
+      "https://openalex.org/W4288019534"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-12-26T23:08:49.675405",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          6
+        ]
+      ],
+      "date-time": "2025-12-06T17:19:00Z",
+      "timestamp": 1765041540788,
+      "version": "3.37.3"
+    },
+    "reference-count": 66,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62025604"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62025604"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Nanyang Technological University (NTU)-Desay SV Research Program",
+        "award": [
+          "2018-0980"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2018-0980"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001381",
+        "name": "National Research Foundation Singapore",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001381",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "DSO National Laboratories"
+      },
+      {
+        "name": "AI Singapore Program"
+      },
+      {
+        "name": "AI Singapore",
+        "award": [
+          "AISG2-GC-2023-008"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "AISG2-GC-2023-008"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001321",
+        "name": "National Research Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001321",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Cyber Security Agency"
+      },
+      {
+        "name": "National Cybersecurity Research and Development Program",
+        "award": [
+          "NCRP25- P04-TAICeN"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NCRP25- P04-TAICeN"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Career Development Fund (CDF) of the Agency for Science, Technology and Research",
+        "award": [
+          "C233312028"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "C233312028"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2020AAA0107800"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2020AAA0107800"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Shanghai Collaborative Innovation Center of Trusted Industry Internet Software"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans.Inform.Forensic Secur."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1109/tifs.2024.3416030",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2024-06-17T17:59:38Z",
+      "timestamp": 1718647178000
+    },
+    "page": "8291-8305",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Texture Re-Scalable Universal Adversarial Perturbation"
+    ],
+    "prefix": "10.1109",
+    "volume": "19",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5784-770X",
+        "authenticated-orcid": false,
+        "given": "Yihao",
+        "family": "Huang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0974-9299",
+        "authenticated-orcid": false,
+        "given": "Qing",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of High-Performance Computing (IHPC) and the Centre for Frontier AI Research (CFAR), Agency for Science, Technology and Research (A*STAR), Queenstown, Singapore"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0857-8611",
+        "authenticated-orcid": false,
+        "given": "Felix",
+        "family": "Juefei-Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tandon School of Engineering, New York University, New York, NY, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5058-4660",
+        "authenticated-orcid": false,
+        "given": "Ming",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2018-9344",
+        "authenticated-orcid": false,
+        "given": "Xiaojun",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7141-708X",
+        "authenticated-orcid": false,
+        "given": "Xiaochun",
+        "family": "Cao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Cyber Science and Technology, Sun Yat-sen University, Shenzhen Campus, Shenzhen, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9750-8334",
+        "authenticated-orcid": false,
+        "given": "Geguang",
+        "family": "Pu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Software Engineering Institute, East China Normal University, Shanghai, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7300-9215",
+        "authenticated-orcid": false,
+        "given": "Yang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref2",
+        "first-page": "6105",
+        "article-title": "EfficientNet: Rethinking model scaling for convolutional neural networks",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Tan"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2022.3177322"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2022.3144017"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2022.3206148"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.169"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01079"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00721"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3503161.3548541"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2023.3290594"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.322"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00695"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01761"
+      },
+      {
+        "key": "ref15",
+        "first-page": "36722",
+        "article-title": "Amos: A large-scale abdominal multi-organ benchmark for versatile medical image segmentation",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "35",
+        "author": "Ji"
+      },
+      {
+        "key": "ref16",
+        "first-page": "1",
+        "article-title": "Intriguing properties of neural networks",
+        "volume-title": "Proc. Int. Conf. Learn. Represent.",
+        "author": "Szegedy"
+      },
+      {
+        "key": "ref17",
+        "first-page": "1",
+        "article-title": "Diffusion models for adversarial purification",
+        "volume-title": "Proc. Int. Conf. Mach. Learn. (ICML)",
+        "author": "Nie"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW60793.2023.00395"
+      },
+      {
+        "key": "ref19",
+        "first-page": "10448",
+        "article-title": "A closer look at the adversarial robustness of deep equilibrium models",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "35",
+        "author": "Yang"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2024.3381180"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIFS.2024.3377004"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3474085.3475171"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2023.3338413"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i19.30110"
+      },
+      {
+        "key": "ref25",
+        "article-title": "Explaining and harnessing adversarial examples",
+        "author": "Goodfellow",
+        "year": "2014",
+        "journal-title": "arXiv:1412.6572"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Adversarial machine learning at scale",
+        "author": "Kurakin",
+        "year": "2016",
+        "journal-title": "arXiv:1611.01236"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP.2017.49"
+      },
+      {
+        "key": "ref28",
+        "first-page": "2206",
+        "article-title": "Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Croce"
+      },
+      {
+        "key": "ref29",
+        "first-page": "26831",
+        "article-title": "Are transformers more robust than CNNs?",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "34",
+        "author": "Bai"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIFS.2023.3288426"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIFS.2022.3169922"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIFS.2022.3202687"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIFS.2023.3331899"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIFS.2020.3021899"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3581783.3611914"
+      },
+      {
+        "key": "ref36",
+        "article-title": "OT-attack: Enhancing adversarial transferability of vision-language models via optimal transport optimization",
+        "author": "Han",
+        "year": "2023",
+        "journal-title": "arXiv:2312.04403"
+      },
+      {
+        "key": "ref37",
+        "article-title": "Boosting transferability in vision-language attacks via diversification along the intersection region of adversarial trajectory",
+        "author": "Gao",
+        "year": "2024",
+        "journal-title": "arXiv:2403.12445"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.17"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.282"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2021/635"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00465"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00084"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01453"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00777"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i04.6017"
+      },
+      {
+        "key": "ref46",
+        "article-title": "Towards deep learning models resistant to adversarial attacks",
+        "author": "Madry",
+        "year": "2017",
+        "journal-title": "arXiv:1706.06083"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00893"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.31.30"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1811.12231"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00303"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v36i2.20023"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.00439"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00357"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00503"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9781410605337-29"
+      },
+      {
+        "key": "ref57",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "Simonyan",
+        "year": "2014",
+        "journal-title": "arXiv:1409.1556"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00474"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "volume-title": "Learning multiple layers of features from tiny images",
+        "year": "2009",
+        "author": "Krizhevsky",
+        "key": "ref61"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2017.2723009"
+      },
+      {
+        "key": "ref63",
+        "first-page": "1",
+        "article-title": "An image is worth 16×16 words: Transformers for image recognition at scale",
+        "volume-title": "Proc. Int. Conf. Learn. Represent.",
+        "author": "Dosovitskiy"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3581783.3612421"
+      },
+      {
+        "key": "ref65",
+        "first-page": "1181",
+        "article-title": "Black-box adversarial example attack towards FCG based Android malware detection under incomplete feature information",
+        "volume-title": "Proc. 32nd USENIX Secur. Symp.",
+        "author": "Li"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3332184"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Information Forensics and Security"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10206/10319981/10559847.pdf?arnumber=10559847",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2024-09-19T17:23:40Z",
+      "timestamp": 1726766620000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10559847/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "references-count": 66,
+    "URL": "https://doi.org/10.1109/tifs.2024.3416030",
+    "relation": {},
+    "ISSN": [
+      "1556-6013",
+      "1556-6021"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1556-6013"
+      },
+      {
+        "type": "electronic",
+        "value": "1556-6021"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  }
+}

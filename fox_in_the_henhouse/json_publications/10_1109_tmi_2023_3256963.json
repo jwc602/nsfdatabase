@@ -1,0 +1,2234 @@
+{
+  "doi": "10.1109/tmi.2023.3256963",
+  "openalex": {
+    "id": "https://openalex.org/W4324292596",
+    "doi": "https://doi.org/10.1109/tmi.2023.3256963",
+    "title": "Bayesian Adaptive Beamformer for Robust Electromagnetic Brain Imaging of Correlated Sources in High Spatial Resolution",
+    "display_name": "Bayesian Adaptive Beamformer for Robust Electromagnetic Brain Imaging of Correlated Sources in High Spatial Resolution",
+    "publication_year": 2023,
+    "publication_date": "2023-03-14",
+    "ids": {
+      "openalex": "https://openalex.org/W4324292596",
+      "doi": "https://doi.org/10.1109/tmi.2023.3256963",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/37028341"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tmi.2023.3256963",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tmi.2023.3256963",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S58069681",
+        "display_name": "IEEE Transactions on Medical Imaging",
+        "issn_l": "0278-0062",
+        "issn": [
+          "0278-0062",
+          "1558-254X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Medical Imaging",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5102020469",
+          "display_name": "Chang Cai",
+          "orcid": "https://orcid.org/0000-0002-2967-0644"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I40963666",
+            "display_name": "Central China Normal University",
+            "ror": "https://ror.org/03x1jna21",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I40963666"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chang Cai",
+        "raw_affiliation_strings": [
+          "National Engineering Research Center of Educational Big Data, Central China Normal University, Wuhan, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National Engineering Research Center of Educational Big Data, Central China Normal University, Wuhan, China",
+            "institution_ids": [
+              "https://openalex.org/I40963666"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5063535327",
+          "display_name": "Yuanshun Long",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I40963666",
+            "display_name": "Central China Normal University",
+            "ror": "https://ror.org/03x1jna21",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I40963666"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuanshun Long",
+        "raw_affiliation_strings": [
+          "National Engineering Research Center of Educational Big Data, Central China Normal University, Wuhan, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National Engineering Research Center of Educational Big Data, Central China Normal University, Wuhan, China",
+            "institution_ids": [
+              "https://openalex.org/I40963666"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5080914177",
+          "display_name": "Sanjay Ghosh",
+          "orcid": "https://orcid.org/0000-0002-0474-5072"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Sanjay Ghosh",
+        "raw_affiliation_strings": [
+          "Department of Radiology and Bio-medical Imaging, University of California at San Francisco (UCSF), San Francisco, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Radiology and Bio-medical Imaging, University of California at San Francisco (UCSF), San Francisco, CA, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5010434968",
+          "display_name": "Ali Hashemi",
+          "orcid": "https://orcid.org/0000-0003-4957-4630"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4577782",
+            "display_name": "Technische Universität Berlin",
+            "ror": "https://ror.org/03v4gjf40",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4577782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ali Hashemi",
+        "raw_affiliation_strings": [
+          "Inverse Modeling and Machine Learn- ing Group, Technische Universit&#x00E4;t Berlin, Berlin, Uncertainty, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Inverse Modeling and Machine Learn- ing Group, Technische Universit&#x00E4;t Berlin, Berlin, Uncertainty, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4577782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5037410761",
+          "display_name": "Yijing Gao",
+          "orcid": "https://orcid.org/0000-0002-0758-6628"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Yijing Gao",
+        "raw_affiliation_strings": [
+          "Department of Radiology and Bio-medical Imaging, University of California at San Francisco (UCSF), San Francisco, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Radiology and Bio-medical Imaging, University of California at San Francisco (UCSF), San Francisco, CA, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103229672",
+          "display_name": "Mithun Diwakar",
+          "orcid": "https://orcid.org/0000-0001-7557-9895"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I51713134",
+            "display_name": "University of Colorado Anschutz Medical Campus",
+            "ror": "https://ror.org/03wmf1y16",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I51713134"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mithun Diwakar",
+        "raw_affiliation_strings": [
+          "Department of Radiology, University of Colorado Anschutz, Denver, CO, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Radiology, University of Colorado Anschutz, Denver, CO, USA",
+            "institution_ids": [
+              "https://openalex.org/I51713134"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5068256213",
+          "display_name": "Stefan Haufe",
+          "orcid": "https://orcid.org/0000-0003-1470-9195"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4577782",
+            "display_name": "Technische Universität Berlin",
+            "ror": "https://ror.org/03v4gjf40",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4577782"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Stefan Haufe",
+        "raw_affiliation_strings": [
+          "Inverse Modeling and Machine Learning Group, Technische Universit&#x00E4;t Berlin, Berlin, Uncertainty, Germany,"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Inverse Modeling and Machine Learning Group, Technische Universit&#x00E4;t Berlin, Berlin, Uncertainty, Germany,",
+            "institution_ids": [
+              "https://openalex.org/I4577782"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5018858477",
+          "display_name": "Kensuke Sekihara",
+          "orcid": "https://orcid.org/0000-0002-2048-3797"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Kensuke Sekihara",
+        "raw_affiliation_strings": [
+          "Signal Analysis Inc., Tokyo, Hachioji, Japan"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Signal Analysis Inc., Tokyo, Hachioji, Japan",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5052928277",
+          "display_name": "Wei Wu",
+          "orcid": "https://orcid.org/0000-0003-3938-8359"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wei Wu",
+        "raw_affiliation_strings": [
+          "Department of Psychiatry and Behavioral Sciences, Stanford University, Stanford, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Psychiatry and Behavioral Sciences, Stanford University, Stanford, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5035006868",
+          "display_name": "Srikantan S. Nagarajan",
+          "orcid": "https://orcid.org/0000-0001-7209-3857"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Srikantan S. Nagarajan",
+        "raw_affiliation_strings": [
+          "Department of Radiology and Bio-medical Imaging, University of California at San Francisco (UCSF), San Francisco, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Radiology and Bio-medical Imaging, University of California at San Francisco (UCSF), San Francisco, CA, USA",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 10,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 5.25393441,
+    "has_fulltext": false,
+    "cited_by_count": 17,
+    "citation_normalized_percentile": {
+      "value": 0.94926482,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 94,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "42",
+      "issue": "9",
+      "first_page": "2502",
+      "last_page": "2512"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10378",
+      "display_name": "Advanced MRI Techniques and Applications",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10378",
+        "display_name": "Advanced MRI Techniques and Applications",
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11447",
+        "display_name": "Blind Source Separation Techniques",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1711",
+          "display_name": "Signal Processing"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/magnetoencephalography",
+        "display_name": "Magnetoencephalography",
+        "score": 0.7588287591934204
+      },
+      {
+        "id": "https://openalex.org/keywords/covariance",
+        "display_name": "Covariance",
+        "score": 0.6634611487388611
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6517999768257141
+      },
+      {
+        "id": "https://openalex.org/keywords/robustness",
+        "display_name": "Robustness (evolution)",
+        "score": 0.6132646203041077
+      },
+      {
+        "id": "https://openalex.org/keywords/noise",
+        "display_name": "Noise (video)",
+        "score": 0.5553603172302246
+      },
+      {
+        "id": "https://openalex.org/keywords/adaptive-beamformer",
+        "display_name": "Adaptive beamformer",
+        "score": 0.5546313524246216
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.5031961798667908
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.4849710464477539
+      },
+      {
+        "id": "https://openalex.org/keywords/image-resolution",
+        "display_name": "Image resolution",
+        "score": 0.46186286211013794
+      },
+      {
+        "id": "https://openalex.org/keywords/pattern-recognition",
+        "display_name": "Pattern recognition (psychology)",
+        "score": 0.45813798904418945
+      },
+      {
+        "id": "https://openalex.org/keywords/iterative-reconstruction",
+        "display_name": "Iterative reconstruction",
+        "score": 0.4464758634567261
+      },
+      {
+        "id": "https://openalex.org/keywords/bayesian-probability",
+        "display_name": "Bayesian probability",
+        "score": 0.43054622411727905
+      },
+      {
+        "id": "https://openalex.org/keywords/bayesian-inference",
+        "display_name": "Bayesian inference",
+        "score": 0.42141205072402954
+      },
+      {
+        "id": "https://openalex.org/keywords/beamforming",
+        "display_name": "Beamforming",
+        "score": 0.38428038358688354
+      },
+      {
+        "id": "https://openalex.org/keywords/electroencephalography",
+        "display_name": "Electroencephalography",
+        "score": 0.20831257104873657
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.20595964789390564
+      },
+      {
+        "id": "https://openalex.org/keywords/image",
+        "display_name": "Image (mathematics)",
+        "score": 0.13195732235908508
+      },
+      {
+        "id": "https://openalex.org/keywords/statistics",
+        "display_name": "Statistics",
+        "score": 0.09983360767364502
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C556910895",
+        "wikidata": "https://www.wikidata.org/wiki/Q384188",
+        "display_name": "Magnetoencephalography",
+        "level": 3,
+        "score": 0.7588287591934204
+      },
+      {
+        "id": "https://openalex.org/C178650346",
+        "wikidata": "https://www.wikidata.org/wiki/Q201984",
+        "display_name": "Covariance",
+        "level": 2,
+        "score": 0.6634611487388611
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6517999768257141
+      },
+      {
+        "id": "https://openalex.org/C63479239",
+        "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+        "display_name": "Robustness (evolution)",
+        "level": 3,
+        "score": 0.6132646203041077
+      },
+      {
+        "id": "https://openalex.org/C99498987",
+        "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+        "display_name": "Noise (video)",
+        "level": 3,
+        "score": 0.5553603172302246
+      },
+      {
+        "id": "https://openalex.org/C33378366",
+        "wikidata": "https://www.wikidata.org/wiki/Q4680719",
+        "display_name": "Adaptive beamformer",
+        "level": 3,
+        "score": 0.5546313524246216
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5031961798667908
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.4849710464477539
+      },
+      {
+        "id": "https://openalex.org/C205372480",
+        "wikidata": "https://www.wikidata.org/wiki/Q210521",
+        "display_name": "Image resolution",
+        "level": 2,
+        "score": 0.46186286211013794
+      },
+      {
+        "id": "https://openalex.org/C153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "level": 2,
+        "score": 0.45813798904418945
+      },
+      {
+        "id": "https://openalex.org/C141379421",
+        "wikidata": "https://www.wikidata.org/wiki/Q6094427",
+        "display_name": "Iterative reconstruction",
+        "level": 2,
+        "score": 0.4464758634567261
+      },
+      {
+        "id": "https://openalex.org/C107673813",
+        "wikidata": "https://www.wikidata.org/wiki/Q812534",
+        "display_name": "Bayesian probability",
+        "level": 2,
+        "score": 0.43054622411727905
+      },
+      {
+        "id": "https://openalex.org/C160234255",
+        "wikidata": "https://www.wikidata.org/wiki/Q812535",
+        "display_name": "Bayesian inference",
+        "level": 3,
+        "score": 0.42141205072402954
+      },
+      {
+        "id": "https://openalex.org/C54197355",
+        "wikidata": "https://www.wikidata.org/wiki/Q5782992",
+        "display_name": "Beamforming",
+        "level": 2,
+        "score": 0.38428038358688354
+      },
+      {
+        "id": "https://openalex.org/C522805319",
+        "wikidata": "https://www.wikidata.org/wiki/Q179965",
+        "display_name": "Electroencephalography",
+        "level": 2,
+        "score": 0.20831257104873657
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.20595964789390564
+      },
+      {
+        "id": "https://openalex.org/C115961682",
+        "wikidata": "https://www.wikidata.org/wiki/Q860623",
+        "display_name": "Image (mathematics)",
+        "level": 2,
+        "score": 0.13195732235908508
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.09983360767364502
+      },
+      {
+        "id": "https://openalex.org/C76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C118552586",
+        "wikidata": "https://www.wikidata.org/wiki/Q7867",
+        "display_name": "Psychiatry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D001931",
+        "descriptor_name": "Brain Mapping",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001499",
+        "descriptor_name": "Bayes Theorem",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003198",
+        "descriptor_name": "Computer Simulation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015225",
+        "descriptor_name": "Magnetoencephalography",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D004569",
+        "descriptor_name": "Electroencephalography",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D055590",
+        "descriptor_name": "Electromagnetic Phenomena",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001931",
+        "descriptor_name": "Brain Mapping",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D001499",
+        "descriptor_name": "Bayes Theorem",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003198",
+        "descriptor_name": "Computer Simulation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015225",
+        "descriptor_name": "Magnetoencephalography",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D004569",
+        "descriptor_name": "Electroencephalography",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D055590",
+        "descriptor_name": "Electromagnetic Phenomena",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1109/tmi.2023.3256963",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tmi.2023.3256963",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S58069681",
+          "display_name": "IEEE Transactions on Medical Imaging",
+          "issn_l": "0278-0062",
+          "issn": [
+            "0278-0062",
+            "1558-254X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Medical Imaging",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:37028341",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37028341",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE transactions on medical imaging",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G3602460275",
+        "display_name": null,
+        "funder_award_id": "R01AG062196",
+        "funder_id": "https://openalex.org/F4320337363",
+        "funder_display_name": "National Institute of Biomedical Imaging and Bioengineering"
+      },
+      {
+        "id": "https://openalex.org/G2056467022",
+        "display_name": null,
+        "funder_award_id": "W81XWH-13-1-0494",
+        "funder_id": "https://openalex.org/F4320306078",
+        "funder_display_name": "U.S. Department of Defense"
+      },
+      {
+        "id": "https://openalex.org/G5971520243",
+        "display_name": null,
+        "funder_award_id": "2021CFB384",
+        "funder_id": "https://openalex.org/F4320322186",
+        "funder_display_name": "Natural Science Foundation of Hubei Province"
+      },
+      {
+        "id": "https://openalex.org/G8527014045",
+        "display_name": null,
+        "funder_award_id": "MRPI MRP-17--454755",
+        "funder_id": "https://openalex.org/F4320308590",
+        "funder_display_name": "University of California"
+      },
+      {
+        "id": "https://openalex.org/G8945379503",
+        "display_name": null,
+        "funder_award_id": "62277023",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G226252844",
+        "display_name": null,
+        "funder_award_id": "62007013",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G7712865737",
+        "display_name": null,
+        "funder_award_id": "R01NS100440",
+        "funder_id": "https://openalex.org/F4320337363",
+        "funder_display_name": "National Institute of Biomedical Imaging and Bioengineering"
+      },
+      {
+        "id": "https://openalex.org/G2049625267",
+        "display_name": null,
+        "funder_award_id": "R01DC176960",
+        "funder_id": "https://openalex.org/F4320337363",
+        "funder_display_name": "National Institute of Biomedical Imaging and Bioengineering"
+      },
+      {
+        "id": "https://openalex.org/G5652149588",
+        "display_name": null,
+        "funder_award_id": "758985",
+        "funder_id": "https://openalex.org/F4320334678",
+        "funder_display_name": "European Research Council"
+      },
+      {
+        "id": "https://openalex.org/G1673254260",
+        "display_name": null,
+        "funder_award_id": "R01DC017091",
+        "funder_id": "https://openalex.org/F4320337363",
+        "funder_display_name": "National Institute of Biomedical Imaging and Bioengineering"
+      },
+      {
+        "id": "https://openalex.org/G3049455302",
+        "display_name": null,
+        "funder_award_id": "T32EB001631",
+        "funder_id": "https://openalex.org/F4320337363",
+        "funder_display_name": "National Institute of Biomedical Imaging and Bioengineering"
+      },
+      {
+        "id": "https://openalex.org/G8416875011",
+        "display_name": null,
+        "funder_award_id": "R01DC013979",
+        "funder_id": "https://openalex.org/F4320337363",
+        "funder_display_name": "National Institute of Biomedical Imaging and Bioengineering"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306078",
+        "display_name": "U.S. Department of Defense",
+        "ror": "https://ror.org/0447fe631"
+      },
+      {
+        "id": "https://openalex.org/F4320308590",
+        "display_name": "University of California",
+        "ror": "https://ror.org/00pjdza24"
+      },
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320322186",
+        "display_name": "Natural Science Foundation of Hubei Province",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320334678",
+        "display_name": "European Research Council",
+        "ror": "https://ror.org/0472cxd90"
+      },
+      {
+        "id": "https://openalex.org/F4320337363",
+        "display_name": "National Institute of Biomedical Imaging and Bioengineering",
+        "ror": "https://ror.org/00372qc85"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 38,
+    "referenced_works": [
+      "https://openalex.org/W2016980059",
+      "https://openalex.org/W2507020041",
+      "https://openalex.org/W2112466417",
+      "https://openalex.org/W2152484798",
+      "https://openalex.org/W1988945834",
+      "https://openalex.org/W2055368168",
+      "https://openalex.org/W1973522832",
+      "https://openalex.org/W2013150886",
+      "https://openalex.org/W6600012500",
+      "https://openalex.org/W2966279265",
+      "https://openalex.org/W3092120360",
+      "https://openalex.org/W2139313032",
+      "https://openalex.org/W2937977811",
+      "https://openalex.org/W2106072070",
+      "https://openalex.org/W2161465752",
+      "https://openalex.org/W1516111018",
+      "https://openalex.org/W2045887127",
+      "https://openalex.org/W2102181721",
+      "https://openalex.org/W1993938052",
+      "https://openalex.org/W2125027820",
+      "https://openalex.org/W1974637957",
+      "https://openalex.org/W2090530235",
+      "https://openalex.org/W1823045978",
+      "https://openalex.org/W2076776015",
+      "https://openalex.org/W2884942418",
+      "https://openalex.org/W4307773593",
+      "https://openalex.org/W4247424590",
+      "https://openalex.org/W2523939209",
+      "https://openalex.org/W2130863149",
+      "https://openalex.org/W2065743591",
+      "https://openalex.org/W2122418437",
+      "https://openalex.org/W2953406849",
+      "https://openalex.org/W1709380962",
+      "https://openalex.org/W1606569297",
+      "https://openalex.org/W2406007819",
+      "https://openalex.org/W245658",
+      "https://openalex.org/W2419166069",
+      "https://openalex.org/W2976095410"
+    ],
+    "related_works": [
+      "https://openalex.org/W818226659",
+      "https://openalex.org/W2996333928",
+      "https://openalex.org/W2009075871",
+      "https://openalex.org/W2132841313",
+      "https://openalex.org/W2518591292",
+      "https://openalex.org/W2105408150",
+      "https://openalex.org/W1976800395",
+      "https://openalex.org/W2548445082",
+      "https://openalex.org/W2606661315",
+      "https://openalex.org/W636053046"
+    ],
+    "abstract_inverted_index": {
+      "Reconstructing": [
+        0
+      ],
+      "complex": [
+        1
+      ],
+      "brain": [
+        2,
+        49,
+        97,
+        195
+      ],
+      "source": [
+        3
+      ],
+      "activity": [
+        4
+      ],
+      "at": [
+        5,
+        158
+      ],
+      "a": [
+        6,
+        17,
+        63,
+        73,
+        81
+      ],
+      "high": [
+        7,
+        43,
+        198
+      ],
+      "spatiotemporal": [
+        8
+      ],
+      "resolution": [
+        9,
+        160,
+        199
+      ],
+      "from": [
+        10,
+        78,
+        95
+      ],
+      "magnetoencephalography": [
+        11
+      ],
+      "(MEG)": [
+        12
+      ],
+      "or": [
+        13
+      ],
+      "electroencephalography": [
+        14
+      ],
+      "(EEG)": [
+        15
+      ],
+      "remains": [
+        16
+      ],
+      "challenging": [
+        18
+      ],
+      "problem.": [
+        19
+      ],
+      "Adaptive": [
+        20
+      ],
+      "beamformers": [
+        21,
+        36,
+        70
+      ],
+      "are": [
+        22,
+        165
+      ],
+      "routinely": [
+        23
+      ],
+      "deployed": [
+        24
+      ],
+      "for": [
+        25,
+        66,
+        109,
+        115,
+        190
+      ],
+      "this": [
+        26
+      ],
+      "imaging": [
+        27
+      ],
+      "domain": [
+        28
+      ],
+      "using": [
+        29,
+        80
+      ],
+      "the": [
+        30,
+        107,
+        123,
+        181
+      ],
+      "sample": [
+        31
+      ],
+      "data": [
+        32,
+        75,
+        79,
+        90,
+        117
+      ],
+      "covariance.": [
+        33
+      ],
+      "However": [
+        34
+      ],
+      "adaptive": [
+        35,
+        69,
+        176
+      ],
+      "have": [
+        37
+      ],
+      "long": [
+        38
+      ],
+      "been": [
+        39
+      ],
+      "hindered": [
+        40
+      ],
+      "by": [
+        41
+      ],
+      "1)": [
+        42
+      ],
+      "degree": [
+        44
+      ],
+      "of": [
+        45,
+        122,
+        171
+      ],
+      "correlation": [
+        46
+      ],
+      "between": [
+        47
+      ],
+      "multiple": [
+        48,
+        140,
+        193
+      ],
+      "sources,": [
+        50
+      ],
+      "and": [
+        51,
+        54,
+        99,
+        104,
+        120,
+        135,
+        148,
+        151,
+        200,
+        204
+      ],
+      "2)": [
+        52
+      ],
+      "interference": [
+        53,
+        105,
+        150,
+        203
+      ],
+      "noise": [
+        55,
+        103,
+        152
+      ],
+      "embedded": [
+        56
+      ],
+      "in": [
+        57
+      ],
+      "sensor": [
+        58
+      ],
+      "measurements.": [
+        59,
+        111
+      ],
+      "This": [
+        60,
+        174
+      ],
+      "study": [
+        61
+      ],
+      "develops": [
+        62
+      ],
+      "novel": [
+        64,
+        175
+      ],
+      "framework": [
+        65,
+        114,
+        189
+      ],
+      "minimum": [
+        67
+      ],
+      "variance": [
+        68
+      ],
+      "that": [
+        71,
+        139,
+        149
+      ],
+      "uses": [
+        72
+      ],
+      "model": [
+        74,
+        89,
+        116
+      ],
+      "covariance": [
+        76,
+        91,
+        118
+      ],
+      "learned": [
+        77,
+        88
+      ],
+      "sparse": [
+        82
+      ],
+      "Bayesian": [
+        83
+      ],
+      "learning": [
+        84
+      ],
+      "algorithm": [
+        85,
+        178
+      ],
+      "(SBL-BF).": [
+        86
+      ],
+      "The": [
+        87
+      ],
+      "effectively": [
+        92
+      ],
+      "removes": [
+        93
+      ],
+      "influence": [
+        94
+      ],
+      "correlated": [
+        96,
+        142,
+        194
+      ],
+      "sources": [
+        98,
+        143,
+        196
+      ],
+      "is": [
+        100
+      ],
+      "robust": [
+        101
+      ],
+      "to": [
+        102,
+        202
+      ],
+      "without": [
+        106
+      ],
+      "need": [
+        108
+      ],
+      "baseline": [
+        110
+      ],
+      "A": [
+        112
+      ],
+      "multiresolution": [
+        113
+      ],
+      "computation": [
+        119
+      ],
+      "parallelization": [
+        121
+      ],
+      "beamformer": [
+        124
+      ],
+      "implementation": [
+        125
+      ],
+      "enables": [
+        126
+      ],
+      "efficient": [
+        127,
+        168
+      ],
+      "high-resolution": [
+        128
+      ],
+      "reconstruction": [
+        129
+      ],
+      "images.": [
+        130
+      ],
+      "Results": [
+        131
+      ],
+      "with": [
+        132,
+        167,
+        197
+      ],
+      "both": [
+        133
+      ],
+      "simulations": [
+        134
+      ],
+      "real": [
+        136
+      ],
+      "datasets": [
+        137
+      ],
+      "indicate": [
+        138
+      ],
+      "highly": [
+        141
+      ],
+      "can": [
+        144,
+        153
+      ],
+      "be": [
+        145,
+        154
+      ],
+      "accurately": [
+        146
+      ],
+      "reconstructed,": [
+        147
+      ],
+      "sufficiently": [
+        155
+      ],
+      "suppressed.": [
+        156
+      ],
+      "Reconstructions": [
+        157
+      ],
+      "2-2.5mm": [
+        159
+      ],
+      "(": [
+        161
+      ],
+      "∼": [
+        162
+      ],
+      "150K": [
+        163
+      ],
+      "voxels)": [
+        164
+      ],
+      "possible": [
+        166
+      ],
+      "run": [
+        169
+      ],
+      "times": [
+        170
+      ],
+      "1-3": [
+        172
+      ],
+      "minutes.": [
+        173
+      ],
+      "beamforming": [
+        177
+      ],
+      "significantly": [
+        179
+      ],
+      "outperforms": [
+        180
+      ],
+      "state-of-the-art": [
+        182
+      ],
+      "benchmarks.": [
+        183
+      ],
+      "Therefore,": [
+        184
+      ],
+      "SBL-BF": [
+        185
+      ],
+      "provides": [
+        186
+      ],
+      "an": [
+        187
+      ],
+      "effective": [
+        188
+      ],
+      "efficiently": [
+        191
+      ],
+      "reconstructing": [
+        192
+      ],
+      "robustness": [
+        201
+      ],
+      "noise.": [
+        205
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          23
+        ]
+      ],
+      "date-time": "2025-12-23T10:04:15Z",
+      "timestamp": 1766484255731,
+      "version": "3.37.3"
+    },
+    "reference-count": 40,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "9",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2023-09-01T00:00:00Z",
+          "timestamp": 1693526400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2023-09-01T00:00:00Z",
+          "timestamp": 1693526400000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2023-09-01T00:00:00Z",
+          "timestamp": 1693526400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2023-09-01T00:00:00Z",
+          "timestamp": 1693526400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62277023",
+          "62007013"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62277023",
+              "62007013"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003819",
+        "name": "Hubei Provincial Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2021CFB384"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2021CFB384"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100003819",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000070",
+        "name": "NIH from the National Institute of Biomedical Imaging and Bioengineering",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01DC013979",
+          "R01NS100440",
+          "R01DC176960",
+          "R01DC017091",
+          "R01AG062196",
+          "T32EB001631"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01DC013979",
+              "R01NS100440",
+              "R01DC176960",
+              "R01DC017091",
+              "R01AG062196",
+              "T32EB001631"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000070",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100005595",
+        "name": "University of California",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "MRPI MRP-17--454755"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "MRPI MRP-17--454755"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100005595",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000005",
+        "name": "U.S. Department of Defense",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W81XWH-13-1-0494"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W81XWH-13-1-0494"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000005",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Research Contract from Ricoh MEG USA Inc."
+      },
+      {
+        "DOI": "10.13039/501100000781",
+        "name": "European Research Council (ERC) under the European Union's Horizon 2020 Research and Innovation Programme",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "758985"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "758985"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000781",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Med. Imaging"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1109/tmi.2023.3256963",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          14
+        ]
+      ],
+      "date-time": "2023-03-14T17:30:33Z",
+      "timestamp": 1678815033000
+    },
+    "page": "2502-2512",
+    "source": "Crossref",
+    "is-referenced-by-count": 19,
+    "title": [
+      "Bayesian Adaptive Beamformer for Robust Electromagnetic Brain Imaging of Correlated Sources in High Spatial Resolution"
+    ],
+    "prefix": "10.1109",
+    "volume": "42",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2967-0644",
+        "authenticated-orcid": false,
+        "given": "Chang",
+        "family": "Cai",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National Engineering Research Center of Educational Big Data, Central China Normal University, Wuhan, China"
+          }
+        ]
+      },
+      {
+        "given": "Yuanshun",
+        "family": "Long",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Engineering Research Center of Educational Big Data, Central China Normal University, Wuhan, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0474-5072",
+        "authenticated-orcid": false,
+        "given": "Sanjay",
+        "family": "Ghosh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Radiology and Bio-medical Imaging, University of California at San Francisco (UCSF), San Francisco, CA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4957-4630",
+        "authenticated-orcid": false,
+        "given": "Ali",
+        "family": "Hashemi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Inverse Modeling and Machine Learn- ing Group, Technische Universit&#x00E4;t Berlin, Berlin, Uncertainty, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Yijing",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Radiology and Bio-medical Imaging, University of California at San Francisco (UCSF), San Francisco, CA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Mithun",
+        "family": "Diwakar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Radiology, University of Colorado Anschutz, Denver, CO, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1470-9195",
+        "authenticated-orcid": false,
+        "given": "Stefan",
+        "family": "Haufe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Inverse Modeling and Machine Learning Group, Technische Universit&#x00E4;t Berlin, Berlin, Uncertainty, Germany,"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2048-3797",
+        "authenticated-orcid": false,
+        "given": "Kensuke",
+        "family": "Sekihara",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Signal Analysis Inc., Tokyo, Hachioji, Japan"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3938-8359",
+        "authenticated-orcid": false,
+        "given": "Wei",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Psychiatry and Behavioral Sciences, Stanford University, Stanford, CA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7209-3857",
+        "authenticated-orcid": false,
+        "given": "Srikantan S.",
+        "family": "Nagarajan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Radiology and Bio-medical Imaging, University of California at San Francisco (UCSF), San Francisco, CA, USA"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/79.962275"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-14947-9"
+      },
+      {
+        "key": "ref3",
+        "first-page": "761",
+        "article-title": "Current source image estimation by spatially filtered MEG",
+        "volume-title": "Biomagnetism Clinical Aspects",
+        "author": "Robinson",
+        "year": "1992"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/10.486285"
+      },
+      {
+        "volume-title": "Adaptive Spatial Filters for Electromagnetic Brain Imaging",
+        "year": "2008",
+        "author": "Sekihara",
+        "key": "ref5"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TBME.2006.873752"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2006.11.012"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2011.03.042"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2010.07.023"
+      },
+      {
+        "article-title": "Interpreting measured magnetic fields of the brain: Estimates of current distributions",
+        "year": "1984",
+        "author": "Hämäläinen",
+        "key": "ref10"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0896-6273(00)81138-1"
+      },
+      {
+        "key": "ref12",
+        "first-page": "5",
+        "article-title": "Standardized low resolution brain electromagnetic tomography (SLORETA): Technical details",
+        "volume": "24",
+        "author": "Pascual-Marqui",
+        "year": "2002",
+        "journal-title": "Methods Findings Experim. Clin. Pharmacol."
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2019.2932290"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2020.117411"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1273496.1273625"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICASSP.2019.8683319"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/10.930901"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TBME.2002.805485"
+      },
+      {
+        "issue": "2",
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1023/A:1007665907178",
+        "article-title": "An introduction to variational methods for graphical models",
+        "volume": "37",
+        "author": "Jordan",
+        "year": "1999",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2008.02.059"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACSSC.1992.269278"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2011.04.041"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-9868.00196"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2014.12.040"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2012.12.051"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fnins.2020.00710"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2009.06.083"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2018.07.056"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2020.117411"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMI.2022.3218074"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0096-3445.117.1.34"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4172/2324-9307.1000150"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/1743-0003-4-46"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2011.12.027"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1112685108"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2019.06.055"
+      },
+      {
+        "volume-title": "Adaptive Spatial Filters for Electromagnetic Brain Imaging",
+        "year": "2008",
+        "author": "Sekihara",
+        "key": "ref37"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/s0074-7742(05)68006-3"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACSSC.2000.910969"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2016.05.064"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Medical Imaging"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://ieeexplore.ieee.org/ielam/42/10236920/10068553-aam.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/42/10236920/10068553.pdf?arnumber=10068553",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          12
+        ]
+      ],
+      "date-time": "2024-01-12T02:05:14Z",
+      "timestamp": 1705025114000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10068553/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    },
+    "references-count": 40,
+    "journal-issue": {
+      "issue": "9"
+    },
+    "URL": "https://doi.org/10.1109/tmi.2023.3256963",
+    "relation": {},
+    "ISSN": [
+      "0278-0062",
+      "1558-254X"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0278-0062"
+      },
+      {
+        "type": "electronic",
+        "value": "1558-254X"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    }
+  }
+}

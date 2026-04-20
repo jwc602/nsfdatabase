@@ -1,0 +1,2271 @@
+{
+  "doi": "10.1021/jacs.4c01353",
+  "openalex": {
+    "id": "https://openalex.org/W4399305702",
+    "doi": "https://doi.org/10.1021/jacs.4c01353",
+    "title": "Pourbaix Machine Learning Framework Identifies Acidic Water Oxidation Catalysts Exhibiting Suppressed Ruthenium Dissolution",
+    "display_name": "Pourbaix Machine Learning Framework Identifies Acidic Water Oxidation Catalysts Exhibiting Suppressed Ruthenium Dissolution",
+    "publication_year": 2024,
+    "publication_date": "2024-06-03",
+    "ids": {
+      "openalex": "https://openalex.org/W4399305702",
+      "doi": "https://doi.org/10.1021/jacs.4c01353",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38830239"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1021/jacs.4c01353",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1021/jacs.4c01353",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S111155417",
+        "display_name": "Journal of the American Chemical Society",
+        "issn_l": "0002-7863",
+        "issn": [
+          "0002-7863",
+          "1520-5126",
+          "1943-2984"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320006",
+        "host_organization_name": "American Chemical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320006"
+        ],
+        "host_organization_lineage_names": [
+          "American Chemical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of the American Chemical Society",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5049493917",
+          "display_name": "Jehad Abed",
+          "orcid": "https://orcid.org/0000-0003-1387-2740"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jehad Abed",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario M5S 1A4, Canada",
+          "Department of Materials Science and Engineering, University of Toronto, 184 College Street, Toronto, Ontario M5S 3E4, Canada"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Materials Science and Engineering, University of Toronto, 184 College Street, Toronto, Ontario M5S 3E4, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario M5S 1A4, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062528507",
+          "display_name": "Javier Heras‐Domingo",
+          "orcid": "https://orcid.org/0000-0002-4322-3146"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74973139",
+            "display_name": "Carnegie Mellon University",
+            "ror": "https://ror.org/05x2bcf33",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Javier Heras-Domingo",
+        "raw_affiliation_strings": [
+          "Department of Chemical Engineering, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, Pennsylvania 15213, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemical Engineering, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, Pennsylvania 15213, United States",
+            "institution_ids": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5071284998",
+          "display_name": "Rohan Yuri Sanspeur",
+          "orcid": "https://orcid.org/0000-0002-5583-8922"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74973139",
+            "display_name": "Carnegie Mellon University",
+            "ror": "https://ror.org/05x2bcf33",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rohan Yuri Sanspeur",
+        "raw_affiliation_strings": [
+          "Department of Chemical Engineering, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, Pennsylvania 15213, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemical Engineering, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, Pennsylvania 15213, United States",
+            "institution_ids": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101371461",
+          "display_name": "Mingchuan Luo",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I20231570",
+            "display_name": "Peking University",
+            "ror": "https://ror.org/02v51f717",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I20231570"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mingchuan Luo",
+        "raw_affiliation_strings": [
+          "School of Materials Science and Engineering, Peking University, Beijing 100871, P. R. China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Materials Science and Engineering, Peking University, Beijing 100871, P. R. China",
+            "institution_ids": [
+              "https://openalex.org/I20231570"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5048076397",
+          "display_name": "Wajdi Alnoush",
+          "orcid": "https://orcid.org/0000-0002-6089-032X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I98251732",
+            "display_name": "McMaster University",
+            "ror": "https://ror.org/02fa3aq29",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I98251732"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wajdi Alnoush",
+        "raw_affiliation_strings": [
+          "Department of Chemical Engineering, McMaster University, 1280 Main Street West, Hamilton, Ontario L8S 4L7, Canada"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemical Engineering, McMaster University, 1280 Main Street West, Hamilton, Ontario L8S 4L7, Canada",
+            "institution_ids": [
+              "https://openalex.org/I98251732"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5078151020",
+          "display_name": "Débora Motta Meira",
+          "orcid": "https://orcid.org/0000-0002-7529-2736"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I83308685",
+            "display_name": "Canadian Light Source (Canada)",
+            "ror": "https://ror.org/001bvc968",
+            "country_code": "CA",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I83308685"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1282105669",
+            "display_name": "Argonne National Laboratory",
+            "ror": "https://ror.org/05gvnxz63",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1282105669",
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I39565521",
+              "https://openalex.org/I40347166"
+            ]
+          }
+        ],
+        "countries": [
+          "CA",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Debora Motta Meira",
+        "raw_affiliation_strings": [
+          "CLS@APS Sector 20, Advanced Photon Source, Argonne National Laboratory, 9700 S. Cass Avenue, Argonne, Illinois 60439, United States",
+          "Canadian Light Source Inc., 44 Innovation Boulevard, Saskatoon, Saskatchewan S7N 2 V3, Canada"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "CLS@APS Sector 20, Advanced Photon Source, Argonne National Laboratory, 9700 S. Cass Avenue, Argonne, Illinois 60439, United States",
+            "institution_ids": [
+              "https://openalex.org/I1282105669"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Canadian Light Source Inc., 44 Innovation Boulevard, Saskatoon, Saskatchewan S7N 2 V3, Canada",
+            "institution_ids": [
+              "https://openalex.org/I83308685"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5037413243",
+          "display_name": "Hsiao‐Tsu Wang",
+          "orcid": "https://orcid.org/0000-0003-1249-9462"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I83308685",
+            "display_name": "Canadian Light Source (Canada)",
+            "ror": "https://ror.org/001bvc968",
+            "country_code": "CA",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I83308685"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hsiaotsu Wang",
+        "raw_affiliation_strings": [
+          "Canadian Light Source Inc., 44 Innovation Boulevard, Saskatoon, Saskatchewan S7N 2 V3, Canada"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Canadian Light Source Inc., 44 Innovation Boulevard, Saskatoon, Saskatchewan S7N 2 V3, Canada",
+            "institution_ids": [
+              "https://openalex.org/I83308685"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100370328",
+          "display_name": "Jian Wang",
+          "orcid": "https://orcid.org/0000-0001-5184-7023"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I83308685",
+            "display_name": "Canadian Light Source (Canada)",
+            "ror": "https://ror.org/001bvc968",
+            "country_code": "CA",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I83308685"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jian Wang",
+        "raw_affiliation_strings": [
+          "Canadian Light Source Inc., 44 Innovation Boulevard, Saskatoon, Saskatchewan S7N 2 V3, Canada"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Canadian Light Source Inc., 44 Innovation Boulevard, Saskatoon, Saskatchewan S7N 2 V3, Canada",
+            "institution_ids": [
+              "https://openalex.org/I83308685"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5033120840",
+          "display_name": "Jigang Zhou",
+          "orcid": "https://orcid.org/0000-0001-6644-2862"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I83308685",
+            "display_name": "Canadian Light Source (Canada)",
+            "ror": "https://ror.org/001bvc968",
+            "country_code": "CA",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I83308685"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jigang Zhou",
+        "raw_affiliation_strings": [
+          "Canadian Light Source Inc., 44 Innovation Boulevard, Saskatoon, Saskatchewan S7N 2 V3, Canada"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Canadian Light Source Inc., 44 Innovation Boulevard, Saskatoon, Saskatchewan S7N 2 V3, Canada",
+            "institution_ids": [
+              "https://openalex.org/I83308685"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5052565332",
+          "display_name": "Daojin Zhou",
+          "orcid": "https://orcid.org/0000-0002-8466-7413"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Daojin Zhou",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario M5S 1A4, Canada"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario M5S 1A4, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5015913191",
+          "display_name": "Khalid Fatih",
+          "orcid": "https://orcid.org/0000-0003-4742-8381"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210166590",
+            "display_name": "BC Innovation Council",
+            "ror": "https://ror.org/05n22dr57",
+            "country_code": "CA",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I4210166590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210159778",
+            "display_name": "National Research Council Canada",
+            "ror": "https://ror.org/04mte1k06",
+            "country_code": "CA",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I4210159778"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Khalid Fatih",
+        "raw_affiliation_strings": [
+          "Clean Energy Innovation, National Research Council Canada, 4250 Wesbrook Mall, Vancouver, British Columbia V6T 1W5, Canada"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Clean Energy Innovation, National Research Council Canada, 4250 Wesbrook Mall, Vancouver, British Columbia V6T 1W5, Canada",
+            "institution_ids": [
+              "https://openalex.org/I4210159778",
+              "https://openalex.org/I4210166590"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003442464",
+          "display_name": "John R. Kitchin",
+          "orcid": "https://orcid.org/0000-0003-2625-9232"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74973139",
+            "display_name": "Carnegie Mellon University",
+            "ror": "https://ror.org/05x2bcf33",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "John R. Kitchin",
+        "raw_affiliation_strings": [
+          "Department of Chemical Engineering, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, Pennsylvania 15213, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemical Engineering, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, Pennsylvania 15213, United States",
+            "institution_ids": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5044827415",
+          "display_name": "Drew Higgins",
+          "orcid": "https://orcid.org/0000-0002-0585-2670"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I98251732",
+            "display_name": "McMaster University",
+            "ror": "https://ror.org/02fa3aq29",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I98251732"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Drew Higgins",
+        "raw_affiliation_strings": [
+          "Department of Chemical Engineering, McMaster University, 1280 Main Street West, Hamilton, Ontario L8S 4L7, Canada"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemical Engineering, McMaster University, 1280 Main Street West, Hamilton, Ontario L8S 4L7, Canada",
+            "institution_ids": [
+              "https://openalex.org/I98251732"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5024574386",
+          "display_name": "Zachary W. Ulissi",
+          "orcid": "https://orcid.org/0000-0002-9401-4918"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74973139",
+            "display_name": "Carnegie Mellon University",
+            "ror": "https://ror.org/05x2bcf33",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Zachary W. Ulissi",
+        "raw_affiliation_strings": [
+          "Department of Chemical Engineering, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, Pennsylvania 15213, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemical Engineering, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, Pennsylvania 15213, United States",
+            "institution_ids": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5054680242",
+          "display_name": "Edward H. Sargent",
+          "orcid": "https://orcid.org/0000-0003-0396-6495"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Edward H. Sargent",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario M5S 1A4, Canada"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario M5S 1A4, Canada",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 15,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5024574386",
+      "https://openalex.org/A5054680242"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I185261750",
+      "https://openalex.org/I74973139"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 7.89382449,
+    "has_fulltext": false,
+    "cited_by_count": 43,
+    "citation_normalized_percentile": {
+      "value": 0.97203421,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "146",
+      "issue": "23",
+      "first_page": "15740",
+      "last_page": "15750"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10030",
+      "display_name": "Electrocatalysts for Energy Conversion",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2105",
+        "display_name": "Renewable Energy, Sustainability and the Environment"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/21",
+        "display_name": "Energy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10030",
+        "display_name": "Electrocatalysts for Energy Conversion",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2105",
+          "display_name": "Renewable Energy, Sustainability and the Environment"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11948",
+        "display_name": "Machine Learning in Materials Science",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10192",
+        "display_name": "Catalytic Processes in Materials Science",
+        "score": 0.9966999888420105,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/overpotential",
+        "display_name": "Overpotential",
+        "score": 0.9773030281066895
+      },
+      {
+        "id": "https://openalex.org/keywords/pourbaix-diagram",
+        "display_name": "Pourbaix diagram",
+        "score": 0.84372878074646
+      },
+      {
+        "id": "https://openalex.org/keywords/chemistry",
+        "display_name": "Chemistry",
+        "score": 0.7297028303146362
+      },
+      {
+        "id": "https://openalex.org/keywords/dissolution",
+        "display_name": "Dissolution",
+        "score": 0.6449120044708252
+      },
+      {
+        "id": "https://openalex.org/keywords/catalysis",
+        "display_name": "Catalysis",
+        "score": 0.6378835439682007
+      },
+      {
+        "id": "https://openalex.org/keywords/oxygen-evolution",
+        "display_name": "Oxygen evolution",
+        "score": 0.4597480595111847
+      },
+      {
+        "id": "https://openalex.org/keywords/ruthenium",
+        "display_name": "Ruthenium",
+        "score": 0.4552712142467499
+      },
+      {
+        "id": "https://openalex.org/keywords/high-resolution-transmission-electron-microscopy",
+        "display_name": "High-resolution transmission electron microscopy",
+        "score": 0.4463738203048706
+      },
+      {
+        "id": "https://openalex.org/keywords/inorganic-chemistry",
+        "display_name": "Inorganic chemistry",
+        "score": 0.3871593773365021
+      },
+      {
+        "id": "https://openalex.org/keywords/chemical-engineering",
+        "display_name": "Chemical engineering",
+        "score": 0.330453485250473
+      },
+      {
+        "id": "https://openalex.org/keywords/nanotechnology",
+        "display_name": "Nanotechnology",
+        "score": 0.26653528213500977
+      },
+      {
+        "id": "https://openalex.org/keywords/physical-chemistry",
+        "display_name": "Physical chemistry",
+        "score": 0.25953689217567444
+      },
+      {
+        "id": "https://openalex.org/keywords/electrochemistry",
+        "display_name": "Electrochemistry",
+        "score": 0.18187445402145386
+      },
+      {
+        "id": "https://openalex.org/keywords/materials-science",
+        "display_name": "Materials science",
+        "score": 0.1404465138912201
+      },
+      {
+        "id": "https://openalex.org/keywords/transmission-electron-microscopy",
+        "display_name": "Transmission electron microscopy",
+        "score": 0.0784020721912384
+      },
+      {
+        "id": "https://openalex.org/keywords/organic-chemistry",
+        "display_name": "Organic chemistry",
+        "score": 0.06856298446655273
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C186460083",
+        "wikidata": "https://www.wikidata.org/wiki/Q333853",
+        "display_name": "Overpotential",
+        "level": 4,
+        "score": 0.9773030281066895
+      },
+      {
+        "id": "https://openalex.org/C192543271",
+        "wikidata": "https://www.wikidata.org/wiki/Q898583",
+        "display_name": "Pourbaix diagram",
+        "level": 4,
+        "score": 0.84372878074646
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.7297028303146362
+      },
+      {
+        "id": "https://openalex.org/C88380143",
+        "wikidata": "https://www.wikidata.org/wiki/Q416674",
+        "display_name": "Dissolution",
+        "level": 2,
+        "score": 0.6449120044708252
+      },
+      {
+        "id": "https://openalex.org/C161790260",
+        "wikidata": "https://www.wikidata.org/wiki/Q82264",
+        "display_name": "Catalysis",
+        "level": 2,
+        "score": 0.6378835439682007
+      },
+      {
+        "id": "https://openalex.org/C135473242",
+        "wikidata": "https://www.wikidata.org/wiki/Q4147614",
+        "display_name": "Oxygen evolution",
+        "level": 4,
+        "score": 0.4597480595111847
+      },
+      {
+        "id": "https://openalex.org/C555196967",
+        "wikidata": "https://www.wikidata.org/wiki/Q1086",
+        "display_name": "Ruthenium",
+        "level": 3,
+        "score": 0.4552712142467499
+      },
+      {
+        "id": "https://openalex.org/C161368742",
+        "wikidata": "https://www.wikidata.org/wiki/Q874906",
+        "display_name": "High-resolution transmission electron microscopy",
+        "level": 3,
+        "score": 0.4463738203048706
+      },
+      {
+        "id": "https://openalex.org/C179104552",
+        "wikidata": "https://www.wikidata.org/wiki/Q11165",
+        "display_name": "Inorganic chemistry",
+        "level": 1,
+        "score": 0.3871593773365021
+      },
+      {
+        "id": "https://openalex.org/C42360764",
+        "wikidata": "https://www.wikidata.org/wiki/Q83588",
+        "display_name": "Chemical engineering",
+        "level": 1,
+        "score": 0.330453485250473
+      },
+      {
+        "id": "https://openalex.org/C171250308",
+        "wikidata": "https://www.wikidata.org/wiki/Q11468",
+        "display_name": "Nanotechnology",
+        "level": 1,
+        "score": 0.26653528213500977
+      },
+      {
+        "id": "https://openalex.org/C147789679",
+        "wikidata": "https://www.wikidata.org/wiki/Q11372",
+        "display_name": "Physical chemistry",
+        "level": 1,
+        "score": 0.25953689217567444
+      },
+      {
+        "id": "https://openalex.org/C52859227",
+        "wikidata": "https://www.wikidata.org/wiki/Q7877",
+        "display_name": "Electrochemistry",
+        "level": 3,
+        "score": 0.18187445402145386
+      },
+      {
+        "id": "https://openalex.org/C192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "level": 0,
+        "score": 0.1404465138912201
+      },
+      {
+        "id": "https://openalex.org/C146088050",
+        "wikidata": "https://www.wikidata.org/wiki/Q744818",
+        "display_name": "Transmission electron microscopy",
+        "level": 2,
+        "score": 0.0784020721912384
+      },
+      {
+        "id": "https://openalex.org/C178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "level": 1,
+        "score": 0.06856298446655273
+      },
+      {
+        "id": "https://openalex.org/C17525397",
+        "wikidata": "https://www.wikidata.org/wiki/Q176140",
+        "display_name": "Electrode",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1021/jacs.4c01353",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1021/jacs.4c01353",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S111155417",
+          "display_name": "Journal of the American Chemical Society",
+          "issn_l": "0002-7863",
+          "issn": [
+            "0002-7863",
+            "1520-5126",
+            "1943-2984"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320006",
+          "host_organization_name": "American Chemical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320006"
+          ],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of the American Chemical Society",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38830239",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38830239",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of the American Chemical Society",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/7",
+        "score": 0.6100000143051147,
+        "display_name": "Affordable and clean energy"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G5552765087",
+        "display_name": null,
+        "funder_award_id": "W911NF2010188",
+        "funder_id": "https://openalex.org/F4320338281",
+        "funder_display_name": "Army Research Office"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320310580",
+        "display_name": "Canadian Light Source",
+        "ror": "https://ror.org/001bvc968"
+      },
+      {
+        "id": "https://openalex.org/F4320319952",
+        "display_name": "Canada Foundation for Innovation",
+        "ror": "https://ror.org/000az4664"
+      },
+      {
+        "id": "https://openalex.org/F4320334593",
+        "display_name": "Natural Sciences and Engineering Research Council of Canada",
+        "ror": "https://ror.org/01h531d29"
+      },
+      {
+        "id": "https://openalex.org/F4320334601",
+        "display_name": "National Research Council Canada",
+        "ror": "https://ror.org/04mte1k06"
+      },
+      {
+        "id": "https://openalex.org/F4320338281",
+        "display_name": "Army Research Office",
+        "ror": "https://ror.org/05epdh915"
+      },
+      {
+        "id": "https://openalex.org/F4320338284",
+        "display_name": "Argonne National Laboratory",
+        "ror": "https://ror.org/05gvnxz63"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 28,
+    "referenced_works": [
+      "https://openalex.org/W2331528766",
+      "https://openalex.org/W2766137163",
+      "https://openalex.org/W2905737950",
+      "https://openalex.org/W3094173475",
+      "https://openalex.org/W2910372448",
+      "https://openalex.org/W2922366141",
+      "https://openalex.org/W3011106738",
+      "https://openalex.org/W3036927904",
+      "https://openalex.org/W2803861156",
+      "https://openalex.org/W3013469885",
+      "https://openalex.org/W1992985800",
+      "https://openalex.org/W2559612475",
+      "https://openalex.org/W2282942319",
+      "https://openalex.org/W2893583421",
+      "https://openalex.org/W3052820714",
+      "https://openalex.org/W3104847103",
+      "https://openalex.org/W4311249091",
+      "https://openalex.org/W2772248602",
+      "https://openalex.org/W2108370718",
+      "https://openalex.org/W2138106703",
+      "https://openalex.org/W3015785377",
+      "https://openalex.org/W4220894016",
+      "https://openalex.org/W2768012672",
+      "https://openalex.org/W4293179619",
+      "https://openalex.org/W4362602338",
+      "https://openalex.org/W2560710317",
+      "https://openalex.org/W3107051778",
+      "https://openalex.org/W3104882344"
+    ],
+    "related_works": [
+      "https://openalex.org/W2968917795",
+      "https://openalex.org/W3029340322",
+      "https://openalex.org/W4385614607",
+      "https://openalex.org/W4225309619",
+      "https://openalex.org/W3009722102",
+      "https://openalex.org/W2338941187",
+      "https://openalex.org/W4396906578",
+      "https://openalex.org/W2780634391",
+      "https://openalex.org/W3206945628",
+      "https://openalex.org/W2163142361"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        39,
+        77
+      ],
+      "demand": [
+        1
+      ],
+      "for": [
+        2,
+        113
+      ],
+      "green": [
+        3
+      ],
+      "hydrogen": [
+        4
+      ],
+      "has": [
+        5
+      ],
+      "raised": [
+        6
+      ],
+      "concerns": [
+        7
+      ],
+      "over": [
+        8,
+        114
+      ],
+      "the": [
+        9,
+        23,
+        85,
+        148,
+        152,
+        188,
+        195
+      ],
+      "availability": [
+        10
+      ],
+      "of": [
+        11,
+        25,
+        55,
+        87,
+        98,
+        121,
+        124,
+        151,
+        190
+      ],
+      "iridium": [
+        12
+      ],
+      "used": [
+        13
+      ],
+      "in": [
+        14
+      ],
+      "oxygen": [
+        15,
+        206
+      ],
+      "evolution": [
+        16,
+        189
+      ],
+      "reaction": [
+        17
+      ],
+      "catalysts.": [
+        18
+      ],
+      "We": [
+        19
+      ],
+      "identify": [
+        20
+      ],
+      "catalysts": [
+        21
+      ],
+      "with": [
+        22,
+        50,
+        68
+      ],
+      "aid": [
+        24
+      ],
+      "a": [
+        26,
+        51,
+        82,
+        119,
+        139,
+        191
+      ],
+      "machine": [
+        27
+      ],
+      "learning-aided": [
+        28
+      ],
+      "computational": [
+        29
+      ],
+      "pipeline": [
+        30,
+        40
+      ],
+      "trained": [
+        31
+      ],
+      "on": [
+        32
+      ],
+      "more": [
+        33
+      ],
+      "than": [
+        34
+      ],
+      "36,000": [
+        35
+      ],
+      "mixed": [
+        36
+      ],
+      "metal": [
+        37
+      ],
+      "oxides.": [
+        38
+      ],
+      "accurately": [
+        41
+      ],
+      "predicts": [
+        42
+      ],
+      "Pourbaix": [
+        43
+      ],
+      "decomposition": [
+        44
+      ],
+      "energy": [
+        45,
+        149
+      ],
+      "(<i>G</i><sub>pbx</sub>)": [
+        46
+      ],
+      "from": [
+        47
+      ],
+      "unrelaxed": [
+        48
+      ],
+      "structures": [
+        49
+      ],
+      "mean": [
+        52
+      ],
+      "absolute": [
+        53
+      ],
+      "error": [
+        54
+      ],
+      "77": [
+        56
+      ],
+      "meV": [
+        57
+      ],
+      "per": [
+        58
+      ],
+      "atom,": [
+        59
+      ],
+      "enabling": [
+        60
+      ],
+      "us": [
+        61
+      ],
+      "to": [
+        62,
+        70,
+        142,
+        160,
+        211
+      ],
+      "screen": [
+        63
+      ],
+      "2070": [
+        64
+      ],
+      "new": [
+        65
+      ],
+      "metallic": [
+        66
+      ],
+      "oxides": [
+        67
+      ],
+      "respect": [
+        69
+      ],
+      "their": [
+        71
+      ],
+      "prospective": [
+        72
+      ],
+      "stability": [
+        73
+      ],
+      "under": [
+        74
+      ],
+      "acidic": [
+        75
+      ],
+      "conditions.": [
+        76
+      ],
+      "search": [
+        78
+      ],
+      "identifies": [
+        79
+      ],
+      "Ru<sub>0.6</sub>Cr<sub>0.2</sub>Ti<sub>0.2</sub>O<sub>2</sub>": [
+        80
+      ],
+      "as": [
+        81
+      ],
+      "candidate": [
+        83
+      ],
+      "having": [
+        84
+      ],
+      "promise": [
+        86
+      ],
+      "increased": [
+        88,
+        143
+      ],
+      "durability:": [
+        89
+      ],
+      "experimentally,": [
+        90
+      ],
+      "we": [
+        91
+      ],
+      "find": [
+        92
+      ],
+      "that": [
+        93,
+        106,
+        134
+      ],
+      "it": [
+        94,
+        107
+      ],
+      "provides": [
+        95
+      ],
+      "an": [
+        96
+      ],
+      "overpotential": [
+        97,
+        122,
+        164
+      ],
+      "267": [
+        99
+      ],
+      "mV": [
+        100,
+        167
+      ],
+      "at": [
+        101,
+        109,
+        168
+      ],
+      "100": [
+        102,
+        169
+      ],
+      "mA": [
+        103,
+        170
+      ],
+      "cm<sup>-2</sup>": [
+        104,
+        171
+      ],
+      "and": [
+        105,
+        117,
+        162,
+        180,
+        203
+      ],
+      "operates": [
+        108
+      ],
+      "this": [
+        110
+      ],
+      "current": [
+        111
+      ],
+      "density": [
+        112,
+        129
+      ],
+      "200": [
+        115
+      ],
+      "h": [
+        116
+      ],
+      "exhibits": [
+        118
+      ],
+      "rate": [
+        120
+      ],
+      "increase": [
+        123
+      ],
+      "25": [
+        125
+      ],
+      "μV": [
+        126
+      ],
+      "h<sup>-1</sup>.": [
+        127
+      ],
+      "Surface": [
+        128
+      ],
+      "functional": [
+        130
+      ],
+      "theory": [
+        131
+      ],
+      "calculations": [
+        132
+      ],
+      "reveal": [
+        133
+      ],
+      "Ti": [
+        135
+      ],
+      "increases": [
+        136
+      ],
+      "metal-oxygen": [
+        137
+      ],
+      "covalency,": [
+        138
+      ],
+      "potential": [
+        140
+      ],
+      "route": [
+        141
+      ],
+      "stability,": [
+        144
+      ],
+      "while": [
+        145,
+        172
+      ],
+      "Cr": [
+        146
+      ],
+      "lowers": [
+        147
+      ],
+      "barrier": [
+        150
+      ],
+      "HOO*": [
+        153
+      ],
+      "formation": [
+        154
+      ],
+      "rate-determining": [
+        155
+      ],
+      "step,": [
+        156
+      ],
+      "increasing": [
+        157
+      ],
+      "activity": [
+        158
+      ],
+      "compared": [
+        159,
+        210
+      ],
+      "RuO<sub>2</sub>": [
+        161
+      ],
+      "reducing": [
+        163
+      ],
+      "by": [
+        165,
+        201,
+        208
+      ],
+      "40": [
+        166
+      ],
+      "maintaining": [
+        173
+      ],
+      "stability.": [
+        174
+      ],
+      "In": [
+        175
+      ],
+      "situ": [
+        176,
+        182
+      ],
+      "X-ray": [
+        177,
+        185
+      ],
+      "absorption": [
+        178
+      ],
+      "spectroscopy": [
+        179
+      ],
+      "ex": [
+        181
+      ],
+      "ptychography-scanning": [
+        183
+      ],
+      "transmission": [
+        184
+      ],
+      "microscopy": [
+        186
+      ],
+      "show": [
+        187
+      ],
+      "metastable": [
+        192
+      ],
+      "structure": [
+        193
+      ],
+      "during": [
+        194
+      ],
+      "reaction,": [
+        196
+      ],
+      "slowing": [
+        197
+      ],
+      "Ru": [
+        198
+      ],
+      "mass": [
+        199
+      ],
+      "dissolution": [
+        200
+      ],
+      "20×": [
+        202
+      ],
+      "suppressing": [
+        204
+      ],
+      "lattice": [
+        205
+      ],
+      "participation": [
+        207
+      ],
+      ">60%": [
+        209
+      ],
+      "RuO<sub>2</sub>.": [
+        212
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 39
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 4
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          8
+        ]
+      ],
+      "date-time": "2026-01-08T09:54:07Z",
+      "timestamp": 1767866047653,
+      "version": "3.49.0"
+    },
+    "reference-count": 27,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "23",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              3
+            ]
+          ],
+          "date-time": "2024-06-03T00:00:00Z",
+          "timestamp": 1717372800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              3
+            ]
+          ],
+          "date-time": "2024-06-03T00:00:00Z",
+          "timestamp": 1717372800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              3
+            ]
+          ],
+          "date-time": "2024-06-03T00:00:00Z",
+          "timestamp": 1717372800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-045"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000046",
+        "name": "National Research Council Canada",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000046",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000183",
+        "name": "Army Research Office",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W911NF2010188"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF2010188"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000183",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000196",
+        "name": "Canada Foundation for Innovation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000196",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000038",
+        "name": "Natural Sciences and Engineering Research Council of Canada",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000038",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100008512",
+        "name": "Canadian Light Source",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100008512",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006224",
+        "name": "Argonne National Laboratory",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-AC02-06CH11357"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC02-06CH11357"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006224",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J. Am. Chem. Soc."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1021/jacs.4c01353",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          3
+        ]
+      ],
+      "date-time": "2024-06-03T21:10:50Z",
+      "timestamp": 1717449050000
+    },
+    "page": "15740-15750",
+    "source": "Crossref",
+    "is-referenced-by-count": 57,
+    "title": [
+      "Pourbaix Machine Learning Framework Identifies Acidic Water Oxidation Catalysts Exhibiting Suppressed Ruthenium Dissolution"
+    ],
+    "prefix": "10.1021",
+    "volume": "146",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1387-2740",
+        "authenticated-orcid": true,
+        "given": "Jehad",
+        "family": "Abed",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Materials Science and Engineering, University of Toronto, 184 College Street, Toronto, Ontario M5S 3E4, Canada"
+          },
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario M5S 1A4, Canada"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4322-3146",
+        "authenticated-orcid": true,
+        "given": "Javier",
+        "family": "Heras-Domingo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, Pennsylvania 15213, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5583-8922",
+        "authenticated-orcid": true,
+        "given": "Rohan Yuri",
+        "family": "Sanspeur",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, Pennsylvania 15213, United States"
+          }
+        ]
+      },
+      {
+        "given": "Mingchuan",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Materials Science and Engineering, Peking University, Beijing 100871, P. R. China"
+          }
+        ]
+      },
+      {
+        "given": "Wajdi",
+        "family": "Alnoush",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, McMaster University, 1280 Main Street West, Hamilton, Ontario L8S 4L7, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Debora Motta",
+        "family": "Meira",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "CLS@APS Sector 20, Advanced Photon Source, Argonne National Laboratory, 9700 S. Cass Avenue, Argonne, Illinois 60439, United States"
+          },
+          {
+            "name": "Canadian Light Source Inc., 44 Innovation Boulevard, Saskatoon, Saskatchewan S7N 2 V3, Canada"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1249-9462",
+        "authenticated-orcid": true,
+        "given": "Hsiaotsu",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Canadian Light Source Inc., 44 Innovation Boulevard, Saskatoon, Saskatchewan S7N 2 V3, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Jian",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Canadian Light Source Inc., 44 Innovation Boulevard, Saskatoon, Saskatchewan S7N 2 V3, Canada"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6644-2862",
+        "authenticated-orcid": true,
+        "given": "Jigang",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Canadian Light Source Inc., 44 Innovation Boulevard, Saskatoon, Saskatchewan S7N 2 V3, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Daojin",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario M5S 1A4, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Khalid",
+        "family": "Fatih",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Clean Energy Innovation, National Research Council Canada, 4250 Wesbrook Mall, Vancouver, British Columbia V6T 1W5, Canada"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2625-9232",
+        "authenticated-orcid": true,
+        "given": "John R.",
+        "family": "Kitchin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, Pennsylvania 15213, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0585-2670",
+        "authenticated-orcid": true,
+        "given": "Drew",
+        "family": "Higgins",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, McMaster University, 1280 Main Street West, Hamilton, Ontario L8S 4L7, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Zachary W.",
+        "family": "Ulissi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, Pennsylvania 15213, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0396-6495",
+        "authenticated-orcid": true,
+        "given": "Edward H.",
+        "family": "Sargent",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Toronto, 35 St George Street, Toronto, Ontario M5S 1A4, Canada"
+          }
+        ]
+      }
+    ],
+    "member": "316",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1/cit1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jz501061n"
+      },
+      {
+        "key": "ref2/cit2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nchem.2874"
+      },
+      {
+        "key": "ref3/cit3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chempr.2018.11.010"
+      },
+      {
+        "key": "ref4/cit4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-19212-y"
+      },
+      {
+        "key": "ref5/cit5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-018-08144-3"
+      },
+      {
+        "key": "ref6/cit6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41929-019-0246-2"
+      },
+      {
+        "key": "ref7/cit7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jpclett.0c00634"
+      },
+      {
+        "key": "ref8/cit8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemmater.0c01894"
+      },
+      {
+        "key": "ref9/cit9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/physrevmaterials.2.083801"
+      },
+      {
+        "key": "ref10/cit10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.0c00003"
+      },
+      {
+        "key": "ref11/cit11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4812323"
+      },
+      {
+        "key": "ref12/cit12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C6EE02697D"
+      },
+      {
+        "key": "ref13/cit13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/jcc.24300"
+      },
+      {
+        "key": "ref14/cit14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41563-019-0396-2"
+      },
+      {
+        "key": "ref15/cit15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsenergylett.0c01625"
+      },
+      {
+        "key": "ref16/cit16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsenergylett.0c02030"
+      },
+      {
+        "key": "ref17/cit17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.matt.2022.11.031"
+      },
+      {
+        "key": "ref18/cit18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.commatsci.2018.01.040"
+      },
+      {
+        "key": "ref19/cit19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/b909225k"
+      },
+      {
+        "key": "ref20/cit20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/b921590e"
+      },
+      {
+        "key": "ref21/cit21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemrev.9b00439"
+      },
+      {
+        "key": "ref22/cit22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D1EE03915F"
+      },
+      {
+        "key": "ref23/cit23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemmater.7b03399"
+      },
+      {
+        "key": "ref24/cit24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemmater.2c01233"
+      },
+      {
+        "key": "ref25/cit25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jcim.3c00142"
+      },
+      {
+        "key": "ref26/cit26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.6b07557"
+      },
+      {
+        "key": "ref27/cit27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jcat.2021.02.026"
+      }
+    ],
+    "container-title": [
+      "Journal of the American Chemical Society"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.acs.org/doi/pdf/10.1021/jacs.4c01353",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "unspecified"
+      },
+      {
+        "URL": "https://pubs.acs.org/doi/pdf/10.1021/jacs.4c01353",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2024-06-12T08:37:53Z",
+      "timestamp": 1718181473000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.acs.org/doi/10.1021/jacs.4c01353"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          3
+        ]
+      ]
+    },
+    "references-count": 27,
+    "journal-issue": {
+      "issue": "23",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1021/jacs.4c01353"
+    ],
+    "URL": "https://doi.org/10.1021/jacs.4c01353",
+    "relation": {},
+    "ISSN": [
+      "0002-7863",
+      "1520-5126"
+    ],
+    "issn-type": [
+      {
+        "value": "0002-7863",
+        "type": "print"
+      },
+      {
+        "value": "1520-5126",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          3
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1773 @@
+{
+  "doi": "10.1103/prxquantum.6.010310",
+  "openalex": {
+    "id": "https://openalex.org/W4406422040",
+    "doi": "https://doi.org/10.1103/prxquantum.6.010310",
+    "title": "Generalized Cycle Benchmarking Algorithm for Characterizing Midcircuit Measurements",
+    "display_name": "Generalized Cycle Benchmarking Algorithm for Characterizing Midcircuit Measurements",
+    "publication_year": 2025,
+    "publication_date": "2025-01-15",
+    "ids": {
+      "openalex": "https://openalex.org/W4406422040",
+      "doi": "https://doi.org/10.1103/prxquantum.6.010310"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1103/prxquantum.6.010310",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1103/prxquantum.6.010310",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210195673",
+        "display_name": "PRX Quantum",
+        "issn_l": "2691-3399",
+        "issn": [
+          "2691-3399"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PRX Quantum",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1103/prxquantum.6.010310",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5080335156",
+          "display_name": "Z.H. Zhang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I99065089",
+            "display_name": "Tsinghua University",
+            "ror": "https://ror.org/03cve4549",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I99065089"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhihan Zhang",
+        "raw_affiliation_strings": [
+          "Tsinghua University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Tsinghua University",
+            "institution_ids": [
+              "https://openalex.org/I99065089"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5053416576",
+          "display_name": "Senrui Chen",
+          "orcid": "https://orcid.org/0000-0002-5904-6906"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I40347166",
+            "display_name": "University of Chicago",
+            "ror": "https://ror.org/024mw5h28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I40347166"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Senrui Chen",
+        "raw_affiliation_strings": [
+          "The University of Chicago"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The University of Chicago",
+            "institution_ids": [
+              "https://openalex.org/I40347166"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5065919376",
+          "display_name": "Yunchao Liu",
+          "orcid": "https://orcid.org/0000-0003-1297-6396"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yunchao Liu",
+        "raw_affiliation_strings": [
+          "University of California, Berkeley"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Berkeley",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5068826612",
+          "display_name": "Liang Jiang",
+          "orcid": "https://orcid.org/0000-0002-0000-9342"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I40347166",
+            "display_name": "University of Chicago",
+            "ror": "https://ror.org/024mw5h28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I40347166"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Liang Jiang",
+        "raw_affiliation_strings": [
+          "The University of Chicago"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The University of Chicago",
+            "institution_ids": [
+              "https://openalex.org/I40347166"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 3450,
+      "currency": "USD",
+      "value_usd": 3450
+    },
+    "apc_paid": {
+      "value": 3450,
+      "currency": "USD",
+      "value_usd": 3450
+    },
+    "fwci": 19.27898059,
+    "has_fulltext": false,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.98550757,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "6",
+      "issue": "1",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10682",
+      "display_name": "Quantum Computing Algorithms and Architecture",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "score": 0.9994000196456909,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10382",
+        "display_name": "Quantum and electron transport phenomena",
+        "score": 0.995199978351593,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.6810362935066223
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6457270383834839
+      },
+      {
+        "id": "https://openalex.org/keywords/noise",
+        "display_name": "Noise (video)",
+        "score": 0.6071059703826904
+      },
+      {
+        "id": "https://openalex.org/keywords/benchmarking",
+        "display_name": "Benchmarking",
+        "score": 0.5825622081756592
+      },
+      {
+        "id": "https://openalex.org/keywords/fourier-transform",
+        "display_name": "Fourier transform",
+        "score": 0.48594725131988525
+      },
+      {
+        "id": "https://openalex.org/keywords/computation",
+        "display_name": "Computation",
+        "score": 0.4219832718372345
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-engineering",
+        "display_name": "Computer engineering",
+        "score": 0.4215453267097473
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.3238452076911926
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.1699162721633911
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.15907204151153564
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.6810362935066223
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6457270383834839
+      },
+      {
+        "id": "https://openalex.org/C99498987",
+        "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+        "display_name": "Noise (video)",
+        "level": 3,
+        "score": 0.6071059703826904
+      },
+      {
+        "id": "https://openalex.org/C86251818",
+        "wikidata": "https://www.wikidata.org/wiki/Q816754",
+        "display_name": "Benchmarking",
+        "level": 2,
+        "score": 0.5825622081756592
+      },
+      {
+        "id": "https://openalex.org/C102519508",
+        "wikidata": "https://www.wikidata.org/wiki/Q6520159",
+        "display_name": "Fourier transform",
+        "level": 2,
+        "score": 0.48594725131988525
+      },
+      {
+        "id": "https://openalex.org/C45374587",
+        "wikidata": "https://www.wikidata.org/wiki/Q12525525",
+        "display_name": "Computation",
+        "level": 2,
+        "score": 0.4219832718372345
+      },
+      {
+        "id": "https://openalex.org/C113775141",
+        "wikidata": "https://www.wikidata.org/wiki/Q428691",
+        "display_name": "Computer engineering",
+        "level": 1,
+        "score": 0.4215453267097473
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.3238452076911926
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.1699162721633911
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.15907204151153564
+      },
+      {
+        "id": "https://openalex.org/C162853370",
+        "wikidata": "https://www.wikidata.org/wiki/Q39809",
+        "display_name": "Marketing",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C115961682",
+        "wikidata": "https://www.wikidata.org/wiki/Q860623",
+        "display_name": "Image (mathematics)",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1103/prxquantum.6.010310",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1103/prxquantum.6.010310",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210195673",
+          "display_name": "PRX Quantum",
+          "issn_l": "2691-3399",
+          "issn": [
+            "2691-3399"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_name": "American Physical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PRX Quantum",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:52d2ad7c32c94b7a90cc83f14d6b39fb",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/52d2ad7c32c94b7a90cc83f14d6b39fb",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "PRX Quantum, Vol 6, Iss 1, p 010310 (2025)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:osti.gov:2500932",
+        "is_oa": true,
+        "landing_page_url": "https://www.osti.gov/biblio/2500932",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1103/prxquantum.6.010310",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1103/prxquantum.6.010310",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210195673",
+        "display_name": "PRX Quantum",
+        "issn_l": "2691-3399",
+        "issn": [
+          "2691-3399"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PRX Quantum",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G7456145480",
+        "display_name": null,
+        "funder_award_id": "DE-SC0024124",
+        "funder_id": "https://openalex.org/F4320306084",
+        "funder_display_name": "U.S. Department of Energy"
+      },
+      {
+        "id": "https://openalex.org/G8341897627",
+        "display_name": null,
+        "funder_award_id": "ERC-1941583",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G1932254719",
+        "display_name": null,
+        "funder_award_id": "HR0011-24-9-0361",
+        "funder_id": "https://openalex.org/F4320332180",
+        "funder_display_name": "Defense Advanced Research Projects Agency"
+      },
+      {
+        "id": "https://openalex.org/G1381139856",
+        "display_name": null,
+        "funder_award_id": "OSI-2326767",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G6241603943",
+        "display_name": null,
+        "funder_award_id": "W911NF-23-1-0077",
+        "funder_id": "https://openalex.org/F4320338281",
+        "funder_display_name": "Army Research Office"
+      },
+      {
+        "id": "https://openalex.org/G7796153478",
+        "display_name": null,
+        "funder_award_id": "HR0011-24-9-0359",
+        "funder_id": "https://openalex.org/F4320332180",
+        "funder_display_name": "Defense Advanced Research Projects Agency"
+      },
+      {
+        "id": "https://openalex.org/G8672390710",
+        "display_name": null,
+        "funder_award_id": "2020-71479",
+        "funder_id": "https://openalex.org/F4320306079",
+        "funder_display_name": "David and Lucile Packard Foundation"
+      },
+      {
+        "id": "https://openalex.org/G8890700113",
+        "display_name": null,
+        "funder_award_id": "CCF-2312755",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G111448035",
+        "display_name": null,
+        "funder_award_id": "2311733",
+        "funder_id": "https://openalex.org/F4320306084",
+        "funder_display_name": "U.S. Department of Energy"
+      },
+      {
+        "id": "https://openalex.org/G8159137900",
+        "display_name": null,
+        "funder_award_id": "OMA-2137642",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G6857858623",
+        "display_name": null,
+        "funder_award_id": "OMA-1936118",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320306079",
+        "display_name": "David and Lucile Packard Foundation",
+        "ror": "https://ror.org/032atxq54"
+      },
+      {
+        "id": "https://openalex.org/F4320306084",
+        "display_name": "U.S. Department of Energy",
+        "ror": "https://ror.org/01bj3aw27"
+      },
+      {
+        "id": "https://openalex.org/F4320332180",
+        "display_name": "Defense Advanced Research Projects Agency",
+        "ror": "https://ror.org/02caytj08"
+      },
+      {
+        "id": "https://openalex.org/F4320338281",
+        "display_name": "Army Research Office",
+        "ror": "https://ror.org/05epdh915"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 24,
+    "referenced_works": [
+      "https://openalex.org/W3181660950",
+      "https://openalex.org/W4378195004",
+      "https://openalex.org/W4321610982",
+      "https://openalex.org/W4389373471",
+      "https://openalex.org/W2268604949",
+      "https://openalex.org/W3216902878",
+      "https://openalex.org/W2966125890",
+      "https://openalex.org/W2945916077",
+      "https://openalex.org/W2054324003",
+      "https://openalex.org/W4375859090",
+      "https://openalex.org/W4388818593",
+      "https://openalex.org/W3135400847",
+      "https://openalex.org/W4313494717",
+      "https://openalex.org/W2471819066",
+      "https://openalex.org/W4401751974",
+      "https://openalex.org/W3128237057",
+      "https://openalex.org/W4237496336",
+      "https://openalex.org/W3192564209",
+      "https://openalex.org/W4376618773",
+      "https://openalex.org/W3112158114",
+      "https://openalex.org/W3099175659",
+      "https://openalex.org/W1534413569",
+      "https://openalex.org/W3137855080",
+      "https://openalex.org/W2920896094"
+    ],
+    "related_works": [
+      "https://openalex.org/W4238897586",
+      "https://openalex.org/W435179959",
+      "https://openalex.org/W2619091065",
+      "https://openalex.org/W2059640416",
+      "https://openalex.org/W1490753184",
+      "https://openalex.org/W2284465472",
+      "https://openalex.org/W2291782699",
+      "https://openalex.org/W1993948687",
+      "https://openalex.org/W2000169967",
+      "https://openalex.org/W2112883198"
+    ],
+    "abstract_inverted_index": {
+      "Midcircuit": [
+        0
+      ],
+      "measurements": [
+        1
+      ],
+      "(MCMs)": [
+        2
+      ],
+      "are": [
+        3
+      ],
+      "crucial": [
+        4
+      ],
+      "ingredients": [
+        5
+      ],
+      "in": [
+        6,
+        20,
+        68,
+        77,
+        156
+      ],
+      "the": [
+        7,
+        59,
+        69,
+        82,
+        94,
+        107,
+        111,
+        143,
+        148,
+        166,
+        170,
+        179
+      ],
+      "development": [
+        8
+      ],
+      "of": [
+        9,
+        85,
+        93,
+        97,
+        113,
+        169,
+        188
+      ],
+      "fault-tolerant": [
+        10
+      ],
+      "quantum": [
+        11,
+        62
+      ],
+      "computation.": [
+        12
+      ],
+      "While": [
+        13
+      ],
+      "there": [
+        14
+      ],
+      "have": [
+        15
+      ],
+      "been": [
+        16
+      ],
+      "rapid": [
+        17
+      ],
+      "experimental": [
+        18,
+        189
+      ],
+      "progresses": [
+        19
+      ],
+      "realizing": [
+        21
+      ],
+      "MCMs,": [
+        22,
+        98
+      ],
+      "a": [
+        23,
+        39,
+        54,
+        91,
+        183
+      ],
+      "systematic": [
+        24
+      ],
+      "method": [
+        25
+      ],
+      "for": [
+        26,
+        80
+      ],
+      "characterizing": [
+        27,
+        81
+      ],
+      "noisy": [
+        28,
+        46
+      ],
+      "MCMs": [
+        29
+      ],
+      "is": [
+        30,
+        51,
+        187
+      ],
+      "still": [
+        31
+      ],
+      "under": [
+        32
+      ],
+      "exploration.": [
+        33
+      ],
+      "In": [
+        34
+      ],
+      "this": [
+        35
+      ],
+      "work,": [
+        36
+      ],
+      "we": [
+        37,
+        89,
+        138,
+        160,
+        177
+      ],
+      "develop": [
+        38,
+        90
+      ],
+      "cycle": [
+        40
+      ],
+      "benchmarking": [
+        41
+      ],
+      "(CB)-type": [
+        42
+      ],
+      "algorithm": [
+        43,
+        180
+      ],
+      "to": [
+        44,
+        52,
+        73,
+        141,
+        146,
+        164,
+        173,
+        181
+      ],
+      "characterize": [
+        45
+      ],
+      "MCMs.": [
+        47
+      ],
+      "The": [
+        48
+      ],
+      "key": [
+        49
+      ],
+      "idea": [
+        50
+      ],
+      "use": [
+        53,
+        142
+      ],
+      "joint": [
+        55
+      ],
+      "Fourier": [
+        56,
+        70
+      ],
+      "transform": [
+        57
+      ],
+      "on": [
+        58
+      ],
+      "classical": [
+        60
+      ],
+      "and": [
+        61,
+        64,
+        116,
+        120,
+        153
+      ],
+      "registers": [
+        63
+      ],
+      "then": [
+        65
+      ],
+      "estimate": [
+        66
+      ],
+      "parameters": [
+        67
+      ],
+      "space,": [
+        71
+      ],
+      "analogous": [
+        72
+      ],
+      "Pauli": [
+        74
+      ],
+      "fidelities": [
+        75
+      ],
+      "used": [
+        76
+      ],
+      "CB-type": [
+        78,
+        175
+      ],
+      "algorithms": [
+        79
+      ],
+      "Pauli-noise": [
+        83
+      ],
+      "channel": [
+        84
+      ],
+      "Clifford": [
+        86
+      ],
+      "gates.": [
+        87
+      ],
+      "Furthermore,": [
+        88
+      ],
+      "theory": [
+        92
+      ],
+      "noise": [
+        95,
+        108,
+        152,
+        155
+      ],
+      "learnability": [
+        96
+      ],
+      "which": [
+        99,
+        123
+      ],
+      "determines": [
+        100
+      ],
+      "what": [
+        101,
+        121
+      ],
+      "information": [
+        102,
+        128,
+        145
+      ],
+      "can": [
+        103,
+        129
+      ],
+      "be": [
+        104,
+        130
+      ],
+      "learned": [
+        105,
+        131,
+        144
+      ],
+      "about": [
+        106
+      ],
+      "model": [
+        109
+      ],
+      "(in": [
+        110
+      ],
+      "presence": [
+        112
+      ],
+      "state": [
+        114
+      ],
+      "preparation": [
+        115
+      ],
+      "terminating": [
+        117
+      ],
+      "measurement": [
+        118,
+        151
+      ],
+      "noise)": [
+        119
+      ],
+      "cannot,": [
+        122
+      ],
+      "shows": [
+        124
+      ],
+      "that": [
+        125,
+        186
+      ],
+      "all": [
+        126
+      ],
+      "learnable": [
+        127
+      ],
+      "using": [
+        132
+      ],
+      "our": [
+        133
+      ],
+      "algorithm.": [
+        134,
+        171
+      ],
+      "As": [
+        135
+      ],
+      "an": [
+        136,
+        157
+      ],
+      "application,": [
+        137
+      ],
+      "show": [
+        139
+      ],
+      "how": [
+        140
+      ],
+      "test": [
+        147
+      ],
+      "independence": [
+        149
+      ],
+      "between": [
+        150
+      ],
+      "state-preparation": [
+        154
+      ],
+      "MCM.": [
+        158
+      ],
+      "Finally,": [
+        159
+      ],
+      "conduct": [
+        161
+      ],
+      "numerical": [
+        162
+      ],
+      "simulations": [
+        163
+      ],
+      "illustrate": [
+        165
+      ],
+      "practical": [
+        167
+      ],
+      "applicability": [
+        168
+      ],
+      "Similar": [
+        172
+      ],
+      "other": [
+        174
+      ],
+      "algorithms,": [
+        176
+      ],
+      "expect": [
+        178
+      ],
+      "provide": [
+        182
+      ],
+      "useful": [
+        184
+      ],
+      "toolkit": [
+        185
+      ],
+      "interest.": [
+        190
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 4
+      }
+    ],
+    "updated_date": "2025-12-27T23:08:20.325037",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          15
+        ]
+      ],
+      "date-time": "2025-08-15T00:25:24Z",
+      "timestamp": 1755217524038,
+      "version": "3.43.0"
+    },
+    "reference-count": 21,
+    "publisher": "American Physical Society (APS)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              15
+            ]
+          ],
+          "date-time": "2025-01-15T00:00:00Z",
+          "timestamp": 1736899200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000183",
+        "name": "ARO",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W911NF-23-1-0077"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF-23-1-0077"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000183",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000185",
+        "name": "DARPA",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "HR0011-24-9-0359",
+          "HR0011-24-9-0361"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "HR0011-24-9-0359",
+              "HR0011-24-9-0361"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000185",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "NSF",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "OMA-1936118",
+          "ERC-1941583",
+          "OMA-2137642",
+          "OSI-2326767",
+          "CCF-2312755"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "OMA-1936118",
+              "ERC-1941583",
+              "OMA-2137642",
+              "OSI-2326767",
+              "CCF-2312755"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "DOE",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-SC0024124",
+          "2311733"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-SC0024124",
+              "2311733"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "ARO MURI",
+        "award": [
+          "W911NF-21-1-0325"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF-21-1-0325"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AFOSR MURI",
+        "award": [
+          "FA9550-19-1-0399",
+          "FA9550-21-1-0209",
+          "FA9550-23-1-0338"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "FA9550-19-1-0399",
+              "FA9550-21-1-0209",
+              "FA9550-23-1-0338"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100021086",
+        "name": "NTT Research",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/100021086",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "Samsung GRO"
+      },
+      {
+        "DOI": "10.13039/100000008",
+        "name": "Packard Foundation",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "2020-71479"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2020-71479"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000008",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "DOE Quantum Systems Accelerator"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.aps.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "PRX Quantum"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Midcircuit measurements (MCMs) are crucial ingredients in the development of fault-tolerant quantum computation. While there have been rapid experimental progresses in realizing MCMs, a systematic method for characterizing noisy MCMs is still under exploration. In this work, we develop a cycle benchmarking (CB)-type algorithm to characterize noisy MCMs. The key idea is to use a joint Fourier transform on the classical and quantum registers and then estimate parameters in the Fourier space, analogous to Pauli fidelities used in CB-type algorithms for characterizing the Pauli-noise channel of Clifford gates. Furthermore, we develop a theory of the noise learnability of MCMs, which determines what information can be learned about the noise model (in the presence of state preparation and terminating measurement noise) and what cannot, which shows that all learnable information can be learned using our algorithm. As an application, we show how to use the learned information to test the independence between measurement noise and state-preparation noise in an MCM. Finally, we conduct numerical simulations to illustrate the practical applicability of the algorithm. Similar to other CB-type algorithms, we expect the algorithm to provide a useful toolkit that is of experimental interest.</jats:p>",
+    "DOI": "10.1103/prxquantum.6.010310",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2025-01-15T10:05:54Z",
+      "timestamp": 1736935554000
+    },
+    "update-policy": "https://doi.org/10.1103/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Generalized Cycle Benchmarking Algorithm for Characterizing Midcircuit Measurements"
+    ],
+    "prefix": "10.1103",
+    "volume": "6",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0008-6290-7691",
+        "authenticated-orcid": true,
+        "given": "Zhihan",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/03cve4549",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Tsinghua University"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5904-6906",
+        "authenticated-orcid": true,
+        "given": "Senrui",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/024mw5h28",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "The University of Chicago"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1297-6396",
+        "authenticated-orcid": true,
+        "given": "Yunchao",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/01an7q238",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "University of California, Berkeley"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0000-9342",
+        "authenticated-orcid": true,
+        "given": "Liang",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/024mw5h28",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "The University of Chicago"
+          }
+        ]
+      }
+    ],
+    "member": "16",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "PRXQuantum.6.010310Cc1R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevX.11.041058",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc2R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.ade5337",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc3R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-05434-1",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc4R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-06927-3",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.94.052325",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc6R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevX.11.041039",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc7R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3408039",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc8R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-13068-7",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc9R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1145699",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41567-023-02042-2",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc13R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1367-2630/ad0e19",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc14R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevApplied.17.014014",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-35759-4",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc17R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.22331/q-2021-10-05-557",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc18R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PRXQuantum.5.030339",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc20R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-21982-y",
+        "type": "journal-article"
+      },
+      {
+        "volume-title": "Graph Theory (on Demand Printing Of 02787)",
+        "year": "2018",
+        "author": "F. Harary",
+        "key": "PRXQuantum.6.010310Cc26R1",
+        "type": "book"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc27R1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-1-4612-0619-4",
+        "type": "book",
+        "volume-title": "Modern Graph Theory",
+        "author": "B. Bollobás",
+        "year": "1998"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc30R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.22331/q-2022-09-19-809",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.010310Cc31R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.130.200601",
+        "type": "journal-article"
+      },
+      {
+        "volume-title": "Representation Theory: A First Course",
+        "year": "2013",
+        "author": "W. Fulton",
+        "key": "PRXQuantum.6.010310Cc35R1",
+        "type": "book"
+      }
+    ],
+    "container-title": [
+      "PRX Quantum"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.aps.org/article/10.1103/PRXQuantum.6.010310",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PRXQuantum.6.010310/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          5
+        ]
+      ],
+      "date-time": "2025-08-05T15:47:12Z",
+      "timestamp": 1754408832000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.aps.org/doi/10.1103/PRXQuantum.6.010310"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          15
+        ]
+      ]
+    },
+    "references-count": 21,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1103/prxquantum.6.010310",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.48550/arXiv.2406.02669",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "2691-3399"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2691-3399"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          15
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-06-12",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "Published by the American Physical Society",
+        "name": "copyright_statement",
+        "label": "Copyright statement",
+        "group": {
+          "name": "copyright",
+          "label": "copyright"
+        }
+      },
+      {
+        "value": "2025",
+        "name": "copyright_year",
+        "label": "Copyright year",
+        "group": {
+          "name": "copyright",
+          "label": "copyright"
+        }
+      }
+    ],
+    "article-number": "010310"
+  }
+}

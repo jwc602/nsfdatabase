@@ -1,0 +1,1955 @@
+{
+  "doi": "10.1016/j.device.2023.100218",
+  "openalex": {
+    "id": "https://openalex.org/W4389935927",
+    "doi": "https://doi.org/10.1016/j.device.2023.100218",
+    "title": "Analog content-addressable memory from complementary FeFETs",
+    "display_name": "Analog content-addressable memory from complementary FeFETs",
+    "publication_year": 2023,
+    "publication_date": "2023-12-19",
+    "ids": {
+      "openalex": "https://openalex.org/W4389935927",
+      "doi": "https://doi.org/10.1016/j.device.2023.100218"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.device.2023.100218",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.device.2023.100218",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4387290120",
+        "display_name": "Device",
+        "issn_l": "2666-9986",
+        "issn": [
+          "2666-9986"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Device",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.device.2023.100218",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101591504",
+          "display_name": "Xiwen Liu",
+          "orcid": "https://orcid.org/0000-0002-0426-6629"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I200769079",
+            "display_name": "Hong Kong University of Science and Technology",
+            "ror": "https://ror.org/00q4vv597",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I200769079"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I889458895",
+            "display_name": "University of Hong Kong",
+            "ror": "https://ror.org/02zhqgq86",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I889458895"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "HK",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiwen Liu",
+        "raw_affiliation_strings": [
+          "Electrical & Systems Engineering, University of Pennsylvania, Philadelphia, PA, USA",
+          "Thrust of Microelectronics, The Hong Kong University of Science and Technology (Guangzhou), Guangdong, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Thrust of Microelectronics, The Hong Kong University of Science and Technology (Guangzhou), Guangdong, China",
+            "institution_ids": [
+              "https://openalex.org/I200769079",
+              "https://openalex.org/I889458895"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Electrical & Systems Engineering, University of Pennsylvania, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5021784936",
+          "display_name": "Keshava Katti",
+          "orcid": "https://orcid.org/0000-0001-5875-708X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Keshava Katti",
+        "raw_affiliation_strings": [
+          "Electrical & Systems Engineering, University of Pennsylvania, Philadelphia, PA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Electrical & Systems Engineering, University of Pennsylvania, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5113123703",
+          "display_name": "Yunfei He",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yunfei He",
+        "raw_affiliation_strings": [
+          "Electrical & Systems Engineering, University of Pennsylvania, Philadelphia, PA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Electrical & Systems Engineering, University of Pennsylvania, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5069532712",
+          "display_name": "Paul Jacob",
+          "orcid": "https://orcid.org/0009-0003-6028-0075"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I155173764",
+            "display_name": "Rochester Institute of Technology",
+            "ror": "https://ror.org/00v4yb702",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I155173764"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Paul Jacob",
+        "raw_affiliation_strings": [
+          "Electrical & Microelectronic Engineering, Rochester Institute of Technology, Rochester, NY, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Electrical & Microelectronic Engineering, Rochester Institute of Technology, Rochester, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I155173764"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5108142801",
+          "display_name": "Claudia Richter",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210122489",
+            "display_name": "NaMLab (Germany)",
+            "ror": "https://ror.org/028070c57",
+            "country_code": "DE",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210122489",
+              "https://openalex.org/I78650965"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I78650965",
+            "display_name": "Technische Universität Dresden",
+            "ror": "https://ror.org/042aqky30",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78650965"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Claudia Richter",
+        "raw_affiliation_strings": [
+          "Namlab/TU Dresden, Noethnitzer Strasse 64a, 01187 Dresden, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Namlab/TU Dresden, Noethnitzer Strasse 64a, 01187 Dresden, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4210122489",
+              "https://openalex.org/I78650965"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023007303",
+          "display_name": "Uwe Schroeder",
+          "orcid": "https://orcid.org/0000-0002-6824-2386"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210122489",
+            "display_name": "NaMLab (Germany)",
+            "ror": "https://ror.org/028070c57",
+            "country_code": "DE",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210122489",
+              "https://openalex.org/I78650965"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I78650965",
+            "display_name": "Technische Universität Dresden",
+            "ror": "https://ror.org/042aqky30",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78650965"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Uwe Schroeder",
+        "raw_affiliation_strings": [
+          "Namlab/TU Dresden, Noethnitzer Strasse 64a, 01187 Dresden, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Namlab/TU Dresden, Noethnitzer Strasse 64a, 01187 Dresden, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4210122489",
+              "https://openalex.org/I78650965"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5067440834",
+          "display_name": "Santosh Kurinec",
+          "orcid": "https://orcid.org/0000-0003-2372-2252"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I155173764",
+            "display_name": "Rochester Institute of Technology",
+            "ror": "https://ror.org/00v4yb702",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I155173764"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Santosh Kurinec",
+        "raw_affiliation_strings": [
+          "Electrical & Microelectronic Engineering, Rochester Institute of Technology, Rochester, NY, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Electrical & Microelectronic Engineering, Rochester Institute of Technology, Rochester, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I155173764"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5006038667",
+          "display_name": "Pratik Chaudhari",
+          "orcid": "https://orcid.org/0000-0003-4590-1956"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Pratik Chaudhari",
+        "raw_affiliation_strings": [
+          "Electrical & Systems Engineering, University of Pennsylvania, Philadelphia, PA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Electrical & Systems Engineering, University of Pennsylvania, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5084623985",
+          "display_name": "Deep Jariwala",
+          "orcid": "https://orcid.org/0000-0002-3570-8768"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Deep Jariwala",
+        "raw_affiliation_strings": [
+          "Electrical & Systems Engineering, University of Pennsylvania, Philadelphia, PA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Electrical & Systems Engineering, University of Pennsylvania, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 9,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5006038667",
+      "https://openalex.org/A5084623985"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I79576946"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.99530339,
+    "has_fulltext": false,
+    "cited_by_count": 6,
+    "citation_normalized_percentile": {
+      "value": 0.76018014,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "2",
+      "issue": "2",
+      "first_page": "100218",
+      "last_page": "100218"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12808",
+      "display_name": "Ferroelectric and Negative Capacitance Devices",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12808",
+        "display_name": "Ferroelectric and Negative Capacitance Devices",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10502",
+        "display_name": "Advanced Memory and Neural Computing",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10472",
+        "display_name": "Semiconductor materials and devices",
+        "score": 0.9997000098228455,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/content",
+        "display_name": "Content (measure theory)",
+        "score": 0.55326908826828
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.48461398482322693
+      },
+      {
+        "id": "https://openalex.org/keywords/content-addressable-memory",
+        "display_name": "Content-addressable memory",
+        "score": 0.45783141255378723
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.18484336137771606
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.09944003820419312
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-neural-network",
+        "display_name": "Artificial neural network",
+        "score": 0.054122745990753174
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2778152352",
+        "wikidata": "https://www.wikidata.org/wiki/Q5165061",
+        "display_name": "Content (measure theory)",
+        "level": 2,
+        "score": 0.55326908826828
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.48461398482322693
+      },
+      {
+        "id": "https://openalex.org/C53442348",
+        "wikidata": "https://www.wikidata.org/wiki/Q745101",
+        "display_name": "Content-addressable memory",
+        "level": 3,
+        "score": 0.45783141255378723
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.18484336137771606
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.09944003820419312
+      },
+      {
+        "id": "https://openalex.org/C50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "level": 2,
+        "score": 0.054122745990753174
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.device.2023.100218",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.device.2023.100218",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4387290120",
+          "display_name": "Device",
+          "issn_l": "2666-9986",
+          "issn": [
+            "2666-9986"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Device",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:repository.hkust.edu.hk:1783.1-137652",
+        "is_oa": false,
+        "landing_page_url": "http://lbdiscover.ust.hk/uresolver?url_ver=Z39.88-2004&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rfr_id=info:sid/HKUST:SPI&rft.genre=article&rft.issn=2666-9986&rft.volume=2&rft.issue=2&rft.date=2024&rft.spage=&rft.aulast=Liu&rft.aufirst=Xiwen&rft.atitle=Analog+content-addressable+memory+from+complementary+FeFETs&rft.title=Device",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1016/j.device.2023.100218",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.device.2023.100218",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4387290120",
+        "display_name": "Device",
+        "issn_l": "2666-9986",
+        "issn": [
+          "2666-9986"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Device",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 55,
+    "referenced_works": [
+      "https://openalex.org/W2030671441",
+      "https://openalex.org/W2805362231",
+      "https://openalex.org/W3013080934",
+      "https://openalex.org/W3003821665",
+      "https://openalex.org/W2807750997",
+      "https://openalex.org/W2803163155",
+      "https://openalex.org/W3021675401",
+      "https://openalex.org/W2999932424",
+      "https://openalex.org/W2062143991",
+      "https://openalex.org/W2083953017",
+      "https://openalex.org/W2988640543",
+      "https://openalex.org/W2169908215",
+      "https://openalex.org/W6642391461",
+      "https://openalex.org/W4296323454",
+      "https://openalex.org/W2921653370",
+      "https://openalex.org/W6723138041",
+      "https://openalex.org/W6652067351",
+      "https://openalex.org/W2148256155",
+      "https://openalex.org/W6825195337",
+      "https://openalex.org/W2959627720",
+      "https://openalex.org/W3014426053",
+      "https://openalex.org/W2806919649",
+      "https://openalex.org/W6747913522",
+      "https://openalex.org/W4292121737",
+      "https://openalex.org/W2482978312",
+      "https://openalex.org/W4205807416",
+      "https://openalex.org/W3111419387",
+      "https://openalex.org/W6761026584",
+      "https://openalex.org/W6735286776",
+      "https://openalex.org/W4307044055",
+      "https://openalex.org/W6768230505",
+      "https://openalex.org/W6717697761",
+      "https://openalex.org/W3185469596",
+      "https://openalex.org/W2963883276",
+      "https://openalex.org/W2483506684",
+      "https://openalex.org/W6779635154",
+      "https://openalex.org/W4387492098",
+      "https://openalex.org/W6678556256",
+      "https://openalex.org/W3004360755",
+      "https://openalex.org/W3195149063",
+      "https://openalex.org/W2932276645",
+      "https://openalex.org/W3150050634",
+      "https://openalex.org/W2914895134",
+      "https://openalex.org/W3098780461",
+      "https://openalex.org/W2600958979",
+      "https://openalex.org/W1964275247",
+      "https://openalex.org/W4231663167",
+      "https://openalex.org/W2995589713",
+      "https://openalex.org/W3098380984",
+      "https://openalex.org/W2963341924",
+      "https://openalex.org/W2125378448",
+      "https://openalex.org/W4252896820",
+      "https://openalex.org/W2491717217",
+      "https://openalex.org/W3098480967",
+      "https://openalex.org/W4240061986"
+    ],
+    "related_works": [
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W2376932109",
+      "https://openalex.org/W2001405890",
+      "https://openalex.org/W2382290278",
+      "https://openalex.org/W2478288626",
+      "https://openalex.org/W4391913857",
+      "https://openalex.org/W2350741829",
+      "https://openalex.org/W2530322880"
+    ],
+    "abstract_inverted_index": {
+      "Despite": [
+        0
+      ],
+      "recent": [
+        1
+      ],
+      "advancements": [
+        2
+      ],
+      "in": [
+        3,
+        55,
+        85,
+        141
+      ],
+      "non-volatile": [
+        4
+      ],
+      "memory": [
+        5,
+        26,
+        73
+      ],
+      "(NVM)": [
+        6
+      ],
+      "for": [
+        7,
+        91
+      ],
+      "matrix": [
+        8
+      ],
+      "multiplication,": [
+        9
+      ],
+      "other": [
+        10
+      ],
+      "critical": [
+        11
+      ],
+      "data-intensive": [
+        12
+      ],
+      "operations": [
+        13
+      ],
+      "like": [
+        14
+      ],
+      "parallel": [
+        15,
+        21,
+        53
+      ],
+      "search": [
+        16,
+        22,
+        54,
+        90,
+        105
+      ],
+      "remain": [
+        17
+      ],
+      "largely": [
+        18
+      ],
+      "overlooked.": [
+        19
+      ],
+      "Current": [
+        20
+      ],
+      "architectures,": [
+        23
+      ],
+      "namely": [
+        24
+      ],
+      "content-addressable": [
+        25
+      ],
+      "(CAM),": [
+        27
+      ],
+      "often": [
+        28
+      ],
+      "use": [
+        29
+      ],
+      "binary,": [
+        30
+      ],
+      "which": [
+        31
+      ],
+      "restricts": [
+        32
+      ],
+      "density": [
+        33
+      ],
+      "and": [
+        34,
+        118,
+        153
+      ],
+      "functionality.": [
+        35
+      ],
+      "We": [
+        36
+      ],
+      "present": [
+        37
+      ],
+      "an": [
+        38,
+        100
+      ],
+      "analog": [
+        39,
+        57
+      ],
+      "CAM": [
+        40,
+        77
+      ],
+      "(ACAM)": [
+        41
+      ],
+      "cell,": [
+        42
+      ],
+      "built": [
+        43
+      ],
+      "on": [
+        44,
+        88,
+        123,
+        136
+      ],
+      "two": [
+        45
+      ],
+      "complementary": [
+        46,
+        126
+      ],
+      "ferroelectric": [
+        47
+      ],
+      "field-effect": [
+        48
+      ],
+      "transistors": [
+        49
+      ],
+      "(FeFETs),": [
+        50
+      ],
+      "that": [
+        51
+      ],
+      "performs": [
+        52
+      ],
+      "the": [
+        56,
+        96
+      ],
+      "domain": [
+        58
+      ],
+      "with": [
+        59,
+        95,
+        99,
+        143
+      ],
+      "over": [
+        60
+      ],
+      "40": [
+        61
+      ],
+      "distinct": [
+        62
+      ],
+      "match": [
+        63
+      ],
+      "windows.": [
+        64
+      ],
+      "ACAM": [
+        65
+      ],
+      "not": [
+        66
+      ],
+      "only": [
+        67
+      ],
+      "offers": [
+        68
+      ],
+      "a": [
+        69,
+        82,
+        113,
+        137,
+        151
+      ],
+      "projected": [
+        70
+      ],
+      "3×": [
+        71
+      ],
+      "denser": [
+        72
+      ],
+      "architecture": [
+        74
+      ],
+      "than": [
+        75,
+        108,
+        150
+      ],
+      "ternary": [
+        76
+      ],
+      "(TCAM)": [
+        78
+      ],
+      "but": [
+        79
+      ],
+      "also": [
+        80
+      ],
+      "yields": [
+        81
+      ],
+      "5%": [
+        83
+      ],
+      "increase": [
+        84
+      ],
+      "inference": [
+        86,
+        135,
+        149
+      ],
+      "accuracy": [
+        87
+      ],
+      "similarity": [
+        89,
+        104
+      ],
+      "few-shot": [
+        92
+      ],
+      "learning": [
+        93
+      ],
+      "simulated": [
+        94
+      ],
+      "Omniglot": [
+        97
+      ],
+      "dataset,": [
+        98
+      ],
+      "estimated": [
+        101
+      ],
+      "speedup": [
+        102
+      ],
+      "per": [
+        103
+      ],
+      "of": [
+        106
+      ],
+      "more": [
+        107
+      ],
+      "100×": [
+        109
+      ],
+      "when": [
+        110
+      ],
+      "compared": [
+        111
+      ],
+      "to": [
+        112
+      ],
+      "central": [
+        114
+      ],
+      "processing": [
+        115,
+        120
+      ],
+      "unit": [
+        116,
+        121
+      ],
+      "(CPU)": [
+        117
+      ],
+      "graphics": [
+        119
+      ],
+      "(GPU)": [
+        122
+      ],
+      "scaled": [
+        124
+      ],
+      "silicon-based": [
+        125
+      ],
+      "metal-oxide": [
+        127
+      ],
+      "semiconductor": [
+        128
+      ],
+      "(CMOS)": [
+        129
+      ],
+      "nodes.": [
+        130
+      ],
+      "Furthermore,": [
+        131
+      ],
+      "we": [
+        132
+      ],
+      "demonstrate": [
+        133
+      ],
+      "one-step": [
+        134
+      ],
+      "kernel": [
+        138
+      ],
+      "regression": [
+        139
+      ],
+      "model": [
+        140
+      ],
+      "ACAM,": [
+        142
+      ],
+      "simulation": [
+        144
+      ],
+      "results": [
+        145
+      ],
+      "indicating": [
+        146
+      ],
+      "1,000×": [
+        147
+      ],
+      "faster": [
+        148
+      ],
+      "CPU": [
+        152
+      ],
+      "GPU.": [
+        154
+      ],
+      "©": [
+        155
+      ],
+      "2023": [
+        156
+      ],
+      "The": [
+        157
+      ],
+      "Authors": [
+        158
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          15
+        ]
+      ],
+      "date-time": "2025-12-15T14:18:17Z",
+      "timestamp": 1765808297402,
+      "version": "3.45.0"
+    },
+    "reference-count": 42,
+    "publisher": "Elsevier BV",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2024-02-01T00:00:00Z",
+          "timestamp": 1706745600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2024-02-01T00:00:00Z",
+          "timestamp": 1706745600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              3
+            ]
+          ],
+          "date-time": "2023-12-03T00:00:00Z",
+          "timestamp": 1701561600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2022338725"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2022338725"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000028",
+        "name": "Semiconductor Research Corporation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "-2123863"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "-2123863"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000028",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000185",
+        "name": "Defense Advanced Research Projects Agency",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000185",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "cell.com",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Device"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.device.2023.100218",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          19
+        ]
+      ],
+      "date-time": "2023-12-19T10:43:06Z",
+      "timestamp": 1702982586000
+    },
+    "page": "100218",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Analog content-addressable memory from complementary FeFETs"
+    ],
+    "prefix": "10.1016",
+    "volume": "2",
+    "author": [
+      {
+        "given": "Xiwen",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Keshava",
+        "family": "Katti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yunfei",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paul",
+        "family": "Jacob",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Claudia",
+        "family": "Richter",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Uwe",
+        "family": "Schroeder",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Santosh",
+        "family": "Kurinec",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pratik",
+        "family": "Chaudhari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3570-8768",
+        "authenticated-orcid": false,
+        "given": "Deep",
+        "family": "Jariwala",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.device.2023.100218_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1038/nnano.2015.29",
+        "article-title": "Memory leads the way to better computing",
+        "volume": "10",
+        "author": "Wong",
+        "year": "2015",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "333",
+        "DOI": "10.1038/s41928-018-0092-2",
+        "article-title": "In-memory computing with resistive switching devices",
+        "volume": "1",
+        "author": "Ielmini",
+        "year": "2018",
+        "journal-title": "Nat. Electron."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "529",
+        "DOI": "10.1038/s41565-020-0655-z",
+        "article-title": "Memory devices and applications for in-memory computing",
+        "volume": "15",
+        "author": "Sebastian",
+        "year": "2020",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "641",
+        "DOI": "10.1038/s41586-020-1942-4",
+        "article-title": "Fully hardware-implemented memristor convolutional neural network",
+        "volume": "577",
+        "author": "Yao",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "2385",
+        "DOI": "10.1038/s41467-018-04484-2",
+        "article-title": "Efficient and self-adaptive in-situ learning in multilayer memristor neural networks",
+        "volume": "9",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1038/s41586-018-0180-5",
+        "article-title": "Equivalent-accuracy accelerated neural-network training using analogue memory",
+        "volume": "558",
+        "author": "Ambrogio",
+        "year": "2018",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1038/s41928-020-0405-0",
+        "article-title": "Low-power linear computation using nonlinear ferroelectric tunnel junction memristors",
+        "volume": "3",
+        "author": "Berdan",
+        "year": "2020",
+        "journal-title": "Nat. Electron."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "908",
+        "DOI": "10.1109/JSSC.2019.2963005",
+        "article-title": "Liquid Silicon: A Nonvolatile Fully Programmable Processing-in-Memory Processor With Monolithically Integrated ReRAM",
+        "volume": "55",
+        "author": "Zha",
+        "year": "2020",
+        "journal-title": "IEEE J. Solid State Circ."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "712",
+        "DOI": "10.1109/JSSC.2005.864128",
+        "article-title": "Content-addressable memory (CAM) circuits and architectures: a tutorial and survey",
+        "volume": "41",
+        "author": "Pagiamtzis",
+        "year": "2006",
+        "journal-title": "IEEE J. Solid State Circ."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1109/MM.2004.1289292",
+        "article-title": "TCAM architecture for IP lookup using prefix properties",
+        "volume": "24",
+        "author": "Ravikumar",
+        "year": "2004",
+        "journal-title": "IEEE Micro"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "521",
+        "DOI": "10.1038/s41928-019-0321-3",
+        "article-title": "Ferroelectric ternary content-addressable memory for one-shot learning",
+        "volume": "2",
+        "author": "Ni",
+        "year": "2019",
+        "journal-title": "Nat. Electron."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "947",
+        "DOI": "10.1109/TC.2006.123",
+        "article-title": "DPPC-RE: TCAM-based distributed parallel packet classification with range encoding",
+        "volume": "55",
+        "author": "Kai",
+        "year": "2006",
+        "journal-title": "IEEE Trans. Comput."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib13",
+        "series-title": "2014 IEEE International Solid-State Circuits Conference Digest of Technical Papers (ISSCC)",
+        "first-page": "240",
+        "article-title": "13.6 A 28nm 400MHz 4-parallel 1.6Gsearch/s 80Mb ternary CAM",
+        "author": "Nii",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "7690",
+        "DOI": "10.1021/acs.nanolett.2c03169",
+        "article-title": "Reconfigurable Compute-In-Memory on Field-Programmable Ferroelectric Diodes",
+        "volume": "22",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "108",
+        "DOI": "10.1038/s41928-019-0220-7",
+        "article-title": "Ternary content-addressable memory with MoS2 transistors for massively parallel data search",
+        "volume": "2",
+        "author": "Yang",
+        "year": "2019",
+        "journal-title": "Nat. Electron."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib16",
+        "first-page": "700",
+        "article-title": "A 10T-4MTJ Nonvolatile Ternary CAM Cell for Reliable Search Operation and a Compact Area",
+        "volume": "64",
+        "author": "Song",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Circuits Syst. II."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib17",
+        "series-title": "2014 IEEE 32nd International Conference on Computer Design (ICCD)",
+        "first-page": "55",
+        "article-title": "An area-efficient Ternary CAM design using floating gate transistors",
+        "author": "Fedorov",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "896",
+        "DOI": "10.1109/JSSC.2013.2292055",
+        "article-title": "1 Mb 0.41 μm2 2T-2R Cell Nonvolatile TCAM With Two-Bit Encoding and Clocked Self-Referenced Sensing",
+        "volume": "49",
+        "author": "Li",
+        "year": "2014",
+        "journal-title": "IEEE J. Solid State Circ."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib19",
+        "series-title": "Proceedings of the 43rd International Symposium on Computer Architecture",
+        "article-title": "ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars",
+        "author": "Shafiee",
+        "year": "2016"
+      },
+      {
+        "year": "2006",
+        "series-title": "Analog Content Addressable Memory (CAM) Employing Analog Nonvolatile Storage",
+        "author": "Blyth",
+        "key": "10.1016/j.device.2023.100218_bib20"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1638",
+        "DOI": "10.1038/s41467-020-15254-4",
+        "article-title": "Analog content-addressable memories with memristors",
+        "volume": "11",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "2785",
+        "DOI": "10.1109/TED.2020.2994896",
+        "article-title": "FeCAM: A Universal Compact Digital and Analog Content Addressable Memory Using Ferroelectric",
+        "volume": "67",
+        "author": "Yin",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Electron. Dev."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib23",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1063/1.5029324",
+        "article-title": "Silicon doped hafnium oxide (HSO) and hafnium zirconium oxide (HZO) based FeFET: A material relation to device physics",
+        "volume": "112",
+        "author": "Ali",
+        "year": "2018",
+        "journal-title": "Appl. Phys. Lett."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib24",
+        "series-title": "2017 IEEE international electron devices meeting (IEDM)",
+        "first-page": "6.2.1",
+        "article-title": "Ferroelectric FET analog synapse for acceleration of deep neural network training",
+        "author": "Jerry",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "504",
+        "DOI": "10.1038/s41586-022-04992-8",
+        "article-title": "A compute-in-memory chip based on resistive random-access memory",
+        "volume": "608",
+        "author": "Wan",
+        "year": "2022",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "3501",
+        "DOI": "10.1109/TED.2016.2588439",
+        "article-title": "Charge-Trapping Phenomena in HfO2-Based FeFET-Type Nonvolatile Memories",
+        "volume": "63",
+        "author": "Yurchuk",
+        "year": "2016",
+        "journal-title": "IEEE Trans. Electron. Dev."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "2565",
+        "DOI": "10.1109/TC.2021.3136576",
+        "article-title": "FeFET Multi-Bit Content-Addressable Memories for In-Memory Nearest Neighbor Search",
+        "volume": "71",
+        "author": "Kazemi",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Comput."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1109/TED.2020.3039477",
+        "article-title": "Compact Single-Phase-Search Multistate Content-Addressable Memory Design Using One FeFET/Cell",
+        "volume": "68",
+        "author": "Rajaei",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Electron. Dev."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib29",
+        "first-page": "311",
+        "article-title": "Neuromorphic In-Memory Computing Framework using Memtransistor Cross-bar based Support Vector Machines",
+        "volume": "4–7",
+        "author": "Kumar",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib30",
+        "article-title": "RRAM-based parallel computing architecture using k-nearest neighbor classification for pattern recognition",
+        "volume": "7",
+        "author": "Jiang",
+        "year": "2017",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "6284",
+        "DOI": "10.1038/s41467-022-33629-7",
+        "article-title": "Experimentally validated memristive memory augmented neural network with efficient hashing and similarity search",
+        "volume": "13",
+        "author": "Mao",
+        "year": "2022",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib32",
+        "article-title": "A baseline for few-shot image classification",
+        "author": "Dhillon",
+        "year": "2019",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib33",
+        "first-page": "3637",
+        "article-title": "Matching Networks for One Shot Learning",
+        "author": "Vinyals",
+        "year": "2016",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1131",
+        "DOI": "10.1109/JEDS.2021.3100290",
+        "article-title": "Variability Study of Ferroelectric Field-Effect Transistors Towards 7nm Technology Node",
+        "volume": "9",
+        "author": "Choe",
+        "year": "2021",
+        "journal-title": "IEEE J. Electron Devices Soc."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib35",
+        "series-title": "Ferroelectricity in Doped Hafnium Oxide: Materials, Properties and Devices",
+        "first-page": "451",
+        "article-title": "Chapter 10.4 - Ferroelectric Field Effect Transistor",
+        "author": "Mueller",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib36",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/admi.201701258",
+        "article-title": "Atomic Structure of Domain and Interphase Boundaries in Ferroelectric HfO2",
+        "volume": "5",
+        "author": "Grimley",
+        "year": "2018",
+        "journal-title": "Adv. Mater. Interfac."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib37",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/aelm.201600173",
+        "article-title": "Structural Changes Underlying Field-Cycling Phenomena in Ferroelectric HfO2 Thin Films",
+        "volume": "2",
+        "author": "Grimley",
+        "year": "2016",
+        "journal-title": "Adv. Electron. Mater."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib38",
+        "series-title": "2020 IEEE International Reliability Physics Symposium (IRPS)",
+        "article-title": "Impact of Extrinsic Variation Sources on the Device-to-Device Variation in Ferroelectric FET",
+        "author": "Ni",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "6348",
+        "DOI": "10.1038/s41467-023-42110-y",
+        "article-title": "First demonstration of in-memory computing crossbar using multi-level Cell FeFET",
+        "volume": "14",
+        "author": "Soliman",
+        "year": "2023",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib40",
+        "first-page": "1509",
+        "article-title": "Locality-Sensitive Binary Codes from Shift-Invariant Kernels",
+        "author": "Raginsky",
+        "year": "2009",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "year": "2018",
+        "series-title": "Learning with Kernels: Support Vector Machines, Regularization, Optimization, and beyond",
+        "author": "Schölkopf",
+        "key": "10.1016/j.device.2023.100218_bib41"
+      },
+      {
+        "key": "10.1016/j.device.2023.100218_bib42",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1126/sciadv.aay2378",
+        "article-title": "One-step regression and classification with cross-point resistive memory arrays",
+        "volume": "6",
+        "author": "Sun",
+        "year": "2020",
+        "journal-title": "Sci. Adv."
+      }
+    ],
+    "container-title": [
+      "Device"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666998623003587?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2666998623003587?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2025-11-13T07:35:24Z",
+      "timestamp": 1763019324000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666998623003587"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "references-count": 42,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S2666998623003587"
+    ],
+    "URL": "https://doi.org/10.1016/j.device.2023.100218",
+    "relation": {},
+    "ISSN": [
+      "2666-9986"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2666-9986"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Analog content-addressable memory from complementary FeFETs",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Device",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.device.2023.100218",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 The Authors. Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "100218"
+  }
+}

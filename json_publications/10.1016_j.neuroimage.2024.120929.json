@@ -1,0 +1,2532 @@
+{
+  "doi": "10.1016/j.neuroimage.2024.120929",
+  "openalex": {
+    "id": "https://openalex.org/W4404515606",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2024.120929",
+    "title": "Multiclass classification of Alzheimer's disease prodromal stages using sequential feature embeddings and regularized multikernel support vector machine",
+    "display_name": "Multiclass classification of Alzheimer's disease prodromal stages using sequential feature embeddings and regularized multikernel support vector machine",
+    "publication_year": 2024,
+    "publication_date": "2024-11-19",
+    "ids": {
+      "openalex": "https://openalex.org/W4404515606",
+      "doi": "https://doi.org/10.1016/j.neuroimage.2024.120929",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39571644"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.neuroimage.2024.120929",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2024.120929",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S103225281",
+        "display_name": "NeuroImage",
+        "issn_l": "1053-8119",
+        "issn": [
+          "1053-8119",
+          "1095-9572"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "NeuroImage",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1016/j.neuroimage.2024.120929",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5092350310",
+          "display_name": "Oyekanmi Olatunde",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I123946342",
+            "display_name": "Binghamton University",
+            "ror": "https://ror.org/008rmbt77",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123946342"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Oyekanmi O Olatunde",
+        "raw_affiliation_strings": [
+          "Department of Systems Science and Industrial Engineering, Binghamton University, NY 13902, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Systems Science and Industrial Engineering, Binghamton University, NY 13902, USA.",
+            "institution_ids": [
+              "https://openalex.org/I123946342"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5036825358",
+          "display_name": "Kehinde Sikirulai Oyetunde",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I200769079",
+            "display_name": "Hong Kong University of Science and Technology",
+            "ror": "https://ror.org/00q4vv597",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I200769079"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I889458895",
+            "display_name": "University of Hong Kong",
+            "ror": "https://ror.org/02zhqgq86",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kehinde S Oyetunde",
+        "raw_affiliation_strings": [
+          "Department of Mechanical and Aerospace Engineering, Hong Kong University of Science and Technology, Hong Kong, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical and Aerospace Engineering, Hong Kong University of Science and Technology, Hong Kong, China.",
+            "institution_ids": [
+              "https://openalex.org/I200769079",
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5081033937",
+          "display_name": "Jihun Han",
+          "orcid": "https://orcid.org/0000-0002-3638-2050"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I193775966",
+            "display_name": "Yonsei University",
+            "ror": "https://ror.org/01wjejq96",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I193775966"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jihun Han",
+        "raw_affiliation_strings": [
+          "Department of Industrial Engineering, Yonsei University, Seoul 03722, Republic of Korea."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Industrial Engineering, Yonsei University, Seoul 03722, Republic of Korea.",
+            "institution_ids": [
+              "https://openalex.org/I193775966"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023818218",
+          "display_name": "Mohammad T. Khasawneh",
+          "orcid": "https://orcid.org/0000-0002-4302-6943"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I123946342",
+            "display_name": "Binghamton University",
+            "ror": "https://ror.org/008rmbt77",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I123946342"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mohammad T Khasawneh",
+        "raw_affiliation_strings": [
+          "Department of Systems Science and Industrial Engineering, Binghamton University, NY 13902, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Systems Science and Industrial Engineering, Binghamton University, NY 13902, USA.",
+            "institution_ids": [
+              "https://openalex.org/I123946342"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5076379562",
+          "display_name": "Hyunsoo Yoon",
+          "orcid": "https://orcid.org/0000-0002-6371-7055"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I193775966",
+            "display_name": "Yonsei University",
+            "ror": "https://ror.org/01wjejq96",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I193775966"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hyunsoo Yoon",
+        "raw_affiliation_strings": [
+          "Department of Industrial Engineering, Yonsei University, Seoul 03722, Republic of Korea. Electronic address: hs.yoon@yonsei.ac.kr."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Industrial Engineering, Yonsei University, Seoul 03722, Republic of Korea. Electronic address: hs.yoon@yonsei.ac.kr.",
+            "institution_ids": [
+              "https://openalex.org/I193775966"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 3450,
+      "currency": "USD",
+      "value_usd": 3450
+    },
+    "apc_paid": {
+      "value": 3450,
+      "currency": "USD",
+      "value_usd": 3450
+    },
+    "fwci": 1.03509663,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.72204911,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 95,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "304",
+      "issue": null,
+      "first_page": "120929",
+      "last_page": "120929"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12702",
+      "display_name": "Brain Tumor Detection and Classification",
+      "score": 0.9940000176429749,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2808",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12702",
+        "display_name": "Brain Tumor Detection and Classification",
+        "score": 0.9940000176429749,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2808",
+          "display_name": "Neurology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11396",
+        "display_name": "Artificial Intelligence in Healthcare",
+        "score": 0.9902999997138977,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3605",
+          "display_name": "Health Information Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10009",
+        "display_name": "Dementia and Cognitive Impairment Research",
+        "score": 0.9801999926567078,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2738",
+          "display_name": "Psychiatry and Mental health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/support-vector-machine",
+        "display_name": "Support vector machine",
+        "score": 0.6862534284591675
+      },
+      {
+        "id": "https://openalex.org/keywords/multiclass-classification",
+        "display_name": "Multiclass classification",
+        "score": 0.5859720706939697
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.5563576817512512
+      },
+      {
+        "id": "https://openalex.org/keywords/pattern-recognition",
+        "display_name": "Pattern recognition (psychology)",
+        "score": 0.5546911954879761
+      },
+      {
+        "id": "https://openalex.org/keywords/feature",
+        "display_name": "Feature (linguistics)",
+        "score": 0.4463217258453369
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.4183053970336914
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.3747636675834656
+      },
+      {
+        "id": "https://openalex.org/keywords/neuroscience",
+        "display_name": "Neuroscience",
+        "score": 0.3620757460594177
+      },
+      {
+        "id": "https://openalex.org/keywords/speech-recognition",
+        "display_name": "Speech recognition",
+        "score": 0.32273921370506287
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.32114702463150024
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.051118552684783936
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C12267149",
+        "wikidata": "https://www.wikidata.org/wiki/Q282453",
+        "display_name": "Support vector machine",
+        "level": 2,
+        "score": 0.6862534284591675
+      },
+      {
+        "id": "https://openalex.org/C123860398",
+        "wikidata": "https://www.wikidata.org/wiki/Q6934605",
+        "display_name": "Multiclass classification",
+        "level": 3,
+        "score": 0.5859720706939697
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5563576817512512
+      },
+      {
+        "id": "https://openalex.org/C153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "level": 2,
+        "score": 0.5546911954879761
+      },
+      {
+        "id": "https://openalex.org/C2776401178",
+        "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+        "display_name": "Feature (linguistics)",
+        "level": 2,
+        "score": 0.4463217258453369
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.4183053970336914
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.3747636675834656
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.3620757460594177
+      },
+      {
+        "id": "https://openalex.org/C28490314",
+        "wikidata": "https://www.wikidata.org/wiki/Q189436",
+        "display_name": "Speech recognition",
+        "level": 1,
+        "score": 0.32273921370506287
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.32114702463150024
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.051118552684783936
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000145",
+        "qualifier_name": "classification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D060388",
+        "descriptor_name": "Support Vector Machine",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D060825",
+        "descriptor_name": "Cognitive Dysfunction",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D060825",
+        "descriptor_name": "Cognitive Dysfunction",
+        "qualifier_ui": "Q000145",
+        "qualifier_name": "classification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008279",
+        "descriptor_name": "Magnetic Resonance Imaging",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000368",
+        "descriptor_name": "Aged",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D062706",
+        "descriptor_name": "Prodromal Symptoms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D049268",
+        "descriptor_name": "Positron-Emission Tomography",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007090",
+        "descriptor_name": "Image Interpretation, Computer-Assisted",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000544",
+        "descriptor_name": "Alzheimer Disease",
+        "qualifier_ui": "Q000145",
+        "qualifier_name": "classification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D060388",
+        "descriptor_name": "Support Vector Machine",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D060825",
+        "descriptor_name": "Cognitive Dysfunction",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D060825",
+        "descriptor_name": "Cognitive Dysfunction",
+        "qualifier_ui": "Q000145",
+        "qualifier_name": "classification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008279",
+        "descriptor_name": "Magnetic Resonance Imaging",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000368",
+        "descriptor_name": "Aged",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D062706",
+        "descriptor_name": "Prodromal Symptoms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D049268",
+        "descriptor_name": "Positron-Emission Tomography",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007090",
+        "descriptor_name": "Image Interpretation, Computer-Assisted",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.neuroimage.2024.120929",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2024.120929",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S103225281",
+          "display_name": "NeuroImage",
+          "issn_l": "1053-8119",
+          "issn": [
+            "1053-8119",
+            "1095-9572"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "NeuroImage",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:39571644",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39571644",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "NeuroImage",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:7a9d04d061ef40b4a4e51a177946ef8d",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/7a9d04d061ef40b4a4e51a177946ef8d",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "NeuroImage, Vol 304, Iss , Pp 120929- (2024)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:repository.hkust.edu.hk:1783.1-147079",
+        "is_oa": false,
+        "landing_page_url": "http://repository.hkust.edu.hk/ir/Record/1783.1-147079",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1016/j.neuroimage.2024.120929",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2024.120929",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S103225281",
+        "display_name": "NeuroImage",
+        "issn_l": "1053-8119",
+        "issn": [
+          "1053-8119",
+          "1095-9572"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "NeuroImage",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 68,
+    "referenced_works": [
+      "https://openalex.org/W2980923743",
+      "https://openalex.org/W2102636708",
+      "https://openalex.org/W4324309277",
+      "https://openalex.org/W4230920194",
+      "https://openalex.org/W2155298532",
+      "https://openalex.org/W4322761310",
+      "https://openalex.org/W2171250577",
+      "https://openalex.org/W2097308346",
+      "https://openalex.org/W2790567468",
+      "https://openalex.org/W4293447352",
+      "https://openalex.org/W4308806761",
+      "https://openalex.org/W4239510810",
+      "https://openalex.org/W2152758153",
+      "https://openalex.org/W2051737015",
+      "https://openalex.org/W3042085370",
+      "https://openalex.org/W4211007605",
+      "https://openalex.org/W4220985829",
+      "https://openalex.org/W6676602786",
+      "https://openalex.org/W2951103577",
+      "https://openalex.org/W2049546272",
+      "https://openalex.org/W2014418634",
+      "https://openalex.org/W2129965408",
+      "https://openalex.org/W2991909137",
+      "https://openalex.org/W2161699946",
+      "https://openalex.org/W2181065024",
+      "https://openalex.org/W1938122124",
+      "https://openalex.org/W4220916743",
+      "https://openalex.org/W6626641769",
+      "https://openalex.org/W2799428269",
+      "https://openalex.org/W2167720733",
+      "https://openalex.org/W2909001950",
+      "https://openalex.org/W2783215915",
+      "https://openalex.org/W3014606235",
+      "https://openalex.org/W3161497379",
+      "https://openalex.org/W1992117549",
+      "https://openalex.org/W2130371234",
+      "https://openalex.org/W6842221965",
+      "https://openalex.org/W3134105939",
+      "https://openalex.org/W977923474",
+      "https://openalex.org/W2795552972",
+      "https://openalex.org/W2040434160",
+      "https://openalex.org/W2795824182",
+      "https://openalex.org/W2083099567",
+      "https://openalex.org/W2977087659",
+      "https://openalex.org/W3154339073",
+      "https://openalex.org/W3093116876",
+      "https://openalex.org/W2743859995",
+      "https://openalex.org/W1980076857",
+      "https://openalex.org/W2542549468",
+      "https://openalex.org/W2527896982",
+      "https://openalex.org/W2058046532",
+      "https://openalex.org/W2794800511",
+      "https://openalex.org/W4249565903",
+      "https://openalex.org/W1797408175",
+      "https://openalex.org/W4286640356",
+      "https://openalex.org/W2115457642",
+      "https://openalex.org/W1902786215",
+      "https://openalex.org/W1924083433",
+      "https://openalex.org/W2146089088",
+      "https://openalex.org/W1985133440",
+      "https://openalex.org/W4288037053",
+      "https://openalex.org/W3002381343",
+      "https://openalex.org/W4294808273",
+      "https://openalex.org/W2179914359",
+      "https://openalex.org/W2109743529",
+      "https://openalex.org/W4294811409",
+      "https://openalex.org/W1026628557",
+      "https://openalex.org/W2596585349"
+    ],
+    "related_works": [
+      "https://openalex.org/W2090763504",
+      "https://openalex.org/W148178222",
+      "https://openalex.org/W2104657898",
+      "https://openalex.org/W1948992892",
+      "https://openalex.org/W1886884218",
+      "https://openalex.org/W2039745824",
+      "https://openalex.org/W3157224608",
+      "https://openalex.org/W2623163150",
+      "https://openalex.org/W2186666570",
+      "https://openalex.org/W4247599326"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        238
+      ],
+      "detection": [
+        1
+      ],
+      "of": [
+        2,
+        18,
+        29
+      ],
+      "patients": [
+        3
+      ],
+      "in": [
+        4,
+        57,
+        221,
+        249
+      ],
+      "the": [
+        5,
+        27,
+        58,
+        75,
+        119,
+        150,
+        198,
+        252,
+        262
+      ],
+      "cognitive": [
+        6,
+        10
+      ],
+      "normal": [
+        7
+      ],
+      "(CN),": [
+        8
+      ],
+      "mild": [
+        9
+      ],
+      "impairment": [
+        11
+      ],
+      "(MCI),": [
+        12
+      ],
+      "and": [
+        13,
+        89,
+        104,
+        126,
+        132,
+        172,
+        189,
+        203
+      ],
+      "Alzheimer's": [
+        14
+      ],
+      "disease": [
+        15
+      ],
+      "(AD)": [
+        16
+      ],
+      "stages": [
+        17
+      ],
+      "neurodegeneration": [
+        19
+      ],
+      "is": [
+        20
+      ],
+      "crucial": [
+        21
+      ],
+      "for": [
+        22,
+        36,
+        140
+      ],
+      "early": [
+        23
+      ],
+      "treatment": [
+        24
+      ],
+      "interventions.": [
+        25
+      ],
+      "However,": [
+        26
+      ],
+      "heterogeneity": [
+        28
+      ],
+      "MCI": [
+        30,
+        39,
+        225,
+        255
+      ],
+      "data": [
+        31
+      ],
+      "samples": [
+        32,
+        46
+      ],
+      "poses": [
+        33
+      ],
+      "a": [
+        34,
+        161,
+        183,
+        208,
+        217,
+        222
+      ],
+      "challenge": [
+        35,
+        66
+      ],
+      "CN": [
+        37,
+        56,
+        90,
+        101,
+        223,
+        253
+      ],
+      "vs.": [
+        38,
+        40,
+        84,
+        87,
+        91,
+        102,
+        109,
+        224,
+        226,
+        254
+      ],
+      "AD": [
+        41,
+        50,
+        83,
+        86,
+        108,
+        227
+      ],
+      "multiclass": [
+        42,
+        156,
+        228
+      ],
+      "classification,": [
+        43
+      ],
+      "as": [
+        44,
+        82,
+        100
+      ],
+      "some": [
+        45
+      ],
+      "are": [
+        47,
+        53
+      ],
+      "closer": [
+        48,
+        54
+      ],
+      "to": [
+        49,
+        55,
+        63,
+        73,
+        148,
+        242
+      ],
+      "while": [
+        51
+      ],
+      "others": [
+        52,
+        103,
+        106
+      ],
+      "feature": [
+        59,
+        185
+      ],
+      "space.": [
+        60
+      ],
+      "Previous": [
+        61
+      ],
+      "attempts": [
+        62
+      ],
+      "address": [
+        64
+      ],
+      "this": [
+        65
+      ],
+      "produced": [
+        67
+      ],
+      "inaccurate": [
+        68
+      ],
+      "results,": [
+        69,
+        118
+      ],
+      "leading": [
+        70
+      ],
+      "most": [
+        71
+      ],
+      "frameworks": [
+        72,
+        130,
+        135
+      ],
+      "break": [
+        74
+      ],
+      "assessment": [
+        76
+      ],
+      "into": [
+        77,
+        107
+      ],
+      "binary": [
+        78,
+        97,
+        121,
+        142,
+        243
+      ],
+      "classification": [
+        79,
+        122,
+        162,
+        229,
+        244
+      ],
+      "tasks": [
+        80
+      ],
+      "such": [
+        81,
+        99
+      ],
+      "CN,": [
+        85
+      ],
+      "MCI,": [
+        88
+      ],
+      "MCI.": [
+        92,
+        110
+      ],
+      "Other": [
+        93
+      ],
+      "methods": [
+        94,
+        239
+      ],
+      "proposed": [
+        95
+      ],
+      "sequential": [
+        96,
+        120
+      ],
+      "classifications": [
+        98
+      ],
+      "dividing": [
+        105
+      ],
+      "While": [
+        111
+      ],
+      "those": [
+        112
+      ],
+      "approaches": [
+        113
+      ],
+      "may": [
+        114
+      ],
+      "have": [
+        115
+      ],
+      "yielded": [
+        116
+      ],
+      "encouraging": [
+        117
+      ],
+      "method": [
+        123
+      ],
+      "makes": [
+        124
+      ],
+      "interpretation": [
+        125
+      ],
+      "comparison": [
+        127
+      ],
+      "with": [
+        128,
+        153,
+        197
+      ],
+      "other": [
+        129,
+        154
+      ],
+      "challenging": [
+        131
+      ],
+      "subjective.": [
+        133
+      ],
+      "Those": [
+        134
+      ],
+      "exhibited": [
+        136
+      ],
+      "varying": [
+        137
+      ],
+      "accuracy": [
+        138
+      ],
+      "scores": [
+        139
+      ],
+      "different": [
+        141
+      ],
+      "tasks,": [
+        143,
+        245
+      ],
+      "making": [
+        144
+      ],
+      "it": [
+        145
+      ],
+      "unclear": [
+        146
+      ],
+      "how": [
+        147
+      ],
+      "compare": [
+        149
+      ],
+      "model": [
+        151
+      ],
+      "performance": [
+        152
+      ],
+      "direct": [
+        155
+      ],
+      "methods.": [
+        157
+      ],
+      "Therefore,": [
+        158
+      ],
+      "we": [
+        159,
+        215
+      ],
+      "introduce": [
+        160
+      ],
+      "framework": [
+        163,
+        180
+      ],
+      "comprising": [
+        164
+      ],
+      "unsupervised": [
+        165
+      ],
+      "ensemble": [
+        166
+      ],
+      "manifold": [
+        167
+      ],
+      "regularized": [
+        168,
+        173,
+        209
+      ],
+      "sparse": [
+        169
+      ],
+      "low-rank": [
+        170
+      ],
+      "approximation": [
+        171
+      ],
+      "multikernel": [
+        174,
+        210
+      ],
+      "support": [
+        175
+      ],
+      "vector": [
+        176
+      ],
+      "machine": [
+        177
+      ],
+      "(SVM).": [
+        178
+      ],
+      "This": [
+        179
+      ],
+      "first": [
+        181
+      ],
+      "extracts": [
+        182
+      ],
+      "joint": [
+        184
+      ],
+      "embedding": [
+        186
+      ],
+      "from": [
+        187
+      ],
+      "MRI": [
+        188
+      ],
+      "PET": [
+        190
+      ],
+      "neuroimaging": [
+        191
+      ],
+      "features,": [
+        192
+      ],
+      "which": [
+        193,
+        257
+      ],
+      "were": [
+        194
+      ],
+      "then": [
+        195
+      ],
+      "combined": [
+        196
+      ],
+      "Apoe4,": [
+        199
+      ],
+      "Adas11,": [
+        200
+      ],
+      "MPACC": [
+        201
+      ],
+      "digits,": [
+        202
+      ],
+      "Intracranial": [
+        204
+      ],
+      "volume": [
+        205
+      ],
+      "features": [
+        206
+      ],
+      "using": [
+        207
+      ],
+      "SVM.": [
+        211
+      ],
+      "Using": [
+        212
+      ],
+      "that": [
+        213
+      ],
+      "framework,": [
+        214
+      ],
+      "achieved": [
+        216
+      ],
+      "state-of-the-art": [
+        218
+      ],
+      "(SOTA)": [
+        219
+      ],
+      "result": [
+        220
+      ],
+      "(mean": [
+        230
+      ],
+      "accuracy:": [
+        231
+      ],
+      "84.87±6.09,": [
+        232
+      ],
+      "F1": [
+        233
+      ],
+      "score:": [
+        234
+      ],
+      "84.83±6.12": [
+        235
+      ],
+      "vs": [
+        236
+      ],
+      "67.69).": [
+        237
+      ],
+      "generalize": [
+        240
+      ],
+      "well": [
+        241
+      ],
+      "achieving": [
+        246
+      ],
+      "SOTA": [
+        247
+      ],
+      "results": [
+        248
+      ],
+      "all": [
+        250
+      ],
+      "but": [
+        251
+      ],
+      "category,": [
+        256
+      ],
+      "was": [
+        258
+      ],
+      "slightly": [
+        259
+      ],
+      "lower": [
+        260
+      ],
+      "than": [
+        261
+      ],
+      "best": [
+        263
+      ],
+      "score": [
+        264
+      ],
+      "by": [
+        265
+      ],
+      "just": [
+        266
+      ],
+      "0.2%.": [
+        267
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-12-21T23:12:01.093139",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          8
+        ]
+      ],
+      "date-time": "2025-12-08T22:45:20Z",
+      "timestamp": 1765233920195,
+      "version": "3.30.2"
+    },
+    "reference-count": 72,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2024-12-01T00:00:00Z",
+          "timestamp": 1733011200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2024-12-01T00:00:00Z",
+          "timestamp": 1733011200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              11
+            ]
+          ],
+          "date-time": "2024-11-11T00:00:00Z",
+          "timestamp": 1731283200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "NeuroImage"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.neuroimage.2024.120929",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2024-11-19T22:26:02Z",
+      "timestamp": 1732055162000
+    },
+    "page": "120929",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "special_numbering": "C",
+    "title": [
+      "Multiclass classification of Alzheimer's disease prodromal stages using sequential feature embeddings and regularized multikernel support vector machine"
+    ],
+    "prefix": "10.1016",
+    "volume": "304",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1024-7309",
+        "authenticated-orcid": false,
+        "given": "Oyekanmi O.",
+        "family": "Olatunde",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6945-0558",
+        "authenticated-orcid": false,
+        "given": "Kehinde S.",
+        "family": "Oyetunde",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jihun",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4302-6943",
+        "authenticated-orcid": false,
+        "given": "Mohammad T.",
+        "family": "Khasawneh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6371-7055",
+        "authenticated-orcid": false,
+        "given": "Hyunsoo",
+        "family": "Yoon",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "941",
+        "DOI": "10.3390/s20030941",
+        "article-title": "Emphasis learning, features repetition in width instead of length to improve classification performance: case study—Alzheimer's disease diagnosis",
+        "volume": "20",
+        "author": "Akramifard",
+        "year": "2020",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "1340",
+        "DOI": "10.1093/bioinformatics/btq134",
+        "article-title": "Permutation importance: a corrected feature importance measure",
+        "volume": "26",
+        "author": "Altmann",
+        "year": "2010",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0001",
+        "doi-asserted-by": "crossref",
+        "first-page": "1598",
+        "DOI": "10.1002/alz.13016",
+        "article-title": "2023 Alzheimer's disease facts and figures",
+        "volume": "19",
+        "year": "2023",
+        "journal-title": "Alzheimer. Dement."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "839",
+        "DOI": "10.1016/j.neuroimage.2005.02.018",
+        "article-title": "Unified segmentation",
+        "volume": "26",
+        "author": "Ashburner",
+        "year": "2005",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1016/j.neuroimage.2007.07.007",
+        "article-title": "A fast diffeomorphic image registration algorithm",
+        "volume": "38",
+        "author": "Ashburner",
+        "year": "2007",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0006",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jbi.2023.104326",
+        "article-title": "Diagnosis of Alzheimer's disease using hypergraph p-Laplacian regularized multi-task feature learning",
+        "volume": "140",
+        "author": "Ban",
+        "year": "2023",
+        "journal-title": "J. Biomed. Inform."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "795",
+        "DOI": "10.1056/NEJMoa1202753",
+        "article-title": "Clinical and biomarker changes in dominantly inherited Alzheimer's disease",
+        "volume": "367",
+        "author": "Bateman",
+        "year": "2012",
+        "journal-title": "N. Engl. J. Med."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "1373",
+        "DOI": "10.1162/089976603321780317",
+        "article-title": "Laplacian Eigenmaps for dimensionality reduction and data representation",
+        "volume": "15",
+        "author": "Belkin",
+        "year": "2003",
+        "journal-title": "Neur. Comput."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0009",
+        "unstructured": "Bergstra, J., Yamins, D., Cox, D.D. (2013) Making a Science of Model Search: Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures. TProc. of the 30th International Conference on Machine Learning (ICML 2013), June 2013, pp. I-115 to I-23."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1016/j.nicl.2018.01.019",
+        "article-title": "FDG-PET and CSF biomarker accuracy in prediction of conversion to different dementias in a large multicentre MCI cohort",
+        "volume": "18",
+        "author": "Caminiti",
+        "year": "2018",
+        "journal-title": "NeuroImage Clin."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "316",
+        "DOI": "10.1080/13803395.2022.2115015",
+        "article-title": "Predicting conversion from mild cognitive impairment to Alzheimer's disease with multimodal latent factors",
+        "volume": "44",
+        "author": "Chang",
+        "year": "2022",
+        "journal-title": "J. Clin. Exp. Neuropsychol."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0012",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.patter.2022.100602",
+        "article-title": "Modern views of machine learning for precision psychiatry",
+        "volume": "3",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "Patterns"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib71",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1007/BF00994018",
+        "article-title": "Support-vector networks",
+        "volume": "20",
+        "author": "Cortes",
+        "year": "1995",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0013",
+        "doi-asserted-by": "crossref",
+        "first-page": "1041",
+        "DOI": "10.1109/TPAMI.2011.184",
+        "article-title": "A least-squares framework for component analysis",
+        "volume": "34",
+        "author": "De La Torre",
+        "year": "2012",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0014",
+        "doi-asserted-by": "crossref",
+        "first-page": "961",
+        "DOI": "10.1001/jamaneurol.2014.803",
+        "article-title": "The preclinical Alzheimer cognitive composite: measuring amyloid-related decline",
+        "volume": "71",
+        "author": "Donohue",
+        "year": "2014",
+        "journal-title": "JAMA Neurol."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0015",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jneumeth.2020.108856",
+        "article-title": "Gaussian discriminative component analysis for early detection of Alzheimer's disease: a supervised dimensionality reduction algorithm",
+        "volume": "344",
+        "author": "Fang",
+        "year": "2020",
+        "journal-title": "J. Neurosci. Methods"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "129",
+        "DOI": "10.1155/2009/836437",
+        "article-title": "Applications of neuroimaging to disease-modification trials in Alzheimer's disease",
+        "volume": "21",
+        "author": "Fleisher",
+        "year": "2009",
+        "journal-title": "Behav. Neurol."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0017",
+        "article-title": "CAT – a computational anatomy toolbox for the analysis of structural MRI data (preprint)",
+        "author": "Gaser",
+        "year": "2022",
+        "journal-title": "Neuroscience"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1186/s13024-022-00523-1",
+        "article-title": "Alzheimer's disease – the journey of a healthy brain into organ failure",
+        "volume": "17",
+        "author": "Golde",
+        "year": "2022",
+        "journal-title": "Mol. Neurodegener."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0019",
+        "first-page": "2211",
+        "article-title": "Multiple kernel learning algorithms",
+        "volume": "12",
+        "author": "Gonen",
+        "year": "2011",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0020",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/sdata.2016.44",
+        "article-title": "The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments",
+        "volume": "3",
+        "author": "Gorgolewski",
+        "year": "2016",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0021",
+        "doi-asserted-by": "crossref",
+        "first-page": "672",
+        "DOI": "10.1016/j.neuroimage.2007.11.034",
+        "article-title": "Automatic segmentation of brain MRIs of 2-year-olds into 83 regions of interest",
+        "volume": "40",
+        "author": "Gousias",
+        "year": "2008",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "167",
+        "DOI": "10.1016/j.neuroimage.2012.09.065",
+        "article-title": "Random forest-based similarity measures for multi-modal classification of Alzheimer's disease",
+        "volume": "65",
+        "author": "Gray",
+        "year": "2013",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0023",
+        "doi-asserted-by": "crossref",
+        "first-page": "224",
+        "DOI": "10.1002/hbm.10123",
+        "article-title": "Three-dimensional maximum probability atlas of the human brain, with particular reference to the temporal lobe",
+        "volume": "19",
+        "author": "Hammers",
+        "year": "2003",
+        "journal-title": "Hum. Brain Mapp."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0024",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.media.2019.101625",
+        "article-title": "Multi-modal neuroimaging feature selection with consistent metric constraint for diagnosis of Alzheimer's disease",
+        "volume": "60",
+        "author": "Hao",
+        "year": "2020",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0025",
+        "unstructured": "How Is Alzheimer's Disease Treated? [WWW Document], 2023. Natl. Inst. Aging. URL https://www.nia.nih.gov/health/alzheimers-treatment/how-alzheimers-disease-treated (accessed 12.1.23)."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0026",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1186/2043-9113-3-9",
+        "article-title": "A diagnostic methodology for Alzheimer's disease",
+        "volume": "3",
+        "author": "Hsu",
+        "year": "2013",
+        "journal-title": "J. Clin. Bioinforma."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0027",
+        "doi-asserted-by": "crossref",
+        "first-page": "342",
+        "DOI": "10.4103/0971-3026.169449",
+        "article-title": "Integrated 18F-fluorodeoxyglucose positron emission tomography magnetic resonance imaging (18F-FDG PET/MRI), a multimodality approach for comprehensive evaluation of dementia patients: A pictorial essay",
+        "volume": "25",
+        "author": "Jena",
+        "year": "2015",
+        "journal-title": "Indian J. Radiol. Imaging"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0028",
+        "doi-asserted-by": "crossref",
+        "first-page": "489",
+        "DOI": "10.1002/hbm.22642",
+        "article-title": "Manifold Regularized Multitask Feature Learning for Multimodality Disease Classification: Manifold Regularized Multitask Feature Learning",
+        "volume": "36",
+        "author": "Jie",
+        "year": "2015",
+        "journal-title": "Hum. Brain Mapp."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0029",
+        "doi-asserted-by": "crossref",
+        "first-page": "4284",
+        "DOI": "10.1038/s41598-022-08231-y",
+        "article-title": "Searching for optimal machine learning model to classify mild cognitive impairment (MCI) subtypes using multimodal MRI data",
+        "volume": "12",
+        "author": "Jitsuishi",
+        "year": "2022",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "issue": "46",
+        "key": "10.1016/j.neuroimage.2024.120929_bib0030",
+        "first-page": "59",
+        "article-title": "AICHA: an atlas of intrinsic connectivity of homotopic areas",
+        "volume": "254",
+        "author": "Joliot",
+        "year": "2015",
+        "journal-title": "J. Neurosci. Methods"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0031",
+        "doi-asserted-by": "crossref",
+        "first-page": "3728",
+        "DOI": "10.1002/hbm.24207",
+        "article-title": "Identification of Alzheimer's disease and mild cognitive impairment using multimodal sparse hierarchical extreme learning machine",
+        "volume": "39",
+        "author": "Kim",
+        "year": "2018",
+        "journal-title": "Hum. Brain Mapp."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0032",
+        "doi-asserted-by": "crossref",
+        "first-page": "306",
+        "DOI": "10.1002/ana.20009",
+        "article-title": "Imaging brain amyloid in Alzheimer's disease with Pittsburgh Compound-B",
+        "volume": "55",
+        "author": "Klunk",
+        "year": "2004",
+        "journal-title": "Ann. Neurol."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0033",
+        "doi-asserted-by": "crossref",
+        "first-page": "1661",
+        "DOI": "10.1109/JBHI.2018.2872581",
+        "article-title": "Neuroimaging retrieval via adaptive ensemble manifold learning for brain disease diagnosis",
+        "volume": "23",
+        "author": "Lei",
+        "year": "2019",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0034",
+        "doi-asserted-by": "crossref",
+        "first-page": "117",
+        "DOI": "10.3389/fncom.2017.00117",
+        "article-title": "Classification of Alzheimer's disease, mildx cognitive impairment, and cognitively unimpaired individuals using multi-feature kernel discriminant dictionary learning",
+        "volume": "11",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Front. Comput. Neurosci."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib69",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.3389/fnagi.2020.00077",
+        "article-title": "Predicting Alzheimer’s Disease Conversion From Mild Cognitive Impairment Using an Extreme Learning Machine-Based Grading Method With Multimodal Data",
+        "volume": "12",
+        "author": "Lin",
+        "year": "2020",
+        "journal-title": "Front. Aging Neurosci."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0035",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compbiomed.2021.104478",
+        "article-title": "Multiclass diagnosis of stages of Alzheimer's disease using linear discriminant analysis scoring for multimodal data",
+        "volume": "134",
+        "author": "Lin",
+        "year": "2021",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0036",
+        "doi-asserted-by": "crossref",
+        "first-page": "466",
+        "DOI": "10.1016/j.neuroimage.2013.09.015",
+        "article-title": "Inter-modality relationship constrained multi-modality multi-task feature selection for Alzheimer's Disease and mild cognitive impairment identification",
+        "volume": "84",
+        "author": "Liu",
+        "year": "2014",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0037",
+        "doi-asserted-by": "crossref",
+        "first-page": "1132",
+        "DOI": "10.1109/TBME.2014.2372011",
+        "article-title": "Multimodal neuroimaging feature learning for multiclass diagnosis of Alzheimer's disease",
+        "volume": "62",
+        "author": "Liu",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0038",
+        "first-page": "1",
+        "article-title": "A multi-classification accessment framework for reproducible evaluation of multimodal learning in Alzheimer's disease",
+        "author": "Nan",
+        "year": "2022",
+        "journal-title": "IEEE/ACM Trans. Comput. Biol. Bioinform."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0039",
+        "series-title": "Advances in Neural Information Processing Systems",
+        "article-title": "Efficient and robust feature selection via joint \\mathscrl2,1-norms minimization",
+        "author": "Nie",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib70",
+        "doi-asserted-by": "crossref",
+        "first-page": "1632",
+        "DOI": "10.1109/TMI.2021.3063150",
+        "article-title": "Relation-Induced Multi-Modal Shared Representation Learning for Alzheimer’s Disease Diagnosis",
+        "volume": "40",
+        "author": "Ning",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0042",
+        "first-page": "9",
+        "article-title": "Simplemkl",
+        "author": "Rakotomamonjy",
+        "year": "2008",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0043",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.neuroimage.2015.07.075",
+        "article-title": "Implementation of a new parcellation of the orbitofrontal cortex in the automated anatomical labeling atlas",
+        "volume": "122",
+        "author": "Rolls",
+        "year": "2015",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0044",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fninf.2021.689675",
+        "article-title": "Clinica: an open-source software platform for reproducible clinical neuroscience studies",
+        "volume": "15",
+        "author": "Routier",
+        "year": "2021",
+        "journal-title": "Front. Neuroinformat."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "1718",
+        "DOI": "10.1212/01.wnl.0000261919.22630.ea",
+        "article-title": "Imaging β-amyloid burden in aging and dementia",
+        "volume": "68",
+        "author": "Rowe",
+        "year": "2007",
+        "journal-title": "Neurology"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0046",
+        "doi-asserted-by": "crossref",
+        "first-page": "504",
+        "DOI": "10.1016/j.neuroimage.2018.08.042",
+        "article-title": "Reproducible evaluation of classification methods in Alzheimer's disease: framework and application to MRI and PET data",
+        "volume": "183",
+        "author": "Samper-González",
+        "year": "2018",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0047",
+        "doi-asserted-by": "crossref",
+        "first-page": "1064",
+        "DOI": "10.1016/j.neuroimage.2007.09.031",
+        "article-title": "Construction of a 3D probabilistic atlas of human cortical structures",
+        "volume": "39",
+        "author": "Shattuck",
+        "year": "2008",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0048",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1177/1536012119877285",
+        "article-title": "Predicting Alzheimer disease from mild cognitive impairment with a deep belief network based on 18F-FDG-PET images",
+        "volume": "18",
+        "author": "Shen",
+        "year": "2019",
+        "journal-title": "Mol. Imaging"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0049",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1117/1.JMI.8.2.024502",
+        "article-title": "Early diagnosis of Alzheimer's disease on ADNI data using novel longitudinal score based on functional principal component analysis",
+        "volume": "8",
+        "author": "Shi",
+        "year": "2021",
+        "journal-title": "J. Med. Imaging"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0050",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.patcog.2022.108566",
+        "article-title": "ASMFS: adaptive-similarity-based multi-modality feature selection for classification of Alzheimer's disease",
+        "volume": "126",
+        "author": "Shi",
+        "year": "2022",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0051",
+        "doi-asserted-by": "crossref",
+        "first-page": "8137",
+        "DOI": "10.1038/s41598-017-03925-0",
+        "article-title": "Cascaded multi-view canonical correlation (CaMCCo) for early diagnosis of Alzheimer's disease via fusion of clinical, imaging and Omic features",
+        "volume": "7",
+        "author": "Singanamalli",
+        "year": "2017",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0052",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fnagi.2014.00168",
+        "article-title": "Subclass-based multi-task learning for Alzheimer's disease diagnosis",
+        "volume": "6",
+        "author": "Suk",
+        "year": "2014",
+        "journal-title": "Front. Aging Neurosci."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0041",
+        "doi-asserted-by": "crossref",
+        "first-page": "7975",
+        "DOI": "10.1088/0031-9155/61/22/7975",
+        "article-title": "PETPVC: a toolbox for performing partial volume correction techniques in positron emission tomography",
+        "volume": "61",
+        "author": "Thomas",
+        "year": "2016",
+        "journal-title": "Phys. Med. Biol."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0054",
+        "doi-asserted-by": "crossref",
+        "first-page": "171",
+        "DOI": "10.1016/j.patcog.2016.10.009",
+        "article-title": "Multi-modal classification of Alzheimer's disease using nonlinear graph fusion",
+        "volume": "63",
+        "author": "Tong",
+        "year": "2017",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0053",
+        "unstructured": "Treatments for Alzheimer's [WWW Document], n.d.. Alzheimers Dis. Dement. URL https://alz.org/alzheimers-dementia/treatments (accessed 12.1.23)."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1006/nimg.2001.0978",
+        "article-title": "Automated anatomical labeling of activations in SPM using a macroscopic anatomical parcellation of the MNI MRI single-subject brain",
+        "volume": "15",
+        "author": "Tzourio-Mazoyer",
+        "year": "2002",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib68",
+        "doi-asserted-by": "crossref",
+        "first-page": "529",
+        "DOI": "10.2174/1574893613666180328093114",
+        "article-title": "Early-Stage Identification of Alzheimer’s Disease Using a Two-stage Ensemble Classifier",
+        "volume": "13",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Curr. Bioinforma."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0057",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jalz.2011.09.172",
+        "article-title": "The Alzheimer's disease neuroimaging initiative: a review of papers published since its inception",
+        "volume": "8",
+        "author": "Weiner",
+        "year": "2012",
+        "journal-title": "Alzheimer. Dement."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0056",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jalz.2014.11.001",
+        "article-title": "2014 update of the Alzheimer's disease neuroimaging initiative: a review of papers published since its inception",
+        "volume": "11",
+        "author": "Weiner",
+        "year": "2015",
+        "journal-title": "Alzheimer. Dement."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0058",
+        "unstructured": "What Are the Signs of Alzheimer's Disease? [WWW Document], 2022. Natl. Inst. Aging. URL https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/what-are-signs-alzheimers-disease (accessed 12.23.23)."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0059",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.neuroimage.2022.119505",
+        "article-title": "DAFT: A universal module to interweave tabular data and 3D images in CNNs",
+        "volume": "260",
+        "author": "Wolf",
+        "year": "2022",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0060",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wyman, B.T., Harvey, D.J., Crawford, K., Bernstein, M.A., Carmichael, O., Cole, P.E., Crane, P.K., DeCarli, C., Fox, N.C., Gunter, J.L., Hill, D., Killiany, R.J., Pachai, C., Schwarz, A.J., Schuff, N., Senjem, M.L., Suhy, J., Thompson, P.M., Weiner, M., Jack, C.R., Alzheimer's Disease Neuroimaging Initiative, 2013. Standardization of analysis sets for reporting results from ADNI MRI data. Alzheimer's Dement. 9, 332–337. https://doi.org/10.1016/j.jalz.2012.06.004.",
+        "DOI": "10.1016/j.jalz.2012.06.004"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0061",
+        "doi-asserted-by": "crossref",
+        "first-page": "182",
+        "DOI": "10.1016/j.cmpb.2015.08.004",
+        "article-title": "Multi-modality sparse representation-based classification for Alzheimer's disease and mild cognitive impairment",
+        "volume": "122",
+        "author": "Xu",
+        "year": "2015",
+        "journal-title": "Comput. Methods Programs Biomed."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0062",
+        "doi-asserted-by": "crossref",
+        "first-page": "739",
+        "DOI": "10.1007/s11682-015-9437-x",
+        "article-title": "Discriminative multi-task feature selection for multi-modality classification of Alzheimer's disease",
+        "volume": "10",
+        "author": "Ye",
+        "year": "2016",
+        "journal-title": "Brain Imaging Behav."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0063",
+        "doi-asserted-by": "crossref",
+        "first-page": "856",
+        "DOI": "10.1016/j.neuroimage.2011.01.008",
+        "article-title": "Multimodal classification of Alzheimer's disease and mild cognitive impairment",
+        "volume": "55",
+        "author": "Zhang",
+        "year": "2011",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "3102",
+        "DOI": "10.1016/j.patcog.2014.12.016",
+        "article-title": "Ensemble manifold regularized sparse low-rank approximation for multiview feature embedding",
+        "volume": "48",
+        "author": "Zhang",
+        "year": "2015",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0064",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/1741-2552/ac8450",
+        "article-title": "Multi-scale discriminative regions analysis in FDG-PET imaging for early diagnosis of Alzheimer's disease",
+        "volume": "19",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "J. Neural Eng."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, Z., Anand, R., Wang, M., 2019. Maximum Relevance and Minimum Redundancy Feature Selection Methods for a Marketing Machine Learning Platform, in: 2019 IEEE International Conference on Data Science and Advanced Analytics (DSAA). Presented at the 2019 IEEE International Conference on Data Science and Advanced Analytics (DSAA), IEEE, Washington, DC, USA, pp. 442-452. doi:10.1109/DSAA.2019.00059.",
+        "DOI": "10.1109/DSAA.2019.00059"
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib0066",
+        "doi-asserted-by": "crossref",
+        "first-page": "913",
+        "DOI": "10.1038/s42003-022-03880-1",
+        "article-title": "Choice of Voxel-based Morphometry processing pipeline drives variability in the location of neuroanatomical brain markers",
+        "volume": "5",
+        "author": "Zhou",
+        "year": "2022",
+        "journal-title": "Commun. Biol."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_bib67",
+        "doi-asserted-by": "crossref",
+        "first-page": "1148",
+        "DOI": "10.1007/s11682-015-9480-7",
+        "article-title": "Label-aligned multi-task feature learning for multimodal classification of Alzheimer’s disease and mild cognitive impairment",
+        "volume": "10",
+        "author": "Zu",
+        "year": "2016",
+        "journal-title": "Brain Imaging Behav."
+      },
+      {
+        "key": "10.1016/j.neuroimage.2024.120929_fur1",
+        "series-title": "Support vector machine. Machine Learning",
+        "first-page": "101",
+        "author": "Pisner",
+        "year": "2020"
+      }
+    ],
+    "container-title": [
+      "NeuroImage"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1053811924004269?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1053811924004269?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          11
+        ]
+      ],
+      "date-time": "2024-12-11T05:54:57Z",
+      "timestamp": 1733896497000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1053811924004269"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "references-count": 72,
+    "alternative-id": [
+      "S1053811924004269"
+    ],
+    "URL": "https://doi.org/10.1016/j.neuroimage.2024.120929",
+    "relation": {},
+    "ISSN": [
+      "1053-8119"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1053-8119"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Multiclass classification of Alzheimer's disease prodromal stages using sequential feature embeddings and regularized multikernel support vector machine",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "NeuroImage",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.neuroimage.2024.120929",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "120929"
+  }
+}

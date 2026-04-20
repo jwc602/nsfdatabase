@@ -1,0 +1,916 @@
+{
+  "doi": "10.1109/lcsys.2024.3517457",
+  "openalex": {
+    "id": "https://openalex.org/W4405741939",
+    "doi": "https://doi.org/10.1109/lcsys.2024.3517457",
+    "title": "Modeling Epidemic Spread: A Gaussian Process Regression Approach",
+    "display_name": "Modeling Epidemic Spread: A Gaussian Process Regression Approach",
+    "publication_year": 2024,
+    "publication_date": "2024-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4405741939",
+      "doi": "https://doi.org/10.1109/lcsys.2024.3517457"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/lcsys.2024.3517457",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/lcsys.2024.3517457",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306422535",
+        "display_name": "IEEE Control Systems Letters",
+        "issn_l": "2475-1456",
+        "issn": [
+          "2475-1456"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Control Systems Letters",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5028609142",
+          "display_name": "Baike She",
+          "orcid": "https://orcid.org/0000-0003-1504-1967"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I130701444",
+            "display_name": "Georgia Institute of Technology",
+            "ror": "https://ror.org/01zkghx44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Baike She",
+        "raw_affiliation_strings": [
+          "School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA",
+            "institution_ids": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5025635446",
+          "display_name": "Lei Xin",
+          "orcid": "https://orcid.org/0000-0001-6349-5774"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I177725633",
+            "display_name": "Chinese University of Hong Kong",
+            "ror": "https://ror.org/00t33hh48",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177725633"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lei Xin",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Hong Kong, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Hong Kong, China",
+            "institution_ids": [
+              "https://openalex.org/I177725633"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5085597072",
+          "display_name": "Philip E. Paré",
+          "orcid": "https://orcid.org/0000-0002-4095-7320"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I219193219",
+            "display_name": "Purdue University West Lafayette",
+            "ror": "https://ror.org/02dqehb95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I219193219"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Philip E. Paré",
+        "raw_affiliation_strings": [
+          "Elmore Family School of Electrical and Computer Engineering, Purdue University, West Lafayette, IN, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Elmore Family School of Electrical and Computer Engineering, Purdue University, West Lafayette, IN, USA",
+            "institution_ids": [
+              "https://openalex.org/I219193219"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5022644062",
+          "display_name": "Matthew Hale",
+          "orcid": "https://orcid.org/0000-0003-3991-1680"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I130701444",
+            "display_name": "Georgia Institute of Technology",
+            "ror": "https://ror.org/01zkghx44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Matthew Hale",
+        "raw_affiliation_strings": [
+          "School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA",
+            "institution_ids": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.31148637,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "8",
+      "issue": null,
+      "first_page": "2847",
+      "last_page": "2852"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10410",
+      "display_name": "COVID-19 epidemiological studies",
+      "score": 0.6137999892234802,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2611",
+        "display_name": "Modeling and Simulation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10410",
+        "display_name": "COVID-19 epidemiological studies",
+        "score": 0.6137999892234802,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2611",
+          "display_name": "Modeling and Simulation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/econometrics",
+        "display_name": "Econometrics",
+        "score": 0.5323463082313538
+      },
+      {
+        "id": "https://openalex.org/keywords/kriging",
+        "display_name": "Kriging",
+        "score": 0.49091488122940063
+      },
+      {
+        "id": "https://openalex.org/keywords/regression",
+        "display_name": "Regression",
+        "score": 0.48203766345977783
+      },
+      {
+        "id": "https://openalex.org/keywords/statistics",
+        "display_name": "Statistics",
+        "score": 0.47980359196662903
+      },
+      {
+        "id": "https://openalex.org/keywords/regression-analysis",
+        "display_name": "Regression analysis",
+        "score": 0.4788758158683777
+      },
+      {
+        "id": "https://openalex.org/keywords/process",
+        "display_name": "Process (computing)",
+        "score": 0.47340402007102966
+      },
+      {
+        "id": "https://openalex.org/keywords/gaussian-process",
+        "display_name": "Gaussian process",
+        "score": 0.4704388976097107
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.43981385231018066
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.3508550226688385
+      },
+      {
+        "id": "https://openalex.org/keywords/gaussian",
+        "display_name": "Gaussian",
+        "score": 0.30978500843048096
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.08601176738739014
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C149782125",
+        "wikidata": "https://www.wikidata.org/wiki/Q160039",
+        "display_name": "Econometrics",
+        "level": 1,
+        "score": 0.5323463082313538
+      },
+      {
+        "id": "https://openalex.org/C81692654",
+        "wikidata": "https://www.wikidata.org/wiki/Q225926",
+        "display_name": "Kriging",
+        "level": 2,
+        "score": 0.49091488122940063
+      },
+      {
+        "id": "https://openalex.org/C83546350",
+        "wikidata": "https://www.wikidata.org/wiki/Q1139051",
+        "display_name": "Regression",
+        "level": 2,
+        "score": 0.48203766345977783
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.47980359196662903
+      },
+      {
+        "id": "https://openalex.org/C152877465",
+        "wikidata": "https://www.wikidata.org/wiki/Q208042",
+        "display_name": "Regression analysis",
+        "level": 2,
+        "score": 0.4788758158683777
+      },
+      {
+        "id": "https://openalex.org/C98045186",
+        "wikidata": "https://www.wikidata.org/wiki/Q205663",
+        "display_name": "Process (computing)",
+        "level": 2,
+        "score": 0.47340402007102966
+      },
+      {
+        "id": "https://openalex.org/C61326573",
+        "wikidata": "https://www.wikidata.org/wiki/Q1496376",
+        "display_name": "Gaussian process",
+        "level": 3,
+        "score": 0.4704388976097107
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.43981385231018066
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.3508550226688385
+      },
+      {
+        "id": "https://openalex.org/C163716315",
+        "wikidata": "https://www.wikidata.org/wiki/Q901177",
+        "display_name": "Gaussian",
+        "level": 2,
+        "score": 0.30978500843048096
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.08601176738739014
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/lcsys.2024.3517457",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/lcsys.2024.3517457",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306422535",
+          "display_name": "IEEE Control Systems Letters",
+          "issn_l": "2475-1456",
+          "issn": [
+            "2475-1456"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Control Systems Letters",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "display_name": "Good health and well-being",
+        "score": 0.7099999785423279,
+        "id": "https://metadata.un.org/sdg/3"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G6022559588",
+        "display_name": null,
+        "funder_award_id": "HR00112220038",
+        "funder_id": "https://openalex.org/F4320332180",
+        "funder_display_name": "Defense Advanced Research Projects Agency"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320332180",
+        "display_name": "Defense Advanced Research Projects Agency",
+        "ror": "https://ror.org/02caytj08"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 18,
+    "referenced_works": [
+      "https://openalex.org/W3018782651",
+      "https://openalex.org/W2145124315",
+      "https://openalex.org/W4294691881",
+      "https://openalex.org/W4314946004",
+      "https://openalex.org/W2558189332",
+      "https://openalex.org/W3026481086",
+      "https://openalex.org/W6779455095",
+      "https://openalex.org/W3122842798",
+      "https://openalex.org/W6634150524",
+      "https://openalex.org/W3109941711",
+      "https://openalex.org/W4232309026",
+      "https://openalex.org/W1528229609",
+      "https://openalex.org/W4386249248",
+      "https://openalex.org/W6876004472",
+      "https://openalex.org/W2725216843",
+      "https://openalex.org/W4233751321",
+      "https://openalex.org/W6788269962",
+      "https://openalex.org/W6763216130"
+    ],
+    "related_works": [
+      "https://openalex.org/W566010457",
+      "https://openalex.org/W2600092203",
+      "https://openalex.org/W4293503520",
+      "https://openalex.org/W4300066510",
+      "https://openalex.org/W2056958800",
+      "https://openalex.org/W2803685231",
+      "https://openalex.org/W3134152097",
+      "https://openalex.org/W4311388919",
+      "https://openalex.org/W2966696655",
+      "https://openalex.org/W31220157"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          21
+        ]
+      ],
+      "date-time": "2025-02-21T22:55:43Z",
+      "timestamp": 1740178543156,
+      "version": "3.37.3"
+    },
+    "reference-count": 22,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2024-01-01T00:00:00Z",
+          "timestamp": 1704067200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "name": "NSF-ECCS",
+        "award": [
+          "2238388"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2238388"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000185",
+        "name": "DARPA",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "HR00112220038"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "HR00112220038"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000185",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Control Syst. Lett."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.1109/lcsys.2024.3517457",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          24
+        ]
+      ],
+      "date-time": "2024-12-24T19:34:05Z",
+      "timestamp": 1735068845000
+    },
+    "page": "2847-2852",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Modeling Epidemic Spread: A Gaussian Process Regression Approach"
+    ],
+    "prefix": "10.1109",
+    "volume": "8",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1504-1967",
+        "authenticated-orcid": false,
+        "given": "Baike",
+        "family": "She",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6349-5774",
+        "authenticated-orcid": false,
+        "given": "Lei",
+        "family": "Xin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, The Chinese University of Hong Kong, Hong Kong, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4095-7320",
+        "authenticated-orcid": false,
+        "given": "Philip E.",
+        "family": "Paré",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Elmore Family School of Electrical and Computer Engineering, Purdue University, West Lafayette, IN, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3991-1680",
+        "authenticated-orcid": false,
+        "given": "Matthew",
+        "family": "Hale",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref1",
+        "DOI": "10.1038/s41591-020-0883-7"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref2",
+        "DOI": "10.1098/rstb.2010.0387"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref3",
+        "DOI": "10.23919/ACC53348.2022.9867851"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref4",
+        "DOI": "10.1109/CDC51059.2022.9992412"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref5",
+        "DOI": "10.1609/aaai.v30i1.9899"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref6",
+        "DOI": "10.1016/j.chaos.2020.109924"
+      },
+      {
+        "key": "ref7",
+        "first-page": "11671",
+        "article-title": "Influenza forecasting framework based on Gaussian processes",
+        "volume-title": "Proc. 37th Int. Conf. Mach. Learn.",
+        "author": "Zimmer"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref8",
+        "DOI": "10.2991/jegh.k.210108.001"
+      },
+      {
+        "key": "ref9",
+        "volume-title": "Gaussian Processes for Machine Learning",
+        "volume": "2",
+        "author": "Williams",
+        "year": "2006"
+      },
+      {
+        "key": "ref10",
+        "first-page": "299",
+        "article-title": "Classes of kernels for machine learning: A statistics perspective",
+        "volume": "2",
+        "author": "Genton",
+        "year": "2001",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref11",
+        "DOI": "10.1093/jrsssa/qnad030"
+      },
+      {
+        "volume-title": "Mathematical Statistics",
+        "year": "2008",
+        "author": "Shao",
+        "key": "ref12"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref13",
+        "DOI": "10.2307/2684406"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref14",
+        "DOI": "10.1136/bmj.312.7039.1153"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref15",
+        "DOI": "10.1371/journal.pcbi.1011393"
+      },
+      {
+        "volume-title": "EpiNow2: Estimate real-time case counts and time-varying epidemiological parameters",
+        "year": "2020",
+        "author": "Abbott",
+        "key": "ref16"
+      },
+      {
+        "key": "ref17",
+        "article-title": "Modeling epidemic spread: A gaussian process regression approach",
+        "author": "She",
+        "year": "2024",
+        "journal-title": "arXiv:2312.09384"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref18",
+        "DOI": "10.1016/j.idm.2017.06.002"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "ref19",
+        "DOI": "10.12688/wellcomeopenres.16006.2"
+      },
+      {
+        "volume-title": "Coronavirus pandemic (COVID-19): Our world in data",
+        "year": "2020",
+        "author": "Mathieu",
+        "key": "ref20"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Uniform error and posterior variance bounds for Gaussian process regression with application to safe control",
+        "author": "Lederer",
+        "year": "2021",
+        "journal-title": "arXiv:2101.05328"
+      },
+      {
+        "key": "ref22",
+        "first-page": "1",
+        "article-title": "Uniform error bounds for Gaussian process regression with application to safe control",
+        "volume-title": "Proc. 33rd NeurIPS",
+        "author": "Lederer"
+      }
+    ],
+    "container-title": [
+      "IEEE Control Systems Letters"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://ieeexplore.ieee.org/ielam/7782633/10411713/10798625-aam.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/7782633/10411713/10798625.pdf?arnumber=10798625",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          25
+        ]
+      ],
+      "date-time": "2024-12-25T06:21:08Z",
+      "timestamp": 1735107668000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10798625/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "references-count": 22,
+    "URL": "https://doi.org/10.1109/lcsys.2024.3517457",
+    "relation": {},
+    "ISSN": [
+      "2475-1456"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2475-1456"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  }
+}

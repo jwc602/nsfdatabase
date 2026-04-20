@@ -1,0 +1,3331 @@
+{
+  "doi": "10.1364/boe.514079",
+  "openalex": {
+    "id": "https://openalex.org/W4392164078",
+    "doi": "https://doi.org/10.1364/boe.514079",
+    "title": "Optical coherence tomography for multicellular tumor spheroid category recognition and drug screening classification via multi-spatial-superficial-parameter and machine learning",
+    "display_name": "Optical coherence tomography for multicellular tumor spheroid category recognition and drug screening classification via multi-spatial-superficial-parameter and machine learning",
+    "publication_year": 2024,
+    "publication_date": "2024-02-26",
+    "ids": {
+      "openalex": "https://openalex.org/W4392164078",
+      "doi": "https://doi.org/10.1364/boe.514079",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38633082"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1364/boe.514079",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1364/boe.514079",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S104118869",
+        "display_name": "Biomedical Optics Express",
+        "issn_l": "2156-7085",
+        "issn": [
+          "2156-7085"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315679",
+        "host_organization_name": "Optica Publishing Group",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315679"
+        ],
+        "host_organization_lineage_names": [
+          "Optica Publishing Group"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Biomedical Optics Express",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1364/boe.514079",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5056678232",
+          "display_name": "Feng Yan",
+          "orcid": "https://orcid.org/0000-0001-9926-7554"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8692664",
+            "display_name": "University of Oklahoma",
+            "ror": "https://ror.org/02aqsxs83",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Feng Yan",
+        "raw_affiliation_strings": [
+          "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5057085095",
+          "display_name": "Bornface M. Mutembei",
+          "orcid": "https://orcid.org/0000-0002-6775-9228"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8692664",
+            "display_name": "University of Oklahoma",
+            "ror": "https://ror.org/02aqsxs83",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bornface Mutembei",
+        "raw_affiliation_strings": [
+          "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5016362953",
+          "display_name": "Trisha I. Valerio",
+          "orcid": "https://orcid.org/0000-0002-3523-4937"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8692664",
+            "display_name": "University of Oklahoma",
+            "ror": "https://ror.org/02aqsxs83",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Trisha Valerio",
+        "raw_affiliation_strings": [
+          "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5066596868",
+          "display_name": "Gökhan Günay",
+          "orcid": "https://orcid.org/0009-0001-1090-0470"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8692664",
+            "display_name": "University of Oklahoma",
+            "ror": "https://ror.org/02aqsxs83",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Gokhan Gunay",
+        "raw_affiliation_strings": [
+          "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103923576",
+          "display_name": "Jihee Ha",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I49332381",
+            "display_name": "University of Oklahoma Health Sciences Center",
+            "ror": "https://ror.org/0457zbj98",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I49332381"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ji-Hee Ha",
+        "raw_affiliation_strings": [
+          "Department of Cell Biology, University of Oklahoma Health Sciences Center, Oklahoma City, OK 73104, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Cell Biology, University of Oklahoma Health Sciences Center, Oklahoma City, OK 73104, USA.",
+            "institution_ids": [
+              "https://openalex.org/I49332381"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003052424",
+          "display_name": "Qinghao Zhang",
+          "orcid": "https://orcid.org/0000-0001-8175-4266"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8692664",
+            "display_name": "University of Oklahoma",
+            "ror": "https://ror.org/02aqsxs83",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qinghao Zhang",
+        "raw_affiliation_strings": [
+          "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100337697",
+          "display_name": "Chen Wang",
+          "orcid": "https://orcid.org/0000-0003-4645-3227"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8692664",
+            "display_name": "University of Oklahoma",
+            "ror": "https://ror.org/02aqsxs83",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chen Wang",
+        "raw_affiliation_strings": [
+          "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5093375570",
+          "display_name": "Ebenezer Raj Selvaraj Mercyshalinie",
+          "orcid": "https://orcid.org/0000-0003-0648-9428"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8692664",
+            "display_name": "University of Oklahoma",
+            "ror": "https://ror.org/02aqsxs83",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ebenezer Raj Selvaraj Mercyshalinie",
+        "raw_affiliation_strings": [
+          "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5048647235",
+          "display_name": "Zaid A. Alhajeri",
+          "orcid": "https://orcid.org/0000-0003-2467-5590"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8692664",
+            "display_name": "University of Oklahoma",
+            "ror": "https://ror.org/02aqsxs83",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zaid A Alhajeri",
+        "raw_affiliation_strings": [
+          "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100403457",
+          "display_name": "Fan Zhang",
+          "orcid": "https://orcid.org/0000-0002-3658-9887"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Fan Zhang",
+        "raw_affiliation_strings": [
+          "Department of Radiology, School of Medicine, University of Washington, Seattle, WA 98195, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Radiology, School of Medicine, University of Washington, Seattle, WA 98195, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5077115315",
+          "display_name": "Lauren Dockery",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I49332381",
+            "display_name": "University of Oklahoma Health Sciences Center",
+            "ror": "https://ror.org/0457zbj98",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I49332381"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lauren E Dockery",
+        "raw_affiliation_strings": [
+          "Stephenson Cancer Center, University of Oklahoma Health Sciences Center, Oklahoma City, OK 73104, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stephenson Cancer Center, University of Oklahoma Health Sciences Center, Oklahoma City, OK 73104, USA.",
+            "institution_ids": [
+              "https://openalex.org/I49332381"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100461517",
+          "display_name": "Xinwei Li",
+          "orcid": "https://orcid.org/0000-0003-0555-2624"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142263535",
+            "display_name": "University of Nottingham",
+            "ror": "https://ror.org/01ee9ar58",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I142263535"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xinwei Li",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Electronic Engineering, University of Nottingham, Nottingham NG7 2RD, United Kingdom."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Electronic Engineering, University of Nottingham, Nottingham NG7 2RD, United Kingdom.",
+            "institution_ids": [
+              "https://openalex.org/I142263535"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5113022309",
+          "display_name": "Ronghao Liu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I44445938",
+            "display_name": "Shandong Jianzhu University",
+            "ror": "https://ror.org/01gbfax37",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I44445938"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ronghao Liu",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Technology, Shandong Jianzhu University, Jinan 250100, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Technology, Shandong Jianzhu University, Jinan 250100, China.",
+            "institution_ids": [
+              "https://openalex.org/I44445938"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5038606972",
+          "display_name": "Danny N. Dhanasekaran",
+          "orcid": "https://orcid.org/0000-0001-6350-8926"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I49332381",
+            "display_name": "University of Oklahoma Health Sciences Center",
+            "ror": "https://ror.org/0457zbj98",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I49332381"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Danny N Dhanasekaran",
+        "raw_affiliation_strings": [
+          "Department of Cell Biology, University of Oklahoma Health Sciences Center, Oklahoma City, OK 73104, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Cell Biology, University of Oklahoma Health Sciences Center, Oklahoma City, OK 73104, USA.",
+            "institution_ids": [
+              "https://openalex.org/I49332381"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5063147072",
+          "display_name": "Handan Acar",
+          "orcid": "https://orcid.org/0000-0001-8708-9279"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8692664",
+            "display_name": "University of Oklahoma",
+            "ror": "https://ror.org/02aqsxs83",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Handan Acar",
+        "raw_affiliation_strings": [
+          "Institute for Biomedical Engineering, Science, and Technology (IBEST), University of Oklahoma Norman, OK 73019, USA.",
+          "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Biomedical Engineering, Science, and Technology (IBEST), University of Oklahoma Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5001447073",
+          "display_name": "Wei R. Chen",
+          "orcid": "https://orcid.org/0000-0002-7133-5794"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8692664",
+            "display_name": "University of Oklahoma",
+            "ror": "https://ror.org/02aqsxs83",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wei R Chen",
+        "raw_affiliation_strings": [
+          "Institute for Biomedical Engineering, Science, and Technology (IBEST), University of Oklahoma Norman, OK 73019, USA.",
+          "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Biomedical Engineering, Science, and Technology (IBEST), University of Oklahoma Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5077567483",
+          "display_name": "Qinggong Tang",
+          "orcid": "https://orcid.org/0000-0001-9499-5384"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8692664",
+            "display_name": "University of Oklahoma",
+            "ror": "https://ror.org/02aqsxs83",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qinggong Tang",
+        "raw_affiliation_strings": [
+          "Institute for Biomedical Engineering, Science, and Technology (IBEST), University of Oklahoma Norman, OK 73019, USA.",
+          "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Biomedical Engineering, Science, and Technology (IBEST), University of Oklahoma Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Stephenson School of Biomedical Engineering, University of Oklahoma, Norman, OK 73019, USA.",
+            "institution_ids": [
+              "https://openalex.org/I8692664"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 17,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 1913,
+      "currency": "USD",
+      "value_usd": 1913
+    },
+    "apc_paid": {
+      "value": 1913,
+      "currency": "USD",
+      "value_usd": 1913
+    },
+    "fwci": 2.20515578,
+    "has_fulltext": false,
+    "cited_by_count": 6,
+    "citation_normalized_percentile": {
+      "value": 0.79762257,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 94,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "15",
+      "issue": "4",
+      "first_page": "2014",
+      "last_page": "2014"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11569",
+      "display_name": "Optical Coherence Tomography Applications",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11569",
+        "display_name": "Optical Coherence Tomography Applications",
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12859",
+        "display_name": "Cell Image Analysis Techniques",
+        "score": 0.9929999709129333,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1304",
+          "display_name": "Biophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12015",
+        "display_name": "Photoacoustic and Ultrasonic Imaging",
+        "score": 0.9868000149726868,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/optical-coherence-tomography",
+        "display_name": "Optical coherence tomography",
+        "score": 0.8136118054389954
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6642885208129883
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.6169878840446472
+      },
+      {
+        "id": "https://openalex.org/keywords/pattern-recognition",
+        "display_name": "Pattern recognition (psychology)",
+        "score": 0.5013582706451416
+      },
+      {
+        "id": "https://openalex.org/keywords/feature",
+        "display_name": "Feature (linguistics)",
+        "score": 0.452446848154068
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.34404176473617554
+      },
+      {
+        "id": "https://openalex.org/keywords/medicine",
+        "display_name": "Medicine",
+        "score": 0.18549636006355286
+      },
+      {
+        "id": "https://openalex.org/keywords/radiology",
+        "display_name": "Radiology",
+        "score": 0.1374371349811554
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2778818243",
+        "wikidata": "https://www.wikidata.org/wiki/Q899552",
+        "display_name": "Optical coherence tomography",
+        "level": 2,
+        "score": 0.8136118054389954
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6642885208129883
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.6169878840446472
+      },
+      {
+        "id": "https://openalex.org/C153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "level": 2,
+        "score": 0.5013582706451416
+      },
+      {
+        "id": "https://openalex.org/C2776401178",
+        "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+        "display_name": "Feature (linguistics)",
+        "level": 2,
+        "score": 0.452446848154068
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.34404176473617554
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.18549636006355286
+      },
+      {
+        "id": "https://openalex.org/C126838900",
+        "wikidata": "https://www.wikidata.org/wiki/Q77604",
+        "display_name": "Radiology",
+        "level": 1,
+        "score": 0.1374371349811554
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1364/boe.514079",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1364/boe.514079",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S104118869",
+          "display_name": "Biomedical Optics Express",
+          "issn_l": "2156-7085",
+          "issn": [
+            "2156-7085"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315679",
+          "host_organization_name": "Optica Publishing Group",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315679"
+          ],
+          "host_organization_lineage_names": [
+            "Optica Publishing Group"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Biomedical Optics Express",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38633082",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38633082",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Biomedical optics express",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11019711",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11019711",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Biomed Opt Express",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1364/boe.514079",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1364/boe.514079",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S104118869",
+        "display_name": "Biomedical Optics Express",
+        "issn_l": "2156-7085",
+        "issn": [
+          "2156-7085"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315679",
+        "host_organization_name": "Optica Publishing Group",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315679"
+        ],
+        "host_organization_lineage_names": [
+          "Optica Publishing Group"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Biomedical Optics Express",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.4699999988079071,
+        "display_name": "Good health and well-being",
+        "id": "https://metadata.un.org/sdg/3"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G8148087452",
+        "display_name": null,
+        "funder_award_id": "P20GM103639",
+        "funder_id": "https://openalex.org/F4320337354",
+        "funder_display_name": "National Institute of General Medical Sciences"
+      },
+      {
+        "id": "https://openalex.org/G2879480368",
+        "display_name": null,
+        "funder_award_id": "OIA-2132161",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G3005791513",
+        "display_name": null,
+        "funder_award_id": "HR23-071",
+        "funder_id": "https://openalex.org/F4320310627",
+        "funder_display_name": "Oklahoma Center for the Advancement of Science and Technology"
+      },
+      {
+        "id": "https://openalex.org/G4107278497",
+        "display_name": null,
+        "funder_award_id": "P30CA225520",
+        "funder_id": "https://openalex.org/F4320337351",
+        "funder_display_name": "National Cancer Institute"
+      },
+      {
+        "id": "https://openalex.org/G8556081200",
+        "display_name": null,
+        "funder_award_id": "IRG-19-142-01",
+        "funder_id": "https://openalex.org/F4320306095",
+        "funder_display_name": "American Cancer Society"
+      },
+      {
+        "id": "https://openalex.org/G7802280641",
+        "display_name": null,
+        "funder_award_id": "3P30CA225520",
+        "funder_id": "https://openalex.org/F4320332607",
+        "funder_display_name": "University of Oklahoma Health Sciences Center"
+      },
+      {
+        "id": "https://openalex.org/G3019118718",
+        "display_name": null,
+        "funder_award_id": "W81XWH-22-1-0415",
+        "funder_id": "https://openalex.org/F4320306078",
+        "funder_display_name": "U.S. Department of Defense"
+      },
+      {
+        "id": "https://openalex.org/G2259095546",
+        "display_name": null,
+        "funder_award_id": "2238648",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G2722729580",
+        "display_name": null,
+        "funder_award_id": "HR 23-069",
+        "funder_id": "https://openalex.org/F4320310627",
+        "funder_display_name": "Oklahoma Center for the Advancement of Science and Technology"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320306078",
+        "display_name": "U.S. Department of Defense",
+        "ror": "https://ror.org/0447fe631"
+      },
+      {
+        "id": "https://openalex.org/F4320306095",
+        "display_name": "American Cancer Society",
+        "ror": "https://ror.org/02e463172"
+      },
+      {
+        "id": "https://openalex.org/F4320310627",
+        "display_name": "Oklahoma Center for the Advancement of Science and Technology",
+        "ror": "https://ror.org/02q578v20"
+      },
+      {
+        "id": "https://openalex.org/F4320332607",
+        "display_name": "University of Oklahoma Health Sciences Center",
+        "ror": "https://ror.org/0457zbj98"
+      },
+      {
+        "id": "https://openalex.org/F4320337351",
+        "display_name": "National Cancer Institute",
+        "ror": "https://ror.org/040gcmg81"
+      },
+      {
+        "id": "https://openalex.org/F4320337354",
+        "display_name": "National Institute of General Medical Sciences",
+        "ror": "https://ror.org/04q48ey07"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 104,
+    "referenced_works": [
+      "https://openalex.org/W2043967411",
+      "https://openalex.org/W2136445803",
+      "https://openalex.org/W2088841065",
+      "https://openalex.org/W2142995639",
+      "https://openalex.org/W2560447818",
+      "https://openalex.org/W2095104577",
+      "https://openalex.org/W2042594494",
+      "https://openalex.org/W2615171435",
+      "https://openalex.org/W2160425601",
+      "https://openalex.org/W2612323044",
+      "https://openalex.org/W2163001477",
+      "https://openalex.org/W2130234889",
+      "https://openalex.org/W2045579211",
+      "https://openalex.org/W2578713527",
+      "https://openalex.org/W2038056054",
+      "https://openalex.org/W2148512402",
+      "https://openalex.org/W2756182653",
+      "https://openalex.org/W2418802570",
+      "https://openalex.org/W3163408651",
+      "https://openalex.org/W4313138453",
+      "https://openalex.org/W3171058352",
+      "https://openalex.org/W3089868200",
+      "https://openalex.org/W3201992509",
+      "https://openalex.org/W4328050544",
+      "https://openalex.org/W4211030899",
+      "https://openalex.org/W2332155194",
+      "https://openalex.org/W3003343713",
+      "https://openalex.org/W6758657058",
+      "https://openalex.org/W2025309606",
+      "https://openalex.org/W2154741421",
+      "https://openalex.org/W2086141297",
+      "https://openalex.org/W1975427503",
+      "https://openalex.org/W2098979973",
+      "https://openalex.org/W2084736506",
+      "https://openalex.org/W1935340275",
+      "https://openalex.org/W2115494557",
+      "https://openalex.org/W2130458216",
+      "https://openalex.org/W3201972326",
+      "https://openalex.org/W2115451191",
+      "https://openalex.org/W2156608310",
+      "https://openalex.org/W1597267303",
+      "https://openalex.org/W2156975318",
+      "https://openalex.org/W2136746813",
+      "https://openalex.org/W1969204684",
+      "https://openalex.org/W2899728936",
+      "https://openalex.org/W2037325418",
+      "https://openalex.org/W3109771169",
+      "https://openalex.org/W2879717022",
+      "https://openalex.org/W2896472872",
+      "https://openalex.org/W3044369529",
+      "https://openalex.org/W3138925432",
+      "https://openalex.org/W4281686306",
+      "https://openalex.org/W6791168460",
+      "https://openalex.org/W2117395697",
+      "https://openalex.org/W2076035429",
+      "https://openalex.org/W2098301610",
+      "https://openalex.org/W2139201845",
+      "https://openalex.org/W2000266578",
+      "https://openalex.org/W6687403153",
+      "https://openalex.org/W4235169531",
+      "https://openalex.org/W6920962864",
+      "https://openalex.org/W2168631000",
+      "https://openalex.org/W2105017561",
+      "https://openalex.org/W2401548349",
+      "https://openalex.org/W3134164720",
+      "https://openalex.org/W2318533023",
+      "https://openalex.org/W2898416763",
+      "https://openalex.org/W2783495684",
+      "https://openalex.org/W2159967184",
+      "https://openalex.org/W2460593466",
+      "https://openalex.org/W3008998277",
+      "https://openalex.org/W2030079187",
+      "https://openalex.org/W2520778585",
+      "https://openalex.org/W2062809449",
+      "https://openalex.org/W1982078590",
+      "https://openalex.org/W2052364863",
+      "https://openalex.org/W2630984254",
+      "https://openalex.org/W1997338647",
+      "https://openalex.org/W2139149338",
+      "https://openalex.org/W2588719249",
+      "https://openalex.org/W2033341978",
+      "https://openalex.org/W2098583836",
+      "https://openalex.org/W2162722075",
+      "https://openalex.org/W2148559158",
+      "https://openalex.org/W2146727511",
+      "https://openalex.org/W1963911542",
+      "https://openalex.org/W2803557794",
+      "https://openalex.org/W2036959910",
+      "https://openalex.org/W2600430749",
+      "https://openalex.org/W3039139208",
+      "https://openalex.org/W4360610408",
+      "https://openalex.org/W3034553879",
+      "https://openalex.org/W2899181753",
+      "https://openalex.org/W2092873805",
+      "https://openalex.org/W2404733084",
+      "https://openalex.org/W2236643502",
+      "https://openalex.org/W2052891178",
+      "https://openalex.org/W2931547116",
+      "https://openalex.org/W2789542379",
+      "https://openalex.org/W3134220141",
+      "https://openalex.org/W2559655401",
+      "https://openalex.org/W1944737251",
+      "https://openalex.org/W4392164078",
+      "https://openalex.org/W1578597258"
+    ],
+    "related_works": [
+      "https://openalex.org/W2961085424",
+      "https://openalex.org/W4306674287",
+      "https://openalex.org/W4387369504",
+      "https://openalex.org/W3046775127",
+      "https://openalex.org/W4394896187",
+      "https://openalex.org/W3170094116",
+      "https://openalex.org/W4386462264",
+      "https://openalex.org/W3107602296",
+      "https://openalex.org/W4364306694",
+      "https://openalex.org/W4312192474"
+    ],
+    "abstract_inverted_index": {
+      "Optical": [
+        0
+      ],
+      "coherence": [
+        1
+      ],
+      "tomography": [
+        2
+      ],
+      "(OCT)": [
+        3
+      ],
+      "is": [
+        4
+      ],
+      "an": [
+        5
+      ],
+      "ideal": [
+        6
+      ],
+      "imaging": [
+        7
+      ],
+      "technique": [
+        8
+      ],
+      "for": [
+        9,
+        123,
+        130
+      ],
+      "noninvasive": [
+        10
+      ],
+      "and": [
+        11,
+        41,
+        80,
+        98,
+        102,
+        109,
+        116,
+        127,
+        133
+      ],
+      "longitudinal": [
+        12
+      ],
+      "monitoring": [
+        13
+      ],
+      "of": [
+        14,
+        94,
+        100,
+        113
+      ],
+      "multicellular": [
+        15
+      ],
+      "tumor": [
+        16,
+        87
+      ],
+      "spheroids": [
+        17
+      ],
+      "(MCTS).": [
+        18
+      ],
+      "However,": [
+        19
+      ],
+      "the": [
+        20,
+        57,
+        65,
+        92
+      ],
+      "internal": [
+        21,
+        59
+      ],
+      "structure": [
+        22
+      ],
+      "features": [
+        23,
+        67
+      ],
+      "within": [
+        24,
+        56
+      ],
+      "MCTS": [
+        25,
+        58,
+        76,
+        84,
+        104,
+        134
+      ],
+      "from": [
+        26
+      ],
+      "OCT": [
+        27,
+        132
+      ],
+      "images": [
+        28
+      ],
+      "are": [
+        29
+      ],
+      "still": [
+        30
+      ],
+      "not": [
+        31
+      ],
+      "fully": [
+        32
+      ],
+      "utilized.": [
+        33
+      ],
+      "In": [
+        34
+      ],
+      "this": [
+        35
+      ],
+      "study,": [
+        36
+      ],
+      "we": [
+        37
+      ],
+      "developed": [
+        38
+      ],
+      "cross-statistical,": [
+        39
+      ],
+      "cross-screening,": [
+        40
+      ],
+      "composite-hyperparameter": [
+        42
+      ],
+      "feature": [
+        43
+      ],
+      "processing": [
+        44
+      ],
+      "methods": [
+        45
+      ],
+      "in": [
+        46,
+        135
+      ],
+      "conjunction": [
+        47
+      ],
+      "with": [
+        48,
+        69,
+        78,
+        85,
+        91,
+        111
+      ],
+      "12": [
+        49
+      ],
+      "machine": [
+        50
+      ],
+      "learning": [
+        51,
+        71
+      ],
+      "models": [
+        52,
+        72
+      ],
+      "to": [
+        53
+      ],
+      "assess": [
+        54
+      ],
+      "changes": [
+        55
+      ],
+      "structure.": [
+        60
+      ],
+      "Our": [
+        61
+      ],
+      "results": [
+        62
+      ],
+      "indicated": [
+        63
+      ],
+      "that": [
+        64
+      ],
+      "effective": [
+        66
+      ],
+      "combined": [
+        68
+      ],
+      "supervised": [
+        70
+      ],
+      "successfully": [
+        73
+      ],
+      "classify": [
+        74
+      ],
+      "OVCAR-8": [
+        75
+      ],
+      "culturing": [
+        77,
+        90
+      ],
+      "5,000": [
+        79
+      ],
+      "50,000": [
+        81
+      ],
+      "cell": [
+        82
+      ],
+      "numbers,": [
+        83
+      ],
+      "pancreatic": [
+        86
+      ],
+      "cells": [
+        88
+      ],
+      "(Panc02-H7)": [
+        89
+      ],
+      "ratio": [
+        93
+      ],
+      "0%,": [
+        95
+      ],
+      "33%,": [
+        96
+      ],
+      "50%,": [
+        97
+      ],
+      "67%": [
+        99
+      ],
+      "fibroblasts,": [
+        101
+      ],
+      "OVCAR-4": [
+        103
+      ],
+      "treated": [
+        105
+      ],
+      "by": [
+        106
+      ],
+      "2-methoxyestradiol,": [
+        107
+      ],
+      "AZD1208,": [
+        108
+      ],
+      "R-ketorolac": [
+        110
+      ],
+      "concentrations": [
+        112
+      ],
+      "1,": [
+        114
+      ],
+      "10,": [
+        115
+      ],
+      "25": [
+        117
+      ],
+      "µM.": [
+        118
+      ],
+      "This": [
+        119
+      ],
+      "approach": [
+        120
+      ],
+      "holds": [
+        121
+      ],
+      "promise": [
+        122
+      ],
+      "obtaining": [
+        124
+      ],
+      "multi-dimensional": [
+        125
+      ],
+      "physiological": [
+        126
+      ],
+      "functional": [
+        128
+      ],
+      "evaluations": [
+        129
+      ],
+      "using": [
+        131
+      ],
+      "anticancer": [
+        136
+      ],
+      "studies.": [
+        137
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          4
+        ]
+      ],
+      "date-time": "2026-01-04T16:48:22Z",
+      "timestamp": 1767545302465,
+      "version": "3.37.3"
+    },
+    "reference-count": 100,
+    "publisher": "Optica Publishing Group",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              4
+            ]
+          ],
+          "date-time": "2024-03-04T00:00:00Z",
+          "timestamp": 1709510400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.1364/OA_License_v2#VOR-OA"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              4
+            ]
+          ],
+          "date-time": "2024-03-04T00:00:00Z",
+          "timestamp": 1709510400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://opg.optica.org/policies/opg-tdm-policy.json"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000005",
+        "name": "U.S. Department of Defense",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W81XWH-22-1-0415"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W81XWH-22-1-0415"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000005",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Midwest Biomedical Accelerator Consortium",
+        "award": [
+          "MBArC"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "MBArC"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100008569",
+        "name": "Oklahoma Center for the Advancement of Science and Technology",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "HR 23-069",
+          "HR23-071"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "HR 23-069",
+              "HR23-071"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100008569",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007927",
+        "name": "University of Oklahoma Health Sciences Center",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "3P30CA225520"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "3P30CA225520"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100007927",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Oklahoma Shared Clinical and Translational Resources",
+        "award": [
+          "NIGMS U54GM104938"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NIGMS U54GM104938"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000054",
+        "name": "National Cancer Institute",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "P30CA225520"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "P30CA225520"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000054",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000057",
+        "name": "National Institute of General Medical Sciences",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "P20GM103639"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "P20GM103639"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000057",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000048",
+        "name": "American Cancer Society",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "IRG-19-142-01"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "IRG-19-142-01"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000048",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2238648",
+          "OIA-2132161"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2238648",
+              "OIA-2132161"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "National Institute of Health",
+        "award": [
+          "R01CA269897",
+          "R01DK133717"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01CA269897",
+              "R01DK133717"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "opg.optica.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Biomed. Opt. Express"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Optical coherence tomography (OCT) is an ideal imaging technique for noninvasive and longitudinal monitoring of multicellular tumor spheroids (MCTS). However, the internal structure features within MCTS from OCT images are still not fully utilized. In this study, we developed cross-statistical, cross-screening, and composite-hyperparameter feature processing methods in conjunction with 12 machine learning models to assess changes within the MCTS internal structure. Our results indicated that the effective features combined with supervised learning models successfully classify OVCAR-8 MCTS culturing with 5,000 and 50,000 cell numbers, MCTS with pancreatic tumor cells (Panc02-H7) culturing with the ratio of 0%, 33%, 50%, and 67% of fibroblasts, and OVCAR-4 MCTS treated by 2-methoxyestradiol, AZD1208, and R-ketorolac with concentrations of 1, 10, and 25 µM. This approach holds promise for obtaining multi-dimensional physiological and functional evaluations for using OCT and MCTS in anticancer studies.</jats:p>",
+    "DOI": "10.1364/boe.514079",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          26
+        ]
+      ],
+      "date-time": "2024-02-26T09:00:09Z",
+      "timestamp": 1708938009000
+    },
+    "page": "2014",
+    "update-policy": "https://doi.org/10.1364/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Optical coherence tomography for multicellular tumor spheroid category recognition and drug screening classification via multi-spatial-superficial-parameter and machine learning"
+    ],
+    "prefix": "10.1364",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9926-7554",
+        "authenticated-orcid": true,
+        "given": "Feng",
+        "family": "Yan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02aqsxs83",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Bornface",
+        "family": "Mutembei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02aqsxs83",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Trisha",
+        "family": "Valerio",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02aqsxs83",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Gokhan",
+        "family": "Gunay",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02aqsxs83",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Ji-Hee",
+        "family": "Ha",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Oklahoma Health Sciences Center"
+          }
+        ]
+      },
+      {
+        "given": "Qinghao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02aqsxs83",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4645-3227",
+        "authenticated-orcid": true,
+        "given": "Chen",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02aqsxs83",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Ebenezer Raj",
+        "family": "Selvaraj Mercyshalinie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02aqsxs83",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Zaid A.",
+        "family": "Alhajeri",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02aqsxs83",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Fan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington"
+          }
+        ]
+      },
+      {
+        "given": "Lauren E.",
+        "family": "Dockery",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Oklahoma Health Sciences Center"
+          }
+        ]
+      },
+      {
+        "given": "Xinwei",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Nottingham"
+          }
+        ]
+      },
+      {
+        "given": "Ronghao",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shandong Jianzhu University"
+          }
+        ]
+      },
+      {
+        "given": "Danny N.",
+        "family": "Dhanasekaran",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Oklahoma Health Sciences Center"
+          }
+        ]
+      },
+      {
+        "given": "Handan",
+        "family": "Acar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02aqsxs83",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Wei R.",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02aqsxs83",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9499-5384",
+        "authenticated-orcid": true,
+        "given": "Qinggong",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02aqsxs83",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "member": "285",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "boe-15-4-2014-R1",
+        "doi-asserted-by": "publisher",
+        "first-page": "778",
+        "DOI": "10.1038/nbt0897-778",
+        "volume": "15",
+        "author": "Helmlinger",
+        "year": "1997",
+        "journal-title": "Nat. Biotechnol."
+      },
+      {
+        "key": "boe-15-4-2014-R2",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1016/j.jbiotec.2010.01.012",
+        "volume": "148",
+        "author": "Hirschhaeuser",
+        "year": "2010",
+        "journal-title": "J. Biotechnol."
+      },
+      {
+        "key": "boe-15-4-2014-R3",
+        "first-page": "3639",
+        "volume": "37",
+        "author": "Yuhas",
+        "year": "1977",
+        "journal-title": "Cancer Res."
+      },
+      {
+        "key": "boe-15-4-2014-R4",
+        "doi-asserted-by": "publisher",
+        "first-page": "691",
+        "DOI": "10.4161/cc.5.7.2624",
+        "volume": "5",
+        "author": "Gottfried",
+        "year": "2006",
+        "journal-title": "Cell Cycle"
+      },
+      {
+        "key": "boe-15-4-2014-R5",
+        "doi-asserted-by": "publisher",
+        "first-page": "3910",
+        "DOI": "10.1039/C5AN00524H",
+        "volume": "140",
+        "author": "Jamieson",
+        "year": "2015",
+        "journal-title": "Analyst"
+      },
+      {
+        "key": "boe-15-4-2014-R6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1725",
+        "DOI": "10.18632/oncotarget.13857",
+        "volume": "8",
+        "author": "Däster",
+        "year": "2017",
+        "journal-title": "Oncotarget"
+      },
+      {
+        "key": "boe-15-4-2014-R7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1289",
+        "DOI": "10.1021/bp050003l",
+        "volume": "21",
+        "author": "Zhang",
+        "year": "2005",
+        "journal-title": "Biotechnol. Prog."
+      },
+      {
+        "key": "boe-15-4-2014-R8",
+        "doi-asserted-by": "publisher",
+        "first-page": "2539",
+        "DOI": "10.1096/fj.01-0360fje",
+        "volume": "15",
+        "author": "Sauer",
+        "year": "2001",
+        "journal-title": "The FASEB Journal"
+      },
+      {
+        "key": "boe-15-4-2014-R9",
+        "first-page": "389",
+        "volume": "52",
+        "author": "Walenta",
+        "year": "1990",
+        "journal-title": "European journal of cell biology"
+      },
+      {
+        "key": "boe-15-4-2014-R10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s12885-017-3319-0",
+        "volume": "17",
+        "author": "Riffle",
+        "year": "2017",
+        "journal-title": "Bmc Cancer"
+      },
+      {
+        "key": "boe-15-4-2014-R12",
+        "first-page": "3513",
+        "volume": "46",
+        "author": "Freyer",
+        "year": "1986",
+        "journal-title": "Cancer Res."
+      },
+      {
+        "key": "boe-15-4-2014-R13",
+        "doi-asserted-by": "publisher",
+        "first-page": "20131124",
+        "DOI": "10.1098/rsif.2013.1124",
+        "volume": "11",
+        "author": "Grimes",
+        "year": "2014",
+        "journal-title": "J. R. Soc. Interface."
+      },
+      {
+        "key": "boe-15-4-2014-R15",
+        "doi-asserted-by": "publisher",
+        "first-page": "4947",
+        "DOI": "10.1039/C7PY00559H",
+        "volume": "8",
+        "author": "Lazzari",
+        "year": "2017",
+        "journal-title": "Polym. Chem."
+      },
+      {
+        "key": "boe-15-4-2014-R16",
+        "doi-asserted-by": "publisher",
+        "first-page": "214",
+        "DOI": "10.2310/7290.2008.00023",
+        "volume": "7",
+        "author": "Le Roux",
+        "year": "2008",
+        "journal-title": "Mol. Imaging"
+      },
+      {
+        "key": "boe-15-4-2014-R17",
+        "doi-asserted-by": "publisher",
+        "first-page": "e153",
+        "DOI": "10.1038/mtna.2014.5",
+        "volume": "3",
+        "author": "Carver",
+        "year": "2014",
+        "journal-title": "Molecular Therapy-Nucleic Acids"
+      },
+      {
+        "key": "boe-15-4-2014-R18",
+        "doi-asserted-by": "publisher",
+        "first-page": "522",
+        "DOI": "10.1016/j.biomaterials.2015.02.126",
+        "volume": "53",
+        "author": "Zhang",
+        "year": "2015",
+        "journal-title": "Biomaterials"
+      },
+      {
+        "key": "boe-15-4-2014-R19",
+        "doi-asserted-by": "publisher",
+        "first-page": "144",
+        "DOI": "10.1002/cyto.a.23046",
+        "volume": "91",
+        "author": "Gualda",
+        "year": "2017",
+        "journal-title": "Cytometry Part A"
+      },
+      {
+        "key": "boe-15-4-2014-R20",
+        "doi-asserted-by": "publisher",
+        "first-page": "5375",
+        "DOI": "10.3390/ijms16035375",
+        "volume": "16",
+        "author": "Weber",
+        "year": "2015",
+        "journal-title": "Int. J. Mol. Sci."
+      },
+      {
+        "key": "boe-15-4-2014-R21",
+        "doi-asserted-by": "publisher",
+        "first-page": "819",
+        "DOI": "10.1517/17460441.2012.708334",
+        "volume": "7",
+        "author": "LaBarbera",
+        "year": "2012",
+        "journal-title": "Expert Opin. Drug Discovery"
+      },
+      {
+        "key": "boe-15-4-2014-R22",
+        "doi-asserted-by": "publisher",
+        "first-page": "6011",
+        "DOI": "10.1158/0008-5472.CAN-17-0821",
+        "volume": "77",
+        "author": "Huang",
+        "year": "2017",
+        "journal-title": "Cancer Res."
+      },
+      {
+        "key": "boe-15-4-2014-R23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1178",
+        "DOI": "10.1126/science.1957169",
+        "volume": "254",
+        "author": "Huang",
+        "year": "1991",
+        "journal-title": "science"
+      },
+      {
+        "key": "boe-15-4-2014-R24",
+        "doi-asserted-by": "publisher",
+        "first-page": "3352",
+        "DOI": "10.1364/BOE.425512",
+        "volume": "12",
+        "author": "Yan",
+        "year": "2021",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "boe-15-4-2014-R25",
+        "doi-asserted-by": "publisher",
+        "first-page": "1891",
+        "DOI": "10.1109/TBME.2022.3231835",
+        "volume": "70",
+        "author": "Yan",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "key": "boe-15-4-2014-R26",
+        "doi-asserted-by": "publisher",
+        "first-page": "3789",
+        "DOI": "10.1364/BOE.428197",
+        "volume": "12",
+        "author": "Gil",
+        "year": "2021",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "boe-15-4-2014-R27",
+        "doi-asserted-by": "publisher",
+        "first-page": "6231",
+        "DOI": "10.1364/BOE.404336",
+        "volume": "11",
+        "author": "Abd El-Sadek",
+        "year": "2020",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "boe-15-4-2014-R28",
+        "doi-asserted-by": "publisher",
+        "first-page": "6844",
+        "DOI": "10.1364/BOE.440444",
+        "volume": "12",
+        "author": "Abd El-Sadek",
+        "year": "2021",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "boe-15-4-2014-R29",
+        "doi-asserted-by": "publisher",
+        "first-page": "1703",
+        "DOI": "10.1364/BOE.486666",
+        "volume": "14",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "boe-15-4-2014-R30",
+        "doi-asserted-by": "publisher",
+        "first-page": "3120",
+        "DOI": "10.1364/BOE.450518",
+        "volume": "13",
+        "author": "Alzeeb",
+        "year": "2022",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "boe-15-4-2014-R31",
+        "doi-asserted-by": "publisher",
+        "first-page": "94",
+        "DOI": "10.1016/j.pharmthera.2016.03.013",
+        "volume": "163",
+        "author": "Nath",
+        "year": "2016",
+        "journal-title": "Pharmacol. Ther."
+      },
+      {
+        "key": "boe-15-4-2014-R32",
+        "doi-asserted-by": "publisher",
+        "first-page": "1327",
+        "DOI": "10.1049/iet-ipr.2019.0118",
+        "volume": "14",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "IET Image Processing"
+      },
+      {
+        "key": "boe-15-4-2014-R33",
+        "first-page": "235",
+        "article-title": "Texture analysis",
+        "author": "Tuceryan",
+        "year": "1993"
+      },
+      {
+        "key": "boe-15-4-2014-R34",
+        "doi-asserted-by": "publisher",
+        "first-page": "589",
+        "DOI": "10.1016/j.jmatprotec.2012.11.011",
+        "volume": "213",
+        "author": "Strano",
+        "year": "2013",
+        "journal-title": "J. Mater. Process. Technol."
+      },
+      {
+        "key": "boe-15-4-2014-R36",
+        "doi-asserted-by": "publisher",
+        "first-page": "532",
+        "DOI": "10.1109/TPAMI.1987.4767941",
+        "volume": "9",
+        "author": "Haralick",
+        "year": "1987",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "boe-15-4-2014-R37",
+        "doi-asserted-by": "publisher",
+        "first-page": "327",
+        "DOI": "10.1016/S0924-2716(02)00162-4",
+        "volume": "57",
+        "author": "Hay",
+        "year": "2003",
+        "journal-title": "ISPRS Journal of Photogrammetry and Remote sensing"
+      },
+      {
+        "key": "boe-15-4-2014-R38",
+        "doi-asserted-by": "publisher",
+        "first-page": "143",
+        "DOI": "10.1006/nimg.1996.0016",
+        "volume": "3",
+        "author": "McIntosh",
+        "year": "1996",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "key": "boe-15-4-2014-R39",
+        "doi-asserted-by": "publisher",
+        "first-page": "85",
+        "DOI": "10.1109/34.824822",
+        "volume": "22",
+        "author": "Duncan",
+        "year": "2000",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "boe-15-4-2014-R40",
+        "doi-asserted-by": "publisher",
+        "first-page": "468",
+        "DOI": "10.1111/j.1600-0587.2008.05512.x",
+        "volume": "32",
+        "author": "St-Louis",
+        "year": "2009",
+        "journal-title": "Ecography"
+      },
+      {
+        "key": "boe-15-4-2014-R41",
+        "doi-asserted-by": "publisher",
+        "first-page": "343",
+        "DOI": "10.1109/TGRS.1982.350453",
+        "volume": "GE20",
+        "author": "Blom",
+        "year": "1982",
+        "journal-title": "IEEE Trans. Geosci. Remote Sensing"
+      },
+      {
+        "key": "boe-15-4-2014-R42",
+        "doi-asserted-by": "publisher",
+        "first-page": "2397",
+        "DOI": "10.1109/36.789638",
+        "volume": "37",
+        "author": "Dierking",
+        "year": "1999",
+        "journal-title": "IEEE Trans. Geosci. Remote Sensing"
+      },
+      {
+        "key": "boe-15-4-2014-R43",
+        "doi-asserted-by": "publisher",
+        "first-page": "3794",
+        "DOI": "10.3390/rs13193794",
+        "volume": "13",
+        "author": "Singh",
+        "year": "2021",
+        "journal-title": "Remote Sens."
+      },
+      {
+        "key": "boe-15-4-2014-R44",
+        "doi-asserted-by": "publisher",
+        "first-page": "309",
+        "DOI": "10.1109/36.905239",
+        "volume": "39",
+        "author": "Pesaresi",
+        "year": "2001",
+        "journal-title": "IEEE Trans. Geosci. Remote Sensing"
+      },
+      {
+        "key": "boe-15-4-2014-R45",
+        "doi-asserted-by": "publisher",
+        "first-page": "848",
+        "DOI": "10.2110/jsr.2009.092",
+        "volume": "79",
+        "author": "Loucks",
+        "year": "2009",
+        "journal-title": "Journal of sedimentary research"
+      },
+      {
+        "key": "boe-15-4-2014-R46",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1002/2014RG000465",
+        "volume": "53",
+        "author": "Parsekian",
+        "year": "2015",
+        "journal-title": "Rev. Geophys."
+      },
+      {
+        "key": "boe-15-4-2014-R47",
+        "doi-asserted-by": "publisher",
+        "first-page": "820",
+        "DOI": "10.1109/LGRS.2009.2026188",
+        "volume": "6",
+        "author": "Celik",
+        "year": "2009",
+        "journal-title": "IEEE Geosci. Remote Sensing Lett."
+      },
+      {
+        "key": "boe-15-4-2014-R48",
+        "doi-asserted-by": "publisher",
+        "first-page": "570",
+        "DOI": "10.1117/1.1577575",
+        "volume": "8",
+        "author": "Gossage",
+        "year": "2003",
+        "journal-title": "J. Biomed. Opt."
+      },
+      {
+        "key": "boe-15-4-2014-R50",
+        "doi-asserted-by": "publisher",
+        "first-page": "024003",
+        "DOI": "10.1117/1.2904987",
+        "volume": "13",
+        "author": "Lingley-Papadopoulos",
+        "year": "2008",
+        "journal-title": "J. Biomed. Opt."
+      },
+      {
+        "key": "boe-15-4-2014-R51",
+        "doi-asserted-by": "publisher",
+        "first-page": "235020",
+        "DOI": "10.1088/1361-6560/aaefd2",
+        "volume": "63",
+        "author": "Sawyer",
+        "year": "2018",
+        "journal-title": "Phys. Med. Biol."
+      },
+      {
+        "key": "boe-15-4-2014-R52",
+        "doi-asserted-by": "publisher",
+        "first-page": "2821",
+        "DOI": "10.1364/BOE.2.002821",
+        "volume": "2",
+        "author": "Garcia-Allende",
+        "year": "2011",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "boe-15-4-2014-R53",
+        "doi-asserted-by": "publisher",
+        "first-page": "2140001",
+        "DOI": "10.1142/S1793545821400010",
+        "volume": "14",
+        "author": "Yang",
+        "year": "2021",
+        "journal-title": "J. Innov. Opt. Health Sci."
+      },
+      {
+        "key": "boe-15-4-2014-R54",
+        "doi-asserted-by": "publisher",
+        "first-page": "3590",
+        "DOI": "10.1364/BOE.9.003590",
+        "volume": "9",
+        "author": "Srivastava",
+        "year": "2018",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "boe-15-4-2014-R55",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1109/JSTQE.2018.2873489",
+        "volume": "25",
+        "author": "Askaruly",
+        "year": "2018",
+        "journal-title": "IEEE J. Select. Topics Quantum Electron."
+      },
+      {
+        "key": "boe-15-4-2014-R56",
+        "doi-asserted-by": "publisher",
+        "first-page": "133854",
+        "DOI": "10.1109/ACCESS.2020.3011136",
+        "volume": "8",
+        "author": "Lee",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "year": "2019",
+        "author": "Armi",
+        "key": "boe-15-4-2014-R57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1904.065"
+      },
+      {
+        "key": "boe-15-4-2014-R58",
+        "doi-asserted-by": "publisher",
+        "first-page": "2404",
+        "DOI": "10.1364/BOE.421299",
+        "volume": "12",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Biomed. Opt. Express"
+      },
+      {
+        "key": "boe-15-4-2014-R59",
+        "doi-asserted-by": "publisher",
+        "first-page": "9057",
+        "DOI": "10.1038/s41598-022-12950-7",
+        "volume": "12",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "boe-15-4-2014-R60",
+        "first-page": "116570 H",
+        "article-title": "Characterization and quantification of necrotic regions and morphology in multicellular tumor spheroids using optical coherence tomography",
+        "author": "Yan",
+        "year": "2021"
+      },
+      {
+        "key": "boe-15-4-2014-R61",
+        "doi-asserted-by": "publisher",
+        "first-page": "269",
+        "DOI": "10.1109/TSMC.1976.5408777",
+        "volume": "6",
+        "author": "Weszka",
+        "year": "1976",
+        "journal-title": "IEEE Trans. Syst., Man, Cybern."
+      },
+      {
+        "key": "boe-15-4-2014-R62",
+        "doi-asserted-by": "publisher",
+        "first-page": "701",
+        "DOI": "10.1109/34.192465",
+        "volume": "11",
+        "author": "Maragos",
+        "year": "1989",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "boe-15-4-2014-R63",
+        "doi-asserted-by": "publisher",
+        "first-page": "498",
+        "DOI": "10.1109/34.55110",
+        "volume": "12",
+        "author": "Maragos",
+        "year": "1990",
+        "journal-title": "IEEE Trans. Pattern Anal. Machine Intell."
+      },
+      {
+        "key": "boe-15-4-2014-R64",
+        "doi-asserted-by": "publisher",
+        "first-page": "110",
+        "DOI": "10.1186/1471-2105-8-110",
+        "volume": "8",
+        "author": "Hamilton",
+        "year": "2007",
+        "journal-title": "BMC Bioinformatics"
+      },
+      {
+        "key": "boe-15-4-2014-R66",
+        "article-title": "Precision-recall-gain curves: PR analysis done right",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "author": "Flach",
+        "year": "2015"
+      },
+      {
+        "key": "boe-15-4-2014-R67",
+        "doi-asserted-by": "publisher",
+        "first-page": "193",
+        "DOI": "10.1007/BF01908075",
+        "volume": "2",
+        "author": "Hubert",
+        "year": "1985",
+        "journal-title": "Journal of Classification"
+      },
+      {
+        "year": "2024",
+        "author": "Feng Yan",
+        "key": "boe-15-4-2014-R68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.6084/m9.figshare.24645459"
+      },
+      {
+        "key": "boe-15-4-2014-R69",
+        "doi-asserted-by": "publisher",
+        "first-page": "309",
+        "DOI": "10.1016/j.ccr.2012.02.022",
+        "volume": "21",
+        "author": "Hanahan",
+        "year": "2012",
+        "journal-title": "Cancer cell"
+      },
+      {
+        "key": "boe-15-4-2014-R70",
+        "doi-asserted-by": "publisher",
+        "first-page": "192",
+        "DOI": "10.1016/j.jconrel.2012.04.045",
+        "volume": "164",
+        "author": "Mehta",
+        "year": "2012",
+        "journal-title": "J. Controlled Release"
+      },
+      {
+        "key": "boe-15-4-2014-R71",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s12935-021-01853-8",
+        "volume": "21",
+        "author": "Han",
+        "year": "2021",
+        "journal-title": "Cancer Cell International"
+      },
+      {
+        "key": "boe-15-4-2014-R72",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0151089",
+        "DOI": "10.1371/journal.pone.0151089",
+        "volume": "11",
+        "author": "Chowanadisai",
+        "year": "2016",
+        "journal-title": "PloS one"
+      },
+      {
+        "key": "boe-15-4-2014-R73",
+        "doi-asserted-by": "publisher",
+        "first-page": "206",
+        "DOI": "10.1002/bit.26845",
+        "volume": "116",
+        "author": "Nunes",
+        "year": "2019",
+        "journal-title": "Biotechnol. Bioeng."
+      },
+      {
+        "key": "boe-15-4-2014-R74",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s13046-017-0654-6",
+        "volume": "37",
+        "author": "Lee",
+        "year": "2018",
+        "journal-title": "J. Exp. Clin. Cancer Res."
+      },
+      {
+        "key": "boe-15-4-2014-R75",
+        "doi-asserted-by": "publisher",
+        "first-page": "189",
+        "DOI": "10.1002/jcp.21392",
+        "volume": "216",
+        "author": "Rodríguez-Enríquez",
+        "year": "2008",
+        "journal-title": "J. Cell. Physiol."
+      },
+      {
+        "key": "boe-15-4-2014-R76",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0159013",
+        "DOI": "10.1371/journal.pone.0159013",
+        "volume": "11",
+        "author": "Jeong",
+        "year": "2016",
+        "journal-title": "PloS one"
+      },
+      {
+        "key": "boe-15-4-2014-R77",
+        "doi-asserted-by": "publisher",
+        "first-page": "e60660",
+        "DOI": "10.3791/60660",
+        "volume": "28",
+        "author": "Shao",
+        "year": "2020",
+        "journal-title": "JoVE (Journal of Visualized Experiments)"
+      },
+      {
+        "key": "boe-15-4-2014-R78",
+        "doi-asserted-by": "publisher",
+        "first-page": "1671",
+        "DOI": "10.1039/c000022a",
+        "volume": "10",
+        "author": "Liu",
+        "year": "2010",
+        "journal-title": "Lab Chip"
+      },
+      {
+        "key": "boe-15-4-2014-R79",
+        "doi-asserted-by": "publisher",
+        "first-page": "68",
+        "DOI": "10.1016/j.jconrel.2016.09.014",
+        "volume": "241",
+        "author": "Chen",
+        "year": "2016",
+        "journal-title": "J. Controlled Release"
+      },
+      {
+        "key": "boe-15-4-2014-R80",
+        "doi-asserted-by": "publisher",
+        "first-page": "392",
+        "DOI": "10.1038/nrc1877",
+        "volume": "6",
+        "author": "Kalluri",
+        "year": "2006",
+        "journal-title": "Nat. Rev. Cancer"
+      },
+      {
+        "key": "boe-15-4-2014-R81",
+        "doi-asserted-by": "publisher",
+        "first-page": "2039",
+        "DOI": "10.1021/mp200421k",
+        "volume": "8",
+        "author": "Flach",
+        "year": "2011",
+        "journal-title": "Mol. Pharmaceutics"
+      },
+      {
+        "key": "boe-15-4-2014-R82",
+        "doi-asserted-by": "publisher",
+        "first-page": "44",
+        "DOI": "10.1038/nrgastro.2011.222",
+        "volume": "9",
+        "author": "Sirica",
+        "year": "2012",
+        "journal-title": "Nat. Rev. Gastroenterol. Hepatol."
+      },
+      {
+        "key": "boe-15-4-2014-R83",
+        "doi-asserted-by": "publisher",
+        "first-page": "578",
+        "DOI": "10.1016/j.tranon.2017.04.009",
+        "volume": "10",
+        "author": "Bolm",
+        "year": "2017",
+        "journal-title": "Translational Oncology"
+      },
+      {
+        "key": "boe-15-4-2014-R84",
+        "doi-asserted-by": "publisher",
+        "first-page": "2126",
+        "DOI": "10.1038/ncomms3126",
+        "volume": "4",
+        "author": "Domcke",
+        "year": "2013",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "boe-15-4-2014-R85",
+        "doi-asserted-by": "publisher",
+        "first-page": "165",
+        "DOI": "10.1592/phco.23.2.165.32088",
+        "volume": "23",
+        "author": "Lakhani",
+        "year": "2003",
+        "journal-title": "Pharmacotherapy"
+      },
+      {
+        "key": "boe-15-4-2014-R86",
+        "doi-asserted-by": "publisher",
+        "first-page": "242",
+        "DOI": "10.1016/j.phrs.2017.02.013",
+        "volume": "119",
+        "author": "Massaro",
+        "year": "2017",
+        "journal-title": "Pharmacol. Res."
+      },
+      {
+        "key": "boe-15-4-2014-R87",
+        "doi-asserted-by": "publisher",
+        "first-page": "905",
+        "DOI": "10.1182/blood-2013-04-495366",
+        "volume": "123",
+        "author": "Keeton",
+        "year": "2014",
+        "journal-title": "Blood"
+      },
+      {
+        "key": "boe-15-4-2014-R88",
+        "doi-asserted-by": "publisher",
+        "first-page": "2215",
+        "DOI": "10.1158/1535-7163.MCT-15-0419",
+        "volume": "14",
+        "author": "Guo",
+        "year": "2015",
+        "journal-title": "Mol. Cancer Ther."
+      },
+      {
+        "key": "boe-15-4-2014-R89",
+        "doi-asserted-by": "publisher",
+        "first-page": "5064",
+        "DOI": "10.1158/1078-0432.CCR-15-0461",
+        "volume": "21",
+        "author": "Guo",
+        "year": "2015",
+        "journal-title": "Clin. Cancer Res."
+      },
+      {
+        "key": "boe-15-4-2014-R90",
+        "doi-asserted-by": "publisher",
+        "first-page": "1925",
+        "DOI": "10.1158/1535-7163.MCT-13-0164",
+        "volume": "12",
+        "author": "Bid",
+        "year": "2013",
+        "journal-title": "Mol. Cancer Ther."
+      },
+      {
+        "key": "boe-15-4-2014-R91",
+        "doi-asserted-by": "publisher",
+        "first-page": "165",
+        "DOI": "10.2217/fon.11.143",
+        "volume": "8",
+        "author": "Mardilovich",
+        "year": "2012",
+        "journal-title": "Future Oncol."
+      },
+      {
+        "key": "boe-15-4-2014-R92",
+        "doi-asserted-by": "publisher",
+        "first-page": "625",
+        "DOI": "10.1016/j.steroids.2010.02.016",
+        "volume": "75",
+        "author": "Mueck",
+        "year": "2010",
+        "journal-title": "Steroids"
+      },
+      {
+        "key": "boe-15-4-2014-R93",
+        "doi-asserted-by": "publisher",
+        "first-page": "1425",
+        "DOI": "10.1038/s41416-018-0082-1",
+        "volume": "118",
+        "author": "Cortes",
+        "year": "2018",
+        "journal-title": "Br. J. Cancer"
+      },
+      {
+        "key": "boe-15-4-2014-R94",
+        "doi-asserted-by": "publisher",
+        "first-page": "1115",
+        "DOI": "10.1002/biot.201300492",
+        "volume": "9",
+        "author": "Hickman",
+        "year": "2014",
+        "journal-title": "Biotechnol. J."
+      },
+      {
+        "key": "boe-15-4-2014-R95",
+        "doi-asserted-by": "publisher",
+        "first-page": "FSO190",
+        "DOI": "10.4155/fsoa-2017-0003",
+        "volume": "3",
+        "author": "Meijer",
+        "year": "2017",
+        "journal-title": "Future Science OA"
+      },
+      {
+        "key": "boe-15-4-2014-R96",
+        "doi-asserted-by": "publisher",
+        "first-page": "11071",
+        "DOI": "10.1038/s41598-020-67960-0",
+        "volume": "10",
+        "author": "Benning",
+        "year": "2020",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "boe-15-4-2014-R97",
+        "doi-asserted-by": "publisher",
+        "first-page": "2340034",
+        "DOI": "10.1142/S0219519423400341",
+        "volume": "23",
+        "author": "Piccinini",
+        "year": "2023",
+        "journal-title": "J. Mech. Med. Biol."
+      },
+      {
+        "key": "boe-15-4-2014-R98",
+        "doi-asserted-by": "publisher",
+        "first-page": "112",
+        "DOI": "10.1016/j.neucom.2020.06.006",
+        "volume": "411",
+        "author": "Jia",
+        "year": "2020",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "boe-15-4-2014-R99",
+        "doi-asserted-by": "publisher",
+        "first-page": "2091",
+        "DOI": "10.1109/JBHI.2018.2878878",
+        "volume": "23",
+        "author": "Meng",
+        "year": "2018",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "boe-15-4-2014-R101",
+        "doi-asserted-by": "publisher",
+        "first-page": "829",
+        "DOI": "10.3758/BF03196342",
+        "volume": "9",
+        "author": "Love",
+        "year": "2002",
+        "journal-title": "Psychonomic Bulletin & Review"
+      },
+      {
+        "key": "boe-15-4-2014-R102",
+        "doi-asserted-by": "publisher",
+        "first-page": "21421",
+        "DOI": "10.1038/srep21421",
+        "volume": "6",
+        "author": "Judée",
+        "year": "2016",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "boe-15-4-2014-R103",
+        "doi-asserted-by": "publisher",
+        "first-page": "19103",
+        "DOI": "10.1038/srep19103",
+        "volume": "6",
+        "author": "Zanoni",
+        "year": "2016",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "boe-15-4-2014-R104",
+        "doi-asserted-by": "publisher",
+        "first-page": "2471",
+        "DOI": "10.1038/nprot.2013.153",
+        "volume": "8",
+        "author": "Miyoshi",
+        "year": "2013",
+        "journal-title": "Nat. Protoc."
+      },
+      {
+        "key": "boe-15-4-2014-R105",
+        "doi-asserted-by": "publisher",
+        "first-page": "1371",
+        "DOI": "10.1021/acs.bioconjchem.9b00136",
+        "volume": "30",
+        "author": "Tchoryk",
+        "year": "2019",
+        "journal-title": "Bioconjugate Chem."
+      },
+      {
+        "key": "boe-15-4-2014-R106",
+        "doi-asserted-by": "publisher",
+        "first-page": "1702858",
+        "DOI": "10.1002/smll.201702858",
+        "volume": "14",
+        "author": "Lu",
+        "year": "2018",
+        "journal-title": "Small"
+      }
+    ],
+    "container-title": [
+      "Biomedical Optics Express"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://opg.optica.org/viewmedia.cfm?URI=boe-15-4-2014",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://opg.optica.org/viewmedia.cfm?URI=boe-15-4-2014&seq=0",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2024-08-06T19:32:00Z",
+      "timestamp": 1722972720000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://opg.optica.org/abstract.cfm?URI=boe-15-4-2014"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          4
+        ]
+      ]
+    },
+    "references-count": 100,
+    "journal-issue": {
+      "issue": "4",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1364/boe.514079",
+    "relation": {},
+    "ISSN": [
+      "2156-7085",
+      "2156-7085"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2156-7085"
+      },
+      {
+        "type": "electronic",
+        "value": "2156-7085"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Optica Publishing Group",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "https://doi.org/10.1364/BOE.514079",
+        "name": "articlelink",
+        "label": "Crossref DOI link to publisher maintained version"
+      },
+      {
+        "value": "research-article",
+        "name": "content_type",
+        "label": "Article type"
+      },
+      {
+        "value": "Screened by Similarity Check",
+        "name": "cross_check",
+        "label": "Similarity check"
+      },
+      {
+        "value": "Yes",
+        "order": 0,
+        "name": "peer_reviewed",
+        "label": "Peer reviewed",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "Single blind",
+        "order": 1,
+        "name": "review_process",
+        "label": "Review process",
+        "group": {
+          "name": "peer_review",
+          "label": "Peer review"
+        }
+      },
+      {
+        "value": "29 November 2023",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "20 February 2024",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "4 March 2024",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "© 2024 Optica Publishing Group under the terms of the Optica Open Access Publishing Agreement",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

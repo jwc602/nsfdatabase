@@ -1,0 +1,1703 @@
+{
+  "doi": "10.1177/14759217241295380",
+  "openalex": {
+    "id": "https://openalex.org/W4405796689",
+    "doi": "https://doi.org/10.1177/14759217241295380",
+    "title": "Automated damage detection for open-air and underwater navigation infrastructure using generative AI-produced training data for deep learning models",
+    "display_name": "Automated damage detection for open-air and underwater navigation infrastructure using generative AI-produced training data for deep learning models",
+    "publication_year": 2024,
+    "publication_date": "2024-12-26",
+    "ids": {
+      "openalex": "https://openalex.org/W4405796689",
+      "doi": "https://doi.org/10.1177/14759217241295380"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1177/14759217241295380",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1177/14759217241295380",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S46950560",
+        "display_name": "Structural Health Monitoring",
+        "issn_l": "1475-9217",
+        "issn": [
+          "1475-9217",
+          "1741-3168"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Structural Health Monitoring",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5087031848",
+          "display_name": "Quincy Alexander",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87303767",
+            "display_name": "U.S. Army Engineer Research and Development Center",
+            "ror": "https://ror.org/027mhn368",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1304082316",
+              "https://openalex.org/I1306490931",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I87303767"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I157725225",
+            "display_name": "University of Illinois Urbana-Champaign",
+            "ror": "https://ror.org/047426m28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Quincy G. Alexander",
+        "raw_affiliation_strings": [
+          "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA",
+          "US Army Engineer Research and Development Center, Vicksburg, MS, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "US Army Engineer Research and Development Center, Vicksburg, MS, USA",
+            "institution_ids": [
+              "https://openalex.org/I87303767"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA",
+            "institution_ids": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023232339",
+          "display_name": "Yasutaka Narazaki",
+          "orcid": "https://orcid.org/0000-0002-1680-5079"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I76130692",
+            "display_name": "Zhejiang University",
+            "ror": "https://ror.org/00a2xv884",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76130692"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I157725225",
+            "display_name": "University of Illinois Urbana-Champaign",
+            "ror": "https://ror.org/047426m28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Yasutaka Narazaki",
+        "raw_affiliation_strings": [
+          "Zhejiang University, University of Illinois Urbana-Champaign Institute, Haining, Zhejiang, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Zhejiang University, University of Illinois Urbana-Champaign Institute, Haining, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I157725225",
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5112621152",
+          "display_name": "Andrew Maxwell",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87303767",
+            "display_name": "U.S. Army Engineer Research and Development Center",
+            "ror": "https://ror.org/027mhn368",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1304082316",
+              "https://openalex.org/I1306490931",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I87303767"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Andrew Maxwell",
+        "raw_affiliation_strings": [
+          "US Army Engineer Research and Development Center, Vicksburg, MS, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "US Army Engineer Research and Development Center, Vicksburg, MS, USA",
+            "institution_ids": [
+              "https://openalex.org/I87303767"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5075455047",
+          "display_name": "S.C. Wang",
+          "orcid": "https://orcid.org/0000-0003-3724-9996"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157725225",
+            "display_name": "University of Illinois Urbana-Champaign",
+            "ror": "https://ror.org/047426m28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shengyi Wang",
+        "raw_affiliation_strings": [
+          "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA",
+            "institution_ids": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5000232588",
+          "display_name": "Billie F. Spencer",
+          "orcid": "https://orcid.org/0000-0003-0517-7908"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157725225",
+            "display_name": "University of Illinois Urbana-Champaign",
+            "ror": "https://ror.org/047426m28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Billie F. Spencer",
+        "raw_affiliation_strings": [
+          "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA",
+            "institution_ids": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5023232339"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I157725225",
+      "https://openalex.org/I76130692"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.98187933,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.71082085,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 95,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "24",
+      "issue": "4",
+      "first_page": "2177",
+      "last_page": "2192"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11606",
+      "display_name": "Infrastructure Maintenance and Monitoring",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11606",
+        "display_name": "Infrastructure Maintenance and Monitoring",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2205",
+          "display_name": "Civil and Structural Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11211",
+        "display_name": "3D Surveying and Cultural Heritage",
+        "score": 0.9966999888420105,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1907",
+          "display_name": "Geology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10534",
+        "display_name": "Structural Health Monitoring Techniques",
+        "score": 0.9861999750137329,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2205",
+          "display_name": "Civil and Structural Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7067075967788696
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.659540057182312
+      },
+      {
+        "id": "https://openalex.org/keywords/field",
+        "display_name": "Field (mathematics)",
+        "score": 0.650338888168335
+      },
+      {
+        "id": "https://openalex.org/keywords/leverage",
+        "display_name": "Leverage (statistics)",
+        "score": 0.6397045850753784
+      },
+      {
+        "id": "https://openalex.org/keywords/deep-learning",
+        "display_name": "Deep learning",
+        "score": 0.6073834896087646
+      },
+      {
+        "id": "https://openalex.org/keywords/segmentation",
+        "display_name": "Segmentation",
+        "score": 0.5100546479225159
+      },
+      {
+        "id": "https://openalex.org/keywords/intersection",
+        "display_name": "Intersection (aeronautics)",
+        "score": 0.46408864855766296
+      },
+      {
+        "id": "https://openalex.org/keywords/underwater",
+        "display_name": "Underwater",
+        "score": 0.45808425545692444
+      },
+      {
+        "id": "https://openalex.org/keywords/generative-model",
+        "display_name": "Generative model",
+        "score": 0.4423182010650635
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.43448755145072937
+      },
+      {
+        "id": "https://openalex.org/keywords/synthetic-data",
+        "display_name": "Synthetic data",
+        "score": 0.42463380098342896
+      },
+      {
+        "id": "https://openalex.org/keywords/generative-grammar",
+        "display_name": "Generative grammar",
+        "score": 0.4037307798862457
+      },
+      {
+        "id": "https://openalex.org/keywords/engineering",
+        "display_name": "Engineering",
+        "score": 0.1952514350414276
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7067075967788696
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.659540057182312
+      },
+      {
+        "id": "https://openalex.org/C9652623",
+        "wikidata": "https://www.wikidata.org/wiki/Q190109",
+        "display_name": "Field (mathematics)",
+        "level": 2,
+        "score": 0.650338888168335
+      },
+      {
+        "id": "https://openalex.org/C153083717",
+        "wikidata": "https://www.wikidata.org/wiki/Q6535263",
+        "display_name": "Leverage (statistics)",
+        "level": 2,
+        "score": 0.6397045850753784
+      },
+      {
+        "id": "https://openalex.org/C108583219",
+        "wikidata": "https://www.wikidata.org/wiki/Q197536",
+        "display_name": "Deep learning",
+        "level": 2,
+        "score": 0.6073834896087646
+      },
+      {
+        "id": "https://openalex.org/C89600930",
+        "wikidata": "https://www.wikidata.org/wiki/Q1423946",
+        "display_name": "Segmentation",
+        "level": 2,
+        "score": 0.5100546479225159
+      },
+      {
+        "id": "https://openalex.org/C64543145",
+        "wikidata": "https://www.wikidata.org/wiki/Q162942",
+        "display_name": "Intersection (aeronautics)",
+        "level": 2,
+        "score": 0.46408864855766296
+      },
+      {
+        "id": "https://openalex.org/C98083399",
+        "wikidata": "https://www.wikidata.org/wiki/Q3246517",
+        "display_name": "Underwater",
+        "level": 2,
+        "score": 0.45808425545692444
+      },
+      {
+        "id": "https://openalex.org/C167966045",
+        "wikidata": "https://www.wikidata.org/wiki/Q5532625",
+        "display_name": "Generative model",
+        "level": 3,
+        "score": 0.4423182010650635
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.43448755145072937
+      },
+      {
+        "id": "https://openalex.org/C160920958",
+        "wikidata": "https://www.wikidata.org/wiki/Q7662746",
+        "display_name": "Synthetic data",
+        "level": 2,
+        "score": 0.42463380098342896
+      },
+      {
+        "id": "https://openalex.org/C39890363",
+        "wikidata": "https://www.wikidata.org/wiki/Q36108",
+        "display_name": "Generative grammar",
+        "level": 2,
+        "score": 0.4037307798862457
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.1952514350414276
+      },
+      {
+        "id": "https://openalex.org/C202444582",
+        "wikidata": "https://www.wikidata.org/wiki/Q837863",
+        "display_name": "Pure mathematics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C146978453",
+        "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+        "display_name": "Aerospace engineering",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C111368507",
+        "wikidata": "https://www.wikidata.org/wiki/Q43518",
+        "display_name": "Oceanography",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1177/14759217241295380",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1177/14759217241295380",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S46950560",
+          "display_name": "Structural Health Monitoring",
+          "issn_l": "1475-9217",
+          "issn": [
+            "1475-9217",
+            "1741-3168"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Structural Health Monitoring",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/9",
+        "score": 0.6399999856948853,
+        "display_name": "Industry, innovation and infrastructure"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G3896443297",
+        "display_name": null,
+        "funder_award_id": "W912HZ-17-2-0024",
+        "funder_id": "https://openalex.org/F4320338258",
+        "funder_display_name": "Engineer Research and Development Center"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320338258",
+        "display_name": "Engineer Research and Development Center",
+        "ror": "https://ror.org/027mhn368"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 23,
+    "referenced_works": [
+      "https://openalex.org/W193043113",
+      "https://openalex.org/W4224307347",
+      "https://openalex.org/W2922073063",
+      "https://openalex.org/W2983863790",
+      "https://openalex.org/W4292212791",
+      "https://openalex.org/W4367553814",
+      "https://openalex.org/W2730181302",
+      "https://openalex.org/W2795045048",
+      "https://openalex.org/W2788856318",
+      "https://openalex.org/W3159583681",
+      "https://openalex.org/W4389355239",
+      "https://openalex.org/W3135367836",
+      "https://openalex.org/W2341047870",
+      "https://openalex.org/W6790978476",
+      "https://openalex.org/W3119237293",
+      "https://openalex.org/W2194775991",
+      "https://openalex.org/W4313415097",
+      "https://openalex.org/W4200470328",
+      "https://openalex.org/W4249502209",
+      "https://openalex.org/W3094609477",
+      "https://openalex.org/W3215935128",
+      "https://openalex.org/W2189021434",
+      "https://openalex.org/W1583837637"
+    ],
+    "related_works": [
+      "https://openalex.org/W4365211920",
+      "https://openalex.org/W3014948380",
+      "https://openalex.org/W4391584540",
+      "https://openalex.org/W4380551139",
+      "https://openalex.org/W4317695495",
+      "https://openalex.org/W4395044357",
+      "https://openalex.org/W4287117424",
+      "https://openalex.org/W4387506531",
+      "https://openalex.org/W2087346071",
+      "https://openalex.org/W2967848559"
+    ],
+    "abstract_inverted_index": {
+      "Research": [
+        0
+      ],
+      "has": [
+        1,
+        43
+      ],
+      "been": [
+        2
+      ],
+      "continually": [
+        3
+      ],
+      "growing": [
+        4
+      ],
+      "toward": [
+        5
+      ],
+      "the": [
+        6,
+        64,
+        76,
+        79,
+        83,
+        88,
+        156,
+        211,
+        236
+      ],
+      "development": [
+        7
+      ],
+      "of": [
+        8,
+        72,
+        78,
+        90,
+        108,
+        113,
+        122,
+        194,
+        213,
+        233
+      ],
+      "computer": [
+        9
+      ],
+      "vision-based": [
+        10
+      ],
+      "inspection": [
+        11
+      ],
+      "tools": [
+        12,
+        186
+      ],
+      "for": [
+        13,
+        100,
+        131,
+        192,
+        218
+      ],
+      "large-scale": [
+        14,
+        222
+      ],
+      "civil": [
+        15,
+        223
+      ],
+      "infrastructure;": [
+        16
+      ],
+      "however,": [
+        17
+      ],
+      "many": [
+        18
+      ],
+      "deep": [
+        19
+      ],
+      "learning": [
+        20
+      ],
+      "techniques": [
+        21
+      ],
+      "require": [
+        22
+      ],
+      "large": [
+        23
+      ],
+      "datasets": [
+        24
+      ],
+      "to": [
+        25,
+        45,
+        47,
+        51,
+        66,
+        93,
+        168,
+        171,
+        189,
+        230,
+        241
+      ],
+      "properly": [
+        26
+      ],
+      "train": [
+        27
+      ],
+      "models.": [
+        28
+      ],
+      "Collecting": [
+        29
+      ],
+      "field": [
+        30,
+        53,
+        153,
+        177
+      ],
+      "data": [
+        31,
+        50
+      ],
+      "can": [
+        32
+      ],
+      "be": [
+        33,
+        40,
+        169,
+        190,
+        228
+      ],
+      "costly": [
+        34
+      ],
+      "and": [
+        35,
+        115,
+        134,
+        141,
+        155,
+        162,
+        203
+      ],
+      "time-consuming,": [
+        36
+      ],
+      "or": [
+        37
+      ],
+      "may": [
+        38
+      ],
+      "not": [
+        39
+      ],
+      "feasible,": [
+        41
+      ],
+      "which": [
+        42
+      ],
+      "led": [
+        44
+      ],
+      "efforts": [
+        46
+      ],
+      "leverage": [
+        48
+      ],
+      "synthetic": [
+        49,
+        70,
+        97,
+        148,
+        195
+      ],
+      "supplement": [
+        52
+      ],
+      "data.": [
+        54
+      ],
+      "Recent": [
+        55
+      ],
+      "advances": [
+        56
+      ],
+      "in": [
+        57,
+        82,
+        221
+      ],
+      "text-to-image": [
+        58,
+        91,
+        183
+      ],
+      "generative": [
+        59,
+        184,
+        237
+      ],
+      "artificial": [
+        60
+      ],
+      "intelligence": [
+        61
+      ],
+      "(AI)": [
+        62
+      ],
+      "offer": [
+        63
+      ],
+      "potential": [
+        65
+      ],
+      "quickly": [
+        67
+      ],
+      "create": [
+        68,
+        94
+      ],
+      "realistic": [
+        69
+      ],
+      "images": [
+        71,
+        128,
+        149,
+        196
+      ],
+      "damaged": [
+        73
+      ],
+      "infrastructure,": [
+        74,
+        224
+      ],
+      "including": [
+        75,
+        106
+      ],
+      "complexities": [
+        77
+      ],
+      "environment": [
+        80
+      ],
+      "found": [
+        81,
+        167
+      ],
+      "field.": [
+        84
+      ],
+      "In": [
+        85
+      ],
+      "this": [
+        86,
+        225
+      ],
+      "study,": [
+        87
+      ],
+      "use": [
+        89,
+        212
+      ],
+      "generation": [
+        92,
+        193
+      ],
+      "a": [
+        95,
+        135,
+        172,
+        207,
+        231
+      ],
+      "multiclass": [
+        96
+      ],
+      "training": [
+        98
+      ],
+      "dataset": [
+        99
+      ],
+      "inland": [
+        101,
+        123
+      ],
+      "navigation": [
+        102,
+        124
+      ],
+      "infrastructure": [
+        103,
+        125
+      ],
+      "is": [
+        104
+      ],
+      "proposed,": [
+        105
+      ],
+      "damage": [
+        107,
+        219
+      ],
+      "underwater": [
+        109,
+        142
+      ],
+      "structural": [
+        110
+      ],
+      "components.": [
+        111,
+        126
+      ],
+      "Images": [
+        112
+      ],
+      "steel": [
+        114
+      ],
+      "concrete": [
+        116
+      ],
+      "were": [
+        117,
+        129,
+        187
+      ],
+      "generated": [
+        118
+      ],
+      "that": [
+        119,
+        182
+      ],
+      "are": [
+        120
+      ],
+      "representative": [
+        121
+      ],
+      "The": [
+        127,
+        144
+      ],
+      "labeled": [
+        130
+      ],
+      "semantic": [
+        132
+      ],
+      "segmentation,": [
+        133
+      ],
+      "model": [
+        136,
+        145,
+        173
+      ],
+      "was": [
+        137,
+        150,
+        166
+      ],
+      "trained": [
+        138,
+        146,
+        174
+      ],
+      "using": [
+        139,
+        147,
+        159,
+        175
+      ],
+      "open-to-air": [
+        140
+      ],
+      "scenes.": [
+        143
+      ],
+      "tested": [
+        151
+      ],
+      "against": [
+        152
+      ],
+      "images,": [
+        154
+      ],
+      "performance": [
+        157,
+        209
+      ],
+      "measured": [
+        158
+      ],
+      "recall,": [
+        160
+      ],
+      "precision,": [
+        161
+      ],
+      "intersection": [
+        163
+      ],
+      "over": [
+        164
+      ],
+      "union": [
+        165
+      ],
+      "comparable": [
+        170
+      ],
+      "only": [
+        176
+      ],
+      "images.": [
+        178,
+        215
+      ],
+      "These": [
+        179
+      ],
+      "results": [
+        180
+      ],
+      "demonstrate": [
+        181
+      ],
+      "AI": [
+        185,
+        238
+      ],
+      "shown": [
+        188
+      ],
+      "effective": [
+        191
+      ],
+      "with": [
+        197
+      ],
+      "specifically": [
+        198
+      ],
+      "defined": [
+        199
+      ],
+      "conditions,": [
+        200
+      ],
+      "saving": [
+        201
+      ],
+      "time": [
+        202
+      ],
+      "cost,": [
+        204
+      ],
+      "while": [
+        205
+      ],
+      "providing": [
+        206
+      ],
+      "similar": [
+        208
+      ],
+      "as": [
+        210,
+        235
+      ],
+      "field-collected": [
+        214
+      ],
+      "While": [
+        216
+      ],
+      "intended": [
+        217
+      ],
+      "detection": [
+        220
+      ],
+      "concept": [
+        226
+      ],
+      "could": [
+        227
+      ],
+      "expanded": [
+        229
+      ],
+      "number": [
+        232
+      ],
+      "areas": [
+        234
+      ],
+      "models": [
+        239
+      ],
+      "continue": [
+        240
+      ],
+      "improve.": [
+        242
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          27
+        ]
+      ],
+      "date-time": "2025-11-27T16:19:22Z",
+      "timestamp": 1764260362664,
+      "version": "3.41.2"
+    },
+    "reference-count": 37,
+    "publisher": "SAGE Publications",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              26
+            ]
+          ],
+          "date-time": "2025-12-26T00:00:00Z",
+          "timestamp": 1766707200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 365,
+        "URL": "http://www.sagepub.com/licence-information-for-chorus"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              26
+            ]
+          ],
+          "date-time": "2024-12-26T00:00:00Z",
+          "timestamp": 1735171200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://journals.sagepub.com/page/policies/text-and-data-mining-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006505",
+        "name": "Engineer Research and Development Center",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W912HZ-17-2-0024"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W912HZ-17-2-0024"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006505",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.sagepub.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Structural Health Monitoring"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Research has been continually growing toward the development of computer vision-based inspection tools for large-scale civil infrastructure; however, many deep learning techniques require large datasets to properly train models. Collecting field data can be costly and time-consuming, or may not be feasible, which has led to efforts to leverage synthetic data to supplement field data. Recent advances in text-to-image generative artificial intelligence (AI) offer the potential to quickly create realistic synthetic images of damaged infrastructure, including the complexities of the environment found in the field. In this study, the use of text-to-image generation to create a multiclass synthetic training dataset for inland navigation infrastructure is proposed, including damage of underwater structural components. Images of steel and concrete were generated that are representative of inland navigation infrastructure components. The images were labeled for semantic segmentation, and a model was trained using open-to-air and underwater scenes. The model trained using synthetic images was tested against field images, and the performance measured using recall, precision, and intersection over union was found to be comparable to a model trained using only field images. These results demonstrate that text-to-image generative AI tools were shown to be effective for generation of synthetic images with specifically defined conditions, saving time and cost, while providing a similar performance as the use of field-collected images. While intended for damage detection in large-scale civil infrastructure, this concept could be expanded to a number of areas as the generative AI models continue to improve.</jats:p>",
+    "DOI": "10.1177/14759217241295380",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          26
+        ]
+      ],
+      "date-time": "2024-12-26T11:35:35Z",
+      "timestamp": 1735212935000
+    },
+    "page": "2177-2192",
+    "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Automated damage detection for open-air and underwater navigation infrastructure using generative AI-produced training data for deep learning models"
+    ],
+    "prefix": "10.1177",
+    "volume": "24",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3370-0447",
+        "authenticated-orcid": false,
+        "given": "Quincy G.",
+        "family": "Alexander",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "US Army Engineer Research and Development Center, Vicksburg, MS, USA"
+          },
+          {
+            "name": "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1680-5079",
+        "authenticated-orcid": false,
+        "given": "Yasutaka",
+        "family": "Narazaki",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, University of Illinois Urbana-Champaign Institute, Haining, Zhejiang, China"
+          }
+        ]
+      },
+      {
+        "given": "Andrew",
+        "family": "Maxwell",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "US Army Engineer Research and Development Center, Vicksburg, MS, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3724-9996",
+        "authenticated-orcid": false,
+        "given": "Shengyi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA"
+          }
+        ]
+      },
+      {
+        "suffix": "Jr.",
+        "given": "Billie F.",
+        "family": "Spencer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Civil and Environmental Engineering, University of Illinois Urbana-Champaign, Urbana, IL, USA"
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_2_2_2",
+        "unstructured": "Bureau of Reclamation; U.S. Army Corps of Engineers. EP 25-1-117. State of the Infrastructure: A Joint Report by the Bureau of Reclamation and the U.S. Army Corps of Engineers. CECW-CO 2019."
+      },
+      {
+        "key": "e_1_3_2_3_2",
+        "unstructured": "Institute for Water Resources. Value to the nation fast facts. Washington D.C.: U.S. Army Corps of Engineers 2020."
+      },
+      {
+        "key": "e_1_3_2_4_2",
+        "unstructured": "Waterways Council Inc. Waterways system [Internet] https://www.waterwayscouncil.org/waterways-system (accessed 18 Nov 2023)."
+      },
+      {
+        "key": "e_1_3_2_5_2",
+        "unstructured": "Grassley C. Grassley On the importance of inland waterway infrastructure [Internet] https://www.grassley.senate.gov/news/remarks/grassley-on_the-importance-of-inland-waterway-infrastructure (2021 accessed 18 Nov 2023)."
+      },
+      {
+        "key": "e_1_3_2_6_2",
+        "unstructured": "St. Paul District. Locks and dams [Internet]. USACE https://www.mvp.usace.army.mil/Missions/Navigation/Locks-Dams/ (accessed 18 Nov 2023)."
+      },
+      {
+        "key": "e_1_3_2_7_2",
+        "unstructured": "Institute for Water Resources. Value to the nation: navigation [Internet]. U.S. Army Corps of Engineers https://www.iwr.usace.army.mil/Missions/Value-to-the-Nation/Navigation/ (accessed 18 Nov 2023)."
+      },
+      {
+        "key": "e_1_3_2_8_2",
+        "unstructured": "Center for Transportation Research at The University of Tennessee and the Vanderbilt Engineering Center for Transportation and Operational Resiliency at Vanderbilt University. The Impacts of Unscheduled Lock Outages. The National Waterways Foundation and The U.S. Maritime Administration 2017."
+      },
+      {
+        "key": "e_1_3_2_9_2",
+        "volume-title": "U.S. army engineer research and development center",
+        "author": "Lever JH",
+        "year": "2007",
+        "unstructured": "Lever JH, Phetteplace GE, Weale JC. Benefits of using remotely operated vehicles to inspect USACE navigation structures. In: U.S. army engineer research and development center, Hanover, New Hampshire, 2007."
+      },
+      {
+        "key": "e_1_3_2_10_2",
+        "unstructured": "USACE (United States Army Corps of Engineers). ER regulation: Responsibility for hydraulic steel structures. ER 1110-2-8157 2009."
+      },
+      {
+        "key": "e_1_3_2_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)IS.1943-555X.0000688"
+      },
+      {
+        "key": "e_1_3_2_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.eng.2018.11.030"
+      },
+      {
+        "volume-title": "12th international workshop on structural health monitoring",
+        "author": "Narazaki Y",
+        "key": "e_1_3_2_13_2",
+        "unstructured": "Narazaki Y, Hoskere V, Spencer JB, et al. Dense 3D displacement and strain measurement framework of miter gates using computer vision. In: 12th international workshop on structural health monitoring, Palo Alto, CA, 2019."
+      },
+      {
+        "key": "e_1_3_2_14_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alexander QG Hoskere V Narazaki Y et al. Fusion of thermal and RGB images for automated deep learning based crack detection in civil infrastructure. AI Civ Eng 2022;1: 1–10.",
+        "DOI": "10.1007/s43503-022-00002-y"
+      },
+      {
+        "volume-title": "Structures congress 2023",
+        "author": "Marin-Artieda C",
+        "key": "e_1_3_2_15_2",
+        "unstructured": "Marin-Artieda C, Alexander QG, Tezcan J, et al. Towards an AI-driven platform for damage detection in civil infrastructure: understanding benefits and stakeholder needs. In: Structures congress 2023, New Orleans, LA, 2023."
+      },
+      {
+        "key": "e_1_3_2_16_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/stc.2053"
+      },
+      {
+        "volume-title": "Sensors and smart structures technologies for civil, mechanical, and aerospace systems 2018",
+        "author": "Alexander QG",
+        "key": "e_1_3_2_17_2",
+        "unstructured": "Alexander QG, Thurmer CR, Netchaev A, et al. Telemetry techniques for continuous monitoring of partially submerged large civil infrastructure. In: Sensors and smart structures technologies for civil, mechanical, and aerospace systems 2018, Denver, CO, 2018."
+      },
+      {
+        "key": "e_1_3_2_18_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.12783/shm2017/13868"
+      },
+      {
+        "key": "e_1_3_2_19_2",
+        "unstructured": "Song Z He Z Li X et al. Synthetic datasets for autonomous driving: a survey. arXiv.org. 2023; 2304.12205."
+      },
+      {
+        "key": "e_1_3_2_20_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymssp.2021.107850"
+      },
+      {
+        "key": "e_1_3_2_21_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/JBENF2.BEENG-6490"
+      },
+      {
+        "key": "e_1_3_2_22_2",
+        "unstructured": "Hawkins AJ. The Verge [Internet] https://www.theverge.com/2021/7/6/22565448/waymo-simulation-city-autonomous-vehicle-testing-virtual (2021 accessed 18 Nov 2023)."
+      },
+      {
+        "key": "e_1_3_2_23_2",
+        "unstructured": "Keen E. Gartner [Internet] https://www.gartner.com/en/newsroom/press-releases/2023-08-01-gartner-identifies-top-trends-shaping-future-of-data-science-and-machine-learning (2023 accessed 18 Nov 2023)."
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_2_24_2",
+        "first-page": "237",
+        "article-title": "Synthetic data augmentation for pixel-wise steel fatigue crack identification using fully convolutional networks",
+        "volume": "29",
+        "author": "Zhai G",
+        "year": "2022",
+        "unstructured": "Zhai G, Narazaki Y, Wang S, et al. Synthetic data augmentation for pixel-wise steel fatigue crack identification using fully convolutional networks. Smart Struct Syst 2022; 29(1): 237–250.",
+        "journal-title": "Smart Struct Syst"
+      },
+      {
+        "key": "e_1_3_2_25_2",
+        "unstructured": "Nvidia. What is Generative AI? [Internet]. Nvidia https://www.nvidia.com/en-us/glossary/data-science/generative-ai/ (accessed 9 Nov 2023)."
+      },
+      {
+        "volume-title": "International conference on machine learning",
+        "author": "Radford A",
+        "key": "e_1_3_2_26_2",
+        "unstructured": "Radford A, Kim JW, Hallacy C, et al. Learning transferable visual models from natural language supervision. In: International conference on machine learning, 2021."
+      },
+      {
+        "volume-title": "IEEE conference on computer vision and pattern recognition",
+        "author": "Qiao R",
+        "key": "e_1_3_2_27_2",
+        "unstructured": "Qiao R, Liu L, Shen C, et al. Less is more: zero-shot learning from online textual documents with noise suppression. In: IEEE conference on computer vision and pattern recognition, Las Vegas, 2016."
+      },
+      {
+        "volume-title": "Proceedings of the 38th international conference on machine learning",
+        "author": "Ramesh A",
+        "key": "e_1_3_2_28_2",
+        "unstructured": "Ramesh A, Pavlov M, Goh G, et al. Zero-shot text-to-image generation. In: Proceedings of the 38th international conference on machine learning, 2021."
+      },
+      {
+        "key": "e_1_3_2_29_2",
+        "unstructured": "Kosar V. OpenAI’s DALL-E 2 and DALL-E 1 Explained [Internet] https://www.youtube.com/watch?v=cYeH45VOI3w. Apr 22 2022 (accessed 25 Nov 2024)."
+      },
+      {
+        "key": "e_1_3_2_30_2",
+        "unstructured": "Ramesh A Dhariwal P Nichol A et al. Hierarchical text-conditional image generation with CLIP latents. ArXiv. 2022; abs/2204.06125."
+      },
+      {
+        "key": "e_1_3_2_31_2",
+        "unstructured": "DAIR.AI. The prompt engineering guide [Internet] https://www.promptingguide.ai/introduction (accessed 9 Nov 2023)."
+      },
+      {
+        "key": "e_1_3_2_32_2",
+        "unstructured": "Mehdi Y. Create images with your words – Bing Image Creator comes to the new Bing [Internet] https://blogs.microsoft.com/blog/2023/03/21/create-images-with-your-words-bing-image-creator-comes-to-the-new-bing/ (2023 accessed 9 Oct 2023)."
+      },
+      {
+        "key": "e_1_3_2_33_2",
+        "volume-title": "ACI 207.1R-96: Guide to mass concrete",
+        "author": "CI Committee 207",
+        "year": "1996",
+        "unstructured": "CI Committee 207. ACI 207.1R-96: Guide to mass concrete. Farmington Hills, MI: American Concrete Institute; 1996."
+      },
+      {
+        "key": "e_1_3_2_34_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/app11020520"
+      },
+      {
+        "key": "e_1_3_2_35_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He K Zhang X Ren S et al. Deep residual learning for image recognition. In: Computer vision and pattern recognition (CVPR) 2016.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "volume-title": "3rd ZHITU symposium on advances in civil engineering",
+        "author": "Alexander QG.",
+        "key": "e_1_3_2_36_2",
+        "unstructured": "Alexander QG. Evaluation of RGB-thermal image fusion techniques for deep-learning based damaged detection in large civil infrastructure. In: 3rd ZHITU symposium on advances in civil engineering, Tokyo, 2023."
+      },
+      {
+        "key": "e_1_3_2_37_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/app13010381"
+      },
+      {
+        "key": "e_1_3_2_38_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/met12010037"
+      }
+    ],
+    "container-title": [
+      "Structural Health Monitoring"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/14759217241295380",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/full-xml/10.1177/14759217241295380",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/14759217241295380",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://journals.sagepub.com/doi/pdf/10.1177/14759217241295380",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          4
+        ]
+      ],
+      "date-time": "2025-07-04T16:02:53Z",
+      "timestamp": 1751644973000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://journals.sagepub.com/doi/10.1177/14759217241295380"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          26
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1177/14759217241295380"
+    ],
+    "URL": "https://doi.org/10.1177/14759217241295380",
+    "relation": {},
+    "ISSN": [
+      "1475-9217",
+      "1741-3168"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1475-9217"
+      },
+      {
+        "type": "electronic",
+        "value": "1741-3168"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          26
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,2623 @@
+{
+  "doi": "10.1029/2023jd038873",
+  "openalex": {
+    "id": "https://openalex.org/W4386602346",
+    "doi": "https://doi.org/10.1029/2023jd038873",
+    "title": "Sensitivity of Burned Area and Fire Radiative Power Predictions to Containment Efforts, Fuel Density, and Fuel Moisture Using WRF‐Fire",
+    "display_name": "Sensitivity of Burned Area and Fire Radiative Power Predictions to Containment Efforts, Fuel Density, and Fuel Moisture Using WRF‐Fire",
+    "publication_year": 2023,
+    "publication_date": "2023-09-11",
+    "ids": {
+      "openalex": "https://openalex.org/W4386602346",
+      "doi": "https://doi.org/10.1029/2023jd038873"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1029/2023jd038873",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1029/2023jd038873",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210205282",
+        "display_name": "Journal of Geophysical Research Atmospheres",
+        "issn_l": "2169-897X",
+        "issn": [
+          "2169-897X",
+          "2169-8996"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Geophysical Research: Atmospheres",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1029/2023jd038873",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5020968915",
+          "display_name": "F. A. Turney",
+          "orcid": "https://orcid.org/0009-0008-2871-9435"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I161318765",
+            "display_name": "University of California, Los Angeles",
+            "ror": "https://ror.org/046rm7j60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Francis A. Turney",
+        "raw_affiliation_strings": [
+          "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Math Science Building, 520 Portola Plaza, Los Angeles, CA, 90095 USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Math Science Building, 520 Portola Plaza, Los Angeles, CA, 90095 USA",
+            "institution_ids": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5004854303",
+          "display_name": "Pablo E. Saide",
+          "orcid": "https://orcid.org/0000-0002-3879-7962"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4401200348",
+            "display_name": "Institute of the Environment",
+            "ror": "https://ror.org/02vb93k64",
+            "country_code": null,
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I153718931",
+              "https://openalex.org/I4401200348"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I161318765",
+            "display_name": "University of California, Los Angeles",
+            "ror": "https://ror.org/046rm7j60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Pablo E. Saide",
+        "raw_affiliation_strings": [
+          "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Math Science Building, 520 Portola Plaza, Los Angeles, CA, 90095 USA",
+          "University of California, Institute of the Environment and Sustainability, Los Angeles, LaKretz Hall, 619, Charles E Young Dr E #300, Los Angeles, CA, 90024 USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Math Science Building, 520 Portola Plaza, Los Angeles, CA, 90095 USA",
+            "institution_ids": [
+              "https://openalex.org/I161318765"
+            ]
+          },
+          {
+            "raw_affiliation_string": "University of California, Institute of the Environment and Sustainability, Los Angeles, LaKretz Hall, 619, Charles E Young Dr E #300, Los Angeles, CA, 90024 USA",
+            "institution_ids": [
+              "https://openalex.org/I4401200348"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5069260978",
+          "display_name": "Pedro A. Jiménez",
+          "orcid": "https://orcid.org/0000-0001-9936-1890"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210130392",
+            "display_name": "Research Applications (United States)",
+            "ror": "https://ror.org/02q2v3574",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210130392"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Pedro A. Jimenez Munoz",
+        "raw_affiliation_strings": [
+          "Research Applications Laboratory, National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305 USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Research Applications Laboratory, National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305 USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210130392"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5045239584",
+          "display_name": "Domingo Muñoz‐Esparza",
+          "orcid": "https://orcid.org/0000-0002-2943-0376"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210130392",
+            "display_name": "Research Applications (United States)",
+            "ror": "https://ror.org/02q2v3574",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210130392"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Domingo Muñoz‐Esparza",
+        "raw_affiliation_strings": [
+          "Research Applications Laboratory, National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305 USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Research Applications Laboratory, National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305 USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210130392"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5028913453",
+          "display_name": "E. J. Hyer",
+          "orcid": "https://orcid.org/0000-0001-8636-2026"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I169912796",
+            "display_name": "Grace (United States)",
+            "ror": "https://ror.org/03k4vk194",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I169912796"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1288214837",
+            "display_name": "United States Naval Research Laboratory",
+            "ror": "https://ror.org/04d23a975",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1288214837",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I175003984",
+              "https://openalex.org/I3130687028"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Edward J. Hyer",
+        "raw_affiliation_strings": [
+          "Naval Research Laboratory, 7 Grace Hooper Ave, Monterey, CA, 93943 USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Naval Research Laboratory, 7 Grace Hooper Ave, Monterey, CA, 93943 USA",
+            "institution_ids": [
+              "https://openalex.org/I1288214837",
+              "https://openalex.org/I169912796"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5029701917",
+          "display_name": "David A. Peterson",
+          "orcid": "https://orcid.org/0000-0002-9027-3779"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I169912796",
+            "display_name": "Grace (United States)",
+            "ror": "https://ror.org/03k4vk194",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I169912796"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1288214837",
+            "display_name": "United States Naval Research Laboratory",
+            "ror": "https://ror.org/04d23a975",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1288214837",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I175003984",
+              "https://openalex.org/I3130687028"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "David A. Peterson",
+        "raw_affiliation_strings": [
+          "Naval Research Laboratory, 7 Grace Hooper Ave, Monterey, CA, 93943 USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Naval Research Laboratory, 7 Grace Hooper Ave, Monterey, CA, 93943 USA",
+            "institution_ids": [
+              "https://openalex.org/I1288214837",
+              "https://openalex.org/I169912796"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5066677417",
+          "display_name": "Maria Frediani",
+          "orcid": "https://orcid.org/0000-0002-7604-9455"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210130392",
+            "display_name": "Research Applications (United States)",
+            "ror": "https://ror.org/02q2v3574",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210130392"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Maria E. Frediani",
+        "raw_affiliation_strings": [
+          "Research Applications Laboratory, National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305 USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Research Applications Laboratory, National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305 USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210130392"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019181347",
+          "display_name": "Timothy W. Juliano",
+          "orcid": "https://orcid.org/0000-0003-0417-0886"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210130392",
+            "display_name": "Research Applications (United States)",
+            "ror": "https://ror.org/02q2v3574",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210130392"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Timothy W. Juliano",
+        "raw_affiliation_strings": [
+          "Research Applications Laboratory, National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305 USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Research Applications Laboratory, National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305 USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210130392"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5082061971",
+          "display_name": "Amy DeCastro",
+          "orcid": "https://orcid.org/0000-0002-7496-6516"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210130392",
+            "display_name": "Research Applications (United States)",
+            "ror": "https://ror.org/02q2v3574",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210130392"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I188538660",
+            "display_name": "University of Colorado Boulder",
+            "ror": "https://ror.org/02ttsq026",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I188538660"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Amy L. DeCastro",
+        "raw_affiliation_strings": [
+          "Department of Geography, University of Colorado Boulder, Boulder, CO, 80309 USA",
+          "Research Applications Laboratory, National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305 USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Research Applications Laboratory, National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305 USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210130392"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Geography, University of Colorado Boulder, Boulder, CO, 80309 USA",
+            "institution_ids": [
+              "https://openalex.org/I188538660"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5084712610",
+          "display_name": "Branko Kosović",
+          "orcid": "https://orcid.org/0000-0002-1746-0746"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210130392",
+            "display_name": "Research Applications (United States)",
+            "ror": "https://ror.org/02q2v3574",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210130392"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Branko Kosović",
+        "raw_affiliation_strings": [
+          "Research Applications Laboratory, National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305 USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Research Applications Laboratory, National Center for Atmospheric Research, 1850 Table Mesa Dr, Boulder, CO, 80305 USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210130392"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5053878214",
+          "display_name": "Xinxin Ye",
+          "orcid": "https://orcid.org/0000-0001-8558-1294"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I19820366",
+            "display_name": "Chinese Academy of Sciences",
+            "ror": "https://ror.org/034t30j35",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I19820366"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210119653",
+            "display_name": "Institute of Urban Environment",
+            "ror": "https://ror.org/025gq5q04",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210119653"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I161318765",
+            "display_name": "University of California, Los Angeles",
+            "ror": "https://ror.org/046rm7j60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xinxin Ye",
+        "raw_affiliation_strings": [
+          "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Math Science Building, 520 Portola Plaza, Los Angeles, CA, 90095 USA",
+          "Institute of Urban Environment, Chinese Academy of Sciences, Xiamen, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Math Science Building, 520 Portola Plaza, Los Angeles, CA, 90095 USA",
+            "institution_ids": [
+              "https://openalex.org/I161318765"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute of Urban Environment, Chinese Academy of Sciences, Xiamen, China",
+            "institution_ids": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210119653"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5091370524",
+          "display_name": "Laura H. Thapa",
+          "orcid": "https://orcid.org/0000-0003-1811-6282"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I161318765",
+            "display_name": "University of California, Los Angeles",
+            "ror": "https://ror.org/046rm7j60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Laura H. Thapa",
+        "raw_affiliation_strings": [
+          "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Math Science Building, 520 Portola Plaza, Los Angeles, CA, 90095 USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Math Science Building, 520 Portola Plaza, Los Angeles, CA, 90095 USA",
+            "institution_ids": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 12,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5020968915"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I161318765"
+    ],
+    "apc_list": {
+      "value": 3700,
+      "currency": "USD",
+      "value_usd": 3700
+    },
+    "apc_paid": {
+      "value": 3700,
+      "currency": "USD",
+      "value_usd": 3700
+    },
+    "fwci": 1.82706307,
+    "has_fulltext": false,
+    "cited_by_count": 9,
+    "citation_normalized_percentile": {
+      "value": 0.83505596,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "128",
+      "issue": "18",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10555",
+      "display_name": "Fire effects on ecosystems",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10555",
+        "display_name": "Fire effects on ecosystems",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2306",
+          "display_name": "Global and Planetary Change"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10347",
+        "display_name": "Atmospheric aerosols and clouds",
+        "score": 0.9980999827384949,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2306",
+          "display_name": "Global and Planetary Change"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10075",
+        "display_name": "Atmospheric chemistry and aerosols",
+        "score": 0.9976999759674072,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1902",
+          "display_name": "Atmospheric Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/weather-research-and-forecasting-model",
+        "display_name": "Weather Research and Forecasting Model",
+        "score": 0.8201183080673218
+      },
+      {
+        "id": "https://openalex.org/keywords/environmental-science",
+        "display_name": "Environmental science",
+        "score": 0.7672901153564453
+      },
+      {
+        "id": "https://openalex.org/keywords/meteorology",
+        "display_name": "Meteorology",
+        "score": 0.6596770882606506
+      },
+      {
+        "id": "https://openalex.org/keywords/air-quality-index",
+        "display_name": "Air quality index",
+        "score": 0.5259566307067871
+      },
+      {
+        "id": "https://openalex.org/keywords/geostationary-orbit",
+        "display_name": "Geostationary orbit",
+        "score": 0.4951232969760895
+      },
+      {
+        "id": "https://openalex.org/keywords/geostationary-operational-environmental-satellite",
+        "display_name": "Geostationary Operational Environmental Satellite",
+        "score": 0.4792449474334717
+      },
+      {
+        "id": "https://openalex.org/keywords/smoke",
+        "display_name": "Smoke",
+        "score": 0.44657909870147705
+      },
+      {
+        "id": "https://openalex.org/keywords/satellite",
+        "display_name": "Satellite",
+        "score": 0.3437933921813965
+      },
+      {
+        "id": "https://openalex.org/keywords/atmospheric-sciences",
+        "display_name": "Atmospheric sciences",
+        "score": 0.32666486501693726
+      },
+      {
+        "id": "https://openalex.org/keywords/engineering",
+        "display_name": "Engineering",
+        "score": 0.12801846861839294
+      },
+      {
+        "id": "https://openalex.org/keywords/geography",
+        "display_name": "Geography",
+        "score": 0.10762330889701843
+      },
+      {
+        "id": "https://openalex.org/keywords/geology",
+        "display_name": "Geology",
+        "score": 0.0771736204624176
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C133204551",
+        "wikidata": "https://www.wikidata.org/wiki/Q838305",
+        "display_name": "Weather Research and Forecasting Model",
+        "level": 2,
+        "score": 0.8201183080673218
+      },
+      {
+        "id": "https://openalex.org/C39432304",
+        "wikidata": "https://www.wikidata.org/wiki/Q188847",
+        "display_name": "Environmental science",
+        "level": 0,
+        "score": 0.7672901153564453
+      },
+      {
+        "id": "https://openalex.org/C153294291",
+        "wikidata": "https://www.wikidata.org/wiki/Q25261",
+        "display_name": "Meteorology",
+        "level": 1,
+        "score": 0.6596770882606506
+      },
+      {
+        "id": "https://openalex.org/C126314574",
+        "wikidata": "https://www.wikidata.org/wiki/Q2364111",
+        "display_name": "Air quality index",
+        "level": 2,
+        "score": 0.5259566307067871
+      },
+      {
+        "id": "https://openalex.org/C16405173",
+        "wikidata": "https://www.wikidata.org/wiki/Q192316",
+        "display_name": "Geostationary orbit",
+        "level": 3,
+        "score": 0.4951232969760895
+      },
+      {
+        "id": "https://openalex.org/C104110773",
+        "wikidata": "https://www.wikidata.org/wiki/Q976688",
+        "display_name": "Geostationary Operational Environmental Satellite",
+        "level": 3,
+        "score": 0.4792449474334717
+      },
+      {
+        "id": "https://openalex.org/C58874564",
+        "wikidata": "https://www.wikidata.org/wiki/Q130768",
+        "display_name": "Smoke",
+        "level": 2,
+        "score": 0.44657909870147705
+      },
+      {
+        "id": "https://openalex.org/C19269812",
+        "wikidata": "https://www.wikidata.org/wiki/Q26540",
+        "display_name": "Satellite",
+        "level": 2,
+        "score": 0.3437933921813965
+      },
+      {
+        "id": "https://openalex.org/C91586092",
+        "wikidata": "https://www.wikidata.org/wiki/Q757520",
+        "display_name": "Atmospheric sciences",
+        "level": 1,
+        "score": 0.32666486501693726
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.12801846861839294
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.10762330889701843
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.0771736204624176
+      },
+      {
+        "id": "https://openalex.org/C146978453",
+        "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+        "display_name": "Aerospace engineering",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1029/2023jd038873",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1029/2023jd038873",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210205282",
+          "display_name": "Journal of Geophysical Research Atmospheres",
+          "issn_l": "2169-897X",
+          "issn": [
+            "2169-897X",
+            "2169-8996"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Geophysical Research: Atmospheres",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:noaa.stacks:noaa:58402",
+        "is_oa": true,
+        "landing_page_url": "https://repository.library.noaa.gov/view/noaa/58402",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4377196172",
+          "display_name": "NOAA Institutional Repository",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Journal of Geophysical Research: Atmospheres, 128(18)",
+        "raw_type": ""
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1029/2023jd038873",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1029/2023jd038873",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210205282",
+        "display_name": "Journal of Geophysical Research Atmospheres",
+        "issn_l": "2169-897X",
+        "issn": [
+          "2169-897X",
+          "2169-8996"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Geophysical Research: Atmospheres",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.6600000262260437,
+        "id": "https://metadata.un.org/sdg/7",
+        "display_name": "Affordable and clean energy"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G4663045549",
+        "display_name": null,
+        "funder_award_id": "2013461",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G1688867581",
+        "display_name": null,
+        "funder_award_id": "NA18OAR4310107",
+        "funder_id": "https://openalex.org/F4320332181",
+        "funder_display_name": "National Oceanic and Atmospheric Administration"
+      },
+      {
+        "id": "https://openalex.org/G4370823394",
+        "display_name": null,
+        "funder_award_id": "80NSSC18K0629",
+        "funder_id": "https://openalex.org/F4320306101",
+        "funder_display_name": "National Aeronautics and Space Administration"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320306101",
+        "display_name": "National Aeronautics and Space Administration",
+        "ror": "https://ror.org/027ka1x80"
+      },
+      {
+        "id": "https://openalex.org/F4320332181",
+        "display_name": "National Oceanic and Atmospheric Administration",
+        "ror": "https://ror.org/02z5nhe81"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 70,
+    "referenced_works": [
+      "https://openalex.org/W2530960585",
+      "https://openalex.org/W2771543548",
+      "https://openalex.org/W2164669728",
+      "https://openalex.org/W2019194300",
+      "https://openalex.org/W2915052705",
+      "https://openalex.org/W4212928976",
+      "https://openalex.org/W2259421489",
+      "https://openalex.org/W6939949969",
+      "https://openalex.org/W2743477743",
+      "https://openalex.org/W3209127745",
+      "https://openalex.org/W1561894209",
+      "https://openalex.org/W2107625306",
+      "https://openalex.org/W2005089486",
+      "https://openalex.org/W2025572765",
+      "https://openalex.org/W1966536410",
+      "https://openalex.org/W2479838429",
+      "https://openalex.org/W2219970510",
+      "https://openalex.org/W4281788506",
+      "https://openalex.org/W2062016161",
+      "https://openalex.org/W6968581041",
+      "https://openalex.org/W1531419578",
+      "https://openalex.org/W2133610731",
+      "https://openalex.org/W3183674228",
+      "https://openalex.org/W2004860507",
+      "https://openalex.org/W3007553539",
+      "https://openalex.org/W3000989483",
+      "https://openalex.org/W2903795452",
+      "https://openalex.org/W2727280906",
+      "https://openalex.org/W3207091168",
+      "https://openalex.org/W3212025671",
+      "https://openalex.org/W2593981396",
+      "https://openalex.org/W3133407938",
+      "https://openalex.org/W6929391654",
+      "https://openalex.org/W3129762860",
+      "https://openalex.org/W2923054461",
+      "https://openalex.org/W4297182614",
+      "https://openalex.org/W2995190772",
+      "https://openalex.org/W2962968007",
+      "https://openalex.org/W2325772454",
+      "https://openalex.org/W2109351321",
+      "https://openalex.org/W2132746224",
+      "https://openalex.org/W2991172740",
+      "https://openalex.org/W3192509510",
+      "https://openalex.org/W2791482421",
+      "https://openalex.org/W6911009841",
+      "https://openalex.org/W1985479270",
+      "https://openalex.org/W2139227591",
+      "https://openalex.org/W4226024531",
+      "https://openalex.org/W2173532158",
+      "https://openalex.org/W3188354222",
+      "https://openalex.org/W2911427408",
+      "https://openalex.org/W2154665381",
+      "https://openalex.org/W2486667815",
+      "https://openalex.org/W2982051058",
+      "https://openalex.org/W1571411223",
+      "https://openalex.org/W4377690921",
+      "https://openalex.org/W2951772479",
+      "https://openalex.org/W2045545335",
+      "https://openalex.org/W4304091777",
+      "https://openalex.org/W4393687737",
+      "https://openalex.org/W3201030965",
+      "https://openalex.org/W2152811544",
+      "https://openalex.org/W3109217670",
+      "https://openalex.org/W2087178513",
+      "https://openalex.org/W3119097982",
+      "https://openalex.org/W3156227525",
+      "https://openalex.org/W3040969682",
+      "https://openalex.org/W37217007",
+      "https://openalex.org/W2116737017",
+      "https://openalex.org/W2170611232"
+    ],
+    "related_works": [
+      "https://openalex.org/W2061883558",
+      "https://openalex.org/W2409617285",
+      "https://openalex.org/W4200237028",
+      "https://openalex.org/W2942724128",
+      "https://openalex.org/W2004883706",
+      "https://openalex.org/W2174007544",
+      "https://openalex.org/W2774780440",
+      "https://openalex.org/W2177023334",
+      "https://openalex.org/W2979720229",
+      "https://openalex.org/W3105609730"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Predicting": [
+        1
+      ],
+      "the": [
+        2,
+        44,
+        68,
+        85,
+        123,
+        143,
+        169,
+        171,
+        211,
+        232
+      ],
+      "evolution": [
+        3
+      ],
+      "of": [
+        4,
+        36,
+        81,
+        201,
+        207
+      ],
+      "burned": [
+        5,
+        37,
+        117,
+        152,
+        176
+      ],
+      "area,": [
+        6
+      ],
+      "smoke": [
+        7,
+        236
+      ],
+      "emissions,": [
+        8
+      ],
+      "and": [
+        9,
+        20,
+        39,
+        50,
+        83,
+        90,
+        164,
+        191,
+        225
+      ],
+      "energy": [
+        10
+      ],
+      "release": [
+        11
+      ],
+      "from": [
+        12,
+        43,
+        122
+      ],
+      "wildfires": [
+        13
+      ],
+      "is": [
+        14,
+        178
+      ],
+      "crucial": [
+        15
+      ],
+      "to": [
+        16,
+        78,
+        104,
+        234
+      ],
+      "air": [
+        17,
+        63
+      ],
+      "quality": [
+        18,
+        64
+      ],
+      "forecasting": [
+        19,
+        183
+      ],
+      "emergency": [
+        21
+      ],
+      "response": [
+        22
+      ],
+      "planning": [
+        23
+      ],
+      "yet": [
+        24
+      ],
+      "has": [
+        25,
+        231
+      ],
+      "long": [
+        26
+      ],
+      "posed": [
+        27
+      ],
+      "a": [
+        28,
+        79,
+        95,
+        185,
+        198
+      ],
+      "significant": [
+        29
+      ],
+      "scientific": [
+        30
+      ],
+      "challenge.": [
+        31
+      ],
+      "Here": [
+        32
+      ],
+      "we": [
+        33,
+        99
+      ],
+      "compare": [
+        34,
+        100
+      ],
+      "predictions": [
+        35
+      ],
+      "area": [
+        38,
+        118,
+        153,
+        177
+      ],
+      "fire": [
+        40,
+        55,
+        86
+      ],
+      "radiative": [
+        41
+      ],
+      "power": [
+        42
+      ],
+      "coupled": [
+        45,
+        228
+      ],
+      "weather/fire‐spread": [
+        46,
+        229
+      ],
+      "model": [
+        47
+      ],
+      "WRF‐Fire": [
+        48,
+        140,
+        195
+      ],
+      "(Weather": [
+        49
+      ],
+      "Research": [
+        51
+      ],
+      "Forecasting": [
+        52
+      ],
+      "Tool": [
+        53
+      ],
+      "with": [
+        54,
+        222
+      ],
+      "code),": [
+        56
+      ],
+      "against": [
+        57,
+        119
+      ],
+      "simpler": [
+        58
+      ],
+      "methods": [
+        59
+      ],
+      "typically": [
+        60
+      ],
+      "used": [
+        61
+      ],
+      "in": [
+        62,
+        139,
+        146,
+        173
+      ],
+      "forecasts.": [
+        65,
+        238
+      ],
+      "We": [
+        66,
+        112
+      ],
+      "choose": [
+        67
+      ],
+      "2019": [
+        69
+      ],
+      "Williams": [
+        70
+      ],
+      "Flats": [
+        71
+      ],
+      "Fire": [
+        72
+      ],
+      "as": [
+        73
+      ],
+      "our": [
+        74
+      ],
+      "test": [
+        75
+      ],
+      "case": [
+        76
+      ],
+      "due": [
+        77
+      ],
+      "wealth": [
+        80
+      ],
+      "observations": [
+        82,
+        167
+      ],
+      "ignite": [
+        84
+      ],
+      "on": [
+        87
+      ],
+      "different": [
+        88,
+        92
+      ],
+      "days": [
+        89
+      ],
+      "under": [
+        91
+      ],
+      "configurations.": [
+        93
+      ],
+      "Using": [
+        94
+      ],
+      "novel": [
+        96,
+        157
+      ],
+      "re‐gridding": [
+        97
+      ],
+      "scheme,": [
+        98
+      ],
+      "WRF‐Fire's": [
+        101,
+        115
+      ],
+      "heat": [
+        102
+      ],
+      "output": [
+        103
+      ],
+      "geostationary": [
+        105
+      ],
+      "satellite": [
+        106
+      ],
+      "data": [
+        107
+      ],
+      "at": [
+        108,
+        202
+      ],
+      "1‐hr": [
+        109
+      ],
+      "temporal": [
+        110
+      ],
+      "resolution.": [
+        111
+      ],
+      "also": [
+        113
+      ],
+      "evaluate": [
+        114
+      ],
+      "time‐resolved": [
+        116
+      ],
+      "high‐resolution": [
+        120
+      ],
+      "imaging": [
+        121
+      ],
+      "National": [
+        124
+      ],
+      "Infrared": [
+        125
+      ],
+      "Operations": [
+        126
+      ],
+      "aircraft": [
+        127
+      ],
+      "data.": [
+        128
+      ],
+      "Results": [
+        129
+      ],
+      "indicate": [
+        130
+      ],
+      "that": [
+        131,
+        221
+      ],
+      "for": [
+        132,
+        136,
+        150,
+        213
+      ],
+      "this": [
+        133
+      ],
+      "study,": [
+        134
+      ],
+      "accounting": [
+        135
+      ],
+      "containment": [
+        137,
+        158
+      ],
+      "efforts": [
+        138
+      ],
+      "simulations": [
+        141,
+        196
+      ],
+      "makes": [
+        142
+      ],
+      "biggest": [
+        144
+      ],
+      "difference": [
+        145
+      ],
+      "achieving": [
+        147
+      ],
+      "accurate": [
+        148
+      ],
+      "results": [
+        149
+      ],
+      "daily": [
+        151,
+        175
+      ],
+      "predictions.": [
+        154
+      ],
+      "When": [
+        155
+      ],
+      "incorporating": [
+        156
+      ],
+      "line": [
+        159
+      ],
+      "inputs,": [
+        160
+      ],
+      "fuel": [
+        161,
+        165,
+        215
+      ],
+      "density": [
+        162
+      ],
+      "increases,": [
+        163
+      ],
+      "moisture": [
+        166,
+        216
+      ],
+      "into": [
+        168
+      ],
+      "model,": [
+        170
+      ],
+      "error": [
+        172
+      ],
+      "average": [
+        174
+      ],
+      "30%": [
+        179
+      ],
+      "lower": [
+        180
+      ],
+      "than": [
+        181
+      ],
+      "persistence": [
+        182
+      ],
+      "over": [
+        184
+      ],
+      "5‐day": [
+        186
+      ],
+      "forecast.": [
+        187
+      ],
+      "Prescribed": [
+        188
+      ],
+      "diurnal": [
+        189
+      ],
+      "cycles": [
+        190
+      ],
+      "those": [
+        192
+      ],
+      "resolved": [
+        193
+      ],
+      "by": [
+        194
+      ],
+      "show": [
+        197
+      ],
+      "phase": [
+        199
+      ],
+      "offset": [
+        200
+      ],
+      "least": [
+        203
+      ],
+      "an": [
+        204
+      ],
+      "hour": [
+        205
+      ],
+      "ahead": [
+        206
+      ],
+      "observations,": [
+        208
+      ],
+      "likely": [
+        209
+      ],
+      "indicating": [
+        210
+      ],
+      "need": [
+        212
+      ],
+      "dynamic": [
+        214
+      ],
+      "schemes.": [
+        217
+      ],
+      "This": [
+        218
+      ],
+      "work": [
+        219
+      ],
+      "shows": [
+        220
+      ],
+      "proper": [
+        223
+      ],
+      "configuration": [
+        224
+      ],
+      "input": [
+        226
+      ],
+      "data,": [
+        227
+      ],
+      "modeling": [
+        230
+      ],
+      "potential": [
+        233
+      ],
+      "improve": [
+        235
+      ],
+      "emission": [
+        237
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 5
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          28
+        ]
+      ],
+      "date-time": "2025-08-28T12:19:43Z",
+      "timestamp": 1756383583625,
+      "version": "3.41.2"
+    },
+    "reference-count": 83,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "18",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              23
+            ]
+          ],
+          "date-time": "2023-09-23T00:00:00Z",
+          "timestamp": 1695427200000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              23
+            ]
+          ],
+          "date-time": "2023-09-23T00:00:00Z",
+          "timestamp": 1695427200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2013461"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2013461"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000192",
+        "name": "National Oceanic and Atmospheric Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NA18OAR4310107"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NA18OAR4310107"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000192",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "80NSSC18K0629"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "80NSSC18K0629"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "JGR Atmospheres"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          27
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Predicting the evolution of burned area, smoke emissions, and energy release from wildfires is crucial to air quality forecasting and emergency response planning yet has long posed a significant scientific challenge. Here we compare predictions of burned area and fire radiative power from the coupled weather/fire‐spread model WRF‐Fire (Weather and Research Forecasting Tool with fire code), against simpler methods typically used in air quality forecasts. We choose the 2019 Williams Flats Fire as our test case due to a wealth of observations and ignite the fire on different days and under different configurations. Using a novel re‐gridding scheme, we compare WRF‐Fire's heat output to geostationary satellite data at 1‐hr temporal resolution. We also evaluate WRF‐Fire's time‐resolved burned area against high‐resolution imaging from the National Infrared Operations aircraft data. Results indicate that for this study, accounting for containment efforts in WRF‐Fire simulations makes the biggest difference in achieving accurate results for daily burned area predictions. When incorporating novel containment line inputs, fuel density increases, and fuel moisture observations into the model, the error in average daily burned area is 30% lower than persistence forecasting over a 5‐day forecast. Prescribed diurnal cycles and those resolved by WRF‐Fire simulations show a phase offset of at least an hour ahead of observations, likely indicating the need for dynamic fuel moisture schemes. This work shows that with proper configuration and input data, coupled weather/fire‐spread modeling has the potential to improve smoke emission forecasts.</jats:p>",
+    "DOI": "10.1029/2023jd038873",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          11
+        ]
+      ],
+      "date-time": "2023-09-11T13:25:07Z",
+      "timestamp": 1694438707000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Sensitivity of Burned Area and Fire Radiative Power Predictions to Containment Efforts, Fuel Density, and Fuel Moisture Using WRF‐Fire"
+    ],
+    "prefix": "10.1029",
+    "volume": "128",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0008-2871-9435",
+        "authenticated-orcid": false,
+        "given": "Francis A.",
+        "family": "Turney",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Atmospheric and Oceanic Sciences University of California, Los Angeles  Los Angeles CA USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3879-7962",
+        "authenticated-orcid": false,
+        "given": "Pablo E.",
+        "family": "Saide",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Atmospheric and Oceanic Sciences University of California, Los Angeles  Los Angeles CA USA"
+          },
+          {
+            "name": "Institute of the Environment and Sustainability University of California, Los Angeles  Los Angeles CA USA"
+          }
+        ]
+      },
+      {
+        "given": "Pedro A.",
+        "family": "Jimenez Munoz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Applications Laboratory National Center for Atmospheric Research  Boulder CO USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2943-0376",
+        "authenticated-orcid": false,
+        "given": "Domingo",
+        "family": "Muñoz‐Esparza",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Applications Laboratory National Center for Atmospheric Research  Boulder CO USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8636-2026",
+        "authenticated-orcid": false,
+        "given": "Edward J.",
+        "family": "Hyer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Naval Research Laboratory  Monterey CA USA"
+          }
+        ]
+      },
+      {
+        "given": "David A.",
+        "family": "Peterson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Naval Research Laboratory  Monterey CA USA"
+          }
+        ]
+      },
+      {
+        "given": "Maria E.",
+        "family": "Frediani",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Applications Laboratory National Center for Atmospheric Research  Boulder CO USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0417-0886",
+        "authenticated-orcid": false,
+        "given": "Timothy W.",
+        "family": "Juliano",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Applications Laboratory National Center for Atmospheric Research  Boulder CO USA"
+          }
+        ]
+      },
+      {
+        "given": "Amy L.",
+        "family": "DeCastro",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Applications Laboratory National Center for Atmospheric Research  Boulder CO USA"
+          },
+          {
+            "name": "Department of Geography University of Colorado Boulder  Boulder CO USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1746-0746",
+        "authenticated-orcid": false,
+        "given": "Branko",
+        "family": "Kosović",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research Applications Laboratory National Center for Atmospheric Research  Boulder CO USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8558-1294",
+        "authenticated-orcid": false,
+        "given": "Xinxin",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Atmospheric and Oceanic Sciences University of California, Los Angeles  Los Angeles CA USA"
+          },
+          {
+            "name": "Institute of Urban Environment Chinese Academy of Sciences  Xiamen China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1811-6282",
+        "authenticated-orcid": false,
+        "given": "Laura H.",
+        "family": "Thapa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Atmospheric and Oceanic Sciences University of California, Los Angeles  Los Angeles CA USA"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1607171113"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IGARSS.2017.8127581"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/s0334270000000394"
+      },
+      {
+        "volume-title": "Aids to determining fuel models for estimating fire behavior",
+        "year": "1981",
+        "author": "Anderson H. E.",
+        "key": "e_1_2_8_5_1"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/wf12167"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/cjfr-2018-0138"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-04325-1"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/mwr-d-15-0242.1"
+      },
+      {
+        "volume-title": "AGU fall meeting",
+        "year": "2021",
+        "author": "Berman M.",
+        "key": "e_1_2_8_10_1"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Blaylock B. &Horel J.(2021).Metadata for the high resolution rapid refresh model archives[Dataset].HIVE.https://doi.org/10.7278/S5JQ0Z5B",
+        "DOI": "10.7278/S5JQ0Z5B"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Blaylock B. K. Horel J. D. &Liston S. T.(2017).Cloud archiving and data mining of high‐resolution rapid refresh forecast model output[Dataset].Computers & Geosciences 109 43–50.https://doi.org/10.1016/j.cageo.2017.08.005",
+        "DOI": "10.1016/j.cageo.2017.08.005"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "unstructured": "Byram(1959).Combustion of forest fuels.Forest fire: Control and use. Retrieved fromhttps://ci.nii.ac.jp/naid/10029316165/"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Caswell T. A. Droettboom M. Lee A. Hunter J. Firing E. Stansby D. et al. (2020).matplotlib/matplotlib v3.1.3[Software].Zenodo.https://doi.org/10.5281/zenodo.3633844",
+        "DOI": "10.5281/zenodo.3633844"
+      },
+      {
+        "volume-title": "Computing minimal surfaces via level set curvature flow",
+        "year": "1991",
+        "author": "Chopp D. L.",
+        "key": "e_1_2_8_15_1"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/wf03043"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/wf04047"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jamc-d-12-023.1"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11069-015-1640-y"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/bf00119502"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "De Moura C. A. &Kubrusly C. S.(2013).The Curant–Friedrichs–Lewy (CFL) condition.",
+        "DOI": "10.1007/978-0-8176-8394-8"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "unstructured": "Department of Interior Geological Survey and U.S. Department of Agriculture. (2016).LANDFIRE: LANDFIRE 13 fire behavior fuel models‐Anderson[Dataset]. [Online].LANDFIRE 40 Fire Behavior Fuel Models‐Scott/Burgan Elevation (2020 Last Update). Retrieved fromhttp://landfire.cr.usgs.gov/viewer/"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-662-43880-0_43"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/waf-d-21-0151.1"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4996/fireecology.1001056"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Elson P. deAndrade E. S. Lucas G. May R. Hattersley R. Campbell E. et al. (2022).SciTools/cartopy: v0.21.1[Software].Zenodo.https://doi.org/10.5281/zenodo.7430317",
+        "DOI": "10.5281/zenodo.7430317"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2737/RMRS-RP-4"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/wf11097"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/essoar.10506771.1"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2007jd008679"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tgrs.2020.2968029"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s42408-019-0062-8"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.agrformet.2018.11.038"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "unstructured": "Jimenez P. A. Brown B. Kosovic B. Cowie J. Munoz‐Esparza D. Anderson A. et al. (2018).Description and evaluation of the Colorado fire prediction system (CO‐FPS)(p.EP31B–03). Retrieved fromui.adsabs.harvard.edu"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/wf16178"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/mwr-d-21-0164.1"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/ffgc.2021.728726"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-6-1109-2013"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "unstructured": "Kosovic B.(2021).WPS‐GEO‐LocalFilter: Python scripts for local filtering of terrain heights in WPS geo_em* files created by geogrid.exe[Software].Github. Retrieved fromhttps://github.com/brankokosovic/WPS-GEO-LocalFilter"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "unstructured": "Kosović B. Jimenez P. &McCandless T.(2020).Estimation of fuel moisture content by integrating surface and satellite observations using machine learning. IGARSS 2020‐2020. Retrieved fromhttps://ieeexplore.ieee.org/abstract/document/9323134/?casa_token=Ryzhr34S48YAAAAA:ncKoFH9fH0Wp8diNdVyw_pdyCMmd409halIxweDSOHmY_JlahDu__mZIYzOlEB-8My45cfUxr7c"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Kosovic B. Massie S. McCandless T. Petzke B. Jimenez Munoz P. DeCastro A. &Siems‐Anderson A.(2019).Fuel moisture content (live and dead) over the conterminous United States. Version 1.0[Dataset].UCAR/NCAR ‐ GDEX.https://doi.org/10.5065/qt42-zd40",
+        "DOI": "10.5065/qt42-zd40"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/atmos12030302"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jamc-d-18-0185.1"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2022.113237"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2019.111600"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Li S. Jaroszynski S. Pearse S. Orf L. &Clyne J.(2019).VAPOR: A visualization package tailored to analyze simulation data in earth system science[Software].Atmosphere 10 488.https://doi.org/10.3390/atmos10090488",
+        "DOI": "10.3390/atmos10090488"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/nhessd-2-1759-2014"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mandel J. Beezley J. D. &Kochanski A. K.(2011).Coupled atmosphere‐wildland fire modeling with WRF‐Fire. arXiv [physics.ao‐ph]. Retrieved fromhttp://arxiv.org/abs/1102.1343",
+        "DOI": "10.5194/gmdd-4-497-2011"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/wf06077"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-815721-3.00008-4"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.firesaf.2021.103422"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017ms001108"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "NASA/LARC/SD/ASDC. (2020).FIREX‐AQ DC‐8 in‐situ aerosol data[Dataset].NASA Langley Atmospheric Science Data Center DAAC.https://doi.org/10.5067/ASDC/FIREXAQ_Aerosol_AircraftInSitu_DC8_Data_1",
+        "DOI": "10.5067/ASDC/FIREXAQ_Aerosol_AircraftInSitu_DC8_Data_1"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.atmosenv.2013.01.052"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.rse.2012.10.036"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/bams-d-21-0049.1"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jam2513.1"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/atmos12081014"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/mwr-d-18-0282.1"
+      },
+      {
+        "volume-title": "A mathematical model for predicting fire spread in wildland fuels",
+        "year": "1972",
+        "author": "Rothermel R. C.",
+        "key": "e_1_2_8_60_1"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.foreco.2012.11.003"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/wf15081"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/B978-0-12-814327-8.00013-5"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "unstructured": "Schroeder W. &Giglio L.(2017).Visible infrared imaging radiometer suite (VIIRS) 375 m & 750 m active fire detection data sets based on NASA VIIRS land science investigator processing system (SIPS) reprocessed data ‐version 1 product user's guide version 1.3. Retrieved fromhttps://lpdaac.usgs.gov/documents/132/VNP14_User_Guide_v1.3.pdf"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2737/RMRS-GTR-153"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shamsaei K. Juliano T. W. Roberts M. Ebrahimian H. Lareau N. P. Rowell E. &Kosovic B.(2023).The role of fuel characteristics and heat release formulations in coupled fire‐atmosphere simulation. Preprints.https://doi.org/10.20944/preprints202305.1672.v1",
+        "DOI": "10.20944/preprints202305.1672.v1"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "unstructured": "Skamarock W. C. Klemp J. B. Dudhia J. Gill D. O. Liu Z. Berner J. et al. (2019).A description of the advanced research WRF Version 4. NCAR Tech. Note NCAR/TN‐556+STR(p.145).https://doi.org/10.5065/1dfh-6p97"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jcph.1994.1155"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43247-022-00563-x"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Turney F.(2023).Williams flats WRF‐fire output contain for FMC[Dataset].Zenodo.https://doi.org/10.5281/zenodo.7693759",
+        "DOI": "10.5281/zenodo.7693759"
+      },
+      {
+        "volume-title": "Development and structure of Prometheus: The Canadian wildland fire growth simulation model information report NOR‐X‐417. (Edmonton, AB)",
+        "year": "2010",
+        "author": "Tymstra C.",
+        "key": "e_1_2_8_71_1"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1071/wf21045"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "unstructured": "Wang Q. Ihme M. Linn R. R. Chen Y.‐F. Yang V. Sha F. et al. (2022).A high‐resolution large‐eddy simulation framework for wildfire predictions using TensorFlow.arXiv [physics.flu‐dyn]. Retrieved fromhttp://arxiv.org/abs/2212.05141"
+      },
+      {
+        "key": "e_1_2_8_74_1",
+        "unstructured": "Western Regional Climate Center. (2023).RAWS USA climate archive state selection map[Dataset].Western Regional Climate Center. Retrieved fromhttps://raws.dri.edu/"
+      },
+      {
+        "key": "e_1_2_8_75_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd-4-625-2011"
+      },
+      {
+        "key": "e_1_2_8_76_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020gl090707"
+      },
+      {
+        "key": "e_1_2_8_77_1",
+        "unstructured": "Wildland Fire Interagency Data Service (WFIGS) National Interagency Fire Center (NIFC) National Wildfire Coordinating Group (NWCG) Geospatial Subcommittee. (2021).Operational data archive 2019[Dataset].Wildland Fire Interagency Data Service (WFIGS) National Interagency Fire Center (NIFC) National Wildfire Coordinating Group (NWCG) Geospatial Subcommittee. Retrieved fromhttps://data-nifc.opendata.arcgis.com/"
+      },
+      {
+        "key": "e_1_2_8_78_1",
+        "unstructured": "WPS. (2021).The official repository for the WRF Preprocessing System (WPS)[Software].Github. Retrieved fromhttps://github.com/wrf-model/WPS"
+      },
+      {
+        "key": "e_1_2_8_79_1",
+        "unstructured": "WRF. (2021).The official repository for the Weather Research and Forecasting (WRF) model[Software].Github. Retrieved fromhttps://github.com/wrf-model/WRF"
+      },
+      {
+        "key": "e_1_2_8_80_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/1520-0469(2004)061<1816:tnmitt>2.0.co;2"
+      },
+      {
+        "key": "e_1_2_8_81_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.srs.2021.100016"
+      },
+      {
+        "key": "e_1_2_8_82_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/acp-21-14427-2021"
+      },
+      {
+        "key": "e_1_2_8_83_1",
+        "unstructured": "Ye X. Saide P. E. daSilva A. Kondragunta S. Lyapustin A. Wang Y. et al. (2019).Evaluation of biomass burning smoke simulations incorporating near real‐time inversions of multi‐fire emissions over the Western U.S(p.A22A–07)."
+      },
+      {
+        "key": "e_1_2_8_84_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/fire3030029"
+      }
+    ],
+    "container-title": [
+      "Journal of Geophysical Research: Atmospheres"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023JD038873",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2023JD038873",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          10
+        ]
+      ],
+      "date-time": "2024-01-10T07:58:23Z",
+      "timestamp": 1704873503000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JD038873"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          23
+        ]
+      ]
+    },
+    "references-count": 83,
+    "journal-issue": {
+      "issue": "18",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            27
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2023JD038873"
+    ],
+    "URL": "https://doi.org/10.1029/2023jd038873",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "2169-897X",
+      "2169-8996"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2169-897X"
+      },
+      {
+        "type": "electronic",
+        "value": "2169-8996"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          23
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-03-11",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-08-31",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-09-23",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2023JD038873"
+  }
+}

@@ -1,0 +1,1780 @@
+{
+  "doi": "10.1109/tnnls.2021.3113297",
+  "openalex": {
+    "id": "https://openalex.org/W3203220801",
+    "doi": "https://doi.org/10.1109/tnnls.2021.3113297",
+    "title": "Learning Hierarchical Document Graphs From Multilevel Sentence Relations",
+    "display_name": "Learning Hierarchical Document Graphs From Multilevel Sentence Relations",
+    "publication_year": 2021,
+    "publication_date": "2021-09-30",
+    "ids": {
+      "openalex": "https://openalex.org/W3203220801",
+      "doi": "https://doi.org/10.1109/tnnls.2021.3113297",
+      "mag": "3203220801",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/34591772"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tnnls.2021.3113297",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tnnls.2021.3113297",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210175523",
+        "display_name": "IEEE Transactions on Neural Networks and Learning Systems",
+        "issn_l": "2162-237X",
+        "issn": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Neural Networks and Learning Systems",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100396885",
+          "display_name": "Hao Zhang",
+          "orcid": "https://orcid.org/0000-0002-2928-2692"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I170897317",
+            "display_name": "Duke University",
+            "ror": "https://ror.org/00py81415",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I170897317"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hao Zhang",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA",
+            "institution_ids": [
+              "https://openalex.org/I170897317"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100774764",
+          "display_name": "Chaojie Wang",
+          "orcid": "https://orcid.org/0000-0002-7644-7621"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I149594827",
+            "display_name": "Xidian University",
+            "ror": "https://ror.org/05s92vm98",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I149594827"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chaojie Wang",
+        "raw_affiliation_strings": [
+          "School of Electronic Engineering, Xidian University, Xi&#x2019;an, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electronic Engineering, Xidian University, Xi&#x2019;an, China",
+            "institution_ids": [
+              "https://openalex.org/I149594827"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5068379071",
+          "display_name": "Zhengjue Wang",
+          "orcid": "https://orcid.org/0000-0002-1846-495X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I149594827",
+            "display_name": "Xidian University",
+            "ror": "https://ror.org/05s92vm98",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I149594827"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhengjue Wang",
+        "raw_affiliation_strings": [
+          "School of Electronic Engineering, Xidian University, Xi&#x2019;an, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electronic Engineering, Xidian University, Xi&#x2019;an, China",
+            "institution_ids": [
+              "https://openalex.org/I149594827"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5052158421",
+          "display_name": "Zhibin Duan",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I149594827",
+            "display_name": "Xidian University",
+            "ror": "https://ror.org/05s92vm98",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I149594827"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhibin Duan",
+        "raw_affiliation_strings": [
+          "School of Electronic Engineering, Xidian University, Xi&#x2019;an, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electronic Engineering, Xidian University, Xi&#x2019;an, China",
+            "institution_ids": [
+              "https://openalex.org/I149594827"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100427253",
+          "display_name": "Bo Chen",
+          "orcid": "https://orcid.org/0000-0001-5151-9388"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I149594827",
+            "display_name": "Xidian University",
+            "ror": "https://ror.org/05s92vm98",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I149594827"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bo Chen",
+        "raw_affiliation_strings": [
+          "School of Electronic Engineering, Xidian University, Xi&#x2019;an, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electronic Engineering, Xidian University, Xi&#x2019;an, China",
+            "institution_ids": [
+              "https://openalex.org/I149594827"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5010394308",
+          "display_name": "Mingyuan Zhou",
+          "orcid": "https://orcid.org/0000-0002-4253-2780"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I86519309",
+            "display_name": "The University of Texas at Austin",
+            "ror": "https://ror.org/00hj54h04",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I86519309"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mingyuan Zhou",
+        "raw_affiliation_strings": [
+          "McCombs School of Business, The University of Texas at Austin, Austin, TX, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "McCombs School of Business, The University of Texas at Austin, Austin, TX, USA",
+            "institution_ids": [
+              "https://openalex.org/I86519309"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5056639842",
+          "display_name": "Ricardo Henao",
+          "orcid": "https://orcid.org/0000-0003-4980-845X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I170897317",
+            "display_name": "Duke University",
+            "ror": "https://ror.org/00py81415",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I170897317"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ricardo Henao",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA",
+            "institution_ids": [
+              "https://openalex.org/I170897317"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5016448581",
+          "display_name": "Lawrence Carin",
+          "orcid": "https://orcid.org/0000-0001-6277-7948"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I170897317",
+            "display_name": "Duke University",
+            "ror": "https://ror.org/00py81415",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I170897317"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lawrence Carin",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA",
+            "institution_ids": [
+              "https://openalex.org/I170897317"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.70551788,
+    "has_fulltext": false,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": {
+      "value": 0.76820905,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "34",
+      "issue": "8",
+      "first_page": "4273",
+      "last_page": "4285"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10028",
+      "display_name": "Topic Modeling",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10028",
+        "display_name": "Topic Modeling",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11550",
+        "display_name": "Text and Document Classification Technologies",
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13083",
+        "display_name": "Advanced Text Analysis Techniques",
+        "score": 0.9988999962806702,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7356579303741455
+      },
+      {
+        "id": "https://openalex.org/keywords/automatic-summarization",
+        "display_name": "Automatic summarization",
+        "score": 0.6551128029823303
+      },
+      {
+        "id": "https://openalex.org/keywords/sentence",
+        "display_name": "Sentence",
+        "score": 0.5746705532073975
+      },
+      {
+        "id": "https://openalex.org/keywords/inference",
+        "display_name": "Inference",
+        "score": 0.5298338532447815
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.5139536261558533
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.4844101071357727
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.43280327320098877
+      },
+      {
+        "id": "https://openalex.org/keywords/natural-language-processing",
+        "display_name": "Natural language processing",
+        "score": 0.4094218611717224
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7356579303741455
+      },
+      {
+        "id": "https://openalex.org/C170858558",
+        "wikidata": "https://www.wikidata.org/wiki/Q1394144",
+        "display_name": "Automatic summarization",
+        "level": 2,
+        "score": 0.6551128029823303
+      },
+      {
+        "id": "https://openalex.org/C2777530160",
+        "wikidata": "https://www.wikidata.org/wiki/Q41796",
+        "display_name": "Sentence",
+        "level": 2,
+        "score": 0.5746705532073975
+      },
+      {
+        "id": "https://openalex.org/C2776214188",
+        "wikidata": "https://www.wikidata.org/wiki/Q408386",
+        "display_name": "Inference",
+        "level": 2,
+        "score": 0.5298338532447815
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5139536261558533
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.4844101071357727
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.43280327320098877
+      },
+      {
+        "id": "https://openalex.org/C204321447",
+        "wikidata": "https://www.wikidata.org/wiki/Q30642",
+        "display_name": "Natural language processing",
+        "level": 1,
+        "score": 0.4094218611717224
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1109/tnnls.2021.3113297",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tnnls.2021.3113297",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210175523",
+          "display_name": "IEEE Transactions on Neural Networks and Learning Systems",
+          "issn_l": "2162-237X",
+          "issn": [
+            "2162-237X",
+            "2162-2388"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Neural Networks and Learning Systems",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:34591772",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/34591772",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE transactions on neural networks and learning systems",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "display_name": "Quality Education",
+        "score": 0.7400000095367432,
+        "id": "https://metadata.un.org/sdg/4"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G712048795",
+        "display_name": null,
+        "funder_award_id": "AI N00014-18-1-2871",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      },
+      {
+        "id": "https://openalex.org/G4008874982",
+        "display_name": null,
+        "funder_award_id": "L2M FA8650-18-2-7832",
+        "funder_id": "https://openalex.org/F4320332180",
+        "funder_display_name": "Defense Advanced Research Projects Agency"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320332180",
+        "display_name": "Defense Advanced Research Projects Agency",
+        "ror": "https://ror.org/02caytj08"
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 76,
+    "referenced_works": [
+      "https://openalex.org/W2995837271",
+      "https://openalex.org/W2788667846",
+      "https://openalex.org/W2945542139",
+      "https://openalex.org/W6779236743",
+      "https://openalex.org/W6639619044",
+      "https://openalex.org/W2970183009",
+      "https://openalex.org/W2963099470",
+      "https://openalex.org/W6755207826",
+      "https://openalex.org/W2963497309",
+      "https://openalex.org/W6727968406",
+      "https://openalex.org/W6686643169",
+      "https://openalex.org/W4252076394",
+      "https://openalex.org/W6685160515",
+      "https://openalex.org/W2136189984",
+      "https://openalex.org/W6682631176",
+      "https://openalex.org/W2539671052",
+      "https://openalex.org/W2186845332",
+      "https://openalex.org/W2962965405",
+      "https://openalex.org/W2606974598",
+      "https://openalex.org/W7015831105",
+      "https://openalex.org/W2963929190",
+      "https://openalex.org/W2286300105",
+      "https://openalex.org/W6691214321",
+      "https://openalex.org/W2970398671",
+      "https://openalex.org/W2949305207",
+      "https://openalex.org/W6713582119",
+      "https://openalex.org/W2962946486",
+      "https://openalex.org/W2907492528",
+      "https://openalex.org/W2970419734",
+      "https://openalex.org/W6761748628",
+      "https://openalex.org/W2254361154",
+      "https://openalex.org/W6638523607",
+      "https://openalex.org/W6768851824",
+      "https://openalex.org/W6763243348",
+      "https://openalex.org/W6682691769",
+      "https://openalex.org/W2963921497",
+      "https://openalex.org/W6681875376",
+      "https://openalex.org/W6726873649",
+      "https://openalex.org/W6720006811",
+      "https://openalex.org/W6632455782",
+      "https://openalex.org/W6761665040",
+      "https://openalex.org/W6779674571",
+      "https://openalex.org/W6762376794",
+      "https://openalex.org/W6757634740",
+      "https://openalex.org/W6753331806",
+      "https://openalex.org/W6747981893",
+      "https://openalex.org/W6679434410",
+      "https://openalex.org/W3035938556",
+      "https://openalex.org/W1516111018",
+      "https://openalex.org/W6739190660",
+      "https://openalex.org/W2964145825",
+      "https://openalex.org/W2951707031",
+      "https://openalex.org/W2951589572",
+      "https://openalex.org/W2529448042",
+      "https://openalex.org/W2951659295",
+      "https://openalex.org/W2951359136",
+      "https://openalex.org/W2150102617",
+      "https://openalex.org/W4231510805",
+      "https://openalex.org/W2944907601",
+      "https://openalex.org/W2949615363",
+      "https://openalex.org/W2964321699",
+      "https://openalex.org/W2939208918",
+      "https://openalex.org/W2624543814",
+      "https://openalex.org/W2939507640",
+      "https://openalex.org/W2964015378",
+      "https://openalex.org/W2787803546",
+      "https://openalex.org/W2154652894",
+      "https://openalex.org/W2896457183",
+      "https://openalex.org/W3037463126",
+      "https://openalex.org/W2978017171",
+      "https://openalex.org/W3037753363",
+      "https://openalex.org/W2133564696",
+      "https://openalex.org/W2250733885",
+      "https://openalex.org/W4297733535",
+      "https://openalex.org/W4294170691",
+      "https://openalex.org/W1821462560"
+    ],
+    "related_works": [
+      "https://openalex.org/W2366403280",
+      "https://openalex.org/W1495108544",
+      "https://openalex.org/W2091301346",
+      "https://openalex.org/W3148229873",
+      "https://openalex.org/W4389760904",
+      "https://openalex.org/W2150160875",
+      "https://openalex.org/W4242223894",
+      "https://openalex.org/W4306886878",
+      "https://openalex.org/W2973759123",
+      "https://openalex.org/W1517524280"
+    ],
+    "abstract_inverted_index": {
+      "Organizing": [
+        0
+      ],
+      "the": [
+        1,
+        16,
+        95,
+        104,
+        112,
+        120
+      ],
+      "implicit": [
+        2
+      ],
+      "topology": [
+        3
+      ],
+      "of": [
+        4,
+        43,
+        48,
+        119
+      ],
+      "a": [
+        5,
+        8,
+        61
+      ],
+      "document": [
+        6,
+        25,
+        29,
+        134
+      ],
+      "as": [
+        7
+      ],
+      "graph,": [
+        9
+      ],
+      "and": [
+        10,
+        41,
+        98,
+        117,
+        138
+      ],
+      "further": [
+        11
+      ],
+      "performing": [
+        12
+      ],
+      "feature": [
+        13
+      ],
+      "extraction": [
+        14
+      ],
+      "via": [
+        15,
+        131
+      ],
+      "graph": [
+        17,
+        96,
+        125
+      ],
+      "convolutional": [
+        18,
+        126
+      ],
+      "network": [
+        19,
+        127
+      ],
+      "(GCN),": [
+        20
+      ],
+      "has": [
+        21
+      ],
+      "proven": [
+        22
+      ],
+      "effective": [
+        23
+      ],
+      "in": [
+        24
+      ],
+      "analysis.": [
+        26
+      ],
+      "However,": [
+        27
+      ],
+      "existing": [
+        28
+      ],
+      "graphs": [
+        30,
+        51,
+        105
+      ],
+      "are": [
+        31,
+        39,
+        52,
+        73,
+        81,
+        100
+      ],
+      "often": [
+        32
+      ],
+      "restricted": [
+        33
+      ],
+      "to": [
+        34,
+        54,
+        75,
+        106,
+        109
+      ],
+      "expressing": [
+        35
+      ],
+      "single-level": [
+        36
+      ],
+      "relations,": [
+        37,
+        58
+      ],
+      "which": [
+        38,
+        80
+      ],
+      "predefined": [
+        40
+      ],
+      "independent": [
+        42
+      ],
+      "downstream": [
+        44,
+        113
+      ],
+      "learning.": [
+        45
+      ],
+      "A": [
+        46
+      ],
+      "set": [
+        47
+      ],
+      "learnable": [
+        49
+      ],
+      "hierarchical": [
+        50,
+        62
+      ],
+      "built": [
+        53
+      ],
+      "explore": [
+        55
+      ],
+      "multilevel": [
+        56,
+        77,
+        122
+      ],
+      "sentence": [
+        57,
+        123
+      ],
+      "assisted": [
+        59
+      ],
+      "by": [
+        60,
+        83
+      ],
+      "probabilistic": [
+        63
+      ],
+      "topic": [
+        64
+      ],
+      "model.": [
+        65
+      ],
+      "Based": [
+        66
+      ],
+      "on": [
+        67,
+        133
+      ],
+      "these": [
+        68
+      ],
+      "graphs,": [
+        69
+      ],
+      "multiple": [
+        70
+      ],
+      "parallel": [
+        71
+      ],
+      "GCNs": [
+        72
+      ],
+      "used": [
+        74
+      ],
+      "extract": [
+        76
+      ],
+      "semantic": [
+        78
+      ],
+      "features,": [
+        79
+      ],
+      "aggregated": [
+        82
+      ],
+      "an": [
+        84
+      ],
+      "attention": [
+        85
+      ],
+      "mechanism": [
+        86
+      ],
+      "for": [
+        87
+      ],
+      "different": [
+        88
+      ],
+      "document-comprehension": [
+        89
+      ],
+      "tasks.": [
+        90
+      ],
+      "Equipped": [
+        91
+      ],
+      "with": [
+        92
+      ],
+      "variational": [
+        93
+      ],
+      "inference,": [
+        94
+      ],
+      "construction": [
+        97
+      ],
+      "GCN": [
+        99
+      ],
+      "learned": [
+        101
+      ],
+      "jointly,": [
+        102
+      ],
+      "allowing": [
+        103
+      ],
+      "evolve": [
+        107
+      ],
+      "dynamically": [
+        108
+      ],
+      "better": [
+        110
+      ],
+      "match": [
+        111
+      ],
+      "task.": [
+        114
+      ],
+      "The": [
+        115
+      ],
+      "effectiveness": [
+        116
+      ],
+      "efficiency": [
+        118
+      ],
+      "proposed": [
+        121
+      ],
+      "relation": [
+        124
+      ],
+      "(MuserGCN)": [
+        128
+      ],
+      "is": [
+        129
+      ],
+      "demonstrated": [
+        130
+      ],
+      "experiments": [
+        132
+      ],
+      "classification,": [
+        135
+      ],
+      "abstractive": [
+        136
+      ],
+      "summarization,": [
+        137
+      ],
+      "matching.": [
+        139
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          22
+        ]
+      ],
+      "date-time": "2025-11-22T11:24:51Z",
+      "timestamp": 1763810691814,
+      "version": "3.37.3"
+    },
+    "reference-count": 52,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "8",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2023-08-01T00:00:00Z",
+          "timestamp": 1690848000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "AI N00014-18-1-2871"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "AI N00014-18-1-2871"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000185",
+        "name": "Defense Advanced Research Projects Agency",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "L2M FA8650-18-2-7832"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "L2M FA8650-18-2-7832"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000185",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Neural Netw. Learning Syst."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1109/tnnls.2021.3113297",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2021-09-30T20:55:26Z",
+      "timestamp": 1633035326000
+    },
+    "page": "4273-4285",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Learning Hierarchical Document Graphs From Multilevel Sentence Relations"
+    ],
+    "prefix": "10.1109",
+    "volume": "34",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2928-2692",
+        "authenticated-orcid": false,
+        "given": "Hao",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7644-7621",
+        "authenticated-orcid": false,
+        "given": "Chaojie",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electronic Engineering, Xidian University, Xi&#x2019;an, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1846-495X",
+        "authenticated-orcid": false,
+        "given": "Zhengjue",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electronic Engineering, Xidian University, Xi&#x2019;an, China"
+          }
+        ]
+      },
+      {
+        "given": "Zhibin",
+        "family": "Duan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electronic Engineering, Xidian University, Xi&#x2019;an, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5151-9388",
+        "authenticated-orcid": false,
+        "given": "Bo",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electronic Engineering, Xidian University, Xi&#x2019;an, China"
+          }
+        ]
+      },
+      {
+        "given": "Mingyuan",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "McCombs School of Business, The University of Texas at Austin, Austin, TX, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4980-845X",
+        "authenticated-orcid": false,
+        "given": "Ricardo",
+        "family": "Henao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA"
+          }
+        ]
+      },
+      {
+        "given": "Lawrence",
+        "family": "Carin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2019.2959991"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3178876.3186005"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/N19-1408"
+      },
+      {
+        "key": "ref14",
+        "first-page": "3810",
+        "article-title": "Recurrent hierarchical topic-guided RNN for language generation",
+        "author": "guo",
+        "year": "2019",
+        "journal-title": "Proc ICML"
+      },
+      {
+        "key": "ref52",
+        "first-page": "993",
+        "article-title": "Latent Dirichlet allocation",
+        "volume": "3",
+        "author": "blei",
+        "year": "2003",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/D19-1345"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/P19-1632"
+      },
+      {
+        "key": "ref17",
+        "first-page": "4171",
+        "article-title": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+        "author": "devlin",
+        "year": "2019",
+        "journal-title": "Proc NAACL"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/P18-1030"
+      },
+      {
+        "key": "ref19",
+        "first-page": "5656",
+        "article-title": "Augmentable gamma belief networks",
+        "volume": "17",
+        "author": "zhou",
+        "year": "2016",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "ref18",
+        "first-page": "3043",
+        "article-title": "The Poisson gamma belief network",
+        "author": "zhou",
+        "year": "2015",
+        "journal-title": "Proc NeurIPS"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/1500000019"
+      },
+      {
+        "key": "ref50",
+        "first-page": "2042",
+        "article-title": "Convolutional neural network architectures for matching natural language sentences",
+        "author": "hu",
+        "year": "2014",
+        "journal-title": "Proc NeurIPS"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2505515.2505665"
+      },
+      {
+        "key": "ref45",
+        "first-page": "74",
+        "article-title": "ROUGE: A package for automatic evaluation of summaries",
+        "author": "lin",
+        "year": "2004",
+        "journal-title": "Proc Text Summarization Branches Out"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3038912.3052579"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2567948.2577348"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/D15-1044"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/P17-1099"
+      },
+      {
+        "key": "ref44",
+        "first-page": "401",
+        "article-title": "TextRank: Bringing order into texts",
+        "author": "mihalcea",
+        "year": "2004",
+        "journal-title": "Proc EMNLP"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/K16-1028"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v30i1.10341"
+      },
+      {
+        "key": "ref8",
+        "first-page": "17",
+        "article-title": "Exploiting discourse relations between sentences for text clustering",
+        "author": "zahri",
+        "year": "2012",
+        "journal-title": "Proc Workshop Adv Discourse Anal Comput Aspects"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/D19-1488"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/P19-1479"
+      },
+      {
+        "key": "ref4",
+        "first-page": "1",
+        "article-title": "Graph attention networks",
+        "author": "veli?kovi?",
+        "year": "2017",
+        "journal-title": "Proc ICLR"
+      },
+      {
+        "key": "ref3",
+        "first-page": "2014",
+        "article-title": "Learning convolutional neural networks for graphs",
+        "author": "niepert",
+        "year": "2016",
+        "journal-title": "Proc ICML"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v33i01.33017370"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2020.2978386"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/D19-1387"
+      },
+      {
+        "key": "ref35",
+        "article-title": "DocBERT: BERT for document classification",
+        "author": "adhikari",
+        "year": "2019",
+        "journal-title": "arXiv 1904 08398"
+      },
+      {
+        "key": "ref34",
+        "first-page": "526",
+        "article-title": "Supervised and semi-supervised text categorization using LSTM for region embeddings",
+        "author": "rie",
+        "year": "2016",
+        "journal-title": "Proc ICML"
+      },
+      {
+        "key": "ref37",
+        "first-page": "1",
+        "article-title": "Distilling the knowledge in a neural network",
+        "author": "hinton",
+        "year": "2014",
+        "journal-title": "Proc NeurIPS Deep Learn Workshop"
+      },
+      {
+        "key": "ref36",
+        "article-title": "DistilBERT, a distilled version of BERT: Smaller, faster, cheaper and lighter",
+        "author": "sanh",
+        "year": "2019",
+        "journal-title": "arXiv 1910 01108"
+      },
+      {
+        "key": "ref31",
+        "first-page": "6515",
+        "article-title": "Convolutional Poisson gamma belief network",
+        "author": "wang",
+        "year": "2019",
+        "journal-title": "Proc ICML"
+      },
+      {
+        "key": "ref30",
+        "first-page": "3111",
+        "article-title": "Distributed representations of words and phrases and their compositionality",
+        "author": "mikolov",
+        "year": "2013",
+        "journal-title": "Proc NeurIPS"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3115/v1/N15-1011"
+      },
+      {
+        "key": "ref32",
+        "first-page": "361",
+        "article-title": "RCV1: A new benchmark collection for text categorization research",
+        "volume": "5",
+        "author": "lewis",
+        "year": "2004",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "ref2",
+        "first-page": "1",
+        "article-title": "Semi-supervised classification with graph convolutional networks",
+        "author": "kipf",
+        "year": "2017",
+        "journal-title": "Proc ICLR"
+      },
+      {
+        "key": "ref1",
+        "first-page": "3844",
+        "article-title": "Convolutional neural networks on graphs with fast localized spectral filtering",
+        "author": "defferrard",
+        "year": "2016",
+        "journal-title": "Proc NeurIPS"
+      },
+      {
+        "key": "ref39",
+        "first-page": "1797",
+        "article-title": "Don&#x2019;t give me the details, just the summary! Topic-aware convolutional neural networks for extreme summarization",
+        "author": "narayan",
+        "year": "2018",
+        "journal-title": "Proc EMNLP"
+      },
+      {
+        "key": "ref38",
+        "first-page": "1693",
+        "article-title": "Teaching machines to read and comprehend",
+        "author": "hermann",
+        "year": "2015",
+        "journal-title": "Proc NeurIPS"
+      },
+      {
+        "key": "ref24",
+        "first-page": "3734",
+        "article-title": "Self-attention graph pooling",
+        "author": "lee",
+        "year": "2019",
+        "journal-title": "Proc ICML"
+      },
+      {
+        "key": "ref23",
+        "first-page": "3959",
+        "article-title": "Learning dynamic hierarchical topic graph with graph convolutional network for document classification",
+        "author": "wang",
+        "year": "2020",
+        "journal-title": "Proc AISTATS"
+      },
+      {
+        "key": "ref26",
+        "first-page": "1",
+        "article-title": "Variational hetero-encoder randomized generative adversarial networks for joint image-text modeling",
+        "author": "zhang",
+        "year": "2020",
+        "journal-title": "Proc ICLR"
+      },
+      {
+        "key": "ref25",
+        "first-page": "2083",
+        "article-title": "Graph U-Nets",
+        "author": "gao",
+        "year": "2019",
+        "journal-title": "Proc ICML"
+      },
+      {
+        "key": "ref20",
+        "first-page": "4805",
+        "article-title": "Hierarchical graph representation learning with differentiable pooling",
+        "author": "ying",
+        "year": "2018",
+        "journal-title": "Proc NeurIPS"
+      },
+      {
+        "key": "ref22",
+        "first-page": "1",
+        "article-title": "WHAI: Weibull hybrid autoencoding inference for deep topic modeling",
+        "author": "zhang",
+        "year": "2018",
+        "journal-title": "Proc ICLR"
+      },
+      {
+        "key": "ref21",
+        "first-page": "1",
+        "article-title": "Neural machine translation by jointly learning to align and translate",
+        "author": "bahdanau",
+        "year": "2015",
+        "journal-title": "Proc ICLR"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2020.3003660"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1023/A:1007665907178",
+        "article-title": "An introduction to variational methods for graphical models",
+        "volume": "37",
+        "author": "jordan",
+        "year": "1999",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "ref29",
+        "first-page": "864",
+        "article-title": "Deep latent Dirichlet allocation with topic-layer-adaptive stochastic gradient Riemannian MCMC",
+        "author": "cong",
+        "year": "2017",
+        "journal-title": "Proc ICML"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Neural Networks and Learning Systems"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/5962385/10208115/09555254.pdf?arnumber=9555254",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2023-08-21T18:02:11Z",
+      "timestamp": 1692640931000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9555254/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    },
+    "references-count": 52,
+    "journal-issue": {
+      "issue": "8"
+    },
+    "URL": "https://doi.org/10.1109/tnnls.2021.3113297",
+    "relation": {},
+    "ISSN": [
+      "2162-237X",
+      "2162-2388"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2162-237X"
+      },
+      {
+        "type": "electronic",
+        "value": "2162-2388"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8
+        ]
+      ]
+    }
+  }
+}

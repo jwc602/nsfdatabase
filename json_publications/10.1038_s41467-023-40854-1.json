@@ -1,0 +1,2367 @@
+{
+  "doi": "10.1038/s41467-023-40854-1",
+  "openalex": {
+    "id": "https://openalex.org/W4386818352",
+    "doi": "https://doi.org/10.1038/s41467-023-40854-1",
+    "title": "Rapid inverse design of metamaterials based on prescribed mechanical behavior through machine learning",
+    "display_name": "Rapid inverse design of metamaterials based on prescribed mechanical behavior through machine learning",
+    "publication_year": 2023,
+    "publication_date": "2023-09-18",
+    "ids": {
+      "openalex": "https://openalex.org/W4386818352",
+      "doi": "https://doi.org/10.1038/s41467-023-40854-1",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/37718343"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s41467-023-40854-1",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41467-023-40854-1",
+      "pdf_url": "https://www.nature.com/articles/s41467-023-40854-1.pdf",
+      "source": {
+        "id": "https://openalex.org/S64187185",
+        "display_name": "Nature Communications",
+        "issn_l": "2041-1723",
+        "issn": [
+          "2041-1723"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Communications",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-023-40854-1.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5026158058",
+          "display_name": "Chan Soo Ha",
+          "orcid": "https://orcid.org/0000-0003-3314-2657"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chan Soo Ha",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering, Virginia Tech, Blacksburg, VA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering, Virginia Tech, Blacksburg, VA, USA",
+            "institution_ids": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5033453630",
+          "display_name": "Desheng Yao",
+          "orcid": "https://orcid.org/0000-0003-2069-1112"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Desheng Yao",
+        "raw_affiliation_strings": [
+          "Department of Material Science and Engineering, University of California, Berkeley, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Material Science and Engineering, University of California, Berkeley, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5025062385",
+          "display_name": "Zhenpeng Xu",
+          "orcid": "https://orcid.org/0000-0002-2380-4744"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhenpeng Xu",
+        "raw_affiliation_strings": [
+          "Department of Material Science and Engineering, University of California, Berkeley, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Material Science and Engineering, University of California, Berkeley, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003491617",
+          "display_name": "Chenang Liu",
+          "orcid": "https://orcid.org/0000-0002-6571-0682"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I115475287",
+            "display_name": "Oklahoma State University",
+            "ror": "https://ror.org/01g9vbr38",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I115475287"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chenang Liu",
+        "raw_affiliation_strings": [
+          "Industrial Engineering and Management, Oklahoma State University, Stillwater, OK, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Industrial Engineering and Management, Oklahoma State University, Stillwater, OK, USA",
+            "institution_ids": [
+              "https://openalex.org/I115475287"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5061818383",
+          "display_name": "Han Liu",
+          "orcid": "https://orcid.org/0000-0002-4899-9998"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24185976",
+            "display_name": "Sichuan University",
+            "ror": "https://ror.org/011ashp19",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24185976"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Han Liu",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Technology, Sichuan University, Chengdu, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Technology, Sichuan University, Chengdu, China",
+            "institution_ids": [
+              "https://openalex.org/I24185976"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023280695",
+          "display_name": "Daniel Elkins",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Daniel Elkins",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering, Virginia Tech, Blacksburg, VA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering, Virginia Tech, Blacksburg, VA, USA",
+            "institution_ids": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5092892376",
+          "display_name": "Matthew Kile",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Matthew Kile",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering, Virginia Tech, Blacksburg, VA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering, Virginia Tech, Blacksburg, VA, USA",
+            "institution_ids": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5064055337",
+          "display_name": "V.S. Deshpande",
+          "orcid": "https://orcid.org/0000-0003-3899-3573"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I241749",
+            "display_name": "University of Cambridge",
+            "ror": "https://ror.org/013meh722",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I241749"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Vikram Deshpande",
+        "raw_affiliation_strings": [
+          "Department of Engineering, University of Cambridge, Cambridge, UK"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Engineering, University of Cambridge, Cambridge, UK",
+            "institution_ids": [
+              "https://openalex.org/I241749"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5085867168",
+          "display_name": "Zhenyu Kong",
+          "orcid": "https://orcid.org/0000-0002-8827-502X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhenyu Kong",
+        "raw_affiliation_strings": [
+          "Grado Department of Industrial and Systems Engineering, Virginia Tech, Blacksburg, VA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Grado Department of Industrial and Systems Engineering, Virginia Tech, Blacksburg, VA, USA",
+            "institution_ids": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5032462770",
+          "display_name": "Mathieu Bauchy",
+          "orcid": "https://orcid.org/0000-0003-4600-0631"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I161318765",
+            "display_name": "University of California, Los Angeles",
+            "ror": "https://ror.org/046rm7j60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mathieu Bauchy",
+        "raw_affiliation_strings": [
+          "Department of Civil and Environmental Engineering, University of California, Los Angeles, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Civil and Environmental Engineering, University of California, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5001036259",
+          "display_name": "Xiaoyu Zheng",
+          "orcid": "https://orcid.org/0000-0001-8685-5728"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I161318765",
+            "display_name": "University of California, Los Angeles",
+            "ror": "https://ror.org/046rm7j60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161318765"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaoyu Zheng",
+        "raw_affiliation_strings": [
+          "Department of Civil and Environmental Engineering, University of California, Los Angeles, USA; Department of Material Science and Engineering, University of California, Berkeley, USA; Department of Mechanical Engineering, Virginia Tech, Blacksburg, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Civil and Environmental Engineering, University of California, Los Angeles, USA; Department of Material Science and Engineering, University of California, Berkeley, USA; Department of Mechanical Engineering, Virginia Tech, Blacksburg, USA",
+            "institution_ids": [
+              "https://openalex.org/I161318765",
+              "https://openalex.org/I859038795",
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 11,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5064055337"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I241749"
+    ],
+    "apc_list": {
+      "value": 3920,
+      "currency": "GBP",
+      "value_usd": 4808
+    },
+    "apc_paid": {
+      "value": 3920,
+      "currency": "GBP",
+      "value_usd": 4808
+    },
+    "fwci": 45.38973567,
+    "has_fulltext": true,
+    "cited_by_count": 246,
+    "citation_normalized_percentile": {
+      "value": 0.99974491,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "14",
+      "issue": "1",
+      "first_page": "5765",
+      "last_page": "5765"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10707",
+      "display_name": "Cellular and Composite Structures",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10707",
+        "display_name": "Cellular and Composite Structures",
+        "score": 0.9993000030517578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11737",
+        "display_name": "Advanced Materials and Mechanics",
+        "score": 0.9984999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10822",
+        "display_name": "Acoustic Wave Phenomena Research",
+        "score": 0.995199978351593,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6390328407287598
+      },
+      {
+        "id": "https://openalex.org/keywords/inverse",
+        "display_name": "Inverse",
+        "score": 0.6141635179519653
+      },
+      {
+        "id": "https://openalex.org/keywords/realization",
+        "display_name": "Realization (probability)",
+        "score": 0.5771543979644775
+      },
+      {
+        "id": "https://openalex.org/keywords/process",
+        "display_name": "Process (computing)",
+        "score": 0.5616956949234009
+      },
+      {
+        "id": "https://openalex.org/keywords/metamaterial",
+        "display_name": "Metamaterial",
+        "score": 0.5073868632316589
+      },
+      {
+        "id": "https://openalex.org/keywords/design-process",
+        "display_name": "Design process",
+        "score": 0.5010542869567871
+      },
+      {
+        "id": "https://openalex.org/keywords/engineering-design-process",
+        "display_name": "Engineering design process",
+        "score": 0.4958744943141937
+      },
+      {
+        "id": "https://openalex.org/keywords/generative-model",
+        "display_name": "Generative model",
+        "score": 0.4559020698070526
+      },
+      {
+        "id": "https://openalex.org/keywords/nonlinear-system",
+        "display_name": "Nonlinear system",
+        "score": 0.43887701630592346
+      },
+      {
+        "id": "https://openalex.org/keywords/fidelity",
+        "display_name": "Fidelity",
+        "score": 0.43484845757484436
+      },
+      {
+        "id": "https://openalex.org/keywords/3d-printing",
+        "display_name": "3D printing",
+        "score": 0.4147062599658966
+      },
+      {
+        "id": "https://openalex.org/keywords/generative-grammar",
+        "display_name": "Generative grammar",
+        "score": 0.40618896484375
+      },
+      {
+        "id": "https://openalex.org/keywords/mechanical-engineering",
+        "display_name": "Mechanical engineering",
+        "score": 0.33618056774139404
+      },
+      {
+        "id": "https://openalex.org/keywords/materials-science",
+        "display_name": "Materials science",
+        "score": 0.30252206325531006
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.25622230768203735
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.13267025351524353
+      },
+      {
+        "id": "https://openalex.org/keywords/work-in-process",
+        "display_name": "Work in process",
+        "score": 0.12965336441993713
+      },
+      {
+        "id": "https://openalex.org/keywords/engineering",
+        "display_name": "Engineering",
+        "score": 0.10993921756744385
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.09976714849472046
+      },
+      {
+        "id": "https://openalex.org/keywords/geometry",
+        "display_name": "Geometry",
+        "score": 0.08597704768180847
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6390328407287598
+      },
+      {
+        "id": "https://openalex.org/C207467116",
+        "wikidata": "https://www.wikidata.org/wiki/Q4385666",
+        "display_name": "Inverse",
+        "level": 2,
+        "score": 0.6141635179519653
+      },
+      {
+        "id": "https://openalex.org/C2781089630",
+        "wikidata": "https://www.wikidata.org/wiki/Q21856745",
+        "display_name": "Realization (probability)",
+        "level": 2,
+        "score": 0.5771543979644775
+      },
+      {
+        "id": "https://openalex.org/C98045186",
+        "wikidata": "https://www.wikidata.org/wiki/Q205663",
+        "display_name": "Process (computing)",
+        "level": 2,
+        "score": 0.5616956949234009
+      },
+      {
+        "id": "https://openalex.org/C110367647",
+        "wikidata": "https://www.wikidata.org/wiki/Q497166",
+        "display_name": "Metamaterial",
+        "level": 2,
+        "score": 0.5073868632316589
+      },
+      {
+        "id": "https://openalex.org/C48262172",
+        "wikidata": "https://www.wikidata.org/wiki/Q16908765",
+        "display_name": "Design process",
+        "level": 3,
+        "score": 0.5010542869567871
+      },
+      {
+        "id": "https://openalex.org/C34972735",
+        "wikidata": "https://www.wikidata.org/wiki/Q2920267",
+        "display_name": "Engineering design process",
+        "level": 2,
+        "score": 0.4958744943141937
+      },
+      {
+        "id": "https://openalex.org/C167966045",
+        "wikidata": "https://www.wikidata.org/wiki/Q5532625",
+        "display_name": "Generative model",
+        "level": 3,
+        "score": 0.4559020698070526
+      },
+      {
+        "id": "https://openalex.org/C158622935",
+        "wikidata": "https://www.wikidata.org/wiki/Q660848",
+        "display_name": "Nonlinear system",
+        "level": 2,
+        "score": 0.43887701630592346
+      },
+      {
+        "id": "https://openalex.org/C2776459999",
+        "wikidata": "https://www.wikidata.org/wiki/Q2119376",
+        "display_name": "Fidelity",
+        "level": 2,
+        "score": 0.43484845757484436
+      },
+      {
+        "id": "https://openalex.org/C524769229",
+        "wikidata": "https://www.wikidata.org/wiki/Q229367",
+        "display_name": "3D printing",
+        "level": 2,
+        "score": 0.4147062599658966
+      },
+      {
+        "id": "https://openalex.org/C39890363",
+        "wikidata": "https://www.wikidata.org/wiki/Q36108",
+        "display_name": "Generative grammar",
+        "level": 2,
+        "score": 0.40618896484375
+      },
+      {
+        "id": "https://openalex.org/C78519656",
+        "wikidata": "https://www.wikidata.org/wiki/Q101333",
+        "display_name": "Mechanical engineering",
+        "level": 1,
+        "score": 0.33618056774139404
+      },
+      {
+        "id": "https://openalex.org/C192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "level": 0,
+        "score": 0.30252206325531006
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.25622230768203735
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.13267025351524353
+      },
+      {
+        "id": "https://openalex.org/C174998907",
+        "wikidata": "https://www.wikidata.org/wiki/Q357662",
+        "display_name": "Work in process",
+        "level": 2,
+        "score": 0.12965336441993713
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.10993921756744385
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.09976714849472046
+      },
+      {
+        "id": "https://openalex.org/C2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "level": 1,
+        "score": 0.08597704768180847
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C21547014",
+        "wikidata": "https://www.wikidata.org/wiki/Q1423657",
+        "display_name": "Operations management",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C49040817",
+        "wikidata": "https://www.wikidata.org/wiki/Q193091",
+        "display_name": "Optoelectronics",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "doi:10.1038/s41467-023-40854-1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41467-023-40854-1",
+        "pdf_url": "https://www.nature.com/articles/s41467-023-40854-1.pdf",
+        "source": {
+          "id": "https://openalex.org/S64187185",
+          "display_name": "Nature Communications",
+          "issn_l": "2041-1723",
+          "issn": [
+            "2041-1723"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Communications",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:37718343",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37718343",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature communications",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:10505607",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10505607",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505607/pdf/41467_2023_Article_40854.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Nat Commun",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:749c1074f3154b67b4913dc17abaee9f",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/749c1074f3154b67b4913dc17abaee9f",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Nature Communications, Vol 14, Iss 1, Pp 1-11 (2023)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:escholarship.org:ark:/13030/qt4q53q0fs",
+        "is_oa": true,
+        "landing_page_url": "https://escholarship.org/uc/item/4q53q0fs",
+        "pdf_url": null,
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Nature Communications, vol 14, iss 1",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1038/s41467-023-40854-1",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41467-023-40854-1",
+      "pdf_url": "https://www.nature.com/articles/s41467-023-40854-1.pdf",
+      "source": {
+        "id": "https://openalex.org/S64187185",
+        "display_name": "Nature Communications",
+        "issn_l": "2041-1723",
+        "issn": [
+          "2041-1723"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Communications",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G7066469448",
+        "display_name": null,
+        "funder_award_id": "2119643",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G1313267123",
+        "display_name": null,
+        "funder_award_id": "N00014-20-1-2504:P00001",
+        "funder_id": "https://openalex.org/F4320338298",
+        "funder_display_name": "Office of Naval Research Global"
+      },
+      {
+        "id": "https://openalex.org/G8282274138",
+        "display_name": null,
+        "funder_award_id": "FA9550‐18‐1‐0299",
+        "funder_id": "https://openalex.org/F4320338279",
+        "funder_display_name": "Air Force Office of Scientific Research"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320338279",
+        "display_name": "Air Force Office of Scientific Research",
+        "ror": "https://ror.org/011e9bt93"
+      },
+      {
+        "id": "https://openalex.org/F4320338298",
+        "display_name": "Office of Naval Research Global",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "referenced_works_count": 43,
+    "referenced_works": [
+      "https://openalex.org/W2049286683",
+      "https://openalex.org/W2046427086",
+      "https://openalex.org/W2135937573",
+      "https://openalex.org/W1972617237",
+      "https://openalex.org/W2050229113",
+      "https://openalex.org/W2081264083",
+      "https://openalex.org/W2491522496",
+      "https://openalex.org/W2085227243",
+      "https://openalex.org/W2099006292",
+      "https://openalex.org/W2953930550",
+      "https://openalex.org/W2969724650",
+      "https://openalex.org/W2273419141",
+      "https://openalex.org/W2788445101",
+      "https://openalex.org/W1989504059",
+      "https://openalex.org/W2741250353",
+      "https://openalex.org/W2883482411",
+      "https://openalex.org/W2979896295",
+      "https://openalex.org/W2946680784",
+      "https://openalex.org/W3033937423",
+      "https://openalex.org/W2996601350",
+      "https://openalex.org/W3018572435",
+      "https://openalex.org/W3134452041",
+      "https://openalex.org/W2220999736",
+      "https://openalex.org/W2258851456",
+      "https://openalex.org/W2979513045",
+      "https://openalex.org/W3088505119",
+      "https://openalex.org/W2766162919",
+      "https://openalex.org/W2074176021",
+      "https://openalex.org/W1977882974",
+      "https://openalex.org/W1619336816",
+      "https://openalex.org/W2731639076",
+      "https://openalex.org/W2749662039",
+      "https://openalex.org/W2783577348",
+      "https://openalex.org/W2159297083",
+      "https://openalex.org/W1820253700",
+      "https://openalex.org/W2808877696",
+      "https://openalex.org/W2346040907",
+      "https://openalex.org/W2012380532",
+      "https://openalex.org/W2303129808",
+      "https://openalex.org/W2157097575",
+      "https://openalex.org/W1593264134",
+      "https://openalex.org/W2165698076",
+      "https://openalex.org/W4304004486"
+    ],
+    "related_works": [
+      "https://openalex.org/W2148601120",
+      "https://openalex.org/W2101430679",
+      "https://openalex.org/W336145253",
+      "https://openalex.org/W2029812558",
+      "https://openalex.org/W1980520321",
+      "https://openalex.org/W2604835868",
+      "https://openalex.org/W2412175394",
+      "https://openalex.org/W1574311936",
+      "https://openalex.org/W2414678111",
+      "https://openalex.org/W3183692271"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Designing": [
+        1
+      ],
+      "and": [
+        2,
+        63,
+        79,
+        120,
+        140
+      ],
+      "printing": [
+        3
+      ],
+      "metamaterials": [
+        4
+      ],
+      "with": [
+        5,
+        32,
+        108,
+        114
+      ],
+      "customizable": [
+        6
+      ],
+      "architectures": [
+        7
+      ],
+      "enables": [
+        8,
+        84
+      ],
+      "the": [
+        9,
+        27,
+        49,
+        85
+      ],
+      "realization": [
+        10
+      ],
+      "of": [
+        11,
+        18,
+        29,
+        87
+      ],
+      "unprecedented": [
+        12
+      ],
+      "mechanical": [
+        13,
+        106
+      ],
+      "behaviors": [
+        14,
+        23,
+        52,
+        139
+      ],
+      "that": [
+        15,
+        105,
+        134
+      ],
+      "transcend": [
+        16
+      ],
+      "those": [
+        17
+      ],
+      "their": [
+        19,
+        36
+      ],
+      "constituent": [
+        20
+      ],
+      "materials.": [
+        21
+      ],
+      "These": [
+        22
+      ],
+      "are": [
+        24,
+        44
+      ],
+      "recorded": [
+        25
+      ],
+      "in": [
+        26
+      ],
+      "form": [
+        28
+      ],
+      "response": [
+        30
+      ],
+      "curves,": [
+        31
+      ],
+      "stress-strain": [
+        33
+      ],
+      "curves": [
+        34
+      ],
+      "describing": [
+        35
+      ],
+      "quasi-static": [
+        37
+      ],
+      "footprint.": [
+        38
+      ],
+      "However,": [
+        39
+      ],
+      "existing": [
+        40
+      ],
+      "inverse": [
+        41,
+        72,
+        131
+      ],
+      "design": [
+        42,
+        59,
+        73,
+        132
+      ],
+      "approaches": [
+        43
+      ],
+      "yet": [
+        45,
+        137
+      ],
+      "matured": [
+        46
+      ],
+      "to": [
+        47,
+        54,
+        130
+      ],
+      "capture": [
+        48
+      ],
+      "full": [
+        50,
+        109
+      ],
+      "desired": [
+        51
+      ],
+      "due": [
+        53
+      ],
+      "challenges": [
+        55
+      ],
+      "stemmed": [
+        56
+      ],
+      "from": [
+        57,
+        101
+      ],
+      "multiple": [
+        58
+      ],
+      "objectives,": [
+        60
+      ],
+      "nonlinear": [
+        61
+      ],
+      "behavior,": [
+        62
+      ],
+      "process-dependent": [
+        64,
+        99
+      ],
+      "manufacturing": [
+        65
+      ],
+      "errors.": [
+        66
+      ],
+      "Here,": [
+        67
+      ],
+      "we": [
+        68
+      ],
+      "report": [
+        69
+      ],
+      "a": [
+        70,
+        127
+      ],
+      "rapid": [
+        71
+      ],
+      "methodology,": [
+        74
+      ],
+      "leveraging": [
+        75
+      ],
+      "generative": [
+        76
+      ],
+      "machine": [
+        77
+      ],
+      "learning": [
+        78
+      ],
+      "desktop": [
+        80
+      ],
+      "additive": [
+        81
+      ],
+      "manufacturing,": [
+        82
+      ],
+      "which": [
+        83
+      ],
+      "creation": [
+        86
+      ],
+      "nearly": [
+        88,
+        115
+      ],
+      "all": [
+        89
+      ],
+      "possible": [
+        90
+      ],
+      "uniaxial": [
+        91
+      ],
+      "compressive": [
+        92
+      ],
+      "stress‒strain": [
+        93
+      ],
+      "curve": [
+        94
+      ],
+      "cases": [
+        95
+      ],
+      "while": [
+        96
+      ],
+      "accounting": [
+        97
+      ],
+      "for": [
+        98
+      ],
+      "errors": [
+        100
+      ],
+      "printing.": [
+        102
+      ],
+      "Results": [
+        103
+      ],
+      "show": [
+        104
+      ],
+      "behavior": [
+        107
+      ],
+      "tailorability": [
+        110
+      ],
+      "can": [
+        111
+      ],
+      "be": [
+        112
+      ],
+      "achieved": [
+        113
+      ],
+      "90%": [
+        116
+      ],
+      "fidelity": [
+        117
+      ],
+      "between": [
+        118
+      ],
+      "target": [
+        119
+      ],
+      "experimentally": [
+        121
+      ],
+      "measured": [
+        122
+      ],
+      "results.": [
+        123
+      ],
+      "Our": [
+        124
+      ],
+      "approach": [
+        125
+      ],
+      "represents": [
+        126
+      ],
+      "starting": [
+        128
+      ],
+      "point": [
+        129
+      ],
+      "materials": [
+        133
+      ],
+      "meet": [
+        135
+      ],
+      "prescribed": [
+        136
+      ],
+      "complex": [
+        138
+      ],
+      "potentially": [
+        141
+      ],
+      "bypasses": [
+        142
+      ],
+      "iterative": [
+        143
+      ],
+      "design-manufacturing": [
+        144
+      ],
+      "cycles.": [
+        145
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 159
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 84
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          8
+        ]
+      ],
+      "date-time": "2026-01-08T00:50:48Z",
+      "timestamp": 1767833448102,
+      "version": "3.49.0"
+    },
+    "reference-count": 44,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              18
+            ]
+          ],
+          "date-time": "2023-09-18T00:00:00Z",
+          "timestamp": 1694995200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              18
+            ]
+          ],
+          "date-time": "2023-09-18T00:00:00Z",
+          "timestamp": 1694995200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100007297",
+        "name": "United States Department of Defense | United States Navy | ONR | Office of Naval Research Global",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N00014-20-1-2504:P00001"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N00014-20-1-2504:P00001"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100007297",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2119643"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2119643"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000181",
+        "name": "United States Department of Defense | United States Air Force | AFMC | Air Force Office of Scientific Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "FA9550‐18‐1‐0299"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "FA9550‐18‐1‐0299"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000181",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat Commun"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Designing and printing metamaterials with customizable architectures enables the realization of unprecedented mechanical behaviors that transcend those of their constituent materials. These behaviors are recorded in the form of response curves, with stress-strain curves describing their quasi-static footprint. However, existing inverse design approaches are yet matured to capture the full desired behaviors due to challenges stemmed from multiple design objectives, nonlinear behavior, and process-dependent manufacturing errors. Here, we report a rapid inverse design methodology, leveraging generative machine learning and desktop additive manufacturing, which enables the creation of nearly all possible uniaxial compressive stress‒strain curve cases while accounting for process-dependent errors from printing. Results show that mechanical behavior with full tailorability can be achieved with nearly 90% fidelity between target and experimentally measured results. Our approach represents a starting point to inverse design materials that meet prescribed yet complex behaviors and potentially bypasses iterative design-manufacturing cycles.</jats:p>",
+    "DOI": "10.1038/s41467-023-40854-1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          18
+        ]
+      ],
+      "date-time": "2023-09-18T03:08:13Z",
+      "timestamp": 1695006493000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 247,
+    "title": [
+      "Rapid inverse design of metamaterials based on prescribed mechanical behavior through machine learning"
+    ],
+    "prefix": "10.1038",
+    "volume": "14",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3314-2657",
+        "authenticated-orcid": false,
+        "given": "Chan Soo",
+        "family": "Ha",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2069-1112",
+        "authenticated-orcid": false,
+        "given": "Desheng",
+        "family": "Yao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhenpeng",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chenang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4899-9998",
+        "authenticated-orcid": false,
+        "given": "Han",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "Elkins",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew",
+        "family": "Kile",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3899-3573",
+        "authenticated-orcid": false,
+        "given": "Vikram",
+        "family": "Deshpande",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8827-502X",
+        "authenticated-orcid": false,
+        "given": "Zhenyu",
+        "family": "Kong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mathieu",
+        "family": "Bauchy",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8685-5728",
+        "authenticated-orcid": false,
+        "given": "Xiaoyu",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "40854_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1038",
+        "DOI": "10.1126/science.235.4792.1038",
+        "volume": "235",
+        "author": "R Lakes",
+        "year": "1987",
+        "unstructured": "Lakes, R. Foam structures with a negative Poisson’s ratio. Science 235, 1038–1041 (1987).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "40854_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "305",
+        "DOI": "10.1016/S0020-7403(96)00025-2",
+        "volume": "39",
+        "author": "D Prall",
+        "year": "1997",
+        "unstructured": "Prall, D. & Lakes, R. Properties of a chiral honeycomb with a Poisson’s ratio of -1. Int. J. Mech. Sci. 39, 305–314 (1997).",
+        "journal-title": "Int. J. Mech. Sci."
+      },
+      {
+        "key": "40854_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "033032",
+        "DOI": "10.1088/1367-2630/16/3/033032",
+        "volume": "16",
+        "author": "T Buckmann",
+        "year": "2014",
+        "unstructured": "Buckmann, T. et al. On three-dimensional dilational elastic metamaterials. N. J. Phys. 16, 033032 (2014).",
+        "journal-title": "N. J. Phys."
+      },
+      {
+        "key": "40854_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "2405",
+        "DOI": "10.1002/pssb.200880267",
+        "volume": "245",
+        "author": "J Grima",
+        "year": "2008",
+        "unstructured": "Grima, J., Attard, D. & Gatt, R. Truss‐type systems exhibiting negative compressibility. Phys. Status Solidi B 245, 2405–2414 (2008).",
+        "journal-title": "Phys. Status Solidi B"
+      },
+      {
+        "key": "40854_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "545",
+        "DOI": "10.1002/pssb.200777708",
+        "volume": "245",
+        "author": "R Lakes",
+        "year": "2008",
+        "unstructured": "Lakes, R. & Wojciechowski, K. Negative compressibility, negative Poisson’s ratio, and stability. Phys. Status Solidi B 245, 545–551 (2008).",
+        "journal-title": "Phys. Status Solidi B"
+      },
+      {
+        "key": "40854_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "105",
+        "DOI": "10.1016/j.eml.2015.03.006",
+        "volume": "3",
+        "author": "J Bauer",
+        "year": "2015",
+        "unstructured": "Bauer, J. et al. Push-to-pull tensile testing of ultra-strong nanoscale ceramic–polymer composites made by additive manufacturing. Extrem. Mech. Lett. 3, 105–112 (2015).",
+        "journal-title": "Extrem. Mech. Lett."
+      },
+      {
+        "key": "40854_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1100",
+        "DOI": "10.1038/nmat4694",
+        "volume": "15",
+        "author": "X Zheng",
+        "year": "2016",
+        "unstructured": "Zheng, X. et al. Multiscale metallic metamaterials. Nat. Mater. 15, 1100–1106 (2016).",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "40854_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "1322",
+        "DOI": "10.1126/science.1255908",
+        "volume": "345",
+        "author": "L Meza",
+        "year": "2014",
+        "unstructured": "Meza, L., Das, S. & Greer, J. Strong, lightweight, and recoverable three-dimensional ceramic nanolattices. Science 345, 1322–1326 (2014).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "40854_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "4296",
+        "DOI": "10.1002/adma.201501708",
+        "volume": "27",
+        "author": "S Shan",
+        "year": "2015",
+        "unstructured": "Shan, S. et al. Multistable architected materials for trapping elastic strain energy. Adv. Mater. 27, 4296–4301 (2015).",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "40854_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "127",
+        "DOI": "10.1016/j.ijsolstr.2019.06.024",
+        "volume": "178-179",
+        "author": "C Ha",
+        "year": "2019",
+        "unstructured": "Ha, C., Lakes, R. S. & Plesha, M. E. Cubic negative stiffness lattice structure for energy absorption: Numerical and experimental studies. Int. J. Solids Struct. 178-179, 127–135 (2019).",
+        "journal-title": "Int. J. Solids Struct."
+      },
+      {
+        "key": "40854_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "103693",
+        "DOI": "10.1016/j.jmps.2019.103693",
+        "volume": "133",
+        "author": "S Wehmeyer",
+        "year": "2019",
+        "unstructured": "Wehmeyer, S. et al. Post-buckling and dynamic response of angled struts in elastic lattices. J. Mech. Phys. Solids 133, 103693 (2019).",
+        "journal-title": "J. Mech. Phys. Solids"
+      },
+      {
+        "key": "40854_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "438",
+        "DOI": "10.1038/nmat4561",
+        "volume": "15",
+        "author": "J Bauer",
+        "year": "2016",
+        "unstructured": "Bauer, J., Schroer, A., Schwaiger, R. & Kraft, O. Approaching theoretical strength in glassy carbon nanolattices. Nat. Mater. 15, 438–443 (2016).",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "40854_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "eaao7005",
+        "DOI": "10.1126/sciadv.aao7005",
+        "volume": "4",
+        "author": "D Chen",
+        "year": "2018",
+        "unstructured": "Chen, D., Zhu, M. & Matusik, W. Computational discovery of extremal microstructure families. Sci. Adv. 4, eaao7005 (2018).",
+        "journal-title": "Sci. Adv."
+      },
+      {
+        "key": "40854_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "524",
+        "DOI": "10.1016/j.cma.2014.05.022",
+        "volume": "278",
+        "author": "L Xia",
+        "year": "2014",
+        "unstructured": "Xia, L. & Breitkopf, P. Concurrent topology optimization design of material and structure within FE2 nonlinear multiscale analysis framework. Comput. Methods Appl. Mech. Eng. 278, 524–542 (2014).",
+        "journal-title": "Comput. Methods Appl. Mech. Eng."
+      },
+      {
+        "key": "40854_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "21",
+        "DOI": "10.1016/j.compositesb.2017.07.054",
+        "volume": "131",
+        "author": "A Takezawa",
+        "year": "2017",
+        "unstructured": "Takezawa, A. & Kobashi, M. Design methodology for porous composites with tunable thermal expansion produced by multi-material topology optimization and additive manufacturing. Compos. B. Eng. 131, 21–29 (2017).",
+        "journal-title": "Compos. B. Eng."
+      },
+      {
+        "key": "40854_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "939",
+        "DOI": "10.1039/C8MH00653A",
+        "volume": "5",
+        "author": "G Gu",
+        "year": "2018",
+        "unstructured": "Gu, G., Chen, C., Richmond, D. & Buehler, M. Bioinspired hierarchical composite design using machine learning: simulation, additive manufacturing, and experiment. Mater. Horiz. 5, 939–945 (2018).",
+        "journal-title": "Mater. Horiz."
+      },
+      {
+        "key": "40854_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "1904845",
+        "DOI": "10.1002/adma.201904845",
+        "volume": "31",
+        "author": "M Bessa",
+        "year": "2019",
+        "unstructured": "Bessa, M., Glowacki, P. & Houlder, M. Bayesian machine learning in metamaterial design: fragile becomes supercompressible. Adv. Mater. 31, 1904845 (2019).",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "40854_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "110",
+        "DOI": "10.3389/fmats.2019.00110",
+        "volume": "6",
+        "author": "FE Bock",
+        "year": "2019",
+        "unstructured": "Bock, F. E. et al. A review of the application of machine learning and data mining approaches in continuum materials mechanics. Front. Mater. 6, 110 (2019).",
+        "journal-title": "Front. Mater."
+      },
+      {
+        "key": "40854_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41524-020-0341-6",
+        "volume": "6",
+        "author": "S Kumar",
+        "year": "2020",
+        "unstructured": "Kumar, S., Tan, S., Zheng, L. & Kochmann, D. Inverse-designed spinodoid metamaterials. Npj Comput. Mater. 6, 1–10 (2020).",
+        "journal-title": "Npj Comput. Mater."
+      },
+      {
+        "key": "40854_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wilt, J., Yang, C., & Grace, G. Accelerating auxetic metamaterial design with deep learning. Adv. Eng. Mater. 22, 1901266 (2020).",
+        "DOI": "10.1002/adem.202070018"
+      },
+      {
+        "key": "40854_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "eaaz4169",
+        "DOI": "10.1126/sciadv.aaz4169",
+        "volume": "6",
+        "author": "Y Mao",
+        "year": "2020",
+        "unstructured": "Mao, Y., He, Q. & Zhao, X. Designing complex architectured materials with generative adversarial networks. Sci. Adv. 6, eaaz4169 (2020).",
+        "journal-title": "Sci. Adv."
+      },
+      {
+        "key": "40854_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "109632",
+        "DOI": "10.1016/j.matdes.2021.109632",
+        "volume": "203",
+        "author": "AP Garland",
+        "year": "2021",
+        "unstructured": "Garland, A. P., White, B. C., Jensen, S. C. & Boyce, B. L. Pragmatic generative optimization of novel structural lattice metamaterials with machine learning. Mater. Des. 203, 109632 (2021).",
+        "journal-title": "Mater. Des."
+      },
+      {
+        "key": "40854_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1031",
+        "DOI": "10.1007/s00158-013-0978-6",
+        "volume": "48",
+        "author": "O Sigmund",
+        "year": "2013",
+        "unstructured": "Sigmund, O. & Maute, K. Topology optimization approaches. Struct. Multidiscipl. Optim. 48, 1031–1055 (2013).",
+        "journal-title": "Struct. Multidiscipl. Optim."
+      },
+      {
+        "key": "40854_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1157",
+        "DOI": "10.1007/s00158-015-1370-5",
+        "volume": "53",
+        "author": "S Zargham",
+        "year": "2016",
+        "unstructured": "Zargham, S., Ward, T. A., Ramli, R. & Badruddin, I. A. Topology optimization: a review for structural designs under vibration problems. Struct. Multidiscipl. Optim. 53, 1157–1177 (2016).",
+        "journal-title": "Struct. Multidiscipl. Optim."
+      },
+      {
+        "key": "40854_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "766",
+        "DOI": "10.1557/mrs.2019.231",
+        "volume": "44",
+        "author": "D Pasini",
+        "year": "2019",
+        "unstructured": "Pasini, D. & Guest, J. K. Imperfect architected materials: mechanics and topology optimization. MRS Bull. 44, 766–772 (2019).",
+        "journal-title": "MRS Bull."
+      },
+      {
+        "key": "40854_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moussa, A., Melancon, D., El Elmi, A., & Pasini, D. Topology optimization of imperfect lattice materials built with process-induced defects via powder bed fusion. Addit. Manuf. 37, 101608 (2020).",
+        "DOI": "10.1016/j.addma.2020.101608"
+      },
+      {
+        "key": "40854_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "1365",
+        "DOI": "10.1021/acsphotonics.7b01377",
+        "volume": "5",
+        "author": "D Liu",
+        "year": "2018",
+        "unstructured": "Liu, D., Tan, Y., Khoram, E. & Yu, Z. Training deep neural networks for the inverse design of nanophotonic structures. ACS Photonics 5, 1365–1369 (2018).",
+        "journal-title": "ACS Photonics"
+      },
+      {
+        "key": "40854_CR28",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Kumar, S., Tan, S., Zheng, L. & Kochmann, D. M. Inverse-designed spinodoid metamaterials. npj Comput. Mater. 6, https://doi.org/10.1038/s41524-020-0341-6 (2020).",
+        "DOI": "10.1038/s41524-020-0341-6"
+      },
+      {
+        "key": "40854_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "127",
+        "DOI": "10.1016/0022-5096(63)90060-7",
+        "volume": "11",
+        "author": "Z Hashin",
+        "year": "1963",
+        "unstructured": "Hashin, Z. & Shtrikman, S. A variational approach to the theory of the elastic behaviour of multiphase materials. J. Mech. Phys. Solids 11, 127–140 (1963).",
+        "journal-title": "J. Mech. Phys. Solids"
+      },
+      {
+        "key": "40854_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "981",
+        "DOI": "10.1016/0022-5096(93)90051-G",
+        "volume": "41",
+        "author": "P Suquet",
+        "year": "1993",
+        "unstructured": "Suquet, P. Overall potentials and extremal surfaces of power law or ideally plastic composites. J. Mech. Phys. Solids 41, 981–1002 (1993).",
+        "journal-title": "J. Mech. Phys. Solids"
+      },
+      {
+        "key": "40854_CR31",
+        "first-page": "1391",
+        "volume": "84",
+        "author": "M Mazur",
+        "year": "2016",
+        "unstructured": "Mazur, M. et al. Deformation and failure behaviour of Ti-6Al-4V lattice structures manufactured by selective laser melting (SLM). Int. J. Adv. Manuf. Technol. 84, 1391–1411 (2016).",
+        "journal-title": "Int. J. Adv. Manuf. Technol."
+      },
+      {
+        "key": "40854_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "160",
+        "DOI": "10.1016/j.jmps.2017.07.003",
+        "volume": "107",
+        "author": "L Liu",
+        "year": "2017",
+        "unstructured": "Liu, L., Kamm, P., García-Moreno, F., Banhart, J. & Pasini, D. Elastic and failure response of imperfect three-dimensional metallic lattices: the role of geometric defects induced by selective laser melting. J. Mech. Phys. Solids 107, 160–184 (2017).",
+        "journal-title": "J. Mech. Phys. Solids"
+      },
+      {
+        "key": "40854_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "1136",
+        "DOI": "10.3390/ma10101136",
+        "volume": "10",
+        "author": "L Hitzler",
+        "year": "2017",
+        "unstructured": "Hitzler, L. et al. On the anisotropic mechanical properties of selective laser-melted stainless steel. Materials 10, 1136 (2017).",
+        "journal-title": "Materials"
+      },
+      {
+        "key": "40854_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "27",
+        "DOI": "10.1016/j.matdes.2018.01.023",
+        "volume": "143",
+        "author": "Z Xiao",
+        "year": "2018",
+        "unstructured": "Xiao, Z. et al. Evaluation of topology-optimized lattice structures manufactured via selective laser melting. Mater. Des. 143, 27–37 (2018).",
+        "journal-title": "Mater. Des."
+      },
+      {
+        "key": "40854_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "299",
+        "DOI": "10.1123/jab.11.3.299",
+        "volume": "11",
+        "author": "E Henning",
+        "year": "1995",
+        "unstructured": "Henning, E. & Milani, T. In-shoe pressure distribution for running in various types of footwear. J. Appl. Biomech. 11, 299–310 (1995).",
+        "journal-title": "J. Appl. Biomech."
+      },
+      {
+        "key": "40854_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "276",
+        "DOI": "10.1002/adem.201300206",
+        "volume": "16",
+        "author": "T Schaedler",
+        "year": "2014",
+        "unstructured": "Schaedler, T. et al. Designing metallic microlattices for energy absorber applications. Adv. Eng. Mater. 16, 276–283 (2014).",
+        "journal-title": "Adv. Eng. Mater."
+      },
+      {
+        "key": "40854_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "138",
+        "DOI": "10.1016/j.ijimpeng.2018.05.014",
+        "volume": "120",
+        "author": "C Lai",
+        "year": "2018",
+        "unstructured": "Lai, C. & Daraio, C. Highly porous microlattices as ultrathin and efficient impact absorbers. Int. J. Impact Eng. 120, 138–149 (2018).",
+        "journal-title": "Int. J. Impact Eng."
+      },
+      {
+        "key": "40854_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "5865",
+        "DOI": "10.1002/adma.201600610",
+        "volume": "28",
+        "author": "T Frenzel",
+        "year": "2016",
+        "unstructured": "Frenzel, T., Findeisen, C., Kadic, M., Gumbsch, P. & Wegener, M. Tailored buckling microlattices as reusable light‐weight shock absorbers. Adv. Mater. 28, 5865–5870 (2016).",
+        "journal-title": "Adv. Mater."
+      },
+      {
+        "key": "40854_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "193",
+        "DOI": "10.1108/RPJ-12-2014-0182",
+        "volume": "21",
+        "author": "D Correa",
+        "year": "2015",
+        "unstructured": "Correa, D. et al. Negative stiffness honeycombs for recoverable shock isolation. Rapid Prototyp. J. 21, 193–200 (2015).",
+        "journal-title": "Rapid Prototyp. J."
+      },
+      {
+        "key": "40854_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "151",
+        "DOI": "10.1177/0021955X16639035",
+        "volume": "53",
+        "author": "I Maskery",
+        "year": "2017",
+        "unstructured": "Maskery, I. et al. An investigation into reinforced and functionally graded lattice structures. J. Cell. Plast. 53, 151–165 (2017).",
+        "journal-title": "J. Cell. Plast."
+      },
+      {
+        "key": "40854_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "2435",
+        "DOI": "10.1039/c3ee41436a",
+        "volume": "6",
+        "author": "S Chen",
+        "year": "2013",
+        "unstructured": "Chen, S. et al. Elastic carbon foam via direct carbonization of polymer foam for flexible electrodes and organic chemical absorption. Energy Environ. Sci. 6, 2435–2439 (2013).",
+        "journal-title": "Energy Environ. Sci."
+      },
+      {
+        "key": "40854_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moss, W. & King, M. Impact response of US Army and National Football League helmet pad systems. (Lawrence Livermore National Lab CA, 2011).",
+        "DOI": "10.2172/1021058"
+      },
+      {
+        "key": "40854_CR43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pan, S. & Yang, Q. A survey on transfer learning. IEEE Trans. Knowl. Data Eng. 22, 1345–1359 (2009).",
+        "DOI": "10.1109/TKDE.2009.191"
+      },
+      {
+        "key": "40854_CR44",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Nikula, S., Matikainen, M. K., Bozorgmehri, B. & Mikkola, A. The usability and limitations of the various absolute nodal coordinate beam elements subjected to torsional and bi-moment loading. Eur. J. Mech. A/Solids 97, https://doi.org/10.1016/j.euromechsol.2022.104824 (2023).",
+        "DOI": "10.1016/j.euromechsol.2022.104824"
+      }
+    ],
+    "container-title": [
+      "Nature Communications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41467-023-40854-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-023-40854-1",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-023-40854-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          16
+        ]
+      ],
+      "date-time": "2023-11-16T13:03:06Z",
+      "timestamp": 1700139786000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41467-023-40854-1"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          18
+        ]
+      ]
+    },
+    "references-count": 44,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "40854"
+    ],
+    "URL": "https://doi.org/10.1038/s41467-023-40854-1",
+    "relation": {},
+    "ISSN": [
+      "2041-1723"
+    ],
+    "issn-type": [
+      {
+        "value": "2041-1723",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          18
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "29 November 2022",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "11 August 2023",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "18 September 2023",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The Regents of the University of California, a California Corporation has filed a U.S. provisional application (serial no. 63/456200) for the presented machine learning-based rapid inverse design methodology (pending). Inventors include X.Z., C.H., D.Y., and M.B. The remaining authors, Z.X., C.L., H.L., D.E., M.K., V.D., and Z.K. declare no financial and non-financial competing interests in the subject matter or materials discussed in this article.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "5765"
+  }
+}

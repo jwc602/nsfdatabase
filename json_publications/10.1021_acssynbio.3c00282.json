@@ -1,0 +1,2203 @@
+{
+  "doi": "10.1021/acssynbio.3c00282",
+  "openalex": {
+    "id": "https://openalex.org/W4387871382",
+    "doi": "https://doi.org/10.1021/acssynbio.3c00282",
+    "title": "Module-Based Polyketide Synthase Engineering for <i>de Novo</i> Polyketide Biosynthesis",
+    "display_name": "Module-Based Polyketide Synthase Engineering for <i>de Novo</i> Polyketide Biosynthesis",
+    "publication_year": 2023,
+    "publication_date": "2023-10-23",
+    "ids": {
+      "openalex": "https://openalex.org/W4387871382",
+      "doi": "https://doi.org/10.1021/acssynbio.3c00282",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/37871264"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1021/acssynbio.3c00282",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1021/acssynbio.3c00282",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S54167817",
+        "display_name": "ACS Synthetic Biology",
+        "issn_l": "2161-5063",
+        "issn": [
+          "2161-5063"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320006",
+        "host_organization_name": "American Chemical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320006"
+        ],
+        "host_organization_lineage_names": [
+          "American Chemical Society"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "ACS Synthetic Biology",
+      "raw_type": "journal-article"
+    },
+    "type": "review",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1021/acssynbio.3c00282",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5051167729",
+          "display_name": "Alberto A. Nava",
+          "orcid": "https://orcid.org/0000-0002-0172-4145"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I53012624",
+            "display_name": "Joint BioEnergy Institute",
+            "ror": "https://ror.org/03ww55028",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I148283060",
+            "display_name": "Lawrence Berkeley National Laboratory",
+            "ror": "https://ror.org/02jbv0t02",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I39565521"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Alberto A. Nava",
+        "raw_affiliation_strings": [
+          "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States",
+          "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California 94720, United States",
+          "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States",
+            "institution_ids": [
+              "https://openalex.org/I148283060"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States",
+            "institution_ids": [
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California 94720, United States",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5001195842",
+          "display_name": "Jacob B. Roberts",
+          "orcid": "https://orcid.org/0000-0001-7564-1708"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I53012624",
+            "display_name": "Joint BioEnergy Institute",
+            "ror": "https://ror.org/03ww55028",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I148283060",
+            "display_name": "Lawrence Berkeley National Laboratory",
+            "ror": "https://ror.org/02jbv0t02",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I39565521"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jacob Roberts",
+        "raw_affiliation_strings": [
+          "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States",
+          "Department of Bioengineering, University of California, Berkeley, Berkeley, California 94720, United States",
+          "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Bioengineering, University of California, Berkeley, Berkeley, California 94720, United States",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States",
+            "institution_ids": [
+              "https://openalex.org/I148283060"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States",
+            "institution_ids": [
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I53012624"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5081447261",
+          "display_name": "Robert W. Haushalter",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I53012624",
+            "display_name": "Joint BioEnergy Institute",
+            "ror": "https://ror.org/03ww55028",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I148283060",
+            "display_name": "Lawrence Berkeley National Laboratory",
+            "ror": "https://ror.org/02jbv0t02",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I39565521"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Robert W. Haushalter",
+        "raw_affiliation_strings": [
+          "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States",
+          "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States",
+            "institution_ids": [
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States",
+            "institution_ids": [
+              "https://openalex.org/I148283060"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100384094",
+          "display_name": "Zilong Wang",
+          "orcid": "https://orcid.org/0000-0001-8589-8419"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I53012624",
+            "display_name": "Joint BioEnergy Institute",
+            "ror": "https://ror.org/03ww55028",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I148283060",
+            "display_name": "Lawrence Berkeley National Laboratory",
+            "ror": "https://ror.org/02jbv0t02",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I39565521"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zilong Wang",
+        "raw_affiliation_strings": [
+          "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States",
+          "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States",
+            "institution_ids": [
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States",
+            "institution_ids": [
+              "https://openalex.org/I148283060"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5000312223",
+          "display_name": "Jay D. Keasling",
+          "orcid": "https://orcid.org/0000-0003-4170-6088"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210145761",
+            "display_name": "Shenzhen Institutes of Advanced Technology",
+            "ror": "https://ror.org/04gh4er46",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I19820366",
+              "https://openalex.org/I4210145761"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2801134892",
+            "display_name": "Novo Nordisk Foundation",
+            "ror": "https://ror.org/04txyc737",
+            "country_code": "DK",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I2801134892"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I53012624",
+            "display_name": "Joint BioEnergy Institute",
+            "ror": "https://ror.org/03ww55028",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I148283060",
+            "display_name": "Lawrence Berkeley National Laboratory",
+            "ror": "https://ror.org/02jbv0t02",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I39565521"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "DK",
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jay D. Keasling",
+        "raw_affiliation_strings": [
+          "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States",
+          "Center for Synthetic Biochemistry, Shenzhen Institutes for Advanced Technologies, Shenzhen 518055, P.R. China",
+          "Department of Bioengineering, University of California, Berkeley, Berkeley, California 94720, United States",
+          "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California 94720, United States",
+          "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States",
+          "The Novo Nordisk Foundation Center for Biosustainability, Technical University Denmark, Kemitorvet, Building 220, Kongens Lyngby 2800, Denmark"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Novo Nordisk Foundation Center for Biosustainability, Technical University Denmark, Kemitorvet, Building 220, Kongens Lyngby 2800, Denmark",
+            "institution_ids": [
+              "https://openalex.org/I2801134892"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States",
+            "institution_ids": [
+              "https://openalex.org/I148283060"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Bioengineering, University of California, Berkeley, Berkeley, California 94720, United States",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Synthetic Biochemistry, Shenzhen Institutes for Advanced Technologies, Shenzhen 518055, P.R. China",
+            "institution_ids": [
+              "https://openalex.org/I4210145761"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States",
+            "institution_ids": [
+              "https://openalex.org/I148283060",
+              "https://openalex.org/I53012624"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California 94720, United States",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5000312223"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I148283060",
+      "https://openalex.org/I2801134892",
+      "https://openalex.org/I4210145761",
+      "https://openalex.org/I53012624",
+      "https://openalex.org/I95457486"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 6.51590454,
+    "has_fulltext": false,
+    "cited_by_count": 21,
+    "citation_normalized_percentile": {
+      "value": 0.96738203,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "12",
+      "issue": "11",
+      "first_page": "3148",
+      "last_page": "3155"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10252",
+      "display_name": "Microbial Natural Products and Biosynthesis",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2736",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10252",
+        "display_name": "Microbial Natural Products and Biosynthesis",
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2736",
+          "display_name": "Pharmacology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10076",
+        "display_name": "Plant-Microbe Interactions and Immunity",
+        "score": 0.9886000156402588,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1110",
+          "display_name": "Plant Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10171",
+        "display_name": "Biofuel production and bioconversion",
+        "score": 0.9835000038146973,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/polyketide",
+        "display_name": "Polyketide",
+        "score": 0.9238930344581604
+      },
+      {
+        "id": "https://openalex.org/keywords/polyketide-synthase",
+        "display_name": "Polyketide synthase",
+        "score": 0.8574293255805969
+      },
+      {
+        "id": "https://openalex.org/keywords/synthetic-biology",
+        "display_name": "Synthetic biology",
+        "score": 0.5391806364059448
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.48977041244506836
+      },
+      {
+        "id": "https://openalex.org/keywords/biosynthesis",
+        "display_name": "Biosynthesis",
+        "score": 0.4877496361732483
+      },
+      {
+        "id": "https://openalex.org/keywords/function",
+        "display_name": "Function (biology)",
+        "score": 0.48385941982269287
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.39929479360580444
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.3471987545490265
+      },
+      {
+        "id": "https://openalex.org/keywords/genetics",
+        "display_name": "Genetics",
+        "score": 0.21605658531188965
+      },
+      {
+        "id": "https://openalex.org/keywords/gene",
+        "display_name": "Gene",
+        "score": 0.1312069594860077
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2778635478",
+        "wikidata": "https://www.wikidata.org/wiki/Q516751",
+        "display_name": "Polyketide",
+        "level": 4,
+        "score": 0.9238930344581604
+      },
+      {
+        "id": "https://openalex.org/C2777763344",
+        "wikidata": "https://www.wikidata.org/wiki/Q4369963",
+        "display_name": "Polyketide synthase",
+        "level": 5,
+        "score": 0.8574293255805969
+      },
+      {
+        "id": "https://openalex.org/C191908910",
+        "wikidata": "https://www.wikidata.org/wiki/Q862838",
+        "display_name": "Synthetic biology",
+        "level": 2,
+        "score": 0.5391806364059448
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.48977041244506836
+      },
+      {
+        "id": "https://openalex.org/C553450214",
+        "wikidata": "https://www.wikidata.org/wiki/Q851162",
+        "display_name": "Biosynthesis",
+        "level": 3,
+        "score": 0.4877496361732483
+      },
+      {
+        "id": "https://openalex.org/C14036430",
+        "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+        "display_name": "Function (biology)",
+        "level": 2,
+        "score": 0.48385941982269287
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.39929479360580444
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.3471987545490265
+      },
+      {
+        "id": "https://openalex.org/C54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "level": 1,
+        "score": 0.21605658531188965
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.1312069594860077
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D048630",
+        "descriptor_name": "Polyketide Synthases",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D061065",
+        "descriptor_name": "Polyketides",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D048630",
+        "descriptor_name": "Polyketide Synthases",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D061065",
+        "descriptor_name": "Polyketides",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D048630",
+        "descriptor_name": "Polyketide Synthases",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D061065",
+        "descriptor_name": "Polyketides",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      }
+    ],
+    "locations_count": 6,
+    "locations": [
+      {
+        "id": "doi:10.1021/acssynbio.3c00282",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1021/acssynbio.3c00282",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S54167817",
+          "display_name": "ACS Synthetic Biology",
+          "issn_l": "2161-5063",
+          "issn": [
+            "2161-5063"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320006",
+          "host_organization_name": "American Chemical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320006"
+          ],
+          "host_organization_lineage_names": [
+            "American Chemical Society"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "ACS Synthetic Biology",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:37871264",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37871264",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "ACS synthetic biology",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:10661043",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10661043",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10661043/pdf/sb3c00282.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "ACS Synth Biol",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:escholarship.org:ark:/13030/qt1gz463c8",
+        "is_oa": true,
+        "landing_page_url": "https://escholarship.org/uc/item/1gz463c8",
+        "pdf_url": null,
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "ACS Synthetic Biology, vol 12, iss 11",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:osti.gov:2203299",
+        "is_oa": true,
+        "landing_page_url": "https://www.osti.gov/biblio/2203299",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": ""
+      },
+      {
+        "id": "pmh:oai:osti.gov:2439719",
+        "is_oa": true,
+        "landing_page_url": "https://www.osti.gov/biblio/2439719",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": ""
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1021/acssynbio.3c00282",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1021/acssynbio.3c00282",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S54167817",
+        "display_name": "ACS Synthetic Biology",
+        "issn_l": "2161-5063",
+        "issn": [
+          "2161-5063"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320006",
+        "host_organization_name": "American Chemical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320006"
+        ],
+        "host_organization_lineage_names": [
+          "American Chemical Society"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "ACS Synthetic Biology",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.44999998807907104,
+        "display_name": "Industry, innovation and infrastructure",
+        "id": "https://metadata.un.org/sdg/9"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G6818075007",
+        "display_name": null,
+        "funder_award_id": "EE0008926",
+        "funder_id": "https://openalex.org/F4320337509",
+        "funder_display_name": "Biological and Environmental Research"
+      },
+      {
+        "id": "https://openalex.org/G7629237052",
+        "display_name": null,
+        "funder_award_id": "DE-AC02-05CH11231",
+        "funder_id": "https://openalex.org/F4320337509",
+        "funder_display_name": "Biological and Environmental Research"
+      },
+      {
+        "id": "https://openalex.org/G7999210852",
+        "display_name": null,
+        "funder_award_id": "FA9550-21-F-0003",
+        "funder_id": "https://openalex.org/F4320333566",
+        "funder_display_name": "National Defense Science and Engineering Graduate"
+      },
+      {
+        "id": "https://openalex.org/G7209354798",
+        "display_name": null,
+        "funder_award_id": "2018253421",
+        "funder_id": "https://openalex.org/F4320337368",
+        "funder_display_name": "Division of Graduate Education"
+      },
+      {
+        "id": "https://openalex.org/G1545241449",
+        "display_name": null,
+        "funder_award_id": "EE0008926",
+        "funder_id": "https://openalex.org/F4320337708",
+        "funder_display_name": "Bioenergy Technologies Office"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320333566",
+        "display_name": "National Defense Science and Engineering Graduate",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320337368",
+        "display_name": "Division of Graduate Education",
+        "ror": "https://ror.org/00whkrf32"
+      },
+      {
+        "id": "https://openalex.org/F4320337509",
+        "display_name": "Biological and Environmental Research",
+        "ror": "https://ror.org/0114b2m14"
+      },
+      {
+        "id": "https://openalex.org/F4320337708",
+        "display_name": "Bioenergy Technologies Office",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 85,
+    "referenced_works": [
+      "https://openalex.org/W2010754031",
+      "https://openalex.org/W2005279468",
+      "https://openalex.org/W2053850109",
+      "https://openalex.org/W1993274596",
+      "https://openalex.org/W2808865185",
+      "https://openalex.org/W4324044833",
+      "https://openalex.org/W2054474037",
+      "https://openalex.org/W2060884972",
+      "https://openalex.org/W2106957202",
+      "https://openalex.org/W2751927437",
+      "https://openalex.org/W3134876231",
+      "https://openalex.org/W2176771475",
+      "https://openalex.org/W2766707489",
+      "https://openalex.org/W2201191303",
+      "https://openalex.org/W2105893981",
+      "https://openalex.org/W2898249997",
+      "https://openalex.org/W2410818711",
+      "https://openalex.org/W2810949692",
+      "https://openalex.org/W2146504232",
+      "https://openalex.org/W3211302022",
+      "https://openalex.org/W3210495999",
+      "https://openalex.org/W2575918694",
+      "https://openalex.org/W3201668219",
+      "https://openalex.org/W2996948466",
+      "https://openalex.org/W2602567340",
+      "https://openalex.org/W3177828909",
+      "https://openalex.org/W3186179742",
+      "https://openalex.org/W3212912034",
+      "https://openalex.org/W2941112903",
+      "https://openalex.org/W2072302714",
+      "https://openalex.org/W1981740353",
+      "https://openalex.org/W2068275245",
+      "https://openalex.org/W3048475900",
+      "https://openalex.org/W4210266131",
+      "https://openalex.org/W2772427550",
+      "https://openalex.org/W2951089481",
+      "https://openalex.org/W2170889268",
+      "https://openalex.org/W2792784204",
+      "https://openalex.org/W1994380180",
+      "https://openalex.org/W2045021635",
+      "https://openalex.org/W2994786999",
+      "https://openalex.org/W3174477824",
+      "https://openalex.org/W2008030704",
+      "https://openalex.org/W2121603293",
+      "https://openalex.org/W3191385766",
+      "https://openalex.org/W2398193949",
+      "https://openalex.org/W2970190965",
+      "https://openalex.org/W4385780829",
+      "https://openalex.org/W1979247338",
+      "https://openalex.org/W2148927739",
+      "https://openalex.org/W2153163110",
+      "https://openalex.org/W2062124724",
+      "https://openalex.org/W2156212265",
+      "https://openalex.org/W2034511497",
+      "https://openalex.org/W2039285595",
+      "https://openalex.org/W1965404937",
+      "https://openalex.org/W2944857295",
+      "https://openalex.org/W2038463001",
+      "https://openalex.org/W3015016785",
+      "https://openalex.org/W2146684334",
+      "https://openalex.org/W2795822281",
+      "https://openalex.org/W2059642562",
+      "https://openalex.org/W2019477751",
+      "https://openalex.org/W1993107257",
+      "https://openalex.org/W3206019034",
+      "https://openalex.org/W3155899148",
+      "https://openalex.org/W2949265479",
+      "https://openalex.org/W4240620728",
+      "https://openalex.org/W4205326481",
+      "https://openalex.org/W4283399717",
+      "https://openalex.org/W2078331982",
+      "https://openalex.org/W4367320887",
+      "https://openalex.org/W3202105508",
+      "https://openalex.org/W4281790889",
+      "https://openalex.org/W3216341763",
+      "https://openalex.org/W3093098684",
+      "https://openalex.org/W4224988655",
+      "https://openalex.org/W4327550249",
+      "https://openalex.org/W4318071656",
+      "https://openalex.org/W4376618380",
+      "https://openalex.org/W4383186420",
+      "https://openalex.org/W3161596995",
+      "https://openalex.org/W4302307901",
+      "https://openalex.org/W2140054852",
+      "https://openalex.org/W4391467698"
+    ],
+    "related_works": [
+      "https://openalex.org/W2108188770",
+      "https://openalex.org/W2056151342",
+      "https://openalex.org/W2073091301",
+      "https://openalex.org/W2157000437",
+      "https://openalex.org/W1988752536",
+      "https://openalex.org/W2401004808",
+      "https://openalex.org/W2041025007",
+      "https://openalex.org/W2061932551",
+      "https://openalex.org/W2148964398",
+      "https://openalex.org/W1730334122"
+    ],
+    "abstract_inverted_index": {
+      "Polyketide": [
+        0
+      ],
+      "retrobiosynthesis,": [
+        1
+      ],
+      "where": [
+        2
+      ],
+      "the": [
+        3,
+        16,
+        19,
+        27,
+        45,
+        67,
+        79,
+        99
+      ],
+      "biosynthetic": [
+        4
+      ],
+      "pathway": [
+        5
+      ],
+      "of": [
+        6,
+        18,
+        32,
+        44,
+        50,
+        55,
+        97,
+        101
+      ],
+      "a": [
+        7,
+        94
+      ],
+      "given": [
+        8
+      ],
+      "polyketide": [
+        9,
+        20
+      ],
+      "can": [
+        10
+      ],
+      "be": [
+        11,
+        83
+      ],
+      "reversibly": [
+        12
+      ],
+      "engineered": [
+        13
+      ],
+      "due": [
+        14
+      ],
+      "to": [
+        15,
+        29,
+        47,
+        66,
+        123
+      ],
+      "colinearity": [
+        17
+      ],
+      "synthase": [
+        21
+      ],
+      "(PKS)": [
+        22
+      ],
+      "structure": [
+        23
+      ],
+      "and": [
+        24,
+        36,
+        72,
+        77,
+        117
+      ],
+      "function,": [
+        25
+      ],
+      "has": [
+        26
+      ],
+      "potential": [
+        28
+      ],
+      "produce": [
+        30,
+        48
+      ],
+      "millions": [
+        31
+      ],
+      "organic": [
+        33
+      ],
+      "molecules.": [
+        34,
+        52
+      ],
+      "Mixing": [
+        35
+      ],
+      "matching": [
+        37
+      ],
+      "modules": [
+        38
+      ],
+      "from": [
+        39,
+        131
+      ],
+      "natural": [
+        40
+      ],
+      "PKSs": [
+        41,
+        56,
+        71
+      ],
+      "is": [
+        42,
+        92
+      ],
+      "one": [
+        43
+      ],
+      "routes": [
+        46
+      ],
+      "many": [
+        49
+      ],
+      "these": [
+        51,
+        102
+      ],
+      "Evolutionary": [
+        53
+      ],
+      "analysis": [
+        54
+      ],
+      "suggests": [
+        57
+      ],
+      "that": [
+        58,
+        73
+      ],
+      "traditionally": [
+        59
+      ],
+      "used": [
+        60
+      ],
+      "module": [
+        61
+      ],
+      "boundaries": [
+        62,
+        75
+      ],
+      "may": [
+        63,
+        82
+      ],
+      "not": [
+        64
+      ],
+      "lead": [
+        65
+      ],
+      "most": [
+        68
+      ],
+      "productive": [
+        69
+      ],
+      "hybrid": [
+        70,
+        88
+      ],
+      "new": [
+        74
+      ],
+      "around": [
+        76
+      ],
+      "within": [
+        78
+      ],
+      "ketosynthase": [
+        80
+      ],
+      "domain": [
+        81
+      ],
+      "more": [
+        84
+      ],
+      "active": [
+        85
+      ],
+      "when": [
+        86
+      ],
+      "constructing": [
+        87
+      ],
+      "PKSs.": [
+        89
+      ],
+      "As": [
+        90
+      ],
+      "this": [
+        91
+      ],
+      "still": [
+        93
+      ],
+      "nascent": [
+        95
+      ],
+      "area": [
+        96
+      ],
+      "research,": [
+        98
+      ],
+      "generality": [
+        100
+      ],
+      "design": [
+        103
+      ],
+      "principles": [
+        104
+      ],
+      "based": [
+        105
+      ],
+      "on": [
+        106
+      ],
+      "existing": [
+        107
+      ],
+      "engineering": [
+        108,
+        126,
+        133
+      ],
+      "efforts": [
+        109,
+        134
+      ],
+      "remains": [
+        110
+      ],
+      "inconclusive.": [
+        111
+      ],
+      "Recent": [
+        112
+      ],
+      "advances": [
+        113
+      ],
+      "in": [
+        114
+      ],
+      "structural": [
+        115
+      ],
+      "modeling": [
+        116
+      ],
+      "synthetic": [
+        118
+      ],
+      "biology": [
+        119
+      ],
+      "present": [
+        120
+      ],
+      "an": [
+        121
+      ],
+      "opportunity": [
+        122
+      ],
+      "accelerate": [
+        124
+      ],
+      "PKS": [
+        125
+      ],
+      "by": [
+        127
+      ],
+      "re-evaluating": [
+        128
+      ],
+      "insights": [
+        129
+      ],
+      "gained": [
+        130
+      ],
+      "previous": [
+        132
+      ],
+      "with": [
+        135
+      ],
+      "cutting": [
+        136
+      ],
+      "edge": [
+        137
+      ],
+      "tools.": [
+        138
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 13
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 8
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2023-10-24T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          19
+        ]
+      ],
+      "date-time": "2025-12-19T22:09:49Z",
+      "timestamp": 1766182189631,
+      "version": "3.37.3"
+    },
+    "reference-count": 83,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              23
+            ]
+          ],
+          "date-time": "2023-10-23T00:00:00Z",
+          "timestamp": 1698019200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006206",
+        "name": "Biological and Environmental Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EE0008926",
+          "DE-AC02-05CH11231"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EE0008926",
+              "DE-AC02-05CH11231"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006206",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000082",
+        "name": "Division of Graduate Education",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2018253421"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2018253421"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000082",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100011735",
+        "name": "Bioenergy Technologies Office",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EE0008926"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EE0008926"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100011735",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014037",
+        "name": "National Defense Science and Engineering Graduate",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "FA9550-21-F-0003"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "FA9550-21-F-0003"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014037",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ACS Synth. Biol."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          17
+        ]
+      ]
+    },
+    "DOI": "10.1021/acssynbio.3c00282",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2023-10-23T19:56:39Z",
+      "timestamp": 1698090999000
+    },
+    "page": "3148-3155",
+    "source": "Crossref",
+    "is-referenced-by-count": 20,
+    "title": [
+      "Module-Based Polyketide Synthase Engineering for <i>de Novo</i> Polyketide Biosynthesis"
+    ],
+    "prefix": "10.1021",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Alberto A.",
+        "family": "Nava",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States"
+          },
+          {
+            "name": "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States"
+          },
+          {
+            "name": "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California 94720, United States"
+          }
+        ]
+      },
+      {
+        "given": "Jacob",
+        "family": "Roberts",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States"
+          },
+          {
+            "name": "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States"
+          },
+          {
+            "name": "Department of Bioengineering, University of California, Berkeley, Berkeley, California 94720, United States"
+          }
+        ]
+      },
+      {
+        "given": "Robert W.",
+        "family": "Haushalter",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States"
+          },
+          {
+            "name": "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States"
+          }
+        ]
+      },
+      {
+        "given": "Zilong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States"
+          },
+          {
+            "name": "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4170-6088",
+        "authenticated-orcid": true,
+        "given": "Jay D.",
+        "family": "Keasling",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Joint BioEnergy Institute, Lawrence Berkeley National Laboratory, Emeryville, California 94608, United States"
+          },
+          {
+            "name": "Biological Systems and Engineering Division, Lawrence Berkeley National Laboratory, Berkeley, California 94720, United States"
+          },
+          {
+            "name": "Department of Chemical and Biomolecular Engineering, University of California, Berkeley, Berkeley, California 94720, United States"
+          },
+          {
+            "name": "Department of Bioengineering, University of California, Berkeley, Berkeley, California 94720, United States"
+          },
+          {
+            "name": "Center for Synthetic Biochemistry, Shenzhen Institutes for Advanced Technologies, Shenzhen 518055, P.R. China"
+          }
+        ]
+      }
+    ],
+    "member": "316",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1/cit1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/CS9881700111"
+      },
+      {
+        "key": "ref2/cit2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nchembio.377"
+      },
+      {
+        "key": "ref3/cit3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/348176a0"
+      },
+      {
+        "key": "ref4/cit4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.2024119"
+      },
+      {
+        "key": "ref5/cit5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/microorganisms7050124"
+      },
+      {
+        "key": "ref6/cit6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41589-023-01277-7"
+      },
+      {
+        "key": "ref7/cit7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1161269"
+      },
+      {
+        "key": "ref8/cit8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/cb600376r"
+      },
+      {
+        "key": "ref9/cit9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C5NP00109A"
+      },
+      {
+        "key": "ref10/cit10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.synbio.2017.08.005"
+      },
+      {
+        "key": "ref11/cit11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2021.01.052"
+      },
+      {
+        "key": "ref12/cit12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C5NP00092K"
+      },
+      {
+        "key": "ref13/cit13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-017-01344-3"
+      },
+      {
+        "key": "ref14/cit14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acssynbio.5b00153"
+      },
+      {
+        "key": "ref15/cit15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/AEM.02961-09"
+      },
+      {
+        "key": "ref16/cit16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-018-07040-0"
+      },
+      {
+        "key": "ref17/cit17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M116.730531"
+      },
+      {
+        "key": "ref18/cit18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C8NP00030A"
+      },
+      {
+        "key": "ref19/cit19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cbic.201500113"
+      },
+      {
+        "key": "ref20/cit20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abi8532"
+      },
+      {
+        "key": "ref21/cit21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abi8358"
+      },
+      {
+        "key": "ref22/cit22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/anie.201611371"
+      },
+      {
+        "key": "ref23/cit23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acschembio.1c00598"
+      },
+      {
+        "key": "ref24/cit24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-13811-0"
+      },
+      {
+        "key": "ref25/cit25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/anie.201701281"
+      },
+      {
+        "key": "ref26/cit26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03819-2"
+      },
+      {
+        "key": "ref27/cit27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abj8754"
+      },
+      {
+        "key": "ref28/cit28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abm4805"
+      },
+      {
+        "key": "ref29/cit29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkz297"
+      },
+      {
+        "key": "ref30/cit30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt0905-1083"
+      },
+      {
+        "key": "ref31/cit31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt1128"
+      },
+      {
+        "key": "ref32/cit32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chembiol.2006.02.011"
+      },
+      {
+        "key": "ref33/cit33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acschembio.0c00405"
+      },
+      {
+        "key": "ref34/cit34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-27955-z"
+      },
+      {
+        "key": "ref35/cit35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nchem.2890"
+      },
+      {
+        "key": "ref36/cit36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41557-019-0276-z"
+      },
+      {
+        "key": "ref37/cit37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.biochem.76.053105.093515"
+      },
+      {
+        "key": "ref38/cit38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/prot.25493"
+      },
+      {
+        "key": "ref39/cit39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt1379"
+      },
+      {
+        "key": "ref40/cit40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/C5NP00125K"
+      },
+      {
+        "key": "ref41/cit41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.chemrev.9b00525"
+      },
+      {
+        "key": "ref42/cit42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2100751118"
+      },
+      {
+        "key": "ref43/cit43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1574-6968.2003.tb11509.x"
+      },
+      {
+        "key": "ref44/cit44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0305877101"
+      },
+      {
+        "key": "ref45/cit45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D1CC03073F"
+      },
+      {
+        "key": "ref46/cit46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacs.5b04842"
+      },
+      {
+        "key": "ref47/cit47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-11896-1"
+      },
+      {
+        "key": "ref48/cit48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-40464-x"
+      },
+      {
+        "key": "ref49/cit49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chembiol.2013.09.015"
+      },
+      {
+        "key": "ref50/cit50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1074-5521(03)00156-X"
+      },
+      {
+        "key": "ref51/cit51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/cb8002607"
+      },
+      {
+        "key": "ref52/cit52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0110965"
+      },
+      {
+        "key": "ref53/cit53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M112.362210"
+      },
+      {
+        "key": "ref54/cit54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.chembiol.2007.07.012"
+      },
+      {
+        "key": "ref55/cit55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0601924103"
+      },
+      {
+        "key": "ref56/cit56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2008.09.084"
+      },
+      {
+        "key": "ref57/cit57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10295-019-02189-z"
+      },
+      {
+        "key": "ref58/cit58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nchembio.964"
+      },
+      {
+        "key": "ref59/cit59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.biochem.0c00126"
+      },
+      {
+        "key": "ref60/cit60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.011399198"
+      },
+      {
+        "key": "ref61/cit61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jsb.2018.04.001"
+      },
+      {
+        "key": "ref62/cit62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmb.2014.03.015"
+      },
+      {
+        "key": "ref63/cit63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature13423"
+      },
+      {
+        "key": "ref64/cit64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature13409"
+      },
+      {
+        "key": "ref65/cit65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jacsau.1c00043"
+      },
+      {
+        "key": "ref66/cit66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-22497-2"
+      },
+      {
+        "key": "ref67/cit67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41589-019-0301-y"
+      },
+      {
+        "key": "ref68/cit68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/ange.201408576"
+      },
+      {
+        "key": "ref69/cit69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acschembio.1c00856"
+      },
+      {
+        "key": "ref70/cit70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.str.2022.05.021"
+      },
+      {
+        "key": "ref71/cit71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1014081107"
+      },
+      {
+        "key": "ref72/cit72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/D3NP00003F"
+      },
+      {
+        "key": "ref73/cit73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2021.10.04.463034"
+      },
+      {
+        "key": "ref74/cit74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-022-01488-1"
+      },
+      {
+        "key": "ref75/cit75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-04184-w"
+      },
+      {
+        "key": "ref76/cit76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acssynbio.0c00345"
+      },
+      {
+        "key": "ref77/cit77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-04599-z"
+      },
+      {
+        "key": "ref78/cit78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.ade2574"
+      },
+      {
+        "key": "ref79/cit79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-022-01618-2"
+      },
+      {
+        "key": "ref80/cit80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2023.05.11.540333"
+      },
+      {
+        "key": "ref81/cit81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acschembio.3c00074"
+      },
+      {
+        "key": "ref82/cit82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkab335"
+      },
+      {
+        "key": "ref83/cit83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2210.01776"
+      }
+    ],
+    "container-title": [
+      "ACS Synthetic Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://pubs.acs.org/doi/pdf/10.1021/acssynbio.3c00282",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "unspecified"
+      },
+      {
+        "URL": "https://pubs.acs.org/doi/pdf/10.1021/acssynbio.3c00282",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          17
+        ]
+      ],
+      "date-time": "2023-11-17T09:39:10Z",
+      "timestamp": 1700213950000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://pubs.acs.org/doi/10.1021/acssynbio.3c00282"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          23
+        ]
+      ]
+    },
+    "references-count": 83,
+    "journal-issue": {
+      "issue": "11",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            17
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1021/acssynbio.3c00282"
+    ],
+    "URL": "https://doi.org/10.1021/acssynbio.3c00282",
+    "relation": {},
+    "ISSN": [
+      "2161-5063",
+      "2161-5063"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2161-5063"
+      },
+      {
+        "type": "electronic",
+        "value": "2161-5063"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          23
+        ]
+      ]
+    }
+  }
+}

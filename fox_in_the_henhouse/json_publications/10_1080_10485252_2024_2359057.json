@@ -1,0 +1,1423 @@
+{
+  "doi": "10.1080/10485252.2024.2359057",
+  "openalex": {
+    "id": "https://openalex.org/W4398771436",
+    "doi": "https://doi.org/10.1080/10485252.2024.2359057",
+    "title": "A novel framework for online supervised learning with feature selection",
+    "display_name": "A novel framework for online supervised learning with feature selection",
+    "publication_year": 2024,
+    "publication_date": "2024-05-24",
+    "ids": {
+      "openalex": "https://openalex.org/W4398771436",
+      "doi": "https://doi.org/10.1080/10485252.2024.2359057"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/10485252.2024.2359057",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/10485252.2024.2359057",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S157569606",
+        "display_name": "Journal of nonparametric statistics",
+        "issn_l": "1026-7654",
+        "issn": [
+          "1026-7654",
+          "1029-0311",
+          "1048-5252"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Nonparametric Statistics",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5013904669",
+          "display_name": "Lizhe Sun",
+          "orcid": "https://orcid.org/0000-0003-4860-4957"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I20231570",
+            "display_name": "Peking University",
+            "ror": "https://ror.org/02v51f717",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I20231570"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lizhe Sun",
+        "raw_affiliation_strings": [
+          "Beijing International Center for Mathematical Research, Peking University, Beijing, People's Republic of China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beijing International Center for Mathematical Research, Peking University, Beijing, People's Republic of China",
+            "institution_ids": [
+              "https://openalex.org/I20231570"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100692035",
+          "display_name": "Mingyuan Wang",
+          "orcid": "https://orcid.org/0000-0001-6569-1154"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I103163165",
+            "display_name": "Florida State University",
+            "ror": "https://ror.org/05g3dte14",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I103163165"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mingyuan Wang",
+        "raw_affiliation_strings": [
+          "Department of Statistics, Florida State University, Tallahassee, FL, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Statistics, Florida State University, Tallahassee, FL, USA",
+            "institution_ids": [
+              "https://openalex.org/I103163165"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102676072",
+          "display_name": "Zhu Siquan",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I103163165",
+            "display_name": "Florida State University",
+            "ror": "https://ror.org/05g3dte14",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I103163165"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Siquan Zhu",
+        "raw_affiliation_strings": [
+          "Department of Statistics, Florida State University, Tallahassee, FL, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Statistics, Florida State University, Tallahassee, FL, USA",
+            "institution_ids": [
+              "https://openalex.org/I103163165"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5052175239",
+          "display_name": "Adrian Barbu",
+          "orcid": "https://orcid.org/0000-0002-9548-7872"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I103163165",
+            "display_name": "Florida State University",
+            "ror": "https://ror.org/05g3dte14",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I103163165"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Adrian Barbu",
+        "raw_affiliation_strings": [
+          "Department of Statistics, Florida State University, Tallahassee, FL, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Statistics, Florida State University, Tallahassee, FL, USA",
+            "institution_ids": [
+              "https://openalex.org/I103163165"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5052175239"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I103163165"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 3.18094536,
+    "has_fulltext": false,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": {
+      "value": 0.87911543,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "37",
+      "issue": "4",
+      "first_page": "921",
+      "last_page": "947"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10057",
+      "display_name": "Face and Expression Recognition",
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10057",
+        "display_name": "Face and Expression Recognition",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12676",
+        "display_name": "Machine Learning and ELM",
+        "score": 0.98089998960495,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12535",
+        "display_name": "Machine Learning and Data Classification",
+        "score": 0.9801999926567078,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/feature-selection",
+        "display_name": "Feature selection",
+        "score": 0.7377607822418213
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.5906729102134705
+      },
+      {
+        "id": "https://openalex.org/keywords/feature",
+        "display_name": "Feature (linguistics)",
+        "score": 0.5671142935752869
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.5511674880981445
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.49571526050567627
+      },
+      {
+        "id": "https://openalex.org/keywords/selection",
+        "display_name": "Selection (genetic algorithm)",
+        "score": 0.4743405878543854
+      },
+      {
+        "id": "https://openalex.org/keywords/online-learning",
+        "display_name": "Online learning",
+        "score": 0.4401063919067383
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.35273507237434387
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C148483581",
+        "wikidata": "https://www.wikidata.org/wiki/Q446488",
+        "display_name": "Feature selection",
+        "level": 2,
+        "score": 0.7377607822418213
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.5906729102134705
+      },
+      {
+        "id": "https://openalex.org/C2776401178",
+        "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+        "display_name": "Feature (linguistics)",
+        "level": 2,
+        "score": 0.5671142935752869
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5511674880981445
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.49571526050567627
+      },
+      {
+        "id": "https://openalex.org/C81917197",
+        "wikidata": "https://www.wikidata.org/wiki/Q628760",
+        "display_name": "Selection (genetic algorithm)",
+        "level": 2,
+        "score": 0.4743405878543854
+      },
+      {
+        "id": "https://openalex.org/C2986087404",
+        "wikidata": "https://www.wikidata.org/wiki/Q15946010",
+        "display_name": "Online learning",
+        "level": 2,
+        "score": 0.4401063919067383
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.35273507237434387
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C136764020",
+        "wikidata": "https://www.wikidata.org/wiki/Q466",
+        "display_name": "World Wide Web",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/10485252.2024.2359057",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/10485252.2024.2359057",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S157569606",
+          "display_name": "Journal of nonparametric statistics",
+          "issn_l": "1026-7654",
+          "issn": [
+            "1026-7654",
+            "1029-0311",
+            "1048-5252"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Nonparametric Statistics",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 49,
+    "referenced_works": [
+      "https://openalex.org/W2255548690",
+      "https://openalex.org/W1580443261",
+      "https://openalex.org/W2109722477",
+      "https://openalex.org/W2108948681",
+      "https://openalex.org/W2108598243",
+      "https://openalex.org/W2164301055",
+      "https://openalex.org/W2798463223",
+      "https://openalex.org/W2074682976",
+      "https://openalex.org/W1484867920",
+      "https://openalex.org/W2129160848",
+      "https://openalex.org/W2573204979",
+      "https://openalex.org/W1995897489",
+      "https://openalex.org/W2139432235",
+      "https://openalex.org/W3095012485",
+      "https://openalex.org/W2964346891",
+      "https://openalex.org/W2998716009",
+      "https://openalex.org/W4200491655",
+      "https://openalex.org/W2169713291",
+      "https://openalex.org/W2174940607",
+      "https://openalex.org/W2963297739",
+      "https://openalex.org/W2510516734",
+      "https://openalex.org/W2092224475",
+      "https://openalex.org/W2342945106",
+      "https://openalex.org/W2239239723",
+      "https://openalex.org/W2510725918",
+      "https://openalex.org/W1920170482",
+      "https://openalex.org/W4236362309",
+      "https://openalex.org/W1968480053",
+      "https://openalex.org/W1686810756",
+      "https://openalex.org/W25321933",
+      "https://openalex.org/W2135046866",
+      "https://openalex.org/W2127300249",
+      "https://openalex.org/W3162124014",
+      "https://openalex.org/W2136051823",
+      "https://openalex.org/W2179489622",
+      "https://openalex.org/W3017285694",
+      "https://openalex.org/W2943152387",
+      "https://openalex.org/W2357827496",
+      "https://openalex.org/W2768606360",
+      "https://openalex.org/W2153103970",
+      "https://openalex.org/W1965125844",
+      "https://openalex.org/W2148825261",
+      "https://openalex.org/W2122825543",
+      "https://openalex.org/W3012264151",
+      "https://openalex.org/W1499021337",
+      "https://openalex.org/W3112218970",
+      "https://openalex.org/W2963082829",
+      "https://openalex.org/W1480376833",
+      "https://openalex.org/W2963764445"
+    ],
+    "related_works": [
+      "https://openalex.org/W4205762803",
+      "https://openalex.org/W2535856026",
+      "https://openalex.org/W2265065644",
+      "https://openalex.org/W2134699697",
+      "https://openalex.org/W3017188156",
+      "https://openalex.org/W2322875716",
+      "https://openalex.org/W2961085424",
+      "https://openalex.org/W3147584709",
+      "https://openalex.org/W4386564352",
+      "https://openalex.org/W2952668426"
+    ],
+    "abstract_inverted_index": {
+      "Current": [
+        0
+      ],
+      "online": [
+        1,
+        30,
+        60,
+        71,
+        120,
+        142
+      ],
+      "learning": [
+        2,
+        31
+      ],
+      "methods": [
+        3,
+        42,
+        72,
+        95,
+        105
+      ],
+      "suffer": [
+        4
+      ],
+      "issues": [
+        5
+      ],
+      "such": [
+        6,
+        43
+      ],
+      "as": [
+        7,
+        44
+      ],
+      "lower": [
+        8
+      ],
+      "convergence": [
+        9,
+        87,
+        115
+      ],
+      "rates": [
+        10
+      ],
+      "and": [
+        11,
+        52,
+        73,
+        79,
+        86,
+        112,
+        121,
+        143
+      ],
+      "limited": [
+        12
+      ],
+      "capability": [
+        13
+      ],
+      "to": [
+        14,
+        19,
+        126,
+        140
+      ],
+      "select": [
+        15
+      ],
+      "important": [
+        16
+      ],
+      "features": [
+        17
+      ],
+      "compared": [
+        18,
+        117,
+        139
+      ],
+      "their": [
+        20,
+        59,
+        74
+      ],
+      "offline": [
+        21,
+        40,
+        75,
+        122,
+        144
+      ],
+      "counterparts.": [
+        22
+      ],
+      "In": [
+        23
+      ],
+      "this": [
+        24,
+        64,
+        97
+      ],
+      "paper,": [
+        25
+      ],
+      "a": [
+        26,
+        113
+      ],
+      "novel": [
+        27,
+        81
+      ],
+      "framework": [
+        28,
+        135
+      ],
+      "for": [
+        29,
+        91
+      ],
+      "based": [
+        32
+      ],
+      "on": [
+        33
+      ],
+      "running": [
+        34
+      ],
+      "averages": [
+        35
+      ],
+      "is": [
+        36,
+        77
+      ],
+      "proposed.": [
+        37
+      ],
+      "Many": [
+        38
+      ],
+      "popular": [
+        39,
+        141
+      ],
+      "regularised": [
+        41
+      ],
+      "Lasso,": [
+        45
+      ],
+      "Elastic": [
+        46
+      ],
+      "Net,": [
+        47
+      ],
+      "Minimax": [
+        48
+      ],
+      "Concave": [
+        49
+      ],
+      "Penalty": [
+        50
+      ],
+      "(MCP),": [
+        51
+      ],
+      "Feature": [
+        53
+      ],
+      "Selection": [
+        54
+      ],
+      "with": [
+        55,
+        118
+      ],
+      "Annealing": [
+        56
+      ],
+      "(FSA)": [
+        57
+      ],
+      "have": [
+        58
+      ],
+      "versions": [
+        61
+      ],
+      "introduced": [
+        62
+      ],
+      "in": [
+        63,
+        96
+      ],
+      "framework.": [
+        65,
+        98
+      ],
+      "The": [
+        66
+      ],
+      "equivalence": [
+        67
+      ],
+      "between": [
+        68
+      ],
+      "the": [
+        69,
+        94,
+        103,
+        133
+      ],
+      "proposed": [
+        70,
+        104,
+        134
+      ],
+      "counterparts": [
+        76
+      ],
+      "proved,": [
+        78
+      ],
+      "then": [
+        80
+      ],
+      "theoretical": [
+        82
+      ],
+      "true": [
+        83,
+        108
+      ],
+      "support": [
+        84,
+        109
+      ],
+      "recovery": [
+        85,
+        110
+      ],
+      "guarantees": [
+        88
+      ],
+      "are": [
+        89,
+        129
+      ],
+      "provided": [
+        90
+      ],
+      "some": [
+        92
+      ],
+      "of": [
+        93
+      ],
+      "Numerical": [
+        99
+      ],
+      "experiments": [
+        100
+      ],
+      "indicate": [
+        101
+      ],
+      "that": [
+        102
+      ],
+      "enjoy": [
+        106
+      ],
+      "high": [
+        107
+      ],
+      "accuracy": [
+        111
+      ],
+      "faster": [
+        114
+      ],
+      "rate": [
+        116
+      ],
+      "conventional": [
+        119
+      ],
+      "algorithms.": [
+        123,
+        145
+      ],
+      "Finally,": [
+        124
+      ],
+      "applications": [
+        125
+      ],
+      "large": [
+        127
+      ],
+      "datasets": [
+        128
+      ],
+      "presented,": [
+        130
+      ],
+      "where": [
+        131
+      ],
+      "again": [
+        132
+      ],
+      "shows": [
+        136
+      ],
+      "competitive": [
+        137
+      ],
+      "results": [
+        138
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-28T23:10:37.245301",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          27
+        ]
+      ],
+      "date-time": "2025-11-27T14:15:27Z",
+      "timestamp": 1764252927306,
+      "version": "3.46.0"
+    },
+    "reference-count": 47,
+    "publisher": "Informa UK Limited",
+    "issue": "4",
+    "funder": [
+      {
+        "name": "DARPA ARO",
+        "award": [
+          "W911NG-16-1-0579"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NG-16-1-0579"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.tandfonline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Nonparametric Statistics"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1080/10485252.2024.2359057",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          24
+        ]
+      ],
+      "date-time": "2024-05-24T14:37:38Z",
+      "timestamp": 1716561458000
+    },
+    "page": "921-947",
+    "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "A novel framework for online supervised learning with feature selection"
+    ],
+    "prefix": "10.1080",
+    "volume": "37",
+    "author": [
+      {
+        "given": "Lizhe",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Peking University",
+            "place": [
+              "Beijing, People's Republic of China"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Mingyuan",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Florida State University",
+            "place": [
+              "Tallahassee, USA"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Siquan",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Florida State University",
+            "place": [
+              "Tallahassee, USA"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Adrian",
+        "family": "Barbu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Florida State University",
+            "place": [
+              "Tallahassee, USA"
+            ]
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          24
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_5_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2544315"
+      },
+      {
+        "key": "e_1_3_5_3_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cai Y. Sun Y. Li J. and Goodison S. (2009) ‘Online Feature Selection Algorithm with Bayesian ℓ1 Regularization’ in Pacific-Asia Conference on Knowledge Discovery and Data Mining Bangkok Thailand.",
+        "DOI": "10.1007/978-3-642-01307-2_37"
+      },
+      {
+        "key": "e_1_3_5_4_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chu C.-T. Kim S.K. Lin Y.-A. Yu Y. Bradski G. Olukotun K. and Ng A.Y. (2007) ‘Map-Reduce for Machine Learning on Multicore’ in NIPS pp. 281–288. Vancouver British Columbia Canada.",
+        "DOI": "10.7551/mitpress/7503.003.0040"
+      },
+      {
+        "key": "e_1_3_5_5_1",
+        "unstructured": "Cotter A. Shamir O. Srebro N. and Sridharan K. (2011) ‘Better Mini-Batch Algorithms via Accelerated Gradient Methods’ in NIPS Granada Spain pp. 1647–1655."
+      },
+      {
+        "key": "e_1_3_5_6_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng J. Dong W. Socher R. Li L.-J. Li K. and Fei-Fei L. (2009) ‘Imagenet: A Large-Scale Hierarchical Image Database’ in 2009 IEEE Conference on Computer Vision and Pattern Recognition Miami FL USA: IEEE pp. 248–255.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "e_1_3_5_7_1",
+        "first-page": "2899",
+        "article-title": "Efficient Online and Batch Learning Using Forward Backward Splitting",
+        "volume": "10",
+        "author": "Duchi J.",
+        "year": "2009",
+        "unstructured": "Duchi, J., and Singer, Y. (2009), ‘Efficient Online and Batch Learning Using Forward Backward Splitting’, Journal of Machine Learning Research, 10, 2899–2934.",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_3_5_8_1",
+        "unstructured": "Fan J. Gong W. Li C.J. and Sun Q. (2018) ‘Statistical Sparse Online Regression: A Diffusion Approximation Perspective’ in AISTATS. Playa Blanca Lanzarote Canary Islands pp. 1017–1026."
+      },
+      {
+        "key": "e_1_3_5_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1198/016214501753382273"
+      },
+      {
+        "key": "e_1_3_5_10_1",
+        "volume-title": "The Elements of Statistical Learning",
+        "author": "Friedman J.",
+        "year": "2001",
+        "unstructured": "Friedman, J., Hastie, T., and Tibshirani, R. (2001), The Elements of Statistical Learning (Vol. 1), New York, NY: Springer."
+      },
+      {
+        "key": "e_1_3_5_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/b97848"
+      },
+      {
+        "key": "e_1_3_5_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10994-007-5016-8"
+      },
+      {
+        "key": "e_1_3_5_13_1",
+        "first-page": "1714",
+        "article-title": "Perishability of Data: Dynamic Pricing Under Varying-coefficient Models",
+        "volume": "18",
+        "author": "Javanmard A.",
+        "year": "2017",
+        "unstructured": "Javanmard, A. (2017), ‘Perishability of Data: Dynamic Pricing Under Varying-coefficient Models’, The Journal of Machine Learning Research, 18, 1714–1744.",
+        "journal-title": "The Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_3_5_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/293347.293351"
+      },
+      {
+        "key": "e_1_3_5_15_1",
+        "volume-title": "Stochastic Approximation and Recursive Algorithms and Applications",
+        "author": "Kushner H.",
+        "year": "2003",
+        "unstructured": "Kushner, H., and Yin, G.G. (2003), Stochastic Approximation and Recursive Algorithms and Applications (Vol. 35), New York, NY: Springer Science & Business Media."
+      },
+      {
+        "key": "e_1_3_5_16_1",
+        "first-page": "777",
+        "article-title": "Sparse Online Learning Via Truncated Gradient",
+        "volume": "10",
+        "author": "Langford J.",
+        "year": "2009",
+        "unstructured": "Langford, J., Li, L., and Zhang, T. (2009), ‘Sparse Online Learning Via Truncated Gradient’, Journal of Machine Learning Research, 10, 777–801.",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_3_5_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2020.1841646"
+      },
+      {
+        "key": "e_1_3_5_18_1",
+        "unstructured": "Lichman M. (2013) ‘UCI Machine Learning Repository’."
+      },
+      {
+        "key": "e_1_3_5_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/16-AOS1530"
+      },
+      {
+        "key": "e_1_3_5_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/rssb.12352"
+      },
+      {
+        "key": "e_1_3_5_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cjs.11667"
+      },
+      {
+        "key": "e_1_3_5_22_1",
+        "volume-title": "Probabilistic Machine Learning: An Introduction",
+        "author": "Murphy K.P.",
+        "year": "2022",
+        "unstructured": "Murphy, K.P. (2022), Probabilistic Machine Learning: An Introduction, Cambridge, MA: MIT Press."
+      },
+      {
+        "key": "e_1_3_5_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10107-007-0149-x"
+      },
+      {
+        "key": "e_1_3_5_24_1",
+        "first-page": "1",
+        "article-title": "L1-Regularized Least Squares for Support Recovery of High Dimensional Single Index Models with Gaussian Designs",
+        "volume": "17",
+        "author": "Neykov M.",
+        "year": "2016",
+        "unstructured": "Neykov, M., Liu, J.S., and Cai, T. (2016), ‘L1-Regularized Least Squares for Support Recovery of High Dimensional Single Index Models with Gaussian Designs’, Journal of Machine Learning Research, 17, 1–37.",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_3_5_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2017.2749330"
+      },
+      {
+        "key": "e_1_3_5_26_1",
+        "unstructured": "Ouyang H. He N. Tran L. and Gray A. (2013) ‘Stochastic Alternating Direction Method of Multipliers’ in ICML pp. 80–88. Atlanta USA."
+      },
+      {
+        "key": "e_1_3_5_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/42.3-4.523"
+      },
+      {
+        "key": "e_1_3_5_28_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qiang S. and Bayati M. (2016) ‘Dynamic Pricing with Demand Covariates’ Available at SSRN 2765257.",
+        "DOI": "10.2139/ssrn.2765257"
+      },
+      {
+        "key": "e_1_3_5_29_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rothe R. Timofte R. and Van Gool L. (2015) ‘Dex: Deep Expectation of Apparent Age from a Single Image’ in ICCV Workshops pp. 10–15. Santiago Chile.",
+        "DOI": "10.1109/ICCVW.2015.41"
+      },
+      {
+        "key": "e_1_3_5_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-016-0940-3"
+      },
+      {
+        "key": "e_1_3_5_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00401706.2016.1142900"
+      },
+      {
+        "key": "e_1_3_5_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9781107298019"
+      },
+      {
+        "key": "e_1_3_5_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/08-EJS348"
+      },
+      {
+        "key": "e_1_3_5_34_1",
+        "unstructured": "Simonyan K. and Zisserman A. (2014) ‘Very Deep Convolutional Networks for Large-Scale Image Recognition’ arXiv preprint arXiv:1409.1556."
+      },
+      {
+        "key": "e_1_3_5_35_1",
+        "unstructured": "Suzuki T. (2013) ‘Dual Averaging and Proximal Gradient Descent for Online Alternating Direction Multiplier Method’ in ICML pp. 392–400. Atlanta USA."
+      },
+      {
+        "key": "e_1_3_5_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2517-6161.1996.tb02080.x"
+      },
+      {
+        "key": "e_1_3_5_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIT.2009.2016018"
+      },
+      {
+        "key": "e_1_3_5_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/biomet/asab030"
+      },
+      {
+        "key": "e_1_3_5_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TKDE.2013.32"
+      },
+      {
+        "key": "e_1_3_5_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3070646"
+      },
+      {
+        "key": "e_1_3_5_41_1",
+        "first-page": "2543",
+        "article-title": "Dual Averaging Methods for Regularized Stochastic Learning and Online Optimization",
+        "volume": "11",
+        "author": "Xiao L.",
+        "year": "2010",
+        "unstructured": "Xiao, L. (2010), ‘Dual Averaging Methods for Regularized Stochastic Learning and Online Optimization’, Journal of Machine Learning Research, 11, 2543–2596.",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "e_1_3_5_42_1",
+        "unstructured": "Yalniz I.Z. Jégou H. Chen K. Paluri M. and Mahajan D. (2019) ‘Billion-Scale Semi-Supervised Learning for Image Classification’ arXiv preprint arXiv:1905.00546."
+      },
+      {
+        "key": "e_1_3_5_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2939672.2939881"
+      },
+      {
+        "key": "e_1_3_5_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/rssb.12406"
+      },
+      {
+        "key": "e_1_3_5_45_1",
+        "unstructured": "Yuan X. Li P. and Zhang T. (2014) ‘Gradient Hard Thresholding Pursuit for Sparsity-Constrained Optimization’ in ICML pp. 127–135. Beijing China."
+      },
+      {
+        "key": "e_1_3_5_46_1",
+        "first-page": "894",
+        "article-title": "Nearly Unbiased Variable Selection Under Minimax Concave Penalty,",
+        "author": "Zhang C.-H.",
+        "year": "2010",
+        "unstructured": "Zhang, C.-H. (2010), ‘Nearly Unbiased Variable Selection Under Minimax Concave Penalty,’, Annals of Statistics, 00, 894–942.",
+        "journal-title": "Annals of Statistics"
+      },
+      {
+        "key": "e_1_3_5_47_1",
+        "unstructured": "Zinkevich M. (2003) ‘Online Convex Programming and Generalized Infinitesimal Gradient Ascent’ in ICML pp. 928–936. Washington DC USA."
+      },
+      {
+        "key": "e_1_3_5_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2005.00503.x"
+      }
+    ],
+    "container-title": [
+      "Journal of Nonparametric Statistics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/10485252.2024.2359057",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          27
+        ]
+      ],
+      "date-time": "2025-11-27T14:12:16Z",
+      "timestamp": 1764252736000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1080/10485252.2024.2359057"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          24
+        ]
+      ]
+    },
+    "references-count": 47,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/10485252.2024.2359057"
+    ],
+    "URL": "https://doi.org/10.1080/10485252.2024.2359057",
+    "relation": {},
+    "ISSN": [
+      "1048-5252",
+      "1029-0311"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1048-5252"
+      },
+      {
+        "type": "electronic",
+        "value": "1029-0311"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          24
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+        "order": 1,
+        "name": "peerreview_statement",
+        "label": "Peer Review Statement"
+      },
+      {
+        "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=gnst20",
+        "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=gnst20",
+        "order": 2,
+        "name": "aims_and_scope_url",
+        "label": "Aim & Scope"
+      },
+      {
+        "value": "2023-10-04",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-05-16",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-05-24",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

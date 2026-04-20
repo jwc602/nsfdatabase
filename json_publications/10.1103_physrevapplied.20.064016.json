@@ -1,0 +1,1716 @@
+{
+  "doi": "10.1103/physrevapplied.20.064016",
+  "openalex": {
+    "id": "https://openalex.org/W4389489237",
+    "doi": "https://doi.org/10.1103/physrevapplied.20.064016",
+    "title": "Quantum optimal control without arbitrary waveform generators",
+    "display_name": "Quantum optimal control without arbitrary waveform generators",
+    "publication_year": 2023,
+    "publication_date": "2023-12-08",
+    "ids": {
+      "openalex": "https://openalex.org/W4389489237",
+      "doi": "https://doi.org/10.1103/physrevapplied.20.064016"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1103/physrevapplied.20.064016",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1103/physrevapplied.20.064016",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764453006",
+        "display_name": "Physical Review Applied",
+        "issn_l": "2331-7019",
+        "issn": [
+          "2331-7019",
+          "2331-7043"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review Applied",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100644704",
+          "display_name": "Qiming Chen",
+          "orcid": "https://orcid.org/0000-0003-1870-5327"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I99065089",
+            "display_name": "Tsinghua University",
+            "ror": "https://ror.org/03cve4549",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I99065089"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I9927081",
+            "display_name": "Aalto University",
+            "ror": "https://ror.org/020hwjq30",
+            "country_code": "FI",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I9927081"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I20089843",
+            "display_name": "Princeton University",
+            "ror": "https://ror.org/00hx57361",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I20089843"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "FI",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qi-Ming Chen",
+        "raw_affiliation_strings": [
+          "Department of Automation, Tsinghua University, Beijing 100084, China",
+          "Department of Chemistry, Princeton University, New Jersey 08544, USA",
+          "QCD Labs, QTF Centre of Excellence, Department of Applied Physics, Aalto University, Aalto FI-00076, Finland"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Tsinghua University, Beijing 100084, China",
+            "institution_ids": [
+              "https://openalex.org/I99065089"
+            ]
+          },
+          {
+            "raw_affiliation_string": "QCD Labs, QTF Centre of Excellence, Department of Applied Physics, Aalto University, Aalto FI-00076, Finland",
+            "institution_ids": [
+              "https://openalex.org/I9927081"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Chemistry, Princeton University, New Jersey 08544, USA",
+            "institution_ids": [
+              "https://openalex.org/I20089843"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019365403",
+          "display_name": "Herschel Rabitz",
+          "orcid": "https://orcid.org/0000-0002-4433-6142"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I20089843",
+            "display_name": "Princeton University",
+            "ror": "https://ror.org/00hx57361",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I20089843"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Herschel Rabitz",
+        "raw_affiliation_strings": [
+          "Department of Chemistry, Princeton University, New Jersey 08544, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemistry, Princeton University, New Jersey 08544, USA",
+            "institution_ids": [
+              "https://openalex.org/I20089843"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5041203880",
+          "display_name": "Re-Bing Wu",
+          "orcid": "https://orcid.org/0000-0003-3545-8700"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I99065089",
+            "display_name": "Tsinghua University",
+            "ror": "https://ror.org/03cve4549",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I99065089"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Re-Bing Wu",
+        "raw_affiliation_strings": [
+          "Department of Automation, Tsinghua University, Beijing 100084, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Automation, Tsinghua University, Beijing 100084, China",
+            "institution_ids": [
+              "https://openalex.org/I99065089"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.51088578,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.69673357,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 95,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "20",
+      "issue": "6",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10020",
+      "display_name": "Quantum Information and Cryptography",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10566",
+        "display_name": "Laser-Matter Interactions and Applications",
+        "score": 0.9980999827384949,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6746348142623901
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-computer",
+        "display_name": "Quantum computer",
+        "score": 0.6064988970756531
+      },
+      {
+        "id": "https://openalex.org/keywords/robustness",
+        "display_name": "Robustness (evolution)",
+        "score": 0.5924823880195618
+      },
+      {
+        "id": "https://openalex.org/keywords/qubit",
+        "display_name": "Qubit",
+        "score": 0.5777415037155151
+      },
+      {
+        "id": "https://openalex.org/keywords/scalability",
+        "display_name": "Scalability",
+        "score": 0.5384488105773926
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum",
+        "display_name": "Quantum",
+        "score": 0.5040761232376099
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-gate",
+        "display_name": "Quantum gate",
+        "score": 0.486505925655365
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-technology",
+        "display_name": "Quantum technology",
+        "score": 0.4478250741958618
+      },
+      {
+        "id": "https://openalex.org/keywords/waveform",
+        "display_name": "Waveform",
+        "score": 0.4334261119365692
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-algorithm",
+        "display_name": "Quantum algorithm",
+        "score": 0.419014036655426
+      },
+      {
+        "id": "https://openalex.org/keywords/topology",
+        "display_name": "Topology (electrical circuits)",
+        "score": 0.3485162854194641
+      },
+      {
+        "id": "https://openalex.org/keywords/open-quantum-system",
+        "display_name": "Open quantum system",
+        "score": 0.24843037128448486
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.2312774956226349
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-mechanics",
+        "display_name": "Quantum mechanics",
+        "score": 0.17489460110664368
+      },
+      {
+        "id": "https://openalex.org/keywords/electrical-engineering",
+        "display_name": "Electrical engineering",
+        "score": 0.15275165438652039
+      },
+      {
+        "id": "https://openalex.org/keywords/engineering",
+        "display_name": "Engineering",
+        "score": 0.09037795662879944
+      },
+      {
+        "id": "https://openalex.org/keywords/telecommunications",
+        "display_name": "Telecommunications",
+        "score": 0.07606571912765503
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6746348142623901
+      },
+      {
+        "id": "https://openalex.org/C58053490",
+        "wikidata": "https://www.wikidata.org/wiki/Q176555",
+        "display_name": "Quantum computer",
+        "level": 3,
+        "score": 0.6064988970756531
+      },
+      {
+        "id": "https://openalex.org/C63479239",
+        "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+        "display_name": "Robustness (evolution)",
+        "level": 3,
+        "score": 0.5924823880195618
+      },
+      {
+        "id": "https://openalex.org/C203087015",
+        "wikidata": "https://www.wikidata.org/wiki/Q378201",
+        "display_name": "Qubit",
+        "level": 3,
+        "score": 0.5777415037155151
+      },
+      {
+        "id": "https://openalex.org/C48044578",
+        "wikidata": "https://www.wikidata.org/wiki/Q727490",
+        "display_name": "Scalability",
+        "level": 2,
+        "score": 0.5384488105773926
+      },
+      {
+        "id": "https://openalex.org/C84114770",
+        "wikidata": "https://www.wikidata.org/wiki/Q46344",
+        "display_name": "Quantum",
+        "level": 2,
+        "score": 0.5040761232376099
+      },
+      {
+        "id": "https://openalex.org/C58849907",
+        "wikidata": "https://www.wikidata.org/wiki/Q2118982",
+        "display_name": "Quantum gate",
+        "level": 4,
+        "score": 0.486505925655365
+      },
+      {
+        "id": "https://openalex.org/C190463098",
+        "wikidata": "https://www.wikidata.org/wiki/Q2081419",
+        "display_name": "Quantum technology",
+        "level": 4,
+        "score": 0.4478250741958618
+      },
+      {
+        "id": "https://openalex.org/C197424946",
+        "wikidata": "https://www.wikidata.org/wiki/Q1165717",
+        "display_name": "Waveform",
+        "level": 3,
+        "score": 0.4334261119365692
+      },
+      {
+        "id": "https://openalex.org/C137019171",
+        "wikidata": "https://www.wikidata.org/wiki/Q2623817",
+        "display_name": "Quantum algorithm",
+        "level": 3,
+        "score": 0.419014036655426
+      },
+      {
+        "id": "https://openalex.org/C184720557",
+        "wikidata": "https://www.wikidata.org/wiki/Q7825049",
+        "display_name": "Topology (electrical circuits)",
+        "level": 2,
+        "score": 0.3485162854194641
+      },
+      {
+        "id": "https://openalex.org/C190474826",
+        "wikidata": "https://www.wikidata.org/wiki/Q2495111",
+        "display_name": "Open quantum system",
+        "level": 3,
+        "score": 0.24843037128448486
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.2312774956226349
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.17489460110664368
+      },
+      {
+        "id": "https://openalex.org/C119599485",
+        "wikidata": "https://www.wikidata.org/wiki/Q43035",
+        "display_name": "Electrical engineering",
+        "level": 1,
+        "score": 0.15275165438652039
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.09037795662879944
+      },
+      {
+        "id": "https://openalex.org/C76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "level": 1,
+        "score": 0.07606571912765503
+      },
+      {
+        "id": "https://openalex.org/C77088390",
+        "wikidata": "https://www.wikidata.org/wiki/Q8513",
+        "display_name": "Database",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C554190296",
+        "wikidata": "https://www.wikidata.org/wiki/Q47528",
+        "display_name": "Radar",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1103/physrevapplied.20.064016",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1103/physrevapplied.20.064016",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764453006",
+          "display_name": "Physical Review Applied",
+          "issn_l": "2331-7019",
+          "issn": [
+            "2331-7019",
+            "2331-7043"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_name": "American Physical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Physical Review Applied",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G2958939868",
+        "display_name": null,
+        "funder_award_id": "W911NF-19-1-0382",
+        "funder_id": "https://openalex.org/F4320338281",
+        "funder_display_name": "Army Research Office"
+      },
+      {
+        "id": "https://openalex.org/G2100654652",
+        "display_name": null,
+        "funder_award_id": "62173201",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G2911073332",
+        "display_name": null,
+        "funder_award_id": "61833010",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320322282",
+        "display_name": "Jane ja Aatos Erkon Säätiö",
+        "ror": "https://ror.org/03vxy9y38"
+      },
+      {
+        "id": "https://openalex.org/F4320323664",
+        "display_name": "Teknologiateollisuuden 100-Vuotisjuhlasäätiö",
+        "ror": "https://ror.org/01654ws56"
+      },
+      {
+        "id": "https://openalex.org/F4320338281",
+        "display_name": "Army Research Office",
+        "ror": "https://ror.org/05epdh915"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 75,
+    "referenced_works": [
+      "https://openalex.org/W1996385709",
+      "https://openalex.org/W2024771919",
+      "https://openalex.org/W2083494341",
+      "https://openalex.org/W2068709021",
+      "https://openalex.org/W2079336704",
+      "https://openalex.org/W2020252677",
+      "https://openalex.org/W2018539385",
+      "https://openalex.org/W1982708455",
+      "https://openalex.org/W2084222475",
+      "https://openalex.org/W2073428384",
+      "https://openalex.org/W1975440232",
+      "https://openalex.org/W2105554262",
+      "https://openalex.org/W1479793620",
+      "https://openalex.org/W1483238455",
+      "https://openalex.org/W1984167858",
+      "https://openalex.org/W1998243191",
+      "https://openalex.org/W2524327158",
+      "https://openalex.org/W2090294740",
+      "https://openalex.org/W144466379",
+      "https://openalex.org/W1968850365",
+      "https://openalex.org/W2089540019",
+      "https://openalex.org/W2774959102",
+      "https://openalex.org/W2154659846",
+      "https://openalex.org/W2051017200",
+      "https://openalex.org/W2982169647",
+      "https://openalex.org/W3002718752",
+      "https://openalex.org/W3015667706",
+      "https://openalex.org/W2004889297",
+      "https://openalex.org/W2594082276",
+      "https://openalex.org/W2591036338",
+      "https://openalex.org/W2979996741",
+      "https://openalex.org/W2794141696",
+      "https://openalex.org/W3017136680",
+      "https://openalex.org/W3124658597",
+      "https://openalex.org/W3089495739",
+      "https://openalex.org/W3141456309",
+      "https://openalex.org/W2924611848",
+      "https://openalex.org/W2003132673",
+      "https://openalex.org/W2078834989",
+      "https://openalex.org/W2083506818",
+      "https://openalex.org/W1997126380",
+      "https://openalex.org/W2058785737",
+      "https://openalex.org/W2041459014",
+      "https://openalex.org/W2148093730",
+      "https://openalex.org/W2050255155",
+      "https://openalex.org/W2963208130",
+      "https://openalex.org/W2511920405",
+      "https://openalex.org/W2761225910",
+      "https://openalex.org/W2809239255",
+      "https://openalex.org/W2911560354",
+      "https://openalex.org/W2057285417",
+      "https://openalex.org/W2072698828",
+      "https://openalex.org/W2112206897",
+      "https://openalex.org/W2106565812",
+      "https://openalex.org/W2008452388",
+      "https://openalex.org/W2032222091",
+      "https://openalex.org/W1966840185",
+      "https://openalex.org/W2119587409",
+      "https://openalex.org/W2105401264",
+      "https://openalex.org/W2151202776",
+      "https://openalex.org/W2169244918",
+      "https://openalex.org/W1993274314",
+      "https://openalex.org/W1995550573",
+      "https://openalex.org/W3047710545",
+      "https://openalex.org/W2147733222",
+      "https://openalex.org/W2567266081",
+      "https://openalex.org/W2904161191",
+      "https://openalex.org/W3102598241",
+      "https://openalex.org/W3104207421",
+      "https://openalex.org/W3099281385",
+      "https://openalex.org/W3163303881",
+      "https://openalex.org/W3129110052",
+      "https://openalex.org/W3101640821",
+      "https://openalex.org/W3105850352",
+      "https://openalex.org/W3099750598"
+    ],
+    "related_works": [
+      "https://openalex.org/W2134613344",
+      "https://openalex.org/W2409877639",
+      "https://openalex.org/W4388704119",
+      "https://openalex.org/W2910123824",
+      "https://openalex.org/W4213379151",
+      "https://openalex.org/W3206120658",
+      "https://openalex.org/W1889203613",
+      "https://openalex.org/W2035510778",
+      "https://openalex.org/W2766195849",
+      "https://openalex.org/W3130655125"
+    ],
+    "abstract_inverted_index": {
+      "Simple,": [
+        0
+      ],
+      "precise,": [
+        1
+      ],
+      "and": [
+        2,
+        55,
+        89,
+        96,
+        116
+      ],
+      "robust": [
+        3
+      ],
+      "control": [
+        4,
+        21,
+        40,
+        52,
+        71,
+        94
+      ],
+      "is": [
+        5
+      ],
+      "demanded": [
+        6
+      ],
+      "for": [
+        7,
+        78
+      ],
+      "qubit": [
+        8
+      ],
+      "operations": [
+        9
+      ],
+      "on": [
+        10,
+        24,
+        54
+      ],
+      "large": [
+        11
+      ],
+      "quantum": [
+        12,
+        20,
+        43,
+        69,
+        104,
+        126
+      ],
+      "information": [
+        13
+      ],
+      "processors.": [
+        14
+      ],
+      "However,": [
+        15
+      ],
+      "existing": [
+        16
+      ],
+      "routes": [
+        17
+      ],
+      "to": [
+        18,
+        31,
+        110
+      ],
+      "high-fidelity": [
+        19
+      ],
+      "heavily": [
+        22
+      ],
+      "rely": [
+        23
+      ],
+      "arbitrary": [
+        25,
+        39
+      ],
+      "waveform": [
+        26
+      ],
+      "generators": [
+        27
+      ],
+      "that": [
+        28,
+        37
+      ],
+      "are": [
+        29
+      ],
+      "difficult": [
+        30
+      ],
+      "scale": [
+        32
+      ],
+      "up.": [
+        33
+      ],
+      "Here,": [
+        34
+      ],
+      "we": [
+        35
+      ],
+      "show": [
+        36
+      ],
+      "the": [
+        38,
+        51,
+        74,
+        87,
+        92,
+        100
+      ],
+      "of": [
+        41,
+        91,
+        102
+      ],
+      "a": [
+        42,
+        58,
+        121
+      ],
+      "system": [
+        44
+      ],
+      "can": [
+        45,
+        64,
+        81
+      ],
+      "be": [
+        46,
+        65,
+        82,
+        111
+      ],
+      "achieved": [
+        47
+      ],
+      "by": [
+        48
+      ],
+      "simply": [
+        49
+      ],
+      "turning": [
+        50
+      ],
+      "fields": [
+        53
+      ],
+      "off": [
+        56
+      ],
+      "in": [
+        57,
+        99
+      ],
+      "proper": [
+        59
+      ],
+      "sequence.": [
+        60
+      ],
+      "The": [
+        61
+      ],
+      "switching": [
+        62
+      ],
+      "instances": [
+        63
+      ],
+      "designed": [
+        66
+      ],
+      "using": [
+        67
+      ],
+      "conventional": [
+        68
+      ],
+      "optimal": [
+        70
+      ],
+      "algorithms,": [
+        72
+      ],
+      "while": [
+        73
+      ],
+      "required": [
+        75
+      ],
+      "computational": [
+        76
+      ],
+      "resources": [
+        77
+      ],
+      "matrix": [
+        79
+      ],
+      "exponentials": [
+        80
+      ],
+      "substantially": [
+        83
+      ],
+      "reduced.": [
+        84
+      ],
+      "We": [
+        85,
+        106
+      ],
+      "demonstrate": [
+        86
+      ],
+      "flexibility": [
+        88
+      ],
+      "robustness": [
+        90
+      ],
+      "resulting": [
+        93
+      ],
+      "protocol,": [
+        95
+      ],
+      "illustrate": [
+        97
+      ],
+      "it": [
+        98
+      ],
+      "context": [
+        101
+      ],
+      "superconducting": [
+        103
+      ],
+      "circuits.": [
+        105
+      ],
+      "expect": [
+        107
+      ],
+      "this": [
+        108
+      ],
+      "proposal": [
+        109
+      ],
+      "achievable": [
+        112
+      ],
+      "with": [
+        113
+      ],
+      "current": [
+        114
+      ],
+      "semiconductor": [
+        115
+      ],
+      "superconductor": [
+        117
+      ],
+      "technologies,": [
+        118
+      ],
+      "which": [
+        119
+      ],
+      "offers": [
+        120
+      ],
+      "significant": [
+        122
+      ],
+      "step": [
+        123
+      ],
+      "towards": [
+        124
+      ],
+      "scalable": [
+        125
+      ],
+      "computing.": [
+        127
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          6
+        ]
+      ],
+      "date-time": "2025-08-06T13:21:08Z",
+      "timestamp": 1754486468592,
+      "version": "3.37.3"
+    },
+    "reference-count": 68,
+    "publisher": "American Physical Society (APS)",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              8
+            ]
+          ],
+          "date-time": "2023-12-08T00:00:00Z",
+          "timestamp": 1701993600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://link.aps.org/licenses/aps-default-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100006136",
+        "name": "Technology Industries of Finland Centennial Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100006136",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004012",
+        "name": "Jane and Aatos Erkko Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100004012",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62173201",
+          "61833010"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62173201",
+              "61833010"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000183",
+        "name": "U.S. Army Research Office",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W911NF-19-1-0382"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF-19-1-0382"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000183",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100006136",
+        "name": "Technology Industries of Finland Centennial Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100006136",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004012",
+        "name": "Jane and Aatos Erkko Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100004012",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62173201",
+          "61833010"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62173201",
+              "61833010"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000183",
+        "name": "U.S. Army Research Office",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W911NF-19-1-0382"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF-19-1-0382"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000183",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.aps.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Phys. Rev. Applied"
+    ],
+    "DOI": "10.1103/physrevapplied.20.064016",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          8
+        ]
+      ],
+      "date-time": "2023-12-08T15:07:08Z",
+      "timestamp": 1702048028000
+    },
+    "update-policy": "https://doi.org/10.1103/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Quantum optimal control without arbitrary waveform generators"
+    ],
+    "prefix": "10.1103",
+    "volume": "20",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1870-5327",
+        "authenticated-orcid": true,
+        "given": "Qi-Ming",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4433-6142",
+        "authenticated-orcid": true,
+        "given": "Herschel",
+        "family": "Rabitz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Re-Bing",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "16",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          8
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "PhysRevApplied.20.064016Cc1R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.259.5101.1581"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc2R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.288.5467.824"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc3R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.37.4950"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc4R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0301-0104(89)90012-8"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.68.1500"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc6R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.282.5390.919"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc7R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.62.050301"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc8R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.68.224518"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc9R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.103.110501"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc10R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.79.064524"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.79.060507"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc12R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.88.052330"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc13R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.114.200502"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc14R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.82.040305"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.107.080502"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc16R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.109.060501"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc17R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-017-00045-1"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc18R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.85.042321"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc19R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.87.022309"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc20R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature13171"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc21R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14270"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc22R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aao1401"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc23R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.100.247001"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc24R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.112.240504"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc25R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1666-5"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc26R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.125.120504"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc27R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41567-020-01105-y"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc28R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevApplied.3.024010"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc29R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/npjqi.2015.11"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc30R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41534-017-0038-y"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc31R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/jssc.2019.2937234"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc32R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevApplied.12.044054"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc33R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-020-2170-7"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc34R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41928-020-00528-y"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc35R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03469-4"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc37R1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/9780470546284",
+        "volume-title": "Pulse Width Modulation for Power Converters: Principles and Practice",
+        "author": "D. G. Holmes",
+        "year": "2003"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc38R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.100.022302"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc40R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.82.2417"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc41R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.83.4888"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc42R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.65.010101"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc43R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1090/S0002-9939-1959-0108732-6"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc44R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.526596"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc45R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0009-2614(91)90232-X"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc46R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/v92-078"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc47R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.465362"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc48R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevApplied.2.014007"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc49R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevApplied.6.024022"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc50R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/2058-9565/aaa3a0"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc51R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevApplied.11.014009"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc52R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevApplied.12.014044"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc53R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-0396(72)90035-6"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc54R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/0312005"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc55R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/0317045"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc56R1",
+        "first-page": "49",
+        "volume": "220",
+        "author": "S. A. Vakhrameev",
+        "year": "1998",
+        "journal-title": "Trudy Mat. Inst. Steklova"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc57R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/S00361445024180"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc58R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00896333"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc59R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0021-9991(82)90091-2"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc60R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.444501"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc62R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/77.80745"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc63R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/77.919522"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc64R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TASC.2003.814115"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc65R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TASC.2003.814114"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc66R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.70.012315"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc67R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physleta.2007.02.069"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc68R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.102.062605"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc70R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.63.032308"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc71R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.92.063415"
+      },
+      {
+        "key": "PhysRevApplied.20.064016Cc72R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.101.032313"
+      }
+    ],
+    "container-title": [
+      "Physical Review Applied"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevApplied.20.064016",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevApplied.20.064016/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          8
+        ]
+      ],
+      "date-time": "2023-12-08T15:07:41Z",
+      "timestamp": 1702048061000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.aps.org/doi/10.1103/PhysRevApplied.20.064016"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          8
+        ]
+      ]
+    },
+    "references-count": 68,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1103/physrevapplied.20.064016",
+    "relation": {},
+    "ISSN": [
+      "2331-7019"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2331-7019"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          8
+        ]
+      ]
+    },
+    "article-number": "064016"
+  }
+}

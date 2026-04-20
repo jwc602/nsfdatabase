@@ -1,0 +1,2321 @@
+{
+  "doi": "10.1093/gji/ggaf054",
+  "openalex": {
+    "id": "https://openalex.org/W4407806036",
+    "doi": "https://doi.org/10.1093/gji/ggaf054",
+    "title": "Seismic wavefield injection based on interface discontinuity: theory and numerical implementation based upon the spectral-element method",
+    "display_name": "Seismic wavefield injection based on interface discontinuity: theory and numerical implementation based upon the spectral-element method",
+    "publication_year": 2025,
+    "publication_date": "2025-02-06",
+    "ids": {
+      "openalex": "https://openalex.org/W4407806036",
+      "doi": "https://doi.org/10.1093/gji/ggaf054"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1093/gji/ggaf054",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/gji/ggaf054",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S108821158",
+        "display_name": "Geophysical Journal International",
+        "issn_l": "0956-540X",
+        "issn": [
+          "0956-540X",
+          "1365-246X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Journal International",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1093/gji/ggaf054",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101437793",
+          "display_name": "Tianshi Liu",
+          "orcid": "https://orcid.org/0000-0001-9636-3268"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tianshi Liu",
+        "raw_affiliation_strings": [
+          "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5063682625",
+          "display_name": "Nanqiao Du",
+          "orcid": "https://orcid.org/0000-0003-3623-7686"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Nanqiao Du",
+        "raw_affiliation_strings": [
+          "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5011671650",
+          "display_name": "Ting Lei",
+          "orcid": "https://orcid.org/0000-0001-6732-434X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ting Lei",
+        "raw_affiliation_strings": [
+          "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100730207",
+          "display_name": "Kai Wang",
+          "orcid": "https://orcid.org/0000-0002-6189-7056"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I126520041",
+            "display_name": "University of Science and Technology of China",
+            "ror": "https://ror.org/04c4dkn09",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I126520041",
+              "https://openalex.org/I19820366"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kai Wang",
+        "raw_affiliation_strings": [
+          "School of Earth and Space Sciences, University of Science and Technology of China , Hefei, Anhui,"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Earth and Space Sciences, University of Science and Technology of China , Hefei, Anhui,",
+            "institution_ids": [
+              "https://openalex.org/I126520041"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5037583443",
+          "display_name": "Bin He",
+          "orcid": "https://orcid.org/0000-0002-5066-5233"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I162577319",
+            "display_name": "The University of Texas at Dallas",
+            "ror": "https://ror.org/049emcs32",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I162577319"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bin He",
+        "raw_affiliation_strings": [
+          "Department of Geosciences, the University of Texas at Dallas , Richardson, TX 75080 ,"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Geosciences, the University of Texas at Dallas , Richardson, TX 75080 ,",
+            "institution_ids": [
+              "https://openalex.org/I162577319"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5054111937",
+          "display_name": "Ping Tong",
+          "orcid": "https://orcid.org/0000-0002-1937-3427"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210108017",
+            "display_name": "Earth Observatory of Singapore",
+            "ror": "https://ror.org/01167a838",
+            "country_code": "SG",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210108017"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I172675005",
+            "display_name": "Nanyang Technological University",
+            "ror": "https://ror.org/02e7b5302",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I172675005"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210163295",
+            "display_name": "Division of Mathematical Sciences",
+            "ror": "https://ror.org/051fftw81",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I4210112577",
+              "https://openalex.org/I4210163295"
+            ]
+          }
+        ],
+        "countries": [
+          "SG",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ping Tong",
+        "raw_affiliation_strings": [
+          "Division of Mathematical Sciences, School of Physical and Mathematical Sciences, Nanyang Technological University , 637371 ,",
+          "Earth Observatory of Singapore, Nanyang Technological University , 639798 ,"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Division of Mathematical Sciences, School of Physical and Mathematical Sciences, Nanyang Technological University , 637371 ,",
+            "institution_ids": [
+              "https://openalex.org/I172675005",
+              "https://openalex.org/I4210163295"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Earth Observatory of Singapore, Nanyang Technological University , 639798 ,",
+            "institution_ids": [
+              "https://openalex.org/I4210108017"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5077873907",
+          "display_name": "Giovanni Grasselli",
+          "orcid": "https://orcid.org/0000-0001-8027-4797"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Giovanni Grasselli",
+        "raw_affiliation_strings": [
+          "Department of Civil and Mineral Engineering, University of Toronto , Toronto, ON M5S1A4 ,",
+          "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Civil and Mineral Engineering, University of Toronto , Toronto, ON M5S1A4 ,",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5024442001",
+          "display_name": "Qinya Liu",
+          "orcid": "https://orcid.org/0000-0002-1071-2314"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185261750",
+            "display_name": "University of Toronto",
+            "ror": "https://ror.org/03dbr7087",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qinya Liu",
+        "raw_affiliation_strings": [
+          "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,",
+          "Department of Physics, University of Toronto , Toronto, ON M5S1A7 ,"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Physics, University of Toronto , Toronto, ON M5S1A7 ,",
+            "institution_ids": [
+              "https://openalex.org/I185261750"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 4,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 2590,
+      "currency": "GBP",
+      "value_usd": 3176
+    },
+    "apc_paid": {
+      "value": 2590,
+      "currency": "GBP",
+      "value_usd": 3176
+    },
+    "fwci": 9.84113795,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.93665444,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 95,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "241",
+      "issue": "1",
+      "first_page": "658",
+      "last_page": "673"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.996999979019165,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10271",
+        "display_name": "Seismic Imaging and Inversion Techniques",
+        "score": 0.996999979019165,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10635",
+        "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+        "score": 0.9865000247955322,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13619",
+        "display_name": "Geotechnical and Geomechanical Engineering",
+        "score": 0.9679999947547913,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2211",
+          "display_name": "Mechanics of Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/discontinuity",
+        "display_name": "Discontinuity (linguistics)",
+        "score": 0.860939621925354
+      },
+      {
+        "id": "https://openalex.org/keywords/geology",
+        "display_name": "Geology",
+        "score": 0.713097870349884
+      },
+      {
+        "id": "https://openalex.org/keywords/spectral-element-method",
+        "display_name": "Spectral element method",
+        "score": 0.5782918930053711
+      },
+      {
+        "id": "https://openalex.org/keywords/seismology",
+        "display_name": "Seismology",
+        "score": 0.5029725432395935
+      },
+      {
+        "id": "https://openalex.org/keywords/finite-element-method",
+        "display_name": "Finite element method",
+        "score": 0.5013973712921143
+      },
+      {
+        "id": "https://openalex.org/keywords/interface",
+        "display_name": "Interface (matter)",
+        "score": 0.4387877881526947
+      },
+      {
+        "id": "https://openalex.org/keywords/seismic-wave",
+        "display_name": "Seismic wave",
+        "score": 0.43022263050079346
+      },
+      {
+        "id": "https://openalex.org/keywords/geophysics",
+        "display_name": "Geophysics",
+        "score": 0.37393322587013245
+      },
+      {
+        "id": "https://openalex.org/keywords/extended-finite-element-method",
+        "display_name": "Extended finite element method",
+        "score": 0.23403066396713257
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematical-analysis",
+        "display_name": "Mathematical analysis",
+        "score": 0.19611060619354248
+      },
+      {
+        "id": "https://openalex.org/keywords/mechanics",
+        "display_name": "Mechanics",
+        "score": 0.18708857893943787
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.14086183905601501
+      },
+      {
+        "id": "https://openalex.org/keywords/structural-engineering",
+        "display_name": "Structural engineering",
+        "score": 0.09211280941963196
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.08494970202445984
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2777042112",
+        "wikidata": "https://www.wikidata.org/wiki/Q5281658",
+        "display_name": "Discontinuity (linguistics)",
+        "level": 2,
+        "score": 0.860939621925354
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.713097870349884
+      },
+      {
+        "id": "https://openalex.org/C38961997",
+        "wikidata": "https://www.wikidata.org/wiki/Q7575186",
+        "display_name": "Spectral element method",
+        "level": 4,
+        "score": 0.5782918930053711
+      },
+      {
+        "id": "https://openalex.org/C165205528",
+        "wikidata": "https://www.wikidata.org/wiki/Q83371",
+        "display_name": "Seismology",
+        "level": 1,
+        "score": 0.5029725432395935
+      },
+      {
+        "id": "https://openalex.org/C135628077",
+        "wikidata": "https://www.wikidata.org/wiki/Q220184",
+        "display_name": "Finite element method",
+        "level": 2,
+        "score": 0.5013973712921143
+      },
+      {
+        "id": "https://openalex.org/C113843644",
+        "wikidata": "https://www.wikidata.org/wiki/Q901882",
+        "display_name": "Interface (matter)",
+        "level": 4,
+        "score": 0.4387877881526947
+      },
+      {
+        "id": "https://openalex.org/C78542244",
+        "wikidata": "https://www.wikidata.org/wiki/Q186167",
+        "display_name": "Seismic wave",
+        "level": 2,
+        "score": 0.43022263050079346
+      },
+      {
+        "id": "https://openalex.org/C8058405",
+        "wikidata": "https://www.wikidata.org/wiki/Q46255",
+        "display_name": "Geophysics",
+        "level": 1,
+        "score": 0.37393322587013245
+      },
+      {
+        "id": "https://openalex.org/C24810621",
+        "wikidata": "https://www.wikidata.org/wiki/Q3333647",
+        "display_name": "Extended finite element method",
+        "level": 3,
+        "score": 0.23403066396713257
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.19611060619354248
+      },
+      {
+        "id": "https://openalex.org/C57879066",
+        "wikidata": "https://www.wikidata.org/wiki/Q41217",
+        "display_name": "Mechanics",
+        "level": 1,
+        "score": 0.18708857893943787
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.14086183905601501
+      },
+      {
+        "id": "https://openalex.org/C66938386",
+        "wikidata": "https://www.wikidata.org/wiki/Q633538",
+        "display_name": "Structural engineering",
+        "level": 1,
+        "score": 0.09211280941963196
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.08494970202445984
+      },
+      {
+        "id": "https://openalex.org/C157915830",
+        "wikidata": "https://www.wikidata.org/wiki/Q2928001",
+        "display_name": "Bubble",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C129307140",
+        "wikidata": "https://www.wikidata.org/wiki/Q6795880",
+        "display_name": "Maximum bubble pressure method",
+        "level": 3,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1093/gji/ggaf054",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1093/gji/ggaf054",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S108821158",
+          "display_name": "Geophysical Journal International",
+          "issn_l": "0956-540X",
+          "issn": [
+            "0956-540X",
+            "1365-246X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Geophysical Journal International",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1093/gji/ggaf054",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/gji/ggaf054",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S108821158",
+        "display_name": "Geophysical Journal International",
+        "issn_l": "0956-540X",
+        "issn": [
+          "0956-540X",
+          "1365-246X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Journal International",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 54,
+    "referenced_works": [
+      "https://openalex.org/W2107952887",
+      "https://openalex.org/W2032249243",
+      "https://openalex.org/W2136919014",
+      "https://openalex.org/W2100045735",
+      "https://openalex.org/W3202528256",
+      "https://openalex.org/W2789882410",
+      "https://openalex.org/W2792194921",
+      "https://openalex.org/W2149697434",
+      "https://openalex.org/W2107870038",
+      "https://openalex.org/W2083985973",
+      "https://openalex.org/W2220375742",
+      "https://openalex.org/W1860468083",
+      "https://openalex.org/W2176210372",
+      "https://openalex.org/W4399832815",
+      "https://openalex.org/W2004442314",
+      "https://openalex.org/W2101827629",
+      "https://openalex.org/W1975139914",
+      "https://openalex.org/W2148631859",
+      "https://openalex.org/W3008118759",
+      "https://openalex.org/W3041843105",
+      "https://openalex.org/W2972762515",
+      "https://openalex.org/W4399421053",
+      "https://openalex.org/W4229073044",
+      "https://openalex.org/W4394908796",
+      "https://openalex.org/W1981848587",
+      "https://openalex.org/W4293791101",
+      "https://openalex.org/W2605941301",
+      "https://openalex.org/W1984899627",
+      "https://openalex.org/W4391041867",
+      "https://openalex.org/W2043066572",
+      "https://openalex.org/W2321801701",
+      "https://openalex.org/W3116374049",
+      "https://openalex.org/W2038791862",
+      "https://openalex.org/W2163399711",
+      "https://openalex.org/W36582999",
+      "https://openalex.org/W3097024036",
+      "https://openalex.org/W2340420312",
+      "https://openalex.org/W2965330815",
+      "https://openalex.org/W2144293269",
+      "https://openalex.org/W2142231887",
+      "https://openalex.org/W6687606337",
+      "https://openalex.org/W2016755848",
+      "https://openalex.org/W2154735296",
+      "https://openalex.org/W2136089348",
+      "https://openalex.org/W3113027141",
+      "https://openalex.org/W3196776060",
+      "https://openalex.org/W2338095465",
+      "https://openalex.org/W2625072894",
+      "https://openalex.org/W2346672541",
+      "https://openalex.org/W2128144298",
+      "https://openalex.org/W4387171977",
+      "https://openalex.org/W2168435333",
+      "https://openalex.org/W2079018811",
+      "https://openalex.org/W2334897872"
+    ],
+    "related_works": [
+      "https://openalex.org/W1702821",
+      "https://openalex.org/W1484056900",
+      "https://openalex.org/W4244584856",
+      "https://openalex.org/W2127980043",
+      "https://openalex.org/W1989965977",
+      "https://openalex.org/W1179533853",
+      "https://openalex.org/W2372950632",
+      "https://openalex.org/W1521667",
+      "https://openalex.org/W2136634899",
+      "https://openalex.org/W940906937"
+    ],
+    "abstract_inverted_index": {
+      "SUMMARY": [
+        0
+      ],
+      "In": [
+        1,
+        53
+      ],
+      "seismology,": [
+        2
+      ],
+      "wavefield": [
+        3,
+        26,
+        60,
+        81,
+        108,
+        122,
+        143,
+        153,
+        168
+      ],
+      "injection": [
+        4,
+        61,
+        109,
+        123,
+        144,
+        154,
+        169
+      ],
+      "refers": [
+        5
+      ],
+      "to": [
+        6,
+        42,
+        64,
+        70,
+        79,
+        105,
+        186
+      ],
+      "the": [
+        7,
+        31,
+        66,
+        86,
+        107,
+        160,
+        179,
+        182
+      ],
+      "propagation": [
+        8
+      ],
+      "of": [
+        9,
+        25,
+        113,
+        164,
+        181
+      ],
+      "seismic": [
+        10,
+        35,
+        48
+      ],
+      "waves": [
+        11,
+        36
+      ],
+      "generated": [
+        12
+      ],
+      "by": [
+        13,
+        20
+      ],
+      "remote": [
+        14
+      ],
+      "sources": [
+        15
+      ],
+      "into": [
+        16
+      ],
+      "local": [
+        17,
+        38,
+        172
+      ],
+      "domains": [
+        18
+      ],
+      "bounded": [
+        19
+      ],
+      "enclosed": [
+        21
+      ],
+      "surfaces.": [
+        22
+      ],
+      "The": [
+        23
+      ],
+      "simulations": [
+        24,
+        190
+      ],
+      "injection,": [
+        27,
+        82
+      ],
+      "primarily": [
+        28
+      ],
+      "focused": [
+        29
+      ],
+      "on": [
+        30,
+        152
+      ],
+      "interaction": [
+        32
+      ],
+      "between": [
+        33
+      ],
+      "incoming": [
+        34
+      ],
+      "and": [
+        37,
+        46,
+        90,
+        95,
+        116,
+        147,
+        162,
+        173
+      ],
+      "structures,": [
+        39
+      ],
+      "are": [
+        40
+      ],
+      "key": [
+        41
+      ],
+      "earthquake": [
+        43
+      ],
+      "hazard": [
+        44
+      ],
+      "modelling": [
+        45
+      ],
+      "full-waveform": [
+        47
+      ],
+      "tomography": [
+        49
+      ],
+      "using": [
+        50
+      ],
+      "tele-seismic": [
+        51
+      ],
+      "waves.": [
+        52
+      ],
+      "this": [
+        54,
+        132,
+        135
+      ],
+      "paper,": [
+        55
+      ],
+      "we": [
+        56,
+        83,
+        137,
+        177
+      ],
+      "show": [
+        57,
+        117
+      ],
+      "that": [
+        58,
+        121
+      ],
+      "simulating": [
+        59
+      ],
+      "is": [
+        62
+      ],
+      "equivalent": [
+        63
+      ],
+      "solving": [
+        65
+      ],
+      "wave": [
+        67
+      ],
+      "equation": [
+        68
+      ],
+      "subject": [
+        69
+      ],
+      "interface": [
+        71,
+        87,
+        183
+      ],
+      "discontinuity": [
+        72,
+        88,
+        184
+      ],
+      "conditions.": [
+        73
+      ],
+      "To": [
+        74
+      ],
+      "provide": [
+        75
+      ],
+      "a": [
+        76,
+        192
+      ],
+      "general": [
+        77
+      ],
+      "framework": [
+        78
+      ],
+      "study": [
+        80
+      ],
+      "formally": [
+        84
+      ],
+      "define": [
+        85
+      ],
+      "problem,": [
+        89
+      ],
+      "discuss": [
+        91
+      ],
+      "its": [
+        92
+      ],
+      "representation": [
+        93
+      ],
+      "theorem": [
+        94
+      ],
+      "uniqueness.": [
+        96
+      ],
+      "We": [
+        97,
+        158
+      ],
+      "also": [
+        98
+      ],
+      "develop": [
+        99
+      ],
+      "an": [
+        100
+      ],
+      "efficient": [
+        101
+      ],
+      "interface-discontinuity-based": [
+        102
+      ],
+      "numerical": [
+        103,
+        119,
+        193
+      ],
+      "algorithm": [
+        104
+      ],
+      "solve": [
+        106
+      ],
+      "problem": [
+        110
+      ],
+      "through": [
+        111,
+        167,
+        191
+      ],
+      "implementations": [
+        112
+      ],
+      "spectral-element": [
+        114
+      ],
+      "methods,": [
+        115,
+        146
+      ],
+      "with": [
+        118,
+        131,
+        140
+      ],
+      "examples": [
+        120,
+        170
+      ],
+      "can": [
+        124
+      ],
+      "be": [
+        125
+      ],
+      "accurately": [
+        126
+      ],
+      "simulated": [
+        127
+      ],
+      "at": [
+        128,
+        171
+      ],
+      "different": [
+        129
+      ],
+      "scales": [
+        130
+      ],
+      "algorithm.": [
+        133
+      ],
+      "Under": [
+        134
+      ],
+      "framework,": [
+        136
+      ],
+      "draw": [
+        138
+      ],
+      "connections": [
+        139
+      ],
+      "previously": [
+        141
+      ],
+      "proposed": [
+        142
+      ],
+      "algorithms/hybrid": [
+        145
+      ],
+      "clarify": [
+        148
+      ],
+      "several": [
+        149
+      ],
+      "theoretical": [
+        150
+      ],
+      "questions": [
+        151
+      ],
+      "from": [
+        155
+      ],
+      "previous": [
+        156
+      ],
+      "research.": [
+        157
+      ],
+      "demonstrate": [
+        159
+      ],
+      "efficiency": [
+        161
+      ],
+      "accuracy": [
+        163
+      ],
+      "our": [
+        165
+      ],
+      "approach": [
+        166,
+        185
+      ],
+      "continental": [
+        174
+      ],
+      "scales.": [
+        175
+      ],
+      "Furthermore,": [
+        176
+      ],
+      "illustrate": [
+        178
+      ],
+      "applicability": [
+        180
+      ],
+      "performing": [
+        187
+      ],
+      "kinematic": [
+        188
+      ],
+      "fault": [
+        189
+      ],
+      "example.": [
+        194
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-12-21T23:12:01.093139",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          8
+        ]
+      ],
+      "date-time": "2026-01-08T05:13:44Z",
+      "timestamp": 1767849224179,
+      "version": "3.49.0"
+    },
+    "reference-count": 58,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              22
+            ]
+          ],
+          "date-time": "2025-02-22T00:00:00Z",
+          "timestamp": 1740182400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 16,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006602",
+        "name": "Air Force Research Laboratory",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006602",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000038",
+        "name": "NSERC",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "#487237"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "#487237"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000038",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100021202",
+        "name": "Digital Research Alliance of Canada",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100021202",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>SUMMARY</jats:title>\n               <jats:p>In seismology, wavefield injection refers to the propagation of seismic waves generated by remote sources into local domains bounded by enclosed surfaces. The simulations of wavefield injection, primarily focused on the interaction between incoming seismic waves and local structures, are key to earthquake hazard modelling and full-waveform seismic tomography using tele-seismic waves. In this paper, we show that simulating wavefield injection is equivalent to solving the wave equation subject to interface discontinuity conditions. To provide a general framework to study wavefield injection, we formally define the interface discontinuity problem, and discuss its representation theorem and uniqueness. We also develop an efficient interface-discontinuity-based numerical algorithm to solve the wavefield injection problem through implementations of spectral-element methods, and show with numerical examples that wavefield injection can be accurately simulated at different scales with this algorithm. Under this framework, we draw connections with previously proposed wavefield injection algorithms/hybrid methods, and clarify several theoretical questions on wavefield injection from previous research. We demonstrate the efficiency and accuracy of our approach through wavefield injection examples at local and continental scales. Furthermore, we illustrate the applicability of the interface discontinuity approach to performing kinematic fault simulations through a numerical example.</jats:p>",
+    "DOI": "10.1093/gji/ggaf054",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          22
+        ]
+      ],
+      "date-time": "2025-02-22T02:00:27Z",
+      "timestamp": 1740189627000
+    },
+    "page": "658-673",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Seismic wavefield injection based on interface discontinuity: theory and numerical implementation based upon the spectral-element method"
+    ],
+    "prefix": "10.1093",
+    "volume": "241",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9636-3268",
+        "authenticated-orcid": false,
+        "given": "Tianshi",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,",
+            "place": [
+              "Canada"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Nanqiao",
+        "family": "Du",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,",
+            "place": [
+              "Canada"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Ting",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,",
+            "place": [
+              "Canada"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6189-7056",
+        "authenticated-orcid": false,
+        "given": "Kai",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Earth and Space Sciences, University of Science and Technology of China , Hefei, Anhui 230026 ,",
+            "place": [
+              "China"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Bin",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geosciences, the University of Texas at Dallas , Richardson, TX 75080 ,",
+            "place": [
+              "USA"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1937-3427",
+        "authenticated-orcid": false,
+        "given": "Ping",
+        "family": "Tong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Mathematical Sciences, School of Physical and Mathematical Sciences, Nanyang Technological University , 637371 ,",
+            "place": [
+              "Singapore"
+            ]
+          },
+          {
+            "name": "Earth Observatory of Singapore, Nanyang Technological University , 639798 ,",
+            "place": [
+              "Singapore"
+            ]
+          },
+          {
+            "name": "Asian School of the Environment, Nanyang Technological University , 639798 ,",
+            "place": [
+              "Singapore"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Giovanni",
+        "family": "Grasselli",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,",
+            "place": [
+              "Canada"
+            ]
+          },
+          {
+            "name": "Department of Civil and Mineral Engineering, University of Toronto , Toronto, ON M5S1A4 ,",
+            "place": [
+              "Canada"
+            ]
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1071-2314",
+        "authenticated-orcid": false,
+        "given": "Qinya",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Earth Sciences, University of Toronto , Toronto, ON M5S3B1 ,",
+            "place": [
+              "Canada"
+            ]
+          },
+          {
+            "name": "Department of Physics, University of Toronto , Toronto, ON M5S1A7 ,",
+            "place": [
+              "Canada"
+            ]
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2025030419430037100_bib1",
+        "volume-title": "Quantitative Seismology",
+        "author": "Aki",
+        "year": "2002"
+      },
+      {
+        "issue": "10",
+        "key": "2025030419430037100_bib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "1497",
+        "DOI": "10.1109/8.805891",
+        "article-title": "Evanescent waves in PML’s: origin of the numerical reflection in wave-structure interaction problems",
+        "volume": "47",
+        "author": "Bérenger",
+        "year": "1999",
+        "journal-title": "IEEE Trans. Antennas Propag."
+      },
+      {
+        "key": "2025030419430037100_bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "107",
+        "DOI": "10.1002/eqe.4290120108",
+        "article-title": "On the effective seismic input for non-linear soil-structure interaction systems",
+        "volume": "12",
+        "author": "Bielak",
+        "year": "1984",
+        "journal-title": "Earthq. Eng. Struct. Dyn."
+      },
+      {
+        "key": "2025030419430037100_bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "817",
+        "DOI": "10.1785/0120010251",
+        "article-title": "Domain reduction method for three-dimensional earthquake modeling in localized regions, part I: theory",
+        "volume": "93",
+        "author": "Bielak",
+        "year": "2003",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "2025030419430037100_bib5",
+        "doi-asserted-by": "publisher",
+        "first-page": "34",
+        "DOI": "10.1046/j.1365-246X.2003.01808.x",
+        "article-title": "Coupling the spectral element method with a modal solution for elastic wave propagation in global earth models",
+        "volume": "152",
+        "author": "Capdeville",
+        "year": "2003",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "6",
+        "key": "2025030419430037100_bib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1529",
+        "DOI": "10.1785/BSSA0670061529",
+        "article-title": "Absorbing boundary conditions for acoustic and elastic wave equations",
+        "volume": "67",
+        "author": "Clayton",
+        "year": "1977",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "2025030419430037100_bib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1849",
+        "DOI": "10.1093/gji/ggy078",
+        "article-title": "Box tomography: first application to the imaging of upper-mantle shear velocity and radial anisotropy structure beneath the north american continent",
+        "volume": "213",
+        "author": "Clouzet",
+        "year": "2018",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "2",
+        "key": "2025030419430037100_bib8",
+        "doi-asserted-by": "publisher",
+        "first-page": "983",
+        "DOI": "10.1093/gji/ggy032",
+        "article-title": "Non-periodic homogenization of 3-D elastic media for the seismic wave equation",
+        "volume": "213",
+        "author": "Cupillard",
+        "year": "2018",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "1",
+        "key": "2025030419430037100_bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "319",
+        "DOI": "10.1111/j.1365-246X.2006.03120.x",
+        "article-title": "An arbitrary high-order discontinuous Galerkin method for elastic waves on unstructured meshes—II. The three-dimensional isotropic case",
+        "volume": "167",
+        "author": "Dumbser",
+        "year": "2006",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "3–4",
+        "key": "2025030419430037100_bib10",
+        "doi-asserted-by": "publisher",
+        "first-page": "270",
+        "DOI": "10.1016/j.epsl.2009.12.003",
+        "article-title": "Full waveform tomography for radially anisotropic structure: new insights into present and past states of the Australasian upper mantle",
+        "volume": "290",
+        "author": "Fichtner",
+        "year": "2010",
+        "journal-title": "Earth planet. Sci. Lett."
+      },
+      {
+        "issue": "6155",
+        "key": "2025030419430037100_bib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "227",
+        "DOI": "10.1126/science.1241514",
+        "article-title": "Waveform tomography reveals channeled flow at the base of the oceanic asthenosphere",
+        "volume": "342",
+        "author": "French",
+        "year": "2013",
+        "journal-title": "Science"
+      },
+      {
+        "key": "2025030419430037100_bib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "260",
+        "DOI": "10.1016/j.cageo.2015.12.013",
+        "article-title": "Full-waveform inversion on heterogeneous HPC systems",
+        "volume": "89",
+        "author": "Gokhberg",
+        "year": "2016",
+        "journal-title": "Comput. Geosci."
+      },
+      {
+        "issue": "4",
+        "key": "2025030419430037100_bib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1091",
+        "DOI": "10.1785/BSSA0860041091",
+        "article-title": "Simulating seismic wave propagation in 3D elastic media using staggered-grid finite differences",
+        "volume": "86",
+        "author": "Graves",
+        "year": "1996",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "issue": "4",
+        "key": "2025030419430037100_bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "881",
+        "DOI": "10.1785/BSSA0880040881",
+        "article-title": "Three-dimensional finite-difference modelling of the San Andreas fault: source parameterization and ground-motion levels",
+        "volume": "88",
+        "author": "Graves",
+        "year": "1998",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "2025030419430037100_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "118797",
+        "DOI": "10.1016/j.epsl.2024.118797",
+        "article-title": "Crustal and uppermost mantle structures of the North American Midcontinent Rift revealed by joint full-waveform inversion of ambient-noise data and teleseismic P waves",
+        "volume": "641",
+        "author": "He",
+        "year": "2024",
+        "journal-title": "Earth planet. Sci. Lett."
+      },
+      {
+        "issue": "B9",
+        "key": "2025030419430037100_bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": " B09317",
+        "DOI": "10.1029/2007JB005553",
+        "article-title": "Spectral element modelling of spontaneous earthquake rupture on rate and state faults: effect of velocity-strengthening friction at shallow depths",
+        "volume": "113",
+        "author": "Kaneko",
+        "year": "2008",
+        "journal-title": "J. Geophys. Res. Solid Earth"
+      },
+      {
+        "issue": "3",
+        "key": "2025030419430037100_bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "557",
+        "DOI": "10.1111/j.1365-246X.1979.tb06779.x",
+        "article-title": "Seismic waves in a stratified half space",
+        "volume": "57",
+        "author": "Kennett",
+        "year": "1979",
+        "journal-title": "Geophys. J. R. Astron. Soc."
+      },
+      {
+        "issue": "5",
+        "key": "2025030419430037100_bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "SM155",
+        "DOI": "10.1190/1.2757586",
+        "article-title": "An unsplit convolutional perfectly matched layer improved at grazing incidence for the seismic wave equation",
+        "volume": "72",
+        "author": "Komatitsch",
+        "year": "2007",
+        "journal-title": "Geophysics"
+      },
+      {
+        "issue": "3",
+        "key": "2025030419430037100_bib19",
+        "doi-asserted-by": "publisher",
+        "first-page": "806",
+        "DOI": "10.1046/j.1365-246x.1999.00967.x",
+        "article-title": "Introduction to the spectral element method for three-dimensional seismic wave propagation",
+        "volume": "139",
+        "author": "Komatitsch",
+        "year": "1999",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "3",
+        "key": "2025030419430037100_bib20",
+        "doi-asserted-by": "publisher",
+        "first-page": "806",
+        "DOI": "10.1046/j.1365-246x.1999.00967.x",
+        "article-title": "Introduction to the spectral element method for three-dimensional seismic wave propagation",
+        "volume": "139",
+        "author": "Komatitsch",
+        "year": "1999",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "56",
+        "key": "2025030419430037100_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "56",
+        "DOI": "10.1007/s10915-020-01148-6",
+        "article-title": "Treatment of complex interfaces for Maxwell's equations with continuous coefficients using the correction function method",
+        "volume": "82",
+        "author": "Law",
+        "year": "2020",
+        "journal-title": "J. Sci. Comput."
+      },
+      {
+        "key": "2025030419430037100_bib22",
+        "doi-asserted-by": "publisher",
+        "first-page": "502",
+        "DOI": "10.1093/gji/ggaa331",
+        "article-title": "3-D scattering of elastic waves by small-scale heterogeneities in the earth's mantle",
+        "volume": "223",
+        "author": "Leng",
+        "year": "2020",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "2025030419430037100_bib23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1948",
+        "DOI": "10.1093/gji/ggz413",
+        "article-title": "High-frequency seismic wave modelling of the deep earth based on hybrid methods and spectral-element simulations: a conceptual study",
+        "volume": "219",
+        "author": "Lin",
+        "year": "2019",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "2025030419430037100_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "105644",
+        "DOI": "10.1016/j.cageo.2024.105644",
+        "article-title": "Cube2sph: a toolkit enabling flexible and accurate continental-scale seismic wave simulations using the SPECFEM3D_Cartesian package",
+        "volume": "190",
+        "author": "Liu",
+        "year": "2024",
+        "journal-title": "Comput. Geosci."
+      },
+      {
+        "key": "2025030419430037100_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1029/2021JB022368",
+        "article-title": "Novel hybrid numerical simulation of the wave equation by combining physical and numerical representation theorems and a review of hybrid methodologies",
+        "volume": "127",
+        "author": "Lyu",
+        "year": "2022",
+        "journal-title": "J. Geophys. Res. Solid Earth"
+      },
+      {
+        "issue": "4",
+        "key": "2025030419430037100_bib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2023JB027576",
+        "DOI": "10.1029/2023JB027576",
+        "article-title": "Introduction to the distributional finite difference method for 3-D seismic wave propagation and comparison with the spectral element method",
+        "volume": "129",
+        "author": "Lyu",
+        "year": "2024",
+        "journal-title": "J. Geophys. Res. Solid Earth"
+      },
+      {
+        "issue": "1",
+        "key": "2025030419430037100_bib27",
+        "doi-asserted-by": "publisher",
+        "first-page": "73",
+        "DOI": "10.1785/0120130106",
+        "article-title": "Spectral-element simulations of seismic waves generated by the 2009 L'Aquila earthquake",
+        "volume": "104",
+        "author": "Magnoni",
+        "year": "2013",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "issue": "1",
+        "key": "2025030419430037100_bib28",
+        "doi-asserted-by": "publisher",
+        "first-page": "264",
+        "DOI": "10.1093/gji/ggac306",
+        "article-title": "Distributional finite-difference modelling of seismic waves",
+        "volume": "233",
+        "author": "Masson",
+        "year": "2022",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "2025030419430037100_bib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "141",
+        "DOI": "10.1093/gji/ggx141",
+        "article-title": "Box tomography: localized imaging of remote targets buried in an unknown medium, a step forward for understanding key structures in the deep earth",
+        "volume": "211",
+        "author": "Masson",
+        "year": "2017",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "2025030419430037100_bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "1580",
+        "DOI": "10.1093/gji/ggt459",
+        "article-title": "On the numerical implementation of time-reversal mirrors for tomographic imaging",
+        "volume": "196",
+        "author": "Masson",
+        "year": "2014",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "1",
+        "key": "2025030419430037100_bib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "339",
+        "DOI": "10.1093/gji/ggae025",
+        "article-title": "2-D seismic wave propagation using the distributional finite-difference method: further developments and potential for global seismology",
+        "volume": "237",
+        "author": "Masson",
+        "year": "2024",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "2025030419430037100_bib32",
+        "article-title": "Mineos v1.0.2 [software]",
+        "volume-title": "Computational Infrastructure for Geodynamics",
+        "author": "Masters",
+        "year": "2011"
+      },
+      {
+        "key": "2025030419430037100_bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "230",
+        "DOI": "10.1093/gji/ggs006",
+        "article-title": "A hybrid method to compute short-period synthetic seismograms of teleseismic body waves in a 3-D regional model",
+        "volume": "192",
+        "author": "Monteiller",
+        "year": "2013",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "2025030419430037100_bib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "811",
+        "DOI": "10.1093/gji/ggv189",
+        "article-title": "Three-dimensional full waveform inversion of short-period teleseismic wavefields based upon the SEM-DSM hybrid method",
+        "volume": "202",
+        "author": "Monteiller",
+        "year": "2015",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "2025030419430037100_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "2060",
+        "DOI": "10.1093/gji/ggaa570",
+        "article-title": "On the validity of the planar wave approximation to compute synthetic seismograms of teleseismic body waves in a 3-D regional model",
+        "volume": "224",
+        "author": "Monteiller",
+        "year": "2021",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "2025030419430037100_bib36",
+        "doi-asserted-by": "publisher",
+        "first-page": "425",
+        "DOI": "10.5194/se-5-425-2014",
+        "article-title": "AxiSEM: broadband 3-D seismic wavefields in axisymmetric media",
+        "volume-title": "Solid Earth",
+        "author": "Nissen-Meyer",
+        "year": "2014"
+      },
+      {
+        "issue": "2",
+        "key": "2025030419430037100_bib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "555",
+        "DOI": "10.1111/j.1365-246X.2008.03986.x",
+        "article-title": "The source-box wave propagation hybrid methods: general formulation and implementation",
+        "volume": "176",
+        "author": "Opršal",
+        "year": "2009",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "2025030419430037100_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "711",
+        "DOI": "10.1023/A:1021181422709",
+        "article-title": "3D Hybrid Ray-FD and DWN-FD seismic modeling for simple models containing complex local structures",
+        "volume": "46",
+        "author": "Opršal",
+        "year": "2002",
+        "journal-title": "Stud. Geophys. Geod."
+      },
+      {
+        "key": "2025030419430037100_bib39",
+        "doi-asserted-by": "publisher",
+        "first-page": "1782",
+        "DOI": "10.1093/gji/ggaa563",
+        "article-title": "High-frequency global wavefields for local 3-D structures by wavefield injection and extrapolation",
+        "volume": "225",
+        "author": "Pienkowska",
+        "year": "2021",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "issue": "1",
+        "key": "2025030419430037100_bib40",
+        "doi-asserted-by": "publisher",
+        "first-page": "54",
+        "DOI": "10.1785/BSSA0890010054",
+        "article-title": "3D Elastic finite-difference modelling of seismic motion using staggered grids with nonuniform spacing",
+        "volume": "89",
+        "author": "Pitarka",
+        "year": "1999",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "key": "2025030419430037100_bib41",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1145/3332186.3332195",
+        "article-title": "Deploying a top-100 supercomputer for large parallel workloads: the Niagara supercomputer",
+        "volume-title": "ACM International Conference Proceeding Series",
+        "author": "Ponce",
+        "year": "2019"
+      },
+      {
+        "issue": "3",
+        "key": "2025030419430037100_bib42",
+        "doi-asserted-by": "publisher",
+        "first-page": "907",
+        "DOI": "10.1190/1.1444787",
+        "article-title": "An efficient method for calculating finite-difference seismograms after model alterations",
+        "volume": "65",
+        "author": "Robertsson",
+        "year": "1999",
+        "journal-title": "Geophysics"
+      },
+      {
+        "key": "2025030419430037100_bib43",
+        "doi-asserted-by": "publisher",
+        "first-page": "1273",
+        "DOI": "10.1190/1.1441998",
+        "article-title": "Two-dimensional acoustic modelling by a hybrid method",
+        "volume": "50",
+        "author": "Shtivelman",
+        "year": "1985",
+        "journal-title": "Geophysics"
+      },
+      {
+        "key": "2025030419430037100_bib44",
+        "first-page": "217",
+        "article-title": "Seismic surface waves",
+        "volume": "11",
+        "author": "Takeuchi",
+        "year": "1972",
+        "journal-title": "Methods Comput. Phys."
+      },
+      {
+        "issue": "1",
+        "key": "2025030419430037100_bib45",
+        "doi-asserted-by": "publisher",
+        "first-page": "433",
+        "DOI": "10.1111/j.1365-246X.2009.04429.x",
+        "article-title": "Seismic tomography of the southern California crust based on spectral-element and adjoint methods",
+        "volume": "180",
+        "author": "Tape",
+        "year": "2010",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "2025030419430037100_bib46",
+        "doi-asserted-by": "publisher",
+        "first-page": "369",
+        "DOI": "10.1093/gji/ggt508",
+        "article-title": "High-resolution seismic array imaging based on an SEM-FK hybrid method",
+        "volume": "197",
+        "author": "Tong",
+        "year": "2014",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "2025030419430037100_bib47",
+        "doi-asserted-by": "crossref",
+        "first-page": "7025",
+        "DOI": "10.1002/2014GL061644",
+        "article-title": "A 3-D spectral-element and frequency-wavenumber (SEM-FK) hybrid method for high-resolution seismic array imaging",
+        "volume": "41",
+        "author": "Tong",
+        "year": "2015",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "2025030419430037100_bib48",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2021JB021648",
+        "DOI": "10.1029/2020JB021305",
+        "article-title": "Adjoint tomography of ambient noise data and teleseismic P waves: methodology and applications to central california",
+        "volume": "126",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "J. Geophys. Res. Solid Earth"
+      },
+      {
+        "key": "2025030419430037100_bib49",
+        "doi-asserted-by": "publisher",
+        "first-page": "118",
+        "DOI": "10.1785/0120210094",
+        "article-title": "Full-waveform inversion of high-frequency teleseismic body waves based on multiple plane-wave incidence: methods and practical applications",
+        "volume": "112",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "issue": "3",
+        "key": "2025030419430037100_bib50",
+        "doi-asserted-by": "publisher",
+        "first-page": "733",
+        "DOI": "10.1785/BSSA0890030733",
+        "article-title": "A simple orthonormalization method for stable and efficient computation of Green's functions",
+        "volume": "89",
+        "author": "Wang",
+        "year": "1999",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "issue": "3",
+        "key": "2025030419430037100_bib51",
+        "doi-asserted-by": "publisher",
+        "first-page": "1739",
+        "DOI": "10.1093/gji/ggx259",
+        "article-title": "Complete synthetic seismograms based on a spherical self-gravitating Earth model with an atmosphere-ocean-mantle-core structure",
+        "volume": "210",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "2025030419430037100_bib52",
+        "doi-asserted-by": "publisher",
+        "first-page": "475",
+        "DOI": "10.1130/G37812.1",
+        "article-title": "The deep roots of the western pyrenees revealed by full waveform inversion of teleseismic P waves",
+        "volume": "44",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "Geology"
+      },
+      {
+        "key": "2025030419430037100_bib53",
+        "doi-asserted-by": "publisher",
+        "first-page": "17 901",
+        "DOI": "10.1029/98JB01276",
+        "article-title": "A two-dimensional P-SV hybrid method and its application to modelling localized structures near the core–mantle boundary",
+        "volume": "103",
+        "author": "Wen",
+        "year": "1998",
+        "journal-title": "J. Geophys. Res. Solid Earth"
+      },
+      {
+        "issue": "19",
+        "key": "2025030419430037100_bib54",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2023GL104077",
+        "DOI": "10.1029/2023GL104077",
+        "article-title": "Receiver function adjoint tomography for three-dimensional high-resolution seismic array imaging: methodology and applications in southeastern tibet",
+        "volume": "50",
+        "author": "Xu",
+        "year": "2023",
+        "journal-title": "Geophys. Res. Lett."
+      },
+      {
+        "key": "2025030419430037100_bib55",
+        "doi-asserted-by": "publisher",
+        "first-page": "825",
+        "DOI": "10.1785/0120010252",
+        "article-title": "Domain reduction method for three-dimensional earthquake modelling in localized regions, part II: verification and applications",
+        "volume": "93",
+        "author": "Yoshimura",
+        "year": "2003",
+        "journal-title": "Bull. seism. Soc. Am."
+      },
+      {
+        "issue": "3",
+        "key": "2025030419430037100_bib56",
+        "doi-asserted-by": "publisher",
+        "first-page": "301",
+        "DOI": "10.1088/1742-2132/4/3/S09",
+        "article-title": "Study on long-period strong motion simulation for large-scale earthquakes",
+        "volume": "4",
+        "author": "Zhao",
+        "year": "2007",
+        "journal-title": "J. Geophys. Eng."
+      },
+      {
+        "key": "2025030419430037100_bib57",
+        "first-page": "B12307",
+        "article-title": "A two–dimensional hybrid method for modelling seismic wave propagation in anisotropic media",
+        "volume": "113",
+        "author": "Zhao",
+        "year": "2008",
+        "journal-title": "J. geophys. Res."
+      },
+      {
+        "issue": "1",
+        "key": "2025030419430037100_bib58",
+        "doi-asserted-by": "publisher",
+        "first-page": "18",
+        "DOI": "10.1093/gji/ggu492",
+        "article-title": "Seismic structure of the European upper mantle based on adjoint tomography",
+        "volume": "201",
+        "author": "Zhu",
+        "year": "2015",
+        "journal-title": "Geophys. J. Int."
+      }
+    ],
+    "container-title": [
+      "Geophysical Journal International"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggaf054/62049253/ggaf054.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/gji/article-pdf/241/1/658/62049253/ggaf054.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/gji/article-pdf/241/1/658/62049253/ggaf054.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          4
+        ]
+      ],
+      "date-time": "2025-03-04T21:11:11Z",
+      "timestamp": 1741122671000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/gji/article/241/1/658/8029895"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          6
+        ]
+      ]
+    },
+    "references-count": 58,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            6
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1093/gji/ggaf054",
+    "relation": {},
+    "ISSN": [
+      "0956-540X",
+      "1365-246X"
+    ],
+    "issn-type": [
+      {
+        "value": "0956-540X",
+        "type": "print"
+      },
+      {
+        "value": "1365-246X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          6
+        ]
+      ]
+    }
+  }
+}

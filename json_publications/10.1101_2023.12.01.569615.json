@@ -1,0 +1,1649 @@
+{
+  "doi": "10.1101/2023.12.01.569615",
+  "openalex": {
+    "id": "https://openalex.org/W4389286283",
+    "doi": "https://doi.org/10.1101/2023.12.01.569615",
+    "title": "Adaptive stretching of representations across brain regions and deep learning model layers",
+    "display_name": "Adaptive stretching of representations across brain regions and deep learning model layers",
+    "publication_year": 2023,
+    "publication_date": "2023-12-03",
+    "ids": {
+      "openalex": "https://openalex.org/W4389286283",
+      "doi": "https://doi.org/10.1101/2023.12.01.569615"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1101/2023.12.01.569615",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1101/2023.12.01.569615",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/03/2023.12.01.569615.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402567",
+        "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2750212522",
+        "host_organization_name": "Cold Spring Harbor Laboratory",
+        "host_organization_lineage": [
+          "https://openalex.org/I2750212522"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "type": "preprint",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/03/2023.12.01.569615.full.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5066119610",
+          "display_name": "Xin-Ya Zhang",
+          "orcid": "https://orcid.org/0000-0002-7826-3076"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I116953780",
+            "display_name": "Tongji University",
+            "ror": "https://ror.org/03rc6as71",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I116953780"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xin-Ya Zhang",
+        "raw_affiliation_strings": [
+          "School of Physical Science and Engineering, Tongji University, Shanghai, P. R. China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Physical Science and Engineering, Tongji University, Shanghai, P. R. China",
+            "institution_ids": [
+              "https://openalex.org/I116953780"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5027379765",
+          "display_name": "Sebastian Bobadilla-Suarez",
+          "orcid": "https://orcid.org/0000-0002-5951-0772"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I45129253",
+            "display_name": "University College London",
+            "ror": "https://ror.org/02jx3x895",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I124357947",
+              "https://openalex.org/I45129253"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sebastian Bobadilla-Suarez",
+        "raw_affiliation_strings": [
+          "Department of Experimental Psychology, University College London, United Kingdom"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Experimental Psychology, University College London, United Kingdom",
+            "institution_ids": [
+              "https://openalex.org/I45129253"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5011357173",
+          "display_name": "Xiaoliang Luo",
+          "orcid": "https://orcid.org/0000-0002-5297-2114"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I45129253",
+            "display_name": "University College London",
+            "ror": "https://ror.org/02jx3x895",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I124357947",
+              "https://openalex.org/I45129253"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaoliang Luo",
+        "raw_affiliation_strings": [
+          "Department of Experimental Psychology, University College London, United Kingdom"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Experimental Psychology, University College London, United Kingdom",
+            "institution_ids": [
+              "https://openalex.org/I45129253"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5068183893",
+          "display_name": "Marilena Lemonari",
+          "orcid": "https://orcid.org/0000-0001-9854-3369"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I34771391",
+            "display_name": "University of Cyprus",
+            "ror": "https://ror.org/02qjrjx09",
+            "country_code": "CY",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I34771391"
+            ]
+          }
+        ],
+        "countries": [
+          "CY"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Marilena Lemonari",
+        "raw_affiliation_strings": [
+          "Computer Science, University of Cyprus, Nicosia, Cyprus"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Computer Science, University of Cyprus, Nicosia, Cyprus",
+            "institution_ids": [
+              "https://openalex.org/I34771391"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5080355615",
+          "display_name": "Scott L. Brincat",
+          "orcid": "https://orcid.org/0000-0002-7777-7294"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I63966007",
+            "display_name": "Massachusetts Institute of Technology",
+            "ror": "https://ror.org/042nb2s44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Scott L. Brincat",
+        "raw_affiliation_strings": [
+          "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA",
+          "The Picower Institute for Learning and Memory, Massachusetts Institute of Technology, Cambridge, MA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA",
+            "institution_ids": [
+              "https://openalex.org/I63966007"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Picower Institute for Learning and Memory, Massachusetts Institute of Technology, Cambridge, MA, USA",
+            "institution_ids": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5063636409",
+          "display_name": "Markus Siegel",
+          "orcid": "https://orcid.org/0000-0001-5115-936X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210133934",
+            "display_name": "Bernstein Center for Computational Neuroscience Tübingen",
+            "ror": "https://ror.org/03kfnwp54",
+            "country_code": "DE",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I4210092532",
+              "https://openalex.org/I4210133934"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210141865",
+            "display_name": "Hertie Institute for Clinical Brain Research",
+            "ror": "https://ror.org/04zzwzx41",
+            "country_code": "DE",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I4210141865",
+              "https://openalex.org/I8087733"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I8087733",
+            "display_name": "University of Tübingen",
+            "ror": "https://ror.org/03a1kwz48",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8087733"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Markus Siegel",
+        "raw_affiliation_strings": [
+          "Centre for Integrative Neuroscience, University of Tübingen, Tübingen, Germany",
+          "Department of Neural Dynamics and Magnetoencephalography, Hertie Institute for Clinical Brain Research, University of Tübingen, Tübingen, Germany"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Centre for Integrative Neuroscience, University of Tübingen, Tübingen, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4210133934",
+              "https://openalex.org/I8087733"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Neural Dynamics and Magnetoencephalography, Hertie Institute for Clinical Brain Research, University of Tübingen, Tübingen, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4210141865",
+              "https://openalex.org/I8087733"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5084251670",
+          "display_name": "Earl K. Miller",
+          "orcid": "https://orcid.org/0000-0002-0582-6958"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I63966007",
+            "display_name": "Massachusetts Institute of Technology",
+            "ror": "https://ror.org/042nb2s44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Earl K. Miller",
+        "raw_affiliation_strings": [
+          "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA",
+          "The Picower Institute for Learning and Memory, Massachusetts Institute of Technology, Cambridge, MA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Picower Institute for Learning and Memory, Massachusetts Institute of Technology, Cambridge, MA, USA",
+            "institution_ids": [
+              "https://openalex.org/I63966007"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, MA, USA",
+            "institution_ids": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5069362336",
+          "display_name": "Bradley C. Love",
+          "orcid": "https://orcid.org/0000-0002-7883-7076"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210128584",
+            "display_name": "The Alan Turing Institute",
+            "ror": "https://ror.org/035dkdb55",
+            "country_code": "GB",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210128584"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I45129253",
+            "display_name": "University College London",
+            "ror": "https://ror.org/02jx3x895",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I124357947",
+              "https://openalex.org/I45129253"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Bradley C. Love",
+        "raw_affiliation_strings": [
+          "Department of Experimental Psychology, University College London, United Kingdom",
+          "The Alan Turing Institute, London, United Kingdom"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Experimental Psychology, University College London, United Kingdom",
+            "institution_ids": [
+              "https://openalex.org/I45129253"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Alan Turing Institute, London, United Kingdom",
+            "institution_ids": [
+              "https://openalex.org/I4210128584"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 5,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5069362336"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210128584",
+      "https://openalex.org/I45129253"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.79131826,
+    "has_fulltext": true,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.68697454,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 96
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10427",
+      "display_name": "Visual perception and processing mechanisms",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10427",
+        "display_name": "Visual perception and processing mechanisms",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10581",
+        "display_name": "Neural dynamics and brain function",
+        "score": 0.9988999962806702,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10042",
+        "display_name": "Neural and Behavioral Psychology Studies",
+        "score": 0.998199999332428,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/prefrontal-cortex",
+        "display_name": "Prefrontal cortex",
+        "score": 0.6215206980705261
+      },
+      {
+        "id": "https://openalex.org/keywords/task",
+        "display_name": "Task (project management)",
+        "score": 0.6186901926994324
+      },
+      {
+        "id": "https://openalex.org/keywords/frontal-eye-fields",
+        "display_name": "Frontal eye fields",
+        "score": 0.5415052175521851
+      },
+      {
+        "id": "https://openalex.org/keywords/neuroscience",
+        "display_name": "Neuroscience",
+        "score": 0.5158981084823608
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.5098930597305298
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5016775131225586
+      },
+      {
+        "id": "https://openalex.org/keywords/stimulus",
+        "display_name": "Stimulus (psychology)",
+        "score": 0.4900306463241577
+      },
+      {
+        "id": "https://openalex.org/keywords/posterior-parietal-cortex",
+        "display_name": "Posterior parietal cortex",
+        "score": 0.4885154962539673
+      },
+      {
+        "id": "https://openalex.org/keywords/working-memory",
+        "display_name": "Working memory",
+        "score": 0.4848412275314331
+      },
+      {
+        "id": "https://openalex.org/keywords/cognitive-psychology",
+        "display_name": "Cognitive psychology",
+        "score": 0.47493818402290344
+      },
+      {
+        "id": "https://openalex.org/keywords/minification",
+        "display_name": "Minification",
+        "score": 0.4655061364173889
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.435493528842926
+      },
+      {
+        "id": "https://openalex.org/keywords/visual-cortex",
+        "display_name": "Visual cortex",
+        "score": 0.42782366275787354
+      },
+      {
+        "id": "https://openalex.org/keywords/motion",
+        "display_name": "Motion (physics)",
+        "score": 0.4229009747505188
+      },
+      {
+        "id": "https://openalex.org/keywords/frontal-cortex",
+        "display_name": "Frontal cortex",
+        "score": 0.4206360876560211
+      },
+      {
+        "id": "https://openalex.org/keywords/cognition",
+        "display_name": "Cognition",
+        "score": 0.26204991340637207
+      },
+      {
+        "id": "https://openalex.org/keywords/eye-movement",
+        "display_name": "Eye movement",
+        "score": 0.208889901638031
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2781195155",
+        "wikidata": "https://www.wikidata.org/wiki/Q18680",
+        "display_name": "Prefrontal cortex",
+        "level": 3,
+        "score": 0.6215206980705261
+      },
+      {
+        "id": "https://openalex.org/C2780451532",
+        "wikidata": "https://www.wikidata.org/wiki/Q759676",
+        "display_name": "Task (project management)",
+        "level": 2,
+        "score": 0.6186901926994324
+      },
+      {
+        "id": "https://openalex.org/C2780368226",
+        "wikidata": "https://www.wikidata.org/wiki/Q1470144",
+        "display_name": "Frontal eye fields",
+        "level": 4,
+        "score": 0.5415052175521851
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.5158981084823608
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.5098930597305298
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5016775131225586
+      },
+      {
+        "id": "https://openalex.org/C2779918689",
+        "wikidata": "https://www.wikidata.org/wiki/Q3771842",
+        "display_name": "Stimulus (psychology)",
+        "level": 2,
+        "score": 0.4900306463241577
+      },
+      {
+        "id": "https://openalex.org/C6757342",
+        "wikidata": "https://www.wikidata.org/wiki/Q3486606",
+        "display_name": "Posterior parietal cortex",
+        "level": 2,
+        "score": 0.4885154962539673
+      },
+      {
+        "id": "https://openalex.org/C21963081",
+        "wikidata": "https://www.wikidata.org/wiki/Q11337567",
+        "display_name": "Working memory",
+        "level": 3,
+        "score": 0.4848412275314331
+      },
+      {
+        "id": "https://openalex.org/C180747234",
+        "wikidata": "https://www.wikidata.org/wiki/Q23373",
+        "display_name": "Cognitive psychology",
+        "level": 1,
+        "score": 0.47493818402290344
+      },
+      {
+        "id": "https://openalex.org/C147764199",
+        "wikidata": "https://www.wikidata.org/wiki/Q6865248",
+        "display_name": "Minification",
+        "level": 2,
+        "score": 0.4655061364173889
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.435493528842926
+      },
+      {
+        "id": "https://openalex.org/C2779345533",
+        "wikidata": "https://www.wikidata.org/wiki/Q75785",
+        "display_name": "Visual cortex",
+        "level": 2,
+        "score": 0.42782366275787354
+      },
+      {
+        "id": "https://openalex.org/C104114177",
+        "wikidata": "https://www.wikidata.org/wiki/Q79782",
+        "display_name": "Motion (physics)",
+        "level": 2,
+        "score": 0.4229009747505188
+      },
+      {
+        "id": "https://openalex.org/C2983163835",
+        "wikidata": "https://www.wikidata.org/wiki/Q749520",
+        "display_name": "Frontal cortex",
+        "level": 2,
+        "score": 0.4206360876560211
+      },
+      {
+        "id": "https://openalex.org/C169900460",
+        "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+        "display_name": "Cognition",
+        "level": 2,
+        "score": 0.26204991340637207
+      },
+      {
+        "id": "https://openalex.org/C153050134",
+        "wikidata": "https://www.wikidata.org/wiki/Q760256",
+        "display_name": "Eye movement",
+        "level": 2,
+        "score": 0.208889901638031
+      },
+      {
+        "id": "https://openalex.org/C187736073",
+        "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+        "display_name": "Management",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C2779524336",
+        "wikidata": "https://www.wikidata.org/wiki/Q369503",
+        "display_name": "Saccade",
+        "level": 3,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1101/2023.12.01.569615",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1101/2023.12.01.569615",
+        "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/03/2023.12.01.569615.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402567",
+          "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I2750212522",
+          "host_organization_name": "Cold Spring Harbor Laboratory",
+          "host_organization_lineage": [
+            "https://openalex.org/I2750212522"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1101/2023.12.01.569615",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1101/2023.12.01.569615",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/03/2023.12.01.569615.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402567",
+        "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2750212522",
+        "host_organization_name": "Cold Spring Harbor Laboratory",
+        "host_organization_lineage": [
+          "https://openalex.org/I2750212522"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, Justice and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.6600000262260437
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "referenced_works_count": 34,
+    "referenced_works": [
+      "https://openalex.org/W2151137320",
+      "https://openalex.org/W2057351112",
+      "https://openalex.org/W3130764979",
+      "https://openalex.org/W2948074325",
+      "https://openalex.org/W2546497559",
+      "https://openalex.org/W3000728369",
+      "https://openalex.org/W4231609113",
+      "https://openalex.org/W4242558598",
+      "https://openalex.org/W2170014483",
+      "https://openalex.org/W2949085517",
+      "https://openalex.org/W2155741354",
+      "https://openalex.org/W2150114059",
+      "https://openalex.org/W2131744263",
+      "https://openalex.org/W1853938811",
+      "https://openalex.org/W2040391279",
+      "https://openalex.org/W2036084760",
+      "https://openalex.org/W1480668978",
+      "https://openalex.org/W2914269992",
+      "https://openalex.org/W4386473017",
+      "https://openalex.org/W2893184150",
+      "https://openalex.org/W2040036684",
+      "https://openalex.org/W2058616551",
+      "https://openalex.org/W1715013381",
+      "https://openalex.org/W2537084945",
+      "https://openalex.org/W3006472786",
+      "https://openalex.org/W2064675550",
+      "https://openalex.org/W3004619146",
+      "https://openalex.org/W2992730238",
+      "https://openalex.org/W2160654481",
+      "https://openalex.org/W2158948112",
+      "https://openalex.org/W1971764535",
+      "https://openalex.org/W4285083025",
+      "https://openalex.org/W2970971581",
+      "https://openalex.org/W2963259006"
+    ],
+    "related_works": [
+      "https://openalex.org/W2039035530",
+      "https://openalex.org/W2328239262",
+      "https://openalex.org/W2092348893",
+      "https://openalex.org/W2092369775",
+      "https://openalex.org/W2005964138",
+      "https://openalex.org/W2059652478",
+      "https://openalex.org/W2949339107",
+      "https://openalex.org/W2594760825",
+      "https://openalex.org/W4321384120",
+      "https://openalex.org/W2083219779"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Prefrontal": [
+        1
+      ],
+      "cortex": [
+        2,
+        92,
+        96
+      ],
+      "(PFC)": [
+        3
+      ],
+      "is": [
+        4,
+        145
+      ],
+      "known": [
+        5
+      ],
+      "to": [
+        6,
+        11,
+        26,
+        43,
+        50,
+        59,
+        77,
+        102
+      ],
+      "modulate": [
+        7
+      ],
+      "the": [
+        8,
+        21,
+        72,
+        112,
+        119,
+        131
+      ],
+      "visual": [
+        9,
+        31,
+        114
+      ],
+      "system": [
+        10
+      ],
+      "favor": [
+        12
+      ],
+      "goal-relevant": [
+        13
+      ],
+      "information": [
+        14
+      ],
+      "by": [
+        15,
+        29
+      ],
+      "accentuating": [
+        16
+      ],
+      "task-relevant": [
+        17,
+        34,
+        81,
+        134
+      ],
+      "stimulus": [
+        18
+      ],
+      "dimensions.": [
+        19
+      ],
+      "Does": [
+        20
+      ],
+      "brain": [
+        22,
+        73
+      ],
+      "broadly": [
+        23
+      ],
+      "re-configures": [
+        24
+      ],
+      "itself": [
+        25,
+        76
+      ],
+      "optimize": [
+        27
+      ],
+      "performance": [
+        28
+      ],
+      "stretching": [
+        30,
+        135,
+        144
+      ],
+      "representations": [
+        32,
+        79
+      ],
+      "along": [
+        33,
+        80
+      ],
+      "dimensions?": [
+        35
+      ],
+      "We": [
+        36
+      ],
+      "considered": [
+        37
+      ],
+      "a": [
+        38,
+        47,
+        61,
+        137
+      ],
+      "task": [
+        39
+      ],
+      "that": [
+        40,
+        143
+      ],
+      "required": [
+        41
+      ],
+      "monkeys": [
+        42
+      ],
+      "selectively": [
+        44
+      ],
+      "attend": [
+        45
+      ],
+      "on": [
+        46,
+        111
+      ],
+      "trial-by-trial": [
+        48
+      ],
+      "basis": [
+        49
+      ],
+      "one": [
+        51
+      ],
+      "of": [
+        52,
+        139
+      ],
+      "two": [
+        53
+      ],
+      "dimensions": [
+        54,
+        82
+      ],
+      "(color": [
+        55,
+        66
+      ],
+      "or": [
+        56,
+        127
+      ],
+      "motion": [
+        57
+      ],
+      "direction)": [
+        58
+      ],
+      "make": [
+        60
+      ],
+      "decision.": [
+        62
+      ],
+      "Except": [
+        63
+      ],
+      "for": [
+        64
+      ],
+      "V4": [
+        65
+      ],
+      "bound)": [
+        67
+      ],
+      "and": [
+        68,
+        94,
+        116
+      ],
+      "MT": [
+        69
+      ],
+      "(motion": [
+        70
+      ],
+      "bound),": [
+        71
+      ],
+      "radically": [
+        74
+      ],
+      "re-configured": [
+        75
+      ],
+      "stretch": [
+        78
+      ],
+      "in": [
+        83
+      ],
+      "lateral": [
+        84,
+        90
+      ],
+      "PFC,": [
+        85
+      ],
+      "frontal": [
+        86
+      ],
+      "eye": [
+        87
+      ],
+      "fields": [
+        88
+      ],
+      "(FEF),": [
+        89
+      ],
+      "intraparietal": [
+        91
+      ],
+      "(LIP),": [
+        93
+      ],
+      "inferotemporal": [
+        95
+      ],
+      "(IT).": [
+        97
+      ],
+      "Spike": [
+        98
+      ],
+      "timing": [
+        99
+      ],
+      "was": [
+        100,
+        109
+      ],
+      "crucial": [
+        101
+      ],
+      "this": [
+        103
+      ],
+      "code.": [
+        104
+      ],
+      "A": [
+        105
+      ],
+      "deep": [
+        106
+      ],
+      "learning": [
+        107
+      ],
+      "model": [
+        108,
+        132
+      ],
+      "trained": [
+        110
+      ],
+      "same": [
+        113
+      ],
+      "input": [
+        115
+      ],
+      "rewards": [
+        117
+      ],
+      "as": [
+        118,
+        136
+      ],
+      "monkeys.": [
+        120
+      ],
+      "Despite": [
+        121
+      ],
+      "lacking": [
+        122
+      ],
+      "an": [
+        123,
+        146
+      ],
+      "explicit": [
+        124
+      ],
+      "selective": [
+        125
+      ],
+      "attention": [
+        126
+      ],
+      "other": [
+        128
+      ],
+      "control": [
+        129
+      ],
+      "mechanism,": [
+        130
+      ],
+      "displayed": [
+        133
+      ],
+      "consequence": [
+        138
+      ],
+      "error": [
+        140
+      ],
+      "minimization,": [
+        141
+      ],
+      "indicating": [
+        142
+      ],
+      "adaptive": [
+        147
+      ],
+      "strategy.": [
+        148
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          1
+        ]
+      ],
+      "date-time": "2026-01-01T14:06:41Z",
+      "timestamp": 1767276401495,
+      "version": "3.37.3"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          3
+        ]
+      ]
+    },
+    "group-title": "Neuroscience",
+    "reference-count": 38,
+    "publisher": "Cold Spring Harbor Laboratory",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Prefrontal cortex (PFC) is known to modulate the visual system to favor goal-relevant information by accentuating task-relevant stimulus dimensions. Does the brain broadly re-configures itself to optimize performance by stretching visual representations along task-relevant dimensions? We considered a task that required monkeys to selectively attend on a trial-by-trial basis to one of two dimensions (color or motion direction) to make a decision. Except for V4 (color bound) and MT (motion bound), the brain radically re-configured itself to stretch representations along task-relevant dimensions in lateral PFC, frontal eye fields (FEF), lateral intraparietal cortex (LIP), and inferotemporal cortex (IT). Spike timing was crucial to this code. A deep learning model was trained on the same visual input and rewards as the monkeys. Despite lacking an explicit selective attention or other control mechanism, the model displayed task-relevant stretching as a consequence of error minimization, indicating that stretching is an adaptive strategy.</jats:p>",
+    "DOI": "10.1101/2023.12.01.569615",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          3
+        ]
+      ],
+      "date-time": "2023-12-03T10:00:11Z",
+      "timestamp": 1701597611000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Adaptive stretching of representations across brain regions and deep learning model layers"
+    ],
+    "prefix": "10.1101",
+    "author": [
+      {
+        "given": "Xin-Ya",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5951-0772",
+        "authenticated-orcid": false,
+        "given": "Sebastian",
+        "family": "Bobadilla-Suarez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5297-2114",
+        "authenticated-orcid": false,
+        "given": "Xiaoliang",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marilena",
+        "family": "Lemonari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Scott L.",
+        "family": "Brincat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5115-936X",
+        "authenticated-orcid": false,
+        "given": "Markus",
+        "family": "Siegel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0582-6958",
+        "authenticated-orcid": false,
+        "given": "Earl K.",
+        "family": "Miller",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7883-7076",
+        "authenticated-orcid": false,
+        "given": "Bradley C.",
+        "family": "Love",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "246",
+    "reference": [
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.neuro.24.1.167"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0896-6273(03)00851-1"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "213",
+        "DOI": "10.1007/s42113-021-00098-y",
+        "article-title": "The costs and benefits of goal-directed attention in deep convolutional neural networks",
+        "volume": "4",
+        "year": "2021",
+        "journal-title": "Computational Brain & Behavior"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/REV0000287"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1614048113"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "46",
+        "DOI": "10.1038/s41467-019-13930-8",
+        "article-title": "Ventromedial prefrontal cortex compression during concept learning",
+        "volume": "11",
+        "year": "2020",
+        "journal-title": "Nature communications"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kruschke, J. Alcove: A connectionist model of human category learning. Advances in Neural Information Processing Systems 3 (1990).",
+        "DOI": "10.1037/e665402011-033"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0096-3445.115.1.39"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-295X.111.2.309"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/xge0000501"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cercor/bhs067"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0907658106"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1152/jn.1997.77.1.24"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1152/jn.1993.70.3.909"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1523/JNEUROSCI.6153-09.2011"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nn1444"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aab0551"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/lm.048942.118"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Luo, X. , Mok, R. M. , Roads, B. D. & Love, B. C. A controller-peripheral architecture and costly energy principle for learning. bioRxiv 2023–01 (2023).",
+        "DOI": "10.32470/CCN.2023.1593-0"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.38105"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.21",
+        "unstructured": "Simonyan, K. & Zisserman, A. Very deep convolutional networks for large-scale image recognition. The 3rd International Conference on Learning Representations (ICLR) (2015)."
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.22",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1003915",
+        "DOI": "10.1371/journal.pcbi.1003915",
+        "article-title": "Deep supervised, but not unsupervised, models may explain it cortical representation",
+        "volume": "10",
+        "year": "2014",
+        "journal-title": "PLoS computational biology"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1403112111"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1523/JNEUROSCI.5023-14.2015"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2016.10.001"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.26",
+        "doi-asserted-by": "crossref",
+        "first-page": "2453",
+        "DOI": "10.1038/s41598-020-59175-0",
+        "article-title": "Orthogonal representations of object shape and category in deep convolutional neural networks and human visual cortex",
+        "volume": "10",
+        "year": "2020",
+        "journal-title": "Scientific reports"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuron.2019.12.002"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "369",
+        "DOI": "10.1007/s42113-019-00068-5",
+        "article-title": "Measures of neural similarity",
+        "volume": "3",
+        "year": "2020",
+        "journal-title": "Computational brain & behavior"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kriegeskorte, N. , Mur, M. & Bandettini, P. A. Representational similarity analysis-connecting the branches of systems neuroscience. Frontiers in systems neuroscience 4 (2008).",
+        "DOI": "10.3389/neuro.06.004.2008"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jneumeth.2007.05.031"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1152/jn.00873.2012"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abm2219"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.34",
+        "unstructured": "Paszke, A. et al. Pytorch: An imperative style, high-performance deep learning library. Advances in neural information processing systems 32 (2019)."
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "183",
+        "DOI": "10.1016/j.softx.2016.07.006",
+        "article-title": "Pyspike—a python library for analyzing spike train synchrony",
+        "volume": "5",
+        "year": "2016",
+        "journal-title": "SoftwareX"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aab0551"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jneumeth.2007.05.031"
+      },
+      {
+        "key": "2023120613150545000_2023.12.01.569615v1.38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1152/jn.00873.2012"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.12.01.569615",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          6
+        ]
+      ],
+      "date-time": "2023-12-06T21:15:28Z",
+      "timestamp": 1701897328000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.12.01.569615"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          3
+        ]
+      ]
+    },
+    "references-count": 38,
+    "URL": "https://doi.org/10.1101/2023.12.01.569615",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          3
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

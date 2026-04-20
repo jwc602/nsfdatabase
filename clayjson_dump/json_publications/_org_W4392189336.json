@@ -1,0 +1,1221 @@
+{
+  "doi": "https://openalex.org/W4392189336",
+  "openalex": {
+    "id": "https://openalex.org/W4392189336",
+    "doi": "https://doi.org/10.1101/2024.02.15.580574",
+    "title": "A Neural Network Approach to Identify Left-Right Orientation of Anatomical Brain MRI",
+    "display_name": "A Neural Network Approach to Identify Left-Right Orientation of Anatomical Brain MRI",
+    "publication_year": 2024,
+    "publication_date": "2024-02-20",
+    "ids": {
+      "openalex": "https://openalex.org/W4392189336",
+      "doi": "https://doi.org/10.1101/2024.02.15.580574"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1101/2024.02.15.580574",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1101/2024.02.15.580574",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/02/20/2024.02.15.580574.full.pdf",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "type": "preprint",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2024/02/20/2024.02.15.580574.full.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5080337891",
+          "display_name": "Kei Nishimaki",
+          "orcid": "https://orcid.org/0009-0000-7475-9667"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204291657",
+            "display_name": "Hosei University",
+            "ror": "https://ror.org/00bx6dj65",
+            "country_code": "JP",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204291657"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "JP",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kei Nishimaki",
+        "raw_affiliation_strings": [
+          "Department of Applied Informatics, Graduate School of Science and Engineering, Hosei University, Tokyo, Japan",
+          "The Russell H. Morgan Department of Radiology and Radiological Science, The Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Applied Informatics, Graduate School of Science and Engineering, Hosei University, Tokyo, Japan",
+            "institution_ids": [
+              "https://openalex.org/I204291657"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Russell H. Morgan Department of Radiology and Radiological Science, The Johns Hopkins University School of Medicine, Baltimore, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023899090",
+          "display_name": "Hitoshi Iyatomi",
+          "orcid": "https://orcid.org/0000-0003-4108-4178"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204291657",
+            "display_name": "Hosei University",
+            "ror": "https://ror.org/00bx6dj65",
+            "country_code": "JP",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204291657"
+            ]
+          }
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hitoshi Iyatomi",
+        "raw_affiliation_strings": [
+          "Department of Applied Informatics, Graduate School of Science and Engineering, Hosei University, Tokyo, Japan"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Applied Informatics, Graduate School of Science and Engineering, Hosei University, Tokyo, Japan",
+            "institution_ids": [
+              "https://openalex.org/I204291657"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5002298857",
+          "display_name": "Kenichi Oishi",
+          "orcid": "https://orcid.org/0000-0002-1200-8611"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2799853436",
+            "display_name": "Johns Hopkins Medicine",
+            "ror": "https://ror.org/037zgn354",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2799853436"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Kenichi Oishi",
+        "raw_affiliation_strings": [
+          "The Richman Family Precision Medicine Center of Excellence in Alzheimer’s Disease, Johns Hopkins University School of Medicine, Baltimore, MD, USA",
+          "The Russell H. Morgan Department of Radiology and Radiological Science, The Johns Hopkins University School of Medicine, Baltimore, MD, USA",
+          "The Richman Family Precision Medicine Center of Excellence in Alzheimer's Disease, Johns Hopkins University School of Medicine, Baltimore, MD, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Richman Family Precision Medicine Center of Excellence in Alzheimer’s Disease, Johns Hopkins University School of Medicine, Baltimore, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799853436",
+              "https://openalex.org/I145311948"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Russell H. Morgan Department of Radiology and Radiological Science, The Johns Hopkins University School of Medicine, Baltimore, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Richman Family Precision Medicine Center of Excellence in Alzheimer's Disease, Johns Hopkins University School of Medicine, Baltimore, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5002298857"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I145311948",
+      "https://openalex.org/I2799853436"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11304",
+      "display_name": "Advanced Neuroimaging Techniques and Applications",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11304",
+        "display_name": "Advanced Neuroimaging Techniques and Applications",
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10465",
+        "display_name": "Neurobiology of Language and Bilingualism",
+        "score": 0.998199999332428,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10816",
+        "display_name": "Cerebrovascular and Carotid Artery Diseases",
+        "score": 0.9975000023841858,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2740",
+          "display_name": "Pulmonary and Respiratory Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/orientation",
+        "display_name": "Orientation (vector space)",
+        "score": 0.6445915699005127
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.4937337338924408
+      },
+      {
+        "id": "https://openalex.org/keywords/temporal-lobe",
+        "display_name": "Temporal lobe",
+        "score": 0.4789886474609375
+      },
+      {
+        "id": "https://openalex.org/keywords/corpus-callosum",
+        "display_name": "Corpus callosum",
+        "score": 0.4768016040325165
+      },
+      {
+        "id": "https://openalex.org/keywords/convolutional-neural-network",
+        "display_name": "Convolutional neural network",
+        "score": 0.4706301689147949
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.4568846821784973
+      },
+      {
+        "id": "https://openalex.org/keywords/planum-temporale",
+        "display_name": "Planum temporale",
+        "score": 0.44181931018829346
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.42947399616241455
+      },
+      {
+        "id": "https://openalex.org/keywords/lateralization-of-brain-function",
+        "display_name": "Lateralization of brain function",
+        "score": 0.419478178024292
+      },
+      {
+        "id": "https://openalex.org/keywords/neuroscience",
+        "display_name": "Neuroscience",
+        "score": 0.3300040066242218
+      },
+      {
+        "id": "https://openalex.org/keywords/medicine",
+        "display_name": "Medicine",
+        "score": 0.3298671841621399
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C16345878",
+        "wikidata": "https://www.wikidata.org/wiki/Q107472979",
+        "display_name": "Orientation (vector space)",
+        "level": 2,
+        "score": 0.6445915699005127
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.4937337338924408
+      },
+      {
+        "id": "https://openalex.org/C2781099131",
+        "wikidata": "https://www.wikidata.org/wiki/Q744385",
+        "display_name": "Temporal lobe",
+        "level": 3,
+        "score": 0.4789886474609375
+      },
+      {
+        "id": "https://openalex.org/C2778183499",
+        "wikidata": "https://www.wikidata.org/wiki/Q223851",
+        "display_name": "Corpus callosum",
+        "level": 2,
+        "score": 0.4768016040325165
+      },
+      {
+        "id": "https://openalex.org/C81363708",
+        "wikidata": "https://www.wikidata.org/wiki/Q17084460",
+        "display_name": "Convolutional neural network",
+        "level": 2,
+        "score": 0.4706301689147949
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.4568846821784973
+      },
+      {
+        "id": "https://openalex.org/C125384106",
+        "wikidata": "https://www.wikidata.org/wiki/Q1568920",
+        "display_name": "Planum temporale",
+        "level": 2,
+        "score": 0.44181931018829346
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.42947399616241455
+      },
+      {
+        "id": "https://openalex.org/C79840881",
+        "wikidata": "https://www.wikidata.org/wiki/Q1080497",
+        "display_name": "Lateralization of brain function",
+        "level": 2,
+        "score": 0.419478178024292
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.3300040066242218
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.3298671841621399
+      },
+      {
+        "id": "https://openalex.org/C2778186239",
+        "wikidata": "https://www.wikidata.org/wiki/Q41571",
+        "display_name": "Epilepsy",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1101/2024.02.15.580574",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1101/2024.02.15.580574",
+        "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/02/20/2024.02.15.580574.full.pdf",
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1101/2024.02.15.580574",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1101/2024.02.15.580574",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/02/20/2024.02.15.580574.full.pdf",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Quality Education",
+        "score": 0.75,
+        "id": "https://metadata.un.org/sdg/4"
+      }
+    ],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306078",
+        "display_name": "U.S. Department of Defense",
+        "ror": "https://ror.org/0447fe631"
+      },
+      {
+        "id": "https://openalex.org/F4320306219",
+        "display_name": "Alzheimer's Association",
+        "ror": "https://ror.org/0375f4d26"
+      },
+      {
+        "id": "https://openalex.org/F4320307115",
+        "display_name": "Bristol-Myers Squibb",
+        "ror": "https://ror.org/00gtmwv55"
+      },
+      {
+        "id": "https://openalex.org/F4320307758",
+        "display_name": "Eli Lilly and Company",
+        "ror": "https://ror.org/01qat3289"
+      },
+      {
+        "id": "https://openalex.org/F4320307765",
+        "display_name": "Pfizer",
+        "ror": "https://ror.org/01xdqrp08"
+      },
+      {
+        "id": "https://openalex.org/F4320308604",
+        "display_name": "Biogen",
+        "ror": "https://ror.org/02jqkb192"
+      },
+      {
+        "id": "https://openalex.org/F4320308668",
+        "display_name": "University of Southern California",
+        "ror": "https://ror.org/03taz7m60"
+      },
+      {
+        "id": "https://openalex.org/F4320309432",
+        "display_name": "F. Hoffmann-La Roche",
+        "ror": "https://ror.org/00by1q217"
+      },
+      {
+        "id": "https://openalex.org/F4320309470",
+        "display_name": "Meso Scale Diagnostics",
+        "ror": "https://ror.org/05jgy0m16"
+      },
+      {
+        "id": "https://openalex.org/F4320309697",
+        "display_name": "Alzheimer's Disease Neuroimaging Initiative",
+        "ror": "https://ror.org/01j20wc74"
+      },
+      {
+        "id": "https://openalex.org/F4320310045",
+        "display_name": "BioClinica",
+        "ror": "https://ror.org/03t95yr58"
+      },
+      {
+        "id": "https://openalex.org/F4320310388",
+        "display_name": "Novartis Pharmaceuticals Corporation",
+        "ror": "https://ror.org/028fhxy95"
+      },
+      {
+        "id": "https://openalex.org/F4320311551",
+        "display_name": "Northern California Institute for Research and Education",
+        "ror": "https://ror.org/05p48p517"
+      },
+      {
+        "id": "https://openalex.org/F4320320386",
+        "display_name": "Commonwealth Scientific and Industrial Research Organisation",
+        "ror": "https://ror.org/03qn8fb07"
+      },
+      {
+        "id": "https://openalex.org/F4320322148",
+        "display_name": "Eisai",
+        "ror": "https://ror.org/04vvh7p27"
+      },
+      {
+        "id": "https://openalex.org/F4320327235",
+        "display_name": "Servier",
+        "ror": "https://ror.org/034e7c066"
+      },
+      {
+        "id": "https://openalex.org/F4320327918",
+        "display_name": "H. Lundbeck A/S",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320329118",
+        "display_name": "IXICO",
+        "ror": "https://ror.org/00paezp73"
+      },
+      {
+        "id": "https://openalex.org/F4320332161",
+        "display_name": "National Institutes of Health",
+        "ror": "https://ror.org/01cwqze88"
+      },
+      {
+        "id": "https://openalex.org/F4320332193",
+        "display_name": "Genentech",
+        "ror": "https://ror.org/04gndp242"
+      },
+      {
+        "id": "https://openalex.org/F4320334506",
+        "display_name": "Canadian Institutes of Health Research",
+        "ror": "https://ror.org/01gavpb45"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4392189336.pdf"
+    },
+    "referenced_works_count": 31,
+    "referenced_works": [
+      "https://openalex.org/W3028343163",
+      "https://openalex.org/W2162576262",
+      "https://openalex.org/W2112674546",
+      "https://openalex.org/W1968557458",
+      "https://openalex.org/W2888467429",
+      "https://openalex.org/W2026669237",
+      "https://openalex.org/W2096202600",
+      "https://openalex.org/W2910059578",
+      "https://openalex.org/W3211740413",
+      "https://openalex.org/W2010975015",
+      "https://openalex.org/W2148449932",
+      "https://openalex.org/W2032533758",
+      "https://openalex.org/W2092307234",
+      "https://openalex.org/W4200378454",
+      "https://openalex.org/W2001477615",
+      "https://openalex.org/W2115799070",
+      "https://openalex.org/W2109593507",
+      "https://openalex.org/W2742774307",
+      "https://openalex.org/W2083099567",
+      "https://openalex.org/W2949863098",
+      "https://openalex.org/W2150534249",
+      "https://openalex.org/W3011210785",
+      "https://openalex.org/W2117340355",
+      "https://openalex.org/W4391050593",
+      "https://openalex.org/W2962858109",
+      "https://openalex.org/W2020745232",
+      "https://openalex.org/W2151566456",
+      "https://openalex.org/W2550124656",
+      "https://openalex.org/W2134723398",
+      "https://openalex.org/W4233755876",
+      "https://openalex.org/W2052832150"
+    ],
+    "related_works": [
+      "https://openalex.org/W2051293878",
+      "https://openalex.org/W1986922222",
+      "https://openalex.org/W3004032199",
+      "https://openalex.org/W2007180353",
+      "https://openalex.org/W2038614250",
+      "https://openalex.org/W4389050714",
+      "https://openalex.org/W2055188316",
+      "https://openalex.org/W2498442342",
+      "https://openalex.org/W2147146794",
+      "https://openalex.org/W2097601999"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Left-right": [
+        1
+      ],
+      "orientation": [
+        2,
+        50,
+        66,
+        126
+      ],
+      "misidentification": [
+        3
+      ],
+      "in": [
+        4,
+        68,
+        113,
+        152,
+        226
+      ],
+      "brain": [
+        5,
+        70,
+        89,
+        136,
+        188,
+        227
+      ],
+      "MRIs": [
+        6,
+        83,
+        185,
+        228
+      ],
+      "presents": [
+        7,
+        54
+      ],
+      "significant": [
+        8
+      ],
+      "challenges": [
+        9,
+        120
+      ],
+      "due": [
+        10
+      ],
+      "to": [
+        11,
+        60,
+        95,
+        131,
+        161,
+        167,
+        200,
+        219
+      ],
+      "several": [
+        12
+      ],
+      "factors,": [
+        13
+      ],
+      "including": [
+        14,
+        102
+      ],
+      "metadata": [
+        15
+      ],
+      "loss": [
+        16,
+        124
+      ],
+      "or": [
+        17,
+        38,
+        204
+      ],
+      "ambiguity,": [
+        18
+      ],
+      "which": [
+        19
+      ],
+      "often": [
+        20
+      ],
+      "occurs": [
+        21
+      ],
+      "during": [
+        22
+      ],
+      "the": [
+        23,
+        42,
+        62,
+        115,
+        123,
+        135,
+        138,
+        142,
+        145,
+        171,
+        175,
+        181,
+        201,
+        220,
+        231
+      ],
+      "de-identification": [
+        24
+      ],
+      "of": [
+        25,
+        44,
+        58,
+        64,
+        125,
+        134,
+        144,
+        174,
+        180,
+        223,
+        233
+      ],
+      "medical": [
+        26
+      ],
+      "images": [
+        27
+      ],
+      "for": [
+        28,
+        210
+      ],
+      "research,": [
+        29
+      ],
+      "conversion": [
+        30
+      ],
+      "between": [
+        31
+      ],
+      "image": [
+        32
+      ],
+      "formats,": [
+        33
+      ],
+      "software": [
+        34
+      ],
+      "operations": [
+        35
+      ],
+      "that": [
+        36,
+        48
+      ],
+      "strip": [
+        37
+      ],
+      "overwrite": [
+        39
+      ],
+      "metadata,": [
+        40
+      ],
+      "and": [
+        41,
+        84,
+        149,
+        229
+      ],
+      "use": [
+        43
+      ],
+      "older": [
+        45
+      ],
+      "imaging": [
+        46
+      ],
+      "systems": [
+        47
+      ],
+      "stored": [
+        49
+      ],
+      "differently.": [
+        51
+      ],
+      "This": [
+        52,
+        213
+      ],
+      "study": [
+        53
+      ],
+      "a": [
+        55,
+        110,
+        216
+      ],
+      "novel": [
+        56
+      ],
+      "application": [
+        57
+      ],
+      "deep-learning": [
+        59,
+        107
+      ],
+      "enhance": [
+        61
+      ],
+      "accuracy": [
+        63,
+        112
+      ],
+      "left-right": [
+        65,
+        116,
+        154,
+        164,
+        183,
+        224
+      ],
+      "identification": [
+        67
+      ],
+      "anatomical": [
+        69
+      ],
+      "MRI": [
+        71,
+        90
+      ],
+      "scans.": [
+        72
+      ],
+      "A": [
+        73
+      ],
+      "three-dimensional": [
+        74
+      ],
+      "Convolutional": [
+        75
+      ],
+      "Neural": [
+        76
+      ],
+      "Network": [
+        77
+      ],
+      "model": [
+        78,
+        139
+      ],
+      "was": [
+        79,
+        129
+      ],
+      "trained": [
+        80
+      ],
+      "using": [
+        81
+      ],
+      "350": [
+        82
+      ],
+      "evaluated": [
+        85
+      ],
+      "on": [
+        86
+      ],
+      "eight": [
+        87
+      ],
+      "distinct": [
+        88
+      ],
+      "databases,": [
+        91
+      ],
+      "totaling": [
+        92
+      ],
+      "3,384": [
+        93
+      ],
+      "MRIs,": [
+        94
+      ],
+      "assess": [
+        96
+      ],
+      "its": [
+        97
+      ],
+      "performance": [
+        98
+      ],
+      "across": [
+        99
+      ],
+      "various": [
+        100
+      ],
+      "conditions,": [
+        101
+      ],
+      "neurodegenerative": [
+        103
+      ],
+      "diseases.": [
+        104
+      ],
+      "The": [
+        105,
+        156
+      ],
+      "proposed": [
+        106
+      ],
+      "framework": [
+        108
+      ],
+      "demonstrated": [
+        109
+      ],
+      "99.6%": [
+        111
+      ],
+      "identifying": [
+        114
+      ],
+      "orientation,": [
+        117
+      ],
+      "thus": [
+        118
+      ],
+      "addressing": [
+        119
+      ],
+      "associated": [
+        121
+      ],
+      "with": [
+        122
+      ],
+      "metadata.": [
+        127
+      ],
+      "GradCAM": [
+        128
+      ],
+      "used": [
+        130
+      ],
+      "visualize": [
+        132
+      ],
+      "areas": [
+        133,
+        151,
+        209
+      ],
+      "where": [
+        137
+      ],
+      "focused,": [
+        140
+      ],
+      "demonstrating": [
+        141
+      ],
+      "importance": [
+        143
+      ],
+      "right": [
+        146
+      ],
+      "planum": [
+        147,
+        157
+      ],
+      "temporale": [
+        148,
+        158
+      ],
+      "surrounding": [
+        150
+      ],
+      "judging": [
+        153
+      ],
+      "orientation.": [
+        155
+      ],
+      "is": [
+        159
+      ],
+      "known": [
+        160
+      ],
+      "exhibit": [
+        162
+      ],
+      "notable": [
+        163,
+        187
+      ],
+      "asymmetry": [
+        165
+      ],
+      "related": [
+        166
+      ],
+      "language": [
+        168
+      ],
+      "functions,": [
+        169
+      ],
+      "underscoring": [
+        170
+      ],
+      "biological": [
+        172
+      ],
+      "validity": [
+        173
+      ],
+      "model.": [
+        176
+      ],
+      "More": [
+        177
+      ],
+      "than": [
+        178
+      ],
+      "half": [
+        179
+      ],
+      "ten": [
+        182
+      ],
+      "misidentified": [
+        184
+      ],
+      "involved": [
+        186
+      ],
+      "feature": [
+        189
+      ],
+      "variations,": [
+        190
+      ],
+      "such": [
+        191
+      ],
+      "as": [
+        192
+      ],
+      "severe": [
+        193
+      ],
+      "temporal": [
+        194,
+        202
+      ],
+      "lobe": [
+        195
+      ],
+      "atrophy,": [
+        196
+      ],
+      "arachnoidal": [
+        197
+      ],
+      "cysts": [
+        198
+      ],
+      "adjacent": [
+        199
+      ],
+      "lobe,": [
+        203
+      ],
+      "unusual": [
+        205
+      ],
+      "cerebral": [
+        206
+      ],
+      "torque,": [
+        207
+      ],
+      "indicating": [
+        208
+      ],
+      "further": [
+        211
+      ],
+      "investigation.": [
+        212
+      ],
+      "approach": [
+        214
+      ],
+      "offers": [
+        215
+      ],
+      "potential": [
+        217
+      ],
+      "solution": [
+        218
+      ],
+      "persistent": [
+        221
+      ],
+      "issue": [
+        222
+      ],
+      "misorientation": [
+        225
+      ],
+      "supports": [
+        230
+      ],
+      "reliability": [
+        232
+      ],
+      "neuroscientific": [
+        234
+      ],
+      "research": [
+        235
+      ],
+      "by": [
+        236
+      ],
+      "ensuring": [
+        237
+      ],
+      "accurate": [
+        238
+      ],
+      "data": [
+        239
+      ],
+      "interpretation.": [
+        240
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-01-25T03:40:55.926884",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {}
+}

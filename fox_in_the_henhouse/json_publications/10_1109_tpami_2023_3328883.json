@@ -1,0 +1,1686 @@
+{
+  "doi": "10.1109/tpami.2023.3328883",
+  "openalex": {
+    "id": "https://openalex.org/W4388052823",
+    "doi": "https://doi.org/10.1109/tpami.2023.3328883",
+    "title": "WOOD: Wasserstein-Based Out-of-Distribution Detection",
+    "display_name": "WOOD: Wasserstein-Based Out-of-Distribution Detection",
+    "publication_year": 2023,
+    "publication_date": "2023-10-31",
+    "ids": {
+      "openalex": "https://openalex.org/W4388052823",
+      "doi": "https://doi.org/10.1109/tpami.2023.3328883",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/37906483"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tpami.2023.3328883",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tpami.2023.3328883",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S199944782",
+        "display_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "issn_l": "0162-8828",
+        "issn": [
+          "0162-8828",
+          "1939-3539",
+          "2160-9292"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320439",
+        "host_organization_name": "IEEE Computer Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320439",
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "IEEE Computer Society",
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100429064",
+          "display_name": "Yinan Wang",
+          "orcid": "https://orcid.org/0000-0002-4079-1658"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165799507",
+            "display_name": "Rensselaer Polytechnic Institute",
+            "ror": "https://ror.org/01rtyzb94",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165799507"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yinan Wang",
+        "raw_affiliation_strings": [
+          "Department of Industrial and Systems Engineering, Rensselaer Polytechnic Institute, Troy, NY, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Industrial and Systems Engineering, Rensselaer Polytechnic Institute, Troy, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I165799507"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102845032",
+          "display_name": "Wenbo Sun",
+          "orcid": "https://orcid.org/0000-0002-3811-5853"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27837315",
+            "display_name": "University of Michigan",
+            "ror": "https://ror.org/00jmfr291",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27837315"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wenbo Sun",
+        "raw_affiliation_strings": [
+          "Transportation Research Institute, University of Michigan, Ann Arbor, MI, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Transportation Research Institute, University of Michigan, Ann Arbor, MI, USA",
+            "institution_ids": [
+              "https://openalex.org/I27837315"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5082991464",
+          "display_name": "Jionghua Jin",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27837315",
+            "display_name": "University of Michigan",
+            "ror": "https://ror.org/00jmfr291",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27837315"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jionghua Jin",
+        "raw_affiliation_strings": [
+          "Department of Industrial and Operations Engineering, University of Michigan, Ann Arbor, MI, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Industrial and Operations Engineering, University of Michigan, Ann Arbor, MI, USA",
+            "institution_ids": [
+              "https://openalex.org/I27837315"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5085867168",
+          "display_name": "Zhenyu Kong",
+          "orcid": "https://orcid.org/0000-0002-8827-502X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhenyu Kong",
+        "raw_affiliation_strings": [
+          "Grado Department of Industrial and Systems Engineering, Virginia Tech, Blacksburg, VA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Grado Department of Industrial and Systems Engineering, Virginia Tech, Blacksburg, VA, USA",
+            "institution_ids": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5018763939",
+          "display_name": "Xiaowei Yue",
+          "orcid": "https://orcid.org/0000-0001-6019-0940"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I99065089",
+            "display_name": "Tsinghua University",
+            "ror": "https://ror.org/03cve4549",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I99065089"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaowei Yue",
+        "raw_affiliation_strings": [
+          "Department of Industrial Engineering, Institute for Quality and Reliability, Tsinghua University, Beijing, China",
+          "Department of Industrial Engineering, Tsinghua University, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Industrial Engineering, Institute for Quality and Reliability, Tsinghua University, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I99065089"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Industrial Engineering, Tsinghua University, China",
+            "institution_ids": [
+              "https://openalex.org/I99065089"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.53265733,
+    "has_fulltext": false,
+    "cited_by_count": 6,
+    "citation_normalized_percentile": {
+      "value": 0.8384663,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "46",
+      "issue": "2",
+      "first_page": "944",
+      "last_page": "956"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11512",
+      "display_name": "Anomaly Detection Techniques and Applications",
+      "score": 0.9969000220298767,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11512",
+        "display_name": "Anomaly Detection Techniques and Applications",
+        "score": 0.9969000220298767,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11689",
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "score": 0.9912999868392944,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10036",
+        "display_name": "Advanced Neural Network Applications",
+        "score": 0.9864000082015991,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7953516244888306
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7953516244888306
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1109/tpami.2023.3328883",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tpami.2023.3328883",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S199944782",
+          "display_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "issn_l": "0162-8828",
+          "issn": [
+            "0162-8828",
+            "1939-3539",
+            "2160-9292"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320439",
+          "host_organization_name": "IEEE Computer Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320439",
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "IEEE Computer Society",
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:37906483",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37906483",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE transactions on pattern analysis and machine intelligence",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G8169927626",
+        "display_name": null,
+        "funder_award_id": "2035038",
+        "funder_id": "https://openalex.org/F4320335353",
+        "funder_display_name": "National Science Foundation of Sri Lanka"
+      },
+      {
+        "id": "https://openalex.org/G800215987",
+        "display_name": null,
+        "funder_award_id": "N00014-19-1-2728",
+        "funder_id": "https://openalex.org/F4320306078",
+        "funder_display_name": "U.S. Department of Defense"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306078",
+        "display_name": "U.S. Department of Defense",
+        "ror": "https://ror.org/0447fe631"
+      },
+      {
+        "id": "https://openalex.org/F4320335353",
+        "display_name": "National Science Foundation of Sri Lanka",
+        "ror": "https://ror.org/010xaa060"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 49,
+    "referenced_works": [
+      "https://openalex.org/W2194775991",
+      "https://openalex.org/W2963150697",
+      "https://openalex.org/W639708223",
+      "https://openalex.org/W1995562189",
+      "https://openalex.org/W2541678333",
+      "https://openalex.org/W6728622933",
+      "https://openalex.org/W6745891213",
+      "https://openalex.org/W3034230713",
+      "https://openalex.org/W6752760542",
+      "https://openalex.org/W6757042666",
+      "https://openalex.org/W6750095872",
+      "https://openalex.org/W2803756472",
+      "https://openalex.org/W6751800415",
+      "https://openalex.org/W3182165708",
+      "https://openalex.org/W6757615711",
+      "https://openalex.org/W3202461527",
+      "https://openalex.org/W6748163547",
+      "https://openalex.org/W2997212544",
+      "https://openalex.org/W6784323503",
+      "https://openalex.org/W6761061368",
+      "https://openalex.org/W2336156739",
+      "https://openalex.org/W6770824211",
+      "https://openalex.org/W6767590089",
+      "https://openalex.org/W6615672858",
+      "https://openalex.org/W3209845259",
+      "https://openalex.org/W6741832134",
+      "https://openalex.org/W6682962330",
+      "https://openalex.org/W2903950532",
+      "https://openalex.org/W4251115686",
+      "https://openalex.org/W6743688258",
+      "https://openalex.org/W6787972765",
+      "https://openalex.org/W2001610032",
+      "https://openalex.org/W2108598243",
+      "https://openalex.org/W2963446712",
+      "https://openalex.org/W4233762729",
+      "https://openalex.org/W2539033431",
+      "https://openalex.org/W1680797894",
+      "https://openalex.org/W4301425558",
+      "https://openalex.org/W6635540410",
+      "https://openalex.org/W3118608800",
+      "https://openalex.org/W2904693122",
+      "https://openalex.org/W2795945203",
+      "https://openalex.org/W3092527263",
+      "https://openalex.org/W2559655401",
+      "https://openalex.org/W2604272474",
+      "https://openalex.org/W2786712888",
+      "https://openalex.org/W4212774754",
+      "https://openalex.org/W2750384547",
+      "https://openalex.org/W1592396109"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W4396701345",
+      "https://openalex.org/W2376932109",
+      "https://openalex.org/W2001405890",
+      "https://openalex.org/W4396696052",
+      "https://openalex.org/W2382290278",
+      "https://openalex.org/W4395014643"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        179,
+        216,
+        241
+      ],
+      "training": [
+        1,
+        38,
+        67
+      ],
+      "and": [
+        2,
+        87,
+        92,
+        130,
+        196,
+        208
+      ],
+      "testing": [
+        3,
+        22
+      ],
+      "data": [
+        4
+      ],
+      "for": [
+        5,
+        55,
+        72
+      ],
+      "deep-neural-network-based": [
+        6
+      ],
+      "classifiers": [
+        7,
+        120
+      ],
+      "are": [
+        8,
+        24,
+        147
+      ],
+      "usually": [
+        9
+      ],
+      "assumed": [
+        10
+      ],
+      "to": [
+        11,
+        51,
+        84,
+        155,
+        158,
+        183,
+        226
+      ],
+      "be": [
+        12,
+        114,
+        156
+      ],
+      "sampled": [
+        13
+      ],
+      "from": [
+        14,
+        26,
+        34,
+        141,
+        163
+      ],
+      "the": [
+        15,
+        21,
+        37,
+        44,
+        61,
+        81,
+        89,
+        108,
+        127,
+        136,
+        190,
+        197,
+        212,
+        221,
+        229,
+        234,
+        238,
+        247
+      ],
+      "same": [
+        16
+      ],
+      "distribution.": [
+        17
+      ],
+      "When": [
+        18
+      ],
+      "part": [
+        19
+      ],
+      "of": [
+        20,
+        36,
+        60,
+        97,
+        100,
+        119,
+        199,
+        220
+      ],
+      "samples": [
+        23,
+        39,
+        63,
+        102,
+        138,
+        162
+      ],
+      "drawn": [
+        25
+      ],
+      "a": [
+        27,
+        49,
+        68,
+        151,
+        173,
+        185,
+        193
+      ],
+      "distribution": [
+        28,
+        198
+      ],
+      "that": [
+        29,
+        35,
+        188,
+        228,
+        246
+      ],
+      "is": [
+        30,
+        64,
+        182,
+        205,
+        224
+      ],
+      "sufficiently": [
+        31
+      ],
+      "far": [
+        32
+      ],
+      "away": [
+        33
+      ],
+      "(a.k.a.": [
+        40
+      ],
+      "out-of-distribution": [
+        41,
+        175
+      ],
+      "(OOD)": [
+        42
+      ],
+      "samples),": [
+        43
+      ],
+      "trained": [
+        45
+      ],
+      "neural": [
+        46,
+        69
+      ],
+      "network": [
+        47,
+        70
+      ],
+      "has": [
+        48,
+        103
+      ],
+      "tendency": [
+        50
+      ],
+      "make": [
+        52
+      ],
+      "high-confidence": [
+        53
+      ],
+      "predictions": [
+        54
+      ],
+      "these": [
+        56,
+        169
+      ],
+      "OOD": [
+        57,
+        62,
+        101,
+        110,
+        137,
+        161,
+        254
+      ],
+      "samples.": [
+        58,
+        166,
+        201
+      ],
+      "Detection": [
+        59,
+        99
+      ],
+      "critical": [
+        65
+      ],
+      "when": [
+        66
+      ],
+      "used": [
+        71
+      ],
+      "image": [
+        73
+      ],
+      "classification,": [
+        74
+      ],
+      "object": [
+        75
+      ],
+      "detection,": [
+        76
+      ],
+      "etc.": [
+        77
+      ],
+      "It": [
+        78
+      ],
+      "can": [
+        79
+      ],
+      "enhance": [
+        80
+      ],
+      "classifier's": [
+        82
+      ],
+      "robustness": [
+        83
+      ],
+      "irrelevant": [
+        85
+      ],
+      "inputs,": [
+        86
+      ],
+      "improve": [
+        88
+      ],
+      "system's": [
+        90
+      ],
+      "resilience": [
+        91
+      ],
+      "security": [
+        93
+      ],
+      "under": [
+        94
+      ],
+      "different": [
+        95
+      ],
+      "forms": [
+        96
+      ],
+      "attacks.": [
+        98
+      ],
+      "three": [
+        104
+      ],
+      "main": [
+        105
+      ],
+      "challenges:": [
+        106
+      ],
+      "(i)": [
+        107
+      ],
+      "proposed": [
+        109,
+        213,
+        222,
+        248
+      ],
+      "detection": [
+        111,
+        176,
+        255
+      ],
+      "method": [
+        112,
+        223
+      ],
+      "should": [
+        113
+      ],
+      "compatible": [
+        115
+      ],
+      "with": [
+        116
+      ],
+      "various": [
+        117
+      ],
+      "architectures": [
+        118
+      ],
+      "(e.g.,": [
+        121
+      ],
+      "DenseNet,": [
+        122
+      ],
+      "ResNet)": [
+        123
+      ],
+      "without": [
+        124
+      ],
+      "significantly": [
+        125
+      ],
+      "increasing": [
+        126
+      ],
+      "model": [
+        128
+      ],
+      "complexity": [
+        129
+      ],
+      "requirements": [
+        131
+      ],
+      "on": [
+        132,
+        211
+      ],
+      "computational": [
+        133
+      ],
+      "resources;": [
+        134
+      ],
+      "(ii)": [
+        135
+      ],
+      "may": [
+        139
+      ],
+      "come": [
+        140
+      ],
+      "multiple": [
+        142
+      ],
+      "distributions,": [
+        143
+      ],
+      "whose": [
+        144
+      ],
+      "class": [
+        145
+      ],
+      "labels": [
+        146
+      ],
+      "commonly": [
+        148
+      ],
+      "unavailable;": [
+        149
+      ],
+      "(iii)": [
+        150
+      ],
+      "score": [
+        152,
+        187,
+        214
+      ],
+      "function": [
+        153
+      ],
+      "needs": [
+        154
+      ],
+      "defined": [
+        157
+      ],
+      "effectively": [
+        159
+      ],
+      "separate": [
+        160
+      ],
+      "in-distribution": [
+        164
+      ],
+      "(InD)": [
+        165
+      ],
+      "To": [
+        167
+      ],
+      "overcome": [
+        168
+      ],
+      "challenges,": [
+        170
+      ],
+      "we": [
+        171
+      ],
+      "propose": [
+        172
+      ],
+      "Wasserstein-based": [
+        174,
+        186
+      ],
+      "(WOOD)": [
+        177
+      ],
+      "method.": [
+        178
+      ],
+      "basic": [
+        180
+      ],
+      "idea": [
+        181
+      ],
+      "define": [
+        184
+      ],
+      "evaluates": [
+        189
+      ],
+      "dissimilarity": [
+        191
+      ],
+      "between": [
+        192
+      ],
+      "test": [
+        194
+      ],
+      "sample": [
+        195
+      ],
+      "InD": [
+        200
+      ],
+      "An": [
+        202
+      ],
+      "optimization": [
+        203
+      ],
+      "problem": [
+        204
+      ],
+      "then": [
+        206
+      ],
+      "formulated": [
+        207
+      ],
+      "solved": [
+        209
+      ],
+      "based": [
+        210
+      ],
+      "function.": [
+        215
+      ],
+      "statistical": [
+        217
+      ],
+      "learning": [
+        218
+      ],
+      "bound": [
+        219
+      ],
+      "investigated": [
+        225
+      ],
+      "guarantee": [
+        227
+      ],
+      "loss": [
+        230
+      ],
+      "value": [
+        231
+      ],
+      "achieved": [
+        232
+      ],
+      "by": [
+        233
+      ],
+      "empirical": [
+        235
+      ],
+      "optimizer": [
+        236
+      ],
+      "approximates": [
+        237
+      ],
+      "global": [
+        239
+      ],
+      "optimum.": [
+        240
+      ],
+      "comparison": [
+        242
+      ],
+      "study": [
+        243
+      ],
+      "results": [
+        244
+      ],
+      "demonstrate": [
+        245
+      ],
+      "WOOD": [
+        249
+      ],
+      "consistently": [
+        250
+      ],
+      "outperforms": [
+        251
+      ],
+      "other": [
+        252
+      ],
+      "existing": [
+        253
+      ],
+      "methods.": [
+        256
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          26
+        ]
+      ],
+      "date-time": "2025-12-26T07:15:16Z",
+      "timestamp": 1766733316238,
+      "version": "3.37.3"
+    },
+    "reference-count": 42,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2024-02-01T00:00:00Z",
+          "timestamp": 1706745600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2024-02-01T00:00:00Z",
+          "timestamp": 1706745600000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2024-02-01T00:00:00Z",
+          "timestamp": 1706745600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2024-02-01T00:00:00Z",
+          "timestamp": 1706745600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000005",
+        "name": "U.S. Department of Defense",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N00014-19-1-2728"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N00014-19-1-2728"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000005",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100008982",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2035038"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2035038"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100008982",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Pattern Anal. Mach. Intell."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1109/tpami.2023.3328883",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          31
+        ]
+      ],
+      "date-time": "2023-10-31T17:56:21Z",
+      "timestamp": 1698774981000
+    },
+    "page": "944-956",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "WOOD: Wasserstein-Based Out-of-Distribution Detection"
+    ],
+    "prefix": "10.1109",
+    "volume": "46",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4079-1658",
+        "authenticated-orcid": false,
+        "given": "Yinan",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Industrial and Systems Engineering, Rensselaer Polytechnic Institute, Troy, NY, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3811-5853",
+        "authenticated-orcid": false,
+        "given": "Wenbo",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Transportation Research Institute, University of Michigan, Ann Arbor, MI, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7786-8110",
+        "authenticated-orcid": false,
+        "given": "Jionghua",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Industrial and Operations Engineering, University of Michigan, Ann Arbor, MI, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8827-502X",
+        "authenticated-orcid": false,
+        "given": "Zhenyu",
+        "family": "Kong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Grado Department of Industrial and Systems Engineering, Virginia Tech, Blacksburg, VA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6019-0940",
+        "authenticated-orcid": false,
+        "given": "Xiaowei",
+        "family": "Yue",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Industrial Engineering, Institute for Quality and Reliability, Tsinghua University, Beijing, China"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5555/2999134.2999257"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.322"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2577031"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TASLP.2014.2339736"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00532240"
+      },
+      {
+        "article-title": "A baseline for detecting misclassified and out-of-distribution examples in neural networks",
+        "volume-title": "Proc. 5th Int. Conf. Learn. Representations",
+        "author": "Hendrycks",
+        "key": "ref7"
+      },
+      {
+        "article-title": "Enhancing the reliability of out-of-distribution image detection in neural networks",
+        "volume-title": "Proc. Int. Conf. Learn. Representations",
+        "author": "Liang",
+        "key": "ref8"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01096"
+      },
+      {
+        "key": "ref10",
+        "article-title": "A simple unified framework for detecting out-of-distribution samples and adversarial attacks",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "volume": "31",
+        "author": "Lee",
+        "year": "2018"
+      },
+      {
+        "article-title": "Improving reconstruction autoencoder out-of-distribution detection with mahalanobis distance",
+        "year": "2018",
+        "author": "Denouden",
+        "key": "ref11"
+      },
+      {
+        "article-title": "Confidence from invariance to image transformations",
+        "year": "2018",
+        "author": "Bahat",
+        "key": "ref12"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-99978-4_9"
+      },
+      {
+        "key": "ref14",
+        "first-page": "5546",
+        "article-title": "To trust or not to trust a classifier",
+        "volume-title": "Proc. 32nd Int. Conf. Neural Inf. Process. Syst.",
+        "author": "Jiang"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00933"
+      },
+      {
+        "article-title": "Deep anomaly detection with outlier exposure",
+        "volume-title": "Proc. Int. Conf. Learn. Representations",
+        "author": "Hendrycks",
+        "key": "ref16"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-86523-8_26"
+      },
+      {
+        "article-title": "Learning confidence for out-of-distribution detection in neural networks",
+        "year": "2018",
+        "author": "DeVries",
+        "key": "ref18"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i04.5966"
+      },
+      {
+        "key": "ref20",
+        "first-page": "21 464",
+        "article-title": "Energy-based out-of-distribution detection",
+        "volume": "33",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "article-title": "From GAN to WGAN",
+        "year": "2019",
+        "author": "Weng",
+        "key": "ref21"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1287/moor.2022.1275"
+      },
+      {
+        "key": "ref23",
+        "first-page": "1308",
+        "article-title": "Deep active learning: Unified and principled method for query and training",
+        "volume-title": "Proc. Int. Conf. Artif. Intell. Statist.",
+        "author": "Shui"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Propagating uncertainty in reinforcement learning via Wasserstein barycenters",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "volume": "32",
+        "author": "Metelli",
+        "year": "2019"
+      },
+      {
+        "key": "ref25",
+        "article-title": "Learning with a wasserstein loss",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "volume": "28",
+        "author": "Frogner",
+        "year": "2015"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TASE.2021.3118635"
+      },
+      {
+        "key": "ref27",
+        "first-page": "214",
+        "article-title": "Wasserstein generative adversarial networks",
+        "volume-title": "Proc. 34th Int. Conf. Mach. Learn.",
+        "author": "Arjovsky"
+      },
+      {
+        "key": "ref28",
+        "first-page": "2672",
+        "article-title": "Generative adversarial nets",
+        "volume-title": "Proc. 27th Int. Conf. Neural Inf. Process. Syst.",
+        "author": "Goodfellow"
+      },
+      {
+        "key": "ref29",
+        "article-title": "Sinkhorn distances: Lightspeed computation of optimal transport",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "volume": "26",
+        "author": "Cuturi",
+        "year": "2013"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.2517-6161.1958.tb00292.x"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/153244303321897690"
+      },
+      {
+        "article-title": "MNIST handwritten digit database",
+        "year": "2010",
+        "author": "LeCun",
+        "key": "ref32"
+      },
+      {
+        "article-title": "Fashion-MNIST: A novel image dataset for benchmarking machine learning algorithms",
+        "year": "2017",
+        "author": "Xiao",
+        "key": "ref33"
+      },
+      {
+        "article-title": "Learning multiple layers of features from tiny images",
+        "year": "2009",
+        "author": "Krizhevsky",
+        "key": "ref34"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2118/18761-MS"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.243"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-71050-9"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459199"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-0-387-30164-8"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-20212-4"
+      },
+      {
+        "issue": "4",
+        "key": "ref42",
+        "article-title": "New estimates of the kullback-leibler distance and applications",
+        "volume": "3",
+        "author": "Dragomir",
+        "year": "2000",
+        "journal-title": "RGMIA Res. Rep. Collection"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://ieeexplore.ieee.org/ielam/34/10384454/10302348-aam.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/34/10384454/10302348.pdf?arnumber=10302348",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          12
+        ]
+      ],
+      "date-time": "2024-01-12T01:50:37Z",
+      "timestamp": 1705024237000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10302348/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    },
+    "references-count": 42,
+    "journal-issue": {
+      "issue": "2"
+    },
+    "URL": "https://doi.org/10.1109/tpami.2023.3328883",
+    "relation": {},
+    "ISSN": [
+      "0162-8828",
+      "2160-9292",
+      "1939-3539"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0162-8828"
+      },
+      {
+        "type": "electronic",
+        "value": "2160-9292"
+      },
+      {
+        "type": "electronic",
+        "value": "1939-3539"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          2
+        ]
+      ]
+    }
+  }
+}

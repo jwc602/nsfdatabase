@@ -1,0 +1,1320 @@
+{
+  "doi": "10.1016/j.patcog.2024.110670",
+  "openalex": {
+    "id": "https://openalex.org/W4399566181",
+    "doi": "https://doi.org/10.1016/j.patcog.2024.110670",
+    "title": "IRCNN: A novel signal decomposition approach based on iterative residue convolutional neural network",
+    "display_name": "IRCNN: A novel signal decomposition approach based on iterative residue convolutional neural network",
+    "publication_year": 2024,
+    "publication_date": "2024-06-12",
+    "ids": {
+      "openalex": "https://openalex.org/W4399566181",
+      "doi": "https://doi.org/10.1016/j.patcog.2024.110670"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.patcog.2024.110670",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.patcog.2024.110670",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S414566",
+        "display_name": "Pattern Recognition",
+        "issn_l": "0031-3203",
+        "issn": [
+          "0031-3203",
+          "1873-5142"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Pattern Recognition",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5061568004",
+          "display_name": "Feng Zhou",
+          "orcid": "https://orcid.org/0000-0001-5413-9815"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201459984",
+            "display_name": "Guangdong University Of Finances and Economics",
+            "ror": "https://ror.org/0459pv085",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201459984"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210149618",
+            "display_name": "Guangdong University of Finance",
+            "ror": "https://ror.org/04grzdh47",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210149618"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Feng Zhou",
+        "raw_affiliation_strings": [
+          "School of Information Sciences, Guangdong University of Finance and Economics, Guangzhou, 510320, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Information Sciences, Guangdong University of Finance and Economics, Guangzhou, 510320, China",
+            "institution_ids": [
+              "https://openalex.org/I201459984",
+              "https://openalex.org/I4210149618"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5080788724",
+          "display_name": "Antonio Cicone",
+          "orcid": "https://orcid.org/0000-0002-8107-9624"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210100742",
+            "display_name": "Institute for Space Astrophysics and Planetology",
+            "ror": "https://ror.org/0141xw169",
+            "country_code": "IT",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210100742",
+              "https://openalex.org/I875825670"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I29078338",
+            "display_name": "Istituto Nazionale di Geofisica e Vulcanologia",
+            "ror": "https://ror.org/00qps9a02",
+            "country_code": "IT",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I29078338"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I26415053",
+            "display_name": "University of L'Aquila",
+            "ror": "https://ror.org/01j9p1r26",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I26415053"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Antonio Cicone",
+        "raw_affiliation_strings": [
+          "Department of Information Engineering, Computer Science and Mathematics, University of L'Aquila, L'Aquila, 67100, Italy",
+          "Istituto Nazionale di Geofisica e Vulcanologia, Rome, 00143, Italy",
+          "Istituto di Astrofisica e Planetologia Spaziali, INAF, Rome, 00133, Italy"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Istituto Nazionale di Geofisica e Vulcanologia, Rome, 00143, Italy",
+            "institution_ids": [
+              "https://openalex.org/I29078338"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Istituto di Astrofisica e Planetologia Spaziali, INAF, Rome, 00133, Italy",
+            "institution_ids": [
+              "https://openalex.org/I4210100742"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Information Engineering, Computer Science and Mathematics, University of L'Aquila, L'Aquila, 67100, Italy",
+            "institution_ids": [
+              "https://openalex.org/I26415053"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5102878627",
+          "display_name": "Haomin Zhou",
+          "orcid": "https://orcid.org/0000-0001-7647-2600"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I130701444",
+            "display_name": "Georgia Institute of Technology",
+            "ror": "https://ror.org/01zkghx44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Haomin Zhou",
+        "raw_affiliation_strings": [
+          "School of Mathematics, Georgia Institute of Technology, Atlanta, GA 30332, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Mathematics, Georgia Institute of Technology, Atlanta, GA 30332, United States",
+            "institution_ids": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5061568004"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I201459984",
+      "https://openalex.org/I4210149618"
+    ],
+    "apc_list": {
+      "value": 2710,
+      "currency": "USD",
+      "value_usd": 2710
+    },
+    "apc_paid": null,
+    "fwci": 6.99829553,
+    "has_fulltext": false,
+    "cited_by_count": 11,
+    "citation_normalized_percentile": {
+      "value": 0.95730761,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "155",
+      "issue": null,
+      "first_page": "110670",
+      "last_page": "110670"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10220",
+      "display_name": "Machine Fault Diagnosis Techniques",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10220",
+        "display_name": "Machine Fault Diagnosis Techniques",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10688",
+        "display_name": "Image and Signal Denoising Methods",
+        "score": 0.9977999925613403,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10320",
+        "display_name": "Neural Networks and Applications",
+        "score": 0.9945999979972839,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/convolutional-neural-network",
+        "display_name": "Convolutional neural network",
+        "score": 0.7508158683776855
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.631885826587677
+      },
+      {
+        "id": "https://openalex.org/keywords/residue",
+        "display_name": "Residue (chemistry)",
+        "score": 0.6016801595687866
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.5059298872947693
+      },
+      {
+        "id": "https://openalex.org/keywords/pattern-recognition",
+        "display_name": "Pattern recognition (psychology)",
+        "score": 0.470303475856781
+      },
+      {
+        "id": "https://openalex.org/keywords/decomposition",
+        "display_name": "Decomposition",
+        "score": 0.4272812008857727
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.37850600481033325
+      },
+      {
+        "id": "https://openalex.org/keywords/chemistry",
+        "display_name": "Chemistry",
+        "score": 0.22210723161697388
+      },
+      {
+        "id": "https://openalex.org/keywords/organic-chemistry",
+        "display_name": "Organic chemistry",
+        "score": 0.05303928256034851
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C81363708",
+        "wikidata": "https://www.wikidata.org/wiki/Q17084460",
+        "display_name": "Convolutional neural network",
+        "level": 2,
+        "score": 0.7508158683776855
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.631885826587677
+      },
+      {
+        "id": "https://openalex.org/C2781338088",
+        "wikidata": "https://www.wikidata.org/wiki/Q903495",
+        "display_name": "Residue (chemistry)",
+        "level": 2,
+        "score": 0.6016801595687866
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5059298872947693
+      },
+      {
+        "id": "https://openalex.org/C153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "level": 2,
+        "score": 0.470303475856781
+      },
+      {
+        "id": "https://openalex.org/C124681953",
+        "wikidata": "https://www.wikidata.org/wiki/Q339062",
+        "display_name": "Decomposition",
+        "level": 2,
+        "score": 0.4272812008857727
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.37850600481033325
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.22210723161697388
+      },
+      {
+        "id": "https://openalex.org/C178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "level": 1,
+        "score": 0.05303928256034851
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.patcog.2024.110670",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.patcog.2024.110670",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S414566",
+          "display_name": "Pattern Recognition",
+          "issn_l": "0031-3203",
+          "issn": [
+            "0031-3203",
+            "1873-5142"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Pattern Recognition",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "display_name": "Climate action",
+        "score": 0.4399999976158142,
+        "id": "https://metadata.un.org/sdg/13"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 45,
+    "referenced_works": [
+      "https://openalex.org/W2007221293",
+      "https://openalex.org/W2934738796",
+      "https://openalex.org/W2140554090",
+      "https://openalex.org/W2101172034",
+      "https://openalex.org/W2121951519",
+      "https://openalex.org/W2170939412",
+      "https://openalex.org/W2914749581",
+      "https://openalex.org/W3041462881",
+      "https://openalex.org/W1986219087",
+      "https://openalex.org/W2120264603",
+      "https://openalex.org/W2032750613",
+      "https://openalex.org/W2110983594",
+      "https://openalex.org/W6683720292",
+      "https://openalex.org/W2050839927",
+      "https://openalex.org/W2000982976",
+      "https://openalex.org/W2958872067",
+      "https://openalex.org/W1914595151",
+      "https://openalex.org/W2090218979",
+      "https://openalex.org/W2019900743",
+      "https://openalex.org/W1430048851",
+      "https://openalex.org/W2795353829",
+      "https://openalex.org/W4206226852",
+      "https://openalex.org/W4320525814",
+      "https://openalex.org/W2747680751",
+      "https://openalex.org/W4206337041",
+      "https://openalex.org/W2899651173",
+      "https://openalex.org/W2991806272",
+      "https://openalex.org/W4225130925",
+      "https://openalex.org/W4365451933",
+      "https://openalex.org/W4365145202",
+      "https://openalex.org/W3048402673",
+      "https://openalex.org/W4206742934",
+      "https://openalex.org/W2194775991",
+      "https://openalex.org/W2962832085",
+      "https://openalex.org/W2787425086",
+      "https://openalex.org/W2106665847",
+      "https://openalex.org/W2021944611",
+      "https://openalex.org/W1973048907",
+      "https://openalex.org/W2123563890",
+      "https://openalex.org/W2120390927",
+      "https://openalex.org/W3101733394",
+      "https://openalex.org/W3105523820",
+      "https://openalex.org/W191494004",
+      "https://openalex.org/W3102755745",
+      "https://openalex.org/W3102382472"
+    ],
+    "related_works": [
+      "https://openalex.org/W2051487156",
+      "https://openalex.org/W2073681303",
+      "https://openalex.org/W4293226380",
+      "https://openalex.org/W2053286651",
+      "https://openalex.org/W2181743346",
+      "https://openalex.org/W2187401768",
+      "https://openalex.org/W4321487865",
+      "https://openalex.org/W2181413294",
+      "https://openalex.org/W4313906399",
+      "https://openalex.org/W2989452537"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 4
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          7
+        ]
+      ],
+      "date-time": "2026-01-07T07:52:03Z",
+      "timestamp": 1767772323012,
+      "version": "3.40.5"
+    },
+    "reference-count": 40,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              19
+            ]
+          ],
+          "date-time": "2025-06-19T00:00:00Z",
+          "timestamp": 1750291200000
+        },
+        "content-version": "am",
+        "delay-in-days": 230,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Pattern Recognition"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.patcog.2024.110670",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          12
+        ]
+      ],
+      "date-time": "2024-06-12T16:44:41Z",
+      "timestamp": 1718210681000
+    },
+    "page": "110670",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "special_numbering": "C",
+    "title": [
+      "IRCNN: A novel signal decomposition approach based on iterative residue convolutional neural network"
+    ],
+    "prefix": "10.1016",
+    "volume": "155",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5413-9815",
+        "authenticated-orcid": false,
+        "given": "Feng",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Antonio",
+        "family": "Cicone",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Haomin",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "1971",
+        "key": "10.1016/j.patcog.2024.110670_b1",
+        "doi-asserted-by": "crossref",
+        "first-page": "903",
+        "DOI": "10.1098/rspa.1998.0193",
+        "article-title": "The empirical mode decomposition and the Hilbert spectrum for nonlinear and non-stationary time series analysis",
+        "volume": "454",
+        "author": "Huang",
+        "year": "1998",
+        "journal-title": "Proc. R. Soc. Lond. Ser. A Math. Phys. Eng. Sci."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b2",
+        "doi-asserted-by": "crossref",
+        "first-page": "133",
+        "DOI": "10.1016/j.patrec.2019.03.010",
+        "article-title": "An empirical mode decomposition (EMD)-based scheme for alcoholism identification",
+        "volume": "125",
+        "author": "Thilagaraj",
+        "year": "2019",
+        "journal-title": "Pattern Recognit. Lett."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.patcog.2024.110670_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "443",
+        "DOI": "10.1098/rsif.2005.0058",
+        "article-title": "The local mean decomposition and its application to EEG perception data",
+        "volume": "2",
+        "author": "Smith",
+        "year": "2005",
+        "journal-title": "J. R. Soc. Interface"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.patcog.2024.110670_b4",
+        "doi-asserted-by": "crossref",
+        "first-page": "764",
+        "DOI": "10.1109/LSP.2005.856878",
+        "article-title": "Empirical mode decomposition: an analytical approach for sifting process",
+        "volume": "12",
+        "author": "Deléchelle",
+        "year": "2005",
+        "journal-title": "IEEE Signal Process. Lett."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.patcog.2024.110670_b5",
+        "doi-asserted-by": "crossref",
+        "first-page": "398",
+        "DOI": "10.1109/LSP.2009.2038770",
+        "article-title": "Analysis of intrinsic mode functions: A PDE approach",
+        "volume": "17",
+        "author": "El Hadji",
+        "year": "2009",
+        "journal-title": "IEEE Signal Process. Lett."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.patcog.2024.110670_b6",
+        "doi-asserted-by": "crossref",
+        "first-page": "841",
+        "DOI": "10.1109/LSP.2009.2025925",
+        "article-title": "Local integral mean-based sifting for empirical mode decomposition",
+        "volume": "16",
+        "author": "Hong",
+        "year": "2009",
+        "journal-title": "IEEE Signal Process. Lett."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1521",
+        "DOI": "10.1109/TSP.2022.3157482",
+        "article-title": "Multivariate fast iterative filtering for the decomposition of nonstationary signals",
+        "volume": "70",
+        "author": "Cicone",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Signal Process."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b8",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jsv.2020.115571",
+        "article-title": "Iterative nonlinear chirp mode decomposition: A Hilbert-Huang transform-like method in capturing intra-wave modulations of nonlinear responses",
+        "volume": "485",
+        "author": "Tu",
+        "year": "2020",
+        "journal-title": "J. Sound Vib."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.patcog.2024.110670_b9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1617",
+        "DOI": "10.1016/j.patcog.2011.11.004",
+        "article-title": "On analysis of bi-dimensional component decomposition via BEMD",
+        "volume": "45",
+        "author": "Guanlei",
+        "year": "2012",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.patcog.2024.110670_b10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2475",
+        "DOI": "10.1109/TSP.2010.2041606",
+        "article-title": "Null space pursuit: An operator-based approach to adaptive signal separation",
+        "volume": "58",
+        "author": "Peng",
+        "year": "2010",
+        "journal-title": "IEEE Trans. Signal Process."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.patcog.2024.110670_b11",
+        "doi-asserted-by": "crossref",
+        "first-page": "2236",
+        "DOI": "10.1109/TSP.2012.2187202",
+        "article-title": "An alternative formulation for the empirical mode decomposition",
+        "volume": "60",
+        "author": "Oberlin",
+        "year": "2012",
+        "journal-title": "IEEE Trans. Signal Process."
+      },
+      {
+        "issue": "01n02",
+        "key": "10.1016/j.patcog.2024.110670_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1142/S1793536911000647",
+        "article-title": "Adaptive data analysis via sparse time-frequency representation",
+        "volume": "3",
+        "author": "Hou",
+        "year": "2011",
+        "journal-title": "Adv. Adapt. Data Anal."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b13",
+        "series-title": "Proceedings of the 20th European Signal Processing Conference",
+        "first-page": "1880",
+        "article-title": "A multicomponent proximal algorithm for empirical mode decomposition",
+        "author": "Pustelnik",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b14",
+        "doi-asserted-by": "crossref",
+        "first-page": "313",
+        "DOI": "10.1016/j.sigpro.2014.03.014",
+        "article-title": "Empirical mode decomposition revisited by multicomponent non-smooth convex optimization",
+        "volume": "102",
+        "author": "Pustelnik",
+        "year": "2014",
+        "journal-title": "Signal Process."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.patcog.2024.110670_b15",
+        "doi-asserted-by": "crossref",
+        "first-page": "531",
+        "DOI": "10.1109/TSP.2013.2288675",
+        "article-title": "Variational mode decomposition",
+        "volume": "62",
+        "author": "Dragomiretskiy",
+        "year": "2013",
+        "journal-title": "IEEE Trans. Signal Process."
+      },
+      {
+        "issue": "23",
+        "key": "10.1016/j.patcog.2024.110670_b16",
+        "doi-asserted-by": "crossref",
+        "first-page": "6039",
+        "DOI": "10.1109/TSP.2019.2951223",
+        "article-title": "Multivariate variational mode decomposition",
+        "volume": "67",
+        "author": "ur Rehman",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Signal Process."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b17",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1016/j.sigpro.2015.10.022",
+        "article-title": "Optimal averages for nonlinear signal decompositions—another alternative for empirical mode decomposition",
+        "volume": "121",
+        "author": "Zhou",
+        "year": "2016",
+        "journal-title": "Signal Process."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.patcog.2024.110670_b18",
+        "doi-asserted-by": "crossref",
+        "first-page": "243",
+        "DOI": "10.1016/j.acha.2010.08.002",
+        "article-title": "Synchrosqueezed wavelet transforms: An empirical mode decomposition-like tool",
+        "volume": "30",
+        "author": "Daubechies",
+        "year": "2011",
+        "journal-title": "Appl. Comput. Harmon. Anal."
+      },
+      {
+        "issue": "16",
+        "key": "10.1016/j.patcog.2024.110670_b19",
+        "doi-asserted-by": "crossref",
+        "first-page": "3999",
+        "DOI": "10.1109/TSP.2013.2265222",
+        "article-title": "Empirical wavelet transform",
+        "volume": "61",
+        "author": "Gilles",
+        "year": "2013",
+        "journal-title": "IEEE Trans. Signal Process."
+      },
+      {
+        "issue": "2199",
+        "key": "10.1016/j.patcog.2024.110670_b20",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1098/rspa.2016.0871",
+        "article-title": "The Fourier decomposition method for nonlinear and non-stationary time series analysis",
+        "volume": "473",
+        "author": "Singh",
+        "year": "2017",
+        "journal-title": "Proc. R. Soc. A: Math., Phys. Eng. Sci."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.patcog.2024.110670_b21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1098/rsos.181131",
+        "article-title": "Novel Fourier quadrature transforms and analytic signal representations for nonlinear and non-stationary time-series analysis",
+        "volume": "5",
+        "author": "Singh",
+        "year": "2018",
+        "journal-title": "R. Soc. Open Sci."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b22",
+        "doi-asserted-by": "crossref",
+        "first-page": "903",
+        "DOI": "10.1109/TSP.2022.3143723",
+        "article-title": "Adaptive Fourier decomposition for multi-channel signal analysis",
+        "volume": "70",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Signal Process."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b23",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.patcog.2023.109347",
+        "article-title": "A comprehensive survey of image augmentation techniques for deep learning",
+        "volume": "137",
+        "author": "Xu",
+        "year": "2023",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b24",
+        "doi-asserted-by": "crossref",
+        "first-page": "3713",
+        "DOI": "10.1007/s11042-022-13428-4",
+        "article-title": "Natural language processing: State of the art, current trends and challenges",
+        "volume": "82",
+        "author": "Khurana",
+        "year": "2023",
+        "journal-title": "Multimedia Tools Appl."
+      },
+      {
+        "issue": "10s",
+        "key": "10.1016/j.patcog.2024.110670_b25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3502287",
+        "article-title": "A systematic review on data scarcity problem in deep learning: solution and applications",
+        "volume": "54",
+        "author": "Bansal",
+        "year": "2022",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.patcog.2024.110670_b26",
+        "doi-asserted-by": "crossref",
+        "first-page": "9476",
+        "DOI": "10.1109/TGRS.2019.2926772",
+        "article-title": "Seismic signal denoising and decomposition using deep neural networks",
+        "volume": "57",
+        "author": "Zhu",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Geosci. Remote Sens."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b27",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.patcog.2019.107147",
+        "article-title": "Ensemble deep learning for automated visual classification using EEG signals",
+        "volume": "102",
+        "author": "Zheng",
+        "year": "2020",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1526",
+        "DOI": "10.1007/s12559-022-09997-z",
+        "article-title": "Mine microseismic time series data integrated classification based on improved wavelet decomposition and ELM",
+        "volume": "14",
+        "author": "Ding",
+        "year": "2022",
+        "journal-title": "Cogn. Comput."
+      },
+      {
+        "issue": "13",
+        "key": "10.1016/j.patcog.2024.110670_b29",
+        "doi-asserted-by": "crossref",
+        "first-page": "12181",
+        "DOI": "10.1007/s11071-023-08456-0",
+        "article-title": "Finite-time adaptive neural resilient DSC for fractional-order nonlinear large-scale systems against sensor-actuator faults",
+        "volume": "111",
+        "author": "Song",
+        "year": "2023",
+        "journal-title": "Nonlinear Dynam."
+      },
+      {
+        "issue": "21",
+        "key": "10.1016/j.patcog.2024.110670_b30",
+        "doi-asserted-by": "crossref",
+        "first-page": "15429",
+        "DOI": "10.1007/s00521-023-08361-y",
+        "article-title": "Quantized neural adaptive finite-time preassigned performance control for interconnected nonlinear systems",
+        "volume": "35",
+        "author": "Song",
+        "year": "2023",
+        "journal-title": "Neural Comput. Appl."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b31",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.patcog.2020.107590",
+        "article-title": "Learning modulation filter networks for weak signal detection in noise",
+        "volume": "109",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "issue": "3–4",
+        "key": "10.1016/j.patcog.2024.110670_b32",
+        "doi-asserted-by": "crossref",
+        "first-page": "231",
+        "DOI": "10.1561/2200000050",
+        "article-title": "Convex optimization: Algorithms and complexity",
+        "volume": "8",
+        "author": "Bubeck",
+        "year": "2015",
+        "journal-title": "Found. Trends Mach. Learn."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. He, X. Zhang, S. Ren, J. Sun, Deep residual learning for image recognition, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016, pp. 770–778.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Ablin, J.-F. Cardoso, A. Gramfort, Faster ICA under orthogonal constraint, in: IEEE International Conference on Acoustics, Speech and Signal Processing, ICASSP, 2018, pp. 4464–4468.",
+        "DOI": "10.1109/ICASSP.2018.8461662"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.patcog.2024.110670_b35",
+        "doi-asserted-by": "crossref",
+        "first-page": "302",
+        "DOI": "10.1137/16M1098759",
+        "article-title": "A new first-order algorithmic framework for optimization problems with orthogonality constraints",
+        "volume": "28",
+        "author": "Gao",
+        "year": "2018",
+        "journal-title": "SIAM J. Optim."
+      },
+      {
+        "key": "10.1016/j.patcog.2024.110670_b36",
+        "doi-asserted-by": "crossref",
+        "first-page": "417",
+        "DOI": "10.1146/annurev.fluid.31.1.417",
+        "article-title": "A new view of nonlinear water waves: the Hilbert spectrum",
+        "volume": "31",
+        "author": "Huang",
+        "year": "1999",
+        "journal-title": "Annu. Rev. Fluid Mech."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.patcog.2024.110670_b37",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1142/S1793536913500155",
+        "article-title": "Extreme-point symmetric mode decomposition method for data analysis",
+        "volume": "5",
+        "author": "Wang",
+        "year": "2013",
+        "journal-title": "Adv. Adapt. Data Anal."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.patcog.2024.110670_b38",
+        "doi-asserted-by": "crossref",
+        "first-page": "135",
+        "DOI": "10.1142/S1793536910000422",
+        "article-title": "Complementary ensemble empirical mode decomposition: A novel noise enhanced data analysis method",
+        "volume": "2",
+        "author": "Jia-rong Yeh",
+        "year": "2010",
+        "journal-title": "Adv. Adapt. Data Anal."
+      },
+      {
+        "issue": "2117",
+        "key": "10.1016/j.patcog.2024.110670_b39",
+        "doi-asserted-by": "crossref",
+        "first-page": "1291",
+        "DOI": "10.1098/rspa.2009.0502",
+        "article-title": "Multivariate empirical mode decomposition",
+        "volume": "466",
+        "author": "Rehman",
+        "year": "2010",
+        "journal-title": "Proc. R. Soc. A: Math., Phys. Eng. Sci."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.patcog.2024.110670_b40",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1142/S1793536909000047",
+        "article-title": "Ensemble empirical mode decomposition: A noise-assisted data analysis method",
+        "volume": "1",
+        "author": "Wu",
+        "year": "2009",
+        "journal-title": "Adv. Adapt. Data Anal."
+      }
+    ],
+    "container-title": [
+      "Pattern Recognition"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0031320324004217?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0031320324004217?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          29
+        ]
+      ],
+      "date-time": "2024-07-29T16:41:45Z",
+      "timestamp": 1722271305000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0031320324004217"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "references-count": 40,
+    "alternative-id": [
+      "S0031320324004217"
+    ],
+    "URL": "https://doi.org/10.1016/j.patcog.2024.110670",
+    "relation": {},
+    "ISSN": [
+      "0031-3203"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0031-3203"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "IRCNN: A novel signal decomposition approach based on iterative residue convolutional neural network",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Pattern Recognition",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.patcog.2024.110670",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "110670"
+  }
+}

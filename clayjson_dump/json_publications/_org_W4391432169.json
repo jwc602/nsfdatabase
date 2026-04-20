@@ -1,0 +1,1779 @@
+{
+  "doi": "https://openalex.org/W4391432169",
+  "openalex": {
+    "id": "https://openalex.org/W4391432169",
+    "doi": "https://doi.org/10.1093/cercor/bhae016",
+    "title": "A radiomics-based brain network in T1 images: construction, attributes, and applications",
+    "display_name": "A radiomics-based brain network in T1 images: construction, attributes, and applications",
+    "publication_year": 2024,
+    "publication_date": "2024-01-31",
+    "ids": {
+      "openalex": "https://openalex.org/W4391432169",
+      "doi": "https://doi.org/10.1093/cercor/bhae016",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38300184"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1093/cercor/bhae016",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/cercor/bhae016",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S117898428",
+        "display_name": "Cerebral Cortex",
+        "issn_l": "1047-3211",
+        "issn": [
+          "1047-3211",
+          "1460-2199"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Cerebral Cortex",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10839838/pdf/bhae016.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101081441",
+          "display_name": "Han Liu",
+          "orcid": "https://orcid.org/0009-0005-5883-6278"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183519381",
+            "display_name": "Capital Medical University",
+            "ror": "https://ror.org/013xs5b60",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183519381"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210144404",
+            "display_name": "Beijing Children’s Hospital",
+            "ror": "https://ror.org/04skmn292",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210144404"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210161138",
+            "display_name": "Beijing Fengtai Hospital",
+            "ror": "https://ror.org/0579e9266",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210161138"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Han Liu",
+        "raw_affiliation_strings": [
+          "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+          "Capital Medical University , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+          "Department of Radiology, Beijing Children's Hospital, Capital Medical University, National Center for Children's Health , No. 56, Nanlishilu Road, Xicheng District, Beijing 100045 ,",
+          "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application, School of Biomedical Engineering, Capital Medical University, No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069, China",
+          "Department of Radiology, Beijing Children's Hospital, Capital Medical University, National Center for Children's Health, No. 56, Nanlishilu Road, Xicheng District, Beijing 100045, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+            "institution_ids": [
+              "https://openalex.org/I4210161138"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Capital Medical University , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+            "institution_ids": [
+              "https://openalex.org/I183519381"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Radiology, Beijing Children's Hospital, Capital Medical University, National Center for Children's Health , No. 56, Nanlishilu Road, Xicheng District, Beijing 100045 ,",
+            "institution_ids": [
+              "https://openalex.org/I4210144404"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application, School of Biomedical Engineering, Capital Medical University, No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069, China",
+            "institution_ids": [
+              "https://openalex.org/I183519381"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Radiology, Beijing Children's Hospital, Capital Medical University, National Center for Children's Health, No. 56, Nanlishilu Road, Xicheng District, Beijing 100045, China",
+            "institution_ids": [
+              "https://openalex.org/I4210144404",
+              "https://openalex.org/I183519381"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5064486012",
+          "display_name": "Zhe Ma",
+          "orcid": "https://orcid.org/0009-0003-0202-3863"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183519381",
+            "display_name": "Capital Medical University",
+            "ror": "https://ror.org/013xs5b60",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183519381"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210143608",
+            "display_name": "Henan Cancer Hospital",
+            "ror": "https://ror.org/043ek5g31",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210143608"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210161138",
+            "display_name": "Beijing Fengtai Hospital",
+            "ror": "https://ror.org/0579e9266",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210161138"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I38877650",
+            "display_name": "Zhengzhou University",
+            "ror": "https://ror.org/04ypx8c21",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I38877650"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhe Ma",
+        "raw_affiliation_strings": [
+          "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+          "Capital Medical University , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+          "Department of Radiology, Henan Cancer Hospital, The Affiliated Cancer Hospital of Zhengzhou University , 127 Dongming Road, Jinshui District, Zhengzhou, Henan 450008 ,",
+          "Department of Radiology, Henan Cancer Hospital, The Affiliated Cancer Hospital of Zhengzhou University, 127 Dongming Road, Jinshui District, Zhengzhou, Henan 450008, China",
+          "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application, School of Biomedical Engineering, Capital Medical University, No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+            "institution_ids": [
+              "https://openalex.org/I4210161138"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Capital Medical University , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+            "institution_ids": [
+              "https://openalex.org/I183519381"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Radiology, Henan Cancer Hospital, The Affiliated Cancer Hospital of Zhengzhou University , 127 Dongming Road, Jinshui District, Zhengzhou, Henan 450008 ,",
+            "institution_ids": [
+              "https://openalex.org/I4210143608"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Radiology, Henan Cancer Hospital, The Affiliated Cancer Hospital of Zhengzhou University, 127 Dongming Road, Jinshui District, Zhengzhou, Henan 450008, China",
+            "institution_ids": [
+              "https://openalex.org/I4210143608",
+              "https://openalex.org/I38877650"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application, School of Biomedical Engineering, Capital Medical University, No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069, China",
+            "institution_ids": [
+              "https://openalex.org/I183519381"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5060045665",
+          "display_name": "Lijiang Wei",
+          "orcid": "https://orcid.org/0000-0001-7635-3468"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I25254941",
+            "display_name": "Beijing Normal University",
+            "ror": "https://ror.org/022k4wk35",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I25254941"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210161138",
+            "display_name": "Beijing Fengtai Hospital",
+            "ror": "https://ror.org/0579e9266",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210161138"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183519381",
+            "display_name": "Capital Medical University",
+            "ror": "https://ror.org/013xs5b60",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183519381"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lijiang Wei",
+        "raw_affiliation_strings": [
+          "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+          "Capital Medical University , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+          "State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University , No. 19, Xinjiekouwai Street, Haidian District, Beijing 100875 ,",
+          "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application, School of Biomedical Engineering, Capital Medical University, No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069, China",
+          "State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, No. 19, Xinjiekouwai Street, Haidian District, Beijing 100875, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+            "institution_ids": [
+              "https://openalex.org/I4210161138"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Capital Medical University , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+            "institution_ids": [
+              "https://openalex.org/I183519381"
+            ]
+          },
+          {
+            "raw_affiliation_string": "State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University , No. 19, Xinjiekouwai Street, Haidian District, Beijing 100875 ,",
+            "institution_ids": [
+              "https://openalex.org/I25254941"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application, School of Biomedical Engineering, Capital Medical University, No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069, China",
+            "institution_ids": [
+              "https://openalex.org/I183519381"
+            ]
+          },
+          {
+            "raw_affiliation_string": "State Key Laboratory of Cognitive Neuroscience and Learning, Beijing Normal University, No. 19, Xinjiekouwai Street, Haidian District, Beijing 100875, China",
+            "institution_ids": [
+              "https://openalex.org/I25254941"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101612445",
+          "display_name": "Zhenpeng Chen",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210161138",
+            "display_name": "Beijing Fengtai Hospital",
+            "ror": "https://ror.org/0579e9266",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210161138"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183519381",
+            "display_name": "Capital Medical University",
+            "ror": "https://ror.org/013xs5b60",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183519381"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhenpeng Chen",
+        "raw_affiliation_strings": [
+          "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+          "Capital Medical University , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+          "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application, School of Biomedical Engineering, Capital Medical University, No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+            "institution_ids": [
+              "https://openalex.org/I4210161138"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Capital Medical University , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+            "institution_ids": [
+              "https://openalex.org/I183519381"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application, School of Biomedical Engineering, Capital Medical University, No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069, China",
+            "institution_ids": [
+              "https://openalex.org/I183519381"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5035313775",
+          "display_name": "Yun Peng",
+          "orcid": "https://orcid.org/0000-0001-8213-9716"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210144404",
+            "display_name": "Beijing Children’s Hospital",
+            "ror": "https://ror.org/04skmn292",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210144404"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183519381",
+            "display_name": "Capital Medical University",
+            "ror": "https://ror.org/013xs5b60",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183519381"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Yun Peng",
+        "raw_affiliation_strings": [
+          "Department of Radiology, Beijing Children's Hospital, Capital Medical University, National Center for Children's Health , No. 56, Nanlishilu Road, Xicheng District, Beijing 100045 ,",
+          "Department of Radiology, Beijing Children's Hospital, Capital Medical University, National Center for Children's Health, No. 56, Nanlishilu Road, Xicheng District, Beijing 100045, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Radiology, Beijing Children's Hospital, Capital Medical University, National Center for Children's Health , No. 56, Nanlishilu Road, Xicheng District, Beijing 100045 ,",
+            "institution_ids": [
+              "https://openalex.org/I4210144404"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Radiology, Beijing Children's Hospital, Capital Medical University, National Center for Children's Health, No. 56, Nanlishilu Road, Xicheng District, Beijing 100045, China",
+            "institution_ids": [
+              "https://openalex.org/I4210144404",
+              "https://openalex.org/I183519381"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5052716839",
+          "display_name": "Zhicheng Jiao",
+          "orcid": "https://orcid.org/0000-0002-6968-0919"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27804330",
+            "display_name": "Brown University",
+            "ror": "https://ror.org/05gq02987",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27804330"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhicheng Jiao",
+        "raw_affiliation_strings": [
+          "Department of Diagnostic Imaging, Brown University , 593 Eddy Street, Providence, Rhode Island 02903 ,",
+          "Department of Diagnostic Imaging, Brown University, 593 Eddy Street, Providence, Rhode Island 02903, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Diagnostic Imaging, Brown University , 593 Eddy Street, Providence, Rhode Island 02903 ,",
+            "institution_ids": [
+              "https://openalex.org/I27804330"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Diagnostic Imaging, Brown University, 593 Eddy Street, Providence, Rhode Island 02903, United States",
+            "institution_ids": [
+              "https://openalex.org/I27804330"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5080679036",
+          "display_name": "Harrison X. Bai",
+          "orcid": "https://orcid.org/0000-0002-7460-8866"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2799853436",
+            "display_name": "Johns Hopkins Medicine",
+            "ror": "https://ror.org/037zgn354",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2799853436"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Harrison Bai",
+        "raw_affiliation_strings": [
+          "Department of Radiology and Radiological Sciences, Johns Hopkins University , 1800 Orleans Street, Baltimore, Maryland 21205 ,",
+          "Department of Radiology and Radiological Sciences, Johns Hopkins University, 1800 Orleans Street, Baltimore, Maryland 21205, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Radiology and Radiological Sciences, Johns Hopkins University , 1800 Orleans Street, Baltimore, Maryland 21205 ,",
+            "institution_ids": [
+              "https://openalex.org/I2799853436",
+              "https://openalex.org/I145311948"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Radiology and Radiological Sciences, Johns Hopkins University, 1800 Orleans Street, Baltimore, Maryland 21205, United States",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5048141379",
+          "display_name": "Bin Jing",
+          "orcid": "https://orcid.org/0000-0002-4478-8683"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210161138",
+            "display_name": "Beijing Fengtai Hospital",
+            "ror": "https://ror.org/0579e9266",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210161138"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183519381",
+            "display_name": "Capital Medical University",
+            "ror": "https://ror.org/013xs5b60",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183519381"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Bin Jing",
+        "raw_affiliation_strings": [
+          "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+          "Capital Medical University , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+          "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application, School of Biomedical Engineering, Capital Medical University, No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+            "institution_ids": [
+              "https://openalex.org/I4210161138"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Capital Medical University , School of Biomedical Engineering, , No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069 ,",
+            "institution_ids": [
+              "https://openalex.org/I183519381"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application, School of Biomedical Engineering, Capital Medical University, No. 10, Xitoutiao Youanmenwai, Fengtai District, Beijing 100069, China",
+            "institution_ids": [
+              "https://openalex.org/I183519381"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5035313775",
+      "https://openalex.org/A5048141379"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210144404",
+      "https://openalex.org/I183519381",
+      "https://openalex.org/I4210161138"
+    ],
+    "apc_list": {
+      "value": 4798,
+      "currency": "USD",
+      "value_usd": 4798
+    },
+    "apc_paid": null,
+    "fwci": 3.27629527,
+    "has_fulltext": false,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.83942271,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "34",
+      "issue": "2",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12422",
+      "display_name": "Radiomics and Machine Learning in Medical Imaging",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12422",
+        "display_name": "Radiomics and Machine Learning in Medical Imaging",
+        "score": 0.9995999932289124,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10522",
+        "display_name": "Medical Imaging Techniques and Applications",
+        "score": 0.977400004863739,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12702",
+        "display_name": "Brain Tumor Detection and Classification",
+        "score": 0.9764999747276306,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2808",
+          "display_name": "Neurology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/radiomics",
+        "display_name": "Radiomics",
+        "score": 0.6549208164215088
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5170153379440308
+      },
+      {
+        "id": "https://openalex.org/keywords/neuroscience",
+        "display_name": "Neuroscience",
+        "score": 0.39749664068222046
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.38499706983566284
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.285617470741272
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2778559731",
+        "wikidata": "https://www.wikidata.org/wiki/Q23808793",
+        "display_name": "Radiomics",
+        "level": 2,
+        "score": 0.6549208164215088
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5170153379440308
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.39749664068222046
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.38499706983566284
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.285617470741272
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D000097188",
+        "descriptor_name": "Radiomics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015203",
+        "descriptor_name": "Reproducibility of Results",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D066128",
+        "descriptor_name": "Gray Matter",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000097188",
+        "descriptor_name": "Radiomics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015203",
+        "descriptor_name": "Reproducibility of Results",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D066128",
+        "descriptor_name": "Gray Matter",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000097188",
+        "descriptor_name": "Radiomics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015203",
+        "descriptor_name": "Reproducibility of Results",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D066128",
+        "descriptor_name": "Gray Matter",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000097188",
+        "descriptor_name": "Radiomics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015203",
+        "descriptor_name": "Reproducibility of Results",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D066128",
+        "descriptor_name": "Gray Matter",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000097188",
+        "descriptor_name": "Radiomics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015203",
+        "descriptor_name": "Reproducibility of Results",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001921",
+        "descriptor_name": "Brain",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D066128",
+        "descriptor_name": "Gray Matter",
+        "qualifier_ui": "Q000000981",
+        "qualifier_name": "diagnostic imaging",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059906",
+        "descriptor_name": "Neuroimaging",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1093/cercor/bhae016",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1093/cercor/bhae016",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S117898428",
+          "display_name": "Cerebral Cortex",
+          "issn_l": "1047-3211",
+          "issn": [
+            "1047-3211",
+            "1460-2199"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Cerebral Cortex",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38300184",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38300184",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Cerebral cortex (New York, N.Y. : 1991)",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:10839838",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10839838",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10839838/pdf/bhae016.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Cereb Cortex",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:pubmedcentral.nih.gov:10839838",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10839838",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10839838/pdf/bhae016.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Cereb Cortex",
+      "raw_type": "Text"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.5799999833106995,
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G4558216502",
+        "display_name": null,
+        "funder_award_id": "U01 AG024904",
+        "funder_id": "https://openalex.org/F4320332161",
+        "funder_display_name": "National Institutes of Health"
+      },
+      {
+        "id": "https://openalex.org/G7854119329",
+        "display_name": null,
+        "funder_award_id": "W81XWH-12-2-0012",
+        "funder_id": "https://openalex.org/F4320306078",
+        "funder_display_name": "U.S. Department of Defense"
+      },
+      {
+        "id": "https://openalex.org/G8664066688",
+        "display_name": null,
+        "funder_award_id": "KM202010025025",
+        "funder_id": "https://openalex.org/F4320321572",
+        "funder_display_name": "Beijing Municipal Commission of Education"
+      },
+      {
+        "id": "https://openalex.org/G1033418767",
+        "display_name": null,
+        "funder_award_id": "12171330",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306078",
+        "display_name": "U.S. Department of Defense",
+        "ror": "https://ror.org/0447fe631"
+      },
+      {
+        "id": "https://openalex.org/F4320306219",
+        "display_name": "Alzheimer's Association",
+        "ror": "https://ror.org/0375f4d26"
+      },
+      {
+        "id": "https://openalex.org/F4320307115",
+        "display_name": "Bristol-Myers Squibb",
+        "ror": "https://ror.org/00gtmwv55"
+      },
+      {
+        "id": "https://openalex.org/F4320307132",
+        "display_name": "Alzheimer's Drug Discovery Foundation",
+        "ror": "https://ror.org/0185drb55"
+      },
+      {
+        "id": "https://openalex.org/F4320307758",
+        "display_name": "Eli Lilly and Company",
+        "ror": "https://ror.org/01qat3289"
+      },
+      {
+        "id": "https://openalex.org/F4320307765",
+        "display_name": "Pfizer",
+        "ror": "https://ror.org/01xdqrp08"
+      },
+      {
+        "id": "https://openalex.org/F4320310030",
+        "display_name": "Takeda Pharmaceuticals U.S.A.",
+        "ror": "https://ror.org/03bygaq51"
+      },
+      {
+        "id": "https://openalex.org/F4320310045",
+        "display_name": "BioClinica",
+        "ror": "https://ror.org/03t95yr58"
+      },
+      {
+        "id": "https://openalex.org/F4320310388",
+        "display_name": "Novartis Pharmaceuticals Corporation",
+        "ror": "https://ror.org/028fhxy95"
+      },
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320321572",
+        "display_name": "Beijing Municipal Commission of Education",
+        "ror": "https://ror.org/04bpn6s66"
+      },
+      {
+        "id": "https://openalex.org/F4320332161",
+        "display_name": "National Institutes of Health",
+        "ror": "https://ror.org/01cwqze88"
+      },
+      {
+        "id": "https://openalex.org/F4320337337",
+        "display_name": "National Institute on Aging",
+        "ror": "https://ror.org/049v75w11"
+      },
+      {
+        "id": "https://openalex.org/F4320337363",
+        "display_name": "National Institute of Biomedical Imaging and Bioengineering",
+        "ror": "https://ror.org/00372qc85"
+      },
+      {
+        "id": "https://openalex.org/F4320337804",
+        "display_name": "Johnson and Johnson Pharmaceutical Research and Development",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320337830",
+        "display_name": "Janssen Alzheimer Immunotherapy Research And Development",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4391432169.pdf"
+    },
+    "referenced_works_count": 67,
+    "referenced_works": [
+      "https://openalex.org/W1974764791",
+      "https://openalex.org/W1994239403",
+      "https://openalex.org/W2155298532",
+      "https://openalex.org/W4230920194",
+      "https://openalex.org/W2024524081",
+      "https://openalex.org/W1979426401",
+      "https://openalex.org/W2513415186",
+      "https://openalex.org/W3041979876",
+      "https://openalex.org/W1999653836",
+      "https://openalex.org/W2789913327",
+      "https://openalex.org/W3008556306",
+      "https://openalex.org/W2402346616",
+      "https://openalex.org/W6810496066",
+      "https://openalex.org/W2111902267",
+      "https://openalex.org/W2162686834",
+      "https://openalex.org/W2071645088",
+      "https://openalex.org/W2954710854",
+      "https://openalex.org/W2965700737",
+      "https://openalex.org/W2811329691",
+      "https://openalex.org/W2030290836",
+      "https://openalex.org/W2175501639",
+      "https://openalex.org/W3037737151",
+      "https://openalex.org/W2763355946",
+      "https://openalex.org/W2060464767",
+      "https://openalex.org/W2609116249",
+      "https://openalex.org/W2618080484",
+      "https://openalex.org/W3122160779",
+      "https://openalex.org/W2906155095",
+      "https://openalex.org/W2327949797",
+      "https://openalex.org/W2738940817",
+      "https://openalex.org/W2913452648",
+      "https://openalex.org/W2917364154",
+      "https://openalex.org/W3111667553",
+      "https://openalex.org/W3035684489",
+      "https://openalex.org/W2904792744",
+      "https://openalex.org/W2322184589",
+      "https://openalex.org/W2998160128",
+      "https://openalex.org/W1899329334",
+      "https://openalex.org/W3122412616",
+      "https://openalex.org/W2151936673",
+      "https://openalex.org/W2903794313",
+      "https://openalex.org/W2796035370",
+      "https://openalex.org/W2951936097",
+      "https://openalex.org/W2158244090",
+      "https://openalex.org/W2153480371",
+      "https://openalex.org/W4214920103",
+      "https://openalex.org/W3031827021",
+      "https://openalex.org/W2099698084",
+      "https://openalex.org/W1996630013",
+      "https://openalex.org/W2290913813",
+      "https://openalex.org/W2985389303",
+      "https://openalex.org/W3212414957",
+      "https://openalex.org/W2112090702",
+      "https://openalex.org/W3011161467",
+      "https://openalex.org/W2333277922",
+      "https://openalex.org/W4295750005",
+      "https://openalex.org/W2951670472",
+      "https://openalex.org/W2801407531",
+      "https://openalex.org/W6948394364",
+      "https://openalex.org/W3138921356",
+      "https://openalex.org/W6795901582",
+      "https://openalex.org/W2998710796",
+      "https://openalex.org/W3164989023",
+      "https://openalex.org/W2067456724",
+      "https://openalex.org/W3004719143",
+      "https://openalex.org/W4226119133",
+      "https://openalex.org/W3118247837"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W3000891326",
+      "https://openalex.org/W4205100762",
+      "https://openalex.org/W2559998622",
+      "https://openalex.org/W2605851261",
+      "https://openalex.org/W2734724112",
+      "https://openalex.org/W2582997534",
+      "https://openalex.org/W3009210156"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "T1": [
+        1,
+        37
+      ],
+      "image": [
+        2
+      ],
+      "is": [
+        3,
+        15
+      ],
+      "a": [
+        4,
+        27,
+        184
+      ],
+      "widely": [
+        5
+      ],
+      "collected": [
+        6
+      ],
+      "imaging": [
+        7
+      ],
+      "sequence": [
+        8
+      ],
+      "in": [
+        9,
+        63,
+        165
+      ],
+      "various": [
+        10,
+        206
+      ],
+      "neuroimaging": [
+        11
+      ],
+      "datasets,": [
+        12
+      ],
+      "but": [
+        13
+      ],
+      "it": [
+        14,
+        41
+      ],
+      "rarely": [
+        16
+      ],
+      "used": [
+        17,
+        42
+      ],
+      "to": [
+        18,
+        45
+      ],
+      "construct": [
+        19
+      ],
+      "an": [
+        20,
+        67
+      ],
+      "individual-level": [
+        21
+      ],
+      "brain": [
+        22,
+        191
+      ],
+      "network.": [
+        23
+      ],
+      "In": [
+        24,
+        39,
+        175
+      ],
+      "this": [
+        25
+      ],
+      "study,": [
+        26
+      ],
+      "novel": [
+        28
+      ],
+      "individualized": [
+        29,
+        68,
+        96,
+        120,
+        152,
+        178,
+        189
+      ],
+      "radiomics-based": [
+        30,
+        69,
+        97,
+        121,
+        153,
+        179
+      ],
+      "structural": [
+        31,
+        70,
+        98,
+        122,
+        154,
+        180,
+        190
+      ],
+      "similarity": [
+        32,
+        71,
+        99,
+        123,
+        155,
+        181
+      ],
+      "network": [
+        33,
+        72,
+        93,
+        100,
+        156,
+        159,
+        182
+      ],
+      "was": [
+        34,
+        73
+      ],
+      "proposed": [
+        35
+      ],
+      "from": [
+        36
+      ],
+      "images.": [
+        38
+      ],
+      "detail,": [
+        40
+      ],
+      "voxel-based": [
+        43
+      ],
+      "morphometry": [
+        44
+      ],
+      "obtain": [
+        46
+      ],
+      "the": [
+        47,
+        77,
+        92,
+        151,
+        177
+      ],
+      "preprocessed": [
+        48
+      ],
+      "gray": [
+        49
+      ],
+      "matter": [
+        50
+      ],
+      "images,": [
+        51
+      ],
+      "and": [
+        52,
+        66,
+        109,
+        131,
+        137,
+        161,
+        171,
+        187,
+        208
+      ],
+      "radiomic": [
+        53,
+        81
+      ],
+      "features": [
+        54,
+        82
+      ],
+      "were": [
+        55,
+        101,
+        135
+      ],
+      "then": [
+        56
+      ],
+      "extracted": [
+        57
+      ],
+      "on": [
+        58,
+        143
+      ],
+      "each": [
+        59
+      ],
+      "region": [
+        60
+      ],
+      "of": [
+        61,
+        80,
+        86,
+        88,
+        95
+      ],
+      "interest": [
+        62
+      ],
+      "Brainnetome": [
+        64
+      ],
+      "atlas,": [
+        65
+      ],
+      "finally": [
+        74
+      ],
+      "built": [
+        75
+      ],
+      "using": [
+        76
+      ],
+      "correlational": [
+        78
+      ],
+      "values": [
+        79
+      ],
+      "between": [
+        83
+      ],
+      "any": [
+        84
+      ],
+      "pair": [
+        85
+      ],
+      "regions": [
+        87
+      ],
+      "interest.": [
+        89
+      ],
+      "After": [
+        90
+      ],
+      "that,": [
+        91
+      ],
+      "characteristics": [
+        94,
+        160
+      ],
+      "assessed,": [
+        102
+      ],
+      "including": [
+        103
+      ],
+      "graph": [
+        104
+      ],
+      "theory": [
+        105
+      ],
+      "attributes,": [
+        106
+      ],
+      "test–retest": [
+        107
+      ],
+      "reliability,": [
+        108
+      ],
+      "individual": [
+        110
+      ],
+      "identification": [
+        111
+      ],
+      "ability": [
+        112
+      ],
+      "(fingerprinting).": [
+        113
+      ],
+      "At": [
+        114
+      ],
+      "last,": [
+        115
+      ],
+      "two": [
+        116
+      ],
+      "representative": [
+        117
+      ],
+      "applications": [
+        118
+      ],
+      "for": [
+        119,
+        205
+      ],
+      "network,": [
+        124,
+        192
+      ],
+      "namely": [
+        125
+      ],
+      "mild": [
+        126,
+        166
+      ],
+      "cognitive": [
+        127,
+        167
+      ],
+      "impairment": [
+        128,
+        168
+      ],
+      "subtype": [
+        129,
+        169
+      ],
+      "discrimination": [
+        130,
+        170
+      ],
+      "fluid": [
+        132,
+        172
+      ],
+      "intelligence": [
+        133,
+        173
+      ],
+      "prediction,": [
+        134
+      ],
+      "exemplified": [
+        136
+      ],
+      "compared": [
+        138
+      ],
+      "with": [
+        139,
+        197
+      ],
+      "some": [
+        140
+      ],
+      "other": [
+        141,
+        198
+      ],
+      "networks": [
+        142,
+        199
+      ],
+      "large": [
+        144
+      ],
+      "open-source": [
+        145
+      ],
+      "datasets.": [
+        146
+      ],
+      "The": [
+        147
+      ],
+      "results": [
+        148
+      ],
+      "revealed": [
+        149
+      ],
+      "that": [
+        150
+      ],
+      "displays": [
+        157
+      ],
+      "remarkable": [
+        158
+      ],
+      "exhibits": [
+        162
+      ],
+      "advantageous": [
+        163
+      ],
+      "performances": [
+        164
+      ],
+      "prediction.": [
+        174
+      ],
+      "summary,": [
+        176
+      ],
+      "provides": [
+        183
+      ],
+      "distinctive,": [
+        185
+      ],
+      "reliable,": [
+        186
+      ],
+      "informative": [
+        188
+      ],
+      "which": [
+        193
+      ],
+      "can": [
+        194
+      ],
+      "be": [
+        195
+      ],
+      "combined": [
+        196
+      ],
+      "such": [
+        200
+      ],
+      "as": [
+        201
+      ],
+      "resting-state": [
+        202
+      ],
+      "functional": [
+        203
+      ],
+      "connectivity": [
+        204
+      ],
+      "phenotypic": [
+        207
+      ],
+      "clinical": [
+        209
+      ],
+      "applications.": [
+        210
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {}
+}

@@ -1,0 +1,3122 @@
+{
+  "doi": "10.1101/2025.06.16.657725",
+  "openalex": {
+    "id": "https://openalex.org/W4411363508",
+    "doi": "https://doi.org/10.1101/2025.06.16.657725",
+    "title": "Image-Based Meta- and Mega-Analysis (IBMMA): A Unified Framework for Large-Scale, Multi-Site, Neuroimaging Data Analysis",
+    "display_name": "Image-Based Meta- and Mega-Analysis (IBMMA): A Unified Framework for Large-Scale, Multi-Site, Neuroimaging Data Analysis",
+    "publication_year": 2025,
+    "publication_date": "2025-06-17",
+    "ids": {
+      "openalex": "https://openalex.org/W4411363508",
+      "doi": "https://doi.org/10.1101/2025.06.16.657725",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/40667083"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1101/2025.06.16.657725",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1101/2025.06.16.657725",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402567",
+        "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2750212522",
+        "host_organization_name": "Cold Spring Harbor Laboratory",
+        "host_organization_lineage": [
+          "https://openalex.org/I2750212522"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "type": "preprint",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.1101/2025.06.16.657725",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5088126147",
+          "display_name": "Nick Steele",
+          "orcid": "https://orcid.org/0009-0004-2308-163X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Nick Steele",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5028050184",
+          "display_name": "Rajendra A. Morey",
+          "orcid": "https://orcid.org/0000-0002-6517-6969"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Rajendra A. Morey",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5058716232",
+          "display_name": "Ahmed Hussain",
+          "orcid": "https://orcid.org/0009-0005-8761-7525"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ahmed Hussain",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5083281856",
+          "display_name": "Courtney Russell",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Courtney Russell",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046366503",
+          "display_name": "Benjamin Suarez‐Jimenez",
+          "orcid": "https://orcid.org/0000-0002-4765-2458"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Benjamin Suarez-Jimenez",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5039224060",
+          "display_name": "Elena Pozzi",
+          "orcid": "https://orcid.org/0000-0001-8360-5571"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Elena Pozzi",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5092250937",
+          "display_name": "Hadis Jameei",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Hadis Jameei",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5006025400",
+          "display_name": "Lianne Schmaal",
+          "orcid": "https://orcid.org/0000-0001-9822-048X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Lianne Schmaal",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5012222691",
+          "display_name": "Ilya M. Veer",
+          "orcid": "https://orcid.org/0000-0002-6733-3593"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ilya M. Veer",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5077978296",
+          "display_name": "Lea Waller",
+          "orcid": "https://orcid.org/0000-0002-3239-6957"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Lea Waller",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019781190",
+          "display_name": "Neda Jahanshad",
+          "orcid": "https://orcid.org/0000-0003-4401-8950"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Neda Jahanshad",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5017365268",
+          "display_name": "Sophia I. Thomopoulos",
+          "orcid": "https://orcid.org/0000-0002-0046-4070"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Sophia I. Thomopoulos",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5016469794",
+          "display_name": "Lauren E. Salminen",
+          "orcid": "https://orcid.org/0000-0002-0684-9991"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Lauren E. Salminen",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5090003238",
+          "display_name": "Miranda Olff",
+          "orcid": "https://orcid.org/0000-0003-1016-9515"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Miranda Olff",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5012741427",
+          "display_name": "Jessie L. Frijling",
+          "orcid": "https://orcid.org/0000-0002-5055-340X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jessie L. Frijling",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5030054670",
+          "display_name": "Dick J. Veltman",
+          "orcid": "https://orcid.org/0000-0001-8971-4250"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Dick J. Veltman",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5029080306",
+          "display_name": "Saskia B.J. Koch",
+          "orcid": "https://orcid.org/0000-0002-3628-6712"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Saskia B.J. Koch",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5002410074",
+          "display_name": "Laura Nawijn",
+          "orcid": "https://orcid.org/0000-0001-7183-8933"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Laura Nawijn",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023892471",
+          "display_name": "Mirjam van Zuiden",
+          "orcid": "https://orcid.org/0000-0002-1225-2702"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Mirjam van Zuiden",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5112900684",
+          "display_name": "Li Wang",
+          "orcid": "https://orcid.org/0000-0002-1459-3412"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Li Wang",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5064895851",
+          "display_name": "Ye Zhu",
+          "orcid": "https://orcid.org/0000-0001-8369-0294"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ye Zhu",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100357046",
+          "display_name": "Gen Li",
+          "orcid": "https://orcid.org/0000-0002-9625-208X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Gen Li",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5073216705",
+          "display_name": "Dan J. Stein",
+          "orcid": "https://orcid.org/0000-0001-7218-7810"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Dan J. Stein",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5084901792",
+          "display_name": "Jonathan Ipser",
+          "orcid": "https://orcid.org/0000-0003-1272-0032"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jonathan Ipser",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5093086004",
+          "display_name": "Yuval Neria",
+          "orcid": "https://orcid.org/0000-0003-0877-3158"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Yuval Neria",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103186357",
+          "display_name": "Xi Zhu",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Xi Zhu",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003675406",
+          "display_name": "Orren Ravid",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Orren Ravid",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5087376272",
+          "display_name": "Sigal Zilcha‐Mano",
+          "orcid": "https://orcid.org/0000-0002-5645-4429"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Sigal Zilcha-Mano",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040506047",
+          "display_name": "Amit Lazarov",
+          "orcid": "https://orcid.org/0000-0002-2811-2739"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Amit Lazarov",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5086548086",
+          "display_name": "Ashley A. Huggins",
+          "orcid": "https://orcid.org/0000-0001-7936-2116"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ashley A. Huggins",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023826003",
+          "display_name": "Jennifer S. Stevens",
+          "orcid": "https://orcid.org/0000-0003-4674-0314"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jennifer S. Stevens",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5073581575",
+          "display_name": "Kerry J. Ressler",
+          "orcid": "https://orcid.org/0000-0002-5158-1103"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Kerry Ressler",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5016572077",
+          "display_name": "Tanja Jovanović",
+          "orcid": "https://orcid.org/0000-0002-6456-0053"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Tanja Jovanovic",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5075257930",
+          "display_name": "Sanne J.H. van Rooij",
+          "orcid": "https://orcid.org/0000-0002-0160-7248"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Sanne J.H. van Rooij",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5012934310",
+          "display_name": "Negar Fani",
+          "orcid": "https://orcid.org/0000-0002-7720-252X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Negar Fani",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5055514238",
+          "display_name": "Sven C. Mueller",
+          "orcid": "https://orcid.org/0000-0003-1661-3840"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Sven C. Mueller",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5009683290",
+          "display_name": "Anna R. Hudson",
+          "orcid": "https://orcid.org/0000-0002-5752-7888"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Anna R. Hudson",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5074972758",
+          "display_name": "Judith K. Daniels",
+          "orcid": "https://orcid.org/0000-0001-6304-2310"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Judith K. Daniels",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5035010212",
+          "display_name": "Anika Sierk",
+          "orcid": "https://orcid.org/0000-0002-1396-8075"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Anika Sierk",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046409037",
+          "display_name": "Antje Manthey",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Antje Manthey",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5113381961",
+          "display_name": "Henrik Walter",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Henrik Walter",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5038822755",
+          "display_name": "Nic J.A. van der Wee",
+          "orcid": "https://orcid.org/0000-0003-3235-1633"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Nic J.A. van der Wee",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5073018134",
+          "display_name": "Steven J.A. van der Werff",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Steven J.A. van der Werff",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5018808916",
+          "display_name": "Robert Vermeiren",
+          "orcid": "https://orcid.org/0000-0002-8673-2207"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Robert R.J.M. Vermeiren",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5039593580",
+          "display_name": "Christian Schmahl",
+          "orcid": "https://orcid.org/0000-0003-0141-0821"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Christian Schmahl",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5017468388",
+          "display_name": "Julia Herzog",
+          "orcid": "https://orcid.org/0000-0001-8326-5466"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Julia I. Herzog",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5061780927",
+          "display_name": "Ivan Rektor",
+          "orcid": "https://orcid.org/0000-0002-9635-7404"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ivan Rektor",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5082520102",
+          "display_name": "Pavel Říha",
+          "orcid": "https://orcid.org/0000-0002-1322-2038"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Pavel Říha",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5066792710",
+          "display_name": "Milissa L. Kaufman",
+          "orcid": "https://orcid.org/0000-0001-7396-8213"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Milissa L. Kaufman",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5088925864",
+          "display_name": "Lauren A. M. Lebois",
+          "orcid": "https://orcid.org/0000-0001-5816-9181"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Lauren A. M. Lebois",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5073880521",
+          "display_name": "Justin T. Baker",
+          "orcid": "https://orcid.org/0000-0002-6629-2195"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Justin T. Baker",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5039662226",
+          "display_name": "Isabelle M. Rosso",
+          "orcid": "https://orcid.org/0000-0001-6988-3858"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Isabelle M. Rosso",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5054566780",
+          "display_name": "Elizabeth A. Olson",
+          "orcid": "https://orcid.org/0000-0003-4617-8050"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Elizabeth A. Olson",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5071350424",
+          "display_name": "Anthony King",
+          "orcid": "https://orcid.org/0000-0002-0489-9194"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Anthony King",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5075081932",
+          "display_name": "Israel Liberzon",
+          "orcid": "https://orcid.org/0000-0002-4990-556X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Israel Liberzon",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5047882643",
+          "display_name": "Mike Angstadt",
+          "orcid": "https://orcid.org/0000-0003-4870-7649"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Michael Angstadt",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5079398170",
+          "display_name": "Nicholas D. Davenport",
+          "orcid": "https://orcid.org/0000-0002-3441-7256"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Nicholas D. Davenport",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5091282125",
+          "display_name": "Seth G. Disner",
+          "orcid": "https://orcid.org/0000-0003-3635-9421"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Seth G. Disner",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5035899146",
+          "display_name": "Scott R. Sponheim",
+          "orcid": "https://orcid.org/0000-0002-2782-0856"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Scott R. Sponheim",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019228813",
+          "display_name": "Thomas Straube",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Thomas Straube",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5055374737",
+          "display_name": "David Hofmann",
+          "orcid": "https://orcid.org/0000-0003-3494-634X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "David Hofmann",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5070001088",
+          "display_name": "Guangming Lu",
+          "orcid": "https://orcid.org/0000-0003-4913-2314"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Guangming Lu",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5067023043",
+          "display_name": "Rongfeng Qi",
+          "orcid": "https://orcid.org/0000-0002-9981-9918"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Rongfeng Qi",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100328094",
+          "display_name": "Xin Wang",
+          "orcid": "https://orcid.org/0000-0003-2292-3845"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Xin Wang",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5116713317",
+          "display_name": "Austin Kunch",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Austin Kunch",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101492689",
+          "display_name": "Hong Xie",
+          "orcid": "https://orcid.org/0000-0002-7573-2260"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Hong Xie",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5045381374",
+          "display_name": "Yann Quidé",
+          "orcid": "https://orcid.org/0000-0002-8569-7139"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Yann Quidé",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5010152592",
+          "display_name": "Wissam El‐Hage",
+          "orcid": "https://orcid.org/0000-0003-3877-0855"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Wissam El-Hage",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5013205299",
+          "display_name": "Shmuel Lissek",
+          "orcid": "https://orcid.org/0000-0001-7384-371X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Shmuel Lissek",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046004306",
+          "display_name": "Hannah Berg",
+          "orcid": "https://orcid.org/0000-0002-8283-0133"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Hannah Berg",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5055907117",
+          "display_name": "Steven E. Bruce",
+          "orcid": "https://orcid.org/0000-0002-5807-4382"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Steven E. Bruce",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5071852973",
+          "display_name": "Josh M. Cisler",
+          "orcid": "https://orcid.org/0000-0001-8257-7716"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Josh Cisler",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019293238",
+          "display_name": "Marisa Ross",
+          "orcid": "https://orcid.org/0000-0002-7769-5029"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Marisa Ross",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5008589773",
+          "display_name": "Ryan J. Herringa",
+          "orcid": "https://orcid.org/0000-0002-1936-7959"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ryan J. Herringa",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5083103750",
+          "display_name": "Daniel W. Grupe",
+          "orcid": "https://orcid.org/0000-0003-4927-7572"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Daniel W. Grupe",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5086709175",
+          "display_name": "Jack B. Nitschke",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jack B. Nitschke",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5044580005",
+          "display_name": "Richard J. Davidson",
+          "orcid": "https://orcid.org/0000-0002-8506-4964"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Richard J. Davidson",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5041194346",
+          "display_name": "Christine Larson",
+          "orcid": "https://orcid.org/0000-0001-7331-0817"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Christine Larson",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5048451334",
+          "display_name": "Terri A. deRoon‐Cassini",
+          "orcid": "https://orcid.org/0000-0002-9485-0625"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Terri A. deRoon-Cassini",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5087286771",
+          "display_name": "Carissa W. Tomas",
+          "orcid": "https://orcid.org/0000-0002-9199-8632"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Carissa W. Tomas",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5018263271",
+          "display_name": "Jacklynn M. Fitzgerald",
+          "orcid": "https://orcid.org/0000-0002-6076-4067"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jacklynn M. Fitzgerald",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5017640298",
+          "display_name": "Jeremy A. Elman",
+          "orcid": "https://orcid.org/0000-0002-5840-1769"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jeremy Elman",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5075164498",
+          "display_name": "Matthew S. Panizzon",
+          "orcid": "https://orcid.org/0000-0002-6449-2097"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Matthew Panizzon",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5072260914",
+          "display_name": "Carol E. Franz",
+          "orcid": "https://orcid.org/0000-0002-8987-1755"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Carol E. Franz",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062206294",
+          "display_name": "Michael J. Lyons",
+          "orcid": "https://orcid.org/0000-0001-6516-9219"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Michael J. Lyons",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5022227131",
+          "display_name": "William S. Kremen",
+          "orcid": "https://orcid.org/0000-0002-8629-5609"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "William S. Kremen",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5057862568",
+          "display_name": "Brandee Feola",
+          "orcid": "https://orcid.org/0000-0002-3496-4452"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Brandee Feola",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5111888919",
+          "display_name": "Jennifer Urbano Blackford",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jennifer U. Blackford",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5087273965",
+          "display_name": "Bunmi O. Olatunji",
+          "orcid": "https://orcid.org/0000-0002-3573-4165"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Bunmi O. Olatunji",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5113269777",
+          "display_name": "Geoffrey May",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Geoffrey May",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5020022959",
+          "display_name": "Scott M. Nelson",
+          "orcid": "https://orcid.org/0000-0002-9099-3047"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Steven M. Nelson",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5055169358",
+          "display_name": "Evan M. Gordon",
+          "orcid": "https://orcid.org/0000-0002-2276-5237"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Evan M. Gordon",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5056471512",
+          "display_name": "Chadi G. Abdallah",
+          "orcid": "https://orcid.org/0000-0001-5783-6181"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Chadi G. Abdallah",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5051255489",
+          "display_name": "Ruth A. Lanius",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ruth Lanius",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5069979654",
+          "display_name": "Maria Densmore",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Maria Densmore",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5072827705",
+          "display_name": "Jean Théberge",
+          "orcid": "https://orcid.org/0000-0001-7578-4469"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jean Théberge",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062351189",
+          "display_name": "Richard W. J. Neufeld",
+          "orcid": "https://orcid.org/0000-0002-3214-8603"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Richard W.J. Neufeld",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100606557",
+          "display_name": "Paul M. Thompson",
+          "orcid": "https://orcid.org/0000-0002-4720-8867"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Paul M. Thompson",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5070438360",
+          "display_name": "Delin Sun",
+          "orcid": "https://orcid.org/0000-0003-3283-423X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Delin Sun",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 99,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 4.0838049,
+    "has_fulltext": false,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.87390359,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 95
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10241",
+        "display_name": "Functional Brain Connectivity Studies",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11304",
+        "display_name": "Advanced Neuroimaging Techniques and Applications",
+        "score": 0.9997000098228455,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10378",
+        "display_name": "Advanced MRI Techniques and Applications",
+        "score": 0.9987000226974487,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/neuroimaging",
+        "display_name": "Neuroimaging",
+        "score": 0.6992764472961426
+      },
+      {
+        "id": "https://openalex.org/keywords/meta-analysis",
+        "display_name": "Meta-analysis",
+        "score": 0.635508120059967
+      },
+      {
+        "id": "https://openalex.org/keywords/mega",
+        "display_name": "Mega-",
+        "score": 0.5652994513511658
+      },
+      {
+        "id": "https://openalex.org/keywords/scale",
+        "display_name": "Scale (ratio)",
+        "score": 0.5142633318901062
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.4859267771244049
+      },
+      {
+        "id": "https://openalex.org/keywords/data-science",
+        "display_name": "Data science",
+        "score": 0.4693402051925659
+      },
+      {
+        "id": "https://openalex.org/keywords/data-mining",
+        "display_name": "Data mining",
+        "score": 0.3371029496192932
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.290860116481781
+      },
+      {
+        "id": "https://openalex.org/keywords/geography",
+        "display_name": "Geography",
+        "score": 0.2255210280418396
+      },
+      {
+        "id": "https://openalex.org/keywords/cartography",
+        "display_name": "Cartography",
+        "score": 0.21700772643089294
+      },
+      {
+        "id": "https://openalex.org/keywords/neuroscience",
+        "display_name": "Neuroscience",
+        "score": 0.18303748965263367
+      },
+      {
+        "id": "https://openalex.org/keywords/medicine",
+        "display_name": "Medicine",
+        "score": 0.177921324968338
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C58693492",
+        "wikidata": "https://www.wikidata.org/wiki/Q551875",
+        "display_name": "Neuroimaging",
+        "level": 2,
+        "score": 0.6992764472961426
+      },
+      {
+        "id": "https://openalex.org/C95190672",
+        "wikidata": "https://www.wikidata.org/wiki/Q815382",
+        "display_name": "Meta-analysis",
+        "level": 2,
+        "score": 0.635508120059967
+      },
+      {
+        "id": "https://openalex.org/C2781078984",
+        "wikidata": "https://www.wikidata.org/wiki/Q107205",
+        "display_name": "Mega-",
+        "level": 2,
+        "score": 0.5652994513511658
+      },
+      {
+        "id": "https://openalex.org/C2778755073",
+        "wikidata": "https://www.wikidata.org/wiki/Q10858537",
+        "display_name": "Scale (ratio)",
+        "level": 2,
+        "score": 0.5142633318901062
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.4859267771244049
+      },
+      {
+        "id": "https://openalex.org/C2522767166",
+        "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+        "display_name": "Data science",
+        "level": 1,
+        "score": 0.4693402051925659
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.3371029496192932
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.290860116481781
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.2255210280418396
+      },
+      {
+        "id": "https://openalex.org/C58640448",
+        "wikidata": "https://www.wikidata.org/wiki/Q42515",
+        "display_name": "Cartography",
+        "level": 1,
+        "score": 0.21700772643089294
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.18303748965263367
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.177921324968338
+      },
+      {
+        "id": "https://openalex.org/C126322002",
+        "wikidata": "https://www.wikidata.org/wiki/Q11180",
+        "display_name": "Internal medicine",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C1276947",
+        "wikidata": "https://www.wikidata.org/wiki/Q333",
+        "display_name": "Astronomy",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1101/2025.06.16.657725",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1101/2025.06.16.657725",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402567",
+          "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I2750212522",
+          "host_organization_name": "Cold Spring Harbor Laboratory",
+          "host_organization_lineage": [
+            "https://openalex.org/I2750212522"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      },
+      {
+        "id": "pmid:40667083",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40667083",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "bioRxiv : the preprint server for biology",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:12262482",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12262482",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "bioRxiv",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:pure.rug.nl:openaire_cris_publications/cea57344-55a7-4dae-86f8-d009582e1bec",
+        "is_oa": false,
+        "landing_page_url": "https://research.rug.nl/en/publications/cea57344-55a7-4dae-86f8-d009582e1bec",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400420",
+          "display_name": "University of Groningen research database (University of Groningen / Centre for Information Technology)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I169381384",
+          "host_organization_name": "University of Groningen",
+          "host_organization_lineage": [
+            "https://openalex.org/I169381384"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "ENIGMA PTSD, Steele, N, Morey, R A, Hussain, A, Russell, C, Suarez-Jimenez, B, Pozzi, E, Jameei, H & Daniels, J K 2025 'Image-Based Meta- and Mega-Analysis (IBMMA) : A Unified Framework for Large-Scale, Multi-Site, Neuroimaging Data Analysis' BioRxiv. https://doi.org/10.1101/2025.06.16.657725",
+        "raw_type": "workingPaper"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1101/2025.06.16.657725",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1101/2025.06.16.657725",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402567",
+        "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2750212522",
+        "host_organization_name": "Cold Spring Harbor Laboratory",
+        "host_organization_lineage": [
+          "https://openalex.org/I2750212522"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 20,
+    "referenced_works": [
+      "https://openalex.org/W2117140276",
+      "https://openalex.org/W2951583631",
+      "https://openalex.org/W2889396819",
+      "https://openalex.org/W2977883299",
+      "https://openalex.org/W4308327077",
+      "https://openalex.org/W2606318425",
+      "https://openalex.org/W3202702725",
+      "https://openalex.org/W2100879297",
+      "https://openalex.org/W2047453615",
+      "https://openalex.org/W3030237281",
+      "https://openalex.org/W4386332849",
+      "https://openalex.org/W3004307487",
+      "https://openalex.org/W4402842653",
+      "https://openalex.org/W2046557060",
+      "https://openalex.org/W2894759110",
+      "https://openalex.org/W4288808760",
+      "https://openalex.org/W3012009865",
+      "https://openalex.org/W1999503697",
+      "https://openalex.org/W4220740581",
+      "https://openalex.org/W1983183519"
+    ],
+    "related_works": [
+      "https://openalex.org/W4402810557",
+      "https://openalex.org/W4385584191",
+      "https://openalex.org/W3112226121",
+      "https://openalex.org/W102059279",
+      "https://openalex.org/W3191105034",
+      "https://openalex.org/W2163047545",
+      "https://openalex.org/W4403255782",
+      "https://openalex.org/W4308491350",
+      "https://openalex.org/W2922464302",
+      "https://openalex.org/W949046406"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "The": [
+        1
+      ],
+      "increasing": [
+        2
+      ],
+      "scale": [
+        3
+      ],
+      "and": [
+        4,
+        33,
+        37,
+        65,
+        89,
+        104,
+        133
+      ],
+      "complexity": [
+        5
+      ],
+      "of": [
+        6,
+        43,
+        138
+      ],
+      "neuroimaging": [
+        7,
+        75,
+        139
+      ],
+      "datasets": [
+        8,
+        80
+      ],
+      "aggregated": [
+        9
+      ],
+      "from": [
+        10,
+        29
+      ],
+      "multiple": [
+        11
+      ],
+      "study": [
+        12
+      ],
+      "sites": [
+        13
+      ],
+      "present": [
+        14
+      ],
+      "substantial": [
+        15
+      ],
+      "analytic": [
+        16
+      ],
+      "challenges,": [
+        17
+      ],
+      "as": [
+        18
+      ],
+      "existing": [
+        19
+      ],
+      "statistical": [
+        20,
+        44,
+        86
+      ],
+      "analysis": [
+        21
+      ],
+      "tools": [
+        22
+      ],
+      "struggle": [
+        23
+      ],
+      "to": [
+        24,
+        49,
+        115,
+        128
+      ],
+      "handle": [
+        25
+      ],
+      "missing": [
+        26,
+        92,
+        116
+      ],
+      "voxel-data,": [
+        27
+      ],
+      "suffer": [
+        28
+      ],
+      "limited": [
+        30
+      ],
+      "computational": [
+        31
+      ],
+      "speed": [
+        32
+      ],
+      "inefficient": [
+        34
+      ],
+      "memory": [
+        35
+      ],
+      "allocation,": [
+        36
+      ],
+      "are": [
+        38,
+        47
+      ],
+      "restricted": [
+        39
+      ],
+      "in": [
+        40,
+        63,
+        96,
+        107,
+        119,
+        121,
+        131
+      ],
+      "the": [
+        41,
+        126,
+        135
+      ],
+      "types": [
+        42
+      ],
+      "designs": [
+        45
+      ],
+      "they": [
+        46
+      ],
+      "able": [
+        48
+      ],
+      "model.": [
+        50
+      ],
+      "We": [
+        51
+      ],
+      "introduce": [
+        52
+      ],
+      "Image-Based": [
+        53
+      ],
+      "Meta-": [
+        54
+      ],
+      "&amp;": [
+        55
+      ],
+      "Mega-Analysis": [
+        56
+      ],
+      "(IBMMA),": [
+        57
+      ],
+      "a": [
+        58,
+        69
+      ],
+      "novel": [
+        59
+      ],
+      "software": [
+        60,
+        112
+      ],
+      "package": [
+        61
+      ],
+      "implemented": [
+        62
+      ],
+      "R": [
+        64
+      ],
+      "Python": [
+        66
+      ],
+      "that": [
+        67,
+        110
+      ],
+      "provides": [
+        68
+      ],
+      "unified": [
+        70
+      ],
+      "framework": [
+        71
+      ],
+      "for": [
+        72
+      ],
+      "analyzing": [
+        73
+      ],
+      "diverse": [
+        74
+      ],
+      "features,": [
+        76
+      ],
+      "efficiently": [
+        77
+      ],
+      "handles": [
+        78
+      ],
+      "large-scale": [
+        79
+      ],
+      "through": [
+        81
+      ],
+      "parallel": [
+        82
+      ],
+      "processing,": [
+        83
+      ],
+      "offers": [
+        84
+      ],
+      "flexible": [
+        85
+      ],
+      "modeling": [
+        87
+      ],
+      "options,": [
+        88
+      ],
+      "properly": [
+        90
+      ],
+      "manages": [
+        91
+      ],
+      "voxel-data": [
+        93,
+        117
+      ],
+      "commonly": [
+        94
+      ],
+      "encountered": [
+        95
+      ],
+      "multi-site": [
+        97
+      ],
+      "studies.": [
+        98
+      ],
+      "IBMMA": [
+        99,
+        124
+      ],
+      "produced": [
+        100
+      ],
+      "stronger": [
+        101
+      ],
+      "effect": [
+        102
+      ],
+      "sizes": [
+        103
+      ],
+      "revealed": [
+        105
+      ],
+      "findings": [
+        106
+      ],
+      "brain": [
+        108,
+        122
+      ],
+      "regions": [
+        109
+      ],
+      "traditional": [
+        111
+      ],
+      "overlooked": [
+        113
+      ],
+      "due": [
+        114
+      ],
+      "resulting": [
+        118
+      ],
+      "gaps": [
+        120
+      ],
+      "coverage.": [
+        123
+      ],
+      "has": [
+        125
+      ],
+      "potential": [
+        127
+      ],
+      "accelerate": [
+        129
+      ],
+      "discoveries": [
+        130
+      ],
+      "neuroscience": [
+        132
+      ],
+      "enhance": [
+        134
+      ],
+      "clinical": [
+        136
+      ],
+      "utility": [
+        137
+      ],
+      "findings.": [
+        140
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2025-10-21T15:54:52Z",
+      "timestamp": 1761062092457,
+      "version": "3.41.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ]
+    },
+    "group-title": "Neuroscience",
+    "reference-count": 20,
+    "publisher": "Cold Spring Harbor Laboratory",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              17
+            ]
+          ],
+          "date-time": "2025-06-17T00:00:00Z",
+          "timestamp": 1750118400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>The increasing scale and complexity of neuroimaging datasets aggregated from multiple study sites present substantial analytic challenges, as existing statistical analysis tools struggle to handle missing voxel-data, suffer from limited computational speed and inefficient memory allocation, and are restricted in the types of statistical designs they are able to model. We introduce Image-Based Meta- &amp; Mega-Analysis (IBMMA), a novel software package implemented in R and Python that provides a unified framework for analyzing diverse neuroimaging features, efficiently handles large-scale datasets through parallel processing, offers flexible statistical modeling options, and properly manages missing voxel-data commonly encountered in multi-site studies. IBMMA produced stronger effect sizes and revealed findings in brain regions that traditional software overlooked due to missing voxel-data resulting in gaps in brain coverage. IBMMA has the potential to accelerate discoveries in neuroscience and enhance the clinical utility of neuroimaging findings.</jats:p>",
+    "DOI": "10.1101/2025.06.16.657725",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2025-06-17T22:05:36Z",
+      "timestamp": 1750197936000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Image-Based Meta- and Mega-Analysis (IBMMA): A Unified Framework for Large-Scale, Multi-Site, Neuroimaging Data Analysis"
+    ],
+    "prefix": "10.1101",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0004-2308-163X",
+        "authenticated-orcid": false,
+        "given": "Nick",
+        "family": "Steele",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Rajendra A.",
+        "family": "Morey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ahmed",
+        "family": "Hussain",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Courtney",
+        "family": "Russell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Benjamin",
+        "family": "Suarez-Jimenez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elena",
+        "family": "Pozzi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hadis",
+        "family": "Jameei",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lianne",
+        "family": "Schmaal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ilya M.",
+        "family": "Veer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lea",
+        "family": "Waller",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4401-8950",
+        "authenticated-orcid": false,
+        "given": "Neda",
+        "family": "Jahanshad",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0046-4070",
+        "authenticated-orcid": false,
+        "given": "Sophia I.",
+        "family": "Thomopoulos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lauren E.",
+        "family": "Salminen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Miranda",
+        "family": "Olff",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jessie L.",
+        "family": "Frijling",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dick J.",
+        "family": "Veltman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Saskia B.J.",
+        "family": "Koch",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Laura",
+        "family": "Nawijn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mirjam",
+        "family": "van Zuiden",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Li",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ye",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gen",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dan J.",
+        "family": "Stein",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jonathan",
+        "family": "Ipser",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yuval",
+        "family": "Neria",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xi",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Orren",
+        "family": "Ravid",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sigal",
+        "family": "Zilcha-Mano",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Amit",
+        "family": "Lazarov",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ashley A.",
+        "family": "Huggins",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jennifer S.",
+        "family": "Stevens",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Kerry",
+        "family": "Ressler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tanja",
+        "family": "Jovanovic",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sanne J.H.",
+        "family": "van Rooij",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Negar",
+        "family": "Fani",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1661-3840",
+        "authenticated-orcid": false,
+        "given": "Sven C.",
+        "family": "Mueller",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anna R.",
+        "family": "Hudson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Judith K.",
+        "family": "Daniels",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anika",
+        "family": "Sierk",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Antje",
+        "family": "Manthey",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Henrik",
+        "family": "Walter",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3235-1633",
+        "authenticated-orcid": false,
+        "given": "Nic J.A.",
+        "family": "van der Wee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Steven J.A.",
+        "family": "van der Werff",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert R.J.M.",
+        "family": "Vermeiren",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christian",
+        "family": "Schmahl",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Julia I.",
+        "family": "Herzog",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ivan",
+        "family": "Rektor",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Pavel",
+        "family": "Říha",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Milissa L.",
+        "family": "Kaufman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lauren A. M.",
+        "family": "Lebois",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Justin T.",
+        "family": "Baker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Isabelle M.",
+        "family": "Rosso",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elizabeth A.",
+        "family": "Olson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anthony",
+        "family": "King",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Israel",
+        "family": "Liberzon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "Angstadt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nicholas D.",
+        "family": "Davenport",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Seth G.",
+        "family": "Disner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Scott R.",
+        "family": "Sponheim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas",
+        "family": "Straube",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Hofmann",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Guangming",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rongfeng",
+        "family": "Qi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xin",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Austin",
+        "family": "Kunch",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hong",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yann",
+        "family": "Quidé",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wissam",
+        "family": "El-Hage",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shmuel",
+        "family": "Lissek",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hannah",
+        "family": "Berg",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Steven E.",
+        "family": "Bruce",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Josh",
+        "family": "Cisler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marisa",
+        "family": "Ross",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ryan J.",
+        "family": "Herringa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel W.",
+        "family": "Grupe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jack B.",
+        "family": "Nitschke",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8506-4964",
+        "authenticated-orcid": false,
+        "given": "Richard J.",
+        "family": "Davidson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christine",
+        "family": "Larson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Terri A.",
+        "family": "deRoon-Cassini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carissa W.",
+        "family": "Tomas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jacklynn M.",
+        "family": "Fitzgerald",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5840-1769",
+        "authenticated-orcid": false,
+        "given": "Jeremy",
+        "family": "Elman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew",
+        "family": "Panizzon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Carol E.",
+        "family": "Franz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael J.",
+        "family": "Lyons",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "William S.",
+        "family": "Kremen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Brandee",
+        "family": "Feola",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jennifer U.",
+        "family": "Blackford",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bunmi O.",
+        "family": "Olatunji",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Geoffrey",
+        "family": "May",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Steven M.",
+        "family": "Nelson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Evan M.",
+        "family": "Gordon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5783-6181",
+        "authenticated-orcid": false,
+        "given": "Chadi G.",
+        "family": "Abdallah",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ruth",
+        "family": "Lanius",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maria",
+        "family": "Densmore",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jean",
+        "family": "Théberge",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard W.J.",
+        "family": "Neufeld",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4720-8867",
+        "authenticated-orcid": false,
+        "given": "Paul M.",
+        "family": "Thompson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3283-423X",
+        "authenticated-orcid": false,
+        "given": "Delin",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "246",
+    "reference": [
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/cbmr.1996.0014"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-018-0235-4"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/spc3.12414"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2011.09.015"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2022.119729"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4172/2155-6180.1000335"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fnins.2021.746424"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2004.12.005"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2015.02.064"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2020.116956"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.52294/001c.87681"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41398-020-0725-x"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuron.2024.08.017"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2008.03.061"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2018.09.078"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2022.119509"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41398-020-0705-1"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2012.01.123"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hbm.25829"
+      },
+      {
+        "key": "2025061912300508000_2025.06.16.657725v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1089/brain.2012.0073"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.06.16.657725",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          19
+        ]
+      ],
+      "date-time": "2025-06-19T19:30:15Z",
+      "timestamp": 1750361415000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.06.16.657725"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ]
+    },
+    "references-count": 20,
+    "URL": "https://doi.org/10.1101/2025.06.16.657725",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          17
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

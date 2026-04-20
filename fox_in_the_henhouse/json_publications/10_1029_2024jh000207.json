@@ -1,0 +1,2129 @@
+{
+  "doi": "10.1029/2024jh000207",
+  "openalex": {
+    "id": "https://openalex.org/W4400820861",
+    "doi": "https://doi.org/10.1029/2024jh000207",
+    "title": "A Hybrid Machine Learning/Physics‐Based Modeling Framework for 2‐Week Extended Prediction of Tropical Cyclones",
+    "display_name": "A Hybrid Machine Learning/Physics‐Based Modeling Framework for 2‐Week Extended Prediction of Tropical Cyclones",
+    "publication_year": 2024,
+    "publication_date": "2024-07-19",
+    "ids": {
+      "openalex": "https://openalex.org/W4400820861",
+      "doi": "https://doi.org/10.1029/2024jh000207"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1029/2024jh000207",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1029/2024jh000207",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024JH000207",
+      "source": {
+        "id": "https://openalex.org/S4393248858",
+        "display_name": "Journal of Geophysical Research Machine Learning and Computation",
+        "issn_l": "2993-5210",
+        "issn": [
+          "2993-5210"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Geophysical Research: Machine Learning and Computation",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024JH000207",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5002365981",
+          "display_name": "Hao‐Yan Liu",
+          "orcid": "https://orcid.org/0000-0003-0723-8225"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210133131",
+            "display_name": "Chinese Academy of Meteorological Sciences",
+            "ror": "https://ror.org/034b53w38",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210133131"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I163340411",
+            "display_name": "Hohai University",
+            "ror": "https://ror.org/01wd4xt90",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I163340411"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I211433327",
+            "display_name": "Ministry of Natural Resources",
+            "ror": "https://ror.org/02kxqx159",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I211433327",
+              "https://openalex.org/I4210127390"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hao‐Yan Liu",
+        "raw_affiliation_strings": [
+          "Key Laboratory of Marine Hazards Forecasting, Ministry of Natural Resources, Hohai University, Nanjing, China",
+          "State Key Laboratory of Severe Weather, Chinese Academy of Meteorological Sciences, Beijing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "State Key Laboratory of Severe Weather, Chinese Academy of Meteorological Sciences, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I4210133131"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Key Laboratory of Marine Hazards Forecasting, Ministry of Natural Resources, Hohai University, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I163340411",
+              "https://openalex.org/I211433327"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5005829707",
+          "display_name": "Zhe‐Min Tan",
+          "orcid": "https://orcid.org/0000-0002-2227-6900"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I881766915",
+            "display_name": "Nanjing University",
+            "ror": "https://ror.org/01rxvg760",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I881766915"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Zhe‐Min Tan",
+        "raw_affiliation_strings": [
+          "Key Laboratory of Mesoscale Severe Weather, Ministry of Education, and School of Atmospheric Sciences, Nanjing University, Nanjing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of Mesoscale Severe Weather, Ministry of Education, and School of Atmospheric Sciences, Nanjing University, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I881766915"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100461328",
+          "display_name": "Yuqing Wang",
+          "orcid": "https://orcid.org/0000-0002-1691-8161"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1331384533",
+            "display_name": "University of Hawaii System",
+            "ror": "https://ror.org/03tzaeb71",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I1331384533"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I117965899",
+            "display_name": "University of Hawaiʻi at Mānoa",
+            "ror": "https://ror.org/01wspgy28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I117965899"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuqing Wang",
+        "raw_affiliation_strings": [
+          "International Pacific Research Center and Department of Atmospheric Sciences, School of Ocean and Earth Science and Technology, University of Hawaii at Manoa, Honolulu, HI, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "International Pacific Research Center and Department of Atmospheric Sciences, School of Ocean and Earth Science and Technology, University of Hawaii at Manoa, Honolulu, HI, USA",
+            "institution_ids": [
+              "https://openalex.org/I117965899",
+              "https://openalex.org/I1331384533"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5020155116",
+          "display_name": "Jianping Tang",
+          "orcid": "https://orcid.org/0000-0002-1098-2656"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I881766915",
+            "display_name": "Nanjing University",
+            "ror": "https://ror.org/01rxvg760",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I881766915"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jianping Tang",
+        "raw_affiliation_strings": [
+          "Key Laboratory of Mesoscale Severe Weather, Ministry of Education, and School of Atmospheric Sciences, Nanjing University, Nanjing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of Mesoscale Severe Weather, Ministry of Education, and School of Atmospheric Sciences, Nanjing University, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I881766915"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5002954365",
+          "display_name": "Masaki Satoh",
+          "orcid": "https://orcid.org/0000-0003-3580-8897"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74801974",
+            "display_name": "The University of Tokyo",
+            "ror": "https://ror.org/057zh3y96",
+            "country_code": "JP",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74801974"
+            ]
+          }
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Masaki Satoh",
+        "raw_affiliation_strings": [
+          "Atmosphere and Ocean Research Institute, The University of Tokyo, Kashiwa, Japan"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Atmosphere and Ocean Research Institute, The University of Tokyo, Kashiwa, Japan",
+            "institution_ids": [
+              "https://openalex.org/I74801974"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5071969820",
+          "display_name": "Lili Lei",
+          "orcid": "https://orcid.org/0000-0003-4962-7843"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I881766915",
+            "display_name": "Nanjing University",
+            "ror": "https://ror.org/01rxvg760",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I881766915"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lili Lei",
+        "raw_affiliation_strings": [
+          "Key Laboratory of Mesoscale Severe Weather, Ministry of Education, and School of Atmospheric Sciences, Nanjing University, Nanjing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of Mesoscale Severe Weather, Ministry of Education, and School of Atmospheric Sciences, Nanjing University, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I881766915"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023917938",
+          "display_name": "Jian‐Feng Gu",
+          "orcid": "https://orcid.org/0000-0002-7752-4553"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I881766915",
+            "display_name": "Nanjing University",
+            "ror": "https://ror.org/01rxvg760",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I881766915"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jian‐Feng Gu",
+        "raw_affiliation_strings": [
+          "Key Laboratory of Mesoscale Severe Weather, Ministry of Education, and School of Atmospheric Sciences, Nanjing University, Nanjing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of Mesoscale Severe Weather, Ministry of Education, and School of Atmospheric Sciences, Nanjing University, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I881766915"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5005653707",
+          "display_name": "Yi Zhang",
+          "orcid": "https://orcid.org/0000-0002-6823-7915"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I881766915",
+            "display_name": "Nanjing University",
+            "ror": "https://ror.org/01rxvg760",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I881766915"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yi Zhang",
+        "raw_affiliation_strings": [
+          "Key Laboratory of Mesoscale Severe Weather, Ministry of Education, and School of Atmospheric Sciences, Nanjing University, Nanjing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Key Laboratory of Mesoscale Severe Weather, Ministry of Education, and School of Atmospheric Sciences, Nanjing University, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I881766915"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5066015021",
+          "display_name": "Gaozhen Nie",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I141301092",
+            "display_name": "China Meteorological Administration",
+            "ror": "https://ror.org/00bx3rb98",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I141301092"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Gao‐Zhen Nie",
+        "raw_affiliation_strings": [
+          "National Meteorological Center, China Meteorological Administration, Beijing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National Meteorological Center, China Meteorological Administration, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I141301092"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5113296320",
+          "display_name": "Qi‐Zhi Chen",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Qi‐Zhi Chen",
+        "raw_affiliation_strings": [
+          "Nanjing Pulan Atmospheric Environment Research Institute, Nanjing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Nanjing Pulan Atmospheric Environment Research Institute, Nanjing, China",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 10,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5005829707"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I881766915"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 10.12725749,
+    "has_fulltext": false,
+    "cited_by_count": 18,
+    "citation_normalized_percentile": {
+      "value": 0.98705461,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "1",
+      "issue": "3",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11483",
+      "display_name": "Tropical and Extratropical Cyclones Research",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11483",
+        "display_name": "Tropical and Extratropical Cyclones Research",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1902",
+          "display_name": "Atmospheric Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10466",
+        "display_name": "Meteorological Phenomena and Simulations",
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1902",
+          "display_name": "Atmospheric Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11061",
+        "display_name": "Ocean Waves and Remote Sensing",
+        "score": 0.9991000294685364,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1910",
+          "display_name": "Oceanography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/weather-research-and-forecasting-model",
+        "display_name": "Weather Research and Forecasting Model",
+        "score": 0.9170119762420654
+      },
+      {
+        "id": "https://openalex.org/keywords/downscaling",
+        "display_name": "Downscaling",
+        "score": 0.7735272645950317
+      },
+      {
+        "id": "https://openalex.org/keywords/tropical-cyclone",
+        "display_name": "Tropical cyclone",
+        "score": 0.589657723903656
+      },
+      {
+        "id": "https://openalex.org/keywords/meteorology",
+        "display_name": "Meteorology",
+        "score": 0.5375248193740845
+      },
+      {
+        "id": "https://openalex.org/keywords/multiscale-modeling",
+        "display_name": "Multiscale modeling",
+        "score": 0.44797295331954956
+      },
+      {
+        "id": "https://openalex.org/keywords/scale",
+        "display_name": "Scale (ratio)",
+        "score": 0.44126901030540466
+      },
+      {
+        "id": "https://openalex.org/keywords/climatology",
+        "display_name": "Climatology",
+        "score": 0.4295034408569336
+      },
+      {
+        "id": "https://openalex.org/keywords/sea-surface-temperature",
+        "display_name": "Sea surface temperature",
+        "score": 0.42073091864585876
+      },
+      {
+        "id": "https://openalex.org/keywords/environmental-science",
+        "display_name": "Environmental science",
+        "score": 0.41265082359313965
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.3741312623023987
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.34176763892173767
+      },
+      {
+        "id": "https://openalex.org/keywords/geography",
+        "display_name": "Geography",
+        "score": 0.20604872703552246
+      },
+      {
+        "id": "https://openalex.org/keywords/cartography",
+        "display_name": "Cartography",
+        "score": 0.13371041417121887
+      },
+      {
+        "id": "https://openalex.org/keywords/geology",
+        "display_name": "Geology",
+        "score": 0.13080322742462158
+      },
+      {
+        "id": "https://openalex.org/keywords/precipitation",
+        "display_name": "Precipitation",
+        "score": 0.12207621335983276
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C133204551",
+        "wikidata": "https://www.wikidata.org/wiki/Q838305",
+        "display_name": "Weather Research and Forecasting Model",
+        "level": 2,
+        "score": 0.9170119762420654
+      },
+      {
+        "id": "https://openalex.org/C41156917",
+        "wikidata": "https://www.wikidata.org/wiki/Q682831",
+        "display_name": "Downscaling",
+        "level": 3,
+        "score": 0.7735272645950317
+      },
+      {
+        "id": "https://openalex.org/C29141058",
+        "wikidata": "https://www.wikidata.org/wiki/Q8092",
+        "display_name": "Tropical cyclone",
+        "level": 2,
+        "score": 0.589657723903656
+      },
+      {
+        "id": "https://openalex.org/C153294291",
+        "wikidata": "https://www.wikidata.org/wiki/Q25261",
+        "display_name": "Meteorology",
+        "level": 1,
+        "score": 0.5375248193740845
+      },
+      {
+        "id": "https://openalex.org/C141123601",
+        "wikidata": "https://www.wikidata.org/wiki/Q6935072",
+        "display_name": "Multiscale modeling",
+        "level": 2,
+        "score": 0.44797295331954956
+      },
+      {
+        "id": "https://openalex.org/C2778755073",
+        "wikidata": "https://www.wikidata.org/wiki/Q10858537",
+        "display_name": "Scale (ratio)",
+        "level": 2,
+        "score": 0.44126901030540466
+      },
+      {
+        "id": "https://openalex.org/C49204034",
+        "wikidata": "https://www.wikidata.org/wiki/Q52139",
+        "display_name": "Climatology",
+        "level": 1,
+        "score": 0.4295034408569336
+      },
+      {
+        "id": "https://openalex.org/C134097258",
+        "wikidata": "https://www.wikidata.org/wiki/Q1507383",
+        "display_name": "Sea surface temperature",
+        "level": 2,
+        "score": 0.42073091864585876
+      },
+      {
+        "id": "https://openalex.org/C39432304",
+        "wikidata": "https://www.wikidata.org/wiki/Q188847",
+        "display_name": "Environmental science",
+        "level": 0,
+        "score": 0.41265082359313965
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.3741312623023987
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.34176763892173767
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.20604872703552246
+      },
+      {
+        "id": "https://openalex.org/C58640448",
+        "wikidata": "https://www.wikidata.org/wiki/Q42515",
+        "display_name": "Cartography",
+        "level": 1,
+        "score": 0.13371041417121887
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.13080322742462158
+      },
+      {
+        "id": "https://openalex.org/C107054158",
+        "wikidata": "https://www.wikidata.org/wiki/Q25257",
+        "display_name": "Precipitation",
+        "level": 2,
+        "score": 0.12207621335983276
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C147597530",
+        "wikidata": "https://www.wikidata.org/wiki/Q369472",
+        "display_name": "Computational chemistry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1029/2024jh000207",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1029/2024jh000207",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024JH000207",
+        "source": {
+          "id": "https://openalex.org/S4393248858",
+          "display_name": "Journal of Geophysical Research Machine Learning and Computation",
+          "issn_l": "2993-5210",
+          "issn": [
+            "2993-5210"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Geophysical Research: Machine Learning and Computation",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1029/2024jh000207",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1029/2024jh000207",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024JH000207",
+      "source": {
+        "id": "https://openalex.org/S4393248858",
+        "display_name": "Journal of Geophysical Research Machine Learning and Computation",
+        "issn_l": "2993-5210",
+        "issn": [
+          "2993-5210"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Geophysical Research: Machine Learning and Computation",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/13",
+        "score": 0.6899999976158142,
+        "display_name": "Climate action"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G3338655126",
+        "display_name": null,
+        "funder_award_id": "42192555",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": true
+    },
+    "referenced_works_count": 63,
+    "referenced_works": [
+      "https://openalex.org/W2889347670",
+      "https://openalex.org/W2091361900",
+      "https://openalex.org/W2043881485",
+      "https://openalex.org/W2161090919",
+      "https://openalex.org/W2496602301",
+      "https://openalex.org/W4382498800",
+      "https://openalex.org/W2169750135",
+      "https://openalex.org/W1982803992",
+      "https://openalex.org/W2107129839",
+      "https://openalex.org/W2001698262",
+      "https://openalex.org/W2135325726",
+      "https://openalex.org/W4292673265",
+      "https://openalex.org/W6963696694",
+      "https://openalex.org/W2028979275",
+      "https://openalex.org/W2110179017",
+      "https://openalex.org/W1645858368",
+      "https://openalex.org/W4388654737",
+      "https://openalex.org/W4290420495",
+      "https://openalex.org/W4387781290",
+      "https://openalex.org/W6910787570",
+      "https://openalex.org/W4225906496",
+      "https://openalex.org/W1995892971",
+      "https://openalex.org/W4379364987",
+      "https://openalex.org/W4388205020",
+      "https://openalex.org/W1849556524",
+      "https://openalex.org/W1587359535",
+      "https://openalex.org/W4309858733",
+      "https://openalex.org/W2995454694",
+      "https://openalex.org/W4296041322",
+      "https://openalex.org/W2055938690",
+      "https://openalex.org/W2109908644",
+      "https://openalex.org/W2097614214",
+      "https://openalex.org/W3060676032",
+      "https://openalex.org/W2504322675",
+      "https://openalex.org/W4299462738",
+      "https://openalex.org/W3166771534",
+      "https://openalex.org/W2128225313",
+      "https://openalex.org/W2887036689",
+      "https://openalex.org/W2025301749",
+      "https://openalex.org/W2093920580",
+      "https://openalex.org/W2062004550",
+      "https://openalex.org/W2003788277",
+      "https://openalex.org/W3118879633",
+      "https://openalex.org/W2612556293",
+      "https://openalex.org/W4383218913",
+      "https://openalex.org/W4388728292",
+      "https://openalex.org/W2145950787",
+      "https://openalex.org/W4389954284",
+      "https://openalex.org/W2075377635",
+      "https://openalex.org/W2121315748",
+      "https://openalex.org/W2142274269",
+      "https://openalex.org/W4320485363",
+      "https://openalex.org/W2921767126",
+      "https://openalex.org/W2119007429",
+      "https://openalex.org/W3203004980",
+      "https://openalex.org/W2485137599",
+      "https://openalex.org/W2012330934",
+      "https://openalex.org/W2491337250",
+      "https://openalex.org/W2789909243",
+      "https://openalex.org/W2979351140",
+      "https://openalex.org/W4294845118",
+      "https://openalex.org/W1987368517",
+      "https://openalex.org/W2982312147"
+    ],
+    "related_works": [
+      "https://openalex.org/W2394436593",
+      "https://openalex.org/W4210433126",
+      "https://openalex.org/W2507443105",
+      "https://openalex.org/W3198951408",
+      "https://openalex.org/W3158471665",
+      "https://openalex.org/W1917770611",
+      "https://openalex.org/W4388053322",
+      "https://openalex.org/W2006835397",
+      "https://openalex.org/W3145670105",
+      "https://openalex.org/W2960926930"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Prediction": [
+        1
+      ],
+      "of": [
+        2,
+        12,
+        68,
+        83,
+        97,
+        157,
+        240
+      ],
+      "tropical": [
+        3
+      ],
+      "cyclones": [
+        4
+      ],
+      "(TCs)": [
+        5
+      ],
+      "beyond": [
+        6
+      ],
+      "a": [
+        7,
+        22,
+        39
+      ],
+      "week": [
+        8
+      ],
+      "is": [
+        9,
+        81
+      ],
+      "challenging": [
+        10
+      ],
+      "but": [
+        11
+      ],
+      "great": [
+        13,
+        231
+      ],
+      "importance": [
+        14
+      ],
+      "for": [
+        15,
+        70,
+        150,
+        163,
+        236
+      ],
+      "disaster": [
+        16
+      ],
+      "prevention": [
+        17
+      ],
+      "and": [
+        18,
+        48,
+        55,
+        73,
+        101,
+        133,
+        188,
+        193,
+        205,
+        213,
+        216
+      ],
+      "mitigation.": [
+        19
+      ],
+      "We": [
+        20
+      ],
+      "propose": [
+        21
+      ],
+      "hybrid": [
+        23,
+        178
+      ],
+      "machine": [
+        24
+      ],
+      "learning": [
+        25
+      ],
+      "(ML)/physics‐based": [
+        26
+      ],
+      "modeling": [
+        27,
+        180
+      ],
+      "framework": [
+        28,
+        37,
+        108,
+        159,
+        181,
+        229
+      ],
+      "to": [
+        29,
+        33,
+        172,
+        196,
+        208,
+        219,
+        233
+      ],
+      "extend": [
+        30
+      ],
+      "TC": [
+        31,
+        74,
+        89,
+        152,
+        186
+      ],
+      "forecasts": [
+        32
+      ],
+      "2": [
+        34
+      ],
+      "weeks.": [
+        35
+      ],
+      "This": [
+        36,
+        225
+      ],
+      "integrates": [
+        38
+      ],
+      "recently": [
+        40
+      ],
+      "launched": [
+        41
+      ],
+      "ML‐based": [
+        42
+      ],
+      "global": [
+        43,
+        198
+      ],
+      "weather": [
+        44,
+        53,
+        200
+      ],
+      "prediction": [
+        45,
+        155,
+        201,
+        239
+      ],
+      "model": [
+        46,
+        61,
+        80,
+        116,
+        131
+      ],
+      "(Pangu)": [
+        47
+      ],
+      "the": [
+        49,
+        66,
+        77,
+        85,
+        94,
+        99,
+        107,
+        114,
+        118,
+        129,
+        147,
+        158,
+        177,
+        183,
+        197,
+        209,
+        220,
+        228
+      ],
+      "high‐resolution": [
+        50,
+        78
+      ],
+      "physics‐based": [
+        51
+      ],
+      "regional": [
+        52
+      ],
+      "research": [
+        54
+      ],
+      "forecasting": [
+        56
+      ],
+      "(WRF)": [
+        57
+      ],
+      "model.": [
+        58,
+        142
+      ],
+      "The": [
+        59,
+        154
+      ],
+      "Pangu": [
+        60,
+        100,
+        115,
+        130,
+        211
+      ],
+      "shows": [
+        62
+      ],
+      "promise": [
+        63
+      ],
+      "in": [
+        64,
+        104
+      ],
+      "enhancing": [
+        65
+      ],
+      "accuracy": [
+        67
+      ],
+      "predictions": [
+        69
+      ],
+      "large‐scale": [
+        71,
+        122
+      ],
+      "circulation": [
+        72,
+        123
+      ],
+      "tracks,": [
+        75
+      ],
+      "while": [
+        76
+      ],
+      "WRF": [
+        79,
+        102,
+        119,
+        222
+      ],
+      "capable": [
+        82
+      ],
+      "capturing": [
+        84
+      ],
+      "core": [
+        86
+      ],
+      "processes": [
+        87
+      ],
+      "underlying": [
+        88
+      ],
+      "evolution.": [
+        90
+      ],
+      "To": [
+        91
+      ],
+      "capitalize": [
+        92
+      ],
+      "on": [
+        93
+      ],
+      "complementary": [
+        95
+      ],
+      "strengths": [
+        96
+      ],
+      "both": [
+        98
+      ],
+      "models": [
+        103
+      ],
+      "predicting": [
+        105
+      ],
+      "TCs,": [
+        106
+      ],
+      "comprises": [
+        109
+      ],
+      "three": [
+        110
+      ],
+      "key": [
+        111
+      ],
+      "components:": [
+        112
+      ],
+      "downscaling": [
+        113
+      ],
+      "using": [
+        117,
+        138
+      ],
+      "model,": [
+        120,
+        212,
+        223
+      ],
+      "adjusting": [
+        121
+      ],
+      "through": [
+        124
+      ],
+      "spectral": [
+        125
+      ],
+      "nudging": [
+        126
+      ],
+      "driven": [
+        127
+      ],
+      "by": [
+        128,
+        191,
+        203,
+        214
+      ],
+      "forecasts,": [
+        132
+      ],
+      "updating": [
+        134
+      ],
+      "sea": [
+        135
+      ],
+      "surface": [
+        136
+      ],
+      "temperature": [
+        137
+      ],
+      "an": [
+        139
+      ],
+      "ocean": [
+        140
+      ],
+      "mixed‐layer": [
+        141
+      ],
+      "These": [
+        143
+      ],
+      "components": [
+        144
+      ],
+      "also": [
+        145
+      ],
+      "ensure": [
+        146
+      ],
+      "framework's": [
+        148
+      ],
+      "feasibility": [
+        149
+      ],
+      "real‐time": [
+        151
+      ],
+      "forecasting.": [
+        153
+      ],
+      "skill": [
+        156
+      ],
+      "has": [
+        160,
+        230
+      ],
+      "been": [
+        161
+      ],
+      "demonstrated": [
+        162
+      ],
+      "five": [
+        164
+      ],
+      "long‐lived": [
+        165
+      ],
+      "TCs": [
+        166
+      ],
+      "across": [
+        167
+      ],
+      "various": [
+        168
+      ],
+      "basins": [
+        169
+      ],
+      "from": [
+        170
+      ],
+      "2018": [
+        171
+      ],
+      "2023.": [
+        173
+      ],
+      "Results": [
+        174
+      ],
+      "indicate": [
+        175
+      ],
+      "that": [
+        176,
+        227
+      ],
+      "ML/physics‐based": [
+        179
+      ],
+      "decreased": [
+        182
+      ],
+      "2‐week": [
+        184,
+        237
+      ],
+      "mean": [
+        185
+      ],
+      "track": [
+        187
+      ],
+      "intensity": [
+        189
+      ],
+      "errors": [
+        190
+      ],
+      "59%": [
+        192,
+        206
+      ],
+      "32%": [
+        194,
+        215
+      ],
+      "compared": [
+        195,
+        207,
+        218
+      ],
+      "numerical": [
+        199
+      ],
+      "models,": [
+        202
+      ],
+      "2%": [
+        204
+      ],
+      "ERA5‐driven": [
+        210,
+        221
+      ],
+      "23%": [
+        217
+      ],
+      "respectively.": [
+        224
+      ],
+      "implies": [
+        226
+      ],
+      "potential": [
+        232
+      ],
+      "be": [
+        234
+      ],
+      "used": [
+        235
+      ],
+      "extended": [
+        238
+      ],
+      "TCs.": [
+        241
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-12-30T23:08:21.542490",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          2
+        ]
+      ],
+      "date-time": "2026-01-02T07:44:37Z",
+      "timestamp": 1767339877928,
+      "version": "3.41.2"
+    },
+    "reference-count": 68,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              19
+            ]
+          ],
+          "date-time": "2024-07-19T00:00:00Z",
+          "timestamp": 1721347200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "42192555"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "42192555"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Journal of Geophysical Research: Machine Learning and Computation"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Prediction of tropical cyclones (TCs) beyond a week is challenging but of great importance for disaster prevention and mitigation. We propose a hybrid machine learning (ML)/physics‐based modeling framework to extend TC forecasts to 2 weeks. This framework integrates a recently launched ML‐based global weather prediction model (Pangu) and the high‐resolution physics‐based regional weather research and forecasting (WRF) model. The Pangu model shows promise in enhancing the accuracy of predictions for large‐scale circulation and TC tracks, while the high‐resolution WRF model is capable of capturing the core processes underlying TC evolution. To capitalize on the complementary strengths of both the Pangu and WRF models in predicting TCs, the framework comprises three key components: downscaling the Pangu model using the WRF model, adjusting large‐scale circulation through spectral nudging driven by the Pangu model forecasts, and updating sea surface temperature using an ocean mixed‐layer model. These components also ensure the framework's feasibility for real‐time TC forecasting. The prediction skill of the framework has been demonstrated for five long‐lived TCs across various basins from 2018 to 2023. Results indicate that the hybrid ML/physics‐based modeling framework decreased the 2‐week mean TC track and intensity errors by 59% and 32% compared to the global numerical weather prediction models, by 2% and 59% compared to the ERA5‐driven Pangu model, and by 32% and 23% compared to the ERA5‐driven WRF model, respectively. This implies that the framework has great potential to be used for 2‐week extended prediction of TCs.</jats:p>",
+    "DOI": "10.1029/2024jh000207",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          19
+        ]
+      ],
+      "date-time": "2024-07-19T14:45:45Z",
+      "timestamp": 1721400345000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 14,
+    "title": [
+      "A Hybrid Machine Learning/Physics‐Based Modeling Framework for 2‐Week Extended Prediction of Tropical Cyclones"
+    ],
+    "prefix": "10.1029",
+    "volume": "1",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0723-8225",
+        "authenticated-orcid": false,
+        "given": "Hao‐Yan",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Marine Hazards Forecasting Ministry of Natural Resources Hohai University  Nanjing China"
+          },
+          {
+            "name": "State Key Laboratory of Severe Weather Chinese Academy of Meteorological Sciences  Beijing China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2227-6900",
+        "authenticated-orcid": false,
+        "given": "Zhe‐Min",
+        "family": "Tan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Mesoscale Severe Weather Ministry of Education, and School of Atmospheric Sciences Nanjing University  Nanjing China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1691-8161",
+        "authenticated-orcid": false,
+        "given": "Yuqing",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "International Pacific Research Center and Department of Atmospheric Sciences School of Ocean and Earth Science and Technology University of Hawaii at Manoa  Honolulu HI USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1098-2656",
+        "authenticated-orcid": false,
+        "given": "Jianping",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Mesoscale Severe Weather Ministry of Education, and School of Atmospheric Sciences Nanjing University  Nanjing China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3580-8897",
+        "authenticated-orcid": false,
+        "given": "Masaki",
+        "family": "Satoh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Atmosphere and Ocean Research Institute The University of Tokyo  Kashiwa Japan"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4962-7843",
+        "authenticated-orcid": false,
+        "given": "Lili",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Mesoscale Severe Weather Ministry of Education, and School of Atmospheric Sciences Nanjing University  Nanjing China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7752-4553",
+        "authenticated-orcid": false,
+        "given": "Jian‐Feng",
+        "family": "Gu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Mesoscale Severe Weather Ministry of Education, and School of Atmospheric Sciences Nanjing University  Nanjing China"
+          }
+        ]
+      },
+      {
+        "given": "Yi",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Mesoscale Severe Weather Ministry of Education, and School of Atmospheric Sciences Nanjing University  Nanjing China"
+          }
+        ]
+      },
+      {
+        "given": "Gao‐Zhen",
+        "family": "Nie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Meteorological Center China Meteorological Administration  Beijing China"
+          }
+        ]
+      },
+      {
+        "given": "Qi‐Zhi",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanjing Pulan Atmospheric Environment Research Institute  Nanjing China"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_2_1",
+        "DOI": "10.1175/1520‐0477(1999)080<0421:IOHTAI>2.0.CO;2"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_3_1",
+        "DOI": "10.1038/s41586‐023‐06185‐3"
+      },
+      {
+        "unstructured": "Biswas M. K. Bernardet L. Abarca S. Ginis I. Grell E. Kalina E. &Zhang Z.(2018).Hurricane Weather Research and Forecasting (HWRF) model: 2017 scientific documentation. (No. NCAR/TN‐544+STR)(pp.1–111).https://doi.org/10.5065/D6MK6BPR",
+        "key": "e_1_2_9_4_1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_5_1",
+        "DOI": "10.1175/2010BAMS2853.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_6_1",
+        "DOI": "10.6057/2019TCRR03.04"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "first-page": "75",
+        "volume-title": "National hurricane center forecast verification report: 2022 Hurricane season",
+        "author": "Cangialosi J. P.",
+        "year": "2023"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_8_1",
+        "DOI": "10.1029/2010jd015069"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_9_1",
+        "DOI": "10.1175/MWR‐D‐12‐00077.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_10_1",
+        "DOI": "10.1146/annurev.fluid.37.061903.175702"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_11_1",
+        "DOI": "10.1142/9789814293488_0004"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_12_1",
+        "DOI": "10.1175/1520‐0493(2001)129<0569:CAALSH>2.0.CO;2"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_13_1",
+        "DOI": "10.1038/s41612‐023‐00512‐1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_14_1",
+        "DOI": "10.1016/j.tcrr.2023.05.001"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_15_1",
+        "DOI": "10.1175/AIES‐D‐21‐0003.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_16_1",
+        "DOI": "10.1175/WAF‐D‐20‐0102.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_17_1",
+        "DOI": "10.1175/2010MWR3582.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_18_1",
+        "DOI": "10.1175/2007MWR2085.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_19_1",
+        "DOI": "10.1175/bams‐d‐12‐00240.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_20_1",
+        "DOI": "10.1029/2004GL019460"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_21_1",
+        "DOI": "10.5670/oceanog.2014.72"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_22_1",
+        "DOI": "10.1175/BAMS‐89‐3‐347"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_23_1",
+        "DOI": "10.3894/JAMES.2010.2.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_24_1",
+        "DOI": "10.1175/1520‐0493(2001)129<2249:EOVWSO>2.0.CO;2"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_25_1",
+        "DOI": "10.1175/BAMS‐D‐12‐00071.1"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "first-page": "316",
+        "volume-title": "The atmospheric boundary layer",
+        "author": "Garratt J. R.",
+        "year": "1992"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_27_1",
+        "DOI": "10.1175/JAS‐D‐14‐0050.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_28_1",
+        "DOI": "10.1029/2022GL098449"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "Hersbach H. Bell B. Berrisford P. Biavati G. Horányi A. Muñoz Sabater J. et al. (2023).ERA5 hourly data on pressure levels from 1940 to present[Dataset].Copernicus Climate Change Service (C3S) Climate Data Store (CDS).https://doi.org/10.24381/cds.bd0915c6",
+        "key": "e_1_2_9_29_1",
+        "DOI": "10.24381/cds.bd0915c6"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_30_1",
+        "DOI": "10.1175/1520‐0493(2004)132<0103:ARATIM>2.0.CO;2"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_31_1",
+        "DOI": "10.1175/MWR3199.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_32_1",
+        "DOI": "10.1029/2008JD009944"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_33_1",
+        "DOI": "10.2151/jmsj.2020‐001"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_34_1",
+        "DOI": "10.1175/1520‐0469(1990)047<2784:AODEPM>2.0.CO;2"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_35_1",
+        "DOI": "10.2151/jmsj1965.69.6723"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_36_1",
+        "DOI": "10.1175/2009BAMS2755.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_37_1",
+        "DOI": "10.1126/science.adi2336"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_38_1",
+        "DOI": "10.1007/s11430‐019‐9480‐8"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_39_1",
+        "DOI": "10.1007/s00376‐022‐1444‐4"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_40_1",
+        "DOI": "10.1175/jas‐d‐22‐0152.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_41_1",
+        "DOI": "10.1029/2022JD037039"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_42_1",
+        "DOI": "10.1029/2023GL105729"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_43_1",
+        "DOI": "10.1175/MWR‐D‐16‐0176.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_44_1",
+        "DOI": "10.1175/JAS‐D‐20‐0116.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_45_1",
+        "DOI": "10.1175/WAF‐D‐17‐0139.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_46_1",
+        "DOI": "10.5194/gmd‐10‐1363‐2017"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "unstructured": "National Centers for Environmental Prediction/National Weather Service/NOAA/U.S. Department of Commerce. (2015).NCEP GFS 0.25 degree global forecast grids historical archive[Dataset].Research Data Archive at the National Center for Atmospheric Research Computational and Information Systems Laboratory.https://doi.org/10.5065/D65D8PWK",
+        "key": "e_1_2_9_47_1",
+        "DOI": "10.5065/D65D8PWK"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_48_1",
+        "DOI": "10.48550/arXiv.2202.11214"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_49_1",
+        "DOI": "10.1080/03091927208236105"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_50_1",
+        "DOI": "10.2151/jmsj1965.73.2165"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_51_1",
+        "DOI": "10.1016/j.tcrr.2023.06.004"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_52_1",
+        "DOI": "10.1029/2023GL105747"
+      },
+      {
+        "key": "e_1_2_9_53_1",
+        "first-page": "1",
+        "volume-title": "NCAR technical notes (No. NCAR/TN‐556+STR)",
+        "author": "Skamarock W. C.",
+        "year": "2019"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_54_1",
+        "DOI": "10.1007/s00376‐022‐2212‐1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_55_1",
+        "DOI": "10.1175/mwr‐d‐18‐0153.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_56_1",
+        "DOI": "10.1002/qj.2256"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_57_1",
+        "DOI": "10.1175/1520‐0493(2000)128<3664:ASNTFD>2.0.CO;2"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_58_1",
+        "DOI": "10.1007/s13351‐013‐0418‐y"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_59_1",
+        "DOI": "10.1007/s00703‐003‐0055‐6"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_60_1",
+        "DOI": "10.1007/s11430‐023‐1229‐7"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_61_1",
+        "DOI": "10.1038/493017a"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_62_1",
+        "DOI": "10.1175/MWR‐D‐14‐00227.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_63_1",
+        "DOI": "10.2151/SOLA.2016‐041"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_64_1",
+        "DOI": "10.1029/2022GL100565"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_65_1",
+        "DOI": "10.1175/BAMS‐D‐16‐0133.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_66_1",
+        "DOI": "10.1002/met.1862"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_67_1",
+        "DOI": "10.1175/BAMS‐D‐20‐0308.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_68_1",
+        "DOI": "10.1175/BAMS‐D‐13‐00231.1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_2_9_69_1",
+        "DOI": "10.1175/BAMS‐D‐19‐0166.1"
+      }
+    ],
+    "container-title": [
+      "Journal of Geophysical Research: Machine Learning and Computation"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024JH000207",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2024-10-21T11:26:37Z",
+      "timestamp": 1729509997000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JH000207"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          19
+        ]
+      ]
+    },
+    "references-count": 68,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2024JH000207"
+    ],
+    "URL": "https://doi.org/10.1029/2024jh000207",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "2993-5210",
+      "2993-5210"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2993-5210"
+      },
+      {
+        "type": "electronic",
+        "value": "2993-5210"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          19
+        ]
+      ]
+    },
+    "article-number": "e2024JH000207"
+  }
+}

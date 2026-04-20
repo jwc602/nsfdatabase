@@ -1,0 +1,3003 @@
+{
+  "doi": "10.1186/s13059-024-03211-z",
+  "openalex": {
+    "id": "https://openalex.org/W4392960849",
+    "doi": "https://doi.org/10.1186/s13059-024-03211-z",
+    "title": "DANCE: a deep learning library and benchmark platform for single-cell analysis",
+    "display_name": "DANCE: a deep learning library and benchmark platform for single-cell analysis",
+    "publication_year": 2024,
+    "publication_date": "2024-03-19",
+    "ids": {
+      "openalex": "https://openalex.org/W4392960849",
+      "doi": "https://doi.org/10.1186/s13059-024-03211-z",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38504331"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1186/s13059-024-03211-z",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1186/s13059-024-03211-z",
+      "pdf_url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-024-03211-z",
+      "source": {
+        "id": "https://openalex.org/S81160022",
+        "display_name": "Genome biology",
+        "issn_l": "1474-7596",
+        "issn": [
+          "1474-7596",
+          "1474-760X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320256",
+        "host_organization_name": "BioMed Central",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320256",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "BioMed Central",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Genome Biology",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-024-03211-z",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5038387579",
+          "display_name": "Jiayuan Ding",
+          "orcid": "https://orcid.org/0000-0001-5783-0062"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jiayuan Ding",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Michigan State University, East Lansing, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Michigan State University, East Lansing, USA",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062057891",
+          "display_name": "Renming Liu",
+          "orcid": "https://orcid.org/0000-0002-6025-6492"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Renming Liu",
+        "raw_affiliation_strings": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, USA",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5052257654",
+          "display_name": "Hongzhi Wen",
+          "orcid": "https://orcid.org/0000-0003-0775-8538"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hongzhi Wen",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Michigan State University, East Lansing, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Michigan State University, East Lansing, USA",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5053741358",
+          "display_name": "Wenzhuo Tang",
+          "orcid": "https://orcid.org/0000-0002-7038-5765"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wenzhuo Tang",
+        "raw_affiliation_strings": [
+          "Department of Statistics and Probability, Michigan State University, East Lansing, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Statistics and Probability, Michigan State University, East Lansing, USA",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101427807",
+          "display_name": "Zhaoheng Li",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I58610484",
+            "display_name": "Seattle University",
+            "ror": "https://ror.org/02jqc0m91",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I58610484"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhaoheng Li",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, University of Washington, Seattle, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biostatistics, University of Washington, Seattle, USA",
+            "institution_ids": [
+              "https://openalex.org/I201448701",
+              "https://openalex.org/I58610484"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040456043",
+          "display_name": "Julian Venegas",
+          "orcid": "https://orcid.org/0000-0001-8389-4131"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Julian Venegas",
+        "raw_affiliation_strings": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, USA",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5078927801",
+          "display_name": "Runze Su",
+          "orcid": "https://orcid.org/0000-0001-9631-3711"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Runze Su",
+        "raw_affiliation_strings": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, USA",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5071280526",
+          "display_name": "Dylan Molho",
+          "orcid": "https://orcid.org/0009-0008-9507-9693"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Dylan Molho",
+        "raw_affiliation_strings": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, USA",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100758371",
+          "display_name": "Wei Jin",
+          "orcid": "https://orcid.org/0000-0002-5054-954X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wei Jin",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Michigan State University, East Lansing, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Michigan State University, East Lansing, USA",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100328544",
+          "display_name": "Yixin Wang",
+          "orcid": "https://orcid.org/0000-0002-8062-0765"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1743320",
+            "display_name": "Palo Alto University",
+            "ror": "https://ror.org/04f812k67",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I1743320"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yixin Wang",
+        "raw_affiliation_strings": [
+          "Department of Bioengineering, Stanford University, Palo Alto, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Bioengineering, Stanford University, Palo Alto, USA",
+            "institution_ids": [
+              "https://openalex.org/I1743320",
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5090218986",
+          "display_name": "Qiaolin Lu",
+          "orcid": "https://orcid.org/0009-0007-2147-3498"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210136497",
+            "display_name": "Jilin Medical University",
+            "ror": "https://ror.org/03mzw7781",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210136497"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I194450716",
+            "display_name": "Jilin University",
+            "ror": "https://ror.org/00js3aw79",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I194450716"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qiaolin Lu",
+        "raw_affiliation_strings": [
+          "School of Artificial Intelligence, Jilin University, Jilin, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Artificial Intelligence, Jilin University, Jilin, China",
+            "institution_ids": [
+              "https://openalex.org/I194450716",
+              "https://openalex.org/I4210136497"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100745844",
+          "display_name": "Lingxiao Li",
+          "orcid": "https://orcid.org/0000-0001-5571-5968"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Lingxiao Li",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Boston University, Boston, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Boston University, Boston, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5022326108",
+          "display_name": "Wangyang Zuo",
+          "orcid": "https://orcid.org/0000-0001-8887-2409"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wangyang Zuo",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Zhejiang University of Technology, Zhejiang, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Zhejiang University of Technology, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101735569",
+          "display_name": "Yi Chang",
+          "orcid": "https://orcid.org/0000-0002-2417-1328"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210136497",
+            "display_name": "Jilin Medical University",
+            "ror": "https://ror.org/03mzw7781",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210136497"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I194450716",
+            "display_name": "Jilin University",
+            "ror": "https://ror.org/00js3aw79",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I194450716"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yi Chang",
+        "raw_affiliation_strings": [
+          "School of Artificial Intelligence, Jilin University, Jilin, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Artificial Intelligence, Jilin University, Jilin, China",
+            "institution_ids": [
+              "https://openalex.org/I194450716",
+              "https://openalex.org/I4210136497"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5039712353",
+          "display_name": "Yuying Xie",
+          "orcid": "https://orcid.org/0000-0002-1049-2219"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuying Xie",
+        "raw_affiliation_strings": [
+          "Department of Statistics and Probability, Michigan State University, East Lansing, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Statistics and Probability, Michigan State University, East Lansing, USA",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5040639891",
+          "display_name": "Jiliang Tang",
+          "orcid": "https://orcid.org/0000-0001-7125-3898"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiliang Tang",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Michigan State University, East Lansing, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Michigan State University, East Lansing, USA",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 16,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5038387579"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I87216513"
+    ],
+    "apc_list": {
+      "value": 4090,
+      "currency": "EUR",
+      "value_usd": 5030
+    },
+    "apc_paid": {
+      "value": 4090,
+      "currency": "EUR",
+      "value_usd": 5030
+    },
+    "fwci": 4.80247225,
+    "has_fulltext": true,
+    "cited_by_count": 10,
+    "citation_normalized_percentile": {
+      "value": 0.91477039,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "25",
+      "issue": "1",
+      "first_page": "72",
+      "last_page": "72"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11289",
+      "display_name": "Single-cell and spatial transcriptomics",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11289",
+        "display_name": "Single-cell and spatial transcriptomics",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12859",
+        "display_name": "Cell Image Analysis Techniques",
+        "score": 0.9951000213623047,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1304",
+          "display_name": "Biophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10540",
+        "display_name": "Advanced Fluorescence Microscopy Techniques",
+        "score": 0.9911999702453613,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1304",
+          "display_name": "Biophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/benchmark",
+        "display_name": "Benchmark (surveying)",
+        "score": 0.9089205265045166
+      },
+      {
+        "id": "https://openalex.org/keywords/python",
+        "display_name": "Python (programming language)",
+        "score": 0.8031190633773804
+      },
+      {
+        "id": "https://openalex.org/keywords/dance",
+        "display_name": "Dance",
+        "score": 0.7148135304450989
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5635766386985779
+      },
+      {
+        "id": "https://openalex.org/keywords/open-source",
+        "display_name": "Open source",
+        "score": 0.5279086232185364
+      },
+      {
+        "id": "https://openalex.org/keywords/deep-learning",
+        "display_name": "Deep learning",
+        "score": 0.5121676921844482
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.46103572845458984
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.4507302939891815
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.3569425344467163
+      },
+      {
+        "id": "https://openalex.org/keywords/data-science",
+        "display_name": "Data science",
+        "score": 0.3350021243095398
+      },
+      {
+        "id": "https://openalex.org/keywords/software",
+        "display_name": "Software",
+        "score": 0.09355291724205017
+      },
+      {
+        "id": "https://openalex.org/keywords/programming-language",
+        "display_name": "Programming language",
+        "score": 0.08605334162712097
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C185798385",
+        "wikidata": "https://www.wikidata.org/wiki/Q1161707",
+        "display_name": "Benchmark (surveying)",
+        "level": 2,
+        "score": 0.9089205265045166
+      },
+      {
+        "id": "https://openalex.org/C519991488",
+        "wikidata": "https://www.wikidata.org/wiki/Q28865",
+        "display_name": "Python (programming language)",
+        "level": 2,
+        "score": 0.8031190633773804
+      },
+      {
+        "id": "https://openalex.org/C147446459",
+        "wikidata": "https://www.wikidata.org/wiki/Q11639",
+        "display_name": "Dance",
+        "level": 2,
+        "score": 0.7148135304450989
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5635766386985779
+      },
+      {
+        "id": "https://openalex.org/C3018397939",
+        "wikidata": "https://www.wikidata.org/wiki/Q3644502",
+        "display_name": "Open source",
+        "level": 3,
+        "score": 0.5279086232185364
+      },
+      {
+        "id": "https://openalex.org/C108583219",
+        "wikidata": "https://www.wikidata.org/wiki/Q197536",
+        "display_name": "Deep learning",
+        "level": 2,
+        "score": 0.5121676921844482
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.46103572845458984
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.4507302939891815
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.3569425344467163
+      },
+      {
+        "id": "https://openalex.org/C2522767166",
+        "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+        "display_name": "Data science",
+        "level": 1,
+        "score": 0.3350021243095398
+      },
+      {
+        "id": "https://openalex.org/C2777904410",
+        "wikidata": "https://www.wikidata.org/wiki/Q7397",
+        "display_name": "Software",
+        "level": 2,
+        "score": 0.09355291724205017
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.08605334162712097
+      },
+      {
+        "id": "https://openalex.org/C13280743",
+        "wikidata": "https://www.wikidata.org/wiki/Q131089",
+        "display_name": "Geodesy",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C124952713",
+        "wikidata": "https://www.wikidata.org/wiki/Q8242",
+        "display_name": "Literature",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D019985",
+        "descriptor_name": "Benchmarking",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015723",
+        "descriptor_name": "Gene Library",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059010",
+        "descriptor_name": "Single-Cell Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D019985",
+        "descriptor_name": "Benchmarking",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015723",
+        "descriptor_name": "Gene Library",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059010",
+        "descriptor_name": "Single-Cell Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D019985",
+        "descriptor_name": "Benchmarking",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015723",
+        "descriptor_name": "Gene Library",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059010",
+        "descriptor_name": "Single-Cell Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D019985",
+        "descriptor_name": "Benchmarking",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D017753",
+        "descriptor_name": "Ecosystem",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015723",
+        "descriptor_name": "Gene Library",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059010",
+        "descriptor_name": "Single-Cell Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D019985",
+        "descriptor_name": "Benchmarking",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015723",
+        "descriptor_name": "Gene Library",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059010",
+        "descriptor_name": "Single-Cell Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D019985",
+        "descriptor_name": "Benchmarking",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015723",
+        "descriptor_name": "Gene Library",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059010",
+        "descriptor_name": "Single-Cell Analysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1186/s13059-024-03211-z",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1186/s13059-024-03211-z",
+        "pdf_url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-024-03211-z",
+        "source": {
+          "id": "https://openalex.org/S81160022",
+          "display_name": "Genome biology",
+          "issn_l": "1474-7596",
+          "issn": [
+            "1474-7596",
+            "1474-760X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320256",
+          "host_organization_name": "BioMed Central",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320256",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "BioMed Central",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Genome Biology",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38504331",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38504331",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Genome biology",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:10949782",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10949782",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10949782/pdf/13059_2024_Article_3211.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Genome Biol",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:82df36dc168a46dcab46d25ab356cce5",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/82df36dc168a46dcab46d25ab356cce5",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Genome Biology, Vol 25, Iss 1, Pp 1-28 (2024)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1186/s13059-024-03211-z",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1186/s13059-024-03211-z",
+      "pdf_url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/s13059-024-03211-z",
+      "source": {
+        "id": "https://openalex.org/S81160022",
+        "display_name": "Genome biology",
+        "issn_l": "1474-7596",
+        "issn": [
+          "1474-7596",
+          "1474-760X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320256",
+        "host_organization_name": "BioMed Central",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320256",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "BioMed Central",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Genome Biology",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.4099999964237213,
+        "display_name": "Life in Land",
+        "id": "https://metadata.un.org/sdg/15"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 79,
+    "referenced_works": [
+      "https://openalex.org/W2149573463",
+      "https://openalex.org/W1580018887",
+      "https://openalex.org/W186813898",
+      "https://openalex.org/W4206242657",
+      "https://openalex.org/W2092991098",
+      "https://openalex.org/W1978520818",
+      "https://openalex.org/W2128047935",
+      "https://openalex.org/W3217290683",
+      "https://openalex.org/W3164692211",
+      "https://openalex.org/W4226218349",
+      "https://openalex.org/W2517636946",
+      "https://openalex.org/W3164839005",
+      "https://openalex.org/W2769765726",
+      "https://openalex.org/W3119379269",
+      "https://openalex.org/W2042789810",
+      "https://openalex.org/W2123273050",
+      "https://openalex.org/W2599879124",
+      "https://openalex.org/W3021920958",
+      "https://openalex.org/W3094217342",
+      "https://openalex.org/W3033148046",
+      "https://openalex.org/W3119774682",
+      "https://openalex.org/W3216323060",
+      "https://openalex.org/W3198628780",
+      "https://openalex.org/W4365145034",
+      "https://openalex.org/W6846265123",
+      "https://openalex.org/W2970971581",
+      "https://openalex.org/W164468737",
+      "https://openalex.org/W3080555959",
+      "https://openalex.org/W2918342466",
+      "https://openalex.org/W2980495984",
+      "https://openalex.org/W2964643116",
+      "https://openalex.org/W2937917790",
+      "https://openalex.org/W4205281625",
+      "https://openalex.org/W3144696998",
+      "https://openalex.org/W3201518044",
+      "https://openalex.org/W3102434595",
+      "https://openalex.org/W3138479716",
+      "https://openalex.org/W3140605903",
+      "https://openalex.org/W3108118546",
+      "https://openalex.org/W1498436455",
+      "https://openalex.org/W1538131130",
+      "https://openalex.org/W3137285774",
+      "https://openalex.org/W2951506174",
+      "https://openalex.org/W2788348358",
+      "https://openalex.org/W2747545374",
+      "https://openalex.org/W2135937351",
+      "https://openalex.org/W4210583065",
+      "https://openalex.org/W2548342201",
+      "https://openalex.org/W2800392236",
+      "https://openalex.org/W3046991322",
+      "https://openalex.org/W2950541340",
+      "https://openalex.org/W4210587306",
+      "https://openalex.org/W4280596398",
+      "https://openalex.org/W2966569571",
+      "https://openalex.org/W2971653850",
+      "https://openalex.org/W3013151148",
+      "https://openalex.org/W2511896561",
+      "https://openalex.org/W3161070260",
+      "https://openalex.org/W2131681506",
+      "https://openalex.org/W3032266082",
+      "https://openalex.org/W4281716652",
+      "https://openalex.org/W3127422037",
+      "https://openalex.org/W4206199829",
+      "https://openalex.org/W4225272983",
+      "https://openalex.org/W2999977864",
+      "https://openalex.org/W3005127469",
+      "https://openalex.org/W3203263776",
+      "https://openalex.org/W2937443931",
+      "https://openalex.org/W2125310307",
+      "https://openalex.org/W2970873268",
+      "https://openalex.org/W4307210265",
+      "https://openalex.org/W3099768174",
+      "https://openalex.org/W4401412190",
+      "https://openalex.org/W2785264903",
+      "https://openalex.org/W4226192560",
+      "https://openalex.org/W4392960849",
+      "https://openalex.org/W3124439729",
+      "https://openalex.org/W3120224790",
+      "https://openalex.org/W3176693948"
+    ],
+    "related_works": [
+      "https://openalex.org/W597595235",
+      "https://openalex.org/W3200585538",
+      "https://openalex.org/W2357651146",
+      "https://openalex.org/W1574267311",
+      "https://openalex.org/W2501127304",
+      "https://openalex.org/W3209785493",
+      "https://openalex.org/W3080200277",
+      "https://openalex.org/W2557718140",
+      "https://openalex.org/W67092138",
+      "https://openalex.org/W4225687299"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "DANCE": [
+        1,
+        29,
+        70,
+        88
+      ],
+      "is": [
+        2,
+        89
+      ],
+      "the": [
+        3,
+        18,
+        49
+      ],
+      "first": [
+        4
+      ],
+      "standard,": [
+        5
+      ],
+      "generic,": [
+        6
+      ],
+      "and": [
+        7,
+        13,
+        33,
+        78
+      ],
+      "extensible": [
+        8
+      ],
+      "benchmark": [
+        9,
+        21,
+        43,
+        56
+      ],
+      "platform": [
+        10
+      ],
+      "for": [
+        11,
+        23,
+        80
+      ],
+      "accessing": [
+        12
+      ],
+      "evaluating": [
+        14
+      ],
+      "computational": [
+        15
+      ],
+      "methods": [
+        16,
+        40
+      ],
+      "across": [
+        17,
+        54
+      ],
+      "spectrum": [
+        19
+      ],
+      "of": [
+        20,
+        51,
+        74,
+        98
+      ],
+      "datasets": [
+        22,
+        57
+      ],
+      "numerous": [
+        24
+      ],
+      "single-cell": [
+        25
+      ],
+      "analysis": [
+        26
+      ],
+      "tasks.": [
+        27
+      ],
+      "Currently,": [
+        28
+      ],
+      "supports": [
+        30
+      ],
+      "3": [
+        31
+      ],
+      "modules": [
+        32
+      ],
+      "8": [
+        34
+      ],
+      "popular": [
+        35
+      ],
+      "tasks": [
+        36
+      ],
+      "with": [
+        37
+      ],
+      "32": [
+        38
+      ],
+      "state-of-art": [
+        39
+      ],
+      "on": [
+        41
+      ],
+      "21": [
+        42
+      ],
+      "datasets.": [
+        44
+      ],
+      "People": [
+        45
+      ],
+      "can": [
+        46
+      ],
+      "easily": [
+        47
+      ],
+      "reproduce": [
+        48
+      ],
+      "results": [
+        50
+      ],
+      "supported": [
+        52
+      ],
+      "algorithms": [
+        53
+      ],
+      "major": [
+        55
+      ],
+      "via": [
+        58
+      ],
+      "minimal": [
+        59
+      ],
+      "efforts,": [
+        60
+      ],
+      "such": [
+        61
+      ],
+      "as": [
+        62
+      ],
+      "using": [
+        63
+      ],
+      "only": [
+        64
+      ],
+      "one": [
+        65
+      ],
+      "command": [
+        66
+      ],
+      "line.": [
+        67
+      ],
+      "In": [
+        68
+      ],
+      "addition,": [
+        69
+      ],
+      "provides": [
+        71
+      ],
+      "an": [
+        72,
+        90
+      ],
+      "ecosystem": [
+        73
+      ],
+      "deep": [
+        75
+      ],
+      "learning": [
+        76
+      ],
+      "architectures": [
+        77
+      ],
+      "tools": [
+        79
+      ],
+      "researchers": [
+        81
+      ],
+      "to": [
+        82
+      ],
+      "facilitate": [
+        83
+      ],
+      "their": [
+        84
+      ],
+      "own": [
+        85
+      ],
+      "model": [
+        86
+      ],
+      "development.": [
+        87
+      ],
+      "open-source": [
+        91
+      ],
+      "Python": [
+        92
+      ],
+      "package": [
+        93
+      ],
+      "that": [
+        94
+      ],
+      "welcomes": [
+        95
+      ],
+      "all": [
+        96
+      ],
+      "kinds": [
+        97
+      ],
+      "contributions.": [
+        99
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 6
+      }
+    ],
+    "updated_date": "2025-12-26T23:08:49.675405",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2025-11-21T00:25:01Z",
+      "timestamp": 1763684701260,
+      "version": "3.45.0"
+    },
+    "reference-count": 91,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              19
+            ]
+          ],
+          "date-time": "2024-03-19T00:00:00Z",
+          "timestamp": 1710806400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              19
+            ]
+          ],
+          "date-time": "2024-03-19T00:00:00Z",
+          "timestamp": 1710806400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "name": "NSF",
+        "award": [
+          "CNS1815636, IIS1845081, IIS1928278, IIS1955285, IIS2212032, IIS2212144, IOS2107215, and IOS2035472"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CNS1815636, IIS1845081, IIS1928278, IIS1955285, IIS2212032, IIS2212144, IOS2107215, and IOS2035472"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NSF",
+        "award": [
+          "IOS 2107215"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "IOS 2107215"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NIH",
+        "award": [
+          "R01DE026728"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R01DE026728"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ARO",
+        "award": [
+          "W911NF-21-1-0198"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF-21-1-0198"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Genome Biol"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>DANCE is the first standard, generic, and extensible benchmark platform for accessing and evaluating computational methods across the spectrum of benchmark datasets for numerous single-cell analysis tasks. Currently, DANCE supports 3 modules and 8 popular tasks with 32 state-of-art methods on 21 benchmark datasets. People can easily reproduce the results of supported algorithms across major benchmark datasets via minimal efforts, such as using only one command line. In addition, DANCE provides an ecosystem of deep learning architectures and tools for researchers to facilitate their own model development. DANCE is an open-source Python package that welcomes all kinds of contributions.</jats:p>",
+    "DOI": "10.1186/s13059-024-03211-z",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2024-03-19T05:05:16Z",
+      "timestamp": 1710824716000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "DANCE: a deep learning library and benchmark platform for single-cell analysis"
+    ],
+    "prefix": "10.1186",
+    "volume": "25",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5783-0062",
+        "authenticated-orcid": false,
+        "given": "Jiayuan",
+        "family": "Ding",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Renming",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hongzhi",
+        "family": "Wen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wenzhuo",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhaoheng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Julian",
+        "family": "Venegas",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Runze",
+        "family": "Su",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dylan",
+        "family": "Molho",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wei",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yixin",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qiaolin",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lingxiao",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wangyang",
+        "family": "Zuo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yi",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yuying",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jiliang",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          19
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "5",
+        "key": "3211_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "377",
+        "DOI": "10.1038/nmeth.1315",
+        "volume": "6",
+        "author": "F Tang",
+        "year": "2009",
+        "unstructured": "Tang F, Barbacioru C, Wang Y, Nordman E, Lee C, Xu N, et al. mRNA-Seq whole-transcriptome analysis of a single cell. Nat Methods. 2009;6(5):377–82.",
+        "journal-title": "Nat Methods."
+      },
+      {
+        "issue": "4",
+        "key": "3211_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "610",
+        "DOI": "10.1016/j.molcel.2015.04.005",
+        "volume": "58",
+        "author": "AA Kolodziejczyk",
+        "year": "2015",
+        "unstructured": "Kolodziejczyk AA, Kim JK, Svensson V, Marioni JC, Teichmann SA. The technology and biology of single-cell RNA sequencing. Mol Cell. 2015;58(4):610–20.",
+        "journal-title": "Mol Cell."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "11",
+        "DOI": "10.1080/09723757.2004.11885864",
+        "volume": "4",
+        "author": "V Kashyap",
+        "year": "2004",
+        "unstructured": "Kashyap V, Sitalaximi T, Chattopadhyay P, Trivedi R. DNA profiling technologies in forensic analysis. Int J Hum Genet. 2004;4(1):11–30.",
+        "journal-title": "Int J Hum Genet."
+      },
+      {
+        "issue": "6",
+        "key": "3211_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "660",
+        "DOI": "10.1016/0958-1669(93)90046-Y",
+        "volume": "4",
+        "author": "DG Monckton",
+        "year": "1993",
+        "unstructured": "Monckton DG, Jeffreys AJ. DNA profiling. Curr Opin Biotechnol. 1993;4(6):660–4.",
+        "journal-title": "Curr Opin Biotechnol."
+      },
+      {
+        "issue": "2",
+        "key": "3211_CR5",
+        "first-page": "20",
+        "volume": "10",
+        "author": "S Panneerchelvam",
+        "year": "2003",
+        "unstructured": "Panneerchelvam S, Norazmi M. Forensic DNA profiling and database. Malays J Med Sci MJMS. 2003;10(2):20.",
+        "journal-title": "Malays J Med Sci MJMS."
+      },
+      {
+        "issue": "1–2",
+        "key": "3211_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "227",
+        "DOI": "10.1016/j.cbpa.2012.01.008",
+        "volume": "16",
+        "author": "N Li",
+        "year": "2012",
+        "unstructured": "Li N, Overkleeft HS, Florea BI. Activity-based protein profiling: an enabling technology in chemical biology research. Curr Opin Chem Biol. 2012;16(1–2):227–33.",
+        "journal-title": "Curr Opin Chem Biol."
+      },
+      {
+        "issue": "4",
+        "key": "3211_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "712",
+        "DOI": "10.1021/pr030007q",
+        "volume": "3",
+        "author": "K Fujii",
+        "year": "2004",
+        "unstructured": "Fujii K, Nakano T, Kawamura T, Usui F, Bando Y, Wang R, et al. Multidimensional protein profiling technology and its application to human plasma proteome. J Proteome Res. 2004;3(4):712–8.",
+        "journal-title": "J Proteome Res."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "53",
+        "DOI": "10.1074/mcp.T500013-MCP200",
+        "volume": "5",
+        "author": "EI Chen",
+        "year": "2006",
+        "unstructured": "Chen EI, Hewel J, Felding-Habermann B, Yates JR. Large scale protein profiling by combination of protein fractionation and multidimensional protein identification technology (MudPIT). Mol Cell Proteomics. 2006;5(1):53–6.",
+        "journal-title": "Mol Cell Proteomics."
+      },
+      {
+        "issue": "23",
+        "key": "3211_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "11238",
+        "DOI": "10.3390/app112311238",
+        "volume": "11",
+        "author": "F Ruoff",
+        "year": "2021",
+        "unstructured": "Ruoff F, Henes M, Templin M, Enderle M, Bösmüller H, Wallwiener D, et al. Targeted protein profiling of in vivo NIPP-treated tissues using DigiWest technology. Appl Sci. 2021;11(23):11238.",
+        "journal-title": "Appl Sci."
+      },
+      {
+        "issue": "13",
+        "key": "3211_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "3573",
+        "DOI": "10.1016/j.cell.2021.04.048",
+        "volume": "184",
+        "author": "Y Hao",
+        "year": "2021",
+        "unstructured": "Hao Y, Hao S, Andersen-Nissen E, Mauck WM III, Zheng S, Butler A, et al. Integrated analysis of multimodal single-cell data. Cell. 2021;184(13):3573–87.",
+        "journal-title": "Cell."
+      },
+      {
+        "key": "3211_CR11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wen H, Ding J, Jin W, Wang Y, Xie Y, Tang J. Graph neural networks for multimodal single-cell data integration. In: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. ACM (Association for Computing Machinery); 2022. p. 4153–63. https://dl.acm.org/doi/abs/10.1145/3534678.3539213.",
+        "DOI": "10.1145/3534678.3539213"
+      },
+      {
+        "issue": "10",
+        "key": "3211_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "833",
+        "DOI": "10.1038/nmeth.3961",
+        "volume": "13",
+        "author": "LF Cheow",
+        "year": "2016",
+        "unstructured": "Cheow LF, Courtois ET, Tan Y, Viswanathan R, Xing Q, Tan RZ, et al. Single-cell multimodal profiling reveals cellular epigenetic heterogeneity. Nat Methods. 2016;13(10):833–6.",
+        "journal-title": "Nat Methods."
+      },
+      {
+        "issue": "10",
+        "key": "3211_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "1246",
+        "DOI": "10.1038/s41587-021-00927-2",
+        "volume": "39",
+        "author": "EP Mimitou",
+        "year": "2021",
+        "unstructured": "Mimitou EP, Lareau CA, Chen KY, Zorzetto-Fernandes AL, Hao Y, Takeshima Y, et al. Scalable, multimodal profiling of chromatin accessibility, gene expression and protein levels in single cells. Nat Biotechnol. 2021;39(10):1246–58.",
+        "journal-title": "Nat Biotechnol."
+      },
+      {
+        "issue": "12",
+        "key": "3211_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "2531",
+        "DOI": "10.1038/nprot.2017.120",
+        "volume": "12",
+        "author": "CR Cadwell",
+        "year": "2017",
+        "unstructured": "Cadwell CR, Scala F, Li S, Livrizzi G, Shen S, Sandberg R, et al. Multimodal profiling of single-cell morphology, electrophysiology, and gene expression using Patch-seq. Nat Protoc. 2017;12(12):2531–53.",
+        "journal-title": "Nat Protoc."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "9",
+        "DOI": "10.1038/s41592-020-01033-y",
+        "volume": "18",
+        "author": "V Marx",
+        "year": "2021",
+        "unstructured": "Marx V. Method of the Year: spatially resolved transcriptomics. Nat Methods. 2021;18(1):9–14.",
+        "journal-title": "Nat Methods."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR16",
+        "first-page": "1",
+        "volume": "8",
+        "author": "G Wang",
+        "year": "2018",
+        "unstructured": "Wang G, Moffitt JR, Zhuang X. Multiplexed imaging of high-density libraries of RNAs with MERFISH and expansion microscopy. Sci Rep. 2018;8(1):1–13.",
+        "journal-title": "Sci Rep."
+      },
+      {
+        "issue": "6233",
+        "key": "3211_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "aaa6090",
+        "DOI": "10.1126/science.aaa6090",
+        "volume": "348",
+        "author": "KH Chen",
+        "year": "2015",
+        "unstructured": "Chen KH, Boettiger AN, Moffitt JR, Wang S, Zhuang X. Spatially resolved, highly multiplexed RNA profiling in single cells. Science. 2015;348(6233):aaa6090.",
+        "journal-title": "Science."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "57",
+        "DOI": "10.1038/nrg3832",
+        "volume": "16",
+        "author": "N Crosetto",
+        "year": "2015",
+        "unstructured": "Crosetto N, Bienko M, Van Oudenaarden A. Spatially resolved transcriptomics and beyond. Nat Rev Genet. 2015;16(1):57–66.",
+        "journal-title": "Nat Rev Genet."
+      },
+      {
+        "key": "3211_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "126",
+        "DOI": "10.1016/j.copbio.2017.02.004",
+        "volume": "46",
+        "author": "AE Moor",
+        "year": "2017",
+        "unstructured": "Moor AE, Itzkovitz S. Spatial transcriptomics: paving the way for tissue-level systems biology. Curr Opin Biotechnol. 2017;46:126–33.",
+        "journal-title": "Curr Opin Biotechnol."
+      },
+      {
+        "issue": "10",
+        "key": "3211_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "1900221",
+        "DOI": "10.1002/bies.201900221",
+        "volume": "42",
+        "author": "M Asp",
+        "year": "2020",
+        "unstructured": "Asp M, Bergenstråhle J, Lundeberg J. Spatially resolved transcriptomes-next generation tools for tissue exploration. BioEssays. 2020;42(10):1900221.",
+        "journal-title": "BioEssays."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s42003-020-01341-1",
+        "volume": "3",
+        "author": "LN Waylen",
+        "year": "2020",
+        "unstructured": "Waylen LN, Nim HT, Martelotto LG, Ramialison M. From whole-mount to single-cell spatial assessment of gene expression in 3D. Commun Biol. 2020;3(1):1–11.",
+        "journal-title": "Commun Biol."
+      },
+      {
+        "issue": "7",
+        "key": "3211_CR22",
+        "first-page": "591",
+        "volume": "43",
+        "author": "JM Teves",
+        "year": "2020",
+        "unstructured": "Teves JM, Won KJ. Mapping cellular coordinates through advances in spatial transcriptomics technology. Mol Cells. 2020;43(7):591.",
+        "journal-title": "Mol Cells."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR23",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-020-20314-w",
+        "volume": "12",
+        "author": "Q Song",
+        "year": "2021",
+        "unstructured": "Song Q, Su J, Zhang W. scGCN is a graph convolutional networks algorithm for knowledge transfer in single cell omics. Nat Commun. 2021;12(1):1–11.",
+        "journal-title": "Nat Commun."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-020-20314-w",
+        "volume": "12",
+        "author": "J Wang",
+        "year": "2021",
+        "unstructured": "Wang J, Ma A, Chang Y, Gong J, Jiang Y, Qi R, et al. scGNN is a novel graph neural network framework for single-cell RNA-Seq analyses. Nat Commun. 2021;12(1):1–11.",
+        "journal-title": "Nat Commun."
+      },
+      {
+        "issue": "4",
+        "key": "3211_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "1037",
+        "DOI": "10.1093/bioinformatics/btab787",
+        "volume": "38",
+        "author": "M Ciortan",
+        "year": "2022",
+        "unstructured": "Ciortan M, Defrance M. GNN-based embedding for clustering scRNA-seq data. Bioinformatics. 2022;38(4):1037–44.",
+        "journal-title": "Bioinformatics."
+      },
+      {
+        "issue": "21",
+        "key": "3211_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "e122",
+        "DOI": "10.1093/nar/gkab775",
+        "volume": "49",
+        "author": "X Shao",
+        "year": "2021",
+        "unstructured": "Shao X, Yang H, Zhuang X, Liao J, Yang P, Cheng J, et al. scDeepSort: a pre-trained cell-type annotation method for single-cell transcriptomics using deep learning with a weighted graph neural network. Nucleic Acids Res. 2021;49(21):e122–e122.",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "3211_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ding J, Venegas J, Lu Q, Wang Y, Wu L, Jin W, et al. SpatialCTD: a large-scale TME spatial transcriptomic dataset to evaluate cell type deconvolution for immuno-oncology. bioRxiv. 2023;2023–04.",
+        "DOI": "10.1101/2023.04.11.536333"
+      },
+      {
+        "key": "3211_CR28",
+        "unstructured": "Molho D, Ding J, Tang W, Li Z, Wen H, Wang Y, et al. Deep learning in single-cell analysis. ACM Trans Intell Syst Technol. 2022. ISSN:2157-6904. EISSN:2157-6912. https://dl.acm.org/doi/10.1145/3641284."
+      },
+      {
+        "key": "3211_CR29",
+        "unstructured": "Paszke A, Gross S, Massa F, Lerer A, Bradbury J, Chanan G, et al. Pytorch: an imperative style, high-performance deep learning library. Adv Neural Inf Process Syst. 2019;32."
+      },
+      {
+        "key": "3211_CR30",
+        "unstructured": "Wang M, Zheng D, Ye Z, Gan Q, Li M, Song X, et al. Deep graph library: a graph-centric, highly-performant package for graph neural networks. 2019. arXiv preprint arXiv:190901315."
+      },
+      {
+        "key": "3211_CR31",
+        "unstructured": "Fey M, Lenssen JE. Fast graph representation learning with PyTorch Geometric. 2019. arXiv preprint arXiv:190302428."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "211",
+        "DOI": "10.1186/s13059-019-1837-6",
+        "volume": "20",
+        "author": "C Arisdakessian",
+        "year": "2019",
+        "unstructured": "Arisdakessian C, Poirion O, Yunits B, Zhu X, Garmire LX. DeepImpute: an accurate, fast, and scalable deep neural network method to impute single-cell RNA-seq data. Genome Biol. 2019;20(1):211.",
+        "journal-title": "Genome Biol."
+      },
+      {
+        "issue": "2",
+        "key": "3211_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "533",
+        "DOI": "10.1093/bioinformatics/btz592",
+        "volume": "36",
+        "author": "F Ma",
+        "year": "2020",
+        "unstructured": "Ma F, Pellegrini M. ACTINN: automated identification of cell types in single cell RNA sequencing. Bioinformatics. 2020;36(2):533–8.",
+        "journal-title": "Bioinformatics."
+      },
+      {
+        "issue": "4",
+        "key": "3211_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "191",
+        "DOI": "10.1038/s42256-019-0037-0",
+        "volume": "1",
+        "author": "T Tian",
+        "year": "2019",
+        "unstructured": "Tian T, Wan J, Song Q, Wei Z. Clustering single-cell RNA-seq data with a model-based deep learning approach. Nat Mach Intell. 2019;1(4):191–8.",
+        "journal-title": "Nat Mach Intell."
+      },
+      {
+        "issue": "2",
+        "key": "3211_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "bbac018",
+        "DOI": "10.1093/bib/bbac018",
+        "volume": "23",
+        "author": "Y Gan",
+        "year": "2022",
+        "unstructured": "Gan Y, Huang X, Zou G, Zhou S, Guan J. Deep structural clustering for single-cell RNA-seq data jointly through autoencoder and graph neural network. Brief Bioinforma. 2022;23(2):bbac018.",
+        "journal-title": "Brief Bioinforma."
+      },
+      {
+        "issue": "15",
+        "key": "3211_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "e2023070118",
+        "DOI": "10.1073/pnas.2023070118",
+        "volume": "118",
+        "author": "KE Wu",
+        "year": "2021",
+        "unstructured": "Wu KE, Yost KE, Chang HY, Zou J. BABEL enables cross-modality translation between multiomic profiles at single-cell resolution. Proc Natl Acad Sci. 2021;118(15):e2023070118.",
+        "journal-title": "Proc Natl Acad Sci."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR37",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-020-20314-w",
+        "volume": "12",
+        "author": "KD Yang",
+        "year": "2021",
+        "unstructured": "Yang KD, Belyaeva A, Venkatachalapathy S, Damodaran K, Katcoff A, Radhakrishnan A, et al. Multi-domain translation between single-cell imaging and sequencing data using autoencoders. Nat Commun. 2021;12(1):1–10.",
+        "journal-title": "Nat Commun."
+      },
+      {
+        "issue": "5",
+        "key": "3211_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "100071",
+        "DOI": "10.1016/j.crmeth.2021.100071",
+        "volume": "1",
+        "author": "K Minoura",
+        "year": "2021",
+        "unstructured": "Minoura K, Abe K, Nam H, Nishikawa H, Shimamura T. A mixture-of-experts deep generative model for integrated analysis of single-cell multiomics data. Cell Rep Methods. 2021;1(5):100071.",
+        "journal-title": "Cell Rep Methods."
+      },
+      {
+        "issue": "4",
+        "key": "3211_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "bbaa287",
+        "DOI": "10.1093/bib/bbaa287",
+        "volume": "22",
+        "author": "C Zuo",
+        "year": "2021",
+        "unstructured": "Zuo C, Chen L. Deep-joint-learning analysis model of single cell transcriptome and open chromatin accessibility data. Brief Bioinforma. 2021;22(4):bbaa287.",
+        "journal-title": "Brief Bioinforma."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "1882",
+        "DOI": "10.1038/s41467-021-22197-x",
+        "volume": "12",
+        "author": "J Wang",
+        "year": "2021",
+        "unstructured": "Wang J, Ma A, Chang Y, Gong J, Jiang Y, Qi R, et al. scGNN is a novel graph neural network framework for single-cell RNA-Seq analyses. Nat Commun. 2021;12(1):1882.",
+        "journal-title": "Nat Commun."
+      },
+      {
+        "issue": "5",
+        "key": "3211_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "102393",
+        "DOI": "10.1016/j.isci.2021.102393",
+        "volume": "24",
+        "author": "J Rao",
+        "year": "2021",
+        "unstructured": "Rao J, Zhou X, Lu Y, Zhao H, Yang Y. Imputing single-cell RNA-seq data by combining graph convolution and autoencoder neural networks. Iscience. 2021;24(5):102393.",
+        "journal-title": "Iscience."
+      },
+      {
+        "issue": "11",
+        "key": "3211_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "1342",
+        "DOI": "10.1038/s41592-021-01255-8",
+        "volume": "18",
+        "author": "J Hu",
+        "year": "2021",
+        "unstructured": "Hu J, Li X, Coleman K, Schroeder A, Ma N, Irwin DJ, et al. SpaGCN: Integrating gene expression, spatial location and histology to identify spatial domains and spatially variable genes by graph convolutional network. Nat Methods. 2021;18(11):1342–51.",
+        "journal-title": "Nat Methods."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR43",
+        "first-page": "1",
+        "volume": "13",
+        "author": "K Dong",
+        "year": "2022",
+        "unstructured": "Dong K, Zhang S. Deciphering spatial domains from spatially resolved transcriptomics with an adaptive graph attention auto-encoder. Nat Commun. 2022;13(1):1–12.",
+        "journal-title": "Nat Commun."
+      },
+      {
+        "issue": "3",
+        "key": "3211_CR44",
+        "first-page": "1",
+        "volume": "22",
+        "author": "Q Song",
+        "year": "2021",
+        "unstructured": "Song Q, Su J. DSTG: deconvoluting spatial transcriptomics data through graph-based artificial intelligence. Brief Bioinforma. 2021;22(3):1–13.",
+        "journal-title": "Brief Bioinforma."
+      },
+      {
+        "key": "3211_CR45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rumelhart DE, Hinton GE, Williams RJ. Learning representations by back-propagating errors. Nature. 1986;323(6088):533–6.",
+        "DOI": "10.1038/323533a0"
+      },
+      {
+        "key": "3211_CR46",
+        "unstructured": "Goodfellow I, Pouget-Abadie J, Mirza M, Xu B, Warde-Farley D, Ozair S, et al. Generative adversarial nets. Adv Neural Inf Process Syst. 2014;27."
+      },
+      {
+        "issue": "10",
+        "key": "3211_CR47",
+        "first-page": "1995",
+        "volume": "3361",
+        "author": "Y LeCun",
+        "year": "1995",
+        "unstructured": "LeCun Y, Bengio Y, et al. Convolutional networks for images, speech, and time series. Handb Brain Theory Neural Netw. 1995;3361(10):1995.",
+        "journal-title": "Handb Brain Theory Neural Netw."
+      },
+      {
+        "key": "3211_CR48",
+        "unstructured": "O’Shea K, Nash R. An introduction to convolutional neural networks. 2015. arXiv preprint arXiv:151108458."
+      },
+      {
+        "key": "3211_CR49",
+        "unstructured": "Kipf TN, Welling M. Semi-supervised classification with graph convolutional networks. 2016. arXiv preprint arXiv:160902907."
+      },
+      {
+        "key": "3211_CR50",
+        "unstructured": "Veličković P, Cucurull G, Casanova A, Romero A, Lio P, Bengio Y. Graph attention networks. 2017. arXiv preprint arXiv:171010903."
+      },
+      {
+        "issue": "4",
+        "key": "3211_CR51",
+        "first-page": "4671",
+        "volume": "36",
+        "author": "Z Yu",
+        "year": "2022",
+        "unstructured": "Yu Z, Lu Y, Wang Y, Tang F, Wong KC, Li X. ZINB-based graph embedding autoencoder for single-cell RNA-seq interpretations. Proc AAAI Conf Artif Intell. 2022;36(4):4671–9.",
+        "journal-title": "Proc AAAI Conf Artif Intell."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-021-22008-3",
+        "volume": "12",
+        "author": "T Tian",
+        "year": "2021",
+        "unstructured": "Tian T, Zhang J, Lin X, Wei Z, Hakonarson H. Model-based deep embedding for constrained clustering analysis of single cell RNA-seq data. Nat Commun. 2021;12(1):1–12.",
+        "journal-title": "Nat Commun."
+      },
+      {
+        "key": "3211_CR53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zheng GX, Terry JM, Belgrader P, Ryvkin P, Bent ZW, Wilson R, et al. Massively parallel digital transcriptional profiling of single cells. Nat Commun. 2017;8(1):1–12. Dataset Link: https://support.10xgenomics.com/single-cell-gene-expression/datasets/2.1.0/pbmc4k.",
+        "DOI": "10.1038/ncomms14049"
+      },
+      {
+        "key": "3211_CR54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Han X, Wang R, Zhou Y, Fei L, Sun H, Lai S, et al. Mapping the mouse cell atlas by microwell-seq. Cell. 2018;172(5):1091–1107. Dataset Link: https://figshare.com/s/865e694ad06d5857db4b.",
+        "DOI": "10.1016/j.cell.2018.02.001"
+      },
+      {
+        "key": "3211_CR55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cao J, Packer JS, Ramani V, Cusanovich DA, Huynh C, Daza R, et al. Comprehensive single-cell transcriptional profiling of a multicellular organism. Science. 2017;357(6352):661–667. Dataset Link: http://atlas.gs.washington.edu/worm-rna/docs/.",
+        "DOI": "10.1126/science.aam8940"
+      },
+      {
+        "key": "3211_CR56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Klein AM, Mazutis L, Akartuna I, Tallapragada N, Veres A, Li V, et al. Droplet barcoding for single-cell transcriptomics applied to embryonic stem cells. Cell. 2015;161(5):1187–1201. Dataset Link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65525.",
+        "DOI": "10.1016/j.cell.2015.04.044"
+      },
+      {
+        "issue": "2",
+        "key": "3211_CR57",
+        "doi-asserted-by": "publisher",
+        "first-page": "171",
+        "DOI": "10.1038/s41592-021-01358-2",
+        "volume": "19",
+        "author": "G Palla",
+        "year": "2022",
+        "unstructured": "Palla G, Spitzer H, Klein M, Fischer D, Schaar AC, Kuemmerle LB, et al. Squidpy: a scalable framework for spatial omics analysis. Nat Methods. 2022;19(2):171–8.",
+        "journal-title": "Nat Methods."
+      },
+      {
+        "issue": "11",
+        "key": "3211_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1005177",
+        "DOI": "10.1371/journal.pcbi.1005177",
+        "volume": "12",
+        "author": "DA Van Valen",
+        "year": "2016",
+        "unstructured": "Van Valen DA, Kudo T, Lane KM, Macklin DN, Quach NT, DeFelice MM, et al. Deep learning automates the quantitative analysis of individual cells in live-cell imaging experiments. PLoS Comput Biol. 2016;12(11):e1005177.",
+        "journal-title": "PLoS Comput Biol."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s13059-017-1382-0",
+        "volume": "19",
+        "author": "FA Wolf",
+        "year": "2018",
+        "unstructured": "Wolf FA, Angerer P, Theis FJ. SCANPY: large-scale single-cell gene expression data analysis. Genome Biol. 2018;19(1):1–5.",
+        "journal-title": "Genome Biol."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s13059-020-02104-1",
+        "volume": "21",
+        "author": "M Calgaro",
+        "year": "2020",
+        "unstructured": "Calgaro M, Romualdi C, Waldron L, Risso D, Vitulo N. Assessment of statistical methods from single cell, bulk RNA-seq, and metagenomics applied to microbiome data. Genome Biol. 2020;21(1):1–31.",
+        "journal-title": "Genome Biol."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR61",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s13059-016-1077-y",
+        "volume": "17",
+        "author": "KD Korthauer",
+        "year": "2016",
+        "unstructured": "Korthauer KD, Chu LF, Newton MA, Li Y, Thomson J, Stewart R, et al. A statistical approach for identifying differential distributions in single-cell RNA-seq experiments. Genome Biol. 2016;17(1):1–15.",
+        "journal-title": "Genome Biol."
+      },
+      {
+        "issue": "2",
+        "key": "3211_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "163",
+        "DOI": "10.1038/s41587-021-01206-w",
+        "volume": "40",
+        "author": "A Gayoso",
+        "year": "2022",
+        "unstructured": "Gayoso A, Lopez R, Xing G, Boyeau P, Valiollah Pour Amiri V, Hong J, et al. A Python library for probabilistic analysis of single-cell omics data. Nat Biotechnol. 2022;40(2):163–6.",
+        "journal-title": "Nat Biotechnol."
+      },
+      {
+        "key": "3211_CR63",
+        "unstructured": "Du J, Zhang S, Wu G, Moura JM, Kar S. Topology adaptive graph convolutional networks. 2017. arXiv preprint arXiv:171010370."
+      },
+      {
+        "issue": "6594",
+        "key": "3211_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "eabl5197",
+        "DOI": "10.1126/science.abl5197",
+        "volume": "376",
+        "author": "C Domínguez Conde",
+        "year": "2022",
+        "unstructured": "Domínguez Conde C, Xu C, Jarvis L, Rainbow D, Wells S, Gomes T, et al. Cross-tissue immune cell analysis reveals tissue-specific features in humans. Science. 2022;376(6594):eabl5197.",
+        "journal-title": "Science."
+      },
+      {
+        "issue": "2",
+        "key": "3211_CR65",
+        "doi-asserted-by": "publisher",
+        "first-page": "207",
+        "DOI": "10.1016/j.cels.2019.06.004",
+        "volume": "9",
+        "author": "Y Tan",
+        "year": "2019",
+        "unstructured": "Tan Y, Cahan P. SingleCellNet: a computational tool to classify single cell RNA-Seq data across platforms and across species. Cell Syst. 2019;9(2):207–13.",
+        "journal-title": "Cell Syst."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR66",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s13059-019-1795-z",
+        "volume": "20",
+        "author": "T Abdelaal",
+        "year": "2019",
+        "unstructured": "Abdelaal T, Michielsen L, Cats D, Hoogduin D, Mei H, Reinders MJ, et al. A comparison of automatic cell identification methods for single-cell RNA sequencing data. Genome Biol. 2019;20(1):1–19.",
+        "journal-title": "Genome Biol."
+      },
+      {
+        "key": "3211_CR67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Han X, Zhou Z, Fei L, Sun H, Wang R, Chen Y, et al. Construction of a human cell landscape at single-cell level. Nature. 2020;581(7808):303–309. https://github.com/ZJUFanLab/scDeepSort/releases/download/Pre/_processed/_data/human/_cell/_atlas.7z.",
+        "DOI": "10.1038/s41586-020-2157-4"
+      },
+      {
+        "key": "3211_CR68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Han X, Wang R, Zhou Y, Fei L, Sun H, Lai S, et al. Mapping the mouse cell atlas by microwell-seq. Cell. 2018;172(5):1091–1107. https://github.com/ZJUFanLab/scDeepSort/releases/download/Pre_processed_data/mouse_cell_atlas.7z.",
+        "DOI": "10.1016/j.cell.2018.02.001"
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR69",
+        "doi-asserted-by": "publisher",
+        "first-page": "14049",
+        "DOI": "10.1038/ncomms14049",
+        "volume": "8",
+        "author": "GXY Zheng",
+        "year": "2017",
+        "unstructured": "Zheng GXY, Terry JM, Belgrader P, Ryvkin P, Bent ZW, Wilson R, et al. Massively parallel digital transcriptional profiling of single cells. Nat Commun. 2017;8(1):14049. https://doi.org/10.1038/ncomms14049.",
+        "journal-title": "Nat Commun."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR70",
+        "doi-asserted-by": "publisher",
+        "first-page": "173",
+        "DOI": "10.1186/s13059-016-1033-x",
+        "volume": "17",
+        "author": "LF Chu",
+        "year": "2016",
+        "unstructured": "Chu LF, Leng N, Zhang J, Hou Z, Mamott D, Vereide DT, et al. Single-cell RNA-seq reveals novel regulators of human embryonic stem cell differentiation to definitive endoderm. Genome Biol. 2016;17(1):173. https://doi.org/10.1186/s13059-016-1033-x.",
+        "journal-title": "Genome Biol."
+      },
+      {
+        "key": "3211_CR71",
+        "unstructured": "Luecken et al. A sandbox for prediction and integration of DNA, RNA, and proteins in single cells. In: NeurIPS Datasets and Benchmarks Track (Round 2). 2021. Dataset Link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194122. Accessed 29 Aug 2021."
+      },
+      {
+        "issue": "6",
+        "key": "3211_CR72",
+        "doi-asserted-by": "publisher",
+        "first-page": "536",
+        "DOI": "10.1038/s42256-021-00333-y",
+        "volume": "3",
+        "author": "Q Liu",
+        "year": "2021",
+        "unstructured": "Liu Q, Chen S, Jiang R, Wong WH. Simultaneous deep generative modelling and clustering of single-cell genomic data. Nat Mach Intell. 2021;3(6):536–44.",
+        "journal-title": "Nat Mach Intell."
+      },
+      {
+        "key": "3211_CR73",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Blondel VD, Guillaume J-L, Lambiotte R, Lefebvre E. Fast unfolding of communities in large networks. J Stat Mech: Theory Exp. 2008;2008(10):P10008.",
+        "DOI": "10.1088/1742-5468/2008/10/P10008"
+      },
+      {
+        "key": "3211_CR74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pham D, Tan X, Xu J, Grice LF, Lam PY, Raghubar A, et al. stLearn: integrating spatial location, tissue morphology and gene expression to find cell types, cell-cell interactions and spatial trajectories within undissociated tissues. BioRxiv. 2020:2020–05.",
+        "DOI": "10.1101/2020.05.31.125658"
+      },
+      {
+        "key": "3211_CR75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pardo B, Spangler A, Weber LM, Page SC, Hicks SC, Jaffe AE, et al. spatialLIBD: an R/Bioconductor package to visualize spatially-resolved transcriptomics data. BMC Genomics. 2022;23(1):1–5. Dataset Link: http://research.libd.org/spatialLIBD/.",
+        "DOI": "10.1186/s12864-022-08601-w"
+      },
+      {
+        "issue": "9",
+        "key": "3211_CR76",
+        "doi-asserted-by": "publisher",
+        "first-page": "e50",
+        "DOI": "10.1093/nar/gkab043",
+        "volume": "49",
+        "author": "M Elosua-Bayes",
+        "year": "2021",
+        "unstructured": "Elosua-Bayes M, Nieto P, Mereu E, Gut I, Heyn H. SPOTlight: seeded NMF regression to deconvolute spatial transcriptomics spots with single-cell transcriptomes. Nucleic Acids Res. 2021;49(9):e50–e50.",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR77",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-022-28020-5",
+        "volume": "13",
+        "author": "P Danaher",
+        "year": "2022",
+        "unstructured": "Danaher P, Kim Y, Nelson B, Griswold M, Yang Z, Piazza E, et al. Advances in mixed cell deconvolution enable quantification of cell types in spatial transcriptomic data. Nat Commun. 2022;13(1):1–13.",
+        "journal-title": "Nat Commun."
+      },
+      {
+        "key": "3211_CR78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ma Y, Zhou X. Spatially informed cell-type deconvolution for spatial transcriptomics. Nat Biotechnol. 2022;40(9):1349–59.",
+        "DOI": "10.1038/s41587-022-01273-7"
+      },
+      {
+        "key": "3211_CR79",
+        "unstructured": "Mouse Posterior Brain 10x Visium Data. 2022. https://support.10xgenomics.com/spatial-gene-expression/datasets/1.0.0/V1_Mouse_Brain_Sagittal_Posterior. Accessed 11 July."
+      },
+      {
+        "key": "3211_CR80",
+        "unstructured": "Mouse Olfactory Bulb Data. 2020. https://www.10xgenomics.com/resources/datasets/adult-mouse-olfactory-bulb-1-standard-1. Accessed 26 Aug."
+      },
+      {
+        "key": "3211_CR81",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danaher P, Kim Y, Nelson B, Griswold M, Yang Z, Piazza E, et al. Advances in mixed cell deconvolution enable quantification of cell types in spatial transcriptomic data. Nat Commun. 2022;13(1):1–13. Dataset Link: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174746.",
+        "DOI": "10.1038/s41467-022-28020-5"
+      },
+      {
+        "key": "3211_CR82",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Moncada R, Barkley D, Wagner F, Chiodin M, Devlin JC, Baron M, et al. Integrating microarray-based spatial transcriptomics and single-cell RNA-seq reveals tissue architecture in pancreatic ductal adenocarcinomas. Nat Biotechnol. 2020;38. https://doi.org/10.1038/s41587-019-0392-8.",
+        "DOI": "10.1038/s41587-019-0392-8"
+      },
+      {
+        "issue": "1",
+        "key": "3211_CR83",
+        "doi-asserted-by": "publisher",
+        "first-page": "31",
+        "DOI": "10.1186/s13059-020-1926-6",
+        "volume": "21",
+        "author": "D Lähnemann",
+        "year": "2020",
+        "unstructured": "Lähnemann D, Köster J, Szczurek E, McCarthy DJ, Hicks SC, Robinson MD, et al. Eleven grand challenges in single-cell data science. Genome Biol. 2020;21(1):31. https://doi.org/10.1186/s13059-020-1926-6.",
+        "journal-title": "Genome Biol."
+      },
+      {
+        "key": "3211_CR84",
+        "unstructured": "Luecken MD, Burkhardt DB, Cannoodt R, Lance C, Agrawal A, Aliee H, et al. A sandbox for prediction and integration of dna, rna, and proteins in single cells. In: Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 2). 2021. https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/158f3069a435b314a80bdcb024f8e422-Abstract-round2.html."
+      },
+      {
+        "issue": "6",
+        "key": "3211_CR85",
+        "doi-asserted-by": "publisher",
+        "first-page": "317",
+        "DOI": "10.1038/s41576-019-0129-z",
+        "volume": "20",
+        "author": "DJ Burgess",
+        "year": "2019",
+        "unstructured": "Burgess DJ. Spatial transcriptomics coming of age. Nat Rev Genet. 2019;20(6):317.",
+        "journal-title": "Nat Rev Genet."
+      },
+      {
+        "issue": "9",
+        "key": "3211_CR86",
+        "doi-asserted-by": "publisher",
+        "first-page": "763",
+        "DOI": "10.1093/bioinformatics/17.9.763",
+        "volume": "17",
+        "author": "KY Yeung",
+        "year": "2001",
+        "unstructured": "Yeung KY, Ruzzo WL. Details of the adjusted rand index and clustering algorithms, supplement to the paper an empirical study on principal component analysis for clustering gene expression data. Bioinformatics. 2001;17(9):763–74.",
+        "journal-title": "Bioinformatics."
+      },
+      {
+        "key": "3211_CR87",
+        "unstructured": "Shi Y, Paige B, Torr P, et al. Variational mixture-of-experts autoencoders for multi-modal deep generative models. Adv Neural Inf Process Syst. 2019;32."
+      },
+      {
+        "key": "3211_CR88",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ding J, Wen H, Tang W, Liu R, Li Z, Venegas J, et al. DANCE: a deep learning library and benchmark platform for single-cell analysis. Github. 2023. https://github.com/OmicsML/dance. Accessed 1 Jan.",
+        "DOI": "10.1101/2022.10.19.512741"
+      },
+      {
+        "key": "3211_CR89",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ding J, Wen H, Tang W, Liu R, Li Z, Venegas J, et al. DANCE: a deep learning library and benchmark platform for single-cell analysis. Zenodo. 2023. https://zenodo.org/records/10648047. Accessed 15 Feb.",
+        "DOI": "10.1101/2022.10.19.512741"
+      },
+      {
+        "key": "3211_CR90",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ding J, Wen H, Tang W, Liu R, Li Z, Venegas J, et al. DANCE: a deep learning library and benchmark platform for single-cell analysis. Readthedocs. 2023. https://pydance.readthedocs.io/en/latest/.",
+        "DOI": "10.1101/2022.10.19.512741"
+      },
+      {
+        "key": "3211_CR91",
+        "unstructured": "Benchmark datasets used in DANCE for evaluation. Science Data Bank. 2023. https://www.scidb.cn/en/s/nmA7fy#p4. Accessed 15 Feb."
+      }
+    ],
+    "container-title": [
+      "Genome Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1186/s13059-024-03211-z.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1186/s13059-024-03211-z/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1186/s13059-024-03211-z.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          19
+        ]
+      ],
+      "date-time": "2024-03-19T05:14:08Z",
+      "timestamp": 1710825248000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03211-z"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          19
+        ]
+      ]
+    },
+    "references-count": 91,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "3211"
+    ],
+    "URL": "https://doi.org/10.1186/s13059-024-03211-z",
+    "relation": {},
+    "ISSN": [
+      "1474-760X"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1474-760X"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          19
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "7 February 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "5 March 2024",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "19 March 2024",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "Not applicable.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Ethics approval and consent to participate"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 3,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "72"
+  }
+}

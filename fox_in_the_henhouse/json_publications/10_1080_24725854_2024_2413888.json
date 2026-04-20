@@ -1,0 +1,1203 @@
+{
+  "doi": "10.1080/24725854.2024.2413888",
+  "openalex": {
+    "id": "https://openalex.org/W4403425338",
+    "doi": "https://doi.org/10.1080/24725854.2024.2413888",
+    "title": "Heavy-Tail Phenomenon in Decentralized SGD",
+    "display_name": "Heavy-Tail Phenomenon in Decentralized SGD",
+    "publication_year": 2024,
+    "publication_date": "2024-10-15",
+    "ids": {
+      "openalex": "https://openalex.org/W4403425338",
+      "doi": "https://doi.org/10.1080/24725854.2024.2413888"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/24725854.2024.2413888",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/24725854.2024.2413888",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210225672",
+        "display_name": "IISE Transactions",
+        "issn_l": "2472-5854",
+        "issn": [
+          "2472-5854",
+          "2472-5862"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IISE Transactions",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5034370705",
+          "display_name": "Mert Gürbüzbalaban",
+          "orcid": "https://orcid.org/0000-0002-0575-2450"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I102322142",
+            "display_name": "Rutgers, The State University of New Jersey",
+            "ror": "https://ror.org/05vt9qd57",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I102322142"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Mert Gürbüzbalaban",
+        "raw_affiliation_strings": [
+          "Department of Management Science and Information Systems, Rutgers Business School, Piscataway NJ, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Management Science and Information Systems, Rutgers Business School, Piscataway NJ, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I102322142"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5006604791",
+          "display_name": "Yuanhan Hu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I102322142",
+            "display_name": "Rutgers, The State University of New Jersey",
+            "ror": "https://ror.org/05vt9qd57",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I102322142"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuanhan Hu",
+        "raw_affiliation_strings": [
+          "Department of Management Science and Information Systems, Rutgers Business School, Piscataway NJ, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Management Science and Information Systems, Rutgers Business School, Piscataway NJ, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I102322142"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5053326908",
+          "display_name": "Umut Şimşekli",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210161954",
+            "display_name": "Département d'Informatique",
+            "ror": "https://ror.org/05y6rqs46",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I1326498283",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I29607241",
+              "https://openalex.org/I4210159245",
+              "https://openalex.org/I4210161954"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1326498283",
+            "display_name": "Institut national de recherche en sciences et technologies du numérique",
+            "ror": "https://ror.org/02kvxyf05",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1326498283"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2746051580",
+            "display_name": "Université Paris Sciences et Lettres",
+            "ror": "https://ror.org/013cjyk83",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2746051580"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I29607241",
+            "display_name": "École Normale Supérieure - PSL",
+            "ror": "https://ror.org/05a0dhs15",
+            "country_code": "FR",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I29607241"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Umut Şimşekli",
+        "raw_affiliation_strings": [
+          "INRIA - Département d’Informatique de l’École Normale Supérieure, PSL Research University, Paris, France"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "INRIA - Département d’Informatique de l’École Normale Supérieure, PSL Research University, Paris, France",
+            "institution_ids": [
+              "https://openalex.org/I1326498283",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I29607241",
+              "https://openalex.org/I4210161954"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100614598",
+          "display_name": "Kun Yuan",
+          "orcid": "https://orcid.org/0000-0001-8394-8187"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I45928872",
+            "display_name": "Alibaba Group (China)",
+            "ror": "https://ror.org/00k642b80",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kun Yuan",
+        "raw_affiliation_strings": [
+          "Alibaba DAMO Academy, Hangzhou, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alibaba DAMO Academy, Hangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I45928872"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5103238499",
+          "display_name": "Lingjiong Zhu",
+          "orcid": "https://orcid.org/0000-0001-7595-160X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I103163165",
+            "display_name": "Florida State University",
+            "ror": "https://ror.org/05g3dte14",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I103163165"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lingjiong Zhu",
+        "raw_affiliation_strings": [
+          "Department of Mathematics, Florida State University, Tallahassee FL, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mathematics, Florida State University, Tallahassee FL, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I103163165"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5034370705"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I102322142"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.63814764,
+    "has_fulltext": false,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.79548888,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 95
+    },
+    "biblio": {
+      "volume": "57",
+      "issue": "7",
+      "first_page": "788",
+      "last_page": "802"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10378",
+      "display_name": "Advanced MRI Techniques and Applications",
+      "score": 0.9955000281333923,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10378",
+        "display_name": "Advanced MRI Techniques and Applications",
+        "score": 0.9955000281333923,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13553",
+        "display_name": "Age of Information Optimization",
+        "score": 0.9944000244140625,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11885",
+        "display_name": "MRI in cancer diagnosis",
+        "score": 0.9886999726295471,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/phenomenon",
+        "display_name": "Phenomenon",
+        "score": 0.8126658797264099
+      },
+      {
+        "id": "https://openalex.org/keywords/epistemology",
+        "display_name": "Epistemology",
+        "score": 0.17935293912887573
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy",
+        "display_name": "Philosophy",
+        "score": 0.16315019130706787
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C50335755",
+        "wikidata": "https://www.wikidata.org/wiki/Q483247",
+        "display_name": "Phenomenon",
+        "level": 2,
+        "score": 0.8126658797264099
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.17935293912887573
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.16315019130706787
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1080/24725854.2024.2413888",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/24725854.2024.2413888",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210225672",
+          "display_name": "IISE Transactions",
+          "issn_l": "2472-5854",
+          "issn": [
+            "2472-5854",
+            "2472-5862"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IISE Transactions",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:HAL:hal-04872162v1",
+        "is_oa": false,
+        "landing_page_url": "https://hal.science/hal-04872162",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402512",
+          "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1294671590",
+          "host_organization_name": "Centre National de la Recherche Scientifique",
+          "host_organization_lineage": [
+            "https://openalex.org/I1294671590"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "IISE Transactions, 2024, &#x27E8;10.1080/24725854.2024.2413888&#x27E9;",
+        "raw_type": "Journal articles"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 33,
+    "referenced_works": [
+      "https://openalex.org/W2144295917",
+      "https://openalex.org/W3034886375",
+      "https://openalex.org/W2962714489",
+      "https://openalex.org/W3167021948",
+      "https://openalex.org/W1988795359",
+      "https://openalex.org/W114517082",
+      "https://openalex.org/W1955857676",
+      "https://openalex.org/W2062437535",
+      "https://openalex.org/W2490074880",
+      "https://openalex.org/W2029080014",
+      "https://openalex.org/W2007339694",
+      "https://openalex.org/W2980919526",
+      "https://openalex.org/W1514890731",
+      "https://openalex.org/W3040083890",
+      "https://openalex.org/W1835842564",
+      "https://openalex.org/W2194775991",
+      "https://openalex.org/W2912811302",
+      "https://openalex.org/W2782375002",
+      "https://openalex.org/W3118608800",
+      "https://openalex.org/W2919115771",
+      "https://openalex.org/W2097460613",
+      "https://openalex.org/W2912497910",
+      "https://openalex.org/W2963122491",
+      "https://openalex.org/W2471288921",
+      "https://openalex.org/W2044212084",
+      "https://openalex.org/W3022621540",
+      "https://openalex.org/W1978242229",
+      "https://openalex.org/W3047780503",
+      "https://openalex.org/W1616857247",
+      "https://openalex.org/W3123459983",
+      "https://openalex.org/W2054104996",
+      "https://openalex.org/W2964102336",
+      "https://openalex.org/W3101928688"
+    ],
+    "related_works": [
+      "https://openalex.org/W4300450609",
+      "https://openalex.org/W4386931570",
+      "https://openalex.org/W2391010541",
+      "https://openalex.org/W2357367123",
+      "https://openalex.org/W4388930439",
+      "https://openalex.org/W2387276901",
+      "https://openalex.org/W2385953334",
+      "https://openalex.org/W2351303360",
+      "https://openalex.org/W3134118520",
+      "https://openalex.org/W2349223072"
+    ],
+    "abstract_inverted_index": {
+      "International": [
+        0
+      ],
+      "audience": [
+        1
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2021,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          4
+        ]
+      ],
+      "date-time": "2025-07-04T05:19:45Z",
+      "timestamp": 1751606385025,
+      "version": "3.40.4"
+    },
+    "reference-count": 54,
+    "publisher": "Informa UK Limited",
+    "issue": "7",
+    "funder": [
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.tandfonline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "IISE Transactions"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1080/24725854.2024.2413888",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2024-10-15T15:19:44Z",
+      "timestamp": 1729005584000
+    },
+    "page": "788-802",
+    "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Heavy-Tail Phenomenon in Decentralized SGD"
+    ],
+    "prefix": "10.1080",
+    "volume": "57",
+    "author": [
+      {
+        "given": "Mert",
+        "family": "Gürbüzbalaban",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Management Science and Information Systems, Rutgers Business School",
+            "place": [
+              "Piscataway, United States of America"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Yuanhan",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Management Science and Information Systems, Rutgers Business School",
+            "place": [
+              "Piscataway, United States of America"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Umut",
+        "family": "Şimşekli",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "INRIA - Département d’Informatique de l’École Normale Supérieure, PSL Research University",
+            "place": [
+              "Paris, France"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Kun",
+        "family": "Yuan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alibaba DAMO Academy",
+            "place": [
+              "Hangzhou, China"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Lingjiong",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mathematics, Florida State University",
+            "place": [
+              "Tallahassee, United States of America"
+            ]
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_2_1",
+        "DOI": "10.1080/10236198.2011.571383"
+      },
+      {
+        "key": "e_1_3_5_3_1",
+        "article-title": "IDEAL: Inexact DEcentralized accelerated augmented Lagrangian method",
+        "volume": "33",
+        "author": "Arjevani Y.",
+        "year": "2020",
+        "unstructured": "Arjevani, Y., Bruna, J., Can, B., Gürbüzbalaban, M., Jegelka, S. and Lin, H. (2020). IDEAL: Inexact DEcentralized accelerated augmented Lagrangian method, in Advances in Neural Information Processing Systems, volume 33, Curran Associates Inc., NY, USA.",
+        "journal-title": "in Advances in Neural Information Processing Systems"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_4_1",
+        "DOI": "10.1109/GlobalSIP.2017.8308701"
+      },
+      {
+        "key": "e_1_3_5_5_1",
+        "first-page": "29364",
+        "article-title": "Heavy tails in SGD and compressibility of overparametrized neural networks, in",
+        "volume": "34",
+        "author": "Barsbey M.",
+        "year": "2021",
+        "unstructured": "Barsbey, M., Sefidgaran, M., Erdogdu, M.A., Richard, G. and Şimşekli, U. (2021). Heavy tails in SGD and compressibility of overparametrized neural networks, in Advances in Neural Information Processing Systems, volume 34, pp. 29364–29378.",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_6_1",
+        "DOI": "10.1137/040615961"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_7_1",
+        "DOI": "10.1007/978-3-7908-2604-3_16"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_8_1",
+        "DOI": "10.1007/978-3-642-35289-8_25"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_9_1",
+        "DOI": "10.1080/10236198.2014.950259"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_10_1",
+        "DOI": "10.1007/978-3-319-29679-1"
+      },
+      {
+        "key": "e_1_3_5_11_1",
+        "first-page": "102",
+        "volume-title": "Proceedings of the Thirtieth Conference on Uncertainty in Artificial Intelligence, UAI’14",
+        "author": "Campbell T.",
+        "year": "2014",
+        "unstructured": "Campbell, T. and How, J.P. (2014). Approximate decentralized Bayesian inference, in Proceedings of the Thirtieth Conference on Uncertainty in Artificial Intelligence, UAI’14, Quebec City, Quebec, Canada, AUAI Press, Arlington, Virginia, USA, pp. 102–111."
+      },
+      {
+        "unstructured": "Can B. Gurbuzbalaban M. and Zhu L. (2019). Accelerated linear convergence of stochastic momentum methods in Wasserstein distances in K. Chaudhuri and R. Salakhutdinov (eds.) Proceedings of the 36th International Conference on Machine Learning Proceedings of Machine Learning Research PMLR pp. 891–901.",
+        "key": "e_1_3_5_12_1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_13_1",
+        "DOI": "10.1109/TSP.2012.2198470"
+      },
+      {
+        "unstructured": "Chen Y. Jin C. and Yu B. (2018). Stability and convergence trade-off of iterative optimization algorithms. arXiv preprint arXiv:1804.01619.",
+        "key": "e_1_3_5_14_1"
+      },
+      {
+        "unstructured": "Dean J. Corrado G. Monga R. Chen K. Devin M. Mao M. Ranzato M. Senior A. Tucker P. Yang K. Le Q. and Ng A. (2012). Large scale distributed deep networks in Proceedings of the 25th International Conference on Neural Information Processing Systems NIPS’12 Lake Tahoe Nevada volume 1 Curran Associates Inc. Red Hook NY USA pp. 1223–1231.",
+        "key": "e_1_3_5_15_1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_16_1",
+        "DOI": "10.1109/MSP.2012.2211477"
+      },
+      {
+        "issue": "1",
+        "key": "e_1_3_5_17_1",
+        "first-page": "9893",
+        "article-title": "Robust distributed accelerated stochastic gradient methods for multi-agent networks",
+        "volume": "23",
+        "author": "Fallah A.",
+        "year": "2022",
+        "unstructured": "Fallah, A., Gürbüzbalaban, M., Ozdaglar, A., Şimşekli, U. and Zhu, L. (2022). Robust distributed accelerated stochastic gradient methods for multi-agent networks. The Journal of Machine Learning Research, 23(1), 9893–9988.",
+        "journal-title": "The Journal of Machine Learning Research"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_18_1",
+        "DOI": "10.1007/978-1-4614-7101-1"
+      },
+      {
+        "key": "e_1_3_5_19_1",
+        "volume-title": "Deep Learning",
+        "author": "Goodfellow I.",
+        "year": "2016",
+        "unstructured": "Goodfellow, I., Bengio, Y., Courville, A. and Bengio, Y. (2016). Deep Learning, volume 1. MIT Press, Cambridge, MA."
+      },
+      {
+        "issue": "239",
+        "key": "e_1_3_5_20_1",
+        "first-page": "1",
+        "article-title": "Decentralized stochastic gradient Langevin dynamics and Hamiltonian Monte Carlo",
+        "volume": "22",
+        "author": "Gürbüzbalaban M.",
+        "year": "2021",
+        "unstructured": "Gürbüzbalaban, M., Gao, X., Hu, Y. and Zhu, L. (2021). Decentralized stochastic gradient Langevin dynamics and Hamiltonian Monte Carlo. Journal of Machine Learning Research, 22(239), 1–69.",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_21_1",
+        "DOI": "10.1137/17M1147846"
+      },
+      {
+        "key": "e_1_3_5_22_1",
+        "first-page": "3964",
+        "volume-title": "Proceedings of the 38th International Conference on Machine Learning",
+        "volume": "139",
+        "author": "Gürbüzbalaban M.",
+        "year": "2021",
+        "unstructured": "Gürbüzbalaban, M., Şimşekli, U. and Zhu, L. (2021). The heavy-tail phenomenon in SGD, in M. Meila and T. Zhang (eds.), Proceedings of the 38th International Conference on Machine Learning, volume 139, Proceedings of Machine Learning Research, PMLR, pp. 3964–3975."
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_23_1",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "unstructured": "Hendrikx H. Bach F. and Massoulié L. (2019). Accelerated decentralized optimization with local updates for smooth and strongly convex objectives in K. Chaudhuri and M. Sugiyama (eds.) Proceedings of the Twenty-Second International Conference on Artificial Intelligence and Statistics volume 89 Proceedings of Machine Learning Research PMLR pp. 897–906.",
+        "key": "e_1_3_5_24_1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_25_1",
+        "DOI": "10.1162/neco.1997.9.1.1"
+      },
+      {
+        "key": "e_1_3_5_26_1",
+        "volume-title": "Proceedings of the 38th International Conference on Machine Learning",
+        "volume": "139",
+        "author": "Hodgkinson L.",
+        "year": "2021",
+        "unstructured": "Hodgkinson, L. and Mahoney, M. W. (2021). Multiplicative noise and heavy tails in stochastic optimization, in M. Meila and T. Zhang (eds.), Proceedings of the 38th International Conference on Machine Learning, volume 139, Proceedings of Machine Learning Research, PMLR, 4262–4274."
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_27_1",
+        "DOI": "10.1109/TSIPN.2018.2846183"
+      },
+      {
+        "key": "e_1_3_5_28_1",
+        "volume-title": "Learning Multiple Layers of Features from Tiny Images",
+        "author": "Krizhevsky A.",
+        "year": "2009",
+        "unstructured": "Krizhevsky, A. and Hinton, G. (2009). Learning Multiple Layers of Features from Tiny Images. Citeseer."
+      },
+      {
+        "unstructured": "Le Q.V. Ngiam J. Coates A. Lahiri A. Prochnow B. and Ng A.Y. (2011). On optimization methods for deep learning in Proceedings of the 28th International Conference on International Conference on Machine Learning ICML’11 Bellevue Washington USA Omnipress Madison WI USA pp. 265–272.",
+        "key": "e_1_3_5_29_1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_30_1",
+        "DOI": "10.1038/nature14539"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_31_1",
+        "DOI": "10.1137/15M1009597"
+      },
+      {
+        "key": "e_1_3_5_32_1",
+        "first-page": "5336",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "volume": "30",
+        "author": "Lian X.",
+        "year": "2017",
+        "unstructured": "Lian, X., Zhang, C., Zhang, H., Hsieh, C.-J., Zhang, W. and Liu, J. (2017). Can decentralized algorithms outperform centralized algorithms? A case study for decentralized parallel stochastic gradient descent, in Advances in Neural Information Processing Systems, volume 30, pp. 5336–5346."
+      },
+      {
+        "key": "e_1_3_5_33_1",
+        "first-page": "4284",
+        "volume-title": "Proceedings of the 36th International Conference on Machine Learning",
+        "volume": "97",
+        "author": "Martin C.H.",
+        "year": "2019",
+        "unstructured": "Martin, C.H. and Mahoney, M.W. (2019). Traditional and heavy-tailed self regularization in neural network models, in K. Chaudhuri and R. Salakhutdinov (eds.), Proceedings of the 36th International Conference on Machine Learning, volume 97, Proceedings of Machine Learning Research, PMLR, pp. 4284–4293."
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_34_1",
+        "DOI": "10.1137/1.9781611976236.57"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_35_1",
+        "DOI": "10.1214/17-AOS1637"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_36_1",
+        "DOI": "10.1007/s00184-014-0515-7"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_37_1",
+        "DOI": "10.1109/TAC.2008.2009515"
+      },
+      {
+        "unstructured": "Panigrahi A. Somani R. Goyal N. and Netrapalli P. (2019). Non-Gaussianity of stochastic gradient noise. arXiv preprint arXiv:1910.09626.",
+        "key": "e_1_3_5_38_1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_39_1",
+        "DOI": "10.1109/MSP.2020.2975212"
+      },
+      {
+        "unstructured": "Raj A. Barsbey M. Gürbüzbalaban M. Zhu L. and Şimşekli U. (2023). Algorithmic stability of heavy-tailed stochastic gradient descent on least squares in S. Agrawal and F. Orabona (eds.) Proceedings of The 34th International Conference on Algorithmic Learning Theory volume 201 Proceedings of Machine Learning Research PMLR pp. 1292–1342.",
+        "key": "e_1_3_5_40_1"
+      },
+      {
+        "key": "e_1_3_5_41_1",
+        "first-page": "28578",
+        "volume-title": "Proceedings of the 40th International Conference on Machine Learning",
+        "volume": "202",
+        "author": "Raj A.",
+        "year": "2023",
+        "unstructured": "Raj, A., Zhu, L., Gürbüzbalaban, M. and Şimşekli, U. (2023). Algorithmic stability of heavy-tailed SGD with general loss functions, in A. Krause, E. Brunskill, K. Cho, B. Engelhardt, S. Sabato and J. Scarlett (eds.), Proceedings of the 40th International Conference on Machine Learning, volume 202, Proceedings of Machine Learning Research, PMLR, pp. 28578–28597."
+      },
+      {
+        "key": "e_1_3_5_42_1",
+        "first-page": "3581",
+        "volume-title": "Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held jointly with 2009 28th Chinese Control Conference",
+        "author": "Ram S.S.",
+        "year": "2009",
+        "unstructured": "Ram, S.S., Nedić, A. and Veeravalli, V. V. (2009). Asynchronous gossip algorithms for stochastic optimization, in Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held jointly with 2009 28th Chinese Control Conference, IEEE Press, Piscataway, NJ, pp. 3581–3586."
+      },
+      {
+        "unstructured": "Ruder S. (2016). An overview of gradient descent optimization algorithms. arXiv preprint arXiv:1609.04747.",
+        "key": "e_1_3_5_43_1"
+      },
+      {
+        "key": "e_1_3_5_44_1",
+        "volume-title": "Stochastic Processes for Insurance and Finance",
+        "author": "Schmidli H.",
+        "year": "2009",
+        "unstructured": "Schmidli, H., Schmidt, V., Teugels, J.L., and Rolski, T. (2009). Stochastic Processes for Insurance and Finance, Wiley, Chichester, West Sussex, England."
+      },
+      {
+        "key": "e_1_3_5_45_1",
+        "first-page": "5138",
+        "volume-title": "Proceedings of the 34th International Conference on Neural Information Processing Systems",
+        "volume": "33",
+        "author": "Şimşekli U.",
+        "year": "2020",
+        "unstructured": "Şimşekli, U., Sener, O., Deligiannidis, G. and Erdogdu, M.A. (2020). Hausdorff dimension, heavy tails, and generalization in neural networks, in H. Larochelle, M. Ranzato, R. Hadsell, M.F. Balcan and H. Lin (eds.), Proceedings of the 34th International Conference on Neural Information Processing Systems, NIPS ’20, Vancouver, BC, Canada, volume 33, Curran Associates, Inc., Red Hook, NY, USA, pp. 5138–5151."
+      },
+      {
+        "unstructured": "Şimşekli U. Gürbüzbalaban M. Nguyen T.H. Richard G. and Sagun L. (2019a). On the heavy-tailed theory of stochastic gradient descent for deep neural networks. arXiv preprint arXiv:1912.00018.",
+        "key": "e_1_3_5_46_1"
+      },
+      {
+        "key": "e_1_3_5_47_1",
+        "first-page": "5827",
+        "volume-title": "Proceedings of the 36th International Conference on Machine Learning",
+        "volume": "97",
+        "author": "Şimşekli U.",
+        "year": "2019",
+        "unstructured": "Şimşekli, U., Sagun, L. and Gürbüzbalaban, M. (2019). A tail-index analysis of stochastic gradient noise in deep neural networks, in K. Chaudhuri and R. Salakhutdinov (eds.), Proceedings of the 36th International Conference on Machine Learning, (ICML) 2019, 9–15 June 2019, Long Beach, California, USA, Proceedings of Machine Learning Research, volume 97, Proceedings of Machine Learning Research, PMLR, pp. 5827–5837."
+      },
+      {
+        "key": "e_1_3_5_48_1",
+        "first-page": "9058",
+        "volume-title": "Proceedings of the 37th International Conference on Machine Learnin",
+        "author": "Smith S. L.",
+        "year": "2020",
+        "unstructured": "Smith, S. L., Elsen, E. and De, S. (2020). On the generalization benefit of noise in stochastic gradient descent, in Proceedings of the 37th International Conference on Machine Learnin, (ICML) 2020, 13–18 July 2020, Virtual Event, volume 119, Proceedings of Machine Learning Research, PMLR, pp. 9058–9067."
+      },
+      {
+        "key": "e_1_3_5_49_1",
+        "first-page": "1965",
+        "volume-title": "International Conference on Artificial Intelligence and Statistics",
+        "author": "Soori S.",
+        "year": "2020",
+        "unstructured": "Soori, S., Mishchenko, K., Mokhtari, A., Dehnavi, M.M. and Gurbuzbalaban, M. (2020). Dave-QN: A distributed quasi-Newton method with local superlinear convergence rate, in International Conference on Artificial Intelligence and Statistics, pp. 1965–1976."
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_50_1",
+        "DOI": "10.1007/BF01219774"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_51_1",
+        "DOI": "10.1109/TSP.2021.3062553"
+      },
+      {
+        "key": "e_1_3_5_52_1",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "volume": "34",
+        "author": "Ying B.",
+        "year": "2021",
+        "unstructured": "Ying, B., Yuan, K., Chen, Y., Hu, H., Pan, P. and Yin, W. (2021). Exponential graph is provably efficient for decentralized deep training, in M. Ranzato, A. Beygelzimer, Y.N. Dauphin, P. Liang and J.W. Vaughan (eds.), Advances in Neural Information Processing Systems, Annual Conference on Neural Information Processing Systems 2021, NeurIPS 2021, December 6–14, 2021, Virtual, volume 34, pp. 13975–13987."
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_53_1",
+        "DOI": "10.1137/130943170"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "e_1_3_5_54_1",
+        "DOI": "10.1016/j.knosys.2021.106775"
+      },
+      {
+        "key": "e_1_3_5_55_1",
+        "volume-title": "8th International Conference on Learning Representations",
+        "author": "Zhang J.",
+        "year": "2019",
+        "unstructured": "Zhang, J., He, T., Sra, S. and Jadbabaie, A. (2019). Why gradient clipping accelerates training: A theoretical justification for adaptivity, in 8th International Conference on Learning Representations, (ICLR) 2020, Addis Ababa, Ethiopia, April 26–30, 2020, OpenReview.net."
+      }
+    ],
+    "container-title": [
+      "IISE Transactions"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/24725854.2024.2413888",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          22
+        ]
+      ],
+      "date-time": "2025-04-22T22:34:08Z",
+      "timestamp": 1745361248000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1080/24725854.2024.2413888"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          6
+        ]
+      ]
+    },
+    "references-count": 54,
+    "journal-issue": {
+      "issue": "7",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/24725854.2024.2413888"
+    ],
+    "URL": "https://doi.org/10.1080/24725854.2024.2413888",
+    "relation": {},
+    "ISSN": [
+      "2472-5854",
+      "2472-5862"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2472-5854"
+      },
+      {
+        "type": "electronic",
+        "value": "2472-5862"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+        "order": 1,
+        "name": "peerreview_statement",
+        "label": "Peer Review Statement"
+      },
+      {
+        "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=uiie21",
+        "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=uiie21",
+        "order": 2,
+        "name": "aims_and_scope_url",
+        "label": "Aim & Scope"
+      },
+      {
+        "value": "2023-05-26",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-07-09",
+        "order": 1,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-09-22",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-12-06",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

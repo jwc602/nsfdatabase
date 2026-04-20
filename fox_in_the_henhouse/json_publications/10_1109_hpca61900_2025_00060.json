@@ -1,0 +1,1363 @@
+{
+  "doi": "10.1109/hpca61900.2025.00060",
+  "openalex": {
+    "id": "https://openalex.org/W4409248475",
+    "doi": "https://doi.org/10.1109/hpca61900.2025.00060",
+    "title": "From Optimal to Practical: Efficient Micro-op Cache Replacement Policies for Data Center Applications",
+    "display_name": "From Optimal to Practical: Efficient Micro-op Cache Replacement Policies for Data Center Applications",
+    "publication_year": 2025,
+    "publication_date": "2025-03-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4409248475",
+      "doi": "https://doi.org/10.1109/hpca61900.2025.00060"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/hpca61900.2025.00060",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/hpca61900.2025.00060",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2025 IEEE International Symposium on High Performance Computer Architecture (HPCA)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5109738655",
+          "display_name": "Kan Zhu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kan Zhu",
+        "raw_affiliation_strings": [
+          "University of Washington"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Washington",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100297472",
+          "display_name": "Yilong Zhao",
+          "orcid": "https://orcid.org/0009-0004-0979-3550"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I134446601",
+            "display_name": "Berkeley College",
+            "ror": "https://ror.org/02xewxa75",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I134446601"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yilong Zhao",
+        "raw_affiliation_strings": [
+          "UC Berkeley"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "UC Berkeley",
+            "institution_ids": [
+              "https://openalex.org/I134446601",
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101726914",
+          "display_name": "Yufei Gao",
+          "orcid": "https://orcid.org/0000-0002-0836-9553"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yufei Gao",
+        "raw_affiliation_strings": [
+          "University of Washington"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Washington",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5050397079",
+          "display_name": "Peter Braun",
+          "orcid": "https://orcid.org/0000-0002-9870-465X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185103710",
+            "display_name": "University of California, Santa Cruz",
+            "ror": "https://ror.org/03s65by71",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185103710"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Peter Braun",
+        "raw_affiliation_strings": [
+          "UC Santa Cruz"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "UC Santa Cruz",
+            "institution_ids": [
+              "https://openalex.org/I185103710"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5075674776",
+          "display_name": "Tanvir Ahmed Khan",
+          "orcid": "https://orcid.org/0000-0003-3741-1455"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78577930",
+            "display_name": "Columbia University",
+            "ror": "https://ror.org/00hj8s172",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78577930"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tanvir Ahmed Khan",
+        "raw_affiliation_strings": [
+          "Columbia University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Columbia University",
+            "institution_ids": [
+              "https://openalex.org/I78577930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5002126571",
+          "display_name": "Heiner Litz",
+          "orcid": "https://orcid.org/0000-0001-5181-9639"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185103710",
+            "display_name": "University of California, Santa Cruz",
+            "ror": "https://ror.org/03s65by71",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185103710"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Heiner Litz",
+        "raw_affiliation_strings": [
+          "UC Santa Cruz"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "UC Santa Cruz",
+            "institution_ids": [
+              "https://openalex.org/I185103710"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5050964144",
+          "display_name": "Baris Kasikci",
+          "orcid": "https://orcid.org/0000-0001-6122-8998"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Baris Kasikci",
+        "raw_affiliation_strings": [
+          "University of Washington"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Washington",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5101506561",
+          "display_name": "Shuwen Deng",
+          "orcid": "https://orcid.org/0000-0002-9782-5038"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I99065089",
+            "display_name": "Tsinghua University",
+            "ror": "https://ror.org/03cve4549",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I99065089"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shuwen Deng",
+        "raw_affiliation_strings": [
+          "Tsinghua University,Department of Electronic Engineering"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Tsinghua University,Department of Electronic Engineering",
+            "institution_ids": [
+              "https://openalex.org/I99065089"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.12878151,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "716",
+      "last_page": "731"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10101",
+      "display_name": "Cloud Computing and Resource Management",
+      "score": 0.9968000054359436,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10101",
+        "display_name": "Cloud Computing and Resource Management",
+        "score": 0.9968000054359436,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11181",
+        "display_name": "Advanced Data Storage Technologies",
+        "score": 0.9940000176429749,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11478",
+        "display_name": "Caching and Content Delivery",
+        "score": 0.9937999844551086,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7411746978759766
+      },
+      {
+        "id": "https://openalex.org/keywords/cache",
+        "display_name": "Cache",
+        "score": 0.7343184947967529
+      },
+      {
+        "id": "https://openalex.org/keywords/center",
+        "display_name": "Center (category theory)",
+        "score": 0.5912888646125793
+      },
+      {
+        "id": "https://openalex.org/keywords/data-center",
+        "display_name": "Data center",
+        "score": 0.5145813822746277
+      },
+      {
+        "id": "https://openalex.org/keywords/operating-system",
+        "display_name": "Operating system",
+        "score": 0.39408552646636963
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7411746978759766
+      },
+      {
+        "id": "https://openalex.org/C115537543",
+        "wikidata": "https://www.wikidata.org/wiki/Q165596",
+        "display_name": "Cache",
+        "level": 2,
+        "score": 0.7343184947967529
+      },
+      {
+        "id": "https://openalex.org/C2779463800",
+        "wikidata": "https://www.wikidata.org/wiki/Q5062222",
+        "display_name": "Center (category theory)",
+        "level": 2,
+        "score": 0.5912888646125793
+      },
+      {
+        "id": "https://openalex.org/C153740404",
+        "wikidata": "https://www.wikidata.org/wiki/Q671224",
+        "display_name": "Data center",
+        "level": 2,
+        "score": 0.5145813822746277
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.39408552646636963
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C8010536",
+        "wikidata": "https://www.wikidata.org/wiki/Q160398",
+        "display_name": "Crystallography",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/hpca61900.2025.00060",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/hpca61900.2025.00060",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2025 IEEE International Symposium on High Performance Computer Architecture (HPCA)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 65,
+    "referenced_works": [
+      "https://openalex.org/W2045110768",
+      "https://openalex.org/W3196834892",
+      "https://openalex.org/W6779351615",
+      "https://openalex.org/W2951202371",
+      "https://openalex.org/W1987225815",
+      "https://openalex.org/W2767290677",
+      "https://openalex.org/W2166091242",
+      "https://openalex.org/W2290349115",
+      "https://openalex.org/W2140001655",
+      "https://openalex.org/W4225867623",
+      "https://openalex.org/W6755440866",
+      "https://openalex.org/W2284351912",
+      "https://openalex.org/W3197795418",
+      "https://openalex.org/W3206142460",
+      "https://openalex.org/W2109432325",
+      "https://openalex.org/W2766191055",
+      "https://openalex.org/W6794215233",
+      "https://openalex.org/W2497685462",
+      "https://openalex.org/W2791037177",
+      "https://openalex.org/W6703679862",
+      "https://openalex.org/W2161955331",
+      "https://openalex.org/W4231412993",
+      "https://openalex.org/W4239937081",
+      "https://openalex.org/W2883486038",
+      "https://openalex.org/W4253438286",
+      "https://openalex.org/W6775047284",
+      "https://openalex.org/W2042227350",
+      "https://openalex.org/W2761662547",
+      "https://openalex.org/W6627957575",
+      "https://openalex.org/W2118315969",
+      "https://openalex.org/W2234863406",
+      "https://openalex.org/W2149412112",
+      "https://openalex.org/W3207095753",
+      "https://openalex.org/W3192688428",
+      "https://openalex.org/W2147122795",
+      "https://openalex.org/W3207879247",
+      "https://openalex.org/W3103493595",
+      "https://openalex.org/W3005882303",
+      "https://openalex.org/W2613661332",
+      "https://openalex.org/W2039189705",
+      "https://openalex.org/W4214492038",
+      "https://openalex.org/W6779109089",
+      "https://openalex.org/W2122108187",
+      "https://openalex.org/W4239314300",
+      "https://openalex.org/W2884244401",
+      "https://openalex.org/W4241687679",
+      "https://openalex.org/W2952416601",
+      "https://openalex.org/W3131917500",
+      "https://openalex.org/W6802402198",
+      "https://openalex.org/W4214898277",
+      "https://openalex.org/W3144376511",
+      "https://openalex.org/W3194289480",
+      "https://openalex.org/W3190597741",
+      "https://openalex.org/W2236910285",
+      "https://openalex.org/W4280630845",
+      "https://openalex.org/W2980229124",
+      "https://openalex.org/W4401211838",
+      "https://openalex.org/W4235039807",
+      "https://openalex.org/W4236214562",
+      "https://openalex.org/W4281618602",
+      "https://openalex.org/W3205071825",
+      "https://openalex.org/W2140906558",
+      "https://openalex.org/W1978201796",
+      "https://openalex.org/W2150073849",
+      "https://openalex.org/W3175044348"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W4391913857",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W4396701345",
+      "https://openalex.org/W2376932109",
+      "https://openalex.org/W2379482911",
+      "https://openalex.org/W2645858920"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          11
+        ]
+      ],
+      "date-time": "2025-07-11T00:06:50Z",
+      "timestamp": 1752192410569,
+      "version": "3.41.2"
+    },
+    "reference-count": 94,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2025-03-01T00:00:00Z",
+          "timestamp": 1740787200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2025-03-01T00:00:00Z",
+          "timestamp": 1740787200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/hpca61900.2025.00060",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2025-04-08T13:05:40Z",
+      "timestamp": 1744117540000
+    },
+    "page": "716-731",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "From Optimal to Practical: Efficient Micro-op Cache Replacement Policies for Data Center Applications"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Kan",
+        "family": "Zhu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Washington"
+          }
+        ]
+      },
+      {
+        "given": "Yilong",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UC Berkeley"
+          }
+        ]
+      },
+      {
+        "given": "Yufei",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington"
+          }
+        ]
+      },
+      {
+        "given": "Peter",
+        "family": "Braun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UC Santa Cruz"
+          }
+        ]
+      },
+      {
+        "given": "Tanvir Ahmed",
+        "family": "Khan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Columbia University"
+          }
+        ]
+      },
+      {
+        "given": "Heiner",
+        "family": "Litz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "UC Santa Cruz"
+          }
+        ]
+      },
+      {
+        "given": "Baris",
+        "family": "Kasikci",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Washington"
+          }
+        ]
+      },
+      {
+        "given": "Shuwen",
+        "family": "Deng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tsinghua University,Department of Electronic Engineering"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "article-title": "Adding processor trace support to linux"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Apache cassandra"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Apache kafka"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Apache tomcat"
+      },
+      {
+        "key": "ref5",
+        "article-title": "Arm cortex-a710 core technical reference manual"
+      },
+      {
+        "year": "2021",
+        "key": "ref6",
+        "article-title": "Clang c language family frontend for llvm"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Intel 64 and ia-32 architectures software developer’s manual: Volume 3"
+      },
+      {
+        "key": "ref8",
+        "article-title": "The microarchitecture of intel, amd, and via cpus:an optimization guide for assembly programmers and compiler makers"
+      },
+      {
+        "year": "2021",
+        "key": "ref9",
+        "article-title": "Mysql"
+      },
+      {
+        "year": "2021",
+        "key": "ref10",
+        "article-title": "Postgresql: Documentation: 14: pgbench"
+      },
+      {
+        "year": "2021",
+        "key": "ref11",
+        "article-title": "Postgresql: The world’s most advanced open source database"
+      },
+      {
+        "year": "2021",
+        "key": "ref12",
+        "article-title": "The python performance benchmark suite"
+      },
+      {
+        "key": "ref13",
+        "article-title": "The real amount of energy a data center uses"
+      },
+      {
+        "key": "ref14",
+        "article-title": "Scarab"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Twitter finagle"
+      },
+      {
+        "year": "2021",
+        "key": "ref16",
+        "article-title": "Welcome to python.org"
+      },
+      {
+        "key": "ref17",
+        "article-title": "facebookarchive/oss-performance: Scripts for benchmarking various php implementations when running open source software"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1061267.1061271"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LCA.2021.3109945"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Fetch-directed instruction prefetching revisited",
+        "author": "Asheim",
+        "year": "2020",
+        "journal-title": "arXiv preprint arXiv:2006.13547"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3307650.3322234"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1147/sj.52.0078"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3224427"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1167473.1167488"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2854038.2854044"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/hicss.1989.47168"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2022.3165566"
+      },
+      {
+        "year": "2024",
+        "key": "ref28",
+        "article-title": "AMD’s Zen 4 Part 1: Frontend and Execution Engine chipsandcheese.com"
+      },
+      {
+        "volume-title": "Tpc-c",
+        "author": "Council",
+        "key": "ref29"
+      },
+      {
+        "key": "ref30",
+        "first-page": "17",
+        "article-title": "REPT:Reverse debugging of failures in deployed software",
+        "author": "Cui",
+        "journal-title": "13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18)"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/COMST.2015.2481183"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/HPCA53966.2022.00013"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3466752.3480115"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MICRO.2012.43"
+      },
+      {
+        "author": "Erquinigo",
+        "key": "ref35",
+        "article-title": "Reverse debugging at scale"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PACT.2017.32"
+      },
+      {
+        "key": "ref37",
+        "article-title": "A dueling segmented lru replacement algorithm with adaptive bypassing",
+        "author": "Gao",
+        "year": "2010",
+        "journal-title": "JWAC 2010-1st JILP Worshop on Computer Architecture Competitions: Cache Replacement Championship"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IPDPS.2016.118"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-981-10-8554-3_3"
+      },
+      {
+        "article-title": "Empirical study of the power consumption of the x86-64 instruction decoder",
+        "volume-title": "USENIX Workshop on Cool Topics on Sustainable Data Centers (CoolDC 16)",
+        "author": "Hirki",
+        "key": "ref40"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/12.868024"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA.2002.1003579"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA.2016.17"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA.2018.00020"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1816038.1815971"
+      },
+      {
+        "key": "ref46",
+        "first-page": "186",
+        "article-title": "The data model concept in statistical mapping",
+        "volume": "7",
+        "author": "Jenks",
+        "year": "1967",
+        "journal-title": "International yearbook of cartography"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/2.268884"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3132747.3132767"
+      },
+      {
+        "key": "ref49",
+        "first-page": "5",
+        "article-title": "Failure sketches: A better way to debug",
+        "volume": "2015",
+        "author": "Kasikci",
+        "journal-title": "ser. Hot Topics in Operating Systems"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2815400.2815412"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2830772.2830785"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MICRO.2010.24"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3466752.3480124"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA52012.2021.00063"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCD.2005.41"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3466752.3480079"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MICRO50266.2020.00025"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3296957.3173178"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/HPCA.2017.53"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/301453.301487"
+      },
+      {
+        "key": "ref61",
+        "first-page": "469",
+        "article-title": "Mcpat: An integrated power, area, and timing modeling framework for multicore and manycore architectures",
+        "volume-title": "2009 42nd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+        "author": "Li"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3503222.3507745"
+      },
+      {
+        "key": "ref63",
+        "article-title": "An imitation learning approach for cache replacement",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "arXiv preprint arXiv:2006.16239"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MICRO.2008.4771793"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA.1998.694769"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA.2018.00050"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/170036.170081"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CGO.2019.8661201"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3446804.3446843"
+      },
+      {
+        "key": "ref70",
+        "first-page": "804",
+        "article-title": "Branch runahead: An alternative to branch prediction for impossible to predict branches",
+        "volume-title": "MICRO-54: 54th Annual IEEE/ACM International Symposium on Microarchitecture, ser. MICRO ‘21",
+        "volume": "2021",
+        "author": "Pruett"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1273440.1250709"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA.2006.5"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/307338.300999"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA52012.2021.00036"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "crossref",
+        "first-page": "674",
+        "DOI": "10.1016/j.rser.2015.12.283",
+        "article-title": "Optimizing energy consumption for data centers",
+        "volume": "58",
+        "author": "Rong",
+        "year": "2016",
+        "journal-title": "Renewable and Sustainable Energy Reviews"
+      },
+      {
+        "key": "ref76",
+        "first-page": "355",
+        "article-title": "The evicted-address filter: A unified mechanism to address both cache pollution and thrashing",
+        "volume-title": "2012 21st International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+        "author": "Seshadri"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/HPCA53966.2022.00048"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3352460.3358319"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISCA59077.2024.00092"
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/301464.301486"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LPE.2001.945363"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3470496.3527430"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3466752.3480046"
+      },
+      {
+        "key": "ref84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MICRO.2006.7"
+      },
+      {
+        "article-title": "Operation cache",
+        "volume-title": "World Intellectual Property Organization (WIPO), 6 2018, filed by Advanced Micro Devices, Inc",
+        "author": "Suggs",
+        "key": "ref85"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1006209.1006213"
+      },
+      {
+        "year": "2012",
+        "key": "ref87",
+        "article-title": "Sandy Bridge (client)-Microarchitectures-Intel-WikiChip-en.wikichip.org"
+      },
+      {
+        "article-title": "Drupal-Wikipedia, the free encyclopedia",
+        "year": "2020",
+        "author": "contributors",
+        "key": "ref88"
+      },
+      {
+        "article-title": "Mediawiki-Wikipedia, the free encyclopedia",
+        "year": "2020",
+        "author": "contributors",
+        "key": "ref89"
+      },
+      {
+        "article-title": "Wordpress-Wikipedia, the free encyclopedia",
+        "year": "2020",
+        "author": "contributors",
+        "key": "ref90"
+      },
+      {
+        "key": "ref91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/4.509850"
+      },
+      {
+        "key": "ref92",
+        "first-page": "430",
+        "article-title": "Ship: Signature-based hit predictor for high performance caching",
+        "volume-title": "Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture",
+        "author": "Wu"
+      },
+      {
+        "article-title": "Ship++: Enhancing signature-based hit predictor for improved cache performance",
+        "volume-title": "The 2nd Cache Replacement Championship (CRC-2 Workshop in ISCA 2017",
+        "author": "Young",
+        "key": "ref93"
+      },
+      {
+        "key": "ref94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3453483.3454101"
+      }
+    ],
+    "event": {
+      "name": "2025 IEEE International Symposium on High Performance Computer Architecture (HPCA)",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            1
+          ]
+        ]
+      },
+      "location": "Las Vegas, NV, USA",
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            5
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2025 IEEE International Symposium on High Performance Computer Architecture (HPCA)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10946287/10946288/10946783.pdf?arnumber=10946783",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          10
+        ]
+      ],
+      "date-time": "2025-07-10T17:44:27Z",
+      "timestamp": 1752169467000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10946783/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          1
+        ]
+      ]
+    },
+    "references-count": 94,
+    "URL": "https://doi.org/10.1109/hpca61900.2025.00060",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          1
+        ]
+      ]
+    }
+  }
+}

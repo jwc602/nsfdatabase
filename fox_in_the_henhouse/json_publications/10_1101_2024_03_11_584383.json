@@ -1,0 +1,2530 @@
+{
+  "doi": "10.1101/2024.03.11.584383",
+  "openalex": {
+    "id": "https://openalex.org/W4392815750",
+    "doi": "https://doi.org/10.1101/2024.03.11.584383",
+    "title": "Residual Partial Least Squares Learning: Brain Cortical Thickness Simultaneously Predicts Eight Non-pairwise-correlated Behavioural and Disease Outcomes in Alzheimer's Disease",
+    "display_name": "Residual Partial Least Squares Learning: Brain Cortical Thickness Simultaneously Predicts Eight Non-pairwise-correlated Behavioural and Disease Outcomes in Alzheimer's Disease",
+    "publication_year": 2024,
+    "publication_date": "2024-03-13",
+    "ids": {
+      "openalex": "https://openalex.org/W4392815750",
+      "doi": "https://doi.org/10.1101/2024.03.11.584383",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38559263"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1101/2024.03.11.584383",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1101/2024.03.11.584383",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/27/2024.03.11.584383.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402567",
+        "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2750212522",
+        "host_organization_name": "Cold Spring Harbor Laboratory",
+        "host_organization_lineage": [
+          "https://openalex.org/I2750212522"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "type": "preprint",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/27/2024.03.11.584383.full.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5074236126",
+          "display_name": "Oliver Y. Chén",
+          "orcid": "https://orcid.org/0000-0003-1896-6244"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2802229882",
+            "display_name": "University Hospital of Lausanne",
+            "ror": "https://ror.org/05a353079",
+            "country_code": "CH",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2802229882"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97565354",
+            "display_name": "University of Lausanne",
+            "ror": "https://ror.org/019whta54",
+            "country_code": "CH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97565354"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I177233841",
+            "display_name": "Vietnam National University, Hanoi",
+            "ror": "https://ror.org/02jmfj006",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177233841"
+            ]
+          }
+        ],
+        "countries": [
+          "CH",
+          "VN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Oliver Y. Chen",
+        "raw_affiliation_strings": [
+          "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+          "Faculté de Biologie et de Médecine, Université de Lausanne (UNIL), Lausanne, Switzerland",
+          "The Advanced Institute of Engineering and Technology, Vietnam National University, Hanoi, Vietnam"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Advanced Institute of Engineering and Technology, Vietnam National University, Hanoi, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I177233841"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Faculté de Biologie et de Médecine, Université de Lausanne (UNIL), Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I97565354"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I2802229882"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5104154146",
+          "display_name": "Duy-Cat Can",
+          "orcid": "https://orcid.org/0000-0002-6861-2893"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2802229882",
+            "display_name": "University Hospital of Lausanne",
+            "ror": "https://ror.org/05a353079",
+            "country_code": "CH",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2802229882"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I177233841",
+            "display_name": "Vietnam National University, Hanoi",
+            "ror": "https://ror.org/02jmfj006",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177233841"
+            ]
+          }
+        ],
+        "countries": [
+          "CH",
+          "VN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Duy-Cat Can",
+        "raw_affiliation_strings": [
+          "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+          "The Advanced Institute of Engineering and Technology, Vietnam National University, Hanoi, Vietnam"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I2802229882"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Advanced Institute of Engineering and Technology, Vietnam National University, Hanoi, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I177233841"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5111147085",
+          "display_name": "Christelle Schneuwly Diaz",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2802229882",
+            "display_name": "University Hospital of Lausanne",
+            "ror": "https://ror.org/05a353079",
+            "country_code": "CH",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2802229882"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97565354",
+            "display_name": "University of Lausanne",
+            "ror": "https://ror.org/019whta54",
+            "country_code": "CH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97565354"
+            ]
+          }
+        ],
+        "countries": [
+          "CH"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Christelle Schneuwly Diaz",
+        "raw_affiliation_strings": [
+          "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+          "Faculté de Biologie et de Médecine, Université de Lausanne (UNIL), Lausanne, Switzerland"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculté de Biologie et de Médecine, Université de Lausanne (UNIL), Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I97565354"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I2802229882"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5043223701",
+          "display_name": "Julien Bodelet",
+          "orcid": "https://orcid.org/0000-0001-5565-6355"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2802229882",
+            "display_name": "University Hospital of Lausanne",
+            "ror": "https://ror.org/05a353079",
+            "country_code": "CH",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2802229882"
+            ]
+          }
+        ],
+        "countries": [
+          "CH"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Julien S. Bodelet",
+        "raw_affiliation_strings": [
+          "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I2802229882"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102023713",
+          "display_name": "Huy P. Phan",
+          "orcid": "https://orcid.org/0000-0002-3066-4647"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I99464096",
+            "display_name": "KU Leuven",
+            "ror": "https://ror.org/05f950310",
+            "country_code": "BE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I99464096"
+            ]
+          }
+        ],
+        "countries": [
+          "BE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Huy Phan",
+        "raw_affiliation_strings": [
+          "Department of Electrical Engineering, KU Leuven, Leuven, Belgium"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical Engineering, KU Leuven, Leuven, Belgium",
+            "institution_ids": [
+              "https://openalex.org/I99464096"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5089656475",
+          "display_name": "Huy Phan",
+          "orcid": "https://orcid.org/0000-0002-4455-6719"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I99464096",
+            "display_name": "KU Leuven",
+            "ror": "https://ror.org/05f950310",
+            "country_code": "BE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I99464096"
+            ]
+          }
+        ],
+        "countries": [
+          "BE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Huy Phan",
+        "raw_affiliation_strings": [
+          "Centre Leenaards de la Mémoire, CHUV, Lausanne, Switzerland",
+          "Department of Electrical Engineering, KU Leuven, Leuven, Belgium"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical Engineering, KU Leuven, Leuven, Belgium",
+            "institution_ids": [
+              "https://openalex.org/I99464096"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Centre Leenaards de la Mémoire, CHUV, Lausanne, Switzerland",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101431978",
+          "display_name": "Viet-Dung Nguyen",
+          "orcid": "https://orcid.org/0000-0002-4455-6719"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210123702",
+            "display_name": "Laboratoire des Sciences et Techniques de l’Information de la Communication et de la Connaissance",
+            "ror": "https://ror.org/0266kfd37",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I180375564",
+              "https://openalex.org/I201181511",
+              "https://openalex.org/I205703379",
+              "https://openalex.org/I2802204017",
+              "https://openalex.org/I4210123702",
+              "https://openalex.org/I4210127572",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I4210159245",
+              "https://openalex.org/I4412460332"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I161929037",
+            "display_name": "Université de Bretagne Occidentale",
+            "ror": "https://ror.org/01b8h3982",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161929037"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I201181511",
+            "display_name": "École Nationale Supérieure de Techniques Avancées",
+            "ror": "https://ror.org/0309cs235",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201181511",
+              "https://openalex.org/I4210145102"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210148559",
+            "display_name": "École nationale supérieure de techniques avancées Bretagne",
+            "ror": "https://ror.org/059n54003",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210148559"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I177233841",
+            "display_name": "Vietnam National University, Hanoi",
+            "ror": "https://ror.org/02jmfj006",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177233841"
+            ]
+          }
+        ],
+        "countries": [
+          "FR",
+          "VN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Viet-Dung Nguyen",
+        "raw_affiliation_strings": [
+          "Centre Leenaards de la Mémoire, CHUV, Lausanne, Switzerland",
+          "Lab-STICC, École Nationale Supérieure de Techniques Avancées de Bretagne, Bretagne, France",
+          "The Advanced Institute of Engineering and Technology, Vietnam National University, Hanoi, Vietnam"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Centre Leenaards de la Mémoire, CHUV, Lausanne, Switzerland",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Lab-STICC, École Nationale Supérieure de Techniques Avancées de Bretagne, Bretagne, France",
+            "institution_ids": [
+              "https://openalex.org/I161929037",
+              "https://openalex.org/I201181511",
+              "https://openalex.org/I4210123702",
+              "https://openalex.org/I4210148559"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Advanced Institute of Engineering and Technology, Vietnam National University, Hanoi, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I177233841"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101431978",
+          "display_name": "Viet-Dung Nguyen",
+          "orcid": "https://orcid.org/0000-0003-4168-0391"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210123702",
+            "display_name": "Laboratoire des Sciences et Techniques de l’Information de la Communication et de la Connaissance",
+            "ror": "https://ror.org/0266kfd37",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I180375564",
+              "https://openalex.org/I201181511",
+              "https://openalex.org/I205703379",
+              "https://openalex.org/I2802204017",
+              "https://openalex.org/I4210123702",
+              "https://openalex.org/I4210127572",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I4210159245",
+              "https://openalex.org/I4412460332"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I161929037",
+            "display_name": "Université de Bretagne Occidentale",
+            "ror": "https://ror.org/01b8h3982",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161929037"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I201181511",
+            "display_name": "École Nationale Supérieure de Techniques Avancées",
+            "ror": "https://ror.org/0309cs235",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201181511",
+              "https://openalex.org/I4210145102"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210148559",
+            "display_name": "École nationale supérieure de techniques avancées Bretagne",
+            "ror": "https://ror.org/059n54003",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210148559"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1327576362",
+            "display_name": "Feinstein Institute for Medical Research",
+            "ror": "https://ror.org/05dnene97",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1302444339",
+              "https://openalex.org/I1327576362"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210166545",
+            "display_name": "Zucker Hillside Hospital",
+            "ror": "https://ror.org/05vh9vp33",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1302444339",
+              "https://openalex.org/I4210166545"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I177233841",
+            "display_name": "Vietnam National University, Hanoi",
+            "ror": "https://ror.org/02jmfj006",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177233841"
+            ]
+          }
+        ],
+        "countries": [
+          "FR",
+          "US",
+          "VN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Viet-Dung Nguyen",
+        "raw_affiliation_strings": [
+          "Center for Psychiatric Neuroscience, Feinstein Institutes for Medical Research, Manhasset, NY, USA",
+          "Division of Psychiatry Research, Zucker Hillside Hospital, Glen Oaks, NY, USA",
+          "Lab-STICC, École Nationale Supérieure de Techniques Avancées de Bretagne, Bretagne, France",
+          "The Advanced Institute of Engineering and Technology, Vietnam National University, Hanoi, Vietnam"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Division of Psychiatry Research, Zucker Hillside Hospital, Glen Oaks, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I4210166545"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Advanced Institute of Engineering and Technology, Vietnam National University, Hanoi, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I177233841"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Psychiatric Neuroscience, Feinstein Institutes for Medical Research, Manhasset, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I1327576362"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Lab-STICC, École Nationale Supérieure de Techniques Avancées de Bretagne, Bretagne, France",
+            "institution_ids": [
+              "https://openalex.org/I161929037",
+              "https://openalex.org/I201181511",
+              "https://openalex.org/I4210123702",
+              "https://openalex.org/I4210148559"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040725058",
+          "display_name": "Xingru He",
+          "orcid": "https://orcid.org/0000-0003-4168-0391"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210097747",
+            "display_name": "He University",
+            "ror": "https://ror.org/00x4qp065",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210097747"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1327576362",
+            "display_name": "Feinstein Institute for Medical Research",
+            "ror": "https://ror.org/05dnene97",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1302444339",
+              "https://openalex.org/I1327576362"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210166545",
+            "display_name": "Zucker Hillside Hospital",
+            "ror": "https://ror.org/05vh9vp33",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1302444339",
+              "https://openalex.org/I4210166545"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xingru He",
+        "raw_affiliation_strings": [
+          "Center for Psychiatric Neuroscience, Feinstein Institutes for Medical Research, Manhasset, NY, USA",
+          "Division of Psychiatry Research, Zucker Hillside Hospital, Glen Oaks, NY, USA",
+          "School of Public Health, He University, Shengyang, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Psychiatric Neuroscience, Feinstein Institutes for Medical Research, Manhasset, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I1327576362"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Division of Psychiatry Research, Zucker Hillside Hospital, Glen Oaks, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I4210166545"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Public Health, He University, Shengyang, China",
+            "institution_ids": [
+              "https://openalex.org/I4210097747"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5015930123",
+          "display_name": "Yannick D. Müller",
+          "orcid": "https://orcid.org/0000-0003-0513-7156"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2802229882",
+            "display_name": "University Hospital of Lausanne",
+            "ror": "https://ror.org/05a353079",
+            "country_code": "CH",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2802229882"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210097747",
+            "display_name": "He University",
+            "ror": "https://ror.org/00x4qp065",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210097747"
+            ]
+          }
+        ],
+        "countries": [
+          "CH",
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yannick Muller",
+        "raw_affiliation_strings": [
+          "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+          "School of Public Health, He University, Shengyang, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I2802229882"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Public Health, He University, Shengyang, China",
+            "institution_ids": [
+              "https://openalex.org/I4210097747"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5058837037",
+          "display_name": "Yannick D. Müller",
+          "orcid": "https://orcid.org/0000-0003-0513-7156"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2802229882",
+            "display_name": "University Hospital of Lausanne",
+            "ror": "https://ror.org/05a353079",
+            "country_code": "CH",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2802229882"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I36234482",
+            "display_name": "University of Bristol",
+            "ror": "https://ror.org/0524sp257",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ],
+        "countries": [
+          "CH",
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yannick Muller",
+        "raw_affiliation_strings": [
+          "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+          "Innovation and Healthcare Group, University of Bristol, Bristol, UK"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Innovation and Healthcare Group, University of Bristol, Bristol, UK",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I2802229882"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5058837037",
+          "display_name": "Haochang Shou",
+          "orcid": "https://orcid.org/0000-0002-8530-1317"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I36234482",
+            "display_name": "University of Bristol",
+            "ror": "https://ror.org/0524sp257",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36234482"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "GB",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Haochang Shou",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, University of Pennsylvania, Philadelphia, PA, USA",
+          "Innovation and Healthcare Group, University of Bristol, Bristol, UK"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Innovation and Healthcare Group, University of Bristol, Bristol, UK",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biostatistics, University of Pennsylvania, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100425879",
+          "display_name": "Haoyu Zhang",
+          "orcid": "https://orcid.org/0000-0002-3043-047X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4391012607",
+            "display_name": "Division of Cancer Epidemiology and Genetics",
+            "ror": "https://ror.org/00vkwep27",
+            "country_code": null,
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1299022934",
+              "https://openalex.org/I1299303238",
+              "https://openalex.org/I4210140884",
+              "https://openalex.org/I4391012607"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1299303238",
+            "display_name": "National Institutes of Health",
+            "ror": "https://ror.org/01cwqze88",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1299022934",
+              "https://openalex.org/I1299303238"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I79576946",
+            "display_name": "University of Pennsylvania",
+            "ror": "https://ror.org/00b30xv10",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79576946"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Haoyu Zhang",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, University of Pennsylvania, Philadelphia, PA, USA",
+          "Division of Cancer Epidemiology and Genetics, National Institutes of Health, Bethesda, MD, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biostatistics, University of Pennsylvania, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I79576946"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Division of Cancer Epidemiology and Genetics, National Institutes of Health, Bethesda, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I1299303238",
+              "https://openalex.org/I4391012607"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101869347",
+          "display_name": "Wei He",
+          "orcid": "https://orcid.org/0000-0002-8796-7147"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4391012607",
+            "display_name": "Division of Cancer Epidemiology and Genetics",
+            "ror": "https://ror.org/00vkwep27",
+            "country_code": null,
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1299022934",
+              "https://openalex.org/I1299303238",
+              "https://openalex.org/I4210140884",
+              "https://openalex.org/I4391012607"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210097747",
+            "display_name": "He University",
+            "ror": "https://ror.org/00x4qp065",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210097747"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1299303238",
+            "display_name": "National Institutes of Health",
+            "ror": "https://ror.org/01cwqze88",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1299022934",
+              "https://openalex.org/I1299303238"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wei He",
+        "raw_affiliation_strings": [
+          "Division of Cancer Epidemiology and Genetics, National Institutes of Health, Bethesda, MD, USA",
+          "School of Public Health, He University, Shengyang, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Public Health, He University, Shengyang, China",
+            "institution_ids": [
+              "https://openalex.org/I4210097747"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Division of Cancer Epidemiology and Genetics, National Institutes of Health, Bethesda, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I1299303238",
+              "https://openalex.org/I4391012607"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101589884",
+          "display_name": "Xiaojun Wang",
+          "orcid": "https://orcid.org/0000-0002-8024-1263"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210097747",
+            "display_name": "He University",
+            "ror": "https://ror.org/00x4qp065",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210097747"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I36234482",
+            "display_name": "University of Bristol",
+            "ror": "https://ror.org/0524sp257",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaojun Wang",
+        "raw_affiliation_strings": [
+          "Innovation and Healthcare Group, University of Bristol, Bristol, UK",
+          "School of Public Health, He University, Shengyang, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Innovation and Healthcare Group, University of Bristol, Bristol, UK",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Public Health, He University, Shengyang, China",
+            "institution_ids": [
+              "https://openalex.org/I4210097747"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5043286499",
+          "display_name": "Xiaojun Wang",
+          "orcid": "https://orcid.org/0000-0002-5788-9387"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I36234482",
+            "display_name": "University of Bristol",
+            "ror": "https://ror.org/0524sp257",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaojun Wang",
+        "raw_affiliation_strings": [
+          "Innovation and Healthcare Group, University of Bristol, Bristol, UK",
+          "School of Psychological Science, University of Bristol, Bristol, UK"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Innovation and Healthcare Group, University of Bristol, Bristol, UK",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Psychological Science, University of Bristol, Bristol, UK",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5006758334",
+          "display_name": "Marcus R. Munafò",
+          "orcid": "https://orcid.org/0000-0002-4049-993X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I36234482",
+            "display_name": "University of Bristol",
+            "ror": "https://ror.org/0524sp257",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Marcus Munafo",
+        "raw_affiliation_strings": [
+          "School of Psychological Science, University of Bristol, Bristol, UK"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Psychological Science, University of Bristol, Bristol, UK",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5030665830",
+          "display_name": "Guy Nagels",
+          "orcid": "https://orcid.org/0000-0002-2597-0383"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210126764",
+            "display_name": "Universitair Ziekenhuis Brussel",
+            "ror": "https://ror.org/038f7y939",
+            "country_code": "BE",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210126764"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I40120149",
+            "display_name": "University of Oxford",
+            "ror": "https://ror.org/052gg0110",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I40120149"
+            ]
+          }
+        ],
+        "countries": [
+          "BE",
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Guy Nagels",
+        "raw_affiliation_strings": [
+          "Department of Neurology, Universitair Ziekenhuis Brussel, Jette, Belgium",
+          "Institute of Biomedical Engineering, University of Oxford, Oxford, UK"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Biomedical Engineering, University of Oxford, Oxford, UK",
+            "institution_ids": [
+              "https://openalex.org/I40120149"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Neurology, Universitair Ziekenhuis Brussel, Jette, Belgium",
+            "institution_ids": [
+              "https://openalex.org/I4210126764"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023594320",
+          "display_name": "Philippe Ryvlin",
+          "orcid": "https://orcid.org/0000-0001-7775-6576"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2802229882",
+            "display_name": "University Hospital of Lausanne",
+            "ror": "https://ror.org/05a353079",
+            "country_code": "CH",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2802229882"
+            ]
+          }
+        ],
+        "countries": [
+          "CH"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Philippe Ryvlin",
+        "raw_affiliation_strings": [
+          "Département des Neurosciences Cliniques, CHUV, Lausanne, Switzerland"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Département des Neurosciences Cliniques, CHUV, Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I2802229882"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5069979656",
+          "display_name": "Nguyen Linh Trung",
+          "orcid": "https://orcid.org/0000-0003-3651-2721"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2802229882",
+            "display_name": "University Hospital of Lausanne",
+            "ror": "https://ror.org/05a353079",
+            "country_code": "CH",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2802229882"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I177233841",
+            "display_name": "Vietnam National University, Hanoi",
+            "ror": "https://ror.org/02jmfj006",
+            "country_code": "VN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177233841"
+            ]
+          }
+        ],
+        "countries": [
+          "CH",
+          "VN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Nguyen Linh Trung",
+        "raw_affiliation_strings": [
+          "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+          "The Advanced Institute of Engineering and Technology, Vietnam National University, Hanoi, Vietnam"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I2802229882"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Advanced Institute of Engineering and Technology, Vietnam National University, Hanoi, Vietnam",
+            "institution_ids": [
+              "https://openalex.org/I177233841"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5007165900",
+          "display_name": "Giuseppe Pantaleo",
+          "orcid": "https://orcid.org/0000-0003-3651-2721"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2802229882",
+            "display_name": "University Hospital of Lausanne",
+            "ror": "https://ror.org/05a353079",
+            "country_code": "CH",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2802229882"
+            ]
+          }
+        ],
+        "countries": [
+          "CH"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Giuseppe Pantaleo",
+        "raw_affiliation_strings": [
+          "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I2802229882"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5074236126",
+          "display_name": "Oliver Y. Chén",
+          "orcid": "https://orcid.org/0000-0002-5696-3127"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2802229882",
+            "display_name": "University Hospital of Lausanne",
+            "ror": "https://ror.org/05a353079",
+            "country_code": "CH",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2802229882"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97565354",
+            "display_name": "University of Lausanne",
+            "ror": "https://ror.org/019whta54",
+            "country_code": "CH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97565354"
+            ]
+          }
+        ],
+        "countries": [
+          "CH"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Oliver Y. Chen",
+        "raw_affiliation_strings": [
+          "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+          "Faculté de Biologie et de Médecine, Université de Lausanne (UNIL), Lausanne, Switzerland"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Département Médecine de Laboratoire et Pathologie, Centre Hospitalier Universitaire Vaudois (CHUV), Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I2802229882"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Faculté de Biologie et de Médecine, Université de Lausanne (UNIL), Lausanne, Switzerland",
+            "institution_ids": [
+              "https://openalex.org/I97565354"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 7,
+    "institutions_distinct_count": 22,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5104154146",
+      "https://openalex.org/A5074236126",
+      "https://openalex.org/A5074236126"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I177233841",
+      "https://openalex.org/I2802229882",
+      "https://openalex.org/I97565354"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.04249874,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 0.9972000122070312,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10241",
+        "display_name": "Functional Brain Connectivity Studies",
+        "score": 0.9972000122070312,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10211",
+        "display_name": "Computational Drug Discovery Methods",
+        "score": 0.9567000269889832,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10009",
+        "display_name": "Dementia and Cognitive Impairment Research",
+        "score": 0.95660001039505,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2738",
+          "display_name": "Psychiatry and Mental health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/residual",
+        "display_name": "Residual",
+        "score": 0.6872158646583557
+      },
+      {
+        "id": "https://openalex.org/keywords/disease",
+        "display_name": "Disease",
+        "score": 0.6824392080307007
+      },
+      {
+        "id": "https://openalex.org/keywords/pairwise-comparison",
+        "display_name": "Pairwise comparison",
+        "score": 0.6592873334884644
+      },
+      {
+        "id": "https://openalex.org/keywords/partial-least-squares-regression",
+        "display_name": "Partial least squares regression",
+        "score": 0.5565170049667358
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.43876075744628906
+      },
+      {
+        "id": "https://openalex.org/keywords/medicine",
+        "display_name": "Medicine",
+        "score": 0.3726298213005066
+      },
+      {
+        "id": "https://openalex.org/keywords/statistics",
+        "display_name": "Statistics",
+        "score": 0.3569769263267517
+      },
+      {
+        "id": "https://openalex.org/keywords/internal-medicine",
+        "display_name": "Internal medicine",
+        "score": 0.349037230014801
+      },
+      {
+        "id": "https://openalex.org/keywords/neuroscience",
+        "display_name": "Neuroscience",
+        "score": 0.34244483709335327
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.30969226360321045
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.11304685473442078
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C155512373",
+        "wikidata": "https://www.wikidata.org/wiki/Q287450",
+        "display_name": "Residual",
+        "level": 2,
+        "score": 0.6872158646583557
+      },
+      {
+        "id": "https://openalex.org/C2779134260",
+        "wikidata": "https://www.wikidata.org/wiki/Q12136",
+        "display_name": "Disease",
+        "level": 2,
+        "score": 0.6824392080307007
+      },
+      {
+        "id": "https://openalex.org/C184898388",
+        "wikidata": "https://www.wikidata.org/wiki/Q1435712",
+        "display_name": "Pairwise comparison",
+        "level": 2,
+        "score": 0.6592873334884644
+      },
+      {
+        "id": "https://openalex.org/C22354355",
+        "wikidata": "https://www.wikidata.org/wiki/Q422009",
+        "display_name": "Partial least squares regression",
+        "level": 2,
+        "score": 0.5565170049667358
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.43876075744628906
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.3726298213005066
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.3569769263267517
+      },
+      {
+        "id": "https://openalex.org/C126322002",
+        "wikidata": "https://www.wikidata.org/wiki/Q11180",
+        "display_name": "Internal medicine",
+        "level": 1,
+        "score": 0.349037230014801
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.34244483709335327
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.30969226360321045
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.11304685473442078
+      }
+    ],
+    "mesh": [],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "doi:10.1101/2024.03.11.584383",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1101/2024.03.11.584383",
+        "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/27/2024.03.11.584383.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402567",
+          "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I2750212522",
+          "host_organization_name": "Cold Spring Harbor Laboratory",
+          "host_organization_lineage": [
+            "https://openalex.org/I2750212522"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      },
+      {
+        "id": "pmid:38559263",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38559263",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "bioRxiv : the preprint server for biology",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:10979899",
+        "is_oa": true,
+        "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10979899/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "bioRxiv",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:serval.unil.ch:BIB_3B332933DA5C",
+        "is_oa": false,
+        "landing_page_url": "https://serval.unil.ch/notice/serval:BIB_3B332933DA5C",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401797",
+          "display_name": "SERVAL (Université de Lausanne)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4210093590",
+          "host_organization_name": "Swiss School of Archaeology in Greece",
+          "host_organization_lineage": [
+            "https://openalex.org/I4210093590"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "info:eu-repo/semantics/submittedVersion"
+      },
+      {
+        "id": "pmh:oai:serval.unil.ch:BIB_DE5854C92A82",
+        "is_oa": false,
+        "landing_page_url": "https://serval.unil.ch/notice/serval:BIB_DE5854C92A82",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401797",
+          "display_name": "SERVAL (Université de Lausanne)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I4210093590",
+          "host_organization_name": "Swiss School of Archaeology in Greece",
+          "host_organization_lineage": [
+            "https://openalex.org/I4210093590"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "info:eu-repo/semantics/submittedVersion"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1101/2024.03.11.584383",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1101/2024.03.11.584383",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/27/2024.03.11.584383.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402567",
+        "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2750212522",
+        "host_organization_name": "Cold Spring Harbor Laboratory",
+        "host_organization_lineage": [
+          "https://openalex.org/I2750212522"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/4",
+        "display_name": "Quality Education",
+        "score": 0.5600000023841858
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": true
+    },
+    "referenced_works_count": 80,
+    "referenced_works": [
+      "https://openalex.org/W2096186607",
+      "https://openalex.org/W2184117918",
+      "https://openalex.org/W4385694563",
+      "https://openalex.org/W6684946434",
+      "https://openalex.org/W2142483272",
+      "https://openalex.org/W2294832214",
+      "https://openalex.org/W4232493824",
+      "https://openalex.org/W2154059262",
+      "https://openalex.org/W2041148086",
+      "https://openalex.org/W2127783618",
+      "https://openalex.org/W1963590873",
+      "https://openalex.org/W2556241214",
+      "https://openalex.org/W2022500640",
+      "https://openalex.org/W2067430815",
+      "https://openalex.org/W2148230634",
+      "https://openalex.org/W2139784227",
+      "https://openalex.org/W2062860346",
+      "https://openalex.org/W1992816730",
+      "https://openalex.org/W2018759627",
+      "https://openalex.org/W2001477615",
+      "https://openalex.org/W2130442924",
+      "https://openalex.org/W1995810302",
+      "https://openalex.org/W4286696753",
+      "https://openalex.org/W2622366552",
+      "https://openalex.org/W2978188981",
+      "https://openalex.org/W1964965688",
+      "https://openalex.org/W2073503722",
+      "https://openalex.org/W2128881698",
+      "https://openalex.org/W4235242162",
+      "https://openalex.org/W2144631174",
+      "https://openalex.org/W2943352209",
+      "https://openalex.org/W3109762849",
+      "https://openalex.org/W2114682707",
+      "https://openalex.org/W2024328355",
+      "https://openalex.org/W4249565903",
+      "https://openalex.org/W4256562451",
+      "https://openalex.org/W4320300844",
+      "https://openalex.org/W2158592797",
+      "https://openalex.org/W2171808809",
+      "https://openalex.org/W2561354204",
+      "https://openalex.org/W3112948680",
+      "https://openalex.org/W2108488321",
+      "https://openalex.org/W293083176",
+      "https://openalex.org/W1968053343",
+      "https://openalex.org/W2007044705",
+      "https://openalex.org/W2581744255",
+      "https://openalex.org/W2964654575",
+      "https://openalex.org/W2001586387",
+      "https://openalex.org/W2143017382",
+      "https://openalex.org/W2171380313",
+      "https://openalex.org/W2143285014",
+      "https://openalex.org/W3081200890",
+      "https://openalex.org/W2215958284",
+      "https://openalex.org/W4247759744",
+      "https://openalex.org/W2121233493",
+      "https://openalex.org/W2169579059",
+      "https://openalex.org/W2254736880",
+      "https://openalex.org/W2153453348",
+      "https://openalex.org/W2150753346",
+      "https://openalex.org/W1588839144",
+      "https://openalex.org/W2129372078",
+      "https://openalex.org/W2164417323",
+      "https://openalex.org/W2166770399",
+      "https://openalex.org/W1506342804",
+      "https://openalex.org/W2046774605",
+      "https://openalex.org/W4246550352",
+      "https://openalex.org/W4250396044",
+      "https://openalex.org/W2508457857",
+      "https://openalex.org/W2084667179",
+      "https://openalex.org/W2087167911",
+      "https://openalex.org/W2981731882",
+      "https://openalex.org/W2951617899",
+      "https://openalex.org/W2132587081",
+      "https://openalex.org/W2108474398",
+      "https://openalex.org/W2258110549",
+      "https://openalex.org/W1989222460",
+      "https://openalex.org/W1559158193",
+      "https://openalex.org/W2134814783",
+      "https://openalex.org/W1965741498",
+      "https://openalex.org/W2995949384"
+    ],
+    "related_works": [
+      "https://openalex.org/W2487162673",
+      "https://openalex.org/W2793211469",
+      "https://openalex.org/W2949152769",
+      "https://openalex.org/W4372354731",
+      "https://openalex.org/W2942366970",
+      "https://openalex.org/W2807634898",
+      "https://openalex.org/W1692008701",
+      "https://openalex.org/W2597588799",
+      "https://openalex.org/W4360593462",
+      "https://openalex.org/W2562400057"
+    ],
+    "abstract_inverted_index": {
+      "Alzheimer's": [
+        0
+      ],
+      "Disease": [
+        1
+      ],
+      "(AD)": [
+        2
+      ],
+      "is": [
+        3,
+        42
+      ],
+      "the": [
+        4,
+        29,
+        76
+      ],
+      "leading": [
+        5
+      ],
+      "cause": [
+        6
+      ],
+      "of": [
+        7,
+        40,
+        144
+      ],
+      "dementia,": [
+        8
+      ],
+      "affecting": [
+        9
+      ],
+      "brain": [
+        10,
+        21,
+        64,
+        138
+      ],
+      "structure,": [
+        11
+      ],
+      "function,": [
+        12
+      ],
+      "cognition,": [
+        13
+      ],
+      "and": [
+        14,
+        34,
+        37,
+        58,
+        66,
+        82,
+        102,
+        121,
+        131
+      ],
+      "behaviour.": [
+        15
+      ],
+      "While": [
+        16
+      ],
+      "previous": [
+        17
+      ],
+      "studies": [
+        18
+      ],
+      "have": [
+        19
+      ],
+      "linked": [
+        20
+      ],
+      "regions": [
+        22,
+        139
+      ],
+      "to": [
+        23
+      ],
+      "univariate": [
+        24
+      ],
+      "outcomes": [
+        25,
+        39
+      ],
+      "(e.g.,": [
+        26
+      ],
+      "disease": [
+        27,
+        36
+      ],
+      "status),": [
+        28
+      ],
+      "relationship": [
+        30
+      ],
+      "between": [
+        31,
+        79
+      ],
+      "brain-wide": [
+        32
+      ],
+      "changes": [
+        33
+      ],
+      "multiple": [
+        35,
+        92
+      ],
+      "behavioural": [
+        38
+      ],
+      "AD": [
+        41,
+        84,
+        100,
+        105
+      ],
+      "still": [
+        43
+      ],
+      "not": [
+        44
+      ],
+      "well": [
+        45
+      ],
+      "understood.": [
+        46
+      ],
+      "Here,": [
+        47
+      ],
+      "we": [
+        48,
+        74,
+        111
+      ],
+      "propose": [
+        49
+      ],
+      "Residual": [
+        50
+      ],
+      "Partial": [
+        51
+      ],
+      "Least": [
+        52
+      ],
+      "Squares": [
+        53
+      ],
+      "(re-PLS)": [
+        54
+      ],
+      "Learning,": [
+        55
+      ],
+      "an": [
+        56
+      ],
+      "explainable": [
+        57
+      ],
+      "generalisable": [
+        59
+      ],
+      "framework": [
+        60
+      ],
+      "that": [
+        61,
+        89
+      ],
+      "models": [
+        62
+      ],
+      "high-dimensional": [
+        63
+      ],
+      "features": [
+        65
+      ],
+      "multivariate": [
+        67,
+        83
+      ],
+      "outcomes,": [
+        68
+      ],
+      "accounting": [
+        69
+      ],
+      "for": [
+        70,
+        95
+      ],
+      "confounders.": [
+        71
+      ],
+      "Using": [
+        72
+      ],
+      "re-PLS,": [
+        73
+      ],
+      "map": [
+        75
+      ],
+      "many-to-many": [
+        77
+      ],
+      "pathways": [
+        78
+      ],
+      "cortical": [
+        80
+      ],
+      "thickness": [
+        81
+      ],
+      "outcomes;": [
+        85,
+        93
+      ],
+      "identify": [
+        86
+      ],
+      "neural": [
+        87
+      ],
+      "biomarkers": [
+        88
+      ],
+      "simultaneously": [
+        90
+      ],
+      "predict": [
+        91
+      ],
+      "control": [
+        94
+      ],
+      "confounding": [
+        96
+      ],
+      "variables;": [
+        97
+      ],
+      "conduct": [
+        98
+      ],
+      "longitudinal": [
+        99
+      ],
+      "prediction;": [
+        101
+      ],
+      "perform": [
+        103
+      ],
+      "cross-cohort": [
+        104
+      ],
+      "prediction.": [
+        106
+      ],
+      "To": [
+        107
+      ],
+      "evaluate": [
+        108
+      ],
+      "its": [
+        109,
+        124
+      ],
+      "efficacy,": [
+        110
+      ],
+      "first": [
+        112
+      ],
+      "carry": [
+        113
+      ],
+      "out": [
+        114
+      ],
+      "within-cohort": [
+        115
+      ],
+      "cross-subject": [
+        116
+      ],
+      "validation": [
+        117
+      ],
+      "using": [
+        118,
+        129
+      ],
+      "ADNI": [
+        119,
+        130
+      ],
+      "data,": [
+        120
+      ],
+      "further": [
+        122
+      ],
+      "examine": [
+        123
+      ],
+      "reproducibility": [
+        125
+      ],
+      "via": [
+        126
+      ],
+      "between-cohort": [
+        127
+      ],
+      "cross-validation": [
+        128
+      ],
+      "OASIS": [
+        132
+      ],
+      "data.": [
+        133
+      ],
+      "Together,": [
+        134
+      ],
+      "our": [
+        135
+      ],
+      "results": [
+        136
+      ],
+      "unveil": [
+        137
+      ],
+      "jointly": [
+        140
+      ],
+      "but": [
+        141
+      ],
+      "differentially": [
+        142
+      ],
+      "predictive": [
+        143
+      ],
+      "distinctive": [
+        145
+      ],
+      "cognitive-behavioural": [
+        146
+      ],
+      "scores": [
+        147
+      ],
+      "in": [
+        148
+      ],
+      "AD.": [
+        149
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2025-12-22T23:10:17.713674",
+    "created_date": "2024-03-15T00:00:00"
+  },
+  "crossref": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          15
+        ]
+      ],
+      "date-time": "2025-08-15T01:32:59Z",
+      "timestamp": 1755221579832,
+      "version": "3.43.0"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          13
+        ]
+      ]
+    },
+    "group-title": "Neuroscience",
+    "reference-count": 0,
+    "publisher": "Cold Spring Harbor Laboratory",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              13
+            ]
+          ],
+          "date-time": "2024-03-13T00:00:00Z",
+          "timestamp": 1710288000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          8
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Alzheimer's Disease (AD) is the leading cause of dementia, affecting brain structure, function, cognition, and behaviour. While previous studies have linked brain regions to univariate outcomes (e.g., disease status), the relationship between brain-wide changes and multiple disease and behavioural outcomes of AD is still not well understood. Here, we propose Residual Partial Least Squares (re-PLS) Learning, an explainable and generalisable framework that models high-dimensional brain features and multivariate outcomes, accounting for confounders. Using re-PLS, we map the many-to-many pathways between cortical thickness and multivariate AD outcomes; identify neural biomarkers that simultaneously predict multiple outcomes; control for confounding variables; conduct longitudinal AD prediction; and perform cross-cohort AD prediction. To evaluate its efficacy, we first carry out within-cohort cross-subject validation using ADNI data, and further examine its reproducibility via between-cohort cross-validation using ADNI and OASIS data. Together, our results unveil brain regions jointly but differentially predictive of distinctive cognitive-behavioural scores in AD.</jats:p>",
+    "DOI": "10.1101/2024.03.11.584383",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          13
+        ]
+      ],
+      "date-time": "2024-03-13T22:39:41Z",
+      "timestamp": 1710369581000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Residual Partial Least Squares Learning: Brain Cortical Thickness Simultaneously Predicts Eight Non-pairwise-correlated Behavioural and Disease Outcomes in Alzheimer's Disease"
+    ],
+    "prefix": "10.1101",
+    "author": [
+      {
+        "given": "Duy-Thanh",
+        "family": "Vu",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Duy-Cat",
+        "family": "Can",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christelle Schneuwly",
+        "family": "Diaz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Julien S.",
+        "family": "Bodelet",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Guillaume E.",
+        "family": "Blanc",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Huy",
+        "family": "Phan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gilles",
+        "family": "Allali",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Viet-Dung",
+        "family": "Nguyen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hengyi",
+        "family": "Cao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xingru",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yannick",
+        "family": "Muller",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Bangdong",
+        "family": "Zhi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3043-047X",
+        "authenticated-orcid": false,
+        "given": "Haochang",
+        "family": "Shou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Haoyu",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wei",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiaojun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4049-993X",
+        "authenticated-orcid": false,
+        "given": "Marcus",
+        "family": "Munafo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Guy",
+        "family": "Nagels",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7775-6576",
+        "authenticated-orcid": false,
+        "given": "Philippe",
+        "family": "Ryvlin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nguyen Linh",
+        "family": "Trung",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Giuseppe",
+        "family": "Pantaleo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5696-3127",
+        "authenticated-orcid": false,
+        "given": "Oliver Y.",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "The Open Access Series of Imaging Studies (OASIS)",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "The Alzheimer's Disease Neuroimaging Initiative (ADNI)",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "246",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.03.11.584383",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          9
+        ]
+      ],
+      "date-time": "2025-08-09T03:20:16Z",
+      "timestamp": 1754709616000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.03.11.584383"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          13
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1101/2024.03.11.584383",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          13
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

@@ -1,0 +1,2248 @@
+{
+  "doi": "10.1038/s42256-025-01010-0",
+  "openalex": {
+    "id": "https://openalex.org/W4409729665",
+    "doi": "https://doi.org/10.1038/s42256-025-01010-0",
+    "title": "Optimal transport for generating transition states in chemical reactions",
+    "display_name": "Optimal transport for generating transition states in chemical reactions",
+    "publication_year": 2025,
+    "publication_date": "2025-04-23",
+    "ids": {
+      "openalex": "https://openalex.org/W4409729665",
+      "doi": "https://doi.org/10.1038/s42256-025-01010-0"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s42256-025-01010-0",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s42256-025-01010-0",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2912241403",
+        "display_name": "Nature Machine Intelligence",
+        "issn_l": "2522-5839",
+        "issn": [
+          "2522-5839"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Machine Intelligence",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1038/s42256-025-01010-0",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5029457626",
+          "display_name": "Chenru Duan",
+          "orcid": "https://orcid.org/0000-0003-2592-4237"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Chenru Duan",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5031381142",
+          "display_name": "Guan-Horng Liu",
+          "orcid": "https://orcid.org/0000-0002-8989-7568"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Guan-Horng Liu",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5006709853",
+          "display_name": "Yuanqi Du",
+          "orcid": "https://orcid.org/0000-0003-2988-0374"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Yuanqi Du",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5087793625",
+          "display_name": "Tianrong Chen",
+          "orcid": "https://orcid.org/0000-0003-1701-2991"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Tianrong Chen",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101341245",
+          "display_name": "Qiyuan Zhao",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Qiyuan Zhao",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5034971788",
+          "display_name": "Haojun Jia",
+          "orcid": "https://orcid.org/0000-0002-9435-2589"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Haojun Jia",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5069030030",
+          "display_name": "Carla P. Gomes",
+          "orcid": "https://orcid.org/0000-0002-4441-7225"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Carla P. Gomes",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5044505993",
+          "display_name": "Evangelos A. Theodorou",
+          "orcid": "https://orcid.org/0000-0002-0834-5738"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Evangelos A. Theodorou",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5050671822",
+          "display_name": "Heather J. Kulik",
+          "orcid": "https://orcid.org/0000-0001-9342-0191"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Heather J. Kulik",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 9,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 9750,
+      "currency": "EUR",
+      "value_usd": 11690
+    },
+    "apc_paid": {
+      "value": 9750,
+      "currency": "EUR",
+      "value_usd": 11690
+    },
+    "fwci": 17.44002862,
+    "has_fulltext": false,
+    "cited_by_count": 11,
+    "citation_normalized_percentile": {
+      "value": 0.98322017,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "7",
+      "issue": "4",
+      "first_page": "615",
+      "last_page": "626"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11948",
+      "display_name": "Machine Learning in Materials Science",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2505",
+        "display_name": "Materials Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/25",
+        "display_name": "Materials Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11948",
+        "display_name": "Machine Learning in Materials Science",
+        "score": 0.9993000030517578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10002",
+        "display_name": "Advanced Chemical Physics Studies",
+        "score": 0.995199978351593,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10211",
+        "display_name": "Computational Drug Discovery Methods",
+        "score": 0.9897000193595886,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/transition",
+        "display_name": "Transition (genetics)",
+        "score": 0.5490914583206177
+      },
+      {
+        "id": "https://openalex.org/keywords/chemical-physics",
+        "display_name": "Chemical physics",
+        "score": 0.36484718322753906
+      },
+      {
+        "id": "https://openalex.org/keywords/statistical-physics",
+        "display_name": "Statistical physics",
+        "score": 0.32653921842575073
+      },
+      {
+        "id": "https://openalex.org/keywords/chemistry",
+        "display_name": "Chemistry",
+        "score": 0.3179027736186981
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.2894601821899414
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C194232998",
+        "wikidata": "https://www.wikidata.org/wiki/Q1606712",
+        "display_name": "Transition (genetics)",
+        "level": 3,
+        "score": 0.5490914583206177
+      },
+      {
+        "id": "https://openalex.org/C159467904",
+        "wikidata": "https://www.wikidata.org/wiki/Q2001702",
+        "display_name": "Chemical physics",
+        "level": 1,
+        "score": 0.36484718322753906
+      },
+      {
+        "id": "https://openalex.org/C121864883",
+        "wikidata": "https://www.wikidata.org/wiki/Q677916",
+        "display_name": "Statistical physics",
+        "level": 1,
+        "score": 0.32653921842575073
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.3179027736186981
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.2894601821899414
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1038/s42256-025-01010-0",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s42256-025-01010-0",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2912241403",
+          "display_name": "Nature Machine Intelligence",
+          "issn_l": "2522-5839",
+          "issn": [
+            "2522-5839"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Machine Intelligence",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1038/s42256-025-01010-0",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s42256-025-01010-0",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2912241403",
+        "display_name": "Nature Machine Intelligence",
+        "issn_l": "2522-5839",
+        "issn": [
+          "2522-5839"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Machine Intelligence",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G5618952663",
+        "display_name": null,
+        "funder_award_id": "CBET-1846426",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G8037946015",
+        "display_name": null,
+        "funder_award_id": "HQ00342110002",
+        "funder_id": "https://openalex.org/F4320306078",
+        "funder_display_name": "U.S. Department of Defense"
+      },
+      {
+        "id": "https://openalex.org/G6995042427",
+        "display_name": null,
+        "funder_award_id": "N00014-20-1-2150",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320306078",
+        "display_name": "U.S. Department of Defense",
+        "ror": "https://ror.org/0447fe631"
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 78,
+    "referenced_works": [
+      "https://openalex.org/W2025396755",
+      "https://openalex.org/W2158323088",
+      "https://openalex.org/W2770447879",
+      "https://openalex.org/W3008606298",
+      "https://openalex.org/W4388694374",
+      "https://openalex.org/W4389407755",
+      "https://openalex.org/W3181257149",
+      "https://openalex.org/W4392553098",
+      "https://openalex.org/W2995031011",
+      "https://openalex.org/W4377093912",
+      "https://openalex.org/W2639728117",
+      "https://openalex.org/W1986614779",
+      "https://openalex.org/W2109455667",
+      "https://openalex.org/W2065251521",
+      "https://openalex.org/W2113830115",
+      "https://openalex.org/W2324747868",
+      "https://openalex.org/W2094797643",
+      "https://openalex.org/W2027611895",
+      "https://openalex.org/W2898058922",
+      "https://openalex.org/W4319299352",
+      "https://openalex.org/W3185836256",
+      "https://openalex.org/W4403382065",
+      "https://openalex.org/W2060526630",
+      "https://openalex.org/W3158402740",
+      "https://openalex.org/W3103689700",
+      "https://openalex.org/W2977953554",
+      "https://openalex.org/W3035559885",
+      "https://openalex.org/W4318071628",
+      "https://openalex.org/W4308917845",
+      "https://openalex.org/W3103339982",
+      "https://openalex.org/W4284667229",
+      "https://openalex.org/W3092617600",
+      "https://openalex.org/W4389760799",
+      "https://openalex.org/W3177590463",
+      "https://openalex.org/W4322733070",
+      "https://openalex.org/W4390640165",
+      "https://openalex.org/W4389786948",
+      "https://openalex.org/W4393263600",
+      "https://openalex.org/W4312192678",
+      "https://openalex.org/W4327900113",
+      "https://openalex.org/W2911997094",
+      "https://openalex.org/W3110257065",
+      "https://openalex.org/W6849474789",
+      "https://openalex.org/W6850392633",
+      "https://openalex.org/W4225760778",
+      "https://openalex.org/W2955329763",
+      "https://openalex.org/W4393031108",
+      "https://openalex.org/W4312119492",
+      "https://openalex.org/W2122427541",
+      "https://openalex.org/W2000798385",
+      "https://openalex.org/W2058363175",
+      "https://openalex.org/W3021539081",
+      "https://openalex.org/W3013857270",
+      "https://openalex.org/W2114704115",
+      "https://openalex.org/W4365441072",
+      "https://openalex.org/W4298125158",
+      "https://openalex.org/W4225269197",
+      "https://openalex.org/W4294957924",
+      "https://openalex.org/W2778627621",
+      "https://openalex.org/W3087257671",
+      "https://openalex.org/W2080635178",
+      "https://openalex.org/W1992985800",
+      "https://openalex.org/W4321085451",
+      "https://openalex.org/W2585152223",
+      "https://openalex.org/W4315631504",
+      "https://openalex.org/W4388500008",
+      "https://openalex.org/W2069127016",
+      "https://openalex.org/W4405574099",
+      "https://openalex.org/W4403365197",
+      "https://openalex.org/W1596185498",
+      "https://openalex.org/W4233762729",
+      "https://openalex.org/W1985506636",
+      "https://openalex.org/W3214180234",
+      "https://openalex.org/W4312497550",
+      "https://openalex.org/W6939373967",
+      "https://openalex.org/W6968172273",
+      "https://openalex.org/W6911952693",
+      "https://openalex.org/W3132189756"
+    ],
+    "related_works": [
+      "https://openalex.org/W4387497383",
+      "https://openalex.org/W2948807893",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2778153218",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W1531601525",
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2078814861",
+      "https://openalex.org/W2527526854",
+      "https://openalex.org/W1976181487"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Transition": [
+        1
+      ],
+      "states": [
+        2
+      ],
+      "(TSs)": [
+        3
+      ],
+      "are": [
+        4,
+        8,
+        124
+      ],
+      "transient": [
+        5
+      ],
+      "structures": [
+        6,
+        77,
+        87
+      ],
+      "that": [
+        7,
+        148
+      ],
+      "key": [
+        9
+      ],
+      "to": [
+        10,
+        19,
+        29
+      ],
+      "understanding": [
+        11
+      ],
+      "reaction": [
+        12,
+        60,
+        63,
+        136
+      ],
+      "mechanisms": [
+        13
+      ],
+      "and": [
+        14,
+        80,
+        99,
+        120,
+        152
+      ],
+      "designing": [
+        15
+      ],
+      "catalysts": [
+        16
+      ],
+      "but": [
+        17
+      ],
+      "challenging": [
+        18
+      ],
+      "capture": [
+        20
+      ],
+      "in": [
+        21,
+        57
+      ],
+      "experiments.": [
+        22
+      ],
+      "Many": [
+        23
+      ],
+      "optimization": [
+        24
+      ],
+      "algorithms": [
+        25,
+        39
+      ],
+      "have": [
+        26
+      ],
+      "been": [
+        27
+      ],
+      "developed": [
+        28,
+        67
+      ],
+      "search": [
+        30,
+        168
+      ],
+      "for": [
+        31,
+        54,
+        62,
+        73
+      ],
+      "TSs": [
+        32
+      ],
+      "computationally.": [
+        33
+      ],
+      "Yet,": [
+        34
+      ],
+      "the": [
+        35,
+        149,
+        164,
+        174
+      ],
+      "cost": [
+        36
+      ],
+      "of": [
+        37,
+        96,
+        104,
+        143,
+        155,
+        176
+      ],
+      "these": [
+        38
+      ],
+      "driven": [
+        40
+      ],
+      "by": [
+        41,
+        127
+      ],
+      "quantum": [
+        42
+      ],
+      "chemistry": [
+        43
+      ],
+      "methods": [
+        44
+      ],
+      "(usually": [
+        45
+      ],
+      "density": [
+        46
+      ],
+      "functional": [
+        47
+      ],
+      "theory)": [
+        48
+      ],
+      "is": [
+        49
+      ],
+      "still": [
+        50
+      ],
+      "high,": [
+        51
+      ],
+      "posing": [
+        52
+      ],
+      "challenges": [
+        53
+      ],
+      "their": [
+        55
+      ],
+      "applications": [
+        56
+      ],
+      "building": [
+        58
+      ],
+      "large": [
+        59,
+        135
+      ],
+      "networks": [
+        61
+      ],
+      "exploration.": [
+        64
+      ],
+      "Here": [
+        65
+      ],
+      "we": [
+        66
+      ],
+      "React-OT,": [
+        68
+      ],
+      "an": [
+        69
+      ],
+      "optimal": [
+        70
+      ],
+      "transport": [
+        71
+      ],
+      "approach": [
+        72
+      ],
+      "generating": [
+        74
+      ],
+      "unique": [
+        75
+      ],
+      "TS": [
+        76,
+        86,
+        167
+      ],
+      "from": [
+        78
+      ],
+      "reactants": [
+        79
+      ],
+      "products.": [
+        81
+      ],
+      "React-OT": [
+        82,
+        132,
+        156
+      ],
+      "generates": [
+        83
+      ],
+      "highly": [
+        84,
+        159
+      ],
+      "accurate": [
+        85
+      ],
+      "with": [
+        88,
+        139,
+        163,
+        179
+      ],
+      "a": [
+        89,
+        134,
+        140
+      ],
+      "median": [
+        90,
+        100
+      ],
+      "structural": [
+        91
+      ],
+      "root": [
+        92,
+        116
+      ],
+      "mean": [
+        93,
+        117
+      ],
+      "square": [
+        94,
+        118
+      ],
+      "deviation": [
+        95,
+        119
+      ],
+      "0.053": [
+        97
+      ],
+      "Å": [
+        98
+      ],
+      "barrier": [
+        101,
+        121
+      ],
+      "height": [
+        102,
+        122
+      ],
+      "error": [
+        103,
+        123
+      ],
+      "1.06": [
+        105
+      ],
+      "kcal": [
+        106
+      ],
+      "mol": [
+        107
+      ],
+      "−1": [
+        108
+      ],
+      "requiring": [
+        109
+      ],
+      "only": [
+        110
+      ],
+      "0.4": [
+        111
+      ],
+      "s": [
+        112
+      ],
+      "per": [
+        113
+      ],
+      "reaction.": [
+        114
+      ],
+      "The": [
+        115
+      ],
+      "further": [
+        125
+      ],
+      "improved": [
+        126
+      ],
+      "roughly": [
+        128
+      ],
+      "25%": [
+        129
+      ],
+      "through": [
+        130
+      ],
+      "pretraining": [
+        131
+      ],
+      "on": [
+        133
+      ],
+      "dataset": [
+        137
+      ],
+      "obtained": [
+        138
+      ],
+      "lower": [
+        141
+      ],
+      "level": [
+        142
+      ],
+      "theory,": [
+        144
+      ],
+      "GFN2-xTB.": [
+        145
+      ],
+      "We": [
+        146
+      ],
+      "envision": [
+        147
+      ],
+      "remarkable": [
+        150
+      ],
+      "accuracy": [
+        151
+      ],
+      "rapid": [
+        153
+      ],
+      "inference": [
+        154
+      ],
+      "will": [
+        157,
+        172
+      ],
+      "be": [
+        158
+      ],
+      "useful": [
+        160
+      ],
+      "when": [
+        161
+      ],
+      "integrated": [
+        162
+      ],
+      "current": [
+        165
+      ],
+      "high-throughput": [
+        166
+      ],
+      "workflow.": [
+        169
+      ],
+      "This": [
+        170
+      ],
+      "integration": [
+        171
+      ],
+      "facilitate": [
+        173
+      ],
+      "exploration": [
+        175
+      ],
+      "chemical": [
+        177
+      ],
+      "reactions": [
+        178
+      ],
+      "unknown": [
+        180
+      ],
+      "mechanisms.": [
+        181
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 11
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          7
+        ]
+      ],
+      "date-time": "2026-01-07T07:38:52Z",
+      "timestamp": 1767771532916,
+      "version": "3.40.4"
+    },
+    "reference-count": 94,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              23
+            ]
+          ],
+          "date-time": "2025-04-23T00:00:00Z",
+          "timestamp": 1745366400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              23
+            ]
+          ],
+          "date-time": "2025-04-23T00:00:00Z",
+          "timestamp": 1745366400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000005",
+        "name": "U.S. Department of Defense",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "HQ00342110002",
+          "HQ00342110002",
+          "HQ00342110002"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "HQ00342110002",
+              "HQ00342110002",
+              "HQ00342110002"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000005",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "CBET-1846426",
+          "CBET-1846426"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CBET-1846426",
+              "CBET-1846426"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000006",
+        "name": "United States Department of Defense | United States Navy | Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N00014-20-1-2150",
+          "N00014-20-1-2150"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N00014-20-1-2150",
+              "N00014-20-1-2150"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat Mach Intell"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n          <jats:p>Transition states (TSs) are transient structures that are key to understanding reaction mechanisms and designing catalysts but challenging to capture in experiments. Many optimization algorithms have been developed to search for TSs computationally. Yet, the cost of these algorithms driven by quantum chemistry methods (usually density functional theory) is still high, posing challenges for their applications in building large reaction networks for reaction exploration. Here we developed React-OT, an optimal transport approach for generating unique TS structures from reactants and products. React-OT generates highly accurate TS structures with a median structural root mean square deviation of 0.053 Å and median barrier height error of 1.06 kcal mol<jats:sup>−1</jats:sup> requiring only 0.4 s per reaction. The root mean square deviation and barrier height error are further improved by roughly 25% through pretraining React-OT on a large reaction dataset obtained with a lower level of theory, GFN2-xTB. We envision that the remarkable accuracy and rapid inference of React-OT will be highly useful when integrated with the current high-throughput TS search workflow. This integration will facilitate the exploration of chemical reactions with unknown mechanisms.</jats:p>",
+    "DOI": "10.1038/s42256-025-01010-0",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          23
+        ]
+      ],
+      "date-time": "2025-04-23T15:02:54Z",
+      "timestamp": 1745420574000
+    },
+    "page": "615-626",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "Optimal transport for generating transition states in chemical reactions"
+    ],
+    "prefix": "10.1038",
+    "volume": "7",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2592-4237",
+        "authenticated-orcid": false,
+        "given": "Chenru",
+        "family": "Duan",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8989-7568",
+        "authenticated-orcid": false,
+        "given": "Guan-Horng",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2988-0374",
+        "authenticated-orcid": false,
+        "given": "Yuanqi",
+        "family": "Du",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tianrong",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qiyuan",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Haojun",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4441-7225",
+        "authenticated-orcid": false,
+        "given": "Carla P.",
+        "family": "Gomes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Evangelos A.",
+        "family": "Theodorou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9342-0191",
+        "authenticated-orcid": false,
+        "given": "Heather J.",
+        "family": "Kulik",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "1010_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "12771",
+        "DOI": "10.1021/jp953748q",
+        "volume": "100",
+        "author": "DG Truhlar",
+        "year": "1996",
+        "unstructured": "Truhlar, D. G., Garrett, B. C. & Klippenstein, S. J. Current status of transition-state theory. J. Phys. Chem. 100, 12771–12800 (1996).",
+        "journal-title": "J. Phys. Chem."
+      },
+      {
+        "key": "1010_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "391",
+        "DOI": "10.1146/annurev.physchem.040808.090412",
+        "volume": "61",
+        "author": "W E",
+        "year": "2010",
+        "unstructured": "E, W. & Vanden-Eijnden, E. Transition-path theory and path-finding algorithms for the study of rare events. Annu. Rev. Phys. Chem. 61, 391–420 (2010).",
+        "journal-title": "Annu. Rev. Phys. Chem."
+      },
+      {
+        "key": "1010_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1354",
+        "DOI": "10.1002/wcms.1354",
+        "volume": "8",
+        "author": "AL Dewyer",
+        "year": "2018",
+        "unstructured": "Dewyer, A. L., Argüelles, A. J. & Zimmerman, P. M. Methods for exploring reaction space in molecular systems. WIREs Comput. Mol. Sci. 8, e1354 (2018).",
+        "journal-title": "WIREs Comput. Mol. Sci."
+      },
+      {
+        "key": "1010_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "121",
+        "DOI": "10.1146/annurev-physchem-071119-040123",
+        "volume": "71",
+        "author": "JP Unsleber",
+        "year": "2020",
+        "unstructured": "Unsleber, J. P. & Reiher, M. The exploration of chemical reaction networks. Annu. Rev. Phys. Chem. 71, 121–142 (2020). PMID: 32105566.",
+        "journal-title": "Annu. Rev. Phys. Chem."
+      },
+      {
+        "key": "1010_CR5",
+        "first-page": "508",
+        "volume": "625",
+        "author": "T Klucznik",
+        "year": "2024",
+        "unstructured": "Klucznik, T. et al. Computational prediction of complex cationic rearrangement outcomes. Nature 625, 508–515 (2024).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "1010_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "23",
+        "DOI": "10.1039/D3DD00213F",
+        "volume": "3",
+        "author": "S Back",
+        "year": "2024",
+        "unstructured": "Back, S. et al. Accelerated chemical science with AI. Digit. Discov. 3, 23–33 (2024).",
+        "journal-title": "Digit. Discov."
+      },
+      {
+        "key": "1010_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "9927",
+        "DOI": "10.1021/acs.chemrev.1c00347",
+        "volume": "121",
+        "author": "A Nandy",
+        "year": "2021",
+        "unstructured": "Nandy, A. et al. Computational discovery of transition-metal complexes: from high-throughput screening to machine learning. Chem. Rev. 121, 9927–10000 (2021).",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "key": "1010_CR8",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Zhang, S. et al. Exploring the frontiers of condensed-phase chemistry with a general reactive machine learning potential. Nat. Chem. https://doi.org/10.1038/s41557-023-01427-3 (2024).",
+        "DOI": "10.1038/s41557-023-01427-3"
+      },
+      {
+        "key": "1010_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "146",
+        "DOI": "10.1073/pnas.1911326116",
+        "volume": "117",
+        "author": "K Prozument",
+        "year": "2020",
+        "unstructured": "Prozument, K. et al. Photodissociation transition states characterized by chirped pulse millimeter wave spectroscopy. Proc. Natl Acad. Sci. USA 117, 146–151 (2020).",
+        "journal-title": "Proc. Natl Acad. Sci. USA"
+      },
+      {
+        "key": "1010_CR10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-38513-6",
+        "volume": "14",
+        "author": "Y Liu",
+        "year": "2023",
+        "unstructured": "Liu, Y. et al. Rehybridization dynamics into the pericyclic minimum of an electrocyclic reaction imaged in real-time. Nat. Commun. 14, 2795 (2023).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "1010_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "2315",
+        "DOI": "10.1080/00268976.2017.1333644",
+        "volume": "115",
+        "author": "N Mardirossian",
+        "year": "2017",
+        "unstructured": "Mardirossian, N. & Head-Gordon, M. Thirty years of density functional theory in computational chemistry: an overview and extensive assessment of 200 density functionals. Mol. Phys. 115, 2315–2372 (2017).",
+        "journal-title": "Mol. Phys."
+      },
+      {
+        "key": "1010_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "052301",
+        "DOI": "10.1103/PhysRevB.66.052301",
+        "volume": "66",
+        "author": "E Weinan",
+        "year": "2002",
+        "unstructured": "Weinan, E., Ren, W. & Vanden-Eijnden, E. String method for the study of rare events. Phys. Rev. B 66, 052301 (2002).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "1010_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "7877",
+        "DOI": "10.1063/1.1691018",
+        "volume": "120",
+        "author": "B Peters",
+        "year": "2004",
+        "unstructured": "Peters, B., Heyden, A., Bell, A. T. & Chakraborty, A. A growing string method for determining transition states: comparison to the nudged elastic band and string methods. J. Chem. Phys. 120, 7877–7886 (2004).",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "1010_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "134106",
+        "DOI": "10.1063/1.2841941",
+        "volume": "128",
+        "author": "D Sheppard",
+        "year": "2008",
+        "unstructured": "Sheppard, D., Terrell, R. & Henkelman, G. Optimization methods for finding minimum energy paths. J. Chem. Phys. 128, 134106 (2008).",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "1010_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "166",
+        "DOI": "10.1002/jcc.23481",
+        "volume": "35",
+        "author": "S Maeda",
+        "year": "2014",
+        "unstructured": "Maeda, S., Taketsugu, T. & Morokuma, K. Exploring transition state structures for intramolecular pathways by the artificial force induced reaction method. J. Comput. Chem. 35, 166–173 (2014).",
+        "journal-title": "J. Comput. Chem."
+      },
+      {
+        "key": "1010_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1838",
+        "DOI": "10.1021/ct301010b",
+        "volume": "9",
+        "author": "C Shang",
+        "year": "2013",
+        "unstructured": "Shang, C. & Liu, Z. P. Stochastic surface walking method for structure prediction and pathway searching. J. Chem. Theory Comput. 9, 1838–1845 (2013).",
+        "journal-title": "J. Chem. Theory Comput."
+      },
+      {
+        "key": "1010_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "595",
+        "DOI": "10.1016/0009-2614(96)00478-2",
+        "volume": "256",
+        "author": "JL Durant",
+        "year": "1996",
+        "unstructured": "Durant, J. L. Evaluation of transition state properties by density functional theory. Chem. Phys. Lett. 256, 595–602 (1996).",
+        "journal-title": "Chem. Phys. Lett."
+      },
+      {
+        "key": "1010_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "1385",
+        "DOI": "10.1002/jcc.23271",
+        "volume": "34",
+        "author": "PM Zimmerman",
+        "year": "2013",
+        "unstructured": "Zimmerman, P. M. Automated discovery of chemically reasonable elementary reaction steps. J. Comput. Chem. 34, 1385–1392 (2013).",
+        "journal-title": "J. Comput. Chem."
+      },
+      {
+        "key": "1010_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "385",
+        "DOI": "10.1021/acs.jpca.8b10007",
+        "volume": "123",
+        "author": "GN Simm",
+        "year": "2019",
+        "unstructured": "Simm, G. N., Vaucher, A. C. & Reiher, M. Exploration of reaction pathways and chemical transformation networks. J. Phys. Chem. A 123, 385–399 (2019).",
+        "journal-title": "J. Phys. Chem. A"
+      },
+      {
+        "key": "1010_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "084803",
+        "DOI": "10.1063/5.0136526",
+        "volume": "158",
+        "author": "JP Unsleber",
+        "year": "2023",
+        "unstructured": "Unsleber, J. P. et al. High-throughput ab initio reaction mechanism exploration in the cloud with automated multi-reference validation. J. Phys. Chem. 158, 084803 (2023).",
+        "journal-title": "J. Phys. Chem."
+      },
+      {
+        "key": "1010_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "479",
+        "DOI": "10.1038/s43588-021-00101-3",
+        "volume": "1",
+        "author": "Q Zhao",
+        "year": "2021",
+        "unstructured": "Zhao, Q. & Savoie, B. M. Simultaneously improving reaction coverage and computational cost in automated reaction prediction tasks. Nat. Comput. Sci. 1, 479–490 (2021).",
+        "journal-title": "Nat. Comput. Sci."
+      },
+      {
+        "key": "1010_CR22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-024-52481-5",
+        "volume": "15",
+        "author": "EC-Y Yuan",
+        "year": "2024",
+        "unstructured": "Yuan, E. C.-Y. et al. Analytical ab initio Hessian from a deep learning potential for transition state optimization. Nat. Commun. 15, 8865 (2024).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "1010_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1044",
+        "DOI": "10.1038/nchem.2099",
+        "volume": "6",
+        "author": "L-P Wang",
+        "year": "2014",
+        "unstructured": "Wang, L.-P. et al. Discovering chemistry with an ab initio nanoreactor. Nat. Chem. 6, 1044–1048 (2014).",
+        "journal-title": "Nat. Chem."
+      },
+      {
+        "key": "1010_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "7294",
+        "DOI": "10.1039/D1SC00775K",
+        "volume": "12",
+        "author": "E Pieri",
+        "year": "2021",
+        "unstructured": "Pieri, E. et al. The non-adiabatic nanoreactor: towards the automated discovery of photochemistry. Chem. Sci. 12, 7294–7307 (2021).",
+        "journal-title": "Chem. Sci."
+      },
+      {
+        "key": "1010_CR25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-19497-z",
+        "volume": "11",
+        "author": "J Zeng",
+        "year": "2020",
+        "unstructured": "Zeng, J., Cao, L., Xu, M., Zhu, T. & Zhang, J. Z. H. Complex reaction processes in combustion unraveled by neural network-based molecular dynamics simulation. Nat. Commun. 11, 5713 (2020).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "1010_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "106947",
+        "DOI": "10.1016/j.cpc.2019.106947",
+        "volume": "248",
+        "author": "R Van de Vijver",
+        "year": "2020",
+        "unstructured": "Van de Vijver, R. & Zádor, J. Kinbot: automated stationary point search on potential energy surfaces. Comput. Phys. Commun. 248, 106947 (2020).",
+        "journal-title": "Comput. Phys. Commun."
+      },
+      {
+        "key": "1010_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "347",
+        "DOI": "10.1038/s41570-020-0189-9",
+        "volume": "4",
+        "author": "OA von Lilienfeld",
+        "year": "2020",
+        "unstructured": "von Lilienfeld, O. A., Müller, K.-R. & Tkatchenko, A. Exploring chemical compound space with quantum-based machine learning. Nat. Rev. Chem. 4, 347–358 (2020).",
+        "journal-title": "Nat. Rev. Chem."
+      },
+      {
+        "key": "1010_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "112",
+        "DOI": "10.1038/s41929-022-00896-y",
+        "volume": "6",
+        "author": "JT Margraf",
+        "year": "2023",
+        "unstructured": "Margraf, J. T., Jung, H., Scheurer, C. & Reuter, K. Exploring catalytic reaction networks with machine learning. Nat. Catal. 6, 112–121 (2023).",
+        "journal-title": "Nat. Catal."
+      },
+      {
+        "key": "1010_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "045022",
+        "DOI": "10.1088/2632-2153/aca23e",
+        "volume": "3",
+        "author": "M Schreiner",
+        "year": "2022",
+        "unstructured": "Schreiner, M., Bhowmik, A., Vegge, T., Jørgensen, P. B. & Winther, O. NeuralNEB—neural networks can find reaction paths fast. Mach. Learn. Sci. Technol. 3, 045022 (2022).",
+        "journal-title": "Mach. Learn. Sci. Technol."
+      },
+      {
+        "key": "1010_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "727",
+        "DOI": "10.1038/s41557-023-01427-3",
+        "volume": "16",
+        "author": "S Zhang",
+        "year": "2024",
+        "unstructured": "Zhang, S. et al. Exploring the frontiers of condensed-phase chemistry with a general reactive machine learning potential. Nat. Chem. 16, 727–734 (2024).",
+        "journal-title": "Nat. Chem."
+      },
+      {
+        "key": "1010_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "6888",
+        "DOI": "10.1039/D0CP06184K",
+        "volume": "23",
+        "author": "J Zhang",
+        "year": "2021",
+        "unstructured": "Zhang, J. et al. Deep reinforcement learning of transition states. Phys. Chem. Chem. Phys. 23, 6888–6895 (2021).",
+        "journal-title": "Phys. Chem. Chem. Phys."
+      },
+      {
+        "key": "1010_CR32",
+        "first-page": "79540",
+        "volume": "36",
+        "author": "L Holdijk",
+        "year": "2023",
+        "unstructured": "Holdijk, L. et al. Stochastic optimal control for collective variable free sampling of molecular transition paths. Adv. Neural Inf. Process. Syst. 36, 79540–79556 (2023).",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "1010_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "23618",
+        "DOI": "10.1039/D0CP04670A",
+        "volume": "22",
+        "author": "L Pattanaik",
+        "year": "2020",
+        "unstructured": "Pattanaik, L., Ingraham, J. B., Grambow, C. A. & Green, W. H. Generating transition states of isomerization reactions with deep learning. Phys. Chem. Chem. Phys. 22, 23618–23626 (2020).",
+        "journal-title": "Phys. Chem. Chem. Phys."
+      },
+      {
+        "key": "1010_CR34",
+        "unstructured": "van Gerwen, P. et al. EquiReact: an equivariant neural network for chemical reactions. Preprint at https://arxiv.org/abs/2312.08307v2 (2023)."
+      },
+      {
+        "key": "1010_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "024116",
+        "DOI": "10.1063/5.0055094",
+        "volume": "155",
+        "author": "MZ Makoś",
+        "year": "2021",
+        "unstructured": "Makoś, M. Z., Verma, N., Larson, E. C., Freindorf, M. & Kraka, E. Generative adversarial networks for transition state geometry prediction. J. Chem. Phys. 155, 024116 (2021).",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "1010_CR36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-36823-3",
+        "volume": "14",
+        "author": "S Choi",
+        "year": "2023",
+        "unstructured": "Choi, S. Prediction of transition state structures of gas-phase chemical reactions via machine learning. Nat. Commun. 14, 1168 (2023).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "1010_CR37",
+        "unstructured": "Ho, J., Jain, A. & Abbeel, P. in Advances in Neural Information Processing Systems (eds Larochelle, H. et al.) vol. 33, 6840–6851 (Curran Associates, 2020)."
+      },
+      {
+        "key": "1010_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "341",
+        "DOI": "10.1038/s41467-023-44629-6",
+        "volume": "15",
+        "author": "S Kim",
+        "year": "2024",
+        "unstructured": "Kim, S., Woo, J. & Kim, W. Y. Diffusion-based generative AI for exploring transition states from 2D molecular graphs. Nat. Commun. 15, 341 (2024).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "1010_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "1045",
+        "DOI": "10.1038/s43588-023-00563-7",
+        "volume": "3",
+        "author": "C Duan",
+        "year": "2023",
+        "unstructured": "Duan, C., Du, Y., Jia, H. & Kulik, H. J. Accurate transition state generation with an object-aware equivariant elementary reaction diffusion model. Nat. Comput. Sci. 3, 1045–1055 (2023).",
+        "journal-title": "Nat. Comput. Sci."
+      },
+      {
+        "key": "1010_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "124115",
+        "DOI": "10.1063/5.0196620",
+        "volume": "160",
+        "author": "AH Cheng",
+        "year": "2024",
+        "unstructured": "Cheng, A. H., Lo, A., Miret, S., Pate, B. H. & Aspuru-Guzik, A. Determining 3D structure from molecular formula and isotopologue rotational spectra in natural abundance with reflection-equivariant diffusion. J. Chem. Phys. 160, 124115 (2024).",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "1010_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "38",
+        "DOI": "10.1038/s43588-022-00384-0",
+        "volume": "3",
+        "author": "C Duan",
+        "year": "2023",
+        "unstructured": "Duan, C., Nandy, A., Meyer, R., Arunachalam, N. & Kulik, H. J. A transferable recommender approach for selecting the best density functional approximations in chemical discovery. Nat. Comput. Sci. 3, 38–47 (2023).",
+        "journal-title": "Nat. Comput. Sci."
+      },
+      {
+        "key": "1010_CR42",
+        "unstructured": "Corso, G., Stärk, H., Jing, B., Barzilay, R. & Jaakkola, T. DiffDock: diffusion steps, twists, and turns for molecular docking. Preprint at https://arxiv.org/abs/2210.01776 (2023)."
+      },
+      {
+        "key": "1010_CR43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-023-02043-z",
+        "volume": "10",
+        "author": "Q Zhao",
+        "year": "2023",
+        "unstructured": "Zhao, Q. et al. Comprehensive exploration of graphically defined reaction spaces. Sci. Data 10, 145 (2023).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "1010_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "1652",
+        "DOI": "10.1021/acs.jctc.8b01176",
+        "volume": "15",
+        "author": "C Bannwarth",
+        "year": "2019",
+        "unstructured": "Bannwarth, C., Ehlert, S. & Grimme, S. GFN2-xTB—an accurate and broadly parametrized self-consistent tight-binding quantum chemical method with multipole electrostatics and density-dependent dispersion contributions. J. Chem. Theory Comput. 15, 1652–1671 (2019).",
+        "journal-title": "J. Chem. Theory Comput."
+      },
+      {
+        "key": "1010_CR45",
+        "unstructured": "Sohl-Dickstein, J., Weiss, E., Maheswaranathan, N. & Ganguli, S. Deep unsupervised learning using nonequilibrium thermodynamics. In International Conference on Machine Learning, PMLR 37, 2256–2265 (2015)."
+      },
+      {
+        "key": "1010_CR46",
+        "unstructured": "Song, Y. et al. Score-based generative modeling through stochastic differential equations. In International Conference on Learning Representations. Preprint at https://arxiv.org/abs/2011.13456v2 (2021)."
+      },
+      {
+        "key": "1010_CR47",
+        "unstructured": "Lipman, Y., Chen, R. T. Q., Ben-Hamu, H., Nickel, M. & Le, M. Flow matching for generative modeling. In The Eleventh International Conference on Learning Representations (ICLR, 2023)."
+      },
+      {
+        "key": "1010_CR48",
+        "unstructured": "Liu, G.-H. et al. I2SB: Image-to-image Schrödinger bridge. In International Conference on Machine Learning (ICLR, 2023)."
+      },
+      {
+        "key": "1010_CR49",
+        "unstructured": "Somnath, V. R. et al. Aligned diffusion Schrödinger bridges. In Proc. 39th Conference on Uncertainty in Artificial Intelligence. Vol 216 (PMLR, 2023)."
+      },
+      {
+        "key": "1010_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "3006",
+        "DOI": "10.1021/acs.jctc.2c00081",
+        "volume": "18",
+        "author": "Q Zhao",
+        "year": "2022",
+        "unstructured": "Zhao, Q., Hsu, H.-H. & Savoie, B. Conformational sampling for transition state searches on a computational budget. J. Chem. Theory Comput. 18, 3006–3016 (2022).",
+        "journal-title": "J. Chem. Theory Comput."
+      },
+      {
+        "key": "1010_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "15678",
+        "DOI": "10.1039/C8CP05953E",
+        "volume": "21",
+        "author": "A Sindhu",
+        "year": "2019",
+        "unstructured": "Sindhu, A., Pradhan, R., Lourderaj, U. & Paranjothy, M. Theoretical investigation of the isomerization pathways of diazenes: torsion vs. inversion. Phys. Chem. Chem. Phys. 21, 15678–15685 (2019).",
+        "journal-title": "Phys. Chem. Chem. Phys."
+      },
+      {
+        "key": "1010_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "2798",
+        "DOI": "10.1021/acs.jctc.3c01246",
+        "volume": "20",
+        "author": "S-i Koda",
+        "year": "2024",
+        "unstructured": "Koda, S.-i & Saito, S. Locating transition states by variational reaction path optimization with an energy-derivative-free objective function. J. Chem. Theory Comput. 20, 2798–2811 (2024).",
+        "journal-title": "J. Chem. Theory Comput."
+      },
+      {
+        "key": "1010_CR53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-022-01870-w",
+        "volume": "9",
+        "author": "M Schreiner",
+        "year": "2022",
+        "unstructured": "Schreiner, M., Bhowmik, A., Vegge, T., Busk, J. & Winther, O. Transition1x—a dataset for building generalizable reactive machine learning potentials. Sci. Data 9, 779 (2022).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "1010_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "9901",
+        "DOI": "10.1063/1.1329672",
+        "volume": "113",
+        "author": "G Henkelman",
+        "year": "2000",
+        "unstructured": "Henkelman, G., Uberuaga, B. P. & Jónsson, H. A climbing image nudged elastic band method for finding saddle points and minimum energy paths. J. Phys. Chem. 113, 9901–9904 (2000).",
+        "journal-title": "J. Phys. Chem."
+      },
+      {
+        "key": "1010_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "084106",
+        "DOI": "10.1063/1.2834918",
+        "volume": "128",
+        "author": "J-D Chai",
+        "year": "2008",
+        "unstructured": "Chai, J.-D. & Head-Gordon, M. Systematic optimization of long-range corrected hybrid density functionals. J. Phys. Chem. 128, 084106 (2008).",
+        "journal-title": "J. Phys. Chem."
+      },
+      {
+        "key": "1010_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "724",
+        "DOI": "10.1063/1.1674902",
+        "volume": "54",
+        "author": "R Ditchfield",
+        "year": "1971",
+        "unstructured": "Ditchfield, R., Hehre, W. J. & Pople, J. A. Self-consistent molecular-orbital methods. IX. an extended Gaussian-type basis for molecular-orbital studies of organic molecules. J. Phys. Chem. 54, 724–728 (1971).",
+        "journal-title": "J. Phys. Chem."
+      },
+      {
+        "key": "1010_CR57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-020-0460-4",
+        "volume": "7",
+        "author": "CA Grambow",
+        "year": "2020",
+        "unstructured": "Grambow, C. A., Pattanaik, L. & Green, W. H. Reactants, products, and transition states of elementary chemical reactions based on quantum chemistry. Sci. Data 7, 137 (2020).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "1010_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "2992",
+        "DOI": "10.1021/acs.jpclett.0c00500",
+        "volume": "11",
+        "author": "CA Grambow",
+        "year": "2020",
+        "unstructured": "Grambow, C. A., Pattanaik, L. & Green, W. H. Deep learning of activation energies. J. Phys. Chem. Lett. 11, 2992–2997 (2020).",
+        "journal-title": "J. Phys. Chem. Lett."
+      },
+      {
+        "key": "1010_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "2864",
+        "DOI": "10.1021/ci300415d",
+        "volume": "52",
+        "author": "L Ruddigkeit",
+        "year": "2012",
+        "unstructured": "Ruddigkeit, L., van Deursen, R., Blum, L. C. & Reymond, J.-L. Enumeration of 166 billion organic small molecules in the chemical universe database GDB-17. J. Chem. Inf. Model. 52, 2864–2875 (2012).",
+        "journal-title": "J. Chem. Inf. Model."
+      },
+      {
+        "key": "1010_CR60",
+        "first-page": "66647",
+        "volume": "36",
+        "author": "W Du",
+        "year": "2023",
+        "unstructured": "Du, W. et al. A new perspective on building efficient and expressive 3D equivariant graph neural networks. Adv. Neural Inf. Process. Syst. 36, 66647–66674 (2023).",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "1010_CR61",
+        "doi-asserted-by": "publisher",
+        "first-page": "12970",
+        "DOI": "10.1021/acs.jmedchem.2c00796",
+        "volume": "65",
+        "author": "H Fu",
+        "year": "2022",
+        "unstructured": "Fu, H., Zhou, Y., Jing, X., Shao, X. & Cai, W. Meta-analysis reveals that absolute binding free-energy calculations approach chemical accuracy. J. Med. Chem. 65, 12970–12978 (2022).",
+        "journal-title": "J. Med. Chem."
+      },
+      {
+        "key": "1010_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "161101",
+        "DOI": "10.1063/5.0087586",
+        "volume": "156",
+        "author": "E Bremond",
+        "year": "2022",
+        "unstructured": "Bremond, E., Li, H., Perez-Jimenez, A. J., Sancho-Garcia, J. C. & Adamo, C. Tackling an accurate description of molecular reactivity with double-hybrid density functionals. J. Chem. Phys. 156, 161101 (2022).",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "1010_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "e202210693",
+        "DOI": "10.1002/anie.202210693",
+        "volume": "61",
+        "author": "Q Zhao",
+        "year": "2022",
+        "unstructured": "Zhao, Q. & Savoie, B. M. Algorithmic explorations of unimolecular and bimolecular reaction spaces. Angew. Chem. Int. Ed. 61, e202210693 (2022).",
+        "journal-title": "Angew. Chem. Int. Ed."
+      },
+      {
+        "key": "1010_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "1035",
+        "DOI": "10.1021/jacs.7b11009",
+        "volume": "140",
+        "author": "CA Grambow",
+        "year": "2018",
+        "unstructured": "Grambow, C. A. et al. Unimolecular reaction pathways of a γ-ketohydroperoxide from combined application of automated reaction discovery methods. J. Am. Chem. Soc. 140, 1035–1048 (2018).",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "1010_CR65",
+        "doi-asserted-by": "publisher",
+        "first-page": "8120",
+        "DOI": "10.1021/acs.jpca.0c06211",
+        "volume": "124",
+        "author": "EG Naz",
+        "year": "2020",
+        "unstructured": "Naz, E. G. & Paranjothy, M. Unimolecular dissociation of γ-ketohydroperoxide via direct chemical dynamics simulations. J Phys. Chem. A 124, 8120–8127 (2020).",
+        "journal-title": "J Phys. Chem. A"
+      },
+      {
+        "key": "1010_CR66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sdata.2014.22",
+        "volume": "1",
+        "author": "R Ramakrishnan",
+        "year": "2014",
+        "unstructured": "Ramakrishnan, R., Dral, P. O., Rupp, M. & von Lilienfeld, O. A. Quantum chemistry structures and properties of 134 kilo molecules. Sci. Data 1, 140022 (2014).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "1010_CR67",
+        "doi-asserted-by": "publisher",
+        "first-page": "011002",
+        "DOI": "10.1063/1.4812323",
+        "volume": "1",
+        "author": "A Jain",
+        "year": "2013",
+        "unstructured": "Jain, A. et al. Commentary: The Materials Project: a materials genome approach to accelerating materials innovation. APL Mater. 1, 011002 (2013).",
+        "journal-title": "APL Mater."
+      },
+      {
+        "key": "1010_CR68",
+        "doi-asserted-by": "publisher",
+        "first-page": "3066",
+        "DOI": "10.1021/acscatal.2c05426",
+        "volume": "13",
+        "author": "R Tran",
+        "year": "2023",
+        "unstructured": "Tran, R. et al. The Open Catalyst 2022 (OC22) dataset and challenges for oxide electrocatalysts. ACS Catal. 13, 3066–3084 (2023).",
+        "journal-title": "ACS Catal."
+      },
+      {
+        "key": "1010_CR69",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1603015",
+        "DOI": "10.1126/sciadv.1603015",
+        "volume": "3",
+        "author": "S Chmiela",
+        "year": "2017",
+        "unstructured": "Chmiela, S. et al. Machine learning of accurate energy-conserving molecular force fields. Sci. Adv. 3, e1603015 (2017).",
+        "journal-title": "Sci. Adv."
+      },
+      {
+        "key": "1010_CR70",
+        "doi-asserted-by": "publisher",
+        "first-page": "eadf0873",
+        "DOI": "10.1126/sciadv.adf0873",
+        "volume": "9",
+        "author": "S Chmiela",
+        "year": "2023",
+        "unstructured": "Chmiela, S. et al. Accurate global machine learning force fields for molecules with hundreds of atoms. Sci. Adv. 9, eadf0873 (2023).",
+        "journal-title": "Sci. Adv."
+      },
+      {
+        "key": "1010_CR71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-023-02690-2",
+        "volume": "10",
+        "author": "S Nandi",
+        "year": "2023",
+        "unstructured": "Nandi, S., Vegge, T. & Bhowmik, A. MultiXC-QM9: large dataset of molecular and reaction energies from multi-level quantum chemical methods. Sci. Data 10, 783 (2023).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "1010_CR72",
+        "doi-asserted-by": "publisher",
+        "first-page": "1157",
+        "DOI": "10.1002/jcc.23910",
+        "volume": "36",
+        "author": "AB Birkholz",
+        "year": "2015",
+        "unstructured": "Birkholz, A. B. & Schlegel, H. B. Using bonding to guide transition state optimization. J. Comput. Chem. 36, 1157–1166 (2015).",
+        "journal-title": "J. Comput. Chem."
+      },
+      {
+        "key": "1010_CR73",
+        "unstructured": "Kovács, D. P. et al MACE-OFF: Transferable machine learning force fields for organic molecules. Preprint at https://arxiv.org/abs/2312.15211 (2023)."
+      },
+      {
+        "key": "1010_CR74",
+        "doi-asserted-by": "publisher",
+        "first-page": "293",
+        "DOI": "10.1038/s41524-024-01493-2",
+        "volume": "10",
+        "author": "D Zhang",
+        "year": "2024",
+        "unstructured": "Zhang, D., Liu, X. & Zhang, X. DPA-2: a large atomic model as a multi-task learner. NPJ Comput. Mater 10, 293 (2024).",
+        "journal-title": "NPJ Comput. Mater"
+      },
+      {
+        "key": "1010_CR75",
+        "unstructured": "Du, Y. et al. in Advances in Neural Information Processing Systems, (eds Oh, A. et al.) vol. 36, 77359–77378 (Curran Associates, 2023)."
+      },
+      {
+        "key": "1010_CR76",
+        "unstructured": "Du, Y. et al. Doob’s Lagrangian: a sample-efficient variational approach to transition path sampling. In (Globerson. A. et al. eds) Advances in Neural Information Processing Systems 37, 65791–65822 (2024)."
+      },
+      {
+        "key": "1010_CR77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Serre, J.-P. et al. Linear Representations of Finite Groups vol. 42 (Springer, 1977).",
+        "DOI": "10.1007/978-1-4684-9458-7"
+      },
+      {
+        "key": "1010_CR78",
+        "unstructured": "Bronstein, M. M., Bruna, J., Cohen, T. & Veličković, P. Geometric deep learning: grids, groups, graphs, geodesics, and gauges. Preprint at https://arxiv.org/abs/2104.13478 (2021)."
+      },
+      {
+        "key": "1010_CR79",
+        "unstructured": "Köhler, J., Klein, L. & Noé, F. Equivariant flows: exact likelihood generative learning for symmetric densities. In International Conference on Machine Learning 5361–5370 (2020)."
+      },
+      {
+        "key": "1010_CR80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Villani, C. et al. Optimal Transport: Old and New vol. 338 (Springer, 2009).",
+        "DOI": "10.1007/978-3-540-71050-9"
+      },
+      {
+        "key": "1010_CR81",
+        "unstructured": "Villani, C. Topics in Optimal Transportation vol. 58 (American Mathematical Society, 2021)."
+      },
+      {
+        "key": "1010_CR82",
+        "first-page": "94",
+        "volume": "55",
+        "author": "F Santambrogio",
+        "year": "2015",
+        "unstructured": "Santambrogio, F. Optimal transport for applied mathematicians. Birkäuser 55, 94 (2015).",
+        "journal-title": "Birkäuser"
+      },
+      {
+        "key": "1010_CR83",
+        "unstructured": "Zhang, L. & Wang, L. Monge-amp\\ere flow for generative modeling. Preprint at https://arxiv.org/abs/1809.10188 (2018)."
+      },
+      {
+        "key": "1010_CR84",
+        "unstructured": "Monge, G. Mémoire sur la théorie des déblais et des remblais. Imprimerie Royale (1781)."
+      },
+      {
+        "key": "1010_CR85",
+        "unstructured": "Kantorovich, L. V. On the translocation of masses. Dokl. Akad. Nauk. 37, 199–201 (1942)."
+      },
+      {
+        "key": "1010_CR86",
+        "doi-asserted-by": "publisher",
+        "first-page": "375",
+        "DOI": "10.1007/s002110050002",
+        "volume": "84",
+        "author": "J-D Benamou",
+        "year": "2000",
+        "unstructured": "Benamou, J.-D. & Brenier, Y. A computational fluid mechanics solution to the Monge–Kantorovich mass transfer problem. Num. Math. 84, 375–393 (2000).",
+        "journal-title": "Num. Math."
+      },
+      {
+        "key": "1010_CR87",
+        "unstructured": "Peyré, G. & Cuturi, M. Computational Optimal Transport (Center for Research in Economics and Statistics Working Papers, 2017)."
+      },
+      {
+        "key": "1010_CR88",
+        "unstructured": "Liu, X., Gong, C. & Liu, Q. Flow straight and fast: learning to generate and transfer data with rectified flow. In 11th International Conference on Learning Representations (2023)."
+      },
+      {
+        "key": "1010_CR89",
+        "first-page": "5373",
+        "volume": "34",
+        "author": "Z Shen",
+        "year": "2021",
+        "unstructured": "Shen, Z. et al. Accurate point cloud registration with robust optimal transport. Adv. Neural Inf. Process. Syst. 34, 5373–5389 (2021).",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "1010_CR90",
+        "unstructured": "Titouan, V., Courty, N., Tavenard, R. & Flamary, R. Optimal transport for structured data with application on graphs. In International Conference on Machine Learning 6275–6284 (PMLR, 2019)."
+      },
+      {
+        "key": "1010_CR91",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lugmayr, A. et al. Repaint: inpainting using denoising diffusion probabilistic models. In 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (2022).",
+        "DOI": "10.1109/CVPR52688.2022.01117"
+      },
+      {
+        "key": "1010_CR92",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Schreiner, M. et al. Transition1x. Figshare https://doi.org/10.6084/m9.figshare.19614657.v4 (2022).",
+        "DOI": "10.6084/m9.figshare.19614657.v4"
+      },
+      {
+        "key": "1010_CR93",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Zhao, Q. et al. Reaction dataset. Zenodo https://doi.org/10.5281/zenodo.13119868 (2024).",
+        "DOI": "10.5281/zenodo.13119868"
+      },
+      {
+        "key": "1010_CR94",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Zhao, Q. deepprinciple/react-ot: reactot. Zenodo https://doi.org/10.5281/zenodo.14836384 (2025).",
+        "DOI": "10.5281/zenodo.14836384"
+      }
+    ],
+    "container-title": [
+      "Nature Machine Intelligence"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s42256-025-01010-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42256-025-01010-0",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s42256-025-01010-0.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          23
+        ]
+      ],
+      "date-time": "2025-04-23T15:03:16Z",
+      "timestamp": 1745420596000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s42256-025-01010-0"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          23
+        ]
+      ]
+    },
+    "references-count": 94,
+    "journal-issue": {
+      "issue": "4",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "1010"
+    ],
+    "URL": "https://doi.org/10.1038/s42256-025-01010-0",
+    "relation": {},
+    "ISSN": [
+      "2522-5839"
+    ],
+    "issn-type": [
+      {
+        "value": "2522-5839",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          23
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "12 May 2024",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "10 February 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "23 April 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ]
+  }
+}

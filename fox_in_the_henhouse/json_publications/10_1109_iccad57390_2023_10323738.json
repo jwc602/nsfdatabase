@@ -1,0 +1,2053 @@
+{
+  "doi": "10.1109/iccad57390.2023.10323738",
+  "openalex": {
+    "id": "https://openalex.org/W4389162831",
+    "doi": "https://doi.org/10.1109/iccad57390.2023.10323738",
+    "title": "SEE-MCAM: Scalable Multi-Bit FeFET Content Addressable Memories for Energy Efficient Associative Search",
+    "display_name": "SEE-MCAM: Scalable Multi-Bit FeFET Content Addressable Memories for Energy Efficient Associative Search",
+    "publication_year": 2023,
+    "publication_date": "2023-10-28",
+    "ids": {
+      "openalex": "https://openalex.org/W4389162831",
+      "doi": "https://doi.org/10.1109/iccad57390.2023.10323738"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/iccad57390.2023.10323738",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/iccad57390.2023.10323738",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5093047659",
+          "display_name": "Shengxi Shou",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I76130692",
+            "display_name": "Zhejiang University",
+            "ror": "https://ror.org/00a2xv884",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76130692"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I204250578",
+            "display_name": "University of California, Irvine",
+            "ror": "https://ror.org/04gyf1771",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204250578"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shengxi Shou",
+        "raw_affiliation_strings": [
+          "College of Information Science and Electronic Engineering, Zhejiang University, China",
+          "Department of Information and Computer Science, University of California Irvine, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Information Science and Electronic Engineering, Zhejiang University, China",
+            "institution_ids": [
+              "https://openalex.org/I76130692"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Information and Computer Science, University of California Irvine, USA",
+            "institution_ids": [
+              "https://openalex.org/I204250578"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5078948242",
+          "display_name": "Che-Kai Liu",
+          "orcid": "https://orcid.org/0009-0003-9604-3987"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I130701444",
+            "display_name": "Georgia Institute of Technology",
+            "ror": "https://ror.org/01zkghx44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Che-Kai Liu",
+        "raw_affiliation_strings": [
+          "School of Electrical and Computer Engineering, Georgia Institute of Technology, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical and Computer Engineering, Georgia Institute of Technology, USA",
+            "institution_ids": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5006363230",
+          "display_name": "Sanggeon Yun",
+          "orcid": "https://orcid.org/0000-0002-0488-9666"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204250578",
+            "display_name": "University of California, Irvine",
+            "ror": "https://ror.org/04gyf1771",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204250578"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sanggeon Yun",
+        "raw_affiliation_strings": [
+          "Department of Information and Computer Science, University of California Irvine, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Information and Computer Science, University of California Irvine, USA",
+            "institution_ids": [
+              "https://openalex.org/I204250578"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5076856438",
+          "display_name": "Zishen Wan",
+          "orcid": "https://orcid.org/0000-0002-2982-5351"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I130701444",
+            "display_name": "Georgia Institute of Technology",
+            "ror": "https://ror.org/01zkghx44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zishen Wan",
+        "raw_affiliation_strings": [
+          "School of Electrical and Computer Engineering, Georgia Institute of Technology, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical and Computer Engineering, Georgia Institute of Technology, USA",
+            "institution_ids": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5075633314",
+          "display_name": "Kai Ni",
+          "orcid": "https://orcid.org/0000-0002-3628-3431"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I155173764",
+            "display_name": "Rochester Institute of Technology",
+            "ror": "https://ror.org/00v4yb702",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I155173764"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kai Ni",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Microelectronic Engineering, Rochester Institute of Technology, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Microelectronic Engineering, Rochester Institute of Technology, USA",
+            "institution_ids": [
+              "https://openalex.org/I155173764"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5033221192",
+          "display_name": "Mohsen Imani",
+          "orcid": "https://orcid.org/0000-0002-5761-0622"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204250578",
+            "display_name": "University of California, Irvine",
+            "ror": "https://ror.org/04gyf1771",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204250578"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mohsen Imani",
+        "raw_affiliation_strings": [
+          "Department of Information and Computer Science, University of California Irvine, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Information and Computer Science, University of California Irvine, USA",
+            "institution_ids": [
+              "https://openalex.org/I204250578"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100600905",
+          "display_name": "Xiaobo Sharon Hu",
+          "orcid": "https://orcid.org/0000-0002-6636-9738"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107639228",
+            "display_name": "University of Notre Dame",
+            "ror": "https://ror.org/00mkhxb43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "X. Sharon Hu",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, University of Notre Dame, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, University of Notre Dame, USA",
+            "institution_ids": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5107636936",
+          "display_name": "Jianyi Yang",
+          "orcid": "https://orcid.org/0000-0003-2912-7737"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210139699",
+            "display_name": "Micro & Nano Research Institute",
+            "ror": "https://ror.org/03y1kax64",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210139699"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I76130692",
+            "display_name": "Zhejiang University",
+            "ror": "https://ror.org/00a2xv884",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jianyi Yang",
+        "raw_affiliation_strings": [
+          "School of Micro-Nano Electronics. Zhejiang University, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Micro-Nano Electronics. Zhejiang University, China",
+            "institution_ids": [
+              "https://openalex.org/I4210139699",
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5054211420",
+          "display_name": "Cheng Zhuo",
+          "orcid": "https://orcid.org/0000-0002-2610-7522"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210139699",
+            "display_name": "Micro & Nano Research Institute",
+            "ror": "https://ror.org/03y1kax64",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210139699"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I76130692",
+            "display_name": "Zhejiang University",
+            "ror": "https://ror.org/00a2xv884",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Cheng Zhuo",
+        "raw_affiliation_strings": [
+          "School of Micro-Nano Electronics. Zhejiang University, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Micro-Nano Electronics. Zhejiang University, China",
+            "institution_ids": [
+              "https://openalex.org/I4210139699",
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5071383109",
+          "display_name": "Xunzhao Yin",
+          "orcid": "https://orcid.org/0000-0003-4656-9545"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I76130692",
+            "display_name": "Zhejiang University",
+            "ror": "https://ror.org/00a2xv884",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xunzhao Yin",
+        "raw_affiliation_strings": [
+          "College of Information Science and Electronic Engineering, Zhejiang University, China",
+          "Key Laboratory of Collaborative Sensing and Autonomous Unmaned Systems of Zhejiang Province, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Information Science and Electronic Engineering, Zhejiang University, China",
+            "institution_ids": [
+              "https://openalex.org/I76130692"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Key Laboratory of Collaborative Sensing and Autonomous Unmaned Systems of Zhejiang Province, China",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 10,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 2.48825847,
+    "has_fulltext": false,
+    "cited_by_count": 15,
+    "citation_normalized_percentile": {
+      "value": 0.89150997,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 99
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "9"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10502",
+      "display_name": "Advanced Memory and Neural Computing",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10502",
+        "display_name": "Advanced Memory and Neural Computing",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12808",
+        "display_name": "Ferroelectric and Negative Capacitance Devices",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12046",
+        "display_name": "MXene and MAX Phase Materials",
+        "score": 0.9951000213623047,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/scalability",
+        "display_name": "Scalability",
+        "score": 0.7566800713539124
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7286489009857178
+      },
+      {
+        "id": "https://openalex.org/keywords/bottleneck",
+        "display_name": "Bottleneck",
+        "score": 0.6911517977714539
+      },
+      {
+        "id": "https://openalex.org/keywords/robustness",
+        "display_name": "Robustness (evolution)",
+        "score": 0.5304163098335266
+      },
+      {
+        "id": "https://openalex.org/keywords/content-addressable-memory",
+        "display_name": "Content-addressable memory",
+        "score": 0.5265605449676514
+      },
+      {
+        "id": "https://openalex.org/keywords/non-volatile-memory",
+        "display_name": "Non-volatile memory",
+        "score": 0.5073918700218201
+      },
+      {
+        "id": "https://openalex.org/keywords/efficient-energy-use",
+        "display_name": "Efficient energy use",
+        "score": 0.45216313004493713
+      },
+      {
+        "id": "https://openalex.org/keywords/cmos",
+        "display_name": "CMOS",
+        "score": 0.44186797738075256
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-architecture",
+        "display_name": "Computer architecture",
+        "score": 0.4185529947280884
+      },
+      {
+        "id": "https://openalex.org/keywords/parallel-computing",
+        "display_name": "Parallel computing",
+        "score": 0.416594535112381
+      },
+      {
+        "id": "https://openalex.org/keywords/memory-architecture",
+        "display_name": "Memory architecture",
+        "score": 0.41218075156211853
+      },
+      {
+        "id": "https://openalex.org/keywords/content-addressable-storage",
+        "display_name": "Content-addressable storage",
+        "score": 0.4106113314628601
+      },
+      {
+        "id": "https://openalex.org/keywords/embedded-system",
+        "display_name": "Embedded system",
+        "score": 0.3984135389328003
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-hardware",
+        "display_name": "Computer hardware",
+        "score": 0.3847087323665619
+      },
+      {
+        "id": "https://openalex.org/keywords/electronic-engineering",
+        "display_name": "Electronic engineering",
+        "score": 0.22233140468597412
+      },
+      {
+        "id": "https://openalex.org/keywords/engineering",
+        "display_name": "Engineering",
+        "score": 0.16556650400161743
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-neural-network",
+        "display_name": "Artificial neural network",
+        "score": 0.14043256640434265
+      },
+      {
+        "id": "https://openalex.org/keywords/electrical-engineering",
+        "display_name": "Electrical engineering",
+        "score": 0.13302171230316162
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.10279369354248047
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C48044578",
+        "wikidata": "https://www.wikidata.org/wiki/Q727490",
+        "display_name": "Scalability",
+        "level": 2,
+        "score": 0.7566800713539124
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7286489009857178
+      },
+      {
+        "id": "https://openalex.org/C2780513914",
+        "wikidata": "https://www.wikidata.org/wiki/Q18210350",
+        "display_name": "Bottleneck",
+        "level": 2,
+        "score": 0.6911517977714539
+      },
+      {
+        "id": "https://openalex.org/C63479239",
+        "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+        "display_name": "Robustness (evolution)",
+        "level": 3,
+        "score": 0.5304163098335266
+      },
+      {
+        "id": "https://openalex.org/C53442348",
+        "wikidata": "https://www.wikidata.org/wiki/Q745101",
+        "display_name": "Content-addressable memory",
+        "level": 3,
+        "score": 0.5265605449676514
+      },
+      {
+        "id": "https://openalex.org/C177950962",
+        "wikidata": "https://www.wikidata.org/wiki/Q10997658",
+        "display_name": "Non-volatile memory",
+        "level": 2,
+        "score": 0.5073918700218201
+      },
+      {
+        "id": "https://openalex.org/C2742236",
+        "wikidata": "https://www.wikidata.org/wiki/Q924713",
+        "display_name": "Efficient energy use",
+        "level": 2,
+        "score": 0.45216313004493713
+      },
+      {
+        "id": "https://openalex.org/C46362747",
+        "wikidata": "https://www.wikidata.org/wiki/Q173431",
+        "display_name": "CMOS",
+        "level": 2,
+        "score": 0.44186797738075256
+      },
+      {
+        "id": "https://openalex.org/C118524514",
+        "wikidata": "https://www.wikidata.org/wiki/Q173212",
+        "display_name": "Computer architecture",
+        "level": 1,
+        "score": 0.4185529947280884
+      },
+      {
+        "id": "https://openalex.org/C173608175",
+        "wikidata": "https://www.wikidata.org/wiki/Q232661",
+        "display_name": "Parallel computing",
+        "level": 1,
+        "score": 0.416594535112381
+      },
+      {
+        "id": "https://openalex.org/C2779602883",
+        "wikidata": "https://www.wikidata.org/wiki/Q15544750",
+        "display_name": "Memory architecture",
+        "level": 2,
+        "score": 0.41218075156211853
+      },
+      {
+        "id": "https://openalex.org/C2778618852",
+        "wikidata": "https://www.wikidata.org/wiki/Q1128613",
+        "display_name": "Content-addressable storage",
+        "level": 4,
+        "score": 0.4106113314628601
+      },
+      {
+        "id": "https://openalex.org/C149635348",
+        "wikidata": "https://www.wikidata.org/wiki/Q193040",
+        "display_name": "Embedded system",
+        "level": 1,
+        "score": 0.3984135389328003
+      },
+      {
+        "id": "https://openalex.org/C9390403",
+        "wikidata": "https://www.wikidata.org/wiki/Q3966",
+        "display_name": "Computer hardware",
+        "level": 1,
+        "score": 0.3847087323665619
+      },
+      {
+        "id": "https://openalex.org/C24326235",
+        "wikidata": "https://www.wikidata.org/wiki/Q126095",
+        "display_name": "Electronic engineering",
+        "level": 1,
+        "score": 0.22233140468597412
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.16556650400161743
+      },
+      {
+        "id": "https://openalex.org/C50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "level": 2,
+        "score": 0.14043256640434265
+      },
+      {
+        "id": "https://openalex.org/C119599485",
+        "wikidata": "https://www.wikidata.org/wiki/Q43035",
+        "display_name": "Electrical engineering",
+        "level": 1,
+        "score": 0.13302171230316162
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.10279369354248047
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C77088390",
+        "wikidata": "https://www.wikidata.org/wiki/Q8513",
+        "display_name": "Database",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/iccad57390.2023.10323738",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/iccad57390.2023.10323738",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.8999999761581421,
+        "id": "https://metadata.un.org/sdg/7",
+        "display_name": "Affordable and clean energy"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 44,
+    "referenced_works": [
+      "https://openalex.org/W2613567208",
+      "https://openalex.org/W4281961012",
+      "https://openalex.org/W4312327301",
+      "https://openalex.org/W6840116389",
+      "https://openalex.org/W4379115890",
+      "https://openalex.org/W3165570441",
+      "https://openalex.org/W2999811696",
+      "https://openalex.org/W2062143991",
+      "https://openalex.org/W2899077824",
+      "https://openalex.org/W2988640543",
+      "https://openalex.org/W6651430280",
+      "https://openalex.org/W2605142259",
+      "https://openalex.org/W4319459266",
+      "https://openalex.org/W2959627720",
+      "https://openalex.org/W3202965278",
+      "https://openalex.org/W3014426053",
+      "https://openalex.org/W3138860252",
+      "https://openalex.org/W4205807416",
+      "https://openalex.org/W2893163116",
+      "https://openalex.org/W4317793571",
+      "https://openalex.org/W3184490722",
+      "https://openalex.org/W4302066626",
+      "https://openalex.org/W3095256020",
+      "https://openalex.org/W3024001628",
+      "https://openalex.org/W6840010877",
+      "https://openalex.org/W2898878850",
+      "https://openalex.org/W2944277299",
+      "https://openalex.org/W4225916833",
+      "https://openalex.org/W2562493617",
+      "https://openalex.org/W2998089957",
+      "https://openalex.org/W4293024988",
+      "https://openalex.org/W4360993133",
+      "https://openalex.org/W2906313120",
+      "https://openalex.org/W4308885556",
+      "https://openalex.org/W4249654426",
+      "https://openalex.org/W3136522402",
+      "https://openalex.org/W3184049905",
+      "https://openalex.org/W1857382374",
+      "https://openalex.org/W2026297770",
+      "https://openalex.org/W3098380984",
+      "https://openalex.org/W3098780461",
+      "https://openalex.org/W4312121068",
+      "https://openalex.org/W2004823737",
+      "https://openalex.org/W4312121036"
+    ],
+    "related_works": [
+      "https://openalex.org/W1989420504",
+      "https://openalex.org/W2041845676",
+      "https://openalex.org/W2125477157",
+      "https://openalex.org/W4321273133",
+      "https://openalex.org/W3103704822",
+      "https://openalex.org/W2282934097",
+      "https://openalex.org/W2047264287",
+      "https://openalex.org/W2104200744",
+      "https://openalex.org/W2165082655",
+      "https://openalex.org/W3128683181"
+    ],
+    "abstract_inverted_index": {
+      "Artificial": [
+        0
+      ],
+      "intelligence": [
+        1
+      ],
+      "has": [
+        2
+      ],
+      "made": [
+        3
+      ],
+      "remarkable": [
+        4
+      ],
+      "advancements": [
+        5
+      ],
+      "in": [
+        6,
+        168,
+        171,
+        263,
+        272
+      ],
+      "recent": [
+        7
+      ],
+      "years,": [
+        8
+      ],
+      "leading": [
+        9
+      ],
+      "to": [
+        10,
+        54,
+        62,
+        96,
+        221,
+        228,
+        257
+      ],
+      "the": [
+        11,
+        38,
+        56,
+        115,
+        121,
+        125,
+        153,
+        179,
+        186,
+        193,
+        198,
+        205,
+        222,
+        232
+      ],
+      "development": [
+        12
+      ],
+      "of": [
+        13,
+        18,
+        22,
+        27,
+        91,
+        128,
+        155,
+        178,
+        185,
+        197,
+        260
+      ],
+      "algorithms": [
+        14,
+        29
+      ],
+      "and": [
+        15,
+        32,
+        77,
+        107,
+        139,
+        144,
+        195,
+        215,
+        238,
+        245,
+        265
+      ],
+      "models": [
+        16
+      ],
+      "capable": [
+        17
+      ],
+      "handling": [
+        19
+      ],
+      "ever-increasing": [
+        20
+      ],
+      "amounts": [
+        21
+      ],
+      "data.": [
+        23
+      ],
+      "The": [
+        24,
+        174
+      ],
+      "computational": [
+        25
+      ],
+      "demands": [
+        26
+      ],
+      "these": [
+        28,
+        92
+      ],
+      "necessitate": [
+        30
+      ],
+      "circuit": [
+        31
+      ],
+      "architecture": [
+        33
+      ],
+      "designs": [
+        34,
+        71,
+        112,
+        133,
+        158
+      ],
+      "that": [
+        35,
+        113,
+        204,
+        252
+      ],
+      "go": [
+        36
+      ],
+      "beyond": [
+        37
+      ],
+      "von-Neumann": [
+        39
+      ],
+      "paradigm.": [
+        40
+      ],
+      "Content": [
+        41
+      ],
+      "addressable": [
+        42
+      ],
+      "memories": [
+        43,
+        88
+      ],
+      "(CAMs),": [
+        44
+      ],
+      "which": [
+        45
+      ],
+      "implement": [
+        46
+      ],
+      "parallel": [
+        47
+      ],
+      "associative": [
+        48,
+        136
+      ],
+      "search": [
+        49,
+        137,
+        218
+      ],
+      "functionality": [
+        50,
+        154
+      ],
+      "within": [
+        51
+      ],
+      "memory": [
+        52,
+        57
+      ],
+      "blocks": [
+        53
+      ],
+      "overcome": [
+        55
+      ],
+      "wall": [
+        58
+      ],
+      "bottleneck,": [
+        59
+      ],
+      "have": [
+        60,
+        72
+      ],
+      "proven": [
+        61
+      ],
+      "be": [
+        63
+      ],
+      "effective": [
+        64
+      ],
+      "for": [
+        65
+      ],
+      "data-intensive": [
+        66
+      ],
+      "tasks.": [
+        67
+      ],
+      "While": [
+        68
+      ],
+      "current": [
+        69
+      ],
+      "CAM": [
+        70,
+        110,
+        149,
+        165
+      ],
+      "achieved": [
+        73
+      ],
+      "higher": [
+        74
+      ],
+      "storage": [
+        75,
+        98,
+        172
+      ],
+      "density": [
+        76
+      ],
+      "energy": [
+        78,
+        142,
+        213,
+        241,
+        266
+      ],
+      "efficiency": [
+        79,
+        143,
+        214,
+        242,
+        267
+      ],
+      "than": [
+        80,
+        146,
+        243
+      ],
+      "their": [
+        81
+      ],
+      "CMOS-based": [
+        82
+      ],
+      "counterparts": [
+        83
+      ],
+      "by": [
+        84,
+        159
+      ],
+      "leveraging": [
+        85
+      ],
+      "emerging": [
+        86
+      ],
+      "non-volatile": [
+        87
+      ],
+      "(NVM),": [
+        89
+      ],
+      "most": [
+        90
+      ],
+      "implementations": [
+        93
+      ],
+      "are": [
+        94
+      ],
+      "limited": [
+        95
+      ],
+      "binary": [
+        97
+      ],
+      "cells.": [
+        99
+      ],
+      "In": [
+        100
+      ],
+      "this": [
+        101
+      ],
+      "work,": [
+        102
+      ],
+      "we": [
+        103
+      ],
+      "propose": [
+        104
+      ],
+      "SEE-MCAM,": [
+        105
+      ],
+      "scalable": [
+        106
+      ],
+      "compact": [
+        108
+      ],
+      "multi-bit": [
+        109,
+        135
+      ],
+      "(MCAM)": [
+        111
+      ],
+      "utilize": [
+        114
+      ],
+      "three-terminal": [
+        116
+      ],
+      "ferroelectric": [
+        117
+      ],
+      "FET": [
+        118
+      ],
+      "(FeFET)": [
+        119
+      ],
+      "as": [
+        120
+      ],
+      "proxy.": [
+        122
+      ],
+      "By": [
+        123
+      ],
+      "exploiting": [
+        124
+      ],
+      "multi-level-cell": [
+        126
+      ],
+      "characteristics": [
+        127
+      ],
+      "FeFETs,": [
+        129
+      ],
+      "our": [
+        130,
+        156,
+        253
+      ],
+      "proposed": [
+        131,
+        157,
+        180,
+        199,
+        206,
+        233
+      ],
+      "SEE-MCAM": [
+        132,
+        181,
+        209,
+        234
+      ],
+      "enable": [
+        134
+      ],
+      "functions": [
+        138
+      ],
+      "achieve": [
+        140,
+        236
+      ],
+      "better": [
+        141
+      ],
+      "performance": [
+        145
+      ],
+      "existing": [
+        147,
+        229
+      ],
+      "FeFET-based": [
+        148,
+        246
+      ],
+      "designs.": [
+        150
+      ],
+      "We": [
+        151,
+        190
+      ],
+      "validated": [
+        152
+      ],
+      "achieving": [
+        160
+      ],
+      "3": [
+        161,
+        258
+      ],
+      "bits": [
+        162
+      ],
+      "per": [
+        163,
+        176
+      ],
+      "cell": [
+        164,
+        182
+      ],
+      "functionality,": [
+        166
+      ],
+      "resulting": [
+        167
+      ],
+      "3x": [
+        169
+      ],
+      "improvement": [
+        170,
+        262
+      ],
+      "density.": [
+        173
+      ],
+      "area": [
+        175
+      ],
+      "bit": [
+        177
+      ],
+      "is": [
+        183
+      ],
+      "8%": [
+        184
+      ],
+      "conventional": [
+        187
+      ],
+      "CMOS": [
+        188,
+        223
+      ],
+      "CAM.": [
+        189
+      ],
+      "thoroughly": [
+        191
+      ],
+      "investigated": [
+        192
+      ],
+      "scalability": [
+        194
+      ],
+      "robustness": [
+        196
+      ],
+      "design.": [
+        200
+      ],
+      "Evaluation": [
+        201
+      ],
+      "results": [
+        202,
+        250
+      ],
+      "suggest": [
+        203
+      ],
+      "2FeFET-1": [
+        207
+      ],
+      "T": [
+        208
+      ],
+      "achieves": [
+        210
+      ],
+      "9.8×": [
+        211
+      ],
+      "more": [
+        212,
+        240
+      ],
+      "1.6×": [
+        216
+      ],
+      "less": [
+        217
+      ],
+      "latency": [
+        219
+      ],
+      "compared": [
+        220,
+        227
+      ],
+      "CAM,": [
+        224
+      ],
+      "respectively.": [
+        225,
+        248
+      ],
+      "When": [
+        226
+      ],
+      "MCAM": [
+        230
+      ],
+      "designs,": [
+        231
+      ],
+      "can": [
+        235
+      ],
+      "8.7×": [
+        237
+      ],
+      "4.9×": [
+        239
+      ],
+      "ReRAM-based": [
+        244
+      ],
+      "MCAMs,": [
+        247
+      ],
+      "Benchmarking": [
+        249
+      ],
+      "show": [
+        251
+      ],
+      "approach": [
+        254
+      ],
+      "provides": [
+        255
+      ],
+      "up": [
+        256
+      ],
+      "orders": [
+        259
+      ],
+      "magnitude": [
+        261
+      ],
+      "speedup": [
+        264
+      ],
+      "over": [
+        268
+      ],
+      "a": [
+        269,
+        274
+      ],
+      "GPU": [
+        270
+      ],
+      "implementation": [
+        271
+      ],
+      "accelerating": [
+        273
+      ],
+      "novel": [
+        275
+      ],
+      "quantized": [
+        276
+      ],
+      "hyperdimensional": [
+        277
+      ],
+      "computing": [
+        278
+      ],
+      "(HDC)": [
+        279
+      ],
+      "application.": [
+        280
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 11
+      }
+    ],
+    "updated_date": "2025-11-23T05:10:03.516525",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2025-11-21T11:31:16Z",
+      "timestamp": 1763724676558,
+      "version": "3.28.0"
+    },
+    "reference-count": 41,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              28
+            ]
+          ],
+          "date-time": "2023-10-28T00:00:00Z",
+          "timestamp": 1698451200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              28
+            ]
+          ],
+          "date-time": "2023-10-28T00:00:00Z",
+          "timestamp": 1698451200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          28
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccad57390.2023.10323738",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          30
+        ]
+      ],
+      "date-time": "2023-11-30T13:58:45Z",
+      "timestamp": 1701352725000
+    },
+    "page": "1-9",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "SEE-MCAM: Scalable Multi-Bit FeFET Content Addressable Memories for Energy Efficient Associative Search"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Shengxi",
+        "family": "Shou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "College of Information Science and Electronic Engineering, Zhejiang University,China"
+          }
+        ]
+      },
+      {
+        "given": "Che-Kai",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electrical and Computer Engineering, Georgia Institute of Technology,USA"
+          }
+        ]
+      },
+      {
+        "given": "Sanggeon",
+        "family": "Yun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California Irvine,Department of Information and Computer Science,USA"
+          }
+        ]
+      },
+      {
+        "given": "Zishen",
+        "family": "Wan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electrical and Computer Engineering, Georgia Institute of Technology,USA"
+          }
+        ]
+      },
+      {
+        "given": "Kai",
+        "family": "Ni",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Rochester Institute of Technology,Department of Electrical and Microelectronic Engineering,USA"
+          }
+        ]
+      },
+      {
+        "given": "Mohsen",
+        "family": "Imani",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California Irvine,Department of Information and Computer Science,USA"
+          }
+        ]
+      },
+      {
+        "given": "X. Sharon",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Notre Dame,Department of Computer Science and Engineering,USA"
+          }
+        ]
+      },
+      {
+        "given": "Jianyi",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Micro-Nano Electronics. Zhejiang University,China"
+          }
+        ]
+      },
+      {
+        "given": "Cheng",
+        "family": "Zhuo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Micro-Nano Electronics. Zhejiang University,China"
+          }
+        ]
+      },
+      {
+        "given": "Xunzhao",
+        "family": "Yin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Information Science and Electronic Engineering, Zhejiang University,China"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref13",
+        "first-page": "896",
+        "article-title": "1mb 0.41&#x00B5;m22t2r cell nonvolatile team with two-bit encoding and clocked self-referenced sensing",
+        "volume": "49",
+        "author": "li",
+        "year": "2013",
+        "journal-title": "IEEE JSSC"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "first-page": "19201",
+        "DOI": "10.1038/s41598-022-23116-w",
+        "article-title": "Achieving software-equivalent accuracy for hyperdimensional computing with ferroelectric-based in-memory computing",
+        "volume": "12",
+        "author": "kazemi",
+        "year": "2022",
+        "journal-title": "Scientific Reports"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSSC.2017.2681458"
+      },
+      {
+        "key": "ref34",
+        "first-page": "1577",
+        "article-title": "An ultra-dense 2fefet team design based on a multi -domain fefet model",
+        "volume": "66",
+        "author": "yin",
+        "year": "2018",
+        "journal-title": "IEEE Transactions on Circuits and Systems II Express Briefs"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-15254-4"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IEDM13553.2020.9372124"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JETCAS.2023.3243222"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7873/DATE.2015.0733"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LED.2019.2963300"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCE.2016.2614523"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1951",
+        "DOI": "10.1109/JPROC.2012.2190369",
+        "article-title": "Metaloxide rram",
+        "volume": "100",
+        "author": "wong",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSI.2023.3259940"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41928-019-0321-3"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3489517.3530527"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3470496.3527422"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/HPCA.2017.28"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TED.2020.2994896"
+      },
+      {
+        "journal-title": "UCI Machine Learning Repository",
+        "year": "0",
+        "key": "ref39"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-25873-0"
+      },
+      {
+        "key": "ref38",
+        "first-page": "56",
+        "article-title": "Onlinehd: Robust, efficient, and single-pass online learning using hyperdimensional system",
+        "author": "hernandez-cane",
+        "year": "0",
+        "journal-title": "2021 Design Automation & Test in Europe Conference & Exhibition (DATE)"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TC.2021.3136576"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IEDM13553.2020.9372119"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41928-020-00492-7"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Ferroelectric ternary content addressable memories for energy efficient associative search",
+        "author": "yin",
+        "year": "2022",
+        "journal-title": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3508352.3549412"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41928-020-0413-0"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LED.2018.2872347"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ISWC.2012.13"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.23919/DATE51398.2021.9474234"
+      },
+      {
+        "key": "ref21",
+        "first-page": "13",
+        "article-title": "On the write schemes and efficiency of fefet lt nor array for embedded nonvolatile memory and beyond",
+        "author": "xiao",
+        "year": "2022",
+        "journal-title": "2022 IEEE International Electron Devices Meeting (IEDM)"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LED.2019.2914882"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSI.2018.2874880"
+      },
+      {
+        "key": "ref29",
+        "first-page": "25",
+        "article-title": "Inmemory computing with associative memories: a cross-layer perspective",
+        "author": "hu",
+        "year": "2021",
+        "journal-title": "2021 IEEE International Electron Devices Meeting (IEDM)"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSSC.2005.864128"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TVT.2020.2964110"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/VLSIT.2018.8510622"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3508352.3549387"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00885"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MCAS.2021.3071609"
+      },
+      {
+        "key": "ref5",
+        "article-title": "Hdgim: Hyperdimensional genome sequence matching on unreliable highly scaled fefet",
+        "author": "barkam",
+        "year": "0",
+        "journal-title": "2023 Design Automation & Test in Europe Conference & Exhibition (DATE)"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-35395-6_30"
+      }
+    ],
+    "event": {
+      "name": "2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)",
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            28
+          ]
+        ]
+      },
+      "location": "San Francisco, CA, USA",
+      "end": {
+        "date-parts": [
+          [
+            2023,
+            11,
+            2
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/10323590/10323543/10323738.pdf?arnumber=10323738",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          30
+        ]
+      ],
+      "date-time": "2023-11-30T17:46:04Z",
+      "timestamp": 1701366364000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10323738/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          28
+        ]
+      ]
+    },
+    "references-count": 41,
+    "URL": "https://doi.org/10.1109/iccad57390.2023.10323738",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          28
+        ]
+      ]
+    }
+  }
+}

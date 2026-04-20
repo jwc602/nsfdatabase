@@ -1,0 +1,1010 @@
+{
+  "doi": "10.1109/tbiom.2024.3486732",
+  "openalex": {
+    "id": "https://openalex.org/W4403826550",
+    "doi": "https://doi.org/10.1109/tbiom.2024.3486732",
+    "title": "<i>DensePoseGait</i>: Dense Human Pose Part-Guided for Gait Recognition",
+    "display_name": "<i>DensePoseGait</i>: Dense Human Pose Part-Guided for Gait Recognition",
+    "publication_year": 2024,
+    "publication_date": "2024-10-28",
+    "ids": {
+      "openalex": "https://openalex.org/W4403826550",
+      "doi": "https://doi.org/10.1109/tbiom.2024.3486732"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tbiom.2024.3486732",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tbiom.2024.3486732",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210209367",
+        "display_name": "IEEE Transactions on Biometrics Behavior and Identity Science",
+        "issn_l": "2637-6407",
+        "issn": [
+          "2637-6407"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Biometrics, Behavior, and Identity Science",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5085590336",
+          "display_name": "Rijun Liao",
+          "orcid": "https://orcid.org/0000-0001-6023-2688"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I176834541",
+            "display_name": "Guangdong Medical College",
+            "ror": "https://ror.org/04k5rxe29",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I176834541"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rijun Liao",
+        "raw_affiliation_strings": [
+          "School of Biomedical Engineering, Guangdong Medical University, Guangdong, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Biomedical Engineering, Guangdong Medical University, Guangdong, China",
+            "institution_ids": [
+              "https://openalex.org/I176834541"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100380625",
+          "display_name": "Zhu Li",
+          "orcid": "https://orcid.org/0000-0002-8246-177X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I75421653",
+            "display_name": "University of Missouri–Kansas City",
+            "ror": "https://ror.org/01w0d5g70",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I75421653"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhu Li",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Electrical Engineering, University of Missouri-Kansas City, MO, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Electrical Engineering, University of Missouri-Kansas City, MO, USA",
+            "institution_ids": [
+              "https://openalex.org/I75421653"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5038036261",
+          "display_name": "Shuvra S. Bhattacharyya",
+          "orcid": "https://orcid.org/0000-0001-7719-1106"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I66946132",
+            "display_name": "University of Maryland, College Park",
+            "ror": "https://ror.org/047s2c258",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I66946132"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shuvra S. Bhattacharyya",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering and UMIACS, University of Maryland, College Park, MD, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering and UMIACS, University of Maryland, College Park, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I66946132"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5112230162",
+          "display_name": "George York",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I430641",
+            "display_name": "United States Air Force Academy",
+            "ror": "https://ror.org/0055d0g64",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I4210089612",
+              "https://openalex.org/I4210102105",
+              "https://openalex.org/I430641"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "George York",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering and UAS Research Center, US Air Force Academy, Colorado Springs, CO, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering and UAS Research Center, US Air Force Academy, Colorado Springs, CO, USA",
+            "institution_ids": [
+              "https://openalex.org/I430641"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.10257789,
+    "has_fulltext": false,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.69437088,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "7",
+      "issue": "1",
+      "first_page": "33",
+      "last_page": "46"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12740",
+      "display_name": "Gait Recognition and Analysis",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12740",
+        "display_name": "Gait Recognition and Analysis",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11398",
+        "display_name": "Hand Gesture Recognition Systems",
+        "score": 0.9983000159263611,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1709",
+          "display_name": "Human-Computer Interaction"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10812",
+        "display_name": "Human Pose and Action Recognition",
+        "score": 0.9876999855041504,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/gait",
+        "display_name": "Gait",
+        "score": 0.7643622756004333
+      },
+      {
+        "id": "https://openalex.org/keywords/physical-medicine-and-rehabilitation",
+        "display_name": "Physical medicine and rehabilitation",
+        "score": 0.5582886338233948
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.45039457082748413
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.3829478919506073
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.336758017539978
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-vision",
+        "display_name": "Computer vision",
+        "score": 0.3363034129142761
+      },
+      {
+        "id": "https://openalex.org/keywords/medicine",
+        "display_name": "Medicine",
+        "score": 0.2237289845943451
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C151800584",
+        "wikidata": "https://www.wikidata.org/wiki/Q2370000",
+        "display_name": "Gait",
+        "level": 2,
+        "score": 0.7643622756004333
+      },
+      {
+        "id": "https://openalex.org/C99508421",
+        "wikidata": "https://www.wikidata.org/wiki/Q2678675",
+        "display_name": "Physical medicine and rehabilitation",
+        "level": 1,
+        "score": 0.5582886338233948
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.45039457082748413
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.3829478919506073
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.336758017539978
+      },
+      {
+        "id": "https://openalex.org/C31972630",
+        "wikidata": "https://www.wikidata.org/wiki/Q844240",
+        "display_name": "Computer vision",
+        "level": 1,
+        "score": 0.3363034129142761
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.2237289845943451
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/tbiom.2024.3486732",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tbiom.2024.3486732",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210209367",
+          "display_name": "IEEE Transactions on Biometrics Behavior and Identity Science",
+          "issn_l": "2637-6407",
+          "issn": [
+            "2637-6407"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Biometrics, Behavior, and Identity Science",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.4000000059604645,
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 46,
+    "referenced_works": [
+      "https://openalex.org/W4308459032",
+      "https://openalex.org/W2088991737",
+      "https://openalex.org/W3159765692",
+      "https://openalex.org/W3119895582",
+      "https://openalex.org/W4400527891",
+      "https://openalex.org/W2765328347",
+      "https://openalex.org/W2886790699",
+      "https://openalex.org/W3042230461",
+      "https://openalex.org/W2977530922",
+      "https://openalex.org/W2963876278",
+      "https://openalex.org/W3035400973",
+      "https://openalex.org/W2080982032",
+      "https://openalex.org/W4282972825",
+      "https://openalex.org/W3012374685",
+      "https://openalex.org/W2103453807",
+      "https://openalex.org/W2963781481",
+      "https://openalex.org/W1979856851",
+      "https://openalex.org/W4319788144",
+      "https://openalex.org/W4214708781",
+      "https://openalex.org/W4393154968",
+      "https://openalex.org/W4387789881",
+      "https://openalex.org/W4387968226",
+      "https://openalex.org/W2126680226",
+      "https://openalex.org/W2026800967",
+      "https://openalex.org/W2896868164",
+      "https://openalex.org/W4372260237",
+      "https://openalex.org/W2963301258",
+      "https://openalex.org/W4313190226",
+      "https://openalex.org/W4361282661",
+      "https://openalex.org/W4229071024",
+      "https://openalex.org/W2788751553",
+      "https://openalex.org/W2104335344",
+      "https://openalex.org/W6683756719",
+      "https://openalex.org/W2018331988",
+      "https://openalex.org/W4312652114",
+      "https://openalex.org/W2587215467",
+      "https://openalex.org/W2739325416",
+      "https://openalex.org/W3203640349",
+      "https://openalex.org/W3202075110",
+      "https://openalex.org/W1561782558",
+      "https://openalex.org/W2058897916",
+      "https://openalex.org/W2038176251",
+      "https://openalex.org/W1971239273",
+      "https://openalex.org/W2104769793",
+      "https://openalex.org/W1181052087",
+      "https://openalex.org/W4386076037"
+    ],
+    "related_works": [
+      "https://openalex.org/W2772917594",
+      "https://openalex.org/W2036807459",
+      "https://openalex.org/W2058170566",
+      "https://openalex.org/W2755342338",
+      "https://openalex.org/W2166024367",
+      "https://openalex.org/W3116076068",
+      "https://openalex.org/W2229312674",
+      "https://openalex.org/W2951359407",
+      "https://openalex.org/W2079911747",
+      "https://openalex.org/W1969923398"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2025-12-27T23:08:20.325037",
+    "created_date": "2024-10-29T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2025-12-30T11:12:34Z",
+      "timestamp": 1767093154349,
+      "version": "3.41.0"
+    },
+    "reference-count": 47,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "name": "NSF Award",
+        "award": [
+          "2148382"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2148382"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AFRL SFFP at USAF Academy"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Biom. Behav. Identity Sci."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/tbiom.2024.3486732",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          28
+        ]
+      ],
+      "date-time": "2024-10-28T17:44:40Z",
+      "timestamp": 1730137480000
+    },
+    "page": "33-46",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "<i>DensePoseGait</i>: Dense Human Pose Part-Guided for Gait Recognition"
+    ],
+    "prefix": "10.1109",
+    "volume": "7",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6023-2688",
+        "authenticated-orcid": false,
+        "given": "Rijun",
+        "family": "Liao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Biomedical Engineering, Guangdong Medical University, Dongguan City, Guangdong, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8246-177X",
+        "authenticated-orcid": false,
+        "given": "Zhu",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Electrical Engineering, University of Missouri-Kansas City, Kansas City, MO, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7719-1106",
+        "authenticated-orcid": false,
+        "given": "Shuvra S.",
+        "family": "Bhattacharyya",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering and UMIACS, The University of Maryland at College Park, College Park, MD, USA"
+          }
+        ]
+      },
+      {
+        "given": "George",
+        "family": "York",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering and UAS Research Center, U.S. Air Force Academy, Colorado Springs, CO, USA"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.image.2022.116889"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.image.2004.07.001"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2021.04.081"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IJCB48548.2020.9304910"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/FG59268.2024.10581996"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-69923-3_51"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-97909-0_15"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TBIOM.2020.3008862"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2019.107069"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00762"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01423"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2009.12.020"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2022.06.048"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2019.00042"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2001.991036"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.256"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSVT.2003.821972"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/exsy.13244"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-96878-6_6"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i2.27933"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2023.3325962"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3581783.3612052"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2006.38"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.260"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2018.10.019"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICASSP49357.2023.10096571"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v33i01.33018126"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TBIOM.2022.3213545"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ins.2023.03.145"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2022.3164543"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s41074-018-0039-6"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICPR.2006.67"
+      },
+      {
+        "article-title": "The CMU motion of body (MoBo) database",
+        "year": "2001",
+        "author": "Gross",
+        "key": "ref33"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIFS.2012.2204253"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01959"
+      },
+      {
+        "key": "ref36",
+        "first-page": "14789",
+        "article-title": "Gait recognition in the wild: A benchmark",
+        "volume-title": "Proc. IEEE Int. Conf. Comput. Vis. (ICCV)",
+        "author": "Zhu"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2017.02.006"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW.2017.80"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01465"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01267"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/11744078_12"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2009.5457587"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICIP.2011.6115889"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSVT.2012.2186744"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.24.109"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2015.08.011"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00108"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Biometrics, Behavior, and Identity Science"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://ieeexplore.ieee.org/ielam/8423754/10816731/10736544-aam.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/8423754/10816731/10736544.pdf?arnumber=10736544",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          26
+        ]
+      ],
+      "date-time": "2025-05-26T18:09:48Z",
+      "timestamp": 1748282988000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10736544/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "references-count": 47,
+    "journal-issue": {
+      "issue": "1"
+    },
+    "URL": "https://doi.org/10.1109/tbiom.2024.3486732",
+    "relation": {},
+    "ISSN": [
+      "2637-6407"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2637-6407"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    }
+  }
+}

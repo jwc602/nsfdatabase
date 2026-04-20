@@ -1,0 +1,947 @@
+{
+  "doi": "10.1109/sp54263.2024.00183",
+  "openalex": {
+    "id": "https://openalex.org/W4402265108",
+    "doi": "https://doi.org/10.1109/sp54263.2024.00183",
+    "title": "Jasmine: Scale up JavaScript Static Security Analysis with Computation-based Semantic Explanation",
+    "display_name": "Jasmine: Scale up JavaScript Static Security Analysis with Computation-based Semantic Explanation",
+    "publication_year": 2024,
+    "publication_date": "2024-05-19",
+    "ids": {
+      "openalex": "https://openalex.org/W4402265108",
+      "doi": "https://doi.org/10.1109/sp54263.2024.00183"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/sp54263.2024.00183",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/sp54263.2024.00183",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2024 IEEE Symposium on Security and Privacy (SP)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101419431",
+          "display_name": "Feng Xiao",
+          "orcid": "https://orcid.org/0000-0001-7604-6468"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I130701444",
+            "display_name": "Georgia Institute of Technology",
+            "ror": "https://ror.org/01zkghx44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Feng Xiao",
+        "raw_affiliation_strings": [
+          "Georgia Institute of Technology"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Georgia Institute of Technology",
+            "institution_ids": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5111533521",
+          "display_name": "Zhizhong Su",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I37461747",
+            "display_name": "Wuhan University",
+            "ror": "https://ror.org/033vjfk17",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I37461747"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhongfu Su",
+        "raw_affiliation_strings": [
+          "Wuhan University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Wuhan University",
+            "institution_ids": [
+              "https://openalex.org/I37461747"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100700745",
+          "display_name": "Guangliang Yang",
+          "orcid": "https://orcid.org/0000-0003-3244-6376"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Guangliang Yang",
+        "raw_affiliation_strings": [
+          "Fudan University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Fudan University",
+            "institution_ids": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5047140382",
+          "display_name": "Wenke Lee",
+          "orcid": "https://orcid.org/0000-0003-2761-1277"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I130701444",
+            "display_name": "Georgia Institute of Technology",
+            "ror": "https://ror.org/01zkghx44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wenke Lee",
+        "raw_affiliation_strings": [
+          "Georgia Institute of Technology"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Georgia Institute of Technology",
+            "institution_ids": [
+              "https://openalex.org/I130701444"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.15049426,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "296",
+      "last_page": "311"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11424",
+      "display_name": "Security and Verification in Computing",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11424",
+        "display_name": "Security and Verification in Computing",
+        "score": 0.9997000098228455,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11241",
+        "display_name": "Advanced Malware Detection Techniques",
+        "score": 0.9997000098228455,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1711",
+          "display_name": "Signal Processing"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12479",
+        "display_name": "Web Application Security Vulnerabilities",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.815716028213501
+      },
+      {
+        "id": "https://openalex.org/keywords/javascript",
+        "display_name": "JavaScript",
+        "score": 0.7279568910598755
+      },
+      {
+        "id": "https://openalex.org/keywords/computation",
+        "display_name": "Computation",
+        "score": 0.5644549131393433
+      },
+      {
+        "id": "https://openalex.org/keywords/scale",
+        "display_name": "Scale (ratio)",
+        "score": 0.5369946956634521
+      },
+      {
+        "id": "https://openalex.org/keywords/programming-language",
+        "display_name": "Programming language",
+        "score": 0.38686999678611755
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.815716028213501
+      },
+      {
+        "id": "https://openalex.org/C544833334",
+        "wikidata": "https://www.wikidata.org/wiki/Q2005",
+        "display_name": "JavaScript",
+        "level": 2,
+        "score": 0.7279568910598755
+      },
+      {
+        "id": "https://openalex.org/C45374587",
+        "wikidata": "https://www.wikidata.org/wiki/Q12525525",
+        "display_name": "Computation",
+        "level": 2,
+        "score": 0.5644549131393433
+      },
+      {
+        "id": "https://openalex.org/C2778755073",
+        "wikidata": "https://www.wikidata.org/wiki/Q10858537",
+        "display_name": "Scale (ratio)",
+        "level": 2,
+        "score": 0.5369946956634521
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.38686999678611755
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/sp54263.2024.00183",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/sp54263.2024.00183",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2024 IEEE Symposium on Security and Privacy (SP)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 35,
+    "referenced_works": [
+      "https://openalex.org/W4226183854",
+      "https://openalex.org/W3153365264",
+      "https://openalex.org/W3138230581",
+      "https://openalex.org/W3095708133",
+      "https://openalex.org/W3187895569",
+      "https://openalex.org/W2898614297",
+      "https://openalex.org/W6790784923",
+      "https://openalex.org/W3110204761",
+      "https://openalex.org/W2622514874",
+      "https://openalex.org/W2621177934",
+      "https://openalex.org/W2931028669",
+      "https://openalex.org/W2405195981",
+      "https://openalex.org/W3165028596",
+      "https://openalex.org/W2795856118",
+      "https://openalex.org/W2794456160",
+      "https://openalex.org/W6713211458",
+      "https://openalex.org/W6841065762",
+      "https://openalex.org/W148369031",
+      "https://openalex.org/W6752006691",
+      "https://openalex.org/W2591793539",
+      "https://openalex.org/W6803910969",
+      "https://openalex.org/W2987470874",
+      "https://openalex.org/W6784273419",
+      "https://openalex.org/W3046732376",
+      "https://openalex.org/W6685700501",
+      "https://openalex.org/W6748495937",
+      "https://openalex.org/W2061640969",
+      "https://openalex.org/W6795482521",
+      "https://openalex.org/W4308643064",
+      "https://openalex.org/W3155996479",
+      "https://openalex.org/W3154138117",
+      "https://openalex.org/W3109716606",
+      "https://openalex.org/W2912136972",
+      "https://openalex.org/W4299301436",
+      "https://openalex.org/W4286851321"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2461078469",
+      "https://openalex.org/W123790205",
+      "https://openalex.org/W2085515337",
+      "https://openalex.org/W3087706721",
+      "https://openalex.org/W4287664162",
+      "https://openalex.org/W3102852402",
+      "https://openalex.org/W827014118",
+      "https://openalex.org/W4385695489"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [],
+    "updated_date": "2025-12-27T23:08:20.325037",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          30
+        ]
+      ],
+      "date-time": "2025-05-30T06:10:06Z",
+      "timestamp": 1748585406902,
+      "version": "3.41.0"
+    },
+    "reference-count": 58,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              19
+            ]
+          ],
+          "date-time": "2024-05-19T00:00:00Z",
+          "timestamp": 1716076800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-009"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              19
+            ]
+          ],
+          "date-time": "2024-05-19T00:00:00Z",
+          "timestamp": 1716076800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-001"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          19
+        ]
+      ]
+    },
+    "DOI": "10.1109/sp54263.2024.00183",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          5
+        ]
+      ],
+      "date-time": "2024-09-05T17:56:32Z",
+      "timestamp": 1725558992000
+    },
+    "page": "296-311",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Jasmine: Scale up JavaScript Static Security Analysis with Computation-based Semantic Explanation"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Feng",
+        "family": "Xiao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Georgia Institute of Technology"
+          }
+        ]
+      },
+      {
+        "given": "Zhongfu",
+        "family": "Su",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wuhan University"
+          }
+        ]
+      },
+      {
+        "given": "Guangliang",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University"
+          }
+        ]
+      },
+      {
+        "given": "Wenke",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Georgia Institute of Technology"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "volume-title": "CodeQL: Analyzing data flow in JavaScript and Type-Script",
+        "key": "ref1"
+      },
+      {
+        "volume-title": "CodeQL: the libraries and queries that power code scanning in GitHub",
+        "key": "ref2"
+      },
+      {
+        "volume-title": "CodeQL Value Set Analysis",
+        "key": "ref3"
+      },
+      {
+        "volume-title": "cookiex/deep Prototype Pollution",
+        "key": "ref4"
+      },
+      {
+        "volume-title": "CVE-2019-10758 : mongo-exress Hidden Property Abusing",
+        "key": "ref5"
+      },
+      {
+        "volume-title": "CVE-2019-10781: schema-inspector Hidden Property Abusing",
+        "key": "ref6"
+      },
+      {
+        "volume-title": "CVE-2019-10790 : TaffyDB Hidden Property Abusing",
+        "key": "ref7"
+      },
+      {
+        "volume-title": "CVE-2019-18608 : cezerin Hidden Property Abusing",
+        "key": "ref8"
+      },
+      {
+        "volume-title": "CVE-2019-2391 : MongoDB Hidden Property Abusing",
+        "key": "ref9"
+      },
+      {
+        "volume-title": "CVE Security Vulnerability Database",
+        "key": "ref10"
+      },
+      {
+        "volume-title": "exnted2 Prototype Pollution",
+        "key": "ref11"
+      },
+      {
+        "volume-title": "ffmpegdotjs Command Injection",
+        "key": "ref12"
+      },
+      {
+        "volume-title": "Lastest ECMA features",
+        "key": "ref13"
+      },
+      {
+        "volume-title": "node-imagickal Command Injection",
+        "key": "ref14"
+      },
+      {
+        "volume-title": "npm: Node Package Manager",
+        "key": "ref15"
+      },
+      {
+        "volume-title": "onion-oled-js Command Injection",
+        "key": "ref16"
+      },
+      {
+        "volume-title": "pdf-merge: Merge multiple PDF Files into a single PDF document",
+        "key": "ref17"
+      },
+      {
+        "volume-title": "proto: A prototype-based inheritance/class library",
+        "key": "ref18"
+      },
+      {
+        "volume-title": "proto Prototype Pollution",
+        "key": "ref19"
+      },
+      {
+        "volume-title": "Prototype pollution attacks in NodeJS applications",
+        "key": "ref20"
+      },
+      {
+        "volume-title": "Slack: A proprietary business communication platform",
+        "key": "ref21"
+      },
+      {
+        "volume-title": "Snyk Vulnerability Database",
+        "key": "ref22"
+      },
+      {
+        "volume-title": "Teams: A business communication platform developed by Microsoft",
+        "key": "ref23"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Tree-sitter ast manipulation tool"
+      },
+      {
+        "volume-title": "wincred Command Injection",
+        "key": "ref25"
+      },
+      {
+        "volume-title": "31st USENIX Security Symposium (USENIX Security 22)",
+        "key": "ref26",
+        "article-title": "Mining node.js vulnerabilities via object dependence graph and query"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14722/ndss.2022.24150"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP40001.2021.00007"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14722/ndss.2021.23055"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/SP40001.2021.00022",
+        "article-title": "Black widow: Blackbox data-driven web scanning",
+        "volume-title": "Proceeding of the 42nd IEEE Symposium on Security & Privacy, ser. IEEE SP 2021",
+        "author": "Eriksson"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3460120.3484745"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSE.2018.2878020"
+      },
+      {
+        "key": "ref33",
+        "first-page": "2525",
+        "article-title": "JAW: Studying client-side CSRF with hybrid property graphs and declarative traversals",
+        "volume-title": "30th USENIX Security Symposium (USENIX Security 21)",
+        "author": "Khodayari"
+      },
+      {
+        "article-title": "Characterizing the Security of Github CI Workflows",
+        "volume-title": "Proceedings of the USENIX Security Symposium",
+        "author": "Koishybayev",
+        "key": "ref34"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3372297.3423343"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3088515.3088516"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICSE-C.2017.4"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-16722-6_3"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2889160.2889227"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3468264.3468556"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-89363-1_8"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3180155.3180184"
+      },
+      {
+        "article-title": "FLAX: Systematic Discovery of Client-side Validation Vulnerabilities in Rich Web Applications",
+        "volume-title": "Proceedings of the 17th Annual Network and Distributed System Security Symposium (NDSS)",
+        "author": "Saxena",
+        "key": "ref43"
+      },
+      {
+        "key": "ref44",
+        "article-title": "Silent spring: Prototype pollution leads to remote code execution in node. js",
+        "volume-title": "USENIX Security Symposium",
+        "volume": "2023",
+        "author": "Shcherbakov"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-31057-7_20"
+      },
+      {
+        "key": "ref46",
+        "first-page": "361",
+        "article-title": "Freezing the web: A study of redos vulnerabilities in javascript-based web servers",
+        "volume-title": "27th {USENIX} Security Symposium ({USENIX} Security 18)",
+        "author": "Staicu"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14722/ndss.2018.23071"
+      },
+      {
+        "article-title": "Bilingual problems: Studying the security risks incurred by native extensions in scripting languages",
+        "year": "2021",
+        "author": "Staicu",
+        "key": "ref48"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3338504.3357339"
+      },
+      {
+        "key": "ref50",
+        "first-page": "198",
+        "article-title": "Extracting taint specifications for javascript libraries",
+        "volume-title": "Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering",
+        "author": "Staicu"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3372297.3417267"
+      },
+      {
+        "article-title": "Precise Client-side Protection against DOM-based Cross-site Scripting",
+        "volume-title": "Proceedings of the 23rd USENIX Security Symposium (Security)",
+        "author": "Stock",
+        "key": "ref52"
+      },
+      {
+        "key": "ref53",
+        "first-page": "196",
+        "article-title": "Efficient dynamic analysis for node. js",
+        "volume-title": "Proceedings of the 27th International Conference on Compiler Construction",
+        "author": "Sun"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2483760.2483788"
+      },
+      {
+        "key": "ref55",
+        "first-page": "2951",
+        "article-title": "Abusing hidden properties to attack the node. js ecosystem",
+        "volume-title": "30th USENIX Security Symposium (USENIX Security 21)",
+        "author": "Xiao"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3548606.3559340"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP40001.2021.00021"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP40001.2021.00040"
+      }
+    ],
+    "event": {
+      "name": "2024 IEEE Symposium on Security and Privacy (SP)",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            19
+          ]
+        ]
+      },
+      "location": "San Francisco, CA, USA",
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            23
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2024 IEEE Symposium on Security and Privacy (SP)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10646615/10646598/10646682.pdf?arnumber=10646682",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          30
+        ]
+      ],
+      "date-time": "2025-05-30T05:30:22Z",
+      "timestamp": 1748583022000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10646682/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          19
+        ]
+      ]
+    },
+    "references-count": 58,
+    "URL": "https://doi.org/10.1109/sp54263.2024.00183",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          19
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,3737 @@
+{
+  "doi": "10.1016/j.ccell.2024.03.003",
+  "openalex": {
+    "id": "https://openalex.org/W4394582109",
+    "doi": "https://doi.org/10.1016/j.ccell.2024.03.003",
+    "title": "Single-cell systems pharmacology identifies development-driven drug response and combination therapy in B cell acute lymphoblastic leukemia",
+    "display_name": "Single-cell systems pharmacology identifies development-driven drug response and combination therapy in B cell acute lymphoblastic leukemia",
+    "publication_year": 2024,
+    "publication_date": "2024-04-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4394582109",
+      "doi": "https://doi.org/10.1016/j.ccell.2024.03.003",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38593781"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.ccell.2024.03.003",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.ccell.2024.03.003",
+      "pdf_url": "http://www.cell.com/article/S1535610824000886/pdf",
+      "source": {
+        "id": "https://openalex.org/S25671836",
+        "display_name": "Cancer Cell",
+        "issn_l": "1535-6108",
+        "issn": [
+          "1535-6108",
+          "1878-3686"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315673",
+        "host_organization_name": "Cell Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315673",
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Cell Press",
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Cancer Cell",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "http://www.cell.com/article/S1535610824000886/pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5083473331",
+          "display_name": "Xin Huang",
+          "orcid": "https://orcid.org/0000-0002-4252-6110"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xin Huang",
+        "raw_affiliation_strings": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+          "Institute of Health and Medicine, Hefei Comprehensive National Science Center, Hefei, Anhui 230601, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Health and Medicine, Hefei Comprehensive National Science Center, Hefei, Anhui 230601, China",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101425427",
+          "display_name": "Yizhen Li",
+          "orcid": "https://orcid.org/0000-0001-8941-6691"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I3923682",
+            "display_name": "Soochow University",
+            "ror": "https://ror.org/05t8y2r12",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I3923682"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yizhen Li",
+        "raw_affiliation_strings": [
+          "Department of Hematology, Children's Hospital of Soochow University, Suzhou, Jiangsu 215003, China",
+          "Division of Pharmaceutical Sciences, Department of Pharmacy and Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Division of Pharmaceutical Sciences, Department of Pharmacy and Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Hematology, Children's Hospital of Soochow University, Suzhou, Jiangsu 215003, China",
+            "institution_ids": [
+              "https://openalex.org/I3923682"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5045927643",
+          "display_name": "Jingliao Zhang",
+          "orcid": "https://orcid.org/0000-0003-2962-9884"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I200296433",
+            "display_name": "Chinese Academy of Medical Sciences & Peking Union Medical College",
+            "ror": "https://ror.org/02drdmm93",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I200296433"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210147887",
+            "display_name": "Institute of Hematology & Blood Diseases Hospital",
+            "ror": "https://ror.org/04n16t016",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210147887"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jingliao Zhang",
+        "raw_affiliation_strings": [
+          "Department of Pediatrics Blood Diseases Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin 300020, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pediatrics Blood Diseases Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin 300020, China",
+            "institution_ids": [
+              "https://openalex.org/I200296433",
+              "https://openalex.org/I4210147887"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101675160",
+          "display_name": "Lei Yan",
+          "orcid": "https://orcid.org/0000-0001-5259-3379"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lei Yan",
+        "raw_affiliation_strings": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101590704",
+          "display_name": "Huanbin Zhao",
+          "orcid": "https://orcid.org/0009-0001-4418-6770"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Huanbin Zhao",
+        "raw_affiliation_strings": [
+          "Division of Pharmaceutical Sciences, Department of Pharmacy and Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Division of Pharmaceutical Sciences, Department of Pharmacy and Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5050394485",
+          "display_name": "Liang Ding",
+          "orcid": "https://orcid.org/0000-0002-1043-0923"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Liang Ding",
+        "raw_affiliation_strings": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5093018672",
+          "display_name": "Sheetal Bhatara",
+          "orcid": "https://orcid.org/0009-0007-3597-6870"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sheetal Bhatara",
+        "raw_affiliation_strings": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5009791880",
+          "display_name": "Yang Xu",
+          "orcid": "https://orcid.org/0000-0003-3898-022X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xu Yang",
+        "raw_affiliation_strings": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101746995",
+          "display_name": "Satoshi Yoshimura",
+          "orcid": "https://orcid.org/0000-0002-4756-8790"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Satoshi Yoshimura",
+        "raw_affiliation_strings": [
+          "Division of Pharmaceutical Sciences, Department of Pharmacy and Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Division of Pharmaceutical Sciences, Department of Pharmacy and Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5035759509",
+          "display_name": "Wenjian Yang",
+          "orcid": "https://orcid.org/0000-0002-7305-5649"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wenjian Yang",
+        "raw_affiliation_strings": [
+          "Division of Pharmaceutical Sciences, Department of Pharmacy and Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Division of Pharmaceutical Sciences, Department of Pharmacy and Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5005274385",
+          "display_name": "Seth E. Karol",
+          "orcid": "https://orcid.org/0000-0001-8113-8180"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Seth E. Karol",
+        "raw_affiliation_strings": [
+          "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5075936752",
+          "display_name": "Hiroto Inaba",
+          "orcid": "https://orcid.org/0000-0003-0605-7342"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hiroto Inaba",
+        "raw_affiliation_strings": [
+          "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5048744038",
+          "display_name": "Charles G. Mullighan",
+          "orcid": "https://orcid.org/0000-0002-1871-1850"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Charles Mullighan",
+        "raw_affiliation_strings": [
+          "Department of Pathology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+          "Hematological Malignancies Program, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Hematological Malignancies Program, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5085360755",
+          "display_name": "Mark R. Litzow",
+          "orcid": "https://orcid.org/0000-0002-9816-6302"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1330342723",
+            "display_name": "Mayo Clinic",
+            "ror": "https://ror.org/02qp3tb03",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1330342723"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2802423016",
+            "display_name": "WinnMed",
+            "ror": "https://ror.org/02s47w807",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I2802423016"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mark Litzow",
+        "raw_affiliation_strings": [
+          "Division of Hematology, Mayo Clinic, Rochester, MN 55905, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Division of Hematology, Mayo Clinic, Rochester, MN 55905, USA",
+            "institution_ids": [
+              "https://openalex.org/I1330342723",
+              "https://openalex.org/I2802423016"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5020924929",
+          "display_name": "Xiaofan Zhu",
+          "orcid": "https://orcid.org/0000-0002-2572-6495"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I200296433",
+            "display_name": "Chinese Academy of Medical Sciences & Peking Union Medical College",
+            "ror": "https://ror.org/02drdmm93",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I200296433"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210147887",
+            "display_name": "Institute of Hematology & Blood Diseases Hospital",
+            "ror": "https://ror.org/04n16t016",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210147887"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaofan Zhu",
+        "raw_affiliation_strings": [
+          "Department of Pediatrics Blood Diseases Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin 300020, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pediatrics Blood Diseases Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin 300020, China",
+            "institution_ids": [
+              "https://openalex.org/I200296433",
+              "https://openalex.org/I4210147887"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5011164870",
+          "display_name": "Yingchi Zhang",
+          "orcid": "https://orcid.org/0000-0003-1429-0152"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I200296433",
+            "display_name": "Chinese Academy of Medical Sciences & Peking Union Medical College",
+            "ror": "https://ror.org/02drdmm93",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I200296433"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210147887",
+            "display_name": "Institute of Hematology & Blood Diseases Hospital",
+            "ror": "https://ror.org/04n16t016",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210147887"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yingchi Zhang",
+        "raw_affiliation_strings": [
+          "Department of Pediatrics Blood Diseases Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin 300020, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pediatrics Blood Diseases Institute of Hematology & Blood Diseases Hospital, Chinese Academy of Medical Sciences & Peking Union Medical College, Tianjin 300020, China",
+            "institution_ids": [
+              "https://openalex.org/I200296433",
+              "https://openalex.org/I4210147887"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5005939966",
+          "display_name": "Wendy Stock",
+          "orcid": "https://orcid.org/0000-0002-8349-9200"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I40347166",
+            "display_name": "University of Chicago",
+            "ror": "https://ror.org/024mw5h28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I40347166"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wendy Stock",
+        "raw_affiliation_strings": [
+          "Department of Medicine Section of Hematology-Oncology, University of Chicago, Chicago, IL 60637, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Medicine Section of Hematology-Oncology, University of Chicago, Chicago, IL 60637, USA",
+            "institution_ids": [
+              "https://openalex.org/I40347166"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5021380291",
+          "display_name": "Nitin Jain",
+          "orcid": "https://orcid.org/0000-0003-0114-8384"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1343551460",
+            "display_name": "The University of Texas MD Anderson Cancer Center",
+            "ror": "https://ror.org/04twxam07",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1343551460"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Nitin Jain",
+        "raw_affiliation_strings": [
+          "Department of Leukemia, Division of Cancer Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Leukemia, Division of Cancer Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA",
+            "institution_ids": [
+              "https://openalex.org/I1343551460"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5049385583",
+          "display_name": "Elias Jabbour",
+          "orcid": "https://orcid.org/0000-0003-4465-6119"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1343551460",
+            "display_name": "The University of Texas MD Anderson Cancer Center",
+            "ror": "https://ror.org/04twxam07",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1343551460"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Elias Jabbour",
+        "raw_affiliation_strings": [
+          "Department of Leukemia, Division of Cancer Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Leukemia, Division of Cancer Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA",
+            "institution_ids": [
+              "https://openalex.org/I1343551460"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5016607292",
+          "display_name": "Steven M. Kornblau",
+          "orcid": "https://orcid.org/0000-0002-5990-9548"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1343551460",
+            "display_name": "The University of Texas MD Anderson Cancer Center",
+            "ror": "https://ror.org/04twxam07",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1343551460"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Steven M. Kornblau",
+        "raw_affiliation_strings": [
+          "Department of Leukemia, Division of Cancer Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Leukemia, Division of Cancer Medicine, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA",
+            "institution_ids": [
+              "https://openalex.org/I1343551460"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5022647201",
+          "display_name": "Marina Konopleva",
+          "orcid": "https://orcid.org/0000-0002-9347-2212"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I129975664",
+            "display_name": "Albert Einstein College of Medicine",
+            "ror": "https://ror.org/05cf8a891",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I129975664",
+              "https://openalex.org/I4210112371"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Marina Konopleva",
+        "raw_affiliation_strings": [
+          "Department of Oncology and Molecular Pharmacology, Albert Einstein College of Medicine, Bronx, NY 10461, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Oncology and Molecular Pharmacology, Albert Einstein College of Medicine, Bronx, NY 10461, USA",
+            "institution_ids": [
+              "https://openalex.org/I129975664"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5018363328",
+          "display_name": "Ching‐Hon Pui",
+          "orcid": "https://orcid.org/0000-0003-0303-5658"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ching-Hon Pui",
+        "raw_affiliation_strings": [
+          "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+          "Hematological Malignancies Program, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Hematological Malignancies Program, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5079511754",
+          "display_name": "Elisabeth Paietta",
+          "orcid": "https://orcid.org/0000-0002-0561-5544"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I129975664",
+            "display_name": "Albert Einstein College of Medicine",
+            "ror": "https://ror.org/05cf8a891",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I129975664",
+              "https://openalex.org/I4210112371"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1335289525",
+            "display_name": "Montefiore Medical Center",
+            "ror": "https://ror.org/044ntvm43",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1335289525"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Elisabeth Paietta",
+        "raw_affiliation_strings": [
+          "Cancer Center, Montefiore Medical Center, Albert Einstein College of Medicine, Bronx, NY 10461, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Cancer Center, Montefiore Medical Center, Albert Einstein College of Medicine, Bronx, NY 10461, USA",
+            "institution_ids": [
+              "https://openalex.org/I129975664",
+              "https://openalex.org/I1335289525"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5034189317",
+          "display_name": "William E. Evans",
+          "orcid": "https://orcid.org/0000-0002-9333-5322"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "William Evans",
+        "raw_affiliation_strings": [
+          "Division of Pharmaceutical Sciences, Department of Pharmacy and Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Division of Pharmaceutical Sciences, Department of Pharmacy and Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101943051",
+          "display_name": "Jiyang Yu",
+          "orcid": "https://orcid.org/0000-0003-1244-4429"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jiyang Yu",
+        "raw_affiliation_strings": [
+          "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5057538695",
+          "display_name": "Jun J. Yang",
+          "orcid": "https://orcid.org/0000-0002-0770-9659"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1313298211",
+            "display_name": "St. Jude Children's Research Hospital",
+            "ror": "https://ror.org/02r3e0967",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1313298211",
+              "https://openalex.org/I2802152183"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jun J. Yang",
+        "raw_affiliation_strings": [
+          "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+          "Division of Pharmaceutical Sciences, Department of Pharmacy and Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+          "Hematological Malignancies Program, St. Jude Children's Research Hospital, Memphis, TN 38105, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Hematological Malignancies Program, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Oncology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Division of Pharmaceutical Sciences, Department of Pharmacy and Pharmaceutical Sciences, St. Jude Children's Research Hospital, Memphis, TN 38105, USA",
+            "institution_ids": [
+              "https://openalex.org/I1313298211"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 26,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5101943051",
+      "https://openalex.org/A5057538695"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I1313298211"
+    ],
+    "apc_list": {
+      "value": 9080,
+      "currency": "USD",
+      "value_usd": 9080
+    },
+    "apc_paid": {
+      "value": 9080,
+      "currency": "USD",
+      "value_usd": 9080
+    },
+    "fwci": 12.00618063,
+    "has_fulltext": false,
+    "cited_by_count": 25,
+    "citation_normalized_percentile": {
+      "value": 0.98072257,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "42",
+      "issue": "4",
+      "first_page": "552",
+      "last_page": "567.e6"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11289",
+      "display_name": "Single-cell and spatial transcriptomics",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11289",
+        "display_name": "Single-cell and spatial transcriptomics",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10950",
+        "display_name": "Acute Lymphoblastic Leukemia research",
+        "score": 0.9979000091552734,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11491",
+        "display_name": "CAR-T cell therapy research",
+        "score": 0.9922000169754028,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2730",
+          "display_name": "Oncology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/leukemia",
+        "display_name": "Leukemia",
+        "score": 0.5857834815979004
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.5798681974411011
+      },
+      {
+        "id": "https://openalex.org/keywords/asparaginase",
+        "display_name": "Asparaginase",
+        "score": 0.5400209426879883
+      },
+      {
+        "id": "https://openalex.org/keywords/population",
+        "display_name": "Population",
+        "score": 0.5068970322608948
+      },
+      {
+        "id": "https://openalex.org/keywords/venetoclax",
+        "display_name": "Venetoclax",
+        "score": 0.4783689081668854
+      },
+      {
+        "id": "https://openalex.org/keywords/cancer-research",
+        "display_name": "Cancer research",
+        "score": 0.473253071308136
+      },
+      {
+        "id": "https://openalex.org/keywords/haematopoiesis",
+        "display_name": "Haematopoiesis",
+        "score": 0.45726972818374634
+      },
+      {
+        "id": "https://openalex.org/keywords/drug-resistance",
+        "display_name": "Drug resistance",
+        "score": 0.4539981484413147
+      },
+      {
+        "id": "https://openalex.org/keywords/cell",
+        "display_name": "Cell",
+        "score": 0.4393860101699829
+      },
+      {
+        "id": "https://openalex.org/keywords/acute-lymphocytic-leukemia",
+        "display_name": "Acute lymphocytic leukemia",
+        "score": 0.4286416172981262
+      },
+      {
+        "id": "https://openalex.org/keywords/b-cell",
+        "display_name": "B cell",
+        "score": 0.4208069145679474
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.3768206238746643
+      },
+      {
+        "id": "https://openalex.org/keywords/immunology",
+        "display_name": "Immunology",
+        "score": 0.37204521894454956
+      },
+      {
+        "id": "https://openalex.org/keywords/stem-cell",
+        "display_name": "Stem cell",
+        "score": 0.3406507670879364
+      },
+      {
+        "id": "https://openalex.org/keywords/medicine",
+        "display_name": "Medicine",
+        "score": 0.2699940800666809
+      },
+      {
+        "id": "https://openalex.org/keywords/chronic-lymphocytic-leukemia",
+        "display_name": "Chronic lymphocytic leukemia",
+        "score": 0.26779526472091675
+      },
+      {
+        "id": "https://openalex.org/keywords/lymphoblastic-leukemia",
+        "display_name": "Lymphoblastic Leukemia",
+        "score": 0.20289874076843262
+      },
+      {
+        "id": "https://openalex.org/keywords/cell-biology",
+        "display_name": "Cell biology",
+        "score": 0.17307600378990173
+      },
+      {
+        "id": "https://openalex.org/keywords/genetics",
+        "display_name": "Genetics",
+        "score": 0.15401244163513184
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2778461978",
+        "wikidata": "https://www.wikidata.org/wiki/Q29496",
+        "display_name": "Leukemia",
+        "level": 2,
+        "score": 0.5857834815979004
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.5798681974411011
+      },
+      {
+        "id": "https://openalex.org/C2778904437",
+        "wikidata": "https://www.wikidata.org/wiki/Q105296036",
+        "display_name": "Asparaginase",
+        "level": 4,
+        "score": 0.5400209426879883
+      },
+      {
+        "id": "https://openalex.org/C2908647359",
+        "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+        "display_name": "Population",
+        "level": 2,
+        "score": 0.5068970322608948
+      },
+      {
+        "id": "https://openalex.org/C2779675984",
+        "wikidata": "https://www.wikidata.org/wiki/Q23671272",
+        "display_name": "Venetoclax",
+        "level": 4,
+        "score": 0.4783689081668854
+      },
+      {
+        "id": "https://openalex.org/C502942594",
+        "wikidata": "https://www.wikidata.org/wiki/Q3421914",
+        "display_name": "Cancer research",
+        "level": 1,
+        "score": 0.473253071308136
+      },
+      {
+        "id": "https://openalex.org/C109159458",
+        "wikidata": "https://www.wikidata.org/wiki/Q919283",
+        "display_name": "Haematopoiesis",
+        "level": 3,
+        "score": 0.45726972818374634
+      },
+      {
+        "id": "https://openalex.org/C114851261",
+        "wikidata": "https://www.wikidata.org/wiki/Q12147416",
+        "display_name": "Drug resistance",
+        "level": 2,
+        "score": 0.4539981484413147
+      },
+      {
+        "id": "https://openalex.org/C1491633281",
+        "wikidata": "https://www.wikidata.org/wiki/Q7868",
+        "display_name": "Cell",
+        "level": 2,
+        "score": 0.4393860101699829
+      },
+      {
+        "id": "https://openalex.org/C2781107101",
+        "wikidata": "https://www.wikidata.org/wiki/Q180664",
+        "display_name": "Acute lymphocytic leukemia",
+        "level": 4,
+        "score": 0.4286416172981262
+      },
+      {
+        "id": "https://openalex.org/C2778453870",
+        "wikidata": "https://www.wikidata.org/wiki/Q188930",
+        "display_name": "B cell",
+        "level": 3,
+        "score": 0.4208069145679474
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.3768206238746643
+      },
+      {
+        "id": "https://openalex.org/C203014093",
+        "wikidata": "https://www.wikidata.org/wiki/Q101929",
+        "display_name": "Immunology",
+        "level": 1,
+        "score": 0.37204521894454956
+      },
+      {
+        "id": "https://openalex.org/C28328180",
+        "wikidata": "https://www.wikidata.org/wiki/Q48196",
+        "display_name": "Stem cell",
+        "level": 2,
+        "score": 0.3406507670879364
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.2699940800666809
+      },
+      {
+        "id": "https://openalex.org/C2777938653",
+        "wikidata": "https://www.wikidata.org/wiki/Q1088156",
+        "display_name": "Chronic lymphocytic leukemia",
+        "level": 3,
+        "score": 0.26779526472091675
+      },
+      {
+        "id": "https://openalex.org/C2909962599",
+        "wikidata": "https://www.wikidata.org/wiki/Q180664",
+        "display_name": "Lymphoblastic Leukemia",
+        "level": 3,
+        "score": 0.20289874076843262
+      },
+      {
+        "id": "https://openalex.org/C95444343",
+        "wikidata": "https://www.wikidata.org/wiki/Q7141",
+        "display_name": "Cell biology",
+        "level": 1,
+        "score": 0.17307600378990173
+      },
+      {
+        "id": "https://openalex.org/C54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "level": 1,
+        "score": 0.15401244163513184
+      },
+      {
+        "id": "https://openalex.org/C99454951",
+        "wikidata": "https://www.wikidata.org/wiki/Q932068",
+        "display_name": "Environmental health",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C159654299",
+        "wikidata": "https://www.wikidata.org/wiki/Q79460",
+        "display_name": "Antibody",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001215",
+        "descriptor_name": "Asparaginase",
+        "qualifier_ui": "Q000494",
+        "qualifier_name": "pharmacology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000091484",
+        "descriptor_name": "Network Pharmacology",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015452",
+        "descriptor_name": "Precursor B-Cell Lymphoblastic Leukemia-Lymphoma",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015452",
+        "descriptor_name": "Precursor B-Cell Lymphoblastic Leukemia-Lymphoma",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007938",
+        "descriptor_name": "Leukemia",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001215",
+        "descriptor_name": "Asparaginase",
+        "qualifier_ui": "Q000494",
+        "qualifier_name": "pharmacology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000091484",
+        "descriptor_name": "Network Pharmacology",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015452",
+        "descriptor_name": "Precursor B-Cell Lymphoblastic Leukemia-Lymphoma",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015452",
+        "descriptor_name": "Precursor B-Cell Lymphoblastic Leukemia-Lymphoma",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007938",
+        "descriptor_name": "Leukemia",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001215",
+        "descriptor_name": "Asparaginase",
+        "qualifier_ui": "Q000494",
+        "qualifier_name": "pharmacology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000091484",
+        "descriptor_name": "Network Pharmacology",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015452",
+        "descriptor_name": "Precursor B-Cell Lymphoblastic Leukemia-Lymphoma",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015452",
+        "descriptor_name": "Precursor B-Cell Lymphoblastic Leukemia-Lymphoma",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007938",
+        "descriptor_name": "Leukemia",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001215",
+        "descriptor_name": "Asparaginase",
+        "qualifier_ui": "Q000494",
+        "qualifier_name": "pharmacology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000091484",
+        "descriptor_name": "Network Pharmacology",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015452",
+        "descriptor_name": "Precursor B-Cell Lymphoblastic Leukemia-Lymphoma",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015452",
+        "descriptor_name": "Precursor B-Cell Lymphoblastic Leukemia-Lymphoma",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007938",
+        "descriptor_name": "Leukemia",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001215",
+        "descriptor_name": "Asparaginase",
+        "qualifier_ui": "Q000494",
+        "qualifier_name": "pharmacology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000091484",
+        "descriptor_name": "Network Pharmacology",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015452",
+        "descriptor_name": "Precursor B-Cell Lymphoblastic Leukemia-Lymphoma",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015452",
+        "descriptor_name": "Precursor B-Cell Lymphoblastic Leukemia-Lymphoma",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007938",
+        "descriptor_name": "Leukemia",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": true
+      }
+    ],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.ccell.2024.03.003",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.ccell.2024.03.003",
+        "pdf_url": "http://www.cell.com/article/S1535610824000886/pdf",
+        "source": {
+          "id": "https://openalex.org/S25671836",
+          "display_name": "Cancer Cell",
+          "issn_l": "1535-6108",
+          "issn": [
+            "1535-6108",
+            "1878-3686"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315673",
+          "host_organization_name": "Cell Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315673",
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Cell Press",
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Cancer Cell",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38593781",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38593781",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Cancer cell",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11008188",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11008188",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Cancer Cell",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1016/j.ccell.2024.03.003",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.ccell.2024.03.003",
+      "pdf_url": "http://www.cell.com/article/S1535610824000886/pdf",
+      "source": {
+        "id": "https://openalex.org/S25671836",
+        "display_name": "Cancer Cell",
+        "issn_l": "1535-6108",
+        "issn": [
+          "1535-6108",
+          "1878-3686"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315673",
+        "host_organization_name": "Cell Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315673",
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Cell Press",
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Cancer Cell",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.800000011920929,
+        "id": "https://metadata.un.org/sdg/3",
+        "display_name": "Good health and well-being"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 94,
+    "referenced_works": [
+      "https://openalex.org/W2069501059",
+      "https://openalex.org/W2036029182",
+      "https://openalex.org/W1649547160",
+      "https://openalex.org/W2162653211",
+      "https://openalex.org/W2301861748",
+      "https://openalex.org/W2970595297",
+      "https://openalex.org/W1984065010",
+      "https://openalex.org/W2909547032",
+      "https://openalex.org/W2129718955",
+      "https://openalex.org/W2956213465",
+      "https://openalex.org/W4311187356",
+      "https://openalex.org/W4323652032",
+      "https://openalex.org/W4381248768",
+      "https://openalex.org/W2011332592",
+      "https://openalex.org/W2055987519",
+      "https://openalex.org/W2003093049",
+      "https://openalex.org/W2020589011",
+      "https://openalex.org/W3200765421",
+      "https://openalex.org/W2909930878",
+      "https://openalex.org/W2101684589",
+      "https://openalex.org/W1867192423",
+      "https://openalex.org/W2953121516",
+      "https://openalex.org/W2783383798",
+      "https://openalex.org/W2884856991",
+      "https://openalex.org/W3164692211",
+      "https://openalex.org/W2949177718",
+      "https://openalex.org/W2794480084",
+      "https://openalex.org/W2069089843",
+      "https://openalex.org/W3215794583",
+      "https://openalex.org/W2916020270",
+      "https://openalex.org/W2747877289",
+      "https://openalex.org/W1984883254",
+      "https://openalex.org/W2075524647",
+      "https://openalex.org/W1928772299",
+      "https://openalex.org/W2785603098",
+      "https://openalex.org/W2049470832",
+      "https://openalex.org/W2806469347",
+      "https://openalex.org/W4368364228",
+      "https://openalex.org/W2899028298",
+      "https://openalex.org/W2942610007",
+      "https://openalex.org/W6803481269",
+      "https://openalex.org/W4220983679",
+      "https://openalex.org/W2105740818",
+      "https://openalex.org/W4313561869",
+      "https://openalex.org/W2961217357",
+      "https://openalex.org/W2978708928",
+      "https://openalex.org/W3210860076",
+      "https://openalex.org/W2620219499",
+      "https://openalex.org/W2322523258",
+      "https://openalex.org/W6653855832",
+      "https://openalex.org/W2036224418",
+      "https://openalex.org/W2150902176",
+      "https://openalex.org/W2090636859",
+      "https://openalex.org/W1989215255",
+      "https://openalex.org/W3107626709",
+      "https://openalex.org/W4280511654",
+      "https://openalex.org/W3169704229",
+      "https://openalex.org/W2172242534",
+      "https://openalex.org/W2000630389",
+      "https://openalex.org/W4321116359",
+      "https://openalex.org/W2098476468",
+      "https://openalex.org/W2980639756",
+      "https://openalex.org/W4210678936",
+      "https://openalex.org/W1995171688",
+      "https://openalex.org/W1977099733",
+      "https://openalex.org/W4280596398",
+      "https://openalex.org/W3215605010",
+      "https://openalex.org/W2553214673",
+      "https://openalex.org/W2883908780",
+      "https://openalex.org/W4310777734",
+      "https://openalex.org/W4389243841",
+      "https://openalex.org/W2141113110",
+      "https://openalex.org/W6725624052",
+      "https://openalex.org/W4292243175",
+      "https://openalex.org/W2054086725",
+      "https://openalex.org/W2033364737",
+      "https://openalex.org/W4286512367",
+      "https://openalex.org/W4281569605",
+      "https://openalex.org/W4311441060",
+      "https://openalex.org/W2171808845",
+      "https://openalex.org/W2159675211",
+      "https://openalex.org/W2332292689",
+      "https://openalex.org/W1527927437",
+      "https://openalex.org/W3032793475",
+      "https://openalex.org/W6842402754",
+      "https://openalex.org/W3122489173",
+      "https://openalex.org/W2131478115",
+      "https://openalex.org/W2511409090",
+      "https://openalex.org/W2151222524",
+      "https://openalex.org/W4226096911",
+      "https://openalex.org/W2136145671",
+      "https://openalex.org/W2013480319",
+      "https://openalex.org/W3212268640",
+      "https://openalex.org/W4293196852"
+    ],
+    "related_works": [
+      "https://openalex.org/W2009150206",
+      "https://openalex.org/W2044461258",
+      "https://openalex.org/W2150552945",
+      "https://openalex.org/W2066178485",
+      "https://openalex.org/W2531164484",
+      "https://openalex.org/W3178304546",
+      "https://openalex.org/W4380367091",
+      "https://openalex.org/W2050766351",
+      "https://openalex.org/W2983410752",
+      "https://openalex.org/W2121951546"
+    ],
+    "abstract_inverted_index": {
+      "Leukemia": [
+        0
+      ],
+      "can": [
+        1
+      ],
+      "arise": [
+        2
+      ],
+      "at": [
+        3
+      ],
+      "various": [
+        4
+      ],
+      "stages": [
+        5
+      ],
+      "of": [
+        6,
+        14,
+        28,
+        52,
+        75
+      ],
+      "the": [
+        7,
+        12,
+        49,
+        96,
+        105
+      ],
+      "hematopoietic": [
+        8
+      ],
+      "differentiation": [
+        9,
+        41
+      ],
+      "hierarchy,": [
+        10
+      ],
+      "but": [
+        11
+      ],
+      "impact": [
+        13
+      ],
+      "developmental": [
+        15,
+        50,
+        141
+      ],
+      "arrest": [
+        16
+      ],
+      "on": [
+        17,
+        137
+      ],
+      "drug": [
+        18
+      ],
+      "sensitivity": [
+        19,
+        64,
+        93
+      ],
+      "is": [
+        20,
+        87
+      ],
+      "unclear.": [
+        21
+      ],
+      "Applying": [
+        22
+      ],
+      "network-based": [
+        23
+      ],
+      "analyses": [
+        24,
+        74
+      ],
+      "to": [
+        25,
+        65,
+        89,
+        131
+      ],
+      "single-cell": [
+        26,
+        127
+      ],
+      "transcriptomes": [
+        27
+      ],
+      "human": [
+        29
+      ],
+      "B": [
+        30,
+        39,
+        53
+      ],
+      "cells,": [
+        31,
+        91
+      ],
+      "we": [
+        32,
+        46,
+        110
+      ],
+      "define": [
+        33
+      ],
+      "genome-wide": [
+        34
+      ],
+      "signaling": [
+        35,
+        108
+      ],
+      "circuitry": [
+        36
+      ],
+      "for": [
+        37
+      ],
+      "each": [
+        38
+      ],
+      "cell": [
+        40,
+        54,
+        107
+      ],
+      "stage.": [
+        42
+      ],
+      "Using": [
+        43
+      ],
+      "this": [
+        44
+      ],
+      "reference,": [
+        45
+      ],
+      "comprehensively": [
+        47
+      ],
+      "map": [
+        48
+      ],
+      "states": [
+        51
+      ],
+      "acute": [
+        55
+      ],
+      "lymphoblastic": [
+        56
+      ],
+      "leukemia": [
+        57
+      ],
+      "(B-ALL),": [
+        58
+      ],
+      "revealing": [
+        59
+      ],
+      "its": [
+        60
+      ],
+      "strong": [
+        61
+      ],
+      "correlation": [
+        62
+      ],
+      "with": [
+        63,
+        92,
+        95,
+        143
+      ],
+      "asparaginase,": [
+        66
+      ],
+      "a": [
+        67,
+        102,
+        126
+      ],
+      "commonly": [
+        68
+      ],
+      "used": [
+        69
+      ],
+      "chemotherapeutic": [
+        70
+      ],
+      "agent.": [
+        71
+      ],
+      "Single-cell": [
+        72
+      ],
+      "multi-omics": [
+        73
+      ],
+      "primary": [
+        76
+      ],
+      "B-ALL": [
+        77
+      ],
+      "blasts": [
+        78
+      ],
+      "reveal": [
+        79
+      ],
+      "marked": [
+        80
+      ],
+      "intra-leukemia": [
+        81,
+        138
+      ],
+      "heterogeneity": [
+        82,
+        139
+      ],
+      "in": [
+        83,
+        118,
+        121,
+        140
+      ],
+      "asparaginase": [
+        84,
+        116
+      ],
+      "response:": [
+        85
+      ],
+      "resistance": [
+        86
+      ],
+      "linked": [
+        88
+      ],
+      "pre-pro-B-like": [
+        90,
+        106
+      ],
+      "associated": [
+        94
+      ],
+      "pro-B-like": [
+        97
+      ],
+      "population.": [
+        98
+      ],
+      "By": [
+        99
+      ],
+      "targeting": [
+        100
+      ],
+      "BCL2,": [
+        101
+      ],
+      "driver": [
+        103
+      ],
+      "within": [
+        104
+      ],
+      "network,": [
+        109
+      ],
+      "find": [
+        111
+      ],
+      "that": [
+        112
+      ],
+      "venetoclax": [
+        113
+      ],
+      "significantly": [
+        114
+      ],
+      "potentiates": [
+        115
+      ],
+      "efficacy": [
+        117
+      ],
+      "vitro": [
+        119
+      ],
+      "and": [
+        120
+      ],
+      "vivo.": [
+        122
+      ],
+      "These": [
+        123
+      ],
+      "findings": [
+        124
+      ],
+      "demonstrate": [
+        125
+      ],
+      "systems": [
+        128
+      ],
+      "pharmacology": [
+        129
+      ],
+      "framework": [
+        130
+      ],
+      "predict": [
+        132
+      ],
+      "effective": [
+        133
+      ],
+      "combination": [
+        134
+      ],
+      "therapies": [
+        135
+      ],
+      "based": [
+        136
+      ],
+      "state,": [
+        142
+      ],
+      "potentially": [
+        144
+      ],
+      "broad": [
+        145
+      ],
+      "applications": [
+        146
+      ],
+      "beyond": [
+        147
+      ],
+      "B-ALL.": [
+        148
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 7
+      }
+    ],
+    "updated_date": "2025-12-26T23:08:49.675405",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          2
+        ]
+      ],
+      "date-time": "2026-01-02T17:27:53Z",
+      "timestamp": 1767374873149,
+      "version": "3.40.5"
+    },
+    "reference-count": 92,
+    "publisher": "Elsevier BV",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              13
+            ]
+          ],
+          "date-time": "2024-03-13T00:00:00Z",
+          "timestamp": 1710288000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "cell.com",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Cancer Cell"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ccell.2024.03.003",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2024-04-08T14:45:06Z",
+      "timestamp": 1712587506000
+    },
+    "page": "552-567.e6",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 27,
+    "title": [
+      "Single-cell systems pharmacology identifies development-driven drug response and combination therapy in B cell acute lymphoblastic leukemia"
+    ],
+    "prefix": "10.1016",
+    "volume": "42",
+    "author": [
+      {
+        "given": "Xin",
+        "family": "Huang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Yizhen",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jingliao",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lei",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Huanbin",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Liang",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sheetal",
+        "family": "Bhatara",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xu",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Satoshi",
+        "family": "Yoshimura",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wenjian",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Seth E.",
+        "family": "Karol",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hiroto",
+        "family": "Inaba",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Charles",
+        "family": "Mullighan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mark",
+        "family": "Litzow",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiaofan",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yingchi",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wendy",
+        "family": "Stock",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nitin",
+        "family": "Jain",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elias",
+        "family": "Jabbour",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Steven M.",
+        "family": "Kornblau",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Marina",
+        "family": "Konopleva",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ching-Hon",
+        "family": "Pui",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elisabeth",
+        "family": "Paietta",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "William",
+        "family": "Evans",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1244-4429",
+        "authenticated-orcid": false,
+        "given": "Jiyang",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jun J.",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1213",
+        "DOI": "10.1084/jem.173.5.1213",
+        "article-title": "Resolution and characterization of pro-B and pre-pro-B cell stages in normal mouse bone marrow",
+        "volume": "173",
+        "author": "Hardy",
+        "year": "1991",
+        "journal-title": "J. Exp. Med."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "973",
+        "DOI": "10.1084/jem.182.4.973",
+        "article-title": "Immunoglobulin recombinase gene activity is modulated reciprocally by interleukin 7 and CD19 in B cell progenitors",
+        "volume": "182",
+        "author": "Billips",
+        "year": "1995",
+        "journal-title": "J. Exp. Med."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "556",
+        "DOI": "10.1038/44076",
+        "article-title": "Commitment to the B-lymphoid lineage depends on the transcription factor Pax5",
+        "volume": "401",
+        "author": "Nutt",
+        "year": "1999",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "4770",
+        "DOI": "10.4049/jimmunol.172.8.4770",
+        "article-title": "STAT5 activation underlies IL7 receptor-dependent B cell development",
+        "volume": "172",
+        "author": "Goetz",
+        "year": "2004",
+        "journal-title": "J. Immunol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "527",
+        "DOI": "10.1016/j.immuni.2016.02.021",
+        "article-title": "Pioneering activity of the C-terminal domain of EBF1 shapes the chromatin landscape for B cell programming",
+        "volume": "44",
+        "author": "Boller",
+        "year": "2016",
+        "journal-title": "Immunity"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1393",
+        "DOI": "10.1038/s41590-019-0468-0",
+        "article-title": "CXCR4 signaling directs Igk recombination and the molecular mechanisms of late B lymphopoiesis",
+        "volume": "20",
+        "author": "Mandal",
+        "year": "2019",
+        "journal-title": "Nat. Immunol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "758",
+        "DOI": "10.1038/nature05690",
+        "article-title": "Genome-wide analysis of genetic alterations in acute lymphoblastic leukaemia",
+        "volume": "446",
+        "author": "Mullighan",
+        "year": "2007",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib8",
+        "doi-asserted-by": "crossref",
+        "first-page": "296",
+        "DOI": "10.1038/s41588-018-0315-5",
+        "article-title": "PAX5-driven subtypes of B-progenitor acute lymphoblastic leukemia",
+        "volume": "51",
+        "author": "Gu",
+        "year": "2019",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1016/S1470-2045(00)00017-6",
+        "article-title": "Differentiation and apoptosis induction therapy in acute promyelocytic leukaemia",
+        "volume": "1",
+        "author": "Wang",
+        "year": "2000",
+        "journal-title": "Lancet Oncol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "708",
+        "DOI": "10.3324/haematol.2018.214882",
+        "article-title": "Phenotype-based drug screening reveals association between venetoclax response and differentiation stage in acute myeloid leukemia",
+        "volume": "105",
+        "author": "Kuusanmäki",
+        "year": "2020",
+        "journal-title": "Haematologica"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1610",
+        "DOI": "10.1182/blood.2021011094",
+        "article-title": "Erythroid/megakaryocytic differentiation confers BCL-XL dependency and venetoclax resistance in acute myeloid leukemia",
+        "volume": "141",
+        "author": "Kuusanmäki",
+        "year": "2023",
+        "journal-title": "Blood"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1408",
+        "DOI": "10.1158/2159-8290.CD-22-0939",
+        "article-title": "Combinatorial BCL2 Family Expression in Acute Myeloid Leukemia Stem Cells Predicts Clinical Response to Azacitidine/Venetoclax",
+        "volume": "13",
+        "author": "Waclawiczek",
+        "year": "2023",
+        "journal-title": "Cancer Discov."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1186",
+        "DOI": "10.1038/s41588-023-01429-4",
+        "article-title": "Transcriptomic classes of BCR-ABL1 lymphoblastic leukemia",
+        "volume": "55",
+        "author": "Kim",
+        "year": "2023",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "882",
+        "DOI": "10.1001/jama.1967.03130220070012",
+        "article-title": "L-asparaginase therapy for leukemia and other malignant neoplasms: remission in human leukemia",
+        "volume": "202",
+        "author": "Hill",
+        "year": "1967",
+        "journal-title": "JAMA"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib15",
+        "doi-asserted-by": "crossref",
+        "first-page": "553",
+        "DOI": "10.1038/leu.2012.290",
+        "article-title": "The coagulopathy and thrombotic risk associated with L-asparaginase treatment in adults with acute lymphoblastic leukaemia",
+        "volume": "27",
+        "author": "Truelove",
+        "year": "2013",
+        "journal-title": "Leukemia"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1111/bjh.12016",
+        "article-title": "Asparaginase-associated pancreatitis in children",
+        "volume": "159",
+        "author": "Raja",
+        "year": "2012",
+        "journal-title": "Br. J. Haematol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1028",
+        "DOI": "10.1056/NEJM196911062811902",
+        "article-title": "L-asparaginase: therapeutic and toxic effects in patients with neoplastic disease",
+        "volume": "281",
+        "author": "Haskell",
+        "year": "1969",
+        "journal-title": "N. Engl. J. Med."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "212",
+        "DOI": "10.1182/bloodadvances.2021004271",
+        "article-title": "Association of allele-specific methylation of the ASNS gene with asparaginase sensitivity and prognosis in T-ALL",
+        "volume": "6",
+        "author": "Akahane",
+        "year": "2022",
+        "journal-title": "Blood Adv."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "2483",
+        "DOI": "10.1158/1078-0432.CCR-18-1844",
+        "article-title": "Epigenetic Silencing Affects l-Asparaginase Sensitivity and Predicts Outcome in T-ALL",
+        "volume": "25",
+        "author": "Touzart",
+        "year": "2019",
+        "journal-title": "Clin. Cancer Res."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "657",
+        "DOI": "10.1016/j.exphem.2012.04.005",
+        "article-title": "Low expression of asparagine synthetase in lymphoid blasts precludes its role in sensitivity to L-asparaginase",
+        "volume": "40",
+        "author": "Hermanova",
+        "year": "2012",
+        "journal-title": "Exp. Hematol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "291",
+        "DOI": "10.1158/0008-5472.291.65.1",
+        "article-title": "A genome-wide view of the in vitro response to l-asparaginase in acute lymphoblastic leukemia",
+        "volume": "65",
+        "author": "Fine",
+        "year": "2005",
+        "journal-title": "Cancer Res."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "664",
+        "DOI": "10.1016/j.ccell.2019.03.004",
+        "article-title": "Synthetic lethality of Wnt pathway activation and asparaginase in drug-resistant acute leukemias",
+        "volume": "35",
+        "author": "Hinze",
+        "year": "2019",
+        "journal-title": "Cancer Cell"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1016/j.ccell.2017.12.003",
+        "article-title": "Oncogenic KRAS regulates amino acid homeostasis and asparagine biosynthesis via ATF4 and alters sensitivity to L-asparaginase",
+        "volume": "33",
+        "author": "Gwinn",
+        "year": "2018",
+        "journal-title": "Cancer Cell"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "E7776",
+        "DOI": "10.1073/pnas.1805523115",
+        "article-title": "Inhibition of GCN2 sensitizes ASNS-low cancer cells to asparaginase by disrupting the amino acid response",
+        "volume": "115",
+        "author": "Nakamura",
+        "year": "2018",
+        "journal-title": "Proc. Natl. Acad. Sci. USA"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib25",
+        "article-title": "Census of Immune Cells",
+        "author": "Regev",
+        "year": "2022",
+        "journal-title": "Human Cell Atlas Data Portal"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib26",
+        "doi-asserted-by": "crossref",
+        "first-page": "3573",
+        "DOI": "10.1016/j.cell.2021.04.048",
+        "article-title": "Integrated analysis of multimodal single-cell data",
+        "volume": "184",
+        "author": "Hao",
+        "year": "2021",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1888",
+        "DOI": "10.1016/j.cell.2019.05.031",
+        "article-title": "Comprehensive Integration of Single-Cell Data",
+        "volume": "177",
+        "author": "Stuart",
+        "year": "2019",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "411",
+        "DOI": "10.1038/nbt.4096",
+        "article-title": "Integrating single-cell transcriptomic data across different conditions, technologies, and species",
+        "volume": "36",
+        "author": "Butler",
+        "year": "2018",
+        "journal-title": "Nat. Biotechnol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "495",
+        "DOI": "10.1038/nbt.3192",
+        "article-title": "Spatial reconstruction of single-cell gene expression data",
+        "volume": "33",
+        "author": "Satija",
+        "year": "2015",
+        "journal-title": "Nat. Biotechnol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "6843",
+        "DOI": "10.1038/s41467-021-27232-5",
+        "article-title": "Single-cell analysis identifies dynamic gene expression networks that govern B cell development and transformation",
+        "volume": "12",
+        "author": "Lee",
+        "year": "2021",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "496",
+        "DOI": "10.1038/s41586-019-0969-x",
+        "article-title": "The single-cell transcriptional landscape of mammalian organogenesis",
+        "volume": "566",
+        "author": "Cao",
+        "year": "2019",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib32",
+        "doi-asserted-by": "crossref",
+        "first-page": "979",
+        "DOI": "10.1038/nmeth.4402",
+        "article-title": "Reversed graph embedding resolves complex single-cell trajectories",
+        "volume": "14",
+        "author": "Qiu",
+        "year": "2017",
+        "journal-title": "Nat. Methods"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "381",
+        "DOI": "10.1038/nbt.2859",
+        "article-title": "The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells",
+        "volume": "32",
+        "author": "Trapnell",
+        "year": "2014",
+        "journal-title": "Nat. Biotechnol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib34",
+        "first-page": "1532",
+        "article-title": "The roles of FLT3 in hematopoiesis and leukemia. Blood",
+        "volume": "100",
+        "author": "Gilliland",
+        "year": "2002",
+        "journal-title": "The Journal of the American Society of Hematology"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.1084/jem.20052444",
+        "article-title": "Lineage specification and plasticity in CD19− early B cell precursors",
+        "volume": "203",
+        "author": "Rumfelt",
+        "year": "2006",
+        "journal-title": "J. Exp. Med."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "3662",
+        "DOI": "10.4049/jimmunol.179.6.3662",
+        "article-title": "Characterization of early stages of human B cell development by gene expression profiling",
+        "volume": "179",
+        "author": "Hystad",
+        "year": "2007",
+        "journal-title": "J. Immunol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "96",
+        "DOI": "10.1101/gad.309583.117",
+        "article-title": "Dynamic EBF1 occupancy directs sequential epigenetic and transcriptional events in B-cell programming",
+        "volume": "32",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Genes Dev."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1016/S1074-7613(00)80507-5",
+        "article-title": "EBF and E47 collaborate to induce expression of the endogenous immunoglobulin surrogate light chain genes",
+        "volume": "7",
+        "author": "Sigvardsson",
+        "year": "1997",
+        "journal-title": "Immunity"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib39",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.1038/s41586-018-0177-0",
+        "article-title": "Hippo/Mst signalling couples metabolic state and immune function of CD8α+ dendritic cells",
+        "volume": "558",
+        "author": "Du",
+        "year": "2018",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "2581",
+        "DOI": "10.1038/s41467-023-38335-6",
+        "article-title": "NetBID2 provides comprehensive hidden driver analysis",
+        "volume": "14",
+        "author": "Dong",
+        "year": "2023",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "2165",
+        "DOI": "10.1093/bioinformatics/bty907",
+        "article-title": "SJARACNe: a scalable software tool for gene network reverse engineering from big data",
+        "volume": "35",
+        "author": "Khatamian",
+        "year": "2019",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "773",
+        "DOI": "10.1038/s41587-019-0114-2",
+        "article-title": "Determining cell type abundance and expression from bulk tissues with digital cytometry",
+        "volume": "37",
+        "author": "Newman",
+        "year": "2019",
+        "journal-title": "Nat. Biotechnol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib43",
+        "first-page": "2198",
+        "article-title": "Single-cell multiomics reveals increased plasticity, resistant populations, and stem-cell–like blasts in KMT2A-rearranged leukemia",
+        "volume": "139",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "Blood, The Journal of the American Society of Hematology"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "743",
+        "DOI": "10.1038/s41591-022-01720-7",
+        "article-title": "Single-cell transcriptomics reveals a distinct developmental state of KMT2A-rearranged infant B-cell acute lymphoblastic leukemia",
+        "volume": "28",
+        "author": "Khabirova",
+        "year": "2022",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1146/annurev-pathol-011811-132434",
+        "article-title": "The pathogenesis of mixed lineage leukemia",
+        "volume": "7",
+        "author": "Muntean",
+        "year": "2012",
+        "journal-title": "Annu. Rev. Pathol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "170",
+        "DOI": "10.1038/s41591-022-02112-7",
+        "article-title": "Pharmacotypes across the genomic landscape of pediatric acute lymphoblastic leukemia and impact on treatment response",
+        "volume": "29",
+        "author": "Lee",
+        "year": "2023",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "year": "2019",
+        "series-title": "inferCNV of the Trinity CTAT Project",
+        "author": "Tickle T",
+        "key": "10.1016/j.ccell.2024.03.003_bib47"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib48",
+        "doi-asserted-by": "crossref",
+        "first-page": "835",
+        "DOI": "10.1016/j.cell.2019.06.024",
+        "article-title": "An Integrative Model of Cellular States, Plasticity, and Genetics for Glioblastoma",
+        "volume": "178",
+        "author": "Neftel",
+        "year": "2019",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib49",
+        "doi-asserted-by": "crossref",
+        "first-page": "418",
+        "DOI": "10.1016/j.ccell.2019.08.007",
+        "article-title": "Tumor Cell Biodiversity Drives Microenvironmental Reprogramming in Liver Cancer",
+        "volume": "36",
+        "author": "Ma",
+        "year": "2019",
+        "journal-title": "Cancer Cell"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1333",
+        "DOI": "10.1038/s41592-021-01282-5",
+        "article-title": "Single-cell chromatin state analysis with Signac",
+        "volume": "18",
+        "author": "Stuart",
+        "year": "2021",
+        "journal-title": "Nat. Methods"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "3573",
+        "DOI": "10.1016/j.cell.2021.04.048",
+        "article-title": "Integrated analysis of multimodal single-cell data",
+        "volume": "184",
+        "author": "Hao",
+        "year": "2021",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "2059",
+        "DOI": "10.1084/jem.20160514",
+        "article-title": "Fra-2 regulates B cell development by enhancing IRF4 and Foxo1 transcription",
+        "volume": "214",
+        "author": "Ubieta",
+        "year": "2017",
+        "journal-title": "J. Exp. Med."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "2390",
+        "DOI": "10.1038/sj.onc.1204383",
+        "article-title": "AP-1 in cell proliferation and survival",
+        "volume": "20",
+        "author": "Shaulian",
+        "year": "2001",
+        "journal-title": "Oncogene"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib54",
+        "first-page": "685",
+        "article-title": "AP-1 (Fos/Jun) transcription factors in hematopoietic differentiation and apoptosis",
+        "volume": "12",
+        "author": "Liebermann",
+        "year": "1998",
+        "journal-title": "Int. J. Oncol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "240",
+        "DOI": "10.1016/S0955-0674(97)80068-3",
+        "article-title": "AP-1 function and regulation",
+        "volume": "9",
+        "author": "Karin",
+        "year": "1997",
+        "journal-title": "Curr. Opin. Cell Biol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib56",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1016/S1074-7613(00)00004-2",
+        "article-title": "Wnt signaling regulates B lymphocyte proliferation through a LEF-1 dependent mechanism",
+        "volume": "13",
+        "author": "Reya",
+        "year": "2000",
+        "journal-title": "Immunity"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib57",
+        "doi-asserted-by": "crossref",
+        "first-page": "391",
+        "DOI": "10.1016/S0092-8674(00)80112-9",
+        "article-title": "XTcf-3 transcription factor mediates beta-catenin-induced axis formation in Xenopus embryos",
+        "volume": "86",
+        "author": "Molenaar",
+        "year": "1996",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib58",
+        "doi-asserted-by": "crossref",
+        "first-page": "638",
+        "DOI": "10.1038/382638a0",
+        "article-title": "Functional interaction of beta-catenin with the transcription factor LEF-1",
+        "volume": "382",
+        "author": "Behrens",
+        "year": "1996",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "D1144",
+        "DOI": "10.1093/nar/gkaa1084",
+        "article-title": "Integration of the Drug-Gene Interaction Database (DGIdb 4.0) with open crowdsource efforts",
+        "volume": "49",
+        "author": "Freshour",
+        "year": "2021",
+        "journal-title": "Nucleic Acids Res."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib60",
+        "doi-asserted-by": "crossref",
+        "first-page": "100046",
+        "DOI": "10.1016/j.jcmds.2022.100046",
+        "article-title": "Optimal learning of Markov k-tree topology",
+        "volume": "4",
+        "author": "Chang",
+        "year": "2022",
+        "journal-title": "Journal of Computational Mathematics and Data Science"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib61",
+        "doi-asserted-by": "crossref",
+        "first-page": "2974",
+        "DOI": "10.3390/cancers13122974",
+        "article-title": "Potential Biomarkers for Treatment Response to the BCL-2 Inhibitor Venetoclax: State of the Art and Future Directions",
+        "volume": "13",
+        "author": "Salah",
+        "year": "2021",
+        "journal-title": "Cancers"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib62",
+        "doi-asserted-by": "crossref",
+        "first-page": "202",
+        "DOI": "10.1038/nm.3048",
+        "article-title": "ABT-199, a potent and selective BCL-2 inhibitor, achieves antitumor activity while sparing platelets",
+        "volume": "19",
+        "author": "Souers",
+        "year": "2013",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib63",
+        "doi-asserted-by": "crossref",
+        "first-page": "3521",
+        "DOI": "10.1182/blood-2013-03-493163",
+        "article-title": "Inhibiting glutamine uptake represents an attractive new strategy for treating acute myeloid leukemia",
+        "volume": "122",
+        "author": "Willems",
+        "year": "2013",
+        "journal-title": "Blood"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib64",
+        "doi-asserted-by": "crossref",
+        "first-page": "121",
+        "DOI": "10.1016/j.bbrc.2023.02.035",
+        "article-title": "l-Asparaginase regulates mTORC1 activity via a TSC2-dependent pathway in pancreatic beta cells",
+        "volume": "652",
+        "author": "Seike",
+        "year": "2023",
+        "journal-title": "Biochem. Biophys. Res. Commun."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib65",
+        "doi-asserted-by": "crossref",
+        "first-page": "2333",
+        "DOI": "10.1128/MCB.15.5.2333",
+        "article-title": "Multiple independent inputs are required for activation of the p70 S6 kinase",
+        "volume": "15",
+        "author": "Weng",
+        "year": "1995",
+        "journal-title": "Mol. Cell Biol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib66",
+        "doi-asserted-by": "crossref",
+        "first-page": "2458",
+        "DOI": "10.3389/fimmu.2019.02458",
+        "article-title": "Challenges and opportunities for consistent classification of human B cell and plasma cell populations",
+        "volume": "10",
+        "author": "Sanz",
+        "year": "2019",
+        "journal-title": "Front. Immunol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib67",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.it.2022.01.003",
+        "article-title": "Unraveling B cell trajectories at single cell resolution",
+        "author": "Morgan",
+        "year": "2022",
+        "journal-title": "Trends Immunol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib68",
+        "doi-asserted-by": "crossref",
+        "first-page": "69",
+        "DOI": "10.1038/nri3570",
+        "article-title": "Orchestrating B cell lymphopoiesis through interplay of IL-7 receptor and pre-B cell receptor signalling",
+        "volume": "14",
+        "author": "Clark",
+        "year": "2014",
+        "journal-title": "Nat. Rev. Immunol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib69",
+        "doi-asserted-by": "crossref",
+        "first-page": "1091",
+        "DOI": "10.1038/ni1008-1091",
+        "article-title": "The Immunological Genome Project: networks of gene expression in immune cells",
+        "volume": "9",
+        "author": "Heng",
+        "year": "2008",
+        "journal-title": "Nat. Immunol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib70",
+        "doi-asserted-by": "crossref",
+        "first-page": "eabl5197",
+        "DOI": "10.1126/science.abl5197",
+        "article-title": "Cross-tissue immune cell analysis reveals tissue-specific features in humans",
+        "volume": "376",
+        "author": "Domínguez Conde",
+        "year": "2022",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib71",
+        "doi-asserted-by": "crossref",
+        "first-page": "1577",
+        "DOI": "10.1038/s41590-021-01059-0",
+        "article-title": "Single-cell proteo-genomic reference maps of the hematopoietic system enable the purification and massive profiling of precisely defined cell states",
+        "volume": "22",
+        "author": "Triana",
+        "year": "2021",
+        "journal-title": "Nat. Immunol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib72",
+        "doi-asserted-by": "crossref",
+        "first-page": "13331",
+        "DOI": "10.1038/ncomms13331",
+        "article-title": "Genomic analyses identify recurrent MEF2D fusions in acute lymphoblastic leukaemia",
+        "volume": "7",
+        "author": "Gu",
+        "year": "2016",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib73",
+        "doi-asserted-by": "crossref",
+        "first-page": "e441",
+        "DOI": "10.1016/j.clml.2018.07.289",
+        "article-title": "Feasibility of the Combination of Venetoclax and Asparaginase-based Chemotherapy for Adult Patients With Relapsed/Refractory Acute Lymphoblastic Leukemia",
+        "volume": "18",
+        "author": "El-Cheikh",
+        "year": "2018",
+        "journal-title": "Clin. Lymphoma Myeloma Leuk."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib74",
+        "doi-asserted-by": "crossref",
+        "first-page": "e37",
+        "DOI": "10.1111/bjh.18595",
+        "article-title": "Successful bridging to cell therapy for relapsed/refractory acute lymphoblastic leukaemia with a combination of venetoclax and PEG-asparaginase",
+        "volume": "200",
+        "author": "Goursaud",
+        "year": "2023",
+        "journal-title": "Br. J. Haematol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib75",
+        "article-title": "Overcoming Venetoclax (Ven) Resistance through Glutamine (Gln) Depletion: Final Analysis of the Phase 1 Trial of Ven and Pegcrisantaspase (PegC) Combination in Relapsed and Refractory (R/R) Acute Myeloid Leukemia (AML)",
+        "author": "Yuchen Liu",
+        "year": "2023",
+        "journal-title": "Blood"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib76",
+        "doi-asserted-by": "crossref",
+        "first-page": "381",
+        "DOI": "10.1084/jem.183.2.381",
+        "article-title": "bcl-x exhibits regulated expression during B cell development and activation and modulates lymphocyte survival in transgenic mice",
+        "volume": "183",
+        "author": "Grillot",
+        "year": "1996",
+        "journal-title": "J. Exp. Med."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib77",
+        "first-page": "1382",
+        "article-title": "Venetoclax responses of pediatric ALL xenografts reveal sensitivity of MLL-rearranged leukemia",
+        "volume": "128",
+        "author": "Khaw",
+        "year": "2016",
+        "journal-title": "Blood, The Journal of the American Society of Hematology"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib78",
+        "doi-asserted-by": "crossref",
+        "first-page": "2916",
+        "DOI": "10.1016/j.neuron.2022.07.012",
+        "article-title": "Neuroblastoma: When differentiation goes awry",
+        "volume": "110",
+        "author": "Zeineldin",
+        "year": "2022",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib79",
+        "doi-asserted-by": "crossref",
+        "first-page": "2254",
+        "DOI": "10.1172/JCI41246",
+        "article-title": "Chronic myeloid leukemia: mechanisms of blastic transformation",
+        "volume": "120",
+        "author": "Perrotti",
+        "year": "2010",
+        "journal-title": "J. Clin. Invest."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib80",
+        "doi-asserted-by": "crossref",
+        "first-page": "895",
+        "DOI": "10.1038/nrc1232",
+        "article-title": "Applying the principles of stem-cell biology to cancer",
+        "volume": "3",
+        "author": "Pardal",
+        "year": "2003",
+        "journal-title": "Nat. Rev. Cancer"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib81",
+        "doi-asserted-by": "crossref",
+        "first-page": "850",
+        "DOI": "10.1016/j.ccell.2022.07.002",
+        "article-title": "Integrative analysis of drug response and clinical outcome in acute myeloid leukemia",
+        "volume": "40",
+        "author": "Bottomly",
+        "year": "2022",
+        "journal-title": "Cancer Cell"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib82",
+        "doi-asserted-by": "crossref",
+        "first-page": "1212",
+        "DOI": "10.1038/s41591-022-01819-x",
+        "article-title": "A cellular hierarchy framework for understanding heterogeneity and predicting drug response in acute myeloid leukemia",
+        "volume": "28",
+        "author": "Zeng",
+        "year": "2022",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib83",
+        "doi-asserted-by": "crossref",
+        "first-page": "eadd6403",
+        "DOI": "10.1126/sciadv.add6403",
+        "article-title": "PAX5 epigenetically orchestrates CD58 transcription and modulates blinatumomab response in acute lymphoblastic leukemia",
+        "volume": "8",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "Sci. Adv."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib84",
+        "doi-asserted-by": "crossref",
+        "first-page": "R137",
+        "DOI": "10.1186/gb-2008-9-9-r137",
+        "article-title": "Model-based analysis of ChIP-Seq (MACS)",
+        "volume": "9",
+        "author": "Zhang",
+        "year": "2008",
+        "journal-title": "Genome Biol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib85",
+        "doi-asserted-by": "crossref",
+        "first-page": "2498",
+        "DOI": "10.1101/gr.1239303",
+        "article-title": "Cytoscape: a software environment for integrated models of biomolecular interaction networks",
+        "volume": "13",
+        "author": "Shannon",
+        "year": "2003",
+        "journal-title": "Genome Res."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib86",
+        "doi-asserted-by": "crossref",
+        "first-page": "189",
+        "DOI": "10.1126/science.aad0501",
+        "article-title": "Dissecting the multicellular ecosystem of metastatic melanoma by single-cell RNA-seq",
+        "volume": "352",
+        "author": "Tirosh",
+        "year": "2016",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib87",
+        "doi-asserted-by": "crossref",
+        "first-page": "D258",
+        "DOI": "10.1093/nar/gkh036",
+        "article-title": "The Gene Ontology (GO) database and informatics resource",
+        "volume": "32",
+        "author": "Consortium",
+        "year": "2004",
+        "journal-title": "Nucleic acids research"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib88",
+        "doi-asserted-by": "crossref",
+        "first-page": "126",
+        "DOI": "10.1186/s13059-020-02043-x",
+        "article-title": "CICERO: a versatile method for detecting complex and diverse driver fusions using cancer RNA sequencing data",
+        "volume": "21",
+        "author": "Tian",
+        "year": "2020",
+        "journal-title": "Genome Biol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib89",
+        "first-page": "656",
+        "article-title": "BLAT—the BLAST-like alignment tool",
+        "volume": "12",
+        "author": "Kent",
+        "year": "2002",
+        "journal-title": "Genome Res."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib90",
+        "doi-asserted-by": "crossref",
+        "first-page": "284",
+        "DOI": "10.1038/s43018-020-00167-4",
+        "article-title": "Network-based systems pharmacology reveals heterogeneity in LCK and BCL2 signaling and therapeutic sensitivity of T-cell acute lymphoblastic leukemia",
+        "volume": "2",
+        "author": "Gocho",
+        "year": "2021",
+        "journal-title": "Nat. Cancer"
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib91",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1003118",
+        "DOI": "10.1371/journal.pcbi.1003118",
+        "article-title": "Software for computing and annotating genomic ranges",
+        "volume": "9",
+        "author": "Lawrence",
+        "year": "2013",
+        "journal-title": "PLoS Comput. Biol."
+      },
+      {
+        "key": "10.1016/j.ccell.2024.03.003_bib92",
+        "doi-asserted-by": "crossref",
+        "first-page": "2333",
+        "DOI": "10.1128/MCB.15.5.2333",
+        "article-title": "Multiple independent inputs are required for activation of the p70 S6 kinase",
+        "volume": "15",
+        "author": "Weng",
+        "year": "1995",
+        "journal-title": "Mol. Cell Biol."
+      }
+    ],
+    "container-title": [
+      "Cancer Cell"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1535610824000886?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1535610824000886?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          22
+        ]
+      ],
+      "date-time": "2024-07-22T13:35:21Z",
+      "timestamp": 1721655321000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1535610824000886"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "references-count": 92,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S1535610824000886"
+    ],
+    "URL": "https://doi.org/10.1016/j.ccell.2024.03.003",
+    "relation": {},
+    "ISSN": [
+      "1535-6108"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1535-6108"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Single-cell systems pharmacology identifies development-driven drug response and combination therapy in B cell acute lymphoblastic leukemia",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Cancer Cell",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ccell.2024.03.003",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 The Author(s). Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

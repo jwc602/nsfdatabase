@@ -1,0 +1,2088 @@
+{
+  "doi": "10.1101/2023.09.15.557839",
+  "openalex": {
+    "id": "https://openalex.org/W4386762108",
+    "doi": "https://doi.org/10.1101/2023.09.15.557839",
+    "title": "HILAMA: High-dimensional multi-omic mediation analysis with latent confounding",
+    "display_name": "HILAMA: High-dimensional multi-omic mediation analysis with latent confounding",
+    "publication_year": 2023,
+    "publication_date": "2023-09-15",
+    "ids": {
+      "openalex": "https://openalex.org/W4386762108",
+      "doi": "https://doi.org/10.1101/2023.09.15.557839"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1101/2023.09.15.557839",
+      "is_oa": true,
+      "landing_page_url": "http://dx.doi.org/10.1101/2023.09.15.557839",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/15/2023.09.15.557839.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402567",
+        "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2750212522",
+        "host_organization_name": "Cold Spring Harbor Laboratory",
+        "host_organization_lineage": [
+          "https://openalex.org/I2750212522"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "type": "preprint",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/15/2023.09.15.557839.full.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100762078",
+          "display_name": "Xinbo Wang",
+          "orcid": "https://orcid.org/0000-0002-6481-4404"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Xinbo Wang",
+        "raw_affiliation_strings": [
+          "SJTU-Yale Joint Center of Biostatistics and Data Science, National Center for Translational Medicine, Shanghai Jiao Tong University, Shanghai, China",
+          "State Key Lab of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "SJTU-Yale Joint Center of Biostatistics and Data Science, National Center for Translational Medicine, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          },
+          {
+            "raw_affiliation_string": "State Key Lab of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5108647364",
+          "display_name": "Jiejinhao Liu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Junyuan Liu",
+        "raw_affiliation_strings": [
+          "School of Mathematical Sciences, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Mathematical Sciences, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003805636",
+          "display_name": "Shengen Shawn Hu",
+          "orcid": "https://orcid.org/0000-0002-9691-7344"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I51556381",
+            "display_name": "University of Virginia",
+            "ror": "https://ror.org/0153tk833",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I51556381"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sheng’en Shawn Hu",
+        "raw_affiliation_strings": [
+          "Center for Public Health Genomics, University of Virginia, Charlottesville, VA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Public Health Genomics, University of Virginia, Charlottesville, VA, USA",
+            "institution_ids": [
+              "https://openalex.org/I51556381"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100413280",
+          "display_name": "Zhonghua Liu",
+          "orcid": "https://orcid.org/0000-0003-3048-9823"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78577930",
+            "display_name": "Columbia University",
+            "ror": "https://ror.org/00hj8s172",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78577930"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhonghua Liu",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, Columbia University, New York, NY, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biostatistics, Columbia University, New York, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I78577930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101486498",
+          "display_name": "Hui Lu",
+          "orcid": "https://orcid.org/0000-0002-4120-7716"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Hui Lu",
+        "raw_affiliation_strings": [
+          "SJTU-Yale Joint Center of Biostatistics and Data Science, National Center for Translational Medicine, Shanghai Jiao Tong University, Shanghai, China",
+          "State Key Lab of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "SJTU-Yale Joint Center of Biostatistics and Data Science, National Center for Translational Medicine, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          },
+          {
+            "raw_affiliation_string": "State Key Lab of Microbial Metabolism, Joint International Research Laboratory of Metabolic Developmental Sciences, Department of Bioinformatics and Biostatistics, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100383327",
+          "display_name": "Lin Liu",
+          "orcid": "https://orcid.org/0000-0002-9883-7962"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Lin Liu",
+        "raw_affiliation_strings": [
+          "Institute of Natural Sciences, MOE-LSC, CMA-Shanghai, Shanghai Jiao Tong University, Shanghai, China",
+          "SJTU-Yale Joint Center of Biostatistics and Data Science, National Center for Translational Medicine, Shanghai Jiao Tong University, Shanghai, China",
+          "School of Mathematical Sciences, Shanghai Jiao Tong University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Natural Sciences, MOE-LSC, CMA-Shanghai, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          },
+          {
+            "raw_affiliation_string": "SJTU-Yale Joint Center of Biostatistics and Data Science, National Center for Translational Medicine, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Mathematical Sciences, Shanghai Jiao Tong University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5101486498",
+      "https://openalex.org/A5100383327",
+      "https://openalex.org/A5100762078"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I183067930"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.15086099,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10845",
+      "display_name": "Advanced Causal Inference Techniques",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10845",
+        "display_name": "Advanced Causal Inference Techniques",
+        "score": 0.9993000030517578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10136",
+        "display_name": "Statistical Methods and Inference",
+        "score": 0.9904000163078308,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10887",
+        "display_name": "Bioinformatics and Genomic Networks",
+        "score": 0.982200026512146,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/confounding",
+        "display_name": "Confounding",
+        "score": 0.7988801002502441
+      },
+      {
+        "id": "https://openalex.org/keywords/mediation",
+        "display_name": "Mediation",
+        "score": 0.7154490351676941
+      },
+      {
+        "id": "https://openalex.org/keywords/false-discovery-rate",
+        "display_name": "False discovery rate",
+        "score": 0.7114275693893433
+      },
+      {
+        "id": "https://openalex.org/keywords/latent-variable",
+        "display_name": "Latent variable",
+        "score": 0.6994822025299072
+      },
+      {
+        "id": "https://openalex.org/keywords/causal-inference",
+        "display_name": "Causal inference",
+        "score": 0.6709822416305542
+      },
+      {
+        "id": "https://openalex.org/keywords/inference",
+        "display_name": "Inference",
+        "score": 0.5645924806594849
+      },
+      {
+        "id": "https://openalex.org/keywords/statistical-inference",
+        "display_name": "Statistical inference",
+        "score": 0.560109555721283
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5472287535667419
+      },
+      {
+        "id": "https://openalex.org/keywords/sample-size-determination",
+        "display_name": "Sample size determination",
+        "score": 0.5095880031585693
+      },
+      {
+        "id": "https://openalex.org/keywords/structural-equation-modeling",
+        "display_name": "Structural equation modeling",
+        "score": 0.4942348301410675
+      },
+      {
+        "id": "https://openalex.org/keywords/statistical-power",
+        "display_name": "Statistical power",
+        "score": 0.43619421124458313
+      },
+      {
+        "id": "https://openalex.org/keywords/latent-variable-model",
+        "display_name": "Latent variable model",
+        "score": 0.41987282037734985
+      },
+      {
+        "id": "https://openalex.org/keywords/data-mining",
+        "display_name": "Data mining",
+        "score": 0.3941720426082611
+      },
+      {
+        "id": "https://openalex.org/keywords/data-science",
+        "display_name": "Data science",
+        "score": 0.36661678552627563
+      },
+      {
+        "id": "https://openalex.org/keywords/econometrics",
+        "display_name": "Econometrics",
+        "score": 0.3600534200668335
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.34787240624427795
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.26739025115966797
+      },
+      {
+        "id": "https://openalex.org/keywords/statistics",
+        "display_name": "Statistics",
+        "score": 0.2653179466724396
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.16023868322372437
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.1515125334262848
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C77350462",
+        "wikidata": "https://www.wikidata.org/wiki/Q1125472",
+        "display_name": "Confounding",
+        "level": 2,
+        "score": 0.7988801002502441
+      },
+      {
+        "id": "https://openalex.org/C179420905",
+        "wikidata": "https://www.wikidata.org/wiki/Q223871",
+        "display_name": "Mediation",
+        "level": 2,
+        "score": 0.7154490351676941
+      },
+      {
+        "id": "https://openalex.org/C193244246",
+        "wikidata": "https://www.wikidata.org/wiki/Q5432696",
+        "display_name": "False discovery rate",
+        "level": 3,
+        "score": 0.7114275693893433
+      },
+      {
+        "id": "https://openalex.org/C51167844",
+        "wikidata": "https://www.wikidata.org/wiki/Q4422623",
+        "display_name": "Latent variable",
+        "level": 2,
+        "score": 0.6994822025299072
+      },
+      {
+        "id": "https://openalex.org/C158600405",
+        "wikidata": "https://www.wikidata.org/wiki/Q5054566",
+        "display_name": "Causal inference",
+        "level": 2,
+        "score": 0.6709822416305542
+      },
+      {
+        "id": "https://openalex.org/C2776214188",
+        "wikidata": "https://www.wikidata.org/wiki/Q408386",
+        "display_name": "Inference",
+        "level": 2,
+        "score": 0.5645924806594849
+      },
+      {
+        "id": "https://openalex.org/C134261354",
+        "wikidata": "https://www.wikidata.org/wiki/Q938438",
+        "display_name": "Statistical inference",
+        "level": 2,
+        "score": 0.560109555721283
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5472287535667419
+      },
+      {
+        "id": "https://openalex.org/C129848803",
+        "wikidata": "https://www.wikidata.org/wiki/Q2564360",
+        "display_name": "Sample size determination",
+        "level": 2,
+        "score": 0.5095880031585693
+      },
+      {
+        "id": "https://openalex.org/C71104824",
+        "wikidata": "https://www.wikidata.org/wiki/Q1476639",
+        "display_name": "Structural equation modeling",
+        "level": 2,
+        "score": 0.4942348301410675
+      },
+      {
+        "id": "https://openalex.org/C96608239",
+        "wikidata": "https://www.wikidata.org/wiki/Q1199823",
+        "display_name": "Statistical power",
+        "level": 2,
+        "score": 0.43619421124458313
+      },
+      {
+        "id": "https://openalex.org/C65965080",
+        "wikidata": "https://www.wikidata.org/wiki/Q1806885",
+        "display_name": "Latent variable model",
+        "level": 3,
+        "score": 0.41987282037734985
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.3941720426082611
+      },
+      {
+        "id": "https://openalex.org/C2522767166",
+        "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+        "display_name": "Data science",
+        "level": 1,
+        "score": 0.36661678552627563
+      },
+      {
+        "id": "https://openalex.org/C149782125",
+        "wikidata": "https://www.wikidata.org/wiki/Q160039",
+        "display_name": "Econometrics",
+        "level": 1,
+        "score": 0.3600534200668335
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.34787240624427795
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.26739025115966797
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.2653179466724396
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.16023868322372437
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.1515125334262848
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1101/2023.09.15.557839",
+        "is_oa": true,
+        "landing_page_url": "http://dx.doi.org/10.1101/2023.09.15.557839",
+        "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/15/2023.09.15.557839.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402567",
+          "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I2750212522",
+          "host_organization_name": "Cold Spring Harbor Laboratory",
+          "host_organization_lineage": [
+            "https://openalex.org/I2750212522"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1101/2023.09.15.557839",
+      "is_oa": true,
+      "landing_page_url": "http://dx.doi.org/10.1101/2023.09.15.557839",
+      "pdf_url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/15/2023.09.15.557839.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402567",
+        "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2750212522",
+        "host_organization_name": "Cold Spring Harbor Laboratory",
+        "host_organization_lineage": [
+          "https://openalex.org/I2750212522"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Partnerships for the goals",
+        "id": "https://metadata.un.org/sdg/17",
+        "score": 0.5
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": true
+    },
+    "referenced_works_count": 70,
+    "referenced_works": [
+      "https://openalex.org/W4324309277",
+      "https://openalex.org/W2016229608",
+      "https://openalex.org/W2071250190",
+      "https://openalex.org/W4323350075",
+      "https://openalex.org/W2766173132",
+      "https://openalex.org/W4292811746",
+      "https://openalex.org/W3048036301",
+      "https://openalex.org/W3133781116",
+      "https://openalex.org/W2900832492",
+      "https://openalex.org/W2086516713",
+      "https://openalex.org/W2096995197",
+      "https://openalex.org/W3028837729",
+      "https://openalex.org/W4298870021",
+      "https://openalex.org/W4320712866",
+      "https://openalex.org/W4296578127",
+      "https://openalex.org/W2920925479",
+      "https://openalex.org/W2944061347",
+      "https://openalex.org/W2196038229",
+      "https://openalex.org/W2990439639",
+      "https://openalex.org/W2963928335",
+      "https://openalex.org/W3093661849",
+      "https://openalex.org/W2800569827",
+      "https://openalex.org/W2939805937",
+      "https://openalex.org/W3130765246",
+      "https://openalex.org/W4311261902",
+      "https://openalex.org/W4288488971",
+      "https://openalex.org/W1991587639",
+      "https://openalex.org/W2151915265",
+      "https://openalex.org/W134184183",
+      "https://openalex.org/W4296301762",
+      "https://openalex.org/W1967571609",
+      "https://openalex.org/W3152499279",
+      "https://openalex.org/W3016916364",
+      "https://openalex.org/W3153615185",
+      "https://openalex.org/W4240661022",
+      "https://openalex.org/W2120897808",
+      "https://openalex.org/W3048997064",
+      "https://openalex.org/W3103956092",
+      "https://openalex.org/W2038680295",
+      "https://openalex.org/W4200194404",
+      "https://openalex.org/W2529572398",
+      "https://openalex.org/W1973285887",
+      "https://openalex.org/W2061624754",
+      "https://openalex.org/W3207851555",
+      "https://openalex.org/W2235698702",
+      "https://openalex.org/W2134248637",
+      "https://openalex.org/W3196385085",
+      "https://openalex.org/W2123901033",
+      "https://openalex.org/W1490576214",
+      "https://openalex.org/W3003192283",
+      "https://openalex.org/W4388729345",
+      "https://openalex.org/W2572662684",
+      "https://openalex.org/W4362598961",
+      "https://openalex.org/W4306729561",
+      "https://openalex.org/W2790306871",
+      "https://openalex.org/W2552071645",
+      "https://openalex.org/W2009754435",
+      "https://openalex.org/W2118515575",
+      "https://openalex.org/W2055509010",
+      "https://openalex.org/W2606988847",
+      "https://openalex.org/W4221002952",
+      "https://openalex.org/W4304730807",
+      "https://openalex.org/W3120224790",
+      "https://openalex.org/W3166723582",
+      "https://openalex.org/W2474105078",
+      "https://openalex.org/W3191177528",
+      "https://openalex.org/W4285367415",
+      "https://openalex.org/W3211198776",
+      "https://openalex.org/W2042443456",
+      "https://openalex.org/W4210333861"
+    ],
+    "related_works": [
+      "https://openalex.org/W2461917396",
+      "https://openalex.org/W1966667550",
+      "https://openalex.org/W2037497866",
+      "https://openalex.org/W4243467573",
+      "https://openalex.org/W1502435251",
+      "https://openalex.org/W62001224",
+      "https://openalex.org/W3032390039",
+      "https://openalex.org/W1584341211",
+      "https://openalex.org/W3122667150",
+      "https://openalex.org/W3145681568"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Motivation": [
+        1
+      ],
+      "The": [
+        2,
+        166,
+        216,
+        240
+      ],
+      "increasingly": [
+        3
+      ],
+      "available": [
+        4,
+        246
+      ],
+      "multi-omic": [
+        5
+      ],
+      "datasets": [
+        6,
+        33
+      ],
+      "have": [
+        7,
+        106
+      ],
+      "posed": [
+        8
+      ],
+      "both": [
+        9,
+        68,
+        90,
+        135
+      ],
+      "new": [
+        10,
+        123
+      ],
+      "opportunities": [
+        11
+      ],
+      "and": [
+        12,
+        70,
+        75,
+        138,
+        140,
+        182,
+        209,
+        225
+      ],
+      "challenges": [
+        13,
+        112
+      ],
+      "to": [
+        14,
+        30,
+        62,
+        109,
+        190,
+        199,
+        213
+      ],
+      "the": [
+        15,
+        39,
+        48,
+        54,
+        64,
+        98,
+        143,
+        200
+      ],
+      "development": [
+        16
+      ],
+      "of": [
+        17,
+        100,
+        146
+      ],
+      "quantitative": [
+        18
+      ],
+      "methods": [
+        19,
+        60,
+        105
+      ],
+      "for": [
+        20,
+        125,
+        161,
+        230
+      ],
+      "discovering": [
+        21
+      ],
+      "novel": [
+        22
+      ],
+      "mechanisms": [
+        23,
+        49
+      ],
+      "in": [
+        24,
+        95,
+        179,
+        185
+      ],
+      "biomedical": [
+        25
+      ],
+      "research.": [
+        26
+      ],
+      "One": [
+        27
+      ],
+      "natural": [
+        28
+      ],
+      "approach": [
+        29
+      ],
+      "analyzing": [
+        31
+      ],
+      "such": [
+        32
+      ],
+      "is": [
+        34,
+        78,
+        169,
+        197,
+        244
+      ],
+      "mediation": [
+        35,
+        163,
+        233
+      ],
+      "analysis": [
+        36,
+        44,
+        234
+      ],
+      "originated": [
+        37
+      ],
+      "from": [
+        38,
+        203
+      ],
+      "causal": [
+        40
+      ],
+      "inference": [
+        41,
+        229
+      ],
+      "literature.": [
+        42
+      ],
+      "Mediation": [
+        43,
+        128
+      ],
+      "can": [
+        45,
+        221
+      ],
+      "help": [
+        46
+      ],
+      "unravel": [
+        47
+      ],
+      "through": [
+        50,
+        171
+      ],
+      "which": [
+        51
+      ],
+      "exposure(s)": [
+        52
+      ],
+      "exert": [
+        53
+      ],
+      "effect": [
+        55,
+        164
+      ],
+      "on": [
+        56
+      ],
+      "outcome(s).": [
+        57
+      ],
+      "However,": [
+        58
+      ],
+      "existing": [
+        59,
+        191
+      ],
+      "fail": [
+        61
+      ],
+      "consider": [
+        63
+      ],
+      "case": [
+        65
+      ],
+      "where": [
+        66
+      ],
+      "(1)": [
+        67
+      ],
+      "exposures": [
+        69,
+        137
+      ],
+      "mediators": [
+        71
+      ],
+      "are": [
+        72,
+        86,
+        92
+      ],
+      "potentially": [
+        73
+      ],
+      "high-dimensional": [
+        74,
+        136
+      ],
+      "(2)": [
+        76
+      ],
+      "it": [
+        77
+      ],
+      "very": [
+        79
+      ],
+      "likely": [
+        80
+      ],
+      "that": [
+        81,
+        133,
+        219
+      ],
+      "some": [
+        82,
+        206
+      ],
+      "important": [
+        83
+      ],
+      "confounding": [
+        84,
+        148,
+        237
+      ],
+      "variables": [
+        85
+      ],
+      "unmeasured": [
+        87
+      ],
+      "or": [
+        88
+      ],
+      "latent;": [
+        89
+      ],
+      "issues": [
+        91
+      ],
+      "quite": [
+        93
+      ],
+      "common": [
+        94
+      ],
+      "practice.": [
+        96
+      ],
+      "To": [
+        97
+      ],
+      "best": [
+        99
+      ],
+      "our": [
+        101,
+        195
+      ],
+      "knowledge,": [
+        102
+      ],
+      "however,": [
+        103
+      ],
+      "no": [
+        104
+      ],
+      "been": [
+        107
+      ],
+      "developed": [
+        108
+      ],
+      "address": [
+        110
+      ],
+      "these": [
+        111
+      ],
+      "with": [
+        113,
+        235
+      ],
+      "statistical": [
+        114,
+        228
+      ],
+      "guarantees.": [
+        115
+      ],
+      "Results": [
+        116
+      ],
+      "In": [
+        117
+      ],
+      "this": [
+        118
+      ],
+      "article,": [
+        119
+      ],
+      "we": [
+        120
+      ],
+      "propose": [
+        121
+      ],
+      "a": [
+        122
+      ],
+      "method": [
+        124,
+        168,
+        196
+      ],
+      "HIgh-dimensional": [
+        126
+      ],
+      "LAtent-confounding": [
+        127
+      ],
+      "Analysis,": [
+        129
+      ],
+      "abbreviated": [
+        130
+      ],
+      "as": [
+        131
+      ],
+      "“HILAMA”,": [
+        132
+      ],
+      "considers": [
+        134
+      ],
+      "mediators,": [
+        139
+      ],
+      "more": [
+        141
+      ],
+      "importantly,": [
+        142
+      ],
+      "possible": [
+        144
+      ],
+      "existence": [
+        145
+      ],
+      "latent": [
+        147,
+        236
+      ],
+      "variables.": [
+        149,
+        238
+      ],
+      "HILAMA": [
+        150,
+        220,
+        243
+      ],
+      "achieves": [
+        151
+      ],
+      "false": [
+        152
+      ],
+      "discovery": [
+        153
+      ],
+      "rate": [
+        154
+      ],
+      "(FDR)": [
+        155
+      ],
+      "control": [
+        156,
+        181,
+        223
+      ],
+      "under": [
+        157
+      ],
+      "finite": [
+        158,
+        186
+      ],
+      "sample": [
+        159,
+        187
+      ],
+      "size": [
+        160,
+        188
+      ],
+      "multiple": [
+        162
+      ],
+      "testing.": [
+        165
+      ],
+      "proposed": [
+        167
+      ],
+      "evaluated": [
+        170
+      ],
+      "extensive": [
+        172
+      ],
+      "simulation": [
+        173
+      ],
+      "experiments,": [
+        174
+      ],
+      "demonstrating": [
+        175
+      ],
+      "its": [
+        176
+      ],
+      "improved": [
+        177
+      ],
+      "stability": [
+        178
+      ],
+      "FDR": [
+        180,
+        224
+      ],
+      "superior": [
+        183
+      ],
+      "power": [
+        184
+      ],
+      "compared": [
+        189
+      ],
+      "competitive": [
+        192
+      ],
+      "methods.": [
+        193
+      ],
+      "Furthermore,": [
+        194
+      ],
+      "applied": [
+        198
+      ],
+      "proteomics-radiomics": [
+        201
+      ],
+      "data": [
+        202
+      ],
+      "ADNI,": [
+        204
+      ],
+      "identifying": [
+        205
+      ],
+      "key": [
+        207
+      ],
+      "proteins": [
+        208
+      ],
+      "brain": [
+        210
+      ],
+      "regions": [
+        211
+      ],
+      "relating": [
+        212
+      ],
+      "Alzheimer’s": [
+        214
+      ],
+      "disease.": [
+        215
+      ],
+      "results": [
+        217
+      ],
+      "show": [
+        218
+      ],
+      "effectively": [
+        222
+      ],
+      "provide": [
+        226
+      ],
+      "valid": [
+        227
+      ],
+      "high": [
+        231
+      ],
+      "dimensional": [
+        232
+      ],
+      "Availability": [
+        239
+      ],
+      "R": [
+        241
+      ],
+      "package": [
+        242
+      ],
+      "publicly": [
+        245
+      ],
+      "at": [
+        247
+      ],
+      "https://github.com/Cinbo-Wang/HILAMA": [
+        248
+      ],
+      ".": [
+        249
+      ],
+      "Contact": [
+        250
+      ],
+      "cinbo_w@sjtu.edu.cn": [
+        251
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2025-12-26T23:08:49.675405",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          21
+        ]
+      ],
+      "date-time": "2025-02-21T00:34:21Z",
+      "timestamp": 1740098061098,
+      "version": "3.37.3"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          15
+        ]
+      ]
+    },
+    "group-title": "Bioinformatics",
+    "reference-count": 78,
+    "publisher": "Cold Spring Harbor Laboratory",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          15
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:sec><jats:title>Motivation</jats:title><jats:p>The increasingly available multi-omic datasets have posed both new opportunities and challenges to the development of quantitative methods for discovering novel mechanisms in biomedical research. One natural approach to analyzing such datasets is mediation analysis originated from the causal inference literature. Mediation analysis can help unravel the mechanisms through which exposure(s) exert the effect on outcome(s). However, existing methods fail to consider the case where (1) both exposures and mediators are potentially high-dimensional and (2) it is very likely that some important confounding variables are unmeasured or latent; both issues are quite common in practice. To the best of our knowledge, however, no methods have been developed to address these challenges with statistical guarantees.</jats:p></jats:sec><jats:sec><jats:title>Results</jats:title><jats:p>In this article, we propose a new method for HIgh-dimensional LAtent-confounding Mediation Analysis, abbreviated as “HILAMA”, that considers both high-dimensional exposures and mediators, and more importantly, the possible existence of latent confounding variables. HILAMA achieves false discovery rate (FDR) control under finite sample size for multiple mediation effect testing. The proposed method is evaluated through extensive simulation experiments, demonstrating its improved stability in FDR control and superior power in finite sample size compared to existing competitive methods. Furthermore, our method is applied to the proteomics-radiomics data from ADNI, identifying some key proteins and brain regions relating to Alzheimer’s disease. The results show that HILAMA can effectively control FDR and provide valid statistical inference for high dimensional mediation analysis with latent confounding variables.</jats:p></jats:sec><jats:sec><jats:title>Availability</jats:title><jats:p>The R package<jats:bold>HILAMA</jats:bold>is publicly available at<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/Cinbo-Wang/HILAMA\">https://github.com/Cinbo-Wang/HILAMA</jats:ext-link>.</jats:p></jats:sec><jats:sec><jats:title>Contact</jats:title><jats:p><jats:email>cinbo_w@sjtu.edu.cn</jats:email></jats:p></jats:sec>",
+    "DOI": "10.1101/2023.09.15.557839",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2023-09-15T22:10:25Z",
+      "timestamp": 1694815825000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "HILAMA: High-dimensional multi-omic mediation analysis with latent confounding"
+    ],
+    "prefix": "10.1101",
+    "author": [
+      {
+        "given": "Xinbo",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Junyuan",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sheng’en Shawn",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhonghua",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hui",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9883-7962",
+        "authenticated-orcid": false,
+        "given": "Lin",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "name": "the Alzheimer’s Disease Neuroimaging Initiative",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "246",
+    "reference": [
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/alz.13016"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/ss/1009213729"
+      },
+      {
+        "issue": "3",
+        "key": "2023091911200427000_2023.09.15.557839v1.3",
+        "doi-asserted-by": "crossref",
+        "first-page": "288",
+        "DOI": "10.1038/aps.2010.228",
+        "article-title": "Knock-down of protein l-isoaspartyl o-methyltransferase increases β-amyloid production by decreasing adam10 and adam17 levels",
+        "volume": "32",
+        "year": "2011",
+        "journal-title": "Acta Pharmacologica Sinica"
+      },
+      {
+        "issue": "2",
+        "key": "2023091911200427000_2023.09.15.557839v1.4",
+        "doi-asserted-by": "crossref",
+        "first-page": "bbad073",
+        "DOI": "10.1093/bib/bbad073",
+        "article-title": "Integrative analysis of multi-omics and imaging data with incorporation of biological information via structural bayesian factor analysis",
+        "volume": "24",
+        "year": "2023",
+        "journal-title": "Briefings in Bioinformatics"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/gepi.22084"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0022-3514.51.6.1173"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-17405-z"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2346101"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Bing , W. Cheng , H. Feng , and Y. Ning . Inference in high-dimensional multivariate response regression with hidden variables, 2022a.",
+        "DOI": "10.1214/21-AOS2059"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/21-AOS2059"
+      },
+      {
+        "issue": "1",
+        "key": "2023091911200427000_2023.09.15.557839v1.11",
+        "first-page": "9442",
+        "article-title": "Spectral deconfounding via perturbed sparse linear models",
+        "volume": "21",
+        "year": "2020",
+        "journal-title": "The Journal of Machine Learning Research"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neurobiolaging.2011.01.008"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neurobiolaging.2014.05.007"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3233/JAD-200110"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/16-AOS1434"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Clark-Boucher , X. Zhou , J. Du , Y. Liu , B. L. Needham , J. A. Smith , and B. Mukherjee . Methods for mediation analysis with high-dimensional dna methylation data: Possible choices and comparison. medRxiv, pages 2023–02, 2023.",
+        "DOI": "10.1101/2023.02.10.23285764"
+      },
+      {
+        "issue": "11",
+        "key": "2023091911200427000_2023.09.15.557839v1.17",
+        "doi-asserted-by": "crossref",
+        "first-page": "e881",
+        "DOI": "10.1016/S2666-5247(22)00186-0",
+        "article-title": "Causal discovery for the microbiome",
+        "volume": "3",
+        "year": "2022",
+        "journal-title": "The Lancet Microbe"
+      },
+      {
+        "issue": "3",
+        "key": "2023091911200427000_2023.09.15.557839v1.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "745",
+        "DOI": "10.1111/biom.13053",
+        "article-title": "High dimensional mediation analysis with latent variables",
+        "volume": "75",
+        "year": "2019",
+        "journal-title": "Biometrics"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sim.8199"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2015.11.073"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.21",
+        "unstructured": "Y. Feng . Causal inference in possibly nonlinear factor models. arXiv preprint arXiv:2008.13651, 2020."
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fgene.2019.01195"
+      },
+      {
+        "issue": "4",
+        "key": "2023091911200427000_2023.09.15.557839v1.23",
+        "doi-asserted-by": "crossref",
+        "first-page": "793",
+        "DOI": "10.1111/rssb.12275",
+        "article-title": "Confidence intervals for causal effects with invalid instruments by using two-stage hard thresholding with voting",
+        "volume": "80",
+        "year": "2018",
+        "journal-title": "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/21-AOS2152"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.25",
+        "doi-asserted-by": "crossref",
+        "first-page": "728",
+        "DOI": "10.1007/s13311-018-0628-1",
+        "article-title": "Pigment epithelium-derived factor plays a role in alzheimers disease by negatively regulating aβ42",
+        "volume": "15",
+        "year": "2018",
+        "journal-title": "Neurotherapeutics"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/18-AOAS1181"
+      },
+      {
+        "issue": "6",
+        "key": "2023091911200427000_2023.09.15.557839v1.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "452",
+        "DOI": "10.1016/j.tins.2021.01.006",
+        "article-title": "A unifying account of angular gyrus contributions to episodic and semantic cognition",
+        "volume": "44",
+        "year": "2021",
+        "journal-title": "Trends in Neurosciences"
+      },
+      {
+        "issue": "2",
+        "key": "2023091911200427000_2023.09.15.557839v1.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "124",
+        "DOI": "10.1016/j.tins.2022.11.006",
+        "article-title": "Entorhinal cortex dysfunction in Alzheimer’s disease",
+        "volume": "46",
+        "year": "2023",
+        "journal-title": "Trends in Neurosciences"
+      },
+      {
+        "issue": "1",
+        "key": "2023091911200427000_2023.09.15.557839v1.29",
+        "doi-asserted-by": "crossref",
+        "first-page": "83",
+        "DOI": "10.1007/s00429-022-02529-3",
+        "article-title": "Characterization of the angular gyrus in an older adult population: a multimodal multilevel approach",
+        "volume": "228",
+        "year": "2023",
+        "journal-title": "Brain Structure and Function"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2014.994705"
+      },
+      {
+        "issue": "5",
+        "key": "2023091911200427000_2023.09.15.557839v1.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "944",
+        "DOI": "10.3174/ajnr.A0949",
+        "article-title": "Amnestic mild cognitive impairment: Structural MR imaging findings predictive of conversion to Alzheimer disease",
+        "volume": "29",
+        "year": "2008",
+        "journal-title": "American Journal of Neuroradiology"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-7091-6262-0_18"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.33",
+        "unstructured": "S. Kotekal and C. Gao . Minimax rates for sparse signal detection under correlation. arXiv preprint arXiv:2110.12966, 2021."
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Kreitmaier , G. Katsoula , and E. Zeggini . Insights from multi-omics integration in complex disease primary tissues. Trends in Genetics, 2023.",
+        "DOI": "10.1016/j.tig.2022.08.005"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2012.695640"
+      },
+      {
+        "issue": "537",
+        "key": "2023091911200427000_2023.09.15.557839v1.36",
+        "doi-asserted-by": "crossref",
+        "first-page": "67",
+        "DOI": "10.1080/01621459.2021.1914634",
+        "article-title": "Large-scale hypothesis testing for causal mediation effects with applications in genome-wide epigenetic studies",
+        "volume": "117",
+        "year": "2022",
+        "journal-title": "Journal of the American Statistical Association"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1007768"
+      },
+      {
+        "issue": "8",
+        "key": "2023091911200427000_2023.09.15.557839v1.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "736",
+        "DOI": "10.1016/j.tim.2021.03.015",
+        "article-title": "Causal inference in microbiome medicine: Principles and applications",
+        "volume": "29",
+        "year": "2021",
+        "journal-title": "Trends in Microbiology"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037//1082-989X.7.1.83"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3758/BF03193007"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/mds.28192"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "W. Miao , W. Hu , E. L. Ogburn , and X.-H. Zhou . Identifying effects of multiple treatments in the presence of unmeasured confounding. Journal of the American Statistical Association, pages 1–15, 2022.",
+        "DOI": "10.1080/01621459.2021.2023551"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/npp.2010.169"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12035-021-02660-y"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.45",
+        "unstructured": "J. Pearl . Direct and indirect effects. In Proceedings of the 17th Conference on Uncertainty in Artificial Intelligence, pages 411–420, 2001."
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13024-016-0134-z"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00001648-199203000-00013"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/j.2333-8504.1972.tb00631.x"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/gepi.22433"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.pscychresns.2015.08.014"
+      },
+      {
+        "issue": "1",
+        "key": "2023091911200427000_2023.09.15.557839v1.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1177/1073858412440596",
+        "article-title": "The angular gyrus: multiple functions and multiple subdivisions",
+        "volume": "19",
+        "year": "2013",
+        "journal-title": "The Neuroscientist"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1009250"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.53",
+        "unstructured": "R. Singh , L. Xu , and A. Gretton . Kernel methods for multistage causal inference: Mediation analysis and dynamic treatment effects. arXiv preprint arXiv:2111.03950, 2021."
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3102/1076998607307239"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/ss/1177012031"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.56",
+        "first-page": "1177932219899051",
+        "article-title": "Multi-omics data integration, interpretation, and its application",
+        "volume": "14",
+        "year": "2020",
+        "journal-title": "Bioinformatics and biology insights"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Sun , L. Ma , and Y. Xia . A decorrelating and debiasing approach to simultaneous inference for high-dimensional confounded models, 2022.",
+        "DOI": "10.1080/01621459.2023.2283938"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature21350"
+      },
+      {
+        "journal-title": "arXiv",
+        "article-title": "The synthetic instrument: From sparse association to sparse causation",
+        "year": "2023",
+        "key": "2023091911200427000_2023.09.15.557839v1.59"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btac687"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.aao4364"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. VanderWeele . Explanation in causal inference: methods for mediation and interaction. Oxford University Press, 2015.",
+        "DOI": "10.1093/ije/dyw277"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515/em-2012-0010"
+      },
+      {
+        "issue": "5",
+        "key": "2023091911200427000_2023.09.15.557839v1.64",
+        "first-page": "1863",
+        "article-title": "Confounder adjustment in multiple hypothesis testing",
+        "volume": "45",
+        "year": "2017",
+        "journal-title": "Annals of Statistics"
+      },
+      {
+        "issue": "3",
+        "key": "2023091911200427000_2023.09.15.557839v1.65",
+        "doi-asserted-by": "crossref",
+        "first-page": "161",
+        "DOI": "10.1214/aoms/1177732676",
+        "article-title": "The method of path coefficients",
+        "volume": "5",
+        "year": "1934",
+        "journal-title": "The Annals of Mathematical Statistics"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7554/eLife.23798"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.bbrc.2022.03.021"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.68",
+        "unstructured": "S. Xu , L. Liu , and Z. Liu . DeepMed: Semiparametric causal mediation analysis with debiased deep learning. Advances in Neural Information Processing Systems, 35, 2022b."
+      },
+      {
+        "issue": "1",
+        "key": "2023091911200427000_2023.09.15.557839v1.69",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1038/s41467-020-20249-2",
+        "article-title": "Multi-domain translation between single-cell imaging and sequencing data using autoencoders",
+        "volume": "12",
+        "year": "2021",
+        "journal-title": "Nature Communications"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.csbj.2021.05.042"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btw351"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btab564"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-0716-1994-0_10"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12561-021-09328-0"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.75",
+        "unstructured": "X. Zhang , L. Wang , S. Volgushev , and D. Kong . Fighting noise with noise: Causal inference with many candidate instruments. arXiv preprint arXiv:2203.09330, 2022b."
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/jbc.M111.330209"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/hbm.25800"
+      },
+      {
+        "key": "2023091911200427000_2023.09.15.557839v1.78",
+        "unstructured": "C. Zou , H. Ren , X. Guo , and R. Li . A new procedure for controlling false discovery rate in large-scale t-tests. arXiv preprint arXiv:2002.12548, 2020."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.09.15.557839",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          21
+        ]
+      ],
+      "date-time": "2023-12-21T22:06:06Z",
+      "timestamp": 1703196366000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.09.15.557839"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          15
+        ]
+      ]
+    },
+    "references-count": 78,
+    "URL": "https://doi.org/10.1101/2023.09.15.557839",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          15
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

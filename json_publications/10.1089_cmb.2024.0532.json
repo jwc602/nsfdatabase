@@ -1,0 +1,2649 @@
+{
+  "doi": "10.1089/cmb.2024.0532",
+  "openalex": {
+    "id": "https://openalex.org/W4401412190",
+    "doi": "https://doi.org/10.1089/cmb.2024.0532",
+    "title": "S <scp>patial</scp> CTD: A Large-Scale Tumor Microenvironment Spatial Transcriptomic Dataset to Evaluate Cell Type Deconvolution for Immuno-Oncology",
+    "display_name": "S <scp>patial</scp> CTD: A Large-Scale Tumor Microenvironment Spatial Transcriptomic Dataset to Evaluate Cell Type Deconvolution for Immuno-Oncology",
+    "publication_year": 2024,
+    "publication_date": "2024-08-08",
+    "ids": {
+      "openalex": "https://openalex.org/W4401412190",
+      "doi": "https://doi.org/10.1089/cmb.2024.0532",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39117342"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1089/cmb.2024.0532",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1089/cmb.2024.0532",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S78571599",
+        "display_name": "Journal of Computational Biology",
+        "issn_l": "1066-5277",
+        "issn": [
+          "1066-5277",
+          "1557-8666"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320443",
+        "host_organization_name": "Mary Ann Liebert, Inc.",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320443"
+        ],
+        "host_organization_lineage_names": [
+          "Mary Ann Liebert, Inc."
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Computational Biology",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5038387579",
+          "display_name": "Jiayuan Ding",
+          "orcid": "https://orcid.org/0000-0001-5783-0062"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiayuan Ding",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA.",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100745844",
+          "display_name": "Lingxiao Li",
+          "orcid": "https://orcid.org/0000-0001-5571-5968"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I111088046",
+            "display_name": "Boston University",
+            "ror": "https://ror.org/05qwgg493",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I111088046"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lingxiao Li",
+        "raw_affiliation_strings": [
+          "Boston University, Boston, Massachusetts, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Boston University, Boston, Massachusetts, USA.",
+            "institution_ids": [
+              "https://openalex.org/I111088046"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5090218986",
+          "display_name": "Qiaolin Lu",
+          "orcid": "https://orcid.org/0009-0007-2147-3498"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I194450716",
+            "display_name": "Jilin University",
+            "ror": "https://ror.org/00js3aw79",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I194450716"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qiaolin Lu",
+        "raw_affiliation_strings": [
+          "School of Artificial Intelligence, Jilin University, Changchun, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Artificial Intelligence, Jilin University, Changchun, China.",
+            "institution_ids": [
+              "https://openalex.org/I194450716"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040456043",
+          "display_name": "Julian Venegas",
+          "orcid": "https://orcid.org/0000-0001-8389-4131"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Julian Venegas",
+        "raw_affiliation_strings": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan, USA.",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100328544",
+          "display_name": "Yixin Wang",
+          "orcid": "https://orcid.org/0000-0002-8062-0765"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1743320",
+            "display_name": "Palo Alto University",
+            "ror": "https://ror.org/04f812k67",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I1743320"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yixin Wang",
+        "raw_affiliation_strings": [
+          "Department of Bioengineering, Stanford University, Palo Alto, California, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Bioengineering, Stanford University, Palo Alto, California, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1743320",
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5112264320",
+          "display_name": "Lidan Wu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210099129",
+            "display_name": "Nanostring Technologies (United States)",
+            "ror": "https://ror.org/00xzdzk88",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210099129"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I58610484",
+            "display_name": "Seattle University",
+            "ror": "https://ror.org/02jqc0m91",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I58610484"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lidan Wu",
+        "raw_affiliation_strings": [
+          "NanoString Technologies, Seattle, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "NanoString Technologies, Seattle, USA.",
+            "institution_ids": [
+              "https://openalex.org/I4210099129",
+              "https://openalex.org/I58610484"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100758371",
+          "display_name": "Wei Jin",
+          "orcid": "https://orcid.org/0000-0002-5054-954X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wei Jin",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA.",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5052257654",
+          "display_name": "Hongzhi Wen",
+          "orcid": "https://orcid.org/0000-0003-0775-8538"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hongzhi Wen",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA.",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062057891",
+          "display_name": "Renming Liu",
+          "orcid": "https://orcid.org/0000-0002-6025-6492"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Renming Liu",
+        "raw_affiliation_strings": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan, USA.",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5056783620",
+          "display_name": "Wenzhuo Tang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wenzhuo Tang",
+        "raw_affiliation_strings": [
+          "Department of Statistics and Probability, Michigan State University, East Lansing, Michigan, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Statistics and Probability, Michigan State University, East Lansing, Michigan, USA.",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040152034",
+          "display_name": "Xinnan Dai",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xinnan Dai",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA.",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101427807",
+          "display_name": "Zhaoheng Li",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhaoheng Li",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, University of Washington, Seattle, Washington, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biostatistics, University of Washington, Seattle, Washington, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5022326108",
+          "display_name": "Wangyang Zuo",
+          "orcid": "https://orcid.org/0000-0001-8887-2409"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I55712492",
+            "display_name": "Zhejiang University of Technology",
+            "ror": "https://ror.org/02djqfd08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wangyang Zuo",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Zhejiang University of Technology, Hangzhou, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Zhejiang University of Technology, Hangzhou, China.",
+            "institution_ids": [
+              "https://openalex.org/I55712492"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5029392006",
+          "display_name": "Yi Chang",
+          "orcid": "https://orcid.org/0000-0003-2697-8093"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I194450716",
+            "display_name": "Jilin University",
+            "ror": "https://ror.org/00js3aw79",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I194450716"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yi Chang",
+        "raw_affiliation_strings": [
+          "School of Artificial Intelligence, Jilin University, Changchun, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Artificial Intelligence, Jilin University, Changchun, China.",
+            "institution_ids": [
+              "https://openalex.org/I194450716"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5012090861",
+          "display_name": "Yu L. Lei",
+          "orcid": "https://orcid.org/0000-0002-9868-9824"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27837315",
+            "display_name": "University of Michigan",
+            "ror": "https://ror.org/00jmfr291",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27837315"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yu Leo Lei",
+        "raw_affiliation_strings": [
+          "Department of Periodontics and Oral Medicine, University of Michigan School of Dentistry, Ann Arbor, USA.",
+          "University of Michigan Rogel Cancer Center, Ann Arbor, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Periodontics and Oral Medicine, University of Michigan School of Dentistry, Ann Arbor, USA.",
+            "institution_ids": [
+              "https://openalex.org/I27837315"
+            ]
+          },
+          {
+            "raw_affiliation_string": "University of Michigan Rogel Cancer Center, Ann Arbor, USA.",
+            "institution_ids": [
+              "https://openalex.org/I27837315"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5045377847",
+          "display_name": "Lulu Shang",
+          "orcid": "https://orcid.org/0000-0002-2480-3065"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1343551460",
+            "display_name": "The University of Texas MD Anderson Cancer Center",
+            "ror": "https://ror.org/04twxam07",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1343551460"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lulu Shang",
+        "raw_affiliation_strings": [
+          "Department of Biostatistics, MD Anderson Cancer Center, Houston, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biostatistics, MD Anderson Cancer Center, Houston, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1343551460"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103238929",
+          "display_name": "Patrick Danaher",
+          "orcid": "https://orcid.org/0000-0002-2844-5883"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210099129",
+            "display_name": "Nanostring Technologies (United States)",
+            "ror": "https://ror.org/00xzdzk88",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210099129"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I58610484",
+            "display_name": "Seattle University",
+            "ror": "https://ror.org/02jqc0m91",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I58610484"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Patrick Danaher",
+        "raw_affiliation_strings": [
+          "NanoString Technologies, Seattle, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "NanoString Technologies, Seattle, USA.",
+            "institution_ids": [
+              "https://openalex.org/I4210099129",
+              "https://openalex.org/I58610484"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5039712353",
+          "display_name": "Yuying Xie",
+          "orcid": "https://orcid.org/0000-0002-1049-2219"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuying Xie",
+        "raw_affiliation_strings": [
+          "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan, USA.",
+          "Department of Statistics and Probability, Michigan State University, East Lansing, Michigan, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan, USA.",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Statistics and Probability, Michigan State University, East Lansing, Michigan, USA.",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5040639891",
+          "display_name": "Jiliang Tang",
+          "orcid": "https://orcid.org/0000-0001-7125-3898"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87216513",
+            "display_name": "Michigan State University",
+            "ror": "https://ror.org/05hs6h993",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiliang Tang",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA.",
+            "institution_ids": [
+              "https://openalex.org/I87216513"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 19,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 2.88148335,
+    "has_fulltext": false,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": {
+      "value": 0.85492567,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "31",
+      "issue": "9",
+      "first_page": "871",
+      "last_page": "885"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11289",
+      "display_name": "Single-cell and spatial transcriptomics",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11289",
+        "display_name": "Single-cell and spatial transcriptomics",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11287",
+        "display_name": "Cancer Genomics and Diagnostics",
+        "score": 0.9703999757766724,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1306",
+          "display_name": "Cancer Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12859",
+        "display_name": "Cell Image Analysis Techniques",
+        "score": 0.963100016117096,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1304",
+          "display_name": "Biophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/deconvolution",
+        "display_name": "Deconvolution",
+        "score": 0.8819823861122131
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6782742738723755
+      },
+      {
+        "id": "https://openalex.org/keywords/benchmark",
+        "display_name": "Benchmark (surveying)",
+        "score": 0.5669089555740356
+      },
+      {
+        "id": "https://openalex.org/keywords/transcriptome",
+        "display_name": "Transcriptome",
+        "score": 0.42447957396507263
+      },
+      {
+        "id": "https://openalex.org/keywords/profiling",
+        "display_name": "Profiling (computer programming)",
+        "score": 0.4204901456832886
+      },
+      {
+        "id": "https://openalex.org/keywords/data-mining",
+        "display_name": "Data mining",
+        "score": 0.40631619095802307
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.40007829666137695
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.2317030131816864
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.2124948799610138
+      },
+      {
+        "id": "https://openalex.org/keywords/cartography",
+        "display_name": "Cartography",
+        "score": 0.1372404396533966
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C174576160",
+        "wikidata": "https://www.wikidata.org/wiki/Q1183700",
+        "display_name": "Deconvolution",
+        "level": 2,
+        "score": 0.8819823861122131
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6782742738723755
+      },
+      {
+        "id": "https://openalex.org/C185798385",
+        "wikidata": "https://www.wikidata.org/wiki/Q1161707",
+        "display_name": "Benchmark (surveying)",
+        "level": 2,
+        "score": 0.5669089555740356
+      },
+      {
+        "id": "https://openalex.org/C162317418",
+        "wikidata": "https://www.wikidata.org/wiki/Q252857",
+        "display_name": "Transcriptome",
+        "level": 4,
+        "score": 0.42447957396507263
+      },
+      {
+        "id": "https://openalex.org/C187191949",
+        "wikidata": "https://www.wikidata.org/wiki/Q1138496",
+        "display_name": "Profiling (computer programming)",
+        "level": 2,
+        "score": 0.4204901456832886
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.40631619095802307
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.40007829666137695
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.2317030131816864
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.2124948799610138
+      },
+      {
+        "id": "https://openalex.org/C58640448",
+        "wikidata": "https://www.wikidata.org/wiki/Q42515",
+        "display_name": "Cartography",
+        "level": 1,
+        "score": 0.1372404396533966
+      },
+      {
+        "id": "https://openalex.org/C150194340",
+        "wikidata": "https://www.wikidata.org/wiki/Q26972",
+        "display_name": "Gene expression",
+        "level": 3,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D059016",
+        "descriptor_name": "Tumor Microenvironment",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059467",
+        "descriptor_name": "Transcriptome",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D020869",
+        "descriptor_name": "Gene Expression Profiling",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D019295",
+        "descriptor_name": "Computational Biology",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059010",
+        "descriptor_name": "Single-Cell Analysis",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051379",
+        "descriptor_name": "Mice",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000473",
+        "qualifier_name": "pathology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012984",
+        "descriptor_name": "Software",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059016",
+        "descriptor_name": "Tumor Microenvironment",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059467",
+        "descriptor_name": "Transcriptome",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D020869",
+        "descriptor_name": "Gene Expression Profiling",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D019295",
+        "descriptor_name": "Computational Biology",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059010",
+        "descriptor_name": "Single-Cell Analysis",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051379",
+        "descriptor_name": "Mice",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000473",
+        "qualifier_name": "pathology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012984",
+        "descriptor_name": "Software",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059016",
+        "descriptor_name": "Tumor Microenvironment",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059467",
+        "descriptor_name": "Transcriptome",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D020869",
+        "descriptor_name": "Gene Expression Profiling",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D019295",
+        "descriptor_name": "Computational Biology",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059010",
+        "descriptor_name": "Single-Cell Analysis",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051379",
+        "descriptor_name": "Mice",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000473",
+        "qualifier_name": "pathology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012984",
+        "descriptor_name": "Software",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059016",
+        "descriptor_name": "Tumor Microenvironment",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059467",
+        "descriptor_name": "Transcriptome",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D020869",
+        "descriptor_name": "Gene Expression Profiling",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D019295",
+        "descriptor_name": "Computational Biology",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059010",
+        "descriptor_name": "Single-Cell Analysis",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051379",
+        "descriptor_name": "Mice",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009369",
+        "descriptor_name": "Neoplasms",
+        "qualifier_ui": "Q000473",
+        "qualifier_name": "pathology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012984",
+        "descriptor_name": "Software",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1089/cmb.2024.0532",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1089/cmb.2024.0532",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S78571599",
+          "display_name": "Journal of Computational Biology",
+          "issn_l": "1066-5277",
+          "issn": [
+            "1066-5277",
+            "1557-8666"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320443",
+          "host_organization_name": "Mary Ann Liebert, Inc.",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320443"
+          ],
+          "host_organization_lineage_names": [
+            "Mary Ann Liebert, Inc."
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Computational Biology",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:39117342",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39117342",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of computational biology : a journal of computational molecular cell biology",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.5,
+        "id": "https://metadata.un.org/sdg/2",
+        "display_name": "Zero hunger"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 28,
+    "referenced_works": [
+      "https://openalex.org/W3092450854",
+      "https://openalex.org/W2902652978",
+      "https://openalex.org/W3208940117",
+      "https://openalex.org/W1973965874",
+      "https://openalex.org/W4392960849",
+      "https://openalex.org/W3127422037",
+      "https://openalex.org/W4306353205",
+      "https://openalex.org/W4389938094",
+      "https://openalex.org/W4205817967",
+      "https://openalex.org/W4280533477",
+      "https://openalex.org/W3005108766",
+      "https://openalex.org/W4220921784",
+      "https://openalex.org/W3126958162",
+      "https://openalex.org/W4391262644",
+      "https://openalex.org/W2999977864",
+      "https://openalex.org/W3190202966",
+      "https://openalex.org/W4310590875",
+      "https://openalex.org/W2146512944",
+      "https://openalex.org/W2915848182",
+      "https://openalex.org/W3124439729",
+      "https://openalex.org/W3112563877",
+      "https://openalex.org/W2953757801",
+      "https://openalex.org/W4300862018",
+      "https://openalex.org/W4226218349",
+      "https://openalex.org/W4283704002",
+      "https://openalex.org/W2800392236",
+      "https://openalex.org/W4311404503",
+      "https://openalex.org/W3044486631"
+    ],
+    "related_works": [
+      "https://openalex.org/W3090782779",
+      "https://openalex.org/W4251527294",
+      "https://openalex.org/W4250106855",
+      "https://openalex.org/W2037261263",
+      "https://openalex.org/W2378211422",
+      "https://openalex.org/W3149087629",
+      "https://openalex.org/W4231036715",
+      "https://openalex.org/W2032074591",
+      "https://openalex.org/W1986156575",
+      "https://openalex.org/W4321353415"
+    ],
+    "abstract_inverted_index": {
+      "Recent": [
+        0
+      ],
+      "technological": [
+        1
+      ],
+      "advancements": [
+        2
+      ],
+      "have": [
+        3
+      ],
+      "enabled": [
+        4
+      ],
+      "spatially": [
+        5
+      ],
+      "resolved": [
+        6
+      ],
+      "transcriptomic": [
+        7,
+        85,
+        185
+      ],
+      "profiling": [
+        8
+      ],
+      "but": [
+        9
+      ],
+      "at": [
+        10,
+        211,
+        221
+      ],
+      "a": [
+        11,
+        82,
+        139,
+        158
+      ],
+      "multicellular": [
+        12,
+        34
+      ],
+      "resolution": [
+        13
+      ],
+      "that": [
+        14,
+        150
+      ],
+      "is": [
+        15
+      ],
+      "more": [
+        16,
+        114
+      ],
+      "cost-effective.": [
+        17
+      ],
+      "The": [
+        18,
+        203
+      ],
+      "task": [
+        19
+      ],
+      "of": [
+        20,
+        73,
+        169,
+        182
+      ],
+      "cell": [
+        21,
+        30,
+        41,
+        74
+      ],
+      "type": [
+        22,
+        42,
+        75
+      ],
+      "deconvolution": [
+        23,
+        43,
+        76,
+        86,
+        129,
+        143
+      ],
+      "has": [
+        24
+      ],
+      "been": [
+        25
+      ],
+      "introduced": [
+        26
+      ],
+      "to": [
+        27
+      ],
+      "disentangle": [
+        28
+      ],
+      "discrete": [
+        29
+      ],
+      "types": [
+        31
+      ],
+      "from": [
+        32,
+        47,
+        99,
+        120,
+        173,
+        187
+      ],
+      "such": [
+        33
+      ],
+      "spots.": [
+        35
+      ],
+      "However,": [
+        36
+      ],
+      "existing": [
+        37,
+        154
+      ],
+      "benchmark": [
+        38,
+        87
+      ],
+      "datasets": [
+        39
+      ],
+      "for": [
+        40,
+        62,
+        77,
+        126
+      ],
+      "are": [
+        44,
+        59,
+        209
+      ],
+      "either": [
+        45
+      ],
+      "generated": [
+        46,
+        119
+      ],
+      "simulation": [
+        48
+      ],
+      "or": [
+        49
+      ],
+      "limited": [
+        50
+      ],
+      "in": [
+        51
+      ],
+      "scale,": [
+        52
+      ],
+      "predominantly": [
+        53
+      ],
+      "encompassing": [
+        54,
+        91
+      ],
+      "data": [
+        55,
+        125,
+        172,
+        186
+      ],
+      "on": [
+        56
+      ],
+      "mice": [
+        57
+      ],
+      "and": [
+        58,
+        69,
+        95,
+        108,
+        194,
+        206,
+        213
+      ],
+      "not": [
+        60
+      ],
+      "designed": [
+        61
+      ],
+      "human": [
+        63,
+        78,
+        101
+      ],
+      "immuno-oncology.": [
+        64
+      ],
+      "To": [
+        65,
+        131,
+        165
+      ],
+      "overcome": [
+        66
+      ],
+      "these": [
+        67
+      ],
+      "limitations": [
+        68
+      ],
+      "promote": [
+        70
+      ],
+      "comprehensive": [
+        71,
+        167
+      ],
+      "investigation": [
+        72
+      ],
+      "immuno-oncology,": [
+        79
+      ],
+      "we": [
+        80,
+        137,
+        176
+      ],
+      "introduce": [
+        81
+      ],
+      "large-scale": [
+        83
+      ],
+      "spatial": [
+        84,
+        170,
+        184
+      ],
+      "dataset": [
+        88,
+        205
+      ],
+      "named": [
+        89
+      ],
+      "SpatialCTD,": [
+        90
+      ],
+      "1.8": [
+        92
+      ],
+      "million": [
+        93
+      ],
+      "cells": [
+        94
+      ],
+      "12,900": [
+        96
+      ],
+      "pseudo": [
+        97,
+        197
+      ],
+      "spots": [
+        98
+      ],
+      "the": [
+        100,
+        105,
+        133,
+        214
+      ],
+      "tumor": [
+        102
+      ],
+      "microenvironment": [
+        103
+      ],
+      "across": [
+        104
+      ],
+      "lung,": [
+        106
+      ],
+      "kidney,": [
+        107
+      ],
+      "liver.": [
+        109
+      ],
+      "In": [
+        110
+      ],
+      "addition,": [
+        111
+      ],
+      "SpatialCTD": [
+        112,
+        135,
+        204
+      ],
+      "provides": [
+        113
+      ],
+      "realistic": [
+        115
+      ],
+      "reference": [
+        116
+      ],
+      "than": [
+        117
+      ],
+      "those": [
+        118
+      ],
+      "single-cell": [
+        121
+      ],
+      "RNA": [
+        122
+      ],
+      "sequencing": [
+        123
+      ],
+      "(scRNA-seq)": [
+        124
+      ],
+      "most": [
+        127
+      ],
+      "reference-based": [
+        128
+      ],
+      "methods.": [
+        130
+      ],
+      "utilize": [
+        132
+      ],
+      "location-aware": [
+        134
+      ],
+      "reference,": [
+        136
+      ],
+      "propose": [
+        138
+      ],
+      "graph": [
+        140
+      ],
+      "neural": [
+        141
+      ],
+      "network-based": [
+        142
+      ],
+      "method": [
+        144
+      ],
+      "(i.e.,": [
+        145
+      ],
+      "GNNDeconvolver).": [
+        146
+      ],
+      "Extensive": [
+        147
+      ],
+      "experiments": [
+        148
+      ],
+      "show": [
+        149
+      ],
+      "GNNDeconvolver": [
+        151,
+        207
+      ],
+      "often": [
+        152
+      ],
+      "outperforms": [
+        153
+      ],
+      "state-of-the-art": [
+        155
+      ],
+      "methods": [
+        156
+      ],
+      "by": [
+        157
+      ],
+      "substantial": [
+        159
+      ],
+      "margin,": [
+        160
+      ],
+      "without": [
+        161
+      ],
+      "requiring": [
+        162
+      ],
+      "scRNA-seq": [
+        163
+      ],
+      "data.": [
+        164
+      ],
+      "enable": [
+        166
+      ],
+      "evaluations": [
+        168
+      ],
+      "transcriptomics": [
+        171
+      ],
+      "flexible": [
+        174
+      ],
+      "protocols,": [
+        175
+      ],
+      "provide": [
+        177
+      ],
+      "an": [
+        178
+      ],
+      "online": [
+        179,
+        215
+      ],
+      "tool": [
+        180,
+        217
+      ],
+      "capable": [
+        181
+      ],
+      "converting": [
+        183
+      ],
+      "various": [
+        188
+      ],
+      "platforms": [
+        189
+      ],
+      "(e.g.,": [
+        190
+      ],
+      "10×": [
+        191
+      ],
+      "Visium,": [
+        192
+      ],
+      "MERFISH,": [
+        193
+      ],
+      "sci-Space)": [
+        195
+      ],
+      "into": [
+        196
+      ],
+      "spots,": [
+        198
+      ],
+      "featuring": [
+        199
+      ],
+      "adjustable": [
+        200
+      ],
+      "spot": [
+        201
+      ],
+      "size.": [
+        202
+      ],
+      "implementation": [
+        208
+      ],
+      "available": [
+        210
+      ],
+      "https://github.com/OmicsML/SpatialCTD,": [
+        212
+      ],
+      "converter": [
+        216
+      ],
+      "can": [
+        218
+      ],
+      "be": [
+        219
+      ],
+      "accessed": [
+        220
+      ],
+      "https://omicsml.github.io/SpatialCTD/.": [
+        222
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-12-23T23:11:35.936235",
+    "created_date": "2024-08-09T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          22
+        ]
+      ],
+      "date-time": "2025-12-22T19:33:05Z",
+      "timestamp": 1766431985548,
+      "version": "3.48.0"
+    },
+    "reference-count": 35,
+    "publisher": "SAGE Publications",
+    "issue": "9",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2024-09-01T00:00:00Z",
+          "timestamp": 1725148800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.liebertpub.com/nv/resources-tools/text-and-data-mining-policy/121/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Journal of Computational Biology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1089/cmb.2024.0532",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          8
+        ]
+      ],
+      "date-time": "2024-08-08T19:48:40Z",
+      "timestamp": 1723146520000
+    },
+    "page": "871-885",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "S\n                    <scp>patial</scp>\n                    CTD: A Large-Scale Tumor Microenvironment Spatial Transcriptomic Dataset to Evaluate Cell Type Deconvolution for Immuno-Oncology"
+    ],
+    "prefix": "10.1177",
+    "volume": "31",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5783-0062",
+        "authenticated-orcid": false,
+        "given": "Jiayuan",
+        "family": "Ding",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+          }
+        ]
+      },
+      {
+        "given": "Lingxiao",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Boston University, Boston, Massachusetts, USA."
+          }
+        ]
+      },
+      {
+        "given": "Qiaolin",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Artificial Intelligence, Jilin University, Changchun, China."
+          }
+        ]
+      },
+      {
+        "given": "Julian",
+        "family": "Venegas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+          }
+        ]
+      },
+      {
+        "given": "Yixin",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Bioengineering, Stanford University, Palo Alto, California, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3150-6170",
+        "authenticated-orcid": false,
+        "given": "Lidan",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NanoString Technologies, Seattle, USA."
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+          }
+        ]
+      },
+      {
+        "given": "Hongzhi",
+        "family": "Wen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+          }
+        ]
+      },
+      {
+        "given": "Renming",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+          }
+        ]
+      },
+      {
+        "given": "Wenzhuo",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Statistics and Probability, Michigan State University, East Lansing, Michigan, USA."
+          }
+        ]
+      },
+      {
+        "given": "Xinnan",
+        "family": "Dai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+          }
+        ]
+      },
+      {
+        "given": "Zhaoheng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biostatistics, University of Washington, Seattle, Washington, USA."
+          }
+        ]
+      },
+      {
+        "given": "Wangyang",
+        "family": "Zuo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Zhejiang University of Technology, Hangzhou, China."
+          }
+        ]
+      },
+      {
+        "given": "Yi",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Artificial Intelligence, Jilin University, Changchun, China."
+          }
+        ]
+      },
+      {
+        "given": "Yu Leo",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Periodontics and Oral Medicine, University of Michigan School of Dentistry, Ann Arbor, USA."
+          },
+          {
+            "name": "University of Michigan Rogel Cancer Center, Ann Arbor, USA."
+          }
+        ]
+      },
+      {
+        "given": "Lulu",
+        "family": "Shang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biostatistics, MD Anderson Cancer Center, Houston, USA."
+          }
+        ]
+      },
+      {
+        "given": "Patrick",
+        "family": "Danaher",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NanoString Technologies, Seattle, USA."
+          }
+        ]
+      },
+      {
+        "given": "Yuying",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computational Mathematics, Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+          },
+          {
+            "name": "Department of Statistics and Probability, Michigan State University, East Lansing, Michigan, USA."
+          }
+        ]
+      },
+      {
+        "given": "Jiliang",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Michigan State University, East Lansing, Michigan, USA."
+          }
+        ]
+      }
+    ],
+    "member": "179",
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42003-020-01247-y"
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.4314"
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-021-01264-7"
+      },
+      {
+        "journal-title": "bioRxiv",
+        "year": "2022",
+        "author": "Danaher P",
+        "key": "B4"
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0146-664X(80)90054-4"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-024-03211-z"
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkab043"
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkac889"
+      },
+      {
+        "journal-title": "bioRxiv",
+        "year": "2021",
+        "author": "He S",
+        "key": "B9"
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-43458-x"
+      },
+      {
+        "journal-title": "arXiv",
+        "year": "2016",
+        "author": "Kipf TN",
+        "key": "B11"
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-021-01139-4"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-022-01480-9"
+      },
+      {
+        "journal-title": "bioRxiv",
+        "year": "2024",
+        "author": "Lu Q",
+        "key": "B14"
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fgene.2020.00041"
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.isci.2022.104097"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41593-020-00787-0"
+      },
+      {
+        "issue": "1",
+        "key": "B18",
+        "first-page": "vdad142",
+        "volume": "5",
+        "author": "Moffet JJD",
+        "year": "2023",
+        "journal-title": "Neurooncol Adv"
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3641284"
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-019-0392-8"
+      },
+      {
+        "key": "B21",
+        "first-page": "1",
+        "volume-title": "The 7th international student conference on advanced science and technology ICAST",
+        "volume": "4",
+        "author": "Rahutomo F",
+        "year": "2012"
+      },
+      {
+        "key": "B22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03634-9"
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btac775"
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv007"
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aaw1219"
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bib/bbaa414"
+      },
+      {
+        "key": "B27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-020-0739-1"
+      },
+      {
+        "key": "B28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btz363"
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41587-022-01448-2"
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3534678.3539213"
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13073-022-01075-1"
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-017-1382-0"
+      },
+      {
+        "key": "B33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btac805"
+      },
+      {
+        "journal-title": "bioRxiv",
+        "year": "2022",
+        "author": "Yang L",
+        "key": "B34"
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1158/0008-5472.CAN-20-0069"
+      }
+    ],
+    "container-title": [
+      "Journal of Computational Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.liebertpub.com/doi/full-xml/10.1089/cmb.2024.0532",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.liebertpub.com/doi/pdf/10.1089/cmb.2024.0532",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          22
+        ]
+      ],
+      "date-time": "2025-12-22T17:35:11Z",
+      "timestamp": 1766424911000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.liebertpub.com/doi/10.1089/cmb.2024.0532"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          1
+        ]
+      ]
+    },
+    "references-count": 35,
+    "journal-issue": {
+      "issue": "9",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1089/cmb.2024.0532"
+    ],
+    "URL": "https://doi.org/10.1089/cmb.2024.0532",
+    "relation": {},
+    "ISSN": [
+      "1066-5277",
+      "1557-8666"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1066-5277"
+      },
+      {
+        "type": "electronic",
+        "value": "1557-8666"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          1
+        ]
+      ]
+    }
+  }
+}

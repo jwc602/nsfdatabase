@@ -1,0 +1,2938 @@
+{
+  "doi": "10.3390/brainsci14050456",
+  "openalex": {
+    "id": "https://openalex.org/W4396625972",
+    "doi": "https://doi.org/10.3390/brainsci14050456",
+    "title": "The Use of Generative Adversarial Network and Graph Convolution Network for Neuroimaging-Based Diagnostic Classification",
+    "display_name": "The Use of Generative Adversarial Network and Graph Convolution Network for Neuroimaging-Based Diagnostic Classification",
+    "publication_year": 2024,
+    "publication_date": "2024-04-30",
+    "ids": {
+      "openalex": "https://openalex.org/W4396625972",
+      "doi": "https://doi.org/10.3390/brainsci14050456",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38790434"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/brainsci14050456",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/brainsci14050456",
+      "pdf_url": "https://www.mdpi.com/2076-3425/14/5/456/pdf?version=1714487345",
+      "source": {
+        "id": "https://openalex.org/S122317144",
+        "display_name": "Brain Sciences",
+        "issn_l": "2076-3425",
+        "issn": [
+          "2076-3425"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Brain Sciences",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2076-3425/14/5/456/pdf?version=1714487345",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101984307",
+          "display_name": "Nguyen Huynh",
+          "orcid": "https://orcid.org/0000-0003-2337-4470"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I82497590",
+            "display_name": "Auburn University",
+            "ror": "https://ror.org/02v80fc35",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I82497590"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Nguyen Huynh",
+        "raw_affiliation_strings": [
+          "Auburn University Neuroimaging Center, Department of Electrical and Computer Engineering, Auburn University, Auburn, AL 36849, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Auburn University Neuroimaging Center, Department of Electrical and Computer Engineering, Auburn University, Auburn, AL 36849, USA",
+            "institution_ids": [
+              "https://openalex.org/I82497590"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5070582509",
+          "display_name": "Da Yan",
+          "orcid": "https://orcid.org/0000-0002-4653-0408"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210119109",
+            "display_name": "Indiana University Bloomington",
+            "ror": "https://ror.org/02k40bc56",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210119109",
+              "https://openalex.org/I592451"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Da Yan",
+        "raw_affiliation_strings": [
+          "Department of Computer Sciences, Indiana University Bloomington, Bloomington, IN 47405, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Sciences, Indiana University Bloomington, Bloomington, IN 47405, USA",
+            "institution_ids": [
+              "https://openalex.org/I4210119109"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5070951166",
+          "display_name": "Yueen Ma",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I177725633",
+            "display_name": "Chinese University of Hong Kong",
+            "ror": "https://ror.org/00t33hh48",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177725633"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yueen Ma",
+        "raw_affiliation_strings": [
+          "Department of Computer Sciences, The Chinese University of Hong Kong, Shatin, Hong Kong"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Sciences, The Chinese University of Hong Kong, Shatin, Hong Kong",
+            "institution_ids": [
+              "https://openalex.org/I177725633"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5043838264",
+          "display_name": "Wu Shengbin",
+          "orcid": "https://orcid.org/0000-0001-7412-5007"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shengbin Wu",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering, University of California, Berkeley, CA 94720, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering, University of California, Berkeley, CA 94720, USA",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5022496550",
+          "display_name": "Long Cheng",
+          "orcid": "https://orcid.org/0000-0002-9993-0077"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I172675005",
+            "display_name": "Nanyang Technological University",
+            "ror": "https://ror.org/02e7b5302",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Cheng Long",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Engineering, Nanyang Technological University, Singapore 639798, Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Nanyang Technological University, Singapore 639798, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046645425",
+          "display_name": "Mirza Tanzim Sami",
+          "orcid": "https://orcid.org/0000-0002-7653-7643"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I32389192",
+            "display_name": "University of Alabama at Birmingham",
+            "ror": "https://ror.org/008s83205",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I32389192"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mirza Tanzim Sami",
+        "raw_affiliation_strings": [
+          "Department of Computer Sciences, University of Alabama at Birmingham, Birmingham, AL 35294, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Sciences, University of Alabama at Birmingham, Birmingham, AL 35294, USA",
+            "institution_ids": [
+              "https://openalex.org/I32389192"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5032201681",
+          "display_name": "Abdullateef I. Almudaifer",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I23075662",
+            "display_name": "Taibah University",
+            "ror": "https://ror.org/01xv1nn60",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I23075662"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I32389192",
+            "display_name": "University of Alabama at Birmingham",
+            "ror": "https://ror.org/008s83205",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I32389192"
+            ]
+          }
+        ],
+        "countries": [
+          "SA",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Abdullateef Almudaifer",
+        "raw_affiliation_strings": [
+          "College of Computer Science and Engineering, Taibah University, Yanbu 41477, Saudi Arabia",
+          "Department of Computer Sciences, University of Alabama at Birmingham, Birmingham, AL 35294, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Sciences, University of Alabama at Birmingham, Birmingham, AL 35294, USA",
+            "institution_ids": [
+              "https://openalex.org/I32389192"
+            ]
+          },
+          {
+            "raw_affiliation_string": "College of Computer Science and Engineering, Taibah University, Yanbu 41477, Saudi Arabia",
+            "institution_ids": [
+              "https://openalex.org/I23075662"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5021681759",
+          "display_name": "Zhe Jiang",
+          "orcid": "https://orcid.org/0000-0002-3576-6976"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I33213144",
+            "display_name": "University of Florida",
+            "ror": "https://ror.org/02y3ad647",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhe Jiang",
+        "raw_affiliation_strings": [
+          "Department of Computer and Information Science and Engineering, University of Florida, Gainesville, FL 32611, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer and Information Science and Engineering, University of Florida, Gainesville, FL 32611, USA",
+            "institution_ids": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100734403",
+          "display_name": "Haiquan Chen",
+          "orcid": "https://orcid.org/0000-0002-3039-5328"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I43522216",
+            "display_name": "California State University, Sacramento",
+            "ror": "https://ror.org/03e26wv14",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I43522216"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Haiquan Chen",
+        "raw_affiliation_strings": [
+          "Department of Computer Sciences, California State University, Sacramento, CA 95819, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Sciences, California State University, Sacramento, CA 95819, USA",
+            "institution_ids": [
+              "https://openalex.org/I43522216"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5074705969",
+          "display_name": "Michael N. Dretsch",
+          "orcid": "https://orcid.org/0000-0001-8773-6376"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I92664306",
+            "display_name": "Walter Reed Army Institute of Research",
+            "ror": "https://ror.org/0145znz58",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I106965489",
+              "https://openalex.org/I1304082316",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I2802581893",
+              "https://openalex.org/I92664306"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Michael N. Dretsch",
+        "raw_affiliation_strings": [
+          "Walter Reed Army Institute of Research-West, Joint Base Lewis-McChord, WA 98433, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Walter Reed Army Institute of Research-West, Joint Base Lewis-McChord, WA 98433, USA",
+            "institution_ids": [
+              "https://openalex.org/I92664306"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5022480407",
+          "display_name": "Thomas S. Denney",
+          "orcid": "https://orcid.org/0000-0002-6695-4777"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210145671",
+            "display_name": "Advanced Imaging Research (United States)",
+            "ror": "https://ror.org/047c3xe48",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210145671"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I82497590",
+            "display_name": "Auburn University",
+            "ror": "https://ror.org/02v80fc35",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I82497590"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Thomas S. Denney",
+        "raw_affiliation_strings": [
+          "Alabama Advanced Imaging Consortium, Birmingham, AL 36849, USA",
+          "Center for Neuroscience, Auburn University, Auburn, AL 36849, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Alabama Advanced Imaging Consortium, Birmingham, AL 36849, USA",
+            "institution_ids": [
+              "https://openalex.org/I4210145671"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Neuroscience, Auburn University, Auburn, AL 36849, USA",
+            "institution_ids": [
+              "https://openalex.org/I82497590"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5090174397",
+          "display_name": "D. Rangaprakash",
+          "orcid": "https://orcid.org/0000-0001-9553-1354"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210127055",
+            "display_name": "Athinoula A. Martinos Center for Biomedical Imaging",
+            "ror": "https://ror.org/032q5ym94",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I136199984",
+              "https://openalex.org/I4210087915",
+              "https://openalex.org/I4210127055",
+              "https://openalex.org/I48633490",
+              "https://openalex.org/I63966007"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I136199984",
+            "display_name": "Harvard University",
+            "ror": "https://ror.org/03vek6s52",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I136199984"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210087915",
+            "display_name": "Massachusetts General Hospital",
+            "ror": "https://ror.org/002pd6e78",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210087915",
+              "https://openalex.org/I48633490"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rangaprakash Deshpande",
+        "raw_affiliation_strings": [
+          "Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Harvard Medical School, Charlestown, MA 02129, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Harvard Medical School, Charlestown, MA 02129, USA",
+            "institution_ids": [
+              "https://openalex.org/I136199984",
+              "https://openalex.org/I4210087915",
+              "https://openalex.org/I4210127055"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5000419170",
+          "display_name": "Gopikrishna Deshpande",
+          "orcid": "https://orcid.org/0000-0001-7471-5357"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I65181880",
+            "display_name": "Indian Institute of Technology Hyderabad",
+            "ror": "https://ror.org/01j4v3x97",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I65181880"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I699696",
+            "display_name": "National Institute of Mental Health and Neurosciences",
+            "ror": "https://ror.org/0405n5e57",
+            "country_code": "IN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I699696"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210145671",
+            "display_name": "Advanced Imaging Research (United States)",
+            "ror": "https://ror.org/047c3xe48",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210145671"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I82497590",
+            "display_name": "Auburn University",
+            "ror": "https://ror.org/02v80fc35",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I82497590"
+            ]
+          }
+        ],
+        "countries": [
+          "IN",
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Gopikrishna Deshpande",
+        "raw_affiliation_strings": [
+          "Alabama Advanced Imaging Consortium, Birmingham, AL 36849, USA",
+          "Center for Neuroscience, Auburn University, Auburn, AL 36849, USA",
+          "Department of Heritage Science and Technology, Indian Institute of Technology, Hyderabad 502285, India",
+          "Department of Psychiatry, National Institute of Mental Health and Neurosciences, Bangalore 560030, India"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Heritage Science and Technology, Indian Institute of Technology, Hyderabad 502285, India",
+            "institution_ids": [
+              "https://openalex.org/I65181880"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Alabama Advanced Imaging Consortium, Birmingham, AL 36849, USA",
+            "institution_ids": [
+              "https://openalex.org/I4210145671"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Neuroscience, Auburn University, Auburn, AL 36849, USA",
+            "institution_ids": [
+              "https://openalex.org/I82497590"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Psychiatry, National Institute of Mental Health and Neurosciences, Bangalore 560030, India",
+            "institution_ids": [
+              "https://openalex.org/I699696"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 5,
+    "institutions_distinct_count": 13,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5000419170"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210145671",
+      "https://openalex.org/I65181880",
+      "https://openalex.org/I699696",
+      "https://openalex.org/I82497590"
+    ],
+    "apc_list": {
+      "value": 2000,
+      "currency": "CHF",
+      "value_usd": 2165
+    },
+    "apc_paid": {
+      "value": 2000,
+      "currency": "CHF",
+      "value_usd": 2165
+    },
+    "fwci": 2.81120225,
+    "has_fulltext": false,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.84060064,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "14",
+      "issue": "5",
+      "first_page": "456",
+      "last_page": "456"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10241",
+        "display_name": "Functional Brain Connectivity Studies",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10429",
+        "display_name": "EEG and Brain-Computer Interfaces",
+        "score": 0.9940000176429749,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2805",
+          "display_name": "Cognitive Neuroscience"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/28",
+          "display_name": "Neuroscience"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13283",
+        "display_name": "Mental Health Research Topics",
+        "score": 0.9879000186920166,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3205",
+          "display_name": "Experimental and Cognitive Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7733155488967896
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.6771511435508728
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.66425621509552
+      },
+      {
+        "id": "https://openalex.org/keywords/overfitting",
+        "display_name": "Overfitting",
+        "score": 0.6538218259811401
+      },
+      {
+        "id": "https://openalex.org/keywords/convolutional-neural-network",
+        "display_name": "Convolutional neural network",
+        "score": 0.5943091511726379
+      },
+      {
+        "id": "https://openalex.org/keywords/exploit",
+        "display_name": "Exploit",
+        "score": 0.4624860882759094
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.46002450585365295
+      },
+      {
+        "id": "https://openalex.org/keywords/deep-learning",
+        "display_name": "Deep learning",
+        "score": 0.43685758113861084
+      },
+      {
+        "id": "https://openalex.org/keywords/neuroimaging",
+        "display_name": "Neuroimaging",
+        "score": 0.4276025891304016
+      },
+      {
+        "id": "https://openalex.org/keywords/pattern-recognition",
+        "display_name": "Pattern recognition (psychology)",
+        "score": 0.3505425453186035
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-neural-network",
+        "display_name": "Artificial neural network",
+        "score": 0.31527650356292725
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.17774313688278198
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7733155488967896
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.6771511435508728
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.66425621509552
+      },
+      {
+        "id": "https://openalex.org/C22019652",
+        "wikidata": "https://www.wikidata.org/wiki/Q331309",
+        "display_name": "Overfitting",
+        "level": 3,
+        "score": 0.6538218259811401
+      },
+      {
+        "id": "https://openalex.org/C81363708",
+        "wikidata": "https://www.wikidata.org/wiki/Q17084460",
+        "display_name": "Convolutional neural network",
+        "level": 2,
+        "score": 0.5943091511726379
+      },
+      {
+        "id": "https://openalex.org/C165696696",
+        "wikidata": "https://www.wikidata.org/wiki/Q11287",
+        "display_name": "Exploit",
+        "level": 2,
+        "score": 0.4624860882759094
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.46002450585365295
+      },
+      {
+        "id": "https://openalex.org/C108583219",
+        "wikidata": "https://www.wikidata.org/wiki/Q197536",
+        "display_name": "Deep learning",
+        "level": 2,
+        "score": 0.43685758113861084
+      },
+      {
+        "id": "https://openalex.org/C58693492",
+        "wikidata": "https://www.wikidata.org/wiki/Q551875",
+        "display_name": "Neuroimaging",
+        "level": 2,
+        "score": 0.4276025891304016
+      },
+      {
+        "id": "https://openalex.org/C153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "level": 2,
+        "score": 0.3505425453186035
+      },
+      {
+        "id": "https://openalex.org/C50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "level": 2,
+        "score": 0.31527650356292725
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.17774313688278198
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C118552586",
+        "wikidata": "https://www.wikidata.org/wiki/Q7867",
+        "display_name": "Psychiatry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "doi:10.3390/brainsci14050456",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/brainsci14050456",
+        "pdf_url": "https://www.mdpi.com/2076-3425/14/5/456/pdf?version=1714487345",
+        "source": {
+          "id": "https://openalex.org/S122317144",
+          "display_name": "Brain Sciences",
+          "issn_l": "2076-3425",
+          "issn": [
+            "2076-3425"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Brain Sciences",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38790434",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38790434",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Brain sciences",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:022d7d5bec324249b038ec2fd9417ddb",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/022d7d5bec324249b038ec2fd9417ddb",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Brain Sciences, Vol 14, Iss 5, p 456 (2024)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:dr.ntu.edu.sg:10356/179759",
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/10356/179759",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402609",
+          "display_name": "DR-NTU (Nanyang Technological University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I172675005",
+          "host_organization_name": "Nanyang Technological University",
+          "host_organization_lineage": [
+            "https://openalex.org/I172675005"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11119064",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11119064",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Brain Sci",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/brainsci14050456",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/brainsci14050456",
+      "pdf_url": "https://www.mdpi.com/2076-3425/14/5/456/pdf?version=1714487345",
+      "source": {
+        "id": "https://openalex.org/S122317144",
+        "display_name": "Brain Sciences",
+        "issn_l": "2076-3425",
+        "issn": [
+          "2076-3425"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Brain Sciences",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": true
+    },
+    "referenced_works_count": 49,
+    "referenced_works": [
+      "https://openalex.org/W2091906388",
+      "https://openalex.org/W2330558670",
+      "https://openalex.org/W2042557239",
+      "https://openalex.org/W2568162413",
+      "https://openalex.org/W1966806791",
+      "https://openalex.org/W2039144322",
+      "https://openalex.org/W2011502145",
+      "https://openalex.org/W2000363330",
+      "https://openalex.org/W2062571913",
+      "https://openalex.org/W6721924950",
+      "https://openalex.org/W4206105356",
+      "https://openalex.org/W2548275288",
+      "https://openalex.org/W2907301012",
+      "https://openalex.org/W2526511911",
+      "https://openalex.org/W3204814083",
+      "https://openalex.org/W1560723556",
+      "https://openalex.org/W2167868121",
+      "https://openalex.org/W2989261235",
+      "https://openalex.org/W2122328291",
+      "https://openalex.org/W4389084651",
+      "https://openalex.org/W2905035821",
+      "https://openalex.org/W2810012895",
+      "https://openalex.org/W2789863594",
+      "https://openalex.org/W2779020697",
+      "https://openalex.org/W3120007598",
+      "https://openalex.org/W2806489700",
+      "https://openalex.org/W6795171876",
+      "https://openalex.org/W4285590361",
+      "https://openalex.org/W3212514517",
+      "https://openalex.org/W3185679619",
+      "https://openalex.org/W2887579808",
+      "https://openalex.org/W2791621240",
+      "https://openalex.org/W2963768110",
+      "https://openalex.org/W3021461858",
+      "https://openalex.org/W3157571958",
+      "https://openalex.org/W4381930312",
+      "https://openalex.org/W4226015794",
+      "https://openalex.org/W2129621723",
+      "https://openalex.org/W2122457251",
+      "https://openalex.org/W6761665040",
+      "https://openalex.org/W371353707",
+      "https://openalex.org/W2583548943",
+      "https://openalex.org/W2158485497",
+      "https://openalex.org/W1565746575",
+      "https://openalex.org/W3210619801",
+      "https://openalex.org/W2991835369",
+      "https://openalex.org/W3108407727",
+      "https://openalex.org/W2483297124",
+      "https://openalex.org/W3164032838"
+    ],
+    "related_works": [
+      "https://openalex.org/W4362597605",
+      "https://openalex.org/W3099765033",
+      "https://openalex.org/W4226493464",
+      "https://openalex.org/W4312417841",
+      "https://openalex.org/W3193565141",
+      "https://openalex.org/W3133861977",
+      "https://openalex.org/W2951211570",
+      "https://openalex.org/W3103566983",
+      "https://openalex.org/W3167935049",
+      "https://openalex.org/W3029198973"
+    ],
+    "abstract_inverted_index": {
+      "Functional": [
+        0
+      ],
+      "connectivity": [
+        1
+      ],
+      "(FC)": [
+        2
+      ],
+      "obtained": [
+        3
+      ],
+      "from": [
+        4,
+        44,
+        69,
+        229,
+        308,
+        316
+      ],
+      "resting-state": [
+        5
+      ],
+      "functional": [
+        6
+      ],
+      "magnetic": [
+        7
+      ],
+      "resonance": [
+        8
+      ],
+      "imaging": [
+        9
+      ],
+      "has": [
+        10,
+        77,
+        114,
+        130,
+        160,
+        209
+      ],
+      "been": [
+        11,
+        115,
+        161,
+        196,
+        210
+      ],
+      "integrated": [
+        12
+      ],
+      "with": [
+        13,
+        71,
+        179,
+        300,
+        312,
+        338
+      ],
+      "machine": [
+        14,
+        294
+      ],
+      "learning": [
+        15,
+        29,
+        63,
+        295
+      ],
+      "algorithms": [
+        16
+      ],
+      "to": [
+        17,
+        39,
+        47,
+        65,
+        79,
+        97,
+        133,
+        146,
+        177,
+        198,
+        202,
+        225,
+        242,
+        264,
+        268,
+        310,
+        318
+      ],
+      "deliver": [
+        18
+      ],
+      "consistent": [
+        19
+      ],
+      "and": [
+        20,
+        60,
+        185,
+        193,
+        206,
+        235,
+        237,
+        287,
+        320,
+        325,
+        329,
+        349,
+        355,
+        364,
+        369,
+        399
+      ],
+      "reliable": [
+        21
+      ],
+      "brain": [
+        22,
+        126
+      ],
+      "disease": [
+        23,
+        273
+      ],
+      "classification": [
+        24,
+        136
+      ],
+      "outcomes.": [
+        25
+      ],
+      "However,": [
+        26,
+        87,
+        381
+      ],
+      "in": [
+        27,
+        82,
+        140,
+        164,
+        272,
+        303,
+        314,
+        321,
+        342,
+        359
+      ],
+      "classical": [
+        28
+      ],
+      "procedures,": [
+        30
+      ],
+      "custom-built": [
+        31
+      ],
+      "specialized": [
+        32
+      ],
+      "feature": [
+        33
+      ],
+      "selection": [
+        34
+      ],
+      "techniques": [
+        35
+      ],
+      "are": [
+        36,
+        383
+      ],
+      "typically": [
+        37
+      ],
+      "used": [
+        38,
+        163
+      ],
+      "filter": [
+        40
+      ],
+      "out": [
+        41
+      ],
+      "uninformative": [
+        42
+      ],
+      "features": [
+        43,
+        68
+      ],
+      "FC": [
+        45,
+        200,
+        226,
+        266
+      ],
+      "patterns": [
+        46,
+        201
+      ],
+      "generalize": [
+        48
+      ],
+      "efficiently": [
+        49
+      ],
+      "on": [
+        50,
+        212,
+        246
+      ],
+      "the": [
+        51,
+        80,
+        88,
+        99,
+        122,
+        131,
+        147,
+        155,
+        165,
+        180,
+        213,
+        219,
+        259,
+        281,
+        305,
+        339,
+        356,
+        360,
+        372,
+        376,
+        397
+      ],
+      "datasets.": [
+        52
+      ],
+      "The": [
+        53,
+        251
+      ],
+      "ability": [
+        54
+      ],
+      "of": [
+        55,
+        84,
+        90,
+        103,
+        125,
+        150,
+        182,
+        249,
+        253,
+        256,
+        262,
+        292,
+        401
+      ],
+      "convolutional": [
+        56
+      ],
+      "neural": [
+        57
+      ],
+      "networks": [
+        58
+      ],
+      "(CNN)": [
+        59
+      ],
+      "other": [
+        61,
+        293
+      ],
+      "deep": [
+        62
+      ],
+      "models": [
+        64,
+        94,
+        220
+      ],
+      "extract": [
+        66
+      ],
+      "informative": [
+        67
+      ],
+      "data": [
+        70,
+        105,
+        183,
+        227,
+        267,
+        279
+      ],
+      "grid": [
+        72
+      ],
+      "structure": [
+        73,
+        124
+      ],
+      "(such": [
+        74,
+        106
+      ],
+      "as": [
+        75,
+        107,
+        117
+      ],
+      "images)": [
+        76
+      ],
+      "led": [
+        78
+      ],
+      "surge": [
+        81
+      ],
+      "popularity": [
+        83
+      ],
+      "these": [
+        85
+      ],
+      "techniques.": [
+        86
+      ],
+      "designs": [
+        89
+      ],
+      "many": [
+        91,
+        394
+      ],
+      "existing": [
+        92
+      ],
+      "CNN": [
+        93
+      ],
+      "still": [
+        95,
+        384
+      ],
+      "fail": [
+        96
+      ],
+      "exploit": [
+        98
+      ],
+      "relationships": [
+        100
+      ],
+      "between": [
+        101
+      ],
+      "entities": [
+        102
+      ],
+      "graph-structure": [
+        104
+      ],
+      "networks).": [
+        108
+      ],
+      "Therefore,": [
+        109
+      ],
+      "graph": [
+        110
+      ],
+      "convolution": [
+        111
+      ],
+      "network": [
+        112,
+        127,
+        158
+      ],
+      "(GCN)": [
+        113
+      ],
+      "suggested": [
+        116
+      ],
+      "a": [
+        118,
+        254
+      ],
+      "means": [
+        119
+      ],
+      "for": [
+        120,
+        168,
+        278,
+        327,
+        347,
+        351,
+        375,
+        396
+      ],
+      "uncovering": [
+        121
+      ],
+      "intricate": [
+        123
+      ],
+      "data,": [
+        128
+      ],
+      "which": [
+        129
+      ],
+      "potential": [
+        132
+      ],
+      "substantially": [
+        134
+      ],
+      "improve": [
+        135
+      ],
+      "accuracy.": [
+        137
+      ],
+      "Furthermore,": [
+        138
+      ],
+      "overfitting": [
+        139
+      ],
+      "classifiers": [
+        141
+      ],
+      "can": [
+        142,
+        173,
+        388
+      ],
+      "be": [
+        143,
+        222,
+        389
+      ],
+      "largely": [
+        144
+      ],
+      "attributed": [
+        145
+      ],
+      "limited": [
+        148
+      ],
+      "number": [
+        149,
+        255
+      ],
+      "available": [
+        151
+      ],
+      "training": [
+        152
+      ],
+      "samples.": [
+        153
+      ],
+      "Recently,": [
+        154
+      ],
+      "generative": [
+        156,
+        170
+      ],
+      "adversarial": [
+        157
+      ],
+      "(GAN)": [
+        159
+      ],
+      "widely": [
+        162
+      ],
+      "medical": [
+        166
+      ],
+      "field": [
+        167
+      ],
+      "its": [
+        169
+      ],
+      "aspect": [
+        171
+      ],
+      "that": [
+        172,
+        291,
+        387
+      ],
+      "generate": [
+        174
+      ],
+      "synthesis": [
+        175
+      ],
+      "images": [
+        176
+      ],
+      "cope": [
+        178
+      ],
+      "problems": [
+        181
+      ],
+      "scarcity": [
+        184
+      ],
+      "patient": [
+        186
+      ],
+      "privacy.": [
+        187
+      ],
+      "In": [
+        188,
+        216
+      ],
+      "our": [
+        189,
+        238
+      ],
+      "previous": [
+        190
+      ],
+      "work,": [
+        191
+      ],
+      "GCN": [
+        192,
+        333,
+        370
+      ],
+      "GAN": [
+        194,
+        263,
+        277,
+        368
+      ],
+      "have": [
+        195,
+        393
+      ],
+      "designed": [
+        197
+      ],
+      "investigate": [
+        199
+      ],
+      "perform": [
+        203
+      ],
+      "diagnosis": [
+        204,
+        400
+      ],
+      "tasks,": [
+        205
+      ],
+      "their": [
+        207,
+        244
+      ],
+      "effectiveness": [
+        208
+      ],
+      "tested": [
+        211
+      ],
+      "ABIDE-I": [
+        214
+      ],
+      "dataset.": [
+        215
+      ],
+      "this": [
+        217
+      ],
+      "paper,": [
+        218
+      ],
+      "will": [
+        221
+      ],
+      "further": [
+        223
+      ],
+      "applied": [
+        224
+      ],
+      "derived": [
+        228
+      ],
+      "more": [
+        230
+      ],
+      "public": [
+        231
+      ],
+      "datasets": [
+        232,
+        289,
+        344
+      ],
+      "(ADHD,": [
+        233
+      ],
+      "ABIDE-II,": [
+        234,
+        286
+      ],
+      "ADNI)": [
+        236
+      ],
+      "in-house": [
+        239
+      ],
+      "dataset": [
+        240,
+        362
+      ],
+      "(PTSD)": [
+        241
+      ],
+      "justify": [
+        243
+      ],
+      "generalization": [
+        245
+      ],
+      "all": [
+        247
+      ],
+      "types": [
+        248
+      ],
+      "data.": [
+        250
+      ],
+      "results": [
+        252,
+        298
+      ],
+      "experiments": [
+        257
+      ],
+      "show": [
+        258
+      ],
+      "powerful": [
+        260
+      ],
+      "characteristic": [
+        261
+      ],
+      "mimic": [
+        265
+      ],
+      "achieve": [
+        269
+      ],
+      "high": [
+        270
+      ],
+      "performance": [
+        271
+      ],
+      "prediction.": [
+        274
+      ],
+      "When": [
+        275
+      ],
+      "employing": [
+        276
+      ],
+      "augmentation,": [
+        280
+      ],
+      "diagnostic": [
+        282
+      ],
+      "accuracy": [
+        283,
+        306,
+        341,
+        358,
+        374
+      ],
+      "across": [
+        284
+      ],
+      "ADHD-200,": [
+        285
+      ],
+      "ADNI": [
+        288
+      ],
+      "surpasses": [
+        290
+      ],
+      "models,": [
+        296
+      ],
+      "including": [
+        297
+      ],
+      "achieved": [
+        299,
+        371
+      ],
+      "BrainNetCNN.": [
+        301
+      ],
+      "Specifically,": [
+        302
+      ],
+      "ADHD,": [
+        304
+      ],
+      "increased": [
+        307
+      ],
+      "67.74%": [
+        309
+      ],
+      "73.96%": [
+        311
+      ],
+      "GAN,": [
+        313
+      ],
+      "ABIDE-II": [
+        315,
+        361
+      ],
+      "70.36%": [
+        317
+      ],
+      "77.40%,": [
+        319
+      ],
+      "ADNI,": [
+        322
+      ],
+      "reaching": [
+        323,
+        379
+      ],
+      "52.84%": [
+        324
+      ],
+      "88.56%": [
+        326
+      ],
+      "multiclass": [
+        328
+      ],
+      "binary": [
+        330,
+        352
+      ],
+      "classification,": [
+        331,
+        353
+      ],
+      "respectively.": [
+        332
+      ],
+      "also": [
+        334
+      ],
+      "obtains": [
+        335
+      ],
+      "decent": [
+        336
+      ],
+      "results,": [
+        337
+      ],
+      "best": [
+        340
+      ],
+      "ADHD": [
+        343
+      ],
+      "at": [
+        345
+      ],
+      "71.38%": [
+        346
+      ],
+      "multinomial": [
+        348
+      ],
+      "75%": [
+        350
+      ],
+      "respectively,": [
+        354
+      ],
+      "second-best": [
+        357
+      ],
+      "(72.28%": [
+        363
+      ],
+      "75.16%,": [
+        365
+      ],
+      "respectively).": [
+        366
+      ],
+      "Both": [
+        367,
+        391
+      ],
+      "highest": [
+        373
+      ],
+      "PTSD": [
+        377
+      ],
+      "dataset,": [
+        378
+      ],
+      "97.76%.": [
+        380
+      ],
+      "there": [
+        382
+      ],
+      "some": [
+        385
+      ],
+      "limitations": [
+        386
+      ],
+      "improved.": [
+        390
+      ],
+      "methods": [
+        392
+      ],
+      "opportunities": [
+        395
+      ],
+      "prediction": [
+        398
+      ],
+      "diseases.": [
+        402
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 4
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2025-12-30T08:56:29Z",
+      "timestamp": 1767084989761,
+      "version": "build-2065373602"
+    },
+    "reference-count": 52,
+    "publisher": "MDPI AG",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              30
+            ]
+          ],
+          "date-time": "2024-04-30T00:00:00Z",
+          "timestamp": 1714435200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "NIMH (National Institute of Mental Health, Bethesda, MD, USA)",
+        "award": [
+          "R03MH096321",
+          "K23MH087770",
+          "00007218"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R03MH096321",
+              "K23MH087770",
+              "00007218"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "multiple agencies",
+        "award": [
+          "R03MH096321",
+          "K23MH087770",
+          "00007218"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R03MH096321",
+              "K23MH087770",
+              "00007218"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "U.S. Army Medical Research and Development Command (MRDC)",
+        "award": [
+          "R03MH096321",
+          "K23MH087770",
+          "00007218"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "R03MH096321",
+              "K23MH087770",
+              "00007218"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Brain Sciences"
+    ],
+    "abstract": "<jats:p>Functional connectivity (FC) obtained from resting-state functional magnetic resonance imaging has been integrated with machine learning algorithms to deliver consistent and reliable brain disease classification outcomes. However, in classical learning procedures, custom-built specialized feature selection techniques are typically used to filter out uninformative features from FC patterns to generalize efficiently on the datasets. The ability of convolutional neural networks (CNN) and other deep learning models to extract informative features from data with grid structure (such as images) has led to the surge in popularity of these techniques. However, the designs of many existing CNN models still fail to exploit the relationships between entities of graph-structure data (such as networks). Therefore, graph convolution network (GCN) has been suggested as a means for uncovering the intricate structure of brain network data, which has the potential to substantially improve classification accuracy. Furthermore, overfitting in classifiers can be largely attributed to the limited number of available training samples. Recently, the generative adversarial network (GAN) has been widely used in the medical field for its generative aspect that can generate synthesis images to cope with the problems of data scarcity and patient privacy. In our previous work, GCN and GAN have been designed to investigate FC patterns to perform diagnosis tasks, and their effectiveness has been tested on the ABIDE-I dataset. In this paper, the models will be further applied to FC data derived from more public datasets (ADHD, ABIDE-II, and ADNI) and our in-house dataset (PTSD) to justify their generalization on all types of data. The results of a number of experiments show the powerful characteristic of GAN to mimic FC data to achieve high performance in disease prediction. When employing GAN for data augmentation, the diagnostic accuracy across ADHD-200, ABIDE-II, and ADNI datasets surpasses that of other machine learning models, including results achieved with BrainNetCNN. Specifically, in ADHD, the accuracy increased from 67.74% to 73.96% with GAN, in ABIDE-II from 70.36% to 77.40%, and in ADNI, reaching 52.84% and 88.56% for multiclass and binary classification, respectively. GCN also obtains decent results, with the best accuracy in ADHD datasets at 71.38% for multinomial and 75% for binary classification, respectively, and the second-best accuracy in the ABIDE-II dataset (72.28% and 75.16%, respectively). Both GAN and GCN achieved the highest accuracy for the PTSD dataset, reaching 97.76%. However, there are still some limitations that can be improved. Both methods have many opportunities for the prediction and diagnosis of diseases.</jats:p>",
+    "DOI": "10.3390/brainsci14050456",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          3
+        ]
+      ],
+      "date-time": "2024-05-03T08:02:22Z",
+      "timestamp": 1714723342000
+    },
+    "page": "456",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "The Use of Generative Adversarial Network and Graph Convolution Network for Neuroimaging-Based Diagnostic Classification"
+    ],
+    "prefix": "10.3390",
+    "volume": "14",
+    "author": [
+      {
+        "given": "Nguyen",
+        "family": "Huynh",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Auburn University Neuroimaging Center, Department of Electrical and Computer Engineering, Auburn University, Auburn, AL 36849, USA"
+          }
+        ]
+      },
+      {
+        "given": "Da",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Sciences, Indiana University Bloomington, Bloomington, IN 47405, USA"
+          }
+        ]
+      },
+      {
+        "given": "Yueen",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Sciences, The Chinese University of Hong Kong, Shatin, Hong Kong"
+          }
+        ]
+      },
+      {
+        "given": "Shengbin",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering, University of California, Berkeley, CA 94720, USA"
+          }
+        ]
+      },
+      {
+        "given": "Cheng",
+        "family": "Long",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computer Science and Engineering, Nanyang Technological University, Singapore 639798, Singapore"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7653-7643",
+        "authenticated-orcid": false,
+        "given": "Mirza Tanzim",
+        "family": "Sami",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Sciences, University of Alabama at Birmingham, Birmingham, AL 35294, USA"
+          }
+        ]
+      },
+      {
+        "given": "Abdullateef",
+        "family": "Almudaifer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Sciences, University of Alabama at Birmingham, Birmingham, AL 35294, USA"
+          },
+          {
+            "name": "College of Computer Science and Engineering, Taibah University, Yanbu 41477, Saudi Arabia"
+          }
+        ]
+      },
+      {
+        "given": "Zhe",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer and Information Science and Engineering, University of Florida, Gainesville, FL 32611, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3039-5328",
+        "authenticated-orcid": false,
+        "given": "Haiquan",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Sciences, California State University, Sacramento, CA 95819, USA"
+          }
+        ]
+      },
+      {
+        "given": "Michael N.",
+        "family": "Dretsch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Walter Reed Army Institute of Research-West, Joint Base Lewis-McChord, WA 98433, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6695-4777",
+        "authenticated-orcid": false,
+        "given": "Thomas S.",
+        "family": "Denney",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Auburn University Neuroimaging Center, Department of Electrical and Computer Engineering, Auburn University, Auburn, AL 36849, USA"
+          },
+          {
+            "name": "Department of Psychological Sciences, Auburn University, Auburn, AL 36849, USA"
+          },
+          {
+            "name": "Alabama Advanced Imaging Consortium, Birmingham, AL 36849, USA"
+          },
+          {
+            "name": "Center for Neuroscience, Auburn University, Auburn, AL 36849, USA"
+          }
+        ]
+      },
+      {
+        "given": "Rangaprakash",
+        "family": "Deshpande",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Harvard Medical School, Charlestown, MA 02129, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7471-5357",
+        "authenticated-orcid": false,
+        "given": "Gopikrishna",
+        "family": "Deshpande",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Auburn University Neuroimaging Center, Department of Electrical and Computer Engineering, Auburn University, Auburn, AL 36849, USA"
+          },
+          {
+            "name": "Department of Psychological Sciences, Auburn University, Auburn, AL 36849, USA"
+          },
+          {
+            "name": "Alabama Advanced Imaging Consortium, Birmingham, AL 36849, USA"
+          },
+          {
+            "name": "Center for Neuroscience, Auburn University, Auburn, AL 36849, USA"
+          },
+          {
+            "name": "Department of Psychiatry, National Institute of Mental Health and Neurosciences, Bangalore 560030, India"
+          },
+          {
+            "name": "Department of Heritage Science and Technology, Indian Institute of Technology, Hyderabad 502285, India"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "702",
+        "DOI": "10.3389/fnhum.2013.00702",
+        "article-title": "Discriminative analysis of non-linear brain connectivity in schizophrenia: An fmri study",
+        "volume": "7",
+        "author": "Su",
+        "year": "2013",
+        "journal-title": "Front. Hum. Neurosci."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.3389/fnins.2016.00123",
+        "article-title": "An efficient and reliable statistical method for estimating functional connectivity in large scale brain networks using partial correlation",
+        "volume": "10",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "Front. Neurosci."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "828-e19",
+        "DOI": "10.1016/j.neurobiolaging.2011.06.024",
+        "article-title": "Functional connectivity tracks clinical deterioration in alzheimer’s disease",
+        "volume": "33",
+        "author": "Damoiseaux",
+        "year": "2012",
+        "journal-title": "Neurobiol. Aging"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "205",
+        "DOI": "10.3389/fpsyt.2016.00205",
+        "article-title": "Resting-state functional connectivity in autism spectrum disorders: A review",
+        "volume": "7",
+        "author": "Hull",
+        "year": "2017",
+        "journal-title": "Front. Psychiatry"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "873",
+        "DOI": "10.1016/j.biopsych.2005.01.011",
+        "article-title": "Functional connectivity of dissociative responses in posttraumatic stress disorder: A functional magnetic resonance imaging investigation",
+        "volume": "57",
+        "author": "Lanius",
+        "year": "2005",
+        "journal-title": "Biol. Psychiatry"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "443",
+        "DOI": "10.1016/j.biopsych.2011.11.003",
+        "article-title": "Abnormal functional connectivity in children with attention-deficit/hyperactivity disorder",
+        "volume": "71",
+        "author": "Tomasi",
+        "year": "2012",
+        "journal-title": "Biol. Psychiatry"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "598",
+        "DOI": "10.1148/radiol.10091701",
+        "article-title": "Resting brain connectivity: Changes during the progress of alzheimer disease",
+        "volume": "256",
+        "author": "Zhang",
+        "year": "2010",
+        "journal-title": "Radiology"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "757",
+        "DOI": "10.1016/j.neurobiolaging.2013.10.081",
+        "article-title": "Functional connectivity and graph theory in preclinical alzheimer’s disease",
+        "volume": "35",
+        "author": "Brier",
+        "year": "2014",
+        "journal-title": "Neurobiol. Aging"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "409",
+        "DOI": "10.1007/s10334-010-0205-z",
+        "article-title": "Graph theoretical analysis of structural and functional connectivity mri in normal and pathological brain networks",
+        "volume": "23",
+        "author": "Guye",
+        "year": "2010",
+        "journal-title": "Magn. Reson. Mater. Phys. Biol. Med."
+      },
+      {
+        "key": "ref_10",
+        "first-page": "66",
+        "article-title": "Network organization is globally atypical in autism: A graph theory study of intrinsic functional connectivity",
+        "volume": "2",
+        "author": "Keown",
+        "year": "2017",
+        "journal-title": "Biol. Psychiatry: Cogn. Neurosci. Neuroimaging"
+      },
+      {
+        "key": "ref_11",
+        "unstructured": "Kipf, T.N., and Welling, M. (2016). Semi-supervised classification with graph convolutional networks. arXiv."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan, D., Wu, S., Sami, M.T., Almudaifer, A., Jiang, Z., Chen, H., Rangaprakash, D., Deshpande, G., and Ma, Y. (2021, January 15–18). Improving brain dysfunction prediction by gan: A functional-connectivity generator approach. Proceedings of the 2021 IEEE International Conference on Big Data (Big Data), Orlando, FL, USA.",
+        "DOI": "10.1109/BigData52589.2021.9671402"
+      },
+      {
+        "key": "ref_13",
+        "unstructured": "Mirza, M., and Osindero, S. (2014). Conditional generative adversarial nets. arXiv."
+      },
+      {
+        "key": "ref_14",
+        "unstructured": "Odena, A., Olah, C., and Shlens, J. (2017, January 6–11). Conditional image synthesis with auxiliary classifier gans. Proceedings of the International Conference on Machine Learning, PMLR, Sydney, Australia."
+      },
+      {
+        "key": "ref_15",
+        "unstructured": "Li, W., Wang, Y., Cai, Y., Arnold, C., Zhao, E., and Yuan, Y. (2018). Semi-supervised rare disease detection using generative adversarial network. arXiv."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "8048",
+        "DOI": "10.1109/ACCESS.2018.2888816",
+        "article-title": "Gan-based semi-supervised learning approach for clinical decision support in health-iot platform",
+        "volume": "7",
+        "author": "Yang",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "1038",
+        "DOI": "10.1016/j.neuroimage.2016.09.046",
+        "article-title": "Brainnetcnn: Convolutional neural networks for brain networks; towards predicting neurodevelopment",
+        "volume": "146",
+        "author": "Kawahara",
+        "year": "2017",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ma, Y., Yan, D., Long, C., Rangaprakash, D., and Deshpande, G. (2021, January 18–22). Predicting autism spectrum disorder from brain imaging data by graph convolutional network. Proceedings of the 2021 International Joint Conference on Neural Networks (IJCNN), Shenzhen, China.",
+        "DOI": "10.1109/IJCNN52387.2021.9534393"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "ADHD-200 Consortium (2012). The adhd-200 consortium: A model to advance the translational potential of neuroimaging in clinical neuroscience. Front. Syst. Neurosci., 6, 62.",
+        "DOI": "10.3389/fnsys.2012.00062"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "659",
+        "DOI": "10.1038/mp.2013.78",
+        "article-title": "The autism brain imaging data exchange: Towards a large-scale evaluation of the intrinsic brain architecture in autism",
+        "volume": "19",
+        "author": "Martino",
+        "year": "2014",
+        "journal-title": "Mol. Psychiatry"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "2378",
+        "DOI": "10.1007/s11682-019-00191-8",
+        "article-title": "Supervised machine learning for diagnostic classification from large-scale neuroimaging datasets",
+        "volume": "14",
+        "author": "Lanka",
+        "year": "2020",
+        "journal-title": "Brain Imaging Behav."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "201",
+        "DOI": "10.1212/WNL.0b013e3181cb3e25",
+        "article-title": "Alzheimer’s disease neuroimaging initiative (adni): Clinical characterization",
+        "volume": "74",
+        "author": "Petersen",
+        "year": "2010",
+        "journal-title": "Neurology"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "816",
+        "DOI": "10.3390/signals4040045",
+        "article-title": "Eeg-based seizure detection using variable-frequency complex demodulation and convolutional neural networks",
+        "volume": "4",
+        "author": "Veeranki",
+        "year": "2023",
+        "journal-title": "Signals"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "101645",
+        "DOI": "10.1016/j.nicl.2018.101645",
+        "article-title": "Automated classification of alzheimer’s disease and mild cognitive impairment using a single mri and deep neural networks",
+        "volume": "21",
+        "author": "Basaia",
+        "year": "2019",
+        "journal-title": "NeuroImage Clin."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "491",
+        "DOI": "10.3389/fnins.2018.00491",
+        "article-title": "A novel transfer learning approach to enhance deep neural network classification of brain functional connectomes",
+        "volume": "12",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "Front. Neurosci."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1016/j.ebiom.2018.03.017",
+        "article-title": "Multi-site diagnostic classification of schizophrenia using discriminant deep learning with functional connectivity mri",
+        "volume": "30",
+        "author": "Zeng",
+        "year": "2018",
+        "journal-title": "EBioMedicine"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "431",
+        "DOI": "10.1016/j.neuroimage.2017.12.052",
+        "article-title": "Metric learning with spectral graph convolutions on brain connectivity networks",
+        "volume": "169",
+        "author": "Ktena",
+        "year": "2018",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1279",
+        "DOI": "10.1109/TMI.2021.3051604",
+        "article-title": "A mutual multi-scale triplet graph convolutional network for classification of brain disorders using functional or structural connectivity",
+        "volume": "40",
+        "author": "Yao",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "117",
+        "DOI": "10.1016/j.media.2018.06.001",
+        "article-title": "Disease prediction using graph convolutional networks: Application to autism spectrum disorder and alzheimer’s disease",
+        "volume": "48",
+        "author": "Parisot",
+        "year": "2018",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_30",
+        "first-page": "4314",
+        "article-title": "Learning dynamic graph representation of brain connectome with spatio-temporal attention",
+        "volume": "34",
+        "author": "Kim",
+        "year": "2021",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "918969",
+        "DOI": "10.3389/fnhum.2022.918969",
+        "article-title": "Multi-view feature enhancement based on self-attention mechanism graph convolutional network for autism spectrum disorder diagnosis",
+        "volume": "16",
+        "author": "Zhao",
+        "year": "2022",
+        "journal-title": "Front. Hum. Neurosci."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "353",
+        "DOI": "10.1007/s12021-021-09548-1",
+        "article-title": "Te-hi-gcn: An ensemble of transfer hierarchical graph convolutional networks for disorder diagnosis",
+        "volume": "2",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "Neuroinformatics"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yerukalareddy, D.R., and Pavlovskiy, E. (2021, January 26–28). Brain tumor classification based on mr images using gan as a pre-trained model. Proceedings of the 2021 IEEE Ural-Siberian Conference on Computational Technologies in Cognitive Science, Genomics and Biomedicine (CSGB), Yekaterinburg, Russia.",
+        "DOI": "10.1109/CSGB53040.2021.9496036"
+      },
+      {
+        "key": "ref_34",
+        "unstructured": "Mondal, A.K., Dolz, J., and Desrosiers, C. (2018). Few-shot 3d multi-modal medical image segmentation using generative adversarial learning. arXiv."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "165",
+        "DOI": "10.1016/j.media.2019.05.001",
+        "article-title": "Denoising of 3d magnetic resonance images using a residual encoder–decoder wasserstein generative adversarial network",
+        "volume": "55",
+        "author": "Ran",
+        "year": "2019",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1488",
+        "DOI": "10.1109/TMI.2018.2820120",
+        "article-title": "Compressed sensing mri reconstruction using a generative adversarial network with a cyclic loss",
+        "volume": "37",
+        "author": "Quan",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "2375",
+        "DOI": "10.1109/TMI.2019.2901750",
+        "article-title": "Image synthesis in multi-contrast mri with conditional generative adversarial networks",
+        "volume": "38",
+        "author": "Dar",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "108756",
+        "DOI": "10.1016/j.jneumeth.2020.108756",
+        "article-title": "Functional network connectivity (fnc)-based generative adversarial network (gan) and its applications in classification of mental disorders",
+        "volume": "341",
+        "author": "Zhao",
+        "year": "2020",
+        "journal-title": "J. Neurosci. Methods"
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Barile, B., Marzullo, A., Stamile, C., Durand-Dubief, F., and Sappey-Marinier, D. (2021). Data augmentation using generative adversarial neural networks on brain structural connectivity in multiple sclerosis. Comput. Methods Programs Biomed., 206.",
+        "DOI": "10.1016/j.cmpb.2021.106113"
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "1202382",
+        "DOI": "10.3389/fnins.2023.1202382",
+        "article-title": "Bnloop-gan: A multi-loop generative adversarial model on brain network learning to classify alzheimer’s disease",
+        "volume": "17",
+        "author": "Cao",
+        "year": "2023",
+        "journal-title": "Front. Neurosci."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "119171",
+        "DOI": "10.1016/j.neuroimage.2022.119171",
+        "article-title": "Insights from an autism imaging biomarker challenge: Promises and threats to biomarker discovery",
+        "volume": "255",
+        "author": "Traut",
+        "year": "2022",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "365",
+        "DOI": "10.1016/j.media.2013.01.003",
+        "article-title": "A blind deconvolution approach to recover effective connectivity brain networks from resting state fmri data",
+        "volume": "17",
+        "author": "Wu",
+        "year": "2013",
+        "journal-title": "Med. Image Anal."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1914",
+        "DOI": "10.1002/hbm.21333",
+        "article-title": "A whole brain fmri atlas generated via spatially constrained spectral clustering",
+        "volume": "33",
+        "author": "Craddock",
+        "year": "2012",
+        "journal-title": "Hum. Brain Mapp."
+      },
+      {
+        "key": "ref_44",
+        "unstructured": "Lee, J., Lee, I., and Kang, J. (2019, January 9–15). Self-attention graph pooling. Proceedings of the International Conference on Machine Learning, PMLR, Long Beach, CA, USA."
+      },
+      {
+        "key": "ref_45",
+        "unstructured": "Radford, A., Metz, L., and Chintala, S. (2015). Unsupervised representation learning with deep convolutional generative adversarial networks. arXiv."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "651",
+        "DOI": "10.1016/j.neuroimage.2015.05.046",
+        "article-title": "The (in) stability of functional brain network measures across thresholds",
+        "volume": "118",
+        "author": "Garrison",
+        "year": "2015",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "437",
+        "DOI": "10.1016/j.neuroimage.2017.02.005",
+        "article-title": "Proportional thresholding in resting-state fmri functional connectivity networks and consequences for patient-control connectome studies: Issues and recommendations",
+        "volume": "152",
+        "author": "Zalesky",
+        "year": "2017",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "S199",
+        "DOI": "10.1016/j.neuroimage.2008.11.007",
+        "article-title": "Machine learning classifiers and fmri: A tutorial overview",
+        "volume": "45",
+        "author": "Pereira",
+        "year": "2009",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "key": "ref_49",
+        "first-page": "1",
+        "article-title": "Statistical comparisons of classifiers over multiple data sets",
+        "volume": "7",
+        "year": "2006",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "825",
+        "DOI": "10.1137/20M1386062",
+        "article-title": "Understanding graph embedding methods and their applications",
+        "volume": "63",
+        "author": "Xu",
+        "year": "2021",
+        "journal-title": "SIAM Rev."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "8",
+        "DOI": "10.1186/s40708-019-0101-x",
+        "article-title": "Deterioration from healthy to mild cognitive impairment and alzheimer’s disease mirrored in corresponding loss of centrality in directed brain networks",
+        "volume": "6",
+        "author": "Zhao",
+        "year": "2019",
+        "journal-title": "Brain Inform."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1186/s40708-020-00120-2",
+        "article-title": "Density-based clustering of static and dynamic functional mri connectivity features obtained from subjects with cognitive impairment",
+        "volume": "7",
+        "author": "Rangaprakash",
+        "year": "2020",
+        "journal-title": "Brain Inform."
+      }
+    ],
+    "container-title": [
+      "Brain Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2076-3425/14/5/456/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T14:37:35Z",
+      "timestamp": 1760107055000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2076-3425/14/5/456"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          30
+        ]
+      ]
+    },
+    "references-count": 52,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "brainsci14050456"
+    ],
+    "URL": "https://doi.org/10.3390/brainsci14050456",
+    "relation": {},
+    "ISSN": [
+      "2076-3425"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2076-3425"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          30
+        ]
+      ]
+    }
+  }
+}

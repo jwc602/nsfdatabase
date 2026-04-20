@@ -1,0 +1,1914 @@
+{
+  "doi": "10.1007/978-3-031-37706-8_13",
+  "openalex": {
+    "id": "https://openalex.org/W4384471265",
+    "doi": "https://doi.org/10.1007/978-3-031-37706-8_13",
+    "title": "3D Environment Modeling for Falsification and Beyond with Scenic 3.0",
+    "display_name": "3D Environment Modeling for Falsification and Beyond with Scenic 3.0",
+    "publication_year": 2023,
+    "publication_date": "2023-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4384471265",
+      "doi": "https://doi.org/10.1007/978-3-031-37706-8_13"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1007/978-3-031-37706-8_13",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1007/978-3-031-37706-8_13",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-37706-8_13.pdf",
+      "source": {
+        "id": "https://openalex.org/S106296714",
+        "display_name": "Lecture notes in computer science",
+        "issn_l": "0302-9743",
+        "issn": [
+          "0302-9743",
+          "1611-3349"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "book series"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Lecture Notes in Computer Science",
+      "raw_type": "book-chapter"
+    },
+    "type": "book-chapter",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-37706-8_13.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5044250428",
+          "display_name": "Eric Vin",
+          "orcid": "https://orcid.org/0000-0002-3089-1129"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185103710",
+            "display_name": "University of California, Santa Cruz",
+            "ror": "https://ror.org/03s65by71",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185103710"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Eric Vin",
+        "raw_affiliation_strings": [
+          "University of California, Santa Cruz, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Santa Cruz, USA",
+            "institution_ids": [
+              "https://openalex.org/I185103710"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5048781214",
+          "display_name": "Shun Kashiwa",
+          "orcid": "https://orcid.org/0009-0001-3665-0182"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185103710",
+            "display_name": "University of California, Santa Cruz",
+            "ror": "https://ror.org/03s65by71",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185103710"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shun Kashiwa",
+        "raw_affiliation_strings": [
+          "University of California, Santa Cruz, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Santa Cruz, USA",
+            "institution_ids": [
+              "https://openalex.org/I185103710"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5092480238",
+          "display_name": "Matthew Rhea",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2799809257",
+            "display_name": "American Sentinel University",
+            "ror": "https://ror.org/059p0a776",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2799809257"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Matthew Rhea",
+        "raw_affiliation_strings": [
+          "SentinelOne, Mountain View, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "SentinelOne, Mountain View, USA",
+            "institution_ids": [
+              "https://openalex.org/I2799809257"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5076798051",
+          "display_name": "Daniel J. Fremont",
+          "orcid": "https://orcid.org/0000-0002-9992-9965"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185103710",
+            "display_name": "University of California, Santa Cruz",
+            "ror": "https://ror.org/03s65by71",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185103710"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Daniel J. Fremont",
+        "raw_affiliation_strings": [
+          "University of California, Santa Cruz, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Santa Cruz, USA",
+            "institution_ids": [
+              "https://openalex.org/I185103710"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100728159",
+          "display_name": "Edward Kim",
+          "orcid": "https://orcid.org/0000-0001-5345-3781"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Edward Kim",
+        "raw_affiliation_strings": [
+          "University of California, Berkeley, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Berkeley, USA",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5084296935",
+          "display_name": "Tommaso Dreossi",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Tommaso Dreossi",
+        "raw_affiliation_strings": [
+          "insitro, San Francisco, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "insitro, San Francisco, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101510201",
+          "display_name": "Shromona Ghosh",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Shromona Ghosh",
+        "raw_affiliation_strings": [
+          "Waymo LLC, Mountain View, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Waymo LLC, Mountain View, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5078165161",
+          "display_name": "Xiangyu Yue",
+          "orcid": "https://orcid.org/0000-0002-6887-2046"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I177725633",
+            "display_name": "Chinese University of Hong Kong",
+            "ror": "https://ror.org/00t33hh48",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177725633"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiangyu Yue",
+        "raw_affiliation_strings": [
+          "The Chinese University of Hong Kong, Hong Kong, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Chinese University of Hong Kong, Hong Kong, China",
+            "institution_ids": [
+              "https://openalex.org/I177725633"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5088660554",
+          "display_name": "Alberto Sangiovanni‐Vincentelli",
+          "orcid": "https://orcid.org/0000-0003-1298-8389"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Alberto L. Sangiovanni-Vincentelli",
+        "raw_affiliation_strings": [
+          "University of California, Berkeley, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Berkeley, USA",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5064230639",
+          "display_name": "Sanjit A. Seshia",
+          "orcid": "https://orcid.org/0000-0001-6190-8707"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95457486",
+            "display_name": "University of California, Berkeley",
+            "ror": "https://ror.org/01an7q238",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sanjit A. Seshia",
+        "raw_affiliation_strings": [
+          "University of California, Berkeley, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Berkeley, USA",
+            "institution_ids": [
+              "https://openalex.org/I95457486"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 10,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5044250428"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I185103710"
+    ],
+    "apc_list": {
+      "value": 5000,
+      "currency": "EUR",
+      "value_usd": 5392
+    },
+    "apc_paid": {
+      "value": 5000,
+      "currency": "EUR",
+      "value_usd": 5392
+    },
+    "fwci": 13.04761904,
+    "has_fulltext": true,
+    "cited_by_count": 12,
+    "citation_normalized_percentile": {
+      "value": 0.99556869,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 99
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "253",
+      "last_page": "265"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11450",
+      "display_name": "Model-Driven Software Engineering Techniques",
+      "score": 0.9976999759674072,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1712",
+        "display_name": "Software"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11450",
+        "display_name": "Model-Driven Software Engineering Techniques",
+        "score": 0.9976999759674072,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10142",
+        "display_name": "Formal Methods in Verification",
+        "score": 0.9959999918937683,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11195",
+        "display_name": "Simulation Techniques and Applications",
+        "score": 0.9940000176429749,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.8796561360359192
+      },
+      {
+        "id": "https://openalex.org/keywords/programming-language",
+        "display_name": "Programming language",
+        "score": 0.627404510974884
+      },
+      {
+        "id": "https://openalex.org/keywords/readability",
+        "display_name": "Readability",
+        "score": 0.5885593891143799
+      },
+      {
+        "id": "https://openalex.org/keywords/variety",
+        "display_name": "Variety (cybernetics)",
+        "score": 0.5548690557479858
+      },
+      {
+        "id": "https://openalex.org/keywords/parsing",
+        "display_name": "Parsing",
+        "score": 0.54375159740448
+      },
+      {
+        "id": "https://openalex.org/keywords/syntax",
+        "display_name": "Syntax",
+        "score": 0.5146644711494446
+      },
+      {
+        "id": "https://openalex.org/keywords/grammar",
+        "display_name": "Grammar",
+        "score": 0.4916301369667053
+      },
+      {
+        "id": "https://openalex.org/keywords/representation",
+        "display_name": "Representation (politics)",
+        "score": 0.48957952857017517
+      },
+      {
+        "id": "https://openalex.org/keywords/visibility",
+        "display_name": "Visibility",
+        "score": 0.46328631043434143
+      },
+      {
+        "id": "https://openalex.org/keywords/formal-grammar",
+        "display_name": "Formal grammar",
+        "score": 0.460452139377594
+      },
+      {
+        "id": "https://openalex.org/keywords/simplicity",
+        "display_name": "Simplicity",
+        "score": 0.43014922738075256
+      },
+      {
+        "id": "https://openalex.org/keywords/rule-based-machine-translation",
+        "display_name": "Rule-based machine translation",
+        "score": 0.36933284997940063
+      },
+      {
+        "id": "https://openalex.org/keywords/human–computer-interaction",
+        "display_name": "Human–computer interaction",
+        "score": 0.33815181255340576
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.333368182182312
+      },
+      {
+        "id": "https://openalex.org/keywords/linguistics",
+        "display_name": "Linguistics",
+        "score": 0.11982300877571106
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8796561360359192
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.627404510974884
+      },
+      {
+        "id": "https://openalex.org/C2778143727",
+        "wikidata": "https://www.wikidata.org/wiki/Q1820650",
+        "display_name": "Readability",
+        "level": 2,
+        "score": 0.5885593891143799
+      },
+      {
+        "id": "https://openalex.org/C136197465",
+        "wikidata": "https://www.wikidata.org/wiki/Q1729295",
+        "display_name": "Variety (cybernetics)",
+        "level": 2,
+        "score": 0.5548690557479858
+      },
+      {
+        "id": "https://openalex.org/C186644900",
+        "wikidata": "https://www.wikidata.org/wiki/Q194152",
+        "display_name": "Parsing",
+        "level": 2,
+        "score": 0.54375159740448
+      },
+      {
+        "id": "https://openalex.org/C60048249",
+        "wikidata": "https://www.wikidata.org/wiki/Q37437",
+        "display_name": "Syntax",
+        "level": 2,
+        "score": 0.5146644711494446
+      },
+      {
+        "id": "https://openalex.org/C26022165",
+        "wikidata": "https://www.wikidata.org/wiki/Q8091",
+        "display_name": "Grammar",
+        "level": 2,
+        "score": 0.4916301369667053
+      },
+      {
+        "id": "https://openalex.org/C2776359362",
+        "wikidata": "https://www.wikidata.org/wiki/Q2145286",
+        "display_name": "Representation (politics)",
+        "level": 3,
+        "score": 0.48957952857017517
+      },
+      {
+        "id": "https://openalex.org/C123403432",
+        "wikidata": "https://www.wikidata.org/wiki/Q654068",
+        "display_name": "Visibility",
+        "level": 2,
+        "score": 0.46328631043434143
+      },
+      {
+        "id": "https://openalex.org/C171553443",
+        "wikidata": "https://www.wikidata.org/wiki/Q373045",
+        "display_name": "Formal grammar",
+        "level": 3,
+        "score": 0.460452139377594
+      },
+      {
+        "id": "https://openalex.org/C2776372474",
+        "wikidata": "https://www.wikidata.org/wiki/Q508291",
+        "display_name": "Simplicity",
+        "level": 2,
+        "score": 0.43014922738075256
+      },
+      {
+        "id": "https://openalex.org/C53893814",
+        "wikidata": "https://www.wikidata.org/wiki/Q7378909",
+        "display_name": "Rule-based machine translation",
+        "level": 2,
+        "score": 0.36933284997940063
+      },
+      {
+        "id": "https://openalex.org/C107457646",
+        "wikidata": "https://www.wikidata.org/wiki/Q207434",
+        "display_name": "Human–computer interaction",
+        "level": 1,
+        "score": 0.33815181255340576
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.333368182182312
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.11982300877571106
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C120665830",
+        "wikidata": "https://www.wikidata.org/wiki/Q14620",
+        "display_name": "Optics",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1007/978-3-031-37706-8_13",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/978-3-031-37706-8_13",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-37706-8_13.pdf",
+        "source": {
+          "id": "https://openalex.org/S106296714",
+          "display_name": "Lecture notes in computer science",
+          "issn_l": "0302-9743",
+          "issn": [
+            "0302-9743",
+            "1611-3349"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "book series"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Lecture Notes in Computer Science",
+        "raw_type": "book-chapter"
+      },
+      {
+        "id": "pmh:oai:escholarship.org:ark:/13030/qt6zq520n7",
+        "is_oa": false,
+        "landing_page_url": "https://escholarship.org/uc/item/6zq520n7",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "chapter"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1007/978-3-031-37706-8_13",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1007/978-3-031-37706-8_13",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/978-3-031-37706-8_13.pdf",
+      "source": {
+        "id": "https://openalex.org/S106296714",
+        "display_name": "Lecture notes in computer science",
+        "issn_l": "0302-9743",
+        "issn": [
+          "0302-9743",
+          "1611-3349"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "book series"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Lecture Notes in Computer Science",
+      "raw_type": "book-chapter"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Quality Education",
+        "score": 0.7900000214576721,
+        "id": "https://metadata.un.org/sdg/4"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 22,
+    "referenced_works": [
+      "https://openalex.org/W4283812260",
+      "https://openalex.org/W1975880855",
+      "https://openalex.org/W1509343160",
+      "https://openalex.org/W2965660219",
+      "https://openalex.org/W1506101803",
+      "https://openalex.org/W2162559028",
+      "https://openalex.org/W2018045485",
+      "https://openalex.org/W3046712683",
+      "https://openalex.org/W2952402617",
+      "https://openalex.org/W4210496774",
+      "https://openalex.org/W3115511661",
+      "https://openalex.org/W4286225000",
+      "https://openalex.org/W2155941727",
+      "https://openalex.org/W2808775391",
+      "https://openalex.org/W1547304883",
+      "https://openalex.org/W2014824949",
+      "https://openalex.org/W2117088012",
+      "https://openalex.org/W2023808162",
+      "https://openalex.org/W3205563523",
+      "https://openalex.org/W2810181048",
+      "https://openalex.org/W3125969836",
+      "https://openalex.org/W3098394944"
+    ],
+    "related_works": [
+      "https://openalex.org/W2118045671",
+      "https://openalex.org/W2032082745",
+      "https://openalex.org/W1985452018",
+      "https://openalex.org/W2064822019",
+      "https://openalex.org/W123468065",
+      "https://openalex.org/W2163571267",
+      "https://openalex.org/W2094508561",
+      "https://openalex.org/W2395103808",
+      "https://openalex.org/W2040159755",
+      "https://openalex.org/W2107193634"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "We": [
+        1,
+        83,
+        109
+      ],
+      "present": [
+        2
+      ],
+      "a": [
+        3,
+        9,
+        36,
+        99,
+        130
+      ],
+      "major": [
+        4
+      ],
+      "new": [
+        5,
+        64,
+        140
+      ],
+      "version": [
+        6
+      ],
+      "of": [
+        7,
+        17,
+        20,
+        33,
+        38,
+        80,
+        88,
+        95,
+        133
+      ],
+      "Scenic,": [
+        8
+      ],
+      "probabilistic": [
+        10
+      ],
+      "programming": [
+        11
+      ],
+      "language": [
+        12,
+        113
+      ],
+      "for": [
+        13,
+        28,
+        60,
+        106
+      ],
+      "writing": [
+        14
+      ],
+      "formal": [
+        15,
+        131
+      ],
+      "models": [
+        16
+      ],
+      "the": [
+        18,
+        29,
+        76,
+        81,
+        112,
+        134,
+        139
+      ],
+      "environments": [
+        19,
+        46
+      ],
+      "cyber-physical": [
+        21
+      ],
+      "systems.": [
+        22
+      ],
+      "Scenic": [
+        23,
+        56,
+        126,
+        158
+      ],
+      "has": [
+        24
+      ],
+      "been": [
+        25,
+        152
+      ],
+      "successfully": [
+        26
+      ],
+      "used": [
+        27
+      ],
+      "design": [
+        30
+      ],
+      "and": [
+        31,
+        78,
+        122
+      ],
+      "analysis": [
+        32
+      ],
+      "CPS": [
+        34
+      ],
+      "in": [
+        35,
+        120,
+        157
+      ],
+      "variety": [
+        37
+      ],
+      "domains,": [
+        39
+      ],
+      "but": [
+        40
+      ],
+      "earlier": [
+        41
+      ],
+      "versions": [
+        42
+      ],
+      "are": [
+        43,
+        48
+      ],
+      "limited": [
+        44
+      ],
+      "to": [
+        45,
+        70,
+        114,
+        154
+      ],
+      "that": [
+        47,
+        66,
+        104,
+        149
+      ],
+      "essentially": [
+        49
+      ],
+      "two-dimensional.": [
+        50
+      ],
+      "In": [
+        51
+      ],
+      "this": [
+        52
+      ],
+      "paper,": [
+        53
+      ],
+      "we": [
+        54,
+        137
+      ],
+      "extend": [
+        55,
+        111
+      ],
+      "with": [
+        57,
+        92,
+        146
+      ],
+      "native": [
+        58
+      ],
+      "support": [
+        59,
+        115
+      ],
+      "3D": [
+        61,
+        72
+      ],
+      "geometry,": [
+        62
+      ],
+      "introducing": [
+        63
+      ],
+      "syntax": [
+        65
+      ],
+      "provides": [
+        67
+      ],
+      "expressive": [
+        68
+      ],
+      "ways": [
+        69
+      ],
+      "describe": [
+        71
+      ],
+      "configurations": [
+        73
+      ],
+      "while": [
+        74
+      ],
+      "preserving": [
+        75
+      ],
+      "simplicity": [
+        77
+      ],
+      "readability": [
+        79
+      ],
+      "language.": [
+        82,
+        135
+      ],
+      "replace": [
+        84
+      ],
+      "Scenic’s": [
+        85
+      ],
+      "simplistic": [
+        86
+      ],
+      "representation": [
+        87
+      ],
+      "objects": [
+        89
+      ],
+      "as": [
+        90
+      ],
+      "boxes": [
+        91
+      ],
+      "precise": [
+        93
+      ],
+      "modeling": [
+        94
+      ],
+      "complex": [
+        96
+      ],
+      "shapes,": [
+        97
+      ],
+      "including": [
+        98
+      ],
+      "ray": [
+        100
+      ],
+      "tracing-based": [
+        101
+      ],
+      "visibility": [
+        102
+      ],
+      "system": [
+        103
+      ],
+      "accounts": [
+        105
+      ],
+      "object": [
+        107
+      ],
+      "occlusion.": [
+        108
+      ],
+      "also": [
+        110
+      ],
+      "arbitrary": [
+        116
+      ],
+      "temporal": [
+        117
+      ],
+      "requirements": [
+        118
+      ],
+      "expressed": [
+        119
+      ],
+      "LTL,": [
+        121
+      ],
+      "build": [
+        123
+      ],
+      "an": [
+        124
+      ],
+      "extensible": [
+        125
+      ],
+      "parser": [
+        127
+      ],
+      "generated": [
+        128
+      ],
+      "from": [
+        129
+      ],
+      "grammar": [
+        132
+      ],
+      "Finally,": [
+        136
+      ],
+      "illustrate": [
+        138
+      ],
+      "application": [
+        141
+      ],
+      "domains": [
+        142
+      ],
+      "these": [
+        143
+      ],
+      "features": [
+        144
+      ],
+      "enable": [
+        145
+      ],
+      "case": [
+        147
+      ],
+      "studies": [
+        148
+      ],
+      "would": [
+        150
+      ],
+      "have": [
+        151
+      ],
+      "impossible": [
+        153
+      ],
+      "accurately": [
+        155
+      ],
+      "model": [
+        156
+      ],
+      "2.": [
+        159
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-12-26T23:08:49.675405",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2025-10-01T15:24:00Z",
+      "timestamp": 1759332240751,
+      "version": "3.40.3"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 30,
+    "publisher": "Springer Nature Switzerland",
+    "isbn-type": [
+      {
+        "type": "print",
+        "value": "9783031377051"
+      },
+      {
+        "type": "electronic",
+        "value": "9783031377068"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2023-01-01T00:00:00Z",
+          "timestamp": 1672531200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              17
+            ]
+          ],
+          "date-time": "2023-07-17T00:00:00Z",
+          "timestamp": 1689552000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 197,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>We present a major new version of Scenic, a probabilistic programming language for writing formal models of the environments of cyber-physical systems. Scenic has been successfully used for the design and analysis of CPS in a variety of domains, but earlier versions are limited to environments that are essentially two-dimensional. In this paper, we extend Scenic with native support for 3D geometry, introducing new syntax that provides expressive ways to describe 3D configurations while preserving the simplicity and readability of the language. We replace Scenic’s simplistic representation of objects as boxes with precise modeling of complex shapes, including a ray tracing-based visibility system that accounts for object occlusion. We also extend the language to support arbitrary temporal requirements expressed in LTL, and build an extensible Scenic parser generated from a formal grammar of the language. Finally, we illustrate the new application domains these features enable with case studies that would have been impossible to accurately model in Scenic 2.</jats:p>",
+    "DOI": "10.1007/978-3-031-37706-8_13",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          16
+        ]
+      ],
+      "date-time": "2023-07-16T10:01:21Z",
+      "timestamp": 1689501681000
+    },
+    "page": "253-265",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "3D Environment Modeling for Falsification and Beyond with Scenic 3.0"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-3089-1129",
+        "authenticated-orcid": false,
+        "given": "Eric",
+        "family": "Vin",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Shun",
+        "family": "Kashiwa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew",
+        "family": "Rhea",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9992-9965",
+        "authenticated-orcid": false,
+        "given": "Daniel J.",
+        "family": "Fremont",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Edward",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Tommaso",
+        "family": "Dreossi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shromona",
+        "family": "Ghosh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Xiangyu",
+        "family": "Yue",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alberto L.",
+        "family": "Sangiovanni-Vincentelli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sanjit A.",
+        "family": "Seshia",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "13_CR1",
+        "first-page": "6028",
+        "volume": "36",
+        "author": "AS Azad",
+        "year": "2022",
+        "unstructured": "Azad, A.S., et al.: Programmatic modeling and generation of real-time strategic soccer environments for reinforcement learning. Proc. AAAI Conf. Artif. Intell. 36, 6028–6036 (2022)",
+        "journal-title": "Proc. AAAI Conf. Artif. Intell."
+      },
+      {
+        "issue": "3",
+        "key": "13_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "651",
+        "DOI": "10.1093/logcom/exn075",
+        "volume": "20",
+        "author": "A Bauer",
+        "year": "2010",
+        "unstructured": "Bauer, A., Leucker, M., Schallhart, C.: Comparing LTL semantics for runtime verification. J. Log. Comput. 20(3), 651–674 (2010). https://doi.org/10.1093/logcom/exn075",
+        "journal-title": "J. Log. Comput."
+      },
+      {
+        "key": "13_CR3",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Broy et al.: Model-based testing of reactive systems. Lecture Notes in Computer Science (2005). https://doi.org/10.1007/b137241",
+        "DOI": "10.1007/b137241"
+      },
+      {
+        "key": "13_CR4",
+        "unstructured": "Dawson-Haggerty, M., et al.: Trimesh. https://trimsh.org"
+      },
+      {
+        "key": "13_CR5",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "432",
+        "DOI": "10.1007/978-3-030-25540-4_25",
+        "volume-title": "Computer Aided Verification",
+        "author": "T Dreossi",
+        "year": "2019",
+        "unstructured": "Dreossi, T., et al.: VerifAI: a toolkit for the formal design and analysis of artificial intelligence-based systems. In: Dillig, I., Tasiran, S. (eds.) CAV 2019. LNCS, vol. 11561, pp. 432–442. Springer, Cham (2019). https://doi.org/10.1007/978-3-030-25540-4_25"
+      },
+      {
+        "key": "13_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "178",
+        "DOI": "10.1007/11940197_12",
+        "volume-title": "Formal Approaches to Software Testing and Runtime Verification",
+        "author": "GE Fainekos",
+        "year": "2006",
+        "unstructured": "Fainekos, G.E., Pappas, G.J.: Robustness of temporal logic specifications. In: Havelund, K., Núñez, M., Roşu, G., Wolff, B. (eds.) Formal Approaches to Software Testing and Runtime Verification, pp. 178–192. Springer, Berlin Heidelberg, Berlin, Heidelberg (2006)"
+      },
+      {
+        "issue": "6",
+        "key": "13_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/2366145.2366154",
+        "volume": "31",
+        "author": "M Fisher",
+        "year": "2012",
+        "unstructured": "Fisher, M., Ritchie, D., Savva, M., Funkhouser, T., Hanrahan, P.: Example-based synthesis of 3d object arrangements. ACM Trans. Graph. 31(6), 1–11 (2012). https://doi.org/10.1145/2366145.2366154",
+        "journal-title": "ACM Trans. Graph."
+      },
+      {
+        "key": "13_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ford, B.: Parsing expression grammars: a recognition-based syntactic foundation. In: Proceedings of the 31st ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages, pp. 111–122 (2004)",
+        "DOI": "10.1145/964001.964011"
+      },
+      {
+        "key": "13_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fremont, D.J., Chiu, J., Margineantu, D.D., Osipychev, D., Seshia, S.A.: Formal analysis and redesign of a neural network-based aircraft taxiing system with VerifAI. Computer Aided Verification, pp. 122–134 (2020)",
+        "DOI": "10.1007/978-3-030-53288-8_6"
+      },
+      {
+        "key": "13_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fremont, D.J., Dreossi, T., Ghosh, S., Yue, X., Sangiovanni-Vincentelli, A.L., Seshia, S.A.: Scenic: A language for scenario specification and scene generation. In: Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation (2019)",
+        "DOI": "10.1145/3314221.3314633"
+      },
+      {
+        "key": "13_CR11",
+        "unstructured": "Fremont, D.J., et al.: Scenic Repository. https://github.com/BerkeleyLearnVerify/Scenic"
+      },
+      {
+        "key": "13_CR12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10994-021-06120-5",
+        "author": "DJ Fremont",
+        "year": "2022",
+        "unstructured": "Fremont, D.J., et al.: Scenic: a language for scenario specification and data generation. Mach. Learn. (2022). https://doi.org/10.1007/s10994-021-06120-5",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "13_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fremont, D.J., et al.: Formal scenario-based testing of autonomous vehicles: From simulation to the real world. In: 2020 IEEE Intelligent Transportation Systems Conference, ITSC 2020, pp. 913–920. IEEE (2020). https://arxiv.org/abs/2003.07739",
+        "DOI": "10.1109/ITSC45102.2020.9294368"
+      },
+      {
+        "key": "13_CR14",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Fu, R., Zhan, X., Chen, Y., Ritchie, D., Sridhar, S.: Shapecrafter: A recursive text-conditioned 3d shape generation model. CoRR abs/2207.09446 (2022). https://doi.org/10.48550/arXiv.2207.09446",
+        "DOI": "10.48550/arXiv.2207.09446"
+      },
+      {
+        "key": "13_CR15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Goodman, N.D., Stuhlmüller, A.: The Design and Implementation of Probabilistic Programming Languages. http://dippl.org (2014) Accessed 28 Jan 2023",
+        "DOI": "10.1016/j.cogsys.2013.07.003"
+      },
+      {
+        "key": "13_CR16",
+        "unstructured": "iRobot: Create Educational Robot. https://edu.irobot.com/what-we-offer/create3"
+      },
+      {
+        "issue": "9",
+        "key": "13_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "920",
+        "DOI": "10.1007/s11263-018-1103-5",
+        "volume": "126",
+        "author": "C Jiang",
+        "year": "2018",
+        "unstructured": "Jiang, C., et al.: Configurable 3D scene synthesis and 2D image rendering with per-pixel ground truth using stochastic grammars. Int. J. Comput. Vision 126(9), 920–941 (2018). https://doi.org/10.1007/s11263-018-1103-5",
+        "journal-title": "Int. J. Comput. Vision"
+      },
+      {
+        "key": "13_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maler, O., Nickovic, D.: Monitoring temporal properties of continuous signals. In: Proc. FORMATS (2004)",
+        "DOI": "10.1007/978-3-540-30206-3_12"
+      },
+      {
+        "key": "13_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Michel, O.: Webots: Professional mobile robot simulation. J. Adv. Robot. Syst. 1(1), 39–42 (2004). http://www.ars-journal.com/International-Journal-of-Advanced-Robotic-Systems/Volume-1/39-42.pdf",
+        "DOI": "10.5772/5618"
+      },
+      {
+        "key": "13_CR20",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Müller, P., Wonka, P., Haegler, S., Ulmer, A., Van Gool, L.: Procedural modeling of buildings. ACM Trans. Graph. 25(3) (2006). https://doi.org/10.1145/1141911.1141931",
+        "DOI": "10.1145/1141911.1141931"
+      },
+      {
+        "key": "13_CR21",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Pnueli, A.: The temporal logic of programs. In: 18th Annual Symposium on Foundations of Computer Science (sfcs 1977), pp. 46–57 (1977). https://doi.org/10.1109/SFCS.1977.32",
+        "DOI": "10.1109/SFCS.1977.32"
+      },
+      {
+        "key": "13_CR22",
+        "unstructured": "Ritchie, D.: Quicksand: A Lightweight Implementation of Probabilistic Programming for Procedural Modeling and Design. In: 3rd NIPS Workshop on Probabilistic Programming (2014). https://dritchie.github.io/pdf/qs.pdf"
+      },
+      {
+        "key": "13_CR23",
+        "unstructured": "Ritchie, D.: Probabilistic programming for procedural modeling and design. Ph.D. thesis, Stanford (2016). https://purl.stanford.edu/vh730bw6700"
+      },
+      {
+        "key": "13_CR24",
+        "unstructured": "Salgado, P.G., van Rossum, G., Nikolaou, L.: Pegen. https://we-like-parsers.github.io/pegen/"
+      },
+      {
+        "key": "13_CR25",
+        "unstructured": "Seshia, S.A., Sadigh, D., Sastry, S.S.: Towards Verified Artificial Intelligence. ArXiv e-prints (July 2016)"
+      },
+      {
+        "key": "13_CR26",
+        "unstructured": "Sutton, M., Greene, A., Amini, P.: Fuzzing: Brute force vulnerability discovery. Addison-Wesley (2007)"
+      },
+      {
+        "key": "13_CR27",
+        "unstructured": "The Blender Community: Blender. http://www.blender.org"
+      },
+      {
+        "key": "13_CR28",
+        "unstructured": "The OpenSCAD Community: OpenSCAD. https://openscad.org"
+      },
+      {
+        "key": "13_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Viswanadha, K., et al.: Addressing the IEEE AV test challenge with Scenic and VerifAI. In: 2021 IEEE International Conference on Artificial Intelligence Testing (AITest) (2021)",
+        "DOI": "10.1109/AITEST52744.2021.00034"
+      },
+      {
+        "key": "13_CR30",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wang, K., Savva, M., Chang, A.X., Ritchie, D.: Deep convolutional priors for indoor scene synthesis. ACM Trans. Graph. 37(4), 70 (2018). https://doi.org/10.1145/3197517.3201362",
+        "DOI": "10.1145/3197517.3201362"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Computer Aided Verification"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-37706-8_13",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          5
+        ]
+      ],
+      "date-time": "2024-01-05T11:05:11Z",
+      "timestamp": 1704452711000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-031-37706-8_13"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783031377051",
+      "9783031377068"
+    ],
+    "references-count": 30,
+    "URL": "https://doi.org/10.1007/978-3-031-37706-8_13",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0302-9743"
+      },
+      {
+        "type": "electronic",
+        "value": "1611-3349"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "17 July 2023",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "CAV",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "International Conference on Computer Aided Verification",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Paris",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "France",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2023",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "17 July 2023",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "22 July 2023",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "35",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "cav2023",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "http://www.i-cav.org/2023/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Double-blind",
+        "order": 1,
+        "name": "type",
+        "label": "Type",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "hotcrp",
+        "order": 2,
+        "name": "conference_management_system",
+        "label": "Conference Management System",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "261",
+        "order": 3,
+        "name": "number_of_submissions_sent_for_review",
+        "label": "Number of Submissions Sent for Review",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "67",
+        "order": 4,
+        "name": "number_of_full_papers_accepted",
+        "label": "Number of Full Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "0",
+        "order": 5,
+        "name": "number_of_short_papers_accepted",
+        "label": "Number of Short Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "26% - The value is computed by the equation \"Number of Full Papers Accepted / Number of Submissions Sent for Review * 100\" and then rounded to a whole number.",
+        "order": 6,
+        "name": "acceptance_rate_of_full_papers",
+        "label": "Acceptance Rate of Full Papers",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "3",
+        "order": 7,
+        "name": "average_number_of_reviews_per_paper",
+        "label": "Average Number of Reviews per Paper",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "11",
+        "order": 8,
+        "name": "average_number_of_papers_per_reviewer",
+        "label": "Average Number of Papers per Reviewer",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "Yes",
+        "order": 9,
+        "name": "external_reviewers_involved",
+        "label": "External Reviewers Involved",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      }
+    ]
+  }
+}

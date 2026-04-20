@@ -1,0 +1,2398 @@
+{
+  "doi": "10.1038/s41598-024-59140-1",
+  "openalex": {
+    "id": "https://openalex.org/W4395447472",
+    "doi": "https://doi.org/10.1038/s41598-024-59140-1",
+    "title": "Real space iterative reconstruction for vector tomography (RESIRE-V)",
+    "display_name": "Real space iterative reconstruction for vector tomography (RESIRE-V)",
+    "publication_year": 2024,
+    "publication_date": "2024-04-25",
+    "ids": {
+      "openalex": "https://openalex.org/W4395447472",
+      "doi": "https://doi.org/10.1038/s41598-024-59140-1",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38664487"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s41598-024-59140-1",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41598-024-59140-1",
+      "pdf_url": "https://www.nature.com/articles/s41598-024-59140-1.pdf",
+      "source": {
+        "id": "https://openalex.org/S196734849",
+        "display_name": "Scientific Reports",
+        "issn_l": "2045-2322",
+        "issn": [
+          "2045-2322"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Scientific Reports",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41598-024-59140-1.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5031863609",
+          "display_name": "Minh Phạm",
+          "orcid": "https://orcid.org/0000-0002-5019-6449"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142207940",
+            "display_name": "California NanoSystems Institute",
+            "ror": "https://ror.org/00q7fqf35",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I142207940",
+              "https://openalex.org/I154570441",
+              "https://openalex.org/I161318765"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I161318765",
+            "display_name": "University of California, Los Angeles",
+            "ror": "https://ror.org/046rm7j60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Minh Pham",
+        "raw_affiliation_strings": [
+          "Department of Physics and Astronomy and California NanoSystems Institute, University of California, Los Angeles, CA, 90095, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Physics and Astronomy and California NanoSystems Institute, University of California, Los Angeles, CA, 90095, USA",
+            "institution_ids": [
+              "https://openalex.org/I142207940",
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003653786",
+          "display_name": "Xingyuan Lu",
+          "orcid": "https://orcid.org/0000-0001-9756-8767"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142207940",
+            "display_name": "California NanoSystems Institute",
+            "ror": "https://ror.org/00q7fqf35",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I142207940",
+              "https://openalex.org/I154570441",
+              "https://openalex.org/I161318765"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I161318765",
+            "display_name": "University of California, Los Angeles",
+            "ror": "https://ror.org/046rm7j60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xingyuan Lu",
+        "raw_affiliation_strings": [
+          "Department of Physics and Astronomy and California NanoSystems Institute, University of California, Los Angeles, CA, 90095, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Physics and Astronomy and California NanoSystems Institute, University of California, Los Angeles, CA, 90095, USA",
+            "institution_ids": [
+              "https://openalex.org/I142207940",
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5110284382",
+          "display_name": "Arjun Rana",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142207940",
+            "display_name": "California NanoSystems Institute",
+            "ror": "https://ror.org/00q7fqf35",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I142207940",
+              "https://openalex.org/I154570441",
+              "https://openalex.org/I161318765"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I161318765",
+            "display_name": "University of California, Los Angeles",
+            "ror": "https://ror.org/046rm7j60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Arjun Rana",
+        "raw_affiliation_strings": [
+          "Department of Physics and Astronomy and California NanoSystems Institute, University of California, Los Angeles, CA, 90095, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Physics and Astronomy and California NanoSystems Institute, University of California, Los Angeles, CA, 90095, USA",
+            "institution_ids": [
+              "https://openalex.org/I142207940",
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5002037883",
+          "display_name": "Stanley Osher",
+          "orcid": "https://orcid.org/0000-0002-7900-4658"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I161318765",
+            "display_name": "University of California, Los Angeles",
+            "ror": "https://ror.org/046rm7j60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Stanley Osher",
+        "raw_affiliation_strings": [
+          "Department of Mathematics, University of California, Los Angeles, CA, 90095, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mathematics, University of California, Los Angeles, CA, 90095, USA",
+            "institution_ids": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5013484038",
+          "display_name": "Jianwei Miao",
+          "orcid": "https://orcid.org/0000-0003-4033-3945"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I142207940",
+            "display_name": "California NanoSystems Institute",
+            "ror": "https://ror.org/00q7fqf35",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I142207940",
+              "https://openalex.org/I154570441",
+              "https://openalex.org/I161318765"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I161318765",
+            "display_name": "University of California, Los Angeles",
+            "ror": "https://ror.org/046rm7j60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jianwei Miao",
+        "raw_affiliation_strings": [
+          "Department of Physics and Astronomy and California NanoSystems Institute, University of California, Los Angeles, CA, 90095, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Physics and Astronomy and California NanoSystems Institute, University of California, Los Angeles, CA, 90095, USA",
+            "institution_ids": [
+              "https://openalex.org/I142207940",
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5031863609"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I142207940",
+      "https://openalex.org/I161318765"
+    ],
+    "apc_list": {
+      "value": 1890,
+      "currency": "EUR",
+      "value_usd": 2190
+    },
+    "apc_paid": {
+      "value": 1890,
+      "currency": "EUR",
+      "value_usd": 2190
+    },
+    "fwci": 0.81907382,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.63699866,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 95
+    },
+    "biblio": {
+      "volume": "14",
+      "issue": "1",
+      "first_page": "9541",
+      "last_page": "9541"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10522",
+      "display_name": "Medical Imaging Techniques and Applications",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10522",
+        "display_name": "Medical Imaging Techniques and Applications",
+        "score": 0.9997000098228455,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11183",
+        "display_name": "Advanced X-ray Imaging Techniques",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3108",
+          "display_name": "Radiation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10378",
+        "display_name": "Advanced MRI Techniques and Applications",
+        "score": 0.9976999759674072,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2741",
+          "display_name": "Radiology, Nuclear Medicine and Imaging"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/tomography",
+        "display_name": "Tomography",
+        "score": 0.5662804245948792
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.5312367081642151
+      },
+      {
+        "id": "https://openalex.org/keywords/vector-field",
+        "display_name": "Vector field",
+        "score": 0.521587073802948
+      },
+      {
+        "id": "https://openalex.org/keywords/iterative-reconstruction",
+        "display_name": "Iterative reconstruction",
+        "score": 0.4906998872756958
+      },
+      {
+        "id": "https://openalex.org/keywords/tomographic-reconstruction",
+        "display_name": "Tomographic reconstruction",
+        "score": 0.47998520731925964
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.4729202389717102
+      },
+      {
+        "id": "https://openalex.org/keywords/vector-projection",
+        "display_name": "Vector projection",
+        "score": 0.4308387339115143
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.3583320081233978
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.34482815861701965
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.282545804977417
+      },
+      {
+        "id": "https://openalex.org/keywords/geometry",
+        "display_name": "Geometry",
+        "score": 0.20231664180755615
+      },
+      {
+        "id": "https://openalex.org/keywords/optics",
+        "display_name": "Optics",
+        "score": 0.1125154197216034
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C163716698",
+        "wikidata": "https://www.wikidata.org/wiki/Q841267",
+        "display_name": "Tomography",
+        "level": 2,
+        "score": 0.5662804245948792
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.5312367081642151
+      },
+      {
+        "id": "https://openalex.org/C91188154",
+        "wikidata": "https://www.wikidata.org/wiki/Q186247",
+        "display_name": "Vector field",
+        "level": 2,
+        "score": 0.521587073802948
+      },
+      {
+        "id": "https://openalex.org/C141379421",
+        "wikidata": "https://www.wikidata.org/wiki/Q6094427",
+        "display_name": "Iterative reconstruction",
+        "level": 2,
+        "score": 0.4906998872756958
+      },
+      {
+        "id": "https://openalex.org/C97742081",
+        "wikidata": "https://www.wikidata.org/wiki/Q7820109",
+        "display_name": "Tomographic reconstruction",
+        "level": 3,
+        "score": 0.47998520731925964
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.4729202389717102
+      },
+      {
+        "id": "https://openalex.org/C45354692",
+        "wikidata": "https://www.wikidata.org/wiki/Q2734388",
+        "display_name": "Vector projection",
+        "level": 2,
+        "score": 0.4308387339115143
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.3583320081233978
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.34482815861701965
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.282545804977417
+      },
+      {
+        "id": "https://openalex.org/C2524010",
+        "wikidata": "https://www.wikidata.org/wiki/Q8087",
+        "display_name": "Geometry",
+        "level": 1,
+        "score": 0.20231664180755615
+      },
+      {
+        "id": "https://openalex.org/C120665830",
+        "wikidata": "https://www.wikidata.org/wiki/Q14620",
+        "display_name": "Optics",
+        "level": 1,
+        "score": 0.1125154197216034
+      }
+    ],
+    "mesh": [],
+    "locations_count": 6,
+    "locations": [
+      {
+        "id": "doi:10.1038/s41598-024-59140-1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41598-024-59140-1",
+        "pdf_url": "https://www.nature.com/articles/s41598-024-59140-1.pdf",
+        "source": {
+          "id": "https://openalex.org/S196734849",
+          "display_name": "Scientific Reports",
+          "issn_l": "2045-2322",
+          "issn": [
+            "2045-2322"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Scientific Reports",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38664487",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38664487",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Scientific reports",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:80f512f1493f4248b64d93bf029e2316",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/80f512f1493f4248b64d93bf029e2316",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Scientific Reports, Vol 14, Iss 1, Pp 1-11 (2024)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:escholarship.org:ark:/13030/qt64k3n39r",
+        "is_oa": true,
+        "landing_page_url": "https://escholarship.org/uc/item/64k3n39r",
+        "pdf_url": null,
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Scientific Reports, vol 14, iss 1",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:osti.gov:2471048",
+        "is_oa": true,
+        "landing_page_url": "https://www.osti.gov/biblio/2471048",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": ""
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11045750",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11045750",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Sci Rep",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1038/s41598-024-59140-1",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41598-024-59140-1",
+      "pdf_url": "https://www.nature.com/articles/s41598-024-59140-1.pdf",
+      "source": {
+        "id": "https://openalex.org/S196734849",
+        "display_name": "Scientific Reports",
+        "issn_l": "2045-2322",
+        "issn": [
+          "2045-2322"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Scientific Reports",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 59,
+    "referenced_works": [
+      "https://openalex.org/W2037521346",
+      "https://openalex.org/W1492556495",
+      "https://openalex.org/W2028160465",
+      "https://openalex.org/W2522510678",
+      "https://openalex.org/W3141947465",
+      "https://openalex.org/W3207549212",
+      "https://openalex.org/W3112965401",
+      "https://openalex.org/W1990919278",
+      "https://openalex.org/W2146583368",
+      "https://openalex.org/W2147388225",
+      "https://openalex.org/W198508004",
+      "https://openalex.org/W2132373349",
+      "https://openalex.org/W1972150100",
+      "https://openalex.org/W2014838985",
+      "https://openalex.org/W4403052479",
+      "https://openalex.org/W2062906151",
+      "https://openalex.org/W2009557540",
+      "https://openalex.org/W2165187677",
+      "https://openalex.org/W2486933018",
+      "https://openalex.org/W2963290327",
+      "https://openalex.org/W4362667549",
+      "https://openalex.org/W4389991806",
+      "https://openalex.org/W4387735792",
+      "https://openalex.org/W2088390981",
+      "https://openalex.org/W2052113696",
+      "https://openalex.org/W2394647935",
+      "https://openalex.org/W2966327022",
+      "https://openalex.org/W3088425794",
+      "https://openalex.org/W4200252312",
+      "https://openalex.org/W4286716236",
+      "https://openalex.org/W4382797393",
+      "https://openalex.org/W2269106613",
+      "https://openalex.org/W2736395436",
+      "https://openalex.org/W3007265544",
+      "https://openalex.org/W3112154308",
+      "https://openalex.org/W2999452665",
+      "https://openalex.org/W3083912747",
+      "https://openalex.org/W4200264106",
+      "https://openalex.org/W4206758564",
+      "https://openalex.org/W4317757487",
+      "https://openalex.org/W1847564501",
+      "https://openalex.org/W4312422136",
+      "https://openalex.org/W2169010307",
+      "https://openalex.org/W3026572399",
+      "https://openalex.org/W4213040064",
+      "https://openalex.org/W2001490481",
+      "https://openalex.org/W2153952631",
+      "https://openalex.org/W2146256333",
+      "https://openalex.org/W1994582860",
+      "https://openalex.org/W2048401914",
+      "https://openalex.org/W2073892615",
+      "https://openalex.org/W2165161875",
+      "https://openalex.org/W2728611525",
+      "https://openalex.org/W2979681319",
+      "https://openalex.org/W42110264",
+      "https://openalex.org/W1627054999",
+      "https://openalex.org/W220625295",
+      "https://openalex.org/W3110423509",
+      "https://openalex.org/W3104701432"
+    ],
+    "related_works": [
+      "https://openalex.org/W2729309033",
+      "https://openalex.org/W30020191",
+      "https://openalex.org/W2091189020",
+      "https://openalex.org/W2054646943",
+      "https://openalex.org/W2026696565",
+      "https://openalex.org/W1470535712",
+      "https://openalex.org/W1521927141",
+      "https://openalex.org/W247539596",
+      "https://openalex.org/W2791587780",
+      "https://openalex.org/W2009557540"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Tomography": [
+        1
+      ],
+      "has": [
+        2
+      ],
+      "had": [
+        3
+      ],
+      "an": [
+        4,
+        127
+      ],
+      "important": [
+        5
+      ],
+      "impact": [
+        6
+      ],
+      "on": [
+        7,
+        22
+      ],
+      "the": [
+        8,
+        42,
+        48,
+        60,
+        86,
+        100,
+        112,
+        123,
+        132,
+        135,
+        148,
+        154,
+        170,
+        191,
+        195,
+        203,
+        212,
+        231,
+        261,
+        278
+      ],
+      "physical,": [
+        9
+      ],
+      "biological,": [
+        10
+      ],
+      "and": [
+        11,
+        44,
+        63,
+        83,
+        88,
+        103,
+        137,
+        151,
+        239,
+        277
+      ],
+      "medical": [
+        12
+      ],
+      "sciences.": [
+        13
+      ],
+      "To": [
+        14,
+        157,
+        259
+      ],
+      "date,": [
+        15
+      ],
+      "most": [
+        16
+      ],
+      "tomographic": [
+        17
+      ],
+      "applications": [
+        18
+      ],
+      "have": [
+        19,
+        54,
+        270
+      ],
+      "been": [
+        20,
+        55
+      ],
+      "focused": [
+        21
+      ],
+      "3D": [
+        23,
+        37,
+        90,
+        120,
+        155,
+        171,
+        213,
+        227
+      ],
+      "scalar": [
+        24
+      ],
+      "reconstructions.": [
+        25
+      ],
+      "However,": [
+        26
+      ],
+      "in": [
+        27
+      ],
+      "some": [
+        28
+      ],
+      "crucial": [
+        29
+      ],
+      "applications,": [
+        30
+      ],
+      "vector": [
+        31,
+        38,
+        51,
+        173,
+        198,
+        215,
+        228,
+        256
+      ],
+      "tomography": [
+        32,
+        52,
+        257
+      ],
+      "is": [
+        33
+      ],
+      "required": [
+        34
+      ],
+      "to": [
+        35,
+        146,
+        164,
+        210,
+        264
+      ],
+      "reconstruct": [
+        36,
+        211
+      ],
+      "fields": [
+        39
+      ],
+      "such": [
+        40
+      ],
+      "as": [
+        41,
+        131,
+        253
+      ],
+      "electric": [
+        43
+      ],
+      "magnetic": [
+        45,
+        235
+      ],
+      "fields.": [
+        46
+      ],
+      "Over": [
+        47
+      ],
+      "years,": [
+        49
+      ],
+      "several": [
+        50
+      ],
+      "methods": [
+        53
+      ],
+      "developed.": [
+        56
+      ],
+      "Here,": [
+        57
+      ],
+      "we": [
+        58,
+        160,
+        269
+      ],
+      "present": [
+        59
+      ],
+      "mathematical": [
+        61
+      ],
+      "foundation": [
+        62
+      ],
+      "algorithmic": [
+        64
+      ],
+      "implementation": [
+        65
+      ],
+      "of": [
+        66,
+        81,
+        95,
+        169,
+        176,
+        194,
+        217,
+        222,
+        233
+      ],
+      "REal": [
+        67
+      ],
+      "Space": [
+        68
+      ],
+      "Iterative": [
+        69
+      ],
+      "REconstruction": [
+        70
+      ],
+      "for": [
+        71
+      ],
+      "Vector": [
+        72
+      ],
+      "tomography,": [
+        73
+      ],
+      "termed": [
+        74
+      ],
+      "RESIRE-V.": [
+        75
+      ],
+      "RESIRE-V": [
+        76,
+        209,
+        245,
+        273
+      ],
+      "uses": [
+        77
+      ],
+      "multiple": [
+        78
+      ],
+      "tilt": [
+        79,
+        149,
+        179,
+        224
+      ],
+      "series": [
+        80
+      ],
+      "projections": [
+        82,
+        87
+      ],
+      "iterates": [
+        84
+      ],
+      "between": [
+        85,
+        134
+      ],
+      "a": [
+        89,
+        96,
+        104,
+        119,
+        165,
+        183,
+        218,
+        254,
+        265
+      ],
+      "reconstruction.": [
+        91,
+        156
+      ],
+      "Each": [
+        92
+      ],
+      "iteration": [
+        93
+      ],
+      "consists": [
+        94
+      ],
+      "forward": [
+        97
+      ],
+      "step": [
+        98,
+        106
+      ],
+      "using": [
+        99,
+        107
+      ],
+      "Radon": [
+        101
+      ],
+      "transform": [
+        102
+      ],
+      "backward": [
+        105
+      ],
+      "its": [
+        108
+      ],
+      "transpose,": [
+        109
+      ],
+      "then": [
+        110,
+        207
+      ],
+      "updates": [
+        111
+      ],
+      "object": [
+        113
+      ],
+      "via": [
+        114
+      ],
+      "gradient": [
+        115
+      ],
+      "descent.": [
+        116
+      ],
+      "Incorporating": [
+        117
+      ],
+      "with": [
+        118,
+        182,
+        202,
+        237
+      ],
+      "support": [
+        121
+      ],
+      "constraint,": [
+        122
+      ],
+      "algorithm": [
+        124,
+        141,
+        262
+      ],
+      "iteratively": [
+        125
+      ],
+      "minimizes": [
+        126
+      ],
+      "error": [
+        128
+      ],
+      "metric,": [
+        129
+      ],
+      "defined": [
+        130
+      ],
+      "difference": [
+        133
+      ],
+      "measured": [
+        136
+      ],
+      "calculated": [
+        138
+      ],
+      "projections.": [
+        139
+      ],
+      "The": [
+        140
+      ],
+      "can": [
+        142,
+        246
+      ],
+      "also": [
+        143
+      ],
+      "be": [
+        144,
+        247
+      ],
+      "used": [
+        145
+      ],
+      "refine": [
+        147
+      ],
+      "angles": [
+        150
+      ],
+      "further": [
+        152
+      ],
+      "improve": [
+        153
+      ],
+      "validate": [
+        158
+      ],
+      "RESIRE-V,": [
+        159
+      ],
+      "first": [
+        161
+      ],
+      "apply": [
+        162
+      ],
+      "it": [
+        163
+      ],
+      "simulated": [
+        166
+      ],
+      "data": [
+        167,
+        279
+      ],
+      "set": [
+        168
+      ],
+      "magnetization": [
+        172,
+        197,
+        214
+      ],
+      "field,": [
+        174
+      ],
+      "consisting": [
+        175,
+        221
+      ],
+      "two": [
+        177
+      ],
+      "orthogonal": [
+        178
+      ],
+      "series,": [
+        180
+      ],
+      "each": [
+        181
+      ],
+      "missing": [
+        184
+      ],
+      "wedge.": [
+        185
+      ],
+      "Our": [
+        186,
+        226
+      ],
+      "quantitative": [
+        187
+      ],
+      "analysis": [
+        188
+      ],
+      "shows": [
+        189
+      ],
+      "that": [
+        190,
+        244
+      ],
+      "three": [
+        192,
+        223
+      ],
+      "components": [
+        193
+      ],
+      "reconstructed": [
+        196
+      ],
+      "field": [
+        199,
+        216
+      ],
+      "agree": [
+        200
+      ],
+      "well": [
+        201
+      ],
+      "ground-truth": [
+        204
+      ],
+      "counterparts.": [
+        205
+      ],
+      "We": [
+        206,
+        242
+      ],
+      "use": [
+        208
+      ],
+      "ferromagnetic": [
+        219
+      ],
+      "meta-lattice": [
+        220
+      ],
+      "series.": [
+        225
+      ],
+      "reconstruction": [
+        229
+      ],
+      "reveals": [
+        230
+      ],
+      "existence": [
+        232
+      ],
+      "topological": [
+        234
+      ],
+      "defects": [
+        236
+      ],
+      "positive": [
+        238
+      ],
+      "negative": [
+        240
+      ],
+      "charges.": [
+        241
+      ],
+      "expect": [
+        243
+      ],
+      "incorporated": [
+        248
+      ],
+      "into": [
+        249
+      ],
+      "different": [
+        250
+      ],
+      "imaging": [
+        251
+      ],
+      "modalities": [
+        252
+      ],
+      "general": [
+        255
+      ],
+      "method.": [
+        258
+      ],
+      "make": [
+        260
+      ],
+      "accessible": [
+        263
+      ],
+      "broad": [
+        266
+      ],
+      "user": [
+        267
+      ],
+      "community,": [
+        268
+      ],
+      "made": [
+        271
+      ],
+      "our": [
+        272
+      ],
+      "MATLAB": [
+        274
+      ],
+      "source": [
+        275
+      ],
+      "codes": [
+        276
+      ],
+      "freely": [
+        280
+      ],
+      "available": [
+        281
+      ],
+      "at": [
+        282
+      ],
+      "https://github.com/minhpham0309/RESIRE-V": [
+        283
+      ],
+      ".": [
+        284
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-12-26T23:08:49.675405",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2025-11-20T04:47:37Z",
+      "timestamp": 1763614057056,
+      "version": "3.45.0"
+    },
+    "reference-count": 61,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              25
+            ]
+          ],
+          "date-time": "2024-04-25T00:00:00Z",
+          "timestamp": 1714003200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              25
+            ]
+          ],
+          "date-time": "2024-04-25T00:00:00Z",
+          "timestamp": 1714003200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "name": "STROBE: A National Science Foundation Science & Technology Center",
+        "award": [
+          "DMR 1548924"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DMR 1548924"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Office of Basic Energy Sciences of the US DOE",
+        "award": [
+          "DE-AC02-05CH11231"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC02-05CH11231"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Tomography has had an important impact on the physical, biological, and medical sciences. To date, most tomographic applications have been focused on 3D scalar reconstructions. However, in some crucial applications, vector tomography is required to reconstruct 3D vector fields such as the electric and magnetic fields. Over the years, several vector tomography methods have been developed. Here, we present the mathematical foundation and algorithmic implementation of REal Space Iterative REconstruction for Vector tomography, termed RESIRE-V. RESIRE-V uses multiple tilt series of projections and iterates between the projections and a 3D reconstruction. Each iteration consists of a forward step using the Radon transform and a backward step using its transpose, then updates the object via gradient descent. Incorporating with a 3D support constraint, the algorithm iteratively minimizes an error metric, defined as the difference between the measured and calculated projections. The algorithm can also be used to refine the tilt angles and further improve the 3D reconstruction. To validate RESIRE-V, we first apply it to a simulated data set of the 3D magnetization vector field, consisting of two orthogonal tilt series, each with a missing wedge. Our quantitative analysis shows that the three components of the reconstructed magnetization vector field agree well with the ground-truth counterparts. We then use RESIRE-V to reconstruct the 3D magnetization vector field of a ferromagnetic meta-lattice consisting of three tilt series. Our 3D vector reconstruction reveals the existence of topological magnetic defects with positive and negative charges. We expect that RESIRE-V can be incorporated into different imaging modalities as a general vector tomography method. To make the algorithm accessible to a broad user community, we have made our RESIRE-V MATLAB source codes and the data freely available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/minhpham0309/RESIRE-V\">https://github.com/minhpham0309/RESIRE-V</jats:ext-link>\n                    .\n                  </jats:p>",
+    "DOI": "10.1038/s41598-024-59140-1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          25
+        ]
+      ],
+      "date-time": "2024-04-25T13:03:11Z",
+      "timestamp": 1714050191000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Real space iterative reconstruction for vector tomography (RESIRE-V)"
+    ],
+    "prefix": "10.1038",
+    "volume": "14",
+    "author": [
+      {
+        "given": "Minh",
+        "family": "Pham",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Xingyuan",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Arjun",
+        "family": "Rana",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stanley",
+        "family": "Osher",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jianwei",
+        "family": "Miao",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "59140_CR1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/1.9780898719277",
+        "volume-title": "Principles of Computerized Tomographic Imaging",
+        "author": "AC Kak",
+        "year": "2001",
+        "unstructured": "Kak, A. C. & Slaney, M. Principles of Computerized Tomographic Imaging (Society for Industrial and Applied Mathematics, 2001)."
+      },
+      {
+        "key": "59140_CR2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780195182187.001.0001",
+        "volume-title": "Three-Dimensional Electron Microscopy of Macromolecular Assemblies: Visualization of Biological Molecules in Their Native State",
+        "author": "J Frank",
+        "year": "2006",
+        "unstructured": "Frank, J. Three-Dimensional Electron Microscopy of Macromolecular Assemblies: Visualization of Biological Molecules in Their Native State (Oxford University Press, 2006)."
+      },
+      {
+        "key": "59140_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "444",
+        "DOI": "10.1038/nature10934",
+        "volume": "483",
+        "author": "MC Scott",
+        "year": "2012",
+        "unstructured": "Scott, M. C. et al. Electron tomography at 2.4-ångström resolution. Nature 483, 444–447 (2012).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "59140_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "aaf2157",
+        "DOI": "10.1126/science.aaf2157",
+        "volume": "353",
+        "author": "J Miao",
+        "year": "2016",
+        "unstructured": "Miao, J., Ercius, P. & Billinge, S. J. L. Atomic electron tomography: 3D structures without crystals. Science 353, aaf2157 (2016).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "59140_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "60",
+        "DOI": "10.1038/s41586-021-03354-0",
+        "volume": "592",
+        "author": "Y Yang",
+        "year": "2021",
+        "unstructured": "Yang, Y. et al. Determining the three-dimensional atomic structure of an amorphous solid. Nature 592, 60–64 (2021).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "59140_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "95",
+        "DOI": "10.1038/s41563-021-01114-z",
+        "volume": "21",
+        "author": "Y Yuan",
+        "year": "2022",
+        "unstructured": "Yuan, Y. et al. Three-dimensional atomic packing in amorphous solids with liquid-like structure. Nat. Mater. 21, 95–102 (2022).",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "59140_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "737",
+        "DOI": "10.1038/s42256-020-00273-z",
+        "volume": "2",
+        "author": "G Wang",
+        "year": "2020",
+        "unstructured": "Wang, G., Ye, J. C. & De Man, B. Deep learning for tomographic image reconstruction. Nat. Mach. Intell. 2, 737–748 (2020).",
+        "journal-title": "Nat. Mach. Intell."
+      },
+      {
+        "key": "59140_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "471",
+        "DOI": "10.1016/0022-5193(70)90109-8",
+        "volume": "29",
+        "author": "R Gordon",
+        "year": "1970",
+        "unstructured": "Gordon, R., Bender, R. & Herman, G. T. Algebraic reconstruction techniques (ART) for three-dimensional electron microscopy and X-ray photography. J. Theor. Biol. 29, 471–481 (1970).",
+        "journal-title": "J. Theor. Biol."
+      },
+      {
+        "key": "59140_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "81",
+        "DOI": "10.1177/016173468400600107",
+        "volume": "6",
+        "author": "AH Andersen",
+        "year": "1984",
+        "unstructured": "Andersen, A. H. & Kak, A. C. Simultaneous algebraic reconstruction technique (SART): A superior implementation of the ART algorithm. Ultrason. Imaging 6, 81–94 (1984).",
+        "journal-title": "Ultrason. Imaging"
+      },
+      {
+        "key": "59140_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "105",
+        "DOI": "10.1016/0022-5193(72)90180-4",
+        "volume": "36",
+        "author": "P Gilbert",
+        "year": "1972",
+        "unstructured": "Gilbert, P. Iterative methods for the three-dimensional reconstruction of an object from projections. J. Theor. Biol. 36, 105–117 (1972).",
+        "journal-title": "J. Theor. Biol."
+      },
+      {
+        "key": "59140_CR11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-84628-723-7",
+        "volume-title": "Fundamentals of Computerized Tomography: Image Reconstruction from Projections",
+        "author": "GT Herman",
+        "year": "2009",
+        "unstructured": "Herman, G. T. Fundamentals of Computerized Tomography: Image Reconstruction from Projections (Springer, 2009)."
+      },
+      {
+        "key": "59140_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "582",
+        "DOI": "10.1109/TMI.2006.872139",
+        "volume": "25",
+        "author": "YZ O’Connor",
+        "year": "2006",
+        "unstructured": "O’Connor, Y. Z. & Fessler, J. A. Fourier-based forward and back-projectors in iterative fan-beam tomographic image reconstruction. IEEE Trans. Med. Imaging 25, 582–589 (2006).",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "59140_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "4777",
+        "DOI": "10.1088/0031-9155/53/17/021",
+        "volume": "53",
+        "author": "EY Sidky",
+        "year": "2008",
+        "unstructured": "Sidky, E. Y. & Pan, X. Image reconstruction in circular cone-beam computed tomography by constrained, total-variation minimization. Phys. Med. Biol. 53, 4777 (2008).",
+        "journal-title": "Phys. Med. Biol."
+      },
+      {
+        "key": "59140_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1613",
+        "DOI": "10.1007/s00330-012-2452-z",
+        "volume": "22",
+        "author": "M Katsura",
+        "year": "2012",
+        "unstructured": "Katsura, M. et al. Model-based iterative reconstruction technique for radiation dose reduction in chest CT: Comparison with the adaptive statistical iterative reconstruction technique. Eur. Radiol. 22, 1613–1623 (2012).",
+        "journal-title": "Eur. Radiol."
+      },
+      {
+        "key": "59140_CR15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raftrey, D. et al. Quantifying the topology of magnetic skyrmions in three dimensions. arXiv:2306.15003 (2023).",
+        "DOI": "10.1126/sciadv.adp8615"
+      },
+      {
+        "key": "59140_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "530",
+        "DOI": "10.1126/science.aaa1394",
+        "volume": "348",
+        "author": "J Miao",
+        "year": "2015",
+        "unstructured": "Miao, J., Ishikawa, T., Robinson, I. K. & Murnane, M. M. Beyond crystallography: Diffractive imaging using coherent x-ray light sources. Science 348, 530–535 (2015).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "59140_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "52103",
+        "DOI": "10.1103/PhysRevB.72.052103",
+        "volume": "72",
+        "author": "J Miao",
+        "year": "2005",
+        "unstructured": "Miao, J., Förster, F. & Levi, O. Equally sloped tomography with oversampling reconstruction. Phys. Rev. B 72, 52103 (2005).",
+        "journal-title": "Phys. Rev. B"
+      },
+      {
+        "key": "59140_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "221",
+        "DOI": "10.1016/j.jsb.2008.07.011",
+        "volume": "164",
+        "author": "E Lee",
+        "year": "2008",
+        "unstructured": "Lee, E. et al. Radiation dose reduction and image enhancement in biological imaging through equally-sloped tomography. J. Struct. Biol. 164, 221–227 (2008).",
+        "journal-title": "J. Struct. Biol."
+      },
+      {
+        "key": "59140_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "75",
+        "DOI": "10.1038/nature21042",
+        "volume": "542",
+        "author": "Y Yang",
+        "year": "2017",
+        "unstructured": "Yang, Y. et al. Deciphering chemical order/disorder and material properties at the single-atom level. Nature 542, 75–79 (2017).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "59140_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41598-017-09847-1",
+        "volume": "7",
+        "author": "A Pryor",
+        "year": "2017",
+        "unstructured": "Pryor, A. et al. GENFIRE: A generalized Fourier iterative reconstruction algorithm for high-resolution 3D imaging. Sci. Rep. 7, 1–12 (2017).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "59140_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "5624",
+        "DOI": "10.1038/s41598-023-31124-7",
+        "volume": "13",
+        "author": "M Pham",
+        "year": "2023",
+        "unstructured": "Pham, M., Yuan, Y., Rana, A., Osher, S. & Miao, J. Accurate real space iterative reconstruction (RESIRE) algorithm for tomography. Sci. Rep. 13, 5624 (2023).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "59140_CR22",
+        "unstructured": "Yang, Y. et al. Atomic-scale identification of the active sites of nanocatalysts. arXiv preprint arXiv:2202.09460 (2022)."
+      },
+      {
+        "key": "59140_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "564",
+        "DOI": "10.1038/s41586-023-06785-z",
+        "volume": "624",
+        "author": "S Moniri",
+        "year": "2023",
+        "unstructured": "Moniri, S. et al. Three-dimensional atomic structure and local chemical order of medium-and high-entropy nanoalloys. Nature 624, 564–569 (2023).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "59140_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "22488",
+        "DOI": "10.1021/acsnano.3c05977",
+        "volume": "17",
+        "author": "SY Lee",
+        "year": "2023",
+        "unstructured": "Lee, S. Y. et al. Nanoscale three-dimensional network structure of a mesoporous particle unveiled via adaptive multidistance coherent x-ray tomography. ACS Nano 17, 22488–22498 (2023).",
+        "journal-title": "ACS Nano"
+      },
+      {
+        "key": "59140_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "503",
+        "DOI": "10.1016/j.ultramic.2007.08.002",
+        "volume": "108",
+        "author": "C Phatak",
+        "year": "2008",
+        "unstructured": "Phatak, C., Beleggia, M. & De Graef, M. Vector field electron tomography of magnetic materials: Theoretical development. Ultramicroscopy 108, 503–513 (2008).",
+        "journal-title": "Ultramicroscopy"
+      },
+      {
+        "key": "59140_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "253901",
+        "DOI": "10.1103/PhysRevLett.104.253901",
+        "volume": "104",
+        "author": "C Phatak",
+        "year": "2010",
+        "unstructured": "Phatak, C., Petford-Long, A. K. & De Graef, M. Three-dimensional study of the vector potential of magnetic structures. Phys. Rev. Lett. 104, 253901 (2010).",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "59140_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "4141",
+        "DOI": "10.1021/acs.nanolett.6b01011",
+        "volume": "16",
+        "author": "C Phatak",
+        "year": "2016",
+        "unstructured": "Phatak, C., Heinonen, O., De Graef, M. & Petford-Long, A. Nanoscale skyrmions in a nonchiral metallic multiferroic: Ni$$_2$$MnGa. Nano Lett. 16, 4141–4148 (2016).",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "59140_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "87",
+        "DOI": "10.1038/s42005-019-0187-8",
+        "volume": "2",
+        "author": "D Wolf",
+        "year": "2019",
+        "unstructured": "Wolf, D. et al. Holographic vector field electron tomography of three-dimensional nanomagnets. Commun. Phys. 2, 87 (2019).",
+        "journal-title": "Commun. Phys."
+      },
+      {
+        "key": "59140_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "7313",
+        "DOI": "10.1021/acs.nanolett.0c02708",
+        "volume": "20",
+        "author": "X Yu",
+        "year": "2020",
+        "unstructured": "Yu, X. et al. Real-space observation of topological defects in extended skyrmion-strings. Nano Lett. 20, 7313–7320 (2020).",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "59140_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "250",
+        "DOI": "10.1038/s41565-021-01031-x",
+        "volume": "17",
+        "author": "D Wolf",
+        "year": "2022",
+        "unstructured": "Wolf, D. et al. Unveiling the three-dimensional magnetic texture of skyrmion tubes. Nat. Nanotechnol. 17, 250–255 (2022).",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "59140_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "320",
+        "DOI": "10.1017/S1431927622002057",
+        "volume": "28",
+        "author": "GR Lewis",
+        "year": "2022",
+        "unstructured": "Lewis, G. R., Ringe, E. & Midgley, P. Multi-axis acquisition schemes for scalar and vector electron tomography. Microsc. Microanal. 28, 320–322 (2022).",
+        "journal-title": "Microsc. Microanal."
+      },
+      {
+        "key": "59140_CR32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ultramic.2023.113804",
+        "volume": "253",
+        "author": "GR Lewis",
+        "year": "2023",
+        "unstructured": "Lewis, G. R., Wolf, D., Lubk, A., Ringe, E. & Midgley, P. A. Wrap: A wavelet-regularised reconstruction algorithm for magnetic vector electron tomography. Ultramicroscopy 253, 113804 (2023).",
+        "journal-title": "Ultramicroscopy"
+      },
+      {
+        "key": "59140_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "7612",
+        "DOI": "10.1038/ncomms8612",
+        "volume": "6",
+        "author": "R Streubel",
+        "year": "2015",
+        "unstructured": "Streubel, R. et al. Retrieving spin textures on curved magnetic thin films with full-field soft X-ray microscopies. Nat. Commun. 6, 7612 (2015).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "59140_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "328",
+        "DOI": "10.1038/nature23006",
+        "volume": "547",
+        "author": "C Donnelly",
+        "year": "2017",
+        "unstructured": "Donnelly, C. et al. Three-dimensional magnetization structures revealed with X-ray vector nanotomography. Nature 547, 328–331 (2017).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "59140_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "356",
+        "DOI": "10.1038/s41565-020-0649-x",
+        "volume": "15",
+        "author": "C Donnelly",
+        "year": "2020",
+        "unstructured": "Donnelly, C. et al. Time-resolved imaging of three-dimensional nanoscale magnetization dynamics. Nat. Nanotechnol. 15, 356–360 (2020).",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "59140_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "6382",
+        "DOI": "10.1038/s41467-020-20119-x",
+        "volume": "11",
+        "author": "A Hierro-Rodríguez",
+        "year": "2020",
+        "unstructured": "Hierro-Rodríguez, A. et al. Revealing 3D magnetization of thin films with soft x-ray tomography: Magnetic singularities and topological charges. Nat. Commun. 11, 6382 (2020).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "59140_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "1305",
+        "DOI": "10.1021/acs.nanolett.9b04782",
+        "volume": "20",
+        "author": "K Witte",
+        "year": "2020",
+        "unstructured": "Witte, K. et al. From 2D stxm to 3D imaging: Soft x-ray laminography of thin specimens. Nano Lett. 20, 1305–1314 (2020).",
+        "journal-title": "Nano Lett."
+      },
+      {
+        "key": "59140_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "316",
+        "DOI": "10.1038/s41567-020-01057-3",
+        "volume": "17",
+        "author": "C Donnelly",
+        "year": "2021",
+        "unstructured": "Donnelly, C. et al. Experimental observation of vortex rings in a bulk magnet. Nat. Phys. 17, 316–321 (2021).",
+        "journal-title": "Nat. Phys."
+      },
+      {
+        "key": "59140_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "136",
+        "DOI": "10.1038/s41565-021-01027-7",
+        "volume": "17",
+        "author": "C Donnelly",
+        "year": "2022",
+        "unstructured": "Donnelly, C. et al. Complex free-space magnetic field textures induced by three-dimensional magnetic nanostructures. Nat. Nanotechnol. 17, 136–142 (2022).",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "59140_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "26",
+        "DOI": "10.1038/s42005-021-00800-3",
+        "volume": "5",
+        "author": "J Hermosa-Muñoz",
+        "year": "2022",
+        "unstructured": "Hermosa-Muñoz, J. et al. 3D magnetic configuration of ferrimagnetic multilayers with competing interactions visualized by soft x-ray vector tomography. Commun. Phys. 5, 26 (2022).",
+        "journal-title": "Commun. Phys."
+      },
+      {
+        "key": "59140_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "227",
+        "DOI": "10.1038/s41565-022-01311-0",
+        "volume": "18",
+        "author": "A Rana",
+        "year": "2023",
+        "unstructured": "Rana, A. et al. Three-dimensional topological magnetic monopoles and their interactions in a ferromagnetic meta-lattice. Nat. Nanotechnol. 18, 227–232 (2023).",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "59140_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "342",
+        "DOI": "10.1038/22498",
+        "volume": "400",
+        "author": "J Miao",
+        "year": "1999",
+        "unstructured": "Miao, J., Charalambous, P., Kirz, J. & Sayre, D. Extending the methodology of X-ray crystallography to allow imaging of micrometre-sized non-crystalline specimens. Nature 400, 342–344 (1999).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "59140_CR43",
+        "unstructured": "Lu, X. et al. Visualizing magnetic order in self-assembly of superparamagnetic nanoparticles. arXiv preprint arXiv:2401.01284 (2024)."
+      },
+      {
+        "key": "59140_CR44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.56021/9780801868665",
+        "volume-title": "An Introduction to Stochastic Processes in Physics",
+        "author": "DS Lemons",
+        "year": "2003",
+        "unstructured": "Lemons, D. S. An Introduction to Stochastic Processes in Physics (JHU Press, 2003)."
+      },
+      {
+        "key": "59140_CR45",
+        "volume-title": "Two-Dimensional Imaging",
+        "author": "RN Bracewell",
+        "year": "1995",
+        "unstructured": "Bracewell, R. N. Two-Dimensional Imaging (Prentice-Hall International, 1995)."
+      },
+      {
+        "key": "59140_CR46",
+        "volume-title": "Two-Dimensional Signal and Image Processing",
+        "author": "JS Lim",
+        "year": "1990",
+        "unstructured": "Lim, J. S. Two-Dimensional Signal and Image Processing (Prentice- Hall, 1990)."
+      },
+      {
+        "key": "59140_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "1839",
+        "DOI": "10.1109/TMI.2010.2050898",
+        "volume": "29",
+        "author": "Y Long",
+        "year": "2010",
+        "unstructured": "Long, Y., Fessler, J. A. & Balter, J. M. 3D forward and back-projection for X-ray CT using separable footprints. IEEE Trans. Med. Imaging 29, 1839–1850 (2010).",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "key": "59140_CR48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shu, Z. & Entezari, A. Gram filtering and sinogram interpolation for pixel-basis in parallel-beam x-ray CT reconstruction. In 2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI), 624–628 (IEEE, 2020).",
+        "DOI": "10.1109/ISBI45749.2020.9098330"
+      },
+      {
+        "key": "59140_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "3080",
+        "DOI": "10.1002/mp.15547",
+        "volume": "49",
+        "author": "Z Shu",
+        "year": "2022",
+        "unstructured": "Shu, Z. & Entezari, A. Exact gram filtering and efficient backprojection for iterative CT reconstruction. Med. Phys. 49, 3080–3092 (2022).",
+        "journal-title": "Med. Phys."
+      },
+      {
+        "key": "59140_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "161",
+        "DOI": "10.1111/j.1365-246X.1989.tb00491.x",
+        "volume": "97",
+        "author": "SJ Norton",
+        "year": "1989",
+        "unstructured": "Norton, S. J. Tomographic reconstruction of 2-D vector fields: Application to flow imaging. Geophys. J. Int. 97, 161–168 (1989).",
+        "journal-title": "Geophys. J. Int."
+      },
+      {
+        "key": "59140_CR51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Prince, J. L. Tomographic reconstruction of 3-D vector fields. In 1993 IEEE International Conference on Acoustics, Speech, and Signal Processing, vol. 5, 483–486 (IEEE, 1993).",
+        "DOI": "10.1109/ICASSP.1993.319853"
+      },
+      {
+        "key": "59140_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "216",
+        "DOI": "10.1109/83.277903",
+        "volume": "3",
+        "author": "J Prince",
+        "year": "1994",
+        "unstructured": "Prince, J. Tomographic reconstruction of 3-D vector fields using inner product probes. IEEE Trans. Image Process. 3, 216–219 (1994).",
+        "journal-title": "IEEE Trans. Image Process."
+      },
+      {
+        "key": "59140_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "393",
+        "DOI": "10.1016/0304-3991(95)00078-X",
+        "volume": "60",
+        "author": "P Penczek",
+        "year": "1995",
+        "unstructured": "Penczek, P., Marko, M., Buttle, K. & Frank, J. Double-tilt electron tomography. Ultramicroscopy 60, 393–410 (1995).",
+        "journal-title": "Ultramicroscopy"
+      },
+      {
+        "key": "59140_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "994",
+        "DOI": "10.1016/j.ultramic.2006.05.010",
+        "volume": "106",
+        "author": "I Arslan",
+        "year": "2006",
+        "unstructured": "Arslan, I., Tong, J. R. & Midgley, P. A. Reducing the missing wedge: High-resolution dual axis tomography of inorganic materials. Ultramicroscopy 106, 994–1000 (2006).",
+        "journal-title": "Ultramicroscopy"
+      },
+      {
+        "key": "59140_CR55",
+        "volume-title": "Micromagnetics",
+        "author": "WF Brown",
+        "year": "1963",
+        "unstructured": "Brown, W. F. Micromagnetics (Interscience Publisher, 1963)."
+      },
+      {
+        "key": "59140_CR56",
+        "first-page": "182",
+        "volume-title": "Micromagnetics",
+        "author": "A Friedman",
+        "year": "1992",
+        "unstructured": "Friedman, A. Micromagnetics 182–192 (Springer, 1992)."
+      },
+      {
+        "key": "59140_CR57",
+        "doi-asserted-by": "publisher",
+        "first-page": "9533",
+        "DOI": "10.1029/92JB02974",
+        "volume": "98",
+        "author": "AJ Newell",
+        "year": "1993",
+        "unstructured": "Newell, A. J., Dunlop, D. J. & Williams, W. A two-dimensional micromagnetic model of magnetizations and fields in magnetite. J. Geophys. Res. 98, 9533–9549 (1993).",
+        "journal-title": "J. Geophys. Res."
+      },
+      {
+        "key": "59140_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "1256",
+        "DOI": "10.1016/j.ultramic.2009.05.012",
+        "volume": "109",
+        "author": "AM Maiden",
+        "year": "2009",
+        "unstructured": "Maiden, A. M. & Rodenburg, J. M. An improved ptychographical phase retrieval algorithm for diffractive imaging. Ultramicroscopy 109, 1256–1262 (2009).",
+        "journal-title": "Ultramicroscopy"
+      },
+      {
+        "key": "59140_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "736",
+        "DOI": "10.1364/OPTICA.4.000736",
+        "volume": "4",
+        "author": "A Maiden",
+        "year": "2017",
+        "unstructured": "Maiden, A., Johnson, D. & Li, P. Further improvements to the ptychographical iterative engine. Optica 4, 736–745 (2017).",
+        "journal-title": "Optica"
+      },
+      {
+        "key": "59140_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "31246",
+        "DOI": "10.1364/OE.27.031246",
+        "volume": "27",
+        "author": "M Pham",
+        "year": "2019",
+        "unstructured": "Pham, M., Rana, A., Miao, J. & Osher, S. Semi-implicit relaxed Douglas–Rachford algorithm (sDR) for ptychography. Opt. Express 27, 31246–31260 (2019).",
+        "journal-title": "Opt. Express"
+      },
+      {
+        "key": "59140_CR61",
+        "doi-asserted-by": "publisher",
+        "first-page": "7262",
+        "DOI": "10.1103/PhysRevB.42.7262",
+        "volume": "42",
+        "author": "CT Chen",
+        "year": "1990",
+        "unstructured": "Chen, C. T., Sette, F., Ma, Y. & Modesti, S. Soft-x-ray magnetic circular dichroism at the $${\\mathit{l}}_{2,3}$$ edges of nickel. Phys. Rev. B 42, 7262–7265 (1990).",
+        "journal-title": "Phys. Rev. B"
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-024-59140-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-024-59140-1",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-024-59140-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          16
+        ]
+      ],
+      "date-time": "2024-11-16T20:53:24Z",
+      "timestamp": 1731790404000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-024-59140-1"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          25
+        ]
+      ]
+    },
+    "references-count": 61,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "59140"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-024-59140-1",
+    "relation": {},
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2045-2322"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          25
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "12 October 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "8 April 2024",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "25 April 2024",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "9541"
+  }
+}

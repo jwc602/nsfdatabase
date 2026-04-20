@@ -1,0 +1,2301 @@
+{
+  "doi": "10.1126/sciadv.adk8471",
+  "openalex": {
+    "id": "https://openalex.org/W4399376491",
+    "doi": "https://doi.org/10.1126/sciadv.adk8471",
+    "title": "Deep random forest with ferroelectric analog content addressable memory",
+    "display_name": "Deep random forest with ferroelectric analog content addressable memory",
+    "publication_year": 2024,
+    "publication_date": "2024-06-05",
+    "ids": {
+      "openalex": "https://openalex.org/W4399376491",
+      "doi": "https://doi.org/10.1126/sciadv.adk8471",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38838137"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1126/sciadv.adk8471",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1126/sciadv.adk8471",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2737427234",
+        "display_name": "Science Advances",
+        "issn_l": "2375-2548",
+        "issn": [
+          "2375-2548"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315823",
+        "host_organization_name": "American Association for the Advancement of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315823"
+        ],
+        "host_organization_lineage_names": [
+          "American Association for the Advancement of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Science Advances",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1126/sciadv.adk8471",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5071383109",
+          "display_name": "Xunzhao Yin",
+          "orcid": "https://orcid.org/0000-0003-4656-9545"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210124033",
+            "display_name": "Blood Center of Zhejiang Province",
+            "ror": "https://ror.org/02p620w18",
+            "country_code": "CN",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I4210124033"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I76130692",
+            "display_name": "Zhejiang University",
+            "ror": "https://ror.org/00a2xv884",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xunzhao Yin",
+        "raw_affiliation_strings": [
+          "Key Laboratory of CS&amp;AUS of Zhejiang Province, Hangzhou, China.",
+          "Zhejiang University, Hangzhou, Zhejiang, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Zhejiang University, Hangzhou, Zhejiang, China.",
+            "institution_ids": [
+              "https://openalex.org/I76130692"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Key Laboratory of CS&amp;AUS of Zhejiang Province, Hangzhou, China.",
+            "institution_ids": [
+              "https://openalex.org/I4210124033"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5002630852",
+          "display_name": "Franz Müller",
+          "orcid": "https://orcid.org/0000-0002-6564-9121"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110247",
+            "display_name": "Fraunhofer Institute for Photonic Microsystems",
+            "ror": "https://ror.org/020n3fw10",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110247",
+              "https://openalex.org/I4923324"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Franz Müller",
+        "raw_affiliation_strings": [
+          "Fraunhofer IPMS, Dresden, Germany."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Fraunhofer IPMS, Dresden, Germany.",
+            "institution_ids": [
+              "https://openalex.org/I4210110247"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5053712676",
+          "display_name": "Ann Franchesca Laguna",
+          "orcid": "https://orcid.org/0000-0001-8267-1040"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I5996616",
+            "display_name": "De La Salle University",
+            "ror": "https://ror.org/04xftk194",
+            "country_code": "PH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I5996616"
+            ]
+          }
+        ],
+        "countries": [
+          "PH"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ann Franchesca Laguna",
+        "raw_affiliation_strings": [
+          "De La Salle University, Manila, Philippines."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "De La Salle University, Manila, Philippines.",
+            "institution_ids": [
+              "https://openalex.org/I5996616"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100323280",
+          "display_name": "Chao Li",
+          "orcid": "https://orcid.org/0000-0003-3289-3248"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I76130692",
+            "display_name": "Zhejiang University",
+            "ror": "https://ror.org/00a2xv884",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chao Li",
+        "raw_affiliation_strings": [
+          "Zhejiang University, Hangzhou, Zhejiang, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Zhejiang University, Hangzhou, Zhejiang, China.",
+            "institution_ids": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5038892779",
+          "display_name": "Qingrong Huang",
+          "orcid": "https://orcid.org/0000-0002-3196-4203"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I76130692",
+            "display_name": "Zhejiang University",
+            "ror": "https://ror.org/00a2xv884",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qingrong Huang",
+        "raw_affiliation_strings": [
+          "Zhejiang University, Hangzhou, Zhejiang, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Zhejiang University, Hangzhou, Zhejiang, China.",
+            "institution_ids": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5041940889",
+          "display_name": "Zhiguo Shi",
+          "orcid": "https://orcid.org/0000-0001-9160-048X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210124033",
+            "display_name": "Blood Center of Zhejiang Province",
+            "ror": "https://ror.org/02p620w18",
+            "country_code": "CN",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I4210124033"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I76130692",
+            "display_name": "Zhejiang University",
+            "ror": "https://ror.org/00a2xv884",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhiguo Shi",
+        "raw_affiliation_strings": [
+          "Key Laboratory of CS&amp;AUS of Zhejiang Province, Hangzhou, China.",
+          "Zhejiang University, Hangzhou, Zhejiang, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Zhejiang University, Hangzhou, Zhejiang, China.",
+            "institution_ids": [
+              "https://openalex.org/I76130692"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Key Laboratory of CS&amp;AUS of Zhejiang Province, Hangzhou, China.",
+            "institution_ids": [
+              "https://openalex.org/I4210124033"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5029087712",
+          "display_name": "Maximilian Lederer",
+          "orcid": "https://orcid.org/0000-0002-1739-2747"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110247",
+            "display_name": "Fraunhofer Institute for Photonic Microsystems",
+            "ror": "https://ror.org/020n3fw10",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110247",
+              "https://openalex.org/I4923324"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Maximilian Lederer",
+        "raw_affiliation_strings": [
+          "Fraunhofer IPMS, Dresden, Germany."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Fraunhofer IPMS, Dresden, Germany.",
+            "institution_ids": [
+              "https://openalex.org/I4210110247"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5081186426",
+          "display_name": "Nellie Laleni",
+          "orcid": "https://orcid.org/0000-0002-2445-9989"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110247",
+            "display_name": "Fraunhofer Institute for Photonic Microsystems",
+            "ror": "https://ror.org/020n3fw10",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110247",
+              "https://openalex.org/I4923324"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Nellie Laleni",
+        "raw_affiliation_strings": [
+          "Fraunhofer IPMS, Dresden, Germany."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Fraunhofer IPMS, Dresden, Germany.",
+            "institution_ids": [
+              "https://openalex.org/I4210110247"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5026610593",
+          "display_name": "Shan Deng",
+          "orcid": "https://orcid.org/0000-0003-1137-8626"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107639228",
+            "display_name": "University of Notre Dame",
+            "ror": "https://ror.org/00mkhxb43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shan Deng",
+        "raw_affiliation_strings": [
+          "University of Notre Dame, Notre Dame, IN 46614, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Notre Dame, Notre Dame, IN 46614, USA.",
+            "institution_ids": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5049877206",
+          "display_name": "Zijian Zhao",
+          "orcid": "https://orcid.org/0000-0001-5191-6447"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107639228",
+            "display_name": "University of Notre Dame",
+            "ror": "https://ror.org/00mkhxb43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zijian Zhao",
+        "raw_affiliation_strings": [
+          "University of Notre Dame, Notre Dame, IN 46614, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Notre Dame, Notre Dame, IN 46614, USA.",
+            "institution_ids": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5033221192",
+          "display_name": "Mohsen Imani",
+          "orcid": "https://orcid.org/0000-0002-5761-0622"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204250578",
+            "display_name": "University of California, Irvine",
+            "ror": "https://ror.org/04gyf1771",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204250578"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mohsen Imani",
+        "raw_affiliation_strings": [
+          "University of California, Irvine, CA 92697, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Irvine, CA 92697, USA.",
+            "institution_ids": [
+              "https://openalex.org/I204250578"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5000141831",
+          "display_name": "Yiyu Shi",
+          "orcid": "https://orcid.org/0000-0002-6788-9823"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107639228",
+            "display_name": "University of Notre Dame",
+            "ror": "https://ror.org/00mkhxb43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yiyu Shi",
+        "raw_affiliation_strings": [
+          "University of Notre Dame, Notre Dame, IN 46614, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Notre Dame, Notre Dame, IN 46614, USA.",
+            "institution_ids": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003032564",
+          "display_name": "Michael Niemier",
+          "orcid": "https://orcid.org/0000-0001-7776-4306"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107639228",
+            "display_name": "University of Notre Dame",
+            "ror": "https://ror.org/00mkhxb43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Michael Niemier",
+        "raw_affiliation_strings": [
+          "University of Notre Dame, Notre Dame, IN 46614, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Notre Dame, Notre Dame, IN 46614, USA.",
+            "institution_ids": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100600905",
+          "display_name": "Xiaobo Sharon Hu",
+          "orcid": "https://orcid.org/0000-0002-6636-9738"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107639228",
+            "display_name": "University of Notre Dame",
+            "ror": "https://ror.org/00mkhxb43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaobo Sharon Hu",
+        "raw_affiliation_strings": [
+          "University of Notre Dame, Notre Dame, IN 46614, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Notre Dame, Notre Dame, IN 46614, USA.",
+            "institution_ids": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5054211420",
+          "display_name": "Cheng Zhuo",
+          "orcid": "https://orcid.org/0000-0002-2610-7522"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210124033",
+            "display_name": "Blood Center of Zhejiang Province",
+            "ror": "https://ror.org/02p620w18",
+            "country_code": "CN",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I4210124033"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I76130692",
+            "display_name": "Zhejiang University",
+            "ror": "https://ror.org/00a2xv884",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Cheng Zhuo",
+        "raw_affiliation_strings": [
+          "Key Laboratory of CS&amp;AUS of Zhejiang Province, Hangzhou, China.",
+          "Zhejiang University, Hangzhou, Zhejiang, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Zhejiang University, Hangzhou, Zhejiang, China.",
+            "institution_ids": [
+              "https://openalex.org/I76130692"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Key Laboratory of CS&amp;AUS of Zhejiang Province, Hangzhou, China.",
+            "institution_ids": [
+              "https://openalex.org/I4210124033"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5079324627",
+          "display_name": "Thomas Kämpfe",
+          "orcid": "https://orcid.org/0000-0002-4672-8676"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110247",
+            "display_name": "Fraunhofer Institute for Photonic Microsystems",
+            "ror": "https://ror.org/020n3fw10",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110247",
+              "https://openalex.org/I4923324"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Thomas Kämpfe",
+        "raw_affiliation_strings": [
+          "Fraunhofer IPMS, Dresden, Germany."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Fraunhofer IPMS, Dresden, Germany.",
+            "institution_ids": [
+              "https://openalex.org/I4210110247"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5075633314",
+          "display_name": "Kai Ni",
+          "orcid": "https://orcid.org/0000-0002-3628-3431"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107639228",
+            "display_name": "University of Notre Dame",
+            "ror": "https://ror.org/00mkhxb43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kai Ni",
+        "raw_affiliation_strings": [
+          "University of Notre Dame, Notre Dame, IN 46614, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Notre Dame, Notre Dame, IN 46614, USA.",
+            "institution_ids": [
+              "https://openalex.org/I107639228"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 4,
+    "institutions_distinct_count": 17,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 4500,
+      "currency": "USD",
+      "value_usd": 4500
+    },
+    "apc_paid": {
+      "value": 4500,
+      "currency": "USD",
+      "value_usd": 4500
+    },
+    "fwci": 21.01016451,
+    "has_fulltext": false,
+    "cited_by_count": 22,
+    "citation_normalized_percentile": {
+      "value": 0.99546346,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "10",
+      "issue": "23",
+      "first_page": "eadk8471",
+      "last_page": "eadk8471"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12326",
+      "display_name": "Network Packet Processing and Optimization",
+      "score": 0.9972000122070312,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1708",
+        "display_name": "Hardware and Architecture"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12326",
+        "display_name": "Network Packet Processing and Optimization",
+        "score": 0.9972000122070312,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1708",
+          "display_name": "Hardware and Architecture"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12808",
+        "display_name": "Ferroelectric and Negative Capacitance Devices",
+        "score": 0.9957000017166138,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12676",
+        "display_name": "Machine Learning and ELM",
+        "score": 0.993399977684021,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/ferroelectricity",
+        "display_name": "Ferroelectricity",
+        "score": 0.5894232988357544
+      },
+      {
+        "id": "https://openalex.org/keywords/random-forest",
+        "display_name": "Random forest",
+        "score": 0.579439640045166
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5524472594261169
+      },
+      {
+        "id": "https://openalex.org/keywords/content",
+        "display_name": "Content (measure theory)",
+        "score": 0.5289602279663086
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.3057973384857178
+      },
+      {
+        "id": "https://openalex.org/keywords/materials-science",
+        "display_name": "Materials science",
+        "score": 0.21606630086898804
+      },
+      {
+        "id": "https://openalex.org/keywords/optoelectronics",
+        "display_name": "Optoelectronics",
+        "score": 0.13443729281425476
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.11487933993339539
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C79090758",
+        "wikidata": "https://www.wikidata.org/wiki/Q1045739",
+        "display_name": "Ferroelectricity",
+        "level": 3,
+        "score": 0.5894232988357544
+      },
+      {
+        "id": "https://openalex.org/C169258074",
+        "wikidata": "https://www.wikidata.org/wiki/Q245748",
+        "display_name": "Random forest",
+        "level": 2,
+        "score": 0.579439640045166
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5524472594261169
+      },
+      {
+        "id": "https://openalex.org/C2778152352",
+        "wikidata": "https://www.wikidata.org/wiki/Q5165061",
+        "display_name": "Content (measure theory)",
+        "level": 2,
+        "score": 0.5289602279663086
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.3057973384857178
+      },
+      {
+        "id": "https://openalex.org/C192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "level": 0,
+        "score": 0.21606630086898804
+      },
+      {
+        "id": "https://openalex.org/C49040817",
+        "wikidata": "https://www.wikidata.org/wiki/Q193091",
+        "display_name": "Optoelectronics",
+        "level": 1,
+        "score": 0.13443729281425476
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.11487933993339539
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C133386390",
+        "wikidata": "https://www.wikidata.org/wiki/Q184996",
+        "display_name": "Dielectric",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1126/sciadv.adk8471",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1126/sciadv.adk8471",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2737427234",
+          "display_name": "Science Advances",
+          "issn_l": "2375-2548",
+          "issn": [
+            "2375-2548"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315823",
+          "host_organization_name": "American Association for the Advancement of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315823"
+          ],
+          "host_organization_lineage_names": [
+            "American Association for the Advancement of Science"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science Advances",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38838137",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38838137",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science advances",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:publica.fraunhofer.de:publica/473962",
+        "is_oa": true,
+        "landing_page_url": "https://publica.fraunhofer.de/handle/publica/473962",
+        "pdf_url": null,
+        "source": null,
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "journal article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11152117",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11152117",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Sci Adv",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1126/sciadv.adk8471",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1126/sciadv.adk8471",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2737427234",
+        "display_name": "Science Advances",
+        "issn_l": "2375-2548",
+        "issn": [
+          "2375-2548"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315823",
+        "host_organization_name": "American Association for the Advancement of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315823"
+        ],
+        "host_organization_lineage_names": [
+          "American Association for the Advancement of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Science Advances",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/7",
+        "display_name": "Affordable and clean energy",
+        "score": 0.7900000214576721
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 59,
+    "referenced_works": [
+      "https://openalex.org/W2914770420",
+      "https://openalex.org/W3090974145",
+      "https://openalex.org/W2950865323",
+      "https://openalex.org/W2796625795",
+      "https://openalex.org/W2962814013",
+      "https://openalex.org/W2904001923",
+      "https://openalex.org/W2739349903",
+      "https://openalex.org/W2913240367",
+      "https://openalex.org/W2981731882",
+      "https://openalex.org/W4232714830",
+      "https://openalex.org/W2998768810",
+      "https://openalex.org/W3202965278",
+      "https://openalex.org/W4313070479",
+      "https://openalex.org/W2062143991",
+      "https://openalex.org/W1536792390",
+      "https://openalex.org/W2613567208",
+      "https://openalex.org/W2988640543",
+      "https://openalex.org/W3014426053",
+      "https://openalex.org/W2959627720",
+      "https://openalex.org/W3138860252",
+      "https://openalex.org/W3183791462",
+      "https://openalex.org/W4317793571",
+      "https://openalex.org/W4311453553",
+      "https://openalex.org/W2893163116",
+      "https://openalex.org/W4241264387",
+      "https://openalex.org/W2583357209",
+      "https://openalex.org/W2990400855",
+      "https://openalex.org/W4362700144",
+      "https://openalex.org/W3119539814",
+      "https://openalex.org/W2568885332",
+      "https://openalex.org/W3096636128",
+      "https://openalex.org/W3137637417",
+      "https://openalex.org/W2787453651",
+      "https://openalex.org/W2912270587",
+      "https://openalex.org/W3010984916",
+      "https://openalex.org/W2899077824",
+      "https://openalex.org/W3042595622",
+      "https://openalex.org/W3097711322",
+      "https://openalex.org/W2902193101",
+      "https://openalex.org/W2112796928",
+      "https://openalex.org/W2028560166",
+      "https://openalex.org/W2130325614",
+      "https://openalex.org/W3033330790",
+      "https://openalex.org/W1556131344",
+      "https://openalex.org/W3120468981",
+      "https://openalex.org/W2122757690",
+      "https://openalex.org/W4249654426",
+      "https://openalex.org/W2162741763",
+      "https://openalex.org/W2121990650",
+      "https://openalex.org/W2015222750",
+      "https://openalex.org/W2020300099",
+      "https://openalex.org/W2591601611",
+      "https://openalex.org/W2782511028",
+      "https://openalex.org/W2790556218",
+      "https://openalex.org/W2799821226",
+      "https://openalex.org/W2001619934",
+      "https://openalex.org/W3098486933",
+      "https://openalex.org/W3098380984",
+      "https://openalex.org/W3098780461"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2795319754",
+      "https://openalex.org/W3193043704",
+      "https://openalex.org/W4386259002",
+      "https://openalex.org/W1546989560",
+      "https://openalex.org/W2248971758",
+      "https://openalex.org/W2332612935",
+      "https://openalex.org/W3171520305",
+      "https://openalex.org/W2410108108"
+    ],
+    "abstract_inverted_index": {
+      "Deep": [
+        0
+      ],
+      "random": [
+        1,
+        9
+      ],
+      "forest": [
+        2
+      ],
+      "(DRF),": [
+        3
+      ],
+      "which": [
+        4
+      ],
+      "combines": [
+        5
+      ],
+      "deep": [
+        6,
+        21
+      ],
+      "learning": [
+        7
+      ],
+      "and": [
+        8,
+        17,
+        101,
+        113,
+        120,
+        131,
+        145,
+        152
+      ],
+      "forest,": [
+        10
+      ],
+      "exhibits": [
+        11
+      ],
+      "comparable": [
+        12
+      ],
+      "accuracy,": [
+        13
+      ],
+      "interpretability,": [
+        14
+      ],
+      "low": [
+        15
+      ],
+      "memory": [
+        16,
+        69
+      ],
+      "computational": [
+        18
+      ],
+      "overhead": [
+        19
+      ],
+      "to": [
+        20,
+        41,
+        105,
+        156
+      ],
+      "neural": [
+        22
+      ],
+      "networks": [
+        23
+      ],
+      "(DNNs)": [
+        24
+      ],
+      "in": [
+        25,
+        45,
+        95,
+        129,
+        150
+      ],
+      "edge": [
+        26
+      ],
+      "intelligence": [
+        27
+      ],
+      "tasks.": [
+        28
+      ],
+      "However,": [
+        29
+      ],
+      "efficient": [
+        30
+      ],
+      "DRF": [
+        31,
+        42,
+        59,
+        98,
+        119,
+        139,
+        158
+      ],
+      "accelerator": [
+        32,
+        99,
+        140
+      ],
+      "is": [
+        33
+      ],
+      "lagging": [
+        34
+      ],
+      "behind": [
+        35
+      ],
+      "its": [
+        36,
+        102,
+        121
+      ],
+      "DNN": [
+        37
+      ],
+      "counterparts.": [
+        38
+      ],
+      "The": [
+        39,
+        97,
+        110
+      ],
+      "key": [
+        40
+      ],
+      "acceleration": [
+        43
+      ],
+      "lies": [
+        44
+      ],
+      "realizing": [
+        46
+      ],
+      "the": [
+        47,
+        79,
+        116,
+        136
+      ],
+      "branch-split": [
+        48,
+        85
+      ],
+      "operation": [
+        49
+      ],
+      "at": [
+        50
+      ],
+      "decision": [
+        51,
+        89
+      ],
+      "nodes.": [
+        52
+      ],
+      "In": [
+        53
+      ],
+      "this": [
+        54
+      ],
+      "work,": [
+        55
+      ],
+      "we": [
+        56
+      ],
+      "propose": [
+        57
+      ],
+      "implementing": [
+        58
+      ],
+      "through": [
+        60
+      ],
+      "associative": [
+        61
+      ],
+      "searches": [
+        62
+      ],
+      "realized": [
+        63
+      ],
+      "with": [
+        64
+      ],
+      "ferroelectric": [
+        65,
+        74
+      ],
+      "analog": [
+        66,
+        92
+      ],
+      "content": [
+        67
+      ],
+      "addressable": [
+        68
+      ],
+      "(ACAM).": [
+        70
+      ],
+      "Utilizing": [
+        71
+      ],
+      "only": [
+        72
+      ],
+      "two": [
+        73
+      ],
+      "field": [
+        75
+      ],
+      "effect": [
+        76
+      ],
+      "transistors": [
+        77
+      ],
+      "(FeFETs),": [
+        78
+      ],
+      "ultra-compact": [
+        80
+      ],
+      "ACAM": [
+        81,
+        106,
+        118,
+        138
+      ],
+      "cell": [
+        82
+      ],
+      "performs": [
+        83
+      ],
+      "energy-efficient": [
+        84
+      ],
+      "operations": [
+        86
+      ],
+      "by": [
+        87
+      ],
+      "storing": [
+        88
+      ],
+      "boundaries": [
+        90
+      ],
+      "as": [
+        91
+      ],
+      "polarization": [
+        93
+      ],
+      "states": [
+        94
+      ],
+      "FeFETs.": [
+        96
+      ],
+      "architecture": [
+        100
+      ],
+      "model": [
+        103
+      ],
+      "mapping": [
+        104
+      ],
+      "arrays": [
+        107
+      ],
+      "are": [
+        108,
+        127
+      ],
+      "presented.": [
+        109
+      ],
+      "functionality,": [
+        111
+      ],
+      "characteristics,": [
+        112
+      ],
+      "scalability": [
+        114
+      ],
+      "of": [
+        115
+      ],
+      "FeFET": [
+        117,
+        124,
+        137
+      ],
+      "robustness": [
+        122
+      ],
+      "against": [
+        123
+      ],
+      "device": [
+        125
+      ],
+      "non-idealities": [
+        126
+      ],
+      "validated": [
+        128
+      ],
+      "experiments": [
+        130
+      ],
+      "simulations.": [
+        132
+      ],
+      "Evaluations": [
+        133
+      ],
+      "show": [
+        134
+      ],
+      "that": [
+        135
+      ],
+      "achieves": [
+        141
+      ],
+      "∼10": [
+        142,
+        146
+      ],
+      "6": [
+        143,
+        147
+      ],
+      "×/10×": [
+        144
+      ],
+      "×/2.5×": [
+        148
+      ],
+      "improvements": [
+        149
+      ],
+      "energy": [
+        151
+      ],
+      "latency,": [
+        153
+      ],
+      "respectively,": [
+        154
+      ],
+      "compared": [
+        155
+      ],
+      "other": [
+        157
+      ],
+      "hardware": [
+        159
+      ],
+      "implementations": [
+        160
+      ],
+      "on": [
+        161
+      ],
+      "state-of-the-art": [
+        162
+      ],
+      "CPU/ReRAM.": [
+        163
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-12-19T19:40:27.379048",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2025-12-18T09:37:09Z",
+      "timestamp": 1766050629113,
+      "version": "3.41.2"
+    },
+    "reference-count": 61,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "23",
+    "content-domain": {
+      "domain": [
+        "www.science.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Sci. Adv."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:p>\n            Deep random forest (DRF), which combines deep learning and random forest, exhibits comparable accuracy, interpretability, low memory and computational overhead to deep neural networks (DNNs) in edge intelligence tasks. However, efficient DRF accelerator is lagging behind its DNN counterparts. The key to DRF acceleration lies in realizing the branch-split operation at decision nodes. In this work, we propose implementing DRF through associative searches realized with ferroelectric analog content addressable memory (ACAM). Utilizing only two ferroelectric field effect transistors (FeFETs), the ultra-compact ACAM cell performs energy-efficient branch-split operations by storing decision boundaries as analog polarization states in FeFETs. The DRF accelerator architecture and its model mapping to ACAM arrays are presented. The functionality, characteristics, and scalability of the FeFET ACAM DRF and its robustness against FeFET device non-idealities are validated in experiments and simulations. Evaluations show that the FeFET ACAM DRF accelerator achieves ∼10\n            <jats:sup>6</jats:sup>\n            ×/10× and ∼10\n            <jats:sup>6</jats:sup>\n            ×/2.5× improvements in energy and latency, respectively, compared to other DRF hardware implementations on state-of-the-art CPU/ReRAM.\n          </jats:p>",
+    "DOI": "10.1126/sciadv.adk8471",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2024-06-05T17:59:06Z",
+      "timestamp": 1717610346000
+    },
+    "update-policy": "https://doi.org/10.34133/aaas_crossmark",
+    "source": "Crossref",
+    "is-referenced-by-count": 22,
+    "title": [
+      "Deep random forest with ferroelectric analog content addressable memory"
+    ],
+    "prefix": "10.1126",
+    "volume": "10",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4656-9545",
+        "authenticated-orcid": true,
+        "given": "Xunzhao",
+        "family": "Yin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, Zhejiang, China."
+          },
+          {
+            "name": "Key Laboratory of CS&amp;AUS of Zhejiang Province, Hangzhou, China."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6564-9121",
+        "authenticated-orcid": true,
+        "given": "Franz",
+        "family": "Müller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fraunhofer IPMS, Dresden, Germany."
+          }
+        ]
+      },
+      {
+        "given": "Ann Franchesca",
+        "family": "Laguna",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "De La Salle University, Manila, Philippines."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3289-3248",
+        "authenticated-orcid": true,
+        "given": "Chao",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, Zhejiang, China."
+          }
+        ]
+      },
+      {
+        "given": "Qingrong",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, Zhejiang, China."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9160-048X",
+        "authenticated-orcid": true,
+        "given": "Zhiguo",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, Zhejiang, China."
+          },
+          {
+            "name": "Key Laboratory of CS&amp;AUS of Zhejiang Province, Hangzhou, China."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1739-2747",
+        "authenticated-orcid": true,
+        "given": "Maximilian",
+        "family": "Lederer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fraunhofer IPMS, Dresden, Germany."
+          }
+        ]
+      },
+      {
+        "given": "Nellie",
+        "family": "Laleni",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fraunhofer IPMS, Dresden, Germany."
+          }
+        ]
+      },
+      {
+        "given": "Shan",
+        "family": "Deng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Notre Dame, Notre Dame, IN 46614, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5191-6447",
+        "authenticated-orcid": true,
+        "given": "Zijian",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Notre Dame, Notre Dame, IN 46614, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5761-0622",
+        "authenticated-orcid": true,
+        "given": "Mohsen",
+        "family": "Imani",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California, Irvine, CA 92697, USA."
+          }
+        ]
+      },
+      {
+        "given": "Yiyu",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Notre Dame, Notre Dame, IN 46614, USA."
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Niemier",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Notre Dame, Notre Dame, IN 46614, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6636-9738",
+        "authenticated-orcid": true,
+        "given": "Xiaobo Sharon",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Notre Dame, Notre Dame, IN 46614, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2610-7522",
+        "authenticated-orcid": true,
+        "given": "Cheng",
+        "family": "Zhuo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University, Hangzhou, Zhejiang, China."
+          },
+          {
+            "name": "Key Laboratory of CS&amp;AUS of Zhejiang Province, Hangzhou, China."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4672-8676",
+        "authenticated-orcid": true,
+        "given": "Thomas",
+        "family": "Kämpfe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fraunhofer IPMS, Dresden, Germany."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3628-3431",
+        "authenticated-orcid": true,
+        "given": "Kai",
+        "family": "Ni",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Notre Dame, Notre Dame, IN 46614, USA."
+          }
+        ]
+      }
+    ],
+    "member": "221",
+    "reference": [
+      {
+        "key": "e_1_3_2_2_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MDAT.2019.2899075"
+      },
+      {
+        "key": "e_1_3_2_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MM.2020.3026667"
+      },
+      {
+        "key": "e_1_3_2_4_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.2019.2918951"
+      },
+      {
+        "key": "e_1_3_2_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41928-018-0059-3"
+      },
+      {
+        "key": "e_1_3_2_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/COMST.2020.2970550"
+      },
+      {
+        "key": "e_1_3_2_7_2",
+        "unstructured": "D. Xu T. Li Y. Li X. Su S. Tarkoma T. Jiang J. Crowcroft P. Hui Edge intelligence: Architectures challenges and applications. arXiv:2003.12172 [cs.NI] (2020)."
+      },
+      {
+        "key": "e_1_3_2_8_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Feng S. George J. Harkes P. Pillai R. Klatzky M. Satyanarayanan Edge-based discovery of training data for machine learning in 2018 IEEE/ACM Symposium on Edge Computing (SEC) (IEEE 2018) pp. 145–158 .",
+        "DOI": "10.1109/SEC.2018.00018"
+      },
+      {
+        "key": "e_1_3_2_9_2",
+        "unstructured": "F. Doshi-Velez B. Kim Towards a rigorous science of interpretable machine learning. arXiv:1702.08608 [stat.ML] (2017)."
+      },
+      {
+        "key": "e_1_3_2_10_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Chakraborty R. Tomsett R. Raghavendra D. Harborne M. Alzantot F. Cerutti M. Srivastava A. Preece S. Julier R. M. Rao T. D. Kelley D. Braines M. Sensoy C. J. Willis P. Gurram Interpretability of deep learning models: A survey of results in Proceedings of the 2017 IEEE Smartworld Ubiquitous Intelligence & Computing Advanced & Trusted Computed Scalable Computing & Communications Cloud & Big Data Computing Internet of People and Smart City Innovation (Smartworld/SCALCOM/UIC/ATC/CBDcom/IOP/SCI) (IEEE 2017) pp. 1–6.",
+        "DOI": "10.1109/UIC-ATC.2017.8397411"
+      },
+      {
+        "key": "e_1_3_2_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00521-019-04051-w"
+      },
+      {
+        "key": "e_1_3_2_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.inffus.2019.12.012"
+      },
+      {
+        "key": "e_1_3_2_13_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nsr/nwy108"
+      },
+      {
+        "key": "e_1_3_2_14_2",
+        "first-page": "3133",
+        "article-title": "Do we need hundreds of classifiers to solve real world classification problems?",
+        "volume": "15",
+        "author": "Fernández-Delgado M.",
+        "year": "2014",
+        "unstructured": "M. Fernández-Delgado, E. Cernadas, S. Barro, D. Amorim, Do we need hundreds of classifiers to solve real world classification problems? J. Mach. Learn. Res. 15, 3133–3181 (2014).",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "e_1_3_2_15_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-25873-0"
+      },
+      {
+        "key": "e_1_3_2_16_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Pedretti S. Serebryakov J. P. Strachan C. E. Graves A general tree-based machine learning accelerator with memristive analog CAM in 2022 IEEE International Symposium on Circuits and Systems (ISCAS) (IEEE 2022) pp. 220–224.",
+        "DOI": "10.1109/ISCAS48785.2022.9937772"
+      },
+      {
+        "key": "e_1_3_2_17_2",
+        "unstructured": "G. Pedretti J. Moon P. Bruel S. Serebryakov R. M. Roth L. Buonanno A. Gajjar T. Ziegler C. Xu M. Foltin P. Faraboschi J. Ignowski C. E. Graves X-time: An in-memory engine for accelerating machine learning on tabular data with CAMs. arXiv:2304.01285 [cs.LG] (2023)."
+      },
+      {
+        "key": "e_1_3_2_18_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSSC.2005.864128"
+      },
+      {
+        "key": "e_1_3_2_19_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.2015.2434888"
+      },
+      {
+        "key": "e_1_3_2_20_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Imani A. Rahimi D. Kong T. Rosing J. M. Rabaey Exploring hyperdimensional associative memory in 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA) (IEEE 2017) pp. 445–456.",
+        "DOI": "10.1109/HPCA.2017.28"
+      },
+      {
+        "key": "e_1_3_2_21_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41928-019-0321-3"
+      },
+      {
+        "key": "e_1_3_2_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TED.2020.2994896"
+      },
+      {
+        "key": "e_1_3_2_23_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-15254-4"
+      },
+      {
+        "key": "e_1_3_2_24_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Li C. E. Graves X. Sheng D. Miller M. Foltin G. Pedretti J. P. Strachan A scalable design of multi-bit ferroelectric content addressable memory for data-centric computing in 2020 IEEE International Electron Devices Meeting (IEDM) (IEEE 2020) pp. 29–33.",
+        "DOI": "10.1109/IEDM13553.2020.9372119"
+      },
+      {
+        "key": "e_1_3_2_25_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Kazemi M. M. Sharifi A. F. Laguna F. Müller R. Rajaei R. Olivo T. Kämpfe M. Niemier X. Sharon Hu In-memory nearest neighbor search with FeFET multi-bit content-addressable memories. arXiv:2011.07095 [cs.ET] (2020).",
+        "DOI": "10.23919/DATE51398.2021.9474025"
+      },
+      {
+        "key": "e_1_3_2_26_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Xiao Y. Xu Z. Jiang S. Deng Z. Zhao A. Mallick L. Sun R. Joshi X. Li N. Shukla V. Narayanan K. Ni On the write schemes and efficiency of FeFET 1T NOR array for embedded nonvolatile memory and beyond in 2022 International Electron Devices Meeting (IEDM) (IEEE 2022) pp. 13.6.1–13.6.4.",
+        "DOI": "10.1109/IEDM45625.2022.10019542"
+      },
+      {
+        "key": "e_1_3_2_27_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TED.2022.3216819"
+      },
+      {
+        "key": "e_1_3_2_28_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LED.2018.2872347"
+      },
+      {
+        "key": "e_1_3_2_29_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "U. Schroeder S. Slesazeck H. Mulaosmanovic T. Mikolajick Nonvolatile field-effect transistors using ferroelectric-doped HfO2 films in Ferroelectric-Gate Field Effect Transistor Memories. Topics in Applied Physics vol 131 B. E. Park H. Ishiwara M. Okuyama S. Sakai S. M. Yoon Eds. (Springer 2020).",
+        "DOI": "10.1007/978-981-15-1212-4_4"
+      },
+      {
+        "key": "e_1_3_2_30_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Trentzsch S. Flachowsky R. Richter J. Paul B. Reimer D. Utess S. Jansen H. Mulaosmanovic S. Müller S. Slesazeck J. Ocker M. Noack J. Müller P. Polakowski J. Schreiter S. Beyer T. Mikolajick B. Rice A 28nm HKMG super low power embedded NVM technology based on ferroelectric FETs in 2016 IEEE International Electron Devices Meeting (IEDM) (IEEE 2016) pp. 11–15.",
+        "DOI": "10.1109/IEDM.2016.7838397"
+      },
+      {
+        "key": "e_1_3_2_31_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.5129318"
+      },
+      {
+        "key": "e_1_3_2_32_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/aisy.202200428"
+      },
+      {
+        "key": "e_1_3_2_33_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/5.0029635"
+      },
+      {
+        "key": "e_1_3_2_34_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsami.6b13866"
+      },
+      {
+        "key": "e_1_3_2_35_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TED.2020.3031249"
+      },
+      {
+        "key": "e_1_3_2_36_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Bae S. G. Nam T. Moon Y. Lee S. Jo D.-H. Choe S. Kim K.-H. Lee J. Heo Sub-ns polarization switching in 25nm Fe FinFET toward post CPU and spatial-energetic mapping of traps for enhanced endurance in 2020 IEEE International Electron Devices Meeting (IEDM) (IEEE 2020) pp. 31–33.",
+        "DOI": "10.1109/IEDM13553.2020.9372076"
+      },
+      {
+        "key": "e_1_3_2_37_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Jerry P.-Y. Chen J. Zhang P. Sharma K. Ni S. Yu S. Datta Ferroelectric FET analog synapse for acceleration of deep neural network training in 2017 IEEE International Electron Devices Meeting (IEDM) (IEEE 2017) pp. 6.2.1–6.2.4.",
+        "DOI": "10.1109/IEDM.2017.8268338"
+      },
+      {
+        "key": "e_1_3_2_38_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Sun P. Wang K. Ni S. Datta S. Yu Exploiting hybrid precision for training and inference: A 2T-1FeFET based analog synaptic weight cell in 2018 IEEE International Electron Devices Meeting (IEDM) (IEEE 2018) pp. 3.1.1–3.1. 4.",
+        "DOI": "10.1109/IEDM.2018.8614611"
+      },
+      {
+        "key": "e_1_3_2_39_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsami.0c00877"
+      },
+      {
+        "key": "e_1_3_2_40_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Ni M. Jerry J. A. Smith S. Datta A circuit compatible accurate compact model for ferroelectric-FETs in 2018 IEEE Symposium on VLSI Technology (IEEE 2018) pp. 131–132.",
+        "DOI": "10.1109/VLSIT.2018.8510622"
+      },
+      {
+        "key": "e_1_3_2_41_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2020.07.006"
+      },
+      {
+        "key": "e_1_3_2_42_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.3036491"
+      },
+      {
+        "key": "e_1_3_2_43_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01431161.2018.1547932"
+      },
+      {
+        "key": "e_1_3_2_44_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/5.726791"
+      },
+      {
+        "key": "e_1_3_2_45_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Sapsanis G. Georgoulas A. Tzes D. Lymberopoulos Improving EMG based classification of basic hand movements using EMD in 2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC) (IEEE 2013) pp. 5754–5757.",
+        "DOI": "10.1109/EMBC.2013.6610858"
+      },
+      {
+        "key": "e_1_3_2_46_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Lee R. Grosse R. Ranganath A. Y. Ng Convolutional deep belief networks for scalable unsupervised learning of hierarchical representations in Proceedings of the 26th Annual International Conference on Machine Learning ICML ‘09 609–616 (Association for Computing Machinery 2009).",
+        "DOI": "10.1145/1553374.1553453"
+      },
+      {
+        "key": "e_1_3_2_47_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Beyer S. Dünkel M. Trentzsch J. Müller A. Hellmich D. Utess J. Paul D. Kleimaier J. Pellerin S. Müller J. Ocker A. Benoist H. Zhou M. Mennenga M. Schuster F. Tassan M. Noack A. Pourkeramati F. Müller M. Lederer T. Ali R. Hoffmann T. Kämpfe K. Seidel H. Mulaosmanovic E. T. Breyer T. Mikolajick S. Slesazeck FeFET: A versatile CMOS compatible device with game-changing potential in 2020 IEEE International Memory Workshop (IMW) (IEEE 2020) pp. 1–4.",
+        "DOI": "10.1109/IMW48823.2020.9108150"
+      },
+      {
+        "key": "e_1_3_2_48_2",
+        "unstructured": "A. H. Shoeb “Application of machine learning to epileptic seizure onset detection and treatment ” thesis Massachusetts Institute of Technology Cambridge MA (2009)."
+      },
+      {
+        "key": "e_1_3_2_49_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00259-020-05108-y"
+      },
+      {
+        "key": "e_1_3_2_50_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Vattikonda W. Wang Y. Cao Modeling and minimization of pMOS NBTI effect for robust nanometer design in Proceedings of the 43rd annual Design Automation Conference (2006) pp. 1047–1052.",
+        "DOI": "10.1145/1146909.1147172"
+      },
+      {
+        "key": "e_1_3_2_51_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Poremba S. Mittal D. Li J. S. Vetter Y. Xie Destiny: A tool for modeling emerging 3D NVM and EDRAM caches in 2015 Design Automation & Test in Europe Conference & Exhibition (DATE) (IEEE 2015).",
+        "DOI": "10.7873/DATE.2015.0733"
+      },
+      {
+        "key": "e_1_3_2_52_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Van Essen C. Macaraeg M. Gokhale R. Preger Accelerating a random forest classifier: Multi-core GP-GPU or FPGA? in 2012 IEEE 20th International Symposium on Field-Programmable Custom Computing Machines (IEEE 2012).",
+        "DOI": "10.1109/FCCM.2012.47"
+      },
+      {
+        "key": "e_1_3_2_53_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Ma J. K. Saul S. Savage G. M. Voelker. Identifying suspicious urls: An application of large-scale online learning in Proceedings of the 26th Annual International Conference on Machine Learning (Association for Computing Machinery 2009) pp. 681–688.",
+        "DOI": "10.1145/1553374.1553462"
+      },
+      {
+        "key": "e_1_3_2_54_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSSC.2014.2380790"
+      },
+      {
+        "key": "e_1_3_2_55_2",
+        "unstructured": "S. A. Nene S. K. Nayar H. Murase Columbia object image library (coil-100) (1996)."
+      },
+      {
+        "key": "e_1_3_2_56_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TVLSI.2011.2170203"
+      },
+      {
+        "key": "e_1_3_2_57_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSSC.2016.2642198"
+      },
+      {
+        "key": "e_1_3_2_58_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSSC.2017.2782087"
+      },
+      {
+        "key": "e_1_3_2_59_2",
+        "unstructured": "Center for Biological & Computational Learning (CBCL) at MIT http://poggio-lab.mit.edu/codedatasets [accessed 4 June 2021]."
+      },
+      {
+        "key": "e_1_3_2_60_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. K. Gonugondla M. Kang N. Shanbhag A 42pJ/decision 3.12 TOPS/W robust in-memory machine learning classifier with on-chip training in 2018 IEEE International Solid-State Circuits Conference-(ISSCC) (IEEE 2018) pp. 490–492.",
+        "DOI": "10.1109/ISSCC.2018.8310398"
+      },
+      {
+        "key": "e_1_3_2_61_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSSC.2018.2822703"
+      },
+      {
+        "key": "e_1_3_2_62_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1469-1809.1936.tb02137.x"
+      }
+    ],
+    "container-title": [
+      "Science Advances"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.science.org/doi/pdf/10.1126/sciadv.adk8471",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2024-06-05T17:59:26Z",
+      "timestamp": 1717610366000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.science.org/doi/10.1126/sciadv.adk8471"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          7
+        ]
+      ]
+    },
+    "references-count": 61,
+    "journal-issue": {
+      "issue": "23",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1126/sciadv.adk8471"
+    ],
+    "URL": "https://doi.org/10.1126/sciadv.adk8471",
+    "relation": {},
+    "ISSN": [
+      "2375-2548"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2375-2548"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          7
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2023-09-16",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-05-01",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2024-06-05",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "eadk8471"
+  }
+}

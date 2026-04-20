@@ -1,0 +1,896 @@
+{
+  "doi": "10.1007/s00145-024-09491-9",
+  "openalex": {
+    "id": "https://openalex.org/W4391771369",
+    "doi": "https://doi.org/10.1007/s00145-024-09491-9",
+    "title": "Time-Space Lower Bounds for Finding Collisions in Merkle–Damgård Hash Functions",
+    "display_name": "Time-Space Lower Bounds for Finding Collisions in Merkle–Damgård Hash Functions",
+    "publication_year": 2024,
+    "publication_date": "2024-02-13",
+    "ids": {
+      "openalex": "https://openalex.org/W4391771369",
+      "doi": "https://doi.org/10.1007/s00145-024-09491-9"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1007/s00145-024-09491-9",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/s00145-024-09491-9",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S190936789",
+        "display_name": "Journal of Cryptology",
+        "issn_l": "0933-2790",
+        "issn": [
+          "0933-2790",
+          "1432-1378"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Cryptology",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5062860936",
+          "display_name": "Akshima",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I258800397",
+            "display_name": "New York University Shanghai",
+            "ror": "https://ror.org/02vpsdb40",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I258800397",
+              "https://openalex.org/I57206974"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "None Akshima",
+        "raw_affiliation_strings": [
+          "Shanghai Frontiers Science Center of Artificial Intelligence and Deep Learning, NYU Shanghai, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Frontiers Science Center of Artificial Intelligence and Deep Learning, NYU Shanghai, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I258800397"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103160306",
+          "display_name": "Siyao Guo",
+          "orcid": "https://orcid.org/0000-0002-8402-1866"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I258800397",
+            "display_name": "New York University Shanghai",
+            "ror": "https://ror.org/02vpsdb40",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I258800397",
+              "https://openalex.org/I57206974"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Siyao Guo",
+        "raw_affiliation_strings": [
+          "Shanghai Frontiers Science Center of Artificial Intelligence and Deep Learning, NYU Shanghai, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shanghai Frontiers Science Center of Artificial Intelligence and Deep Learning, NYU Shanghai, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I258800397"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5029992618",
+          "display_name": "Qipeng Liu",
+          "orcid": "https://orcid.org/0000-0003-1308-2810"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2800935791",
+            "display_name": "UC San Diego Health System",
+            "ror": "https://ror.org/01kbfgm16",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2800935791"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qipeng Liu",
+        "raw_affiliation_strings": [
+          "UC San Diego, San Diego, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "UC San Diego, San Diego, USA",
+            "institution_ids": [
+              "https://openalex.org/I2800935791"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 2290,
+      "currency": "EUR",
+      "value_usd": 2890
+    },
+    "apc_paid": null,
+    "fwci": 1.2775571,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.76512877,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 95,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "37",
+      "issue": "2",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10951",
+      "display_name": "Cryptographic Implementations and Security",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10951",
+        "display_name": "Cryptographic Implementations and Security",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11017",
+        "display_name": "Chaos-based Image/Signal Encryption",
+        "score": 0.9994000196456909,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11130",
+        "display_name": "Coding theory and cryptography",
+        "score": 0.9991000294685364,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/hash-function",
+        "display_name": "Hash function",
+        "score": 0.7903784513473511
+      },
+      {
+        "id": "https://openalex.org/keywords/merkle-tree",
+        "display_name": "Merkle tree",
+        "score": 0.6572843194007874
+      },
+      {
+        "id": "https://openalex.org/keywords/collision-attack",
+        "display_name": "Collision attack",
+        "score": 0.6260116100311279
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.42060887813568115
+      },
+      {
+        "id": "https://openalex.org/keywords/space",
+        "display_name": "Space (punctuation)",
+        "score": 0.42045435309410095
+      },
+      {
+        "id": "https://openalex.org/keywords/hash-chain",
+        "display_name": "Hash chain",
+        "score": 0.37338435649871826
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.3695419132709503
+      },
+      {
+        "id": "https://openalex.org/keywords/double-hashing",
+        "display_name": "Double hashing",
+        "score": 0.2777407765388489
+      },
+      {
+        "id": "https://openalex.org/keywords/cryptographic-hash-function",
+        "display_name": "Cryptographic hash function",
+        "score": 0.16567480564117432
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-security",
+        "display_name": "Computer security",
+        "score": 0.12100386619567871
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C99138194",
+        "wikidata": "https://www.wikidata.org/wiki/Q183427",
+        "display_name": "Hash function",
+        "level": 2,
+        "score": 0.7903784513473511
+      },
+      {
+        "id": "https://openalex.org/C205383636",
+        "wikidata": "https://www.wikidata.org/wiki/Q14746",
+        "display_name": "Merkle tree",
+        "level": 4,
+        "score": 0.6572843194007874
+      },
+      {
+        "id": "https://openalex.org/C87538441",
+        "wikidata": "https://www.wikidata.org/wiki/Q389463",
+        "display_name": "Collision attack",
+        "level": 5,
+        "score": 0.6260116100311279
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.42060887813568115
+      },
+      {
+        "id": "https://openalex.org/C2778572836",
+        "wikidata": "https://www.wikidata.org/wiki/Q380933",
+        "display_name": "Space (punctuation)",
+        "level": 2,
+        "score": 0.42045435309410095
+      },
+      {
+        "id": "https://openalex.org/C135783594",
+        "wikidata": "https://www.wikidata.org/wiki/Q5678864",
+        "display_name": "Hash chain",
+        "level": 3,
+        "score": 0.37338435649871826
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.3695419132709503
+      },
+      {
+        "id": "https://openalex.org/C138111711",
+        "wikidata": "https://www.wikidata.org/wiki/Q478351",
+        "display_name": "Double hashing",
+        "level": 4,
+        "score": 0.2777407765388489
+      },
+      {
+        "id": "https://openalex.org/C7608002",
+        "wikidata": "https://www.wikidata.org/wiki/Q477202",
+        "display_name": "Cryptographic hash function",
+        "level": 3,
+        "score": 0.16567480564117432
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.12100386619567871
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1007/s00145-024-09491-9",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s00145-024-09491-9",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S190936789",
+          "display_name": "Journal of Cryptology",
+          "issn_l": "0933-2790",
+          "issn": [
+            "0933-2790",
+            "1432-1378"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Cryptology",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 23,
+    "referenced_works": [
+      "https://openalex.org/W3037871682",
+      "https://openalex.org/W4389011030",
+      "https://openalex.org/W2052267638",
+      "https://openalex.org/W2794492466",
+      "https://openalex.org/W2794798416",
+      "https://openalex.org/W2795012573",
+      "https://openalex.org/W2990000219",
+      "https://openalex.org/W3037531567",
+      "https://openalex.org/W3115830630",
+      "https://openalex.org/W1549228503",
+      "https://openalex.org/W2598805891",
+      "https://openalex.org/W1575640061",
+      "https://openalex.org/W4312894262",
+      "https://openalex.org/W4365806635",
+      "https://openalex.org/W3114765902",
+      "https://openalex.org/W4385654690",
+      "https://openalex.org/W4386707635",
+      "https://openalex.org/W3213026663",
+      "https://openalex.org/W4385654448",
+      "https://openalex.org/W2012646342",
+      "https://openalex.org/W1559980198",
+      "https://openalex.org/W1566345534",
+      "https://openalex.org/W1540076154"
+    ],
+    "related_works": [
+      "https://openalex.org/W4387259453",
+      "https://openalex.org/W2154676777",
+      "https://openalex.org/W4252190074",
+      "https://openalex.org/W3020097167",
+      "https://openalex.org/W2103058157",
+      "https://openalex.org/W2952942094",
+      "https://openalex.org/W2037487103",
+      "https://openalex.org/W2982222368",
+      "https://openalex.org/W1493566387",
+      "https://openalex.org/W2168552221"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          30
+        ]
+      ],
+      "date-time": "2025-06-30T09:32:25Z",
+      "timestamp": 1751275945992
+    },
+    "reference-count": 23,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              13
+            ]
+          ],
+          "date-time": "2024-02-13T00:00:00Z",
+          "timestamp": 1707782400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              13
+            ]
+          ],
+          "date-time": "2024-02-13T00:00:00Z",
+          "timestamp": 1707782400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J Cryptol"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1007/s00145-024-09491-9",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          13
+        ]
+      ],
+      "date-time": "2024-02-13T22:02:23Z",
+      "timestamp": 1707861743000
+    },
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Time-Space Lower Bounds for Finding Collisions in Merkle–Damgård Hash Functions"
+    ],
+    "prefix": "10.1007",
+    "volume": "37",
+    "author": [
+      {
+        "family": "Akshima",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Siyao",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qipeng",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "9491_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D.C. Akshima, A. Drucker, H. Wee, Time-space tradeoffs and short collisions in Merkle–Damgård hash functions, in D. Micciancio, T. Ristenpart (eds.) Advances in Cryptology - CRYPTO 2020, volume 12170 of Lecture Notes in Computer Science (Springer, 2020), pp. 157–186",
+        "DOI": "10.1007/978-3-030-56784-2_6"
+      },
+      {
+        "key": "9491_CR2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X.D. Akshima, S. Guo, Q. Liu, On time-space lower bounds for finding short collisions in sponge hash functions, in IACR Cryptol. ePrint Arch., 2023, p. 1444",
+        "DOI": "10.1007/978-3-031-48621-0_9"
+      },
+      {
+        "key": "9491_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Bellare, P. Rogaway, Random oracles are practical: a paradigm for designing efficient protocols, in Proceedings of the 1st ACM Conference on Computer and Communications Security (1993), pp. 62–73",
+        "DOI": "10.1145/168588.168596"
+      },
+      {
+        "key": "9491_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Coretti, Y. Dodis, S. Guo, Non-uniform bounds in the random-permutation, ideal-cipher, and generic-group models, in H. Shacham, A. Boldyreva (eds.) Advances in Cryptology - CRYPTO 2018 - 38th Annual International Cryptology Conference, Santa Barbara, CA, USA, August 19-23, 2018, Proceedings, Part I. Lecture Notes in Computer Science, vol. 10991 (Springer, 2018), pp. 693–721",
+        "DOI": "10.1007/978-3-319-96884-1_23"
+      },
+      {
+        "key": "9491_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Coretti, Y. Dodis, S. Guo, J.P. Steinberger, Random oracles and non-uniformity, in J.B. Nielsen, V. Rijmen (eds.) Advances in Cryptology - EUROCRYPT 2018 - 37th Annual International Conference on the Theory and Applications of Cryptographic Techniques, Tel Aviv, Israel, April 29 - May 3, 2018 Proceedings, Part I. Lecture Notes in Computer Science, vol. 10820 (Springer, 2018), pp. 227–258",
+        "DOI": "10.1007/978-3-319-78381-9_9"
+      },
+      {
+        "key": "9491_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Corrigan-Gibbs, D. Kogan, The discrete-logarithm problem with preprocessing, in Annual International Conference on the Theory and Applications of Cryptographic Techniques (Springer, 2018), pp. 415–447",
+        "DOI": "10.1007/978-3-319-78375-8_14"
+      },
+      {
+        "key": "9491_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Corrigan-Gibbs, D. Kogan, The function-inversion problem: barriers and opportunities, in Theory of Cryptography Conference (Springer, 2019), pp. 393–421",
+        "DOI": "10.1007/978-3-030-36030-6_16"
+      },
+      {
+        "key": "9491_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K.-M. Chung, S. Guo, Q. Liu, L. Qian, Tight quantum time-space tradeoffs for function inversion, in S. Irani (ed.) 61st IEEE Annual Symposium on Foundations of Computer Science, FOCS 2020, Durham, NC, USA, November 16-19, 2020 (IEEE, 2020), pp. 673–684",
+        "DOI": "10.1109/FOCS46700.2020.00068"
+      },
+      {
+        "key": "9491_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Chawin, I. Haitner, N. Mazor, Lower bounds on the time/memory tradeoff of function inversion, in Theory of Cryptography - 18th International Conference, TCC 2020, Durham, NC, USA, November 16-19, 2020, Proceedings, Part III (2020), pp. 305–334",
+        "DOI": "10.1007/978-3-030-64381-2_11"
+      },
+      {
+        "key": "9491_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "I. Damgård, A design principle for hash functions, in Advances in Cryptology - CRYPTO ’89, 9th Annual International Cryptology Conference, Santa Barbara, California, USA, August 20-24, 1989, Proceedings (1989), pp. 416–427",
+        "DOI": "10.1007/0-387-34805-0_39"
+      },
+      {
+        "key": "9491_CR11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Dodis, S. Guo, J. Katz, Fixing cracks in the concrete: random oracles with auxiliary input, revisited, in J.-S. Coron, J.B. Nielsen (eds.) Advances in Cryptology - EUROCRYPT 2017 - 36th Annual International Conference on the Theory and Applications of Cryptographic Techniques, Paris, France, April 30 - May 4, 2017, Proceedings, Part II. Lecture Notes in Computer Science, vol. 10211 (2017), pp. 473–495",
+        "DOI": "10.1007/978-3-319-56614-6_16"
+      },
+      {
+        "key": "9491_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. De, L. Trevisan, M. Tulsiani, Time space tradeoffs for attacks against one-way functions and prgs, in Annual Cryptology Conference (Springer, 2010), pp. 649–665",
+        "DOI": "10.1007/978-3-642-14623-7_35"
+      },
+      {
+        "key": "9491_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Freitag, A. Ghoshal, I. Komargodski, Time-space tradeoffs for sponge hashing: attacks and limitations for short collisions, in Y. Dodis, T, Shrimpton (eds.) Advances in Cryptology - CRYPTO 2022 - 42nd Annual International Cryptology Conference, CRYPTO 2022, Santa Barbara, CA, USA, August 15-18, 2022, Proceedings, Part III. Lecture Notes in Computer Science, vol. 13509 (Springer, 2022), pp. 131–160",
+        "DOI": "10.1007/978-3-031-15982-4_5"
+      },
+      {
+        "key": "9491_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Freitag, A. Ghoshal, I. Komargodski, Optimal security for keyed hash functions: avoiding time-space tradeoffs for finding collisions, in C. Hazay, M. Stam (eds.) Advances in Cryptology - EUROCRYPT 2023 - 42nd Annual International Conference on the Theory and Applications of Cryptographic Techniques, Lyon, France, April 23-27, 2023, Proceedings, Part IV. Lecture Notes in Computer Science, vol. 14007 (Springer, 2023), pp. 440–469",
+        "DOI": "10.1007/978-3-031-30634-1_15"
+      },
+      {
+        "key": "9491_CR15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. Gravin, S. Guo, T.C. Kwok, P. Lu, Concentration bounds for almost k-wise independence with applications to non-uniform security, in Proceedings of the 2021 ACM-SIAM Symposium on Discrete Algorithms, SODA 2021, Virtual Conference, January 10 - 13, 2021 (2021), pp. 2404–2423",
+        "DOI": "10.1137/1.9781611976465.143"
+      },
+      {
+        "key": "9491_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Golovnev, S. Guo, S. Peters, N. Stephens-Davidowitz, Revisiting time-space tradeoffs for function inversion, in H. Handschuh, A. Lysyanskaya (eds.) Advances in Cryptology - CRYPTO 2023 - 43rd Annual International Cryptology Conference, CRYPTO 2023, Santa Barbara, CA, USA, August 20-24, 2023, Proceedings, Part II. Lecture Notes in Computer Science, vol. 14082 (Springer, 2023), pp. 453–481",
+        "DOI": "10.1007/978-3-031-38545-2_15"
+      },
+      {
+        "key": "9491_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Ghoshal, I. Komargodski, On time-space tradeoffs for bounded-length collisions in Merkle–Damgård hashing, in Annual International Cryptology Conference (Springer, 2022)",
+        "DOI": "10.1007/s00037-023-00243-y"
+      },
+      {
+        "key": "9491_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "S. Guo, Q. Li, Q. Liu, J. Zhang, Unifying presampling via concentration bounds, in Theory of Cryptography - 19th International Conference, TCC 2021, Raleigh, NC, USA, November 8-11, 2021, Proceedings, Part I (2021), pp. 177–208",
+        "DOI": "10.1007/978-3-030-90459-3_7"
+      },
+      {
+        "key": "9491_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Ghoshal, S. Tessaro, The query-complexity of preprocessing attacks, in H. Handschuh, A. Lysyanskaya (eds.) Advances in Cryptology - CRYPTO 2023 - 43rd Annual International Cryptology Conference, CRYPTO 2023, Santa Barbara, CA, USA, August 20-24, 2023, Proceedings, Part II. Lecture Notes in Computer Science, vol. 14082 (Springer, 2023), pp. 482–513",
+        "DOI": "10.1007/978-3-031-38545-2_16"
+      },
+      {
+        "key": "9491_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M.E. Hellman, A cryptanalytic time-memory trade-off. IEEE Trans. Inf. Theory, 26(4), 401–406 (1980)",
+        "DOI": "10.1109/TIT.1980.1056220"
+      },
+      {
+        "key": "9491_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Impagliazzo, V. Kabanets, Constructive proofs of concentration bounds, in Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques, 13th International Workshop, APPROX 2010, and 14th International Workshop, RANDOM 2010, Barcelona, Spain, September 1-3, 2010. Proceedings (2010), pp. 617–631",
+        "DOI": "10.1007/978-3-642-15369-3_46"
+      },
+      {
+        "key": "9491_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R.C. Merkle, A certified digital signature, in Advances in Cryptology - CRYPTO ’89, 9th Annual International Cryptology Conference, Santa Barbara, California, USA, August 20-24, 1989, Proceedings (1989), pp. 218–238",
+        "DOI": "10.1007/0-387-34805-0_21"
+      },
+      {
+        "key": "9491_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Unruh, Random oracles and auxiliary input, in A. Menezes (ed.) Advances in Cryptology - CRYPTO 2007, 27th Annual International Cryptology Conference, Santa Barbara, CA, USA, August 19-23, 2007, Proceedings. Lecture Notes in Computer Science, vol. 4622 (Springer 2007), pp. 205–223",
+        "DOI": "10.1007/978-3-540-74143-5_12"
+      }
+    ],
+    "container-title": [
+      "Journal of Cryptology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s00145-024-09491-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/article/10.1007/s00145-024-09491-9/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/s00145-024-09491-9.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          25
+        ]
+      ],
+      "date-time": "2024-04-25T21:02:31Z",
+      "timestamp": 1714078951000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/s00145-024-09491-9"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          13
+        ]
+      ]
+    },
+    "references-count": 23,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "9491"
+    ],
+    "URL": "https://doi.org/10.1007/s00145-024-09491-9",
+    "relation": {},
+    "ISSN": [
+      "0933-2790",
+      "1432-1378"
+    ],
+    "issn-type": [
+      {
+        "value": "0933-2790",
+        "type": "print"
+      },
+      {
+        "value": "1432-1378",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          13
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "5 September 2022",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "11 November 2023",
+        "order": 2,
+        "name": "revised",
+        "label": "Revised",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "8 January 2024",
+        "order": 3,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "13 February 2024",
+        "order": 4,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      }
+    ],
+    "article-number": "10"
+  }
+}

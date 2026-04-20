@@ -1,0 +1,2027 @@
+{
+  "doi": "10.1103/physrevresearch.6.043229",
+  "openalex": {
+    "id": "https://openalex.org/W4404905542",
+    "doi": "https://doi.org/10.1103/physrevresearch.6.043229",
+    "title": "Fixing detailed balance in ancilla-based dissipative state engineering",
+    "display_name": "Fixing detailed balance in ancilla-based dissipative state engineering",
+    "publication_year": 2024,
+    "publication_date": "2024-12-02",
+    "ids": {
+      "openalex": "https://openalex.org/W4404905542",
+      "doi": "https://doi.org/10.1103/physrevresearch.6.043229"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1103/physrevresearch.6.043229",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1103/physrevresearch.6.043229",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210240247",
+        "display_name": "Physical Review Research",
+        "issn_l": "2643-1564",
+        "issn": [
+          "2643-1564"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review Research",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1103/physrevresearch.6.043229",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5039137903",
+          "display_name": "Neill Lambert",
+          "orcid": "https://orcid.org/0000-0001-7873-0773"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210104019",
+            "display_name": "Pioneer (Japan)",
+            "ror": "https://ror.org/014kzp326",
+            "country_code": "JP",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210104019"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210110652",
+            "display_name": "RIKEN",
+            "ror": "https://ror.org/01sjwvz98",
+            "country_code": "JP",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110652"
+            ]
+          }
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Neill Lambert",
+        "raw_affiliation_strings": [
+          "Quantum Computing Center, RIKEN, Wakoshi, Saitama 351-0198, Japan",
+          "Theoretical Physics Laboratory, Cluster for Pioneering Research, RIKEN, Wakoshi, Saitama 351-0198, Japan"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Quantum Computing Center, RIKEN, Wakoshi, Saitama 351-0198, Japan",
+            "institution_ids": [
+              "https://openalex.org/I4210110652"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Theoretical Physics Laboratory, Cluster for Pioneering Research, RIKEN, Wakoshi, Saitama 351-0198, Japan",
+            "institution_ids": [
+              "https://openalex.org/I4210104019",
+              "https://openalex.org/I4210110652"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5085305169",
+          "display_name": "Mauro Cirio",
+          "orcid": "https://orcid.org/0000-0003-2963-2469"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801345734",
+            "display_name": "China Academy of Engineering Physics",
+            "ror": "https://ror.org/039vqpp67",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I2801345734"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mauro Cirio",
+        "raw_affiliation_strings": [
+          "Graduate School of China Academy of Engineering Physics, Haidian District, Beijing 100193, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Graduate School of China Academy of Engineering Physics, Haidian District, Beijing 100193, China",
+            "institution_ids": [
+              "https://openalex.org/I2801345734"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5076195011",
+          "display_name": "Jhen-Dong Lin",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I91807558",
+            "display_name": "National Cheng Kung University",
+            "ror": "https://ror.org/01b8kcc49",
+            "country_code": "TW",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I91807558"
+            ]
+          }
+        ],
+        "countries": [
+          "TW"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jhen-Dong Lin",
+        "raw_affiliation_strings": [
+          "Center for Quantum Frontiers of Research and Technology, NCKU, 701 Tainan, Taiwan",
+          "Department of Physics, National Cheng Kung University, 701 Tainan, Taiwan"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Quantum Frontiers of Research and Technology, NCKU, 701 Tainan, Taiwan",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Department of Physics, National Cheng Kung University, 701 Tainan, Taiwan",
+            "institution_ids": [
+              "https://openalex.org/I91807558"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5012814263",
+          "display_name": "Paul Menczel",
+          "orcid": "https://orcid.org/0000-0002-3968-0918"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210104019",
+            "display_name": "Pioneer (Japan)",
+            "ror": "https://ror.org/014kzp326",
+            "country_code": "JP",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210104019"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210110652",
+            "display_name": "RIKEN",
+            "ror": "https://ror.org/01sjwvz98",
+            "country_code": "JP",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110652"
+            ]
+          }
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Paul Menczel",
+        "raw_affiliation_strings": [
+          "Theoretical Physics Laboratory, Cluster for Pioneering Research, RIKEN, Wakoshi, Saitama 351-0198, Japan"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Theoretical Physics Laboratory, Cluster for Pioneering Research, RIKEN, Wakoshi, Saitama 351-0198, Japan",
+            "institution_ids": [
+              "https://openalex.org/I4210104019",
+              "https://openalex.org/I4210110652"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102801934",
+          "display_name": "Pengfei Liang",
+          "orcid": "https://orcid.org/0000-0002-0867-9869"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801345734",
+            "display_name": "China Academy of Engineering Physics",
+            "ror": "https://ror.org/039vqpp67",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I2801345734"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Pengfei Liang",
+        "raw_affiliation_strings": [
+          "Graduate School of China Academy of Engineering Physics, Haidian District, Beijing 100193, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Graduate School of China Academy of Engineering Physics, Haidian District, Beijing 100193, China",
+            "institution_ids": [
+              "https://openalex.org/I2801345734"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5048800312",
+          "display_name": "Franco Nori",
+          "orcid": "https://orcid.org/0000-0003-3682-7432"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210104019",
+            "display_name": "Pioneer (Japan)",
+            "ror": "https://ror.org/014kzp326",
+            "country_code": "JP",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210104019"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210110652",
+            "display_name": "RIKEN",
+            "ror": "https://ror.org/01sjwvz98",
+            "country_code": "JP",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110652"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I27837315",
+            "display_name": "University of Michigan",
+            "ror": "https://ror.org/00jmfr291",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27837315"
+            ]
+          }
+        ],
+        "countries": [
+          "JP",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Franco Nori",
+        "raw_affiliation_strings": [
+          "Physics Department, University of Michigan, Ann Arbor, Michigan 48109-1040, USA",
+          "Quantum Computing Center, RIKEN, Wakoshi, Saitama 351-0198, Japan",
+          "Theoretical Physics Laboratory, Cluster for Pioneering Research, RIKEN, Wakoshi, Saitama 351-0198, Japan"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Physics Department, University of Michigan, Ann Arbor, Michigan 48109-1040, USA",
+            "institution_ids": [
+              "https://openalex.org/I27837315"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Quantum Computing Center, RIKEN, Wakoshi, Saitama 351-0198, Japan",
+            "institution_ids": [
+              "https://openalex.org/I4210110652"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Theoretical Physics Laboratory, Cluster for Pioneering Research, RIKEN, Wakoshi, Saitama 351-0198, Japan",
+            "institution_ids": [
+              "https://openalex.org/I4210104019",
+              "https://openalex.org/I4210110652"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 4,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 2625,
+      "currency": "USD",
+      "value_usd": 2625
+    },
+    "apc_paid": {
+      "value": 2625,
+      "currency": "USD",
+      "value_usd": 2625
+    },
+    "fwci": 4.9559002,
+    "has_fulltext": false,
+    "cited_by_count": 9,
+    "citation_normalized_percentile": {
+      "value": 0.9486875,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "6",
+      "issue": "4",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11804",
+      "display_name": "Quantum many-body systems",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11804",
+        "display_name": "Quantum many-body systems",
+        "score": 0.9997000098228455,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11206",
+        "display_name": "Model Reduction and Neural Networks",
+        "score": 0.9980999827384949,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11261",
+        "display_name": "Quantum chaos and dynamical systems",
+        "score": 0.9889000058174133,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/dissipative-system",
+        "display_name": "Dissipative system",
+        "score": 0.7117219567298889
+      },
+      {
+        "id": "https://openalex.org/keywords/balance",
+        "display_name": "Balance (ability)",
+        "score": 0.6667525768280029
+      },
+      {
+        "id": "https://openalex.org/keywords/state",
+        "display_name": "State (computer science)",
+        "score": 0.5638320446014404
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.36399656534194946
+      },
+      {
+        "id": "https://openalex.org/keywords/statistical-physics",
+        "display_name": "Statistical physics",
+        "score": 0.3477395474910736
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.3119348883628845
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.17261239886283875
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-mechanics",
+        "display_name": "Quantum mechanics",
+        "score": 0.11909136176109314
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.07393911480903625
+      },
+      {
+        "id": "https://openalex.org/keywords/neuroscience",
+        "display_name": "Neuroscience",
+        "score": 0.06624385714530945
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C99692599",
+        "wikidata": "https://www.wikidata.org/wiki/Q596577",
+        "display_name": "Dissipative system",
+        "level": 2,
+        "score": 0.7117219567298889
+      },
+      {
+        "id": "https://openalex.org/C168031717",
+        "wikidata": "https://www.wikidata.org/wiki/Q1530280",
+        "display_name": "Balance (ability)",
+        "level": 2,
+        "score": 0.6667525768280029
+      },
+      {
+        "id": "https://openalex.org/C48103436",
+        "wikidata": "https://www.wikidata.org/wiki/Q599031",
+        "display_name": "State (computer science)",
+        "level": 2,
+        "score": 0.5638320446014404
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.36399656534194946
+      },
+      {
+        "id": "https://openalex.org/C121864883",
+        "wikidata": "https://www.wikidata.org/wiki/Q677916",
+        "display_name": "Statistical physics",
+        "level": 1,
+        "score": 0.3477395474910736
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.3119348883628845
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.17261239886283875
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.11909136176109314
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.07393911480903625
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.06624385714530945
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1103/physrevresearch.6.043229",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1103/physrevresearch.6.043229",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210240247",
+          "display_name": "Physical Review Research",
+          "issn_l": "2643-1564",
+          "issn": [
+            "2643-1564"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_name": "American Physical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Physical Review Research",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:62bce63de57d404bbd9cab85bb4f3573",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/62bce63de57d404bbd9cab85bb4f3573",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Physical Review Research, Vol 6, Iss 4, p 043229 (2024)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1103/physrevresearch.6.043229",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1103/physrevresearch.6.043229",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210240247",
+        "display_name": "Physical Review Research",
+        "issn_l": "2643-1564",
+        "issn": [
+          "2643-1564"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review Research",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G4101229718",
+        "display_name": null,
+        "funder_award_id": "U2330401",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G3652877143",
+        "display_name": null,
+        "funder_award_id": "JP24H00816",
+        "funder_id": "https://openalex.org/F4320334764",
+        "funder_display_name": "Japan Society for the Promotion of Science"
+      },
+      {
+        "id": "https://openalex.org/G4655162082",
+        "display_name": "初期の誤り耐性量子計算に向けた量子シミュレーションと機械学習",
+        "funder_award_id": "JPMJCR24I2",
+        "funder_id": "https://openalex.org/F4320334789",
+        "funder_display_name": "Japan Science and Technology Agency"
+      },
+      {
+        "id": "https://openalex.org/G2295369786",
+        "display_name": null,
+        "funder_award_id": "JP24H00820",
+        "funder_id": "https://openalex.org/F4320334764",
+        "funder_display_name": "Japan Society for the Promotion of Science"
+      },
+      {
+        "id": "https://openalex.org/G2235139785",
+        "display_name": null,
+        "funder_award_id": "N62909-23-1-2074",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      },
+      {
+        "id": "https://openalex.org/G1135248517",
+        "display_name": null,
+        "funder_award_id": "11935012",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320212",
+        "display_name": "Japan Society for the Promotion of Science London",
+        "ror": "https://ror.org/02m7axw05"
+      },
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320322402",
+        "display_name": "Nippon Telegraph and Telephone",
+        "ror": "https://ror.org/00berct97"
+      },
+      {
+        "id": "https://openalex.org/F4320334764",
+        "display_name": "Japan Society for the Promotion of Science",
+        "ror": "https://ror.org/00hhkn466"
+      },
+      {
+        "id": "https://openalex.org/F4320334789",
+        "display_name": "Japan Science and Technology Agency",
+        "ror": "https://ror.org/00097mb19"
+      },
+      {
+        "id": "https://openalex.org/F4320335125",
+        "display_name": "RIKEN",
+        "ror": "https://ror.org/01sjwvz98"
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 49,
+    "referenced_works": [
+      "https://openalex.org/W3037443854",
+      "https://openalex.org/W2099265531",
+      "https://openalex.org/W2089867976",
+      "https://openalex.org/W2083506818",
+      "https://openalex.org/W2147958642",
+      "https://openalex.org/W4401391956",
+      "https://openalex.org/W2146599109",
+      "https://openalex.org/W3009608472",
+      "https://openalex.org/W4393036043",
+      "https://openalex.org/W1966537508",
+      "https://openalex.org/W2068767752",
+      "https://openalex.org/W2065363312",
+      "https://openalex.org/W2119046658",
+      "https://openalex.org/W3102431116",
+      "https://openalex.org/W2069207980",
+      "https://openalex.org/W2755220802",
+      "https://openalex.org/W3083310687",
+      "https://openalex.org/W4383533443",
+      "https://openalex.org/W2516805803",
+      "https://openalex.org/W3213876315",
+      "https://openalex.org/W4385546210",
+      "https://openalex.org/W4402189573",
+      "https://openalex.org/W4400730425",
+      "https://openalex.org/W4398205039",
+      "https://openalex.org/W4396813707",
+      "https://openalex.org/W2071963215",
+      "https://openalex.org/W2118492081",
+      "https://openalex.org/W2154196599",
+      "https://openalex.org/W2041432245",
+      "https://openalex.org/W2254754114",
+      "https://openalex.org/W4304185323",
+      "https://openalex.org/W4387606256",
+      "https://openalex.org/W4309758171",
+      "https://openalex.org/W4385428917",
+      "https://openalex.org/W4286901054",
+      "https://openalex.org/W2034251480",
+      "https://openalex.org/W3082877969",
+      "https://openalex.org/W2948275438",
+      "https://openalex.org/W2991504929",
+      "https://openalex.org/W4378212022",
+      "https://openalex.org/W3196716344",
+      "https://openalex.org/W4324351351",
+      "https://openalex.org/W3098899525",
+      "https://openalex.org/W4226236318",
+      "https://openalex.org/W2084864304",
+      "https://openalex.org/W3100391894",
+      "https://openalex.org/W3122535926",
+      "https://openalex.org/W4210631930",
+      "https://openalex.org/W3101617267"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2935759653",
+      "https://openalex.org/W3105167352",
+      "https://openalex.org/W54078636",
+      "https://openalex.org/W2954470139",
+      "https://openalex.org/W1501425562",
+      "https://openalex.org/W2902782467",
+      "https://openalex.org/W3084825885",
+      "https://openalex.org/W2298861036",
+      "https://openalex.org/W2271181815"
+    ],
+    "abstract_inverted_index": {
+      "Dissipative": [
+        0
+      ],
+      "state": [
+        1,
+        14,
+        186
+      ],
+      "engineering": [
+        2
+      ],
+      "is": [
+        3,
+        129
+      ],
+      "a": [
+        4,
+        8,
+        16,
+        31,
+        57,
+        123,
+        135,
+        150,
+        160,
+        165,
+        179
+      ],
+      "general": [
+        5
+      ],
+      "term": [
+        6
+      ],
+      "for": [
+        7,
+        122
+      ],
+      "protocol": [
+        9
+      ],
+      "which": [
+        10,
+        85
+      ],
+      "prepares": [
+        11
+      ],
+      "the": [
+        12,
+        37,
+        53,
+        62,
+        70,
+        76,
+        79,
+        101,
+        109,
+        112,
+        118,
+        132,
+        184,
+        189,
+        198,
+        210
+      ],
+      "ground": [
+        13,
+        71,
+        185
+      ],
+      "of": [
+        15,
+        33,
+        41,
+        56,
+        78,
+        134,
+        164,
+        183,
+        191,
+        201
+      ],
+      "complex": [
+        17
+      ],
+      "many-body": [
+        18,
+        58
+      ],
+      "Hamiltonian": [
+        19
+      ],
+      "using": [
+        20,
+        149
+      ],
+      "engineered": [
+        21,
+        24,
+        38
+      ],
+      "dissipation": [
+        22
+      ],
+      "or": [
+        23,
+        43
+      ],
+      "environments.": [
+        25
+      ],
+      "Recently,": [
+        26
+      ],
+      "it": [
+        27,
+        86
+      ],
+      "was": [
+        28,
+        87
+      ],
+      "shown": [
+        29
+      ],
+      "that": [
+        30,
+        93,
+        172
+      ],
+      "version": [
+        32
+      ],
+      "this": [
+        34,
+        94,
+        147
+      ],
+      "protocol,": [
+        35
+      ],
+      "where": [
+        36
+      ],
+      "environment": [
+        39
+      ],
+      "consists": [
+        40
+      ],
+      "one": [
+        42
+      ],
+      "more": [
+        44,
+        180
+      ],
+      "dissipative": [
+        45,
+        195
+      ],
+      "qubit": [
+        46
+      ],
+      "ancillas": [
+        47
+      ],
+      "tuned": [
+        48
+      ],
+      "to": [
+        49,
+        66,
+        69,
+        84,
+        141
+      ],
+      "be": [
+        50,
+        176
+      ],
+      "resonant": [
+        51
+      ],
+      "with": [
+        52
+      ],
+      "low-energy": [
+        54
+      ],
+      "transitions": [
+        55
+      ],
+      "system,": [
+        59
+      ],
+      "resulted": [
+        60
+      ],
+      "in": [
+        61,
+        111,
+        205
+      ],
+      "combined": [
+        63
+      ],
+      "system": [
+        64,
+        110
+      ],
+      "evolving": [
+        65
+      ],
+      "reasonable": [
+        67
+      ],
+      "approximation": [
+        68
+      ],
+      "state.": [
+        72
+      ],
+      "This": [
+        73
+      ],
+      "potentially": [
+        74
+      ],
+      "broadens": [
+        75
+      ],
+      "applicability": [
+        77
+      ],
+      "method": [
+        80
+      ],
+      "beyond": [
+        81
+      ],
+      "nonfrustrated": [
+        82
+      ],
+      "systems,": [
+        83
+      ],
+      "previously": [
+        88
+      ],
+      "restricted.": [
+        89
+      ],
+      "Here": [
+        90
+      ],
+      "we": [
+        91,
+        170
+      ],
+      "argue": [
+        92
+      ],
+      "approach": [
+        95,
+        137
+      ],
+      "has": [
+        96
+      ],
+      "an": [
+        97,
+        105
+      ],
+      "intrinsic": [
+        98
+      ],
+      "limitation": [
+        99,
+        148
+      ],
+      "because": [
+        100
+      ],
+      "ancillas,": [
+        102
+      ],
+      "seen": [
+        103
+      ],
+      "as": [
+        104
+      ],
+      "effective": [
+        106
+      ],
+      "bath": [
+        107
+      ],
+      "by": [
+        108,
+        209
+      ],
+      "weak-coupling": [
+        113
+      ],
+      "limit,": [
+        114
+      ],
+      "do": [
+        115
+      ],
+      "not": [
+        116
+      ],
+      "give": [
+        117
+      ],
+      "detailed": [
+        119,
+        173
+      ],
+      "balance": [
+        120,
+        174
+      ],
+      "expected": [
+        121
+      ],
+      "true": [
+        124
+      ],
+      "zero-temperature": [
+        125
+      ],
+      "environment.": [
+        126
+      ],
+      "Our": [
+        127
+      ],
+      "argument": [
+        128
+      ],
+      "based": [
+        130
+      ],
+      "on": [
+        131
+      ],
+      "study": [
+        133
+      ],
+      "similar": [
+        136
+      ],
+      "employing": [
+        138
+      ],
+      "linear": [
+        139
+      ],
+      "coupling": [
+        140
+      ],
+      "bosonic": [
+        142
+      ],
+      "ancillas.": [
+        143
+      ],
+      "We": [
+        144
+      ],
+      "explore": [
+        145
+      ],
+      "overcoming": [
+        146
+      ],
+      "recently": [
+        151
+      ],
+      "developed": [
+        152
+      ],
+      "open": [
+        153
+      ],
+      "quantum": [
+        154,
+        167
+      ],
+      "systems": [
+        155
+      ],
+      "technique": [
+        156
+      ],
+      "called": [
+        157
+      ],
+      "pseudomodes.": [
+        158
+      ],
+      "With": [
+        159
+      ],
+      "simple": [
+        161
+      ],
+      "example": [
+        162
+      ],
+      "model": [
+        163
+      ],
+      "one-dimensional": [
+        166
+      ],
+      "Ising": [
+        168
+      ],
+      "chain,": [
+        169
+      ],
+      "show": [
+        171
+      ],
+      "can": [
+        175
+      ],
+      "fixed,": [
+        177
+      ],
+      "and": [
+        178,
+        197
+      ],
+      "accurate": [
+        181
+      ],
+      "estimation": [
+        182
+      ],
+      "obtained,": [
+        187
+      ],
+      "at": [
+        188
+      ],
+      "cost": [
+        190
+      ],
+      "two": [
+        192
+      ],
+      "additional": [
+        193
+      ],
+      "unphysical": [
+        194
+      ],
+      "modes": [
+        196,
+        204
+      ],
+      "extrapolation": [
+        199
+      ],
+      "error": [
+        200
+      ],
+      "implementing": [
+        202
+      ],
+      "those": [
+        203
+      ],
+      "physical": [
+        206
+      ],
+      "systems.": [
+        207
+      ],
+      "Published": [
+        208
+      ],
+      "American": [
+        211
+      ],
+      "Physical": [
+        212
+      ],
+      "Society": [
+        213
+      ],
+      "2024": [
+        214
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2026-01-06T15:29:32Z",
+      "timestamp": 1767713372164,
+      "version": "3.37.3"
+    },
+    "reference-count": 48,
+    "publisher": "American Physical Society (APS)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              2
+            ]
+          ],
+          "date-time": "2024-12-02T00:00:00Z",
+          "timestamp": 1733097600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100006264",
+        "name": "RIKEN",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100006264",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001691",
+        "name": "Japan Society for the Promotion of Science",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "JP24H00816",
+          "JP24H00820"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JP24H00816",
+              "JP24H00820"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001691",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "11935012",
+          "U2330401"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "11935012",
+              "U2330401"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004180",
+        "name": "Nippon Telegraph and Telephone",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100004180",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002241",
+        "name": "Japan Science and Technology Agency",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "JPMJCR24I2"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "JPMJCR24I2"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002241",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N62909-23-1-2074"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N62909-23-1-2074"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000646",
+        "name": "Japan Society for the Promotion of Science London",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000646",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.aps.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Phys. Rev. Research"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Dissipative state engineering is a general term for a protocol which prepares the ground state of a complex many-body Hamiltonian using engineered dissipation or engineered environments. Recently, it was shown that a version of this protocol, where the engineered environment consists of one or more dissipative qubit ancillas tuned to be resonant with the low-energy transitions of a many-body system, resulted in the combined system evolving to reasonable approximation to the ground state. This potentially broadens the applicability of the method beyond nonfrustrated systems, to which it was previously restricted. Here we argue that this approach has an intrinsic limitation because the ancillas, seen as an effective bath by the system in the weak-coupling limit, do not give the detailed balance expected for a true zero-temperature environment. Our argument is based on the study of a similar approach employing linear coupling to bosonic ancillas. We explore overcoming this limitation using a recently developed open quantum systems technique called pseudomodes. With a simple example model of a one-dimensional quantum Ising chain, we show that detailed balance can be fixed, and a more accurate estimation of the ground state obtained, at the cost of two additional unphysical dissipative modes and the extrapolation error of implementing those modes in physical systems.</jats:p>\n          <jats:sec>\n            <jats:title/>\n            <jats:supplementary-material>\n              <jats:permissions>\n                <jats:copyright-statement>Published by the American Physical Society</jats:copyright-statement>\n                <jats:copyright-year>2024</jats:copyright-year>\n              </jats:permissions>\n            </jats:supplementary-material>\n          </jats:sec>",
+    "DOI": "10.1103/physrevresearch.6.043229",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          2
+        ]
+      ],
+      "date-time": "2024-12-02T16:31:58Z",
+      "timestamp": 1733157118000
+    },
+    "update-policy": "https://doi.org/10.1103/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Fixing detailed balance in ancilla-based dissipative state engineering"
+    ],
+    "prefix": "10.1103",
+    "volume": "6",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7873-0773",
+        "authenticated-orcid": true,
+        "given": "Neill",
+        "family": "Lambert",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/01sjwvz98",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "RIKEN"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02tt21044",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Quantum Computing Center, RIKEN"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2963-2469",
+        "authenticated-orcid": true,
+        "given": "Mauro",
+        "family": "Cirio",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graduate School of China Academy of Engineering Physics"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0008-5210-8423",
+        "authenticated-orcid": true,
+        "given": "Jhen-Dong",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/01b8kcc49",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "National Cheng Kung University"
+          },
+          {
+            "name": "Center for Quantum Frontiers of Research and Technology"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3968-0918",
+        "authenticated-orcid": true,
+        "given": "Paul",
+        "family": "Menczel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/01sjwvz98",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "RIKEN"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0867-9869",
+        "authenticated-orcid": true,
+        "given": "Pengfei",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graduate School of China Academy of Engineering Physics"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3682-7432",
+        "authenticated-orcid": true,
+        "given": "Franco",
+        "family": "Nori",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/01sjwvz98",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "RIKEN"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/02tt21044",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Quantum Computing Center, RIKEN"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/00jmfr291",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "University of Michigan, Ann Arbor"
+          }
+        ]
+      }
+    ],
+    "member": "16",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "PhysRevResearch.6.043229Cc1R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.86.153"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc3R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nphys1342"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc4R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1208001"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.65.010101"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc6R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.113.040501"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc7R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevResearch.6.033147"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc8R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1367-2630/15/7/073027"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc9R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.aaw9268"
+      },
+      {
+        "volume-title": "Proceedings of the 2020 IEEE International Conference on Quantum Computing and Engineering (QCE'20)",
+        "year": "2020",
+        "author": "T. Giurgica-Tiron",
+        "key": "PhysRevResearch.6.043229Cc10R1"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.adh9932"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc12R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0034-4877(76)90046-X"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc13R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01625769"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc14R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01020296"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.82.1155"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc16R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-11656-1"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc17R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.55.2290"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc18R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.120.030402"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc19R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevResearch.2.043058"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc20R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevResearch.5.033011"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc21R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1367-2630/aa6ccc"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc23R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.127.250404"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc24R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PRXQuantum.4.030316"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc25R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevResearch.6.033237"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc26R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevResearch.6.033083"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc27R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/5.0209348"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc28R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PRXQuantum.5.020332"
+      },
+      {
+        "volume-title": "44th International Colloquium on Automata, Languages, and Programming (ICALP 2017). Leibniz International Proceedings in Informatics (LIPIcs)",
+        "year": "2017",
+        "author": "R. Cleve",
+        "key": "PhysRevResearch.6.043229Cc29R1"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc30R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aop.2013.11.001"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc32R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cpc.2012.02.021"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc33R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cpc.2012.11.019"
+      },
+      {
+        "volume-title": "The Theory of Open Quantum Systems",
+        "year": "2002",
+        "author": "H.-P. Breuer",
+        "key": "PhysRevResearch.6.043229Cc34R1"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc36R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/080734479"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc37R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.92.042303"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc38R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-33335-4"
+      },
+      {
+        "volume-title": "STOC 2024 Proceedings of the 56th Annual ACM Symposium on Theory of Computing",
+        "year": "2024",
+        "author": "C.-F. Chen",
+        "key": "PhysRevResearch.6.043229Cc39R1"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc40R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/2632-2153/ad035c"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc41R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.129.220501"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc42R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.131.050601"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc43R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PRXQuantum.3.020319"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc44R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.50.888"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc45R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6382/ac0e17"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc46R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/jhep08(2019)152"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc47R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.101.042126"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc48R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physletb.2023.137979"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc49R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6633/ac73a0"
+      },
+      {
+        "volume-title": "Proceedings of the 50th Annual ACM SIGACT Symposium",
+        "year": "2018",
+        "author": "S. Aaronson",
+        "key": "PhysRevResearch.6.043229Cc50R1"
+      },
+      {
+        "volume-title": "46th International Colloquium on Automata, Languages, and Programming (ICALP 2019)",
+        "year": "2019",
+        "author": "F. G. S. L. Brandão",
+        "key": "PhysRevResearch.6.043229Cc51R1"
+      },
+      {
+        "key": "PhysRevResearch.6.043229Cc52R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevResearch.5.013181"
+      }
+    ],
+    "container-title": [
+      "Physical Review Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevResearch.6.043229",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevResearch.6.043229/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          2
+        ]
+      ],
+      "date-time": "2024-12-02T16:32:02Z",
+      "timestamp": 1733157122000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.aps.org/doi/10.1103/PhysRevResearch.6.043229"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          2
+        ]
+      ]
+    },
+    "references-count": 48,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            12
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1103/physrevresearch.6.043229",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.48550/arXiv.2310.12539",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "2643-1564"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2643-1564"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          2
+        ]
+      ]
+    },
+    "article-number": "043229"
+  }
+}

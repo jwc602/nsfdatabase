@@ -1,0 +1,1887 @@
+{
+  "doi": "10.3389/fmech.2024.1397131",
+  "openalex": {
+    "id": "https://openalex.org/W4400589075",
+    "doi": "https://doi.org/10.3389/fmech.2024.1397131",
+    "title": "On the generalization discrepancy of spatiotemporal dynamics-informed graph convolutional networks",
+    "display_name": "On the generalization discrepancy of spatiotemporal dynamics-informed graph convolutional networks",
+    "publication_year": 2024,
+    "publication_date": "2024-07-12",
+    "ids": {
+      "openalex": "https://openalex.org/W4400589075",
+      "doi": "https://doi.org/10.3389/fmech.2024.1397131"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3389/fmech.2024.1397131",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3389/fmech.2024.1397131",
+      "pdf_url": "https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2024.1397131/pdf",
+      "source": {
+        "id": "https://openalex.org/S2596399182",
+        "display_name": "Frontiers in Mechanical Engineering",
+        "issn_l": "2297-3079",
+        "issn": [
+          "2297-3079"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320527",
+        "host_organization_name": "Frontiers Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320527"
+        ],
+        "host_organization_lineage_names": [
+          "Frontiers Media"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Frontiers in Mechanical Engineering",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2024.1397131/pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101340542",
+          "display_name": "Yue Sun",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I186143895",
+            "display_name": "Lehigh University",
+            "ror": "https://ror.org/012afjb06",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I186143895"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yue Sun",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, Lehigh University, Bethlehem, PA, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, Lehigh University, Bethlehem, PA, United States",
+            "institution_ids": [
+              "https://openalex.org/I186143895"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100408409",
+          "display_name": "Chao Chen",
+          "orcid": "https://orcid.org/0000-0003-3941-3972"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I186143895",
+            "display_name": "Lehigh University",
+            "ror": "https://ror.org/012afjb06",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I186143895"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chao Chen",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Lehigh University, Bethlehem, PA, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Lehigh University, Bethlehem, PA, United States",
+            "institution_ids": [
+              "https://openalex.org/I186143895"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5026572582",
+          "display_name": "Yuesheng Xu",
+          "orcid": "https://orcid.org/0000-0003-3965-3087"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I186143895",
+            "display_name": "Lehigh University",
+            "ror": "https://ror.org/012afjb06",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I186143895"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuesheng Xu",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Lehigh University, Bethlehem, PA, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Lehigh University, Bethlehem, PA, United States",
+            "institution_ids": [
+              "https://openalex.org/I186143895"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102861459",
+          "display_name": "Sihong Xie",
+          "orcid": "https://orcid.org/0000-0001-5741-9740"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I200769079",
+            "display_name": "Hong Kong University of Science and Technology",
+            "ror": "https://ror.org/00q4vv597",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I200769079"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I889458895",
+            "display_name": "University of Hong Kong",
+            "ror": "https://ror.org/02zhqgq86",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sihong Xie",
+        "raw_affiliation_strings": [
+          "Artificial Intelligence Thrust, Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Artificial Intelligence Thrust, Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I200769079",
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5042577942",
+          "display_name": "Rick S. Blum",
+          "orcid": "https://orcid.org/0000-0002-1024-6771"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I186143895",
+            "display_name": "Lehigh University",
+            "ror": "https://ror.org/012afjb06",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I186143895"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rick S. Blum",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, Lehigh University, Bethlehem, PA, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, Lehigh University, Bethlehem, PA, United States",
+            "institution_ids": [
+              "https://openalex.org/I186143895"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5014965408",
+          "display_name": "Parv Venkitasubramaniam",
+          "orcid": "https://orcid.org/0000-0002-0999-3331"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I186143895",
+            "display_name": "Lehigh University",
+            "ror": "https://ror.org/012afjb06",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I186143895"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Parv Venkitasubramaniam",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, Lehigh University, Bethlehem, PA, United States"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, Lehigh University, Bethlehem, PA, United States",
+            "institution_ids": [
+              "https://openalex.org/I186143895"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5014965408"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I186143895"
+    ],
+    "apc_list": {
+      "value": 1150,
+      "currency": "USD",
+      "value_usd": 1150
+    },
+    "apc_paid": {
+      "value": 1150,
+      "currency": "USD",
+      "value_usd": 1150
+    },
+    "fwci": 0.54233541,
+    "has_fulltext": false,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.58812508,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 95
+    },
+    "biblio": {
+      "volume": "10",
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12592",
+      "display_name": "Opinion Dynamics and Social Influence",
+      "score": 0.9973000288009644,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3109",
+        "display_name": "Statistical and Nonlinear Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12592",
+        "display_name": "Opinion Dynamics and Social Influence",
+        "score": 0.9973000288009644,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10064",
+        "display_name": "Complex Network Analysis Techniques",
+        "score": 0.9966999888420105,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11344",
+        "display_name": "Traffic Prediction and Management Techniques",
+        "score": 0.9886000156402588,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2215",
+          "display_name": "Building and Construction"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/generalization",
+        "display_name": "Generalization",
+        "score": 0.7404669523239136
+      },
+      {
+        "id": "https://openalex.org/keywords/dynamics",
+        "display_name": "Dynamics (music)",
+        "score": 0.6063739061355591
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5623973608016968
+      },
+      {
+        "id": "https://openalex.org/keywords/graph",
+        "display_name": "Graph",
+        "score": 0.5464568734169006
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.44804298877716064
+      },
+      {
+        "id": "https://openalex.org/keywords/convolutional-neural-network",
+        "display_name": "Convolutional neural network",
+        "score": 0.41499608755111694
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.3224153518676758
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.2636582851409912
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.17547941207885742
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C177148314",
+        "wikidata": "https://www.wikidata.org/wiki/Q170084",
+        "display_name": "Generalization",
+        "level": 2,
+        "score": 0.7404669523239136
+      },
+      {
+        "id": "https://openalex.org/C145912823",
+        "wikidata": "https://www.wikidata.org/wiki/Q113558",
+        "display_name": "Dynamics (music)",
+        "level": 2,
+        "score": 0.6063739061355591
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5623973608016968
+      },
+      {
+        "id": "https://openalex.org/C132525143",
+        "wikidata": "https://www.wikidata.org/wiki/Q141488",
+        "display_name": "Graph",
+        "level": 2,
+        "score": 0.5464568734169006
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.44804298877716064
+      },
+      {
+        "id": "https://openalex.org/C81363708",
+        "wikidata": "https://www.wikidata.org/wiki/Q17084460",
+        "display_name": "Convolutional neural network",
+        "level": 2,
+        "score": 0.41499608755111694
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.3224153518676758
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.2636582851409912
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.17547941207885742
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C19417346",
+        "wikidata": "https://www.wikidata.org/wiki/Q7922",
+        "display_name": "Pedagogy",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.3389/fmech.2024.1397131",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fmech.2024.1397131",
+        "pdf_url": "https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2024.1397131/pdf",
+        "source": {
+          "id": "https://openalex.org/S2596399182",
+          "display_name": "Frontiers in Mechanical Engineering",
+          "issn_l": "2297-3079",
+          "issn": [
+            "2297-3079"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Mechanical Engineering",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:e30db3d7907e4c898c76fd00458aee24",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/e30db3d7907e4c898c76fd00458aee24",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Frontiers in Mechanical Engineering, Vol 10 (2024)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3389/fmech.2024.1397131",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3389/fmech.2024.1397131",
+      "pdf_url": "https://www.frontiersin.org/journals/mechanical-engineering/articles/10.3389/fmech.2024.1397131/pdf",
+      "source": {
+        "id": "https://openalex.org/S2596399182",
+        "display_name": "Frontiers in Mechanical Engineering",
+        "issn_l": "2297-3079",
+        "issn": [
+          "2297-3079"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320527",
+        "host_organization_name": "Frontiers Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320527"
+        ],
+        "host_organization_lineage_names": [
+          "Frontiers Media"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Frontiers in Mechanical Engineering",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/11",
+        "score": 0.7099999785423279,
+        "display_name": "Sustainable cities and communities"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": true
+    },
+    "referenced_works_count": 62,
+    "referenced_works": [
+      "https://openalex.org/W3118628401",
+      "https://openalex.org/W3010730092",
+      "https://openalex.org/W3175925542",
+      "https://openalex.org/W6679867606",
+      "https://openalex.org/W6752307458",
+      "https://openalex.org/W4283817628",
+      "https://openalex.org/W3037898693",
+      "https://openalex.org/W3015851013",
+      "https://openalex.org/W3093695087",
+      "https://openalex.org/W3172854222",
+      "https://openalex.org/W6736057607",
+      "https://openalex.org/W2903871660",
+      "https://openalex.org/W3171958173",
+      "https://openalex.org/W6787613419",
+      "https://openalex.org/W2080731889",
+      "https://openalex.org/W4283819096",
+      "https://openalex.org/W6762981976",
+      "https://openalex.org/W4309951073",
+      "https://openalex.org/W3163993681",
+      "https://openalex.org/W4236538389",
+      "https://openalex.org/W6726873649",
+      "https://openalex.org/W2131739422",
+      "https://openalex.org/W6719252775",
+      "https://openalex.org/W6746015598",
+      "https://openalex.org/W2983172253",
+      "https://openalex.org/W2149033360",
+      "https://openalex.org/W2953920773",
+      "https://openalex.org/W3119464339",
+      "https://openalex.org/W3197040406",
+      "https://openalex.org/W3034373371",
+      "https://openalex.org/W2899283552",
+      "https://openalex.org/W6791503542",
+      "https://openalex.org/W1967820648",
+      "https://openalex.org/W6789531297",
+      "https://openalex.org/W2191230881",
+      "https://openalex.org/W4287332260",
+      "https://openalex.org/W2171234954",
+      "https://openalex.org/W2022797785",
+      "https://openalex.org/W3021029826",
+      "https://openalex.org/W3133542152",
+      "https://openalex.org/W4214480085",
+      "https://openalex.org/W3080253043",
+      "https://openalex.org/W6770064641",
+      "https://openalex.org/W4225324481",
+      "https://openalex.org/W6842222259",
+      "https://openalex.org/W2756203131",
+      "https://openalex.org/W4289639938",
+      "https://openalex.org/W2946725528",
+      "https://openalex.org/W4287325030",
+      "https://openalex.org/W3125908253",
+      "https://openalex.org/W3128461917",
+      "https://openalex.org/W4297733535",
+      "https://openalex.org/W2989915885",
+      "https://openalex.org/W4360982459",
+      "https://openalex.org/W2604763608",
+      "https://openalex.org/W3103720336",
+      "https://openalex.org/W2964015378",
+      "https://openalex.org/W2979756444",
+      "https://openalex.org/W3117049966",
+      "https://openalex.org/W2135604164",
+      "https://openalex.org/W2963358464",
+      "https://openalex.org/W2963755523"
+    ],
+    "related_works": [
+      "https://openalex.org/W3162204513",
+      "https://openalex.org/W4293226380",
+      "https://openalex.org/W2371138613",
+      "https://openalex.org/W2048963458",
+      "https://openalex.org/W43109613",
+      "https://openalex.org/W2359952343",
+      "https://openalex.org/W2239445980",
+      "https://openalex.org/W2080152487",
+      "https://openalex.org/W3083152911",
+      "https://openalex.org/W3022347918"
+    ],
+    "abstract_inverted_index": {
+      "Graph": [
+        0,
+        156,
+        171
+      ],
+      "neural": [
+        1
+      ],
+      "networks": [
+        2,
+        119
+      ],
+      "(GNNs)": [
+        3
+      ],
+      "have": [
+        4
+      ],
+      "gained": [
+        5
+      ],
+      "significant": [
+        6
+      ],
+      "attention": [
+        7
+      ],
+      "in": [
+        8,
+        23,
+        104
+      ],
+      "diverse": [
+        9
+      ],
+      "domains,": [
+        10
+      ],
+      "ranging": [
+        11
+      ],
+      "from": [
+        12,
+        65
+      ],
+      "urban": [
+        13
+      ],
+      "planning": [
+        14
+      ],
+      "to": [
+        15,
+        29,
+        100,
+        134,
+        141,
+        198,
+        200
+      ],
+      "pandemic": [
+        16
+      ],
+      "management.": [
+        17
+      ],
+      "Ensuring": [
+        18
+      ],
+      "both": [
+        19
+      ],
+      "accuracy": [
+        20
+      ],
+      "and": [
+        21,
+        137,
+        168,
+        183,
+        189,
+        208
+      ],
+      "robustness": [
+        22
+      ],
+      "GNNs": [
+        24
+      ],
+      "remains": [
+        25
+      ],
+      "a": [
+        26,
+        81,
+        177
+      ],
+      "challenge": [
+        27,
+        103
+      ],
+      "due": [
+        28
+      ],
+      "insufficient": [
+        30
+      ],
+      "quality": [
+        31
+      ],
+      "data": [
+        32,
+        40,
+        62,
+        76,
+        139,
+        216
+      ],
+      "that": [
+        33,
+        97,
+        194,
+        206
+      ],
+      "contains": [
+        34
+      ],
+      "sufficient": [
+        35,
+        38
+      ],
+      "features.": [
+        36
+      ],
+      "With": [
+        37
+      ],
+      "training": [
+        39,
+        61,
+        136
+      ],
+      "where": [
+        41,
+        125
+      ],
+      "all": [
+        42
+      ],
+      "spatiotemporal": [
+        43,
+        108
+      ],
+      "patterns": [
+        44,
+        70,
+        79
+      ],
+      "are": [
+        45,
+        63,
+        86,
+        132,
+        185,
+        210
+      ],
+      "well-represented,": [
+        46
+      ],
+      "existing": [
+        47,
+        56
+      ],
+      "GNN": [
+        48
+      ],
+      "models": [
+        49,
+        197
+      ],
+      "can": [
+        50
+      ],
+      "make": [
+        51
+      ],
+      "reasonably": [
+        52
+      ],
+      "accurate": [
+        53
+      ],
+      "predictions.": [
+        54
+      ],
+      "However,": [
+        55
+      ],
+      "methods": [
+        57
+      ],
+      "fail": [
+        58
+      ],
+      "when": [
+        59
+      ],
+      "the": [
+        60,
+        105,
+        169,
+        196
+      ],
+      "drawn": [
+        64
+      ],
+      "different": [
+        66
+      ],
+      "circumstances": [
+        67
+      ],
+      "(e.g.,": [
+        68,
+        77
+      ],
+      "traffic": [
+        69,
+        78,
+        165
+      ],
+      "on": [
+        71,
+        187
+      ],
+      "regular": [
+        72
+      ],
+      "days)": [
+        73
+      ],
+      "than": [
+        74,
+        217
+      ],
+      "test": [
+        75
+      ],
+      "after": [
+        80
+      ],
+      "natural": [
+        82
+      ],
+      "disaster).": [
+        83
+      ],
+      "Such": [
+        84
+      ],
+      "challenges": [
+        85
+      ],
+      "usually": [
+        87
+      ],
+      "classified": [
+        88
+      ],
+      "under": [
+        89
+      ],
+      "domain": [
+        90,
+        113,
+        129,
+        143,
+        191
+      ],
+      "generalization.": [
+        91
+      ],
+      "In": [
+        92
+      ],
+      "this": [
+        93,
+        102
+      ],
+      "work,": [
+        94
+      ],
+      "we": [
+        95,
+        150
+      ],
+      "show": [
+        96,
+        205
+      ],
+      "one": [
+        98
+      ],
+      "way": [
+        99
+      ],
+      "address": [
+        101
+      ],
+      "context": [
+        106
+      ],
+      "of": [
+        107
+      ],
+      "prediction": [
+        109
+      ],
+      "is": [
+        110
+      ],
+      "by": [
+        111
+      ],
+      "incorporating": [
+        112,
+        127
+      ],
+      "differential": [
+        114,
+        130,
+        162,
+        192
+      ],
+      "equations": [
+        115,
+        131,
+        163,
+        193
+      ],
+      "into": [
+        116
+      ],
+      "graph": [
+        117
+      ],
+      "convolutional": [
+        118
+      ],
+      "(GCNs).": [
+        120
+      ],
+      "We": [
+        121,
+        203
+      ],
+      "theoretically": [
+        122
+      ],
+      "derive": [
+        123
+      ],
+      "conditions": [
+        124
+      ],
+      "GCNs": [
+        126
+      ],
+      "such": [
+        128
+      ],
+      "robust": [
+        133,
+        212
+      ],
+      "mismatched": [
+        135,
+        214
+      ],
+      "testing": [
+        138,
+        215
+      ],
+      "compared": [
+        140
+      ],
+      "baseline": [
+        142
+      ],
+      "agnostic": [
+        144
+      ],
+      "models.": [
+        145
+      ],
+      "To": [
+        146
+      ],
+      "support": [
+        147
+      ],
+      "our": [
+        148
+      ],
+      "theory,": [
+        149
+      ],
+      "propose": [
+        151
+      ],
+      "two": [
+        152
+      ],
+      "domain-differential-equation-informed": [
+        153
+      ],
+      "networks:": [
+        154
+      ],
+      "Reaction-Diffusion": [
+        155
+      ],
+      "Convolutional": [
+        157,
+        172
+      ],
+      "Network": [
+        158,
+        173
+      ],
+      "(RDGCN),": [
+        159
+      ],
+      "which": [
+        160,
+        175
+      ],
+      "incorporates": [
+        161,
+        176
+      ],
+      "for": [
+        164
+      ],
+      "speed": [
+        166
+      ],
+      "evolution,": [
+        167
+      ],
+      "Susceptible-Infectious-Recovered": [
+        170
+      ],
+      "(SIRGCN),": [
+        174
+      ],
+      "disease": [
+        178
+      ],
+      "propagation": [
+        179
+      ],
+      "model.": [
+        180
+      ],
+      "Both": [
+        181
+      ],
+      "RDGCN": [
+        182,
+        207
+      ],
+      "SIRGCN": [
+        184,
+        209
+      ],
+      "based": [
+        186
+      ],
+      "reliable": [
+        188
+      ],
+      "interpretable": [
+        190
+      ],
+      "allow": [
+        195
+      ],
+      "generalize": [
+        199
+      ],
+      "unseen": [
+        201
+      ],
+      "patterns.": [
+        202
+      ],
+      "experimentally": [
+        204
+      ],
+      "more": [
+        211
+      ],
+      "with": [
+        213
+      ],
+      "state-of-the-art": [
+        218
+      ],
+      "deep": [
+        219
+      ],
+      "learning": [
+        220
+      ],
+      "methods.": [
+        221
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-12-26T23:08:49.675405",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2025-12-31T20:13:35Z",
+      "timestamp": 1767212015303,
+      "version": "3.41.2"
+    },
+    "reference-count": 54,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              12
+            ]
+          ],
+          "date-time": "2024-07-12T00:00:00Z",
+          "timestamp": 1720742400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Mech. Eng."
+    ],
+    "abstract": "<jats:p>Graph neural networks (GNNs) have gained significant attention in diverse domains, ranging from urban planning to pandemic management. Ensuring both accuracy and robustness in GNNs remains a challenge due to insufficient quality data that contains sufficient features. With sufficient training data where all spatiotemporal patterns are well-represented, existing GNN models can make reasonably accurate predictions. However, existing methods fail when the training data are drawn from different circumstances (e.g., traffic patterns on regular days) than test data (e.g., traffic patterns after a natural disaster). Such challenges are usually classified under domain generalization. In this work, we show that one way to address this challenge in the context of spatiotemporal prediction is by incorporating domain differential equations into graph convolutional networks (GCNs). We theoretically derive conditions where GCNs incorporating such domain differential equations are robust to mismatched training and testing data compared to baseline domain agnostic models. To support our theory, we propose two domain-differential-equation-informed networks: Reaction-Diffusion Graph Convolutional Network (RDGCN), which incorporates differential equations for traffic speed evolution, and the Susceptible-Infectious-Recovered Graph Convolutional Network (SIRGCN), which incorporates a disease propagation model. Both RDGCN and SIRGCN are based on reliable and interpretable domain differential equations that allow the models to generalize to unseen patterns. We experimentally show that RDGCN and SIRGCN are more robust with mismatched testing data than state-of-the-art deep learning methods.</jats:p>",
+    "DOI": "10.3389/fmech.2024.1397131",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2024-07-12T10:14:20Z",
+      "timestamp": 1720779260000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "On the generalization discrepancy of spatiotemporal dynamics-informed graph convolutional networks"
+    ],
+    "prefix": "10.3389",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Yue",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Chao",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yuesheng",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sihong",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rick S.",
+        "family": "Blum",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Parv",
+        "family": "Venkitasubramaniam",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "013221",
+        "DOI": "10.1103/physrevresearch.4.013221",
+        "article-title": "Neural ordinary differential equation control of dynamics on graphs",
+        "volume": "4",
+        "author": "Asikis",
+        "year": "2022",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "4876",
+        "DOI": "10.1038/s41598-020-61486-1",
+        "article-title": "Unraveling reaction-diffusion-like dynamics in urban congestion propagation: insights from a large-scale road network",
+        "volume": "10",
+        "author": "Bellocchi",
+        "year": "2020",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "2763",
+        "DOI": "10.1007/s10489-021-02587-w",
+        "article-title": "Spatial-temporal graph neural network for traffic forecasting: an overview and open research issues",
+        "volume": "52",
+        "author": "Bui",
+        "year": "2022",
+        "journal-title": "Appl. Intell."
+      },
+      {
+        "key": "B4",
+        "first-page": "607",
+        "article-title": "Short-time traffic flow prediction with arima-garch model",
+        "author": "Chen",
+        "year": "2011"
+      },
+      {
+        "key": "B5",
+        "article-title": "Neural ordinary differential equations",
+        "volume": "31",
+        "author": "Chen",
+        "year": "2018",
+        "journal-title": "Adv. neural Inf. Process. Syst."
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "6367",
+        "DOI": "10.1609/aaai.v36i6.20587",
+        "article-title": "Graph neural controlled differential equations for traffic forecasting",
+        "volume": "36",
+        "author": "Choi",
+        "year": "2022",
+        "journal-title": "Proc. AAAI Conf. Artif. Intell."
+      },
+      {
+        "key": "B7",
+        "doi-asserted-by": "publisher",
+        "first-page": "110057",
+        "DOI": "10.1016/j.chaos.2020.110057",
+        "article-title": "A sir model assumption for the spread of covid-19 in different communities",
+        "volume": "139",
+        "author": "Cooper",
+        "year": "2020",
+        "journal-title": "Chaos, Solit. Fractals"
+      },
+      {
+        "key": "B8",
+        "doi-asserted-by": "publisher",
+        "first-page": "102620",
+        "DOI": "10.1016/j.trc.2020.102620",
+        "article-title": "Learning traffic as a graph: a gated graph wavelet recurrent neural network for network-scale traffic prediction",
+        "volume": "115",
+        "author": "Cui",
+        "year": "2020",
+        "journal-title": "Transp. Res. Part C Emerg. Technol."
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1145/3340531.3411975",
+        "article-title": "Cola-gnn: cross-location attention based graph neural networks for long-term ili prediction",
+        "author": "Deng",
+        "year": "2020"
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/CVPR46437.2021.00811",
+        "article-title": "Adversarially adaptive normalization for single domain generalization",
+        "author": "Fan",
+        "year": "2021"
+      },
+      {
+        "article-title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+        "year": "2017",
+        "author": "Finn",
+        "key": "B11"
+      },
+      {
+        "key": "B12",
+        "doi-asserted-by": "publisher",
+        "first-page": "922",
+        "DOI": "10.1609/aaai.v33i01.3301922",
+        "article-title": "Attention based spatial-temporal graph convolutional networks for traffic flow forecasting",
+        "volume": "33",
+        "author": "Guo",
+        "year": "2019",
+        "journal-title": "AAAI"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1145/3447548.3467275",
+        "article-title": "Dynamic and multi-faceted spatio-temporal deep learning for traffic speed forecasting",
+        "author": "Han",
+        "year": "2021"
+      },
+      {
+        "key": "B14",
+        "first-page": "1",
+        "article-title": "Physics informed deep learning for traffic state estimation",
+        "author": "Huang",
+        "year": "2020"
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "86",
+        "DOI": "10.1145/2611567",
+        "article-title": "Big data and its technical challenges",
+        "volume": "57",
+        "author": "Jagadish",
+        "year": "2014",
+        "journal-title": "Commun. ACM"
+      },
+      {
+        "key": "B16",
+        "unstructured": "Use of artificial intelligence on spatio-temporal data to generate insights during covid-19 pandemic: a review\n            JayatilakaG.\n            HassanJ.\n            MarikkarU.\n            PereraR.\n            SritharanS.\n            WeligampolaH.\n          2020"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "4048",
+        "DOI": "10.1609/aaai.v36i4.20322",
+        "article-title": "Stden: towards physics-guided neural networks for traffic flow prediction",
+        "volume": "36",
+        "author": "Ji",
+        "year": "2022",
+        "journal-title": "Proc. AAAI Conf. Artif. Intell."
+      },
+      {
+        "key": "B18",
+        "article-title": "Neural jump stochastic differential equations",
+        "volume": "32",
+        "author": "Jia",
+        "year": "2019",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "B19",
+        "doi-asserted-by": "publisher",
+        "first-page": "9168",
+        "DOI": "10.1109/tkde.2022.3221989",
+        "article-title": "Multivariate time series forecasting with dynamic graph neural odes",
+        "volume": "35",
+        "author": "Jin",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "first-page": "422",
+        "DOI": "10.1038/s42254-021-00314-5",
+        "article-title": "Physics-informed machine learning",
+        "volume": "3",
+        "author": "Karniadakis",
+        "year": "2021",
+        "journal-title": "Nat. Rev. Phys."
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-3-319-78695-7",
+        "volume-title": "Traffic flow modelling",
+        "author": "Kessels",
+        "year": "2019"
+      },
+      {
+        "key": "B22",
+        "article-title": "Semi-supervised classification with graph convolutional networks",
+        "author": "Kipf",
+        "year": "2017",
+        "journal-title": "ICLR"
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "21",
+        "DOI": "10.1007/s12544-015-0170-8",
+        "article-title": "Short-term traffic flow prediction using seasonal arima model with limited input data",
+        "volume": "7",
+        "author": "Kumar",
+        "year": "2015",
+        "journal-title": "Eur. Transp. Res. Rev."
+      },
+      {
+        "article-title": "Time series prediction and online learning",
+        "year": "2016",
+        "author": "Kuznetsov",
+        "key": "B24"
+      },
+      {
+        "key": "B25",
+        "first-page": "1675",
+        "article-title": "Interpretable decision sets: a Joint framework for description and prediction",
+        "author": "Lakkaraju",
+        "year": "2016"
+      },
+      {
+        "article-title": "Diffusion convolutional recurrent neural network: data-driven traffic forecasting",
+        "year": "2018",
+        "author": "Li",
+        "key": "B26"
+      },
+      {
+        "key": "B27",
+        "doi-asserted-by": "publisher",
+        "first-page": "16283",
+        "DOI": "10.1038/s41598-019-51539-5",
+        "article-title": "Understanding traffic capacity of urban networks",
+        "volume": "9",
+        "author": "Loder",
+        "year": "2019",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "B28",
+        "unstructured": "Graph neural networks for temporal graphs: state of the art, open challenges, and opportunities\n            LongaA.\n            LachiV.\n            SantinG.\n            BianchiniM.\n            LepriB.\n            LioP.\n          2023"
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1145/2339530.2339556",
+        "article-title": "Intelligible models for classification and regression",
+        "author": "Lou",
+        "year": "2012"
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "373",
+        "DOI": "10.1038/s42256-019-0077-5",
+        "article-title": "Learning with known operators reduces maximum error bounds",
+        "volume": "1",
+        "author": "Maier",
+        "year": "2019",
+        "journal-title": "Nat. Mach. Intell."
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1038/s41524-020-00471-8",
+        "article-title": "Accelerating phase-field-based microstructure evolution predictions via surrogate models trained by machine learning methods",
+        "volume": "7",
+        "author": "Montes de Oca Zapiain",
+        "year": "2021",
+        "journal-title": "npj Comput. Mater."
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/3531326",
+        "article-title": "Time series prediction using deep learning methods in healthcare",
+        "volume": "14",
+        "author": "Morid",
+        "year": "2023",
+        "journal-title": "ACM Trans. Manag. Inf. Syst."
+      },
+      {
+        "key": "B33",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/CVPR42600.2020.01257",
+        "article-title": "Learning to learn single domain generalization",
+        "author": "Qiao",
+        "year": "2020"
+      },
+      {
+        "key": "B34",
+        "doi-asserted-by": "publisher",
+        "first-page": "686",
+        "DOI": "10.1016/j.jcp.2018.10.045",
+        "article-title": "Physics-informed neural networks: a deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+        "volume": "378",
+        "author": "Raissi",
+        "year": "2019",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "B35",
+        "unstructured": "A survey on domain adaptation theory: learning bounds and theoretical guarantees\n            RedkoI.\n            MorvantE.\n            HabrardA.\n            SebbanM.\n            BennaniY.\n          2020"
+      },
+      {
+        "key": "B36",
+        "first-page": "20210",
+        "article-title": "Model-based domain generalization",
+        "author": "Robey",
+        "year": "2021"
+      },
+      {
+        "key": "B37",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1007/s40828-014-0001-x",
+        "article-title": "First-order differential equations in chemistry",
+        "volume": "1",
+        "author": "Scholz",
+        "year": "2015",
+        "journal-title": "ChemTexts"
+      },
+      {
+        "article-title": "Discrete graph structure learning for forecasting multiple time series",
+        "year": "2021",
+        "author": "Shang",
+        "key": "B38"
+      },
+      {
+        "key": "B39",
+        "doi-asserted-by": "publisher",
+        "first-page": "2581",
+        "DOI": "10.1137/140996148",
+        "article-title": "Sir-network model and its application to dengue fever",
+        "volume": "75",
+        "author": "Stolerman",
+        "year": "2015",
+        "journal-title": "SIAM J. Appl. Math."
+      },
+      {
+        "key": "B40",
+        "doi-asserted-by": "publisher",
+        "first-page": "17849",
+        "DOI": "10.1109/tits.2022.3157439",
+        "article-title": "Incorporating kinematic wave theory into a deep learning method for high-resolution traffic speed estimation",
+        "volume": "23",
+        "author": "Thodi",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Intelligent Transp. Syst."
+      },
+      {
+        "key": "B41",
+        "doi-asserted-by": "publisher",
+        "first-page": "307",
+        "DOI": "10.1016/s0968-090x(97)82903-8",
+        "article-title": "Combining kohonen maps with arima time series models to forecast traffic flow",
+        "volume": "4",
+        "author": "Van Der Voort",
+        "year": "1996",
+        "journal-title": "Transp. Res. Part C Emerg. Technol."
+      },
+      {
+        "key": "B42",
+        "doi-asserted-by": "publisher",
+        "first-page": "445",
+        "DOI": "10.1007/s13676-014-0045-5",
+        "article-title": "Genealogy of traffic flow models",
+        "volume": "4",
+        "author": "van Wageningen-Kessels",
+        "year": "2015",
+        "journal-title": "EURO J. Transp. Logist."
+      },
+      {
+        "key": "B43",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/CISS48834.2020.1570627767",
+        "article-title": "On mismatched detection and safe, trustworthy machine learning",
+        "author": "Varshney",
+        "year": "2020"
+      },
+      {
+        "article-title": "Graph attention networks",
+        "year": "2018",
+        "author": "Veličković",
+        "key": "B44"
+      },
+      {
+        "key": "B45",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1109/tkde.2022.3178128",
+        "article-title": "Generalizing to unseen domains: a survey on domain generalization",
+        "volume": "35",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "TKDE"
+      },
+      {
+        "key": "B46",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/ICCV48922.2021.00087",
+        "article-title": "Learning to diversify for single domain generalization",
+        "author": "Wang",
+        "year": "2021"
+      },
+      {
+        "key": "B47",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1145/3394486.3403118",
+        "article-title": "Connecting the dots: multivariate time series forecasting with graph neural networks",
+        "author": "Wu",
+        "year": "2020"
+      },
+      {
+        "article-title": "Continuous graph neural networks",
+        "year": "2020",
+        "author": "Xhonneux",
+        "key": "B48"
+      },
+      {
+        "key": "B49",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/ICASSP43922.2022.9747362",
+        "article-title": "Mismatched supervised learning",
+        "author": "Xian",
+        "year": "2022"
+      },
+      {
+        "key": "B50",
+        "first-page": "469",
+        "article-title": "Epignn: exploring spatial transmission with graph neural network for regional epidemic forecasting",
+        "author": "Xie",
+        "year": "2023"
+      },
+      {
+        "key": "B51",
+        "unstructured": "Gnn explainer: a tool for post-hoc explanation of graph neural networks\n            YingR.\n            BourgeoisD.\n            YouJ.\n            ZitnikM.\n            LeskovecJ.\n          2019"
+      },
+      {
+        "key": "B52",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.24963/ijcai.2018/505",
+        "article-title": "Spatio-temporal graph convolutional networks: a deep learning framework for traffic forecasting",
+        "author": "Yu",
+        "year": "2018"
+      },
+      {
+        "key": "B53",
+        "unstructured": "Domain generalization in vision: a survey\n            ZhouK.\n            LiuZ.\n            QiaoY.\n            XiangT.\n            LoyC. C.\n          2021"
+      },
+      {
+        "key": "B54",
+        "doi-asserted-by": "publisher",
+        "first-page": "4396",
+        "DOI": "10.1109/tpami.2022.3195549",
+        "article-title": "Domain generalization: a survey",
+        "volume": "45",
+        "author": "Zhou",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Pattern Analysis Mach. Intell."
+      }
+    ],
+    "container-title": [
+      "Frontiers in Mechanical Engineering"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fmech.2024.1397131/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2024-07-12T10:14:26Z",
+      "timestamp": 1720779266000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fmech.2024.1397131/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          12
+        ]
+      ]
+    },
+    "references-count": 54,
+    "alternative-id": [
+      "10.3389/fmech.2024.1397131"
+    ],
+    "URL": "https://doi.org/10.3389/fmech.2024.1397131",
+    "relation": {},
+    "ISSN": [
+      "2297-3079"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2297-3079"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          12
+        ]
+      ]
+    },
+    "article-number": "1397131"
+  }
+}

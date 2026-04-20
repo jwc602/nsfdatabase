@@ -1,0 +1,1895 @@
+{
+  "doi": "10.1103/physreve.108.034310",
+  "openalex": {
+    "id": "https://openalex.org/W4387048046",
+    "doi": "https://doi.org/10.1103/physreve.108.034310",
+    "title": "Heterogeneous message passing for heterogeneous networks",
+    "display_name": "Heterogeneous message passing for heterogeneous networks",
+    "publication_year": 2023,
+    "publication_date": "2023-09-26",
+    "ids": {
+      "openalex": "https://openalex.org/W4387048046",
+      "doi": "https://doi.org/10.1103/physreve.108.034310"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1103/physreve.108.034310",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1103/physreve.108.034310",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210235286",
+        "display_name": "Physical review. E",
+        "issn_l": "2470-0045",
+        "issn": [
+          "2470-0045",
+          "2470-0053",
+          "2470-0061"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physical Review E",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5082313934",
+          "display_name": "George T. Cantwell",
+          "orcid": "https://orcid.org/0000-0002-4205-3691"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I241749",
+            "display_name": "University of Cambridge",
+            "ror": "https://ror.org/013meh722",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I241749"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1308548392",
+            "display_name": "Santa Fe Institute",
+            "ror": "https://ror.org/01arysc35",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I1308548392"
+            ]
+          }
+        ],
+        "countries": [
+          "GB",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "George T. Cantwell",
+        "raw_affiliation_strings": [
+          "Department of Engineering, University of Cambridge, Cambridge CB2 1PZ, United Kingdom",
+          "Santa Fe Institute, 1399 Hyde Park Road, Santa Fe, New Mexico 87501, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Santa Fe Institute, 1399 Hyde Park Road, Santa Fe, New Mexico 87501, USA",
+            "institution_ids": [
+              "https://openalex.org/I1308548392"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Engineering, University of Cambridge, Cambridge CB2 1PZ, United Kingdom",
+            "institution_ids": [
+              "https://openalex.org/I241749"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5058731900",
+          "display_name": "Alec Kirkley",
+          "orcid": "https://orcid.org/0000-0001-9966-0807"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210118286",
+            "display_name": "Hong Kong Design Centre",
+            "ror": "https://ror.org/02hbtf857",
+            "country_code": "HK",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I4210118286"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I889458895",
+            "display_name": "University of Hong Kong",
+            "ror": "https://ror.org/02zhqgq86",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Alec Kirkley",
+        "raw_affiliation_strings": [
+          "Department of Urban Planning and Design, University of Hong Kong, Hong Kong",
+          "Institute of Data Science, University of Hong Kong, Hong Kong",
+          "Urban Systems Institute, University of Hong Kong, Hong Kong"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Urban Systems Institute, University of Hong Kong, Hong Kong",
+            "institution_ids": [
+              "https://openalex.org/I889458895"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute of Data Science, University of Hong Kong, Hong Kong",
+            "institution_ids": [
+              "https://openalex.org/I889458895"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Urban Planning and Design, University of Hong Kong, Hong Kong",
+            "institution_ids": [
+              "https://openalex.org/I4210118286",
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5048471401",
+          "display_name": "Filippo Radicchi",
+          "orcid": "https://orcid.org/0000-0002-8352-1287"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210119109",
+            "display_name": "Indiana University Bloomington",
+            "ror": "https://ror.org/02k40bc56",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210119109",
+              "https://openalex.org/I592451"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Filippo Radicchi",
+        "raw_affiliation_strings": [
+          "Center for Complex Networks and Systems Research, School of Informatics, Computing, and Engineering, Indiana University, Bloomington, Indiana 47408, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Complex Networks and Systems Research, School of Informatics, Computing, and Engineering, Indiana University, Bloomington, Indiana 47408, USA",
+            "institution_ids": [
+              "https://openalex.org/I4210119109"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.7254014,
+    "has_fulltext": false,
+    "cited_by_count": 8,
+    "citation_normalized_percentile": {
+      "value": 0.83142241,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "108",
+      "issue": "3",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10064",
+      "display_name": "Complex Network Analysis Techniques",
+      "score": 0.996399998664856,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3109",
+        "display_name": "Statistical and Nonlinear Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10064",
+        "display_name": "Complex Network Analysis Techniques",
+        "score": 0.996399998664856,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10374",
+        "display_name": "Advanced Graph Theory Research",
+        "score": 0.9804999828338623,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10847",
+        "display_name": "Advanced Optical Network Technologies",
+        "score": 0.964900016784668,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7927250862121582
+      },
+      {
+        "id": "https://openalex.org/keywords/heuristic",
+        "display_name": "Heuristic",
+        "score": 0.7206244468688965
+      },
+      {
+        "id": "https://openalex.org/keywords/node",
+        "display_name": "Node (physics)",
+        "score": 0.7074593305587769
+      },
+      {
+        "id": "https://openalex.org/keywords/focus",
+        "display_name": "Focus (optics)",
+        "score": 0.685579776763916
+      },
+      {
+        "id": "https://openalex.org/keywords/variety",
+        "display_name": "Variety (cybernetics)",
+        "score": 0.606377124786377
+      },
+      {
+        "id": "https://openalex.org/keywords/message-passing",
+        "display_name": "Message passing",
+        "score": 0.565840482711792
+      },
+      {
+        "id": "https://openalex.org/keywords/simple",
+        "display_name": "Simple (philosophy)",
+        "score": 0.5366432666778564
+      },
+      {
+        "id": "https://openalex.org/keywords/heterogeneous-network",
+        "display_name": "Heterogeneous network",
+        "score": 0.47048690915107727
+      },
+      {
+        "id": "https://openalex.org/keywords/approximation-algorithm",
+        "display_name": "Approximation algorithm",
+        "score": 0.4252697825431824
+      },
+      {
+        "id": "https://openalex.org/keywords/distributed-computing",
+        "display_name": "Distributed computing",
+        "score": 0.39660710096359253
+      },
+      {
+        "id": "https://openalex.org/keywords/theoretical-computer-science",
+        "display_name": "Theoretical computer science",
+        "score": 0.33818405866622925
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.3305678367614746
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.20072749257087708
+      },
+      {
+        "id": "https://openalex.org/keywords/telecommunications",
+        "display_name": "Telecommunications",
+        "score": 0.07734069228172302
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7927250862121582
+      },
+      {
+        "id": "https://openalex.org/C173801870",
+        "wikidata": "https://www.wikidata.org/wiki/Q201413",
+        "display_name": "Heuristic",
+        "level": 2,
+        "score": 0.7206244468688965
+      },
+      {
+        "id": "https://openalex.org/C62611344",
+        "wikidata": "https://www.wikidata.org/wiki/Q1062658",
+        "display_name": "Node (physics)",
+        "level": 2,
+        "score": 0.7074593305587769
+      },
+      {
+        "id": "https://openalex.org/C192209626",
+        "wikidata": "https://www.wikidata.org/wiki/Q190909",
+        "display_name": "Focus (optics)",
+        "level": 2,
+        "score": 0.685579776763916
+      },
+      {
+        "id": "https://openalex.org/C136197465",
+        "wikidata": "https://www.wikidata.org/wiki/Q1729295",
+        "display_name": "Variety (cybernetics)",
+        "level": 2,
+        "score": 0.606377124786377
+      },
+      {
+        "id": "https://openalex.org/C854659",
+        "wikidata": "https://www.wikidata.org/wiki/Q1859284",
+        "display_name": "Message passing",
+        "level": 2,
+        "score": 0.565840482711792
+      },
+      {
+        "id": "https://openalex.org/C2780586882",
+        "wikidata": "https://www.wikidata.org/wiki/Q7520643",
+        "display_name": "Simple (philosophy)",
+        "level": 2,
+        "score": 0.5366432666778564
+      },
+      {
+        "id": "https://openalex.org/C158207573",
+        "wikidata": "https://www.wikidata.org/wiki/Q5747224",
+        "display_name": "Heterogeneous network",
+        "level": 4,
+        "score": 0.47048690915107727
+      },
+      {
+        "id": "https://openalex.org/C148764684",
+        "wikidata": "https://www.wikidata.org/wiki/Q621751",
+        "display_name": "Approximation algorithm",
+        "level": 2,
+        "score": 0.4252697825431824
+      },
+      {
+        "id": "https://openalex.org/C120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "level": 1,
+        "score": 0.39660710096359253
+      },
+      {
+        "id": "https://openalex.org/C80444323",
+        "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+        "display_name": "Theoretical computer science",
+        "level": 1,
+        "score": 0.33818405866622925
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.3305678367614746
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.20072749257087708
+      },
+      {
+        "id": "https://openalex.org/C76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "level": 1,
+        "score": 0.07734069228172302
+      },
+      {
+        "id": "https://openalex.org/C120665830",
+        "wikidata": "https://www.wikidata.org/wiki/Q14620",
+        "display_name": "Optics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C108037233",
+        "wikidata": "https://www.wikidata.org/wiki/Q11375",
+        "display_name": "Wireless network",
+        "level": 3,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C555944384",
+        "wikidata": "https://www.wikidata.org/wiki/Q249",
+        "display_name": "Wireless",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C66938386",
+        "wikidata": "https://www.wikidata.org/wiki/Q633538",
+        "display_name": "Structural engineering",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1103/physreve.108.034310",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1103/physreve.108.034310",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210235286",
+          "display_name": "Physical review. E",
+          "issn_l": "2470-0045",
+          "issn": [
+            "2470-0045",
+            "2470-0053",
+            "2470-0061"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_name": "American Physical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Physical Review E",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:hub.hku.hk:10722/338082",
+        "is_oa": false,
+        "landing_page_url": "https://hub.hku.hk/handle/10722/338082",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4377196271",
+          "display_name": "The HKU Scholars Hub (University of Hong Kong)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I889458895",
+          "host_organization_name": "University of Hong Kong",
+          "host_organization_lineage": [
+            "https://openalex.org/I889458895"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G6424241888",
+        "display_name": null,
+        "funder_award_id": "FA9550-21-1-0446",
+        "funder_id": "https://openalex.org/F4320338279",
+        "funder_display_name": "Air Force Office of Scientific Research"
+      },
+      {
+        "id": "https://openalex.org/G986930761",
+        "display_name": null,
+        "funder_award_id": "W911NF-21-1-0194",
+        "funder_id": "https://openalex.org/F4320338281",
+        "funder_display_name": "Army Research Office"
+      },
+      {
+        "id": "https://openalex.org/G7395634457",
+        "display_name": null,
+        "funder_award_id": "BIGDATA-1838251",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320338279",
+        "display_name": "Air Force Office of Scientific Research",
+        "ror": "https://ror.org/011e9bt93"
+      },
+      {
+        "id": "https://openalex.org/F4320338281",
+        "display_name": "Army Research Office",
+        "ror": "https://ror.org/05epdh915"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 81,
+    "referenced_works": [
+      "https://openalex.org/W4319601079",
+      "https://openalex.org/W1994731130",
+      "https://openalex.org/W2011014734",
+      "https://openalex.org/W2144149054",
+      "https://openalex.org/W2087138339",
+      "https://openalex.org/W2005288442",
+      "https://openalex.org/W3041618190",
+      "https://openalex.org/W1871641673",
+      "https://openalex.org/W2770186095",
+      "https://openalex.org/W2800934171",
+      "https://openalex.org/W2091322850",
+      "https://openalex.org/W1976056997",
+      "https://openalex.org/W2147441165",
+      "https://openalex.org/W2463979689",
+      "https://openalex.org/W2257546966",
+      "https://openalex.org/W2605296889",
+      "https://openalex.org/W2728718095",
+      "https://openalex.org/W2566505556",
+      "https://openalex.org/W1973374221",
+      "https://openalex.org/W2112090702",
+      "https://openalex.org/W4238452917",
+      "https://openalex.org/W2000687288",
+      "https://openalex.org/W2275369912",
+      "https://openalex.org/W2963092996",
+      "https://openalex.org/W3156782448",
+      "https://openalex.org/W2008620264",
+      "https://openalex.org/W1988529767",
+      "https://openalex.org/W2169712321",
+      "https://openalex.org/W2175160295",
+      "https://openalex.org/W2997228950",
+      "https://openalex.org/W2144267444",
+      "https://openalex.org/W1973836644",
+      "https://openalex.org/W2501990301",
+      "https://openalex.org/W2132013054",
+      "https://openalex.org/W2125315567",
+      "https://openalex.org/W2108614537",
+      "https://openalex.org/W1995907191",
+      "https://openalex.org/W3101413764",
+      "https://openalex.org/W2094234423",
+      "https://openalex.org/W2109110326",
+      "https://openalex.org/W2015953751",
+      "https://openalex.org/W1971421925",
+      "https://openalex.org/W2029766371",
+      "https://openalex.org/W2047827879",
+      "https://openalex.org/W2013307517",
+      "https://openalex.org/W2154656661",
+      "https://openalex.org/W2146530408",
+      "https://openalex.org/W2153624566",
+      "https://openalex.org/W2155167324",
+      "https://openalex.org/W2130790725",
+      "https://openalex.org/W2052104835",
+      "https://openalex.org/W2121470019",
+      "https://openalex.org/W2112615110",
+      "https://openalex.org/W2165058082",
+      "https://openalex.org/W2147714160",
+      "https://openalex.org/W2015456599",
+      "https://openalex.org/W2146591355",
+      "https://openalex.org/W2069905714",
+      "https://openalex.org/W1994473607",
+      "https://openalex.org/W2769133055",
+      "https://openalex.org/W2010772252",
+      "https://openalex.org/W4243183553",
+      "https://openalex.org/W2587032473",
+      "https://openalex.org/W4234842777",
+      "https://openalex.org/W4230790955",
+      "https://openalex.org/W4254882520",
+      "https://openalex.org/W4299547039",
+      "https://openalex.org/W4250331344",
+      "https://openalex.org/W1484075759",
+      "https://openalex.org/W4298359459",
+      "https://openalex.org/W4230947566",
+      "https://openalex.org/W4233155938",
+      "https://openalex.org/W102708294",
+      "https://openalex.org/W1607198972",
+      "https://openalex.org/W4212883688",
+      "https://openalex.org/W3103177052",
+      "https://openalex.org/W3102264316",
+      "https://openalex.org/W1967140769",
+      "https://openalex.org/W2042440435",
+      "https://openalex.org/W4235506300",
+      "https://openalex.org/W2604272474"
+    ],
+    "related_works": [
+      "https://openalex.org/W2978729728",
+      "https://openalex.org/W1927327903",
+      "https://openalex.org/W1544665982",
+      "https://openalex.org/W2022479666",
+      "https://openalex.org/W4288966080",
+      "https://openalex.org/W2805504328",
+      "https://openalex.org/W4248847438",
+      "https://openalex.org/W2509090697",
+      "https://openalex.org/W1953159635",
+      "https://openalex.org/W4238131711"
+    ],
+    "abstract_inverted_index": {
+      "Message": [
+        0
+      ],
+      "passing": [
+        1
+      ],
+      "(MP)": [
+        2
+      ],
+      "is": [
+        3,
+        117,
+        145
+      ],
+      "a": [
+        4,
+        13,
+        98,
+        103,
+        137,
+        142
+      ],
+      "computational": [
+        5
+      ],
+      "technique": [
+        6
+      ],
+      "used": [
+        7
+      ],
+      "to": [
+        8,
+        12,
+        32,
+        80,
+        119,
+        134
+      ],
+      "find": [
+        9,
+        131
+      ],
+      "approximate": [
+        10
+      ],
+      "solutions": [
+        11
+      ],
+      "variety": [
+        14
+      ],
+      "of": [
+        15,
+        85,
+        94,
+        106,
+        126,
+        150,
+        156,
+        166
+      ],
+      "problems": [
+        16
+      ],
+      "defined": [
+        17
+      ],
+      "on": [
+        18,
+        50,
+        90,
+        141
+      ],
+      "networks.": [
+        19
+      ],
+      "MP": [
+        20,
+        44,
+        95,
+        115,
+        128
+      ],
+      "approximations": [
+        21
+      ],
+      "are": [
+        22
+      ],
+      "generally": [
+        23
+      ],
+      "accurate": [
+        24,
+        147,
+        161
+      ],
+      "in": [
+        25,
+        37,
+        77,
+        97,
+        148,
+        154,
+        164
+      ],
+      "locally": [
+        26
+      ],
+      "treelike": [
+        27
+      ],
+      "networks": [
+        28,
+        38,
+        53,
+        109
+      ],
+      "but": [
+        29
+      ],
+      "require": [
+        30
+      ],
+      "corrections": [
+        31
+      ],
+      "maintain": [
+        33
+      ],
+      "their": [
+        34
+      ],
+      "accuracy": [
+        35,
+        93,
+        123
+      ],
+      "level": [
+        36,
+        84
+      ],
+      "rich": [
+        39
+      ],
+      "with": [
+        40
+      ],
+      "short": [
+        41
+      ],
+      "cycles.": [
+        42
+      ],
+      "However,": [
+        43
+      ],
+      "may": [
+        45
+      ],
+      "already": [
+        46
+      ],
+      "be": [
+        47,
+        63,
+        71
+      ],
+      "computationally": [
+        48
+      ],
+      "challenging": [
+        49
+      ],
+      "very": [
+        51
+      ],
+      "large": [
+        52
+      ],
+      "and": [
+        54,
+        110,
+        124,
+        158,
+        162
+      ],
+      "additional": [
+        55
+      ],
+      "costs": [
+        56
+      ],
+      "incurred": [
+        57
+      ],
+      "by": [
+        58
+      ],
+      "correcting": [
+        59
+      ],
+      "for": [
+        60
+      ],
+      "cycles": [
+        61
+      ],
+      "could": [
+        62
+      ],
+      "prohibitive.": [
+        64
+      ],
+      "We": [
+        65,
+        101,
+        130
+      ],
+      "show": [
+        66,
+        111
+      ],
+      "how": [
+        67
+      ],
+      "the": [
+        68,
+        78,
+        92,
+        122
+      ],
+      "issue": [
+        69
+      ],
+      "can": [
+        70,
+        88
+      ],
+      "addressed.": [
+        72
+      ],
+      "By": [
+        73
+      ],
+      "allowing": [
+        74
+      ],
+      "each": [
+        75
+      ],
+      "node": [
+        76
+      ],
+      "network": [
+        79
+      ],
+      "have": [
+        81
+      ],
+      "its": [
+        82
+      ],
+      "own": [
+        83
+      ],
+      "approximation,": [
+        86
+      ],
+      "one": [
+        87
+      ],
+      "focus": [
+        89
+      ],
+      "improving": [
+        91
+      ],
+      "approaches": [
+        96
+      ],
+      "targeted": [
+        99
+      ],
+      "manner.": [
+        100
+      ],
+      "perform": [
+        102
+      ],
+      "systematic": [
+        104
+      ],
+      "analysis": [
+        105
+      ],
+      "109": [
+        107
+      ],
+      "real-world": [
+        108
+      ],
+      "that": [
+        112
+      ],
+      "our": [
+        113
+      ],
+      "node-based": [
+        114
+      ],
+      "approximation": [
+        116
+      ],
+      "able": [
+        118
+      ],
+      "increase": [
+        120
+      ],
+      "both": [
+        121,
+        159
+      ],
+      "speed": [
+        125
+      ],
+      "traditional": [
+        127
+      ],
+      "approaches.": [
+        129
+      ],
+      "that,": [
+        132
+      ],
+      "compared": [
+        133
+      ],
+      "conventional": [
+        135
+      ],
+      "MP,": [
+        136
+      ],
+      "heterogeneous": [
+        138
+      ],
+      "approach": [
+        139
+      ],
+      "based": [
+        140
+      ],
+      "simple": [
+        143
+      ],
+      "heuristic": [
+        144
+      ],
+      "more": [
+        146,
+        160
+      ],
+      "81%": [
+        149
+      ],
+      "tested": [
+        151
+      ],
+      "networks,": [
+        152
+      ],
+      "faster": [
+        153,
+        163
+      ],
+      "64%": [
+        155
+      ],
+      "cases,": [
+        157
+      ],
+      "49%": [
+        165
+      ],
+      "cases.": [
+        167
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 5
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          7
+        ]
+      ],
+      "date-time": "2026-01-07T08:10:12Z",
+      "timestamp": 1767773412365,
+      "version": "3.37.3"
+    },
+    "reference-count": 86,
+    "publisher": "American Physical Society (APS)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              26
+            ]
+          ],
+          "date-time": "2023-09-26T00:00:00Z",
+          "timestamp": 1695686400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://link.aps.org/licenses/aps-default-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2024-09-25T00:00:00Z",
+          "timestamp": 1727222400000
+        },
+        "content-version": "am",
+        "delay-in-days": 365,
+        "URL": "https://link.aps.org/licenses/aps-default-accepted-manuscript-license"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "BIGDATA-1838251"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "BIGDATA-1838251"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000183",
+        "name": "Army Research Office",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W911NF-21-1-0194"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF-21-1-0194"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000183",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000181",
+        "name": "Air Force Office of Scientific Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "FA9550-21-1-0446"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "FA9550-21-1-0446"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000181",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.aps.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Phys. Rev. E"
+    ],
+    "DOI": "10.1103/physreve.108.034310",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2023-09-26T14:01:02Z",
+      "timestamp": 1695736862000
+    },
+    "update-policy": "https://doi.org/10.1103/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "Heterogeneous message passing for heterogeneous networks"
+    ],
+    "prefix": "10.1103",
+    "volume": "108",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4205-3691",
+        "authenticated-orcid": true,
+        "given": "George T.",
+        "family": "Cantwell",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Alec",
+        "family": "Kirkley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8352-1287",
+        "authenticated-orcid": true,
+        "given": "Filippo",
+        "family": "Radicchi",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "16",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "PhysRevE.108.034310Cc1R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspa.2022.0774"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc2R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.82.016101"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc3R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.90.012801"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc4R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.91.012811"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742-5468/2013/09/P09011"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc6R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevX.4.021024"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc7R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevResearch.3.L012014"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc8R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.107.065701"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc9R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.97.022316"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc10R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.120.198301"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.68.046109"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc12R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.78.031116"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc13R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.113.208702"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc14R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.113.208701"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ncomms10196"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc16R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.96.012302"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc17R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.97.022314"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc18R1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/acprof:oso/9780198570837.001.0001",
+        "volume-title": "Information, Physics, and Computation",
+        "author": "M. Mezard",
+        "year": "2009"
+      },
+      {
+        "volume-title": "Information Theory, Inference and Learning Algorithms",
+        "year": "2003",
+        "author": "D. J. C. MacKay",
+        "key": "PhysRevE.108.034310Cc19R1"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc20R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.83.036112"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc21R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/30918"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc22R1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/acprof:oso/9780199206650.001.0001",
+        "volume-title": "Networks",
+        "author": "M. E. J. Newman",
+        "year": "2010"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc23R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.103.058701"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc24R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.93.030302"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc25R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1914893116"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc26R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abf1211"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc27R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.286.5439.509"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc28R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1742-5468/2005/06/P06005"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc29R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.91.010801"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc30R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/089976600300015880"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc31R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i05.6227"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc32R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0024-3795(94)90486-3"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc33R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0937490100"
+      },
+      {
+        "volume-title": "Spectral Graph Theory",
+        "year": "1997",
+        "author": "F. Chung",
+        "key": "PhysRevE.108.034310Cc34R1"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc35R1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-3-540-73510-6",
+        "volume-title": "Laplacian Eigenvectors of Graphs: Perron-Frobenius and Faber-Krahn Type Theorems",
+        "author": "T. Biyikoglu",
+        "year": "2007"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc37R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.70.056122"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc38R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.98.2.404"
+      },
+      {
+        "volume-title": "IEEE Internet Computing",
+        "year": "2002",
+        "author": "R. Matei",
+        "key": "PhysRevE.108.034310Cc39R1"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc40R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1217299.1217301"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc41R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1089167"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc42R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/jar.33.4.3629752"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc43R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00265-003-0651-y"
+      },
+      {
+        "volume-title": "The Stanford GraphBase: A Platform for Combinatorial Computing",
+        "year": "1993",
+        "author": "D. E. Knuth",
+        "key": "PhysRevE.108.034310Cc44R1"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc45R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2133841100"
+      },
+      {
+        "volume-title": "Proceedings of the 3rd International Workshop on Link Discovery",
+        "year": "2005",
+        "author": "L. A. Adamic",
+        "key": "PhysRevE.108.034310Cc46R1"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc47R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.74.036104"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc48R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.122653799"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc49R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0107878"
+      },
+      {
+        "volume-title": "WWW ‘13 Companion: Proceedings of the 22nd International Conference on World Wide Web",
+        "year": "2013",
+        "author": "J. Kunegis",
+        "key": "PhysRevE.108.034310Cc51R1"
+      },
+      {
+        "volume-title": "Lecture Notes in Business Information Processing",
+        "year": "2011",
+        "author": "R. Michalski",
+        "key": "PhysRevE.108.034310Cc52R1"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc53R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2937047"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc54R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0219525903001067"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc55R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jtbi.2010.11.033"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc56R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nphys560"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc57R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.298.5594.824"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc58R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.68.065103"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc59R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/35075138"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc60R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.socnet.2009.02.002"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc61R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkg340"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc62R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.socnet.2010.03.006"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc63R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0017249"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc64R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gki072"
+      },
+      {
+        "volume-title": "Proceedings of the First International Workshop on Software Mining",
+        "year": "2012",
+        "author": "L. Šubelj",
+        "key": "PhysRevE.108.034310Cc65R1"
+      },
+      {
+        "volume-title": "Proceedings of the Eleventh ACM SIGKDD International Conference on Knowledge Discovery in Data Mining",
+        "year": "2005",
+        "author": "J. Leskovec",
+        "key": "PhysRevE.108.034310Cc66R1"
+      },
+      {
+        "volume-title": "String Processing and Information Retrieval",
+        "year": "2002",
+        "author": "M. Ley",
+        "key": "PhysRevE.108.034310Cc67R1"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc68R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1367-2630/9/6/186"
+      },
+      {
+        "volume-title": "The Computer and Literary Studies",
+        "year": "1973",
+        "author": "G. R. Kiss",
+        "key": "PhysRevE.108.034310Cc69R1"
+      },
+      {
+        "volume-title": "WWW '13 Companion: Proceedings of the 22nd International Conference on World Wide Web",
+        "author": "L. Šubelj",
+        "key": "PhysRevE.108.034310Cc70R1"
+      },
+      {
+        "volume-title": "CSE'09: International Conference on Computational Science and Engineering",
+        "year": "2009",
+        "author": "M. De Choudhury",
+        "key": "PhysRevE.108.034310Cc71R1"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc72R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/15427951.2009.10129177"
+      },
+      {
+        "volume-title": "Proceedings of the 17th International Conference on World Wide Web",
+        "year": "2008",
+        "author": "V. Gómez",
+        "key": "PhysRevE.108.034310Cc73R1"
+      },
+      {
+        "volume-title": "Proceedings of the 2nd ACM Workshop on Online Social Networks",
+        "year": "2009",
+        "author": "B. Viswanath",
+        "key": "PhysRevE.108.034310Cc74R1"
+      },
+      {
+        "volume-title": "The Semantic Web-ISWC 2003",
+        "year": "2003",
+        "author": "M. Richardson",
+        "key": "PhysRevE.108.034310Cc75R1"
+      },
+      {
+        "volume-title": "Proceedings of the 18th International Conference on World Wide Web",
+        "year": "2009",
+        "author": "J. Kunegis",
+        "key": "PhysRevE.108.034310Cc76R1"
+      },
+      {
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "year": "2012",
+        "author": "J. McAuley",
+        "key": "PhysRevE.108.034310Cc77R1"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc78R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00357-010-9062-8"
+      },
+      {
+        "volume-title": "Proceedings of the 17th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+        "year": "2011",
+        "author": "E. Cho",
+        "key": "PhysRevE.108.034310Cc79R1"
+      },
+      {
+        "volume-title": "Proceedings of the 4th ACM RecSys Workshop on Recommender Systems and the Social Web",
+        "year": "2012",
+        "author": "J. Kunegis",
+        "key": "PhysRevE.108.034310Cc81R1"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc82R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1232722.1232727"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc83R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/43601"
+      },
+      {
+        "key": "PhysRevE.108.034310Cc84R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1367-2630/10/12/123026"
+      },
+      {
+        "volume-title": "Proceedings of the Second International Conference on Autonomous Agents",
+        "year": "1998",
+        "author": "K. D. Bollacker",
+        "key": "PhysRevE.108.034310Cc85R1"
+      },
+      {
+        "volume-title": "The Semantic Web–ISWC 2011",
+        "year": "2011",
+        "author": "X. Niu",
+        "key": "PhysRevE.108.034310Cc86R1"
+      },
+      {
+        "volume-title": "Proceedings of the ACM SIGKDD Workshop on Mining Data Semantics",
+        "year": "2012",
+        "author": "J. Yang",
+        "key": "PhysRevE.108.034310Cc87R1"
+      },
+      {
+        "volume-title": "DBpedia: A Nucleus for a Web of Open Data",
+        "year": "2007",
+        "author": "S. Auer",
+        "key": "PhysRevE.108.034310Cc89R1"
+      },
+      {
+        "volume-title": "Proceedings of the 7th ACM SIGCOMM Conference on Internet Measurement",
+        "year": "2007",
+        "author": "A. Mislove",
+        "key": "PhysRevE.108.034310Cc90R1"
+      }
+    ],
+    "container-title": [
+      "Physical Review E"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.aps.org/accepted/10.1103/PhysRevE.108.034310",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "unspecified"
+      },
+      {
+        "URL": "https://link.aps.org/article/10.1103/PhysRevE.108.034310",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PhysRevE.108.034310/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2023-09-26T14:01:53Z",
+      "timestamp": 1695736913000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.aps.org/doi/10.1103/PhysRevE.108.034310"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          26
+        ]
+      ]
+    },
+    "references-count": 86,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            9
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1103/physreve.108.034310",
+    "relation": {},
+    "ISSN": [
+      "2470-0045",
+      "2470-0053"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2470-0045"
+      },
+      {
+        "type": "electronic",
+        "value": "2470-0053"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          26
+        ]
+      ]
+    },
+    "article-number": "034310"
+  }
+}

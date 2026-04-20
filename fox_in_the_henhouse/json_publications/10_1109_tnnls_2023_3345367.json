@@ -1,0 +1,1975 @@
+{
+  "doi": "10.1109/tnnls.2023.3345367",
+  "openalex": {
+    "id": "https://openalex.org/W4390826759",
+    "doi": "https://doi.org/10.1109/tnnls.2023.3345367",
+    "title": "Sign-Based Gradient Descent With Heterogeneous Data: Convergence and Byzantine Resilience",
+    "display_name": "Sign-Based Gradient Descent With Heterogeneous Data: Convergence and Byzantine Resilience",
+    "publication_year": 2024,
+    "publication_date": "2024-01-12",
+    "ids": {
+      "openalex": "https://openalex.org/W4390826759",
+      "doi": "https://doi.org/10.1109/tnnls.2023.3345367",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38215315"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tnnls.2023.3345367",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tnnls.2023.3345367",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210175523",
+        "display_name": "IEEE Transactions on Neural Networks and Learning Systems",
+        "issn_l": "2162-237X",
+        "issn": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Neural Networks and Learning Systems",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5070646892",
+          "display_name": "Richeng Jin",
+          "orcid": "https://orcid.org/0000-0002-1480-585X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I76130692",
+            "display_name": "Zhejiang University",
+            "ror": "https://ror.org/00a2xv884",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Richeng Jin",
+        "raw_affiliation_strings": [
+          "Department of Information and Communication Engineering, Zhejiang University, Hangzhou, China",
+          "Zhejiang Provincial Key Laboratory of Information Processing, Communication, and Networking (IPCAN), Hangzhou, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Zhejiang Provincial Key Laboratory of Information Processing, Communication, and Networking (IPCAN), Hangzhou, China",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Department of Information and Communication Engineering, Zhejiang University, Hangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5074095876",
+          "display_name": "Yuding Liu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I76130692",
+            "display_name": "Zhejiang University",
+            "ror": "https://ror.org/00a2xv884",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I76130692"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuding Liu",
+        "raw_affiliation_strings": [
+          "Department of Information and Communication Engineering, Zhejiang University, Hangzhou, China",
+          "Zhejiang Provincial Key Laboratory of Information Processing, Communication, and Networking (IPCAN), Hangzhou, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Information and Communication Engineering, Zhejiang University, Hangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I76130692"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Zhejiang Provincial Key Laboratory of Information Processing, Communication, and Networking (IPCAN), Hangzhou, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101684999",
+          "display_name": "Yufan Huang",
+          "orcid": "https://orcid.org/0000-0002-8028-4642"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16269868",
+            "display_name": "Santa Clara University",
+            "ror": "https://ror.org/03ypqe447",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16269868"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yufan Huang",
+        "raw_affiliation_strings": [
+          "resides, Santa Clara, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "resides, Santa Clara, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I16269868"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5077587039",
+          "display_name": "Xiaofan He",
+          "orcid": "https://orcid.org/0000-0002-9254-9062"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I37461747",
+            "display_name": "Wuhan University",
+            "ror": "https://ror.org/033vjfk17",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I37461747"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaofan He",
+        "raw_affiliation_strings": [
+          "School of Electronic Information, Wuhan University, Wuhan, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electronic Information, Wuhan University, Wuhan, China",
+            "institution_ids": [
+              "https://openalex.org/I37461747"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5091159460",
+          "display_name": "Tianfu Wu",
+          "orcid": "https://orcid.org/0000-0001-8911-5506"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I137902535",
+            "display_name": "North Carolina State University",
+            "ror": "https://ror.org/04tj63d06",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I137902535"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tianfu Wu",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA",
+            "institution_ids": [
+              "https://openalex.org/I137902535"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5027155270",
+          "display_name": "Huaiyu Dai",
+          "orcid": "https://orcid.org/0000-0002-0078-4891"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I137902535",
+            "display_name": "North Carolina State University",
+            "ror": "https://ror.org/04tj63d06",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I137902535"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Huaiyu Dai",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA",
+            "institution_ids": [
+              "https://openalex.org/I137902535"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 6.38778549,
+    "has_fulltext": false,
+    "cited_by_count": 10,
+    "citation_normalized_percentile": {
+      "value": 0.9503069,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 94,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "36",
+      "issue": "2",
+      "first_page": "3834",
+      "last_page": "3846"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11612",
+      "display_name": "Stochastic Gradient Optimization Techniques",
+      "score": 0.9927999973297119,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11612",
+        "display_name": "Stochastic Gradient Optimization Techniques",
+        "score": 0.9927999973297119,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11689",
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "score": 0.9854000210762024,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11512",
+        "display_name": "Anomaly Detection Techniques and Applications",
+        "score": 0.9853000044822693,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/byzantine-architecture",
+        "display_name": "Byzantine architecture",
+        "score": 0.7987748384475708
+      },
+      {
+        "id": "https://openalex.org/keywords/resilience",
+        "display_name": "Resilience (materials science)",
+        "score": 0.7143632173538208
+      },
+      {
+        "id": "https://openalex.org/keywords/sign",
+        "display_name": "Sign (mathematics)",
+        "score": 0.680329442024231
+      },
+      {
+        "id": "https://openalex.org/keywords/convergence",
+        "display_name": "Convergence (economics)",
+        "score": 0.6127931475639343
+      },
+      {
+        "id": "https://openalex.org/keywords/gradient-descent",
+        "display_name": "Gradient descent",
+        "score": 0.5951741337776184
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.49012812972068787
+      },
+      {
+        "id": "https://openalex.org/keywords/descent",
+        "display_name": "Descent (aeronautics)",
+        "score": 0.4768170714378357
+      },
+      {
+        "id": "https://openalex.org/keywords/byzantine-fault-tolerance",
+        "display_name": "Byzantine fault tolerance",
+        "score": 0.42012718319892883
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.24876099824905396
+      },
+      {
+        "id": "https://openalex.org/keywords/distributed-computing",
+        "display_name": "Distributed computing",
+        "score": 0.24726980924606323
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.2398047149181366
+      },
+      {
+        "id": "https://openalex.org/keywords/geography",
+        "display_name": "Geography",
+        "score": 0.21138739585876465
+      },
+      {
+        "id": "https://openalex.org/keywords/economics",
+        "display_name": "Economics",
+        "score": 0.13167548179626465
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.11258694529533386
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-neural-network",
+        "display_name": "Artificial neural network",
+        "score": 0.1021040678024292
+      },
+      {
+        "id": "https://openalex.org/keywords/archaeology",
+        "display_name": "Archaeology",
+        "score": 0.09758824110031128
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematical-analysis",
+        "display_name": "Mathematical analysis",
+        "score": 0.0645330548286438
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C104562893",
+        "wikidata": "https://www.wikidata.org/wiki/Q47591",
+        "display_name": "Byzantine architecture",
+        "level": 2,
+        "score": 0.7987748384475708
+      },
+      {
+        "id": "https://openalex.org/C2779585090",
+        "wikidata": "https://www.wikidata.org/wiki/Q3457762",
+        "display_name": "Resilience (materials science)",
+        "level": 2,
+        "score": 0.7143632173538208
+      },
+      {
+        "id": "https://openalex.org/C139676723",
+        "wikidata": "https://www.wikidata.org/wiki/Q1193832",
+        "display_name": "Sign (mathematics)",
+        "level": 2,
+        "score": 0.680329442024231
+      },
+      {
+        "id": "https://openalex.org/C2777303404",
+        "wikidata": "https://www.wikidata.org/wiki/Q759757",
+        "display_name": "Convergence (economics)",
+        "level": 2,
+        "score": 0.6127931475639343
+      },
+      {
+        "id": "https://openalex.org/C153258448",
+        "wikidata": "https://www.wikidata.org/wiki/Q1199743",
+        "display_name": "Gradient descent",
+        "level": 3,
+        "score": 0.5951741337776184
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.49012812972068787
+      },
+      {
+        "id": "https://openalex.org/C2776637919",
+        "wikidata": "https://www.wikidata.org/wiki/Q624380",
+        "display_name": "Descent (aeronautics)",
+        "level": 2,
+        "score": 0.4768170714378357
+      },
+      {
+        "id": "https://openalex.org/C168021876",
+        "wikidata": "https://www.wikidata.org/wiki/Q1353446",
+        "display_name": "Byzantine fault tolerance",
+        "level": 3,
+        "score": 0.42012718319892883
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.24876099824905396
+      },
+      {
+        "id": "https://openalex.org/C120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "level": 1,
+        "score": 0.24726980924606323
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.2398047149181366
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.21138739585876465
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.13167548179626465
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.11258694529533386
+      },
+      {
+        "id": "https://openalex.org/C50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "level": 2,
+        "score": 0.1021040678024292
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.09758824110031128
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.0645330548286438
+      },
+      {
+        "id": "https://openalex.org/C97355855",
+        "wikidata": "https://www.wikidata.org/wiki/Q11473",
+        "display_name": "Thermodynamics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C153294291",
+        "wikidata": "https://www.wikidata.org/wiki/Q25261",
+        "display_name": "Meteorology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C63540848",
+        "wikidata": "https://www.wikidata.org/wiki/Q3140932",
+        "display_name": "Fault tolerance",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C50522688",
+        "wikidata": "https://www.wikidata.org/wiki/Q189833",
+        "display_name": "Economic growth",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1109/tnnls.2023.3345367",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tnnls.2023.3345367",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210175523",
+          "display_name": "IEEE Transactions on Neural Networks and Learning Systems",
+          "issn_l": "2162-237X",
+          "issn": [
+            "2162-237X",
+            "2162-2388"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Neural Networks and Learning Systems",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38215315",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38215315",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE transactions on neural networks and learning systems",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.46000000834465027,
+        "id": "https://metadata.un.org/sdg/9",
+        "display_name": "Industry, innovation and infrastructure"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G5721004172",
+        "display_name": null,
+        "funder_award_id": "LQ23F010021",
+        "funder_id": "https://openalex.org/F4320338464",
+        "funder_display_name": "Natural Science Foundation of Zhejiang Province"
+      },
+      {
+        "id": "https://openalex.org/G1375350367",
+        "display_name": null,
+        "funder_award_id": "W911NF2210010",
+        "funder_id": "https://openalex.org/F4320338281",
+        "funder_display_name": "Army Research Office"
+      },
+      {
+        "id": "https://openalex.org/G3108606023",
+        "display_name": null,
+        "funder_award_id": "W911NF1810295",
+        "funder_id": "https://openalex.org/F4320338281",
+        "funder_display_name": "Army Research Office"
+      },
+      {
+        "id": "https://openalex.org/G4820776062",
+        "display_name": null,
+        "funder_award_id": "62301487",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G2530942148",
+        "display_name": null,
+        "funder_award_id": "ECCS-2203214",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320338281",
+        "display_name": "Army Research Office",
+        "ror": "https://ror.org/05epdh915"
+      },
+      {
+        "id": "https://openalex.org/F4320338464",
+        "display_name": "Natural Science Foundation of Zhejiang Province",
+        "ror": "https://ror.org/01h0zpd94"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 56,
+    "referenced_works": [
+      "https://openalex.org/W6684859321",
+      "https://openalex.org/W6746200960",
+      "https://openalex.org/W6738460352",
+      "https://openalex.org/W6748019269",
+      "https://openalex.org/W6751646691",
+      "https://openalex.org/W6768511045",
+      "https://openalex.org/W6791389326",
+      "https://openalex.org/W6762875557",
+      "https://openalex.org/W4313160095",
+      "https://openalex.org/W4200234277",
+      "https://openalex.org/W3111009493",
+      "https://openalex.org/W6755593096",
+      "https://openalex.org/W6754529011",
+      "https://openalex.org/W6754776447",
+      "https://openalex.org/W6752012617",
+      "https://openalex.org/W6780501606",
+      "https://openalex.org/W2989289980",
+      "https://openalex.org/W6763549698",
+      "https://openalex.org/W2407022425",
+      "https://openalex.org/W2258283075",
+      "https://openalex.org/W2995022099",
+      "https://openalex.org/W6754416507",
+      "https://openalex.org/W6754341472",
+      "https://openalex.org/W6758358981",
+      "https://openalex.org/W6762421227",
+      "https://openalex.org/W6763393679",
+      "https://openalex.org/W6743821447",
+      "https://openalex.org/W6748626757",
+      "https://openalex.org/W6748786018",
+      "https://openalex.org/W6754358263",
+      "https://openalex.org/W6766633873",
+      "https://openalex.org/W2963334472",
+      "https://openalex.org/W6763079992",
+      "https://openalex.org/W6779722313",
+      "https://openalex.org/W6734912561",
+      "https://openalex.org/W6802682914",
+      "https://openalex.org/W6787499695",
+      "https://openalex.org/W3210293592",
+      "https://openalex.org/W6791444617",
+      "https://openalex.org/W4313042326",
+      "https://openalex.org/W4281639882",
+      "https://openalex.org/W3194331388",
+      "https://openalex.org/W4365420716",
+      "https://openalex.org/W4322731276",
+      "https://openalex.org/W6842377585",
+      "https://openalex.org/W3138597937",
+      "https://openalex.org/W6728757088",
+      "https://openalex.org/W1994616650",
+      "https://openalex.org/W6759226220",
+      "https://openalex.org/W3007283957",
+      "https://openalex.org/W6795062860",
+      "https://openalex.org/W2972570881",
+      "https://openalex.org/W2970408908",
+      "https://openalex.org/W6758201434",
+      "https://openalex.org/W3159778524",
+      "https://openalex.org/W4293796150"
+    ],
+    "related_works": [
+      "https://openalex.org/W635625959",
+      "https://openalex.org/W1548189724",
+      "https://openalex.org/W4242769984",
+      "https://openalex.org/W2034320198",
+      "https://openalex.org/W1985305288",
+      "https://openalex.org/W4252331942",
+      "https://openalex.org/W4386477301",
+      "https://openalex.org/W4220997590",
+      "https://openalex.org/W2763042189",
+      "https://openalex.org/W2015288657"
+    ],
+    "abstract_inverted_index": {
+      "Communication": [
+        0
+      ],
+      "overhead": [
+        1
+      ],
+      "has": [
+        2
+      ],
+      "become": [
+        3
+      ],
+      "one": [
+        4
+      ],
+      "of": [
+        5,
+        13,
+        45,
+        62,
+        85,
+        109,
+        113,
+        122,
+        129,
+        164
+      ],
+      "the": [
+        6,
+        10,
+        60,
+        70,
+        83,
+        86,
+        106,
+        114,
+        120,
+        137,
+        145,
+        151,
+        154,
+        158,
+        162,
+        165
+      ],
+      "major": [
+        7
+      ],
+      "bottlenecks": [
+        8
+      ],
+      "in": [
+        9,
+        59,
+        69,
+        119
+      ],
+      "distributed": [
+        11
+      ],
+      "training": [
+        12
+      ],
+      "modern": [
+        14
+      ],
+      "deep": [
+        15
+      ],
+      "neural": [
+        16
+      ],
+      "networks.": [
+        17
+      ],
+      "With": [
+        18
+      ],
+      "such": [
+        19
+      ],
+      "consideration,": [
+        20
+      ],
+      "various": [
+        21
+      ],
+      "quantization-based": [
+        22
+      ],
+      "stochastic": [
+        23
+      ],
+      "gradient": [
+        24,
+        88,
+        100,
+        131
+      ],
+      "descent": [
+        25,
+        89,
+        132
+      ],
+      "(SGD)": [
+        26
+      ],
+      "solvers": [
+        27
+      ],
+      "have": [
+        28
+      ],
+      "been": [
+        29
+      ],
+      "proposed": [
+        30,
+        103,
+        115,
+        166
+      ],
+      "and": [
+        31,
+        49,
+        136,
+        157
+      ],
+      "widely": [
+        32
+      ],
+      "adopted,": [
+        33
+      ],
+      "among": [
+        34
+      ],
+      "which": [
+        35,
+        65,
+        95
+      ],
+      "SignSGD": [
+        36,
+        55
+      ],
+      "with": [
+        37
+      ],
+      "majority": [
+        38
+      ],
+      "vote": [
+        39
+      ],
+      "shows": [
+        40
+      ],
+      "a": [
+        41,
+        79,
+        96
+      ],
+      "promising": [
+        42
+      ],
+      "direction": [
+        43
+      ],
+      "because": [
+        44
+      ],
+      "its": [
+        46
+      ],
+      "communication": [
+        47
+      ],
+      "efficiency": [
+        48
+      ],
+      "robustness": [
+        50
+      ],
+      "against": [
+        51
+      ],
+      "Byzantine": [
+        52,
+        127
+      ],
+      "attackers.": [
+        53
+      ],
+      "However,": [
+        54
+      ],
+      "fails": [
+        56
+      ],
+      "to": [
+        57,
+        104,
+        143
+      ],
+      "converge": [
+        58
+      ],
+      "presence": [
+        61,
+        121
+      ],
+      "data": [
+        63,
+        124
+      ],
+      "heterogeneity,": [
+        64
+      ],
+      "is": [
+        66,
+        91,
+        102,
+        117,
+        134,
+        140
+      ],
+      "commonly": [
+        67
+      ],
+      "observed": [
+        68
+      ],
+      "emerging": [
+        71
+      ],
+      "federated": [
+        72
+      ],
+      "learning": [
+        73,
+        146
+      ],
+      "(FL)": [
+        74
+      ],
+      "paradigm.": [
+        75
+      ],
+      "In": [
+        76
+      ],
+      "this": [
+        77
+      ],
+      "article,": [
+        78
+      ],
+      "sufficient": [
+        80
+      ],
+      "condition": [
+        81
+      ],
+      "for": [
+        82
+      ],
+      "convergence": [
+        84,
+        112
+      ],
+      "sign-based": [
+        87,
+        130
+      ],
+      "method": [
+        90,
+        116
+      ],
+      "derived,": [
+        92
+      ],
+      "based": [
+        93
+      ],
+      "on": [
+        94,
+        150
+      ],
+      "novel": [
+        97
+      ],
+      "magnitude-driven": [
+        98
+      ],
+      "stochastic-sign-based": [
+        99
+      ],
+      "compressor": [
+        101
+      ],
+      "address": [
+        105
+      ],
+      "non-convergence": [
+        107
+      ],
+      "issue": [
+        108
+      ],
+      "SignSGD.": [
+        110
+      ],
+      "The": [
+        111,
+        126
+      ],
+      "established": [
+        118
+      ],
+      "arbitrary": [
+        123
+      ],
+      "heterogeneity.": [
+        125
+      ],
+      "resilience": [
+        128
+      ],
+      "methods": [
+        133
+      ],
+      "quantified,": [
+        135
+      ],
+      "error-feedback": [
+        138
+      ],
+      "mechanism": [
+        139
+      ],
+      "further": [
+        141
+      ],
+      "incorporated": [
+        142
+      ],
+      "boost": [
+        144
+      ],
+      "performance.": [
+        147
+      ],
+      "Experimental": [
+        148
+      ],
+      "results": [
+        149
+      ],
+      "MNIST": [
+        152
+      ],
+      "dataset,": [
+        153,
+        156
+      ],
+      "CIFAR-10": [
+        155
+      ],
+      "Tiny-ImageNet": [
+        159
+      ],
+      "dataset": [
+        160
+      ],
+      "corroborate": [
+        161
+      ],
+      "effectiveness": [
+        163
+      ],
+      "methods.": [
+        167
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          8
+        ]
+      ],
+      "date-time": "2025-12-08T21:16:09Z",
+      "timestamp": 1765228569099,
+      "version": "3.46.0"
+    },
+    "reference-count": 54,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62301487"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62301487"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004731",
+        "name": "Zhejiang Provincial Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "LQ23F010021"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "LQ23F010021"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004731",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Ng Teng Fong Charitable Foundation in the Form of ZJU-SUTD IDEA",
+        "award": [
+          "188170-11102"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "188170-11102"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000183",
+        "name": "Army Research Office",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W911NF1810295",
+          "W911NF2210010"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF1810295",
+              "W911NF2210010"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000183",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "NSF",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "IIS-1909644",
+          "IIS-1822477",
+          "CMMI-2024688",
+          "IUSE-201345"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "IIS-1909644",
+              "IIS-1822477",
+              "CMMI-2024688",
+              "IUSE-201345"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "U.S. National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ECCS-2203214"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ECCS-2203214"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Neural Netw. Learning Syst."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1109/tnnls.2023.3345367",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          12
+        ]
+      ],
+      "date-time": "2024-01-12T13:58:18Z",
+      "timestamp": 1705067898000
+    },
+    "page": "3834-3846",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Sign-Based Gradient Descent With Heterogeneous Data: Convergence and Byzantine Resilience"
+    ],
+    "prefix": "10.1109",
+    "volume": "36",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-1480-585X",
+        "authenticated-orcid": false,
+        "given": "Richeng",
+        "family": "Jin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Information and Communication Engineering, Zhejiang University, Hangzhou, China"
+          }
+        ]
+      },
+      {
+        "given": "Yuding",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information and Communication Engineering, Zhejiang University, Hangzhou, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8028-4642",
+        "authenticated-orcid": false,
+        "given": "Yufan",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "resides, Santa Clara, CA, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9254-9062",
+        "authenticated-orcid": false,
+        "given": "Xiaofan",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electronic Information, Wuhan University, Wuhan, China"
+          }
+        ]
+      },
+      {
+        "given": "Tianfu",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0078-4891",
+        "authenticated-orcid": false,
+        "given": "Huaiyu",
+        "family": "Dai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, North Carolina State University, Raleigh, NC, USA"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "first-page": "1223",
+        "article-title": "Large scale distributed deep networks",
+        "volume-title": "Proc. NeurIPS",
+        "author": "Dean"
+      },
+      {
+        "key": "ref2",
+        "first-page": "1709",
+        "article-title": "QSGD: Communication-efficient SGD via gradient quantization and encoding",
+        "volume-title": "Proc. NeurIPS",
+        "author": "Alistarh"
+      },
+      {
+        "key": "ref3",
+        "first-page": "1509",
+        "article-title": "TernGrad: Ternary gradients to reduce communication in distributed deep learning",
+        "volume-title": "Proc. NeurIPS",
+        "author": "Wen"
+      },
+      {
+        "key": "ref4",
+        "first-page": "560",
+        "article-title": "SignSGD: Compressed optimisation for non-convex problems",
+        "volume-title": "Proc. ICML",
+        "author": "Bernstein"
+      },
+      {
+        "key": "ref5",
+        "first-page": "5325",
+        "article-title": "Error compensated quantized SGD and its applications to large-scale distributed optimization",
+        "volume-title": "Proc. ICML",
+        "author": "Wu"
+      },
+      {
+        "key": "ref6",
+        "first-page": "2021",
+        "article-title": "FedPAQ: A communication-efficient federated learning method with periodic averaging and quantization",
+        "volume-title": "Proc. Int. Conf. Artif. Intell. Stat. (AISTATS)",
+        "author": "Reisizadeh"
+      },
+      {
+        "key": "ref7",
+        "first-page": "9224",
+        "article-title": "Stochastic sign descent methods: New algorithms and better theory",
+        "volume-title": "Proc. ICML",
+        "author": "Safaryan"
+      },
+      {
+        "key": "ref8",
+        "first-page": "21616",
+        "article-title": "Distributed training with heterogeneous data: Bridging median- and mean-based algorithms",
+        "volume-title": "Proc. NeurIPS",
+        "volume": "33",
+        "author": "Chen"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2022.3225715"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2021.3131614"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2020.3041185"
+      },
+      {
+        "article-title": "SignSGD with majority vote is communication efficient and Byzantine fault tolerant",
+        "volume-title": "Proc. ICLR",
+        "author": "Bernstein",
+        "key": "ref12"
+      },
+      {
+        "key": "ref13",
+        "first-page": "7652",
+        "article-title": "Communication compression for decentralized training",
+        "volume-title": "Proc. NeurIPS",
+        "author": "Tang"
+      },
+      {
+        "key": "ref14",
+        "first-page": "2525",
+        "article-title": "A linear speedup analysis of distributed deep learning with sparse and quantized communication",
+        "volume-title": "Proc. NeurIPS",
+        "author": "Jiang"
+      },
+      {
+        "key": "ref15",
+        "first-page": "9850",
+        "article-title": "ATOMO: Communication-efficient learning via atomic sparsification",
+        "volume-title": "Proc. NeurIPS",
+        "author": "Wang"
+      },
+      {
+        "key": "ref16",
+        "first-page": "2350",
+        "article-title": "Federated learning with compression: Unified analysis and sharp guarantees",
+        "volume-title": "Proc. Int. Conf. AISTATS",
+        "author": "Haddadpour"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2019.2944481"
+      },
+      {
+        "key": "ref18",
+        "first-page": "14695",
+        "article-title": "Qsparse-local-SGD: Distributed SGD with quantization, sparsification and local computations",
+        "volume-title": "Proc. NeurIPS",
+        "volume": "32",
+        "author": "Basu"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21437/Interspeech.2014-274"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSTSP.2015.2505684"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/2200000083"
+      },
+      {
+        "key": "ref22",
+        "first-page": "4447",
+        "article-title": "Sparsified SGD with memory",
+        "volume-title": "Proc. NeurIPS",
+        "author": "Stich"
+      },
+      {
+        "key": "ref23",
+        "first-page": "5973",
+        "article-title": "The convergence of sparsified gradient methods",
+        "volume-title": "Proc. NeurIPS",
+        "author": "Alistarh"
+      },
+      {
+        "key": "ref24",
+        "first-page": "3252",
+        "article-title": "Error feedback fixes SignSGD and other gradient compression schemes",
+        "volume-title": "Proc. ICML",
+        "author": "Karimireddy"
+      },
+      {
+        "key": "ref25",
+        "first-page": "11446",
+        "article-title": "Communication-efficient distributed blockwise momentum SGD with error-feedback",
+        "volume-title": "Proc. NeurIPS",
+        "author": "Zheng"
+      },
+      {
+        "key": "ref26",
+        "first-page": "6155",
+        "article-title": "DoubleSqueeze: Parallel stochastic gradient descent with double-pass error-compensated compression",
+        "volume-title": "Proc. ICML",
+        "author": "Tang"
+      },
+      {
+        "key": "ref27",
+        "first-page": "119",
+        "article-title": "Machine learning with adversaries: Byzantine tolerant gradient descent",
+        "volume-title": "Proc. NeurIPS",
+        "author": "Blanchard"
+      },
+      {
+        "key": "ref28",
+        "first-page": "4613",
+        "article-title": "Byzantine stochastic gradient descent",
+        "volume-title": "Proc. NeurIPS",
+        "author": "Alistarh"
+      },
+      {
+        "key": "ref29",
+        "first-page": "5650",
+        "article-title": "Byzantine-robust distributed learning: Towards optimal statistical rates",
+        "volume-title": "Proc. ICML",
+        "author": "Yin"
+      },
+      {
+        "key": "ref30",
+        "first-page": "903",
+        "article-title": "DRACO: Byzantine-resilient distributed training via redundant gradients",
+        "volume-title": "Proc. ICML",
+        "author": "Chen"
+      },
+      {
+        "key": "ref31",
+        "article-title": "DETOX: A redundancy-based framework for faster and more robust gradient aggregation",
+        "volume-title": "Proc. NeurIPS",
+        "volume": "32",
+        "author": "Rajput"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v33i01.33011544"
+      },
+      {
+        "key": "ref33",
+        "first-page": "213",
+        "article-title": "SLSGD: Secure and efficient distributed on-device machine learning",
+        "volume-title": "Proc. Joint Eur. Conf. Mach. Learn. Knowl. Discovery Databases",
+        "author": "Xie"
+      },
+      {
+        "key": "ref34",
+        "first-page": "2478",
+        "article-title": "Byzantine-resilient high-dimensional SGD with local iterations on heterogeneous data",
+        "volume-title": "Proc. ICML",
+        "author": "Data"
+      },
+      {
+        "key": "ref35",
+        "first-page": "45:1",
+        "article-title": "Resilience: A criterion for learning in the presence of arbitrary outliers",
+        "volume-title": "Proc. Innov. Theor. Comput. Sci. Conf.",
+        "volume": "94",
+        "author": "Steinhardt"
+      },
+      {
+        "article-title": "Byzantine-robust learning on heterogeneous datasets via bucketing",
+        "volume-title": "Proc. ICLR",
+        "author": "Karimireddy",
+        "key": "ref36"
+      },
+      {
+        "key": "ref37",
+        "first-page": "5311",
+        "article-title": "Learning from history for Byzantine robust optimization",
+        "volume-title": "Proc. ICML",
+        "author": "Karimireddy"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3477114.3488761"
+      },
+      {
+        "key": "ref39",
+        "first-page": "6357",
+        "article-title": "Ditto: Fair and robust federated learning through personalization",
+        "volume-title": "Proc. ICML",
+        "author": "Li"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDCS54860.2022.00120"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2022/106"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSAIT.2021.3105076"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSIPN.2023.3265892"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNSE.2023.3251196"
+      },
+      {
+        "key": "ref45",
+        "article-title": "BOBA: Byzantine-robust federated learning with label skewness",
+        "author": "Bao",
+        "year": "2022",
+        "journal-title": "arXiv:2208.12932"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14722/ndss.2021.24434"
+      },
+      {
+        "key": "ref47",
+        "first-page": "1273",
+        "article-title": "Communication-efficient learning of deep networks from decentralized data",
+        "volume-title": "Proc. Int. Conf. AISTATS",
+        "author": "McMahan"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aoms/1177729586"
+      },
+      {
+        "key": "ref49",
+        "first-page": "374",
+        "article-title": "Towards federated learning at scale: System design",
+        "volume-title": "Proc. Mach. Learn. Syst.",
+        "volume": "1",
+        "author": "Bonawitz"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fnins.2020.00119"
+      },
+      {
+        "key": "ref51",
+        "article-title": "Escaping the big data paradigm with compact transformers",
+        "author": "Hassani",
+        "year": "2021",
+        "journal-title": "arXiv:2104.05704"
+      },
+      {
+        "key": "ref52",
+        "article-title": "Measuring the effects of non-identical data distribution for federated visual classification",
+        "author": "Harry Hsu",
+        "year": "2019",
+        "journal-title": "arXiv:1909.06335"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-63076-8_2"
+      },
+      {
+        "key": "ref54",
+        "first-page": "8635",
+        "article-title": "A little is enough: Circumventing defenses for distributed learning",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "32",
+        "author": "Baruch"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Neural Networks and Learning Systems"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://ieeexplore.ieee.org/ielam/5962385/10877690/10398739-aam.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/5962385/10877690/10398739.pdf?arnumber=10398739",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          8
+        ]
+      ],
+      "date-time": "2025-12-08T18:41:14Z",
+      "timestamp": 1765219274000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10398739/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "references-count": 54,
+    "journal-issue": {
+      "issue": "2"
+    },
+    "URL": "https://doi.org/10.1109/tnnls.2023.3345367",
+    "relation": {},
+    "ISSN": [
+      "2162-237X",
+      "2162-2388"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2162-237X"
+      },
+      {
+        "type": "electronic",
+        "value": "2162-2388"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    }
+  }
+}

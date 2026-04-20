@@ -1,0 +1,1770 @@
+{
+  "doi": "10.1016/j.geoen.2023.212300",
+  "openalex": {
+    "id": "https://openalex.org/W4386648597",
+    "doi": "https://doi.org/10.1016/j.geoen.2023.212300",
+    "title": "Numerical investigation of a cavitating nozzle for jetting and rock erosion based on different turbulence models",
+    "display_name": "Numerical investigation of a cavitating nozzle for jetting and rock erosion based on different turbulence models",
+    "publication_year": 2023,
+    "publication_date": "2023-09-13",
+    "ids": {
+      "openalex": "https://openalex.org/W4386648597",
+      "doi": "https://doi.org/10.1016/j.geoen.2023.212300"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.geoen.2023.212300",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.geoen.2023.212300",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4387285440",
+        "display_name": "Geoenergy Science and Engineering",
+        "issn_l": "2949-8910",
+        "issn": [
+          "2949-8910"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geoenergy Science and Engineering",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5014466672",
+          "display_name": "Dhruv Apte",
+          "orcid": "https://orcid.org/0000-0002-5847-6381"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Dhruv Apte",
+        "raw_affiliation_strings": [
+          "Kevin T. Crofton Department of Aerospace and Ocean Engineering, Virginia Tech, Blacksburg, 24060, VA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Kevin T. Crofton Department of Aerospace and Ocean Engineering, Virginia Tech, Blacksburg, 24060, VA, USA",
+            "institution_ids": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5026012045",
+          "display_name": "Mingming Ge",
+          "orcid": "https://orcid.org/0000-0002-3918-6805"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I3133055985",
+            "display_name": "Westlake University",
+            "ror": "https://ror.org/05hfa4n20",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I3133055985"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I111950717",
+            "display_name": "Macau University of Science and Technology",
+            "ror": "https://ror.org/03jqs2n27",
+            "country_code": "MO",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I111950717",
+              "https://openalex.org/I4391767947"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "MO"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Mingming Ge",
+        "raw_affiliation_strings": [
+          "National Observation and Research Station of Coastal Ecological Environments in Macao, Macao Environmental Research Institute, Faculty of Innovation Engineering, Macau University of Science and Technology, Macao SAR, 999078, China",
+          "School of Engineering, Westlake University, Hangzhou, 310030, Zhejiang, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National Observation and Research Station of Coastal Ecological Environments in Macao, Macao Environmental Research Institute, Faculty of Innovation Engineering, Macau University of Science and Technology, Macao SAR, 999078, China",
+            "institution_ids": [
+              "https://openalex.org/I111950717"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Engineering, Westlake University, Hangzhou, 310030, Zhejiang, China",
+            "institution_ids": [
+              "https://openalex.org/I3133055985"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5021867683",
+          "display_name": "Olivier Coutier-Delgosha",
+          "orcid": "https://orcid.org/0000-0002-4881-7058"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210123886",
+            "display_name": "Laboratoire de Mécanique des Fluides de Lille - Kampé de Fériet",
+            "ror": "https://ror.org/02w8awt17",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I190752583",
+              "https://openalex.org/I190861549",
+              "https://openalex.org/I2279609970",
+              "https://openalex.org/I2801658355",
+              "https://openalex.org/I4210123886",
+              "https://openalex.org/I4210134562",
+              "https://openalex.org/I7454413"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I190752583",
+            "display_name": "ParisTech",
+            "ror": "https://ror.org/05c2qg481",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I190752583"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2279609970",
+            "display_name": "Université de Lille",
+            "ror": "https://ror.org/02kzqn938",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2279609970"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I7454413",
+            "display_name": "École Centrale de Lille",
+            "ror": "https://ror.org/01x441g73",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I7454413"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "FR",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Olivier Coutier-Delgosha",
+        "raw_affiliation_strings": [
+          "Arts et Métiers ParisTech, ONERA, CNRS, Univ. Lille, Centrale Lille, UMR 9014-LMFL-Laboratoire de Mécanique des Fluides de Lille-Kampé de Fériet, F-59000, Lille, France",
+          "Kevin T. Crofton Department of Aerospace and Ocean Engineering, Virginia Tech, Blacksburg, 24060, VA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Arts et Métiers ParisTech, ONERA, CNRS, Univ. Lille, Centrale Lille, UMR 9014-LMFL-Laboratoire de Mécanique des Fluides de Lille-Kampé de Fériet, F-59000, Lille, France",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I190752583",
+              "https://openalex.org/I2279609970",
+              "https://openalex.org/I4210123886",
+              "https://openalex.org/I7454413"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Kevin T. Crofton Department of Aerospace and Ocean Engineering, Virginia Tech, Blacksburg, 24060, VA, USA",
+            "institution_ids": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 4,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5026012045"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I111950717",
+      "https://openalex.org/I3133055985"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 5.08256612,
+    "has_fulltext": false,
+    "cited_by_count": 22,
+    "citation_normalized_percentile": {
+      "value": 0.95734714,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 94,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "231",
+      "issue": null,
+      "first_page": "212300",
+      "last_page": "212300"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11202",
+      "display_name": "Cavitation Phenomena in Pumps",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11202",
+        "display_name": "Cavitation Phenomena in Pumps",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2211",
+          "display_name": "Mechanics of Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11220",
+        "display_name": "Water Systems and Optimization",
+        "score": 0.9939000010490417,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2205",
+          "display_name": "Civil and Structural Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13050",
+        "display_name": "Oil and Gas Production Techniques",
+        "score": 0.9937999844551086,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2212",
+          "display_name": "Ocean Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/turbulence",
+        "display_name": "Turbulence",
+        "score": 0.8741626739501953
+      },
+      {
+        "id": "https://openalex.org/keywords/cavitation",
+        "display_name": "Cavitation",
+        "score": 0.797188401222229
+      },
+      {
+        "id": "https://openalex.org/keywords/mechanics",
+        "display_name": "Mechanics",
+        "score": 0.7585649490356445
+      },
+      {
+        "id": "https://openalex.org/keywords/turbulence-kinetic-energy",
+        "display_name": "Turbulence kinetic energy",
+        "score": 0.6788814663887024
+      },
+      {
+        "id": "https://openalex.org/keywords/nozzle",
+        "display_name": "Nozzle",
+        "score": 0.6155966520309448
+      },
+      {
+        "id": "https://openalex.org/keywords/k-epsilon-turbulence-model",
+        "display_name": "K-epsilon turbulence model",
+        "score": 0.5912215709686279
+      },
+      {
+        "id": "https://openalex.org/keywords/jet",
+        "display_name": "Jet (fluid)",
+        "score": 0.5597906708717346
+      },
+      {
+        "id": "https://openalex.org/keywords/venturi-effect",
+        "display_name": "Venturi effect",
+        "score": 0.5330278873443604
+      },
+      {
+        "id": "https://openalex.org/keywords/turbulence-modeling",
+        "display_name": "Turbulence modeling",
+        "score": 0.5011410713195801
+      },
+      {
+        "id": "https://openalex.org/keywords/k-omega-turbulence-model",
+        "display_name": "K-omega turbulence model",
+        "score": 0.46451395750045776
+      },
+      {
+        "id": "https://openalex.org/keywords/flow",
+        "display_name": "Flow (mathematics)",
+        "score": 0.43479782342910767
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.42444413900375366
+      },
+      {
+        "id": "https://openalex.org/keywords/geology",
+        "display_name": "Geology",
+        "score": 0.3456166982650757
+      },
+      {
+        "id": "https://openalex.org/keywords/mechanical-engineering",
+        "display_name": "Mechanical engineering",
+        "score": 0.2409611940383911
+      },
+      {
+        "id": "https://openalex.org/keywords/engineering",
+        "display_name": "Engineering",
+        "score": 0.22544574737548828
+      },
+      {
+        "id": "https://openalex.org/keywords/thermodynamics",
+        "display_name": "Thermodynamics",
+        "score": 0.16965967416763306
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C196558001",
+        "wikidata": "https://www.wikidata.org/wiki/Q190132",
+        "display_name": "Turbulence",
+        "level": 2,
+        "score": 0.8741626739501953
+      },
+      {
+        "id": "https://openalex.org/C207057113",
+        "wikidata": "https://www.wikidata.org/wiki/Q201666",
+        "display_name": "Cavitation",
+        "level": 2,
+        "score": 0.797188401222229
+      },
+      {
+        "id": "https://openalex.org/C57879066",
+        "wikidata": "https://www.wikidata.org/wiki/Q41217",
+        "display_name": "Mechanics",
+        "level": 1,
+        "score": 0.7585649490356445
+      },
+      {
+        "id": "https://openalex.org/C15476950",
+        "wikidata": "https://www.wikidata.org/wiki/Q7854776",
+        "display_name": "Turbulence kinetic energy",
+        "level": 3,
+        "score": 0.6788814663887024
+      },
+      {
+        "id": "https://openalex.org/C56200935",
+        "wikidata": "https://www.wikidata.org/wiki/Q250840",
+        "display_name": "Nozzle",
+        "level": 2,
+        "score": 0.6155966520309448
+      },
+      {
+        "id": "https://openalex.org/C150711758",
+        "wikidata": "https://www.wikidata.org/wiki/Q17148242",
+        "display_name": "K-epsilon turbulence model",
+        "level": 3,
+        "score": 0.5912215709686279
+      },
+      {
+        "id": "https://openalex.org/C119947313",
+        "wikidata": "https://www.wikidata.org/wiki/Q5596635",
+        "display_name": "Jet (fluid)",
+        "level": 2,
+        "score": 0.5597906708717346
+      },
+      {
+        "id": "https://openalex.org/C21423434",
+        "wikidata": "https://www.wikidata.org/wiki/Q725699",
+        "display_name": "Venturi effect",
+        "level": 3,
+        "score": 0.5330278873443604
+      },
+      {
+        "id": "https://openalex.org/C204573209",
+        "wikidata": "https://www.wikidata.org/wiki/Q1417609",
+        "display_name": "Turbulence modeling",
+        "level": 3,
+        "score": 0.5011410713195801
+      },
+      {
+        "id": "https://openalex.org/C189223162",
+        "wikidata": "https://www.wikidata.org/wiki/Q18386383",
+        "display_name": "K-omega turbulence model",
+        "level": 4,
+        "score": 0.46451395750045776
+      },
+      {
+        "id": "https://openalex.org/C38349280",
+        "wikidata": "https://www.wikidata.org/wiki/Q1434290",
+        "display_name": "Flow (mathematics)",
+        "level": 2,
+        "score": 0.43479782342910767
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.42444413900375366
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.3456166982650757
+      },
+      {
+        "id": "https://openalex.org/C78519656",
+        "wikidata": "https://www.wikidata.org/wiki/Q101333",
+        "display_name": "Mechanical engineering",
+        "level": 1,
+        "score": 0.2409611940383911
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.22544574737548828
+      },
+      {
+        "id": "https://openalex.org/C97355855",
+        "wikidata": "https://www.wikidata.org/wiki/Q11473",
+        "display_name": "Thermodynamics",
+        "level": 1,
+        "score": 0.16965967416763306
+      },
+      {
+        "id": "https://openalex.org/C201289731",
+        "wikidata": "https://www.wikidata.org/wiki/Q1172599",
+        "display_name": "Inlet",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.geoen.2023.212300",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.geoen.2023.212300",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4387285440",
+          "display_name": "Geoenergy Science and Engineering",
+          "issn_l": "2949-8910",
+          "issn": [
+            "2949-8910"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Geoenergy Science and Engineering",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 72,
+    "referenced_works": [
+      "https://openalex.org/W2582029705",
+      "https://openalex.org/W4220958862",
+      "https://openalex.org/W104932758",
+      "https://openalex.org/W2029635036",
+      "https://openalex.org/W2724786810",
+      "https://openalex.org/W3135855076",
+      "https://openalex.org/W4290694406",
+      "https://openalex.org/W2056141983",
+      "https://openalex.org/W1632282599",
+      "https://openalex.org/W2145662559",
+      "https://openalex.org/W2091183083",
+      "https://openalex.org/W2551103157",
+      "https://openalex.org/W2522620980",
+      "https://openalex.org/W2914365690",
+      "https://openalex.org/W6668055695",
+      "https://openalex.org/W3128071365",
+      "https://openalex.org/W6770402977",
+      "https://openalex.org/W2076279267",
+      "https://openalex.org/W2086892664",
+      "https://openalex.org/W3136308758",
+      "https://openalex.org/W1967483301",
+      "https://openalex.org/W2009127600",
+      "https://openalex.org/W2093300654",
+      "https://openalex.org/W1993659960",
+      "https://openalex.org/W2310038984",
+      "https://openalex.org/W2066902633",
+      "https://openalex.org/W3011631795",
+      "https://openalex.org/W2971400236",
+      "https://openalex.org/W2708238124",
+      "https://openalex.org/W2518345875",
+      "https://openalex.org/W3128790638",
+      "https://openalex.org/W2043696693",
+      "https://openalex.org/W2019587048",
+      "https://openalex.org/W2911684245",
+      "https://openalex.org/W6681343224",
+      "https://openalex.org/W4302587847",
+      "https://openalex.org/W3048751506",
+      "https://openalex.org/W2148828852",
+      "https://openalex.org/W2329785682",
+      "https://openalex.org/W6645568798",
+      "https://openalex.org/W2799754175",
+      "https://openalex.org/W2028770202",
+      "https://openalex.org/W2169966837",
+      "https://openalex.org/W2920947027",
+      "https://openalex.org/W2003433240",
+      "https://openalex.org/W3090409300",
+      "https://openalex.org/W4310128722",
+      "https://openalex.org/W2326757798",
+      "https://openalex.org/W2002055225",
+      "https://openalex.org/W2002104276",
+      "https://openalex.org/W2989111307",
+      "https://openalex.org/W6702133488",
+      "https://openalex.org/W2481508429",
+      "https://openalex.org/W6600476030",
+      "https://openalex.org/W2052824539",
+      "https://openalex.org/W2809695178",
+      "https://openalex.org/W2921431906",
+      "https://openalex.org/W6786554126",
+      "https://openalex.org/W3206196286",
+      "https://openalex.org/W2110187357",
+      "https://openalex.org/W2058934338",
+      "https://openalex.org/W4306893953",
+      "https://openalex.org/W2047276304",
+      "https://openalex.org/W3143039839",
+      "https://openalex.org/W3104095989",
+      "https://openalex.org/W2488072329",
+      "https://openalex.org/W4293795411",
+      "https://openalex.org/W2932621877",
+      "https://openalex.org/W4388953483",
+      "https://openalex.org/W4242768312",
+      "https://openalex.org/W106150921",
+      "https://openalex.org/W2989910362"
+    ],
+    "related_works": [
+      "https://openalex.org/W630244277",
+      "https://openalex.org/W1904208161",
+      "https://openalex.org/W2052712718",
+      "https://openalex.org/W2016300288",
+      "https://openalex.org/W2380338678",
+      "https://openalex.org/W2035176602",
+      "https://openalex.org/W2082223167",
+      "https://openalex.org/W1988585092",
+      "https://openalex.org/W2736356444",
+      "https://openalex.org/W804361975"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2023-09-13T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          25
+        ]
+      ],
+      "date-time": "2025-12-25T16:04:11Z",
+      "timestamp": 1766678651147,
+      "version": "3.40.5"
+    },
+    "reference-count": 73,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              20
+            ]
+          ],
+          "date-time": "2024-09-20T00:00:00Z",
+          "timestamp": 1726790400000
+        },
+        "content-version": "am",
+        "delay-in-days": 294,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2023-12-01T00:00:00Z",
+          "timestamp": 1701388800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Geoenergy Science and Engineering"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.geoen.2023.212300",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          13
+        ]
+      ],
+      "date-time": "2023-09-13T00:54:47Z",
+      "timestamp": 1694566487000
+    },
+    "page": "212300",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 20,
+    "special_numbering": "PA",
+    "title": [
+      "Numerical investigation of a cavitating nozzle for jetting and rock erosion based on different turbulence models"
+    ],
+    "prefix": "10.1016",
+    "volume": "231",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5847-6381",
+        "authenticated-orcid": false,
+        "given": "Dhruv",
+        "family": "Apte",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Mingming",
+        "family": "Ge",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Olivier",
+        "family": "Coutier-Delgosha",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.geoen.2023.212300_b1",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1016/j.petrol.2017.01.037",
+        "article-title": "Heavy oil upgrading via hydrodynamic cavitation in the presence of an appropriate hydrogen donor",
+        "volume": "151",
+        "author": "Askarian",
+        "year": "2017",
+        "journal-title": "J. Pet. Sci. Eng."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.geoen.2023.212300_b2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1063/5.0079313",
+        "article-title": "A sub-grid scale cavitation inception model",
+        "volume": "34",
+        "author": "Bappy",
+        "year": "2022",
+        "journal-title": "Phys. Fluids"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b3",
+        "unstructured": "Bensow, R.E., 2011. Simulation of the unsteady cavitation on the Delft Twist11 foil using RANS,DES and LES. In: Second International Symposium on Marine Propulsors."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.geoen.2023.212300_b4",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1115/1.4001342",
+        "article-title": "Implicit LES predictions of the cavitating flow on a propeller",
+        "volume": "132",
+        "author": "Bensow",
+        "year": "2010",
+        "journal-title": "J. Fluids Eng."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.geoen.2023.212300_b5",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1007/s10494-017-9828-8",
+        "article-title": "The state of the art of hybrid RANS/LES modeling for the simulation of turbulent flows",
+        "volume": "99",
+        "author": "Chaouat",
+        "year": "2017",
+        "journal-title": "Flow Turbul. Combust."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b6",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compfluid.2021.104898",
+        "article-title": "Influence of the turbulence modeling on the simulation of unsteady cavitating flows",
+        "volume": "221",
+        "author": "Chebli",
+        "year": "2021",
+        "journal-title": "Comput. & Fluids"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.oceaneng.2022.112115",
+        "article-title": "Erosion experiments of shale using a cavitation jet",
+        "volume": "261",
+        "author": "Chi",
+        "year": "2022",
+        "journal-title": "Ocean Eng."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.geoen.2023.212300_b8",
+        "doi-asserted-by": "crossref",
+        "first-page": "38",
+        "DOI": "10.1115/1.1524584",
+        "article-title": "Evaluation of the turbulence model influence on the numerical simulations of unsteady cavitation",
+        "volume": "125",
+        "author": "Coutier-Delgosha",
+        "year": "2003",
+        "journal-title": "J. Fluids Eng."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.geoen.2023.212300_b9",
+        "doi-asserted-by": "crossref",
+        "first-page": "527",
+        "DOI": "10.1002/fld.530",
+        "article-title": "Numerical simulation of the unsteady behaviour of cavitating flows",
+        "volume": "42",
+        "author": "Coutier-Delgosha",
+        "year": "2003",
+        "journal-title": "Internat. J. Numer. Methods Fluids"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.geoen.2023.212300_b10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1053",
+        "DOI": "10.1002/fld.2601",
+        "article-title": "Time-dependent simulation of cavitating flow with k- l turbulence models",
+        "volume": "68",
+        "author": "Decaix",
+        "year": "2012",
+        "journal-title": "Internat. J. Numer. Methods Fluids"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b11",
+        "doi-asserted-by": "crossref",
+        "first-page": "576",
+        "DOI": "10.1016/j.ijheatfluidflow.2013.08.013",
+        "article-title": "Investigation of three-dimensional effects on a cavitating venturi flow",
+        "volume": "44",
+        "author": "Decaix",
+        "year": "2013",
+        "journal-title": "Int. J. Heat Fluid Flow"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "540",
+        "DOI": "10.1016/j.petrol.2016.10.058",
+        "article-title": "CFD simulation with experimental validation of oil-water core-annular flows through venturi and Nozzle flow meters",
+        "volume": "149",
+        "author": "Dehkordi",
+        "year": "2017",
+        "journal-title": "J. Pet. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "636",
+        "DOI": "10.1016/j.petrol.2016.09.032",
+        "article-title": "Effect of inclination and water cut on venturi pressure drop measurements for oil-water flow experiments",
+        "volume": "147",
+        "author": "Elobeid",
+        "year": "2016",
+        "journal-title": "J. Pet. Sci. Eng."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.geoen.2023.212300_b14",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.29252/jafm.75.253.28771",
+        "article-title": "Numerical flow simulation and cavitation prediction in a centrifugal pump using an SST-SAS turbulence model",
+        "volume": "12",
+        "author": "Ennouri",
+        "year": "2019",
+        "journal-title": "J. Appl. Fluid Mech."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b15",
+        "series-title": "Applied Mechanics and Materials, Vol. 152",
+        "first-page": "1187",
+        "article-title": "Hybrid RANS–LES modeling for unsteady cavitating flow simulation",
+        "author": "Gao",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijheatmasstransfer.2021.120970",
+        "article-title": "Cavitation dynamics and thermodynamic effects at elevated temperatures in a small Venturi channel",
+        "volume": "170",
+        "author": "Ge",
+        "year": "2021",
+        "journal-title": "Int. J. Heat Mass Transfer"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.geoen.2023.212300_b17",
+        "first-page": "151",
+        "article-title": "Assessment of RANS turbulence models and Zwart cavitation model empirical coefficients for the simulation of unsteady cloud cavitation",
+        "volume": "14",
+        "author": "Geng",
+        "year": "2020",
+        "journal-title": "Eng. Appl. Comput. Fluid Mech."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.geoen.2023.212300_b18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1081/LFT-20009686218",
+        "article-title": "Investigation and application of self-resonating cavitating water jet in petroleum engineering",
+        "volume": "23",
+        "author": "Gensheng",
+        "year": "2005",
+        "journal-title": "Pet. Sci. Technol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.geoen.2023.212300_b19",
+        "doi-asserted-by": "crossref",
+        "first-page": "289",
+        "DOI": "10.1081/LFT-200056824",
+        "article-title": "The productivity-enhancing technique of deep penetrating perforation with a high-pressure water jet",
+        "volume": "25",
+        "author": "Gensheng",
+        "year": "2007",
+        "journal-title": "Pet. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b20",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.petrol.2021.108709",
+        "article-title": "Ultrasound-assisted oxidative desulfurization (UAOD) of Iranian heavy crude oil: Investigation of process variables",
+        "volume": "204",
+        "author": "Ghahremani",
+        "year": "2021",
+        "journal-title": "J. Pet. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b21",
+        "doi-asserted-by": "crossref",
+        "first-page": "413",
+        "DOI": "10.1115/1.2151207",
+        "article-title": "Partially-averaged Navier–Stokes model for turbulence: A Reynolds-averaged Navier–Stokes to direct numerical simulation bridging method",
+        "volume": "73",
+        "author": "Girimaji",
+        "year": "2006",
+        "journal-title": "J. Appl. Mech."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Girimaji, S., Abdol-Hamid, K., 2005. Partially-averaged Navier Stokes model for turbulence: Implementation and validation. In: 43rd AIAA Aerospace Sciences Meeting and Exhibit. p. 502.",
+        "DOI": "10.2514/6.2005-502"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b23",
+        "doi-asserted-by": "crossref",
+        "first-page": "422",
+        "DOI": "10.1115/1.2173677",
+        "article-title": "Partially averaged Navier–Stokes method for turbulence: Fixed point analysis and comparison with unsteady partially averaged Navier–Stokes",
+        "volume": "73",
+        "author": "Girimaji",
+        "year": "2006",
+        "journal-title": "J. Appl. Mech."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Girimaji, S.S., Srinivasan, R., Jeong, E., 2003. PANS turbulence model for seamless transition between RANS and LES: fixed-point analysis and preliminary results. In: Fluids Engineering Division Summer Meeting, Vol. 36975. pp. 1901–1909.",
+        "DOI": "10.1115/FEDSM2003-45336"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b25",
+        "doi-asserted-by": "crossref",
+        "first-page": "86",
+        "DOI": "10.1016/j.ijmultiphaseflow.2016.03.015",
+        "article-title": "Large eddy simulation of the transition from sheet to cloud cavitation over a wedge",
+        "volume": "83",
+        "author": "Gnanaskandan",
+        "year": "2016",
+        "journal-title": "Int. J. Multiph. Flow."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.geoen.2023.212300_b26",
+        "doi-asserted-by": "crossref",
+        "first-page": "26",
+        "DOI": "10.1016/j.euromechflu.2010.08.002",
+        "article-title": "Numerical study of unsteady turbulent cavitating flows",
+        "volume": "30",
+        "author": "Goncalvès",
+        "year": "2011",
+        "journal-title": "Eur. J. Mech. B Fluids"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b27",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.paerosci.2019.100597",
+        "article-title": "A review of hybrid RANS–LES methods for turbulent flows: Concepts and applications",
+        "volume": "114",
+        "author": "Heinz",
+        "year": "2020",
+        "journal-title": "Prog. Aerosp. Sci."
+      },
+      {
+        "issue": "18",
+        "key": "10.1016/j.geoen.2023.212300_b28",
+        "doi-asserted-by": "crossref",
+        "first-page": "3696",
+        "DOI": "10.3390/app9183696",
+        "article-title": "Scale-adaptive simulation of unsteady cavitation around a NACA66 hydrofoil",
+        "volume": "9",
+        "author": "Hidalgo",
+        "year": "2019",
+        "journal-title": "Appl. Sci."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.geoen.2023.212300_b29",
+        "doi-asserted-by": "crossref",
+        "first-page": "2849",
+        "DOI": "10.1007/s12206-017-0528-z",
+        "article-title": "Numerical simulation of the transient cavitating turbulent flows around the Clark-Y hydrofoil using modified partially averaged Navier–Stokes method",
+        "volume": "31",
+        "author": "Huang",
+        "year": "2017",
+        "journal-title": "J. Mech. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b30",
+        "doi-asserted-by": "crossref",
+        "first-page": "281",
+        "DOI": "10.1016/j.expthermflusci.2016.08.026",
+        "article-title": "Experimental study on the influence of geometrical parameters on the cavitation erosion characteristics of high speed submerged jets",
+        "volume": "80",
+        "author": "Hutli",
+        "year": "2017",
+        "journal-title": "Exp. Therm Fluid Sci."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.geoen.2023.212300_b31",
+        "doi-asserted-by": "crossref",
+        "first-page": "144",
+        "DOI": "10.3390/jmse9020144",
+        "article-title": "Numerical study on the vibration and noise characteristics of a delft twist11 hydrofoil",
+        "volume": "9",
+        "author": "Hwang",
+        "year": "2021",
+        "journal-title": "J. Mar. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b32",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1016/j.ijmultiphaseflow.2012.11.008",
+        "article-title": "Numerical analysis of unsteady cavitating turbulent flow and shedding horse-shoe vortex structure around a twisted hydrofoil",
+        "volume": "51",
+        "author": "Ji",
+        "year": "2013",
+        "journal-title": "Int. J. Multiph. Flow."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.geoen.2023.212300_b33",
+        "doi-asserted-by": "crossref",
+        "first-page": "10",
+        "DOI": "10.1016/j.ijheatfluidflow.2003.10.005",
+        "article-title": "Filter-based unsteady RANS computations",
+        "volume": "25",
+        "author": "Johansen",
+        "year": "2004",
+        "journal-title": "Int. J. Heat Fluid Flow"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.geoen.2023.212300_b34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1637",
+        "DOI": "10.29252/jafm.11.06.28809",
+        "article-title": "3D analyze of the cavitation mechanism in turbulent flow using partially-average Navier Stokes model around the clark-y hydrofoil",
+        "volume": "11",
+        "author": "Kanfoudi",
+        "year": "2018",
+        "journal-title": "J. Appl. Fluid Mech."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b35",
+        "unstructured": "Kim, S.-E., 2009. A numerical study of unsteady cavitation on a hydrofoil. In: 7th International Symposium on Cavitation CAV2009, Ann Arbor, Michigan, USA, Vol. 1."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.geoen.2023.212300_b36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1045",
+        "DOI": "10.1115/1.4014586",
+        "article-title": "Recent investigations of the mechanics of cavitation and cavitation damage",
+        "volume": "77",
+        "author": "Knapp",
+        "year": "1955",
+        "journal-title": "Trans. Amer. Soc. Mech. Eng."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.geoen.2023.212300_b37",
+        "doi-asserted-by": "crossref",
+        "first-page": "134",
+        "DOI": "10.3390/fluids5030134",
+        "article-title": "Assessment of cavitation models for compressible flows inside a nozzle",
+        "volume": "5",
+        "author": "Kumar",
+        "year": "2020",
+        "journal-title": "Fluids"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.geoen.2023.212300_b38",
+        "doi-asserted-by": "crossref",
+        "first-page": "849",
+        "DOI": "10.1016/S0045-7930(99)00039-0",
+        "article-title": "A preconditioned Navier–Stokes method for two-phase flows with application to cavitation prediction",
+        "volume": "29",
+        "author": "Kunz",
+        "year": "2000",
+        "journal-title": "Comput. & Fluids"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lakshmipathy, S., Girimaji, S., 2006. Partially-averaged Navier–Stokes method for turbulent flows: kw model implementation. In: 44th AIAA Aerospace Sciences Meeting and Exhibit. p. 119.",
+        "DOI": "10.2514/6.2006-119"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b40",
+        "series-title": "Numerical Prediction of Flow, Heat Transfer, Turbulence and Combustion",
+        "first-page": "96",
+        "article-title": "The numerical computation of turbulent flows",
+        "author": "Launder",
+        "year": "1983"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.geoen.2023.212300_b41",
+        "doi-asserted-by": "crossref",
+        "first-page": "254",
+        "DOI": "10.5293/IJFMS.2017.10.3.254",
+        "article-title": "Numerical cavitation intensity on a hydrofoil for 3D homogeneous unsteady viscous flows",
+        "volume": "10",
+        "author": "Leclercq",
+        "year": "2017",
+        "journal-title": "Int. J. Fluid Mach. Syst."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.geoen.2023.212300_b42",
+        "doi-asserted-by": "crossref",
+        "first-page": "94",
+        "DOI": "10.1115/1.1627835",
+        "article-title": "An experimental study of unsteady partial cavitation",
+        "volume": "126",
+        "author": "Leroux",
+        "year": "2004",
+        "journal-title": "J. Fluids Eng."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b43",
+        "doi-asserted-by": "crossref",
+        "first-page": "204",
+        "DOI": "10.1016/j.ijrmms.2014.03.021",
+        "article-title": "Criteria for jet cavitation and cavitation jet drilling",
+        "volume": "71",
+        "author": "Li",
+        "year": "2014",
+        "journal-title": "Int. J. Rock Mech. Min. Sci."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.geoen.2023.212300_b44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1231",
+        "DOI": "10.1007/s12206-019-0223-3",
+        "article-title": "Calculation of cavitation evolution and associated turbulent kinetic energy transport around a NACA66 hydrofoil",
+        "volume": "33",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "J. Mech. Sci. Technol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.geoen.2023.212300_b45",
+        "article-title": "Experimental study on the effects of hydraulic confining pressure on impacting characteristics of jets",
+        "volume": "22",
+        "author": "Li",
+        "year": "2012",
+        "journal-title": "At. Sprays"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b46",
+        "doi-asserted-by": "crossref",
+        "first-page": "232",
+        "DOI": "10.1016/j.euromechflu.2020.09.016",
+        "article-title": "Numerical investigation of shedding dynamics of cloud cavitation around 3D hydrofoil using different turbulence models",
+        "volume": "85",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Eur. J. Mech. B Fluids"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.geoen.2023.212300_b47",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1063/5.0126317",
+        "article-title": "Analysis of the cavitation instabilities with time-resolved stereo and multiplane particle image velocimetry",
+        "volume": "34",
+        "author": "Long",
+        "year": "2022",
+        "journal-title": "Phys. Fluids"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Menter, F., Egorov, Y., 2005. A scale adaptive simulation model using two-equation models. In: 43rd AIAA Aerospace Sciences Meeting and Exhibit. p. 1095.",
+        "DOI": "10.2514/6.2005-1095"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.geoen.2023.212300_b49",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.1007/s10494-010-9264-5",
+        "article-title": "The scale-adaptive simulation method for unsteady turbulent flow predictions. Part 1: theory and model description",
+        "volume": "85",
+        "author": "Menter",
+        "year": "2010",
+        "journal-title": "Flow Turbul. Combust."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.geoen.2023.212300_b50",
+        "first-page": "625",
+        "article-title": "Ten years of industrial experience with the SST turbulence model",
+        "volume": "4",
+        "author": "Menter",
+        "year": "2003",
+        "journal-title": "Turbul. Heat Mass Transfer"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b51",
+        "unstructured": "Merkle, C.L., 1998. Computational modelling of the dynamics of sheet cavitation. In: Proc. of the 3rd Int. Symp. on Cavitation, Grenoble, France, 1998."
+      },
+      {
+        "issue": "1–4",
+        "key": "10.1016/j.geoen.2023.212300_b52",
+        "doi-asserted-by": "crossref",
+        "first-page": "177",
+        "DOI": "10.1016/j.minpro.2003.10.004",
+        "article-title": "Aggregate liberation from concrete by flow cavitation",
+        "volume": "74",
+        "author": "Momber",
+        "year": "2004",
+        "journal-title": "Int. J. Miner. Process."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.geoen.2023.212300_b53",
+        "doi-asserted-by": "crossref",
+        "first-page": "599",
+        "DOI": "10.1080/14685248.2019.1685673",
+        "article-title": "Numerical prediction of interaction between turbulence structures and vortex cavitation",
+        "volume": "20",
+        "author": "Ohta",
+        "year": "2019",
+        "journal-title": "J. Turbul."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b54",
+        "unstructured": "Reboud, J.-L., Stutz, B., Coutier, O., 1998. Two phase flow structure of cavitation: experiment and modeling of unsteady effects. In: 3rd International Symposium on Cavitation CAV1998, Grenoble, France, Vol. 26."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b55",
+        "series-title": "Offshore Technology Conference",
+        "article-title": "Removing marine growth using an ROV with cavitation technology",
+        "author": "Restivo",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b56",
+        "unstructured": "Sauer, J., Schnerr, G.H., 2000. Unsteady cavitating flow-a new cavitation model based on a modified front capturing method and bubble dynamics. In: Proceedings of 2000 ASME Fluid Engineering Summer Conference, Vol. 251. pp. 1073–1079."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b57",
+        "doi-asserted-by": "crossref",
+        "first-page": "357",
+        "DOI": "10.1016/j.oceaneng.2016.07.030",
+        "article-title": "Numerical and experimental investigation of three-dimensional cavitating flow around the straight NACA2412 hydrofoil",
+        "volume": "123",
+        "author": "Sedlar",
+        "year": "2016",
+        "journal-title": "Ocean Eng."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b58",
+        "series-title": "Proceedings of First AFOSR International Conference on DNS/LES",
+        "article-title": "Comments on the feasibility of LES for wings, and on a hybrid RANS/LES approach",
+        "author": "Spalart",
+        "year": "1997"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.geoen.2023.212300_b59",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.1007/s00162-006-0015-0",
+        "article-title": "A new version of detached-eddy simulation, resistant to ambiguous grid densities",
+        "volume": "20",
+        "author": "Spalart",
+        "year": "2006",
+        "journal-title": "Theor. Comput. Fluid Dyn."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b60",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1016/j.ijrmms.2018.06.007",
+        "article-title": "Hard rock cutting with high pressure jets in various ambient pressure regimes",
+        "volume": "108",
+        "author": "Stoxreiter",
+        "year": "2018",
+        "journal-title": "Int. J. Rock Mech. Min. Sci."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b61",
+        "doi-asserted-by": "crossref",
+        "first-page": "223",
+        "DOI": "10.1016/j.euromechflu.2019.02.011",
+        "article-title": "Numerical modeling and simulation of the shedding mechanism and vortex structures at the development stage of ventilated partial cavitating flows",
+        "volume": "76",
+        "author": "Sun",
+        "year": "2019",
+        "journal-title": "Eur. J. Mech. B Fluids"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b62",
+        "series-title": "MARINE VII: Proceedings of the VII International Conference on Computational Methods in Marine Engineering",
+        "first-page": "143",
+        "article-title": "Improved modelling of sheet cavitation dynamics on delft twist11 hydrofoil",
+        "author": "Vaz",
+        "year": "2017"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b63",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.oceaneng.2021.109988",
+        "article-title": "Comparative study between turbulence models in unsteady cavitating flow with special emphasis on shock wave propagation",
+        "volume": "240",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Ocean Eng."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.geoen.2023.212300_b64",
+        "doi-asserted-by": "crossref",
+        "first-page": "620",
+        "DOI": "10.1063/1.168744",
+        "article-title": "A tensorial approach to computational continuum mechanics using object-oriented techniques",
+        "volume": "12",
+        "author": "Weller",
+        "year": "1998",
+        "journal-title": "Comput. Phys."
+      },
+      {
+        "year": "1998",
+        "series-title": "Turbulence Modeling for CFD, Vol. 2",
+        "author": "Wilcox",
+        "key": "10.1016/j.geoen.2023.212300_b65"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.geoen.2023.212300_b66",
+        "doi-asserted-by": "crossref",
+        "first-page": "739",
+        "DOI": "10.1002/fld.1047",
+        "article-title": "Time-dependent turbulent cavitating flow computations with interfacial transport and filter-based models",
+        "volume": "49",
+        "author": "Wu",
+        "year": "2005",
+        "journal-title": "Internat. J. Numer. Methods Fluids"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.geoen.2023.212300_b67",
+        "doi-asserted-by": "crossref",
+        "first-page": "1104",
+        "DOI": "10.1016/j.petsci.2022.10.010",
+        "article-title": "Structure optimization of the organ-pipe cavitating nozzle and its erosion ability test on hydrate-bearing sediments",
+        "volume": "20",
+        "author": "Wu",
+        "year": "2023",
+        "journal-title": "Pet. Sci."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.geoen.2023.212300_b68",
+        "doi-asserted-by": "crossref",
+        "first-page": "2964",
+        "DOI": "10.1016/j.jcp.2009.12.026",
+        "article-title": "Modeling phase transition for compressible two-phase flows applied to metastable liquids",
+        "volume": "229",
+        "author": "Zein",
+        "year": "2010",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.geoen.2023.212300_b69",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1063/5.0041463",
+        "article-title": "Compressible effects modeling for turbulent cavitating flow in a small venturi channel: An empirical turbulent eddy viscosity correction",
+        "volume": "33",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "Phys. Fluids"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.geoen.2023.212300_b70",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1063/5.0029963",
+        "article-title": "Experimental investigation of internal two-phase flow structures and dynamics of quasi-stable sheet cavitation by fast synchrotron x-ray imaging",
+        "volume": "32",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "Phys. Fluids"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.geoen.2023.212300_b71",
+        "doi-asserted-by": "crossref",
+        "first-page": "1252",
+        "DOI": "10.1007/s11431-016-6098-y",
+        "article-title": "A hybrid RANS/LES model for simulating time-dependent cloud cavitating flow around a NACA66 hydrofoil",
+        "volume": "59",
+        "author": "Zhang",
+        "year": "2016",
+        "journal-title": "Sci. China Technol. Sci."
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b72",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ijheatmasstransfer.2022.123372",
+        "article-title": "Experimental investigation of three distinct mechanisms for the transition from sheet to cloud cavitation",
+        "volume": "197",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "Int. J. Heat Mass Transfer"
+      },
+      {
+        "key": "10.1016/j.geoen.2023.212300_b73",
+        "doi-asserted-by": "crossref",
+        "first-page": "62",
+        "DOI": "10.1016/j.ijmultiphaseflow.2019.03.020",
+        "article-title": "Development of a multiphase cavitation solver and its application for ventilated cavitating flows with natural cavitation",
+        "volume": "115",
+        "author": "Zhou",
+        "year": "2019",
+        "journal-title": "Int. J. Multiph. Flow."
+      }
+    ],
+    "container-title": [
+      "Geoenergy Science and Engineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2949891023008874?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2949891023008874?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          3
+        ]
+      ],
+      "date-time": "2024-06-03T21:05:27Z",
+      "timestamp": 1717448727000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2949891023008874"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "references-count": 73,
+    "alternative-id": [
+      "S2949891023008874"
+    ],
+    "URL": "https://doi.org/10.1016/j.geoen.2023.212300",
+    "relation": {},
+    "ISSN": [
+      "2949-8910"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2949-8910"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Numerical investigation of a cavitating nozzle for jetting and rock erosion based on different turbulence models",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Geoenergy Science and Engineering",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.geoen.2023.212300",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 Elsevier B.V. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "212300"
+  }
+}

@@ -1,0 +1,2002 @@
+{
+  "doi": "10.1016/j.physd.2024.134070",
+  "openalex": {
+    "id": "https://openalex.org/W4391788260",
+    "doi": "https://doi.org/10.1016/j.physd.2024.134070",
+    "title": "Learning dynamical systems from data: A simple cross-validation perspective, Part V: Sparse Kernel Flows for 132 chaotic dynamical systems",
+    "display_name": "Learning dynamical systems from data: A simple cross-validation perspective, Part V: Sparse Kernel Flows for 132 chaotic dynamical systems",
+    "publication_year": 2024,
+    "publication_date": "2024-02-13",
+    "ids": {
+      "openalex": "https://openalex.org/W4391788260",
+      "doi": "https://doi.org/10.1016/j.physd.2024.134070"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.physd.2024.134070",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.physd.2024.134070",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210235043",
+        "display_name": "Physica D Nonlinear Phenomena",
+        "issn_l": "0167-2789",
+        "issn": [
+          "0167-2789",
+          "1872-8022"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physica D: Nonlinear Phenomena",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.osti.gov/biblio/2368991",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5065037995",
+          "display_name": "Lu Yang",
+          "orcid": "https://orcid.org/0000-0002-3590-9973"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I9842412",
+            "display_name": "Nanjing University of Aeronautics and Astronautics",
+            "ror": "https://ror.org/01scyh794",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I9842412"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I47508984",
+            "display_name": "Imperial College London",
+            "ror": "https://ror.org/041kmwe10",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I47508984"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lu Yang",
+        "raw_affiliation_strings": [
+          "College of Economics and Management, Nanjing University of Aeronautics and Astronautics, PR China",
+          "Department of Mathematics, Imperial College London, United Kingdom"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mathematics, Imperial College London, United Kingdom",
+            "institution_ids": [
+              "https://openalex.org/I47508984"
+            ]
+          },
+          {
+            "raw_affiliation_string": "College of Economics and Management, Nanjing University of Aeronautics and Astronautics, PR China",
+            "institution_ids": [
+              "https://openalex.org/I9842412"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5113396153",
+          "display_name": "Xiuwen Sun",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Xiuwen Sun",
+        "raw_affiliation_strings": [
+          "Zhejiang Zhelixin Credit Investigation Co., Ltd, PR China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Zhejiang Zhelixin Credit Investigation Co., Ltd, PR China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5001944701",
+          "display_name": "Boumediene Hamzi",
+          "orcid": "https://orcid.org/0000-0002-9446-2614"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210128584",
+            "display_name": "The Alan Turing Institute",
+            "ror": "https://ror.org/035dkdb55",
+            "country_code": "GB",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210128584"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I179311214",
+            "display_name": "Gulf University for Science & Technology",
+            "ror": "https://ror.org/04d9rzd67",
+            "country_code": "KW",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I179311214"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I122411786",
+            "display_name": "California Institute of Technology",
+            "ror": "https://ror.org/05dxps055",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I122411786"
+            ]
+          }
+        ],
+        "countries": [
+          "GB",
+          "KW",
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Boumediene Hamzi",
+        "raw_affiliation_strings": [
+          "Department of Computing and Mathematical Sciences, Caltech, CA, USA",
+          "Department of Mathematics and Natural Sciences, Gulf University for Science and Technology, Kuwait",
+          "The Alan Turing Institute, London, UK"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computing and Mathematical Sciences, Caltech, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I122411786"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Mathematics and Natural Sciences, Gulf University for Science and Technology, Kuwait",
+            "institution_ids": [
+              "https://openalex.org/I179311214"
+            ]
+          },
+          {
+            "raw_affiliation_string": "The Alan Turing Institute, London, UK",
+            "institution_ids": [
+              "https://openalex.org/I4210128584"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5034000581",
+          "display_name": "Houman Owhadi",
+          "orcid": "https://orcid.org/0000-0002-5677-1600"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I122411786",
+            "display_name": "California Institute of Technology",
+            "ror": "https://ror.org/05dxps055",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I122411786"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Houman Owhadi",
+        "raw_affiliation_strings": [
+          "Department of Computing and Mathematical Sciences, Caltech, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computing and Mathematical Sciences, Caltech, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I122411786"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5066476486",
+          "display_name": "Naiming Xie",
+          "orcid": "https://orcid.org/0000-0002-7368-1746"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I9842412",
+            "display_name": "Nanjing University of Aeronautics and Astronautics",
+            "ror": "https://ror.org/01scyh794",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I9842412"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Naiming Xie",
+        "raw_affiliation_strings": [
+          "College of Economics and Management, Nanjing University of Aeronautics and Astronautics, PR China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Economics and Management, Nanjing University of Aeronautics and Astronautics, PR China",
+            "institution_ids": [
+              "https://openalex.org/I9842412"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 4,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5001944701"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I122411786",
+      "https://openalex.org/I179311214",
+      "https://openalex.org/I4210128584"
+    ],
+    "apc_list": {
+      "value": 3240,
+      "currency": "USD",
+      "value_usd": 3240
+    },
+    "apc_paid": null,
+    "fwci": 6.50802495,
+    "has_fulltext": false,
+    "cited_by_count": 13,
+    "citation_normalized_percentile": {
+      "value": 0.94850054,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "460",
+      "issue": null,
+      "first_page": "134070",
+      "last_page": "134070"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11206",
+      "display_name": "Model Reduction and Neural Networks",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3109",
+        "display_name": "Statistical and Nonlinear Physics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11206",
+        "display_name": "Model Reduction and Neural Networks",
+        "score": 0.9994000196456909,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13650",
+        "display_name": "Computational Physics and Python Applications",
+        "score": 0.988099992275238,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12814",
+        "display_name": "Gaussian Processes and Bayesian Inference",
+        "score": 0.9763000011444092,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/variable-kernel-density-estimation",
+        "display_name": "Variable kernel density estimation",
+        "score": 0.6883910894393921
+      },
+      {
+        "id": "https://openalex.org/keywords/kernel-embedding-of-distributions",
+        "display_name": "Kernel embedding of distributions",
+        "score": 0.6851201057434082
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.6326718330383301
+      },
+      {
+        "id": "https://openalex.org/keywords/kernel",
+        "display_name": "Kernel (algebra)",
+        "score": 0.5983296036720276
+      },
+      {
+        "id": "https://openalex.org/keywords/radial-basis-function-kernel",
+        "display_name": "Radial basis function kernel",
+        "score": 0.5950589776039124
+      },
+      {
+        "id": "https://openalex.org/keywords/kernel-principal-component-analysis",
+        "display_name": "Kernel principal component analysis",
+        "score": 0.5394647121429443
+      },
+      {
+        "id": "https://openalex.org/keywords/polynomial-kernel",
+        "display_name": "Polynomial kernel",
+        "score": 0.5284571051597595
+      },
+      {
+        "id": "https://openalex.org/keywords/kernel-method",
+        "display_name": "Kernel method",
+        "score": 0.5212907791137695
+      },
+      {
+        "id": "https://openalex.org/keywords/tree-kernel",
+        "display_name": "Tree kernel",
+        "score": 0.47780734300613403
+      },
+      {
+        "id": "https://openalex.org/keywords/kernel-smoother",
+        "display_name": "Kernel smoother",
+        "score": 0.4485873878002167
+      },
+      {
+        "id": "https://openalex.org/keywords/dynamical-systems-theory",
+        "display_name": "Dynamical systems theory",
+        "score": 0.41059473156929016
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.3970145583152771
+      },
+      {
+        "id": "https://openalex.org/keywords/applied-mathematics",
+        "display_name": "Applied mathematics",
+        "score": 0.3613530993461609
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematical-optimization",
+        "display_name": "Mathematical optimization",
+        "score": 0.3378193974494934
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.32319462299346924
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.25432175397872925
+      },
+      {
+        "id": "https://openalex.org/keywords/discrete-mathematics",
+        "display_name": "Discrete mathematics",
+        "score": 0.17389756441116333
+      },
+      {
+        "id": "https://openalex.org/keywords/support-vector-machine",
+        "display_name": "Support vector machine",
+        "score": 0.15748286247253418
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C195699287",
+        "wikidata": "https://www.wikidata.org/wiki/Q7915722",
+        "display_name": "Variable kernel density estimation",
+        "level": 4,
+        "score": 0.6883910894393921
+      },
+      {
+        "id": "https://openalex.org/C134517425",
+        "wikidata": "https://www.wikidata.org/wiki/Q16000131",
+        "display_name": "Kernel embedding of distributions",
+        "level": 4,
+        "score": 0.6851201057434082
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.6326718330383301
+      },
+      {
+        "id": "https://openalex.org/C74193536",
+        "wikidata": "https://www.wikidata.org/wiki/Q574844",
+        "display_name": "Kernel (algebra)",
+        "level": 2,
+        "score": 0.5983296036720276
+      },
+      {
+        "id": "https://openalex.org/C75866337",
+        "wikidata": "https://www.wikidata.org/wiki/Q7280263",
+        "display_name": "Radial basis function kernel",
+        "level": 4,
+        "score": 0.5950589776039124
+      },
+      {
+        "id": "https://openalex.org/C182335926",
+        "wikidata": "https://www.wikidata.org/wiki/Q17093020",
+        "display_name": "Kernel principal component analysis",
+        "level": 4,
+        "score": 0.5394647121429443
+      },
+      {
+        "id": "https://openalex.org/C160446489",
+        "wikidata": "https://www.wikidata.org/wiki/Q7226642",
+        "display_name": "Polynomial kernel",
+        "level": 4,
+        "score": 0.5284571051597595
+      },
+      {
+        "id": "https://openalex.org/C122280245",
+        "wikidata": "https://www.wikidata.org/wiki/Q620622",
+        "display_name": "Kernel method",
+        "level": 3,
+        "score": 0.5212907791137695
+      },
+      {
+        "id": "https://openalex.org/C140417398",
+        "wikidata": "https://www.wikidata.org/wiki/Q16933942",
+        "display_name": "Tree kernel",
+        "level": 5,
+        "score": 0.47780734300613403
+      },
+      {
+        "id": "https://openalex.org/C27406209",
+        "wikidata": "https://www.wikidata.org/wiki/Q6394203",
+        "display_name": "Kernel smoother",
+        "level": 5,
+        "score": 0.4485873878002167
+      },
+      {
+        "id": "https://openalex.org/C79379906",
+        "wikidata": "https://www.wikidata.org/wiki/Q3174497",
+        "display_name": "Dynamical systems theory",
+        "level": 2,
+        "score": 0.41059473156929016
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.3970145583152771
+      },
+      {
+        "id": "https://openalex.org/C28826006",
+        "wikidata": "https://www.wikidata.org/wiki/Q33521",
+        "display_name": "Applied mathematics",
+        "level": 1,
+        "score": 0.3613530993461609
+      },
+      {
+        "id": "https://openalex.org/C126255220",
+        "wikidata": "https://www.wikidata.org/wiki/Q141495",
+        "display_name": "Mathematical optimization",
+        "level": 1,
+        "score": 0.3378193974494934
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.32319462299346924
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.25432175397872925
+      },
+      {
+        "id": "https://openalex.org/C118615104",
+        "wikidata": "https://www.wikidata.org/wiki/Q121416",
+        "display_name": "Discrete mathematics",
+        "level": 1,
+        "score": 0.17389756441116333
+      },
+      {
+        "id": "https://openalex.org/C12267149",
+        "wikidata": "https://www.wikidata.org/wiki/Q282453",
+        "display_name": "Support vector machine",
+        "level": 2,
+        "score": 0.15748286247253418
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.physd.2024.134070",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.physd.2024.134070",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210235043",
+          "display_name": "Physica D Nonlinear Phenomena",
+          "issn_l": "0167-2789",
+          "issn": [
+            "0167-2789",
+            "1872-8022"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Physica D: Nonlinear Phenomena",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:osti.gov:2368991",
+        "is_oa": true,
+        "landing_page_url": "https://www.osti.gov/biblio/2368991",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": ""
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:osti.gov:2368991",
+      "is_oa": true,
+      "landing_page_url": "https://www.osti.gov/biblio/2368991",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402487",
+        "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I139351228",
+        "host_organization_name": "Office of Scientific and Technical Information",
+        "host_organization_lineage": [
+          "https://openalex.org/I139351228"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": ""
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G6138173491",
+        "display_name": null,
+        "funder_award_id": "FA9550-21-1-0317",
+        "funder_id": "https://openalex.org/F4320306084",
+        "funder_display_name": "U.S. Department of Energy"
+      },
+      {
+        "id": "https://openalex.org/G7881813380",
+        "display_name": null,
+        "funder_award_id": "SA22-0052-S001",
+        "funder_id": "https://openalex.org/F4320306084",
+        "funder_display_name": "U.S. Department of Energy"
+      },
+      {
+        "id": "https://openalex.org/G1228444829",
+        "display_name": null,
+        "funder_award_id": "NP2020022",
+        "funder_id": "https://openalex.org/F4320335787",
+        "funder_display_name": "Fundamental Research Funds for the Central Universities"
+      },
+      {
+        "id": "https://openalex.org/G8834641238",
+        "display_name": null,
+        "funder_award_id": "FA9550-20-1-0358",
+        "funder_id": "https://openalex.org/F4320333591",
+        "funder_display_name": "Multidisciplinary University Research Initiative"
+      },
+      {
+        "id": "https://openalex.org/G8973916133",
+        "display_name": null,
+        "funder_award_id": "72171116",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G203697526",
+        "display_name": null,
+        "funder_award_id": "KXKCXJJ202208",
+        "funder_id": "https://openalex.org/F4320322438",
+        "funder_display_name": "Nanjing University of Aeronautics and Astronautics"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306084",
+        "display_name": "U.S. Department of Energy",
+        "ror": "https://ror.org/01bj3aw27"
+      },
+      {
+        "id": "https://openalex.org/F4320306101",
+        "display_name": "National Aeronautics and Space Administration",
+        "ror": "https://ror.org/027ka1x80"
+      },
+      {
+        "id": "https://openalex.org/F4320309398",
+        "display_name": "California Institute of Technology",
+        "ror": "https://ror.org/05dxps055"
+      },
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320322438",
+        "display_name": "Nanjing University of Aeronautics and Astronautics",
+        "ror": "https://ror.org/01scyh794"
+      },
+      {
+        "id": "https://openalex.org/F4320332375",
+        "display_name": "Jet Propulsion Laboratory",
+        "ror": "https://ror.org/027k65916"
+      },
+      {
+        "id": "https://openalex.org/F4320333591",
+        "display_name": "Multidisciplinary University Research Initiative",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320335787",
+        "display_name": "Fundamental Research Funds for the Central Universities",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320338279",
+        "display_name": "Air Force Office of Scientific Research",
+        "ror": "https://ror.org/011e9bt93"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 67,
+    "referenced_works": [
+      "https://openalex.org/W2066366061",
+      "https://openalex.org/W2007198975",
+      "https://openalex.org/W1976068300",
+      "https://openalex.org/W1972005403",
+      "https://openalex.org/W2239232218",
+      "https://openalex.org/W2765128778",
+      "https://openalex.org/W2050810194",
+      "https://openalex.org/W2137258853",
+      "https://openalex.org/W2777417212",
+      "https://openalex.org/W3004025539",
+      "https://openalex.org/W3018861709",
+      "https://openalex.org/W4205319896",
+      "https://openalex.org/W2092124742",
+      "https://openalex.org/W2886397137",
+      "https://openalex.org/W6755185275",
+      "https://openalex.org/W3003922491",
+      "https://openalex.org/W2887383111",
+      "https://openalex.org/W4224847263",
+      "https://openalex.org/W2067746767",
+      "https://openalex.org/W3093161520",
+      "https://openalex.org/W2047278710",
+      "https://openalex.org/W6755866975",
+      "https://openalex.org/W3106954971",
+      "https://openalex.org/W6689422072",
+      "https://openalex.org/W3128400532",
+      "https://openalex.org/W2959596796",
+      "https://openalex.org/W3029571026",
+      "https://openalex.org/W3006550916",
+      "https://openalex.org/W3016578580",
+      "https://openalex.org/W6644385464",
+      "https://openalex.org/W2963969307",
+      "https://openalex.org/W6699207182",
+      "https://openalex.org/W2798290548",
+      "https://openalex.org/W2887569307",
+      "https://openalex.org/W6878729730",
+      "https://openalex.org/W3007786121",
+      "https://openalex.org/W6800000787",
+      "https://openalex.org/W3198653666",
+      "https://openalex.org/W6810534485",
+      "https://openalex.org/W4294957454",
+      "https://openalex.org/W3217721411",
+      "https://openalex.org/W2135046866",
+      "https://openalex.org/W2730644873",
+      "https://openalex.org/W6641017118",
+      "https://openalex.org/W1493879008",
+      "https://openalex.org/W2768552973",
+      "https://openalex.org/W1986280275",
+      "https://openalex.org/W4288279334",
+      "https://openalex.org/W4303090068",
+      "https://openalex.org/W3205503552",
+      "https://openalex.org/W3132109649",
+      "https://openalex.org/W2963158853",
+      "https://openalex.org/W643878709",
+      "https://openalex.org/W4318718480",
+      "https://openalex.org/W3105585588",
+      "https://openalex.org/W3098429042",
+      "https://openalex.org/W2963106911",
+      "https://openalex.org/W2995469614",
+      "https://openalex.org/W4249543038",
+      "https://openalex.org/W3196020781",
+      "https://openalex.org/W3098172061",
+      "https://openalex.org/W4224071957",
+      "https://openalex.org/W2892208363",
+      "https://openalex.org/W3040536995",
+      "https://openalex.org/W2953065922",
+      "https://openalex.org/W3101392902",
+      "https://openalex.org/W4385335976"
+    ],
+    "related_works": [
+      "https://openalex.org/W3013206934",
+      "https://openalex.org/W3100948281",
+      "https://openalex.org/W4311138679",
+      "https://openalex.org/W3123056048",
+      "https://openalex.org/W2382704364",
+      "https://openalex.org/W2353199197",
+      "https://openalex.org/W2974741803",
+      "https://openalex.org/W2371064519",
+      "https://openalex.org/W2384322977",
+      "https://openalex.org/W2351222813"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          29
+        ]
+      ],
+      "date-time": "2025-12-29T22:07:38Z",
+      "timestamp": 1767046058022,
+      "version": "3.44.0"
+    },
+    "reference-count": 63,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              19
+            ]
+          ],
+          "date-time": "2026-02-19T00:00:00Z",
+          "timestamp": 1771459200000
+        },
+        "content-version": "am",
+        "delay-in-days": 689,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100014036",
+        "name": "Multidisciplinary University Research Initiative",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "FA9550-20-1-0358"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "FA9550-20-1-0358"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014036",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004193",
+        "name": "Nanjing University of Aeronautics and Astronautics",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "KXKCXJJ202208"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "KXKCXJJ202208"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004193",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012226",
+        "name": "Fundamental Research Funds for the Central Universities",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NP2020022"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NP2020022"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012226",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "72171116"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "72171116"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006961",
+        "name": "California Institute of Technology",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006961",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "SA22-0052-S001",
+          "FA9550-21-1-0317"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "SA22-0052-S001",
+              "FA9550-21-1-0317"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000181",
+        "name": "Air Force Office of Scientific Research",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000181",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006196",
+        "name": "Jet Propulsion Laboratory",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006196",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Physica D: Nonlinear Phenomena"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.physd.2024.134070",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          13
+        ]
+      ],
+      "date-time": "2024-02-13T11:40:38Z",
+      "timestamp": 1707824438000
+    },
+    "page": "134070",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "special_numbering": "C",
+    "title": [
+      "Learning dynamical systems from data: A simple cross-validation perspective, Part V: Sparse Kernel Flows for 132 chaotic dynamical systems"
+    ],
+    "prefix": "10.1016",
+    "volume": "460",
+    "author": [
+      {
+        "given": "Lu",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Xiuwen",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9446-2614",
+        "authenticated-orcid": false,
+        "given": "Boumediene",
+        "family": "Hamzi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Houman",
+        "family": "Owhadi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Naiming",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "year": "1997",
+        "series-title": "Nonlinear Time Series Analysis",
+        "author": "Kantz",
+        "key": "10.1016/j.physd.2024.134070_b1"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.physd.2024.134070_b2",
+        "doi-asserted-by": "crossref",
+        "first-page": "335",
+        "DOI": "10.1016/0167-2789(89)90074-2",
+        "article-title": "Nonlinear prediction of chaotic time series",
+        "volume": "35",
+        "author": "Casdagli",
+        "year": "1989",
+        "journal-title": "Physica D"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.physd.2024.134070_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "2075",
+        "DOI": "10.1016/0009-2509(90)80079-T",
+        "article-title": "Nonlinear signal processing and system identification: applications to time series from electrochemical reactions",
+        "volume": "45",
+        "author": "Hudson",
+        "year": "1990",
+        "journal-title": "Chem. Eng. Sci."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.physd.2024.134070_b4",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1080/00986449208936084",
+        "article-title": "Discrete-vs. continuous-time nonlinear signal processing of Cu electrodissolution data",
+        "volume": "118",
+        "author": "Rico-Martinez",
+        "year": "1992",
+        "journal-title": "Chem. Eng. Commun."
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b5",
+        "series-title": "Neural Networks for Chemical Engineers",
+        "first-page": "409",
+        "article-title": "Nonlinear system identification using neural networks: dynamics and instanbilities",
+        "author": "Grandstrand",
+        "year": "1995"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b6",
+        "doi-asserted-by": "crossref",
+        "first-page": "S965",
+        "DOI": "10.1016/S0098-1354(98)00191-4",
+        "article-title": "Identification of distributed parameter systems: A neural net based approach",
+        "volume": "22",
+        "author": "González-García",
+        "year": "1998",
+        "journal-title": "Comput. Chem. Eng."
+      },
+      {
+        "year": "2019",
+        "series-title": "Data-driven prediction of a multi-scale lorenz 96 chaotic system using a hierarchy of deep learning methods: Reservoir computing, ANN, and RNN-LSTM",
+        "author": "Chattopadhyay",
+        "key": "10.1016/j.physd.2024.134070_b7"
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.physd.2024.134070_b8",
+        "doi-asserted-by": "crossref",
+        "first-page": "3932",
+        "DOI": "10.1073/pnas.1517384113",
+        "article-title": "Discovering governing equations from data by sparse identification of nonlinear dynamical systems",
+        "volume": "113",
+        "author": "Brunton",
+        "year": "2016",
+        "journal-title": "Proc. Natl. Acad. Sci."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.physd.2024.134070_b9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1063/1.5010300",
+        "article-title": "Using machine learning to replicate chaotic attractors and calculate Lyapunov exponents from data",
+        "volume": "27",
+        "author": "Pathak",
+        "year": "2017",
+        "journal-title": "Chaos"
+      },
+      {
+        "year": "2019",
+        "series-title": "Practical Time Series Analysis: Prediction with Statistics and Machine Learning",
+        "author": "Nielsen",
+        "key": "10.1016/j.physd.2024.134070_b10"
+      },
+      {
+        "year": "2012",
+        "series-title": "Analysis of Observed Chaotic Data",
+        "author": "Abarbanel",
+        "key": "10.1016/j.physd.2024.134070_b11"
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.physd.2024.134070_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "2825",
+        "DOI": "10.1109/TAC.2011.2131830",
+        "article-title": "A New Kernel-Based Approach for NonlinearSystem identification",
+        "volume": "56",
+        "author": "Pillonetto",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Automat. Control"
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.physd.2024.134070_b13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevLett.106.154101",
+        "article-title": "Predicting catastrophes in nonlinear dynamical systems by compressive sensing",
+        "volume": "106",
+        "author": "Wang",
+        "year": "2011",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.physd.2024.134070_b14",
+        "doi-asserted-by": "crossref",
+        "first-page": "3932",
+        "DOI": "10.1073/pnas.1517384113",
+        "article-title": "Discovering governing equations from data by sparse identification of nonlinear dynamical systems",
+        "volume": "113",
+        "author": "Brunton",
+        "year": "2016",
+        "journal-title": "Proc. Natl. Acad. Sci."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.physd.2024.134070_b15",
+        "doi-asserted-by": "crossref",
+        "first-page": "4950",
+        "DOI": "10.1038/s41467-018-07210-0",
+        "article-title": "Deep learning for universal linear embeddings of nonlinear dynamics",
+        "volume": "9",
+        "author": "Lusch",
+        "year": "2018",
+        "journal-title": "Nature Commun."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.physd.2024.134070_b16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1016",
+        "DOI": "10.1038/s41467-021-21331-z",
+        "article-title": "Learning dominant physical processes with data-driven balance models",
+        "volume": "12",
+        "author": "Callaham",
+        "year": "2021",
+        "journal-title": "Nature Commun."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.physd.2024.134070_b17",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevE.104.015206",
+        "article-title": "Physics-constrained, low-dimensional models for magnetohydrodynamics: First-principles and data-driven approaches",
+        "volume": "104",
+        "author": "Kaptanoglu",
+        "year": "2021",
+        "journal-title": "Phys. Rev. E"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b18",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/s11071-021-07118-3",
+        "article-title": "Parsimony as the ultimate regularizer for physics-informed machine learning",
+        "author": "Kutz",
+        "year": "2022",
+        "journal-title": "Nonlinear Dynam."
+      },
+      {
+        "issue": "7310",
+        "key": "10.1016/j.physd.2024.134070_b19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1102",
+        "DOI": "10.1038/nature09319",
+        "article-title": "Statistical inference for noisy nonlinear ecological dynamic systems",
+        "volume": "466",
+        "author": "Wood",
+        "year": "2010",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "530",
+        "key": "10.1016/j.physd.2024.134070_b20",
+        "doi-asserted-by": "crossref",
+        "first-page": "866",
+        "DOI": "10.1080/01621459.2019.1592753",
+        "article-title": "Ensemble Kalman methods for high-dimensional hierarchical dynamic space-time models",
+        "volume": "115",
+        "author": "Katzfuss",
+        "year": "2020",
+        "journal-title": "J. Amer. Statist. Assoc."
+      },
+      {
+        "issue": "2217",
+        "key": "10.1016/j.physd.2024.134070_b21",
+        "article-title": "Robust data-driven discovery of governing physical laws with error bars",
+        "volume": "474",
+        "author": "Zhang",
+        "year": "2018",
+        "journal-title": "Proc. R. Soc. Lond. Ser. A Math. Phys. Eng. Sci."
+      },
+      {
+        "issue": "6481",
+        "key": "10.1016/j.physd.2024.134070_b22",
+        "doi-asserted-by": "crossref",
+        "first-page": "1026",
+        "DOI": "10.1126/science.aaw4741",
+        "article-title": "Hidden fluid mechanics: Learning velocity and pressure fields from flow visualizations",
+        "volume": "367",
+        "author": "Raissi",
+        "year": "2020",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b23",
+        "doi-asserted-by": "crossref",
+        "first-page": "483",
+        "DOI": "10.1016/j.jcp.2019.06.056",
+        "article-title": "Deep learning of dynamics and signal-noise decomposition with time-stepping constraints",
+        "volume": "396",
+        "author": "Rudy",
+        "year": "2019",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b24",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.chaos.2022.112866",
+        "article-title": "Sparse dynamical system identification with simultaneous structural parameters and initial condition estimation",
+        "volume": "165",
+        "author": "Wei",
+        "year": "2022",
+        "journal-title": "Chaos Solitons Fractals"
+      },
+      {
+        "issue": "17",
+        "key": "10.1016/j.physd.2024.134070_b25",
+        "doi-asserted-by": "crossref",
+        "first-page": "6634",
+        "DOI": "10.1073/pnas.1302752110",
+        "article-title": "Sparse dynamics for partial differential equations",
+        "volume": "110",
+        "author": "Schaeffer",
+        "year": "2013",
+        "journal-title": "Proc. Natl. Acad. Sci."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.physd.2024.134070_b26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1435",
+        "DOI": "10.1137/18M1194730",
+        "article-title": "Extracting structured dynamical systems using sparse optimization with very few samples",
+        "volume": "18",
+        "author": "Schaeffer",
+        "year": "2020",
+        "journal-title": "Multiscale Model. Simul."
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1090/S0273-0979-01-00923-5",
+        "article-title": "On the mathematical foundations of learning",
+        "volume": "39",
+        "author": "Cucker",
+        "year": "2002",
+        "journal-title": "Bull. Amer. Math. Soc."
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b28",
+        "series-title": "Proc. of ICOSAHOM 2018, International Conference on Spectral and High Order Methods",
+        "article-title": "Greedy kernel methods for center manifold approximation",
+        "author": "Haasdonk",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.physd.2021.133007",
+        "article-title": "Kernel methods for center manifold approximation and a weak data-based version of the center manifold theorems",
+        "author": "Haasdonk",
+        "year": "2021",
+        "journal-title": "Physica D"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b30",
+        "article-title": "Approximation of Lyapunov functions from noisy data",
+        "author": "Giesl",
+        "year": "2019",
+        "journal-title": "J. Comput. Dyn."
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b31",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.physd.2020.132817",
+        "article-title": "Learning dynamical systems from data: A simple cross-validation perspective, part I: Parametric kernel flows",
+        "volume": "421",
+        "author": "Hamzi",
+        "year": "2021",
+        "journal-title": "Physica D"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.physd.2024.134070_b32",
+        "doi-asserted-by": "crossref",
+        "first-page": "674",
+        "DOI": "10.1007/s42452-019-0701-3",
+        "article-title": "Kernel methods for the approximation of discrete-time linear autonomous and control systems",
+        "volume": "1",
+        "author": "Hamzi",
+        "year": "2019",
+        "journal-title": "SN Appl. Sci."
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b33",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/e22070722",
+        "article-title": "Kernel-based approximation of the koopman generator and Schrödinger operator",
+        "volume": "22",
+        "author": "Klus",
+        "year": "2020",
+        "journal-title": "Entropy"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b34",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.physd.2020.132416",
+        "article-title": "Data-driven approximation of the koopman generator: Model reduction, system identification, and control",
+        "volume": "406",
+        "author": "Klus",
+        "year": "2020",
+        "journal-title": "Physica D"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b35",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.physd.2020.132520",
+        "article-title": "Operator-theoretic framework for forecasting nonlinear time series with kernel analog techniques",
+        "volume": "409",
+        "author": "Alexander",
+        "year": "2020",
+        "journal-title": "Physica D"
+      },
+      {
+        "year": "2019",
+        "series-title": "Dimensionality reduction of complex metastable systems via kernel embeddings of transition manifold",
+        "author": "Bittracher",
+        "key": "10.1016/j.physd.2024.134070_b36"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b37",
+        "series-title": "Proc. of the 2012 American Control Conference",
+        "first-page": "294",
+        "article-title": "Empirical estimators for stochastically forced nonlinear systems: Observability, controllability and the invariant measure",
+        "author": "Bouvrie",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b38",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1137/14096815X",
+        "article-title": "Kernel methods for the approximation of nonlinear systems",
+        "author": "Bouvrie",
+        "year": "2017",
+        "journal-title": "SIAM J. Control Optim."
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b39",
+        "article-title": "Kernel methods for the approximation of some key quantities of nonlinear systems",
+        "volume": "1",
+        "author": "Bouvrie",
+        "year": "2017",
+        "journal-title": "J. Comput. Dyn."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.physd.2024.134070_b40",
+        "doi-asserted-by": "crossref",
+        "first-page": "907",
+        "DOI": "10.1002/mma.5394",
+        "article-title": "A note on kernel methods for multiscale systems with critical transitions",
+        "volume": "42",
+        "author": "Hamzi",
+        "year": "2019",
+        "journal-title": "Math. Methods Appl. Sci."
+      },
+      {
+        "year": "2019",
+        "series-title": "Kernel methods for surrogate modeling",
+        "author": "Santin",
+        "key": "10.1016/j.physd.2024.134070_b41"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b42",
+        "doi-asserted-by": "crossref",
+        "first-page": "22",
+        "DOI": "10.1016/j.jcp.2019.03.040",
+        "article-title": "Kernel flows: From learning kernels from data into the abyss",
+        "volume": "389",
+        "author": "Owhadi",
+        "year": "2019",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "year": "2023",
+        "series-title": "A note on learning kernels from data from an algorithmic information theoretic point of view",
+        "author": "Hamzi",
+        "key": "10.1016/j.physd.2024.134070_b43"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b44",
+        "unstructured": "L. Yang, B. Hamzi, Y. Kevrekidis, H. Owhadi, X. Sun, N. Xie, Learning dynamical systems from data: A simple cross-validation perspective, part VI: Hausdorff metric based training of kernels to learn attractors with application to 133 chaotic dynamical systems. URL: https://www.researchgate.net/publication/372290255_Learning_Dynamical_Systems_from_Data_A_Simple_Cross-Validation_Perspective_Part_VI_Hausdorff_metric_based_training_of_kernels_to_learn_attractors_with_application_to_133_chaotic_dynamical_systems."
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b45",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.physd.2020.132817",
+        "article-title": "Learning dynamical systems from data: A simple cross-validation perspective, part I: Parametric kernel flows",
+        "volume": "421",
+        "author": "Hamzi",
+        "year": "2021",
+        "journal-title": "Physica D"
+      },
+      {
+        "year": "2021",
+        "series-title": "Learning dynamical systems from data: A simple cross-validation perspective, part III: Irregularly-sampled time series",
+        "author": "Lee",
+        "key": "10.1016/j.physd.2024.134070_b46"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b47",
+        "article-title": "Learning dynamical systems from data: a simple cross-validation perspective, part II: nonparametric kernel flows",
+        "volume": "444",
+        "author": "Darcy",
+        "year": "2023",
+        "journal-title": "Physica D"
+      },
+      {
+        "year": "2023",
+        "series-title": "Learning dynamical systems from data: A simple cross-validation perspective, part IV: case with partial observations",
+        "author": "Hamzi",
+        "key": "10.1016/j.physd.2024.134070_b48"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b49",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.physd.2021.132952",
+        "article-title": "Deep regularization and direct training of the inner layers of neural networks with kernel flows",
+        "volume": "426",
+        "author": "Yoo",
+        "year": "2021",
+        "journal-title": "Physica D"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b50",
+        "first-page": "18",
+        "article-title": "Simple, low-cost and accurate data-driven geophysical forecasting with learned kernels",
+        "author": "Hamzi",
+        "year": "2022",
+        "journal-title": "Proc. R. Soc. Lond. Ser. A Math. Phys. Eng. Sci."
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b51",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jcp.2021.110668",
+        "article-title": "Solving and learning nonlinear PDEs with Gaussian processes",
+        "volume": "447",
+        "author": "Chen",
+        "year": "2021",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "year": "2021",
+        "series-title": "Computational graph completion",
+        "author": "Owhadi",
+        "key": "10.1016/j.physd.2024.134070_b52"
+      },
+      {
+        "year": "2021",
+        "series-title": "Chaos as an interpretable benchmark for forecasting and data-driven modelling",
+        "author": "Gilpin",
+        "key": "10.1016/j.physd.2024.134070_b53"
+      },
+      {
+        "issue": "2260",
+        "key": "10.1016/j.physd.2024.134070_b54",
+        "article-title": "Kernel learning for robust dynamic mode decomposition: Linear and nonlinear disambiguation optimization",
+        "volume": "478",
+        "author": "Baddoo",
+        "year": "2022",
+        "journal-title": "Proc. R. Soc. Lond. Ser. A Math. Phys. Eng. Sci."
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b55",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jcp.2022.111595",
+        "article-title": "Learning “best” kernels from data in Gaussian process regression. With application to aerodynamics",
+        "volume": "470",
+        "author": "Akian",
+        "year": "2022",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b56",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.physd.2022.133546",
+        "article-title": "Learning dynamical systems from data: A simple cross-validation perspective, part III: Irregularly-sampled time series",
+        "volume": "443",
+        "author": "Lee",
+        "year": "2023",
+        "journal-title": "Physica D"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.physd.2024.134070_b57",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1111/j.2517-6161.1996.tb02080.x",
+        "article-title": "Regression shrinkage and selection via the lasso",
+        "volume": "58",
+        "author": "Tibshirani",
+        "year": "1996",
+        "journal-title": "J. R. Stat. Soc. Ser. B Stat. Methodol."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.physd.2024.134070_b58",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1063/1.4993854",
+        "article-title": "Extended dynamic mode decomposition with dictionary learning: A data-driven adaptive spectral decomposition of the Koopman operator",
+        "volume": "27",
+        "author": "Li",
+        "year": "2017",
+        "journal-title": "Chaos"
+      },
+      {
+        "key": "10.1016/j.physd.2024.134070_b59",
+        "series-title": "Neural Networks: Tricks of the Trade: Second Edition",
+        "first-page": "421",
+        "article-title": "Stochastic gradient descent tricks",
+        "author": "Bottou",
+        "year": "2012"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.physd.2024.134070_b60",
+        "doi-asserted-by": "crossref",
+        "first-page": "736",
+        "DOI": "10.1016/j.ijforecast.2015.11.017",
+        "article-title": "Nonlinear forecasting with many predictors using kernel ridge regression",
+        "volume": "32",
+        "author": "Exterkate",
+        "year": "2016",
+        "journal-title": "Int. J. Forecast."
+      },
+      {
+        "year": "2020",
+        "series-title": "Kernel mode decomposition and programmable/interpretable regression networks",
+        "author": "Owhadi",
+        "key": "10.1016/j.physd.2024.134070_b61"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.physd.2024.134070_b62",
+        "doi-asserted-by": "crossref",
+        "first-page": "197",
+        "DOI": "10.1080/10485252.2017.1404598",
+        "article-title": "Multiple predicting K-fold cross-validation for model selection",
+        "volume": "30",
+        "author": "Jung",
+        "year": "2018",
+        "journal-title": "J. Nonparametr. Stat."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.physd.2024.134070_b63",
+        "doi-asserted-by": "crossref",
+        "first-page": "337",
+        "DOI": "10.1090/S0002-9947-1950-0051437-7",
+        "article-title": "Theory of reproducing kernels",
+        "volume": "68",
+        "author": "Aronszajn",
+        "year": "1950",
+        "journal-title": "Trans. Amer. Math. Soc."
+      }
+    ],
+    "container-title": [
+      "Physica D: Nonlinear Phenomena"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0167278924000216?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0167278924000216?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          28
+        ]
+      ],
+      "date-time": "2025-09-28T18:10:50Z",
+      "timestamp": 1759083050000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0167278924000216"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "references-count": 63,
+    "alternative-id": [
+      "S0167278924000216"
+    ],
+    "URL": "https://doi.org/10.1016/j.physd.2024.134070",
+    "relation": {},
+    "ISSN": [
+      "0167-2789"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0167-2789"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Learning dynamical systems from data: A simple cross-validation perspective, Part V: Sparse Kernel Flows for 132 chaotic dynamical systems",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Physica D: Nonlinear Phenomena",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.physd.2024.134070",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 Elsevier B.V. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "134070"
+  }
+}

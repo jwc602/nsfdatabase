@@ -1,0 +1,2074 @@
+{
+  "doi": "10.1016/j.ijheatfluidflow.2023.109140",
+  "openalex": {
+    "id": "https://openalex.org/W4366762595",
+    "doi": "https://doi.org/10.1016/j.ijheatfluidflow.2023.109140",
+    "title": "A coupled framework for symbolic turbulence models from deep-learning",
+    "display_name": "A coupled framework for symbolic turbulence models from deep-learning",
+    "publication_year": 2023,
+    "publication_date": "2023-04-22",
+    "ids": {
+      "openalex": "https://openalex.org/W4366762595",
+      "doi": "https://doi.org/10.1016/j.ijheatfluidflow.2023.109140"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.ijheatfluidflow.2023.109140",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.ijheatfluidflow.2023.109140",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S40322869",
+        "display_name": "International Journal of Heat and Fluid Flow",
+        "issn_l": "0142-727X",
+        "issn": [
+          "0142-727X",
+          "1879-2278"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Journal of Heat and Fluid Flow",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1016/j.ijheatfluidflow.2023.109140",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5051919799",
+          "display_name": "Chitrarth Lav",
+          "orcid": "https://orcid.org/0000-0003-2524-8881"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165779595",
+            "display_name": "University of Melbourne",
+            "ror": "https://ror.org/01ej9dk98",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165779595"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Chitrarth Lav",
+        "raw_affiliation_strings": [
+          "CFD Methodology Group, Scuderia AlphaTauri F1, United Kingdom",
+          "Department of Mechanical Engineering, University of Melbourne, Australia"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "CFD Methodology Group, Scuderia AlphaTauri F1, United Kingdom",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering, University of Melbourne, Australia",
+            "institution_ids": [
+              "https://openalex.org/I165779595"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003664257",
+          "display_name": "Andrew Banko",
+          "orcid": "https://orcid.org/0000-0001-7150-137X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I192545095",
+            "display_name": "United States Military Academy",
+            "ror": "https://ror.org/01jepya76",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I1304082316",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I192545095",
+              "https://openalex.org/I4210088792"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Andrew J. Banko",
+        "raw_affiliation_strings": [
+          "United States Military Academy, Westpoint, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "United States Military Academy, Westpoint, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I192545095"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5089615888",
+          "display_name": "Fabian Waschkowski",
+          "orcid": "https://orcid.org/0000-0001-5427-9551"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165779595",
+            "display_name": "University of Melbourne",
+            "ror": "https://ror.org/01ej9dk98",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165779595"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Fabian Waschkowski",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering, University of Melbourne, Australia"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering, University of Melbourne, Australia",
+            "institution_ids": [
+              "https://openalex.org/I165779595"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5085224622",
+          "display_name": "Yaomin Zhao",
+          "orcid": "https://orcid.org/0000-0002-9597-5761"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I20231570",
+            "display_name": "Peking University",
+            "ror": "https://ror.org/02v51f717",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I20231570"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yaomin Zhao",
+        "raw_affiliation_strings": [
+          "HEDPS, Center for Applied Physics and Technology, and College of Engineering, Peking University, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "HEDPS, Center for Applied Physics and Technology, and College of Engineering, Peking University, China",
+            "institution_ids": [
+              "https://openalex.org/I20231570"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5087512336",
+          "display_name": "Christopher J. Elkins",
+          "orcid": "https://orcid.org/0000-0002-2750-022X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Christopher J. Elkins",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering, Stanford University, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering, Stanford University, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5037668397",
+          "display_name": "John K. Eaton",
+          "orcid": "https://orcid.org/0000-0001-9615-5901"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "John K. Eaton",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering, Stanford University, United States of America"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering, Stanford University, United States of America",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5021829090",
+          "display_name": "Richard D. Sandberg",
+          "orcid": "https://orcid.org/0000-0001-5199-3944"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165779595",
+            "display_name": "University of Melbourne",
+            "ror": "https://ror.org/01ej9dk98",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165779595"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Richard D. Sandberg",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering, University of Melbourne, Australia"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering, University of Melbourne, Australia",
+            "institution_ids": [
+              "https://openalex.org/I165779595"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 7,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5051919799"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I165779595"
+    ],
+    "apc_list": {
+      "value": 3190,
+      "currency": "USD",
+      "value_usd": 3190
+    },
+    "apc_paid": {
+      "value": 3190,
+      "currency": "USD",
+      "value_usd": 3190
+    },
+    "fwci": 4.36808436,
+    "has_fulltext": false,
+    "cited_by_count": 13,
+    "citation_normalized_percentile": {
+      "value": 0.90888456,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "101",
+      "issue": null,
+      "first_page": "109140",
+      "last_page": "109140"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10360",
+      "display_name": "Fluid Dynamics and Turbulent Flows",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10360",
+        "display_name": "Fluid Dynamics and Turbulent Flows",
+        "score": 0.9993000030517578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11206",
+        "display_name": "Model Reduction and Neural Networks",
+        "score": 0.9986000061035156,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11254",
+        "display_name": "Fluid Dynamics and Vibration Analysis",
+        "score": 0.9950000047683716,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/interpretability",
+        "display_name": "Interpretability",
+        "score": 0.7884654998779297
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6483269929885864
+      },
+      {
+        "id": "https://openalex.org/keywords/fidelity",
+        "display_name": "Fidelity",
+        "score": 0.6285861730575562
+      },
+      {
+        "id": "https://openalex.org/keywords/symbolic-regression",
+        "display_name": "Symbolic regression",
+        "score": 0.619985044002533
+      },
+      {
+        "id": "https://openalex.org/keywords/a-priori-and-a-posteriori",
+        "display_name": "A priori and a posteriori",
+        "score": 0.5888658165931702
+      },
+      {
+        "id": "https://openalex.org/keywords/reynolds-stress",
+        "display_name": "Reynolds stress",
+        "score": 0.5411455035209656
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-neural-network",
+        "display_name": "Artificial neural network",
+        "score": 0.5241178274154663
+      },
+      {
+        "id": "https://openalex.org/keywords/gene-expression-programming",
+        "display_name": "Gene expression programming",
+        "score": 0.5231272578239441
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.5196601152420044
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.498354434967041
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.39202582836151123
+      },
+      {
+        "id": "https://openalex.org/keywords/turbulence",
+        "display_name": "Turbulence",
+        "score": 0.3113841414451599
+      },
+      {
+        "id": "https://openalex.org/keywords/genetic-programming",
+        "display_name": "Genetic programming",
+        "score": 0.2575552761554718
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2781067378",
+        "wikidata": "https://www.wikidata.org/wiki/Q17027399",
+        "display_name": "Interpretability",
+        "level": 2,
+        "score": 0.7884654998779297
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6483269929885864
+      },
+      {
+        "id": "https://openalex.org/C2776459999",
+        "wikidata": "https://www.wikidata.org/wiki/Q2119376",
+        "display_name": "Fidelity",
+        "level": 2,
+        "score": 0.6285861730575562
+      },
+      {
+        "id": "https://openalex.org/C2776400721",
+        "wikidata": "https://www.wikidata.org/wiki/Q18171762",
+        "display_name": "Symbolic regression",
+        "level": 3,
+        "score": 0.619985044002533
+      },
+      {
+        "id": "https://openalex.org/C75553542",
+        "wikidata": "https://www.wikidata.org/wiki/Q178161",
+        "display_name": "A priori and a posteriori",
+        "level": 2,
+        "score": 0.5888658165931702
+      },
+      {
+        "id": "https://openalex.org/C147196274",
+        "wikidata": "https://www.wikidata.org/wiki/Q7319685",
+        "display_name": "Reynolds stress",
+        "level": 3,
+        "score": 0.5411455035209656
+      },
+      {
+        "id": "https://openalex.org/C50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "level": 2,
+        "score": 0.5241178274154663
+      },
+      {
+        "id": "https://openalex.org/C6980683",
+        "wikidata": "https://www.wikidata.org/wiki/Q5531551",
+        "display_name": "Gene expression programming",
+        "level": 2,
+        "score": 0.5231272578239441
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5196601152420044
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.498354434967041
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.39202582836151123
+      },
+      {
+        "id": "https://openalex.org/C196558001",
+        "wikidata": "https://www.wikidata.org/wiki/Q190132",
+        "display_name": "Turbulence",
+        "level": 2,
+        "score": 0.3113841414451599
+      },
+      {
+        "id": "https://openalex.org/C110332635",
+        "wikidata": "https://www.wikidata.org/wiki/Q629498",
+        "display_name": "Genetic programming",
+        "level": 2,
+        "score": 0.2575552761554718
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C97355855",
+        "wikidata": "https://www.wikidata.org/wiki/Q11473",
+        "display_name": "Thermodynamics",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.ijheatfluidflow.2023.109140",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.ijheatfluidflow.2023.109140",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S40322869",
+          "display_name": "International Journal of Heat and Fluid Flow",
+          "issn_l": "0142-727X",
+          "issn": [
+            "0142-727X",
+            "1879-2278"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Heat and Fluid Flow",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1016/j.ijheatfluidflow.2023.109140",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.ijheatfluidflow.2023.109140",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S40322869",
+        "display_name": "International Journal of Heat and Fluid Flow",
+        "issn_l": "0142-727X",
+        "issn": [
+          "0142-727X",
+          "1879-2278"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Journal of Heat and Fluid Flow",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G6272819000",
+        "display_name": null,
+        "funder_award_id": "N000141912075",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320334704",
+        "display_name": "Australian Research Council",
+        "ror": "https://ror.org/05mmh0f86"
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 50,
+    "referenced_works": [
+      "https://openalex.org/W6754051867",
+      "https://openalex.org/W3155710335",
+      "https://openalex.org/W1990456272",
+      "https://openalex.org/W1985234451",
+      "https://openalex.org/W1571139409",
+      "https://openalex.org/W4220717841",
+      "https://openalex.org/W6772252848",
+      "https://openalex.org/W1994699921",
+      "https://openalex.org/W6780561946",
+      "https://openalex.org/W2969665376",
+      "https://openalex.org/W6750470182",
+      "https://openalex.org/W2569396193",
+      "https://openalex.org/W2008639417",
+      "https://openalex.org/W6797765570",
+      "https://openalex.org/W3012045275",
+      "https://openalex.org/W3082465854",
+      "https://openalex.org/W6769874168",
+      "https://openalex.org/W2911525369",
+      "https://openalex.org/W2534240011",
+      "https://openalex.org/W2908791737",
+      "https://openalex.org/W6766600521",
+      "https://openalex.org/W4239156627",
+      "https://openalex.org/W2110418811",
+      "https://openalex.org/W2997302418",
+      "https://openalex.org/W2889522259",
+      "https://openalex.org/W2995408993",
+      "https://openalex.org/W6636831568",
+      "https://openalex.org/W3016166171",
+      "https://openalex.org/W2335524910",
+      "https://openalex.org/W2030670821",
+      "https://openalex.org/W2594632285",
+      "https://openalex.org/W6795057052",
+      "https://openalex.org/W2515586274",
+      "https://openalex.org/W2766872946",
+      "https://openalex.org/W6771267141",
+      "https://openalex.org/W4298000118",
+      "https://openalex.org/W3013108861",
+      "https://openalex.org/W2525093158",
+      "https://openalex.org/W3105469151",
+      "https://openalex.org/W3105648287",
+      "https://openalex.org/W3048444177",
+      "https://openalex.org/W3105370818",
+      "https://openalex.org/W2968952502",
+      "https://openalex.org/W2994070579",
+      "https://openalex.org/W2997656901",
+      "https://openalex.org/W3036548566",
+      "https://openalex.org/W851405176",
+      "https://openalex.org/W3160326792",
+      "https://openalex.org/W3176786901",
+      "https://openalex.org/W2795982117"
+    ],
+    "related_works": [
+      "https://openalex.org/W2126117263",
+      "https://openalex.org/W2046524609",
+      "https://openalex.org/W1971409410",
+      "https://openalex.org/W1970505246",
+      "https://openalex.org/W2904685404",
+      "https://openalex.org/W3091474480",
+      "https://openalex.org/W4286469215",
+      "https://openalex.org/W3018311371",
+      "https://openalex.org/W2009392275",
+      "https://openalex.org/W2366725522"
+    ],
+    "abstract_inverted_index": {
+      "Improvements": [
+        0
+      ],
+      "in": [
+        1,
+        4,
+        61,
+        92,
+        232
+      ],
+      "turbulence": [
+        2
+      ],
+      "modelling": [
+        3
+      ],
+      "the": [
+        5,
+        42,
+        56,
+        64,
+        102,
+        136,
+        161,
+        183,
+        188,
+        198,
+        202,
+        208,
+        222,
+        259
+      ],
+      "recent": [
+        6
+      ],
+      "years": [
+        7
+      ],
+      "has": [
+        8
+      ],
+      "seen": [
+        9
+      ],
+      "an": [
+        10,
+        89
+      ],
+      "increasing": [
+        11
+      ],
+      "prominence": [
+        12
+      ],
+      "of": [
+        13,
+        41,
+        68,
+        86,
+        115,
+        118,
+        187,
+        200,
+        210,
+        240
+      ],
+      "various": [
+        14
+      ],
+      "machine-learning": [
+        15
+      ],
+      "algorithms.": [
+        16
+      ],
+      "In": [
+        17
+      ],
+      "this": [
+        18
+      ],
+      "work,": [
+        19
+      ],
+      "two": [
+        20
+      ],
+      "different": [
+        21,
+        116,
+        169
+      ],
+      "algorithms:": [
+        22
+      ],
+      "tensor": [
+        23
+      ],
+      "basis": [
+        24
+      ],
+      "neural": [
+        25,
+        71,
+        235
+      ],
+      "networks": [
+        26,
+        72,
+        236
+      ],
+      "(TBNNs)": [
+        27
+      ],
+      "and": [
+        28,
+        108,
+        130
+      ],
+      "gene-expression": [
+        29
+      ],
+      "programming": [
+        30
+      ],
+      "(GEP),": [
+        31
+      ],
+      "are": [
+        32,
+        49
+      ],
+      "combined": [
+        33
+      ],
+      "to": [
+        34,
+        51,
+        63,
+        77,
+        100,
+        150,
+        193,
+        249
+      ],
+      "extract": [
+        35,
+        250
+      ],
+      "interpretable": [
+        36
+      ],
+      "Reynolds": [
+        37,
+        44,
+        79
+      ],
+      "stress": [
+        38,
+        57
+      ],
+      "closures.": [
+        39,
+        58,
+        196
+      ],
+      "Representations": [
+        40
+      ],
+      "high-fidelity": [
+        43,
+        82,
+        157,
+        162,
+        184,
+        262
+      ],
+      "stress,": [
+        45
+      ],
+      "obtained": [
+        46
+      ],
+      "from": [
+        47,
+        81,
+        97,
+        112,
+        156,
+        174
+      ],
+      "deep-learning,": [
+        48
+      ],
+      "used": [
+        50,
+        192,
+        248
+      ],
+      "learn": [
+        52
+      ],
+      "symbolic": [
+        53,
+        74,
+        94,
+        121,
+        251
+      ],
+      "expressions": [
+        54,
+        95
+      ],
+      "for": [
+        55,
+        207,
+        221,
+        264
+      ],
+      "This": [
+        59
+      ],
+      "is": [
+        60,
+        230
+      ],
+      "contrast": [
+        62
+      ],
+      "previously": [
+        65
+      ],
+      "developed": [
+        66,
+        138,
+        152,
+        173
+      ],
+      "approaches": [
+        67
+      ],
+      "using": [
+        69
+      ],
+      "either": [
+        70
+      ],
+      "or": [
+        73
+      ],
+      "regression": [
+        75,
+        122
+      ],
+      "algorithms": [
+        76,
+        123
+      ],
+      "close": [
+        78
+      ],
+      "stresses": [
+        80
+      ],
+      "data.": [
+        83,
+        158
+      ],
+      "The": [
+        84,
+        127
+      ],
+      "involvement": [
+        85
+      ],
+      "TBNNs": [
+        87
+      ],
+      "as": [
+        88,
+        213,
+        215
+      ],
+      "intermediate": [
+        90
+      ],
+      "step": [
+        91
+      ],
+      "developing": [
+        93
+      ],
+      "stems": [
+        96
+      ],
+      "their": [
+        98
+      ],
+      "ability": [
+        99
+      ],
+      "maintain": [
+        101
+      ],
+      "complex": [
+        103,
+        234
+      ],
+      "relationships": [
+        104
+      ],
+      "between": [
+        105
+      ],
+      "input": [
+        106
+      ],
+      "features": [
+        107
+      ],
+      "output": [
+        109
+      ],
+      "fields": [
+        110
+      ],
+      "resulting": [
+        111
+      ],
+      "multiple": [
+        113,
+        165,
+        189
+      ],
+      "datasets": [
+        114
+      ],
+      "types": [
+        117
+      ],
+      "flows,": [
+        119
+      ],
+      "which": [
+        120,
+        217,
+        244
+      ],
+      "currently": [
+        124
+      ],
+      "struggle": [
+        125
+      ],
+      "with.": [
+        126
+      ],
+      "a": [
+        128,
+        131,
+        238,
+        254
+      ],
+      "priori": [
+        129
+      ],
+      "posteriori": [
+        132
+      ],
+      "results": [
+        133,
+        146,
+        226
+      ],
+      "show": [
+        134
+      ],
+      "that": [
+        135,
+        228
+      ],
+      "closures": [
+        137,
+        151,
+        172,
+        203,
+        252
+      ],
+      "by": [
+        139
+      ],
+      "informing": [
+        140
+      ],
+      "GEP": [
+        141,
+        154,
+        171,
+        195
+      ],
+      "with": [
+        142,
+        147,
+        153,
+        167
+      ],
+      "TBNN": [
+        143,
+        175
+      ],
+      "predictions": [
+        144,
+        176
+      ],
+      "produce": [
+        145
+      ],
+      "similar": [
+        148
+      ],
+      "accuracy": [
+        149,
+        180
+      ],
+      "purely": [
+        155
+      ],
+      "Additionally,": [
+        159
+      ],
+      "if": [
+        160,
+        182
+      ],
+      "database": [
+        163,
+        185
+      ],
+      "contains": [
+        164
+      ],
+      "flows": [
+        166
+      ],
+      "uniquely": [
+        168
+      ],
+      "features,": [
+        170
+      ],
+      "yield": [
+        177
+      ],
+      "better": [
+        178
+      ],
+      "prediction": [
+        179
+      ],
+      "than": [
+        181
+      ],
+      "(comprising": [
+        186
+      ],
+      "flows)": [
+        190
+      ],
+      "was": [
+        191
+      ],
+      "train": [
+        194
+      ],
+      "On": [
+        197
+      ],
+      "point": [
+        199
+      ],
+      "interpretability,": [
+        201
+      ],
+      "were": [
+        204,
+        219
+      ],
+      "also": [
+        205
+      ],
+      "examined": [
+        206
+      ],
+      "purposes": [
+        209
+      ],
+      "complexity": [
+        211
+      ],
+      "reduction": [
+        212
+      ],
+      "well": [
+        214
+      ],
+      "understanding": [
+        216
+      ],
+      "terms": [
+        218
+      ],
+      "responsible": [
+        220
+      ],
+      "improvements": [
+        223
+      ],
+      "seen.": [
+        224
+      ],
+      "These": [
+        225
+      ],
+      "indicate": [
+        227
+      ],
+      "there": [
+        229
+      ],
+      "promise": [
+        231
+      ],
+      "building": [
+        233
+      ],
+      "comprising": [
+        237
+      ],
+      "catalogue": [
+        239
+      ],
+      "wide-ranging": [
+        241
+      ],
+      "flow": [
+        242
+      ],
+      "types,": [
+        243
+      ],
+      "can": [
+        245
+      ],
+      "then": [
+        246
+      ],
+      "be": [
+        247
+      ],
+      "on": [
+        253,
+        261
+      ],
+      "case-by-case": [
+        255
+      ],
+      "basis,": [
+        256
+      ],
+      "thereby": [
+        257
+      ],
+      "reducing": [
+        258
+      ],
+      "dependency": [
+        260
+      ],
+      "data": [
+        263
+      ],
+      "closure": [
+        265
+      ],
+      "modelling.": [
+        266
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 7
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          19
+        ]
+      ],
+      "date-time": "2026-01-19T14:45:54Z",
+      "timestamp": 1768833954896,
+      "version": "3.49.0"
+    },
+    "reference-count": 41,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2023-06-01T00:00:00Z",
+          "timestamp": 1685577600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2023-06-01T00:00:00Z",
+          "timestamp": 1685577600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              13
+            ]
+          ],
+          "date-time": "2023-04-13T00:00:00Z",
+          "timestamp": 1681344000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N000141912075"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N000141912075"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000923",
+        "name": "Australian Research Council",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000923",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "International Journal of Heat and Fluid Flow"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.ijheatfluidflow.2023.109140",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          22
+        ]
+      ],
+      "date-time": "2023-04-22T03:52:29Z",
+      "timestamp": 1682135549000
+    },
+    "page": "109140",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "special_numbering": "C",
+    "title": [
+      "A coupled framework for symbolic turbulence models from deep-learning"
+    ],
+    "prefix": "10.1016",
+    "volume": "101",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-2524-8881",
+        "authenticated-orcid": false,
+        "given": "Chitrarth",
+        "family": "Lav",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew J.",
+        "family": "Banko",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Fabian",
+        "family": "Waschkowski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yaomin",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christopher J.",
+        "family": "Elkins",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "John K.",
+        "family": "Eaton",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard D.",
+        "family": "Sandberg",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b1",
+        "series-title": "ASME Turbo Expo 2018: Turbomachinery Technical Conference and Exposition",
+        "first-page": "1",
+        "article-title": "Development and use of machine-learnt algebraic reynolds stress models for enhanced prediction of wake mixing in LPTS",
+        "author": "Akolekar",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jcp.2022.111037",
+        "article-title": "CFD-driven symbolic identification of algebraic Reynolds-stress models",
+        "volume": "457",
+        "author": "Ben Hassan Saïdi",
+        "year": "2022",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.2514/1.18034",
+        "article-title": "Gas turbine film cooling",
+        "volume": "22",
+        "author": "Bogard",
+        "year": "2006",
+        "journal-title": "J. Propuls. Power"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b4",
+        "doi-asserted-by": "crossref",
+        "first-page": "2397",
+        "DOI": "10.2514/1.J050429",
+        "article-title": "Surface-pressure fluctuations from separated flow over an axisymmetric bump",
+        "volume": "48",
+        "author": "Byun",
+        "year": "2010",
+        "journal-title": "AIAA J."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b5",
+        "doi-asserted-by": "crossref",
+        "first-page": "269",
+        "DOI": "10.1023/A:1009958917113",
+        "article-title": "Approximate wall boundary conditions in the large-eddy simulation of high Reynolds number flow",
+        "volume": "63",
+        "author": "Cabot",
+        "year": "2000",
+        "journal-title": "Flow Turbul. Combust."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1727",
+        "DOI": "10.1007/s10409-021-01148-1",
+        "article-title": "Physics-informed neural networks (PINNs) for fluid mechanics: a review",
+        "volume": "37",
+        "author": "Cai",
+        "year": "2021",
+        "journal-title": "Acta Mech. Sin."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b7",
+        "first-page": "1",
+        "article-title": "Large-eddy simulation study of unsteady wake dynamics and geometric sensitivity on a skewed bump",
+        "volume": "885",
+        "author": "Ching",
+        "year": "2019",
+        "journal-title": "J. Fluid Mech."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b8",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1016/j.ijheatfluidflow.2013.06.001",
+        "article-title": "Turbulent transport in an inclined jet in crossflow",
+        "volume": "43",
+        "author": "Coletti",
+        "year": "2013",
+        "journal-title": "Int. J. Heat Fluid Flow"
+      },
+      {
+        "issue": "NeurIPS",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b9",
+        "first-page": "1",
+        "article-title": "Discovering symbolic models from deep learning with inductive biases",
+        "volume": "2020-Decem",
+        "author": "Cranmer",
+        "year": "2020",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compfluid.2019.104258",
+        "article-title": "The use of the Reynolds force vector in a physics informed machine learning approach for predictive turbulence modeling",
+        "volume": "192",
+        "author": "Cruz",
+        "year": "2019",
+        "journal-title": "Comput. & Fluids"
+      },
+      {
+        "issue": "April",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b11",
+        "first-page": "1",
+        "article-title": "Turbulence modeling in the age of data",
+        "author": "Duraisamy",
+        "year": "2018",
+        "journal-title": "Annu. Rev. Fluid Mech."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b12",
+        "unstructured": "Duraisamy, Karthik, Singh, Anand Pratap, Pan, Shaowu, 2017. Augmentation of turbulence models using field inversion and machine learning. In: AIAA SciTech Forum - 55th AIAA Aerospace Sciences Meeting, No. January. ISBN: 9781624104473, pp. 1–18."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "655",
+        "DOI": "10.1016/S0376-0421(00)00012-9",
+        "article-title": "Nonlinear eddy viscosity and algebraic stress models for solving complex turbulent flows",
+        "volume": "36",
+        "author": "Gatski",
+        "year": "2000",
+        "journal-title": "Prog. Aerosp. Sci."
+      },
+      {
+        "issue": "June",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b14",
+        "article-title": "Velocity and concentration field measurements and large eddy simulation of a shaped film cooling hole",
+        "volume": "90",
+        "author": "Gunady",
+        "year": "2021",
+        "journal-title": "Int. J. Heat Fluid Flow"
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b15",
+        "unstructured": "Haghiri, Ali, Lav, Chitrarth, Sandberg, Richard D., 2020. Data-driven turbulence modelling for improved prediction of ship airwakes. In: 33rd Symposium on Naval Hydrodynamics. Osaka, pp. 1–17."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b16",
+        "series-title": "Annual Research Briefs",
+        "article-title": "An efficient scheme for large eddy simulation of Low-Ma combustion in complex configurations",
+        "author": "Ham",
+        "year": "2007"
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b17",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.compfluid.2020.104497",
+        "article-title": "Data-driven modelling of the Reynolds stress tensor using random forests with invariance",
+        "volume": "202",
+        "author": "Kaandorp",
+        "year": "2020",
+        "journal-title": "Comput. & Fluids"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b18",
+        "doi-asserted-by": "crossref",
+        "first-page": "4166",
+        "DOI": "10.1109/TNNLS.2020.3017010",
+        "article-title": "Integration of neural network-based symbolic regression in deep learning for scientific discovery",
+        "volume": "32",
+        "author": "Kim",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b19",
+        "series-title": "ASME Turbo Expo 2019: GT2019-90179, Vol. 2A-2019",
+        "first-page": "1",
+        "article-title": "A new data-driven turbulence model framework for unsteady flows applied to wall-jet and wall-wake flows",
+        "author": "Lav",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b20",
+        "unstructured": "Lav, Chitrarth, Sandberg, Richard D., 2022. CFD-driven machine-learning using sparse experimental data of smooth-wall turbulent boundary layers under pressure gradients. In: 34th Symposium on Naval Hydrodynamics. Washington, D.C., ISBN: 6183446734, pp. 1–13."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b21",
+        "doi-asserted-by": "crossref",
+        "first-page": "148",
+        "DOI": "10.1016/j.jcp.2019.01.022",
+        "article-title": "A framework to develop data-driven turbulence models for flows with organised unsteadiness",
+        "volume": "383",
+        "author": "Lav",
+        "year": "2019",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b22",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.1017/jfm.2016.615",
+        "article-title": "Reynolds averaged turbulence modelling using deep neural networks with embedded invariance",
+        "volume": "807",
+        "author": "Ling",
+        "year": "2016",
+        "journal-title": "J. Fluid Mech."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b23",
+        "unstructured": "Mao, Jiayuan, Gan, Chuang, Kohli, Pushmeet, Tenenbaum, Joshua B., Wu, Jiajun, 2019. The neuro-symbolic concept learner: Interpreting scenes, words, and sentences from natural supervision. In: 7th International Conference on Learning Representations. ICLR 2019, pp. 1–28."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b24",
+        "first-page": "625",
+        "article-title": "Ten years of industrial experience with the SST turbulence model",
+        "volume": "4",
+        "author": "Menter",
+        "year": "2003",
+        "journal-title": "Turbul. Heat Mass Transf."
+      },
+      {
+        "issue": "September",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b25",
+        "article-title": "Enriching MRI mean flow data of inclined jets in crossflow with large eddy simulations",
+        "volume": "80",
+        "author": "Milani",
+        "year": "2019",
+        "journal-title": "Int. J. Heat Fluid Flow"
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b26",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1115/1.4041291",
+        "article-title": "Physical interpretation of machine learning models applied to film cooling flows",
+        "volume": "141",
+        "author": "Milani",
+        "year": "2019",
+        "journal-title": "J. Turbomach."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b27",
+        "doi-asserted-by": "crossref",
+        "first-page": "758",
+        "DOI": "10.1016/j.jcp.2015.11.012",
+        "article-title": "A paradigm for data-driven predictive modeling using field inversion and machine learning",
+        "volume": "305",
+        "author": "Parish",
+        "year": "2016",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Parmar, Basu, Peters, Eric, Jansen, Kenneth E., Doostan, Alireza, Evans, John A., 2020. Generalized non-linear eddy viscosity models for data-assisted reynolds stress closure. In: AIAA Scitech 2020 Forum, Vol. 1 PartF, No. January. ISBN: 9781624105951, pp. 1–14.",
+        "DOI": "10.2514/6.2020-0351"
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b29",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1017/jfm.2018.872",
+        "article-title": "Deep learning of vortex-induced vibrations",
+        "volume": "861",
+        "author": "Raissi",
+        "year": "2019",
+        "journal-title": "J. Fluid Mech."
+      },
+      {
+        "issue": "2–3",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b30",
+        "doi-asserted-by": "crossref",
+        "first-page": "579",
+        "DOI": "10.1007/s10494-019-00089-x",
+        "article-title": "Discovery of algebraic Reynolds-stress models using sparse symbolic regression",
+        "volume": "104",
+        "author": "Schmelzer",
+        "year": "2020",
+        "journal-title": "Flow Turbul. Combust."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b31",
+        "series-title": "NASA/CR-2014-21878",
+        "first-page": "1",
+        "article-title": "CFD vision 2030 study: A path to revolutionary computational aerosciences",
+        "author": "Slotnick",
+        "year": "2014"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/1367-2630/abadb3",
+        "article-title": "Turbulence closure modeling with data-driven techniques: Physical compatibility and consistency considerations",
+        "volume": "22",
+        "author": "Taghizadeh",
+        "year": "2020",
+        "journal-title": "New J. Phys."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b33",
+        "unstructured": "Tracey, Brendan D., Duraisamy, Karthik, Alonso, Juan J., 2015. A Machine Learning Strategy to Assist Turbulence Model Development. In: 53rd AIAA Aerospace Sciences Meeting, No. January. (ISSN: 978-1-62410-343-8) ISBN: 978-1-62410-343-8, pp. 1–23."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b34",
+        "doi-asserted-by": "crossref",
+        "first-page": "3670",
+        "DOI": "10.1063/1.1785131",
+        "article-title": "An eddy-viscosity subgrid-scale model for turbulent shear flow: Algebraic theory and applications",
+        "volume": "16",
+        "author": "Vreman",
+        "year": "2004",
+        "journal-title": "Phys. Fluids"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1103/PhysRevFluids.2.034603",
+        "article-title": "Physics-informed machine learning approach for reconstructing Reynolds stress modeling discrepancies based on DNS data",
+        "volume": "2",
+        "author": "Wang",
+        "year": "2017",
+        "journal-title": "Phys. Rev. Fluids"
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b36",
+        "article-title": "Multi-objective CFD-driven development of coupled turbulence closure models",
+        "volume": "452",
+        "author": "Waschkowski",
+        "year": "2021",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b37",
+        "doi-asserted-by": "crossref",
+        "first-page": "22",
+        "DOI": "10.1016/j.jcp.2016.08.015",
+        "article-title": "A novel evolutionary algorithm applied to algebraic modifications of the RANS stress-strain relationship",
+        "volume": "325",
+        "author": "Weatheritt",
+        "year": "2016",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b38",
+        "doi-asserted-by": "crossref",
+        "first-page": "298",
+        "DOI": "10.1016/j.ijheatfluidflow.2017.09.017",
+        "article-title": "The development of algebraic stress models using a novel evolutionary algorithm",
+        "volume": "68",
+        "author": "Weatheritt",
+        "year": "2017",
+        "journal-title": "Int. J. Heat Fluid Flow"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b39",
+        "first-page": "1",
+        "article-title": "Physics-informed machine learning approach for augmenting turbulence models: A comprehensive framework",
+        "volume": "7",
+        "author": "Wu",
+        "year": "2018",
+        "journal-title": "Phys. Rev. Fluids"
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b40",
+        "doi-asserted-by": "crossref",
+        "first-page": "A26",
+        "DOI": "10.1017/jfm.2022.744",
+        "article-title": "Ensemble Kalman method for learning turbulence models from indirect observation data",
+        "volume": "949",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "J. Fluid Mech."
+      },
+      {
+        "key": "10.1016/j.ijheatfluidflow.2023.109140_b41",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jcp.2020.109413",
+        "article-title": "RANS turbulence model development using CFD-driven machine learning",
+        "volume": "411",
+        "author": "Zhao",
+        "year": "2020",
+        "journal-title": "J. Comput. Phys."
+      }
+    ],
+    "container-title": [
+      "International Journal of Heat and Fluid Flow"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0142727X23000395?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0142727X23000395?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2025-09-26T13:48:55Z",
+      "timestamp": 1758894535000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0142727X23000395"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "references-count": 41,
+    "alternative-id": [
+      "S0142727X23000395"
+    ],
+    "URL": "https://doi.org/10.1016/j.ijheatfluidflow.2023.109140",
+    "relation": {},
+    "ISSN": [
+      "0142-727X"
+    ],
+    "issn-type": [
+      {
+        "value": "0142-727X",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "A coupled framework for symbolic turbulence models from deep-learning",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "International Journal of Heat and Fluid Flow",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.ijheatfluidflow.2023.109140",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 The Author(s). Published by Elsevier Inc.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "109140"
+  }
+}

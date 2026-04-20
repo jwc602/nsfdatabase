@@ -1,0 +1,4692 @@
+{
+  "doi": "10.3847/2041-8213/adc432",
+  "openalex": {
+    "id": "https://openalex.org/W4409885621",
+    "doi": "https://doi.org/10.3847/2041-8213/adc432",
+    "title": "exoALMA. XI. ALMA Observations and Hydrodynamic Models of LkCa 15: Implications for Planetary Mass Companions in the Dust Continuum Cavity",
+    "display_name": "exoALMA. XI. ALMA Observations and Hydrodynamic Models of LkCa 15: Implications for Planetary Mass Companions in the Dust Continuum Cavity",
+    "publication_year": 2025,
+    "publication_date": "2025-04-28",
+    "ids": {
+      "openalex": "https://openalex.org/W4409885621",
+      "doi": "https://doi.org/10.3847/2041-8213/adc432"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3847/2041-8213/adc432",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3847/2041-8213/adc432",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210175824",
+        "display_name": "The Astrophysical Journal Letters",
+        "issn_l": "2041-8205",
+        "issn": [
+          "2041-8205",
+          "2041-8213"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320083",
+        "host_organization_name": "IOP Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320083",
+          "https://openalex.org/P4310311669"
+        ],
+        "host_organization_lineage_names": [
+          "IOP Publishing",
+          "Institute of Physics"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Astrophysical Journal Letters",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.3847/2041-8213/adc432",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5072023194",
+          "display_name": "Charles H. Gardner",
+          "orcid": "https://orcid.org/0009-0003-8984-2094"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1343871089",
+            "display_name": "Los Alamos National Laboratory",
+            "ror": "https://ror.org/01e41cf67",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I1343871089",
+              "https://openalex.org/I198811213",
+              "https://openalex.org/I4210120050"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I74775410",
+            "display_name": "Rice University",
+            "ror": "https://ror.org/008zs3103",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74775410"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Gardner, Charles Harrison",
+        "raw_affiliation_strings": [
+          "Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)",
+          "Rice Univ., Houston, TX (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)",
+            "institution_ids": [
+              "https://openalex.org/I1343871089"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Rice Univ., Houston, TX (United States)",
+            "institution_ids": [
+              "https://openalex.org/I74775410"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5060696968",
+          "display_name": "Andrea Isella",
+          "orcid": "https://orcid.org/0000-0001-8061-2207"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74775410",
+            "display_name": "Rice University",
+            "ror": "https://ror.org/008zs3103",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74775410"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Isella, Andrea",
+        "raw_affiliation_strings": [
+          "Rice Univ., Houston, TX (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Rice Univ., Houston, TX (United States)",
+            "institution_ids": [
+              "https://openalex.org/I74775410"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5068792081",
+          "display_name": "Hui Li",
+          "orcid": "https://orcid.org/0000-0003-3556-6568"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1343871089",
+            "display_name": "Los Alamos National Laboratory",
+            "ror": "https://ror.org/01e41cf67",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I1343871089",
+              "https://openalex.org/I198811213",
+              "https://openalex.org/I4210120050"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Li, Hui",
+        "raw_affiliation_strings": [
+          "Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)",
+            "institution_ids": [
+              "https://openalex.org/I1343871089"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5026579189",
+          "display_name": "Shengtai Li",
+          "orcid": "https://orcid.org/0000-0002-4142-3080"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1343871089",
+            "display_name": "Los Alamos National Laboratory",
+            "ror": "https://ror.org/01e41cf67",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I1343871089",
+              "https://openalex.org/I198811213",
+              "https://openalex.org/I4210120050"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shengtai Li",
+        "raw_affiliation_strings": [
+          "Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Los Alamos National Laboratory (LANL), Los Alamos, NM (United States)",
+            "institution_ids": [
+              "https://openalex.org/I1343871089"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5070721975",
+          "display_name": "Jaehan Bae",
+          "orcid": "https://orcid.org/0000-0001-7258-770X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I33213144",
+            "display_name": "University of Florida",
+            "ror": "https://ror.org/02y3ad647",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jaehan Bae",
+        "raw_affiliation_strings": [
+          "Univ. of Florida, Gainesville, FL (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. of Florida, Gainesville, FL (United States)",
+            "institution_ids": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5076077191",
+          "display_name": "Marcelo Barraza-Alfaro",
+          "orcid": "https://orcid.org/0000-0001-6378-7873"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I63966007",
+            "display_name": "Massachusetts Institute of Technology",
+            "ror": "https://ror.org/042nb2s44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Marcelo Barraza-Alfaro",
+        "raw_affiliation_strings": [
+          "Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)",
+            "institution_ids": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5081520912",
+          "display_name": "M. Benisty",
+          "orcid": "https://orcid.org/0000-0002-7695-7605"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210109156",
+            "display_name": "Max Planck Institute for Astronomy",
+            "ror": "https://ror.org/01vhnrs90",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I149899117",
+              "https://openalex.org/I4210109156"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210088322",
+            "display_name": "Centre de Gestion Scientifique",
+            "ror": "https://ror.org/003y0kg83",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I12356871",
+              "https://openalex.org/I142476485",
+              "https://openalex.org/I190752583",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I4210088322",
+              "https://openalex.org/I4210091621",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I70768539"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I201841394",
+            "display_name": "Université Côte d'Azur",
+            "ror": "https://ror.org/019tgvf94",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201841394"
+            ]
+          }
+        ],
+        "countries": [
+          "DE",
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Myriam Benisty",
+        "raw_affiliation_strings": [
+          "Centre National de la Recherche Scientifique (CNRS) (France)",
+          "Max-Planck Institute for Astronomy, Heidelberg (Germany)",
+          "Universite Cote d'Azur, Nice (France)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Max-Planck Institute for Astronomy, Heidelberg (Germany)",
+            "institution_ids": [
+              "https://openalex.org/I4210109156"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Universite Cote d'Azur, Nice (France)",
+            "institution_ids": [
+              "https://openalex.org/I201841394"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Centre National de la Recherche Scientifique (CNRS) (France)",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I4210088322"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5038550825",
+          "display_name": "Gianni Cataldi",
+          "orcid": "https://orcid.org/0000-0002-2700-9676"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210159940",
+            "display_name": "National Astronomical Observatory of Japan",
+            "ror": "https://ror.org/052rrw050",
+            "country_code": "JP",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1319490839",
+              "https://openalex.org/I199525922",
+              "https://openalex.org/I4210159940"
+            ]
+          }
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Gianni Cataldi",
+        "raw_affiliation_strings": [
+          "National Astronomical Observatory of Japan (Japan)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National Astronomical Observatory of Japan (Japan)",
+            "institution_ids": [
+              "https://openalex.org/I4210159940"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5083667845",
+          "display_name": "Pietro Curone",
+          "orcid": "https://orcid.org/0000-0003-2045-2154"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I69737025",
+            "display_name": "University of Chile",
+            "ror": "https://ror.org/047gc3g35",
+            "country_code": "CL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I69737025"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I189158943",
+            "display_name": "University of Milan",
+            "ror": "https://ror.org/00wjc7c48",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I189158943"
+            ]
+          }
+        ],
+        "countries": [
+          "CL",
+          "IT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Pietro Curone",
+        "raw_affiliation_strings": [
+          "Univ. degli Studi di Milano (Italy)",
+          "University of Chile, Santiago (Chile)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. degli Studi di Milano (Italy)",
+            "institution_ids": [
+              "https://openalex.org/I189158943"
+            ]
+          },
+          {
+            "raw_affiliation_string": "University of Chile, Santiago (Chile)",
+            "institution_ids": [
+              "https://openalex.org/I69737025"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5073727689",
+          "display_name": "J. A. Eisner",
+          "orcid": "https://orcid.org/0000-0002-1031-4199"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I138006243",
+            "display_name": "University of Arizona",
+            "ror": "https://ror.org/03m2x1q45",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138006243"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Josh A. Eisner",
+        "raw_affiliation_strings": [
+          "Univ. of Arizona, Tucson, AZ (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. of Arizona, Tucson, AZ (United States)",
+            "institution_ids": [
+              "https://openalex.org/I138006243"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5037692782",
+          "display_name": "Stefano Facchini",
+          "orcid": "https://orcid.org/0000-0003-4689-2684"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189158943",
+            "display_name": "University of Milan",
+            "ror": "https://ror.org/00wjc7c48",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I189158943"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Stefano Facchini",
+        "raw_affiliation_strings": [
+          "Univ. degli Studi di Milano (Italy)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. degli Studi di Milano (Italy)",
+            "institution_ids": [
+              "https://openalex.org/I189158943"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5086605140",
+          "display_name": "Daniele Fasano",
+          "orcid": "https://orcid.org/0000-0003-4679-4072"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210088322",
+            "display_name": "Centre de Gestion Scientifique",
+            "ror": "https://ror.org/003y0kg83",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I12356871",
+              "https://openalex.org/I142476485",
+              "https://openalex.org/I190752583",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I4210088322",
+              "https://openalex.org/I4210091621",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I70768539"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I201841394",
+            "display_name": "Université Côte d'Azur",
+            "ror": "https://ror.org/019tgvf94",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201841394"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Fasano, Daniele",
+        "raw_affiliation_strings": [
+          "Centre National de la Recherche Scientifique (CNRS) (France)",
+          "Universite Cote d'Azur, Nice (France)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Universite Cote d'Azur, Nice (France)",
+            "institution_ids": [
+              "https://openalex.org/I201841394"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Centre National de la Recherche Scientifique (CNRS) (France)",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I4210088322"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5083163086",
+          "display_name": "Mario Flock",
+          "orcid": "https://orcid.org/0000-0002-9298-3029"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210109156",
+            "display_name": "Max Planck Institute for Astronomy",
+            "ror": "https://ror.org/01vhnrs90",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I149899117",
+              "https://openalex.org/I4210109156"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mario Flock",
+        "raw_affiliation_strings": [
+          "Max-Planck Institute for Astronomy, Heidelberg (Germany)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Max-Planck Institute for Astronomy, Heidelberg (Germany)",
+            "institution_ids": [
+              "https://openalex.org/I4210109156"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5031098458",
+          "display_name": "Katherine B. Follette",
+          "orcid": "https://orcid.org/0000-0002-7821-0695"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I177605424",
+            "display_name": "Amherst College",
+            "ror": "https://ror.org/028vqfs63",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177605424"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Katherine B. Follette",
+        "raw_affiliation_strings": [
+          "Amherst College, MA (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Amherst College, MA (United States)",
+            "institution_ids": [
+              "https://openalex.org/I177605424"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5089113599",
+          "display_name": "Misato Fukagawa",
+          "orcid": "https://orcid.org/0000-0003-3500-2455"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210159940",
+            "display_name": "National Astronomical Observatory of Japan",
+            "ror": "https://ror.org/052rrw050",
+            "country_code": "JP",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1319490839",
+              "https://openalex.org/I199525922",
+              "https://openalex.org/I4210159940"
+            ]
+          }
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Misato Fukagawa",
+        "raw_affiliation_strings": [
+          "National Astronomical Observatory of Japan (Japan)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National Astronomical Observatory of Japan (Japan)",
+            "institution_ids": [
+              "https://openalex.org/I4210159940"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5001926135",
+          "display_name": "Maria Galloway-Sprietsma",
+          "orcid": "https://orcid.org/0000-0002-5503-5476"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I33213144",
+            "display_name": "University of Florida",
+            "ror": "https://ror.org/02y3ad647",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Maria Galloway-Sprietsma",
+        "raw_affiliation_strings": [
+          "Univ. of Florida, Gainesville, FL (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. of Florida, Gainesville, FL (United States)",
+            "institution_ids": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5112833966",
+          "display_name": "Himanshi Garg",
+          "orcid": "https://orcid.org/0000-0002-5910-4598"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I56590836",
+            "display_name": "Monash University",
+            "ror": "https://ror.org/02bfwt286",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I56590836"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Himanshi Garg",
+        "raw_affiliation_strings": [
+          "Monash Univ., Melbourne, VIC (Australia)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Monash Univ., Melbourne, VIC (Australia)",
+            "institution_ids": [
+              "https://openalex.org/I56590836"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5059147793",
+          "display_name": "Cassandra Hall",
+          "orcid": "https://orcid.org/0000-0002-8138-0425"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165733156",
+            "display_name": "University of Georgia",
+            "ror": "https://ror.org/00te3t702",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165733156"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hall, Cassandra",
+        "raw_affiliation_strings": [
+          "Univ. of Georgia, Athens, GA (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. of Georgia, Athens, GA (United States)",
+            "institution_ids": [
+              "https://openalex.org/I165733156"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062528291",
+          "display_name": "Jane Huang",
+          "orcid": "https://orcid.org/0000-0001-6947-6072"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78577930",
+            "display_name": "Columbia University",
+            "ror": "https://ror.org/00hj8s172",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78577930"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jane Huang",
+        "raw_affiliation_strings": [
+          "Columbia Univ., New York, NY (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Columbia Univ., New York, NY (United States)",
+            "institution_ids": [
+              "https://openalex.org/I78577930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5070116789",
+          "display_name": "John D. Ilee",
+          "orcid": "https://orcid.org/0000-0003-1008-1142"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I130828816",
+            "display_name": "University of Leeds",
+            "ror": "https://ror.org/024mrxd33",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I130828816"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "John D. Ilee",
+        "raw_affiliation_strings": [
+          "University of Leeds (United Kingdom)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Leeds (United Kingdom)",
+            "institution_ids": [
+              "https://openalex.org/I130828816"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5044187868",
+          "display_name": "Michael Ireland",
+          "orcid": "https://orcid.org/0000-0002-6194-043X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I118347636",
+            "display_name": "Australian National University",
+            "ror": "https://ror.org/019wvm592",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I118347636"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Michael J. Ireland",
+        "raw_affiliation_strings": [
+          "Australian National Univ., Canberra (Australia)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Australian National Univ., Canberra (Australia)",
+            "institution_ids": [
+              "https://openalex.org/I118347636"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5082849017",
+          "display_name": "Andrés F. Izquierdo",
+          "orcid": "https://orcid.org/0000-0001-8446-3026"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1321434546",
+            "display_name": "European Southern Observatory",
+            "ror": "https://ror.org/01qtasp15",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1321434546"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I121797337",
+            "display_name": "Leiden University",
+            "ror": "https://ror.org/027bh9e22",
+            "country_code": "NL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I121797337"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I33213144",
+            "display_name": "University of Florida",
+            "ror": "https://ror.org/02y3ad647",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ],
+        "countries": [
+          "DE",
+          "NL",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Izquierdo, Andrés F.",
+        "raw_affiliation_strings": [
+          "European Southern Observatory, Munich (Germany)",
+          "Leiden Univ. (Netherlands)",
+          "Univ. of Florida, Gainesville, FL (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. of Florida, Gainesville, FL (United States)",
+            "institution_ids": [
+              "https://openalex.org/I33213144"
+            ]
+          },
+          {
+            "raw_affiliation_string": "European Southern Observatory, Munich (Germany)",
+            "institution_ids": [
+              "https://openalex.org/I1321434546"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Leiden Univ. (Netherlands)",
+            "institution_ids": [
+              "https://openalex.org/I121797337"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5009359010",
+          "display_name": "Christopher M. Johns‐Krull",
+          "orcid": "https://orcid.org/0000-0002-8828-6386"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74775410",
+            "display_name": "Rice University",
+            "ror": "https://ror.org/008zs3103",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74775410"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Johns-Krull, Christopher M.",
+        "raw_affiliation_strings": [
+          "Rice Univ., Houston, TX (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Rice Univ., Houston, TX (United States)",
+            "institution_ids": [
+              "https://openalex.org/I74775410"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5064085516",
+          "display_name": "Kazuhiro Kanagawa",
+          "orcid": "https://orcid.org/0000-0001-7235-2417"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I6178835",
+            "display_name": "Ibaraki University",
+            "ror": "https://ror.org/00sjd5653",
+            "country_code": "JP",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I6178835"
+            ]
+          }
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kazuhiro Kanagawa",
+        "raw_affiliation_strings": [
+          "Ibaraki Univ., Mito (Japan)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Ibaraki Univ., Mito (Japan)",
+            "institution_ids": [
+              "https://openalex.org/I6178835"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5084755116",
+          "display_name": "Adam L. Kraus",
+          "orcid": "https://orcid.org/0000-0001-9811-568X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I86519309",
+            "display_name": "The University of Texas at Austin",
+            "ror": "https://ror.org/00hj54h04",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I86519309"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kraus, Adam L.",
+        "raw_affiliation_strings": [
+          "Univ. of Texas, Austin, TX (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. of Texas, Austin, TX (United States)",
+            "institution_ids": [
+              "https://openalex.org/I86519309"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5089298782",
+          "display_name": "Geoffroy Lesur",
+          "orcid": "https://orcid.org/0000-0002-8896-9435"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210088322",
+            "display_name": "Centre de Gestion Scientifique",
+            "ror": "https://ror.org/003y0kg83",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I12356871",
+              "https://openalex.org/I142476485",
+              "https://openalex.org/I190752583",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I4210088322",
+              "https://openalex.org/I4210091621",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I70768539"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I899635006",
+            "display_name": "Université Grenoble Alpes",
+            "ror": "https://ror.org/02rx3b187",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I899635006"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lesur, Geoffroy",
+        "raw_affiliation_strings": [
+          "Centre National de la Recherche Scientifique (CNRS) (France)",
+          "Univ. of Grenoble Alpes, Grenoble (France)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. of Grenoble Alpes, Grenoble (France)",
+            "institution_ids": [
+              "https://openalex.org/I899635006"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Centre National de la Recherche Scientifique (CNRS) (France)",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I4210088322"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5012180885",
+          "display_name": "Shang-Fei Liu",
+          "orcid": "https://orcid.org/0000-0002-9442-137X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157773358",
+            "display_name": "Sun Yat-sen University",
+            "ror": "https://ror.org/0064kty71",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157773358"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shangfei Liu",
+        "raw_affiliation_strings": [
+          "Sun Yat-Sen Univ. (China)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Sun Yat-Sen Univ. (China)",
+            "institution_ids": [
+              "https://openalex.org/I157773358"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5081561872",
+          "display_name": "Cristiano Longarini",
+          "orcid": "https://orcid.org/0000-0003-4663-0318"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I241749",
+            "display_name": "University of Cambridge",
+            "ror": "https://ror.org/013meh722",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I241749"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I189158943",
+            "display_name": "University of Milan",
+            "ror": "https://ror.org/00wjc7c48",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I189158943"
+            ]
+          }
+        ],
+        "countries": [
+          "GB",
+          "IT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Longarini, Cristiano",
+        "raw_affiliation_strings": [
+          "Univ. degli Studi di Milano (Italy)",
+          "Univ. of Cambridge (United Kingdom)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. degli Studi di Milano (Italy)",
+            "institution_ids": [
+              "https://openalex.org/I189158943"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Univ. of Cambridge (United Kingdom)",
+            "institution_ids": [
+              "https://openalex.org/I241749"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5061165954",
+          "display_name": "Ryan A. Loomis",
+          "orcid": "https://orcid.org/0000-0002-8932-1219"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2609998029",
+            "display_name": "National Radio Astronomy Observatory",
+            "ror": "https://ror.org/04m24yn62",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I2609998029",
+              "https://openalex.org/I867387847"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ryan A. Loomis",
+        "raw_affiliation_strings": [
+          "National Radio Astronomy Observatory, Charlottesville, VA (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National Radio Astronomy Observatory, Charlottesville, VA (United States)",
+            "institution_ids": [
+              "https://openalex.org/I2609998029"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5032569209",
+          "display_name": "F. Ménard",
+          "orcid": "https://orcid.org/0000-0002-1637-7393"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210088322",
+            "display_name": "Centre de Gestion Scientifique",
+            "ror": "https://ror.org/003y0kg83",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I12356871",
+              "https://openalex.org/I142476485",
+              "https://openalex.org/I190752583",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I4210088322",
+              "https://openalex.org/I4210091621",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I70768539"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I899635006",
+            "display_name": "Université Grenoble Alpes",
+            "ror": "https://ror.org/02rx3b187",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I899635006"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Menard, Francois",
+        "raw_affiliation_strings": [
+          "Centre National de la Recherche Scientifique (CNRS) (France)",
+          "Univ. of Grenoble Alpes, Grenoble (France)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Centre National de la Recherche Scientifique (CNRS) (France)",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I4210088322"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Univ. of Grenoble Alpes, Grenoble (France)",
+            "institution_ids": [
+              "https://openalex.org/I899635006"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5060588843",
+          "display_name": "Ryuta Orihara",
+          "orcid": "https://orcid.org/0000-0003-4039-8933"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I6178835",
+            "display_name": "Ibaraki University",
+            "ror": "https://ror.org/00sjd5653",
+            "country_code": "JP",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I6178835"
+            ]
+          }
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ryuta Orihara",
+        "raw_affiliation_strings": [
+          "Ibaraki Univ., Mito (Japan)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Ibaraki Univ., Mito (Japan)",
+            "institution_ids": [
+              "https://openalex.org/I6178835"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5075262164",
+          "display_name": "C. Pinte",
+          "orcid": "https://orcid.org/0000-0001-5907-5179"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I56590836",
+            "display_name": "Monash University",
+            "ror": "https://ror.org/02bfwt286",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I56590836"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210088322",
+            "display_name": "Centre de Gestion Scientifique",
+            "ror": "https://ror.org/003y0kg83",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I12356871",
+              "https://openalex.org/I142476485",
+              "https://openalex.org/I190752583",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I4210088322",
+              "https://openalex.org/I4210091621",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I70768539"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I899635006",
+            "display_name": "Université Grenoble Alpes",
+            "ror": "https://ror.org/02rx3b187",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I899635006"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Pinte, Christophe",
+        "raw_affiliation_strings": [
+          "Centre National de la Recherche Scientifique (CNRS) (France)",
+          "Monash Univ., Melbourne, VIC (Australia)",
+          "Univ. of Grenoble Alpes, Grenoble (France)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. of Grenoble Alpes, Grenoble (France)",
+            "institution_ids": [
+              "https://openalex.org/I899635006"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Monash Univ., Melbourne, VIC (Australia)",
+            "institution_ids": [
+              "https://openalex.org/I56590836"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Centre National de la Recherche Scientifique (CNRS) (France)",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I4210088322"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5013805663",
+          "display_name": "Daniel J. Price",
+          "orcid": "https://orcid.org/0000-0002-4716-4235"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I56590836",
+            "display_name": "Monash University",
+            "ror": "https://ror.org/02bfwt286",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I56590836"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Price, Daniel",
+        "raw_affiliation_strings": [
+          "Monash Univ., Melbourne, VIC (Australia)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Monash Univ., Melbourne, VIC (Australia)",
+            "institution_ids": [
+              "https://openalex.org/I56590836"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5076114519",
+          "display_name": "Luca Ricci",
+          "orcid": "https://orcid.org/0000-0001-8123-2943"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I127339247",
+            "display_name": "California State University System",
+            "ror": "https://ror.org/020qm1538",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I127339247"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I157638225",
+            "display_name": "California State University, Northridge",
+            "ror": "https://ror.org/005f5hv41",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157638225"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ricci, Luca",
+        "raw_affiliation_strings": [
+          "California State Univ. (CalState), Northridge, CA (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "California State Univ. (CalState), Northridge, CA (United States)",
+            "institution_ids": [
+              "https://openalex.org/I127339247",
+              "https://openalex.org/I157638225"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023671221",
+          "display_name": "Giovanni Rosotti",
+          "orcid": "https://orcid.org/0000-0003-4853-5736"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189158943",
+            "display_name": "University of Milan",
+            "ror": "https://ror.org/00wjc7c48",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I189158943"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rosotti, Giovanni",
+        "raw_affiliation_strings": [
+          "Univ. degli Studi di Milano (Italy)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. degli Studi di Milano (Italy)",
+            "institution_ids": [
+              "https://openalex.org/I189158943"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5063397910",
+          "display_name": "Steph Sallum",
+          "orcid": "https://orcid.org/0000-0001-6871-6775"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204250578",
+            "display_name": "University of California, Irvine",
+            "ror": "https://ror.org/04gyf1771",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204250578"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Steph Sallum",
+        "raw_affiliation_strings": [
+          "Univ. of California, Irvine, CA (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. of California, Irvine, CA (United States)",
+            "institution_ids": [
+              "https://openalex.org/I204250578"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102925578",
+          "display_name": "Jochen Stadler",
+          "orcid": "https://orcid.org/0000-0002-0491-143X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210088322",
+            "display_name": "Centre de Gestion Scientifique",
+            "ror": "https://ror.org/003y0kg83",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I12356871",
+              "https://openalex.org/I142476485",
+              "https://openalex.org/I190752583",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I4210088322",
+              "https://openalex.org/I4210091621",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I70768539"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I201841394",
+            "display_name": "Université Côte d'Azur",
+            "ror": "https://ror.org/019tgvf94",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201841394"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I899635006",
+            "display_name": "Université Grenoble Alpes",
+            "ror": "https://ror.org/02rx3b187",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I899635006"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Stadler, Jochen",
+        "raw_affiliation_strings": [
+          "Centre National de la Recherche Scientifique (CNRS) (France)",
+          "Univ. of Grenoble Alpes, Grenoble (France)",
+          "Universite Cote d'Azur, Nice (France)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Centre National de la Recherche Scientifique (CNRS) (France)",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I4210088322"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Univ. of Grenoble Alpes, Grenoble (France)",
+            "institution_ids": [
+              "https://openalex.org/I899635006"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Universite Cote d'Azur, Nice (France)",
+            "institution_ids": [
+              "https://openalex.org/I201841394"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5049134429",
+          "display_name": "Richard Teague",
+          "orcid": "https://orcid.org/0000-0003-1534-5186"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I63966007",
+            "display_name": "Massachusetts Institute of Technology",
+            "ror": "https://ror.org/042nb2s44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Teague, Richard",
+        "raw_affiliation_strings": [
+          "Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)",
+            "institution_ids": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5061695454",
+          "display_name": "Gaylor Wafflard-Fernandez",
+          "orcid": "https://orcid.org/0000-0002-3468-9577"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210088322",
+            "display_name": "Centre de Gestion Scientifique",
+            "ror": "https://ror.org/003y0kg83",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I12356871",
+              "https://openalex.org/I142476485",
+              "https://openalex.org/I190752583",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I4210088322",
+              "https://openalex.org/I4210091621",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I70768539"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I899635006",
+            "display_name": "Université Grenoble Alpes",
+            "ror": "https://ror.org/02rx3b187",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I899635006"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wafflard-Fernandez, Gaylor",
+        "raw_affiliation_strings": [
+          "Centre National de la Recherche Scientifique (CNRS) (France)",
+          "Univ. of Grenoble Alpes, Grenoble (France)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Centre National de la Recherche Scientifique (CNRS) (France)",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I4210088322"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Univ. of Grenoble Alpes, Grenoble (France)",
+            "institution_ids": [
+              "https://openalex.org/I899635006"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5016268626",
+          "display_name": "David J. Wilner",
+          "orcid": "https://orcid.org/0000-0003-1526-7587"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210124175",
+            "display_name": "Center for Astrophysics Harvard & Smithsonian",
+            "ror": "https://ror.org/03c3r2d17",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I103187081",
+              "https://openalex.org/I136199984",
+              "https://openalex.org/I4210124175"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wilner, David J.",
+        "raw_affiliation_strings": [
+          "Harvard-Smithsonian Center for Astrophysics, Cambridge, MA (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Harvard-Smithsonian Center for Astrophysics, Cambridge, MA (United States)",
+            "institution_ids": [
+              "https://openalex.org/I4210124175"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5027361030",
+          "display_name": "Andrew J. Winter",
+          "orcid": "https://orcid.org/0000-0002-7501-9801"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210109156",
+            "display_name": "Max Planck Institute for Astronomy",
+            "ror": "https://ror.org/01vhnrs90",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I149899117",
+              "https://openalex.org/I4210109156"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210088322",
+            "display_name": "Centre de Gestion Scientifique",
+            "ror": "https://ror.org/003y0kg83",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I12356871",
+              "https://openalex.org/I142476485",
+              "https://openalex.org/I190752583",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I4210088322",
+              "https://openalex.org/I4210091621",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I70768539"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I201841394",
+            "display_name": "Université Côte d'Azur",
+            "ror": "https://ror.org/019tgvf94",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201841394"
+            ]
+          }
+        ],
+        "countries": [
+          "DE",
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Winter, Andrew J.",
+        "raw_affiliation_strings": [
+          "Centre National de la Recherche Scientifique (CNRS) (France)",
+          "Max-Planck Institute for Astronomy, Heidelberg (Germany)",
+          "Universite Cote d'Azur, Nice (France)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Centre National de la Recherche Scientifique (CNRS) (France)",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I4210088322"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Max-Planck Institute for Astronomy, Heidelberg (Germany)",
+            "institution_ids": [
+              "https://openalex.org/I4210109156"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Universite Cote d'Azur, Nice (France)",
+            "institution_ids": [
+              "https://openalex.org/I201841394"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5014171870",
+          "display_name": "Lisa Wölfer",
+          "orcid": "https://orcid.org/0000-0002-7212-2416"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I63966007",
+            "display_name": "Massachusetts Institute of Technology",
+            "ror": "https://ror.org/042nb2s44",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wölfer, Lisa",
+        "raw_affiliation_strings": [
+          "Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Massachusetts Inst. of Technology (MIT), Cambridge, MA (United States)",
+            "institution_ids": [
+              "https://openalex.org/I63966007"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5034102627",
+          "display_name": "Hsi-Wei Yen",
+          "orcid": "https://orcid.org/0000-0003-1412-893X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1311099166",
+            "display_name": "Institute of Astronomy and Astrophysics, Academia Sinica",
+            "ror": "https://ror.org/01hfpy566",
+            "country_code": "TW",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1311099166",
+              "https://openalex.org/I84653119"
+            ]
+          }
+        ],
+        "countries": [
+          "TW"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yen, Hsi-Wei",
+        "raw_affiliation_strings": [
+          "Academia Sinica, Taipei (Taiwan).  Institute of Astronomy & Astrophysics"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Academia Sinica, Taipei (Taiwan).  Institute of Astronomy & Astrophysics",
+            "institution_ids": [
+              "https://openalex.org/I1311099166"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5053894936",
+          "display_name": "Tomohiro C. Yoshida",
+          "orcid": "https://orcid.org/0000-0001-8002-8473"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210159940",
+            "display_name": "National Astronomical Observatory of Japan",
+            "ror": "https://ror.org/052rrw050",
+            "country_code": "JP",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1319490839",
+              "https://openalex.org/I199525922",
+              "https://openalex.org/I4210159940"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I200475212",
+            "display_name": "The Graduate University for Advanced Studies, SOKENDAI",
+            "ror": "https://ror.org/0516ah480",
+            "country_code": "JP",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I200475212"
+            ]
+          }
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yoshida, Tomohiro C.",
+        "raw_affiliation_strings": [
+          "Graduate University for Advanced Studies (SOKENDAI) (Japan)",
+          "National Astronomical Observatory of Japan (Japan)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Graduate University for Advanced Studies (SOKENDAI) (Japan)",
+            "institution_ids": [
+              "https://openalex.org/I200475212"
+            ]
+          },
+          {
+            "raw_affiliation_string": "National Astronomical Observatory of Japan (Japan)",
+            "institution_ids": [
+              "https://openalex.org/I4210159940"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5004082384",
+          "display_name": "Brianna Zawadzki",
+          "orcid": "https://orcid.org/0000-0001-9319-1296"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I130769515",
+            "display_name": "Pennsylvania State University",
+            "ror": "https://ror.org/04p491231",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I130769515"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I100538780",
+            "display_name": "Wesleyan University",
+            "ror": "https://ror.org/05h7xva58",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I100538780"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zawadzki, Brianna",
+        "raw_affiliation_strings": [
+          "Pennsylvania State Univ., University Park, PA (United States)",
+          "Wesleyan Univ., Middletown, CT (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Wesleyan Univ., Middletown, CT (United States)",
+            "institution_ids": [
+              "https://openalex.org/I100538780"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Pennsylvania State Univ., University Park, PA (United States)",
+            "institution_ids": [
+              "https://openalex.org/I130769515"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5017270437",
+          "display_name": "Zhaohuan Zhu",
+          "orcid": "https://orcid.org/0000-0003-3616-6822"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I133999245",
+            "display_name": "University of Nevada, Las Vegas",
+            "ror": "https://ror.org/0406gha72",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I133999245"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhu, Zhaohuan",
+        "raw_affiliation_strings": [
+          "Univ. of Nevada, Las Vegas, NV (United States)"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Univ. of Nevada, Las Vegas, NV (United States)",
+            "institution_ids": [
+              "https://openalex.org/I133999245"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 11,
+    "institutions_distinct_count": 46,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 2400,
+      "currency": "USD",
+      "value_usd": 2400
+    },
+    "apc_paid": {
+      "value": 2400,
+      "currency": "USD",
+      "value_usd": 2400
+    },
+    "fwci": 16.39328568,
+    "has_fulltext": false,
+    "cited_by_count": 5,
+    "citation_normalized_percentile": {
+      "value": 0.97352885,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "984",
+      "issue": "1",
+      "first_page": "L16",
+      "last_page": "L16"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10477",
+      "display_name": "Astrophysics and Star Formation Studies",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10477",
+        "display_name": "Astrophysics and Star Formation Studies",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10039",
+        "display_name": "Stellar, planetary, and galactic studies",
+        "score": 0.9986000061035156,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10325",
+        "display_name": "Astro and Planetary Science",
+        "score": 0.996399998664856,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/astrophysics",
+        "display_name": "Astrophysics",
+        "score": 0.5283530354499817
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.5113760828971863
+      },
+      {
+        "id": "https://openalex.org/keywords/astronomy",
+        "display_name": "Astronomy",
+        "score": 0.39157044887542725
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C44870925",
+        "wikidata": "https://www.wikidata.org/wiki/Q37547",
+        "display_name": "Astrophysics",
+        "level": 1,
+        "score": 0.5283530354499817
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.5113760828971863
+      },
+      {
+        "id": "https://openalex.org/C1276947",
+        "wikidata": "https://www.wikidata.org/wiki/Q333",
+        "display_name": "Astronomy",
+        "level": 1,
+        "score": 0.39157044887542725
+      }
+    ],
+    "mesh": [],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "doi:10.3847/2041-8213/adc432",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3847/2041-8213/adc432",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210175824",
+          "display_name": "The Astrophysical Journal Letters",
+          "issn_l": "2041-8205",
+          "issn": [
+            "2041-8205",
+            "2041-8213"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_name": "IOP Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Astrophysical Journal Letters",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:HAL:insu-05099876v1",
+        "is_oa": true,
+        "landing_page_url": "https://insu.hal.science/insu-05099876",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402512",
+          "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1294671590",
+          "host_organization_name": "Centre National de la Recherche Scientifique",
+          "host_organization_lineage": [
+            "https://openalex.org/I1294671590"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "The Astrophysical Journal Letters, 2025, 984, &#x27E8;10.3847/2041-8213/adc432&#x27E9;",
+        "raw_type": "Journal articles"
+      },
+      {
+        "id": "pmh:oai:air.unimi.it:2434/1163756",
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/2434/1163756",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400516",
+          "display_name": "Archivio Istituzionale della Ricerca (Universita Degli Studi Di Milano)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I189158943",
+          "host_organization_name": "University of Milan",
+          "host_organization_lineage": [
+            "https://openalex.org/I189158943"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:3c7409e0a88843b5839f8b755b8b5512",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/3c7409e0a88843b5839f8b755b8b5512",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "The Astrophysical Journal Letters, Vol 984, Iss 1, p L16 (2025)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:osti.gov:2566459",
+        "is_oa": true,
+        "landing_page_url": "www.osti.gov/servlets/purl/2566459",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3847/2041-8213/adc432",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3847/2041-8213/adc432",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210175824",
+        "display_name": "The Astrophysical Journal Letters",
+        "issn_l": "2041-8205",
+        "issn": [
+          "2041-8205",
+          "2041-8213"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320083",
+        "host_organization_name": "IOP Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320083",
+          "https://openalex.org/P4310311669"
+        ],
+        "host_organization_lineage_names": [
+          "IOP Publishing",
+          "Institute of Physics"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Astrophysical Journal Letters",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G2682241146",
+        "display_name": null,
+        "funder_award_id": "80NSSC18K0828",
+        "funder_id": "https://openalex.org/F4320306101",
+        "funder_display_name": "National Aeronautics and Space Administration"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306101",
+        "display_name": "National Aeronautics and Space Administration",
+        "ror": "https://ror.org/027ka1x80"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 103,
+    "referenced_works": [
+      "https://openalex.org/W2905186062",
+      "https://openalex.org/W2050287135",
+      "https://openalex.org/W3134585409",
+      "https://openalex.org/W4409906192",
+      "https://openalex.org/W3193592170",
+      "https://openalex.org/W2904495956",
+      "https://openalex.org/W4280649214",
+      "https://openalex.org/W4407391992",
+      "https://openalex.org/W2010307125",
+      "https://openalex.org/W4294573034",
+      "https://openalex.org/W2949273318",
+      "https://openalex.org/W2943384424",
+      "https://openalex.org/W4392678064",
+      "https://openalex.org/W4405477182",
+      "https://openalex.org/W4409885525",
+      "https://openalex.org/W2944437260",
+      "https://openalex.org/W2608782975",
+      "https://openalex.org/W2274580633",
+      "https://openalex.org/W2900285588",
+      "https://openalex.org/W2009551075",
+      "https://openalex.org/W3023587277",
+      "https://openalex.org/W2762295141",
+      "https://openalex.org/W3121803224",
+      "https://openalex.org/W2588610008",
+      "https://openalex.org/W4281694390",
+      "https://openalex.org/W4409885529",
+      "https://openalex.org/W4283824085",
+      "https://openalex.org/W2947114586",
+      "https://openalex.org/W2007116956",
+      "https://openalex.org/W2905039325",
+      "https://openalex.org/W2952361171",
+      "https://openalex.org/W2102759231",
+      "https://openalex.org/W2903886915",
+      "https://openalex.org/W2107163299",
+      "https://openalex.org/W2954263244",
+      "https://openalex.org/W2810503551",
+      "https://openalex.org/W2949274790",
+      "https://openalex.org/W2143521799",
+      "https://openalex.org/W4283359477",
+      "https://openalex.org/W4376982980",
+      "https://openalex.org/W4223616465",
+      "https://openalex.org/W1989590212",
+      "https://openalex.org/W2147903209",
+      "https://openalex.org/W2000107310",
+      "https://openalex.org/W4295678404",
+      "https://openalex.org/W4409885639",
+      "https://openalex.org/W2054776724",
+      "https://openalex.org/W2116952160",
+      "https://openalex.org/W1965372241",
+      "https://openalex.org/W2810407918",
+      "https://openalex.org/W2226170653",
+      "https://openalex.org/W4385224048",
+      "https://openalex.org/W2126925773",
+      "https://openalex.org/W4409885539",
+      "https://openalex.org/W2955061178",
+      "https://openalex.org/W2096594817",
+      "https://openalex.org/W2094530365",
+      "https://openalex.org/W4388178458",
+      "https://openalex.org/W2090223788",
+      "https://openalex.org/W4385504156",
+      "https://openalex.org/W2173365514",
+      "https://openalex.org/W4409885356",
+      "https://openalex.org/W4288079238",
+      "https://openalex.org/W2400070749",
+      "https://openalex.org/W2758709356",
+      "https://openalex.org/W4409870758",
+      "https://openalex.org/W2513374539",
+      "https://openalex.org/W2989730729",
+      "https://openalex.org/W2035547408",
+      "https://openalex.org/W2943191116",
+      "https://openalex.org/W2174187778",
+      "https://openalex.org/W2540148782",
+      "https://openalex.org/W2145991970",
+      "https://openalex.org/W2883744742",
+      "https://openalex.org/W3119033056",
+      "https://openalex.org/W2784180794",
+      "https://openalex.org/W2006491802",
+      "https://openalex.org/W2905495549",
+      "https://openalex.org/W3157052835",
+      "https://openalex.org/W2006568904",
+      "https://openalex.org/W3102124207",
+      "https://openalex.org/W3135848221",
+      "https://openalex.org/W3100098748",
+      "https://openalex.org/W3103506589",
+      "https://openalex.org/W3102715981",
+      "https://openalex.org/W3103681034",
+      "https://openalex.org/W4394822591",
+      "https://openalex.org/W3105476864",
+      "https://openalex.org/W3102426461",
+      "https://openalex.org/W3099910600",
+      "https://openalex.org/W3102854388",
+      "https://openalex.org/W3104194675",
+      "https://openalex.org/W3098974664",
+      "https://openalex.org/W3099732618",
+      "https://openalex.org/W3102527484",
+      "https://openalex.org/W3100377396",
+      "https://openalex.org/W3147135807",
+      "https://openalex.org/W3100403874",
+      "https://openalex.org/W3106499715",
+      "https://openalex.org/W3106329834",
+      "https://openalex.org/W3158174454",
+      "https://openalex.org/W3195768712",
+      "https://openalex.org/W3098937507"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2935759653",
+      "https://openalex.org/W3105167352",
+      "https://openalex.org/W54078636",
+      "https://openalex.org/W2954470139",
+      "https://openalex.org/W1501425562",
+      "https://openalex.org/W2902782467",
+      "https://openalex.org/W3084825885",
+      "https://openalex.org/W4321479465"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "In": [
+        1,
+        44
+      ],
+      "the": [
+        2,
+        5,
+        18,
+        35,
+        38,
+        89,
+        103,
+        108,
+        113,
+        121,
+        132,
+        138,
+        152,
+        159,
+        165,
+        183,
+        207
+      ],
+      "past": [
+        3
+      ],
+      "decade,": [
+        4
+      ],
+      "Atacama": [
+        6
+      ],
+      "Large": [
+        7
+      ],
+      "Millimeter/submillimeter": [
+        8
+      ],
+      "Array": [
+        9
+      ],
+      "(ALMA)": [
+        10
+      ],
+      "has": [
+        11,
+        141
+      ],
+      "revealed": [
+        12
+      ],
+      "a": [
+        13,
+        60,
+        74,
+        79,
+        194
+      ],
+      "plethora": [
+        14
+      ],
+      "of": [
+        15,
+        54,
+        83,
+        99,
+        134,
+        154,
+        167,
+        196,
+        209
+      ],
+      "substructures": [
+        16,
+        24
+      ],
+      "in": [
+        17,
+        63,
+        86,
+        120
+      ],
+      "disks": [
+        19
+      ],
+      "surrounding": [
+        20
+      ],
+      "young": [
+        21
+      ],
+      "stars.": [
+        22
+      ],
+      "These": [
+        23
+      ],
+      "have": [
+        25
+      ],
+      "several": [
+        26
+      ],
+      "proposed": [
+        27
+      ],
+      "formation": [
+        28
+      ],
+      "mechanisms,": [
+        29
+      ],
+      "with": [
+        30,
+        110,
+        164
+      ],
+      "one": [
+        31
+      ],
+      "leading": [
+        32
+      ],
+      "theory": [
+        33
+      ],
+      "being": [
+        34
+      ],
+      "interaction": [
+        36
+      ],
+      "between": [
+        37,
+        174
+      ],
+      "disk": [
+        39,
+        57
+      ],
+      "and": [
+        40,
+        65,
+        95,
+        123,
+        176
+      ],
+      "newly": [
+        41
+      ],
+      "formed": [
+        42
+      ],
+      "planets.": [
+        43,
+        210
+      ],
+      "this": [
+        45
+      ],
+      "Letter,": [
+        46
+      ],
+      "we": [
+        47,
+        180
+      ],
+      "present": [
+        48
+      ],
+      "high": [
+        49
+      ],
+      "angular": [
+        50
+      ],
+      "resolution": [
+        51
+      ],
+      "ALMA": [
+        52
+      ],
+      "observations": [
+        53,
+        109
+      ],
+      "LkCa": [
+        55,
+        184
+      ],
+      "15’s": [
+        56
+      ],
+      "that": [
+        58,
+        151,
+        182,
+        203
+      ],
+      "reveal": [
+        59
+      ],
+      "striking": [
+        61
+      ],
+      "difference": [
+        62
+      ],
+      "dust": [
+        64,
+        70,
+        104,
+        122,
+        139,
+        160,
+        187
+      ],
+      "CO": [
+        66,
+        90,
+        124,
+        155
+      ],
+      "emission": [
+        67,
+        72,
+        91,
+        156
+      ],
+      "morphology.": [
+        68
+      ],
+      "The": [
+        69
+      ],
+      "continuum": [
+        71
+      ],
+      "shows": [
+        73,
+        96
+      ],
+      "ringlike": [
+        75
+      ],
+      "structure": [
+        76
+      ],
+      "characterized": [
+        77
+      ],
+      "by": [
+        78,
+        193,
+        200
+      ],
+      "dust-depleted": [
+        80
+      ],
+      "inner": [
+        81
+      ],
+      "region": [
+        82
+      ],
+      "∼40": [
+        84
+      ],
+      "au": [
+        85
+      ],
+      "radius.": [
+        87
+      ],
+      "Conversely,": [
+        88
+      ],
+      "is": [
+        92,
+        128,
+        162
+      ],
+      "radially": [
+        93
+      ],
+      "smoother": [
+        94
+      ],
+      "no": [
+        97
+      ],
+      "sign": [
+        98
+      ],
+      "gas": [
+        100
+      ],
+      "depletion": [
+        101
+      ],
+      "within": [
+        102,
+        137,
+        158
+      ],
+      "cavity.": [
+        105
+      ],
+      "We": [
+        106,
+        149
+      ],
+      "compare": [
+        107
+      ],
+      "models": [
+        111
+      ],
+      "for": [
+        112
+      ],
+      "disk–planet": [
+        114
+      ],
+      "interaction,": [
+        115
+      ],
+      "including": [
+        116
+      ],
+      "radiative": [
+        117
+      ],
+      "transfer": [
+        118
+      ],
+      "calculation": [
+        119
+      ],
+      "emission.": [
+        125
+      ],
+      "This": [
+        126
+      ],
+      "source": [
+        127
+      ],
+      "particularly": [
+        129
+      ],
+      "interesting,": [
+        130
+      ],
+      "as": [
+        131
+      ],
+      "presence": [
+        133,
+        166,
+        208
+      ],
+      "massive": [
+        135,
+        170
+      ],
+      "planets": [
+        136,
+        168,
+        198
+      ],
+      "cavity": [
+        140,
+        161,
+        188
+      ],
+      "been": [
+        142
+      ],
+      "suggested": [
+        143
+      ],
+      "based": [
+        144
+      ],
+      "on": [
+        145
+      ],
+      "previous": [
+        146
+      ],
+      "near-IR": [
+        147
+      ],
+      "observations.": [
+        148
+      ],
+      "find": [
+        150
+      ],
+      "level": [
+        153
+      ],
+      "observed": [
+        157
+      ],
+      "inconsistent": [
+        163
+      ],
+      "more": [
+        169
+      ],
+      "than": [
+        171
+      ],
+      "Jupiter": [
+        172
+      ],
+      "orbiting": [
+        173
+      ],
+      "10": [
+        175
+      ],
+      "40": [
+        177
+      ],
+      "au.": [
+        178
+      ],
+      "Instead,": [
+        179
+      ],
+      "argue": [
+        181
+      ],
+      "15": [
+        185
+      ],
+      "innermost": [
+        186
+      ],
+      "might": [
+        189
+      ],
+      "be": [
+        190
+      ],
+      "created": [
+        191
+      ],
+      "either": [
+        192
+      ],
+      "chain": [
+        195
+      ],
+      "low-mass": [
+        197
+      ],
+      "or": [
+        199
+      ],
+      "other": [
+        201
+      ],
+      "processes": [
+        202
+      ],
+      "do": [
+        204
+      ],
+      "not": [
+        205
+      ],
+      "require": [
+        206
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 5
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2025-10-24T16:21:43Z",
+      "timestamp": 1761322903130,
+      "version": "3.40.4"
+    },
+    "reference-count": 85,
+    "publisher": "American Astronomical Society",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              28
+            ]
+          ],
+          "date-time": "2025-04-28T00:00:00Z",
+          "timestamp": 1745798400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              28
+            ]
+          ],
+          "date-time": "2025-04-28T00:00:00Z",
+          "timestamp": 1745798400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://iopscience.iop.org/info/page/text-and-data-mining"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000104",
+        "name": "National Aeronautics and Space Administration",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "80NSSC18K0828"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "80NSSC18K0828"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000104",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "DOE ∣ NNSA ∣ Los Alamos National Laboratory",
+        "award": [
+          "CSES Student Fellow"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "CSES Student Fellow"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "iopscience.iop.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ApJL"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>In the past decade, the Atacama Large Millimeter/submillimeter Array (ALMA) has revealed a plethora of substructures in the disks surrounding young stars. These substructures have several proposed formation mechanisms, with one leading theory being the interaction between the disk and newly formed planets. In this Letter, we present high angular resolution ALMA observations of LkCa 15’s disk that reveal a striking difference in dust and CO emission morphology. The dust continuum emission shows a ringlike structure characterized by a dust-depleted inner region of ∼40 au in radius. Conversely, the CO emission is radially smoother and shows no sign of gas depletion within the dust cavity. We compare the observations with models for the disk–planet interaction, including radiative transfer calculation in the dust and CO emission. This source is particularly interesting, as the presence of massive planets within the dust cavity has been suggested based on previous near-IR observations. We find that the level of CO emission observed within the dust cavity is inconsistent with the presence of planets more massive than Jupiter orbiting between 10 and 40 au. Instead, we argue that the LkCa 15 innermost dust cavity might be created either by a chain of low-mass planets or by other processes that do not require the presence of planets.</jats:p>",
+    "DOI": "10.3847/2041-8213/adc432",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2025-04-28T16:01:06Z",
+      "timestamp": 1745856066000
+    },
+    "page": "L16",
+    "update-policy": "https://doi.org/10.1088/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "exoALMA. XI. ALMA Observations and Hydrodynamic Models of LkCa 15: Implications for Planetary Mass Companions in the Dust Continuum Cavity"
+    ],
+    "prefix": "10.3847",
+    "volume": "984",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0003-8984-2094",
+        "authenticated-orcid": false,
+        "given": "Charles H.",
+        "family": "Gardner",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8061-2207",
+        "authenticated-orcid": true,
+        "given": "Andrea",
+        "family": "Isella",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3556-6568",
+        "authenticated-orcid": true,
+        "given": "Hui",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4142-3080",
+        "authenticated-orcid": false,
+        "given": "Shengtai",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7258-770X",
+        "authenticated-orcid": true,
+        "given": "Jaehan",
+        "family": "Bae",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6378-7873",
+        "authenticated-orcid": true,
+        "given": "Marcelo",
+        "family": "Barraza-Alfaro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7695-7605",
+        "authenticated-orcid": true,
+        "given": "Myriam",
+        "family": "Benisty",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2700-9676",
+        "authenticated-orcid": true,
+        "given": "Gianni",
+        "family": "Cataldi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2045-2154",
+        "authenticated-orcid": true,
+        "given": "Pietro",
+        "family": "Curone",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1031-4199",
+        "authenticated-orcid": true,
+        "given": "Josh A.",
+        "family": "Eisner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4689-2684",
+        "authenticated-orcid": true,
+        "given": "Stefano",
+        "family": "Facchini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4679-4072",
+        "authenticated-orcid": true,
+        "given": "Daniele",
+        "family": "Fasano",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9298-3029",
+        "authenticated-orcid": true,
+        "given": "Mario",
+        "family": "Flock",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7821-0695",
+        "authenticated-orcid": true,
+        "given": "Katherine B.",
+        "family": "Follette",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1117-9213",
+        "authenticated-orcid": true,
+        "given": "Misato",
+        "family": "Fukagawa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5503-5476",
+        "authenticated-orcid": true,
+        "given": "Maria",
+        "family": "Galloway-Sprietsma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5910-4598",
+        "authenticated-orcid": false,
+        "given": "Himanshi",
+        "family": "Garg",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8138-0425",
+        "authenticated-orcid": true,
+        "given": "Cassandra",
+        "family": "Hall",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6947-6072",
+        "authenticated-orcid": true,
+        "given": "Jane",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1008-1142",
+        "authenticated-orcid": true,
+        "given": "John D.",
+        "family": "Ilee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6194-043X",
+        "authenticated-orcid": true,
+        "given": "Michael J.",
+        "family": "Ireland",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8446-3026",
+        "authenticated-orcid": true,
+        "given": "Andrés F.",
+        "family": "Izquierdo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8828-6386",
+        "authenticated-orcid": true,
+        "given": "Christopher M.",
+        "family": "Johns-Krull",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7235-2417",
+        "authenticated-orcid": true,
+        "given": "Kazuhiro",
+        "family": "Kanagawa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9811-568X",
+        "authenticated-orcid": true,
+        "given": "Adam L.",
+        "family": "Kraus",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8896-9435",
+        "authenticated-orcid": true,
+        "given": "Geoffroy",
+        "family": "Lesur",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9442-137X",
+        "authenticated-orcid": true,
+        "given": "Shangfei",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4663-0318",
+        "authenticated-orcid": true,
+        "given": "Cristiano",
+        "family": "Longarini",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8932-1219",
+        "authenticated-orcid": true,
+        "given": "Ryan A.",
+        "family": "Loomis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1637-7393",
+        "authenticated-orcid": true,
+        "given": "Francois",
+        "family": "Menard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4039-8933",
+        "authenticated-orcid": true,
+        "given": "Ryuta",
+        "family": "Orihara",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5907-5179",
+        "authenticated-orcid": true,
+        "given": "Christophe",
+        "family": "Pinte",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4716-4235",
+        "authenticated-orcid": true,
+        "given": "Daniel",
+        "family": "Price",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8123-2943",
+        "authenticated-orcid": true,
+        "given": "Luca",
+        "family": "Ricci",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4853-5736",
+        "authenticated-orcid": true,
+        "given": "Giovanni",
+        "family": "Rosotti",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6871-6775",
+        "authenticated-orcid": true,
+        "given": "Steph",
+        "family": "Sallum",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0491-143X",
+        "authenticated-orcid": true,
+        "given": "Jochen",
+        "family": "Stadler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1534-5186",
+        "authenticated-orcid": true,
+        "given": "Richard",
+        "family": "Teague",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3468-9577",
+        "authenticated-orcid": true,
+        "given": "Gaylor",
+        "family": "Wafflard-Fernandez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1526-7587",
+        "authenticated-orcid": true,
+        "given": "David J.",
+        "family": "Wilner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7501-9801",
+        "authenticated-orcid": true,
+        "given": "Andrew J.",
+        "family": "Winter",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7212-2416",
+        "authenticated-orcid": true,
+        "given": "Lisa",
+        "family": "Wölfer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1412-893X",
+        "authenticated-orcid": true,
+        "given": "Hsi-Wei",
+        "family": "Yen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8002-8473",
+        "authenticated-orcid": true,
+        "given": "Tomohiro C.",
+        "family": "Yoshida",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9319-1296",
+        "authenticated-orcid": true,
+        "given": "Brianna",
+        "family": "Zawadzki",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3616-6822",
+        "authenticated-orcid": true,
+        "given": "Zhaohuan",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "2208",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          28
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "apjladc432bib1",
+        "first-page": "233",
+        "volume": "351",
+        "author": "Aikawa",
+        "year": "1999",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib2",
+        "doi-asserted-by": "publisher",
+        "first-page": "L41",
+        "DOI": "10.3847/2041-8213/aaf741",
+        "volume": "869",
+        "author": "Andrews",
+        "year": "2018",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib3",
+        "doi-asserted-by": "publisher",
+        "first-page": "L5",
+        "DOI": "10.1088/2041-8205/742/1/L5",
+        "volume": "742",
+        "author": "Andrews",
+        "year": "2011",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib4",
+        "doi-asserted-by": "publisher",
+        "first-page": "A101",
+        "DOI": "10.1051/0004-6361/202140325",
+        "volume": "652",
+        "author": "Asensio-Torres",
+        "year": "2021",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib5",
+        "first-page": "423",
+        "author": "Bae",
+        "year": "2023"
+      },
+      {
+        "key": "apjladc432bib6",
+        "doi-asserted-by": "publisher",
+        "first-page": "L21",
+        "DOI": "10.3847/2041-8213/adc42d",
+        "volume": "984",
+        "author": "Barraza-Alfaro",
+        "year": "2025",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib7",
+        "doi-asserted-by": "publisher",
+        "first-page": "L2",
+        "DOI": "10.3847/2041-8213/ac0f83",
+        "volume": "916",
+        "author": "Benisty",
+        "year": "2021",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib8",
+        "doi-asserted-by": "publisher",
+        "first-page": "L45",
+        "DOI": "10.3847/2041-8213/aaf743",
+        "volume": "869",
+        "author": "Birnstiel",
+        "year": "2018",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib9",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.3847/1538-4357/ac6586",
+        "volume": "931",
+        "author": "Blakely",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib10",
+        "doi-asserted-by": "publisher",
+        "first-page": "137",
+        "DOI": "10.3847/1538-3881/ad9b94",
+        "volume": "169",
+        "author": "Blakely",
+        "year": "2025",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjladc432bib11",
+        "doi-asserted-by": "publisher",
+        "first-page": "A46",
+        "DOI": "10.1051/0004-6361/201321171",
+        "volume": "559",
+        "author": "Bruderer",
+        "year": "2013",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib12",
+        "doi-asserted-by": "publisher",
+        "first-page": "A91",
+        "DOI": "10.1051/0004-6361/201118218",
+        "volume": "541",
+        "author": "Bruderer",
+        "year": "2012",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib13",
+        "doi-asserted-by": "publisher",
+        "first-page": "L33",
+        "DOI": "10.3847/2041-8213/ab212b",
+        "volume": "877",
+        "author": "Christiaens",
+        "year": "2019a",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib14",
+        "doi-asserted-by": "publisher",
+        "first-page": "5819",
+        "DOI": "10.1093/mnras/stz1232",
+        "volume": "486",
+        "author": "Christiaens",
+        "year": "2019b",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjladc432bib15",
+        "doi-asserted-by": "publisher",
+        "first-page": "L1",
+        "DOI": "10.1051/0004-6361/202349089",
+        "volume": "685",
+        "author": "Christiaens",
+        "year": "2024",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib16",
+        "doi-asserted-by": "publisher",
+        "first-page": "35",
+        "DOI": "10.3847/1538-3881/ad8648",
+        "volume": "169",
+        "author": "Close",
+        "year": "2025",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjladc432bib17",
+        "doi-asserted-by": "publisher",
+        "first-page": "L9",
+        "DOI": "10.3847/2041-8213/adc438",
+        "volume": "984",
+        "author": "Curone",
+        "year": "2025",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib18",
+        "doi-asserted-by": "publisher",
+        "first-page": "L3",
+        "DOI": "10.3847/2041-8213/ab1b42",
+        "volume": "877",
+        "author": "Currie",
+        "year": "2019",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib19",
+        "doi-asserted-by": "publisher",
+        "first-page": "1932",
+        "DOI": "10.1093/mnras/stx977",
+        "volume": "469",
+        "author": "Dipierro",
+        "year": "2017",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjladc432bib20",
+        "doi-asserted-by": "publisher",
+        "first-page": "L1",
+        "DOI": "10.1093/mnrasl/slw032",
+        "volume": "459",
+        "author": "Dipierro",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjladc432bib21",
+        "doi-asserted-by": "publisher",
+        "first-page": "L1",
+        "DOI": "10.1093/mnrasl/sly207",
+        "volume": "483",
+        "author": "Donati",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjladc432bib22",
+        "doi-asserted-by": "publisher",
+        "first-page": "957",
+        "DOI": "10.1086/323057",
+        "volume": "560",
+        "author": "Dullemond",
+        "year": "2001",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib23",
+        "author": "Dullemond",
+        "year": "2012",
+        "unstructured": "Dullemond C. P. Juhasz A. Pohl A. 2012 RADMC-3D: A Multi-purpose Radiative Transfer Tool, Astrophysics Source Code Library ascl: 1202.015 2012ascl.soft02015D"
+      },
+      {
+        "key": "apjladc432bib24",
+        "doi-asserted-by": "publisher",
+        "first-page": "A121",
+        "DOI": "10.1051/0004-6361/202038027",
+        "volume": "639",
+        "author": "Facchini",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib25",
+        "doi-asserted-by": "publisher",
+        "first-page": "A104",
+        "DOI": "10.1051/0004-6361/201731390",
+        "volume": "612",
+        "author": "Facchini",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib26",
+        "doi-asserted-by": "publisher",
+        "first-page": "99",
+        "DOI": "10.3847/1538-3881/abf0a4",
+        "volume": "162",
+        "author": "Facchini",
+        "year": "2021",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjladc432bib27",
+        "doi-asserted-by": "publisher",
+        "first-page": "A72",
+        "DOI": "10.1051/0004-6361/201629860",
+        "volume": "600",
+        "author": "Fedele",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib28",
+        "author": "Foreman-Mackey",
+        "year": "2013",
+        "unstructured": "Foreman-Mackey D. Conley A. Meierjurgen Farr W. 2013 emcee: The MCMC Hammer, Astrophysics Source Code Library ascl: 1303.002 2013ascl.soft03002F"
+      },
+      {
+        "key": "apjladc432bib29",
+        "doi-asserted-by": "publisher",
+        "first-page": "A1",
+        "DOI": "10.1051/0004-6361/202243940",
+        "volume": "674",
+        "author": "Gaia Collaboration",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib30",
+        "doi-asserted-by": "publisher",
+        "first-page": "L10",
+        "DOI": "10.3847/2041-8213/adc437",
+        "volume": "984",
+        "author": "Galloway-Sprietsma",
+        "year": "2025",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib31",
+        "doi-asserted-by": "publisher",
+        "first-page": "A137",
+        "DOI": "10.1051/0004-6361/202142303",
+        "volume": "664",
+        "author": "Guidi",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib32",
+        "doi-asserted-by": "publisher",
+        "first-page": "749",
+        "DOI": "10.1038/s41550-019-0780-5",
+        "volume": "3",
+        "author": "Haffert",
+        "year": "2019",
+        "journal-title": "NatAs"
+      },
+      {
+        "key": "apjladc432bib33",
+        "doi-asserted-by": "publisher",
+        "first-page": "385",
+        "DOI": "10.1086/305277",
+        "volume": "495",
+        "author": "Hartmann",
+        "year": "1998",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib34",
+        "doi-asserted-by": "publisher",
+        "first-page": "L42",
+        "DOI": "10.3847/2041-8213/aaf740",
+        "volume": "869",
+        "author": "Huang",
+        "year": "2018",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib35",
+        "doi-asserted-by": "publisher",
+        "first-page": "L25",
+        "DOI": "10.3847/2041-8213/ab2a12",
+        "volume": "879",
+        "author": "Isella",
+        "year": "2019",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib36",
+        "doi-asserted-by": "publisher",
+        "first-page": "260",
+        "DOI": "10.1088/0004-637X/701/1/260",
+        "volume": "701",
+        "author": "Isella",
+        "year": "2009",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib37",
+        "doi-asserted-by": "publisher",
+        "first-page": "L49",
+        "DOI": "10.3847/2041-8213/aaf747",
+        "volume": "869",
+        "author": "Isella",
+        "year": "2018",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib38",
+        "doi-asserted-by": "publisher",
+        "first-page": "136",
+        "DOI": "10.1088/0004-637X/747/2/136",
+        "volume": "747",
+        "author": "Isella",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib39",
+        "doi-asserted-by": "publisher",
+        "first-page": "108",
+        "DOI": "10.3847/1538-4357/ab2dfe",
+        "volume": "881",
+        "author": "Jin",
+        "year": "2019",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib40",
+        "doi-asserted-by": "publisher",
+        "first-page": "A44",
+        "DOI": "10.1051/0004-6361/201832957",
+        "volume": "617",
+        "author": "Keppler",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib41",
+        "doi-asserted-by": "publisher",
+        "first-page": "A118",
+        "DOI": "10.1051/0004-6361/201935034",
+        "volume": "625",
+        "author": "Keppler",
+        "year": "2019",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib42",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1088/0004-637X/745/1/5",
+        "volume": "745",
+        "author": "Kraus",
+        "year": "2012",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib43",
+        "doi-asserted-by": "publisher",
+        "first-page": "114",
+        "DOI": "10.3847/1538-4357/ac6c02",
+        "volume": "932",
+        "author": "Law",
+        "year": "2022",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib44",
+        "doi-asserted-by": "publisher",
+        "first-page": "60",
+        "DOI": "10.3847/1538-4357/acb3c4",
+        "volume": "948",
+        "author": "Law",
+        "year": "2023",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib45",
+        "doi-asserted-by": "publisher",
+        "first-page": "A23",
+        "DOI": "10.1051/0004-6361/202243229",
+        "volume": "663",
+        "author": "Leemker",
+        "year": "2022",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib46",
+        "doi-asserted-by": "publisher",
+        "first-page": "1023",
+        "DOI": "10.1086/308693",
+        "volume": "533",
+        "author": "Li",
+        "year": "2000",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib47",
+        "doi-asserted-by": "publisher",
+        "first-page": "1003",
+        "DOI": "10.1086/429367",
+        "volume": "624",
+        "author": "Li",
+        "year": "2005",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib48",
+        "doi-asserted-by": "publisher",
+        "first-page": "L52",
+        "DOI": "10.1088/0004-637X/690/1/L52",
+        "volume": "690",
+        "author": "Li",
+        "year": "2009",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib49",
+        "doi-asserted-by": "publisher",
+        "first-page": "L1",
+        "DOI": "10.3847/2041-8213/ac8b10",
+        "volume": "937",
+        "author": "Long",
+        "year": "2022",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib50",
+        "doi-asserted-by": "publisher",
+        "first-page": "L17",
+        "DOI": "10.3847/2041-8213/adc431",
+        "volume": "984",
+        "author": "Longarini",
+        "year": "2025",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib51",
+        "doi-asserted-by": "publisher",
+        "first-page": "805",
+        "DOI": "10.1086/306900",
+        "volume": "513",
+        "author": "Lovelace",
+        "year": "1999",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib52",
+        "doi-asserted-by": "publisher",
+        "first-page": "603",
+        "DOI": "10.1093/mnras/168.3.603",
+        "volume": "168",
+        "author": "Lynden-Bell",
+        "year": "1974",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjladc432bib53",
+        "doi-asserted-by": "publisher",
+        "first-page": "425",
+        "DOI": "10.1086/155591",
+        "volume": "217",
+        "author": "Mathis",
+        "year": "1977",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib54",
+        "doi-asserted-by": "publisher",
+        "first-page": "L2",
+        "DOI": "10.1051/0004-6361/201833584",
+        "volume": "617",
+        "author": "Müller",
+        "year": "2018",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib55",
+        "doi-asserted-by": "publisher",
+        "first-page": "L3",
+        "DOI": "10.1093/pasj/psv133",
+        "volume": "68",
+        "author": "Oh",
+        "year": "2016",
+        "journal-title": "PASJ"
+      },
+      {
+        "key": "apjladc432bib56",
+        "doi-asserted-by": "publisher",
+        "first-page": "516",
+        "DOI": "10.1038/s41586-023-06317-9",
+        "volume": "620",
+        "author": "Perotti",
+        "year": "2023",
+        "journal-title": "Natur"
+      },
+      {
+        "key": "apjladc432bib57",
+        "doi-asserted-by": "publisher",
+        "first-page": "L43",
+        "DOI": "10.1051/0004-6361:20065968",
+        "volume": "460",
+        "author": "Piétu",
+        "year": "2006",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib58",
+        "doi-asserted-by": "publisher",
+        "first-page": "L15",
+        "DOI": "10.3847/2041-8213/adc433",
+        "volume": "984",
+        "author": "Pinte",
+        "year": "2025",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib59",
+        "first-page": "645",
+        "author": "Pinte",
+        "year": "2023"
+      },
+      {
+        "key": "apjladc432bib60",
+        "doi-asserted-by": "publisher",
+        "first-page": "1109",
+        "DOI": "10.1038/s41550-019-0852-6",
+        "volume": "3",
+        "author": "Pinte",
+        "year": "2019",
+        "journal-title": "NatAs"
+      },
+      {
+        "key": "apjladc432bib61",
+        "doi-asserted-by": "publisher",
+        "first-page": "137",
+        "DOI": "10.1146/annurev.aa.19.090181.001033",
+        "volume": "19",
+        "author": "Pringle",
+        "year": "1981",
+        "journal-title": "ARA&A"
+      },
+      {
+        "key": "apjladc432bib62",
+        "doi-asserted-by": "publisher",
+        "first-page": "84",
+        "DOI": "10.1088/0004-637X/740/2/84",
+        "volume": "740",
+        "author": "Qi",
+        "year": "2011",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib63",
+        "doi-asserted-by": "publisher",
+        "first-page": "A114",
+        "DOI": "10.1051/0004-6361/202347353",
+        "volume": "680",
+        "author": "Ren",
+        "year": "2023",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib64",
+        "doi-asserted-by": "publisher",
+        "first-page": "16",
+        "DOI": "10.1088/0004-637X/774/1/16",
+        "volume": "774",
+        "author": "Rosenfeld",
+        "year": "2013",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib65",
+        "doi-asserted-by": "publisher",
+        "first-page": "55",
+        "DOI": "10.3847/1538-4357/ace16c",
+        "volume": "953",
+        "author": "Sallum",
+        "year": "2023",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib66",
+        "doi-asserted-by": "publisher",
+        "first-page": "342",
+        "DOI": "10.1038/nature15761",
+        "volume": "527",
+        "author": "Sallum",
+        "year": "2015",
+        "journal-title": "Natur"
+      },
+      {
+        "key": "apjladc432bib67",
+        "doi-asserted-by": "publisher",
+        "first-page": "L11",
+        "DOI": "10.3847/2041-8213/adb152",
+        "volume": "984",
+        "author": "Stadler",
+        "year": "2025",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib68",
+        "doi-asserted-by": "publisher",
+        "first-page": "A13",
+        "DOI": "10.1051/0004-6361/202038878",
+        "volume": "644",
+        "author": "Stolker",
+        "year": "2020",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib69",
+        "doi-asserted-by": "publisher",
+        "first-page": "2853",
+        "DOI": "10.1093/mnras/stw1160",
+        "volume": "460",
+        "author": "Szulágyi",
+        "year": "2016",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjladc432bib70",
+        "doi-asserted-by": "publisher",
+        "first-page": "4527",
+        "DOI": "10.1093/mnras/sty409",
+        "volume": "476",
+        "author": "Tazzari",
+        "year": "2018",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjladc432bib71",
+        "doi-asserted-by": "publisher",
+        "first-page": "L6",
+        "DOI": "10.3847/2041-8213/adc43b",
+        "volume": "984",
+        "author": "Teague",
+        "year": "2025",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib72",
+        "doi-asserted-by": "publisher",
+        "first-page": "L17",
+        "DOI": "10.3847/2041-8205/828/2/L17",
+        "volume": "828",
+        "author": "Thalmann",
+        "year": "2016",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib73",
+        "doi-asserted-by": "publisher",
+        "first-page": "L4",
+        "DOI": "10.3847/2041-8213/ab5c87",
+        "volume": "888",
+        "author": "Toci",
+        "year": "2020",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib74",
+        "doi-asserted-by": "publisher",
+        "first-page": "1217",
+        "DOI": "10.1086/147861",
+        "volume": "139",
+        "author": "Toomre",
+        "year": "1964",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib75",
+        "doi-asserted-by": "publisher",
+        "first-page": "4638",
+        "DOI": "10.1093/mnras/stz1138",
+        "volume": "486",
+        "author": "Ubeira Gabellini",
+        "year": "2019",
+        "journal-title": "MNRAS"
+      },
+      {
+        "key": "apjladc432bib76",
+        "doi-asserted-by": "publisher",
+        "first-page": "A58",
+        "DOI": "10.1051/0004-6361/201526988",
+        "volume": "585",
+        "author": "van der Marel",
+        "year": "2016",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib77",
+        "doi-asserted-by": "publisher",
+        "first-page": "A101",
+        "DOI": "10.1051/0004-6361/201629452",
+        "volume": "599",
+        "author": "van ’t Hoff",
+        "year": "2017",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib78",
+        "doi-asserted-by": "publisher",
+        "first-page": "323",
+        "DOI": "10.1051/0004-6361/200912129",
+        "volume": "503",
+        "author": "Visser",
+        "year": "2009",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "apjladc432bib79",
+        "doi-asserted-by": "publisher",
+        "first-page": "L8",
+        "DOI": "10.3847/2041-8213/aad695",
+        "volume": "863",
+        "author": "Wagner",
+        "year": "2018",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib80",
+        "doi-asserted-by": "publisher",
+        "first-page": "148",
+        "DOI": "10.3847/1538-3881/abdb2d",
+        "volume": "161",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjladc432bib81",
+        "doi-asserted-by": "publisher",
+        "first-page": "113",
+        "DOI": "10.3847/1538-4357/aaa481",
+        "volume": "853",
+        "author": "Weaver",
+        "year": "2018",
+        "journal-title": "ApJ"
+      },
+      {
+        "key": "apjladc432bib82",
+        "doi-asserted-by": "publisher",
+        "first-page": "588",
+        "DOI": "10.1016/j.icarus.2007.07.012",
+        "volume": "192",
+        "author": "Youdin",
+        "year": "2007",
+        "journal-title": "Icar"
+      },
+      {
+        "key": "apjladc432bib83",
+        "doi-asserted-by": "publisher",
+        "first-page": "L47",
+        "DOI": "10.3847/2041-8213/aaf744",
+        "volume": "869",
+        "author": "Zhang",
+        "year": "2018",
+        "journal-title": "ApJL"
+      },
+      {
+        "key": "apjladc432bib84",
+        "doi-asserted-by": "publisher",
+        "first-page": "244",
+        "DOI": "10.3847/1538-3881/abeb7a",
+        "volume": "161",
+        "author": "Zhou",
+        "year": "2021",
+        "journal-title": "AJ"
+      },
+      {
+        "key": "apjladc432bib85",
+        "doi-asserted-by": "publisher",
+        "first-page": "6",
+        "DOI": "10.1088/0004-637X/755/1/6",
+        "volume": "755",
+        "author": "Zhu",
+        "year": "2012",
+        "journal-title": "ApJ"
+      }
+    ],
+    "container-title": [
+      "The Astrophysical Journal Letters"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/adc432",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/adc432/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/adc432/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/adc432/pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          28
+        ]
+      ],
+      "date-time": "2025-04-28T16:01:07Z",
+      "timestamp": 1745856067000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.3847/2041-8213/adc432"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          28
+        ]
+      ]
+    },
+    "references-count": 85,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            28
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.3847/2041-8213/adc432",
+    "relation": {},
+    "ISSN": [
+      "2041-8205",
+      "2041-8213"
+    ],
+    "issn-type": [
+      {
+        "value": "2041-8205",
+        "type": "print"
+      },
+      {
+        "value": "2041-8213",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          28
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "exoALMA. XI. ALMA Observations and Hydrodynamic Models of LkCa 15: Implications for Planetary Mass Companions in the Dust Continuum Cavity",
+        "name": "article_title",
+        "label": "Article Title"
+      },
+      {
+        "value": "The Astrophysical Journal Letters",
+        "name": "journal_title",
+        "label": "Journal Title"
+      },
+      {
+        "value": "paper",
+        "name": "article_type",
+        "label": "Article Type"
+      },
+      {
+        "value": "© 2025. The Author(s). Published by the American Astronomical Society.",
+        "name": "copyright_information",
+        "label": "Copyright Information"
+      },
+      {
+        "value": "2024-11-28",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2025-03-14",
+        "name": "date_accepted",
+        "label": "Date Accepted",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "2025-04-28",
+        "name": "date_epub",
+        "label": "Online publication date",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,4949 @@
+{
+  "doi": "10.1038/s41586-024-07948-2",
+  "openalex": {
+    "id": "https://openalex.org/W4402827225",
+    "doi": "https://doi.org/10.1038/s41586-024-07948-2",
+    "title": "Designed endocytosis-inducing proteins degrade targets and amplify signals",
+    "display_name": "Designed endocytosis-inducing proteins degrade targets and amplify signals",
+    "publication_year": 2024,
+    "publication_date": "2024-09-25",
+    "ids": {
+      "openalex": "https://openalex.org/W4402827225",
+      "doi": "https://doi.org/10.1038/s41586-024-07948-2",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39322662"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s41586-024-07948-2",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41586-024-07948-2",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S137773608",
+        "display_name": "Nature",
+        "issn_l": "0028-0836",
+        "issn": [
+          "0028-0836",
+          "1476-4687"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1038/s41586-024-07948-2",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5023289922",
+          "display_name": "Buwei Huang",
+          "orcid": "https://orcid.org/0000-0002-0762-7178"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Buwei Huang",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Department of Bioengineering, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Bioengineering, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046728930",
+          "display_name": "Mohamad H. Abedi",
+          "orcid": "https://orcid.org/0000-0001-9717-6288"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mohamad Abedi",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5068384996",
+          "display_name": "Green Ahn",
+          "orcid": "https://orcid.org/0000-0003-3086-4849"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Green Ahn",
+        "raw_affiliation_strings": [
+          "Department of Chemistry, Stanford University, Stanford, CA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Chemistry, Stanford University, Stanford, CA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003043340",
+          "display_name": "Brian Coventry",
+          "orcid": "https://orcid.org/0000-0002-6910-6255"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1344073410",
+            "display_name": "Howard Hughes Medical Institute",
+            "ror": "https://ror.org/006w34k90",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1344073410"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Brian Coventry",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1344073410",
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5039682587",
+          "display_name": "Isaac Sappington",
+          "orcid": "https://orcid.org/0000-0002-1073-0643"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Isaac Sappington",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5065946747",
+          "display_name": "Cong Tang",
+          "orcid": "https://orcid.org/0000-0003-1661-6793"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I141596103",
+            "display_name": "University of Lisbon",
+            "ror": "https://ror.org/01c27hj86",
+            "country_code": "PT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I141596103"
+            ]
+          }
+        ],
+        "countries": [
+          "PT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Cong Tang",
+        "raw_affiliation_strings": [
+          "Instituto de Medicina Molecular João Lobo Antunes, Faculdade de Medicina, Universidade de Lisboa, Lisbon, Portugal."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Instituto de Medicina Molecular João Lobo Antunes, Faculdade de Medicina, Universidade de Lisboa, Lisbon, Portugal.",
+            "institution_ids": [
+              "https://openalex.org/I141596103"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5030758712",
+          "display_name": "Rong Wang",
+          "orcid": "https://orcid.org/0000-0001-7342-5278"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I867280407",
+            "display_name": "The University of Texas Southwestern Medical Center",
+            "ror": "https://ror.org/05byvp690",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I867280407"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rong Wang",
+        "raw_affiliation_strings": [
+          "Department of Molecular Genetics, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Molecular Genetics, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+            "institution_ids": [
+              "https://openalex.org/I867280407"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5036438658",
+          "display_name": "Thomas Schlichthaerle",
+          "orcid": "https://orcid.org/0000-0003-4444-2575"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Thomas Schlichthaerle",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5001626969",
+          "display_name": "Jason Z. Zhang",
+          "orcid": "https://orcid.org/0000-0003-0091-6273"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jason Z Zhang",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100767796",
+          "display_name": "Yujia Wang",
+          "orcid": "https://orcid.org/0000-0001-8960-1002"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yujia Wang",
+        "raw_affiliation_strings": [
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5061557010",
+          "display_name": "Inna Goreshnik",
+          "orcid": "https://orcid.org/0000-0002-9254-9249"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1344073410",
+            "display_name": "Howard Hughes Medical Institute",
+            "ror": "https://ror.org/006w34k90",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1344073410"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Inna Goreshnik",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1344073410",
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102547290",
+          "display_name": "Ching Wen Chiu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ching Wen Chiu",
+        "raw_affiliation_strings": [
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5092669272",
+          "display_name": "Adam Chazin-Gray",
+          "orcid": "https://orcid.org/0009-0005-9310-1891"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Adam Chazin-Gray",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5038502208",
+          "display_name": "Sidney Chan",
+          "orcid": "https://orcid.org/0000-0002-1617-0464"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sidney Chan",
+        "raw_affiliation_strings": [
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5011328557",
+          "display_name": "Stacey Gerben",
+          "orcid": "https://orcid.org/0000-0003-0313-6248"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Stacey Gerben",
+        "raw_affiliation_strings": [
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5031696473",
+          "display_name": "Analisa Murray",
+          "orcid": "https://orcid.org/0000-0003-1560-6673"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Analisa Murray",
+        "raw_affiliation_strings": [
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5085448302",
+          "display_name": "Shunzhi Wang",
+          "orcid": "https://orcid.org/0000-0001-5033-7478"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shunzhi Wang",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5015606585",
+          "display_name": "Jason O’Neill",
+          "orcid": "https://orcid.org/0000-0002-7358-2422"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189090001",
+            "display_name": "Novo Nordisk (Denmark)",
+            "ror": "https://ror.org/0435rc536",
+            "country_code": "DK",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I189090001",
+              "https://openalex.org/I2801134892",
+              "https://openalex.org/I4210159963"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jason O'Neill",
+        "raw_affiliation_strings": [
+          "Novo Nordisk, Måløv, Denmark."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Novo Nordisk, Måløv, Denmark.",
+            "institution_ids": [
+              "https://openalex.org/I189090001"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100421752",
+          "display_name": "Yi Li",
+          "orcid": "https://orcid.org/0000-0003-2226-5918"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189090001",
+            "display_name": "Novo Nordisk (Denmark)",
+            "ror": "https://ror.org/0435rc536",
+            "country_code": "DK",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I189090001",
+              "https://openalex.org/I2801134892",
+              "https://openalex.org/I4210159963"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Li Yi",
+        "raw_affiliation_strings": [
+          "Novo Nordisk, Måløv, Denmark."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Novo Nordisk, Måløv, Denmark.",
+            "institution_ids": [
+              "https://openalex.org/I189090001"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5110639918",
+          "display_name": "Ronald Yeh",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189090001",
+            "display_name": "Novo Nordisk (Denmark)",
+            "ror": "https://ror.org/0435rc536",
+            "country_code": "DK",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I189090001",
+              "https://openalex.org/I2801134892",
+              "https://openalex.org/I4210159963"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ronald Yeh",
+        "raw_affiliation_strings": [
+          "Novo Nordisk, Måløv, Denmark."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Novo Nordisk, Måløv, Denmark.",
+            "institution_ids": [
+              "https://openalex.org/I189090001"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5068780441",
+          "display_name": "Ayesha Misquith",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189090001",
+            "display_name": "Novo Nordisk (Denmark)",
+            "ror": "https://ror.org/0435rc536",
+            "country_code": "DK",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I189090001",
+              "https://openalex.org/I2801134892",
+              "https://openalex.org/I4210159963"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ayesha Misquith",
+        "raw_affiliation_strings": [
+          "Novo Nordisk, Måløv, Denmark."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Novo Nordisk, Måløv, Denmark.",
+            "institution_ids": [
+              "https://openalex.org/I189090001"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103539718",
+          "display_name": "Anitra C. Wolf",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189090001",
+            "display_name": "Novo Nordisk (Denmark)",
+            "ror": "https://ror.org/0435rc536",
+            "country_code": "DK",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I189090001",
+              "https://openalex.org/I2801134892",
+              "https://openalex.org/I4210159963"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Anitra Wolf",
+        "raw_affiliation_strings": [
+          "Novo Nordisk, Måløv, Denmark."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Novo Nordisk, Måløv, Denmark.",
+            "institution_ids": [
+              "https://openalex.org/I189090001"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5007150765",
+          "display_name": "Luke M. Tomasovic",
+          "orcid": "https://orcid.org/0000-0002-1459-3252"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2799853436",
+            "display_name": "Johns Hopkins Medicine",
+            "ror": "https://ror.org/037zgn354",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I2799853436"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Luke M Tomasovic",
+        "raw_affiliation_strings": [
+          "Departments of Biomedical Engineering and Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, USA.",
+          "Medical Scientist Training Program, Johns Hopkins University School of Medicine, Baltimore, MD, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Medical Scientist Training Program, Johns Hopkins University School of Medicine, Baltimore, MD, USA.",
+            "institution_ids": [
+              "https://openalex.org/I145311948",
+              "https://openalex.org/I2799853436"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Departments of Biomedical Engineering and Chemical and Biomolecular Engineering, Johns Hopkins University, Baltimore, MD, USA.",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5000642681",
+          "display_name": "Dan I. Piraner",
+          "orcid": "https://orcid.org/0000-0003-3857-9487"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I180670191",
+            "display_name": "University of California, San Francisco",
+            "ror": "https://ror.org/043mz5j54",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I180670191"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Dan I Piraner",
+        "raw_affiliation_strings": [
+          "Department of Microbiology and Immunology, University of California San Francisco, San Francisco, CA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Microbiology and Immunology, University of California San Francisco, San Francisco, CA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I180670191"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5104158738",
+          "display_name": "Maria J Duran Gonzalez",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I180670191",
+            "display_name": "University of California, San Francisco",
+            "ror": "https://ror.org/043mz5j54",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I180670191"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Maria J Duran Gonzalez",
+        "raw_affiliation_strings": [
+          "Department of Microbiology and Immunology, University of California San Francisco, San Francisco, CA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Microbiology and Immunology, University of California San Francisco, San Francisco, CA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I180670191"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5015471745",
+          "display_name": "Nathaniel R. Bennett",
+          "orcid": "https://orcid.org/0000-0001-8590-1454"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Nathaniel R Bennett",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5013213417",
+          "display_name": "Preetham Venkatesh",
+          "orcid": "https://orcid.org/0000-0002-0089-9365"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Preetham Venkatesh",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046648996",
+          "display_name": "Maggie Ahlrichs",
+          "orcid": "https://orcid.org/0000-0002-4793-3890"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Maggie Ahlrichs",
+        "raw_affiliation_strings": [
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5053447291",
+          "display_name": "Craig L. Dobbins",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Craig Dobbins",
+        "raw_affiliation_strings": [
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5028561152",
+          "display_name": "Wei Yang",
+          "orcid": "https://orcid.org/0000-0002-8979-5967"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wei Yang",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100599677",
+          "display_name": "Xinru Wang",
+          "orcid": "https://orcid.org/0000-0001-5994-707X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xinru Wang",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5022898221",
+          "display_name": "Danny D. Sahtoe",
+          "orcid": "https://orcid.org/0000-0001-9095-0744"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210115206",
+            "display_name": "Hubrecht Institute for Developmental Biology and Stem Cell Research",
+            "ror": "https://ror.org/023qc4a07",
+            "country_code": "NL",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1322597698",
+              "https://openalex.org/I4210115206"
+            ]
+          }
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Danny D Sahtoe",
+        "raw_affiliation_strings": [
+          "Hubrecht Institute, Utrecht, The Netherlands."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Hubrecht Institute, Utrecht, The Netherlands.",
+            "institution_ids": [
+              "https://openalex.org/I4210115206"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5041619516",
+          "display_name": "Dionne Vafeados",
+          "orcid": "https://orcid.org/0000-0002-2560-8907"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Dionne Vafeados",
+        "raw_affiliation_strings": [
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5018650807",
+          "display_name": "Rubul Mout",
+          "orcid": "https://orcid.org/0000-0001-6125-5873"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I136199984",
+            "display_name": "Harvard University",
+            "ror": "https://ror.org/03vek6s52",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I136199984"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rubul Mout",
+        "raw_affiliation_strings": [
+          "Harvard Medical School, Harvard University, Boston, MA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Harvard Medical School, Harvard University, Boston, MA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I136199984"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5029791959",
+          "display_name": "Shirin Shivaei",
+          "orcid": "https://orcid.org/0000-0002-6894-3289"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I122411786",
+            "display_name": "California Institute of Technology",
+            "ror": "https://ror.org/05dxps055",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I122411786"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shirin Shivaei",
+        "raw_affiliation_strings": [
+          "Division of Biology and Bioengineering, California Institute of Technology, Pasadena, CA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Division of Biology and Bioengineering, California Institute of Technology, Pasadena, CA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I122411786"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102073075",
+          "display_name": "Longxing Cao",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I3133055985",
+            "display_name": "Westlake University",
+            "ror": "https://ror.org/05hfa4n20",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I3133055985"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Longxing Cao",
+        "raw_affiliation_strings": [
+          "School of Life Sciences, Westlake University, Hangzhou, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Life Sciences, Westlake University, Hangzhou, China.",
+            "institution_ids": [
+              "https://openalex.org/I3133055985"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019745674",
+          "display_name": "Lauren Carter",
+          "orcid": "https://orcid.org/0000-0002-9837-9068"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lauren Carter",
+        "raw_affiliation_strings": [
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5050073558",
+          "display_name": "Lance Stewart",
+          "orcid": "https://orcid.org/0000-0003-4264-5125"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lance Stewart",
+        "raw_affiliation_strings": [
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5083417237",
+          "display_name": "Jamie B. Spangler",
+          "orcid": "https://orcid.org/0000-0001-8187-3732"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189090001",
+            "display_name": "Novo Nordisk (Denmark)",
+            "ror": "https://ror.org/0435rc536",
+            "country_code": "DK",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I189090001",
+              "https://openalex.org/I2801134892",
+              "https://openalex.org/I4210159963"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jamie B Spangler",
+        "raw_affiliation_strings": [
+          "Novo Nordisk, Måløv, Denmark."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Novo Nordisk, Måløv, Denmark.",
+            "institution_ids": [
+              "https://openalex.org/I189090001"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5074263773",
+          "display_name": "Kole T. Roybal",
+          "orcid": "https://orcid.org/0000-0003-3030-7954"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I180670191",
+            "display_name": "University of California, San Francisco",
+            "ror": "https://ror.org/043mz5j54",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I180670191"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kole T Roybal",
+        "raw_affiliation_strings": [
+          "Department of Microbiology and Immunology, University of California San Francisco, San Francisco, CA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Microbiology and Immunology, University of California San Francisco, San Francisco, CA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I180670191"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5041863732",
+          "display_name": "Per Greisen",
+          "orcid": "https://orcid.org/0000-0003-4630-0044"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189090001",
+            "display_name": "Novo Nordisk (Denmark)",
+            "ror": "https://ror.org/0435rc536",
+            "country_code": "DK",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I189090001",
+              "https://openalex.org/I2801134892",
+              "https://openalex.org/I4210159963"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Per Jr Greisen",
+        "raw_affiliation_strings": [
+          "Novo Nordisk, Måløv, Denmark."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Novo Nordisk, Måløv, Denmark.",
+            "institution_ids": [
+              "https://openalex.org/I189090001"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5089522697",
+          "display_name": "Xiaochun Li",
+          "orcid": "https://orcid.org/0000-0002-0177-0803"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I867280407",
+            "display_name": "The University of Texas Southwestern Medical Center",
+            "ror": "https://ror.org/05byvp690",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I867280407"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaochun Li",
+        "raw_affiliation_strings": [
+          "Department of Molecular Genetics, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Molecular Genetics, University of Texas Southwestern Medical Center, Dallas, TX, USA.",
+            "institution_ids": [
+              "https://openalex.org/I867280407"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5050238909",
+          "display_name": "Gonçalo J. L. Bernardes",
+          "orcid": "https://orcid.org/0000-0001-6594-8917"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I241749",
+            "display_name": "University of Cambridge",
+            "ror": "https://ror.org/013meh722",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I241749"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I141596103",
+            "display_name": "University of Lisbon",
+            "ror": "https://ror.org/01c27hj86",
+            "country_code": "PT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I141596103"
+            ]
+          }
+        ],
+        "countries": [
+          "GB",
+          "PT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Gonçalo J L Bernardes",
+        "raw_affiliation_strings": [
+          "Instituto de Medicina Molecular João Lobo Antunes, Faculdade de Medicina, Universidade de Lisboa, Lisbon, Portugal.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Instituto de Medicina Molecular João Lobo Antunes, Faculdade de Medicina, Universidade de Lisboa, Lisbon, Portugal.",
+            "institution_ids": [
+              "https://openalex.org/I141596103"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, UK.",
+            "institution_ids": [
+              "https://openalex.org/I241749"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5088409133",
+          "display_name": "Carolyn R. Bertozzi",
+          "orcid": "https://orcid.org/0000-0003-4482-2754"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1344073410",
+            "display_name": "Howard Hughes Medical Institute",
+            "ror": "https://ror.org/006w34k90",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1344073410"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I97018004",
+            "display_name": "Stanford University",
+            "ror": "https://ror.org/00f54p054",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Carolyn R Bertozzi",
+        "raw_affiliation_strings": [
+          "Department of Chemistry, Stanford University, Stanford, CA, USA.",
+          "Howard Hughes Medical Institute, Stanford, CA, USA.",
+          "Sarafan ChEM-H, Stanford University, Stanford, CA, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Howard Hughes Medical Institute, Stanford, CA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I1344073410"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Sarafan ChEM-H, Stanford University, Stanford, CA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Chemistry, Stanford University, Stanford, CA, USA.",
+            "institution_ids": [
+              "https://openalex.org/I97018004"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5053192926",
+          "display_name": "David Baker",
+          "orcid": "https://orcid.org/0000-0001-7896-6217"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1344073410",
+            "display_name": "Howard Hughes Medical Institute",
+            "ror": "https://ror.org/006w34k90",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1344073410"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I201448701",
+            "display_name": "University of Washington",
+            "ror": "https://ror.org/00cvxb145",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "David Baker",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, University of Washington, Seattle, WA, USA. dabaker@uw.edu.",
+          "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA. dabaker@uw.edu.",
+          "Institute for Protein Design, University of Washington, Seattle, WA, USA. dabaker@uw.edu."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Howard Hughes Medical Institute, University of Washington, Seattle, WA, USA. dabaker@uw.edu.",
+            "institution_ids": [
+              "https://openalex.org/I1344073410",
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Protein Design, University of Washington, Seattle, WA, USA. dabaker@uw.edu.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biochemistry, University of Washington, Seattle, WA, USA. dabaker@uw.edu.",
+            "institution_ids": [
+              "https://openalex.org/I201448701"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 6,
+    "institutions_distinct_count": 45,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 9750,
+      "currency": "EUR",
+      "value_usd": 11690
+    },
+    "apc_paid": {
+      "value": 9750,
+      "currency": "EUR",
+      "value_usd": 11690
+    },
+    "fwci": 37.93953078,
+    "has_fulltext": false,
+    "cited_by_count": 79,
+    "citation_normalized_percentile": {
+      "value": 0.99793702,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "638",
+      "issue": "8051",
+      "first_page": "796",
+      "last_page": "804"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11041",
+      "display_name": "Ubiquitin and proteasome pathways",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11041",
+        "display_name": "Ubiquitin and proteasome pathways",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10617",
+        "display_name": "Cellular transport and secretion",
+        "score": 0.9994000196456909,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1307",
+          "display_name": "Cell Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10602",
+        "display_name": "Glycosylation and Glycoproteins Research",
+        "score": 0.9991000294685364,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/endocytosis",
+        "display_name": "Endocytosis",
+        "score": 0.8329949378967285
+      },
+      {
+        "id": "https://openalex.org/keywords/cell-biology",
+        "display_name": "Cell biology",
+        "score": 0.5629079937934875
+      },
+      {
+        "id": "https://openalex.org/keywords/chemistry",
+        "display_name": "Chemistry",
+        "score": 0.44623759388923645
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.3767404854297638
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.32873106002807617
+      },
+      {
+        "id": "https://openalex.org/keywords/biochemistry",
+        "display_name": "Biochemistry",
+        "score": 0.19383689761161804
+      },
+      {
+        "id": "https://openalex.org/keywords/receptor",
+        "display_name": "Receptor",
+        "score": 0.11011719703674316
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C28005876",
+        "wikidata": "https://www.wikidata.org/wiki/Q189814",
+        "display_name": "Endocytosis",
+        "level": 3,
+        "score": 0.8329949378967285
+      },
+      {
+        "id": "https://openalex.org/C95444343",
+        "wikidata": "https://www.wikidata.org/wiki/Q7141",
+        "display_name": "Cell biology",
+        "level": 1,
+        "score": 0.5629079937934875
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.44623759388923645
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.3767404854297638
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.32873106002807617
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.19383689761161804
+      },
+      {
+        "id": "https://openalex.org/C170493617",
+        "wikidata": "https://www.wikidata.org/wiki/Q208467",
+        "display_name": "Receptor",
+        "level": 2,
+        "score": 0.11011719703674316
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D004705",
+        "descriptor_name": "Endocytosis",
+        "qualifier_ui": "Q000187",
+        "qualifier_name": "drug effects",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051379",
+        "descriptor_name": "Mice",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008247",
+        "descriptor_name": "Lysosomes",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011990",
+        "descriptor_name": "Receptors, Transferrin",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059748",
+        "descriptor_name": "Proteolysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D017527",
+        "descriptor_name": "Receptor, IGF Type 2",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D017527",
+        "descriptor_name": "Receptor, IGF Type 2",
+        "qualifier_ui": "Q000737",
+        "qualifier_name": "chemistry",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008024",
+        "descriptor_name": "Ligands",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D033942",
+        "descriptor_name": "Adaptor Proteins, Vesicular Transport",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D037263",
+        "descriptor_name": "Asialoglycoprotein Receptor",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D037263",
+        "descriptor_name": "Asialoglycoprotein Receptor",
+        "qualifier_ui": "Q000737",
+        "qualifier_name": "chemistry",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000737",
+        "qualifier_name": "chemistry",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015202",
+        "descriptor_name": "Protein Engineering",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D004705",
+        "descriptor_name": "Endocytosis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051379",
+        "descriptor_name": "Mice",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008247",
+        "descriptor_name": "Lysosomes",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011990",
+        "descriptor_name": "Receptors, Transferrin",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D017527",
+        "descriptor_name": "Receptor, IGF Type 2",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008024",
+        "descriptor_name": "Ligands",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059748",
+        "descriptor_name": "Proteolysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D060890",
+        "descriptor_name": "B7-H1 Antigen",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D033942",
+        "descriptor_name": "Adaptor Proteins, Vesicular Transport",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D004705",
+        "descriptor_name": "Endocytosis",
+        "qualifier_ui": "Q000187",
+        "qualifier_name": "drug effects",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051379",
+        "descriptor_name": "Mice",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008247",
+        "descriptor_name": "Lysosomes",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011990",
+        "descriptor_name": "Receptors, Transferrin",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059748",
+        "descriptor_name": "Proteolysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D017527",
+        "descriptor_name": "Receptor, IGF Type 2",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D017527",
+        "descriptor_name": "Receptor, IGF Type 2",
+        "qualifier_ui": "Q000737",
+        "qualifier_name": "chemistry",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008024",
+        "descriptor_name": "Ligands",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D033942",
+        "descriptor_name": "Adaptor Proteins, Vesicular Transport",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D037263",
+        "descriptor_name": "Asialoglycoprotein Receptor",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D037263",
+        "descriptor_name": "Asialoglycoprotein Receptor",
+        "qualifier_ui": "Q000737",
+        "qualifier_name": "chemistry",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000737",
+        "qualifier_name": "chemistry",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015202",
+        "descriptor_name": "Protein Engineering",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D004705",
+        "descriptor_name": "Endocytosis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051379",
+        "descriptor_name": "Mice",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008247",
+        "descriptor_name": "Lysosomes",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011990",
+        "descriptor_name": "Receptors, Transferrin",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D017527",
+        "descriptor_name": "Receptor, IGF Type 2",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008024",
+        "descriptor_name": "Ligands",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059748",
+        "descriptor_name": "Proteolysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D060890",
+        "descriptor_name": "B7-H1 Antigen",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D033942",
+        "descriptor_name": "Adaptor Proteins, Vesicular Transport",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D004705",
+        "descriptor_name": "Endocytosis",
+        "qualifier_ui": "Q000187",
+        "qualifier_name": "drug effects",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051379",
+        "descriptor_name": "Mice",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008247",
+        "descriptor_name": "Lysosomes",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011990",
+        "descriptor_name": "Receptors, Transferrin",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059748",
+        "descriptor_name": "Proteolysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D017527",
+        "descriptor_name": "Receptor, IGF Type 2",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D017527",
+        "descriptor_name": "Receptor, IGF Type 2",
+        "qualifier_ui": "Q000737",
+        "qualifier_name": "chemistry",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008024",
+        "descriptor_name": "Ligands",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D033942",
+        "descriptor_name": "Adaptor Proteins, Vesicular Transport",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D037263",
+        "descriptor_name": "Asialoglycoprotein Receptor",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D037263",
+        "descriptor_name": "Asialoglycoprotein Receptor",
+        "qualifier_ui": "Q000737",
+        "qualifier_name": "chemistry",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000737",
+        "qualifier_name": "chemistry",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015202",
+        "descriptor_name": "Protein Engineering",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D004705",
+        "descriptor_name": "Endocytosis",
+        "qualifier_ui": "Q000187",
+        "qualifier_name": "drug effects",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051379",
+        "descriptor_name": "Mice",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008247",
+        "descriptor_name": "Lysosomes",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011990",
+        "descriptor_name": "Receptors, Transferrin",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059748",
+        "descriptor_name": "Proteolysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D017527",
+        "descriptor_name": "Receptor, IGF Type 2",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D017527",
+        "descriptor_name": "Receptor, IGF Type 2",
+        "qualifier_ui": "Q000737",
+        "qualifier_name": "chemistry",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008024",
+        "descriptor_name": "Ligands",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D033942",
+        "descriptor_name": "Adaptor Proteins, Vesicular Transport",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D037263",
+        "descriptor_name": "Asialoglycoprotein Receptor",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D037263",
+        "descriptor_name": "Asialoglycoprotein Receptor",
+        "qualifier_ui": "Q000737",
+        "qualifier_name": "chemistry",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000737",
+        "qualifier_name": "chemistry",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015202",
+        "descriptor_name": "Protein Engineering",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D004705",
+        "descriptor_name": "Endocytosis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051379",
+        "descriptor_name": "Mice",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008247",
+        "descriptor_name": "Lysosomes",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011990",
+        "descriptor_name": "Receptors, Transferrin",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D017527",
+        "descriptor_name": "Receptor, IGF Type 2",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008024",
+        "descriptor_name": "Ligands",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059748",
+        "descriptor_name": "Proteolysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D060890",
+        "descriptor_name": "B7-H1 Antigen",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D033942",
+        "descriptor_name": "Adaptor Proteins, Vesicular Transport",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D004705",
+        "descriptor_name": "Endocytosis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D051379",
+        "descriptor_name": "Mice",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008247",
+        "descriptor_name": "Lysosomes",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011990",
+        "descriptor_name": "Receptors, Transferrin",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D017527",
+        "descriptor_name": "Receptor, IGF Type 2",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008024",
+        "descriptor_name": "Ligands",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059748",
+        "descriptor_name": "Proteolysis",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D060890",
+        "descriptor_name": "B7-H1 Antigen",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015398",
+        "descriptor_name": "Signal Transduction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D033942",
+        "descriptor_name": "Adaptor Proteins, Vesicular Transport",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000378",
+        "qualifier_name": "metabolism",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011993",
+        "descriptor_name": "Recombinant Fusion Proteins",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1038/s41586-024-07948-2",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41586-024-07948-2",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S137773608",
+          "display_name": "Nature",
+          "issn_l": "0028-0836",
+          "issn": [
+            "0028-0836",
+            "1476-4687"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:39322662",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39322662",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11839401",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11839401",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Nature",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1038/s41586-024-07948-2",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41586-024-07948-2",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S137773608",
+        "display_name": "Nature",
+        "issn_l": "0028-0836",
+        "issn": [
+          "0028-0836",
+          "1476-4687"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Zero hunger",
+        "score": 0.4399999976158142,
+        "id": "https://metadata.un.org/sdg/2"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 58,
+    "referenced_works": [
+      "https://openalex.org/W3045619116",
+      "https://openalex.org/W3136546688",
+      "https://openalex.org/W4296691508",
+      "https://openalex.org/W1966311581",
+      "https://openalex.org/W1636022800",
+      "https://openalex.org/W2793567263",
+      "https://openalex.org/W2115559122",
+      "https://openalex.org/W4387770914",
+      "https://openalex.org/W2081306620",
+      "https://openalex.org/W4296700653",
+      "https://openalex.org/W3120553915",
+      "https://openalex.org/W2128230435",
+      "https://openalex.org/W2626930474",
+      "https://openalex.org/W2151714165",
+      "https://openalex.org/W4220765272",
+      "https://openalex.org/W3046642834",
+      "https://openalex.org/W3084236163",
+      "https://openalex.org/W2759860792",
+      "https://openalex.org/W2769843013",
+      "https://openalex.org/W2152183134",
+      "https://openalex.org/W3153543354",
+      "https://openalex.org/W4281626490",
+      "https://openalex.org/W4296032638",
+      "https://openalex.org/W3195125406",
+      "https://openalex.org/W4225995085",
+      "https://openalex.org/W3005610217",
+      "https://openalex.org/W4286488966",
+      "https://openalex.org/W3177828909",
+      "https://openalex.org/W3135875197",
+      "https://openalex.org/W2890393959",
+      "https://openalex.org/W3172027657",
+      "https://openalex.org/W4205824800",
+      "https://openalex.org/W1983857866",
+      "https://openalex.org/W1967394241",
+      "https://openalex.org/W2075451702",
+      "https://openalex.org/W3128131226",
+      "https://openalex.org/W2883463731",
+      "https://openalex.org/W2066671159",
+      "https://openalex.org/W2021009347",
+      "https://openalex.org/W4396617191",
+      "https://openalex.org/W4402596639",
+      "https://openalex.org/W2167940772",
+      "https://openalex.org/W1518494853",
+      "https://openalex.org/W3071242157",
+      "https://openalex.org/W2963418941",
+      "https://openalex.org/W6766104782",
+      "https://openalex.org/W4321480048",
+      "https://openalex.org/W6850221320",
+      "https://openalex.org/W2908391177",
+      "https://openalex.org/W2056442594",
+      "https://openalex.org/W3036498507",
+      "https://openalex.org/W1551729091",
+      "https://openalex.org/W2113952988",
+      "https://openalex.org/W4362524840",
+      "https://openalex.org/W4383645990",
+      "https://openalex.org/W1996142946",
+      "https://openalex.org/W6930152309",
+      "https://openalex.org/W2560367415"
+    ],
+    "related_works": [
+      "https://openalex.org/W4387497383",
+      "https://openalex.org/W2948807893",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2778153218",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W1531601525",
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2078814861",
+      "https://openalex.org/W2527526854",
+      "https://openalex.org/W2009527912"
+    ],
+    "abstract_inverted_index": {
+      "Endocytosis": [
+        0
+      ],
+      "and": [
+        1,
+        21,
+        56,
+        65,
+        110,
+        115,
+        118,
+        135,
+        176,
+        189,
+        227,
+        234
+      ],
+      "lysosomal": [
+        2,
+        133
+      ],
+      "trafficking": [
+        3,
+        134
+      ],
+      "of": [
+        4,
+        151,
+        179,
+        193
+      ],
+      "cell": [
+        5
+      ],
+      "surface": [
+        6
+      ],
+      "receptors": [
+        7,
+        140
+      ],
+      "can": [
+        8,
+        48,
+        66
+      ],
+      "be": [
+        9,
+        49,
+        74
+      ],
+      "triggered": [
+        10
+      ],
+      "by": [
+        11,
+        35,
+        51,
+        210
+      ],
+      "endogenous": [
+        12
+      ],
+      "ligands.": [
+        13
+      ],
+      "Therapeutic": [
+        14
+      ],
+      "approaches": [
+        15,
+        47,
+        90
+      ],
+      "such": [
+        16
+      ],
+      "as": [
+        17,
+        218
+      ],
+      "lysosome-targeting": [
+        18
+      ],
+      "chimaeras<sup>1,2</sup>": [
+        19
+      ],
+      "(LYTACs)": [
+        20
+      ],
+      "cytokine": [
+        22
+      ],
+      "receptor-targeting": [
+        23
+      ],
+      "chimeras<sup>3</sup>": [
+        24
+      ],
+      "(KineTACs)": [
+        25
+      ],
+      "have": [
+        26,
+        141,
+        214
+      ],
+      "used": [
+        27
+      ],
+      "this": [
+        28
+      ],
+      "to": [
+        29,
+        40,
+        124,
+        132,
+        153,
+        158,
+        171
+      ],
+      "target": [
+        30,
+        41,
+        128,
+        136
+      ],
+      "specific": [
+        31
+      ],
+      "proteins": [
+        32,
+        94
+      ],
+      "for": [
+        33,
+        58,
+        91,
+        103,
+        185,
+        224,
+        231
+      ],
+      "degradation": [
+        34,
+        152,
+        220
+      ],
+      "fusing": [
+        36,
+        121
+      ],
+      "modified": [
+        37
+      ],
+      "native": [
+        38,
+        54,
+        76
+      ],
+      "ligands": [
+        39,
+        55,
+        77
+      ],
+      "binding": [
+        42,
+        93
+      ],
+      "proteins.": [
+        43
+      ],
+      "Although": [
+        44
+      ],
+      "powerful,": [
+        45
+      ],
+      "these": [
+        46,
+        98,
+        122,
+        139
+      ],
+      "limited": [
+        50
+      ],
+      "competition": [
+        52
+      ],
+      "with": [
+        53
+      ],
+      "requirements": [
+        57
+      ],
+      "chemical": [
+        59
+      ],
+      "modification": [
+        60
+      ],
+      "that": [
+        61,
+        78,
+        96,
+        120
+      ],
+      "limit": [
+        62
+      ],
+      "genetic": [
+        63,
+        177
+      ],
+      "encodability": [
+        64,
+        178
+      ],
+      "complicate": [
+        67
+      ],
+      "manufacturing,": [
+        68
+      ],
+      "and,": [
+        69
+      ],
+      "more": [
+        70
+      ],
+      "generally,": [
+        71
+      ],
+      "there": [
+        72
+      ],
+      "may": [
+        73
+      ],
+      "no": [
+        75
+      ],
+      "stimulate": [
+        79
+      ],
+      "endocytosis": [
+        80
+      ],
+      "through": [
+        81,
+        205
+      ],
+      "a": [
+        82,
+        159,
+        166
+      ],
+      "given": [
+        83
+      ],
+      "receptor.": [
+        84
+      ],
+      "Here": [
+        85
+      ],
+      "we": [
+        86
+      ],
+      "describe": [
+        87
+      ],
+      "computational": [
+        88
+      ],
+      "design": [
+        89
+      ],
+      "endocytosis-triggering": [
+        92
+      ],
+      "(EndoTags)": [
+        95
+      ],
+      "overcome": [
+        97
+      ],
+      "challenges.": [
+        99
+      ],
+      "We": [
+        100
+      ],
+      "present": [
+        101
+      ],
+      "EndoTags": [
+        102,
+        147,
+        180,
+        213
+      ],
+      "insulin-like": [
+        104
+      ],
+      "growth": [
+        105
+      ],
+      "factor": [
+        106
+      ],
+      "2": [
+        107
+      ],
+      "receptor": [
+        108,
+        112
+      ],
+      "(IGF2R)": [
+        109
+      ],
+      "asialoglycoprotein": [
+        111
+      ],
+      "(ASGPR),": [
+        113
+      ],
+      "sortilin": [
+        114
+      ],
+      "transferrin": [
+        116
+      ],
+      "receptors,": [
+        117
+      ],
+      "show": [
+        119
+      ],
+      "tags": [
+        123
+      ],
+      "soluble": [
+        125
+      ],
+      "or": [
+        126
+      ],
+      "transmembrane": [
+        127
+      ],
+      "protein": [
+        129
+      ],
+      "binders": [
+        130
+      ],
+      "leads": [
+        131
+      ],
+      "degradation.": [
+        137
+      ],
+      "As": [
+        138
+      ],
+      "different": [
+        142,
+        146,
+        154
+      ],
+      "tissue": [
+        143
+      ],
+      "distributions,": [
+        144
+      ],
+      "the": [
+        145,
+        190
+      ],
+      "could": [
+        148
+      ],
+      "enable": [
+        149
+      ],
+      "targeting": [
+        150
+      ],
+      "tissues.": [
+        155
+      ],
+      "EndoTag": [
+        156,
+        201
+      ],
+      "fusion": [
+        157,
+        202
+      ],
+      "PD-L1": [
+        160
+      ],
+      "antibody": [
+        161,
+        172
+      ],
+      "considerably": [
+        162
+      ],
+      "increases": [
+        163,
+        203
+      ],
+      "efficacy": [
+        164
+      ],
+      "in": [
+        165
+      ],
+      "mouse": [
+        167
+      ],
+      "tumour": [
+        168
+      ],
+      "model": [
+        169
+      ],
+      "compared": [
+        170
+      ],
+      "alone.": [
+        173
+      ],
+      "The": [
+        174
+      ],
+      "modularity": [
+        175
+      ],
+      "enables": [
+        181
+      ],
+      "AND": [
+        182
+      ],
+      "gate": [
+        183
+      ],
+      "control": [
+        184
+      ],
+      "higher-specificity": [
+        186
+      ],
+      "targeted": [
+        187,
+        219,
+        232
+      ],
+      "degradation,": [
+        188
+      ],
+      "localized": [
+        191
+      ],
+      "secretion": [
+        192
+      ],
+      "degraders": [
+        194
+      ],
+      "from": [
+        195
+      ],
+      "engineered": [
+        196,
+        207
+      ],
+      "cells.": [
+        197
+      ],
+      "By": [
+        198
+      ],
+      "promoting": [
+        199
+      ],
+      "endocytosis,": [
+        200
+      ],
+      "signalling": [
+        204,
+        222
+      ],
+      "an": [
+        206
+      ],
+      "ligand-receptor": [
+        208
+      ],
+      "system": [
+        209
+      ],
+      "nearly": [
+        211
+      ],
+      "100-fold.": [
+        212
+      ],
+      "considerable": [
+        215
+      ],
+      "therapeutic": [
+        216
+      ],
+      "potential": [
+        217
+      ],
+      "inducers,": [
+        221
+      ],
+      "activators": [
+        223
+      ],
+      "endocytosis-dependent": [
+        225
+      ],
+      "pathways,": [
+        226
+      ],
+      "cellular": [
+        228
+      ],
+      "uptake": [
+        229
+      ],
+      "inducers": [
+        230
+      ],
+      "antibody-drug": [
+        233
+      ],
+      "antibody-RNA": [
+        235
+      ],
+      "conjugates.": [
+        236
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 73
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 6
+      }
+    ],
+    "updated_date": "2025-12-21T23:12:01.093139",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          5
+        ]
+      ],
+      "date-time": "2026-01-05T22:25:15Z",
+      "timestamp": 1767651915914,
+      "version": "3.37.3"
+    },
+    "reference-count": 52,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "8051",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2024-09-25T00:00:00Z",
+          "timestamp": 1727222400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              25
+            ]
+          ],
+          "date-time": "2024-09-25T00:00:00Z",
+          "timestamp": 1727222400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nature"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          20
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41586-024-07948-2",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2024-09-25T20:51:34Z",
+      "timestamp": 1727297494000
+    },
+    "page": "796-804",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 81,
+    "title": [
+      "Designed endocytosis-inducing proteins degrade targets and amplify signals"
+    ],
+    "prefix": "10.1038",
+    "volume": "638",
+    "author": [
+      {
+        "given": "Buwei",
+        "family": "Huang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Mohamad",
+        "family": "Abedi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3086-4849",
+        "authenticated-orcid": false,
+        "given": "Green",
+        "family": "Ahn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6910-6255",
+        "authenticated-orcid": false,
+        "given": "Brian",
+        "family": "Coventry",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Isaac",
+        "family": "Sappington",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1661-6793",
+        "authenticated-orcid": false,
+        "given": "Cong",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7342-5278",
+        "authenticated-orcid": false,
+        "given": "Rong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas",
+        "family": "Schlichthaerle",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0091-6273",
+        "authenticated-orcid": false,
+        "given": "Jason Z.",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yujia",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Inna",
+        "family": "Goreshnik",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ching Wen",
+        "family": "Chiu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Adam",
+        "family": "Chazin-Gray",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sidney",
+        "family": "Chan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0313-6248",
+        "authenticated-orcid": false,
+        "given": "Stacey",
+        "family": "Gerben",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1560-6673",
+        "authenticated-orcid": false,
+        "given": "Analisa",
+        "family": "Murray",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5033-7478",
+        "authenticated-orcid": false,
+        "given": "Shunzhi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jason",
+        "family": "O’Neill",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Li",
+        "family": "Yi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ronald",
+        "family": "Yeh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ayesha",
+        "family": "Misquith",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Anitra",
+        "family": "Wolf",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1459-3252",
+        "authenticated-orcid": false,
+        "given": "Luke M.",
+        "family": "Tomasovic",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dan I.",
+        "family": "Piraner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Maria J.",
+        "family": "Duran Gonzalez",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8590-1454",
+        "authenticated-orcid": false,
+        "given": "Nathaniel R.",
+        "family": "Bennett",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Preetham",
+        "family": "Venkatesh",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4793-3890",
+        "authenticated-orcid": false,
+        "given": "Maggie",
+        "family": "Ahlrichs",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Craig",
+        "family": "Dobbins",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wei",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5994-707X",
+        "authenticated-orcid": false,
+        "given": "Xinru",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9095-0744",
+        "authenticated-orcid": false,
+        "given": "Danny D.",
+        "family": "Sahtoe",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2560-8907",
+        "authenticated-orcid": false,
+        "given": "Dionne",
+        "family": "Vafeados",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Rubul",
+        "family": "Mout",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Shirin",
+        "family": "Shivaei",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Longxing",
+        "family": "Cao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lauren",
+        "family": "Carter",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4264-5125",
+        "authenticated-orcid": false,
+        "given": "Lance",
+        "family": "Stewart",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jamie B.",
+        "family": "Spangler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3030-7954",
+        "authenticated-orcid": false,
+        "given": "Kole T.",
+        "family": "Roybal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Per Jr",
+        "family": "Greisen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0177-0803",
+        "authenticated-orcid": false,
+        "given": "Xiaochun",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6594-8917",
+        "authenticated-orcid": false,
+        "given": "Gonçalo J. L.",
+        "family": "Bernardes",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4482-2754",
+        "authenticated-orcid": false,
+        "given": "Carolyn R.",
+        "family": "Bertozzi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7896-6217",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Baker",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "7948_CR1",
+        "doi-asserted-by": "crossref",
+        "first-page": "291",
+        "DOI": "10.1038/s41586-020-2545-9",
+        "volume": "584",
+        "author": "SM Banik",
+        "year": "2020",
+        "unstructured": "Banik, S. M. et al. Lysosome-targeting chimaeras for degradation of extracellular proteins. Nature 584, 291–297 (2020).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "7948_CR2",
+        "doi-asserted-by": "crossref",
+        "first-page": "937",
+        "DOI": "10.1038/s41589-021-00770-1",
+        "volume": "17",
+        "author": "G Ahn",
+        "year": "2021",
+        "unstructured": "Ahn, G. et al. LYTACs that engage the asialoglycoprotein receptor for targeted protein degradation. Nat. Chem. Biol. 17, 937–946 (2021).",
+        "journal-title": "Nat. Chem. Biol."
+      },
+      {
+        "key": "7948_CR3",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1038/s41587-022-01456-2",
+        "volume": "41",
+        "author": "K Pance",
+        "year": "2023",
+        "unstructured": "Pance, K. et al. Modular cytokine receptor-targeting chimeras for targeted degradation of cell surface and extracellular proteins. Nat. Biotechnol. 41, 273–281 (2023).",
+        "journal-title": "Nat. Biotechnol."
+      },
+      {
+        "key": "7948_CR4",
+        "doi-asserted-by": "crossref",
+        "first-page": "609",
+        "DOI": "10.1038/nrm2748",
+        "volume": "10",
+        "author": "A Sorkin",
+        "year": "2009",
+        "unstructured": "Sorkin, A. & von Zastrow, M. Endocytosis and signalling: intertwining molecular networks. Nat. Rev. Mol. Cell Biol. 10, 609–622 (2009).",
+        "journal-title": "Nat. Rev. Mol. Cell Biol."
+      },
+      {
+        "key": "7948_CR5",
+        "doi-asserted-by": "crossref",
+        "first-page": "9469",
+        "DOI": "10.1073/pnas.0503879102",
+        "volume": "102",
+        "author": "H Gao",
+        "year": "2005",
+        "unstructured": "Gao, H., Shi, W. & Freund, L. B. Mechanics of receptor-mediated endocytosis. Proc. Natl Acad. Sci. USA 102, 9469–9474 (2005).",
+        "journal-title": "Proc. Natl Acad. Sci. USA"
+      },
+      {
+        "key": "7948_CR6",
+        "doi-asserted-by": "crossref",
+        "first-page": "313",
+        "DOI": "10.1038/nrm.2017.132",
+        "volume": "19",
+        "author": "M Kaksonen",
+        "year": "2018",
+        "unstructured": "Kaksonen, M. & Roux, A. Mechanisms of clathrin-mediated endocytosis. Nat. Rev. Mol. Cell Biol. 19, 313–326 (2018).",
+        "journal-title": "Nat. Rev. Mol. Cell Biol."
+      },
+      {
+        "key": "7948_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harris, L. K. & Westwood, M. Biology and significance of signalling pathways activated by IGF-II. Growth Factors 30, 1–12 (2012).",
+        "DOI": "10.3109/08977194.2011.640325"
+      },
+      {
+        "key": "7948_CR8",
+        "doi-asserted-by": "crossref",
+        "first-page": "eadf6249",
+        "DOI": "10.1126/science.adf6249",
+        "volume": "382",
+        "author": "G Ahn",
+        "year": "2023",
+        "unstructured": "Ahn, G. et al. Elucidating the cellular determinants of targeted membrane protein degradation by lysosome-targeting chimeras. Science 382, eadf6249 (2023).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "7948_CR9",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1038/nrd2399",
+        "volume": "7",
+        "author": "B Leader",
+        "year": "2008",
+        "unstructured": "Leader, B., Baca, Q. J. & Golan, D. E. Protein therapeutics: a summary and pharmacological classification. Nat. Rev. Drug Discov. 7, 21–39 (2008).",
+        "journal-title": "Nat. Rev. Drug Discov."
+      },
+      {
+        "key": "7948_CR10",
+        "doi-asserted-by": "crossref",
+        "first-page": "182",
+        "DOI": "10.1038/s41586-022-05235-6",
+        "volume": "610",
+        "author": "H Marei",
+        "year": "2022",
+        "unstructured": "Marei, H. et al. Antibody targeting of E3 ubiquitin ligases for receptor degradation. Nature 610, 182–189 (2022).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "7948_CR11",
+        "doi-asserted-by": "crossref",
+        "first-page": "593",
+        "DOI": "10.1021/jacs.0c10008",
+        "volume": "143",
+        "author": "AD Cotton",
+        "year": "2021",
+        "unstructured": "Cotton, A. D., Nguyen, D. P., Gramespacher, J. A., Seiple, I. B. & Wells, J. A. Development of antibody-based PROTACs for the degradation of the cell-surface immune checkpoint protein PD-L1. J. Am. Chem. Soc. 143, 593–598 (2021).",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "7948_CR12",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1016/j.tins.2012.01.003",
+        "volume": "35",
+        "author": "A Nykjaer",
+        "year": "2012",
+        "unstructured": "Nykjaer, A. & Willnow, T. E. Sortilin: a receptor to regulate neuronal viability and function. Trends Neurosci. 35, 261–270 (2012).",
+        "journal-title": "Trends Neurosci."
+      },
+      {
+        "key": "7948_CR13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1367",
+        "DOI": "10.1039/C7MT00143F",
+        "volume": "9",
+        "author": "E Gammella",
+        "year": "2017",
+        "unstructured": "Gammella, E., Buratti, P., Cairo, G. & Recalcati, S. The transferrin receptor: the cellular iron gate. Metallomics 9, 1367–1375 (2017).",
+        "journal-title": "Metallomics"
+      },
+      {
+        "key": "7948_CR14",
+        "doi-asserted-by": "crossref",
+        "first-page": "64",
+        "DOI": "10.1523/JNEUROSCI.2371-12.2013",
+        "volume": "33",
+        "author": "C Gustafsen",
+        "year": "2013",
+        "unstructured": "Gustafsen, C. et al. Sortilin and SorLA display distinct roles in processing and trafficking of amyloid precursor protein. J. Neurosci. 33, 64–71 (2013).",
+        "journal-title": "J. Neurosci."
+      },
+      {
+        "key": "7948_CR15",
+        "doi-asserted-by": "crossref",
+        "first-page": "551",
+        "DOI": "10.1038/s41586-022-04654-9",
+        "volume": "605",
+        "author": "L Cao",
+        "year": "2022",
+        "unstructured": "Cao, L. et al. Design of protein binding proteins fromthe target structure alone. Nature 605, 551–560 (2022).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "7948_CR16",
+        "doi-asserted-by": "crossref",
+        "first-page": "426",
+        "DOI": "10.1126/science.abd9909",
+        "volume": "370",
+        "author": "L Cao",
+        "year": "2020",
+        "unstructured": "Cao, L. et al. De novo design of picomolar SARS-CoV-2 miniprotein inhibitors. Science 370, 426–431 (2020).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "7948_CR17",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1038/nature23912",
+        "volume": "550",
+        "author": "A Chevalier",
+        "year": "2017",
+        "unstructured": "Chevalier, A. et al. Massively parallel de novo protein design for targeted therapeutics. Nature 550, 74–79 (2017).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "7948_CR18",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41467-017-01485-5",
+        "volume": "8",
+        "author": "N Leloup",
+        "year": "2017",
+        "unstructured": "Leloup, N. et al. Low pH-induced conformational change and dimerization of sortilin triggers endocytosed ligand release. Nat. Commun. 8, 1708 (2017).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "7948_CR19",
+        "doi-asserted-by": "crossref",
+        "first-page": "539",
+        "DOI": "10.1136/jcp.36.5.539",
+        "volume": "36",
+        "author": "KC Gatter",
+        "year": "1983",
+        "unstructured": "Gatter, K. C., Brown, G., Trowbridge, I. S., Woolston, R. E. & Mason, D. Y. Transferrin receptors in human tissues: their distribution and possible clinical relevance. J. Clin. Pathol. 36, 539–545 (1983).",
+        "journal-title": "J. Clin. Pathol."
+      },
+      {
+        "key": "7948_CR20",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2021569118",
+        "DOI": "10.1073/pnas.2021569118",
+        "volume": "118",
+        "author": "DD Sahtoe",
+        "year": "2021",
+        "unstructured": "Sahtoe, D. D. et al. Transferrin receptor targeting by de novo sheet extension. Proc. Natl Acad. Sci. USA 118, e2021569118 (2021).",
+        "journal-title": "Proc. Natl Acad. Sci. USA"
+      },
+      {
+        "key": "7948_CR21",
+        "doi-asserted-by": "crossref",
+        "first-page": "49",
+        "DOI": "10.1126/science.add2187",
+        "volume": "378",
+        "author": "J Dauparas",
+        "year": "2022",
+        "unstructured": "Dauparas, J. et al. Robust deep learning–based protein sequence design using ProteinMPNN. Science 378, 49–56 (2022).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "7948_CR22",
+        "doi-asserted-by": "crossref",
+        "first-page": "eabj7662",
+        "DOI": "10.1126/science.abj7662",
+        "volume": "375",
+        "author": "DD Sahtoe",
+        "year": "2022",
+        "unstructured": "Sahtoe, D. D. et al. Reconfigurable asymmetric protein assemblies through implicit negative design. Science 375, eabj7662 (2022).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "7948_CR23",
+        "doi-asserted-by": "crossref",
+        "first-page": "eaaz1466",
+        "DOI": "10.1126/sciadv.aaz1466",
+        "volume": "6",
+        "author": "R Wang",
+        "year": "2020",
+        "unstructured": "Wang, R., Qi, X., Schmiege, P., Coutavas, E. & Li, X. Marked structural rearrangement of mannose 6-phosphate/IGF2 receptor at different pH environments. Sci. Adv. 6, eaaz1466 (2020).",
+        "journal-title": "Sci. Adv."
+      },
+      {
+        "key": "7948_CR24",
+        "doi-asserted-by": "crossref",
+        "first-page": "387",
+        "DOI": "10.1126/science.abn2100",
+        "volume": "377",
+        "author": "J Wang",
+        "year": "2022",
+        "unstructured": "Wang, J. et al. Scaffolding protein functional sites using deep learning. Science 377, 387–394 (2022).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "7948_CR25",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1038/s41586-021-03819-2",
+        "volume": "596",
+        "author": "J Jumper",
+        "year": "2021",
+        "unstructured": "Jumper, J. et al. Highly accurate protein structure prediction with AlphaFold. Nature 596, 583–589 (2021).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "7948_CR26",
+        "doi-asserted-by": "crossref",
+        "first-page": "266",
+        "DOI": "10.1038/s41565-021-00858-8",
+        "volume": "16",
+        "author": "JJ Rennick",
+        "year": "2021",
+        "unstructured": "Rennick, J. J., Johnston, A. P. R. & Parton, R. G. Key principles and methods for studying the endocytosis of biological and nanoparticle therapeutics. Nat. Nanotechnol. 16, 266–276 (2021).",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "7948_CR27",
+        "doi-asserted-by": "crossref",
+        "first-page": "679",
+        "DOI": "10.1038/s41580-018-0053-7",
+        "volume": "19",
+        "author": "PJ Cullen",
+        "year": "2018",
+        "unstructured": "Cullen, P. J. & Steinberg, F. To degrade or not to degrade: mechanisms and significance of endocytic recycling. Nat. Rev. Mol. Cell Biol. 19, 679–696 (2018).",
+        "journal-title": "Nat. Rev. Mol. Cell Biol."
+      },
+      {
+        "key": "7948_CR28",
+        "doi-asserted-by": "crossref",
+        "first-page": "16377",
+        "DOI": "10.1021/jacs.1c08521",
+        "volume": "143",
+        "author": "H Zhang",
+        "year": "2021",
+        "unstructured": "Zhang, H. et al. Covalently engineered nanobody chimeras for targeted membrane protein degradation. J. Am. Chem. Soc. 143, 16377–16382 (2021).",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "7948_CR29",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1038/s41576-021-00439-4",
+        "volume": "23",
+        "author": "K Paunovska",
+        "year": "2022",
+        "unstructured": "Paunovska, K., Loughrey, D. & Dahlman, J. E. Drug delivery systems for RNA therapeutics. Nat. Rev. Genet. 23, 265–280 (2022).",
+        "journal-title": "Nat. Rev. Genet."
+      },
+      {
+        "key": "7948_CR30",
+        "doi-asserted-by": "crossref",
+        "first-page": "612",
+        "DOI": "10.1016/j.tibs.2009.07.003",
+        "volume": "34",
+        "author": "J Brown",
+        "year": "2009",
+        "unstructured": "Brown, J., Jones, E. Y. & Forbes, B. E. Keeping IGF-II under control: Lessons from the IGF-II–IGF2R crystal structure. Trends Biochem. Sci 34, 612–619 (2009).",
+        "journal-title": "Trends Biochem. Sci"
+      },
+      {
+        "key": "7948_CR31",
+        "doi-asserted-by": "crossref",
+        "first-page": "169",
+        "DOI": "10.1038/nrc2088",
+        "volume": "7",
+        "author": "SV Sharma",
+        "year": "2007",
+        "unstructured": "Sharma, S. V., Bell, D. W., Settleman, J. & Haber, D. A. Epidermal growth factor receptor mutations in lung cancer. Nat. Rev. Cancer 7, 169–181 (2007).",
+        "journal-title": "Nat. Rev. Cancer"
+      },
+      {
+        "key": "7948_CR32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1540",
+        "DOI": "10.1158/1078-0432.CCR-06-1887",
+        "volume": "13",
+        "author": "P Steiner",
+        "year": "2007",
+        "unstructured": "Steiner, P. et al. Tumor growth inhibition with cetuximab and chemotherapy in non–small cell lung cancer xenografts expressing wild-type and mutated epidermal growth factor receptor. Clin. Cancer Res. 13, 1540–1551 (2007).",
+        "journal-title": "Clin. Cancer Res."
+      },
+      {
+        "key": "7948_CR33",
+        "doi-asserted-by": "crossref",
+        "first-page": "345",
+        "DOI": "10.1038/s41571-021-00473-5",
+        "volume": "18",
+        "author": "DB Doroshow",
+        "year": "2021",
+        "unstructured": "Doroshow, D. B. et al. PD-L1 as a biomarker of response to immune-checkpoint inhibitors. Nat. Rev. Clin. Oncol. 18, 345–362 (2021).",
+        "journal-title": "Nat. Rev. Clin. Oncol."
+      },
+      {
+        "key": "7948_CR34",
+        "doi-asserted-by": "crossref",
+        "first-page": "277",
+        "DOI": "10.3389/fonc.2018.00277",
+        "volume": "8",
+        "author": "R Ryu",
+        "year": "2018",
+        "unstructured": "Ryu, R. & Ward, K. E. Atezolizumab for the first-line treatment of non-small cell lung cancer (NSCLC): current status and future prospects. Front. Oncol. 8, 277 (2018).",
+        "journal-title": "Front. Oncol."
+      },
+      {
+        "key": "7948_CR35",
+        "doi-asserted-by": "crossref",
+        "first-page": "252",
+        "DOI": "10.1038/nrc3239",
+        "volume": "12",
+        "author": "DM Pardoll",
+        "year": "2012",
+        "unstructured": "Pardoll, D. M. The blockade of immune checkpoints in cancer immunotherapy. Nat. Rev. Cancer 12, 252–264 (2012).",
+        "journal-title": "Nat. Rev. Cancer"
+      },
+      {
+        "key": "7948_CR36",
+        "doi-asserted-by": "crossref",
+        "first-page": "852",
+        "DOI": "10.1038/nri3108",
+        "volume": "11",
+        "author": "LSK Walker",
+        "year": "2011",
+        "unstructured": "Walker, L. S. K. & Sansom, D. M. The emerging role of CTLA4 as a cell-extrinsic regulator of T cell responses. Nat. Rev. Immunol. 11, 852–863 (2011).",
+        "journal-title": "Nat. Rev. Immunol."
+      },
+      {
+        "key": "7948_CR37",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Yang, W. et al. Design of high affinity binders to convex protein target sites. Preprint at bioRxiv https://doi.org/10.1101/2024.05.01.592114 (2024).",
+        "DOI": "10.1101/2024.05.01.592114"
+      },
+      {
+        "key": "7948_CR38",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Piraner, D. I. et al. Engineered receptors for soluble cell-to-cell communication. Preprint at bioRxiv https://doi.org/10.1101/2024.09.17.613377 (2024).",
+        "DOI": "10.1101/2024.09.17.613377"
+      },
+      {
+        "key": "7948_CR39",
+        "doi-asserted-by": "crossref",
+        "first-page": "491",
+        "DOI": "10.1038/ncprheum0895",
+        "volume": "4",
+        "author": "K Elkon",
+        "year": "2008",
+        "unstructured": "Elkon, K. & Casali, P. Nature and functions of autoantibodies. Nat. Clin. Pract. Rheumatol. 4, 491–498 (2008).",
+        "journal-title": "Nat. Clin. Pract. Rheumatol."
+      },
+      {
+        "key": "7948_CR40",
+        "doi-asserted-by": "crossref",
+        "first-page": "2589",
+        "DOI": "10.4049/jimmunol.135.4.2589",
+        "volume": "135",
+        "author": "B Akerström",
+        "year": "1985",
+        "unstructured": "Akerström, B., Brodin, T., Reis, K. & Björck, L. Protein G: a powerful tool for binding and detection of monoclonal and polyclonal antibodies. J. Immunol. 135, 2589–2592 (1985).",
+        "journal-title": "J. Immunol."
+      },
+      {
+        "key": "7948_CR41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1637",
+        "DOI": "10.1126/science.aba6527",
+        "volume": "369",
+        "author": "MJ Lajoie",
+        "year": "2020",
+        "unstructured": "Lajoie, M. J. et al. Designed protein logic to target cells with precise combinations of surface antigens. Science 369, 1637–1643 (2020).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "7948_CR42",
+        "doi-asserted-by": "crossref",
+        "first-page": "205",
+        "DOI": "10.1038/s41586-019-1432-8",
+        "volume": "572",
+        "author": "RA Langan",
+        "year": "2019",
+        "unstructured": "Langan, R. A. et al. De novo design of bioactive protein switches. Nature 572, 205–210 (2019).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "7948_CR43",
+        "doi-asserted-by": "crossref",
+        "first-page": "774",
+        "DOI": "10.1038/s41586-023-05696-3",
+        "volume": "614",
+        "author": "AH-W Yeh",
+        "year": "2023",
+        "unstructured": "Yeh, A. H.-W. et al. De novo design of luciferases using deep learning. Nature 614, 774–780 (2023).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "7948_CR44",
+        "doi-asserted-by": "crossref",
+        "first-page": "186",
+        "DOI": "10.1038/s41586-018-0830-7",
+        "volume": "565",
+        "author": "D-A Silva",
+        "year": "2019",
+        "unstructured": "Silva, D.-A. et al. De novo design of potent and selective mimics of IL-2 and IL-15. Nature 565, 186–191 (2019).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "7948_CR45",
+        "doi-asserted-by": "crossref",
+        "first-page": "17615",
+        "DOI": "10.1073/pnas.0906541106",
+        "volume": "106",
+        "author": "JE Murphy",
+        "year": "2009",
+        "unstructured": "Murphy, J. E., Padilla, B. E., Hasdemir, B., Cottrell, G. S. & Bunnett, N. W. Endosomes: a legitimate platform for the signaling train. Proc. Natl Acad. Sci. USA 106, 17615–17622 (2009).",
+        "journal-title": "Proc. Natl Acad. Sci. USA"
+      },
+      {
+        "key": "7948_CR46",
+        "doi-asserted-by": "crossref",
+        "first-page": "1759",
+        "DOI": "10.1016/j.ymthe.2020.06.015",
+        "volume": "28",
+        "author": "AJ Debacker",
+        "year": "2020",
+        "unstructured": "Debacker, A. J., Voutila, J., Catley, M., Blakey, D. & Habib, N. Delivery of oligonucleotides to the liver with GalNAc: from research to registered therapeutic drug. Mol. Ther. 28, 1759–1771 (2020).",
+        "journal-title": "Mol. Ther."
+      },
+      {
+        "key": "7948_CR47",
+        "unstructured": "Neoleukin Therapeutics. Neoleukin Therapeutics Announces Third Quarter 2022 Financial Results and Corporate Update. GlobeNewswire https://www.globenewswire.com/en/news-release/2022/11/14/2555436/0/en/Neoleukin-Therapeutics-Announces-Third-Quarter-2022-Financial-Results-and-Corporate-Update.html (2022)."
+      },
+      {
+        "key": "7948_CR48",
+        "doi-asserted-by": "crossref",
+        "first-page": "1291",
+        "DOI": "10.1002/pro.2512",
+        "volume": "23",
+        "author": "EM Quistgaard",
+        "year": "2014",
+        "unstructured": "Quistgaard, E. M. et al. Revisiting the structure of the Vps10 domain of human sortilin and its interaction with neurotensin. Protein Sci. 23, 1291–1300 (2014).",
+        "journal-title": "Protein Sci."
+      },
+      {
+        "key": "7948_CR49",
+        "doi-asserted-by": "crossref",
+        "first-page": "565",
+        "DOI": "10.1016/S0092-8674(04)00130-8",
+        "volume": "116",
+        "author": "Y Cheng",
+        "year": "2004",
+        "unstructured": "Cheng, Y., Zak, O., Aisen, P., Harrison, S. C. & Walz, T. Structure of the human transferrin receptor–transferrin complex. Cell 116, 565–576 (2004).",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "7948_CR50",
+        "doi-asserted-by": "crossref",
+        "first-page": "e4726",
+        "DOI": "10.1002/pro.4726",
+        "volume": "32",
+        "author": "P Greisen Jr",
+        "year": "2023",
+        "unstructured": "Greisen, P. Jr et al. Computational design of N-linked glycans for high throughput epitope profiling. Protein Sci. 32, e4726 (2023).",
+        "journal-title": "Protein Sci."
+      },
+      {
+        "key": "7948_CR51",
+        "doi-asserted-by": "crossref",
+        "first-page": "2785",
+        "DOI": "10.1110/ps.062353106",
+        "volume": "15",
+        "author": "A Zanghellini",
+        "year": "2006",
+        "unstructured": "Zanghellini, A. et al. New algorithms and an in silico benchmark for computational enzyme design. Protein Sci. 15, 2785–2794 (2006).",
+        "journal-title": "Protein Sci."
+      },
+      {
+        "key": "7948_CR52",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Huang, B. Designed endocytosis inducing proteins degrade targets and amplify signals. Zenodo https://doi.org/10.5281/zenodo.11002950 (2024).",
+        "DOI": "10.5281/zenodo.11002950"
+      }
+    ],
+    "container-title": [
+      "Nature"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41586-024-07948-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41586-024-07948-2",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41586-024-07948-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          19
+        ]
+      ],
+      "date-time": "2025-02-19T14:16:57Z",
+      "timestamp": 1739974617000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41586-024-07948-2"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          25
+        ]
+      ]
+    },
+    "references-count": 52,
+    "journal-issue": {
+      "issue": "8051",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            20
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "7948"
+    ],
+    "URL": "https://doi.org/10.1038/s41586-024-07948-2",
+    "relation": {},
+    "ISSN": [
+      "0028-0836",
+      "1476-4687"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0028-0836"
+      },
+      {
+        "type": "electronic",
+        "value": "1476-4687"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          25
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "20 June 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "13 August 2024",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "25 September 2024",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "B.H., M. Abedi, G.A., I.S., L.S. and D.B. are co-inventors on a provisional patent application that incorporates discoveries described in this manuscript. B.C., I.G., J.O., P.G., L.S. and D.B. are co-inventors on a provisional patent application that incorporates discoveries described in this manuscript.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2744 @@
+{
+  "doi": "10.1103/prxquantum.6.020306",
+  "openalex": {
+    "id": "https://openalex.org/W4409264143",
+    "doi": "https://doi.org/10.1103/prxquantum.6.020306",
+    "title": "Quantum Adiabatic Optimization with Rydberg Arrays: Localization Phenomena and Encoding Strategies",
+    "display_name": "Quantum Adiabatic Optimization with Rydberg Arrays: Localization Phenomena and Encoding Strategies",
+    "publication_year": 2025,
+    "publication_date": "2025-04-08",
+    "ids": {
+      "openalex": "https://openalex.org/W4409264143",
+      "doi": "https://doi.org/10.1103/prxquantum.6.020306"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1103/prxquantum.6.020306",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1103/prxquantum.6.020306",
+      "pdf_url": "http://link.aps.org/pdf/10.1103/PRXQuantum.6.020306",
+      "source": {
+        "id": "https://openalex.org/S4210195673",
+        "display_name": "PRX Quantum",
+        "issn_l": "2691-3399",
+        "issn": [
+          "2691-3399"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PRX Quantum",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "http://link.aps.org/pdf/10.1103/PRXQuantum.6.020306",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5114658055",
+          "display_name": "Lisa Bombieri",
+          "orcid": "https://orcid.org/0009-0009-5042-2897"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I138211613",
+            "display_name": "Austrian Academy of Sciences",
+            "ror": "https://ror.org/03anc3s24",
+            "country_code": "AT",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I138211613"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I190249584",
+            "display_name": "Universität Innsbruck",
+            "ror": "https://ror.org/054pv6659",
+            "country_code": "AT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I190249584"
+            ]
+          }
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lisa Bombieri",
+        "raw_affiliation_strings": [
+          "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences",
+          "University of Innsbruck"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences",
+            "institution_ids": [
+              "https://openalex.org/I138211613"
+            ]
+          },
+          {
+            "raw_affiliation_string": "University of Innsbruck",
+            "institution_ids": [
+              "https://openalex.org/I190249584"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5033006403",
+          "display_name": "Zhongda Zeng",
+          "orcid": "https://orcid.org/0000-0002-9139-5014"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I138211613",
+            "display_name": "Austrian Academy of Sciences",
+            "ror": "https://ror.org/03anc3s24",
+            "country_code": "AT",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I138211613"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I190249584",
+            "display_name": "Universität Innsbruck",
+            "ror": "https://ror.org/054pv6659",
+            "country_code": "AT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I190249584"
+            ]
+          }
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhongda Zeng",
+        "raw_affiliation_strings": [
+          "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences",
+          "University of Innsbruck"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences",
+            "institution_ids": [
+              "https://openalex.org/I138211613"
+            ]
+          },
+          {
+            "raw_affiliation_string": "University of Innsbruck",
+            "institution_ids": [
+              "https://openalex.org/I190249584"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5022942560",
+          "display_name": "Roberto Tricarico",
+          "orcid": "https://orcid.org/0000-0003-2254-4407"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I138211613",
+            "display_name": "Austrian Academy of Sciences",
+            "ror": "https://ror.org/03anc3s24",
+            "country_code": "AT",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I138211613"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I190249584",
+            "display_name": "Universität Innsbruck",
+            "ror": "https://ror.org/054pv6659",
+            "country_code": "AT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I190249584"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210149489",
+            "display_name": "Scuola Superiore Meridionale",
+            "ror": "https://ror.org/04swxte59",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210149489"
+            ]
+          }
+        ],
+        "countries": [
+          "AT",
+          "IT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Roberto Tricarico",
+        "raw_affiliation_strings": [
+          "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences",
+          "Scuola Superiore Meridionale",
+          "University of Innsbruck"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Innsbruck",
+            "institution_ids": [
+              "https://openalex.org/I190249584"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Scuola Superiore Meridionale",
+            "institution_ids": [
+              "https://openalex.org/I4210149489"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences",
+            "institution_ids": [
+              "https://openalex.org/I138211613"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5066868064",
+          "display_name": "Rui Lin",
+          "orcid": "https://orcid.org/0000-0001-9560-7187"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4400600918",
+            "display_name": "Quantum Science Center of Guangdong-Hong Kong-Macao Greater Bay Area",
+            "ror": "https://ror.org/03qb6k992",
+            "country_code": null,
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4400600918"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I138211613",
+            "display_name": "Austrian Academy of Sciences",
+            "ror": "https://ror.org/03anc3s24",
+            "country_code": "AT",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I138211613"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I190249584",
+            "display_name": "Universität Innsbruck",
+            "ror": "https://ror.org/054pv6659",
+            "country_code": "AT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I190249584"
+            ]
+          }
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rui Lin",
+        "raw_affiliation_strings": [
+          "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences",
+          "Quantum Science Center of Guangdong-Hong Kong-Macao Greater Bay Area",
+          "University of Innsbruck"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Innsbruck",
+            "institution_ids": [
+              "https://openalex.org/I190249584"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences",
+            "institution_ids": [
+              "https://openalex.org/I138211613"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Quantum Science Center of Guangdong-Hong Kong-Macao Greater Bay Area",
+            "institution_ids": [
+              "https://openalex.org/I4400600918"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5083277095",
+          "display_name": "Simone Notarnicola",
+          "orcid": "https://orcid.org/0000-0001-8364-6330"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I160013858",
+            "display_name": "Istituto Nazionale di Fisica Nucleare",
+            "ror": "https://ror.org/005ta0471",
+            "country_code": "IT",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I160013858"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210105455",
+            "display_name": "Istituto Nazionale di Fisica Nucleare, Sezione di Padova",
+            "ror": "https://ror.org/00z34yn88",
+            "country_code": "IT",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I160013858",
+              "https://openalex.org/I4210105455"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I138689650",
+            "display_name": "University of Padua",
+            "ror": "https://ror.org/00240q980",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138689650"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2801851002",
+            "display_name": "Harvard University Press",
+            "ror": "https://ror.org/006v7bf86",
+            "country_code": "US",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I136199984",
+              "https://openalex.org/I2801851002"
+            ]
+          }
+        ],
+        "countries": [
+          "IT",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Simone Notarnicola",
+        "raw_affiliation_strings": [
+          "Harvard University",
+          "Istituto Nazionale di Fisica Nucleare (INFN), Sezione di Padova",
+          "Università degli Studi di Padova"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Università degli Studi di Padova",
+            "institution_ids": [
+              "https://openalex.org/I138689650"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Harvard University",
+            "institution_ids": [
+              "https://openalex.org/I2801851002"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Istituto Nazionale di Fisica Nucleare (INFN), Sezione di Padova",
+            "institution_ids": [
+              "https://openalex.org/I160013858",
+              "https://openalex.org/I4210105455"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5027422363",
+          "display_name": "Madelyn Cain",
+          "orcid": "https://orcid.org/0000-0002-5298-3112"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801851002",
+            "display_name": "Harvard University Press",
+            "ror": "https://ror.org/006v7bf86",
+            "country_code": "US",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I136199984",
+              "https://openalex.org/I2801851002"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Madelyn Cain",
+        "raw_affiliation_strings": [
+          "Harvard University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Harvard University",
+            "institution_ids": [
+              "https://openalex.org/I2801851002"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5105695751",
+          "display_name": "Mikhail D. Lukin",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2801851002",
+            "display_name": "Harvard University Press",
+            "ror": "https://ror.org/006v7bf86",
+            "country_code": "US",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I136199984",
+              "https://openalex.org/I2801851002"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mikhail D. Lukin",
+        "raw_affiliation_strings": [
+          "Harvard University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Harvard University",
+            "institution_ids": [
+              "https://openalex.org/I2801851002"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5041692282",
+          "display_name": "Hannes Pichler",
+          "orcid": "https://orcid.org/0000-0003-2144-536X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I138211613",
+            "display_name": "Austrian Academy of Sciences",
+            "ror": "https://ror.org/03anc3s24",
+            "country_code": "AT",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I138211613"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I190249584",
+            "display_name": "Universität Innsbruck",
+            "ror": "https://ror.org/054pv6659",
+            "country_code": "AT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I190249584"
+            ]
+          }
+        ],
+        "countries": [
+          "AT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hannes Pichler",
+        "raw_affiliation_strings": [
+          "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences",
+          "University of Innsbruck"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences",
+            "institution_ids": [
+              "https://openalex.org/I138211613"
+            ]
+          },
+          {
+            "raw_affiliation_string": "University of Innsbruck",
+            "institution_ids": [
+              "https://openalex.org/I190249584"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 3450,
+      "currency": "USD",
+      "value_usd": 3450
+    },
+    "apc_paid": {
+      "value": 3450,
+      "currency": "USD",
+      "value_usd": 3450
+    },
+    "fwci": 28.91847088,
+    "has_fulltext": false,
+    "cited_by_count": 6,
+    "citation_normalized_percentile": {
+      "value": 0.99411219,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "6",
+      "issue": "2",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10682",
+      "display_name": "Quantum Computing Algorithms and Architecture",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10682",
+        "display_name": "Quantum Computing Algorithms and Architecture",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10020",
+        "display_name": "Quantum Information and Cryptography",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10382",
+        "display_name": "Quantum and electron transport phenomena",
+        "score": 0.9957000017166138,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/adiabatic-process",
+        "display_name": "Adiabatic process",
+        "score": 0.7872272729873657
+      },
+      {
+        "id": "https://openalex.org/keywords/rydberg-formula",
+        "display_name": "Rydberg formula",
+        "score": 0.7322028875350952
+      },
+      {
+        "id": "https://openalex.org/keywords/encoding",
+        "display_name": "Encoding (memory)",
+        "score": 0.6303825378417969
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum",
+        "display_name": "Quantum",
+        "score": 0.5904847383499146
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.5307108163833618
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-mechanics",
+        "display_name": "Quantum mechanics",
+        "score": 0.3792596161365509
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.35719478130340576
+      },
+      {
+        "id": "https://openalex.org/keywords/statistical-physics",
+        "display_name": "Statistical physics",
+        "score": 0.3430100679397583
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.1424034833908081
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C109663097",
+        "wikidata": "https://www.wikidata.org/wiki/Q182453",
+        "display_name": "Adiabatic process",
+        "level": 2,
+        "score": 0.7872272729873657
+      },
+      {
+        "id": "https://openalex.org/C70747811",
+        "wikidata": "https://www.wikidata.org/wiki/Q661248",
+        "display_name": "Rydberg formula",
+        "level": 4,
+        "score": 0.7322028875350952
+      },
+      {
+        "id": "https://openalex.org/C125411270",
+        "wikidata": "https://www.wikidata.org/wiki/Q18653",
+        "display_name": "Encoding (memory)",
+        "level": 2,
+        "score": 0.6303825378417969
+      },
+      {
+        "id": "https://openalex.org/C84114770",
+        "wikidata": "https://www.wikidata.org/wiki/Q46344",
+        "display_name": "Quantum",
+        "level": 2,
+        "score": 0.5904847383499146
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.5307108163833618
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.3792596161365509
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.35719478130340576
+      },
+      {
+        "id": "https://openalex.org/C121864883",
+        "wikidata": "https://www.wikidata.org/wiki/Q677916",
+        "display_name": "Statistical physics",
+        "level": 1,
+        "score": 0.3430100679397583
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.1424034833908081
+      },
+      {
+        "id": "https://openalex.org/C145148216",
+        "wikidata": "https://www.wikidata.org/wiki/Q36496",
+        "display_name": "Ion",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C198291218",
+        "wikidata": "https://www.wikidata.org/wiki/Q190382",
+        "display_name": "Ionization",
+        "level": 3,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1103/prxquantum.6.020306",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1103/prxquantum.6.020306",
+        "pdf_url": "http://link.aps.org/pdf/10.1103/PRXQuantum.6.020306",
+        "source": {
+          "id": "https://openalex.org/S4210195673",
+          "display_name": "PRX Quantum",
+          "issn_l": "2691-3399",
+          "issn": [
+            "2691-3399"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_name": "American Physical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PRX Quantum",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:eb9d241add364153acebfedbad03029d",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/eb9d241add364153acebfedbad03029d",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "PRX Quantum, Vol 6, Iss 2, p 020306 (2025)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:osti.gov:2551906",
+        "is_oa": true,
+        "landing_page_url": "https://www.osti.gov/biblio/2551906",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1103/prxquantum.6.020306",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1103/prxquantum.6.020306",
+      "pdf_url": "http://link.aps.org/pdf/10.1103/PRXQuantum.6.020306",
+      "source": {
+        "id": "https://openalex.org/S4210195673",
+        "display_name": "PRX Quantum",
+        "issn_l": "2691-3399",
+        "issn": [
+          "2691-3399"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320261",
+        "host_organization_name": "American Physical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320261"
+        ],
+        "host_organization_lineage_names": [
+          "American Physical Society"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PRX Quantum",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G3977909978",
+        "display_name": null,
+        "funder_award_id": "101059826",
+        "funder_id": "https://openalex.org/F4320338337",
+        "funder_display_name": "H2020 Marie Skłodowska-Curie Actions"
+      },
+      {
+        "id": "https://openalex.org/G5882010004",
+        "display_name": null,
+        "funder_award_id": "101041435",
+        "funder_id": "https://openalex.org/F4320334678",
+        "funder_display_name": "European Research Council"
+      },
+      {
+        "id": "https://openalex.org/G7689679561",
+        "display_name": null,
+        "funder_award_id": "10.55776/COE1",
+        "funder_id": "https://openalex.org/F4320321181",
+        "funder_display_name": "Austrian Science Fund"
+      },
+      {
+        "id": "https://openalex.org/G7368046788",
+        "display_name": null,
+        "funder_award_id": "DE-AC02-05CH11231",
+        "funder_id": "https://openalex.org/F4320306084",
+        "funder_display_name": "U.S. Department of Energy"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306084",
+        "display_name": "U.S. Department of Energy",
+        "ror": "https://ror.org/01bj3aw27"
+      },
+      {
+        "id": "https://openalex.org/F4320321181",
+        "display_name": "Austrian Science Fund",
+        "ror": "https://ror.org/013tf3c58"
+      },
+      {
+        "id": "https://openalex.org/F4320321966",
+        "display_name": "Università degli Studi di Padova",
+        "ror": "https://ror.org/00240q980"
+      },
+      {
+        "id": "https://openalex.org/F4320334678",
+        "display_name": "European Research Council",
+        "ror": "https://ror.org/0472cxd90"
+      },
+      {
+        "id": "https://openalex.org/F4320338337",
+        "display_name": "H2020 Marie Skłodowska-Curie Actions",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "referenced_works_count": 95,
+    "referenced_works": [
+      "https://openalex.org/W2024860775",
+      "https://openalex.org/W3016670097",
+      "https://openalex.org/W3015667706",
+      "https://openalex.org/W2889426946",
+      "https://openalex.org/W2564229214",
+      "https://openalex.org/W2039122980",
+      "https://openalex.org/W1983624953",
+      "https://openalex.org/W2105614108",
+      "https://openalex.org/W174492123",
+      "https://openalex.org/W3014405689",
+      "https://openalex.org/W4225417080",
+      "https://openalex.org/W4224254118",
+      "https://openalex.org/W4283166430",
+      "https://openalex.org/W4284967091",
+      "https://openalex.org/W4405990640",
+      "https://openalex.org/W4320724826",
+      "https://openalex.org/W3046256223",
+      "https://openalex.org/W4379548619",
+      "https://openalex.org/W4386169384",
+      "https://openalex.org/W4394568185",
+      "https://openalex.org/W4406230449",
+      "https://openalex.org/W2074078071",
+      "https://openalex.org/W2063572899",
+      "https://openalex.org/W3212402044",
+      "https://openalex.org/W2548871540",
+      "https://openalex.org/W2552781946",
+      "https://openalex.org/W2897056045",
+      "https://openalex.org/W4214834159",
+      "https://openalex.org/W4400977539",
+      "https://openalex.org/W4400023465",
+      "https://openalex.org/W2158000927",
+      "https://openalex.org/W2967514345",
+      "https://openalex.org/W2999503564",
+      "https://openalex.org/W4225259930",
+      "https://openalex.org/W4225985538",
+      "https://openalex.org/W4387542025",
+      "https://openalex.org/W4387903056",
+      "https://openalex.org/W4389373471",
+      "https://openalex.org/W4402772753",
+      "https://openalex.org/W2099277972",
+      "https://openalex.org/W2999029452",
+      "https://openalex.org/W2415554263",
+      "https://openalex.org/W2735457220",
+      "https://openalex.org/W2890999059",
+      "https://openalex.org/W3117010896",
+      "https://openalex.org/W3117469420",
+      "https://openalex.org/W3115562073",
+      "https://openalex.org/W3216297445",
+      "https://openalex.org/W4317242242",
+      "https://openalex.org/W4386283073",
+      "https://openalex.org/W2014586701",
+      "https://openalex.org/W2066655722",
+      "https://openalex.org/W2067812234",
+      "https://openalex.org/W2089974384",
+      "https://openalex.org/W1998854236",
+      "https://openalex.org/W2001830753",
+      "https://openalex.org/W2037768897",
+      "https://openalex.org/W2016407890",
+      "https://openalex.org/W2084546468",
+      "https://openalex.org/W1971614498",
+      "https://openalex.org/W2118676987",
+      "https://openalex.org/W1992963946",
+      "https://openalex.org/W2002598362",
+      "https://openalex.org/W2246554861",
+      "https://openalex.org/W3080741966",
+      "https://openalex.org/W2012631176",
+      "https://openalex.org/W3217200109",
+      "https://openalex.org/W2089148105",
+      "https://openalex.org/W2007375552",
+      "https://openalex.org/W4230053572",
+      "https://openalex.org/W4392702148",
+      "https://openalex.org/W1998207681",
+      "https://openalex.org/W2071702387",
+      "https://openalex.org/W4234290203",
+      "https://openalex.org/W2488616581",
+      "https://openalex.org/W2937049145",
+      "https://openalex.org/W2122816100",
+      "https://openalex.org/W2010492822",
+      "https://openalex.org/W2572028881",
+      "https://openalex.org/W2033909248",
+      "https://openalex.org/W2032367804",
+      "https://openalex.org/W2061352908",
+      "https://openalex.org/W2048998836",
+      "https://openalex.org/W3103406660",
+      "https://openalex.org/W3097905463",
+      "https://openalex.org/W3129404680",
+      "https://openalex.org/W3100255539",
+      "https://openalex.org/W3103713775",
+      "https://openalex.org/W3171893267",
+      "https://openalex.org/W639830787",
+      "https://openalex.org/W3101001549",
+      "https://openalex.org/W3180039530",
+      "https://openalex.org/W3103634851",
+      "https://openalex.org/W3104354927",
+      "https://openalex.org/W3129110052"
+    ],
+    "related_works": [
+      "https://openalex.org/W1668379956",
+      "https://openalex.org/W1966566486",
+      "https://openalex.org/W2044747645",
+      "https://openalex.org/W2050322656",
+      "https://openalex.org/W2002119221",
+      "https://openalex.org/W1676900334",
+      "https://openalex.org/W4210364552",
+      "https://openalex.org/W2181221757",
+      "https://openalex.org/W2296687524",
+      "https://openalex.org/W2787894091"
+    ],
+    "abstract_inverted_index": {
+      "Quantum": [
+        0,
+        105
+      ],
+      "adiabatic": [
+        1,
+        83,
+        146,
+        241
+      ],
+      "optimization": [
+        2,
+        114,
+        217
+      ],
+      "seeks": [
+        3
+      ],
+      "to": [
+        4,
+        17,
+        40,
+        70,
+        112,
+        182,
+        214,
+        235,
+        256
+      ],
+      "solve": [
+        5
+      ],
+      "combinatorial": [
+        6
+      ],
+      "problems": [
+        7,
+        115,
+        259
+      ],
+      "using": [
+        8
+      ],
+      "quantum": [
+        9,
+        35,
+        76,
+        176,
+        231,
+        251,
+        261
+      ],
+      "dynamics,": [
+        10
+      ],
+      "requiring": [
+        11
+      ],
+      "the": [
+        12,
+        15,
+        20,
+        31,
+        42,
+        50,
+        75,
+        79,
+        82,
+        93,
+        97,
+        126,
+        136,
+        139,
+        150,
+        159,
+        187,
+        192,
+        206,
+        211,
+        215,
+        225,
+        240,
+        245
+      ],
+      "Hamiltonian": [
+        13
+      ],
+      "of": [
+        14,
+        22,
+        34,
+        81,
+        96,
+        138,
+        186,
+        209,
+        224,
+        248
+      ],
+      "system": [
+        16,
+        143
+      ],
+      "align": [
+        18
+      ],
+      "with": [
+        19,
+        30,
+        54,
+        142
+      ],
+      "problem": [
+        21,
+        44,
+        64,
+        152,
+        161
+      ],
+      "interest.": [
+        23
+      ],
+      "However,": [
+        24
+      ],
+      "these": [
+        25
+      ],
+      "Hamiltonians": [
+        26
+      ],
+      "are": [
+        27
+      ],
+      "often": [
+        28
+      ],
+      "incompatible": [
+        29
+      ],
+      "native": [
+        32
+      ],
+      "constraints": [
+        33
+      ],
+      "hardware,": [
+        36
+      ],
+      "necessitating": [
+        37
+      ],
+      "encoding": [
+        38,
+        98,
+        132,
+        226
+      ],
+      "strategies": [
+        39,
+        255
+      ],
+      "map": [
+        41,
+        113
+      ],
+      "original": [
+        43,
+        151
+      ],
+      "into": [
+        45,
+        120
+      ],
+      "a": [
+        46,
+        175
+      ],
+      "hardware-conformant": [
+        47
+      ],
+      "form.": [
+        48
+      ],
+      "While": [
+        49
+      ],
+      "classical": [
+        51,
+        258
+      ],
+      "overhead": [
+        52,
+        73
+      ],
+      "associated": [
+        53
+      ],
+      "such": [
+        55,
+        200
+      ],
+      "mappings": [
+        56
+      ],
+      "is": [
+        57,
+        67,
+        110,
+        153
+      ],
+      "easily": [
+        58
+      ],
+      "quantifiable": [
+        59
+      ],
+      "and": [
+        60,
+        134,
+        202,
+        233
+      ],
+      "typically": [
+        61
+      ],
+      "polynomial": [
+        62
+      ],
+      "in": [
+        63,
+        101,
+        239
+      ],
+      "size,": [
+        65
+      ],
+      "it": [
+        66
+      ],
+      "much": [
+        68
+      ],
+      "harder": [
+        69
+      ],
+      "quantify": [
+        71
+      ],
+      "their": [
+        72
+      ],
+      "on": [
+        74,
+        92,
+        116,
+        205
+      ],
+      "algorithm,": [
+        77
+      ],
+      "e.g.,": [
+        78
+      ],
+      "transformation": [
+        80
+      ],
+      "timescale.": [
+        84
+      ],
+      "In": [
+        85
+      ],
+      "this": [
+        86,
+        90,
+        131,
+        172,
+        230
+      ],
+      "work,": [
+        87
+      ],
+      "we": [
+        88,
+        156,
+        198,
+        220
+      ],
+      "address": [
+        89
+      ],
+      "challenge": [
+        91
+      ],
+      "concrete": [
+        94
+      ],
+      "example": [
+        95
+      ],
+      "scheme": [
+        99,
+        133,
+        227
+      ],
+      "proposed": [
+        100
+      ],
+      "[Nguyen": [
+        102
+      ],
+      ",": [
+        103,
+        106
+      ],
+      "PRX": [
+        104
+      ],
+      "010316": [
+        107
+      ],
+      "(2023)],": [
+        108
+      ],
+      "which": [
+        109,
+        179
+      ],
+      "designed": [
+        111
+      ],
+      "arbitrarily": [
+        117
+      ],
+      "connected": [
+        118
+      ],
+      "graphs": [
+        119
+      ],
+      "Rydberg": [
+        121
+      ],
+      "atom": [
+        122,
+        196
+      ],
+      "arrays.": [
+        123
+      ],
+      "We": [
+        124,
+        169
+      ],
+      "consider": [
+        125
+      ],
+      "fundamental": [
+        127
+      ],
+      "building": [
+        128
+      ],
+      "blocks": [
+        129
+      ],
+      "underlying": [
+        130
+      ],
+      "determine": [
+        135
+      ],
+      "scaling": [
+        137
+      ],
+      "minimum": [
+        140,
+        167
+      ],
+      "gap": [
+        141
+      ],
+      "size": [
+        144
+      ],
+      "along": [
+        145
+      ],
+      "protocols.": [
+        147
+      ],
+      "Even": [
+        148
+      ],
+      "when": [
+        149,
+        253
+      ],
+      "trivially": [
+        154
+      ],
+      "solvable,": [
+        155
+      ],
+      "find": [
+        157
+      ],
+      "that": [
+        158,
+        171,
+        228
+      ],
+      "encoded": [
+        160,
+        216
+      ],
+      "can": [
+        162
+      ],
+      "exhibit": [
+        163
+      ],
+      "an": [
+        164,
+        183,
+        236
+      ],
+      "exponentially": [
+        165
+      ],
+      "closing": [
+        166
+      ],
+      "gap.": [
+        168
+      ],
+      "show": [
+        170
+      ],
+      "originates": [
+        173
+      ],
+      "from": [
+        174
+      ],
+      "coherent": [
+        177
+      ],
+      "effect,": [
+        178
+      ],
+      "gives": [
+        180
+      ],
+      "rise": [
+        181
+      ],
+      "unfavorable": [
+        184
+      ],
+      "localization": [
+        185,
+        201
+      ],
+      "ground-state": [
+        188
+      ],
+      "wave": [
+        189
+      ],
+      "function.": [
+        190
+      ],
+      "On": [
+        191
+      ],
+      "QuEra": [
+        193
+      ],
+      "Aquila": [
+        194
+      ],
+      "neutral": [
+        195
+      ],
+      "machine,": [
+        197
+      ],
+      "observe": [
+        199
+      ],
+      "its": [
+        203
+      ],
+      "effect": [
+        204
+      ],
+      "success": [
+        207
+      ],
+      "probability": [
+        208
+      ],
+      "finding": [
+        210
+      ],
+      "correct": [
+        212
+      ],
+      "solution": [
+        213
+      ],
+      "problem.": [
+        218
+      ],
+      "Finally,": [
+        219
+      ],
+      "propose": [
+        221
+      ],
+      "quantum-aware": [
+        222
+      ],
+      "modifications": [
+        223
+      ],
+      "avoid": [
+        229
+      ],
+      "bottleneck": [
+        232
+      ],
+      "lead": [
+        234
+      ],
+      "exponential": [
+        237
+      ],
+      "improvement": [
+        238
+      ],
+      "performance.": [
+        242
+      ],
+      "This": [
+        243
+      ],
+      "highlights": [
+        244
+      ],
+      "crucial": [
+        246
+      ],
+      "importance": [
+        247
+      ],
+      "accounting": [
+        249
+      ],
+      "for": [
+        250
+      ],
+      "effects": [
+        252
+      ],
+      "designing": [
+        254
+      ],
+      "encode": [
+        257
+      ],
+      "onto": [
+        260
+      ],
+      "platforms.": [
+        262
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 6
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          19
+        ]
+      ],
+      "date-time": "2025-12-19T15:54:33Z",
+      "timestamp": 1766159673078,
+      "version": "3.43.0"
+    },
+    "reference-count": 85,
+    "publisher": "American Physical Society (APS)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              8
+            ]
+          ],
+          "date-time": "2025-04-08T00:00:00Z",
+          "timestamp": 1744070400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000781",
+        "name": "ERC Starting grant QARA",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "101041435"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "101041435"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000781",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002428",
+        "name": "Austrian Science Fund",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "10.55776/COE1"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "10.55776/COE1"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100002428",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000015",
+        "name": "U.S. Department of Energy",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DE-AC02-05CH11231"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC02-05CH11231"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000015",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100010665",
+        "name": "Marie Skłodowska-Curie",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "101059826"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "101059826"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100010665",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003500",
+        "name": "Padova University",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100003500",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "European Union’s Horizon Europe research and innovation program",
+        "award": [
+          "101113690"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "101113690"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "EU-QUANTERA project TNiSQ",
+        "award": [
+          "N-6001"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N-6001"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DARPA ONISQ program",
+        "award": [
+          "W911NF2010021"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF2010021"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "journals.aps.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "PRX Quantum"
+    ],
+    "accepted": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Quantum adiabatic optimization seeks to solve combinatorial problems using quantum dynamics, requiring the Hamiltonian of the system to align with the problem of interest. However, these Hamiltonians are often incompatible with the native constraints of quantum hardware, necessitating encoding strategies to map the original problem into a hardware-conformant form. While the classical overhead associated with such mappings is easily quantifiable and typically polynomial in problem size, it is much harder to quantify their overhead on the quantum algorithm, e.g., the transformation of the adiabatic timescale. In this work, we address this challenge on the concrete example of the encoding scheme proposed in [Nguyen , PRX Quantum , 010316 (2023)], which is designed to map optimization problems on arbitrarily connected graphs into Rydberg atom arrays. We consider the fundamental building blocks underlying this encoding scheme and determine the scaling of the minimum gap with system size along adiabatic protocols. Even when the original problem is trivially solvable, we find that the encoded problem can exhibit an exponentially closing minimum gap. We show that this originates from a quantum coherent effect, which gives rise to an unfavorable localization of the ground-state wave function. On the QuEra Aquila neutral atom machine, we observe such localization and its effect on the success probability of finding the correct solution to the encoded optimization problem. Finally, we propose quantum-aware modifications of the encoding scheme that avoid this quantum bottleneck and lead to an exponential improvement in the adiabatic performance. This highlights the crucial importance of accounting for quantum effects when designing strategies to encode classical problems onto quantum platforms.</jats:p>",
+    "DOI": "10.1103/prxquantum.6.020306",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2025-04-08T11:56:27Z",
+      "timestamp": 1744113387000
+    },
+    "update-policy": "https://doi.org/10.1103/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Quantum Adiabatic Optimization with Rydberg Arrays: Localization Phenomena and Encoding Strategies"
+    ],
+    "prefix": "10.1103",
+    "volume": "6",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0009-5042-2897",
+        "authenticated-orcid": true,
+        "given": "Lisa",
+        "family": "Bombieri",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/054pv6659",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "University of Innsbruck"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/056hzt889",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9139-5014",
+        "authenticated-orcid": true,
+        "given": "Zhongda",
+        "family": "Zeng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/054pv6659",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "University of Innsbruck"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/056hzt889",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2254-4407",
+        "authenticated-orcid": true,
+        "given": "Roberto",
+        "family": "Tricarico",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/054pv6659",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "University of Innsbruck"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/056hzt889",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/04swxte59",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Scuola Superiore Meridionale"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9560-7187",
+        "authenticated-orcid": true,
+        "given": "Rui",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/054pv6659",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "University of Innsbruck"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/056hzt889",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/03qb6k992",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Quantum Science Center of Guangdong-Hong Kong-Macao Greater Bay Area"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8364-6330",
+        "authenticated-orcid": true,
+        "given": "Simone",
+        "family": "Notarnicola",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/03vek6s52",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Harvard University"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/00240q980",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Università degli Studi di Padova"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/00z34yn88",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Istituto Nazionale di Fisica Nucleare (INFN), Sezione di Padova"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5298-3112",
+        "authenticated-orcid": true,
+        "given": "Madelyn",
+        "family": "Cain",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/03vek6s52",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Harvard University"
+          }
+        ]
+      },
+      {
+        "given": "Mikhail D.",
+        "family": "Lukin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/03vek6s52",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Harvard University"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2144-536X",
+        "authenticated-orcid": true,
+        "given": "Hannes",
+        "family": "Pichler",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/054pv6659",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "University of Innsbruck"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/056hzt889",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Institute for Quantum Optics and Quantum Information of the Austrian Academy of Sciences"
+          }
+        ]
+      }
+    ],
+    "member": "16",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          8
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "PRXQuantum.6.020306Cc1R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature10012",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc2R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2006373117",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc3R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41567-020-01105-y",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc4R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abo6587",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc5R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.90.015002",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc6R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fphy.2014.00005",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc7R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.58.5355",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc9R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1057726",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc10R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.80.1061",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc11R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1361-6633/ab85b8",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc12R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fphy.2014.00005",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc13R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42254-022-00440-8",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc15R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-04603-6",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc16R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41567-022-01629-5",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc17R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PRXQuantum.3.030305",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc18R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PRXQuantum.6.010301",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc21R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PRXQuantum.4.010316",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc22R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PRXQuantum.1.020311",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc23R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.130.220601",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc24R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.108.085138",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc25R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevResearch.6.023031",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc26R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevResearch.7.L012006",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc28R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0166-218X(01)00341-9",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc29R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0012-365X(90)90358-O",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc30R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41567-021-01357-2",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc31R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aah3752",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc32R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aah3778",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc33R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.122.143002",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc34R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevX.12.011040",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc35R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevResearch.6.033104",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc37R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.133.223402",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc38R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.82.2313",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc39R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.123.170503",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc40R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41567-020-0903-z",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc41R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-04592-6",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc42R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-32094-6",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc43R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-06481-y",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc44R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.131.170601",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc45R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-06927-3",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc46R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41567-024-02638-2",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc48R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nphys1614",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc49R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41567-019-0733-z",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc50R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature18274",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc51R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature24622",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc52R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1070-1",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc53R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abg2530",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc54R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03582-4",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc55R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-021-03585-1",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc56R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abi8794",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc57R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-05442-1",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc58R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-023-06360-6",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc60R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.85.2208",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc61R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nphys1183",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc62R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nphys1178",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc63R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.2798382",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc64R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.73.062307",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc65R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.81.032308",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc66R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.69.2863",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc67R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.48.10345",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc68R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.91.155115",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc69R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.74.031123",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc70R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0217979210056335",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc71R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.66.075128",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc72R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.69.075106",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc73R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevX.6.031010",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc74R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42254-021-00313-6",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc75R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.109.050501",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc76R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.104.052616",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc77R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.80.062326",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc78R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.101.147204",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc79R1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-3-642-33039-1",
+        "type": "book",
+        "volume-title": "Quantum Ising Phases and Transitions in Transverse Ising Models",
+        "author": "S. Suzuki",
+        "year": "2013"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc81R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevResearch.6.013271",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc82R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0003-4916(86)90088-6",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc83R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.44.8028",
+        "type": "journal-article"
+      },
+      {
+        "volume-title": "Binding and Scattering in Two-Dimensional Systems: Applications to Quantum Wires, Waveguides and Photonic Crystals",
+        "year": "1999",
+        "author": "J. T. Londergan",
+        "key": "PRXQuantum.6.020306Cc84R1",
+        "type": "book"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc85R1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-3-319-18576-7",
+        "type": "book",
+        "volume-title": "Quantum Waveguides",
+        "author": "P. Exner",
+        "year": "2015"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc87R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1619826114",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc88R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.91.045001",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc90R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.aop.2010.09.012",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc91R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-conmatphys-020911-125018",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc92R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.95.035129",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc93R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevA.53.2046",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc94R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.28.1516",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc95R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0305-4470/13/5/011",
+        "type": "journal-article"
+      },
+      {
+        "key": "PRXQuantum.6.020306Cc96R1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/OE.19.001808",
+        "type": "journal-article"
+      }
+    ],
+    "container-title": [
+      "PRX Quantum"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.aps.org/article/10.1103/PRXQuantum.6.020306",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://harvest.aps.org/v2/journals/articles/10.1103/PRXQuantum.6.020306/fulltext",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          5
+        ]
+      ],
+      "date-time": "2025-08-05T16:24:46Z",
+      "timestamp": 1754411086000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.aps.org/doi/10.1103/PRXQuantum.6.020306"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          8
+        ]
+      ]
+    },
+    "references-count": 85,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            4
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1103/prxquantum.6.020306",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.48550/arXiv.2411.04645",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "ISSN": [
+      "2691-3399"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2691-3399"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-11-08",
+        "name": "date_received",
+        "label": "Date Received",
+        "group": {
+          "name": "publication_dates",
+          "label": "Publication dates"
+        }
+      },
+      {
+        "value": "Published by the American Physical Society",
+        "name": "copyright_statement",
+        "label": "Copyright statement",
+        "group": {
+          "name": "copyright",
+          "label": "copyright"
+        }
+      },
+      {
+        "value": "2025",
+        "name": "copyright_year",
+        "label": "Copyright year",
+        "group": {
+          "name": "copyright",
+          "label": "copyright"
+        }
+      }
+    ],
+    "article-number": "020306"
+  }
+}

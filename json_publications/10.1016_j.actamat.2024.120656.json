@@ -1,0 +1,1717 @@
+{
+  "doi": "10.1016/j.actamat.2024.120656",
+  "openalex": {
+    "id": "https://openalex.org/W4405455380",
+    "doi": "https://doi.org/10.1016/j.actamat.2024.120656",
+    "title": "Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning",
+    "display_name": "Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning",
+    "publication_year": 2024,
+    "publication_date": "2024-12-16",
+    "ids": {
+      "openalex": "https://openalex.org/W4405455380",
+      "doi": "https://doi.org/10.1016/j.actamat.2024.120656"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.actamat.2024.120656",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.actamat.2024.120656",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S64016596",
+        "display_name": "Acta Materialia",
+        "issn_l": "1359-6454",
+        "issn": [
+          "1359-6454",
+          "1873-2453"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Acta Materialia",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5061947802",
+          "display_name": "Yancheng Li",
+          "orcid": "https://orcid.org/0000-0002-6720-8493"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Yancheng Li",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103910338",
+          "display_name": "Jingyu Pang",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jingyu Pang",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100332577",
+          "display_name": "Zhen Li",
+          "orcid": "https://orcid.org/0000-0002-0855-4599"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Zhen Li",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100434827",
+          "display_name": "Qing Wang",
+          "orcid": "https://orcid.org/0000-0002-3882-6540"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Qing Wang",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100395217",
+          "display_name": "Zhen-Hua Wang",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Zhenhua Wang",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100462981",
+          "display_name": "Jinlin Li",
+          "orcid": "https://orcid.org/0000-0001-8210-066X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jinlin Li",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100397226",
+          "display_name": "Hongwei Zhang",
+          "orcid": "https://orcid.org/0000-0001-6949-0798"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Hongwei Zhang",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046622632",
+          "display_name": "Zengbao Jiao",
+          "orcid": "https://orcid.org/0000-0002-0556-6869"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Zengbao Jiao",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100319435",
+          "display_name": "Chuang Dong",
+          "orcid": "https://orcid.org/0000-0001-5631-9641"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Chuang Dong",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5027297848",
+          "display_name": "Peter K. Liaw",
+          "orcid": "https://orcid.org/0000-0003-0185-3411"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Peter K. Liaw",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 10,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 3210,
+      "currency": "USD",
+      "value_usd": 3210
+    },
+    "apc_paid": null,
+    "fwci": 4.89983922,
+    "has_fulltext": false,
+    "cited_by_count": 12,
+    "citation_normalized_percentile": {
+      "value": 0.9281829,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "285",
+      "issue": null,
+      "first_page": "120656",
+      "last_page": "120656"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11143",
+      "display_name": "High Entropy Alloys Studies",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11143",
+        "display_name": "High Entropy Alloys Studies",
+        "score": 0.9994000196456909,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10840",
+        "display_name": "High Temperature Alloys and Creep",
+        "score": 0.9988999962806702,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13552",
+        "display_name": "Advanced Materials Characterization Techniques",
+        "score": 0.9984999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/materials-science",
+        "display_name": "Materials science",
+        "score": 0.9000804424285889
+      },
+      {
+        "id": "https://openalex.org/keywords/superalloy",
+        "display_name": "Superalloy",
+        "score": 0.8656938076019287
+      },
+      {
+        "id": "https://openalex.org/keywords/creep",
+        "display_name": "Creep",
+        "score": 0.7522881031036377
+      },
+      {
+        "id": "https://openalex.org/keywords/metallurgy",
+        "display_name": "Metallurgy",
+        "score": 0.45948514342308044
+      },
+      {
+        "id": "https://openalex.org/keywords/high-entropy-alloys",
+        "display_name": "High entropy alloys",
+        "score": 0.4177156090736389
+      },
+      {
+        "id": "https://openalex.org/keywords/composite-material",
+        "display_name": "Composite material",
+        "score": 0.3745109736919403
+      },
+      {
+        "id": "https://openalex.org/keywords/microstructure",
+        "display_name": "Microstructure",
+        "score": 0.28969401121139526
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "level": 0,
+        "score": 0.9000804424285889
+      },
+      {
+        "id": "https://openalex.org/C207055975",
+        "wikidata": "https://www.wikidata.org/wiki/Q637345",
+        "display_name": "Superalloy",
+        "level": 3,
+        "score": 0.8656938076019287
+      },
+      {
+        "id": "https://openalex.org/C149912024",
+        "wikidata": "https://www.wikidata.org/wiki/Q462188",
+        "display_name": "Creep",
+        "level": 2,
+        "score": 0.7522881031036377
+      },
+      {
+        "id": "https://openalex.org/C191897082",
+        "wikidata": "https://www.wikidata.org/wiki/Q11467",
+        "display_name": "Metallurgy",
+        "level": 1,
+        "score": 0.45948514342308044
+      },
+      {
+        "id": "https://openalex.org/C2780299837",
+        "wikidata": "https://www.wikidata.org/wiki/Q18405127",
+        "display_name": "High entropy alloys",
+        "level": 3,
+        "score": 0.4177156090736389
+      },
+      {
+        "id": "https://openalex.org/C159985019",
+        "wikidata": "https://www.wikidata.org/wiki/Q181790",
+        "display_name": "Composite material",
+        "level": 1,
+        "score": 0.3745109736919403
+      },
+      {
+        "id": "https://openalex.org/C87976508",
+        "wikidata": "https://www.wikidata.org/wiki/Q1498213",
+        "display_name": "Microstructure",
+        "level": 2,
+        "score": 0.28969401121139526
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.actamat.2024.120656",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.actamat.2024.120656",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S64016596",
+          "display_name": "Acta Materialia",
+          "issn_l": "1359-6454",
+          "issn": [
+            "1359-6454",
+            "1873-2453"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Acta Materialia",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:ira.lib.polyu.edu.hk:10397/115330",
+        "is_oa": false,
+        "landing_page_url": "http://hdl.handle.net/10397/115330",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400205",
+          "display_name": "PolyU Institutional Research Archive (Hong Kong Polytechnic University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I14243506",
+          "host_organization_name": "Hong Kong Polytechnic University",
+          "host_organization_lineage": [
+            "https://openalex.org/I14243506"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Journal/Magazine Article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 69,
+    "referenced_works": [
+      "https://openalex.org/W6666172114",
+      "https://openalex.org/W4308655639",
+      "https://openalex.org/W2092992294",
+      "https://openalex.org/W1981382605",
+      "https://openalex.org/W4392947029",
+      "https://openalex.org/W6674900695",
+      "https://openalex.org/W4391982727",
+      "https://openalex.org/W6635686457",
+      "https://openalex.org/W2044041092",
+      "https://openalex.org/W2782489752",
+      "https://openalex.org/W2964094441",
+      "https://openalex.org/W3193310393",
+      "https://openalex.org/W4288738555",
+      "https://openalex.org/W2900812253",
+      "https://openalex.org/W2901546241",
+      "https://openalex.org/W3111217744",
+      "https://openalex.org/W4200517271",
+      "https://openalex.org/W2123306226",
+      "https://openalex.org/W3183767639",
+      "https://openalex.org/W3000115783",
+      "https://openalex.org/W4224129425",
+      "https://openalex.org/W4390640531",
+      "https://openalex.org/W4302425308",
+      "https://openalex.org/W3024266484",
+      "https://openalex.org/W3044820569",
+      "https://openalex.org/W3153092628",
+      "https://openalex.org/W1663984431",
+      "https://openalex.org/W3014413945",
+      "https://openalex.org/W2066578528",
+      "https://openalex.org/W3005717363",
+      "https://openalex.org/W3110588415",
+      "https://openalex.org/W2047443643",
+      "https://openalex.org/W2125085155",
+      "https://openalex.org/W6983510647",
+      "https://openalex.org/W2783901907",
+      "https://openalex.org/W4283777451",
+      "https://openalex.org/W3008901119",
+      "https://openalex.org/W4391605660",
+      "https://openalex.org/W4308841876",
+      "https://openalex.org/W3027419593",
+      "https://openalex.org/W2019477230",
+      "https://openalex.org/W2899974849",
+      "https://openalex.org/W1556640349",
+      "https://openalex.org/W2022308914",
+      "https://openalex.org/W2790080643",
+      "https://openalex.org/W4292685679",
+      "https://openalex.org/W2096585525",
+      "https://openalex.org/W1658338080",
+      "https://openalex.org/W2076697170",
+      "https://openalex.org/W1246564477",
+      "https://openalex.org/W4211197843",
+      "https://openalex.org/W2001661345",
+      "https://openalex.org/W2051851679",
+      "https://openalex.org/W2001002924",
+      "https://openalex.org/W2037727451",
+      "https://openalex.org/W2079291584",
+      "https://openalex.org/W1984405151",
+      "https://openalex.org/W2006960311",
+      "https://openalex.org/W2590213398",
+      "https://openalex.org/W2075313372",
+      "https://openalex.org/W2575989461",
+      "https://openalex.org/W2077615479",
+      "https://openalex.org/W2018226614",
+      "https://openalex.org/W4300514007",
+      "https://openalex.org/W1574948359",
+      "https://openalex.org/W4287826698",
+      "https://openalex.org/W1535069602",
+      "https://openalex.org/W4285589102",
+      "https://openalex.org/W630182410"
+    ],
+    "related_works": [
+      "https://openalex.org/W1981107306",
+      "https://openalex.org/W1581108530",
+      "https://openalex.org/W3036391366",
+      "https://openalex.org/W2362048923",
+      "https://openalex.org/W2809062887",
+      "https://openalex.org/W4378877021",
+      "https://openalex.org/W2743427670",
+      "https://openalex.org/W635360828",
+      "https://openalex.org/W2268186159",
+      "https://openalex.org/W2900762017"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 12
+      }
+    ],
+    "updated_date": "2025-12-27T23:08:20.325037",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          8
+        ]
+      ],
+      "date-time": "2026-01-08T10:38:27Z",
+      "timestamp": 1767868707099,
+      "version": "3.49.0"
+    },
+    "reference-count": 68,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2025-02-01T00:00:00Z",
+          "timestamp": 1738368000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              20
+            ]
+          ],
+          "date-time": "2025-12-20T00:00:00Z",
+          "timestamp": 1766188800000
+        },
+        "content-version": "am",
+        "delay-in-days": 322,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "52171152"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "52171152"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U24A2024"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U24A2024"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000183",
+        "name": "Army Research Office",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W911NF-13-1-0438"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF-13-1-0438"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000183",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000183",
+        "name": "Army Research Office",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "W911NF-19-2-0049"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "W911NF-19-2-0049"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000183",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100002920",
+        "name": "Research Grants Council, University Grants Committee",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100002920",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1809640"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1809640"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2226508"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2226508"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DMR -1611180"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DMR -1611180"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Acta Materialia"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.actamat.2024.120656",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          16
+        ]
+      ],
+      "date-time": "2024-12-16T03:07:09Z",
+      "timestamp": 1734318429000
+    },
+    "page": "120656",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "special_numbering": "C",
+    "title": [
+      "Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning"
+    ],
+    "prefix": "10.1016",
+    "volume": "285",
+    "author": [
+      {
+        "given": "Yancheng",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Jingyu",
+        "family": "Pang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhen",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4802-9577",
+        "authenticated-orcid": false,
+        "given": "Qing",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Zhenhua",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jinlin",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hongwei",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0556-6869",
+        "authenticated-orcid": false,
+        "given": "Zengbao",
+        "family": "Jiao",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chuang",
+        "family": "Dong",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0185-3411",
+        "authenticated-orcid": false,
+        "given": "Peter K.",
+        "family": "Liaw",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0001",
+        "series-title": "The Superalloys: Fundamentals and Applications",
+        "author": "Reed",
+        "year": "2008"
+      },
+      {
+        "issue": "319",
+        "key": "10.1016/j.actamat.2024.120656_bib0002",
+        "article-title": "The future of metals",
+        "volume": "328",
+        "author": "Lu",
+        "year": "2010",
+        "journal-title": "Science"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.actamat.2024.120656_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1038/s41578-022-00496-z",
+        "article-title": "Materials for extreme environments",
+        "volume": "8",
+        "author": "Prameela",
+        "year": "2023",
+        "journal-title": "Nat. Rev. Mater."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.actamat.2024.120656_bib0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "3737",
+        "DOI": "10.1016/j.actamat.2004.04.028",
+        "article-title": "Creep behaviour of Ni-base single-crystal superalloys with various γ' volume fraction",
+        "volume": "52",
+        "author": "Murakumo",
+        "year": "2004",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.actamat.2024.120656_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "1771",
+        "DOI": "10.1016/j.actamat.2011.12.008",
+        "article-title": "Optimal precipitate shapes in nickel-base γ-γ' alloys",
+        "volume": "60",
+        "author": "Van Sluytman",
+        "year": "2012",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0006",
+        "series-title": "Superalloys: Alloying and Performance",
+        "author": "Geddes",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0007",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.matchar.2024.113833",
+        "article-title": "Investigation of the precipitation behavior and its role on creep deformation and failure mechanisms at high temperatures for a turbine disk alloy",
+        "volume": "210",
+        "author": "You",
+        "year": "2024",
+        "journal-title": "Mater. Charact."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0008",
+        "series-title": "Proceedings of the Sixth International Special Emphasis Symposium on Superalloys 718, 625, 706 and Derivatives",
+        "first-page": "203",
+        "article-title": "Evaluation of Allvac® 718PLUS™ alloy in the cold worked and heat-treated condition",
+        "author": "Bond",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0009",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.msea.2024.146221",
+        "article-title": "Precipitation and tensile behaviors of Allvac 718Plus superalloy during long-term thermal exposure",
+        "volume": "896",
+        "author": "Tang",
+        "year": "2024",
+        "journal-title": "Mater. Sci. Eng. A"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0010",
+        "series-title": "Proceedings of the International Symposium on Superalloys",
+        "first-page": "903",
+        "article-title": "An advanced cast-and-wrought superalloy (TMW-4M3) for turbine disk applications beyond 700 C",
+        "volume": "903",
+        "author": "Gu",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0011",
+        "doi-asserted-by": "crossref",
+        "first-page": "2921",
+        "DOI": "10.1007/s11661-005-0065-8",
+        "article-title": "Microstructure and yield strength of UDIMET 720LI alloyed with Co-16.9 Wt Pct Ti",
+        "volume": "36",
+        "author": "Gui",
+        "year": "2005",
+        "journal-title": "Metall. Mater. Trans. A"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0012",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1016/j.scriptamat.2017.12.023",
+        "article-title": "Improved 1200 °C stress rupture property of single crystal superalloys by γ'-forming elements addition",
+        "volume": "147",
+        "author": "Ru",
+        "year": "2018",
+        "journal-title": "Scr. Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0013",
+        "doi-asserted-by": "crossref",
+        "first-page": "358",
+        "DOI": "10.1016/j.matdes.2017.06.007",
+        "article-title": "Design of a nickel-base superalloy using a neural network",
+        "volume": "131",
+        "author": "Conduit",
+        "year": "2017",
+        "journal-title": "Mater. Des."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0014",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.actamat.2021.117234",
+        "article-title": "High density of strong yet deformable intermetallic nanorods leads to an excellent room temperature strength-ductility combination in a high entropy alloy",
+        "volume": "219",
+        "author": "Gwalani",
+        "year": "2021",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0015",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.actamat.2022.118216",
+        "article-title": "Designing nanoparticles-strengthened high-entropy alloys with simultaneously enhanced strength-ductility synergy at both room and elevated temperatures",
+        "volume": "238",
+        "author": "Hou",
+        "year": "2022",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "issue": "6417",
+        "key": "10.1016/j.actamat.2024.120656_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "933",
+        "DOI": "10.1126/science.aas8815",
+        "article-title": "Multicomponent intermetallic nanoparticles and superb mechanical behaviors of complex alloys",
+        "volume": "362",
+        "author": "Yang",
+        "year": "2018",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0017",
+        "doi-asserted-by": "crossref",
+        "first-page": "546",
+        "DOI": "10.1038/s41586-018-0685-y",
+        "article-title": "Enhanced strength and ductility in a high-entropy alloy via ordered oxygen complexes",
+        "volume": "563",
+        "author": "Lei",
+        "year": "2018",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41598-020-78690-8",
+        "article-title": "Composition rules of Ni-base single crystal superalloys and its influence on creep properties via a cluster formula approach",
+        "volume": "10",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0019",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.msea.2021.142550",
+        "article-title": "Microstructural stability of low-cost Ni-base superalloys with a high volume fraction of cuboidal γ' nanoprecipitates",
+        "volume": "833",
+        "author": "Sun",
+        "year": "2022",
+        "journal-title": "Mater. Sci. Eng. A"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "191",
+        "DOI": "10.1038/nmat3568",
+        "article-title": "The high-throughput highway to computational materials design",
+        "volume": "12",
+        "author": "Curtarolo",
+        "year": "2013",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0021",
+        "doi-asserted-by": "crossref",
+        "first-page": "730",
+        "DOI": "10.1038/s41578-021-00340-w",
+        "article-title": "Machine learning for alloys",
+        "volume": "6",
+        "author": "Hart",
+        "year": "2021",
+        "journal-title": "Nat. Rev. Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "425",
+        "DOI": "10.1016/j.actamat.2020.01.004",
+        "article-title": "Accelerated design of novel W-free high-strength Co-base superalloys with extremely wide γ/γ' region by machine learning and CALPHAD methods",
+        "volume": "186",
+        "author": "Ruan",
+        "year": "2020",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0023",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.actamat.2022.117924",
+        "article-title": "Efficient machine-learning model for fast assessment of elastic properties of high-entropy alloys",
+        "volume": "232",
+        "author": "Vazquez",
+        "year": "2022",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0024",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.actamat.2024.119658",
+        "article-title": "Robust additive manufacturable Ni superalloys designed by the integrated optimization of local elemental segregation and cracking susceptibility criteria",
+        "volume": "266",
+        "author": "Yu",
+        "year": "2024",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "issue": "6615",
+        "key": "10.1016/j.actamat.2024.120656_bib0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "78",
+        "DOI": "10.1126/science.abo4940",
+        "article-title": "Machine learning-enabled high-entropy alloy discovery",
+        "volume": "378",
+        "author": "Rao",
+        "year": "2022",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0026",
+        "doi-asserted-by": "crossref",
+        "first-page": "454",
+        "DOI": "10.1016/j.actamat.2020.05.001",
+        "article-title": "Predicting creep rupture life of Ni-based single crystal superalloys using divide-and-conquer approach based machine learning",
+        "volume": "195",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.actamat.2024.120656_bib0027",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1038/s41524-020-00372-w",
+        "article-title": "Cluster-formula-embedded machine learning for design of multicomponent β-Ti alloys with low Young's modulus",
+        "volume": "6",
+        "author": "Yang",
+        "year": "2020",
+        "journal-title": "npj Comput. Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0028",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.commatsci.2021.110472",
+        "article-title": "Domain-knowledge-oriented data pre-processing and machine learning of corrosion-resistant γ-U alloys with a small database",
+        "volume": "194",
+        "author": "Yuan",
+        "year": "2021",
+        "journal-title": "Comput. Mater. Sci."
+      },
+      {
+        "issue": "6245",
+        "key": "10.1016/j.actamat.2024.120656_bib0029",
+        "doi-asserted-by": "crossref",
+        "first-page": "261",
+        "DOI": "10.1126/science.aaa8685",
+        "article-title": "Advances in natural language processing",
+        "volume": "349",
+        "author": "Hirschberg",
+        "year": "2015",
+        "journal-title": "Science"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.actamat.2024.120656_bib0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "92",
+        "DOI": "10.1016/j.cell.2020.03.022",
+        "article-title": "How machine learning will transform biomedicine",
+        "volume": "181",
+        "author": "Goecks",
+        "year": "2020",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0031",
+        "unstructured": "N. Erickson, J. Mueller, A. Shirkov, H. Zhang, P. Larroy, M. Li, A. Smola, AutoGluon-Tabular: Robust and Accurate AutoML for Structured Data, arXiv:2003.06505 (2020)."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0032",
+        "unstructured": "J. Jazzbin, Geatpy: the genetic and evolutionary algorithm toolbox with high performance in python. (2022). http://www.geatpy.com/."
+      },
+      {
+        "issue": "15",
+        "key": "10.1016/j.actamat.2024.120656_bib0033",
+        "doi-asserted-by": "crossref",
+        "first-page": "5743",
+        "DOI": "10.1016/j.actamat.2013.06.018",
+        "article-title": "The influences oftemperature and microstructure on the tensile properties of a CoCrFeMnNi high-entropy alloy",
+        "volume": "61",
+        "author": "Otto",
+        "year": "2013",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0034",
+        "doi-asserted-by": "crossref",
+        "first-page": "517",
+        "DOI": "10.1016/j.actamat.2020.02.028",
+        "article-title": "Superior high-temperature properties and deformation-induced planar faults in a novel L12-strengthened high-entropy alloy",
+        "volume": "188",
+        "author": "Zhao",
+        "year": "2020",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0035",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.msea.2020.140551",
+        "article-title": "Discontinuous precipitation leading to nano-rod intermetallic precipitates in an Al0.2Ti0.3Co1.5CrFeNi1.5 high entropy alloy results in an excellent strength-ductility combination",
+        "volume": "805",
+        "author": "Dasari",
+        "year": "2021",
+        "journal-title": "Mater. Sci. Eng. A"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0036",
+        "doi-asserted-by": "crossref",
+        "first-page": "282",
+        "DOI": "10.1007/s11661-008-9746-4",
+        "article-title": "Microstructural evolution and mechanical properties of a Ni-based superalloy, TMW-4",
+        "volume": "40",
+        "author": "Cui",
+        "year": "2009",
+        "journal-title": "Metall. Mater. Trans. A"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0037",
+        "doi-asserted-by": "crossref",
+        "first-page": "60",
+        "DOI": "10.1007/s11837-003-0013-2",
+        "article-title": "Using JMatPro to model materials properties and behavior",
+        "volume": "55",
+        "author": "Saunders",
+        "year": "2003",
+        "journal-title": "JOM"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0038",
+        "first-page": "849",
+        "article-title": "Modelling the material properties and behaviour of Ni-Based Superalloys",
+        "volume": "2004",
+        "author": "Miodownik",
+        "year": "2004",
+        "journal-title": "Superalloys"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0039",
+        "doi-asserted-by": "crossref",
+        "first-page": "280",
+        "DOI": "10.1016/j.actamat.2017.12.061",
+        "article-title": "Phase stability and transformation in a light-weight high-entropy alloy",
+        "volume": "146",
+        "author": "Feng",
+        "year": "2018",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0040",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scriptamat.2022.114886",
+        "article-title": "Understanding the composition-dependent stability of η phase for future Ni-Co-based superalloys",
+        "volume": "219",
+        "author": "Yu",
+        "year": "2022",
+        "journal-title": "Scr. Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0041",
+        "doi-asserted-by": "crossref",
+        "first-page": "652",
+        "DOI": "10.1016/j.actamat.2020.02.049",
+        "article-title": "Development of low-density γ/γ' Co-Al-Ta-based superalloys with high solvus temperature",
+        "volume": "188",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0042",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.msea.2024.146223",
+        "article-title": "Defeating creep embrittlement under high-stress levels through heterogeneous grain architecture in a L12-strengthened multicomponent alloy",
+        "volume": "895",
+        "author": "Jing",
+        "year": "2024",
+        "journal-title": "Mater. Sci. Eng. A"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0043",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.actamat.2022.118525",
+        "article-title": "Alloying effects and effective alloy design of high-Cr CoNi-based superalloys via a high-throughput experiments and machine learning framework",
+        "volume": "243",
+        "author": "Zhuang",
+        "year": "2023",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0044",
+        "doi-asserted-by": "crossref",
+        "first-page": "62",
+        "DOI": "10.1038/s41524-020-0334-5",
+        "article-title": "Machine learning assisted design of γ'-strengthened Co-base superalloys with multi-performance optimization",
+        "volume": "6",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "npj Comput. Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "4237",
+        "DOI": "10.1016/j.actamat.2013.03.049",
+        "article-title": "Ostwald ripening in multicomponent alloys",
+        "volume": "61",
+        "author": "Philippe",
+        "year": "2013",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0046",
+        "doi-asserted-by": "crossref",
+        "first-page": "1101",
+        "DOI": "10.1038/s41563-018-0209-z",
+        "article-title": "Diffusion-defining atomic-scale spinodal decomposition within nanoprecipitates",
+        "volume": "17",
+        "author": "Orthacker",
+        "year": "2018",
+        "journal-title": "Nat. Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0047",
+        "first-page": "581",
+        "article-title": "Theorie der Alterung von Niederschlägen durch Umlösen (Ostwald-Reifung)",
+        "volume": "65",
+        "author": "Wanger",
+        "year": "1961",
+        "journal-title": "Z. Elektrochem."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0048",
+        "doi-asserted-by": "crossref",
+        "first-page": "35",
+        "DOI": "10.1016/0022-3697(61)90054-3",
+        "article-title": "The kinetics of precipitation from supersaturated solid solutions",
+        "volume": "19",
+        "author": "Lifshitz",
+        "year": "1961",
+        "journal-title": "J. Phys. Chem. Solids"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0049",
+        "doi-asserted-by": "crossref",
+        "first-page": "184",
+        "DOI": "10.1016/j.actamat.2018.01.049",
+        "article-title": "Thermal stability and coarsening of coherent particles in a precipitation-hardened (NiCoFeCr)94Ti2Al4 high-entropy alloy",
+        "volume": "147",
+        "author": "Zhao",
+        "year": "2018",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0050",
+        "doi-asserted-by": "crossref",
+        "first-page": "4087",
+        "DOI": "10.1038/s41467-022-32620-6",
+        "article-title": "Achieving thermally stable nanoparticles in chemically complex alloys via controllable sluggish lattice diffusion",
+        "volume": "13",
+        "author": "Xiao",
+        "year": "2022",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0051",
+        "doi-asserted-by": "crossref",
+        "first-page": "516",
+        "DOI": "10.1179/mst.1985.1.7.516",
+        "article-title": "Kinetics of growth of γ' precipitates in Ni-6.75Al alloy",
+        "volume": "1",
+        "author": "Irisarri",
+        "year": "1985",
+        "journal-title": "Mater. Sci. Technol."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0052",
+        "doi-asserted-by": "crossref",
+        "first-page": "1028",
+        "DOI": "10.1007/BF00540987",
+        "article-title": "Multi-component solid solution hardening: part 1 Proposed model",
+        "volume": "12",
+        "author": "Gypen",
+        "year": "1977",
+        "journal-title": "J. Mater. Sci."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0053",
+        "doi-asserted-by": "crossref",
+        "first-page": "1329",
+        "DOI": "10.1007/s11661-997-0268-2",
+        "article-title": "Modeling solid solution strengthening in nickel alloys",
+        "volume": "28",
+        "author": "Roth",
+        "year": "1997",
+        "journal-title": "Metall. Mater. Trans. A"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0054",
+        "doi-asserted-by": "crossref",
+        "first-page": "377",
+        "DOI": "10.1016/j.actamat.2015.07.048",
+        "article-title": "On the prediction of the yield stress of unimodal and multimodal γ' Nickel-base superalloys",
+        "volume": "98",
+        "author": "Galindo-Nava",
+        "year": "2015",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "2131",
+        "DOI": "10.1007/BF02670416",
+        "article-title": "Precipitation hardening",
+        "volume": "16",
+        "author": "Ardell",
+        "year": "1985",
+        "journal-title": "Metall. Trans. A"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0056",
+        "doi-asserted-by": "crossref",
+        "first-page": "497",
+        "DOI": "10.1016/0036-9748(78)90194-1",
+        "article-title": "On the critical resolved shear stress from misfitting particles",
+        "volume": "12",
+        "author": "Jansson",
+        "year": "1978",
+        "journal-title": "Scr. Metall."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0057",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.1002/pssb.19660160234",
+        "article-title": "On the critical resolved shear stress of solid solutions containing coherent precipitates",
+        "volume": "16",
+        "author": "Gerold",
+        "year": "1966",
+        "journal-title": "Phys. Status Solidi"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0058",
+        "series-title": "Particle Strengthening of Metals and Alloys",
+        "author": "Nembach",
+        "year": "1997"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0059",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1016/0001-6160(78)90127-X",
+        "article-title": "The strength of a precipitation hardened AlZnMg alloy",
+        "volume": "26",
+        "author": "Melander",
+        "year": "1978",
+        "journal-title": "Acta Metall."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.actamat.2024.120656_bib0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "2663",
+        "DOI": "10.1016/S1359-6454(97)00468-0",
+        "article-title": "Dislocation nucleation and the intrinsic fracture behavior of L12 intermetallic alloys",
+        "volume": "46",
+        "author": "Wang",
+        "year": "1998",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.actamat.2024.120656_bib0061",
+        "doi-asserted-by": "crossref",
+        "first-page": "29",
+        "DOI": "10.1016/0025-5416(85)90107-7",
+        "article-title": "On the antiphase boundary energy of Ni3(Al, Ti) particles",
+        "volume": "74",
+        "author": "Vittori",
+        "year": "1985",
+        "journal-title": "Mater. Sci. Eng."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0062",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1051/jp4:1996112",
+        "article-title": "Internal mismatch stresses in nickel-based superalloys: a finite element approach",
+        "volume": "6",
+        "author": "Hazotte",
+        "year": "1996",
+        "journal-title": "J. Phys. IV France"
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0063",
+        "doi-asserted-by": "crossref",
+        "first-page": "162",
+        "DOI": "10.1016/j.jmps.2014.12.001",
+        "article-title": "Analysis of the twin spacing and grain size effects on mechanical properties in hierarchically nanotwinned face-centered cubic metals based on a mechanism-based plasticity model",
+        "volume": "76",
+        "author": "Zhu",
+        "year": "2015",
+        "journal-title": "J. Mech. Phys. Solid."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0064",
+        "doi-asserted-by": "crossref",
+        "first-page": "14390",
+        "DOI": "10.1038/ncomms14390",
+        "article-title": "Dislocation mechanisms and 3D twin architectures generate exceptional strength-ductility-toughness combination in CrCoNi medium-entropy alloy",
+        "volume": "8",
+        "author": "Zhang",
+        "year": "2017",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "595",
+        "DOI": "10.1002/maco.19960471104",
+        "article-title": "Research on oxidation and embrittlement of intermetallic compounds in the U.S",
+        "volume": "47",
+        "author": "Meier",
+        "year": "1996",
+        "journal-title": "Mater. Corros."
+      },
+      {
+        "key": "10.1016/j.actamat.2024.120656_bib0066",
+        "doi-asserted-by": "crossref",
+        "first-page": "361",
+        "DOI": "10.1016/j.actamat.2016.12.039",
+        "article-title": "Environmentally-assisted grain boundary attack as a mechanism of embrittlement in a nickel-based superalloy",
+        "volume": "126",
+        "author": "Nemeth",
+        "year": "2017",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.actamat.2024.120656_bib0067",
+        "doi-asserted-by": "crossref",
+        "first-page": "3041",
+        "DOI": "10.1016/j.actamat.2005.03.017",
+        "article-title": "Investigation of creep deformation mechanisms at intermediate temperatures in René 88 DT",
+        "volume": "53",
+        "author": "Viswanathan",
+        "year": "2005",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.actamat.2024.120656_bib0068",
+        "doi-asserted-by": "crossref",
+        "first-page": "296",
+        "DOI": "10.1002/adem.201000232",
+        "article-title": "A novel strategy for the design of advanced engineering alloys-strengthening turbine disk superalloys via twinning structures",
+        "volume": "13",
+        "author": "Yuan",
+        "year": "2011",
+        "journal-title": "Adv. Eng. Mater."
+      }
+    ],
+    "container-title": [
+      "Acta Materialia"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1359645424010048?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1359645424010048?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2025-11-05T19:39:33Z",
+      "timestamp": 1762371573000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1359645424010048"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "references-count": 68,
+    "alternative-id": [
+      "S1359645424010048"
+    ],
+    "URL": "https://doi.org/10.1016/j.actamat.2024.120656",
+    "relation": {},
+    "ISSN": [
+      "1359-6454"
+    ],
+    "issn-type": [
+      {
+        "value": "1359-6454",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Developing novel low-density high-entropy superalloys with high strength and superior creep resistance guided by automated machine learning",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Acta Materialia",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.actamat.2024.120656",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 Acta Materialia Inc. Published by Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "120656"
+  }
+}

@@ -1,0 +1,1903 @@
+{
+  "doi": "https://openalex.org/W4391110749",
+  "openalex": {
+    "id": "https://openalex.org/W4391110749",
+    "doi": "https://doi.org/10.1038/s43018-023-00697-7",
+    "title": "The Molecular Twin artificial-intelligence platform integrates multi-omic data to predict outcomes for pancreatic adenocarcinoma patients",
+    "display_name": "The Molecular Twin artificial-intelligence platform integrates multi-omic data to predict outcomes for pancreatic adenocarcinoma patients",
+    "publication_year": 2024,
+    "publication_date": "2024-01-22",
+    "ids": {
+      "openalex": "https://openalex.org/W4391110749",
+      "doi": "https://doi.org/10.1038/s43018-023-00697-7",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38253803"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s43018-023-00697-7",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s43018-023-00697-7",
+      "pdf_url": "https://www.nature.com/articles/s43018-023-00697-7.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210236562",
+        "display_name": "Nature Cancer",
+        "issn_l": "2662-1347",
+        "issn": [
+          "2662-1347"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Cancer",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.nature.com/articles/s43018-023-00697-7.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5005658250",
+          "display_name": "Arsen Osipov",
+          "orcid": "https://orcid.org/0000-0002-9000-7040"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1282927834",
+            "display_name": "Cedars-Sinai Medical Center",
+            "ror": "https://ror.org/02pammg90",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1282927834"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Arsen Osipov",
+        "raw_affiliation_strings": [
+          "Department of Medicine (Medical Oncology), Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+          "Department of Oncology, Pancreatic Cancer Precision Medicine Center of Excellence, Johns Hopkins University, Baltimore, MD, USA",
+          "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Medicine (Medical Oncology), Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Oncology, Pancreatic Cancer Precision Medicine Center of Excellence, Johns Hopkins University, Baltimore, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003959395",
+          "display_name": "Ognjen Nikolic",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ognjen Nikolic",
+        "raw_affiliation_strings": [
+          "Betteromics, Redwood City, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Betteromics, Redwood City, CA, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5012620880",
+          "display_name": "Arkadiusz Gertych",
+          "orcid": "https://orcid.org/0000-0002-3107-602X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1282927834",
+            "display_name": "Cedars-Sinai Medical Center",
+            "ror": "https://ror.org/02pammg90",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Arkadiusz Gertych",
+        "raw_affiliation_strings": [
+          "Department of Pathology and Laboratory Medicine, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+          "Department of Surgery, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+          "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Surgery, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5011179811",
+          "display_name": "Sarah J. Parker",
+          "orcid": "https://orcid.org/0000-0001-8911-3615"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1282927834",
+            "display_name": "Cedars-Sinai Medical Center",
+            "ror": "https://ror.org/02pammg90",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sarah Parker",
+        "raw_affiliation_strings": [
+          "Department of Biomedical Sciences and Smidt Heart Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+          "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biomedical Sciences and Smidt Heart Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5027630636",
+          "display_name": "Andrew Hendifar",
+          "orcid": "https://orcid.org/0000-0002-2079-9177"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1282927834",
+            "display_name": "Cedars-Sinai Medical Center",
+            "ror": "https://ror.org/02pammg90",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Andrew Hendifar",
+        "raw_affiliation_strings": [
+          "Department of Medicine (Medical Oncology), Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+          "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Medicine (Medical Oncology), Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5036783491",
+          "display_name": "Pranav Kumar Singh",
+          "orcid": "https://orcid.org/0000-0001-8987-0229"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Pranav Singh",
+        "raw_affiliation_strings": [
+          "Betteromics, Redwood City, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Betteromics, Redwood City, CA, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5070327849",
+          "display_name": "Darya Filippova",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Darya Filippova",
+        "raw_affiliation_strings": [
+          "Betteromics, Redwood City, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Betteromics, Redwood City, CA, USA",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5033307071",
+          "display_name": "Grant Dagliyan",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1282927834",
+            "display_name": "Cedars-Sinai Medical Center",
+            "ror": "https://ror.org/02pammg90",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Grant Dagliyan",
+        "raw_affiliation_strings": [
+          "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5111040636",
+          "display_name": "Cristina R. Ferrone",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1282927834",
+            "display_name": "Cedars-Sinai Medical Center",
+            "ror": "https://ror.org/02pammg90",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Cristina R. Ferrone",
+        "raw_affiliation_strings": [
+          "Department of Surgery, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+          "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Surgery, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100415060",
+          "display_name": "Lei Zheng",
+          "orcid": "https://orcid.org/0000-0003-4163-2541"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lei Zheng",
+        "raw_affiliation_strings": [
+          "Department of Oncology, Pancreatic Cancer Precision Medicine Center of Excellence, Johns Hopkins University, Baltimore, MD, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Oncology, Pancreatic Cancer Precision Medicine Center of Excellence, Johns Hopkins University, Baltimore, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5032971510",
+          "display_name": "Jason H. Moore",
+          "orcid": "https://orcid.org/0000-0002-5015-1099"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1282927834",
+            "display_name": "Cedars-Sinai Medical Center",
+            "ror": "https://ror.org/02pammg90",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jason H. Moore",
+        "raw_affiliation_strings": [
+          "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+          "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computational Biomedicine, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5067710731",
+          "display_name": "Warren G. Tourtellotte",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1282927834",
+            "display_name": "Cedars-Sinai Medical Center",
+            "ror": "https://ror.org/02pammg90",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Warren Tourtellotte",
+        "raw_affiliation_strings": [
+          "Department of Pathology and Laboratory Medicine, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+          "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5006172726",
+          "display_name": "Jennifer E. Van Eyk",
+          "orcid": "https://orcid.org/0000-0001-9050-148X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1282927834",
+            "display_name": "Cedars-Sinai Medical Center",
+            "ror": "https://ror.org/02pammg90",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jennifer E. Van Eyk",
+        "raw_affiliation_strings": [
+          "Department of Biomedical Sciences and Smidt Heart Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+          "Department of Pathology and Laboratory Medicine, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+          "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biomedical Sciences and Smidt Heart Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5020183452",
+          "display_name": "Dan Theodorescu",
+          "orcid": "https://orcid.org/0000-0002-8708-8206"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1282927834",
+            "display_name": "Cedars-Sinai Medical Center",
+            "ror": "https://ror.org/02pammg90",
+            "country_code": "US",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Dan Theodorescu",
+        "raw_affiliation_strings": [
+          "Department of Pathology and Laboratory Medicine, Cedars-Sinai Medical Center, Los Angeles, CA, USA. dan.theodorescu@cshs.org",
+          "Department of Urology, Cedars-Sinai Medical Center, Los Angeles, CA, USA. dan.theodorescu@cshs.org",
+          "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA. dan.theodorescu@cshs.org",
+          "Department of Pathology and Laboratory Medicine, Cedars-Sinai Medical Center, Los Angeles, CA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, Cedars-Sinai Medical Center, Los Angeles, CA, USA. dan.theodorescu@cshs.org",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Department of Urology, Cedars-Sinai Medical Center, Los Angeles, CA, USA. dan.theodorescu@cshs.org",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Samuel Oschin Comprehensive Cancer Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA. dan.theodorescu@cshs.org",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282927834"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 14,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5005658250"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I1282927834",
+      "https://openalex.org/I145311948"
+    ],
+    "apc_list": {
+      "value": 9750,
+      "currency": "EUR",
+      "value_usd": 11690
+    },
+    "apc_paid": {
+      "value": 9750,
+      "currency": "EUR",
+      "value_usd": 11690
+    },
+    "fwci": 33.87804461,
+    "has_fulltext": true,
+    "cited_by_count": 63,
+    "citation_normalized_percentile": {
+      "value": 0.99620975,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "5",
+      "issue": "2",
+      "first_page": "299",
+      "last_page": "314"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10231",
+      "display_name": "Pancreatic and Hepatic Oncology Research",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10231",
+        "display_name": "Pancreatic and Hepatic Oncology Research",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2730",
+          "display_name": "Oncology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11287",
+        "display_name": "Cancer Genomics and Diagnostics",
+        "score": 0.9980000257492065,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1306",
+          "display_name": "Cancer Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10449",
+        "display_name": "Renal cell carcinoma treatment",
+        "score": 0.9846000075340271,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2740",
+          "display_name": "Pulmonary and Respiratory Medicine"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/pancreatic-ductal-adenocarcinoma",
+        "display_name": "Pancreatic ductal adenocarcinoma",
+        "score": 0.7285235524177551
+      },
+      {
+        "id": "https://openalex.org/keywords/omics",
+        "display_name": "Omics",
+        "score": 0.6297183036804199
+      },
+      {
+        "id": "https://openalex.org/keywords/precision-medicine",
+        "display_name": "Precision medicine",
+        "score": 0.5889011025428772
+      },
+      {
+        "id": "https://openalex.org/keywords/biomarker-discovery",
+        "display_name": "Biomarker discovery",
+        "score": 0.5455313920974731
+      },
+      {
+        "id": "https://openalex.org/keywords/biomarker",
+        "display_name": "Biomarker",
+        "score": 0.5322442054748535
+      },
+      {
+        "id": "https://openalex.org/keywords/pancreatic-cancer",
+        "display_name": "Pancreatic cancer",
+        "score": 0.4866255223751068
+      },
+      {
+        "id": "https://openalex.org/keywords/adenocarcinoma",
+        "display_name": "Adenocarcinoma",
+        "score": 0.4469689726829529
+      },
+      {
+        "id": "https://openalex.org/keywords/molecular-biomarkers",
+        "display_name": "Molecular biomarkers",
+        "score": 0.42817291617393494
+      },
+      {
+        "id": "https://openalex.org/keywords/medicine",
+        "display_name": "Medicine",
+        "score": 0.42542922496795654
+      },
+      {
+        "id": "https://openalex.org/keywords/bioinformatics",
+        "display_name": "Bioinformatics",
+        "score": 0.3989489674568176
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.38860467076301575
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.38691750168800354
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.3641228675842285
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.3293173909187317
+      },
+      {
+        "id": "https://openalex.org/keywords/oncology",
+        "display_name": "Oncology",
+        "score": 0.3125435411930084
+      },
+      {
+        "id": "https://openalex.org/keywords/internal-medicine",
+        "display_name": "Internal medicine",
+        "score": 0.3027634024620056
+      },
+      {
+        "id": "https://openalex.org/keywords/cancer",
+        "display_name": "Cancer",
+        "score": 0.24719664454460144
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.18580418825149536
+      },
+      {
+        "id": "https://openalex.org/keywords/pathology",
+        "display_name": "Pathology",
+        "score": 0.1794305443763733
+      },
+      {
+        "id": "https://openalex.org/keywords/proteomics",
+        "display_name": "Proteomics",
+        "score": 0.14072811603546143
+      },
+      {
+        "id": "https://openalex.org/keywords/gene",
+        "display_name": "Gene",
+        "score": 0.09726715087890625
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2992026798",
+        "wikidata": "https://www.wikidata.org/wiki/Q212961",
+        "display_name": "Pancreatic ductal adenocarcinoma",
+        "level": 4,
+        "score": 0.7285235524177551
+      },
+      {
+        "id": "https://openalex.org/C157585117",
+        "wikidata": "https://www.wikidata.org/wiki/Q158666",
+        "display_name": "Omics",
+        "level": 2,
+        "score": 0.6297183036804199
+      },
+      {
+        "id": "https://openalex.org/C163763905",
+        "wikidata": "https://www.wikidata.org/wiki/Q17075943",
+        "display_name": "Precision medicine",
+        "level": 2,
+        "score": 0.5889011025428772
+      },
+      {
+        "id": "https://openalex.org/C124535831",
+        "wikidata": "https://www.wikidata.org/wiki/Q4915074",
+        "display_name": "Biomarker discovery",
+        "level": 4,
+        "score": 0.5455313920974731
+      },
+      {
+        "id": "https://openalex.org/C2781197716",
+        "wikidata": "https://www.wikidata.org/wiki/Q864574",
+        "display_name": "Biomarker",
+        "level": 2,
+        "score": 0.5322442054748535
+      },
+      {
+        "id": "https://openalex.org/C2780210213",
+        "wikidata": "https://www.wikidata.org/wiki/Q212961",
+        "display_name": "Pancreatic cancer",
+        "level": 3,
+        "score": 0.4866255223751068
+      },
+      {
+        "id": "https://openalex.org/C2781182431",
+        "wikidata": "https://www.wikidata.org/wiki/Q356033",
+        "display_name": "Adenocarcinoma",
+        "level": 3,
+        "score": 0.4469689726829529
+      },
+      {
+        "id": "https://openalex.org/C3019646584",
+        "wikidata": "https://www.wikidata.org/wiki/Q2311855",
+        "display_name": "Molecular biomarkers",
+        "level": 2,
+        "score": 0.42817291617393494
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.42542922496795654
+      },
+      {
+        "id": "https://openalex.org/C60644358",
+        "wikidata": "https://www.wikidata.org/wiki/Q128570",
+        "display_name": "Bioinformatics",
+        "level": 1,
+        "score": 0.3989489674568176
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.38860467076301575
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.38691750168800354
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.3641228675842285
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.3293173909187317
+      },
+      {
+        "id": "https://openalex.org/C143998085",
+        "wikidata": "https://www.wikidata.org/wiki/Q162555",
+        "display_name": "Oncology",
+        "level": 1,
+        "score": 0.3125435411930084
+      },
+      {
+        "id": "https://openalex.org/C126322002",
+        "wikidata": "https://www.wikidata.org/wiki/Q11180",
+        "display_name": "Internal medicine",
+        "level": 1,
+        "score": 0.3027634024620056
+      },
+      {
+        "id": "https://openalex.org/C121608353",
+        "wikidata": "https://www.wikidata.org/wiki/Q12078",
+        "display_name": "Cancer",
+        "level": 2,
+        "score": 0.24719664454460144
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.18580418825149536
+      },
+      {
+        "id": "https://openalex.org/C142724271",
+        "wikidata": "https://www.wikidata.org/wiki/Q7208",
+        "display_name": "Pathology",
+        "level": 1,
+        "score": 0.1794305443763733
+      },
+      {
+        "id": "https://openalex.org/C46111723",
+        "wikidata": "https://www.wikidata.org/wiki/Q471857",
+        "display_name": "Proteomics",
+        "level": 3,
+        "score": 0.14072811603546143
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.09726715087890625
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000230",
+        "descriptor_name": "Adenocarcinoma",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000230",
+        "descriptor_name": "Adenocarcinoma",
+        "qualifier_ui": "Q000601",
+        "qualifier_name": "surgery",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010190",
+        "descriptor_name": "Pancreatic Neoplasms",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010190",
+        "descriptor_name": "Pancreatic Neoplasms",
+        "qualifier_ui": "Q000601",
+        "qualifier_name": "surgery",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000095028",
+        "descriptor_name": "Multiomics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001185",
+        "descriptor_name": "Artificial Intelligence",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D021441",
+        "descriptor_name": "Carcinoma, Pancreatic Ductal",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D021441",
+        "descriptor_name": "Carcinoma, Pancreatic Ductal",
+        "qualifier_ui": "Q000601",
+        "qualifier_name": "surgery",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D007360",
+        "descriptor_name": "Intelligence",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000230",
+        "descriptor_name": "Adenocarcinoma",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000230",
+        "descriptor_name": "Adenocarcinoma",
+        "qualifier_ui": "Q000601",
+        "qualifier_name": "surgery",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010190",
+        "descriptor_name": "Pancreatic Neoplasms",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010190",
+        "descriptor_name": "Pancreatic Neoplasms",
+        "qualifier_ui": "Q000601",
+        "qualifier_name": "surgery",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000095028",
+        "descriptor_name": "Multiomics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001185",
+        "descriptor_name": "Artificial Intelligence",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D021441",
+        "descriptor_name": "Carcinoma, Pancreatic Ductal",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D021441",
+        "descriptor_name": "Carcinoma, Pancreatic Ductal",
+        "qualifier_ui": "Q000601",
+        "qualifier_name": "surgery",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D007360",
+        "descriptor_name": "Intelligence",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000230",
+        "descriptor_name": "Adenocarcinoma",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000230",
+        "descriptor_name": "Adenocarcinoma",
+        "qualifier_ui": "Q000601",
+        "qualifier_name": "surgery",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010190",
+        "descriptor_name": "Pancreatic Neoplasms",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010190",
+        "descriptor_name": "Pancreatic Neoplasms",
+        "qualifier_ui": "Q000601",
+        "qualifier_name": "surgery",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000095028",
+        "descriptor_name": "Multiomics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001185",
+        "descriptor_name": "Artificial Intelligence",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D021441",
+        "descriptor_name": "Carcinoma, Pancreatic Ductal",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D021441",
+        "descriptor_name": "Carcinoma, Pancreatic Ductal",
+        "qualifier_ui": "Q000601",
+        "qualifier_name": "surgery",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D007360",
+        "descriptor_name": "Intelligence",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000230",
+        "descriptor_name": "Adenocarcinoma",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000230",
+        "descriptor_name": "Adenocarcinoma",
+        "qualifier_ui": "Q000601",
+        "qualifier_name": "surgery",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010190",
+        "descriptor_name": "Pancreatic Neoplasms",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D010190",
+        "descriptor_name": "Pancreatic Neoplasms",
+        "qualifier_ui": "Q000601",
+        "qualifier_name": "surgery",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000095028",
+        "descriptor_name": "Multiomics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D001185",
+        "descriptor_name": "Artificial Intelligence",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D021441",
+        "descriptor_name": "Carcinoma, Pancreatic Ductal",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D021441",
+        "descriptor_name": "Carcinoma, Pancreatic Ductal",
+        "qualifier_ui": "Q000601",
+        "qualifier_name": "surgery",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D007360",
+        "descriptor_name": "Intelligence",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1038/s43018-023-00697-7",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s43018-023-00697-7",
+        "pdf_url": "https://www.nature.com/articles/s43018-023-00697-7.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210236562",
+          "display_name": "Nature Cancer",
+          "issn_l": "2662-1347",
+          "issn": [
+            "2662-1347"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Cancer",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38253803",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38253803",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature cancer",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:10899109",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10899109",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10899109/pdf/43018_2023_Article_697.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Nat Cancer",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:escholarship.org:ark:/13030/qt0mb466k7",
+        "is_oa": true,
+        "landing_page_url": "https://escholarship.org/uc/item/0mb466k7",
+        "pdf_url": null,
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Nature Cancer, vol 5, iss 2",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1038/s43018-023-00697-7",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s43018-023-00697-7",
+      "pdf_url": "https://www.nature.com/articles/s43018-023-00697-7.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210236562",
+        "display_name": "Nature Cancer",
+        "issn_l": "2662-1347",
+        "issn": [
+          "2662-1347"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Cancer",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G8963538783",
+        "display_name": null,
+        "funder_award_id": "OC210328P1",
+        "funder_id": "https://openalex.org/F4320306078",
+        "funder_display_name": "U.S. Department of Defense"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306078",
+        "display_name": "U.S. Department of Defense",
+        "ror": "https://ror.org/0447fe631"
+      },
+      {
+        "id": "https://openalex.org/F4320313996",
+        "display_name": "Cedars-Sinai Medical Center",
+        "ror": "https://ror.org/02pammg90"
+      },
+      {
+        "id": "https://openalex.org/F4320332161",
+        "display_name": "National Institutes of Health",
+        "ror": "https://ror.org/01cwqze88"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4391110749.pdf"
+    },
+    "referenced_works_count": 68,
+    "referenced_works": [
+      "https://openalex.org/W1968812902",
+      "https://openalex.org/W4315754639",
+      "https://openalex.org/W2530632953",
+      "https://openalex.org/W1190748217",
+      "https://openalex.org/W3197559541",
+      "https://openalex.org/W2159407099",
+      "https://openalex.org/W4205679757",
+      "https://openalex.org/W2961686713",
+      "https://openalex.org/W3119681293",
+      "https://openalex.org/W3216448540",
+      "https://openalex.org/W3045664761",
+      "https://openalex.org/W3095135394",
+      "https://openalex.org/W3199725740",
+      "https://openalex.org/W2980940865",
+      "https://openalex.org/W2045913019",
+      "https://openalex.org/W1897809477",
+      "https://openalex.org/W2014067939",
+      "https://openalex.org/W2624525365",
+      "https://openalex.org/W2998097762",
+      "https://openalex.org/W3022653165",
+      "https://openalex.org/W1196042158",
+      "https://openalex.org/W2981554419",
+      "https://openalex.org/W3122846230",
+      "https://openalex.org/W2289504874",
+      "https://openalex.org/W2913123776",
+      "https://openalex.org/W3133859624",
+      "https://openalex.org/W3185661842",
+      "https://openalex.org/W3185674382",
+      "https://openalex.org/W3119634551",
+      "https://openalex.org/W1995197723",
+      "https://openalex.org/W2343373075",
+      "https://openalex.org/W1965766554",
+      "https://openalex.org/W2949807514",
+      "https://openalex.org/W2573954821",
+      "https://openalex.org/W2969579026",
+      "https://openalex.org/W3139511935",
+      "https://openalex.org/W2070050178",
+      "https://openalex.org/W3046354124",
+      "https://openalex.org/W2744382787",
+      "https://openalex.org/W4283078749",
+      "https://openalex.org/W2158485828",
+      "https://openalex.org/W2810835704",
+      "https://openalex.org/W3087356245",
+      "https://openalex.org/W3216338042",
+      "https://openalex.org/W3146625365",
+      "https://openalex.org/W2966748327",
+      "https://openalex.org/W2954411576",
+      "https://openalex.org/W3209179565",
+      "https://openalex.org/W2884472648",
+      "https://openalex.org/W1742175820",
+      "https://openalex.org/W2300552860",
+      "https://openalex.org/W2018126724",
+      "https://openalex.org/W1597336200",
+      "https://openalex.org/W2027222148",
+      "https://openalex.org/W2504374598",
+      "https://openalex.org/W2806530968",
+      "https://openalex.org/W2764168238",
+      "https://openalex.org/W4285160595",
+      "https://openalex.org/W2922268597",
+      "https://openalex.org/W2915224732",
+      "https://openalex.org/W2013536196",
+      "https://openalex.org/W1969018608",
+      "https://openalex.org/W161126029",
+      "https://openalex.org/W1825978543",
+      "https://openalex.org/W2408856290",
+      "https://openalex.org/W2152311269",
+      "https://openalex.org/W2748710555",
+      "https://openalex.org/W2772839416"
+    ],
+    "related_works": [
+      "https://openalex.org/W2788286722",
+      "https://openalex.org/W4395033074",
+      "https://openalex.org/W2976952765",
+      "https://openalex.org/W3215632853",
+      "https://openalex.org/W4223912550",
+      "https://openalex.org/W2281038790",
+      "https://openalex.org/W4210973372",
+      "https://openalex.org/W4395031089",
+      "https://openalex.org/W2406946121",
+      "https://openalex.org/W2042445733"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Contemporary": [
+        1
+      ],
+      "analyses": [
+        2
+      ],
+      "focused": [
+        3
+      ],
+      "on": [
+        4
+      ],
+      "a": [
+        5,
+        28,
+        47,
+        72
+      ],
+      "limited": [
+        6
+      ],
+      "number": [
+        7
+      ],
+      "of": [
+        8,
+        38,
+        49,
+        91,
+        114,
+        121
+      ],
+      "clinical": [
+        9,
+        19,
+        51,
+        136
+      ],
+      "and": [
+        10,
+        42,
+        52,
+        82,
+        118,
+        138
+      ],
+      "molecular": [
+        11,
+        54
+      ],
+      "biomarkers": [
+        12
+      ],
+      "have": [
+        13
+      ],
+      "been": [
+        14
+      ],
+      "unable": [
+        15
+      ],
+      "to": [
+        16,
+        45,
+        63,
+        134
+      ],
+      "accurately": [
+        17,
+        64
+      ],
+      "predict": [
+        18,
+        65
+      ],
+      "outcomes": [
+        20
+      ],
+      "in": [
+        21
+      ],
+      "pancreatic": [
+        22,
+        60
+      ],
+      "ductal": [
+        23,
+        61
+      ],
+      "adenocarcinoma.": [
+        24
+      ],
+      "Here": [
+        25
+      ],
+      "we": [
+        26
+      ],
+      "describe": [
+        27
+      ],
+      "precision": [
+        29,
+        140
+      ],
+      "medicine": [
+        30,
+        142
+      ],
+      "platform": [
+        31,
+        111
+      ],
+      "known": [
+        32
+      ],
+      "as": [
+        33,
+        105
+      ],
+      "the": [
+        34,
+        79,
+        87,
+        106
+      ],
+      "Molecular": [
+        35
+      ],
+      "Twin": [
+        36
+      ],
+      "consisting": [
+        37
+      ],
+      "advanced": [
+        39
+      ],
+      "machine-learning": [
+        40
+      ],
+      "models": [
+        41,
+        124
+      ],
+      "use": [
+        43
+      ],
+      "it": [
+        44
+      ],
+      "analyze": [
+        46
+      ],
+      "dataset": [
+        48
+      ],
+      "6,363": [
+        50
+      ],
+      "multi-omic": [
+        53,
+        74,
+        99,
+        108
+      ],
+      "features": [
+        55,
+        100
+      ],
+      "from": [
+        56,
+        126
+      ],
+      "patients": [
+        57
+      ],
+      "with": [
+        58,
+        78
+      ],
+      "resected": [
+        59
+      ],
+      "adenocarcinoma": [
+        62
+      ],
+      "disease": [
+        66
+      ],
+      "survival": [
+        67
+      ],
+      "(DS).": [
+        68
+      ],
+      "We": [
+        69
+      ],
+      "show": [
+        70
+      ],
+      "that": [
+        71,
+        83
+      ],
+      "full": [
+        73,
+        107
+      ],
+      "model": [
+        75,
+        95
+      ],
+      "predicts": [
+        76
+      ],
+      "DS": [
+        77
+      ],
+      "highest": [
+        80
+      ],
+      "accuracy": [
+        81
+      ],
+      "plasma": [
+        84
+      ],
+      "protein": [
+        85
+      ],
+      "is": [
+        86
+      ],
+      "top": [
+        88
+      ],
+      "single-omic": [
+        89
+      ],
+      "predictor": [
+        90
+      ],
+      "DS.": [
+        92
+      ],
+      "A": [
+        93
+      ],
+      "parsimonious": [
+        94,
+        115
+      ],
+      "learning": [
+        96,
+        125
+      ],
+      "only": [
+        97
+      ],
+      "589": [
+        98
+      ],
+      "demonstrated": [
+        101
+      ],
+      "similar": [
+        102
+      ],
+      "predictive": [
+        103
+      ],
+      "performance": [
+        104,
+        119
+      ],
+      "model.": [
+        109
+      ],
+      "Our": [
+        110
+      ],
+      "enables": [
+        112
+      ],
+      "discovery": [
+        113
+      ],
+      "biomarker": [
+        116
+      ],
+      "panels": [
+        117
+      ],
+      "assessment": [
+        120
+      ],
+      "outcome": [
+        122
+      ],
+      "prediction": [
+        123
+      ],
+      "resource-intensive": [
+        127
+      ],
+      "panels.": [
+        128
+      ],
+      "This": [
+        129
+      ],
+      "approach": [
+        130
+      ],
+      "has": [
+        131
+      ],
+      "considerable": [
+        132
+      ],
+      "potential": [
+        133
+      ],
+      "impact": [
+        135
+      ],
+      "care": [
+        137
+      ],
+      "democratize": [
+        139
+      ],
+      "cancer": [
+        141
+      ],
+      "worldwide.": [
+        143
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 33
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 26
+      }
+    ],
+    "updated_date": "2026-01-25T03:40:55.926884",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {}
+}

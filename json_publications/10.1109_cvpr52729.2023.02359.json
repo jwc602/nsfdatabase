@@ -1,0 +1,1913 @@
+{
+  "doi": "10.1109/cvpr52729.2023.02359",
+  "openalex": {
+    "id": "https://openalex.org/W4386066653",
+    "doi": "https://doi.org/10.1109/cvpr52729.2023.02359",
+    "title": "Sibling-Attack: Rethinking Transferable Adversarial Attacks against Face Recognition",
+    "display_name": "Sibling-Attack: Rethinking Transferable Adversarial Attacks against Face Recognition",
+    "publication_year": 2023,
+    "publication_date": "2023-06-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4386066653",
+      "doi": "https://doi.org/10.1109/cvpr52729.2023.02359"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/cvpr52729.2023.02359",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/cvpr52729.2023.02359",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5053592535",
+          "display_name": "Zexin Li",
+          "orcid": "https://orcid.org/0000-0001-8758-2151"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I103635307",
+            "display_name": "University of California, Riverside",
+            "ror": "https://ror.org/03nawhv43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I103635307"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zexin Li",
+        "raw_affiliation_strings": [
+          "University of California, Riverside"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Riverside",
+            "institution_ids": [
+              "https://openalex.org/I103635307"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5110764613",
+          "display_name": "Bangjie Yin",
+          "orcid": "https://orcid.org/0000-0002-7825-943X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250653659",
+            "display_name": "Tencent (China)",
+            "ror": "https://ror.org/00hhjss72",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250653659"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bangjie Yin",
+        "raw_affiliation_strings": [
+          "Tencent"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Tencent",
+            "institution_ids": [
+              "https://openalex.org/I2250653659"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5033773467",
+          "display_name": "Taiping Yao",
+          "orcid": "https://orcid.org/0000-0002-2359-1523"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250653659",
+            "display_name": "Tencent (China)",
+            "ror": "https://ror.org/00hhjss72",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250653659"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Taiping Yao",
+        "raw_affiliation_strings": [
+          "Tencent"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Tencent",
+            "institution_ids": [
+              "https://openalex.org/I2250653659"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101476865",
+          "display_name": "Junfeng Guo",
+          "orcid": "https://orcid.org/0009-0001-0419-4442"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I162577319",
+            "display_name": "The University of Texas at Dallas",
+            "ror": "https://ror.org/049emcs32",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I162577319"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Junfeng Guo",
+        "raw_affiliation_strings": [
+          "The University of Texas at Dallas"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The University of Texas at Dallas",
+            "institution_ids": [
+              "https://openalex.org/I162577319"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5086397952",
+          "display_name": "Shouhong Ding",
+          "orcid": "https://orcid.org/0000-0002-3175-3553"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2250653659",
+            "display_name": "Tencent (China)",
+            "ror": "https://ror.org/00hhjss72",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I2250653659"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shouhong Ding",
+        "raw_affiliation_strings": [
+          "Tencent"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Tencent",
+            "institution_ids": [
+              "https://openalex.org/I2250653659"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5108149744",
+          "display_name": "Simin Chen",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I162577319",
+            "display_name": "The University of Texas at Dallas",
+            "ror": "https://ror.org/049emcs32",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I162577319"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Simin Chen",
+        "raw_affiliation_strings": [
+          "The University of Texas at Dallas"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The University of Texas at Dallas",
+            "institution_ids": [
+              "https://openalex.org/I162577319"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100331555",
+          "display_name": "Cong Liu",
+          "orcid": "https://orcid.org/0000-0001-8624-4126"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I103635307",
+            "display_name": "University of California, Riverside",
+            "ror": "https://ror.org/03nawhv43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I103635307"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Cong Liu",
+        "raw_affiliation_strings": [
+          "University of California, Riverside"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of California, Riverside",
+            "institution_ids": [
+              "https://openalex.org/I103635307"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 7,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 9.96227262,
+    "has_fulltext": false,
+    "cited_by_count": 39,
+    "citation_normalized_percentile": {
+      "value": 0.9810086,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 100
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "24626",
+      "last_page": "24637"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11689",
+      "display_name": "Adversarial Robustness in Machine Learning",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11689",
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "score": 0.9997000098228455,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11307",
+        "display_name": "Domain Adaptation and Few-Shot Learning",
+        "score": 0.9837999939918518,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10751",
+        "display_name": "Forensic and Genetic Research",
+        "score": 0.9171000123023987,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7721999883651733
+      },
+      {
+        "id": "https://openalex.org/keywords/adversarial-system",
+        "display_name": "Adversarial system",
+        "score": 0.5600609183311462
+      },
+      {
+        "id": "https://openalex.org/keywords/facial-recognition-system",
+        "display_name": "Facial recognition system",
+        "score": 0.4997212886810303
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.4595694839954376
+      },
+      {
+        "id": "https://openalex.org/keywords/transferability",
+        "display_name": "Transferability",
+        "score": 0.45252931118011475
+      },
+      {
+        "id": "https://openalex.org/keywords/task",
+        "display_name": "Task (project management)",
+        "score": 0.4104287922382355
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.40720194578170776
+      },
+      {
+        "id": "https://openalex.org/keywords/pattern-recognition",
+        "display_name": "Pattern recognition (psychology)",
+        "score": 0.2552138566970825
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7721999883651733
+      },
+      {
+        "id": "https://openalex.org/C37736160",
+        "wikidata": "https://www.wikidata.org/wiki/Q1801315",
+        "display_name": "Adversarial system",
+        "level": 2,
+        "score": 0.5600609183311462
+      },
+      {
+        "id": "https://openalex.org/C31510193",
+        "wikidata": "https://www.wikidata.org/wiki/Q1192553",
+        "display_name": "Facial recognition system",
+        "level": 3,
+        "score": 0.4997212886810303
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.4595694839954376
+      },
+      {
+        "id": "https://openalex.org/C61272859",
+        "wikidata": "https://www.wikidata.org/wiki/Q7834031",
+        "display_name": "Transferability",
+        "level": 3,
+        "score": 0.45252931118011475
+      },
+      {
+        "id": "https://openalex.org/C2780451532",
+        "wikidata": "https://www.wikidata.org/wiki/Q759676",
+        "display_name": "Task (project management)",
+        "level": 2,
+        "score": 0.4104287922382355
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.40720194578170776
+      },
+      {
+        "id": "https://openalex.org/C153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "level": 2,
+        "score": 0.2552138566970825
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C140331021",
+        "wikidata": "https://www.wikidata.org/wiki/Q1868104",
+        "display_name": "Logit",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C187736073",
+        "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+        "display_name": "Management",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/cvpr52729.2023.02359",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/cvpr52729.2023.02359",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.47999998927116394,
+        "id": "https://metadata.un.org/sdg/17",
+        "display_name": "Partnerships for the goals"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G4600388660",
+        "display_name": null,
+        "funder_award_id": "2135625",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 100,
+    "referenced_works": [
+      "https://openalex.org/W3119391778",
+      "https://openalex.org/W2535873859",
+      "https://openalex.org/W3204846429",
+      "https://openalex.org/W6770130389",
+      "https://openalex.org/W3128097543",
+      "https://openalex.org/W6637162671",
+      "https://openalex.org/W2969985801",
+      "https://openalex.org/W6763070779",
+      "https://openalex.org/W6785269020",
+      "https://openalex.org/W6736092963",
+      "https://openalex.org/W4385573222",
+      "https://openalex.org/W6754005058",
+      "https://openalex.org/W4312648739",
+      "https://openalex.org/W2962858109",
+      "https://openalex.org/W2774644650",
+      "https://openalex.org/W4313125090",
+      "https://openalex.org/W2972986629",
+      "https://openalex.org/W2969542116",
+      "https://openalex.org/W6750222692",
+      "https://openalex.org/W3107485598",
+      "https://openalex.org/W6739868092",
+      "https://openalex.org/W2093805119",
+      "https://openalex.org/W2963430933",
+      "https://openalex.org/W6768366551",
+      "https://openalex.org/W1834627138",
+      "https://openalex.org/W6731927902",
+      "https://openalex.org/W3120236755",
+      "https://openalex.org/W4308643054",
+      "https://openalex.org/W4285606426",
+      "https://openalex.org/W6750649700",
+      "https://openalex.org/W2746600820",
+      "https://openalex.org/W2913340405",
+      "https://openalex.org/W4313563684",
+      "https://openalex.org/W3100726446",
+      "https://openalex.org/W3214911933",
+      "https://openalex.org/W6846053318",
+      "https://openalex.org/W6838510352",
+      "https://openalex.org/W2969664989",
+      "https://openalex.org/W6745560452",
+      "https://openalex.org/W2194775991",
+      "https://openalex.org/W6755430541",
+      "https://openalex.org/W4382464557",
+      "https://openalex.org/W3035276179",
+      "https://openalex.org/W6638046521",
+      "https://openalex.org/W2738069262",
+      "https://openalex.org/W2963857521",
+      "https://openalex.org/W2143419558",
+      "https://openalex.org/W2963542245",
+      "https://openalex.org/W3035524670",
+      "https://openalex.org/W4312790346",
+      "https://openalex.org/W6759129252",
+      "https://openalex.org/W6757758324",
+      "https://openalex.org/W3015646845",
+      "https://openalex.org/W6803620494",
+      "https://openalex.org/W6804404942",
+      "https://openalex.org/W6640425456",
+      "https://openalex.org/W6749238303",
+      "https://openalex.org/W3104537462",
+      "https://openalex.org/W6850353503",
+      "https://openalex.org/W3189402954",
+      "https://openalex.org/W6736057607",
+      "https://openalex.org/W2620200771",
+      "https://openalex.org/W2159269332",
+      "https://openalex.org/W3208456187",
+      "https://openalex.org/W3179647175",
+      "https://openalex.org/W6797816526",
+      "https://openalex.org/W6785861295",
+      "https://openalex.org/W3209246688",
+      "https://openalex.org/W2964122907",
+      "https://openalex.org/W3171288285",
+      "https://openalex.org/W3175685622",
+      "https://openalex.org/W4306309425",
+      "https://openalex.org/W1945616565",
+      "https://openalex.org/W2962847335",
+      "https://openalex.org/W2603766943",
+      "https://openalex.org/W3106412272",
+      "https://openalex.org/W2604763608",
+      "https://openalex.org/W3177184533",
+      "https://openalex.org/W2570685808",
+      "https://openalex.org/W3034672970",
+      "https://openalex.org/W2913266441",
+      "https://openalex.org/W4313141826",
+      "https://openalex.org/W4293846201",
+      "https://openalex.org/W3110144845",
+      "https://openalex.org/W4281760954",
+      "https://openalex.org/W4294643831",
+      "https://openalex.org/W3163269309",
+      "https://openalex.org/W3101695497",
+      "https://openalex.org/W3210327063",
+      "https://openalex.org/W1782590233",
+      "https://openalex.org/W2794363191",
+      "https://openalex.org/W2963976704",
+      "https://openalex.org/W2906946247",
+      "https://openalex.org/W2950673314",
+      "https://openalex.org/W2998163473",
+      "https://openalex.org/W1673923490",
+      "https://openalex.org/W2976752987",
+      "https://openalex.org/W4319653550",
+      "https://openalex.org/W2896078964",
+      "https://openalex.org/W3099206234"
+    ],
+    "related_works": [
+      "https://openalex.org/W4288055406",
+      "https://openalex.org/W4200630034",
+      "https://openalex.org/W3137894200",
+      "https://openalex.org/W3092178728",
+      "https://openalex.org/W4226402597",
+      "https://openalex.org/W3132910851",
+      "https://openalex.org/W4377864639",
+      "https://openalex.org/W4392340763",
+      "https://openalex.org/W4283325551",
+      "https://openalex.org/W4403006689"
+    ],
+    "abstract_inverted_index": {
+      "A": [
+        0
+      ],
+      "hard": [
+        1
+      ],
+      "challenge": [
+        2
+      ],
+      "in": [
+        3,
+        121
+      ],
+      "developing": [
+        4
+      ],
+      "practical": [
+        5
+      ],
+      "face": [
+        6
+      ],
+      "recognition": [
+        7
+      ],
+      "(FR)": [
+        8
+      ],
+      "attacks": [
+        9
+      ],
+      "is": [
+        10,
+        46
+      ],
+      "due": [
+        11
+      ],
+      "to": [
+        12,
+        27,
+        96,
+        146
+      ],
+      "the": [
+        13,
+        17,
+        81,
+        112,
+        118,
+        143,
+        149,
+        160,
+        174
+      ],
+      "black-box": [
+        14,
+        38
+      ],
+      "nature": [
+        15
+      ],
+      "of": [
+        16,
+        105
+      ],
+      "target": [
+        18
+      ],
+      "FR": [
+        19,
+        39,
+        53,
+        77,
+        109,
+        186,
+        204,
+        212
+      ],
+      "model,": [
+        20
+      ],
+      "i.e.,": [
+        21
+      ],
+      "inaccessible": [
+        22
+      ],
+      "gradient": [
+        23,
+        138,
+        161,
+        169
+      ],
+      "and": [
+        24,
+        110,
+        126,
+        165,
+        197,
+        206
+      ],
+      "parameter": [
+        25
+      ],
+      "information": [
+        26,
+        92,
+        139
+      ],
+      "attackers.": [
+        28
+      ],
+      "While": [
+        29
+      ],
+      "recent": [
+        30
+      ],
+      "research": [
+        31
+      ],
+      "took": [
+        32
+      ],
+      "an": [
+        33,
+        132
+      ],
+      "important": [
+        34
+      ],
+      "step": [
+        35
+      ],
+      "towards": [
+        36
+      ],
+      "attacking": [
+        37,
+        98
+      ],
+      "models": [
+        40,
+        205
+      ],
+      "through": [
+        41,
+        140
+      ],
+      "leveraging": [
+        42,
+        90
+      ],
+      "transferability,": [
+        43
+      ],
+      "their": [
+        44
+      ],
+      "performance": [
+        45
+      ],
+      "still": [
+        47
+      ],
+      "limited,": [
+        48
+      ],
+      "especially": [
+        49
+      ],
+      "against": [
+        50
+      ],
+      "online": [
+        51
+      ],
+      "commercial": [
+        52,
+        211
+      ],
+      "systems": [
+        54
+      ],
+      "that": [
+        55,
+        135,
+        158,
+        182
+      ],
+      "can": [
+        56
+      ],
+      "be": [
+        57,
+        147
+      ],
+      "pessimistic": [
+        58
+      ],
+      "(e.g.,": [
+        59
+      ],
+      "a": [
+        60,
+        75,
+        85,
+        103,
+        153,
+        167,
+        190
+      ],
+      "less": [
+        61
+      ],
+      "than": [
+        62
+      ],
+      "50%": [
+        63
+      ],
+      "ASR-attack": [
+        64
+      ],
+      "success": [
+        65
+      ],
+      "rate": [
+        66
+      ],
+      "on": [
+        67,
+        124,
+        199,
+        201
+      ],
+      "average).": [
+        68
+      ],
+      "Motivated": [
+        69
+      ],
+      "by": [
+        70,
+        189,
+        195
+      ],
+      "this,": [
+        71
+      ],
+      "we": [
+        72
+      ],
+      "present": [
+        73
+      ],
+      "Sibling-Attack,": [
+        74
+      ],
+      "new": [
+        76
+      ],
+      "attack": [
+        78,
+        187
+      ],
+      "technique": [
+        79
+      ],
+      "for": [
+        80
+      ],
+      "first": [
+        82
+      ],
+      "time": [
+        83
+      ],
+      "explores": [
+        84
+      ],
+      "novel": [
+        86
+      ],
+      "multi-task": [
+        87
+      ],
+      "perspective": [
+        88
+      ],
+      "(i.e.,": [
+        89
+      ],
+      "extra": [
+        91
+      ],
+      "from": [
+        93
+      ],
+      "multi-correlated": [
+        94
+      ],
+      "tasks": [
+        95,
+        106
+      ],
+      "boost": [
+        97
+      ],
+      "transferability).": [
+        99
+      ],
+      "Intuitively,": [
+        100
+      ],
+      "Sibling-Attack": [
+        101,
+        122,
+        129
+      ],
+      "selects": [
+        102
+      ],
+      "set": [
+        104
+      ],
+      "correlated": [
+        107
+      ],
+      "with": [
+        108
+      ],
+      "picks": [
+        111
+      ],
+      "Attribute": [
+        113
+      ],
+      "Recognition": [
+        114
+      ],
+      "(AR)": [
+        115
+      ],
+      "task": [
+        116,
+        119
+      ],
+      "as": [
+        117
+      ],
+      "used": [
+        120,
+        210
+      ],
+      "based": [
+        123
+      ],
+      "theoretical": [
+        125
+      ],
+      "quantitative": [
+        127
+      ],
+      "analysis.": [
+        128
+      ],
+      "then": [
+        130
+      ],
+      "develops": [
+        131
+      ],
+      "optimization": [
+        133,
+        156
+      ],
+      "framework": [
+        134,
+        157
+      ],
+      "fuses": [
+        136
+      ],
+      "adversarial": [
+        137
+      ],
+      "(1)": [
+        141
+      ],
+      "constraining": [
+        142
+      ],
+      "cross-task": [
+        144,
+        168
+      ],
+      "features": [
+        145
+      ],
+      "under": [
+        148
+      ],
+      "same": [
+        150
+      ],
+      "space,": [
+        151
+      ],
+      "(2)": [
+        152
+      ],
+      "Jointtask": [
+        154
+      ],
+      "meta": [
+        155
+      ],
+      "enhances": [
+        159
+      ],
+      "compatibility": [
+        162
+      ],
+      "among": [
+        163
+      ],
+      "tasks,": [
+        164
+      ],
+      "(3)": [
+        166
+      ],
+      "stabilization": [
+        170
+      ],
+      "method": [
+        171
+      ],
+      "which": [
+        172
+      ],
+      "mitigates": [
+        173
+      ],
+      "oscillation": [
+        175
+      ],
+      "effect": [
+        176
+      ],
+      "during": [
+        177
+      ],
+      "attacking.": [
+        178
+      ],
+      "Extensive": [
+        179
+      ],
+      "experiments": [
+        180
+      ],
+      "demonstrate": [
+        181
+      ],
+      "SiblingAttack": [
+        183
+      ],
+      "outperforms": [
+        184
+      ],
+      "state-of-the-art": [
+        185,
+        202
+      ],
+      "techniques": [
+        188
+      ],
+      "non-trivial": [
+        191
+      ],
+      "margin,": [
+        192
+      ],
+      "boosting": [
+        193
+      ],
+      "ASR": [
+        194
+      ],
+      "12.61%": [
+        196
+      ],
+      "55.77%": [
+        198
+      ],
+      "average": [
+        200
+      ],
+      "pre-trained": [
+        203
+      ],
+      "two": [
+        207
+      ],
+      "well-known,": [
+        208
+      ],
+      "widely": [
+        209
+      ],
+      "systems.": [
+        213
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 6
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          15
+        ]
+      ],
+      "date-time": "2025-11-15T17:21:25Z",
+      "timestamp": 1763227285255,
+      "version": "3.37.3"
+    },
+    "reference-count": 75,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2023-06-01T00:00:00Z",
+          "timestamp": 1685577600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2023-06-01T00:00:00Z",
+          "timestamp": 1685577600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "NSF",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2135625"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2135625"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52729.2023.02359",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          22
+        ]
+      ],
+      "date-time": "2023-08-22T17:30:52Z",
+      "timestamp": 1692725452000
+    },
+    "page": "24626-24637",
+    "source": "Crossref",
+    "is-referenced-by-count": 34,
+    "title": [
+      "Sibling-Attack: Rethinking Transferable Adversarial Attacks against Face Recognition"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Zexin",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of California,Riverside"
+          }
+        ]
+      },
+      {
+        "given": "Bangjie",
+        "family": "Yin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tencent"
+          }
+        ]
+      },
+      {
+        "given": "Taiping",
+        "family": "Yao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tencent"
+          }
+        ]
+      },
+      {
+        "given": "Junfeng",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The University of Texas at Dallas"
+          }
+        ]
+      },
+      {
+        "given": "Shouhong",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tencent"
+          }
+        ]
+      },
+      {
+        "given": "Simin",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The University of Texas at Dallas"
+          }
+        ]
+      },
+      {
+        "given": "Cong",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of California,Riverside"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IJCB48548.2020.9304898"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2976749.2978392"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2021.emnlp-main.718"
+      },
+      {
+        "key": "ref56",
+        "first-page": "11974",
+        "article-title": "Regular-ized fine-grained meta face anti-spoofing",
+        "author": "shao",
+        "year": "0",
+        "journal-title": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)"
+      },
+      {
+        "key": "ref15",
+        "first-page": "307",
+        "article-title": "Face attributes as cues for deep face recognition understanding",
+        "author": "alves diniz",
+        "year": "0",
+        "journal-title": "2020 15th IEEE International Conference on Automatic Face & Gesture Recognition (FG 2020)"
+      },
+      {
+        "key": "ref59",
+        "article-title": "Intriguing properties of neural networks",
+        "author": "szegedy",
+        "year": "2013",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00482"
+      },
+      {
+        "key": "ref58",
+        "first-page": "9120",
+        "article-title": "Which tasks should be learned together in multi-task learning?",
+        "author": "standley",
+        "year": "0",
+        "journal-title": "International Conference on Machine Learning (ICML)"
+      },
+      {
+        "key": "ref53",
+        "article-title": "Facenet: A unified embedding for face recognition and clus-tering",
+        "author": "schroff",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+      },
+      {
+        "key": "ref52",
+        "first-page": "506",
+        "article-title": "Prac-tical black-box attacks against machine learning",
+        "author": "papernot",
+        "year": "0",
+        "journal-title": "Proceedings of the 2017 ACM on Asia Conference on Computer and Communications Security (ASIA CCS)"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2022.emnlp-main.558"
+      },
+      {
+        "key": "ref55",
+        "article-title": "Multi-task learning as multi-objective optimization",
+        "volume": "31",
+        "author": "sener",
+        "year": "2018",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01493"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00957"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01862"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00790"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00444"
+      },
+      {
+        "key": "ref51",
+        "first-page": "4",
+        "article-title": "Reptile: a scalable metalearning algorithm",
+        "volume": "2",
+        "author": "nichol",
+        "year": "2018",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "journal-title": "Microsoft",
+        "year": "2021",
+        "key": "ref50"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58536-5_10"
+      },
+      {
+        "key": "ref45",
+        "article-title": "Towards deep learning models resistant to adversarial attacks",
+        "author": "madry",
+        "year": "0",
+        "journal-title": "International Conference on Learning Representations (ICLR)"
+      },
+      {
+        "journal-title": "MEGVII Online face verification",
+        "year": "2021",
+        "key": "ref48"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSMC.1986.4308985"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00197"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Nesterov accelerated gradient and scale invariance for adversarial attacks",
+        "author": "lin",
+        "year": "0",
+        "journal-title": "International Conference on Learning Representations (ICLR)"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.425"
+      },
+      {
+        "key": "ref43",
+        "article-title": "Delving into transferable adversarial examples and blackbox attacks",
+        "author": "liu",
+        "year": "0",
+        "journal-title": "Proceedings of 5th International Conference on Learning Representations (ICLR)"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3418287"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3540250.3549102"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2022/94"
+      },
+      {
+        "key": "ref9",
+        "first-page": "428",
+        "article-title": "Mobile-facenets: Efficient cnns for accurate real-time face verification on mobile devices",
+        "author": "chen",
+        "year": "0",
+        "journal-title": "Proceedings of the Chinese Conference on Biometric Recognition (CCBR)"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3128572.3140448"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1007379606734"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3551349.3561158"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3368089.3409733"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2021.108472"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Advattribute: Inconspicuous and transferable adversarial attack on face recognition",
+        "author": "jia",
+        "year": "2022",
+        "journal-title": "Advances in Neural Information Processing Systems (NIPS)"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Transferable adversarial attack based on integrated gradients",
+        "author": "huang",
+        "year": "0",
+        "journal-title": "The Tenth International Conference on Learning Representations ICLR OpenReview net"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICPR48806.2021.9412236"
+      },
+      {
+        "key": "ref36",
+        "article-title": "Progressive growing of GANs for improved quality, stability, and variation",
+        "author": "karras",
+        "year": "0",
+        "journal-title": "International Conference on Learning Representations (ICLR)"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref75",
+        "first-page": "452",
+        "article-title": "Transferable ad-versarial perturbations",
+        "author": "zhou",
+        "year": "0",
+        "journal-title": "Proceedings of the European Conference on Computer Vision (ECCV)"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v37i1.25154"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00457"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Labeled faces in the wild: A database forstudying face recognition in unconstrained environments",
+        "author": "huang",
+        "year": "0",
+        "journal-title": "Workshop on faces in &#x2018;Real-Lije &#x2018;Images detection alignment and recognition"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.404"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP.2017.49"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1007327622663"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9781351251389-8"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01426"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01457"
+      },
+      {
+        "key": "ref70",
+        "first-page": "7472",
+        "article-title": "Theoretically princi-pled trade-off between robustness and accuracy",
+        "author": "zhang",
+        "year": "0",
+        "journal-title": "International Conference on Machine Learning (ICML)"
+      },
+      {
+        "key": "ref73",
+        "first-page": "347",
+        "article-title": "Deep-billboard: Systematic physical-world testing of autonomous driving systems",
+        "author": "zhou",
+        "year": "0",
+        "journal-title": "Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIFS.2020.3036801"
+      },
+      {
+        "key": "ref24",
+        "article-title": "AEVA: Black-box backdoor detection using adversarial extreme value analysis",
+        "author": "guo",
+        "year": "0",
+        "journal-title": "International Conference on Learning Representations"
+      },
+      {
+        "key": "ref68",
+        "first-page": "14983",
+        "article-title": "Stochastic variance reduced ensemble adver-sarial attack for boosting the adversarial transferability",
+        "author": "xiong",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Explaining and harnessing adversarial examples",
+        "author": "goodfellow",
+        "year": "0",
+        "journal-title": "International Conference on Learning Representations (ICLR)"
+      },
+      {
+        "key": "ref67",
+        "first-page": "2730",
+        "article-title": "Improving transferabil-ity of adversarial examples with input diversity",
+        "author": "xie",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58583-9_9"
+      },
+      {
+        "key": "ref25",
+        "article-title": "SCALE-UP: An efficient black-box input-level backdoor detection via analyzing scaled prediction consistency",
+        "author": "guo",
+        "year": "0",
+        "journal-title": "In The Eleventh International Conference on Learning Representations"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2021/173"
+      },
+      {
+        "key": "ref20",
+        "first-page": "1126",
+        "article-title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+        "author": "finn",
+        "year": "0",
+        "journal-title": "Proceedings of the International Conference on Machine Learning (ICML)"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3078971.3078973"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/97.995823"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v36i1.19950"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01167"
+      },
+      {
+        "key": "ref21",
+        "first-page": "1126",
+        "article-title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+        "author": "finn",
+        "year": "0",
+        "journal-title": "Proceedings of the International Conference on Machine Learning (ICML)"
+      },
+      {
+        "key": "ref65",
+        "first-page": "9024",
+        "article-title": "Improving the transferability of adversarial samples with ad-versarial transformations",
+        "author": "wu",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+      },
+      {
+        "key": "ref28",
+        "first-page": "87",
+        "article-title": "Ms-celeb-lm: A dataset and benchmark for large-scale face recognition",
+        "author": "guo",
+        "year": "0",
+        "journal-title": "Proceedings of the European Conference on Computer Vision (ECCV)"
+      },
+      {
+        "key": "ref27",
+        "article-title": "Multi-task adversarial attack",
+        "author": "guo",
+        "year": "2020",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW54120.2021.00253"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW.2018.00097"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00196"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00473"
+      }
+    ],
+    "event": {
+      "name": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            17
+          ]
+        ]
+      },
+      "location": "Vancouver, BC, Canada",
+      "end": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            24
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/10203037/10203050/10204100.pdf?arnumber=10204100",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          11
+        ]
+      ],
+      "date-time": "2023-09-11T18:05:53Z",
+      "timestamp": 1694455553000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10204100/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "references-count": 75,
+    "URL": "https://doi.org/10.1109/cvpr52729.2023.02359",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    }
+  }
+}

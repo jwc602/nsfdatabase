@@ -1,0 +1,1291 @@
+{
+  "doi": "10.1109/cvpr52733.2024.01289",
+  "openalex": {
+    "id": "https://openalex.org/W4402727403",
+    "doi": "https://doi.org/10.1109/cvpr52733.2024.01289",
+    "title": "Koala: Key Frame-Conditioned Long Video-LLM",
+    "display_name": "Koala: Key Frame-Conditioned Long Video-LLM",
+    "publication_year": 2024,
+    "publication_date": "2024-06-16",
+    "ids": {
+      "openalex": "https://openalex.org/W4402727403",
+      "doi": "https://doi.org/10.1109/cvpr52733.2024.01289"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/cvpr52733.2024.01289",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/cvpr52733.2024.01289",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5000761729",
+          "display_name": "Reuben Tan",
+          "orcid": null
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Reuben Tan",
+        "raw_affiliation_strings": [
+          "Boston University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Boston University",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5016934680",
+          "display_name": "Ximeng Sun",
+          "orcid": "https://orcid.org/0000-0003-2187-0657"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ximeng Sun",
+        "raw_affiliation_strings": [
+          "Boston University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Boston University",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100424736",
+          "display_name": "Ping Hu",
+          "orcid": "https://orcid.org/0000-0003-3321-6759"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I150229711",
+            "display_name": "University of Electronic Science and Technology of China",
+            "ror": "https://ror.org/04qr3zq92",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I150229711"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ping Hu",
+        "raw_affiliation_strings": [
+          "University of Electronic Science and Technology of China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Electronic Science and Technology of China",
+            "institution_ids": [
+              "https://openalex.org/I150229711"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5008138905",
+          "display_name": "Jui-Hsien Wang",
+          "orcid": "https://orcid.org/0000-0002-9210-8718"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1306409833",
+            "display_name": "Adobe Systems (United States)",
+            "ror": "https://ror.org/059tvcg64",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I1306409833"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jui-Hsien Wang",
+        "raw_affiliation_strings": [
+          "Adobe Research"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Adobe Research",
+            "institution_ids": [
+              "https://openalex.org/I1306409833"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5083681053",
+          "display_name": "Hanieh Deilamsalehy",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1306409833",
+            "display_name": "Adobe Systems (United States)",
+            "ror": "https://ror.org/059tvcg64",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I1306409833"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hanieh Deilamsalehy",
+        "raw_affiliation_strings": [
+          "Adobe Research"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Adobe Research",
+            "institution_ids": [
+              "https://openalex.org/I1306409833"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5061227594",
+          "display_name": "Bryan A. Plummer",
+          "orcid": "https://orcid.org/0000-0002-7074-3219"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Bryan A. Plummer",
+        "raw_affiliation_strings": [
+          "Boston University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Boston University",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5053907649",
+          "display_name": "Bryan Russell",
+          "orcid": "https://orcid.org/0000-0001-8656-543X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1306409833",
+            "display_name": "Adobe Systems (United States)",
+            "ror": "https://ror.org/059tvcg64",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I1306409833"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bryan Russell",
+        "raw_affiliation_strings": [
+          "Adobe Research"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Adobe Research",
+            "institution_ids": [
+              "https://openalex.org/I1306409833"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5075906727",
+          "display_name": "Kate Saenko",
+          "orcid": "https://orcid.org/0000-0002-7564-7218"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Kate Saenko",
+        "raw_affiliation_strings": [
+          "Boston University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Boston University",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 3.71110292,
+    "has_fulltext": false,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": {
+      "value": 0.90052239,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 99
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "13581",
+      "last_page": "13591"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10812",
+      "display_name": "Human Pose and Action Recognition",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10812",
+        "display_name": "Human Pose and Action Recognition",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11714",
+        "display_name": "Multimodal Machine Learning Applications",
+        "score": 0.9993000030517578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11439",
+        "display_name": "Video Analysis and Summarization",
+        "score": 0.9926999807357788,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/key",
+        "display_name": "Key (lock)",
+        "score": 0.7341321706771851
+      },
+      {
+        "id": "https://openalex.org/keywords/frame",
+        "display_name": "Frame (networking)",
+        "score": 0.6341267824172974
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6248509883880615
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-graphics",
+        "display_name": "Computer graphics (images)",
+        "score": 0.3919687867164612
+      },
+      {
+        "id": "https://openalex.org/keywords/multimedia",
+        "display_name": "Multimedia",
+        "score": 0.3388729989528656
+      },
+      {
+        "id": "https://openalex.org/keywords/telecommunications",
+        "display_name": "Telecommunications",
+        "score": 0.19047436118125916
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-security",
+        "display_name": "Computer security",
+        "score": 0.15259310603141785
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C26517878",
+        "wikidata": "https://www.wikidata.org/wiki/Q228039",
+        "display_name": "Key (lock)",
+        "level": 2,
+        "score": 0.7341321706771851
+      },
+      {
+        "id": "https://openalex.org/C126042441",
+        "wikidata": "https://www.wikidata.org/wiki/Q1324888",
+        "display_name": "Frame (networking)",
+        "level": 2,
+        "score": 0.6341267824172974
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6248509883880615
+      },
+      {
+        "id": "https://openalex.org/C121684516",
+        "wikidata": "https://www.wikidata.org/wiki/Q7600677",
+        "display_name": "Computer graphics (images)",
+        "level": 1,
+        "score": 0.3919687867164612
+      },
+      {
+        "id": "https://openalex.org/C49774154",
+        "wikidata": "https://www.wikidata.org/wiki/Q131765",
+        "display_name": "Multimedia",
+        "level": 1,
+        "score": 0.3388729989528656
+      },
+      {
+        "id": "https://openalex.org/C76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "level": 1,
+        "score": 0.19047436118125916
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.15259310603141785
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/cvpr52733.2024.01289",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/cvpr52733.2024.01289",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 92,
+    "referenced_works": [
+      "https://openalex.org/W6810334672",
+      "https://openalex.org/W4214612132",
+      "https://openalex.org/W3204588463",
+      "https://openalex.org/W3126721948",
+      "https://openalex.org/W6778883912",
+      "https://openalex.org/W2963524571",
+      "https://openalex.org/W4205385624",
+      "https://openalex.org/W4307079201",
+      "https://openalex.org/W6840041517",
+      "https://openalex.org/W4214614183",
+      "https://openalex.org/W3034572008",
+      "https://openalex.org/W2990503944",
+      "https://openalex.org/W3170837227",
+      "https://openalex.org/W4386076176",
+      "https://openalex.org/W4312492610",
+      "https://openalex.org/W4386071468",
+      "https://openalex.org/W4214555767",
+      "https://openalex.org/W4312372711",
+      "https://openalex.org/W6779068807",
+      "https://openalex.org/W3168867926",
+      "https://openalex.org/W4312777110",
+      "https://openalex.org/W6790830454",
+      "https://openalex.org/W4312480274",
+      "https://openalex.org/W3175357208",
+      "https://openalex.org/W3211462570",
+      "https://openalex.org/W2024868105",
+      "https://openalex.org/W6841115740",
+      "https://openalex.org/W6854510102",
+      "https://openalex.org/W6849177959",
+      "https://openalex.org/W6852776751",
+      "https://openalex.org/W6777207437",
+      "https://openalex.org/W4312232568",
+      "https://openalex.org/W6851592950",
+      "https://openalex.org/W4312299780",
+      "https://openalex.org/W6852952677",
+      "https://openalex.org/W6853515732",
+      "https://openalex.org/W6856126884",
+      "https://openalex.org/W2984008963",
+      "https://openalex.org/W3210279979",
+      "https://openalex.org/W4312614039",
+      "https://openalex.org/W3189615635",
+      "https://openalex.org/W6791353385",
+      "https://openalex.org/W6854917811",
+      "https://openalex.org/W6767211374",
+      "https://openalex.org/W6852447913",
+      "https://openalex.org/W4312919100",
+      "https://openalex.org/W6846305988",
+      "https://openalex.org/W6850625674",
+      "https://openalex.org/W2963155035",
+      "https://openalex.org/W6797716411",
+      "https://openalex.org/W2068611653",
+      "https://openalex.org/W4386075572",
+      "https://openalex.org/W6852999659",
+      "https://openalex.org/W6846867676",
+      "https://openalex.org/W4386072441",
+      "https://openalex.org/W6838461927",
+      "https://openalex.org/W3175859344",
+      "https://openalex.org/W4312772544",
+      "https://openalex.org/W2425121537",
+      "https://openalex.org/W6838434436",
+      "https://openalex.org/W6852060543",
+      "https://openalex.org/W2162451865",
+      "https://openalex.org/W4389519587",
+      "https://openalex.org/W6811340617",
+      "https://openalex.org/W6851950068",
+      "https://openalex.org/W4306177974",
+      "https://openalex.org/W3122890974",
+      "https://openalex.org/W4322718191",
+      "https://openalex.org/W4402702917",
+      "https://openalex.org/W4225323055",
+      "https://openalex.org/W4402671548",
+      "https://openalex.org/W4378711593",
+      "https://openalex.org/W4366330503",
+      "https://openalex.org/W4376167553",
+      "https://openalex.org/W4366850747",
+      "https://openalex.org/W2969876226",
+      "https://openalex.org/W4380559123",
+      "https://openalex.org/W4282981845",
+      "https://openalex.org/W4287113019",
+      "https://openalex.org/W4376312115",
+      "https://openalex.org/W4283026156",
+      "https://openalex.org/W4283066680",
+      "https://openalex.org/W4310921506",
+      "https://openalex.org/W4377164404",
+      "https://openalex.org/W4318718936",
+      "https://openalex.org/W4292779060",
+      "https://openalex.org/W3169064633",
+      "https://openalex.org/W4386043298",
+      "https://openalex.org/W3105232955",
+      "https://openalex.org/W4367367040",
+      "https://openalex.org/W4385473806",
+      "https://openalex.org/W4229005866"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W4396701345",
+      "https://openalex.org/W2376932109",
+      "https://openalex.org/W2001405890",
+      "https://openalex.org/W4396696052",
+      "https://openalex.org/W2382290278",
+      "https://openalex.org/W855007925"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-12-19T19:40:27.379048",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2025-12-18T14:27:22Z",
+      "timestamp": 1766068042807,
+      "version": "3.28.0"
+    },
+    "reference-count": 72,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T00:00:00Z",
+          "timestamp": 1718496000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T00:00:00Z",
+          "timestamp": 1718496000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52733.2024.01289",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2024-09-16T17:34:53Z",
+      "timestamp": 1726508093000
+    },
+    "page": "13581-13591",
+    "source": "Crossref",
+    "is-referenced-by-count": 16,
+    "title": [
+      "Koala: Key Frame-Conditioned Long Video-LLM"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Reuben",
+        "family": "Tan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Boston University"
+          }
+        ]
+      },
+      {
+        "given": "Ximeng",
+        "family": "Sun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Boston University"
+          }
+        ]
+      },
+      {
+        "given": "Ping",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Electronic Science and Technology of China"
+          }
+        ]
+      },
+      {
+        "given": "Jui-Hsien",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Adobe Research"
+          }
+        ]
+      },
+      {
+        "given": "Hanieh",
+        "family": "Deilamsalehy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Adobe Research"
+          }
+        ]
+      },
+      {
+        "given": "Bryan A.",
+        "family": "Plummer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Boston University"
+          }
+        ]
+      },
+      {
+        "given": "Bryan",
+        "family": "Russell",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Adobe Research"
+          }
+        ]
+      },
+      {
+        "given": "Kate",
+        "family": "Saenko",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Boston University"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "volume-title": "Google. an important next step on our ai journey",
+        "year": "2020",
+        "key": "ref1"
+      },
+      {
+        "volume-title": "Introducing chatgpt",
+        "year": "2023",
+        "key": "ref2"
+      },
+      {
+        "volume-title": "Introducing claude",
+        "year": "2023",
+        "key": "ref3"
+      },
+      {
+        "key": "ref4",
+        "first-page": "23716",
+        "article-title": "Flamingo: a visual language model for few-shot learning",
+        "volume": "35",
+        "author": "Alayrac",
+        "year": "2022",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00676"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00175"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2102.05095"
+      },
+      {
+        "key": "ref8",
+        "first-page": "1877",
+        "article-title": "Language models are few-shot learners",
+        "volume": "33",
+        "author": "Brown",
+        "year": "2020",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.502"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1036/1097-8542.731800"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Scaling instruction-finetuned language models",
+        "author": "Won Chung",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "journal-title": "Instructblip: Towards general-purpose vision-language models with instruction tuning",
+        "year": "2023",
+        "author": "Dai",
+        "key": "ref12"
+      },
+      {
+        "key": "ref13",
+        "first-page": "5982",
+        "article-title": "procthor: Large-scale embodied ai using procedural generation",
+        "volume": "35",
+        "author": "Deitke",
+        "year": "2022",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00675"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00028"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00630"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00331"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.02193"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01443"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01419"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01325"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00495"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Deberta: Decoding-enhanced bert with disentangled attention",
+        "author": "He",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Lora: Low-rank adaptation of large language models",
+        "author": "Edward",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19781-9_26"
+      },
+      {
+        "key": "ref26",
+        "first-page": "4651",
+        "article-title": "Perceiver: General perception with iterative attention",
+        "author": "Jaegle",
+        "year": "2021",
+        "journal-title": "International conference on machine learning"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19833-5_7"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00828"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01441"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "first-page": "275",
+        "DOI": "10.5244/C.22.99",
+        "article-title": "A spatiotemporal descriptor based on 3d-gradients",
+        "volume-title": "BMVC 2008–19th British Machine Vision Conference",
+        "author": "Klaser",
+        "year": "2008"
+      },
+      {
+        "key": "ref31",
+        "first-page": "55",
+        "article-title": "Graph inverse reinforcement learning from diverse videos",
+        "volume-title": "Conference on Robot Learning",
+        "author": "Kumar",
+        "year": "2023"
+      },
+      {
+        "key": "ref32",
+        "article-title": "Seed-bench: Benchmarking multimodalllms with generative comprehension",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref33",
+        "first-page": "80",
+        "article-title": "Behavior-1k: A benchmark for embodied ai with 1,000 everyday activities and realistic simulation",
+        "volume-title": "Conference on Robot Learning",
+        "author": "Li",
+        "year": "2023"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Blip-2: Bootstrapping language-image pretraining with frozen image encoders and large language models",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Videochat: Chat-centric video understanding",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "journal-title": "arXiv preprint",
+        "article-title": "Hero: Hierarchical encoder for video+ language omni-representation pretraining",
+        "author": "Li",
+        "key": "ref36"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20080-9_33"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Visual instruction tuning",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19781-9_19"
+      },
+      {
+        "key": "ref40",
+        "article-title": "Valley: Video assistant with large language model enhanced ability",
+        "author": "Luo",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Video-chatgpt: Towards detailed video understanding via large vision and language models",
+        "author": "Maaz",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref42",
+        "article-title": "Egoschema: A diagnostic benchmark for very long-form video language understanding",
+        "author": "Mangalam",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00272"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW54120.2021.00355"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19772-7_1"
+      },
+      {
+        "article-title": "Gpt-4 technical report",
+        "volume-title": "View in Article",
+        "year": "2023",
+        "key": "ref46"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19842-7_33"
+      },
+      {
+        "key": "ref48",
+        "first-page": "8748",
+        "article-title": "Learning transferable visual models from natural language supervision",
+        "volume-title": "International conference on machine learning",
+        "author": "Radford",
+        "year": "2021"
+      },
+      {
+        "key": "ref49",
+        "article-title": "Moviechat: From dense token to sparse memory for long video understanding",
+        "author": "Song",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "journal-title": "arXiv preprint",
+        "article-title": "Vl-bert: Pretraining of generic visual-linguistic representations",
+        "author": "Su",
+        "key": "ref50"
+      },
+      {
+        "key": "ref51",
+        "article-title": "Pandagpt: One model to instruction-follow them all",
+        "author": "Su",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00313"
+      },
+      {
+        "key": "ref53",
+        "first-page": "38032",
+        "article-title": "Long-form video-language pretraining with multimodal temporal contrastive learning",
+        "volume": "35",
+        "author": "Sun",
+        "year": "2022",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref54",
+        "article-title": "Llama: Open and efficient foundation language models",
+        "author": "Touvron",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00675"
+      },
+      {
+        "key": "ref56",
+        "first-page": "200",
+        "article-title": "Multimodal few-shot learning with frozen language models",
+        "volume": "34",
+        "author": "Tsimpoukelli",
+        "year": "2021",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-012-0594-8"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00618"
+      },
+      {
+        "key": "ref59",
+        "article-title": "Visionllm: Large language model is also an open-ended decoder for vision-centric tasks",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref60",
+        "article-title": "Internvideo: General video foundation models via generative and discriminative learning",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.02206"
+      },
+      {
+        "key": "ref62",
+        "article-title": "Emergent abilities of large language models",
+        "author": "Wei",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00192"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01322"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.571"
+      },
+      {
+        "key": "ref66",
+        "first-page": "124",
+        "article-title": "Zero-shot video question answering via frozen bidirectional language models",
+        "volume": "35",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref67",
+        "article-title": "mplug-owl: Modularization empowers large language models with multimodality",
+        "author": "Ye",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206671"
+      },
+      {
+        "key": "ref69",
+        "article-title": "Transfer visual prompt generator across llms",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2023.emnlp-demo.49"
+      },
+      {
+        "key": "ref71",
+        "article-title": "Opt: Open pretrained transformer language models",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref72",
+        "article-title": "Minigpt-4: Enhancing vision-language understanding with advanced large language models",
+        "author": "Zhu",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      }
+    ],
+    "event": {
+      "name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            16
+          ]
+        ]
+      },
+      "location": "Seattle, WA, USA",
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            22
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10654794/10654797/10658423.pdf?arnumber=10658423",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          20
+        ]
+      ],
+      "date-time": "2024-09-20T06:22:11Z",
+      "timestamp": 1726813331000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10658423/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 72,
+    "URL": "https://doi.org/10.1109/cvpr52733.2024.01289",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    }
+  }
+}

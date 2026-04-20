@@ -1,0 +1,1148 @@
+{
+  "doi": "10.1109/cvpr52733.2024.00200",
+  "openalex": {
+    "id": "https://openalex.org/W4402716188",
+    "doi": "https://doi.org/10.1109/cvpr52733.2024.00200",
+    "title": "BlockGCN: Redefine Topology Awareness for Skeleton-Based Action Recognition",
+    "display_name": "BlockGCN: Redefine Topology Awareness for Skeleton-Based Action Recognition",
+    "publication_year": 2024,
+    "publication_date": "2024-06-16",
+    "ids": {
+      "openalex": "https://openalex.org/W4402716188",
+      "doi": "https://doi.org/10.1109/cvpr52733.2024.00200"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/cvpr52733.2024.00200",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/cvpr52733.2024.00200",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101498126",
+          "display_name": "Yuxuan Zhou",
+          "orcid": "https://orcid.org/0000-0002-7688-803X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I177802217",
+            "display_name": "University of Mannheim",
+            "ror": "https://ror.org/031bsb921",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177802217"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuxuan Zhou",
+        "raw_affiliation_strings": [
+          "University of Mannheim"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Mannheim",
+            "institution_ids": [
+              "https://openalex.org/I177802217"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5012734453",
+          "display_name": "Xudong Yan",
+          "orcid": "https://orcid.org/0000-0003-3504-2705"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I6469544",
+            "display_name": "City University of Macau",
+            "ror": "https://ror.org/04gpd4q15",
+            "country_code": "MO",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I6469544"
+            ]
+          }
+        ],
+        "countries": [
+          "MO"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xudong Yan",
+        "raw_affiliation_strings": [
+          "City University of Macau"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "City University of Macau",
+            "institution_ids": [
+              "https://openalex.org/I6469544"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5058898461",
+          "display_name": "Zhi-Qi Cheng",
+          "orcid": "https://orcid.org/0000-0002-1720-2085"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74973139",
+            "display_name": "Carnegie Mellon University",
+            "ror": "https://ror.org/05x2bcf33",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhi-Qi Cheng",
+        "raw_affiliation_strings": [
+          "Carnegie Mellon University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Carnegie Mellon University",
+            "institution_ids": [
+              "https://openalex.org/I74973139"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100395073",
+          "display_name": "Yan Yan",
+          "orcid": "https://orcid.org/0000-0002-6344-136X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I19820366",
+            "display_name": "Chinese Academy of Sciences",
+            "ror": "https://ror.org/034t30j35",
+            "country_code": "CN",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I19820366"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yan Yan",
+        "raw_affiliation_strings": [
+          "SIAT, Chinese Academy of Sciences"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "SIAT, Chinese Academy of Sciences",
+            "institution_ids": [
+              "https://openalex.org/I19820366"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101456786",
+          "display_name": "Qi Dai",
+          "orcid": "https://orcid.org/0000-0002-4693-2968"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210164937",
+            "display_name": "Microsoft Research (United Kingdom)",
+            "ror": "https://ror.org/05k87vq12",
+            "country_code": "GB",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I1290206253",
+              "https://openalex.org/I4210164937"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qi Dai",
+        "raw_affiliation_strings": [
+          "Microsoft Research"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Microsoft Research",
+            "institution_ids": [
+              "https://openalex.org/I4210164937"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5024965898",
+          "display_name": "Xian‐Sheng Hua",
+          "orcid": "https://orcid.org/0000-0002-8232-5049"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210101590",
+            "display_name": "Smile Train",
+            "ror": "https://ror.org/00x94td80",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I4210101590"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xian-Sheng Hua",
+        "raw_affiliation_strings": [
+          "Terminus Group"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Terminus Group",
+            "institution_ids": [
+              "https://openalex.org/I4210101590"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 5,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 40.82213208,
+    "has_fulltext": false,
+    "cited_by_count": 77,
+    "citation_normalized_percentile": {
+      "value": 0.99807082,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "2049",
+      "last_page": "2058"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10812",
+      "display_name": "Human Pose and Action Recognition",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10812",
+        "display_name": "Human Pose and Action Recognition",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11512",
+        "display_name": "Anomaly Detection Techniques and Applications",
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12740",
+        "display_name": "Gait Recognition and Analysis",
+        "score": 0.9926000237464905,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/skeleton",
+        "display_name": "Skeleton (computer programming)",
+        "score": 0.6860402226448059
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6264603137969971
+      },
+      {
+        "id": "https://openalex.org/keywords/topology",
+        "display_name": "Topology (electrical circuits)",
+        "score": 0.6199102401733398
+      },
+      {
+        "id": "https://openalex.org/keywords/action",
+        "display_name": "Action (physics)",
+        "score": 0.6178590059280396
+      },
+      {
+        "id": "https://openalex.org/keywords/action-recognition",
+        "display_name": "Action recognition",
+        "score": 0.5575145483016968
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.41389259696006775
+      },
+      {
+        "id": "https://openalex.org/keywords/engineering",
+        "display_name": "Engineering",
+        "score": 0.15068963170051575
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.12164518237113953
+      },
+      {
+        "id": "https://openalex.org/keywords/electrical-engineering",
+        "display_name": "Electrical engineering",
+        "score": 0.05752968788146973
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C18969341",
+        "wikidata": "https://www.wikidata.org/wiki/Q1169129",
+        "display_name": "Skeleton (computer programming)",
+        "level": 2,
+        "score": 0.6860402226448059
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6264603137969971
+      },
+      {
+        "id": "https://openalex.org/C184720557",
+        "wikidata": "https://www.wikidata.org/wiki/Q7825049",
+        "display_name": "Topology (electrical circuits)",
+        "level": 2,
+        "score": 0.6199102401733398
+      },
+      {
+        "id": "https://openalex.org/C2780791683",
+        "wikidata": "https://www.wikidata.org/wiki/Q846785",
+        "display_name": "Action (physics)",
+        "level": 2,
+        "score": 0.6178590059280396
+      },
+      {
+        "id": "https://openalex.org/C2987834672",
+        "wikidata": "https://www.wikidata.org/wiki/Q4677630",
+        "display_name": "Action recognition",
+        "level": 3,
+        "score": 0.5575145483016968
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.41389259696006775
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.15068963170051575
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.12164518237113953
+      },
+      {
+        "id": "https://openalex.org/C119599485",
+        "wikidata": "https://www.wikidata.org/wiki/Q43035",
+        "display_name": "Electrical engineering",
+        "level": 1,
+        "score": 0.05752968788146973
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C2777212361",
+        "wikidata": "https://www.wikidata.org/wiki/Q5127848",
+        "display_name": "Class (philosophy)",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/cvpr52733.2024.00200",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/cvpr52733.2024.00200",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.41999998688697815,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 61,
+    "referenced_works": [
+      "https://openalex.org/W2963407101",
+      "https://openalex.org/W3203634062",
+      "https://openalex.org/W3174836262",
+      "https://openalex.org/W3108496296",
+      "https://openalex.org/W6720006811",
+      "https://openalex.org/W2079966248",
+      "https://openalex.org/W1950788856",
+      "https://openalex.org/W4312245820",
+      "https://openalex.org/W4211095002",
+      "https://openalex.org/W4304099362",
+      "https://openalex.org/W6736685754",
+      "https://openalex.org/W1677182931",
+      "https://openalex.org/W6779068807",
+      "https://openalex.org/W6762262772",
+      "https://openalex.org/W6849375654",
+      "https://openalex.org/W2604321021",
+      "https://openalex.org/W6726873649",
+      "https://openalex.org/W6841557628",
+      "https://openalex.org/W6843760705",
+      "https://openalex.org/W4378805076",
+      "https://openalex.org/W2944006115",
+      "https://openalex.org/W2593146028",
+      "https://openalex.org/W6775780680",
+      "https://openalex.org/W3138516171",
+      "https://openalex.org/W2788388592",
+      "https://openalex.org/W2996835428",
+      "https://openalex.org/W4392557475",
+      "https://openalex.org/W6761967197",
+      "https://openalex.org/W2604314403",
+      "https://openalex.org/W2964134613",
+      "https://openalex.org/W2963925437",
+      "https://openalex.org/W2948058585",
+      "https://openalex.org/W2950568498",
+      "https://openalex.org/W6799127779",
+      "https://openalex.org/W6795140394",
+      "https://openalex.org/W3163465952",
+      "https://openalex.org/W6664144172",
+      "https://openalex.org/W3203701986",
+      "https://openalex.org/W3119584695",
+      "https://openalex.org/W6754929296",
+      "https://openalex.org/W2963076818",
+      "https://openalex.org/W6804049574",
+      "https://openalex.org/W2603861860",
+      "https://openalex.org/W3034999503",
+      "https://openalex.org/W6761452831",
+      "https://openalex.org/W4386065362",
+      "https://openalex.org/W6846843926",
+      "https://openalex.org/W6839254850",
+      "https://openalex.org/W4297899894",
+      "https://openalex.org/W4309396530",
+      "https://openalex.org/W4318348288",
+      "https://openalex.org/W4283015291",
+      "https://openalex.org/W2969372718",
+      "https://openalex.org/W3157506437",
+      "https://openalex.org/W2940926677",
+      "https://openalex.org/W2913668833",
+      "https://openalex.org/W3211394146",
+      "https://openalex.org/W4236965008",
+      "https://openalex.org/W3185273257",
+      "https://openalex.org/W2964321699",
+      "https://openalex.org/W3122890974"
+    ],
+    "related_works": [
+      "https://openalex.org/W2953562271",
+      "https://openalex.org/W2334655667",
+      "https://openalex.org/W2464530384",
+      "https://openalex.org/W2105938841",
+      "https://openalex.org/W4253358700",
+      "https://openalex.org/W1576128429",
+      "https://openalex.org/W4399611050",
+      "https://openalex.org/W2269464716",
+      "https://openalex.org/W2999049608",
+      "https://openalex.org/W3170431411"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 67
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 10
+      }
+    ],
+    "updated_date": "2025-12-27T23:08:20.325037",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          5
+        ]
+      ],
+      "date-time": "2026-01-05T22:23:06Z",
+      "timestamp": 1767651786863,
+      "version": "3.28.0"
+    },
+    "reference-count": 52,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T00:00:00Z",
+          "timestamp": 1718496000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T00:00:00Z",
+          "timestamp": 1718496000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52733.2024.00200",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2024-09-16T17:34:53Z",
+      "timestamp": 1726508093000
+    },
+    "page": "2049-2058",
+    "source": "Crossref",
+    "is-referenced-by-count": 83,
+    "title": [
+      "BlockGCN: Redefine Topology Awareness for Skeleton-Based Action Recognition"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Yuxuan",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Mannheim"
+          }
+        ]
+      },
+      {
+        "given": "Xudong",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "City University of Macau"
+          }
+        ]
+      },
+      {
+        "given": "Zhi-Qi",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Carnegie Mellon University"
+          }
+        ]
+      },
+      {
+        "given": "Yan",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "SIAT, Chinese Academy of Sciences"
+          }
+        ]
+      },
+      {
+        "given": "Qi",
+        "family": "Dai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research"
+          }
+        ]
+      },
+      {
+        "given": "Xian-Sheng",
+        "family": "Hua",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Terminus Group"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "issue": "1",
+        "key": "ref1",
+        "first-page": "1",
+        "article-title": "Per-sistence homology of networks: methods and applications",
+        "volume": "4",
+        "author": "Mehmet",
+        "year": "2019",
+        "journal-title": "Applied Network Science"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01311"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v35i2.16197"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58586-0_32"
+      },
+      {
+        "key": "ref5",
+        "first-page": "20186",
+        "article-title": "In-fogcn: Representation learning for human skeleton-based action recognition",
+        "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "Chi"
+      },
+      {
+        "key": "ref6",
+        "article-title": "Le, and Ruslan Salakhutdinov",
+        "author": "Dai",
+        "year": "2019",
+        "journal-title": "Transformer-xl: Attentive language models beyond a fixed-length context. arXiv preprint"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Convolutional neural networks on graphs with fast localized spectral filtering",
+        "volume": "29",
+        "author": "Defferrard",
+        "year": "2016",
+        "journal-title": "Advances in Neural Information Processing systems"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/568522.568523"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298714"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00298"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4171/120-1/3"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3503161.3548280"
+      },
+      {
+        "key": "ref13",
+        "first-page": "1263",
+        "article-title": "Neural message passing for quantum chemistry",
+        "volume-title": "Proceedings of the 34th International Conference on Machine Learning -",
+        "volume": "70",
+        "author": "Gilmer"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.123"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Deberta: Decoding-enhanced bert with disentangled attention",
+        "author": "He",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref16",
+        "first-page": "4314",
+        "article-title": "Graph filtration learning",
+        "volume-title": "International Conference on Machine Learning",
+        "author": "Hofer"
+      },
+      {
+        "key": "ref17",
+        "article-title": "Graph contrastive learning for skeleton-based action recognition",
+        "author": "Huang",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.486"
+      },
+      {
+        "article-title": "Semi-supervised classi-fication with graph convolutional networks",
+        "volume-title": "International Conference on Learning Representations",
+        "author": "Kipf",
+        "key": "ref19"
+      },
+      {
+        "key": "ref20",
+        "first-page": "10444",
+        "article-title": "Hierarchically decomposed graph convolutional net-works for skeleton-based action recognition",
+        "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+        "author": "Lee"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Toward 3d spatial reasoning for human-like text-based visual question answering",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2023.3276570"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2916873"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2017.02.030"
+      },
+      {
+        "key": "ref25",
+        "first-page": "143",
+        "article-title": "Disentangling and unifying graph con-volutions for skeleton-based action recognition",
+        "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+        "author": "Liu"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2019.01.012"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i03.5652"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-54605-1_5"
+      },
+      {
+        "key": "ref30",
+        "first-page": "5448",
+        "article-title": "A persistent weisfeiler-lehman procedure for graph classification",
+        "volume-title": "International Conference on Machine Learning",
+        "author": "Rieck"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-93417-4_38"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.115"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/N18-2074"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.01230"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v31i1.11212"
+      },
+      {
+        "key": "ref36",
+        "first-page": "15125",
+        "article-title": "Constructing stronger and faster baselines for skeleton-based action recognition",
+        "author": "Song",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref37",
+        "article-title": "Mlp-mixer: An all-mlp architecture for vision",
+        "author": "Tolstikhin",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tpami.2022.3206148"
+      },
+      {
+        "key": "ref39",
+        "article-title": "Graph at-tention networks",
+        "author": "Velicković",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref40",
+        "first-page": "2649",
+        "article-title": "Cross-view action modeling, learning and recog-nition",
+        "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+        "author": "Wang"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00988"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.3049029"
+      },
+      {
+        "key": "ref43",
+        "article-title": "Language supervised training for skeleton-based action recognition",
+        "author": "Xiang",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "article-title": "How powerful are graph neural networks",
+        "volume-title": "International Conference on Learning Representations",
+        "author": "Xu",
+        "key": "ref44"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v32i1.12328"
+      },
+      {
+        "key": "ref46",
+        "first-page": "28877",
+        "article-title": "Do transformers really perform badly for graph representation?",
+        "volume": "34",
+        "author": "Ying",
+        "year": "2021",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.233"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00119"
+      },
+      {
+        "key": "ref49",
+        "article-title": "Learning metrics for persistence-based summaries and applications for graph classification",
+        "volume": "32",
+        "author": "Zhao",
+        "year": "2019",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01022"
+      },
+      {
+        "key": "ref51",
+        "article-title": "Hypergraph transformer for skeleton-based action recognition",
+        "author": "Zhou",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref52",
+        "article-title": "Sp-vit: Learning 2d spatial priors for vision transformers",
+        "author": "Zhou",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      }
+    ],
+    "event": {
+      "name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            16
+          ]
+        ]
+      },
+      "location": "Seattle, WA, USA",
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            22
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10654794/10654797/10658569.pdf?arnumber=10658569",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2024-09-19T06:45:13Z",
+      "timestamp": 1726728313000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10658569/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 52,
+    "URL": "https://doi.org/10.1109/cvpr52733.2024.00200",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    }
+  }
+}

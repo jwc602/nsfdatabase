@@ -1,0 +1,1773 @@
+{
+  "doi": "10.1002/adrr.202500016",
+  "openalex": {
+    "id": "https://openalex.org/W4410924288",
+    "doi": "https://doi.org/10.1002/adrr.202500016",
+    "title": "Integration of Soft‐Robotics and Deep Learning to Assess the Coordinated Biosonar Emission and Reception Dynamics in Hipposiderid Bats",
+    "display_name": "Integration of Soft‐Robotics and Deep Learning to Assess the Coordinated Biosonar Emission and Reception Dynamics in Hipposiderid Bats",
+    "publication_year": 2025,
+    "publication_date": "2025-05-30",
+    "ids": {
+      "openalex": "https://openalex.org/W4410924288",
+      "doi": "https://doi.org/10.1002/adrr.202500016"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1002/adrr.202500016",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1002/adrr.202500016",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adrr.202500016",
+      "source": {
+        "id": "https://openalex.org/S5407036553",
+        "display_name": "Advanced Robotics Research",
+        "issn_l": "2943-9973",
+        "issn": [
+          "2943-9973"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Advanced Robotics Research",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adrr.202500016",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5048900141",
+          "display_name": "Shuxin Zhang",
+          "orcid": "https://orcid.org/0000-0001-5352-8958"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154099455",
+            "display_name": "Shandong University",
+            "ror": "https://ror.org/0207yh398",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154099455"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shuxin Zhang",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA",
+          "Shandong University‐Virginia Tech International Laboratory Shandong University  Jinan China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA",
+            "institution_ids": [
+              "https://openalex.org/I859038795"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Shandong University‐Virginia Tech International Laboratory Shandong University  Jinan China",
+            "institution_ids": [
+              "https://openalex.org/I154099455",
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101629578",
+          "display_name": "Ruihao Wang",
+          "orcid": "https://orcid.org/0000-0002-9046-0662"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ruihao Wang",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA",
+            "institution_ids": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5001577771",
+          "display_name": "Xiaoyan Yin",
+          "orcid": "https://orcid.org/0000-0003-3510-8719"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaoyan Yin",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA",
+            "institution_ids": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5079438990",
+          "display_name": "Luhui Yang",
+          "orcid": "https://orcid.org/0000-0001-8652-5438"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154099455",
+            "display_name": "Shandong University",
+            "ror": "https://ror.org/0207yh398",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154099455"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Luhui Yang",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA",
+          "Shandong University‐Virginia Tech International Laboratory Shandong University  Jinan China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA",
+            "institution_ids": [
+              "https://openalex.org/I859038795"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Shandong University‐Virginia Tech International Laboratory Shandong University  Jinan China",
+            "institution_ids": [
+              "https://openalex.org/I154099455",
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5089500765",
+          "display_name": "Rolf Müller",
+          "orcid": "https://orcid.org/0000-0001-8358-4053"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154099455",
+            "display_name": "Shandong University",
+            "ror": "https://ror.org/0207yh398",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154099455"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rolf Müller",
+        "raw_affiliation_strings": [
+          "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA",
+          "Shandong University‐Virginia Tech International Laboratory Shandong University  Jinan China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Shandong University‐Virginia Tech International Laboratory Shandong University  Jinan China",
+            "institution_ids": [
+              "https://openalex.org/I154099455",
+              "https://openalex.org/I859038795"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA",
+            "institution_ids": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.16031059,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11228",
+      "display_name": "Bat Biology and Ecology Studies",
+      "score": 0.996999979019165,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1105",
+        "display_name": "Ecology, Evolution, Behavior and Systematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11228",
+        "display_name": "Bat Biology and Ecology Studies",
+        "score": 0.996999979019165,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1105",
+          "display_name": "Ecology, Evolution, Behavior and Systematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12250",
+        "display_name": "Experimental and Theoretical Physics Studies",
+        "score": 0.9860000014305115,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12677",
+        "display_name": "Sports Dynamics and Biomechanics",
+        "score": 0.9794999957084656,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2204",
+          "display_name": "Biomedical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/robotics",
+        "display_name": "Robotics",
+        "score": 0.6533448696136475
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.6081257462501526
+      },
+      {
+        "id": "https://openalex.org/keywords/dynamics",
+        "display_name": "Dynamics (music)",
+        "score": 0.5181114077568054
+      },
+      {
+        "id": "https://openalex.org/keywords/soft-robotics",
+        "display_name": "Soft robotics",
+        "score": 0.4620515704154968
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.4153795540332794
+      },
+      {
+        "id": "https://openalex.org/keywords/geology",
+        "display_name": "Geology",
+        "score": 0.3224889039993286
+      },
+      {
+        "id": "https://openalex.org/keywords/robot",
+        "display_name": "Robot",
+        "score": 0.2560387849807739
+      },
+      {
+        "id": "https://openalex.org/keywords/acoustics",
+        "display_name": "Acoustics",
+        "score": 0.24480882287025452
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.13149133324623108
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C34413123",
+        "wikidata": "https://www.wikidata.org/wiki/Q170978",
+        "display_name": "Robotics",
+        "level": 3,
+        "score": 0.6533448696136475
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.6081257462501526
+      },
+      {
+        "id": "https://openalex.org/C145912823",
+        "wikidata": "https://www.wikidata.org/wiki/Q113558",
+        "display_name": "Dynamics (music)",
+        "level": 2,
+        "score": 0.5181114077568054
+      },
+      {
+        "id": "https://openalex.org/C2776058767",
+        "wikidata": "https://www.wikidata.org/wiki/Q24327151",
+        "display_name": "Soft robotics",
+        "level": 3,
+        "score": 0.4620515704154968
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.4153795540332794
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.3224889039993286
+      },
+      {
+        "id": "https://openalex.org/C90509273",
+        "wikidata": "https://www.wikidata.org/wiki/Q11012",
+        "display_name": "Robot",
+        "level": 2,
+        "score": 0.2560387849807739
+      },
+      {
+        "id": "https://openalex.org/C24890656",
+        "wikidata": "https://www.wikidata.org/wiki/Q82811",
+        "display_name": "Acoustics",
+        "level": 1,
+        "score": 0.24480882287025452
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.13149133324623108
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1002/adrr.202500016",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1002/adrr.202500016",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adrr.202500016",
+        "source": {
+          "id": "https://openalex.org/S5407036553",
+          "display_name": "Advanced Robotics Research",
+          "issn_l": "2943-9973",
+          "issn": [
+            "2943-9973"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Advanced Robotics Research",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1002/adrr.202500016",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1002/adrr.202500016",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adrr.202500016",
+      "source": {
+        "id": "https://openalex.org/S5407036553",
+        "display_name": "Advanced Robotics Research",
+        "issn_l": "2943-9973",
+        "issn": [
+          "2943-9973"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Advanced Robotics Research",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G878636529",
+        "display_name": null,
+        "funder_award_id": "2014QY008",
+        "funder_id": "https://openalex.org/F4320333622",
+        "funder_display_name": "Fundamental Research Fund of Shandong University"
+      },
+      {
+        "id": "https://openalex.org/G4821869180",
+        "display_name": null,
+        "funder_award_id": "N00014‐17‐1‐2376",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      },
+      {
+        "id": "https://openalex.org/G6784247551",
+        "display_name": null,
+        "funder_award_id": "11374192",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G39543375",
+        "display_name": null,
+        "funder_award_id": "11574183",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G7148309380",
+        "display_name": null,
+        "funder_award_id": "201806220156",
+        "funder_id": "https://openalex.org/F4320322725",
+        "funder_display_name": "China Scholarship Council"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320322725",
+        "display_name": "China Scholarship Council",
+        "ror": "https://ror.org/04atp4p48"
+      },
+      {
+        "id": "https://openalex.org/F4320333622",
+        "display_name": "Fundamental Research Fund of Shandong University",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "referenced_works_count": 38,
+    "referenced_works": [
+      "https://openalex.org/W2314741250",
+      "https://openalex.org/W2219473043",
+      "https://openalex.org/W2105634663",
+      "https://openalex.org/W2050743238",
+      "https://openalex.org/W2051204725",
+      "https://openalex.org/W2021631631",
+      "https://openalex.org/W3003263203",
+      "https://openalex.org/W2611276756",
+      "https://openalex.org/W2071926036",
+      "https://openalex.org/W2972773198",
+      "https://openalex.org/W2329108300",
+      "https://openalex.org/W2178180075",
+      "https://openalex.org/W2344906510",
+      "https://openalex.org/W2950171736",
+      "https://openalex.org/W2808743295",
+      "https://openalex.org/W2760001187",
+      "https://openalex.org/W2606488347",
+      "https://openalex.org/W2065497385",
+      "https://openalex.org/W2948769760",
+      "https://openalex.org/W3156233678",
+      "https://openalex.org/W2623791700",
+      "https://openalex.org/W2221328770",
+      "https://openalex.org/W2806855621",
+      "https://openalex.org/W3090106031",
+      "https://openalex.org/W1984187759",
+      "https://openalex.org/W2054427316",
+      "https://openalex.org/W2906988124",
+      "https://openalex.org/W2768083292",
+      "https://openalex.org/W2295107390",
+      "https://openalex.org/W2157494878",
+      "https://openalex.org/W4317603132",
+      "https://openalex.org/W4283278297",
+      "https://openalex.org/W1984607456",
+      "https://openalex.org/W2977301873",
+      "https://openalex.org/W4392564603",
+      "https://openalex.org/W1522301498",
+      "https://openalex.org/W4214717370",
+      "https://openalex.org/W2899675781"
+    ],
+    "related_works": [
+      "https://openalex.org/W4233452137",
+      "https://openalex.org/W4254857216",
+      "https://openalex.org/W4231626925",
+      "https://openalex.org/W2962829499",
+      "https://openalex.org/W2767518918",
+      "https://openalex.org/W2131444840",
+      "https://openalex.org/W2414929284",
+      "https://openalex.org/W4391539200",
+      "https://openalex.org/W192849109",
+      "https://openalex.org/W2326585759"
+    ],
+    "abstract_inverted_index": {
+      "Echolocating": [
+        0
+      ],
+      "bat": [
+        1,
+        131
+      ],
+      "species": [
+        2
+      ],
+      "with": [
+        3,
+        45,
+        110,
+        147,
+        176,
+        201
+      ],
+      "sophisticated": [
+        4
+      ],
+      "biosonar": [
+        5,
+        120
+      ],
+      "systems": [
+        6
+      ],
+      "such": [
+        7
+      ],
+      "as": [
+        8,
+        102
+      ],
+      "the": [
+        9,
+        21,
+        33,
+        36,
+        82,
+        88,
+        115,
+        119,
+        138,
+        185,
+        196,
+        215,
+        225
+      ],
+      "Old": [
+        10
+      ],
+      "World": [
+        11
+      ],
+      "leaf‐nosed": [
+        12
+      ],
+      "bats": [
+        13,
+        17,
+        48,
+        174
+      ],
+      "(Hipposideridae)": [
+        14
+      ],
+      "and": [
+        15,
+        28,
+        38,
+        61,
+        90,
+        141,
+        144,
+        163
+      ],
+      "horseshoe": [
+        16
+      ],
+      "(Rhinolophidae)": [
+        18
+      ],
+      "actively": [
+        19
+      ],
+      "change": [
+        20
+      ],
+      "shapes": [
+        22,
+        143
+      ],
+      "of": [
+        23,
+        35,
+        114,
+        122,
+        128,
+        161,
+        204
+      ],
+      "their": [
+        24
+      ],
+      "ultrasound": [
+        25
+      ],
+      "emission": [
+        26,
+        60
+      ],
+      "(“noseleaves”)": [
+        27
+      ],
+      "reception": [
+        29
+      ],
+      "(“pinnae”)": [
+        30
+      ],
+      "baffles": [
+        31,
+        135
+      ],
+      "during": [
+        32
+      ],
+      "diffraction": [
+        34
+      ],
+      "outgoing": [
+        37
+      ],
+      "incoming": [
+        39
+      ],
+      "acoustic": [
+        40,
+        100
+      ],
+      "waves.": [
+        41
+      ],
+      "Our": [
+        42
+      ],
+      "prior": [
+        43
+      ],
+      "work": [
+        44
+      ],
+      "behaving": [
+        46
+      ],
+      "hipposiderid": [
+        47,
+        123
+      ],
+      "has": [
+        49,
+        70,
+        107
+      ],
+      "shown": [
+        50
+      ],
+      "that": [
+        51,
+        84,
+        136,
+        166,
+        169,
+        179,
+        214
+      ],
+      "these": [
+        52
+      ],
+      "dynamic": [
+        53
+      ],
+      "shape": [
+        54
+      ],
+      "changes": [
+        55
+      ],
+      "are": [
+        56
+      ],
+      "tightly": [
+        57
+      ],
+      "synchronized": [
+        58
+      ],
+      "across": [
+        59
+      ],
+      "reception,": [
+        62
+      ],
+      "but": [
+        63
+      ],
+      "a": [
+        64,
+        111
+      ],
+      "functional": [
+        65,
+        126
+      ],
+      "significance": [
+        66
+      ],
+      "for": [
+        67
+      ],
+      "this": [
+        68,
+        80,
+        129,
+        151
+      ],
+      "coordination": [
+        69
+      ],
+      "yet": [
+        71
+      ],
+      "to": [
+        72,
+        95,
+        104,
+        194,
+        221
+      ],
+      "be": [
+        73
+      ],
+      "demonstrated.": [
+        74
+      ],
+      "As": [
+        75
+      ],
+      "an": [
+        76,
+        202
+      ],
+      "intermediate": [
+        77
+      ],
+      "step": [
+        78
+      ],
+      "toward": [
+        79
+      ],
+      "goal,": [
+        81
+      ],
+      "hypothesis": [
+        83
+      ],
+      "different": [
+        85,
+        99,
+        158,
+        197,
+        216
+      ],
+      "synchronizations": [
+        86
+      ],
+      "between": [
+        87
+      ],
+      "noseleaf": [
+        89,
+        140,
+        162
+      ],
+      "pinna": [
+        91,
+        142,
+        164
+      ],
+      "deformations": [
+        92,
+        165
+      ],
+      "give": [
+        93,
+        219
+      ],
+      "rise": [
+        94,
+        220
+      ],
+      "consistently,": [
+        96
+      ],
+      "i.e.,": [
+        97
+      ],
+      "repeatable": [
+        98
+      ],
+      "effects": [
+        101
+      ],
+      "opposed": [
+        103
+      ],
+      "random": [
+        105
+      ],
+      "fluctuations,": [
+        106
+      ],
+      "been": [
+        108,
+        171,
+        182
+      ],
+      "tested": [
+        109
+      ],
+      "soft‐robotic": [
+        112
+      ],
+      "reproduction": [
+        113
+      ],
+      "peripheral": [
+        116
+      ],
+      "dynamics": [
+        117
+      ],
+      "in": [
+        118,
+        173,
+        184,
+        224
+      ],
+      "system": [
+        121
+      ],
+      "bats.": [
+        124
+      ],
+      "The": [
+        125
+      ],
+      "elements": [
+        127
+      ],
+      "robotic": [
+        130
+      ],
+      "head": [
+        132
+      ],
+      "were": [
+        133,
+        145
+      ],
+      "flexible": [
+        134
+      ],
+      "mimic": [
+        137
+      ],
+      "animals’": [
+        139
+      ],
+      "deformed": [
+        146
+      ],
+      "pneumatic": [
+        148
+      ],
+      "actuators.": [
+        149
+      ],
+      "Using": [
+        150
+      ],
+      "hardware": [
+        152
+      ],
+      "platform,": [
+        153
+      ],
+      "we": [
+        154
+      ],
+      "have": [
+        155,
+        170,
+        180
+      ],
+      "recreated": [
+        156
+      ],
+      "eight": [
+        157
+      ],
+      "synchronization": [
+        159
+      ],
+      "patterns": [
+        160,
+        168,
+        178,
+        223
+      ],
+      "include": [
+        167
+      ],
+      "seen": [
+        172
+      ],
+      "along": [
+        175
+      ],
+      "additional": [
+        177
+      ],
+      "not": [
+        181
+      ],
+      "observed": [
+        183
+      ],
+      "animals.": [
+        186
+      ],
+      "A": [
+        187,
+        206
+      ],
+      "convolutional": [
+        188
+      ],
+      "deep": [
+        189
+      ],
+      "neural": [
+        190
+      ],
+      "network": [
+        191
+      ],
+      "was": [
+        192
+      ],
+      "able": [
+        193
+      ],
+      "classify": [
+        195
+      ],
+      "noseleaf‐pinna": [
+        198
+      ],
+      "deformation": [
+        199,
+        217
+      ],
+      "combinations": [
+        200,
+        218
+      ],
+      "accuracy": [
+        203
+      ],
+      "96%.": [
+        205
+      ],
+      "transparent": [
+        207
+      ],
+      "artificial": [
+        208
+      ],
+      "intelligence": [
+        209
+      ],
+      "approach": [
+        210
+      ],
+      "(class‐activation": [
+        211
+      ],
+      "mapping)": [
+        212
+      ],
+      "indicated": [
+        213
+      ],
+      "unique": [
+        222
+      ],
+      "time–frequency": [
+        226
+      ],
+      "plane.": [
+        227
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          2
+        ]
+      ],
+      "date-time": "2025-10-02T17:41:31Z",
+      "timestamp": 1759426891989,
+      "version": "build-2065373602"
+    },
+    "reference-count": 40,
+    "publisher": "Wiley",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              30
+            ]
+          ],
+          "date-time": "2025-05-30T00:00:00Z",
+          "timestamp": 1748563200000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              30
+            ]
+          ],
+          "date-time": "2025-05-30T00:00:00Z",
+          "timestamp": 1748563200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N00014‐17‐1‐2376"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N00014‐17‐1‐2376"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "11374192",
+          "11574183"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "11374192",
+              "11574183"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014417",
+        "name": "Fundamental Research Fund of Shandong University",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2014QY008"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2014QY008"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014417",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100004543",
+        "name": "China Scholarship Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "201806220156"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "201806220156"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100004543",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "advanced.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "adv. robot. res."
+    ],
+    "abstract": "<jats:p>Echolocating bat species with sophisticated biosonar systems such as the Old World leaf‐nosed bats (Hipposideridae) and horseshoe bats (Rhinolophidae) actively change the shapes of their ultrasound emission (“noseleaves”) and reception (“pinnae”) baffles during the diffraction of the outgoing and incoming acoustic waves. Our prior work with behaving hipposiderid bats has shown that these dynamic shape changes are tightly synchronized across emission and reception, but a functional significance for this coordination has yet to be demonstrated. As an intermediate step toward this goal, the hypothesis that different synchronizations between the noseleaf and pinna deformations give rise to consistently, i.e., repeatable different acoustic effects as opposed to random fluctuations, has been tested with a soft‐robotic reproduction of the peripheral dynamics in the biosonar system of hipposiderid bats. The functional elements of this robotic bat head were flexible baffles that mimic the animals’ noseleaf and pinna shapes and were deformed with pneumatic actuators. Using this hardware platform, we have recreated eight different synchronization patterns of noseleaf and pinna deformations that include patterns that have been seen in bats along with additional patterns that have not been observed in the animals. A convolutional deep neural network was able to classify the different noseleaf‐pinna deformation combinations with an accuracy of 96%. A transparent artificial intelligence approach (class‐activation mapping) indicated that the different deformation combinations give rise to unique patterns in the time–frequency plane.</jats:p>",
+    "DOI": "10.1002/adrr.202500016",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          31
+        ]
+      ],
+      "date-time": "2025-05-31T01:39:34Z",
+      "timestamp": 1748655574000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Integration of Soft‐Robotics and Deep Learning to Assess the Coordinated Biosonar Emission and Reception Dynamics in Hipposiderid Bats"
+    ],
+    "prefix": "10.1002",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5352-8958",
+        "authenticated-orcid": false,
+        "given": "Shuxin",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Shandong University‐Virginia Tech International Laboratory Shandong University  Jinan China"
+          },
+          {
+            "name": "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9046-0662",
+        "authenticated-orcid": false,
+        "given": "Ruihao",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoyan",
+        "family": "Yin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA"
+          }
+        ]
+      },
+      {
+        "given": "Luhui",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shandong University‐Virginia Tech International Laboratory Shandong University  Jinan China"
+          },
+          {
+            "name": "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8358-4053",
+        "authenticated-orcid": false,
+        "given": "Rolf",
+        "family": "Müller",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Shandong University‐Virginia Tech International Laboratory Shandong University  Jinan China"
+          },
+          {
+            "name": "Department of Mechanical Engineering Virginia Tech  Blacksburg Virginia USA"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_9_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00297923"
+      },
+      {
+        "key": "e_1_2_9_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1140/epjst/e2015-50089-7"
+      },
+      {
+        "key": "e_1_2_9_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11515-010-0020-y"
+      },
+      {
+        "key": "e_1_2_9_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/225285a0"
+      },
+      {
+        "key": "e_1_2_9_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0034685"
+      },
+      {
+        "key": "e_1_2_9_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/1961185a0"
+      },
+      {
+        "key": "e_1_2_9_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1121/10.0000582"
+      },
+      {
+        "key": "e_1_2_9_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1121/1.4982042"
+      },
+      {
+        "key": "e_1_2_9_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0121700"
+      },
+      {
+        "key": "e_1_2_9_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1242/jeb.210252"
+      },
+      {
+        "key": "e_1_2_9_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.107.214301"
+      },
+      {
+        "key": "e_1_2_9_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1121/1.4935387"
+      },
+      {
+        "key": "e_1_2_9_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-3190/11/3/036007"
+      },
+      {
+        "key": "e_1_2_9_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-3190/ab2a4a"
+      },
+      {
+        "key": "e_1_2_9_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-3190/aacd5e"
+      },
+      {
+        "key": "e_1_2_9_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1139/cjz-2017-0117"
+      },
+      {
+        "key": "e_1_2_9_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.118.158102"
+      },
+      {
+        "key": "e_1_2_9_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1121/1.397183"
+      },
+      {
+        "key": "e_1_2_9_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.1901120116"
+      },
+      {
+        "key": "e_1_2_9_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-021-00330-1"
+      },
+      {
+        "key": "e_1_2_9_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1121/1.4987263"
+      },
+      {
+        "key": "e_1_2_9_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3161/001.005.0103"
+      },
+      {
+        "key": "e_1_2_9_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/robotics7020024"
+      },
+      {
+        "key": "e_1_2_9_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-3190/abbc73"
+      },
+      {
+        "key": "e_1_2_9_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adfm.201303288"
+      },
+      {
+        "key": "e_1_2_9_27_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P.Polygerinos S.Lyne Z.Wang et al. “Towards a Soft Pneumatic Glove for Hand Rehabilitation ” in 2013 IEEE/RSJ International Conference on Intelligent Robots and Systems (IEEE 2013) 1512–1517.",
+        "DOI": "10.1109/IROS.2013.6696549"
+      },
+      {
+        "key": "e_1_2_9_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pone.0209446"
+      },
+      {
+        "key": "e_1_2_9_29_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X.Zhang Y.Zou andW.Shi “Dilated Convolution Neural Network with Leakyrelu for Environmental Sound Classification ” in 2017 22nd International Conference on Digital Signal Processing (DSP) (IEEE 2017) 1–5.",
+        "DOI": "10.1109/ICDSP.2017.8096153"
+      },
+      {
+        "journal-title": "Activation Functions: Comparison of Trends in Practice and Research for Deep Learning",
+        "year": "2018",
+        "author": "Nwankpa C.",
+        "key": "e_1_2_9_30_1"
+      },
+      {
+        "journal-title": "Adam: A Method for Stochastic Optimization",
+        "year": "2014",
+        "author": "Kingma D. P.",
+        "key": "e_1_2_9_31_1"
+      },
+      {
+        "volume-title": "Deep Learning with Python",
+        "year": "2021",
+        "author": "Chollet F.",
+        "key": "e_1_2_9_32_1"
+      },
+      {
+        "key": "e_1_2_9_33_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B.Zhou A.Khosla A.Lapedriza A.Oliva andA.Torralba “Learning Deep Features for Discriminative Localization ” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (2016) 2921–2929.",
+        "DOI": "10.1109/CVPR.2016.319"
+      },
+      {
+        "journal-title": "Network in Network",
+        "year": "2013",
+        "author": "Lin M.",
+        "key": "e_1_2_9_34_1"
+      },
+      {
+        "key": "e_1_2_9_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TUFFC.2007.346"
+      },
+      {
+        "key": "e_1_2_9_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-3190/acb51f"
+      },
+      {
+        "key": "e_1_2_9_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-3190/ac7aff"
+      },
+      {
+        "key": "e_1_2_9_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1121/1.4908562"
+      },
+      {
+        "key": "e_1_2_9_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-3190/ab496a"
+      },
+      {
+        "volume-title": "Reinforcement Learning: An Introduction",
+        "year": "2018",
+        "author": "Sutton R. S.",
+        "key": "e_1_2_9_40_1"
+      },
+      {
+        "key": "e_1_2_9_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/1748-3190/ad311e"
+      }
+    ],
+    "container-title": [
+      "Advanced Robotics Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adrr.202500016",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://advanced.onlinelibrary.wiley.com/doi/pdf/10.1002/adrr.202500016",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          2
+        ]
+      ],
+      "date-time": "2025-10-02T17:10:23Z",
+      "timestamp": 1759425023000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adrr.202500016"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          30
+        ]
+      ]
+    },
+    "references-count": 40,
+    "alternative-id": [
+      "10.1002/adrr.202500016"
+    ],
+    "URL": "https://doi.org/10.1002/adrr.202500016",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "2943-9973",
+      "2943-9973"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2943-9973"
+      },
+      {
+        "type": "electronic",
+        "value": "2943-9973"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          30
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-01-24",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-05-06",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-05-30",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "202500016"
+  }
+}

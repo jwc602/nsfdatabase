@@ -1,0 +1,2304 @@
+{
+  "doi": "10.1038/s41598-023-42194-y",
+  "openalex": {
+    "id": "https://openalex.org/W4386739148",
+    "doi": "https://doi.org/10.1038/s41598-023-42194-y",
+    "title": "On fast simulation of dynamical system with neural vector enhanced numerical solver",
+    "display_name": "On fast simulation of dynamical system with neural vector enhanced numerical solver",
+    "publication_year": 2023,
+    "publication_date": "2023-09-14",
+    "ids": {
+      "openalex": "https://openalex.org/W4386739148",
+      "doi": "https://doi.org/10.1038/s41598-023-42194-y",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/37709820"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s41598-023-42194-y",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41598-023-42194-y",
+      "pdf_url": "https://www.nature.com/articles/s41598-023-42194-y.pdf",
+      "source": {
+        "id": "https://openalex.org/S196734849",
+        "display_name": "Scientific Reports",
+        "issn_l": "2045-2322",
+        "issn": [
+          "2045-2322"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Scientific Reports",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41598-023-42194-y.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5009783636",
+          "display_name": "Zhongzhan Huang",
+          "orcid": "https://orcid.org/0000-0001-8422-2898"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157773358",
+            "display_name": "Sun Yat-sen University",
+            "ror": "https://ror.org/0064kty71",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157773358"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zhongzhan Huang",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I157773358"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5081680496",
+          "display_name": "Senwei Liang",
+          "orcid": "https://orcid.org/0000-0002-3558-6828"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I219193219",
+            "display_name": "Purdue University West Lafayette",
+            "ror": "https://ror.org/02dqehb95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I219193219"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Senwei Liang",
+        "raw_affiliation_strings": [
+          "Department of Mathematics, Purdue University, West Lafayette, IN, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mathematics, Purdue University, West Lafayette, IN, USA",
+            "institution_ids": [
+              "https://openalex.org/I219193219"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100430263",
+          "display_name": "Hong Zhang",
+          "orcid": "https://orcid.org/0000-0002-1282-3755"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1282105669",
+            "display_name": "Argonne National Laboratory",
+            "ror": "https://ror.org/05gvnxz63",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1282105669",
+              "https://openalex.org/I1330989302",
+              "https://openalex.org/I39565521",
+              "https://openalex.org/I40347166"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hong Zhang",
+        "raw_affiliation_strings": [
+          "Mathematics and Computer Science Division, Argonne National Laboratory, Lemont, IL, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Mathematics and Computer Science Division, Argonne National Laboratory, Lemont, IL, USA",
+            "institution_ids": [
+              "https://openalex.org/I1282105669"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5079602544",
+          "display_name": "Haizhao Yang",
+          "orcid": "https://orcid.org/0000-0002-8408-1754"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I66946132",
+            "display_name": "University of Maryland, College Park",
+            "ror": "https://ror.org/047s2c258",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I66946132"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Haizhao Yang",
+        "raw_affiliation_strings": [
+          "Department of Mathematics, University of Maryland College Park, College Park, MD, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mathematics, University of Maryland College Park, College Park, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I66946132"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100412937",
+          "display_name": "Liang Lin",
+          "orcid": "https://orcid.org/0000-0003-2248-3755"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157773358",
+            "display_name": "Sun Yat-sen University",
+            "ror": "https://ror.org/0064kty71",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157773358"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Liang Lin",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Sun Yat-sen University, Guangzhou, China",
+            "institution_ids": [
+              "https://openalex.org/I157773358"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 1890,
+      "currency": "EUR",
+      "value_usd": 2190
+    },
+    "apc_paid": {
+      "value": 1890,
+      "currency": "EUR",
+      "value_usd": 2190
+    },
+    "fwci": 1.78810021,
+    "has_fulltext": true,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": {
+      "value": 0.85453421,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "13",
+      "issue": "1",
+      "first_page": "15254",
+      "last_page": "15254"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10320",
+      "display_name": "Neural Networks and Applications",
+      "score": 0.9923999905586243,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10320",
+        "display_name": "Neural Networks and Applications",
+        "score": 0.9923999905586243,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10711",
+        "display_name": "Target Tracking and Data Fusion in Sensor Networks",
+        "score": 0.9886999726295471,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11206",
+        "display_name": "Model Reduction and Neural Networks",
+        "score": 0.9860000014305115,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3109",
+          "display_name": "Statistical and Nonlinear Physics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/solver",
+        "display_name": "Solver",
+        "score": 0.7452312707901001
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6489865779876709
+      },
+      {
+        "id": "https://openalex.org/keywords/dynamical-systems-theory",
+        "display_name": "Dynamical systems theory",
+        "score": 0.4778308868408203
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-neural-network",
+        "display_name": "Artificial neural network",
+        "score": 0.42081063985824585
+      },
+      {
+        "id": "https://openalex.org/keywords/neural-system",
+        "display_name": "Neural system",
+        "score": 0.41490694880485535
+      },
+      {
+        "id": "https://openalex.org/keywords/applied-mathematics",
+        "display_name": "Applied mathematics",
+        "score": 0.39781779050827026
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-science",
+        "display_name": "Computational science",
+        "score": 0.3629659116268158
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.32812249660491943
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.32351452112197876
+      },
+      {
+        "id": "https://openalex.org/keywords/neuroscience",
+        "display_name": "Neuroscience",
+        "score": 0.185447096824646
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.1775646209716797
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.15002530813217163
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.14598390460014343
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2778770139",
+        "wikidata": "https://www.wikidata.org/wiki/Q1966904",
+        "display_name": "Solver",
+        "level": 2,
+        "score": 0.7452312707901001
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6489865779876709
+      },
+      {
+        "id": "https://openalex.org/C79379906",
+        "wikidata": "https://www.wikidata.org/wiki/Q3174497",
+        "display_name": "Dynamical systems theory",
+        "level": 2,
+        "score": 0.4778308868408203
+      },
+      {
+        "id": "https://openalex.org/C50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "level": 2,
+        "score": 0.42081063985824585
+      },
+      {
+        "id": "https://openalex.org/C2986949344",
+        "wikidata": "https://www.wikidata.org/wiki/Q9404",
+        "display_name": "Neural system",
+        "level": 2,
+        "score": 0.41490694880485535
+      },
+      {
+        "id": "https://openalex.org/C28826006",
+        "wikidata": "https://www.wikidata.org/wiki/Q33521",
+        "display_name": "Applied mathematics",
+        "level": 1,
+        "score": 0.39781779050827026
+      },
+      {
+        "id": "https://openalex.org/C459310",
+        "wikidata": "https://www.wikidata.org/wiki/Q117801",
+        "display_name": "Computational science",
+        "level": 1,
+        "score": 0.3629659116268158
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.32812249660491943
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.32351452112197876
+      },
+      {
+        "id": "https://openalex.org/C169760540",
+        "wikidata": "https://www.wikidata.org/wiki/Q207011",
+        "display_name": "Neuroscience",
+        "level": 1,
+        "score": 0.185447096824646
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.1775646209716797
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.15002530813217163
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.14598390460014343
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "doi:10.1038/s41598-023-42194-y",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41598-023-42194-y",
+        "pdf_url": "https://www.nature.com/articles/s41598-023-42194-y.pdf",
+        "source": {
+          "id": "https://openalex.org/S196734849",
+          "display_name": "Scientific Reports",
+          "issn_l": "2045-2322",
+          "issn": [
+            "2045-2322"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Scientific Reports",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:37709820",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37709820",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Scientific reports",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:10502038",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10502038",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10502038/pdf/41598_2023_Article_42194.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Sci Rep",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:1ff5c0f583084cc7810567489789de43",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/1ff5c0f583084cc7810567489789de43",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Scientific Reports, Vol 13, Iss 1, Pp 1-14 (2023)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:osti.gov:2441203",
+        "is_oa": true,
+        "landing_page_url": "https://www.osti.gov/biblio/2441203",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402487",
+          "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I139351228",
+          "host_organization_name": "Office of Scientific and Technical Information",
+          "host_organization_lineage": [
+            "https://openalex.org/I139351228"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": ""
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1038/s41598-023-42194-y",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41598-023-42194-y",
+      "pdf_url": "https://www.nature.com/articles/s41598-023-42194-y.pdf",
+      "source": {
+        "id": "https://openalex.org/S196734849",
+        "display_name": "Scientific Reports",
+        "issn_l": "2045-2322",
+        "issn": [
+          "2045-2322"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Scientific Reports",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Industry, innovation and infrastructure",
+        "id": "https://metadata.un.org/sdg/9",
+        "score": 0.5
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G7519033713",
+        "display_name": null,
+        "funder_award_id": "2023A1515011374",
+        "funder_id": "https://openalex.org/F4320337111",
+        "funder_display_name": "Basic and Applied Basic Research Foundation of Guangdong Province"
+      },
+      {
+        "id": "https://openalex.org/G6223749636",
+        "display_name": null,
+        "funder_award_id": "DMS-2244988",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G5908348666",
+        "display_name": null,
+        "funder_award_id": "No.61836012",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G8879444097",
+        "display_name": null,
+        "funder_award_id": "2020AAA0109700",
+        "funder_id": "https://openalex.org/F4320335777",
+        "funder_display_name": "National Key Research and Development Program of China"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320335777",
+        "display_name": "National Key Research and Development Program of China",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320337111",
+        "display_name": "Basic and Applied Basic Research Foundation of Guangdong Province",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "referenced_works_count": 63,
+    "referenced_works": [
+      "https://openalex.org/W2979313281",
+      "https://openalex.org/W2935641896",
+      "https://openalex.org/W2970982215",
+      "https://openalex.org/W3204384749",
+      "https://openalex.org/W2122230375",
+      "https://openalex.org/W2085949089",
+      "https://openalex.org/W4210273368",
+      "https://openalex.org/W2777639606",
+      "https://openalex.org/W3014197885",
+      "https://openalex.org/W3004227146",
+      "https://openalex.org/W3202260222",
+      "https://openalex.org/W3120810421",
+      "https://openalex.org/W2773092701",
+      "https://openalex.org/W1543750907",
+      "https://openalex.org/W4289365120",
+      "https://openalex.org/W2954892266",
+      "https://openalex.org/W2997459069",
+      "https://openalex.org/W3186103349",
+      "https://openalex.org/W3116886400",
+      "https://openalex.org/W3092136311",
+      "https://openalex.org/W4213093489",
+      "https://openalex.org/W3193240651",
+      "https://openalex.org/W3114706885",
+      "https://openalex.org/W3033094519",
+      "https://openalex.org/W3187192250",
+      "https://openalex.org/W2980784832",
+      "https://openalex.org/W3157773662",
+      "https://openalex.org/W1973736961",
+      "https://openalex.org/W3200851302",
+      "https://openalex.org/W2937880111",
+      "https://openalex.org/W3118368594",
+      "https://openalex.org/W2003674528",
+      "https://openalex.org/W3138078935",
+      "https://openalex.org/W2070630412",
+      "https://openalex.org/W2606722458",
+      "https://openalex.org/W3047589404",
+      "https://openalex.org/W2013498927",
+      "https://openalex.org/W611205441",
+      "https://openalex.org/W3092923133",
+      "https://openalex.org/W6602670149",
+      "https://openalex.org/W2979786244",
+      "https://openalex.org/W2993987425",
+      "https://openalex.org/W2089974659",
+      "https://openalex.org/W4280597599",
+      "https://openalex.org/W2970971581",
+      "https://openalex.org/W6713134421",
+      "https://openalex.org/W2004082531",
+      "https://openalex.org/W2007855167",
+      "https://openalex.org/W2283974138",
+      "https://openalex.org/W2752782242",
+      "https://openalex.org/W2997403210",
+      "https://openalex.org/W2997209116",
+      "https://openalex.org/W3203265924",
+      "https://openalex.org/W2954929116",
+      "https://openalex.org/W6600654476",
+      "https://openalex.org/W280536263",
+      "https://openalex.org/W2505136697",
+      "https://openalex.org/W3022969843",
+      "https://openalex.org/W2499662517",
+      "https://openalex.org/W4206582666",
+      "https://openalex.org/W3098301109",
+      "https://openalex.org/W3049187163",
+      "https://openalex.org/W2804302282"
+    ],
+    "related_works": [
+      "https://openalex.org/W1604758548",
+      "https://openalex.org/W2804126825",
+      "https://openalex.org/W1549048322",
+      "https://openalex.org/W4367553810",
+      "https://openalex.org/W2104142636",
+      "https://openalex.org/W2731831065",
+      "https://openalex.org/W4283162424",
+      "https://openalex.org/W2271439649",
+      "https://openalex.org/W2011940952",
+      "https://openalex.org/W2144429051"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "The": [
+        1
+      ],
+      "large-scale": [
+        2
+      ],
+      "simulation": [
+        3
+      ],
+      "of": [
+        4,
+        24,
+        73,
+        108,
+        115,
+        127
+      ],
+      "dynamical": [
+        5,
+        75
+      ],
+      "systems": [
+        6
+      ],
+      "is": [
+        7
+      ],
+      "critical": [
+        8
+      ],
+      "in": [
+        9,
+        31,
+        65
+      ],
+      "numerous": [
+        10
+      ],
+      "scientific": [
+        11
+      ],
+      "and": [
+        12,
+        36,
+        59,
+        95,
+        117
+      ],
+      "engineering": [
+        13
+      ],
+      "disciplines.": [
+        14
+      ],
+      "However,": [
+        15
+      ],
+      "traditional": [
+        16,
+        101
+      ],
+      "numerical": [
+        17
+      ],
+      "solvers": [
+        18
+      ],
+      "are": [
+        19
+      ],
+      "limited": [
+        20,
+        94
+      ],
+      "by": [
+        21
+      ],
+      "the": [
+        22,
+        130
+      ],
+      "choice": [
+        23
+      ],
+      "step": [
+        25,
+        63
+      ],
+      "sizes": [
+        26,
+        64
+      ],
+      "when": [
+        27,
+        91
+      ],
+      "estimating": [
+        28
+      ],
+      "integration,": [
+        29
+      ],
+      "resulting": [
+        30
+      ],
+      "a": [
+        32,
+        45,
+        71,
+        86,
+        134
+      ],
+      "trade-off": [
+        33
+      ],
+      "between": [
+        34
+      ],
+      "accuracy": [
+        35,
+        116
+      ],
+      "computational": [
+        37
+      ],
+      "efficiency.": [
+        38
+      ],
+      "To": [
+        39
+      ],
+      "address": [
+        40
+      ],
+      "this": [
+        41
+      ],
+      "challenge,": [
+        42
+      ],
+      "we": [
+        43
+      ],
+      "introduce": [
+        44
+      ],
+      "deep": [
+        46,
+        143
+      ],
+      "learning-based": [
+        47
+      ],
+      "corrector": [
+        48
+      ],
+      "called": [
+        49
+      ],
+      "Neural": [
+        50
+      ],
+      "Vector": [
+        51
+      ],
+      "(NeurVec),": [
+        52
+      ],
+      "which": [
+        53
+      ],
+      "can": [
+        54
+      ],
+      "compensate": [
+        55
+      ],
+      "for": [
+        56,
+        137
+      ],
+      "integration": [
+        57
+      ],
+      "errors": [
+        58
+      ],
+      "enable": [
+        60
+      ],
+      "larger": [
+        61
+      ],
+      "time": [
+        62
+      ],
+      "simulations.": [
+        66
+      ],
+      "Our": [
+        67
+      ],
+      "extensive": [
+        68
+      ],
+      "experiments": [
+        69
+      ],
+      "on": [
+        70,
+        85,
+        142
+      ],
+      "variety": [
+        72
+      ],
+      "complex": [
+        74
+      ],
+      "system": [
+        76
+      ],
+      "benchmarks": [
+        77
+      ],
+      "demonstrate": [
+        78
+      ],
+      "that": [
+        79
+      ],
+      "NeurVec": [
+        80,
+        98
+      ],
+      "exhibits": [
+        81
+      ],
+      "remarkable": [
+        82
+      ],
+      "generalization": [
+        83
+      ],
+      "capability": [
+        84
+      ],
+      "continuous": [
+        87
+      ],
+      "phase": [
+        88
+      ],
+      "space,": [
+        89
+      ],
+      "even": [
+        90
+      ],
+      "trained": [
+        92
+      ],
+      "using": [
+        93
+      ],
+      "discrete": [
+        96
+      ],
+      "data.": [
+        97
+      ],
+      "significantly": [
+        99
+      ],
+      "accelerates": [
+        100
+      ],
+      "solvers,": [
+        102
+      ],
+      "achieving": [
+        103
+      ],
+      "speeds": [
+        104
+      ],
+      "tens": [
+        105
+      ],
+      "to": [
+        106,
+        132
+      ],
+      "hundreds": [
+        107
+      ],
+      "times": [
+        109
+      ],
+      "faster": [
+        110
+      ],
+      "while": [
+        111
+      ],
+      "maintaining": [
+        112
+      ],
+      "high": [
+        113
+      ],
+      "levels": [
+        114
+      ],
+      "stability.": [
+        118
+      ],
+      "Moreover,": [
+        119
+      ],
+      "NeurVec’s": [
+        120
+      ],
+      "simple-yet-effective": [
+        121
+      ],
+      "design,": [
+        122
+      ],
+      "combined": [
+        123
+      ],
+      "with": [
+        124
+      ],
+      "its": [
+        125
+      ],
+      "ease": [
+        126
+      ],
+      "implementation,": [
+        128
+      ],
+      "has": [
+        129
+      ],
+      "potential": [
+        131
+      ],
+      "establish": [
+        133
+      ],
+      "new": [
+        135
+      ],
+      "paradigm": [
+        136
+      ],
+      "fast-solving": [
+        138
+      ],
+      "differential": [
+        139
+      ],
+      "equations": [
+        140
+      ],
+      "based": [
+        141
+      ],
+      "learning.": [
+        144
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 6
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          29
+        ]
+      ],
+      "date-time": "2025-12-29T11:36:23Z",
+      "timestamp": 1767008183402,
+      "version": "3.37.3"
+    },
+    "reference-count": 79,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              14
+            ]
+          ],
+          "date-time": "2023-09-14T00:00:00Z",
+          "timestamp": 1694649600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              9,
+              14
+            ]
+          ],
+          "date-time": "2023-09-14T00:00:00Z",
+          "timestamp": 1694649600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "No.61836012",
+          "No.61836012"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "No.61836012",
+              "No.61836012"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100021171",
+        "name": "Guangdong Basic and Applied Basic Research Foundation",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "2023A1515011374",
+          "2023A1515011374"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2023A1515011374",
+              "2023A1515011374"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100021171",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key R&D Program of China",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "2020AAA0109700",
+          "2020AAA0109700"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2020AAA0109700",
+              "2020AAA0109700"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "The U.S. Department of Energy, Office of Science, Office of Advanced Scientific Computing Research, Scientific Discovery through Advanced Computing (SciDAC) program",
+        "award": [
+          "DE-AC02-06CH11357"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DE-AC02-06CH11357"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "US National Science Foundation",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "DMS-2244988"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DMS-2244988"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "The Office of Naval Research Award",
+        "award": [
+          "N00014-23-1-2007"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N00014-23-1-2007"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>The large-scale simulation of dynamical systems is critical in numerous scientific and engineering disciplines. However, traditional numerical solvers are limited by the choice of step sizes when estimating integration, resulting in a trade-off between accuracy and computational efficiency. To address this challenge, we introduce a deep learning-based corrector called Neural Vector (NeurVec), which can compensate for integration errors and enable larger time step sizes in simulations. Our extensive experiments on a variety of complex dynamical system benchmarks demonstrate that NeurVec exhibits remarkable generalization capability on a continuous phase space, even when trained using limited and discrete data. NeurVec significantly accelerates traditional solvers, achieving speeds tens to hundreds of times faster while maintaining high levels of accuracy and stability. Moreover, NeurVec’s simple-yet-effective design, combined with its ease of implementation, has the potential to establish a new paradigm for fast-solving differential equations based on deep learning.</jats:p>",
+    "DOI": "10.1038/s41598-023-42194-y",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          14
+        ]
+      ],
+      "date-time": "2023-09-14T16:03:52Z",
+      "timestamp": 1694707432000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "On fast simulation of dynamical system with neural vector enhanced numerical solver"
+    ],
+    "prefix": "10.1038",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Zhongzhan",
+        "family": "Huang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Senwei",
+        "family": "Liang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hong",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Haizhao",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Liang",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "42194_CR1",
+        "first-page": "1",
+        "volume": "13",
+        "author": "L Böttcher",
+        "year": "2022",
+        "unstructured": "Böttcher, L., Antulov-Fantulin, N. & Asikis, T. AI Pontryagin or how artificial neural networks learn to control dynamical systems. Nat. Commun. 13, 1–9 (2022).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "42194_CR2",
+        "volume-title": "Dynamical Systems and Numerical Analysis",
+        "author": "A Stuart",
+        "year": "1998",
+        "unstructured": "Stuart, A. & Humphries, A. R. Dynamical Systems and Numerical Analysis Vol. 2 (Cambridge University Press, 1998)."
+      },
+      {
+        "key": "42194_CR3",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jcp.2020.109922",
+        "volume": "428",
+        "author": "J Harlim",
+        "year": "2021",
+        "unstructured": "Harlim, J., Jiang, S. W., Liang, S. & Yang, H. Machine learning for prediction with missing dynamics. J. Comput. Phys. 428, 109922 (2021).",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "42194_CR4",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-019-09424-2",
+        "volume": "10",
+        "author": "S Kou-Giesbrecht",
+        "year": "2019",
+        "unstructured": "Kou-Giesbrecht, S. & Menge, D. Nitrogen-fixing trees could exacerbate climate change under elevated nitrogen deposition. Nat. Commun. 10, 1–8 (2019).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "42194_CR5",
+        "doi-asserted-by": "crossref",
+        "first-page": "701",
+        "DOI": "10.1017/jog.2019.62",
+        "volume": "65",
+        "author": "D Benn",
+        "year": "2019",
+        "unstructured": "Benn, D., Fowler, A. C., Hewitt, I. & Sevestre, H. A general theory of glacier surges. J. Glaciol. 65, 701–716 (2019).",
+        "journal-title": "J. Glaciol."
+      },
+      {
+        "key": "42194_CR6",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.egyai.2021.100118",
+        "volume": "7",
+        "author": "O Owoyele",
+        "year": "2022",
+        "unstructured": "Owoyele, O. & Pal, P. Chemnode: A neural ordinary differential equations framework for efficient chemical kinetic solvers. Energy AI 7, 100118 (2022).",
+        "journal-title": "Energy AI"
+      },
+      {
+        "key": "42194_CR7",
+        "doi-asserted-by": "crossref",
+        "first-page": "510",
+        "DOI": "10.3390/atmos2030510",
+        "volume": "2",
+        "author": "H Zhang",
+        "year": "2011",
+        "unstructured": "Zhang, H., Linford, J. C., Sandu, A. & Sander, R. Chemical mechanism solvers in air quality models. Atmosphere 2, 510–532 (2011).",
+        "journal-title": "Atmosphere"
+      },
+      {
+        "key": "42194_CR8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/srep01626",
+        "volume": "3",
+        "author": "D Delpini",
+        "year": "2013",
+        "unstructured": "Delpini, D. et al. Evolution of controllability in interbank networks. Sci. Rep. 3, 1–5 (2013).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "42194_CR9",
+        "doi-asserted-by": "crossref",
+        "first-page": "405",
+        "DOI": "10.1137/20M1370392",
+        "volume": "21",
+        "author": "A Gholami",
+        "year": "2022",
+        "unstructured": "Gholami, A. & Sun, X. A. The impact of damping in second-order dynamical systems with applications to power grid stability. SIAM J. Appl. Dyn. Syst. 21, 405–437 (2022).",
+        "journal-title": "SIAM J. Appl. Dyn. Syst."
+      },
+      {
+        "key": "42194_CR10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-017-02088-w",
+        "volume": "9",
+        "author": "B Schäfer",
+        "year": "2018",
+        "unstructured": "Schäfer, B., Witthaut, D., Timme, M. & Latora, V. Dynamically induced cascading failures in power grids. Nat. Commun. 9, 1–13 (2018).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "42194_CR11",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-020-15353-2",
+        "volume": "11",
+        "author": "M Saberi",
+        "year": "2020",
+        "unstructured": "Saberi, M. et al. A simple contagion process describes spreading of traffic jams in urban networks. Nat. Commun. 11, 1–9 (2020).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "42194_CR12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41598-019-56847-4",
+        "volume": "10",
+        "author": "C Fan",
+        "year": "2020",
+        "unstructured": "Fan, C., Jiang, X. & Mostafavi, A. A network percolation-based contagion model of flood propagation and recession in urban road networks. Sci. Rep. 10, 1–12 (2020).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "42194_CR13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-021-25927-3",
+        "volume": "12",
+        "author": "L Aulin",
+        "year": "2021",
+        "unstructured": "Aulin, L., Liakopoulos, A., van der Graaf, P. H., Rozen, D. E. & van Hasselt, J. Design principles of collateral sensitivity-based dosing strategies. Nat. Commun. 12, 1–14 (2021).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "42194_CR14",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1038/s41551-020-00662-0",
+        "volume": "5",
+        "author": "JD Butner",
+        "year": "2021",
+        "unstructured": "Butner, J. D. et al. A mathematical model for the quantification of a patient’s sensitivity to checkpoint inhibitors and long-term tumour burden. Nat. Biomed. Eng. 5, 297–308 (2021).",
+        "journal-title": "Nat. Biomed. Eng."
+      },
+      {
+        "key": "42194_CR15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-017-01929-y",
+        "volume": "8",
+        "author": "SG Wicha",
+        "year": "2017",
+        "unstructured": "Wicha, S. G., Chen, C., Clewe, O. & Simonsson, U. S. A general pharmacodynamic interaction model identifies perpetrators and victims in drug interactions. Nat. Commun. 8, 1–11 (2017).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "42194_CR16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/9781119121534",
+        "volume-title": "Numerical Methods for Ordinary Differential Equations",
+        "author": "JC Butcher",
+        "year": "2016",
+        "unstructured": "Butcher, J. C. Numerical Methods for Ordinary Differential Equations (Wiley, 2016)."
+      },
+      {
+        "key": "42194_CR17",
+        "volume-title": "Numerical Methods for Partial Differential Equations",
+        "author": "WF Ames",
+        "year": "2014",
+        "unstructured": "Ames, W. F. Numerical Methods for Partial Differential Equations (Academic press, 2014)."
+      },
+      {
+        "key": "42194_CR18",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1201/9780203745328",
+        "volume-title": "Numerical Solution of Ordinary Differential Equations",
+        "author": "LF Shampine",
+        "year": "2018",
+        "unstructured": "Shampine, L. F. Numerical Solution of Ordinary Differential Equations (Routledge, 2018)."
+      },
+      {
+        "key": "42194_CR19",
+        "doi-asserted-by": "crossref",
+        "first-page": "44",
+        "DOI": "10.1016/j.jocs.2019.06.001",
+        "volume": "35",
+        "author": "E Figueiras",
+        "year": "2019",
+        "unstructured": "Figueiras, E., Olivieri, D., Paredes, A. & Michinel, H. QMBlender: Particle-based visualization of 3D quantum wave function dynamics. J. Comput. Sci. 35, 44–56 (2019).",
+        "journal-title": "J. Comput. Sci."
+      },
+      {
+        "key": "42194_CR20",
+        "doi-asserted-by": "crossref",
+        "first-page": "3087",
+        "DOI": "10.1109/ACCESS.2019.2962082",
+        "volume": "8",
+        "author": "R Xi",
+        "year": "2019",
+        "unstructured": "Xi, R. et al. Survey on smoothed particle hydrodynamics and the particle systems. IEEE Access 8, 3087–3105 (2019).",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "42194_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Z., Zhang, Y., Li, Y. & Liang, X. Cumuliform cloud animation control based on natural images. In 2020 International Conference on Virtual Reality and Visualization (ICVRV), 218–224 (IEEE, 2020).",
+        "DOI": "10.1109/ICVRV51359.2020.00052"
+      },
+      {
+        "key": "42194_CR22",
+        "doi-asserted-by": "crossref",
+        "first-page": "258",
+        "DOI": "10.1029/2020MS002331",
+        "volume": "13",
+        "author": "S Scher",
+        "year": "2021",
+        "unstructured": "Scher, S. & Messori, G. Ensemble methods for neural network-based weather forecasts. J. Adv. Model. Earth Syst. 13, 258 (2021).",
+        "journal-title": "J. Adv. Model. Earth Syst."
+      },
+      {
+        "key": "42194_CR23",
+        "doi-asserted-by": "crossref",
+        "first-page": "141",
+        "DOI": "10.1038/s41579-020-00459-7",
+        "volume": "19",
+        "author": "B Hu",
+        "year": "2021",
+        "unstructured": "Hu, B., Guo, H., Zhou, P. & Shi, Z.-L. Characteristics of SARS-CoV-2 and COVID-19. Nat. Rev. Microbiol. 19, 141–154 (2021).",
+        "journal-title": "Nat. Rev. Microbiol."
+      },
+      {
+        "key": "42194_CR24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41598-022-06992-0",
+        "volume": "12",
+        "author": "A Bousquet",
+        "year": "2022",
+        "unstructured": "Bousquet, A., Conrad, W. H., Sadat, S. O., Vardanyan, N. & Hong, Y. Deep learning forecasting using time-varying parameters of the SIRD model for Covid-19. Sci. Rep. 12, 1–13 (2022).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "42194_CR25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41598-021-95494-6",
+        "volume": "11",
+        "author": "MJ Beira",
+        "year": "2021",
+        "unstructured": "Beira, M. J. & Sebastião, P. J. A differential equations model-fitting analysis of COVID-19 epidemiological data to explain multi-wave dynamics. Sci. Rep. 11, 1–13 (2021).",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "42194_CR26",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jtbi.2020.110568",
+        "volume": "512",
+        "author": "W Choi",
+        "year": "2021",
+        "unstructured": "Choi, W. & Shim, E. Optimal strategies for social distancing and testing to control COVID-19. J. Theor. Biol. 512, 110568 (2021).",
+        "journal-title": "J. Theor. Biol."
+      },
+      {
+        "key": "42194_CR27",
+        "doi-asserted-by": "crossref",
+        "first-page": "262",
+        "DOI": "10.1038/s41586-020-2404-8",
+        "volume": "584",
+        "author": "S Hsiang",
+        "year": "2020",
+        "unstructured": "Hsiang, S. et al. The effect of large-scale anti-contagion policies on the COVID-19 pandemic. Nature 584, 262–267 (2020).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "42194_CR28",
+        "doi-asserted-by": "crossref",
+        "first-page": "626",
+        "DOI": "10.1038/s41577-021-00592-1",
+        "volume": "21",
+        "author": "JS Tregoning",
+        "year": "2021",
+        "unstructured": "Tregoning, J. S., Flight, K. E., Higham, S. L., Wang, Z. & Pierce, B. F. Progress of the COVID-19 vaccine effort: Viruses, vaccines and variants versus efficacy, effectiveness and escape. Nat. Rev. Immunol. 21, 626–636 (2021).",
+        "journal-title": "Nat. Rev. Immunol."
+      },
+      {
+        "key": "42194_CR29",
+        "doi-asserted-by": "crossref",
+        "first-page": "2301",
+        "DOI": "10.1109/TIP.2019.2946126",
+        "volume": "29",
+        "author": "F Yuan",
+        "year": "2019",
+        "unstructured": "Yuan, F., Zhang, L., Xia, X., Huang, Q. & Li, X. A wave-shaped deep neural network for smoke density estimation. IEEE Trans. Image Process. 29, 2301–2313 (2019).",
+        "journal-title": "IEEE Trans. Image Process."
+      },
+      {
+        "key": "42194_CR30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3451261",
+        "volume": "4",
+        "author": "E Tumanov",
+        "year": "2021",
+        "unstructured": "Tumanov, E., Korobchenko, D. & Chentanez, N. Data-driven particle-based liquid simulation with deep learning utilizing sub-pixel convolution. Proc. ACM Comput. Gr. and Interactive Tech. 4, 1–16 (2021).",
+        "journal-title": "Proc. ACM Comput. Gr. and Interactive Tech."
+      },
+      {
+        "key": "42194_CR31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kolb, A., Latta, L. & Rezk-Salama, C. Hardware-based simulation and collision detection for large particle systems. In Proceedings of the ACM SIGGRAPH/EUROGRAPHICS conference on Graphics hardware, 123–131 (2004).",
+        "DOI": "10.1145/1058129.1058147"
+      },
+      {
+        "key": "42194_CR32",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.14733/cadaps.2022.S5.155-166",
+        "volume": "19",
+        "author": "H Luo",
+        "year": "2022",
+        "unstructured": "Luo, H. & Wu, Y. Using virtual reality technology to construct computer-aided animation material development. Comput.-Aided Des. Appl. 19, 155–166 (2022).",
+        "journal-title": "Comput.-Aided Des. Appl."
+      },
+      {
+        "key": "42194_CR33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-019-09729-2",
+        "volume": "10",
+        "author": "O Bellprat",
+        "year": "2019",
+        "unstructured": "Bellprat, O., Guemas, V., Doblas-Reyes, F. & Donat, M. G. Towards reliable extreme weather and climate event attribution. Nat. Commun. 10, 1–7 (2019).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "42194_CR34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-020-20570-w",
+        "volume": "12",
+        "author": "D Touma",
+        "year": "2021",
+        "unstructured": "Touma, D., Stevenson, S., Lehner, F. & Coats, S. Human-driven greenhouse gas and aerosol emissions cause distinct regional impacts on extreme fire weather. Nat. Commun. 12, 1–8 (2021).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "42194_CR35",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/1751-8113/46/25/254018",
+        "volume": "46",
+        "author": "T Palmer",
+        "year": "2013",
+        "unstructured": "Palmer, T. & Zanna, L. Singular vectors, predictability and ensemble forecasting for weather and climate. J. Phys. A Math. Theor. 46, 254018 (2013).",
+        "journal-title": "J. Phys. A Math. Theor."
+      },
+      {
+        "key": "42194_CR36",
+        "volume": "132",
+        "author": "H Wu",
+        "year": "2021",
+        "unstructured": "Wu, H. & Levinson, D. The ensemble approach to forecasting: A review and synthesis. Transp. Res. Part C Emerg. Technol. 132, 103357 (2021).",
+        "journal-title": "Transp. Res. Part C Emerg. Technol."
+      },
+      {
+        "key": "42194_CR37",
+        "doi-asserted-by": "crossref",
+        "first-page": "A1134",
+        "DOI": "10.1137/20M1349965",
+        "volume": "43",
+        "author": "AA Popov",
+        "year": "2021",
+        "unstructured": "Popov, A. A., Mou, C., Sandu, A. & Iliescu, T. A multifidelity ensemble Kalman filter with reduced order control variates. SIAM J. Sci. Comput. 43, A1134–A1162 (2021).",
+        "journal-title": "SIAM J. Sci. Comput."
+      },
+      {
+        "key": "42194_CR38",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1016/j.jpdc.2012.04.003",
+        "volume": "73",
+        "author": "AR Brodtkorb",
+        "year": "2013",
+        "unstructured": "Brodtkorb, A. R., Hagen, T. R. & Sætra, M. L. Graphics processing unit (GPU) programming strategies and trends in GPU computing. J. Parallel Distrib. Comput. 73, 4–13 (2013).",
+        "journal-title": "J. Parallel Distrib. Comput."
+      },
+      {
+        "key": "42194_CR39",
+        "unstructured": "Jouppi, N. P. et al. In-datacenter performance analysis of a tensor processing unit. In Proceedings of the 44th annual international symposium on computer architecture, 1–12 (2017)."
+      },
+      {
+        "key": "42194_CR40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tan, T. & Cao, G. FastVA: deep learning video analytics through edge processing and NPU in mobile. In IEEE INFOCOM 2020-IEEE Conference on Computer Communications, 1947–1956 (IEEE, 2020).",
+        "DOI": "10.1109/INFOCOM41043.2020.9155476"
+      },
+      {
+        "key": "42194_CR41",
+        "doi-asserted-by": "crossref",
+        "first-page": "926",
+        "DOI": "10.1109/JSSC.2002.1015692",
+        "volume": "37",
+        "author": "Y Liao",
+        "year": "2002",
+        "unstructured": "Liao, Y. & Roberts, D. B. A high-performance and low-power 32-bit multiply-accumulate unit with single-instruction-multiple-data (SIMD) feature. IEEE J. Solid-State Circuits 37, 926–931 (2002).",
+        "journal-title": "IEEE J. Solid-State Circuits"
+      },
+      {
+        "key": "42194_CR42",
+        "unstructured": "Fehlberg, E. Low-order classical Runge–Kutta formulas with stepsize control and their application to some heat transfer problems, vol. 315 (National Aeronautics and Space Administration, 1969)."
+      },
+      {
+        "key": "42194_CR43",
+        "first-page": "258",
+        "volume": "31",
+        "author": "RT Chen",
+        "year": "2018",
+        "unstructured": "Chen, R. T., Rubanova, Y., Bettencourt, J. & Duvenaud, D. K. Neural ordinary differential equations. Adv. Neural Inform. Process. Syst. 31, 258 (2018).",
+        "journal-title": "Adv. Neural Inform. Process. Syst."
+      },
+      {
+        "key": "42194_CR44",
+        "unstructured": "Liang, S., Huang, Z. & Zhang, H. Stiffness-aware neural network for learning Hamiltonian systems. In International Conference on Learning Representations (2022)."
+      },
+      {
+        "key": "42194_CR45",
+        "unstructured": "Li, Z. et al. Fourier neural operator for parametric partial differential equations. In International Conference on Learning Representations (2021)."
+      },
+      {
+        "key": "42194_CR46",
+        "first-page": "1",
+        "volume": "2018",
+        "author": "S Pan",
+        "year": "2018",
+        "unstructured": "Pan, S. & Duraisamy, K. Long-time predictive modeling of nonlinear dynamical systems using neural networks. Complexity 2018, 1–26 (2018).",
+        "journal-title": "Complexity"
+      },
+      {
+        "key": "42194_CR47",
+        "unstructured": "Liu, X.-Y., Sun, H., Zhu, M., Lu, L. & Wang, J.-X. Predicting parametric spatiotemporal dynamics by multi-resolution pde structure-preserved deep learning. arXiv preprint arXiv:2205.03990 (2022)."
+      },
+      {
+        "key": "42194_CR48",
+        "volume": "438",
+        "author": "Z Chen",
+        "year": "2021",
+        "unstructured": "Chen, Z. & Xiu, D. On generalized residual network for deep learning of unknown dynamical systems. J. Comput. Phys. 438, 110362 (2021).",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "42194_CR49",
+        "unstructured": "Dresdner, G. et al. Learning to correct spectral methods for simulating turbulent flows. arXiv preprint arXiv:2207.00556 (2022)."
+      },
+      {
+        "key": "42194_CR50",
+        "doi-asserted-by": "crossref",
+        "first-page": "218",
+        "DOI": "10.1038/s42256-021-00302-5",
+        "volume": "3",
+        "author": "L Lu",
+        "year": "2021",
+        "unstructured": "Lu, L., Jin, P., Pang, G., Zhang, Z. & Karniadakis, G. E. Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators. Nat. Mach. Intell. 3, 218–229 (2021).",
+        "journal-title": "Nat. Mach. Intell."
+      },
+      {
+        "key": "42194_CR51",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevE.101.062207",
+        "volume": "101",
+        "author": "A Choudhary",
+        "year": "2020",
+        "unstructured": "Choudhary, A. et al. Physics-enhanced neural networks learn order and chaos. Phys. Rev. E 101, 062207 (2020).",
+        "journal-title": "Phys. Rev. E"
+      },
+      {
+        "key": "42194_CR52",
+        "volume": "3",
+        "author": "C-D Han",
+        "year": "2021",
+        "unstructured": "Han, C.-D., Glaz, B., Haile, M. & Lai, Y.-C. Adaptable Hamiltonian neural networks. Phys. Rev. Res. 3, 023156 (2021).",
+        "journal-title": "Phys. Rev. Res."
+      },
+      {
+        "key": "42194_CR53",
+        "first-page": "56",
+        "volume": "32",
+        "author": "S Greydanus",
+        "year": "2019",
+        "unstructured": "Greydanus, S., Dzamba, M. & Yosinski, J. Hamiltonian neural networks. Adv. Neural Inform. Process. Syst. 32, 56 (2019).",
+        "journal-title": "Adv. Neural Inform. Process. Syst."
+      },
+      {
+        "key": "42194_CR54",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.1137/S1064827595284658",
+        "volume": "18",
+        "author": "W Huang",
+        "year": "1997",
+        "unstructured": "Huang, W. & Leimkuhler, B. The adaptive Verlet method. SIAM J. Sci. Comput. 18, 239–256 (1997).",
+        "journal-title": "SIAM J. Sci. Comput."
+      },
+      {
+        "key": "42194_CR55",
+        "doi-asserted-by": "crossref",
+        "first-page": "3923",
+        "DOI": "10.5194/gmd-15-3923-2022",
+        "volume": "15",
+        "author": "X Wang",
+        "year": "2022",
+        "unstructured": "Wang, X., Han, Y., Xue, W., Yang, G. & Zhang, G. J. Stable climate simulations using a realistic general circulation model with neural network parameterizations for atmospheric moist physics and radiation processes. Geosci. Model Dev. 15, 3923–3940 (2022).",
+        "journal-title": "Geosci. Model Dev."
+      },
+      {
+        "key": "42194_CR56",
+        "first-page": "258",
+        "volume": "32",
+        "author": "A Paszke",
+        "year": "2019",
+        "unstructured": "Paszke, A. et al. Pytorch: An imperative style, high-performance deep learning library. Adv. Neural Inform. Process. Syst. 32, 258 (2019).",
+        "journal-title": "Adv. Neural Inform. Process. Syst."
+      },
+      {
+        "key": "42194_CR57",
+        "unstructured": "Abadi, M. et al. Tensorflow: A system for large-scale machine learning. In 12th USENIX symposium on operating systems design and implementation (OSDI 16), 265–283 (2016)."
+      },
+      {
+        "key": "42194_CR58",
+        "first-page": "14243",
+        "volume": "33",
+        "author": "N Boullé",
+        "year": "2020",
+        "unstructured": "Boullé, N., Nakatsukasa, Y. & Townsend, A. Rational neural networks. Adv. Neural. Inf. Process. Syst. 33, 14243–14253 (2020).",
+        "journal-title": "Adv. Neural. Inf. Process. Syst."
+      },
+      {
+        "key": "42194_CR59",
+        "unstructured": "Chen, Z., Zhang, J., Arjovsky, M. & Bottou, L. Symplectic recurrent neural networks. In International Conference on Learning Representations (2020)."
+      },
+      {
+        "key": "42194_CR60",
+        "doi-asserted-by": "crossref",
+        "first-page": "2578",
+        "DOI": "10.1063/1.447051",
+        "volume": "80",
+        "author": "M Feit",
+        "year": "1984",
+        "unstructured": "Feit, M. & Fleck, J. Jr. Wave packet dynamics and chaos in the hénnon-heiles system. J. Chem. Phys. 80, 2578–2584 (1984).",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "42194_CR61",
+        "unstructured": "DiPietro, D., Xiong, S. & Zhu, B. Sparse symplectically integrated neural networks. In Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M. & Lin, H. (eds.) Advances in Neural Information Processing Systems, vol. 33, 6074–6085 (Curran Associates, Inc., 2020)."
+      },
+      {
+        "key": "42194_CR62",
+        "doi-asserted-by": "crossref",
+        "first-page": "1196",
+        "DOI": "10.1063/1.525030",
+        "volume": "22",
+        "author": "E Breitenberger",
+        "year": "1981",
+        "unstructured": "Breitenberger, E. & Mueller, R. D. The elastic pendulum: A nonlinear paradigm. J. Math. Phys. 22, 1196–1210 (1981).",
+        "journal-title": "J. Math. Phys."
+      },
+      {
+        "key": "42194_CR63",
+        "doi-asserted-by": "crossref",
+        "first-page": "1192",
+        "DOI": "10.1080/00207179.2015.1126677",
+        "volume": "90",
+        "author": "AM Lopes",
+        "year": "2017",
+        "unstructured": "Lopes, A. M. & Tenreiro Machado, J. Dynamics of the N-link pendulum: A fractional perspective. Int. J. Control 90, 1192–1200 (2017).",
+        "journal-title": "Int. J. Control"
+      },
+      {
+        "key": "42194_CR64",
+        "volume-title": "Numerical Solution of Ordinary Differential Equations",
+        "author": "K Atkinson",
+        "year": "2011",
+        "unstructured": "Atkinson, K., Han, W. & Stewart, D. E. Numerical Solution of Ordinary Differential Equations (Wiley, London, 2011)."
+      },
+      {
+        "key": "42194_CR65",
+        "unstructured": "Du, S. S., Zhai, X., Poczos, B. & Singh, A. Gradient descent provably optimizes over-parameterized neural networks. In International Conference on Learning Representations (2019)."
+      },
+      {
+        "key": "42194_CR66",
+        "first-page": "258",
+        "volume": "31",
+        "author": "A Jacot",
+        "year": "2018",
+        "unstructured": "Jacot, A., Gabriel, F. & Hongler, C. Neural tangent kernel: Convergence and generalization in neural networks. Adv. Neural Inform. Process. Syst. 31, 258 (2018).",
+        "journal-title": "Adv. Neural Inform. Process. Syst."
+      },
+      {
+        "key": "42194_CR67",
+        "first-page": "2589",
+        "volume": "32",
+        "author": "L Chizat",
+        "year": "2019",
+        "unstructured": "Chizat, L., Oyallon, E. & Bach, F. On lazy training in differentiable programming. Adv. Neural Inform. Process. Syst. 32, 2589 (2019).",
+        "journal-title": "Adv. Neural Inform. Process. Syst."
+      },
+      {
+        "key": "42194_CR68",
+        "first-page": "258",
+        "volume": "30",
+        "author": "Z Lu",
+        "year": "2017",
+        "unstructured": "Lu, Z., Pu, H., Wang, F., Hu, Z. & Wang, L. The expressive power of neural networks: A view from the width. Adv. Neural Inform. Process. Syst. 30, 258 (2017).",
+        "journal-title": "Adv. Neural Inform. Process. Syst."
+      },
+      {
+        "key": "42194_CR69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, J., Shen, L. & Sun, G. Squeeze-and-excitation networks. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 7132–7141 (2018).",
+        "DOI": "10.1109/CVPR.2018.00745"
+      },
+      {
+        "key": "42194_CR70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, Z., Liang, S., Liang, M. & Yang, H. Dianet: Dense-and-implicit attention network. In Proceedings of the AAAI Conference on Artificial Intelligence 34, 4206–4214 (2020).",
+        "DOI": "10.1609/aaai.v34i04.5842"
+      },
+      {
+        "key": "42194_CR71",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liang, S., Huang, Z., Liang, M. & Yang, H. Instance enhancement batch normalization: An adaptive regulator of batch noise. In Proceedings of the AAAI Conference on Artificial Intelligence 34, 4819–4827 (2020).",
+        "DOI": "10.1609/aaai.v34i04.5917"
+      },
+      {
+        "key": "42194_CR72",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, W., Huang, Z., Liang, M., Liang, S. & Yang, H. Blending pruning criteria for convolutional neural networks. In International Conference on Artificial Neural Networks, 3–15 (Springer, 2021).",
+        "DOI": "10.1007/978-3-030-86380-7_1"
+      },
+      {
+        "key": "42194_CR73",
+        "unstructured": "Liu, H., Simonyan, K. & Yang, Y. Darts: Differentiable architecture search. In International Conference on Learning Representations (2018)."
+      },
+      {
+        "key": "42194_CR74",
+        "first-page": "16305",
+        "volume": "34",
+        "author": "Z Huang",
+        "year": "2021",
+        "unstructured": "Huang, Z., Shao, W., Wang, X., Lin, L. & Luo, P. Rethinking the pruning criteria for convolutional neural network. Adv. Neural. Inf. Process. Syst. 34, 16305–16318 (2021).",
+        "journal-title": "Adv. Neural. Inf. Process. Syst."
+      },
+      {
+        "key": "42194_CR75",
+        "unstructured": "Kenton, J. D. M.-W. C. & Toutanova, L. K. Bert: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of NAACL-HLT, 4171–4186 (2019)."
+      },
+      {
+        "key": "42194_CR76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, Y. et al. Large scale incremental learning. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 374–382 (2019).",
+        "DOI": "10.1109/CVPR.2019.00046"
+      },
+      {
+        "key": "42194_CR77",
+        "unstructured": "Huang, Z., Liang, M. & Lin, L. On robust numerical solver for ode via self-attention mechanism. arXiv preprint arXiv:2302.10184 (2023)."
+      },
+      {
+        "key": "42194_CR78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Süli, E. & Mayers, D. F. An Introduction to Numerical Analysis (Cambridge University Press, 2003).",
+        "DOI": "10.1017/CBO9780511801181"
+      },
+      {
+        "key": "42194_CR79",
+        "unstructured": "Trench, W. F. Elementary Differential Equations with Boundary Value Problems (Brooks Cole Thomson Learning, 2013)."
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-023-42194-y.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-023-42194-y",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-023-42194-y.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2023-11-18T21:42:42Z",
+      "timestamp": 1700343762000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-023-42194-y"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          14
+        ]
+      ]
+    },
+    "references-count": 79,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "42194"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-023-42194-y",
+    "relation": {},
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2045-2322"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          14
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "3 June 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "6 September 2023",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "14 September 2023",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "15254"
+  }
+}

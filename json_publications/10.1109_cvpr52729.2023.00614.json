@@ -1,0 +1,2008 @@
+{
+  "doi": "10.1109/cvpr52729.2023.00614",
+  "openalex": {
+    "id": "https://openalex.org/W4386076383",
+    "doi": "https://doi.org/10.1109/cvpr52729.2023.00614",
+    "title": "InstMove: Instance Motion for Object-centric Video Segmentation",
+    "display_name": "InstMove: Instance Motion for Object-centric Video Segmentation",
+    "publication_year": 2023,
+    "publication_date": "2023-06-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4386076383",
+      "doi": "https://doi.org/10.1109/cvpr52729.2023.00614"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/cvpr52729.2023.00614",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/cvpr52729.2023.00614",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5069192496",
+          "display_name": "Qihao Liu",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qihao Liu",
+        "raw_affiliation_strings": [
+          "Johns Hopkins University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Johns Hopkins University",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100649670",
+          "display_name": "Junfeng Wu",
+          "orcid": "https://orcid.org/0000-0002-9418-4562"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I47720641",
+            "display_name": "Huazhong University of Science and Technology",
+            "ror": "https://ror.org/00p991c53",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I47720641"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Junfeng Wu",
+        "raw_affiliation_strings": [
+          "Huazhong University of Science and Technology"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Huazhong University of Science and Technology",
+            "institution_ids": [
+              "https://openalex.org/I47720641"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100396295",
+          "display_name": "Yi Jiang",
+          "orcid": "https://orcid.org/0000-0001-8927-0119"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Yi Jiang",
+        "raw_affiliation_strings": [
+          "ByteDance"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "ByteDance",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5039363991",
+          "display_name": "Xiang Bai",
+          "orcid": "https://orcid.org/0000-0002-3449-5940"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I47720641",
+            "display_name": "Huazhong University of Science and Technology",
+            "ror": "https://ror.org/00p991c53",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I47720641"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiang Bai",
+        "raw_affiliation_strings": [
+          "Huazhong University of Science and Technology"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Huazhong University of Science and Technology",
+            "institution_ids": [
+              "https://openalex.org/I47720641"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5086706224",
+          "display_name": "Alan Yuille",
+          "orcid": "https://orcid.org/0000-0001-5207-9249"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Alan Yuille",
+        "raw_affiliation_strings": [
+          "Johns Hopkins University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Johns Hopkins University",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5101562162",
+          "display_name": "Song Bai",
+          "orcid": "https://orcid.org/0000-0002-2570-9118"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Song Bai",
+        "raw_affiliation_strings": [
+          "ByteDance"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "ByteDance",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.27377838,
+    "has_fulltext": false,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": {
+      "value": 0.78659546,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 91,
+      "max": 98
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "6344",
+      "last_page": "6354"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11605",
+      "display_name": "Visual Attention and Saliency Detection",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11605",
+        "display_name": "Visual Attention and Saliency Detection",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10036",
+        "display_name": "Advanced Neural Network Applications",
+        "score": 0.9997000098228455,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10531",
+        "display_name": "Advanced Vision and Imaging",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-vision",
+        "display_name": "Computer vision",
+        "score": 0.836124062538147
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.8300684690475464
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.8100788593292236
+      },
+      {
+        "id": "https://openalex.org/keywords/segmentation",
+        "display_name": "Segmentation",
+        "score": 0.7485837340354919
+      },
+      {
+        "id": "https://openalex.org/keywords/optical-flow",
+        "display_name": "Optical flow",
+        "score": 0.5528157949447632
+      },
+      {
+        "id": "https://openalex.org/keywords/object",
+        "display_name": "Object (grammar)",
+        "score": 0.5524095296859741
+      },
+      {
+        "id": "https://openalex.org/keywords/feature",
+        "display_name": "Feature (linguistics)",
+        "score": 0.5053518414497375
+      },
+      {
+        "id": "https://openalex.org/keywords/motion",
+        "display_name": "Motion (physics)",
+        "score": 0.49301716685295105
+      },
+      {
+        "id": "https://openalex.org/keywords/pixel",
+        "display_name": "Pixel",
+        "score": 0.4400152266025543
+      },
+      {
+        "id": "https://openalex.org/keywords/motion-estimation",
+        "display_name": "Motion estimation",
+        "score": 0.4151947498321533
+      },
+      {
+        "id": "https://openalex.org/keywords/image-segmentation",
+        "display_name": "Image segmentation",
+        "score": 0.4148537218570709
+      },
+      {
+        "id": "https://openalex.org/keywords/image",
+        "display_name": "Image (mathematics)",
+        "score": 0.1560586392879486
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C31972630",
+        "wikidata": "https://www.wikidata.org/wiki/Q844240",
+        "display_name": "Computer vision",
+        "level": 1,
+        "score": 0.836124062538147
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.8300684690475464
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8100788593292236
+      },
+      {
+        "id": "https://openalex.org/C89600930",
+        "wikidata": "https://www.wikidata.org/wiki/Q1423946",
+        "display_name": "Segmentation",
+        "level": 2,
+        "score": 0.7485837340354919
+      },
+      {
+        "id": "https://openalex.org/C155542232",
+        "wikidata": "https://www.wikidata.org/wiki/Q736111",
+        "display_name": "Optical flow",
+        "level": 3,
+        "score": 0.5528157949447632
+      },
+      {
+        "id": "https://openalex.org/C2781238097",
+        "wikidata": "https://www.wikidata.org/wiki/Q175026",
+        "display_name": "Object (grammar)",
+        "level": 2,
+        "score": 0.5524095296859741
+      },
+      {
+        "id": "https://openalex.org/C2776401178",
+        "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+        "display_name": "Feature (linguistics)",
+        "level": 2,
+        "score": 0.5053518414497375
+      },
+      {
+        "id": "https://openalex.org/C104114177",
+        "wikidata": "https://www.wikidata.org/wiki/Q79782",
+        "display_name": "Motion (physics)",
+        "level": 2,
+        "score": 0.49301716685295105
+      },
+      {
+        "id": "https://openalex.org/C160633673",
+        "wikidata": "https://www.wikidata.org/wiki/Q355198",
+        "display_name": "Pixel",
+        "level": 2,
+        "score": 0.4400152266025543
+      },
+      {
+        "id": "https://openalex.org/C10161872",
+        "wikidata": "https://www.wikidata.org/wiki/Q557891",
+        "display_name": "Motion estimation",
+        "level": 2,
+        "score": 0.4151947498321533
+      },
+      {
+        "id": "https://openalex.org/C124504099",
+        "wikidata": "https://www.wikidata.org/wiki/Q56933",
+        "display_name": "Image segmentation",
+        "level": 3,
+        "score": 0.4148537218570709
+      },
+      {
+        "id": "https://openalex.org/C115961682",
+        "wikidata": "https://www.wikidata.org/wiki/Q860623",
+        "display_name": "Image (mathematics)",
+        "level": 2,
+        "score": 0.1560586392879486
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/cvpr52729.2023.00614",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/cvpr52729.2023.00614",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G4189157326",
+        "display_name": null,
+        "funder_award_id": "62225603",
+        "funder_id": "https://openalex.org/F4320321001",
+        "funder_display_name": "National Natural Science Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G8677247327",
+        "display_name": null,
+        "funder_award_id": "NOOOI4-21-1-2812",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 111,
+    "referenced_works": [
+      "https://openalex.org/W764651262",
+      "https://openalex.org/W2460260369",
+      "https://openalex.org/W6635175540",
+      "https://openalex.org/W2610147486",
+      "https://openalex.org/W6787212282",
+      "https://openalex.org/W6758580993",
+      "https://openalex.org/W6765993425",
+      "https://openalex.org/W6739901393",
+      "https://openalex.org/W2294182682",
+      "https://openalex.org/W6726273544",
+      "https://openalex.org/W6744598712",
+      "https://openalex.org/W6775583579",
+      "https://openalex.org/W6796524941",
+      "https://openalex.org/W6628877408",
+      "https://openalex.org/W2987228832",
+      "https://openalex.org/W2804860796",
+      "https://openalex.org/W3035531015",
+      "https://openalex.org/W6839371072",
+      "https://openalex.org/W6780911676",
+      "https://openalex.org/W2534527426",
+      "https://openalex.org/W2605229288",
+      "https://openalex.org/W2470139095",
+      "https://openalex.org/W4214679856",
+      "https://openalex.org/W3212555189",
+      "https://openalex.org/W6762586985",
+      "https://openalex.org/W3165926952",
+      "https://openalex.org/W2532516272",
+      "https://openalex.org/W6726469348",
+      "https://openalex.org/W3034538699",
+      "https://openalex.org/W6778485988",
+      "https://openalex.org/W3034438741",
+      "https://openalex.org/W6772237255",
+      "https://openalex.org/W6775370847",
+      "https://openalex.org/W6781247295",
+      "https://openalex.org/W2252355370",
+      "https://openalex.org/W2990205821",
+      "https://openalex.org/W6781496539",
+      "https://openalex.org/W6775668235",
+      "https://openalex.org/W3048550213",
+      "https://openalex.org/W3084173793",
+      "https://openalex.org/W6753214761",
+      "https://openalex.org/W2963917006",
+      "https://openalex.org/W3110030584",
+      "https://openalex.org/W3202858245",
+      "https://openalex.org/W2963351448",
+      "https://openalex.org/W6802459829",
+      "https://openalex.org/W3139267983",
+      "https://openalex.org/W2989161706",
+      "https://openalex.org/W2134529534",
+      "https://openalex.org/W6717963080",
+      "https://openalex.org/W2799157347",
+      "https://openalex.org/W2962914239",
+      "https://openalex.org/W6848553463",
+      "https://openalex.org/W2146183743",
+      "https://openalex.org/W3202509201",
+      "https://openalex.org/W6761869070",
+      "https://openalex.org/W4214542306",
+      "https://openalex.org/W6754033419",
+      "https://openalex.org/W2560474170",
+      "https://openalex.org/W6791470953",
+      "https://openalex.org/W3181942264",
+      "https://openalex.org/W6797162190",
+      "https://openalex.org/W2890853604",
+      "https://openalex.org/W6839769395",
+      "https://openalex.org/W2603203130",
+      "https://openalex.org/W6796494355",
+      "https://openalex.org/W6750555301",
+      "https://openalex.org/W6843861238",
+      "https://openalex.org/W6840366969",
+      "https://openalex.org/W6794367831",
+      "https://openalex.org/W2986056979",
+      "https://openalex.org/W2740667773",
+      "https://openalex.org/W6768435530",
+      "https://openalex.org/W3171516518",
+      "https://openalex.org/W1485009520",
+      "https://openalex.org/W3104218139",
+      "https://openalex.org/W3170674766",
+      "https://openalex.org/W1590686026",
+      "https://openalex.org/W2516114310",
+      "https://openalex.org/W3173446152",
+      "https://openalex.org/W2962990649",
+      "https://openalex.org/W2798441772",
+      "https://openalex.org/W4312567319",
+      "https://openalex.org/W3173980723",
+      "https://openalex.org/W2963548592",
+      "https://openalex.org/W2916743882",
+      "https://openalex.org/W2890447039",
+      "https://openalex.org/W4297990624",
+      "https://openalex.org/W3110109236",
+      "https://openalex.org/W2953920664",
+      "https://openalex.org/W3117097536",
+      "https://openalex.org/W2982723417",
+      "https://openalex.org/W4286904999",
+      "https://openalex.org/W3172917640",
+      "https://openalex.org/W3095753995",
+      "https://openalex.org/W3096609285",
+      "https://openalex.org/W4385245566",
+      "https://openalex.org/W3106763294",
+      "https://openalex.org/W3169933013",
+      "https://openalex.org/W3108819577",
+      "https://openalex.org/W4312294051",
+      "https://openalex.org/W4313007081",
+      "https://openalex.org/W2963983744",
+      "https://openalex.org/W2519586580",
+      "https://openalex.org/W3175132347",
+      "https://openalex.org/W3109908659",
+      "https://openalex.org/W2424778531",
+      "https://openalex.org/W2964218467",
+      "https://openalex.org/W3034499084",
+      "https://openalex.org/W3109372619",
+      "https://openalex.org/W4281839746"
+    ],
+    "related_works": [
+      "https://openalex.org/W3135697610",
+      "https://openalex.org/W2085033728",
+      "https://openalex.org/W4285411112",
+      "https://openalex.org/W2171299904",
+      "https://openalex.org/W1647606319",
+      "https://openalex.org/W2922442631",
+      "https://openalex.org/W4390494008",
+      "https://openalex.org/W2030154815",
+      "https://openalex.org/W2051121715",
+      "https://openalex.org/W1522196789"
+    ],
+    "abstract_inverted_index": {
+      "Despite": [
+        0
+      ],
+      "significant": [
+        1
+      ],
+      "efforts,": [
+        2
+      ],
+      "cutting-edge": [
+        3
+      ],
+      "video": [
+        4,
+        131,
+        183,
+        241
+      ],
+      "segmentation": [
+        5,
+        132,
+        184
+      ],
+      "methods": [
+        6,
+        179
+      ],
+      "still": [
+        7,
+        56
+      ],
+      "remain": [
+        8
+      ],
+      "sensitive": [
+        9
+      ],
+      "to": [
+        10,
+        16,
+        33,
+        40,
+        44,
+        93,
+        138,
+        155
+      ],
+      "occlusion": [
+        11,
+        67,
+        121
+      ],
+      "and": [
+        12,
+        61,
+        68,
+        79,
+        110,
+        118,
+        122,
+        146,
+        159,
+        186,
+        206,
+        227,
+        229
+      ],
+      "rapid": [
+        13
+      ],
+      "movement,": [
+        14
+      ],
+      "due": [
+        15
+      ],
+      "their": [
+        17,
+        188
+      ],
+      "reliance": [
+        18
+      ],
+      "on": [
+        19,
+        58,
+        99,
+        199,
+        209
+      ],
+      "the": [
+        20,
+        25,
+        76,
+        130,
+        140,
+        148,
+        162,
+        193
+      ],
+      "appearance": [
+        21,
+        59
+      ],
+      "of": [
+        22,
+        27,
+        143,
+        170
+      ],
+      "objects": [
+        23
+      ],
+      "in": [
+        24,
+        128,
+        161,
+        236
+      ],
+      "form": [
+        26
+      ],
+      "object": [
+        28,
+        145
+      ],
+      "embeddings,": [
+        29,
+        109
+      ],
+      "which": [
+        30,
+        55,
+        82,
+        202,
+        213
+      ],
+      "are": [
+        31
+      ],
+      "vulnerable": [
+        32
+      ],
+      "these": [
+        34
+      ],
+      "disturbances.": [
+        35
+      ],
+      "A": [
+        36
+      ],
+      "common": [
+        37
+      ],
+      "solution": [
+        38,
+        235
+      ],
+      "is": [
+        39,
+        63,
+        104,
+        225
+      ],
+      "use": [
+        41
+      ],
+      "optical": [
+        42
+      ],
+      "flow": [
+        43
+      ],
+      "provide": [
+        45
+      ],
+      "motion": [
+        46,
+        78,
+        101,
+        224
+      ],
+      "information,": [
+        47
+      ],
+      "but": [
+        48
+      ],
+      "essentially": [
+        49
+      ],
+      "it": [
+        50,
+        115
+      ],
+      "only": [
+        51,
+        166
+      ],
+      "considers": [
+        52
+      ],
+      "pixel-level": [
+        53
+      ],
+      "motion,": [
+        54,
+        95
+      ],
+      "relies": [
+        57,
+        98
+      ],
+      "similarity": [
+        60
+      ],
+      "hence": [
+        62,
+        230
+      ],
+      "often": [
+        64
+      ],
+      "inaccurate": [
+        65
+      ],
+      "under": [
+        66
+      ],
+      "fast": [
+        69,
+        216
+      ],
+      "movement.": [
+        70
+      ],
+      "In": [
+        71,
+        91
+      ],
+      "this": [
+        72
+      ],
+      "work,": [
+        73
+      ],
+      "we": [
+        74,
+        191
+      ],
+      "study": [
+        75
+      ],
+      "instance-level": [
+        77,
+        100,
+        223
+      ],
+      "present": [
+        80
+      ],
+      "InstMove,": [
+        81
+      ],
+      "stands": [
+        83
+      ],
+      "for": [
+        84,
+        87,
+        180,
+        239
+      ],
+      "Instance": [
+        85
+      ],
+      "Motion": [
+        86
+      ],
+      "Object-centric": [
+        88
+      ],
+      "Video": [
+        89
+      ],
+      "Segmentation.": [
+        90
+      ],
+      "comparison": [
+        92
+      ],
+      "pixel-wise": [
+        94
+      ],
+      "Inst-Move": [
+        96
+      ],
+      "mainly": [
+        97,
+        214
+      ],
+      "information": [
+        102
+      ],
+      "that": [
+        103,
+        222
+      ],
+      "free": [
+        105
+      ],
+      "from": [
+        106
+      ],
+      "image": [
+        107
+      ],
+      "feature": [
+        108
+      ],
+      "features": [
+        111,
+        203
+      ],
+      "physical": [
+        112,
+        141
+      ],
+      "interpretations,": [
+        113
+      ],
+      "making": [
+        114
+      ],
+      "more": [
+        116
+      ],
+      "accurate": [
+        117
+      ],
+      "robust": [
+        119,
+        226
+      ],
+      "toward": [
+        120
+      ],
+      "fast-moving": [
+        123
+      ],
+      "objects.": [
+        124,
+        218
+      ],
+      "To": [
+        125
+      ],
+      "better": [
+        126
+      ],
+      "fit": [
+        127
+      ],
+      "with": [
+        129
+      ],
+      "tasks,": [
+        133
+      ],
+      "InstMove": [
+        134,
+        172
+      ],
+      "uses": [
+        135
+      ],
+      "instance": [
+        136
+      ],
+      "masks": [
+        137
+      ],
+      "model": [
+        139,
+        150
+      ],
+      "presence": [
+        142
+      ],
+      "an": [
+        144
+      ],
+      "learns": [
+        147
+      ],
+      "dynamic": [
+        149
+      ],
+      "through": [
+        151
+      ],
+      "a": [
+        152,
+        167,
+        233
+      ],
+      "memory": [
+        153
+      ],
+      "network": [
+        154
+      ],
+      "predict": [
+        156
+      ],
+      "its": [
+        157
+      ],
+      "position": [
+        158
+      ],
+      "shape": [
+        160
+      ],
+      "next": [
+        163
+      ],
+      "frame.": [
+        164
+      ],
+      "With": [
+        165
+      ],
+      "few": [
+        168
+      ],
+      "lines": [
+        169
+      ],
+      "code,": [
+        171
+      ],
+      "can": [
+        173
+      ],
+      "be": [
+        174
+      ],
+      "integrated": [
+        175
+      ],
+      "into": [
+        176
+      ],
+      "current": [
+        177
+      ],
+      "SOTA": [
+        178
+      ],
+      "three": [
+        181
+      ],
+      "different": [
+        182
+      ],
+      "tasks": [
+        185
+      ],
+      "boost": [
+        187
+      ],
+      "performance.": [
+        189
+      ],
+      "Specifically,": [
+        190
+      ],
+      "improve": [
+        192
+      ],
+      "previous": [
+        194
+      ],
+      "arts": [
+        195
+      ],
+      "by": [
+        196
+      ],
+      "1.5": [
+        197
+      ],
+      "AP": [
+        198,
+        208
+      ],
+      "OVIS": [
+        200
+      ],
+      "dataset,": [
+        201,
+        212
+      ],
+      "heavy": [
+        204
+      ],
+      "occlusions,": [
+        205
+      ],
+      "4.9": [
+        207
+      ],
+      "YouTube": [
+        210
+      ],
+      "VIS-Long": [
+        211
+      ],
+      "contains": [
+        215
+      ],
+      "moving": [
+        217
+      ],
+      "These": [
+        219
+      ],
+      "results": [
+        220
+      ],
+      "suggest": [
+        221
+      ],
+      "accurate,": [
+        228
+      ],
+      "serving": [
+        231
+      ],
+      "as": [
+        232
+      ],
+      "powerful": [
+        234
+      ],
+      "complex": [
+        237
+      ],
+      "scenarios": [
+        238
+      ],
+      "object-centric": [
+        240
+      ],
+      "segmentation.": [
+        242
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 6
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          2
+        ]
+      ],
+      "date-time": "2025-12-02T03:34:19Z",
+      "timestamp": 1764646459274,
+      "version": "3.37.3"
+    },
+    "reference-count": 79,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2023-06-01T00:00:00Z",
+          "timestamp": 1685577600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2023-06-01T00:00:00Z",
+          "timestamp": 1685577600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "NOOOI4-21-1-2812"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NOOOI4-21-1-2812"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62225603"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62225603"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52729.2023.00614",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          22
+        ]
+      ],
+      "date-time": "2023-08-22T17:30:52Z",
+      "timestamp": 1692725452000
+    },
+    "page": "6344-6354",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "InstMove: Instance Motion for Object-centric Video Segmentation"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Qihao",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Johns Hopkins University"
+          }
+        ]
+      },
+      {
+        "given": "Junfeng",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Huazhong University of Science and Technology"
+          }
+        ]
+      },
+      {
+        "given": "Yi",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "ByteDance"
+          }
+        ]
+      },
+      {
+        "given": "Xiang",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Huazhong University of Science and Technology"
+          }
+        ]
+      },
+      {
+        "given": "Alan",
+        "family": "Yuille",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Johns Hopkins University"
+          }
+        ]
+      },
+      {
+        "given": "Song",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "ByteDance"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.316"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.423"
+      },
+      {
+        "key": "ref12",
+        "first-page": "553",
+        "article-title": "Multiple target tracking in world coordinate with single, minimally calibrated cam-era",
+        "author": "choi",
+        "year": "0",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.480"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Compfeat: Comprehensive feature aggre-gation for video instance segmentation",
+        "author": "fu",
+        "year": "2020",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref59",
+        "first-page": "7942",
+        "article-title": "Mots: Multi-object tracking and segmen-tation",
+        "author": "voigtlaender",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref14",
+        "first-page": "3664",
+        "article-title": "Fusion-seg: Learning to combine motion and appearance for fully automatic segmentation of generic objects in videos",
+        "author": "jain",
+        "year": "0",
+        "journal-title": "Pro-ceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref58",
+        "article-title": "Attention is all you need",
+        "author": "vaswani",
+        "year": "2017",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2015.2465960"
+      },
+      {
+        "key": "ref52",
+        "first-page": "852",
+        "article-title": "Clockwork convnets for video semantic segmentation",
+        "author": "shelhamer",
+        "year": "2016",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref11",
+        "first-page": "686",
+        "article-title": "Segflow: Joint learning for video object seg-mentation and optical flow",
+        "author": "cheng",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE International Conference on Computer Vision"
+      },
+      {
+        "key": "ref55",
+        "first-page": "402",
+        "article-title": "Raft: Recurrent all-pairs field transforms for optical flow",
+        "author": "teed",
+        "year": "2020",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref10",
+        "first-page": "11781",
+        "article-title": "Rethinking space-time networks with improved memory coverage for efficient video object segmentation",
+        "volume": "34",
+        "author": "cheng",
+        "year": "2021",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref54",
+        "article-title": "Convolutional lstm network: A machine learning approach for precipitation nowcasting",
+        "volume": "28",
+        "author": "shi",
+        "year": "2015",
+        "journal-title": "Advances in Neural Information Processing Sys-tems"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00179"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.asoc.2018.05.018"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00884"
+      },
+      {
+        "key": "ref18",
+        "article-title": "Vita: Video instance segmentation via object token association",
+        "author": "heo",
+        "year": "2022",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref51",
+        "first-page": "629",
+        "article-title": "Kernelized memory network for video object segmentation",
+        "author": "seong",
+        "year": "2020",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459224"
+      },
+      {
+        "key": "ref46",
+        "article-title": "The 2017 davis challenge on video object segmentation",
+        "author": "pont- tuset",
+        "year": "2017",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.85"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01129"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-022-01629-1"
+      },
+      {
+        "key": "ref42",
+        "first-page": "8347",
+        "article-title": "Memory-attended recurrent net-work for video captioning",
+        "author": "pei",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00023"
+      },
+      {
+        "key": "ref44",
+        "first-page": "145",
+        "article-title": "Chained-tracker: Chaining paired at-tentive regression results for end-to-end joint multiple-object detection and tracking",
+        "author": "peng",
+        "year": "2020",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459260"
+      },
+      {
+        "key": "ref49",
+        "first-page": "549",
+        "article-title": "Learning social etiquette: Human tra-jectory understanding in crowded scenes",
+        "author": "robicquet",
+        "year": "2016",
+        "journal-title": "European Con-ference on Computer Vision"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00940"
+      },
+      {
+        "key": "ref7",
+        "first-page": "213",
+        "article-title": "End-to-end object detection with transformers",
+        "author": "carion",
+        "year": "0",
+        "journal-title": "Computer Vision-ECCV 2020 16th European Conference Glasgow UK August 23&#x2013;28 2020 Proceedings Part I 16"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00891"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Classifying, seg-menting, and tracking object instances in video with mask propagation",
+        "author": "bertasius",
+        "year": "2020",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Stem-seg: Spatio-temporal em-beddings for instance segmentation in videos",
+        "author": "athar",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref6",
+        "article-title": "Sipmask: Spatial information preservation for fast image and video instance segmentation",
+        "author": "cao",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICIP.2016.7533003"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00932"
+      },
+      {
+        "key": "ref35",
+        "first-page": "661",
+        "article-title": "Video object segmentation with episodic graph memory networks",
+        "author": "lu",
+        "year": "2020",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref79",
+        "first-page": "474",
+        "article-title": "Tracking objects as points",
+        "author": "zhou",
+        "year": "0",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3386569.3392422"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-021-01513-4"
+      },
+      {
+        "key": "ref37",
+        "article-title": "Motl6: A benchmark for multi-object tracking",
+        "author": "milan",
+        "year": "2016",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref36",
+        "first-page": "565",
+        "article-title": "Pre-mvos: Proposal-generation, refinement and merging for video object segmentation",
+        "author": "luiten",
+        "year": "0",
+        "journal-title": "Asian Conference on Computer Vision"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00628"
+      },
+      {
+        "key": "ref75",
+        "first-page": "2636",
+        "article-title": "Bddl00k: A diverse driving dataset for heterogeneous multitask learning",
+        "author": "yu",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE/CVF Con-ference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58607-2_43"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00159"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.324"
+      },
+      {
+        "key": "ref77",
+        "first-page": "1",
+        "article-title": "Bytetrack: Multi-object tracking by associating every detection box",
+        "author": "zhang",
+        "year": "2022",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00176"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00733"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995311"
+      },
+      {
+        "key": "ref1",
+        "first-page": "961",
+        "article-title": "So-ciallstm: Human trajectory prediction in crowded spaces",
+        "author": "alahi",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00770"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/3DV.2016.79"
+      },
+      {
+        "key": "ref71",
+        "article-title": "Towards grand unification of object tracking",
+        "author": "yan",
+        "year": "2022",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995468"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00794"
+      },
+      {
+        "key": "ref72",
+        "article-title": "Video instance seg-mentation",
+        "author": "yang",
+        "year": "2019",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00488"
+      },
+      {
+        "key": "ref68",
+        "article-title": "Youtube-vos: A large-scale video object segmentation benchmark",
+        "author": "xu",
+        "year": "2018",
+        "journal-title": "ArXiv Preprint"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.179"
+      },
+      {
+        "key": "ref67",
+        "first-page": "1286",
+        "article-title": "Efficient regional memory net-work for video object segmentation",
+        "author": "xie",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00307"
+      },
+      {
+        "key": "ref25",
+        "article-title": "Prototypical cross-attention networks for multiple object tracking and segmentation",
+        "author": "ke",
+        "year": "2021",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "journal-title": "Youtube-vis dataset",
+        "year": "2022",
+        "author": "xu",
+        "key": "ref69"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01246-5_48"
+      },
+      {
+        "key": "ref64",
+        "first-page": "553",
+        "article-title": "Seqformer: Sequential transformer for video instance segmentation",
+        "author": "wu",
+        "year": "0",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICIP.2017.8296962"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Video instance segmentation using inter-frame communication transformers",
+        "author": "hwang",
+        "year": "2021",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref66",
+        "first-page": "1140",
+        "article-title": "Monet: Deep motion exploitation for video ob-ject segmentation",
+        "author": "xiao",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Min-vis: A minimal video instance segmentation framework without video-based training",
+        "author": "huang",
+        "year": "2022",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref65",
+        "first-page": "588",
+        "article-title": "In defense of online models for video instance segmentation",
+        "author": "wu",
+        "year": "2022",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Spatial fea-ture calibration and temporal fusion for effective one-stage video instance segmentation",
+        "author": "li",
+        "year": "2021",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00737"
+      },
+      {
+        "key": "ref29",
+        "first-page": "2869",
+        "article-title": "Fss-I000: A 1000-class dataset for few-shot segmentation",
+        "author": "li",
+        "year": "0",
+        "journal-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.404"
+      },
+      {
+        "key": "ref62",
+        "first-page": "107",
+        "article-title": "Towards real-time multi-object tracking",
+        "author": "wang",
+        "year": "2020",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00863"
+      }
+    ],
+    "event": {
+      "name": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            17
+          ]
+        ]
+      },
+      "location": "Vancouver, BC, Canada",
+      "end": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            24
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/10203037/10203050/10203776.pdf?arnumber=10203776",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          11
+        ]
+      ],
+      "date-time": "2023-09-11T18:03:03Z",
+      "timestamp": 1694455383000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10203776/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "references-count": 79,
+    "URL": "https://doi.org/10.1109/cvpr52729.2023.00614",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,1051 @@
+{
+  "doi": "10.1109/sp54263.2024.00150",
+  "openalex": {
+    "id": "https://openalex.org/W4402264012",
+    "doi": "https://doi.org/10.1109/sp54263.2024.00150",
+    "title": "Efficient Detection of Java Deserialization Gadget Chains via Bottom-up Gadget Search and Dataflow-aided Payload Construction",
+    "display_name": "Efficient Detection of Java Deserialization Gadget Chains via Bottom-up Gadget Search and Dataflow-aided Payload Construction",
+    "publication_year": 2024,
+    "publication_date": "2024-05-19",
+    "ids": {
+      "openalex": "https://openalex.org/W4402264012",
+      "doi": "https://doi.org/10.1109/sp54263.2024.00150"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/sp54263.2024.00150",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/sp54263.2024.00150",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2024 IEEE Symposium on Security and Privacy (SP)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5084083089",
+          "display_name": "B.T. Chen",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bofei Chen",
+        "raw_affiliation_strings": [
+          "Fudan University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Fudan University",
+            "institution_ids": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101455341",
+          "display_name": "Lei Zhang",
+          "orcid": "https://orcid.org/0000-0002-9298-2536"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Lei Zhang",
+        "raw_affiliation_strings": [
+          "Fudan University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Fudan University",
+            "institution_ids": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5113368666",
+          "display_name": "Xinyou Huang",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xinyou Huang",
+        "raw_affiliation_strings": [
+          "Fudan University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Fudan University",
+            "institution_ids": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5070605476",
+          "display_name": "Yinzhi Cao",
+          "orcid": "https://orcid.org/0000-0002-9618-4830"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yinzhi Cao",
+        "raw_affiliation_strings": [
+          "Johns Hopkins University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Johns Hopkins University",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046500178",
+          "display_name": "Keke Lian",
+          "orcid": "https://orcid.org/0009-0005-9026-8995"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Keke Lian",
+        "raw_affiliation_strings": [
+          "Fudan University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Fudan University",
+            "institution_ids": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100368650",
+          "display_name": "Yuan Zhang",
+          "orcid": "https://orcid.org/0000-0001-5538-1478"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yuan Zhang",
+        "raw_affiliation_strings": [
+          "Fudan University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Fudan University",
+            "institution_ids": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5083369457",
+          "display_name": "Min Yang",
+          "orcid": "https://orcid.org/0000-0001-7345-5071"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Min Yang",
+        "raw_affiliation_strings": [
+          "Fudan University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Fudan University",
+            "institution_ids": [
+              "https://openalex.org/I24943067"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 7,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 3.56252133,
+    "has_fulltext": false,
+    "cited_by_count": 5,
+    "citation_normalized_percentile": {
+      "value": 0.89749111,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 94,
+      "max": 97
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "3961",
+      "last_page": "3978"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11241",
+      "display_name": "Advanced Malware Detection Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11241",
+        "display_name": "Advanced Malware Detection Techniques",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1711",
+          "display_name": "Signal Processing"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10743",
+        "display_name": "Software Testing and Debugging Techniques",
+        "score": 0.9962999820709229,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1712",
+          "display_name": "Software"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10260",
+        "display_name": "Software Engineering Research",
+        "score": 0.9926000237464905,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/gadget",
+        "display_name": "Gadget",
+        "score": 0.9682828187942505
+      },
+      {
+        "id": "https://openalex.org/keywords/dataflow",
+        "display_name": "Dataflow",
+        "score": 0.9109883308410645
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7837281227111816
+      },
+      {
+        "id": "https://openalex.org/keywords/payload",
+        "display_name": "Payload (computing)",
+        "score": 0.719950795173645
+      },
+      {
+        "id": "https://openalex.org/keywords/java",
+        "display_name": "Java",
+        "score": 0.7125856876373291
+      },
+      {
+        "id": "https://openalex.org/keywords/operating-system",
+        "display_name": "Operating system",
+        "score": 0.4598233997821808
+      },
+      {
+        "id": "https://openalex.org/keywords/embedded-system",
+        "display_name": "Embedded system",
+        "score": 0.41280290484428406
+      },
+      {
+        "id": "https://openalex.org/keywords/parallel-computing",
+        "display_name": "Parallel computing",
+        "score": 0.36070212721824646
+      },
+      {
+        "id": "https://openalex.org/keywords/programming-language",
+        "display_name": "Programming language",
+        "score": 0.3225764334201813
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-network",
+        "display_name": "Computer network",
+        "score": 0.1694563329219818
+      },
+      {
+        "id": "https://openalex.org/keywords/algorithm",
+        "display_name": "Algorithm",
+        "score": 0.07706832885742188
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C119770614",
+        "wikidata": "https://www.wikidata.org/wiki/Q5516347",
+        "display_name": "Gadget",
+        "level": 2,
+        "score": 0.9682828187942505
+      },
+      {
+        "id": "https://openalex.org/C96324660",
+        "wikidata": "https://www.wikidata.org/wiki/Q205446",
+        "display_name": "Dataflow",
+        "level": 2,
+        "score": 0.9109883308410645
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7837281227111816
+      },
+      {
+        "id": "https://openalex.org/C134066672",
+        "wikidata": "https://www.wikidata.org/wiki/Q1424639",
+        "display_name": "Payload (computing)",
+        "level": 3,
+        "score": 0.719950795173645
+      },
+      {
+        "id": "https://openalex.org/C548217200",
+        "wikidata": "https://www.wikidata.org/wiki/Q251",
+        "display_name": "Java",
+        "level": 2,
+        "score": 0.7125856876373291
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.4598233997821808
+      },
+      {
+        "id": "https://openalex.org/C149635348",
+        "wikidata": "https://www.wikidata.org/wiki/Q193040",
+        "display_name": "Embedded system",
+        "level": 1,
+        "score": 0.41280290484428406
+      },
+      {
+        "id": "https://openalex.org/C173608175",
+        "wikidata": "https://www.wikidata.org/wiki/Q232661",
+        "display_name": "Parallel computing",
+        "level": 1,
+        "score": 0.36070212721824646
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.3225764334201813
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.1694563329219818
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.07706832885742188
+      },
+      {
+        "id": "https://openalex.org/C158379750",
+        "wikidata": "https://www.wikidata.org/wiki/Q214111",
+        "display_name": "Network packet",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/sp54263.2024.00150",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/sp54263.2024.00150",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2024 IEEE Symposium on Security and Privacy (SP)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/8",
+        "score": 0.5799999833106995,
+        "display_name": "Decent work and economic growth"
+      }
+    ],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320321001",
+        "display_name": "National Natural Science Foundation of China",
+        "ror": "https://ror.org/01h0zpd94"
+      },
+      {
+        "id": "https://openalex.org/F4320327803",
+        "display_name": "Shanghai Rising-Star Program",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320337504",
+        "display_name": "Research and Development",
+        "ror": "https://ror.org/027s68j25"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 21,
+    "referenced_works": [
+      "https://openalex.org/W4384304635",
+      "https://openalex.org/W4385080291",
+      "https://openalex.org/W6969334641",
+      "https://openalex.org/W6788674771",
+      "https://openalex.org/W2876719183",
+      "https://openalex.org/W2962823786",
+      "https://openalex.org/W4244726870",
+      "https://openalex.org/W2962200727",
+      "https://openalex.org/W2961870034",
+      "https://openalex.org/W3136748915",
+      "https://openalex.org/W2890772103",
+      "https://openalex.org/W4385695486",
+      "https://openalex.org/W3033482452",
+      "https://openalex.org/W1992114977",
+      "https://openalex.org/W2732351623",
+      "https://openalex.org/W6904020065",
+      "https://openalex.org/W2890725326",
+      "https://openalex.org/W2587209459",
+      "https://openalex.org/W4224316517",
+      "https://openalex.org/W2604348044",
+      "https://openalex.org/W3102086861"
+    ],
+    "related_works": [
+      "https://openalex.org/W4252293060",
+      "https://openalex.org/W4212943538",
+      "https://openalex.org/W2475971442",
+      "https://openalex.org/W4312756098",
+      "https://openalex.org/W3194202522",
+      "https://openalex.org/W4319586723",
+      "https://openalex.org/W2206440698",
+      "https://openalex.org/W3091274767",
+      "https://openalex.org/W3109836769",
+      "https://openalex.org/W2899355582"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-12-22T23:10:17.713674",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          4
+        ]
+      ],
+      "date-time": "2025-12-04T02:36:31Z",
+      "timestamp": 1764815791323,
+      "version": "3.41.0"
+    },
+    "reference-count": 24,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              19
+            ]
+          ],
+          "date-time": "2024-05-19T00:00:00Z",
+          "timestamp": 1716076800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-009"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              5,
+              19
+            ]
+          ],
+          "date-time": "2024-05-19T00:00:00Z",
+          "timestamp": 1716076800000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-001"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006190",
+        "name": "Research and Development",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006190",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100013105",
+        "name": "Shanghai Rising-Star Program",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100013105",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          19
+        ]
+      ]
+    },
+    "DOI": "10.1109/sp54263.2024.00150",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          5
+        ]
+      ],
+      "date-time": "2024-09-05T17:56:32Z",
+      "timestamp": 1725558992000
+    },
+    "page": "3961-3978",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Efficient Detection of Java Deserialization Gadget Chains via Bottom-up Gadget Search and Dataflow-aided Payload Construction"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Bofei",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Fudan University"
+          }
+        ]
+      },
+      {
+        "given": "Lei",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University"
+          }
+        ]
+      },
+      {
+        "given": "Xinyou",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University"
+          }
+        ]
+      },
+      {
+        "given": "Yinzhi",
+        "family": "Cao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Johns Hopkins University"
+          }
+        ]
+      },
+      {
+        "given": "Keke",
+        "family": "Lian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University"
+          }
+        ]
+      },
+      {
+        "given": "Yuan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University"
+          }
+        ]
+      },
+      {
+        "given": "Min",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICSE48619.2023.00044"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP46215.2023.10179377"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Automated discovery of deserialization gadget chains",
+        "volume-title": "Proceedings of the Black Hat USA",
+        "volume": "48",
+        "author": "Haken"
+      },
+      {
+        "key": "ref4",
+        "first-page": "1209",
+        "article-title": "A hybrid analysis to detect java serialisation vulnerabilities",
+        "volume-title": "Proceedings of the 35th IEEE/ACM International Conference on Automated Software Engineering",
+        "author": "Rasheed"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3213846.3213864"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3295739"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2666356.2594299"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3293882.3339002"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3293882.3330576"
+      },
+      {
+        "key": "ref22",
+        "first-page": "197",
+        "article-title": "{FUGIO}: Automatic exploit generation for {PHP} object injection vulnerabilities",
+        "volume-title": "31st USENIX Security Symposium (USENIX Security 22)",
+        "author": "Park"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.14722/ndss.2021.24550"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00470-5_21"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/DSN58367.2023.00028"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Code property graph - Wikipedia — en.wikipedia.org"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1103845.1094840"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP.2014.44"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/EuroSP.2017.14"
+      },
+      {
+        "key": "ref34",
+        "article-title": "CWE - CWE-502: Deserialization of Untrusted Data (4.12) — cwe.mitre.org"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Combating java deserialization vulnerabilities with look-ahead object input streams (laois)",
+        "author": "Seacord",
+        "year": "2017",
+        "journal-title": "NCC Gr Whitepaper"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00009-7_51"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CINTI.2016.7846383"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "first-page": "445",
+        "DOI": "10.1007/978-3-030-00470-5_21",
+        "article-title": "Trusted execution path for protecting java applications against deserialization of untrusted data",
+        "volume-title": "Research in Attacks, Intrusions, and Defenses",
+        "author": "Cristall",
+        "year": "2018"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3510455.3512786"
+      },
+      {
+        "key": "ref42",
+        "article-title": "Cauchy–Schwarz inequality - Wikipedia — en.wikipedia.org"
+      }
+    ],
+    "event": {
+      "name": "2024 IEEE Symposium on Security and Privacy (SP)",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            19
+          ]
+        ]
+      },
+      "location": "San Francisco, CA, USA",
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            23
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2024 IEEE Symposium on Security and Privacy (SP)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10646615/10646598/10646692.pdf?arnumber=10646692",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          30
+        ]
+      ],
+      "date-time": "2025-05-30T05:34:46Z",
+      "timestamp": 1748583286000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10646692/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          19
+        ]
+      ]
+    },
+    "references-count": 24,
+    "URL": "https://doi.org/10.1109/sp54263.2024.00150",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          19
+        ]
+      ]
+    }
+  }
+}

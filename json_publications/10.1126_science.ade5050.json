@@ -1,0 +1,2376 @@
+{
+  "doi": "10.1126/science.ade5050",
+  "openalex": {
+    "id": "https://openalex.org/W4387392303",
+    "doi": "https://doi.org/10.1126/science.ade5050",
+    "title": "An atomic-scale multi-qubit platform",
+    "display_name": "An atomic-scale multi-qubit platform",
+    "publication_year": 2023,
+    "publication_date": "2023-10-06",
+    "ids": {
+      "openalex": "https://openalex.org/W4387392303",
+      "doi": "https://doi.org/10.1126/science.ade5050",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/37797000"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1126/science.ade5050",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1126/science.ade5050",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S3880285",
+        "display_name": "Science",
+        "issn_l": "0036-8075",
+        "issn": [
+          "0036-8075",
+          "1095-9203"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315823",
+        "host_organization_name": "American Association for the Advancement of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315823"
+        ],
+        "host_organization_lineage_names": [
+          "American Association for the Advancement of Science"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Science",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5023187132",
+          "display_name": "Yu Wang",
+          "orcid": "https://orcid.org/0000-0003-0506-2932"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110465",
+            "display_name": "Center for Quantum Nanoscience",
+            "ror": "https://ror.org/01n93gn67",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I138925566",
+            "display_name": "Ewha Womans University",
+            "ror": "https://ror.org/053fp5c05",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138925566"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210104335",
+            "display_name": "Institute for Basic Science",
+            "ror": "https://ror.org/00y0zf565",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210104335"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Yu Wang",
+        "raw_affiliation_strings": [
+          "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+          "Ewha Womans University, Seoul 03760, Korea."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I4210104335",
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Ewha Womans University, Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I138925566"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100419226",
+          "display_name": "Yi Chen",
+          "orcid": "https://orcid.org/0000-0001-8564-3600"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210127494",
+            "display_name": "Collaborative Innovation Center of Quantum Matter",
+            "ror": "https://ror.org/03jn38r85",
+            "country_code": "CN",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I20231570",
+              "https://openalex.org/I4210127494",
+              "https://openalex.org/I99065089"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I20231570",
+            "display_name": "Peking University",
+            "ror": "https://ror.org/02v51f717",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I20231570"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210110465",
+            "display_name": "Center for Quantum Nanoscience",
+            "ror": "https://ror.org/01n93gn67",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I138925566",
+            "display_name": "Ewha Womans University",
+            "ror": "https://ror.org/053fp5c05",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138925566"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210104335",
+            "display_name": "Institute for Basic Science",
+            "ror": "https://ror.org/00y0zf565",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210104335"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "KR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Yi Chen",
+        "raw_affiliation_strings": [
+          "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+          "Collaborative Innovation Center of Quantum Matter, Beijing 100871, China.",
+          "Ewha Womans University, Seoul 03760, Korea.",
+          "International Center for Quantum Materials, School of Physics, Peking University, Beijing 100871, China."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "International Center for Quantum Materials, School of Physics, Peking University, Beijing 100871, China.",
+            "institution_ids": [
+              "https://openalex.org/I20231570"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Ewha Womans University, Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I138925566"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I4210104335",
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Collaborative Innovation Center of Quantum Matter, Beijing 100871, China.",
+            "institution_ids": [
+              "https://openalex.org/I4210127494"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5074250219",
+          "display_name": "Hong Thi Bui",
+          "orcid": "https://orcid.org/0009-0000-7499-646X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110465",
+            "display_name": "Center for Quantum Nanoscience",
+            "ror": "https://ror.org/01n93gn67",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I138925566",
+            "display_name": "Ewha Womans University",
+            "ror": "https://ror.org/053fp5c05",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138925566"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210104335",
+            "display_name": "Institute for Basic Science",
+            "ror": "https://ror.org/00y0zf565",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210104335"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Hong T. Bui",
+        "raw_affiliation_strings": [
+          "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+          "Department of Physics, Ewha Womans University, Seoul 03760, Korea."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I4210104335",
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Physics, Ewha Womans University, Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I138925566"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5077429844",
+          "display_name": "Christoph Wolf",
+          "orcid": "https://orcid.org/0000-0002-9340-9782"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110465",
+            "display_name": "Center for Quantum Nanoscience",
+            "ror": "https://ror.org/01n93gn67",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I138925566",
+            "display_name": "Ewha Womans University",
+            "ror": "https://ror.org/053fp5c05",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138925566"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210104335",
+            "display_name": "Institute for Basic Science",
+            "ror": "https://ror.org/00y0zf565",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210104335"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Christoph Wolf",
+        "raw_affiliation_strings": [
+          "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+          "Ewha Womans University, Seoul 03760, Korea."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I4210104335",
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Ewha Womans University, Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I138925566"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5059034163",
+          "display_name": "Masahiro Haze",
+          "orcid": "https://orcid.org/0000-0001-7274-2909"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74801974",
+            "display_name": "The University of Tokyo",
+            "ror": "https://ror.org/057zh3y96",
+            "country_code": "JP",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I74801974"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210110465",
+            "display_name": "Center for Quantum Nanoscience",
+            "ror": "https://ror.org/01n93gn67",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210104335",
+            "display_name": "Institute for Basic Science",
+            "ror": "https://ror.org/00y0zf565",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210104335"
+            ]
+          }
+        ],
+        "countries": [
+          "JP",
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Masahiro Haze",
+        "raw_affiliation_strings": [
+          "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+          "The Institute for Solid State Physics, University of Tokyo, Kashiwa 277-8581, Japan."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Institute for Solid State Physics, University of Tokyo, Kashiwa 277-8581, Japan.",
+            "institution_ids": [
+              "https://openalex.org/I74801974"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I4210104335",
+              "https://openalex.org/I4210110465"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5017414473",
+          "display_name": "Cristina Mier",
+          "orcid": "https://orcid.org/0000-0002-0393-9756"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I47686490",
+            "display_name": "Donostia International Physics Center",
+            "ror": "https://ror.org/02e24yw40",
+            "country_code": "ES",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I47686490"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210131160",
+            "display_name": "Material Physics Center",
+            "ror": "https://ror.org/02hpa6m94",
+            "country_code": "ES",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I134820265",
+              "https://openalex.org/I169108374",
+              "https://openalex.org/I4210131160"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210110465",
+            "display_name": "Center for Quantum Nanoscience",
+            "ror": "https://ror.org/01n93gn67",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210104335",
+            "display_name": "Institute for Basic Science",
+            "ror": "https://ror.org/00y0zf565",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210104335"
+            ]
+          }
+        ],
+        "countries": [
+          "ES",
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Cristina Mier",
+        "raw_affiliation_strings": [
+          "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+          "Centro de Física de Materiales CFM/MPC (CSIC-UPV/EHU), 20018 Donostia-San Sebastián, Spain."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Centro de Física de Materiales CFM/MPC (CSIC-UPV/EHU), 20018 Donostia-San Sebastián, Spain.",
+            "institution_ids": [
+              "https://openalex.org/I4210131160",
+              "https://openalex.org/I47686490"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I4210104335",
+              "https://openalex.org/I4210110465"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100671871",
+          "display_name": "Jin‐Kyung Kim",
+          "orcid": "https://orcid.org/0009-0004-6668-2371"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110465",
+            "display_name": "Center for Quantum Nanoscience",
+            "ror": "https://ror.org/01n93gn67",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I138925566",
+            "display_name": "Ewha Womans University",
+            "ror": "https://ror.org/053fp5c05",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138925566"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210104335",
+            "display_name": "Institute for Basic Science",
+            "ror": "https://ror.org/00y0zf565",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210104335"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jinkyung Kim",
+        "raw_affiliation_strings": [
+          "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+          "Department of Physics, Ewha Womans University, Seoul 03760, Korea."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Physics, Ewha Womans University, Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I138925566"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I4210104335",
+              "https://openalex.org/I4210110465"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5019250356",
+          "display_name": "Deung-Jang Choi",
+          "orcid": "https://orcid.org/0000-0002-6797-3953"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I47686490",
+            "display_name": "Donostia International Physics Center",
+            "ror": "https://ror.org/02e24yw40",
+            "country_code": "ES",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I47686490"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I110594554",
+            "display_name": "Ikerbasque",
+            "ror": "https://ror.org/01cc3fy72",
+            "country_code": "ES",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I110594554"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210131160",
+            "display_name": "Material Physics Center",
+            "ror": "https://ror.org/02hpa6m94",
+            "country_code": "ES",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I134820265",
+              "https://openalex.org/I169108374",
+              "https://openalex.org/I4210131160"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210110465",
+            "display_name": "Center for Quantum Nanoscience",
+            "ror": "https://ror.org/01n93gn67",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210104335",
+            "display_name": "Institute for Basic Science",
+            "ror": "https://ror.org/00y0zf565",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210104335"
+            ]
+          }
+        ],
+        "countries": [
+          "ES",
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Deung-Jang Choi",
+        "raw_affiliation_strings": [
+          "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+          "Centro de Física de Materiales CFM/MPC (CSIC-UPV/EHU), 20018 Donostia-San Sebastián, Spain.",
+          "Donostia International Physics Center (DIPC), 20018 Donostia-San Sebastián, Spain.",
+          "Ikerbasque, Basque Foundation for Science, 48013 Bilbao, Spain."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Centro de Física de Materiales CFM/MPC (CSIC-UPV/EHU), 20018 Donostia-San Sebastián, Spain.",
+            "institution_ids": [
+              "https://openalex.org/I4210131160",
+              "https://openalex.org/I47686490"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Ikerbasque, Basque Foundation for Science, 48013 Bilbao, Spain.",
+            "institution_ids": [
+              "https://openalex.org/I110594554"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Donostia International Physics Center (DIPC), 20018 Donostia-San Sebastián, Spain.",
+            "institution_ids": [
+              "https://openalex.org/I47686490"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I4210104335",
+              "https://openalex.org/I4210110465"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5056630685",
+          "display_name": "Christopher P. Lutz",
+          "orcid": "https://orcid.org/0000-0002-7993-4759"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210085935",
+            "display_name": "IBM Research - Almaden",
+            "ror": "https://ror.org/005w8dd04",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1341412227",
+              "https://openalex.org/I4210085935",
+              "https://openalex.org/I4210114115"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Christopher P. Lutz",
+        "raw_affiliation_strings": [
+          "IBM Research Division, Almaden Research Center, San Jose, CA 95120, USA."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "IBM Research Division, Almaden Research Center, San Jose, CA 95120, USA.",
+            "institution_ids": [
+              "https://openalex.org/I4210085935"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5087034412",
+          "display_name": "Yujeong Bae",
+          "orcid": "https://orcid.org/0000-0002-9983-8529"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110465",
+            "display_name": "Center for Quantum Nanoscience",
+            "ror": "https://ror.org/01n93gn67",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I138925566",
+            "display_name": "Ewha Womans University",
+            "ror": "https://ror.org/053fp5c05",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138925566"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210104335",
+            "display_name": "Institute for Basic Science",
+            "ror": "https://ror.org/00y0zf565",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210104335"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Yujeong Bae",
+        "raw_affiliation_strings": [
+          "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+          "Department of Physics, Ewha Womans University, Seoul 03760, Korea."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Physics, Ewha Womans University, Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I138925566"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I4210104335",
+              "https://openalex.org/I4210110465"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5010842396",
+          "display_name": "Soo‐hyon Phark",
+          "orcid": "https://orcid.org/0000-0002-0541-5083"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110465",
+            "display_name": "Center for Quantum Nanoscience",
+            "ror": "https://ror.org/01n93gn67",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I138925566",
+            "display_name": "Ewha Womans University",
+            "ror": "https://ror.org/053fp5c05",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138925566"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210104335",
+            "display_name": "Institute for Basic Science",
+            "ror": "https://ror.org/00y0zf565",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210104335"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Soo-hyon Phark",
+        "raw_affiliation_strings": [
+          "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+          "Ewha Womans University, Seoul 03760, Korea."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I4210104335",
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Ewha Womans University, Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I138925566"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5101407389",
+          "display_name": "Andreas J. Heinrich",
+          "orcid": "https://orcid.org/0000-0001-6204-471X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110465",
+            "display_name": "Center for Quantum Nanoscience",
+            "ror": "https://ror.org/01n93gn67",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210110465"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I138925566",
+            "display_name": "Ewha Womans University",
+            "ror": "https://ror.org/053fp5c05",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138925566"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210104335",
+            "display_name": "Institute for Basic Science",
+            "ror": "https://ror.org/00y0zf565",
+            "country_code": "KR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210104335"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Andreas J. Heinrich",
+        "raw_affiliation_strings": [
+          "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+          "Department of Physics, Ewha Womans University, Seoul 03760, Korea."
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Physics, Ewha Womans University, Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I138925566"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea.",
+            "institution_ids": [
+              "https://openalex.org/I4210104335",
+              "https://openalex.org/I4210110465"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 5,
+    "institutions_distinct_count": 12,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5087034412",
+      "https://openalex.org/A5023187132",
+      "https://openalex.org/A5101407389",
+      "https://openalex.org/A5074250219",
+      "https://openalex.org/A5010842396",
+      "https://openalex.org/A5100419226"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I138925566",
+      "https://openalex.org/I20231570",
+      "https://openalex.org/I4210104335",
+      "https://openalex.org/I4210110465",
+      "https://openalex.org/I4210127494"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 11.95927867,
+    "has_fulltext": false,
+    "cited_by_count": 52,
+    "citation_normalized_percentile": {
+      "value": 0.99304106,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "382",
+      "issue": "6666",
+      "first_page": "87",
+      "last_page": "92"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10382",
+      "display_name": "Quantum and electron transport phenomena",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10382",
+        "display_name": "Quantum and electron transport phenomena",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3107",
+          "display_name": "Atomic and Molecular Physics, and Optics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12588",
+        "display_name": "Electronic and Structural Properties of Oxides",
+        "score": 0.9993000030517578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10913",
+        "display_name": "Molecular Junctions and Nanostructures",
+        "score": 0.9991999864578247,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/qubit",
+        "display_name": "Qubit",
+        "score": 0.8770565986633301
+      },
+      {
+        "id": "https://openalex.org/keywords/flux-qubit",
+        "display_name": "Flux qubit",
+        "score": 0.7772167921066284
+      },
+      {
+        "id": "https://openalex.org/keywords/spins",
+        "display_name": "Spins",
+        "score": 0.5756881833076477
+      },
+      {
+        "id": "https://openalex.org/keywords/phase-qubit",
+        "display_name": "Phase qubit",
+        "score": 0.5597020983695984
+      },
+      {
+        "id": "https://openalex.org/keywords/scanning-tunneling-microscope",
+        "display_name": "Scanning tunneling microscope",
+        "score": 0.5454779267311096
+      },
+      {
+        "id": "https://openalex.org/keywords/physics",
+        "display_name": "Physics",
+        "score": 0.5438339114189148
+      },
+      {
+        "id": "https://openalex.org/keywords/spin",
+        "display_name": "Spin (aerodynamics)",
+        "score": 0.5399904251098633
+      },
+      {
+        "id": "https://openalex.org/keywords/atom",
+        "display_name": "Atom (system on chip)",
+        "score": 0.5340776443481445
+      },
+      {
+        "id": "https://openalex.org/keywords/coherent-control",
+        "display_name": "Coherent control",
+        "score": 0.5296837091445923
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-computer",
+        "display_name": "Quantum computer",
+        "score": 0.49598726630210876
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-tunnelling",
+        "display_name": "Quantum tunnelling",
+        "score": 0.490744948387146
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-sensor",
+        "display_name": "Quantum sensor",
+        "score": 0.4581727981567383
+      },
+      {
+        "id": "https://openalex.org/keywords/electron",
+        "display_name": "Electron",
+        "score": 0.4571121037006378
+      },
+      {
+        "id": "https://openalex.org/keywords/charge-qubit",
+        "display_name": "Charge qubit",
+        "score": 0.4339144825935364
+      },
+      {
+        "id": "https://openalex.org/keywords/spin-engineering",
+        "display_name": "Spin engineering",
+        "score": 0.4322943687438965
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum",
+        "display_name": "Quantum",
+        "score": 0.4256628155708313
+      },
+      {
+        "id": "https://openalex.org/keywords/condensed-matter-physics",
+        "display_name": "Condensed matter physics",
+        "score": 0.3024882674217224
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-mechanics",
+        "display_name": "Quantum mechanics",
+        "score": 0.29791319370269775
+      },
+      {
+        "id": "https://openalex.org/keywords/quantum-simulator",
+        "display_name": "Quantum simulator",
+        "score": 0.2392476201057434
+      },
+      {
+        "id": "https://openalex.org/keywords/spin-polarization",
+        "display_name": "Spin polarization",
+        "score": 0.169419527053833
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.09678298234939575
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C203087015",
+        "wikidata": "https://www.wikidata.org/wiki/Q378201",
+        "display_name": "Qubit",
+        "level": 3,
+        "score": 0.8770565986633301
+      },
+      {
+        "id": "https://openalex.org/C109546105",
+        "wikidata": "https://www.wikidata.org/wiki/Q5463032",
+        "display_name": "Flux qubit",
+        "level": 4,
+        "score": 0.7772167921066284
+      },
+      {
+        "id": "https://openalex.org/C2778870898",
+        "wikidata": "https://www.wikidata.org/wiki/Q7577658",
+        "display_name": "Spins",
+        "level": 2,
+        "score": 0.5756881833076477
+      },
+      {
+        "id": "https://openalex.org/C73214911",
+        "wikidata": "https://www.wikidata.org/wiki/Q7180959",
+        "display_name": "Phase qubit",
+        "level": 4,
+        "score": 0.5597020983695984
+      },
+      {
+        "id": "https://openalex.org/C6518042",
+        "wikidata": "https://www.wikidata.org/wiki/Q175646",
+        "display_name": "Scanning tunneling microscope",
+        "level": 2,
+        "score": 0.5454779267311096
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.5438339114189148
+      },
+      {
+        "id": "https://openalex.org/C42704618",
+        "wikidata": "https://www.wikidata.org/wiki/Q910917",
+        "display_name": "Spin (aerodynamics)",
+        "level": 2,
+        "score": 0.5399904251098633
+      },
+      {
+        "id": "https://openalex.org/C58312451",
+        "wikidata": "https://www.wikidata.org/wiki/Q4817200",
+        "display_name": "Atom (system on chip)",
+        "level": 2,
+        "score": 0.5340776443481445
+      },
+      {
+        "id": "https://openalex.org/C78594624",
+        "wikidata": "https://www.wikidata.org/wiki/Q906781",
+        "display_name": "Coherent control",
+        "level": 3,
+        "score": 0.5296837091445923
+      },
+      {
+        "id": "https://openalex.org/C58053490",
+        "wikidata": "https://www.wikidata.org/wiki/Q176555",
+        "display_name": "Quantum computer",
+        "level": 3,
+        "score": 0.49598726630210876
+      },
+      {
+        "id": "https://openalex.org/C120398109",
+        "wikidata": "https://www.wikidata.org/wiki/Q175751",
+        "display_name": "Quantum tunnelling",
+        "level": 2,
+        "score": 0.490744948387146
+      },
+      {
+        "id": "https://openalex.org/C89143813",
+        "wikidata": "https://www.wikidata.org/wiki/Q17105423",
+        "display_name": "Quantum sensor",
+        "level": 5,
+        "score": 0.4581727981567383
+      },
+      {
+        "id": "https://openalex.org/C147120987",
+        "wikidata": "https://www.wikidata.org/wiki/Q2225",
+        "display_name": "Electron",
+        "level": 2,
+        "score": 0.4571121037006378
+      },
+      {
+        "id": "https://openalex.org/C85608146",
+        "wikidata": "https://www.wikidata.org/wiki/Q5074271",
+        "display_name": "Charge qubit",
+        "level": 5,
+        "score": 0.4339144825935364
+      },
+      {
+        "id": "https://openalex.org/C150365167",
+        "wikidata": "https://www.wikidata.org/wiki/Q7577404",
+        "display_name": "Spin engineering",
+        "level": 4,
+        "score": 0.4322943687438965
+      },
+      {
+        "id": "https://openalex.org/C84114770",
+        "wikidata": "https://www.wikidata.org/wiki/Q46344",
+        "display_name": "Quantum",
+        "level": 2,
+        "score": 0.4256628155708313
+      },
+      {
+        "id": "https://openalex.org/C26873012",
+        "wikidata": "https://www.wikidata.org/wiki/Q214781",
+        "display_name": "Condensed matter physics",
+        "level": 1,
+        "score": 0.3024882674217224
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.29791319370269775
+      },
+      {
+        "id": "https://openalex.org/C161166931",
+        "wikidata": "https://www.wikidata.org/wiki/Q7269096",
+        "display_name": "Quantum simulator",
+        "level": 4,
+        "score": 0.2392476201057434
+      },
+      {
+        "id": "https://openalex.org/C21690051",
+        "wikidata": "https://www.wikidata.org/wiki/Q962347",
+        "display_name": "Spin polarization",
+        "level": 3,
+        "score": 0.169419527053833
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.09678298234939575
+      },
+      {
+        "id": "https://openalex.org/C97355855",
+        "wikidata": "https://www.wikidata.org/wiki/Q11473",
+        "display_name": "Thermodynamics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C149635348",
+        "wikidata": "https://www.wikidata.org/wiki/Q193040",
+        "display_name": "Embedded system",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1126/science.ade5050",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1126/science.ade5050",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S3880285",
+          "display_name": "Science",
+          "issn_l": "0036-8075",
+          "issn": [
+            "0036-8075",
+            "1095-9203"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315823",
+          "host_organization_name": "American Association for the Advancement of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315823"
+          ],
+          "host_organization_lineage_names": [
+            "American Association for the Advancement of Science"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:37797000",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37797000",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science (New York, N.Y.)",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:digital.csic.es:10261/342131",
+        "is_oa": false,
+        "landing_page_url": "http://hdl.handle.net/10261/342131",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400616",
+          "display_name": "DIGITAL.CSIC (Spanish National Research Council (CSIC))",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I134820265",
+          "host_organization_name": "Consejo Superior de Investigaciones Científicas",
+          "host_organization_lineage": [
+            "https://openalex.org/I134820265"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "artículo"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 48,
+    "referenced_works": [
+      "https://openalex.org/W3197368744",
+      "https://openalex.org/W2888610405",
+      "https://openalex.org/W3033020452",
+      "https://openalex.org/W2105188292",
+      "https://openalex.org/W1965702561",
+      "https://openalex.org/W4283361562",
+      "https://openalex.org/W2034257798",
+      "https://openalex.org/W3182916256",
+      "https://openalex.org/W2981613454",
+      "https://openalex.org/W3213342479",
+      "https://openalex.org/W2175801878",
+      "https://openalex.org/W3024690731",
+      "https://openalex.org/W3038420316",
+      "https://openalex.org/W3164293404",
+      "https://openalex.org/W2860667114",
+      "https://openalex.org/W2000599333",
+      "https://openalex.org/W4205707037",
+      "https://openalex.org/W2559224619",
+      "https://openalex.org/W2982316042",
+      "https://openalex.org/W2767305548",
+      "https://openalex.org/W2948842746",
+      "https://openalex.org/W2166805649",
+      "https://openalex.org/W4384664755",
+      "https://openalex.org/W2049176136",
+      "https://openalex.org/W2799493790",
+      "https://openalex.org/W2161785338",
+      "https://openalex.org/W3182381840",
+      "https://openalex.org/W2116059612",
+      "https://openalex.org/W2159226773",
+      "https://openalex.org/W2791494093",
+      "https://openalex.org/W2530658632",
+      "https://openalex.org/W2970744406",
+      "https://openalex.org/W2039375852",
+      "https://openalex.org/W3015002992",
+      "https://openalex.org/W2975910301",
+      "https://openalex.org/W3213610594",
+      "https://openalex.org/W2899195828",
+      "https://openalex.org/W2045755993",
+      "https://openalex.org/W2946686438",
+      "https://openalex.org/W4229000158",
+      "https://openalex.org/W4313340244",
+      "https://openalex.org/W2975781483",
+      "https://openalex.org/W3127517532",
+      "https://openalex.org/W2186915600",
+      "https://openalex.org/W2468622501",
+      "https://openalex.org/W3119030803",
+      "https://openalex.org/W3089828148",
+      "https://openalex.org/W3101184832"
+    ],
+    "related_works": [
+      "https://openalex.org/W1974820173",
+      "https://openalex.org/W175104066",
+      "https://openalex.org/W2123718891",
+      "https://openalex.org/W2060332325",
+      "https://openalex.org/W2957876905",
+      "https://openalex.org/W2060824640",
+      "https://openalex.org/W1996754572",
+      "https://openalex.org/W2055210327",
+      "https://openalex.org/W2021267470",
+      "https://openalex.org/W2094127707"
+    ],
+    "abstract_inverted_index": {
+      "Individual": [
+        0
+      ],
+      "electron": [
+        1,
+        64,
+        93,
+        118
+      ],
+      "spins": [
+        2
+      ],
+      "in": [
+        3,
+        85,
+        105
+      ],
+      "solids": [
+        4
+      ],
+      "are": [
+        5,
+        55
+      ],
+      "promising": [
+        6
+      ],
+      "candidates": [
+        7
+      ],
+      "for": [
+        8
+      ],
+      "quantum": [
+        9,
+        18,
+        115
+      ],
+      "science": [
+        10
+      ],
+      "and": [
+        11,
+        35,
+        89,
+        99
+      ],
+      "technology,": [
+        12
+      ],
+      "where": [
+        13
+      ],
+      "bottom-up": [
+        14
+      ],
+      "assembly": [
+        15
+      ],
+      "of": [
+        16,
+        37,
+        51,
+        57
+      ],
+      "a": [
+        17,
+        42,
+        67,
+        73,
+        82,
+        126
+      ],
+      "device": [
+        19
+      ],
+      "with": [
+        20,
+        66
+      ],
+      "atomically": [
+        21
+      ],
+      "precise": [
+        22
+      ],
+      "couplings": [
+        23
+      ],
+      "has": [
+        24
+      ],
+      "long": [
+        25
+      ],
+      "been": [
+        26
+      ],
+      "envisioned.": [
+        27
+      ],
+      "Here,": [
+        28
+      ],
+      "we": [
+        29,
+        61
+      ],
+      "realized": [
+        30
+      ],
+      "atom-by-atom": [
+        31
+      ],
+      "construction,": [
+        32
+      ],
+      "coherent": [
+        33,
+        49
+      ],
+      "operations,": [
+        34
+      ],
+      "readout": [
+        36
+      ],
+      "coupled": [
+        38
+      ],
+      "electron-spin": [
+        39
+      ],
+      "qubits": [
+        40,
+        53
+      ],
+      "using": [
+        41,
+        81,
+        117
+      ],
+      "scanning": [
+        43
+      ],
+      "tunneling": [
+        44
+      ],
+      "microscope.": [
+        45
+      ],
+      "To": [
+        46
+      ],
+      "enable": [
+        47,
+        114
+      ],
+      "the": [
+        48,
+        58,
+        86
+      ],
+      "control": [
+        50
+      ],
+      "“remote”": [
+        52
+      ],
+      "that": [
+        54
+      ],
+      "outside": [
+        56
+      ],
+      "tunnel": [
+        59,
+        87
+      ],
+      "junction,": [
+        60
+      ],
+      "complemented": [
+        62
+      ],
+      "each": [
+        63
+      ],
+      "spin": [
+        65,
+        94,
+        119
+      ],
+      "local": [
+        68
+      ],
+      "magnetic": [
+        69
+      ],
+      "field": [
+        70
+      ],
+      "gradient": [
+        71
+      ],
+      "from": [
+        72
+      ],
+      "nearby": [
+        74
+      ],
+      "single-atom": [
+        75
+      ],
+      "magnet.": [
+        76
+      ],
+      "Readout": [
+        77
+      ],
+      "was": [
+        78
+      ],
+      "achieved": [
+        79
+      ],
+      "by": [
+        80,
+        123
+      ],
+      "sensor": [
+        83
+      ],
+      "qubit": [
+        84,
+        111
+      ],
+      "junction": [
+        88
+      ],
+      "implementing": [
+        90
+      ],
+      "pulsed": [
+        91
+      ],
+      "double": [
+        92
+      ],
+      "resonance.": [
+        95
+      ],
+      "Fast": [
+        96
+      ],
+      "single-,": [
+        97
+      ],
+      "two-,": [
+        98
+      ],
+      "three-qubit": [
+        100
+      ],
+      "operations": [
+        101
+      ],
+      "were": [
+        102
+      ],
+      "thereby": [
+        103
+      ],
+      "demonstrated": [
+        104
+      ],
+      "an": [
+        106
+      ],
+      "all-electrical": [
+        107
+      ],
+      "fashion.": [
+        108
+      ],
+      "Our": [
+        109
+      ],
+      "angstrom-scale": [
+        110
+      ],
+      "platform": [
+        112
+      ],
+      "may": [
+        113
+      ],
+      "functionalities": [
+        116
+      ],
+      "arrays": [
+        120
+      ],
+      "built": [
+        121
+      ],
+      "atom": [
+        122,
+        124
+      ],
+      "on": [
+        125
+      ],
+      "surface.": [
+        127
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 24
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          8
+        ]
+      ],
+      "date-time": "2026-01-08T00:20:38Z",
+      "timestamp": 1767831638441,
+      "version": "3.49.0"
+    },
+    "reference-count": 47,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "6666",
+    "content-domain": {
+      "domain": [
+        "www.science.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Individual electron spins in solids are promising candidates for quantum science and technology, where bottom-up assembly of a quantum device with atomically precise couplings has long been envisioned. Here, we realized atom-by-atom construction, coherent operations, and readout of coupled electron-spin qubits using a scanning tunneling microscope. To enable the coherent control of “remote” qubits that are outside of the tunnel junction, we complemented each electron spin with a local magnetic field gradient from a nearby single-atom magnet. Readout was achieved by using a sensor qubit in the tunnel junction and implementing pulsed double electron spin resonance. Fast single-, two-, and three-qubit operations were thereby demonstrated in an all-electrical fashion. Our angstrom-scale qubit platform may enable quantum functionalities using electron spin arrays built atom by atom on a surface.</jats:p>",
+    "DOI": "10.1126/science.ade5050",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          11
+        ]
+      ],
+      "date-time": "2023-10-11T14:27:50Z",
+      "timestamp": 1697034470000
+    },
+    "page": "87-92",
+    "update-policy": "https://doi.org/10.34133/aaas_crossmark",
+    "source": "Crossref",
+    "is-referenced-by-count": 55,
+    "title": [
+      "An atomic-scale multi-qubit platform"
+    ],
+    "prefix": "10.1126",
+    "volume": "382",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4116-0364",
+        "authenticated-orcid": true,
+        "given": "Yu",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea."
+          },
+          {
+            "name": "Ewha Womans University, Seoul 03760, Korea."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8564-3600",
+        "authenticated-orcid": true,
+        "given": "Yi",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea."
+          },
+          {
+            "name": "Ewha Womans University, Seoul 03760, Korea."
+          },
+          {
+            "name": "International Center for Quantum Materials, School of Physics, Peking University, Beijing 100871, China."
+          },
+          {
+            "name": "Collaborative Innovation Center of Quantum Matter, Beijing 100871, China."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-7499-646X",
+        "authenticated-orcid": true,
+        "given": "Hong T.",
+        "family": "Bui",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea."
+          },
+          {
+            "name": "Department of Physics, Ewha Womans University, Seoul 03760, Korea."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9340-9782",
+        "authenticated-orcid": true,
+        "given": "Christoph",
+        "family": "Wolf",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea."
+          },
+          {
+            "name": "Ewha Womans University, Seoul 03760, Korea."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7274-2909",
+        "authenticated-orcid": true,
+        "given": "Masahiro",
+        "family": "Haze",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea."
+          },
+          {
+            "name": "The Institute for Solid State Physics, University of Tokyo, Kashiwa 277-8581, Japan."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0393-9756",
+        "authenticated-orcid": true,
+        "given": "Cristina",
+        "family": "Mier",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea."
+          },
+          {
+            "name": "Centro de Física de Materiales CFM/MPC (CSIC-UPV/EHU), 20018 Donostia-San Sebastián, Spain."
+          }
+        ]
+      },
+      {
+        "given": "Jinkyung",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea."
+          },
+          {
+            "name": "Department of Physics, Ewha Womans University, Seoul 03760, Korea."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6797-3953",
+        "authenticated-orcid": true,
+        "given": "Deung-Jang",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea."
+          },
+          {
+            "name": "Centro de Física de Materiales CFM/MPC (CSIC-UPV/EHU), 20018 Donostia-San Sebastián, Spain."
+          },
+          {
+            "name": "Donostia International Physics Center (DIPC), 20018 Donostia-San Sebastián, Spain."
+          },
+          {
+            "name": "Ikerbasque, Basque Foundation for Science, 48013 Bilbao, Spain."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7993-4759",
+        "authenticated-orcid": true,
+        "given": "Christopher P.",
+        "family": "Lutz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "IBM Research Division, Almaden Research Center, San Jose, CA 95120, USA."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9983-8529",
+        "authenticated-orcid": true,
+        "given": "Yujeong",
+        "family": "Bae",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea."
+          },
+          {
+            "name": "Department of Physics, Ewha Womans University, Seoul 03760, Korea."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0541-5083",
+        "authenticated-orcid": true,
+        "given": "Soo-hyon",
+        "family": "Phark",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea."
+          },
+          {
+            "name": "Ewha Womans University, Seoul 03760, Korea."
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6204-471X",
+        "authenticated-orcid": true,
+        "given": "Andreas J.",
+        "family": "Heinrich",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Center for Quantum Nanoscience, Institute for Basic Science (IBS), Seoul 03760, Korea."
+          },
+          {
+            "name": "Department of Physics, Ewha Womans University, Seoul 03760, Korea."
+          }
+        ]
+      }
+    ],
+    "member": "221",
+    "reference": [
+      {
+        "key": "e_1_3_2_2_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41565-021-00994-1"
+      },
+      {
+        "key": "e_1_3_2_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41566-018-0232-2"
+      },
+      {
+        "key": "e_1_3_2_4_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-20424-5"
+      },
+      {
+        "key": "e_1_3_2_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nphys1536"
+      },
+      {
+        "key": "e_1_3_2_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/344524a0"
+      },
+      {
+        "key": "e_1_3_2_7_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-022-04706-0"
+      },
+      {
+        "key": "e_1_3_2_8_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.92.186802"
+      },
+      {
+        "key": "e_1_3_2_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-29879-0"
+      },
+      {
+        "key": "e_1_3_2_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aay6779"
+      },
+      {
+        "key": "e_1_3_2_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acsnano.1c06394"
+      },
+      {
+        "key": "e_1_3_2_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aac8703"
+      },
+      {
+        "key": "e_1_3_2_13_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.abc5511"
+      },
+      {
+        "key": "e_1_3_2_14_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.103.155405"
+      },
+      {
+        "key": "e_1_3_2_15_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.abg8223"
+      },
+      {
+        "key": "e_1_3_2_16_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.aau4159"
+      },
+      {
+        "key": "e_1_3_2_17_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.81.1495"
+      },
+      {
+        "key": "e_1_3_2_18_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/adma.202107534"
+      },
+      {
+        "key": "e_1_3_2_19_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nphys3965"
+      },
+      {
+        "key": "e_1_3_2_21_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.nanolett.9b03559"
+      },
+      {
+        "key": "e_1_3_2_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevB.96.205420"
+      },
+      {
+        "key": "e_1_3_2_23_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.122.227203"
+      },
+      {
+        "key": "e_1_3_2_24_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.96.047202"
+      },
+      {
+        "key": "e_1_3_2_25_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/advs.202302033"
+      },
+      {
+        "key": "e_1_3_2_26_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.88.027903"
+      },
+      {
+        "key": "e_1_3_2_27_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1197-0"
+      },
+      {
+        "key": "e_1_3_2_28_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nnano.2014.153"
+      },
+      {
+        "key": "e_1_3_2_29_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9780470034590.emrstm1521"
+      },
+      {
+        "key": "e_1_3_2_30_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature10786"
+      },
+      {
+        "key": "e_1_3_2_31_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/414883a"
+      },
+      {
+        "key": "e_1_3_2_32_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/sciadv.aaq1543"
+      },
+      {
+        "key": "e_1_3_2_33_2",
+        "unstructured": "L. Sellies R. Spachtholz P. Scheuerer J. Repp Atomic-scale access to long spin coherence in single molecules with scanning force microscopy. arXiv:2212.12244 [cond-mat.mes-hall] (2022)."
+      },
+      {
+        "key": "e_1_3_2_34_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/RevModPhys.88.041001"
+      },
+      {
+        "key": "e_1_3_2_35_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-11776-8"
+      },
+      {
+        "key": "e_1_3_2_36_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nnano.2014.211"
+      },
+      {
+        "key": "e_1_3_2_37_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev-matsci-081519-011844"
+      },
+      {
+        "key": "e_1_3_2_38_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586-019-1566-8"
+      },
+      {
+        "key": "e_1_3_2_39_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41557-021-00827-7"
+      },
+      {
+        "key": "e_1_3_2_40_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41565-018-0296-7"
+      },
+      {
+        "key": "e_1_3_2_41_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1249802"
+      },
+      {
+        "key": "e_1_3_2_42_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aaw7505"
+      },
+      {
+        "key": "e_1_3_2_43_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.nanolett.2c00980"
+      },
+      {
+        "key": "e_1_3_2_44_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.nanolett.2c04049"
+      },
+      {
+        "key": "e_1_3_2_45_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42254-019-0108-5"
+      },
+      {
+        "key": "e_1_3_2_46_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-21274-5"
+      },
+      {
+        "key": "e_1_3_2_47_2",
+        "unstructured": "Y. Wang Data and codes for: An atomic-scale multi-qubit platform Zenodo (2023); https://doi.org/10.5281/zenodo.7984789.10.5281/zenodo.7984789"
+      },
+      {
+        "key": "e_1_3_2_48_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.115.237202"
+      },
+      {
+        "key": "e_1_3_2_49_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.4955446"
+      }
+    ],
+    "container-title": [
+      "Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.science.org/doi/pdf/10.1126/science.ade5050",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2024-01-15T23:07:45Z",
+      "timestamp": 1705360065000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.science.org/doi/10.1126/science.ade5050"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          6
+        ]
+      ]
+    },
+    "references-count": 47,
+    "journal-issue": {
+      "issue": "6666",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1126/science.ade5050"
+    ],
+    "URL": "https://doi.org/10.1126/science.ade5050",
+    "relation": {},
+    "ISSN": [
+      "0036-8075",
+      "1095-9203"
+    ],
+    "issn-type": [
+      {
+        "value": "0036-8075",
+        "type": "print"
+      },
+      {
+        "value": "1095-9203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2022-08-20",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-08-30",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-10-05",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

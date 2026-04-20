@@ -1,0 +1,1955 @@
+{
+  "doi": "10.1101/2024.07.05.602213",
+  "openalex": {
+    "id": "https://openalex.org/W4400387219",
+    "doi": "https://doi.org/10.1101/2024.07.05.602213",
+    "title": "Mass Spectrometry-based Profiling of Single-cell Histone Post-translational Modifications to Dissect Chromatin Heterogeneity",
+    "display_name": "Mass Spectrometry-based Profiling of Single-cell Histone Post-translational Modifications to Dissect Chromatin Heterogeneity",
+    "publication_year": 2024,
+    "publication_date": "2024-07-06",
+    "ids": {
+      "openalex": "https://openalex.org/W4400387219",
+      "doi": "https://doi.org/10.1101/2024.07.05.602213",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39211145"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1101/2024.07.05.602213",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1101/2024.07.05.602213",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402567",
+        "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2750212522",
+        "host_organization_name": "Cold Spring Harbor Laboratory",
+        "host_organization_lineage": [
+          "https://openalex.org/I2750212522"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "type": "preprint",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11361047",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5045352673",
+          "display_name": "Ronald Cutler",
+          "orcid": "https://orcid.org/0000-0001-7744-090X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I129975664",
+            "display_name": "Albert Einstein College of Medicine",
+            "ror": "https://ror.org/05cf8a891",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I129975664",
+              "https://openalex.org/I4210112371"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Ronald Cutler",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY, USA",
+          "Department of Genetics, Albert Einstein College of Medicine, Bronx, NY, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Genetics, Albert Einstein College of Medicine, Bronx, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I129975664"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I129975664"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5078590251",
+          "display_name": "Laura Corveleyn",
+          "orcid": "https://orcid.org/0000-0002-4167-3581"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I32597200",
+            "display_name": "Ghent University",
+            "ror": "https://ror.org/00cv9y106",
+            "country_code": "BE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I32597200"
+            ]
+          }
+        ],
+        "countries": [
+          "BE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Laura Corveleyn",
+        "raw_affiliation_strings": [
+          "ProGenTomics, Laboratory of Pharmaceutical Biotechnology, Department of Pharmaceutics, Ghent University, Ghent, Belgium"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "ProGenTomics, Laboratory of Pharmaceutical Biotechnology, Department of Pharmaceutics, Ghent University, Ghent, Belgium",
+            "institution_ids": [
+              "https://openalex.org/I32597200"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5031923854",
+          "display_name": "Claudia Ctortecka",
+          "orcid": "https://orcid.org/0000-0002-6886-8936"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107606265",
+            "display_name": "Broad Institute",
+            "ror": "https://ror.org/05a0ya142",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I107606265"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Claudia Ctortecka",
+        "raw_affiliation_strings": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Broad Institute of MIT and Harvard, Cambridge, MA, USA",
+            "institution_ids": [
+              "https://openalex.org/I107606265"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5012308569",
+          "display_name": "Joshua Cantlon",
+          "orcid": "https://orcid.org/0000-0003-1700-3737"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210104856",
+            "display_name": "Phoenix (United States)",
+            "ror": "https://ror.org/01ggenr10",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210104856"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Joshua Cantlon",
+        "raw_affiliation_strings": [
+          "SCIENION US Inc., Phoenix, AZ, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "SCIENION US Inc., Phoenix, AZ, USA",
+            "institution_ids": [
+              "https://openalex.org/I4210104856"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100036559",
+          "display_name": "Sebastian Alvaro Jacome Vaca",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210155505",
+            "display_name": "BioNTech (United States)",
+            "ror": "https://ror.org/052htmq47",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210134778",
+              "https://openalex.org/I4210155505"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sebastian Alvaro Jacome Vaca",
+        "raw_affiliation_strings": [
+          "BioNTech, Cambridge, MA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "BioNTech, Cambridge, MA, USA",
+            "institution_ids": [
+              "https://openalex.org/I4210155505"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5047878026",
+          "display_name": "Dieter Deforce",
+          "orcid": "https://orcid.org/0000-0002-0635-661X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I32597200",
+            "display_name": "Ghent University",
+            "ror": "https://ror.org/00cv9y106",
+            "country_code": "BE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I32597200"
+            ]
+          }
+        ],
+        "countries": [
+          "BE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Dieter Deforce",
+        "raw_affiliation_strings": [
+          "ProGenTomics, Laboratory of Pharmaceutical Biotechnology, Department of Pharmaceutics, Ghent University, Ghent, Belgium"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "ProGenTomics, Laboratory of Pharmaceutical Biotechnology, Department of Pharmaceutics, Ghent University, Ghent, Belgium",
+            "institution_ids": [
+              "https://openalex.org/I32597200"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5012398734",
+          "display_name": "Jan Vijg",
+          "orcid": "https://orcid.org/0000-0002-8457-9595"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I183067930",
+            "display_name": "Shanghai Jiao Tong University",
+            "ror": "https://ror.org/0220qvk04",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183067930"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I129975664",
+            "display_name": "Albert Einstein College of Medicine",
+            "ror": "https://ror.org/05cf8a891",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I129975664",
+              "https://openalex.org/I4210112371"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jan Vijg",
+        "raw_affiliation_strings": [
+          "Center for Single-Cell Omics, School of Public Health, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, China",
+          "Department of Genetics, Albert Einstein College of Medicine, Bronx, NY, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Genetics, Albert Einstein College of Medicine, Bronx, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I129975664"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Single-Cell Omics, School of Public Health, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, China",
+            "institution_ids": [
+              "https://openalex.org/I183067930"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5001892080",
+          "display_name": "Maarten Dhaenens",
+          "orcid": "https://orcid.org/0000-0002-9801-3509"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I32597200",
+            "display_name": "Ghent University",
+            "ror": "https://ror.org/00cv9y106",
+            "country_code": "BE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I32597200"
+            ]
+          }
+        ],
+        "countries": [
+          "BE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Maarten Dhaenens",
+        "raw_affiliation_strings": [
+          "ProGenTomics, Laboratory of Pharmaceutical Biotechnology, Department of Pharmaceutics, Ghent University, Ghent, Belgium"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "ProGenTomics, Laboratory of Pharmaceutical Biotechnology, Department of Pharmaceutics, Ghent University, Ghent, Belgium",
+            "institution_ids": [
+              "https://openalex.org/I32597200"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100036560",
+          "display_name": "Malvina Papanastasiou",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107606265",
+            "display_name": "Broad Institute",
+            "ror": "https://ror.org/05a0ya142",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I107606265"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Malvina Papanastasiou",
+        "raw_affiliation_strings": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Broad Institute of MIT and Harvard, Cambridge, MA, USA",
+            "institution_ids": [
+              "https://openalex.org/I107606265"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5036255260",
+          "display_name": "Steven A. Carr",
+          "orcid": "https://orcid.org/0000-0002-7203-4299"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I107606265",
+            "display_name": "Broad Institute",
+            "ror": "https://ror.org/05a0ya142",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I107606265"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Steven A. Carr",
+        "raw_affiliation_strings": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Broad Institute of MIT and Harvard, Cambridge, MA, USA",
+            "institution_ids": [
+              "https://openalex.org/I107606265"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5060898511",
+          "display_name": "Simone Sidoli",
+          "orcid": "https://orcid.org/0000-0001-9073-6641"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I129975664",
+            "display_name": "Albert Einstein College of Medicine",
+            "ror": "https://ror.org/05cf8a891",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I129975664",
+              "https://openalex.org/I4210112371"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Simone Sidoli",
+        "raw_affiliation_strings": [
+          "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biochemistry, Albert Einstein College of Medicine, Bronx, NY, USA",
+            "institution_ids": [
+              "https://openalex.org/I129975664"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 11,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5045352673",
+      "https://openalex.org/A5060898511"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I129975664"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.44074168,
+    "has_fulltext": false,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.74919659,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 97
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10222",
+      "display_name": "Genomics and Chromatin Dynamics",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10222",
+        "display_name": "Genomics and Chromatin Dynamics",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10604",
+        "display_name": "RNA Research and Splicing",
+        "score": 0.9987000226974487,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11482",
+        "display_name": "RNA modifications and cancer",
+        "score": 0.9979000091552734,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/chromatin",
+        "display_name": "Chromatin",
+        "score": 0.655805230140686
+      },
+      {
+        "id": "https://openalex.org/keywords/histone",
+        "display_name": "Histone",
+        "score": 0.6476883292198181
+      },
+      {
+        "id": "https://openalex.org/keywords/profiling",
+        "display_name": "Profiling (computer programming)",
+        "score": 0.6372033953666687
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.5982775688171387
+      },
+      {
+        "id": "https://openalex.org/keywords/mass-spectrometry",
+        "display_name": "Mass spectrometry",
+        "score": 0.5010483264923096
+      },
+      {
+        "id": "https://openalex.org/keywords/posttranslational-modification",
+        "display_name": "Posttranslational modification",
+        "score": 0.4477805197238922
+      },
+      {
+        "id": "https://openalex.org/keywords/chemistry",
+        "display_name": "Chemistry",
+        "score": 0.4080786406993866
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.4038265347480774
+      },
+      {
+        "id": "https://openalex.org/keywords/genetics",
+        "display_name": "Genetics",
+        "score": 0.26132887601852417
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.22970950603485107
+      },
+      {
+        "id": "https://openalex.org/keywords/dna",
+        "display_name": "DNA",
+        "score": 0.17986470460891724
+      },
+      {
+        "id": "https://openalex.org/keywords/chromatography",
+        "display_name": "Chromatography",
+        "score": 0.16374415159225464
+      },
+      {
+        "id": "https://openalex.org/keywords/biochemistry",
+        "display_name": "Biochemistry",
+        "score": 0.1420045793056488
+      },
+      {
+        "id": "https://openalex.org/keywords/enzyme",
+        "display_name": "Enzyme",
+        "score": 0.0776955783367157
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C83640560",
+        "wikidata": "https://www.wikidata.org/wiki/Q180951",
+        "display_name": "Chromatin",
+        "level": 3,
+        "score": 0.655805230140686
+      },
+      {
+        "id": "https://openalex.org/C64927066",
+        "wikidata": "https://www.wikidata.org/wiki/Q36293",
+        "display_name": "Histone",
+        "level": 3,
+        "score": 0.6476883292198181
+      },
+      {
+        "id": "https://openalex.org/C187191949",
+        "wikidata": "https://www.wikidata.org/wiki/Q1138496",
+        "display_name": "Profiling (computer programming)",
+        "level": 2,
+        "score": 0.6372033953666687
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.5982775688171387
+      },
+      {
+        "id": "https://openalex.org/C162356407",
+        "wikidata": "https://www.wikidata.org/wiki/Q180809",
+        "display_name": "Mass spectrometry",
+        "level": 2,
+        "score": 0.5010483264923096
+      },
+      {
+        "id": "https://openalex.org/C100631289",
+        "wikidata": "https://www.wikidata.org/wiki/Q898362",
+        "display_name": "Posttranslational modification",
+        "level": 3,
+        "score": 0.4477805197238922
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.4080786406993866
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.4038265347480774
+      },
+      {
+        "id": "https://openalex.org/C54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "level": 1,
+        "score": 0.26132887601852417
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.22970950603485107
+      },
+      {
+        "id": "https://openalex.org/C552990157",
+        "wikidata": "https://www.wikidata.org/wiki/Q7430",
+        "display_name": "DNA",
+        "level": 2,
+        "score": 0.17986470460891724
+      },
+      {
+        "id": "https://openalex.org/C43617362",
+        "wikidata": "https://www.wikidata.org/wiki/Q170050",
+        "display_name": "Chromatography",
+        "level": 1,
+        "score": 0.16374415159225464
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.1420045793056488
+      },
+      {
+        "id": "https://openalex.org/C181199279",
+        "wikidata": "https://www.wikidata.org/wiki/Q8047",
+        "display_name": "Enzyme",
+        "level": 2,
+        "score": 0.0776955783367157
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1101/2024.07.05.602213",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1101/2024.07.05.602213",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402567",
+          "display_name": "bioRxiv (Cold Spring Harbor Laboratory)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I2750212522",
+          "host_organization_name": "Cold Spring Harbor Laboratory",
+          "host_organization_lineage": [
+            "https://openalex.org/I2750212522"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      },
+      {
+        "id": "pmid:39211145",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39211145",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "bioRxiv : the preprint server for biology",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:archive.ugent.be:01JE3YR8HVPPE5GJNSD67E9MC9",
+        "is_oa": false,
+        "landing_page_url": "https://biblio.ugent.be/publication/01JE3YR8HVPPE5GJNSD67E9MC9",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400477",
+          "display_name": "Ghent University Academic Bibliography (Ghent University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I32597200",
+          "host_organization_name": "Ghent University",
+          "host_organization_lineage": [
+            "https://openalex.org/I32597200"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "bioRxiv",
+        "raw_type": "info:eu-repo/semantics/publishedVersion"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11361047",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11361047",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "bioRxiv",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:pubmedcentral.nih.gov:11361047",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11361047",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "bioRxiv",
+      "raw_type": "Text"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/3",
+        "score": 0.7599999904632568,
+        "display_name": "Good health and well-being"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 55,
+    "referenced_works": [
+      "https://openalex.org/W2134087142",
+      "https://openalex.org/W2143658931",
+      "https://openalex.org/W2069328568",
+      "https://openalex.org/W1968931043",
+      "https://openalex.org/W2900644235",
+      "https://openalex.org/W2774884271",
+      "https://openalex.org/W2167678675",
+      "https://openalex.org/W2155725346",
+      "https://openalex.org/W2911875239",
+      "https://openalex.org/W2025113307",
+      "https://openalex.org/W2751974426",
+      "https://openalex.org/W2157503991",
+      "https://openalex.org/W4309668633",
+      "https://openalex.org/W3118565448",
+      "https://openalex.org/W2406278632",
+      "https://openalex.org/W3026844837",
+      "https://openalex.org/W1835915349",
+      "https://openalex.org/W4229371289",
+      "https://openalex.org/W2801503232",
+      "https://openalex.org/W2198371822",
+      "https://openalex.org/W2923284916",
+      "https://openalex.org/W1602702667",
+      "https://openalex.org/W2924530200",
+      "https://openalex.org/W2033581736",
+      "https://openalex.org/W2039623374",
+      "https://openalex.org/W2127004647",
+      "https://openalex.org/W3103689558",
+      "https://openalex.org/W3083676368",
+      "https://openalex.org/W2016025530",
+      "https://openalex.org/W2048393997",
+      "https://openalex.org/W2528491734",
+      "https://openalex.org/W3195784177",
+      "https://openalex.org/W3166627873",
+      "https://openalex.org/W3208924486",
+      "https://openalex.org/W4400422998",
+      "https://openalex.org/W2071454387",
+      "https://openalex.org/W4321367488",
+      "https://openalex.org/W4387641289",
+      "https://openalex.org/W3134913640",
+      "https://openalex.org/W2141091417",
+      "https://openalex.org/W2804302228",
+      "https://openalex.org/W2152983548",
+      "https://openalex.org/W17489521",
+      "https://openalex.org/W1888005862",
+      "https://openalex.org/W2995418626",
+      "https://openalex.org/W2946513542",
+      "https://openalex.org/W2974451107",
+      "https://openalex.org/W4385597802",
+      "https://openalex.org/W4390660582",
+      "https://openalex.org/W4400802586",
+      "https://openalex.org/W4285388424",
+      "https://openalex.org/W4387765811",
+      "https://openalex.org/W2146512944",
+      "https://openalex.org/W2768977980",
+      "https://openalex.org/W4289527519"
+    ],
+    "related_works": [
+      "https://openalex.org/W4286930115",
+      "https://openalex.org/W3004891660",
+      "https://openalex.org/W2969540308",
+      "https://openalex.org/W2414971881",
+      "https://openalex.org/W4206381471",
+      "https://openalex.org/W1886874180",
+      "https://openalex.org/W98379584",
+      "https://openalex.org/W2413824894",
+      "https://openalex.org/W2055566470",
+      "https://openalex.org/W3171278053"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Single-cell": [
+        1
+      ],
+      "proteomics": [
+        2
+      ],
+      "confidently": [
+        3
+      ],
+      "quantifies": [
+        4
+      ],
+      "cellular": [
+        5
+      ],
+      "heterogeneity,": [
+        6
+      ],
+      "yet": [
+        7
+      ],
+      "precise": [
+        8
+      ],
+      "quantification": [
+        9
+      ],
+      "of": [
+        10,
+        35,
+        73,
+        101,
+        114,
+        121,
+        130,
+        140
+      ],
+      "post-translational": [
+        11,
+        38,
+        48,
+        61,
+        116
+      ],
+      "modifications,": [
+        12
+      ],
+      "such": [
+        13
+      ],
+      "as": [
+        14
+      ],
+      "those": [
+        15
+      ],
+      "deposited": [
+        16
+      ],
+      "on": [
+        17
+      ],
+      "histone": [
+        18,
+        37,
+        47,
+        60,
+        82,
+        115,
+        142
+      ],
+      "proteins,": [
+        19
+      ],
+      "has": [
+        20
+      ],
+      "remained": [
+        21
+      ],
+      "elusive.": [
+        22
+      ],
+      "Here,": [
+        23
+      ],
+      "we": [
+        24,
+        75
+      ],
+      "developed": [
+        25
+      ],
+      "a": [
+        26,
+        71,
+        81
+      ],
+      "robust": [
+        27
+      ],
+      "mass": [
+        28
+      ],
+      "spectrometry-based": [
+        29
+      ],
+      "method": [
+        30,
+        89,
+        126
+      ],
+      "for": [
+        31
+      ],
+      "the": [
+        32,
+        107,
+        119,
+        141
+      ],
+      "unbiased": [
+        33
+      ],
+      "analysis": [
+        34
+      ],
+      "single-cell": [
+        36,
+        134
+      ],
+      "modifications": [
+        39,
+        49,
+        62,
+        117
+      ],
+      "(schPTM).": [
+        40
+      ],
+      "schPTM": [
+        41,
+        125
+      ],
+      "identifies": [
+        42
+      ],
+      "both": [
+        43
+      ],
+      "single": [
+        44
+      ],
+      "and": [
+        45,
+        85,
+        95,
+        109,
+        136
+      ],
+      "combinatorial": [
+        46
+      ],
+      "(68": [
+        50
+      ],
+      "peptidoforms": [
+        51
+      ],
+      "in": [
+        52,
+        118
+      ],
+      "total),": [
+        53
+      ],
+      "which": [
+        54
+      ],
+      "includes": [
+        55
+      ],
+      "nearly": [
+        56
+      ],
+      "all": [
+        57
+      ],
+      "frequently": [
+        58
+      ],
+      "studied": [
+        59
+      ],
+      "with": [
+        63,
+        78,
+        103
+      ],
+      "comparable": [
+        64
+      ],
+      "reproducibility": [
+        65
+      ],
+      "to": [
+        66,
+        106
+      ],
+      "traditional": [
+        67
+      ],
+      "bulk": [
+        68
+      ],
+      "experiments.": [
+        69
+      ],
+      "As": [
+        70
+      ],
+      "proof": [
+        72
+      ],
+      "concept,": [
+        74
+      ],
+      "treated": [
+        76,
+        94
+      ],
+      "cells": [
+        77,
+        102
+      ],
+      "sodium": [
+        79
+      ],
+      "butyrate,": [
+        80
+      ],
+      "deacetylase": [
+        83
+      ],
+      "inhibitor,": [
+        84
+      ],
+      "demonstrated": [
+        86
+      ],
+      "that": [
+        87
+      ],
+      "our": [
+        88
+      ],
+      "can": [
+        90
+      ],
+      "i)": [
+        91
+      ],
+      "distinguish": [
+        92
+      ],
+      "between": [
+        93
+      ],
+      "non-treated": [
+        96
+      ],
+      "cells,": [
+        97
+      ],
+      "ii)": [
+        98
+      ],
+      "identify": [
+        99
+      ],
+      "sub-populations": [
+        100
+      ],
+      "heterogeneous": [
+        104
+      ],
+      "response": [
+        105
+      ],
+      "treatment,": [
+        108
+      ],
+      "iii)": [
+        110
+      ],
+      "reveal": [
+        111
+      ],
+      "differential": [
+        112
+      ],
+      "co-regulation": [
+        113
+      ],
+      "context": [
+        120
+      ],
+      "drug": [
+        122
+      ],
+      "treatment.": [
+        123
+      ],
+      "The": [
+        124
+      ],
+      "enables": [
+        127
+      ],
+      "comprehensive": [
+        128
+      ],
+      "investigation": [
+        129
+      ],
+      "chromatin": [
+        131
+      ],
+      "heterogeneity": [
+        132
+      ],
+      "at": [
+        133
+      ],
+      "resolution": [
+        135
+      ],
+      "provides": [
+        137
+      ],
+      "further": [
+        138
+      ],
+      "understanding": [
+        139
+      ],
+      "code.": [
+        143
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "institution": [
+      {
+        "name": "bioRxiv"
+      }
+    ],
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2025-11-20T13:12:15Z",
+      "timestamp": 1763644335899,
+      "version": "3.37.3"
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          6
+        ]
+      ]
+    },
+    "group-title": "Molecular Biology",
+    "reference-count": 57,
+    "publisher": "Cold Spring Harbor Laboratory",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              6
+            ]
+          ],
+          "date-time": "2024-07-06T00:00:00Z",
+          "timestamp": 1720224000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.biorxiv.org/about/FAQ#license"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "accepted": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Single-cell proteomics confidently quantifies cellular heterogeneity, yet precise quantification of post-translational modifications, such as those deposited on histone proteins, has remained elusive. Here, we developed a robust mass spectrometry-based method for the unbiased analysis of single-cell histone post-translational modifications (schPTM). schPTM identifies both single and combinatorial histone post-translational modifications (68 peptidoforms in total), which includes nearly all frequently studied histone post-translational modifications with comparable reproducibility to traditional bulk experiments. As a proof of concept, we treated cells with sodium butyrate, a histone deacetylase inhibitor, and demonstrated that our method can i) distinguish between treated and non-treated cells, ii) identify sub-populations of cells with heterogeneous response to the treatment, and iii) reveal differential co-regulation of histone post-translational modifications in the context of drug treatment. The schPTM method enables comprehensive investigation of chromatin heterogeneity at single-cell resolution and provides further understanding of the histone code.</jats:p>",
+    "DOI": "10.1101/2024.07.05.602213",
+    "type": "posted-content",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          6
+        ]
+      ],
+      "date-time": "2024-07-06T08:15:36Z",
+      "timestamp": 1720253736000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Mass Spectrometry-based Profiling of Single-cell Histone Post-translational Modifications to Dissect Chromatin Heterogeneity"
+    ],
+    "prefix": "10.1101",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7744-090X",
+        "authenticated-orcid": false,
+        "given": "Ronald",
+        "family": "Cutler",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4167-3581",
+        "authenticated-orcid": false,
+        "given": "Laura",
+        "family": "Corveleyn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6886-8936",
+        "authenticated-orcid": false,
+        "given": "Claudia",
+        "family": "Ctortecka",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joshua",
+        "family": "Cantlon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Sebastian Alvaro",
+        "family": "Jacome Vaca",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0635-661X",
+        "authenticated-orcid": false,
+        "given": "Dieter",
+        "family": "Deforce",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8457-9595",
+        "authenticated-orcid": false,
+        "given": "Jan",
+        "family": "Vijg",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9801-3509",
+        "authenticated-orcid": false,
+        "given": "Maarten",
+        "family": "Dhaenens",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Malvina",
+        "family": "Papanastasiou",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7203-4299",
+        "authenticated-orcid": false,
+        "given": "Steven A.",
+        "family": "Carr",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9073-6641",
+        "authenticated-orcid": false,
+        "given": "Simone",
+        "family": "Sidoli",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "246",
+    "reference": [
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2007.01.033"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1063127"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1124000"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2006.02.041"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.stem.2018.10.017"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.6",
+        "doi-asserted-by": "crossref",
+        "first-page": "838",
+        "DOI": "10.1021/acschemneuro.7b00297",
+        "article-title": "Neurodegenerative Disease Proteinopathies Are Connected to Distinct Histone Post-translational Modification Landscapes",
+        "volume": "9",
+        "year": "2018",
+        "journal-title": "ACS Chem. Neurosci"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/hmg/ddl243"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/ng1531"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/annrheumdis-2018-214295"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymeth.2014.10.033"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.11",
+        "doi-asserted-by": "crossref",
+        "first-page": "424",
+        "DOI": "10.1016/j.cels.2018.03.012",
+        "article-title": "A Library of Phosphoproteomic and Chromatin Signatures for Characterizing Cellular Responses to Drug Perturbations",
+        "volume": "6",
+        "year": "2018",
+        "journal-title": "Cell Syst"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0960-9822(01)00294-9"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.13",
+        "doi-asserted-by": "crossref",
+        "first-page": "35",
+        "DOI": "10.1186/s13072-022-00470-7",
+        "article-title": "Investigation of reversible histone acetylation and dynamics in gene expression regulation using 3D liver spheroid model",
+        "volume": "15",
+        "year": "2022",
+        "journal-title": "Epigenetics Chromatin"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1191",
+        "DOI": "10.1111/febs.15707",
+        "article-title": "Mass spectrometry-based characterization of histones in clinical samples: applications, progress, and challenges",
+        "volume": "289",
+        "year": "2022",
+        "journal-title": "FEBS J"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3791/54112"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1158/2159-8290.CD-19-1384"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature15260"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.18",
+        "doi-asserted-by": "crossref",
+        "first-page": "900978",
+        "DOI": "10.3389/fcvm.2022.900978",
+        "article-title": "Single-Cell Analysis Reveals Transcriptomic Reprogramming in Aging Cardiovascular Endothelial Cells",
+        "volume": "9",
+        "year": "2022",
+        "journal-title": "Front Cardiovasc Med"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cell.2018.03.079"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nbt.3383"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41592-019-0361-7"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14590"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-09078-0"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cub.2010.11.058"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nsmb.1972"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/mcp.M111.015941"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.27",
+        "doi-asserted-by": "crossref",
+        "first-page": "100006",
+        "DOI": "10.1074/mcp.R120.002257",
+        "article-title": "Accelerating the Field of Epigenetic Histone Modification Through Mass Spectrometry-Based Approaches",
+        "volume": "20",
+        "year": "2021",
+        "journal-title": "Mol. Cell. Proteomics"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.28",
+        "doi-asserted-by": "crossref",
+        "first-page": "101055",
+        "DOI": "10.1016/j.mex.2020.101055",
+        "article-title": "Comprehensive histone epigenetics: A mass spectrometry based screening assay to measure epigenetic toxicity",
+        "volume": "7",
+        "year": "2020",
+        "journal-title": "MethodsX"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nprot.2007.106"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ymeth.2006.08.017"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.31",
+        "doi-asserted-by": "crossref",
+        "first-page": "2937",
+        "DOI": "10.1002/pmic.201600341",
+        "article-title": "Extracting histones for the specific purpose of label-free MS",
+        "volume": "16",
+        "year": "2016",
+        "journal-title": "Proteomics"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.32",
+        "doi-asserted-by": "crossref",
+        "first-page": "226",
+        "DOI": "10.1038/s41597-021-01008-4",
+        "article-title": "Proteomic profiling dataset of chemical perturbations in multiple biological backgrounds",
+        "volume": "8",
+        "year": "2021",
+        "journal-title": "Sci Data"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-021-23667-y"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.34",
+        "doi-asserted-by": "crossref",
+        "first-page": "5398",
+        "DOI": "10.1038/s41596-021-00616-z",
+        "article-title": "Multiplexed single-cell proteomics using SCoPE2",
+        "volume": "16",
+        "year": "2021",
+        "journal-title": "Nat. Protoc"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.35",
+        "doi-asserted-by": "crossref",
+        "first-page": "5707",
+        "DOI": "10.1038/s41467-024-49651-w",
+        "article-title": "Automated single-cell proteomics providing sufficient proteome depth to study complex biology beyond cell type classifications",
+        "volume": "15",
+        "year": "2024",
+        "journal-title": "Nat. Commun"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkp273"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/ACS.ANALCHEM.2C05022"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.38",
+        "doi-asserted-by": "crossref",
+        "first-page": "100665",
+        "DOI": "10.1016/j.mcpro.2023.100665",
+        "article-title": "An Automated Nanowell-Array Workflow for Quantitative Multiplexed Single-Cell Proteomics Sample Preparation at High Sensitivity",
+        "volume": "22",
+        "year": "2023",
+        "journal-title": "Mol. Cell. Proteomics"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.39",
+        "doi-asserted-by": "crossref",
+        "first-page": "265",
+        "DOI": "10.1038/s42003-021-01797-9",
+        "article-title": "Surfactant-assisted one-pot sample preparation for label-free single-cell proteomics",
+        "volume": "4",
+        "year": "2021",
+        "journal-title": "Commun Biol"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/btq054"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.jproteome.8b00133"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1074/mcp.M113.037309"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.analchem.5b00072"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/acs.analchem.5b03009"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/acel.13092"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/gr.247353.118"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-019-49894-4"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.48",
+        "doi-asserted-by": "crossref",
+        "first-page": "105131",
+        "DOI": "10.1016/j.jbc.2023.105131",
+        "article-title": "Histidine Nτ-methylation identified as a new posttranslational modification in histone H2A at His-82 and H3 at His-39",
+        "volume": "299",
+        "year": "2023",
+        "journal-title": "J. Biol. Chem"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1101/2024.01.05.574437"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.50",
+        "doi-asserted-by": "crossref",
+        "first-page": "884",
+        "DOI": "10.1038/s42003-024-06579-7",
+        "article-title": "Diversity of post-translational modifications and cell signaling revealed by single-cell and single organelle mass spectrometry",
+        "volume": "7",
+        "year": "2024",
+        "journal-title": "Commun Biol"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.51",
+        "doi-asserted-by": "crossref",
+        "first-page": "50",
+        "DOI": "10.1038/s41587-022-01389-w",
+        "article-title": "Increasing the throughput of sensitive proteomics by plexDIA",
+        "volume": "41",
+        "year": "2023",
+        "journal-title": "Nat. Biotechnol"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jasms.3c00223"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/nar/gkv007"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.54",
+        "unstructured": "Blighe, K. PCAtools: PCAtools: Everything Principal Components Analysis. (Github)."
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.55",
+        "doi-asserted-by": "crossref",
+        "first-page": "13",
+        "DOI": "10.1016/j.cels.2017.11.001",
+        "article-title": "The Library of Integrated Network-Based Cellular Signatures NIH Program: System-Level Cataloging of Human Cells Response to Perturbations",
+        "volume": "6",
+        "year": "2018",
+        "journal-title": "Cell Syst"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.56",
+        "doi-asserted-by": "crossref",
+        "first-page": "e43",
+        "DOI": "10.1002/imt2.43",
+        "article-title": "Complex heatmap visualization",
+        "volume": "1",
+        "year": "2022",
+        "journal-title": "Imeta"
+      },
+      {
+        "key": "2024081413500559000_2024.07.05.602213v2.57",
+        "unstructured": "Taiyun. Corrplot: A Visual Exploratory Tool on Correlation Matrix. (Github)."
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.05.602213",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2024-08-14T20:50:21Z",
+      "timestamp": 1723668621000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.05.602213"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          6
+        ]
+      ]
+    },
+    "references-count": 57,
+    "URL": "https://doi.org/10.1101/2024.07.05.602213",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          6
+        ]
+      ]
+    },
+    "subtype": "preprint"
+  }
+}

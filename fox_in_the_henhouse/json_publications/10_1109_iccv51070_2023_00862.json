@@ -1,0 +1,1815 @@
+{
+  "doi": "10.1109/iccv51070.2023.00862",
+  "openalex": {
+    "id": "https://openalex.org/W4390871676",
+    "doi": "https://doi.org/10.1109/iccv51070.2023.00862",
+    "title": "3D-Aware Neural Body Fitting for Occlusion Robust 3D Human Pose Estimation",
+    "display_name": "3D-Aware Neural Body Fitting for Occlusion Robust 3D Human Pose Estimation",
+    "publication_year": 2023,
+    "publication_date": "2023-10-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4390871676",
+      "doi": "https://doi.org/10.1109/iccv51070.2023.00862"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/iccv51070.2023.00862",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/iccv51070.2023.00862",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "raw_type": "proceedings-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100653787",
+          "display_name": "Yi Zhang",
+          "orcid": "https://orcid.org/0000-0001-5526-866X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yi Zhang",
+        "raw_affiliation_strings": [
+          "Johns Hopkins University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Johns Hopkins University",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5031417957",
+          "display_name": "Pengliang Ji",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I82880672",
+            "display_name": "Beihang University",
+            "ror": "https://ror.org/00wk2mp56",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I82880672"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Pengliang Ji",
+        "raw_affiliation_strings": [
+          "Beihang University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beihang University",
+            "institution_ids": [
+              "https://openalex.org/I82880672"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5081606526",
+          "display_name": "Angtian Wang",
+          "orcid": "https://orcid.org/0009-0006-9189-5277"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Angtian Wang",
+        "raw_affiliation_strings": [
+          "Johns Hopkins University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Johns Hopkins University",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5077206511",
+          "display_name": "Jieru Mei",
+          "orcid": "https://orcid.org/0000-0002-4710-9463"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jieru Mei",
+        "raw_affiliation_strings": [
+          "Johns Hopkins University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Johns Hopkins University",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5084928022",
+          "display_name": "Adam Kortylewski",
+          "orcid": "https://orcid.org/0000-0002-9146-4403"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210109712",
+            "display_name": "Max Planck Institute for Informatics",
+            "ror": "https://ror.org/01w19ak89",
+            "country_code": "DE",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I149899117",
+              "https://openalex.org/I4210109712"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I161046081",
+            "display_name": "University of Freiburg",
+            "ror": "https://ror.org/0245cg223",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161046081"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Adam Kortylewski",
+        "raw_affiliation_strings": [
+          "Max Planck Institute for Informatics",
+          "University of Freiburg"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Freiburg",
+            "institution_ids": [
+              "https://openalex.org/I161046081"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Max Planck Institute for Informatics",
+            "institution_ids": [
+              "https://openalex.org/I4210109712"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5086706224",
+          "display_name": "Alan Yuille",
+          "orcid": "https://orcid.org/0000-0001-5207-9249"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145311948",
+            "display_name": "Johns Hopkins University",
+            "ror": "https://ror.org/00za53h95",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Alan Yuille",
+        "raw_affiliation_strings": [
+          "Johns Hopkins University"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Johns Hopkins University",
+            "institution_ids": [
+              "https://openalex.org/I145311948"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 4.91314518,
+    "has_fulltext": false,
+    "cited_by_count": 27,
+    "citation_normalized_percentile": {
+      "value": 0.95181977,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "9365",
+      "last_page": "9376"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10812",
+      "display_name": "Human Pose and Action Recognition",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10812",
+        "display_name": "Human Pose and Action Recognition",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10719",
+        "display_name": "3D Shape Modeling and Analysis",
+        "score": 0.9968000054359436,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12290",
+        "display_name": "Human Motion and Animation",
+        "score": 0.992900013923645,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7720484733581543
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.7525567412376404
+      },
+      {
+        "id": "https://openalex.org/keywords/robustness",
+        "display_name": "Robustness (evolution)",
+        "score": 0.7096599340438843
+      },
+      {
+        "id": "https://openalex.org/keywords/pose",
+        "display_name": "Pose",
+        "score": 0.6756266355514526
+      },
+      {
+        "id": "https://openalex.org/keywords/3d-pose-estimation",
+        "display_name": "3D pose estimation",
+        "score": 0.5179409384727478
+      },
+      {
+        "id": "https://openalex.org/keywords/parametric-statistics",
+        "display_name": "Parametric statistics",
+        "score": 0.5159638524055481
+      },
+      {
+        "id": "https://openalex.org/keywords/pattern-recognition",
+        "display_name": "Pattern recognition (psychology)",
+        "score": 0.4816212058067322
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-vision",
+        "display_name": "Computer vision",
+        "score": 0.4653041958808899
+      },
+      {
+        "id": "https://openalex.org/keywords/articulated-body-pose-estimation",
+        "display_name": "Articulated body pose estimation",
+        "score": 0.43962377309799194
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-neural-network",
+        "display_name": "Artificial neural network",
+        "score": 0.43163028359413147
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.14651069045066833
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7720484733581543
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.7525567412376404
+      },
+      {
+        "id": "https://openalex.org/C63479239",
+        "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+        "display_name": "Robustness (evolution)",
+        "level": 3,
+        "score": 0.7096599340438843
+      },
+      {
+        "id": "https://openalex.org/C52102323",
+        "wikidata": "https://www.wikidata.org/wiki/Q1671968",
+        "display_name": "Pose",
+        "level": 2,
+        "score": 0.6756266355514526
+      },
+      {
+        "id": "https://openalex.org/C36613465",
+        "wikidata": "https://www.wikidata.org/wiki/Q4636322",
+        "display_name": "3D pose estimation",
+        "level": 3,
+        "score": 0.5179409384727478
+      },
+      {
+        "id": "https://openalex.org/C117251300",
+        "wikidata": "https://www.wikidata.org/wiki/Q1849855",
+        "display_name": "Parametric statistics",
+        "level": 2,
+        "score": 0.5159638524055481
+      },
+      {
+        "id": "https://openalex.org/C153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "level": 2,
+        "score": 0.4816212058067322
+      },
+      {
+        "id": "https://openalex.org/C31972630",
+        "wikidata": "https://www.wikidata.org/wiki/Q844240",
+        "display_name": "Computer vision",
+        "level": 1,
+        "score": 0.4653041958808899
+      },
+      {
+        "id": "https://openalex.org/C22100474",
+        "wikidata": "https://www.wikidata.org/wiki/Q4800952",
+        "display_name": "Articulated body pose estimation",
+        "level": 4,
+        "score": 0.43962377309799194
+      },
+      {
+        "id": "https://openalex.org/C50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "level": 2,
+        "score": 0.43163028359413147
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.14651069045066833
+      },
+      {
+        "id": "https://openalex.org/C55493867",
+        "wikidata": "https://www.wikidata.org/wiki/Q7094",
+        "display_name": "Biochemistry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/iccv51070.2023.00862",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/iccv51070.2023.00862",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+        "raw_type": "proceedings-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/11",
+        "display_name": "Sustainable cities and communities",
+        "score": 0.5099999904632568
+      }
+    ],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320312530",
+        "display_name": "Office of the Director of National Intelligence",
+        "ror": "https://ror.org/01v3fsc55"
+      },
+      {
+        "id": "https://openalex.org/F4320316514",
+        "display_name": "Arm",
+        "ror": "https://ror.org/04mmhzs81"
+      },
+      {
+        "id": "https://openalex.org/F4320333051",
+        "display_name": "Intelligence Advanced Research Projects Activity",
+        "ror": "https://ror.org/01v3fsc55"
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 89,
+    "referenced_works": [
+      "https://openalex.org/W1989191365",
+      "https://openalex.org/W4319300268",
+      "https://openalex.org/W6786132994",
+      "https://openalex.org/W2483862638",
+      "https://openalex.org/W2559085405",
+      "https://openalex.org/W2998027150",
+      "https://openalex.org/W2981660954",
+      "https://openalex.org/W2047643928",
+      "https://openalex.org/W4312942082",
+      "https://openalex.org/W2786166435",
+      "https://openalex.org/W3107073427",
+      "https://openalex.org/W2965523038",
+      "https://openalex.org/W3035524453",
+      "https://openalex.org/W2194775991",
+      "https://openalex.org/W6840601201",
+      "https://openalex.org/W2963355540",
+      "https://openalex.org/W2101032778",
+      "https://openalex.org/W3195196013",
+      "https://openalex.org/W4312341890",
+      "https://openalex.org/W4205116876",
+      "https://openalex.org/W2963515833",
+      "https://openalex.org/W2963995996",
+      "https://openalex.org/W2122249653",
+      "https://openalex.org/W4214770715",
+      "https://openalex.org/W2981637078",
+      "https://openalex.org/W4214517305",
+      "https://openalex.org/W3011334834",
+      "https://openalex.org/W3107828565",
+      "https://openalex.org/W3010559878",
+      "https://openalex.org/W2573098616",
+      "https://openalex.org/W1993962870",
+      "https://openalex.org/W4214684804",
+      "https://openalex.org/W2952122856",
+      "https://openalex.org/W4200502498",
+      "https://openalex.org/W4312252130",
+      "https://openalex.org/W2990173985",
+      "https://openalex.org/W1967554269",
+      "https://openalex.org/W2797184202",
+      "https://openalex.org/W3023681781",
+      "https://openalex.org/W2888934629",
+      "https://openalex.org/W2578075911",
+      "https://openalex.org/W6784977122",
+      "https://openalex.org/W2933283236",
+      "https://openalex.org/W3176179930",
+      "https://openalex.org/W4214625585",
+      "https://openalex.org/W2962754033",
+      "https://openalex.org/W4214731463",
+      "https://openalex.org/W2978956737",
+      "https://openalex.org/W2554247908",
+      "https://openalex.org/W2798637590",
+      "https://openalex.org/W3176327543",
+      "https://openalex.org/W6781568228",
+      "https://openalex.org/W2201021190",
+      "https://openalex.org/W1975716803",
+      "https://openalex.org/W3110631859",
+      "https://openalex.org/W2605947573",
+      "https://openalex.org/W1901129140",
+      "https://openalex.org/W3166523793",
+      "https://openalex.org/W2981978060",
+      "https://openalex.org/W2888880367",
+      "https://openalex.org/W3203745449",
+      "https://openalex.org/W2998254781",
+      "https://openalex.org/W3107346586",
+      "https://openalex.org/W6803167047",
+      "https://openalex.org/W2963598138",
+      "https://openalex.org/W4251108253",
+      "https://openalex.org/W2942074357",
+      "https://openalex.org/W6743229011",
+      "https://openalex.org/W2895748257",
+      "https://openalex.org/W6790219418",
+      "https://openalex.org/W6780174001",
+      "https://openalex.org/W4312891300",
+      "https://openalex.org/W2798991696",
+      "https://openalex.org/W2963873475",
+      "https://openalex.org/W4226160668",
+      "https://openalex.org/W3004162361",
+      "https://openalex.org/W2147336195",
+      "https://openalex.org/W3108664802",
+      "https://openalex.org/W3035186639",
+      "https://openalex.org/W2756050327",
+      "https://openalex.org/W3106126861",
+      "https://openalex.org/W3104201753",
+      "https://openalex.org/W4285429062",
+      "https://openalex.org/W3037037665",
+      "https://openalex.org/W3127918629",
+      "https://openalex.org/W3111487461",
+      "https://openalex.org/W2750606766",
+      "https://openalex.org/W3212141385",
+      "https://openalex.org/W4287590221"
+    ],
+    "related_works": [
+      "https://openalex.org/W2113785214",
+      "https://openalex.org/W2946083937",
+      "https://openalex.org/W2798721181",
+      "https://openalex.org/W4299867837",
+      "https://openalex.org/W4386075737",
+      "https://openalex.org/W2951583186",
+      "https://openalex.org/W1974260915",
+      "https://openalex.org/W4382141741",
+      "https://openalex.org/W2088028039",
+      "https://openalex.org/W3165753266"
+    ],
+    "abstract_inverted_index": {
+      "Regression-based": [
+        0
+      ],
+      "methods": [
+        1,
+        35
+      ],
+      "for": [
+        2
+      ],
+      "3D": [
+        3,
+        10,
+        92,
+        123
+      ],
+      "human": [
+        4,
+        93,
+        116
+      ],
+      "pose": [
+        5,
+        11,
+        77,
+        94
+      ],
+      "estimation": [
+        6,
+        95
+      ],
+      "directly": [
+        7
+      ],
+      "predict": [
+        8
+      ],
+      "the": [
+        9,
+        63,
+        68,
+        142
+      ],
+      "parameters": [
+        12
+      ],
+      "from": [
+        13,
+        62
+      ],
+      "a": [
+        14,
+        37,
+        106,
+        114
+      ],
+      "2D": [
+        15,
+        42
+      ],
+      "image": [
+        16
+      ],
+      "using": [
+        17
+      ],
+      "deep": [
+        18,
+        110
+      ],
+      "networks.": [
+        19
+      ],
+      "While": [
+        20
+      ],
+      "achieving": [
+        21
+      ],
+      "state-of-the-art": [
+        22
+      ],
+      "performance": [
+        23,
+        28,
+        98
+      ],
+      "on": [
+        24,
+        113,
+        152
+      ],
+      "standard": [
+        25,
+        156
+      ],
+      "benchmarks,": [
+        26
+      ],
+      "their": [
+        27
+      ],
+      "degrades": [
+        29
+      ],
+      "under": [
+        30
+      ],
+      "occlusion.": [
+        31
+      ],
+      "In": [
+        32,
+        102
+      ],
+      "contrast,": [
+        33
+      ],
+      "optimization-based": [
+        34
+      ],
+      "fit": [
+        36
+      ],
+      "parametric": [
+        38
+      ],
+      "body": [
+        39
+      ],
+      "model": [
+        40,
+        108
+      ],
+      "to": [
+        41,
+        57,
+        91,
+        135,
+        140
+      ],
+      "features": [
+        43,
+        111,
+        129
+      ],
+      "in": [
+        44,
+        74
+      ],
+      "an": [
+        45,
+        87
+      ],
+      "iterative": [
+        46
+      ],
+      "manner.": [
+        47
+      ],
+      "The": [
+        48,
+        127
+      ],
+      "localized": [
+        49
+      ],
+      "reconstruction": [
+        50
+      ],
+      "loss": [
+        51
+      ],
+      "can": [
+        52
+      ],
+      "potentially": [
+        53
+      ],
+      "make": [
+        54
+      ],
+      "them": [
+        55
+      ],
+      "robust": [
+        56
+      ],
+      "occlusion,": [
+        58
+      ],
+      "but": [
+        59
+      ],
+      "they": [
+        60
+      ],
+      "suffer": [
+        61
+      ],
+      "2D-3D": [
+        64,
+        143
+      ],
+      "ambiguity.": [
+        65,
+        144
+      ],
+      "Motivated": [
+        66
+      ],
+      "by": [
+        67
+      ],
+      "recent": [
+        69
+      ],
+      "success": [
+        70
+      ],
+      "of": [
+        71,
+        109
+      ],
+      "generative": [
+        72,
+        107
+      ],
+      "models": [
+        73
+      ],
+      "rigid": [
+        75
+      ],
+      "object": [
+        76
+      ],
+      "estimation,": [
+        78
+      ],
+      "we": [
+        79,
+        104
+      ],
+      "propose": [
+        80,
+        105
+      ],
+      "3D-aware": [
+        81,
+        137
+      ],
+      "Neural": [
+        82
+      ],
+      "Body": [
+        83
+      ],
+      "Fitting": [
+        84
+      ],
+      "(3DNBF)": [
+        85
+      ],
+      "-": [
+        86
+      ],
+      "approximate": [
+        88
+      ],
+      "analysis-by-synthesis": [
+        89
+      ],
+      "approach": [
+        90
+      ],
+      "with": [
+        96,
+        118,
+        132
+      ],
+      "SOTA": [
+        97
+      ],
+      "and": [
+        99,
+        138,
+        155
+      ],
+      "occlusion": [
+        100
+      ],
+      "robustness.": [
+        101
+      ],
+      "particular,": [
+        103
+      ],
+      "based": [
+        112
+      ],
+      "volumetric": [
+        115
+      ],
+      "representation": [
+        117
+      ],
+      "Gaussian": [
+        119
+      ],
+      "ellipsoidal": [
+        120
+      ],
+      "kernels": [
+        121
+      ],
+      "emitting": [
+        122
+      ],
+      "pose-dependent": [
+        124
+      ],
+      "feature": [
+        125
+      ],
+      "vectors.": [
+        126
+      ],
+      "neural": [
+        128
+      ],
+      "are": [
+        130
+      ],
+      "trained": [
+        131
+      ],
+      "contrastive": [
+        133
+      ],
+      "learning": [
+        134
+      ],
+      "become": [
+        136
+      ],
+      "hence": [
+        139
+      ],
+      "overcome": [
+        141
+      ],
+      "Experiments": [
+        145
+      ],
+      "show": [
+        146
+      ],
+      "that": [
+        147
+      ],
+      "3DNBF": [
+        148
+      ],
+      "outperforms": [
+        149
+      ],
+      "other": [
+        150
+      ],
+      "approaches": [
+        151
+      ],
+      "both": [
+        153
+      ],
+      "occluded": [
+        154
+      ],
+      "benchmarks.": [
+        157
+      ],
+      "Code": [
+        158
+      ],
+      "is": [
+        159
+      ],
+      "available": [
+        160
+      ],
+      "at": [
+        161
+      ],
+      "https://github.com/edz-o/3DNBF": [
+        162
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 19
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          10
+        ]
+      ],
+      "date-time": "2025-12-10T09:05:10Z",
+      "timestamp": 1765357510559,
+      "version": "3.28.0"
+    },
+    "reference-count": 83,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100011038",
+        "name": "Office of the Director of National Intelligence",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100011038",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100011039",
+        "name": "Intelligence Advanced Research Projects Activity",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100011039",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100016311",
+        "name": "Arm",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100016311",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000006",
+        "name": "Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv51070.2023.00862",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2024-01-15T15:55:59Z",
+      "timestamp": 1705334159000
+    },
+    "page": "9365-9376",
+    "source": "Crossref",
+    "is-referenced-by-count": 29,
+    "title": [
+      "3D-Aware Neural Body Fitting for Occlusion Robust 3D Human Pose Estimation"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Yi",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Johns Hopkins University"
+          }
+        ]
+      },
+      {
+        "given": "Pengliang",
+        "family": "Ji",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beihang University"
+          }
+        ]
+      },
+      {
+        "given": "Angtian",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Johns Hopkins University"
+          }
+        ]
+      },
+      {
+        "given": "Jieru",
+        "family": "Mei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Johns Hopkins University"
+          }
+        ]
+      },
+      {
+        "given": "Adam",
+        "family": "Kortylewski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Max Planck Institute for Informatics"
+          }
+        ]
+      },
+      {
+        "given": "Alan",
+        "family": "Yuille",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Johns Hopkins University"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1073204.1073207"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV56688.2023.00015"
+      },
+      {
+        "key": "ref3",
+        "article-title": "3d multi-bodies: Fitting sets of plausible 3d human models to ambiguous image data",
+        "author": "Biggs",
+        "year": "2020",
+        "journal-title": "Advances in Neural Information Processing"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46454-1_34"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.143"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6689"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00081"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.461"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20086-1_9"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-018-1064-8"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58520-4_45"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.01114"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00975"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00975"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "article-title": "Occluded human body capture with self-supervised spatial-temporal motion prior",
+        "year": "2022",
+        "author": "Huang",
+        "key": "ref16"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/3DV.2017.00055"
+      },
+      {
+        "key": "ref18",
+        "volume-title": "Robust statistics",
+        "volume": "523",
+        "author": "Huber",
+        "year": "2004"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.248"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00329"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19824-3_24"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/3DV53792.2021.00015"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00868"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00744"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.psych.55.090902.142005"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01094"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00234"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00234"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01140"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00896"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-020-01401-3"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV45572.2020.9093560"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.500"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/344779.344862"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01270"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1405.0312"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3478513.3480528"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20065-6_29"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00780"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2816795.2818013"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/3DV.2017.00064"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3386569.3392410"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/3DV.2018.00024"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-49409-8_16"
+      },
+      {
+        "key": "ref45",
+        "first-page": "17258",
+        "article-title": "Continuous surface embeddings",
+        "volume": "33",
+        "author": "Neverova",
+        "year": "2020",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00768"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01129"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00571"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/3DV.2018.00062"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00581"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.01123"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.139"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00055"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00894"
+      },
+      {
+        "article-title": "Accelerating 3d deep learning with pytorch3d",
+        "year": "2020",
+        "author": "Ravi",
+        "key": "ref55"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.94"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/3DV.2014.46"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58520-4_31"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.134"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-24574-4_28"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00411"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00239"
+      },
+      {
+        "article-title": "How robust is 3d human pose estimation to occlusion?",
+        "year": "2018",
+        "author": "Sárándi",
+        "key": "ref63"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01103"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6876"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58565-5_44"
+      },
+      {
+        "key": "ref67",
+        "first-page": "12278",
+        "article-title": "A-nerf: Articulated neural radiance fields for learning human shape, appearance, and pose",
+        "volume": "34",
+        "author": "Su",
+        "year": "2021",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01231-1_33"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/c.31.15"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3306346.3323035"
+      },
+      {
+        "key": "ref71",
+        "first-page": "5236",
+        "article-title": "Self-supervised learning of motion capture",
+        "author": "Tung",
+        "year": "2017",
+        "journal-title": "Advances in Neural Information Processing"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01249-6_37"
+      },
+      {
+        "article-title": "Nemo: Neural mesh models of contrastive features for robust 3d pose estimation",
+        "year": "2021",
+        "author": "Wang",
+        "key": "ref73"
+      },
+      {
+        "article-title": "3D pose detection in videos: Focusing on occlusion",
+        "year": "2020",
+        "author": "Wang",
+        "key": "ref74"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01573"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00393"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.01122"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01294"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00785"
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tics.2006.05.002"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58539-6_28"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00740"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.51"
+      }
+    ],
+    "event": {
+      "name": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            1
+          ]
+        ]
+      },
+      "location": "Paris, France",
+      "end": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            6
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2023 IEEE/CVF International Conference on Computer Vision (ICCV)"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/10376473/10376477/10377722.pdf?arnumber=10377722",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          17
+        ]
+      ],
+      "date-time": "2024-01-17T20:17:53Z",
+      "timestamp": 1705522673000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10377722/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    },
+    "references-count": 83,
+    "URL": "https://doi.org/10.1109/iccv51070.2023.00862",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    }
+  }
+}

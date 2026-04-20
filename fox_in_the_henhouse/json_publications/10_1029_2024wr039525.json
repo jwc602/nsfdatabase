@@ -1,0 +1,1808 @@
+{
+  "doi": "10.1029/2024wr039525",
+  "openalex": {
+    "id": "https://openalex.org/W4411696770",
+    "doi": "https://doi.org/10.1029/2024wr039525",
+    "title": "On Using AI‐Based Large‐Sample Emulators for Land/Hydrology Model Calibration and Regionalization",
+    "display_name": "On Using AI‐Based Large‐Sample Emulators for Land/Hydrology Model Calibration and Regionalization",
+    "publication_year": 2025,
+    "publication_date": "2025-06-26",
+    "ids": {
+      "openalex": "https://openalex.org/W4411696770",
+      "doi": "https://doi.org/10.1029/2024wr039525"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1029/2024wr039525",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1029/2024wr039525",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024WR039525",
+      "source": {
+        "id": "https://openalex.org/S204847658",
+        "display_name": "Water Resources Research",
+        "issn_l": "0043-1397",
+        "issn": [
+          "0043-1397",
+          "1944-7973"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Water Resources Research",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024WR039525",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5011787930",
+          "display_name": "Guoqiang Tang",
+          "orcid": "https://orcid.org/0000-0002-0923-583X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I37461747",
+            "display_name": "Wuhan University",
+            "ror": "https://ror.org/033vjfk17",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I37461747"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210133469",
+            "display_name": "NSF NCAR Climate and Global Dynamics Laboratory",
+            "ror": "https://ror.org/03qrb1j36",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210133469",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Guoqiang Tang",
+        "raw_affiliation_strings": [
+          "Climate and Global Dynamics National Center for Atmospheric Research  Boulder CO USA",
+          "State Key Laboratory of Water Resources Engineering and Management Wuhan University  Wuhan China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Climate and Global Dynamics National Center for Atmospheric Research  Boulder CO USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210133469"
+            ]
+          },
+          {
+            "raw_affiliation_string": "State Key Laboratory of Water Resources Engineering and Management Wuhan University  Wuhan China",
+            "institution_ids": [
+              "https://openalex.org/I37461747"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5038525681",
+          "display_name": "Andrew W. Wood",
+          "orcid": "https://orcid.org/0000-0002-6231-0085"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I167576493",
+            "display_name": "Colorado School of Mines",
+            "ror": "https://ror.org/04raf6v53",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I167576493"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210133469",
+            "display_name": "NSF NCAR Climate and Global Dynamics Laboratory",
+            "ror": "https://ror.org/03qrb1j36",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210133469",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Andrew W. Wood",
+        "raw_affiliation_strings": [
+          "Civil and Environmental Engineering Colorado School of Mines  Golden CO USA",
+          "Climate and Global Dynamics National Center for Atmospheric Research  Boulder CO USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Climate and Global Dynamics National Center for Atmospheric Research  Boulder CO USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210133469"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Civil and Environmental Engineering Colorado School of Mines  Golden CO USA",
+            "institution_ids": [
+              "https://openalex.org/I167576493"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5024091770",
+          "display_name": "Sean Swenson",
+          "orcid": "https://orcid.org/0000-0002-2923-1203"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210133469",
+            "display_name": "NSF NCAR Climate and Global Dynamics Laboratory",
+            "ror": "https://ror.org/03qrb1j36",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210133469",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I107766831",
+            "display_name": "NSF National Center for Atmospheric Research",
+            "ror": "https://ror.org/05cvfcr44",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I1311060795",
+              "https://openalex.org/I2799356940",
+              "https://openalex.org/I4210141337",
+              "https://openalex.org/I4210150888"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sean Swenson",
+        "raw_affiliation_strings": [
+          "Climate and Global Dynamics National Center for Atmospheric Research  Boulder CO USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Climate and Global Dynamics National Center for Atmospheric Research  Boulder CO USA",
+            "institution_ids": [
+              "https://openalex.org/I107766831",
+              "https://openalex.org/I4210133469"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 3000,
+      "currency": "USD",
+      "value_usd": 3000
+    },
+    "apc_paid": {
+      "value": 3000,
+      "currency": "USD",
+      "value_usd": 3000
+    },
+    "fwci": 3.88835173,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.89778349,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 95,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "61",
+      "issue": "7",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10330",
+      "display_name": "Hydrology and Watershed Management Studies",
+      "score": 0.9970999956130981,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2312",
+        "display_name": "Water Science and Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10330",
+        "display_name": "Hydrology and Watershed Management Studies",
+        "score": 0.9970999956130981,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2312",
+          "display_name": "Water Science and Technology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11312",
+        "display_name": "Soil Moisture and Remote Sensing",
+        "score": 0.9934999942779541,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11490",
+        "display_name": "Hydrological Forecasting Using AI",
+        "score": 0.9927999973297119,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/hydrology",
+        "display_name": "Hydrology (agriculture)",
+        "score": 0.7025358080863953
+      },
+      {
+        "id": "https://openalex.org/keywords/calibration",
+        "display_name": "Calibration",
+        "score": 0.6550580859184265
+      },
+      {
+        "id": "https://openalex.org/keywords/environmental-science",
+        "display_name": "Environmental science",
+        "score": 0.5476925373077393
+      },
+      {
+        "id": "https://openalex.org/keywords/sample",
+        "display_name": "Sample (material)",
+        "score": 0.465457022190094
+      },
+      {
+        "id": "https://openalex.org/keywords/geology",
+        "display_name": "Geology",
+        "score": 0.30857527256011963
+      },
+      {
+        "id": "https://openalex.org/keywords/statistics",
+        "display_name": "Statistics",
+        "score": 0.2212335467338562
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.13782277703285217
+      },
+      {
+        "id": "https://openalex.org/keywords/geotechnical-engineering",
+        "display_name": "Geotechnical engineering",
+        "score": 0.12093046307563782
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C76886044",
+        "wikidata": "https://www.wikidata.org/wiki/Q2883300",
+        "display_name": "Hydrology (agriculture)",
+        "level": 2,
+        "score": 0.7025358080863953
+      },
+      {
+        "id": "https://openalex.org/C165838908",
+        "wikidata": "https://www.wikidata.org/wiki/Q736777",
+        "display_name": "Calibration",
+        "level": 2,
+        "score": 0.6550580859184265
+      },
+      {
+        "id": "https://openalex.org/C39432304",
+        "wikidata": "https://www.wikidata.org/wiki/Q188847",
+        "display_name": "Environmental science",
+        "level": 0,
+        "score": 0.5476925373077393
+      },
+      {
+        "id": "https://openalex.org/C198531522",
+        "wikidata": "https://www.wikidata.org/wiki/Q485146",
+        "display_name": "Sample (material)",
+        "level": 2,
+        "score": 0.465457022190094
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.30857527256011963
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.2212335467338562
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.13782277703285217
+      },
+      {
+        "id": "https://openalex.org/C187320778",
+        "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+        "display_name": "Geotechnical engineering",
+        "level": 1,
+        "score": 0.12093046307563782
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C43617362",
+        "wikidata": "https://www.wikidata.org/wiki/Q170050",
+        "display_name": "Chromatography",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1029/2024wr039525",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1029/2024wr039525",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024WR039525",
+        "source": {
+          "id": "https://openalex.org/S204847658",
+          "display_name": "Water Resources Research",
+          "issn_l": "0043-1397",
+          "issn": [
+            "0043-1397",
+            "1944-7973"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Water Resources Research",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:f1d8ee4360d7438a88fd47f82f76b57a",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/f1d8ee4360d7438a88fd47f82f76b57a",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Water Resources Research, Vol 61, Iss 7, Pp n/a-n/a (2025)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1029/2024wr039525",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1029/2024wr039525",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024WR039525",
+      "source": {
+        "id": "https://openalex.org/S204847658",
+        "display_name": "Water Resources Research",
+        "issn_l": "0043-1397",
+        "issn": [
+          "0043-1397",
+          "1944-7973"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Water Resources Research",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320337538",
+        "display_name": "U.S. Army Corps of Engineers",
+        "ror": "https://ror.org/05w4e8v21"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "referenced_works_count": 71,
+    "referenced_works": [
+      "https://openalex.org/W3045596914",
+      "https://openalex.org/W2338949170",
+      "https://openalex.org/W4399566155",
+      "https://openalex.org/W3021613070",
+      "https://openalex.org/W3035645161",
+      "https://openalex.org/W4312193108",
+      "https://openalex.org/W2112071972",
+      "https://openalex.org/W1929945801",
+      "https://openalex.org/W3188169536",
+      "https://openalex.org/W2998885490",
+      "https://openalex.org/W2126105956",
+      "https://openalex.org/W1999310382",
+      "https://openalex.org/W2916772745",
+      "https://openalex.org/W3038342057",
+      "https://openalex.org/W4296344227",
+      "https://openalex.org/W2143155680",
+      "https://openalex.org/W2264594800",
+      "https://openalex.org/W4200172698",
+      "https://openalex.org/W4402903018",
+      "https://openalex.org/W1990471334",
+      "https://openalex.org/W1965772894",
+      "https://openalex.org/W2989857225",
+      "https://openalex.org/W2981104727",
+      "https://openalex.org/W4391102668",
+      "https://openalex.org/W3140862400",
+      "https://openalex.org/W2108750696",
+      "https://openalex.org/W4200089431",
+      "https://openalex.org/W2097571405",
+      "https://openalex.org/W2749795597",
+      "https://openalex.org/W3092026988",
+      "https://openalex.org/W1977509871",
+      "https://openalex.org/W4292409458",
+      "https://openalex.org/W2995894011",
+      "https://openalex.org/W1528483814",
+      "https://openalex.org/W1539229456",
+      "https://openalex.org/W3209971528",
+      "https://openalex.org/W4384831321",
+      "https://openalex.org/W2982785288",
+      "https://openalex.org/W4380320351",
+      "https://openalex.org/W2126171847",
+      "https://openalex.org/W2038538989",
+      "https://openalex.org/W3206402571",
+      "https://openalex.org/W4382708709",
+      "https://openalex.org/W4310013898",
+      "https://openalex.org/W3151640016",
+      "https://openalex.org/W2885765604",
+      "https://openalex.org/W4408276237",
+      "https://openalex.org/W4383955976",
+      "https://openalex.org/W3136179920",
+      "https://openalex.org/W4392984771",
+      "https://openalex.org/W4210629551",
+      "https://openalex.org/W2885716143",
+      "https://openalex.org/W3207392840",
+      "https://openalex.org/W2090137585",
+      "https://openalex.org/W4390820286",
+      "https://openalex.org/W3030873299",
+      "https://openalex.org/W3208641363",
+      "https://openalex.org/W4281702866",
+      "https://openalex.org/W4387438125",
+      "https://openalex.org/W4391011770",
+      "https://openalex.org/W4362666048",
+      "https://openalex.org/W3115713842",
+      "https://openalex.org/W1975265747",
+      "https://openalex.org/W2603766970",
+      "https://openalex.org/W2001317094",
+      "https://openalex.org/W4293761282",
+      "https://openalex.org/W4313814630",
+      "https://openalex.org/W4385420249",
+      "https://openalex.org/W3089268777",
+      "https://openalex.org/W4200163120",
+      "https://openalex.org/W4250843460"
+    ],
+    "related_works": [
+      "https://openalex.org/W2324615561",
+      "https://openalex.org/W2086120259",
+      "https://openalex.org/W2245170124",
+      "https://openalex.org/W2076393078",
+      "https://openalex.org/W3186982001",
+      "https://openalex.org/W1984402782",
+      "https://openalex.org/W2137941439",
+      "https://openalex.org/W2393936024",
+      "https://openalex.org/W2412267837",
+      "https://openalex.org/W2588972388"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "AI‐based": [
+        1
+      ],
+      "model": [
+        2,
+        57,
+        78,
+        114,
+        188
+      ],
+      "emulators": [
+        3,
+        34
+      ],
+      "have": [
+        4,
+        53
+      ],
+      "emerged": [
+        5
+      ],
+      "as": [
+        6
+      ],
+      "a": [
+        7,
+        104,
+        181
+      ],
+      "pragmatic": [
+        8
+      ],
+      "strategy": [
+        9,
+        183
+      ],
+      "for": [
+        10,
+        41,
+        59,
+        67,
+        184
+      ],
+      "calibrating": [
+        11,
+        72
+      ],
+      "Earth": [
+        12
+      ],
+      "System": [
+        13
+      ],
+      "models": [
+        14
+      ],
+      "or": [
+        15
+      ],
+      "their": [
+        16
+      ],
+      "components": [
+        17
+      ],
+      "(e.g.,": [
+        18
+      ],
+      "land,": [
+        19
+      ],
+      "atmosphere,": [
+        20
+      ],
+      "ocean),": [
+        21
+      ],
+      "circumventing": [
+        22
+      ],
+      "the": [
+        23,
+        28,
+        45,
+        124,
+        129,
+        135,
+        146,
+        171
+      ],
+      "previously": [
+        24
+      ],
+      "insurmountable": [
+        25
+      ],
+      "hurdle": [
+        26
+      ],
+      "of": [
+        27,
+        90
+      ],
+      "process‐heavy": [
+        29
+      ],
+      "models'": [
+        30
+      ],
+      "computational": [
+        31
+      ],
+      "expense.": [
+        32
+      ],
+      "Such": [
+        33
+      ],
+      "require": [
+        35
+      ],
+      "large,": [
+        36
+      ],
+      "spatially": [
+        37
+      ],
+      "diverse": [
+        38
+      ],
+      "data": [
+        39
+      ],
+      "sets": [
+        40
+      ],
+      "training,": [
+        42
+      ],
+      "however,": [
+        43
+      ],
+      "which—in": [
+        44
+      ],
+      "land/hydrology": [
+        46,
+        76
+      ],
+      "context—contrasts": [
+        47
+      ],
+      "with": [
+        48
+      ],
+      "parameter": [
+        49,
+        68,
+        115
+      ],
+      "estimation": [
+        50
+      ],
+      "approaches": [
+        51,
+        80
+      ],
+      "that": [
+        52,
+        109
+      ],
+      "traditionally": [
+        54
+      ],
+      "emphasized": [
+        55
+      ],
+      "optimizing": [
+        56
+      ],
+      "performance": [
+        58
+      ],
+      "individual": [
+        60
+      ],
+      "basins,": [
+        61,
+        144,
+        162
+      ],
+      "followed": [
+        62
+      ],
+      "by": [
+        63
+      ],
+      "similarity‐based": [
+        64
+      ],
+      "transfer": [
+        65
+      ],
+      "schemes": [
+        66
+      ],
+      "regionalization.": [
+        69,
+        118,
+        191
+      ],
+      "Compared": [
+        70
+      ],
+      "to": [
+        71
+      ],
+      "basins": [
+        73,
+        122
+      ],
+      "individually,": [
+        74
+      ],
+      "direct": [
+        75
+      ],
+      "process": [
+        77,
+        113
+      ],
+      "calibration": [
+        79,
+        116,
+        155,
+        189
+      ],
+      "typically": [
+        81
+      ],
+      "perform": [
+        82
+      ],
+      "worse": [
+        83
+      ],
+      "when": [
+        84
+      ],
+      "trained": [
+        85
+      ],
+      "jointly": [
+        86
+      ],
+      "on": [
+        87,
+        93
+      ],
+      "large": [
+        88
+      ],
+      "collections": [
+        89
+      ],
+      "basins.": [
+        91
+      ],
+      "Building": [
+        92
+      ],
+      "insights": [
+        94
+      ],
+      "from": [
+        95
+      ],
+      "large‐sample": [
+        96
+      ],
+      "deep": [
+        97
+      ],
+      "learning": [
+        98
+      ],
+      "hydrologic": [
+        99
+      ],
+      "modeling,": [
+        100
+      ],
+      "this": [
+        101
+      ],
+      "study": [
+        102
+      ],
+      "introduces": [
+        103
+      ],
+      "Large‐Sample": [
+        105
+      ],
+      "Emulator": [
+        106,
+        148
+      ],
+      "(LSE)": [
+        107
+      ],
+      "approach": [
+        108,
+        137
+      ],
+      "unifies": [
+        110
+      ],
+      "and": [
+        111,
+        117,
+        153,
+        190
+      ],
+      "streamlines": [
+        112
+      ],
+      "Tested": [
+        119
+      ],
+      "across": [
+        120
+      ],
+      "627": [
+        121
+      ],
+      "in": [
+        123,
+        142,
+        150,
+        160,
+        174
+      ],
+      "continental": [
+        125
+      ],
+      "United": [
+        126
+      ],
+      "States": [
+        127
+      ],
+      "using": [
+        128
+      ],
+      "Community": [
+        130
+      ],
+      "Terrestrial": [
+        131
+      ],
+      "Systems": [
+        132
+      ],
+      "Model": [
+        133
+      ],
+      "(CTSM),": [
+        134
+      ],
+      "LSE": [
+        136,
+        178
+      ],
+      "consistently": [
+        138
+      ],
+      "improves": [
+        139
+      ],
+      "runoff": [
+        140
+      ],
+      "predictions": [
+        141
+      ],
+      "all": [
+        143
+      ],
+      "outperforming": [
+        145
+      ],
+      "Single‐Site": [
+        147
+      ],
+      "(SSE)": [
+        149
+      ],
+      "both": [
+        151
+      ],
+      "single‐objective": [
+        152
+      ],
+      "multi‐objective": [
+        154
+      ],
+      "tasks.": [
+        156
+      ],
+      "Moreover,": [
+        157
+      ],
+      "LSE‐based": [
+        158
+      ],
+      "regionalization": [
+        159
+      ],
+      "unseen": [
+        161
+      ],
+      "evaluated": [
+        163
+      ],
+      "through": [
+        164
+      ],
+      "spatial": [
+        165
+      ],
+      "cross‐validation,": [
+        166
+      ],
+      "achieves": [
+        167
+      ],
+      "better": [
+        168
+      ],
+      "results": [
+        169
+      ],
+      "than": [
+        170
+      ],
+      "default": [
+        172
+      ],
+      "parameters": [
+        173
+      ],
+      "most": [
+        175
+      ],
+      "cases.": [
+        176
+      ],
+      "This": [
+        177
+      ],
+      "framework": [
+        179
+      ],
+      "offers": [
+        180
+      ],
+      "promising": [
+        182
+      ],
+      "effective": [
+        185
+      ],
+      "large‐domain": [
+        186
+      ],
+      "process‐based": [
+        187
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          8
+        ]
+      ],
+      "date-time": "2026-01-08T10:03:06Z",
+      "timestamp": 1767866586954,
+      "version": "3.49.0"
+    },
+    "reference-count": 72,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              26
+            ]
+          ],
+          "date-time": "2025-06-26T00:00:00Z",
+          "timestamp": 1750896000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006752",
+        "name": "U.S. Army Corps of Engineers",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006752",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "agupubs.onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          7
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>AI‐based model emulators have emerged as a pragmatic strategy for calibrating Earth System models or their components (e.g., land, atmosphere, ocean), circumventing the previously insurmountable hurdle of the process‐heavy models' computational expense. Such emulators require large, spatially diverse data sets for training, however, which—in the land/hydrology context—contrasts with parameter estimation approaches that have traditionally emphasized optimizing model performance for individual basins, followed by similarity‐based transfer schemes for parameter regionalization. Compared to calibrating basins individually, direct land/hydrology process model calibration approaches typically perform worse when trained jointly on large collections of basins. Building on insights from large‐sample deep learning hydrologic modeling, this study introduces a Large‐Sample Emulator (LSE) approach that unifies and streamlines process model parameter calibration and regionalization. Tested across 627 basins in the continental United States using the Community Terrestrial Systems Model (CTSM), the LSE approach consistently improves runoff predictions in all basins, outperforming the Single‐Site Emulator (SSE) in both single‐objective and multi‐objective calibration tasks. Moreover, LSE‐based regionalization in unseen basins, evaluated through spatial cross‐validation, achieves better results than the default parameters in most cases. This LSE framework offers a promising strategy for effective large‐domain process‐based model calibration and regionalization.</jats:p>",
+    "DOI": "10.1029/2024wr039525",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          26
+        ]
+      ],
+      "date-time": "2025-06-26T07:35:24Z",
+      "timestamp": 1750923324000
+    },
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "On Using AI‐Based Large‐Sample Emulators for Land/Hydrology Model Calibration and Regionalization"
+    ],
+    "prefix": "10.1029",
+    "volume": "61",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-0923-583X",
+        "authenticated-orcid": false,
+        "given": "Guoqiang",
+        "family": "Tang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "State Key Laboratory of Water Resources Engineering and Management Wuhan University  Wuhan China"
+          },
+          {
+            "name": "Climate and Global Dynamics National Center for Atmospheric Research  Boulder CO USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6231-0085",
+        "authenticated-orcid": false,
+        "given": "Andrew W.",
+        "family": "Wood",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Climate and Global Dynamics National Center for Atmospheric Research  Boulder CO USA"
+          },
+          {
+            "name": "Civil and Environmental Engineering Colorado School of Mines  Golden CO USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2923-1203",
+        "authenticated-orcid": false,
+        "given": "Sean",
+        "family": "Swenson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Climate and Global Dynamics National Center for Atmospheric Research  Boulder CO USA"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_8_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess‐21‐5293‐2017"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess‐26‐4407‐2022"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess‐27‐139‐2023"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)HE.1943‐5584.0000938"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019JD031485"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR018247"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2023MS004095"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.2990567"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020GL088000"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s40710‐020‐00468‐x"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR032204"
+      },
+      {
+        "key": "e_1_2_8_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00382‐020‐05288‐1"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017198"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR017200"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR029001"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1752‐1688.13184"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/ascmo‐6‐223‐2020"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019MS001916"
+      },
+      {
+        "key": "e_1_2_8_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/4235.996017"
+      },
+      {
+        "key": "e_1_2_8_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess‐27‐2827‐2023"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00939380"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "volume-title": "GAGES‐II: Geospatial attributes of gages for evaluating streamflow",
+        "author": "Falcone J. A.",
+        "year": "2011"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018WR023903"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "first-page": "1",
+        "volume-title": "Calibrating a large‐domain land/hydrology process model in the age of AI: The SUMMA CAMELS experiments",
+        "author": "Farahani M. A.",
+        "year": "2025"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026793"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR032404"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005WR004528"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2015WR018230"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1061/(ASCE)1084‐0699(1999)4:2(135)"
+      },
+      {
+        "key": "e_1_2_8_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/wat2.1569"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "article-title": "One‐at‐a‐time parameter perturbation ensemble of the community land model, version 5.1",
+        "author": "Kennedy D.",
+        "year": "2024",
+        "journal-title": "Authorea Preprints"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2012.01.011"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2012.10.050"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess‐2023‐275"
+      },
+      {
+        "key": "e_1_2_8_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019WR026065"
+      },
+      {
+        "key": "e_1_2_8_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2018MS001583"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033808"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028600"
+      },
+      {
+        "key": "e_1_2_8_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2014.09.013"
+      },
+      {
+        "key": "e_1_2_8_41_1",
+        "volume-title": "Ostrich: An optimization software tool, documentation and user’s guide, version 17.12.19",
+        "author": "Matott L. S.",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/w13243633"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7551/mitpress/3927.001.0001"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/2017WR020401"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess‐23‐2601‐2019"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/essd‐13‐4349‐2021"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41586‐024‐07145‐1"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028091"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess‐19‐209‐2015"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2015.04.003"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022GL099012"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019JD030767"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2011WR011527"
+      },
+      {
+        "key": "e_1_2_8_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2008WR007327"
+      },
+      {
+        "key": "e_1_2_8_55_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s43017‐023‐00450‐9"
+      },
+      {
+        "key": "e_1_2_8_56_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2020WR028740"
+      },
+      {
+        "key": "e_1_2_8_57_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2023.129944"
+      },
+      {
+        "key": "e_1_2_8_58_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2019MS001833"
+      },
+      {
+        "key": "e_1_2_8_59_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022WR033767"
+      },
+      {
+        "key": "e_1_2_8_60_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/BAMS‐D‐21‐0106.1"
+      },
+      {
+        "key": "e_1_2_8_61_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2005WR004723"
+      },
+      {
+        "key": "e_1_2_8_62_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/hess‐27‐1809‐2023"
+      },
+      {
+        "key": "e_1_2_8_63_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467‐021‐26107‐z"
+      },
+      {
+        "key": "e_1_2_8_64_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1175/jhm‐d‐21‐0111.1"
+      },
+      {
+        "key": "e_1_2_8_65_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd‐15‐4163‐2022"
+      },
+      {
+        "key": "e_1_2_8_66_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.envsoft.2014.05.026"
+      },
+      {
+        "key": "e_1_2_8_67_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5194/gmd‐14‐7659‐2021"
+      },
+      {
+        "key": "e_1_2_8_68_1",
+        "volume-title": "Improving the robustness of southwestern US water supply forecasting, science and technology Program, research and development office",
+        "author": "Wood A. W.",
+        "year": "2021"
+      },
+      {
+        "key": "e_1_2_8_69_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.127043"
+      },
+      {
+        "key": "e_1_2_8_70_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/2022MS003312"
+      },
+      {
+        "key": "e_1_2_8_71_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597‐023‐02049‐7"
+      },
+      {
+        "key": "e_1_2_8_72_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2022.128848"
+      },
+      {
+        "key": "e_1_2_8_73_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jhydrol.2021.126266"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024WR039525",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          18
+        ]
+      ],
+      "date-time": "2025-09-18T21:30:17Z",
+      "timestamp": 1758231017000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024WR039525"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          26
+        ]
+      ]
+    },
+    "references-count": 72,
+    "journal-issue": {
+      "issue": "7",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/2024WR039525"
+    ],
+    "URL": "https://doi.org/10.1029/2024wr039525",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          26
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2024-11-25",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-06-15",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-06-26",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "e2024WR039525"
+  }
+}

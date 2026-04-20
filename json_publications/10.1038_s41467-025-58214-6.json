@@ -1,0 +1,2438 @@
+{
+  "doi": "10.1038/s41467-025-58214-6",
+  "openalex": {
+    "id": "https://openalex.org/W4408877312",
+    "doi": "https://doi.org/10.1038/s41467-025-58214-6",
+    "title": "Enhanced diagnosis of multi-drug-resistant microbes using group association modeling and machine learning",
+    "display_name": "Enhanced diagnosis of multi-drug-resistant microbes using group association modeling and machine learning",
+    "publication_year": 2025,
+    "publication_date": "2025-03-25",
+    "ids": {
+      "openalex": "https://openalex.org/W4408877312",
+      "doi": "https://doi.org/10.1038/s41467-025-58214-6",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/40133304"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s41467-025-58214-6",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41467-025-58214-6",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-58214-6.pdf",
+      "source": {
+        "id": "https://openalex.org/S64187185",
+        "display_name": "Nature Communications",
+        "issn_l": "2041-1723",
+        "issn": [
+          "2041-1723"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Communications",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-025-58214-6.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5010973522",
+          "display_name": "Julian G. Saliba",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I114832834",
+            "display_name": "Tulane University",
+            "ror": "https://ror.org/04vmvtb21",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I114832834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Julian G. Saliba",
+        "raw_affiliation_strings": [
+          "Center for Cellular and Molecular Diagnostics, Tulane University School of Medicine, New Orleans, LA, USA",
+          "Department of Biomedical Engineering, Tulane University School of Science and Engineering, New Orleans, LA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biomedical Engineering, Tulane University School of Science and Engineering, New Orleans, LA, USA",
+            "institution_ids": [
+              "https://openalex.org/I114832834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Cellular and Molecular Diagnostics, Tulane University School of Medicine, New Orleans, LA, USA",
+            "institution_ids": [
+              "https://openalex.org/I114832834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102009699",
+          "display_name": "Wenshu Zheng",
+          "orcid": "https://orcid.org/0000-0001-6726-1326"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I114832834",
+            "display_name": "Tulane University",
+            "ror": "https://ror.org/04vmvtb21",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I114832834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Wenshu Zheng",
+        "raw_affiliation_strings": [
+          "Center for Cellular and Molecular Diagnostics, Tulane University School of Medicine, New Orleans, LA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Cellular and Molecular Diagnostics, Tulane University School of Medicine, New Orleans, LA, USA",
+            "institution_ids": [
+              "https://openalex.org/I114832834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5046100125",
+          "display_name": "Qingbo Shu",
+          "orcid": "https://orcid.org/0000-0002-6240-9712"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I114832834",
+            "display_name": "Tulane University",
+            "ror": "https://ror.org/04vmvtb21",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I114832834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qingbo Shu",
+        "raw_affiliation_strings": [
+          "Center for Cellular and Molecular Diagnostics, Tulane University School of Medicine, New Orleans, LA, USA",
+          "Department of Biochemistry and Molecular Biology, Tulane University School of Medicine, New Orleans, LA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biochemistry and Molecular Biology, Tulane University School of Medicine, New Orleans, LA, USA",
+            "institution_ids": [
+              "https://openalex.org/I114832834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Cellular and Molecular Diagnostics, Tulane University School of Medicine, New Orleans, LA, USA",
+            "institution_ids": [
+              "https://openalex.org/I114832834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101412416",
+          "display_name": "Liqiang Li",
+          "orcid": "https://orcid.org/0000-0003-0180-7052"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210089514",
+            "display_name": "National Clinical Research Center for Digestive Diseases",
+            "ror": "https://ror.org/00a2x9d51",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210089514"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210166055",
+            "display_name": "Shenzhen Third People’s Hospital",
+            "ror": "https://ror.org/04xfsbk97",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210166055"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Liqiang Li",
+        "raw_affiliation_strings": [
+          "Department of Clinical Laboratory, Shenzhen Third People's Hospital, Shenzhen, Guangdong, China",
+          "National Clinical Research Center for Infectious Diseases, Shenzhen, Guangdong, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National Clinical Research Center for Infectious Diseases, Shenzhen, Guangdong, China",
+            "institution_ids": [
+              "https://openalex.org/I4210089514"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Clinical Laboratory, Shenzhen Third People's Hospital, Shenzhen, Guangdong, China",
+            "institution_ids": [
+              "https://openalex.org/I4210166055"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101870341",
+          "display_name": "Chi Wu",
+          "orcid": "https://orcid.org/0009-0006-8841-1796"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210089514",
+            "display_name": "National Clinical Research Center for Digestive Diseases",
+            "ror": "https://ror.org/00a2x9d51",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210089514"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210166055",
+            "display_name": "Shenzhen Third People’s Hospital",
+            "ror": "https://ror.org/04xfsbk97",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210166055"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chi Wu",
+        "raw_affiliation_strings": [
+          "Department of Clinical Laboratory, Shenzhen Third People's Hospital, Shenzhen, Guangdong, China",
+          "National Clinical Research Center for Infectious Diseases, Shenzhen, Guangdong, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Clinical Laboratory, Shenzhen Third People's Hospital, Shenzhen, Guangdong, China",
+            "institution_ids": [
+              "https://openalex.org/I4210166055"
+            ]
+          },
+          {
+            "raw_affiliation_string": "National Clinical Research Center for Infectious Diseases, Shenzhen, Guangdong, China",
+            "institution_ids": [
+              "https://openalex.org/I4210089514"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5068891302",
+          "display_name": "Yi Xie",
+          "orcid": "https://orcid.org/0000-0002-1416-5557"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24185976",
+            "display_name": "Sichuan University",
+            "ror": "https://ror.org/011ashp19",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24185976"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210089761",
+            "display_name": "West China Hospital of Sichuan University",
+            "ror": "https://ror.org/007mrxy13",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210089761"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yi Xie",
+        "raw_affiliation_strings": [
+          "Department of Laboratory Medicine, West China Hospital, Sichuan University, Chengdu, Sichuan, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Laboratory Medicine, West China Hospital, Sichuan University, Chengdu, Sichuan, China",
+            "institution_ids": [
+              "https://openalex.org/I24185976",
+              "https://openalex.org/I4210089761"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5035375125",
+          "display_name": "Christopher J. Lyon",
+          "orcid": "https://orcid.org/0000-0003-2319-2933"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I114832834",
+            "display_name": "Tulane University",
+            "ror": "https://ror.org/04vmvtb21",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I114832834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Christopher J. Lyon",
+        "raw_affiliation_strings": [
+          "Center for Cellular and Molecular Diagnostics, Tulane University School of Medicine, New Orleans, LA, USA",
+          "Department of Biochemistry and Molecular Biology, Tulane University School of Medicine, New Orleans, LA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biochemistry and Molecular Biology, Tulane University School of Medicine, New Orleans, LA, USA",
+            "institution_ids": [
+              "https://openalex.org/I114832834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Cellular and Molecular Diagnostics, Tulane University School of Medicine, New Orleans, LA, USA",
+            "institution_ids": [
+              "https://openalex.org/I114832834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5044019314",
+          "display_name": "Jiuxin Qu",
+          "orcid": "https://orcid.org/0000-0003-1061-2353"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210089514",
+            "display_name": "National Clinical Research Center for Digestive Diseases",
+            "ror": "https://ror.org/00a2x9d51",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210089514"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210166055",
+            "display_name": "Shenzhen Third People’s Hospital",
+            "ror": "https://ror.org/04xfsbk97",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210166055"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jiuxin Qu",
+        "raw_affiliation_strings": [
+          "Department of Clinical Laboratory, Shenzhen Third People's Hospital, Shenzhen, Guangdong, China",
+          "National Clinical Research Center for Infectious Diseases, Shenzhen, Guangdong, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National Clinical Research Center for Infectious Diseases, Shenzhen, Guangdong, China",
+            "institution_ids": [
+              "https://openalex.org/I4210089514"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Clinical Laboratory, Shenzhen Third People's Hospital, Shenzhen, Guangdong, China",
+            "institution_ids": [
+              "https://openalex.org/I4210166055"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5073166066",
+          "display_name": "Hairong Huang",
+          "orcid": "https://orcid.org/0000-0002-4295-4262"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210107581",
+            "display_name": "Beijing Chest Hospital",
+            "ror": "https://ror.org/01espdw89",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210107581"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I183519381",
+            "display_name": "Capital Medical University",
+            "ror": "https://ror.org/013xs5b60",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I183519381"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hairong Huang",
+        "raw_affiliation_strings": [
+          "National Clinical Laboratory on Tuberculosis, Beijing Chest Hospital of Capital Medical University, Beijing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National Clinical Laboratory on Tuberculosis, Beijing Chest Hospital of Capital Medical University, Beijing, China",
+            "institution_ids": [
+              "https://openalex.org/I183519381",
+              "https://openalex.org/I4210107581"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102001966",
+          "display_name": "Binwu Ying",
+          "orcid": "https://orcid.org/0000-0001-7828-1453"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I24185976",
+            "display_name": "Sichuan University",
+            "ror": "https://ror.org/011ashp19",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I24185976"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210089761",
+            "display_name": "West China Hospital of Sichuan University",
+            "ror": "https://ror.org/007mrxy13",
+            "country_code": "CN",
+            "type": "healthcare",
+            "lineage": [
+              "https://openalex.org/I4210089761"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Binwu Ying",
+        "raw_affiliation_strings": [
+          "Department of Laboratory Medicine, West China Hospital, Sichuan University, Chengdu, Sichuan, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Laboratory Medicine, West China Hospital, Sichuan University, Chengdu, Sichuan, China",
+            "institution_ids": [
+              "https://openalex.org/I24185976",
+              "https://openalex.org/I4210089761"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5101738040",
+          "display_name": "Ye Hu",
+          "orcid": "https://orcid.org/0000-0001-7255-5409"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I114832834",
+            "display_name": "Tulane University",
+            "ror": "https://ror.org/04vmvtb21",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I114832834"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tony Ye Hu",
+        "raw_affiliation_strings": [
+          "Center for Cellular and Molecular Diagnostics, Tulane University School of Medicine, New Orleans, LA, USA",
+          "Department of Biochemistry and Molecular Biology, Tulane University School of Medicine, New Orleans, LA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Cellular and Molecular Diagnostics, Tulane University School of Medicine, New Orleans, LA, USA",
+            "institution_ids": [
+              "https://openalex.org/I114832834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Biochemistry and Molecular Biology, Tulane University School of Medicine, New Orleans, LA, USA",
+            "institution_ids": [
+              "https://openalex.org/I114832834"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 11,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 3920,
+      "currency": "GBP",
+      "value_usd": 4808
+    },
+    "apc_paid": {
+      "value": 3920,
+      "currency": "GBP",
+      "value_usd": 4808
+    },
+    "fwci": 10.7930076,
+    "has_fulltext": false,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.96662625,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "16",
+      "issue": "1",
+      "first_page": "2933",
+      "last_page": "2933"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12859",
+      "display_name": "Cell Image Analysis Techniques",
+      "score": 0.9793999791145325,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1304",
+        "display_name": "Biophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12859",
+        "display_name": "Cell Image Analysis Techniques",
+        "score": 0.9793999791145325,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1304",
+          "display_name": "Biophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12254",
+        "display_name": "Machine Learning in Bioinformatics",
+        "score": 0.9778000116348267,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12576",
+        "display_name": "vaccines and immunoinformatics approaches",
+        "score": 0.97079998254776,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/association",
+        "display_name": "Association (psychology)",
+        "score": 0.5650043487548828
+      },
+      {
+        "id": "https://openalex.org/keywords/drug",
+        "display_name": "Drug",
+        "score": 0.5404293537139893
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.48558586835861206
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.4648282527923584
+      },
+      {
+        "id": "https://openalex.org/keywords/drug-resistance",
+        "display_name": "Drug resistance",
+        "score": 0.4568740427494049
+      },
+      {
+        "id": "https://openalex.org/keywords/group",
+        "display_name": "Group (periodic table)",
+        "score": 0.41883665323257446
+      },
+      {
+        "id": "https://openalex.org/keywords/medicine",
+        "display_name": "Medicine",
+        "score": 0.3767487406730652
+      },
+      {
+        "id": "https://openalex.org/keywords/bioinformatics",
+        "display_name": "Bioinformatics",
+        "score": 0.3657163679599762
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.29311293363571167
+      },
+      {
+        "id": "https://openalex.org/keywords/genetics",
+        "display_name": "Genetics",
+        "score": 0.21111726760864258
+      },
+      {
+        "id": "https://openalex.org/keywords/pharmacology",
+        "display_name": "Pharmacology",
+        "score": 0.21014782786369324
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.1508866250514984
+      },
+      {
+        "id": "https://openalex.org/keywords/chemistry",
+        "display_name": "Chemistry",
+        "score": 0.15088623762130737
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C142853389",
+        "wikidata": "https://www.wikidata.org/wiki/Q744778",
+        "display_name": "Association (psychology)",
+        "level": 2,
+        "score": 0.5650043487548828
+      },
+      {
+        "id": "https://openalex.org/C2780035454",
+        "wikidata": "https://www.wikidata.org/wiki/Q8386",
+        "display_name": "Drug",
+        "level": 2,
+        "score": 0.5404293537139893
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.48558586835861206
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.4648282527923584
+      },
+      {
+        "id": "https://openalex.org/C114851261",
+        "wikidata": "https://www.wikidata.org/wiki/Q12147416",
+        "display_name": "Drug resistance",
+        "level": 2,
+        "score": 0.4568740427494049
+      },
+      {
+        "id": "https://openalex.org/C2781311116",
+        "wikidata": "https://www.wikidata.org/wiki/Q83306",
+        "display_name": "Group (periodic table)",
+        "level": 2,
+        "score": 0.41883665323257446
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.3767487406730652
+      },
+      {
+        "id": "https://openalex.org/C60644358",
+        "wikidata": "https://www.wikidata.org/wiki/Q128570",
+        "display_name": "Bioinformatics",
+        "level": 1,
+        "score": 0.3657163679599762
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.29311293363571167
+      },
+      {
+        "id": "https://openalex.org/C54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "level": 1,
+        "score": 0.21111726760864258
+      },
+      {
+        "id": "https://openalex.org/C98274493",
+        "wikidata": "https://www.wikidata.org/wiki/Q128406",
+        "display_name": "Pharmacology",
+        "level": 1,
+        "score": 0.21014782786369324
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.1508866250514984
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.15088623762130737
+      },
+      {
+        "id": "https://openalex.org/C542102704",
+        "wikidata": "https://www.wikidata.org/wiki/Q183257",
+        "display_name": "Psychotherapist",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C178790620",
+        "wikidata": "https://www.wikidata.org/wiki/Q11351",
+        "display_name": "Organic chemistry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D000069550",
+        "descriptor_name": "Machine Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009169",
+        "descriptor_name": "Mycobacterium tuberculosis",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009169",
+        "descriptor_name": "Mycobacterium tuberculosis",
+        "qualifier_ui": "Q000187",
+        "qualifier_name": "drug effects",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009169",
+        "descriptor_name": "Mycobacterium tuberculosis",
+        "qualifier_ui": "Q000302",
+        "qualifier_name": "isolation & purification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D024901",
+        "descriptor_name": "Drug Resistance, Multiple, Bacterial",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D013211",
+        "descriptor_name": "Staphylococcus aureus",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D013211",
+        "descriptor_name": "Staphylococcus aureus",
+        "qualifier_ui": "Q000187",
+        "qualifier_name": "drug effects",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D013211",
+        "descriptor_name": "Staphylococcus aureus",
+        "qualifier_ui": "Q000302",
+        "qualifier_name": "isolation & purification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008826",
+        "descriptor_name": "Microbial Sensitivity Tests",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000995",
+        "descriptor_name": "Antitubercular Agents",
+        "qualifier_ui": "Q000494",
+        "qualifier_name": "pharmacology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009154",
+        "descriptor_name": "Mutation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018088",
+        "descriptor_name": "Tuberculosis, Multidrug-Resistant",
+        "qualifier_ui": "Q000382",
+        "qualifier_name": "microbiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018088",
+        "descriptor_name": "Tuberculosis, Multidrug-Resistant",
+        "qualifier_ui": "Q000175",
+        "qualifier_name": "diagnosis",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018088",
+        "descriptor_name": "Tuberculosis, Multidrug-Resistant",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005838",
+        "descriptor_name": "Genotype",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000069550",
+        "descriptor_name": "Machine Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009169",
+        "descriptor_name": "Mycobacterium tuberculosis",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009169",
+        "descriptor_name": "Mycobacterium tuberculosis",
+        "qualifier_ui": "Q000187",
+        "qualifier_name": "drug effects",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009169",
+        "descriptor_name": "Mycobacterium tuberculosis",
+        "qualifier_ui": "Q000302",
+        "qualifier_name": "isolation & purification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D024901",
+        "descriptor_name": "Drug Resistance, Multiple, Bacterial",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D013211",
+        "descriptor_name": "Staphylococcus aureus",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D013211",
+        "descriptor_name": "Staphylococcus aureus",
+        "qualifier_ui": "Q000187",
+        "qualifier_name": "drug effects",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D013211",
+        "descriptor_name": "Staphylococcus aureus",
+        "qualifier_ui": "Q000302",
+        "qualifier_name": "isolation & purification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008826",
+        "descriptor_name": "Microbial Sensitivity Tests",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000995",
+        "descriptor_name": "Antitubercular Agents",
+        "qualifier_ui": "Q000494",
+        "qualifier_name": "pharmacology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009154",
+        "descriptor_name": "Mutation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018088",
+        "descriptor_name": "Tuberculosis, Multidrug-Resistant",
+        "qualifier_ui": "Q000382",
+        "qualifier_name": "microbiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018088",
+        "descriptor_name": "Tuberculosis, Multidrug-Resistant",
+        "qualifier_ui": "Q000175",
+        "qualifier_name": "diagnosis",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018088",
+        "descriptor_name": "Tuberculosis, Multidrug-Resistant",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005838",
+        "descriptor_name": "Genotype",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000069550",
+        "descriptor_name": "Machine Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009169",
+        "descriptor_name": "Mycobacterium tuberculosis",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009169",
+        "descriptor_name": "Mycobacterium tuberculosis",
+        "qualifier_ui": "Q000187",
+        "qualifier_name": "drug effects",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009169",
+        "descriptor_name": "Mycobacterium tuberculosis",
+        "qualifier_ui": "Q000302",
+        "qualifier_name": "isolation & purification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D024901",
+        "descriptor_name": "Drug Resistance, Multiple, Bacterial",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D013211",
+        "descriptor_name": "Staphylococcus aureus",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D013211",
+        "descriptor_name": "Staphylococcus aureus",
+        "qualifier_ui": "Q000187",
+        "qualifier_name": "drug effects",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D013211",
+        "descriptor_name": "Staphylococcus aureus",
+        "qualifier_ui": "Q000302",
+        "qualifier_name": "isolation & purification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008826",
+        "descriptor_name": "Microbial Sensitivity Tests",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000995",
+        "descriptor_name": "Antitubercular Agents",
+        "qualifier_ui": "Q000494",
+        "qualifier_name": "pharmacology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009154",
+        "descriptor_name": "Mutation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018088",
+        "descriptor_name": "Tuberculosis, Multidrug-Resistant",
+        "qualifier_ui": "Q000382",
+        "qualifier_name": "microbiology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018088",
+        "descriptor_name": "Tuberculosis, Multidrug-Resistant",
+        "qualifier_ui": "Q000175",
+        "qualifier_name": "diagnosis",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018088",
+        "descriptor_name": "Tuberculosis, Multidrug-Resistant",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005838",
+        "descriptor_name": "Genotype",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000069550",
+        "descriptor_name": "Machine Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009169",
+        "descriptor_name": "Mycobacterium tuberculosis",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009169",
+        "descriptor_name": "Mycobacterium tuberculosis",
+        "qualifier_ui": "Q000187",
+        "qualifier_name": "drug effects",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D009169",
+        "descriptor_name": "Mycobacterium tuberculosis",
+        "qualifier_ui": "Q000302",
+        "qualifier_name": "isolation & purification",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D013211",
+        "descriptor_name": "Staphylococcus aureus",
+        "qualifier_ui": "Q000187",
+        "qualifier_name": "drug effects",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D013211",
+        "descriptor_name": "Staphylococcus aureus",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D013211",
+        "descriptor_name": "Staphylococcus aureus",
+        "qualifier_ui": "Q000302",
+        "qualifier_name": "isolation & purification",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D024901",
+        "descriptor_name": "Drug Resistance, Multiple, Bacterial",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D018088",
+        "descriptor_name": "Tuberculosis, Multidrug-Resistant",
+        "qualifier_ui": "Q000175",
+        "qualifier_name": "diagnosis",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D018088",
+        "descriptor_name": "Tuberculosis, Multidrug-Resistant",
+        "qualifier_ui": "Q000382",
+        "qualifier_name": "microbiology",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D018088",
+        "descriptor_name": "Tuberculosis, Multidrug-Resistant",
+        "qualifier_ui": "Q000188",
+        "qualifier_name": "drug therapy",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008826",
+        "descriptor_name": "Microbial Sensitivity Tests",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000995",
+        "descriptor_name": "Antitubercular Agents",
+        "qualifier_ui": "Q000494",
+        "qualifier_name": "pharmacology",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D009154",
+        "descriptor_name": "Mutation",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005838",
+        "descriptor_name": "Genotype",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1038/s41467-025-58214-6",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41467-025-58214-6",
+        "pdf_url": "https://www.nature.com/articles/s41467-025-58214-6.pdf",
+        "source": {
+          "id": "https://openalex.org/S64187185",
+          "display_name": "Nature Communications",
+          "issn_l": "2041-1723",
+          "issn": [
+            "2041-1723"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Communications",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:40133304",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40133304",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature communications",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:d618f377e36a46e68df8e0d1f5c8ff7a",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/d618f377e36a46e68df8e0d1f5c8ff7a",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Nature Communications, Vol 16, Iss 1, Pp 1-15 (2025)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11937555",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11937555",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Nat Commun",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1038/s41467-025-58214-6",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41467-025-58214-6",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-58214-6.pdf",
+      "source": {
+        "id": "https://openalex.org/S64187185",
+        "display_name": "Nature Communications",
+        "issn_l": "2041-1723",
+        "issn": [
+          "2041-1723"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Communications",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 54,
+    "referenced_works": [
+      "https://openalex.org/W2038014125",
+      "https://openalex.org/W2132911648",
+      "https://openalex.org/W2001330064",
+      "https://openalex.org/W2000152285",
+      "https://openalex.org/W3023829309",
+      "https://openalex.org/W2096305028",
+      "https://openalex.org/W2032866129",
+      "https://openalex.org/W2101478678",
+      "https://openalex.org/W2963643844",
+      "https://openalex.org/W2114323119",
+      "https://openalex.org/W2100866721",
+      "https://openalex.org/W2167903799",
+      "https://openalex.org/W1980108230",
+      "https://openalex.org/W2072244058",
+      "https://openalex.org/W3135347357",
+      "https://openalex.org/W2794044688",
+      "https://openalex.org/W2132102084",
+      "https://openalex.org/W4327857952",
+      "https://openalex.org/W2237956683",
+      "https://openalex.org/W2783758534",
+      "https://openalex.org/W2943862789",
+      "https://openalex.org/W2944469658",
+      "https://openalex.org/W2896692834",
+      "https://openalex.org/W2284576719",
+      "https://openalex.org/W1863711781",
+      "https://openalex.org/W3134275180",
+      "https://openalex.org/W4291019294",
+      "https://openalex.org/W2802784998",
+      "https://openalex.org/W3201794479",
+      "https://openalex.org/W2117878380",
+      "https://openalex.org/W2885582440",
+      "https://openalex.org/W4291020280",
+      "https://openalex.org/W2803135786",
+      "https://openalex.org/W2640700626",
+      "https://openalex.org/W2892371225",
+      "https://openalex.org/W2140586560",
+      "https://openalex.org/W3005910971",
+      "https://openalex.org/W2025299343",
+      "https://openalex.org/W2928080709",
+      "https://openalex.org/W3017142950",
+      "https://openalex.org/W2903909400",
+      "https://openalex.org/W2779510789",
+      "https://openalex.org/W3145703097",
+      "https://openalex.org/W2319149979",
+      "https://openalex.org/W3088485734",
+      "https://openalex.org/W1932997009",
+      "https://openalex.org/W1989425393",
+      "https://openalex.org/W4384408513",
+      "https://openalex.org/W2964872967",
+      "https://openalex.org/W2972130793",
+      "https://openalex.org/W2116105908",
+      "https://openalex.org/W2152915987",
+      "https://openalex.org/W2079927753",
+      "https://openalex.org/W6976904548"
+    ],
+    "related_works": [
+      "https://openalex.org/W2352440174",
+      "https://openalex.org/W4309440960",
+      "https://openalex.org/W2062168445",
+      "https://openalex.org/W2348940229",
+      "https://openalex.org/W4206379684",
+      "https://openalex.org/W2363046693",
+      "https://openalex.org/W2389491697",
+      "https://openalex.org/W4301044699",
+      "https://openalex.org/W2067476155",
+      "https://openalex.org/W2086452998"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2025-12-19T19:40:27.379048",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2025-12-30T03:30:18Z",
+      "timestamp": 1767065418877,
+      "version": "3.40.3"
+    },
+    "reference-count": 60,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              25
+            ]
+          ],
+          "date-time": "2025-03-25T00:00:00Z",
+          "timestamp": 1742860800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              25
+            ]
+          ],
+          "date-time": "2025-03-25T00:00:00Z",
+          "timestamp": 1742860800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat Commun"
+    ],
+    "DOI": "10.1038/s41467-025-58214-6",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          26
+        ]
+      ],
+      "date-time": "2025-03-26T03:44:35Z",
+      "timestamp": 1742960675000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Enhanced diagnosis of multi-drug-resistant microbes using group association modeling and machine learning"
+    ],
+    "prefix": "10.1038",
+    "volume": "16",
+    "author": [
+      {
+        "given": "Julian G.",
+        "family": "Saliba",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6726-1326",
+        "authenticated-orcid": false,
+        "given": "Wenshu",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Qingbo",
+        "family": "Shu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0180-7052",
+        "authenticated-orcid": false,
+        "given": "Liqiang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Chi",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yi",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christopher J.",
+        "family": "Lyon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jiuxin",
+        "family": "Qu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4295-4262",
+        "authenticated-orcid": false,
+        "given": "Hairong",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Binwu",
+        "family": "Ying",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7255-5409",
+        "authenticated-orcid": false,
+        "given": "Tony Ye",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "58214_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1050",
+        "DOI": "10.1126/science.257.5073.1050",
+        "volume": "257",
+        "author": "ML Cohen",
+        "year": "1992",
+        "unstructured": "Cohen, M. L. Epidemiology of drug resistance: implications for a post-antimicrobial era. Science 257, 1050–1055 (1992).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "58214_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "697",
+        "DOI": "10.1016/j.arcmed.2005.06.009",
+        "volume": "36",
+        "author": "AJ Alanis",
+        "year": "2005",
+        "unstructured": "Alanis, A. J. Resistance to antibiotics: are we in the post-antibiotic era? Arch. Med. Res. 36, 697–705 (2005).",
+        "journal-title": "Arch. Med. Res."
+      },
+      {
+        "key": "58214_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "145",
+        "DOI": "10.3389/fpubh.2014.00145",
+        "volume": "2",
+        "author": "CA Michael",
+        "year": "2014",
+        "unstructured": "Michael, C. A., Dominey-Howes, D. & Labbate, M. The antimicrobial resistance crisis: causes, consequences, and management. Front. Public. Health 2, 145 (2014).",
+        "journal-title": "Front. Public. Health"
+      },
+      {
+        "key": "58214_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "742",
+        "DOI": "10.1007/s000180050021",
+        "volume": "56",
+        "author": "D Mazel",
+        "year": "1999",
+        "unstructured": "Mazel, D. & Davies, J. Antibiotic resistance in microbes. Cell. Mol. Life Sci. 56, 742–754 (1999).",
+        "journal-title": "Cell. Mol. Life Sci."
+      },
+      {
+        "key": "58214_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0232343",
+        "DOI": "10.1371/journal.pone.0232343",
+        "volume": "15",
+        "author": "M Rowneki",
+        "year": "2020",
+        "unstructured": "Rowneki, M. et al. Detection of drug resistant Mycobacterium tuberculosis by high-throughput sequencing of DNA isolated from acid fast bacilli smears. PLoS One 15, e0232343 (2020).",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "58214_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "2169",
+        "DOI": "10.1128/JCM.36.8.2169-2172.1998",
+        "volume": "36",
+        "author": "MG Bergeron",
+        "year": "1998",
+        "unstructured": "Bergeron, M. G. & Ouellette, M. Preventing antibiotic resistance through rapid genotypic identification of bacteria and of their antibiotic resistance genes in the clinical microbiology laboratory. J. Clin. Microbiol. 36, 2169–2172 (1998).",
+        "journal-title": "J. Clin. Microbiol."
+      },
+      {
+        "key": "58214_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "601",
+        "DOI": "10.1038/nrg3226",
+        "volume": "13",
+        "author": "X Didelot",
+        "year": "2012",
+        "unstructured": "Didelot, X., Bowden, R., Wilson, D. J., Peto, T. E. A. & Crook, D. W. Transforming clinical microbiology with bacterial genome sequencing. Nat. Rev. Genet. 13, 601–612 (2012).",
+        "journal-title": "Nat. Rev. Genet."
+      },
+      {
+        "key": "58214_CR8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13073-015-0164-0",
+        "volume": "7",
+        "author": "F Coll",
+        "year": "2015",
+        "unstructured": "Coll, F. et al. Rapid determination of anti-tuberculosis drug resistance from whole-genome sequences. Genome Med. 7, 51 (2015).",
+        "journal-title": "Genome Med."
+      },
+      {
+        "key": "58214_CR9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13073-019-0660-8",
+        "volume": "11",
+        "author": "KA Cohen",
+        "year": "2019",
+        "unstructured": "Cohen, K. A., Manson, A. L., Desjardins, C. A., Abeel, T. & Earl, A. M. Deciphering drug resistance in Mycobacterium tuberculosis using whole-genome sequencing: progress, promise, and challenges. Genome Med. 11, 45 (2019).",
+        "journal-title": "Genome Med."
+      },
+      {
+        "key": "58214_CR10",
+        "unstructured": "World Health Organization. Technical Report on Critical Concentrations for TB Drug Susceptibility Testing of Medicines Used in the Treatment of Drug-Resistant TB (World Health Organization, 2018)."
+      },
+      {
+        "key": "58214_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "1473",
+        "DOI": "10.1128/JCM.02993-14",
+        "volume": "53",
+        "author": "AA Witney",
+        "year": "2015",
+        "unstructured": "Witney, A. A. et al. Clinical application of whole-genome sequencing to inform treatment for multidrug-resistant tuberculosis cases. J. Clin. Microbiol. 53, 1473–1483 (2015).",
+        "journal-title": "J. Clin. Microbiol."
+      },
+      {
+        "key": "58214_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "375681",
+        "DOI": "10.1155/2014/375681",
+        "volume": "2014",
+        "author": "H Frickmann",
+        "year": "2014",
+        "unstructured": "Frickmann, H., Masanta, W. O. & Zautner, A. E. Emerging rapid resistance testing methods for clinical microbiology laboratories and their potential impact on patient management. Biomed. Res. Int. 2014, 375681 (2014).",
+        "journal-title": "Biomed. Res. Int."
+      },
+      {
+        "key": "58214_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "337",
+        "DOI": "10.1016/S1473-3099(04)01044-8",
+        "volume": "4",
+        "author": "S Yang",
+        "year": "2004",
+        "unstructured": "Yang, S. & Rothman, R. E. PCR-based diagnostics for infectious diseases: uses, limitations, and future applications in acute-care settings. Lancet Infect. Dis. 4, 337–348 (2004).",
+        "journal-title": "Lancet Infect. Dis."
+      },
+      {
+        "key": "58214_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "317",
+        "DOI": "10.3390/antibiotics3030317",
+        "volume": "3",
+        "author": "JC Palomino",
+        "year": "2014",
+        "unstructured": "Palomino, J. C. & Martin, A. Drug Resistance Mechanisms in Mycobacterium tuberculosis. Antibiotics 3, 317–340 (2014).",
+        "journal-title": "Antibiotics"
+      },
+      {
+        "key": "58214_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "160",
+        "DOI": "10.1016/j.tig.2012.11.005",
+        "volume": "29",
+        "author": "B Muller",
+        "year": "2013",
+        "unstructured": "Muller, B., Borrell, S., Rose, G. & Gagneux, S. The heterogeneous evolution of multidrug-resistant Mycobacterium tuberculosis. Trends Genet. 29, 160–169 (2013).",
+        "journal-title": "Trends Genet."
+      },
+      {
+        "key": "58214_CR16",
+        "unstructured": "World Health Organization. Global Tuberculosis Report 2022 (World Health Organization, 2022)."
+      },
+      {
+        "key": "58214_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "272",
+        "DOI": "10.3390/antibiotics10030272",
+        "volume": "10",
+        "author": "F Di Gennaro",
+        "year": "2021",
+        "unstructured": "Di Gennaro, F. et al. Increase in Tuberculosis Diagnostic Delay during First Wave of the COVID-19 Pandemic: Data from an Italian Infectious Disease Referral Hospital. Antibiotics 10, 272 (2021).",
+        "journal-title": "Antibiotics"
+      },
+      {
+        "key": "58214_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "1138",
+        "DOI": "10.1093/jac/dkx506",
+        "volume": "73",
+        "author": "N Dookie",
+        "year": "2018",
+        "unstructured": "Dookie, N., Rambaran, S., Padayatchi, N., Mahomed, S. & Naidoo, K. Evolution of drug resistance in Mycobacterium tuberculosis: a review on the molecular determinants of resistance and implications for personalized care. J. Antimicrob. Chemother. 73, 1138–1151 (2018).",
+        "journal-title": "J. Antimicrob. Chemother."
+      },
+      {
+        "key": "58214_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "195",
+        "DOI": "10.3201/eid0402.980207",
+        "volume": "4",
+        "author": "A Rattan",
+        "year": "1998",
+        "unstructured": "Rattan, A., Kalia, A. & Ahmad, N. Multidrug-resistant Mycobacterium tuberculosis: molecular perspectives. Emerg. Infect. Dis. 4, 195–209 (1998).",
+        "journal-title": "Emerg. Infect. Dis."
+      },
+      {
+        "key": "58214_CR20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-023-37184-7",
+        "volume": "14",
+        "author": "NJE Waller",
+        "year": "2023",
+        "unstructured": "Waller, N. J. E., Cheung, C. Y., Cook, G. M. & McNeil, M. B. The evolution of antibiotic resistance is associated with collateral drug phenotypes in Mycobacterium tuberculosis. Nat. Commun. 14, 1517 (2023).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "58214_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "16041",
+        "DOI": "10.1038/nmicrobiol.2016.41",
+        "volume": "1",
+        "author": "SG Earle",
+        "year": "2016",
+        "unstructured": "Earle, S. G. et al. Identifying lineage effects when controlling for population structure improves power in bacterial association studies. Nat. Microbiol. 1, 16041 (2016).",
+        "journal-title": "Nat. Microbiol."
+      },
+      {
+        "key": "58214_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "307",
+        "DOI": "10.1038/s41588-017-0029-0",
+        "volume": "50",
+        "author": "F Coll",
+        "year": "2018",
+        "unstructured": "Coll, F. et al. Genome-wide analysis of multi- and extensively drug-resistant Mycobacterium tuberculosis. Nat. Genet. 50, 307–316 (2018).",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "58214_CR23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-10110-6",
+        "volume": "10",
+        "author": "MR Farhat",
+        "year": "2019",
+        "unstructured": "Farhat, M. R. et al. GWAS for quantitative resistance phenotypes in Mycobacterium tuberculosis reveals resistance genes and regulatory regions. Nat. Commun. 10, 2128 (2019).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "58214_CR24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12864-019-5615-3",
+        "volume": "20",
+        "author": "YEA Oppong",
+        "year": "2019",
+        "unstructured": "Oppong, Y. E. A. et al. Genome-wide analysis of Mycobacterium tuberculosis polymorphisms reveals lineage-specific associations with drug resistance. BMC Genomics 20, 252 (2019).",
+        "journal-title": "BMC Genomics"
+      },
+      {
+        "key": "58214_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "405",
+        "DOI": "10.1093/cid/ciy883",
+        "volume": "69",
+        "author": "H Huang",
+        "year": "2019",
+        "unstructured": "Huang, H. et al. Cross-sectional Whole-genome Sequencing and Epidemiological Study of Multidrug-resistant Mycobacterium tuberculosis in China. Clin. Infect. Dis. 69, 405–413 (2019).",
+        "journal-title": "Clin. Infect. Dis."
+      },
+      {
+        "key": "58214_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "621",
+        "DOI": "10.1164/rccm.201510-2091OC",
+        "volume": "194",
+        "author": "MR Farhat",
+        "year": "2016",
+        "unstructured": "Farhat, M. R. et al. Genetic Determinants of Drug Resistance in Mycobacterium tuberculosis and Their Diagnostic Value. Am. J. Respir. Crit. Care Med 194, 621–630 (2016).",
+        "journal-title": "Am. J. Respir. Crit. Care Med"
+      },
+      {
+        "key": "58214_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "1193",
+        "DOI": "10.1016/S1473-3099(15)00062-6",
+        "volume": "15",
+        "author": "TM Walker",
+        "year": "2015",
+        "unstructured": "Walker, T. M. et al. Whole-genome sequencing for prediction of Mycobacterium tuberculosis drug susceptibility and resistance: a retrospective cohort study. Lancet Infect. Dis. 15, 1193–1202 (2015).",
+        "journal-title": "Lancet Infect. Dis."
+      },
+      {
+        "key": "58214_CR28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13073-021-00857-3",
+        "volume": "13",
+        "author": "S Rao",
+        "year": "2021",
+        "unstructured": "Rao, S., Yao, Y. & Bauer, D. E. Editing GWAS: experimental approaches to dissect and exploit disease-associated genetic variation. Genome Med. 13, 41 (2021).",
+        "journal-title": "Genome Med."
+      },
+      {
+        "key": "58214_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "The CRyPTIC Consortium. Genome-wide association studies of global Mycobacterium tuberculosis resistance to 13 antimicrobials in 10,228 genomes identify new resistance mechanisms. PLoS Biol. 20, e3001755 (2022).",
+        "DOI": "10.1371/journal.pbio.3001755"
+      },
+      {
+        "key": "58214_CR30",
+        "unstructured": "WHO. WHO announces updated definitons of extensively drug-resistant tuberculosis (WHO, 2021)."
+      },
+      {
+        "key": "58214_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "504",
+        "DOI": "10.1016/j.tig.2018.03.005",
+        "volume": "34",
+        "author": "UM Marigorta",
+        "year": "2018",
+        "unstructured": "Marigorta, U. M., Rodriguez, J. A., Gibson, G. & Navarro, A. Replicability and Prediction: Lessons and Challenges from GWAS. Trends Genet. 34, 504–517 (2018).",
+        "journal-title": "Trends Genet."
+      },
+      {
+        "key": "58214_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1007/s00281-021-00894-5",
+        "volume": "44",
+        "author": "K Ishigaki",
+        "year": "2022",
+        "unstructured": "Ishigaki, K. Beyond GWAS: from simple associations to functional insights. Semin. Immunopathol. 44, 3–14 (2022).",
+        "journal-title": "Semin. Immunopathol."
+      },
+      {
+        "key": "58214_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "93",
+        "DOI": "10.3389/fgene.2013.00093",
+        "volume": "4",
+        "author": "X Shen",
+        "year": "2013",
+        "unstructured": "Shen, X. & Carlborg, O. Beware of risk for increased false positive rates in genome-wide association studies for phenotypic variability. Front. Genet. 4, 93 (2013).",
+        "journal-title": "Front. Genet."
+      },
+      {
+        "key": "58214_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "971",
+        "DOI": "10.1038/s41564-018-0226-3",
+        "volume": "3",
+        "author": "T Dick",
+        "year": "2018",
+        "unstructured": "Dick, T. & Dartois, V. TB drug susceptibility is more than MIC. Nat. Microbiol. 3, 971–972 (2018).",
+        "journal-title": "Nat. Microbiol."
+      },
+      {
+        "key": "58214_CR35",
+        "unstructured": "World Health Organization. Catalogue of Mutations in Mycobacterium Tuberculosis Complex and Their Association with Drug Resistance (World Health Organization, 2021)."
+      },
+      {
+        "key": "58214_CR36",
+        "unstructured": "World Health Organization. Catalogue of Mutations in Mycobacterium Tuberculosis Complex and Their Association with Drug Resistance Second Edition (World Health Organization, 2023)."
+      },
+      {
+        "key": "58214_CR37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "The CRyPTIC Consortium. A data compendium associating the genomes of 12,289 Mycobacterium tuberculosis isolates with quantitative resistance phenotypes to 13 antibiotics. PLoS Biol 20, e3001721 (2022).",
+        "DOI": "10.1371/journal.pbio.3001721"
+      },
+      {
+        "key": "58214_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "22",
+        "DOI": "10.1186/s12866-018-1168-x",
+        "volume": "18",
+        "author": "J Isakova",
+        "year": "2018",
+        "unstructured": "Isakova, J. et al. Mutations of rpoB, katG, inhA and ahp genes in rifampicin and isoniazid-resistant Mycobacterium tuberculosis in Kyrgyz Republic. BMC Microbiol. 18, 22 (2018).",
+        "journal-title": "BMC Microbiol."
+      },
+      {
+        "key": "58214_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "19",
+        "DOI": "10.1016/j.jctube.2017.06.001",
+        "volume": "8",
+        "author": "M Muthaiah",
+        "year": "2017",
+        "unstructured": "Muthaiah, M. et al. Prevalence of mutations in genes associated with rifampicin and isoniazid resistance in Mycobacterium tuberculosis clinical isolates. J. Clin. Tuberc. Other Mycobact. Dis. 8, 19–25 (2017).",
+        "journal-title": "J. Clin. Tuberc. Other Mycobact. Dis."
+      },
+      {
+        "key": "58214_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "1098",
+        "DOI": "10.1111/resp.13393",
+        "volume": "23",
+        "author": "P Miotto",
+        "year": "2018",
+        "unstructured": "Miotto, P., Zhang, Y., Cirillo, D. M. & Yam, W. C. Drug resistance mechanisms and drug susceptibility testing for tuberculosis. Respirology 23, 1098–1113 (2018).",
+        "journal-title": "Respirology"
+      },
+      {
+        "key": "58214_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "3799",
+        "DOI": "10.1128/AAC.47.12.3799-3805.2003",
+        "volume": "47",
+        "author": "GP Morlock",
+        "year": "2003",
+        "unstructured": "Morlock, G. P., Metchock, B., Sikes, D., Crawford, J. T. & Cooksey, R. C. ethA, inhA, and katG loci of ethionamide-resistant clinical Mycobacterium tuberculosis isolates. Antimicrob. Agents Chemother. 47, 3799–3805 (2003).",
+        "journal-title": "Antimicrob. Agents Chemother."
+      },
+      {
+        "key": "58214_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "13",
+        "DOI": "10.3389/fmolb.2020.00013",
+        "volume": "7",
+        "author": "D Medina-Ortiz",
+        "year": "2020",
+        "unstructured": "Medina-Ortiz, D., Contreras, S., Quiroz, C. & Olivera-Nappa, A. Development of Supervised Learning Predictive Models for Highly Non-linear Biological, Biomedical, and General Datasets. Front. Mol. Biosci. 7, 13 (2020).",
+        "journal-title": "Front. Mol. Biosci."
+      },
+      {
+        "key": "58214_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "72",
+        "DOI": "10.1016/S0958-1669(02)00288-4",
+        "volume": "13",
+        "author": "JS Almeida",
+        "year": "2002",
+        "unstructured": "Almeida, J. S. Predictive non-linear modeling of complex data by artificial neural networks. Curr. Opin. Biotechnol. 13, 72–76 (2002).",
+        "journal-title": "Curr. Opin. Biotechnol."
+      },
+      {
+        "key": "58214_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "3240",
+        "DOI": "10.1093/bioinformatics/btz067",
+        "volume": "35",
+        "author": "Y Yang",
+        "year": "2019",
+        "unstructured": "Yang, Y. et al. DeepAMR for predicting co-occurrent resistance of Mycobacterium tuberculosis. Bioinformatics 35, 3240–3249 (2019).",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "58214_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "103761",
+        "DOI": "10.1016/j.compbiomed.2020.103761",
+        "volume": "121",
+        "author": "B Ma",
+        "year": "2020",
+        "unstructured": "Ma, B. et al. Diagnostic classification of cancers using extreme gradient boosting algorithm and multi-omics data. Comput. Biol. Med. 121, 103761 (2020).",
+        "journal-title": "Comput. Biol. Med."
+      },
+      {
+        "key": "58214_CR46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1006258",
+        "volume": "14",
+        "author": "D Moradigaravand",
+        "year": "2018",
+        "unstructured": "Moradigaravand, D. et al. Prediction of antibiotic resistance in Escherichia coli from large-scale pan-genome data. PLoS Comput. Biol. 14, e1006258 (2018).",
+        "journal-title": "PLoS Comput. Biol."
+      },
+      {
+        "key": "58214_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "1701354",
+        "DOI": "10.1183/13993003.01354-2017",
+        "volume": "50",
+        "author": "P Miotto",
+        "year": "2017",
+        "unstructured": "Miotto, P. et al. A standardised method for interpreting the association between mutations and phenotypic drug resistance in Mycobacterium tuberculosis. Eur. Respir. J. 50, 1701354 (2017).",
+        "journal-title": "Eur. Respir. J."
+      },
+      {
+        "key": "58214_CR48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1128/mBio.03333-20",
+        "volume": "12",
+        "author": "H Carolus",
+        "year": "2021",
+        "unstructured": "Carolus, H. et al. Genome-Wide Analysis of Experimentally Evolved Candida auris Reveals Multiple Novel Mechanisms of Multidrug Resistance. mBio 12, e03333-20 (2021).",
+        "journal-title": "mBio"
+      },
+      {
+        "key": "58214_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "16020",
+        "DOI": "10.1038/nmicrobiol.2016.20",
+        "volume": "1",
+        "author": "B Van den Bergh",
+        "year": "2016",
+        "unstructured": "Van den Bergh, B. et al. Frequency of antibiotic application drives rapid evolutionary adaptation of Escherichia coli persistence. Nat. Microbiol. 1, 16020 (2016).",
+        "journal-title": "Nat. Microbiol."
+      },
+      {
+        "key": "58214_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "1659",
+        "DOI": "10.3390/plants9121659",
+        "volume": "9",
+        "author": "X Liu",
+        "year": "2020",
+        "unstructured": "Liu, X. et al. Identification of Novel Loci and Candidate Genes for Cucumber Downy Mildew Resistance Using GWAS. Plants 9, 1659 (2020).",
+        "journal-title": "Plants"
+      },
+      {
+        "key": "58214_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "1957",
+        "DOI": "10.1007/s00122-015-2559-0",
+        "volume": "128",
+        "author": "M Gowda",
+        "year": "2015",
+        "unstructured": "Gowda, M. et al. Genome-wide association and genomic prediction of resistance to maize lethal necrosis disease in tropical maize germplasm. Theor. Appl. Genet. 128, 1957–1968 (2015).",
+        "journal-title": "Theor. Appl. Genet."
+      },
+      {
+        "key": "58214_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "1190",
+        "DOI": "10.1038/ng.2743",
+        "volume": "45",
+        "author": "H Safi",
+        "year": "2013",
+        "unstructured": "Safi, H. et al. Evolution of high-level ethambutol-resistant tuberculosis through interacting mutations in decaprenylphosphoryl-beta-D-arabinose biosynthetic and utilization pathway genes. Nat. Genet. 45, 1190–1197 (2013).",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "58214_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "116025",
+        "DOI": "10.1016/j.diagmicrobio.2023.116025",
+        "volume": "107",
+        "author": "Y Lin",
+        "year": "2023",
+        "unstructured": "Lin, Y. et al. Comparative performance of microbiological methods for the detection of tuberculous meningitis pathogens in cerebrospinal fluid. Diagn. Microbiol. Infect. Dis. 107, 116025 (2023).",
+        "journal-title": "Diagn. Microbiol. Infect. Dis."
+      },
+      {
+        "key": "58214_CR54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s12864-019-5992-7",
+        "volume": "20",
+        "author": "AS Kaler",
+        "year": "2019",
+        "unstructured": "Kaler, A. S. & Purcell, L. C. Estimation of a significance threshold for genome-wide association studies. BMC Genomics 20, 618 (2019).",
+        "journal-title": "BMC Genomics"
+      },
+      {
+        "key": "58214_CR55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wheeler, N. E., et al. Contrasting approaches to genome-wide association studies impact the detection of resistance mechanisms in Staphylococcus aureus. bioRxiv, https://www.biorxiv.org/content/10.1101/758144v1 (2019).",
+        "DOI": "10.1101/758144"
+      },
+      {
+        "key": "58214_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "11",
+        "DOI": "10.1128/AAC.01209-13",
+        "volume": "58",
+        "author": "J Lee",
+        "year": "2014",
+        "unstructured": "Lee, J. et al. Sensititre MYCOTB MIC plate for testing Mycobacterium tuberculosis susceptibility to first- and second-line drugs. Antimicrob. Agents Chemother. 58, 11–18 (2014).",
+        "journal-title": "Antimicrob. Agents Chemother."
+      },
+      {
+        "key": "58214_CR57",
+        "doi-asserted-by": "publisher",
+        "first-page": "2996",
+        "DOI": "10.1128/JCM.43.6.2996-2997.2005",
+        "volume": "43",
+        "author": "W Somerville",
+        "year": "2005",
+        "unstructured": "Somerville, W., Thibert, L., Schwartzman, K. & Behr, M. A. Extraction of Mycobacterium tuberculosis DNA: a question of containment. J. Clin. Microbiol. 43, 2996–2997 (2005).",
+        "journal-title": "J. Clin. Microbiol."
+      },
+      {
+        "key": "58214_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "833",
+        "DOI": "10.1038/nmeth.1681",
+        "volume": "8",
+        "author": "C Lippert",
+        "year": "2011",
+        "unstructured": "Lippert, C. et al. FaST linear mixed models for genome-wide association studies. Nat. Methods 8, 833–835 (2011).",
+        "journal-title": "Nat. Methods"
+      },
+      {
+        "key": "58214_CR59",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Saliba, J. Enhanced diagnosis of multi-drug-resistant microbes using group association modeling and machine learning. Figshare, https://doi.org/10.6084/m9.figshare.28191398 (2025).",
+        "DOI": "10.6084/m9.figshare.28191398"
+      },
+      {
+        "key": "58214_CR60",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Saliba, J. Enhanced diagnosis of multi-drug-resistant microbes using group association modeling and machine learning. Zenodo, https://doi.org/10.5281/zenodo.14975407 (2025).",
+        "DOI": "10.5281/zenodo.14975407"
+      }
+    ],
+    "container-title": [
+      "Nature Communications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41467-025-58214-6.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-025-58214-6",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-025-58214-6.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          30
+        ]
+      ],
+      "date-time": "2025-03-30T05:55:44Z",
+      "timestamp": 1743314144000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41467-025-58214-6"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          25
+        ]
+      ]
+    },
+    "references-count": 60,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "58214"
+    ],
+    "URL": "https://doi.org/10.1038/s41467-025-58214-6",
+    "relation": {},
+    "ISSN": [
+      "2041-1723"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2041-1723"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          25
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "19 September 2024",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "13 March 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "25 March 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "2933"
+  }
+}

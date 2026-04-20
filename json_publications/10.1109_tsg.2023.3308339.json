@@ -1,0 +1,1694 @@
+{
+  "doi": "10.1109/tsg.2023.3308339",
+  "openalex": {
+    "id": "https://openalex.org/W4386232589",
+    "doi": "https://doi.org/10.1109/tsg.2023.3308339",
+    "title": "Matrix-Completion-Based False Data Injection Attacks Against Machine Learning Detectors",
+    "display_name": "Matrix-Completion-Based False Data Injection Attacks Against Machine Learning Detectors",
+    "publication_year": 2023,
+    "publication_date": "2023-08-28",
+    "ids": {
+      "openalex": "https://openalex.org/W4386232589",
+      "doi": "https://doi.org/10.1109/tsg.2023.3308339"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tsg.2023.3308339",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tsg.2023.3308339",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S59604973",
+        "display_name": "IEEE Transactions on Smart Grid",
+        "issn_l": "1949-3053",
+        "issn": [
+          "1949-3053",
+          "1949-3061"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Smart Grid",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100461642",
+          "display_name": "Bo Liu",
+          "orcid": "https://orcid.org/0000-0002-2965-7714"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189590672",
+            "display_name": "Kansas State University",
+            "ror": "https://ror.org/05p1j8758",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I189590672"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bo Liu",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, Kansas State University, Manhattan, KS, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, Kansas State University, Manhattan, KS, USA",
+            "institution_ids": [
+              "https://openalex.org/I189590672"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5030552258",
+          "display_name": "Hongyu Wu",
+          "orcid": "https://orcid.org/0000-0002-5223-6635"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189590672",
+            "display_name": "Kansas State University",
+            "ror": "https://ror.org/05p1j8758",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I189590672"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hongyu Wu",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, Kansas State University, Manhattan, KS, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, Kansas State University, Manhattan, KS, USA",
+            "institution_ids": [
+              "https://openalex.org/I189590672"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5059532969",
+          "display_name": "Qihui Yang",
+          "orcid": "https://orcid.org/0000-0003-3215-3645"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I189590672",
+            "display_name": "Kansas State University",
+            "ror": "https://ror.org/05p1j8758",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I189590672"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qihui Yang",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, Kansas State University, Manhattan, KS, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, Kansas State University, Manhattan, KS, USA",
+            "institution_ids": [
+              "https://openalex.org/I189590672"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5013053220",
+          "display_name": "Hang Zhang",
+          "orcid": "https://orcid.org/0000-0001-6697-2214"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I167383011",
+            "display_name": "Henan University of Science and Technology",
+            "ror": "https://ror.org/05d80kz58",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I167383011"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hang Zhang",
+        "raw_affiliation_strings": [
+          "Department of Information Engineering, Henan University of Science and Technology, Luoyang, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Information Engineering, Henan University of Science and Technology, Luoyang, China",
+            "institution_ids": [
+              "https://openalex.org/I167383011"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100629029",
+          "display_name": "Yajing Liu",
+          "orcid": "https://orcid.org/0000-0001-5467-5976"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I92446798",
+            "display_name": "Colorado State University",
+            "ror": "https://ror.org/03k1gpj17",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I92446798"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yajing Liu",
+        "raw_affiliation_strings": [
+          "Department of Mathematics, Colorado State University, Fort Collins, CO, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mathematics, Colorado State University, Fort Collins, CO, USA",
+            "institution_ids": [
+              "https://openalex.org/I92446798"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5052718895",
+          "display_name": "Yingchen Zhang",
+          "orcid": "https://orcid.org/0000-0002-5559-0971"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210166701",
+            "display_name": "Medidata (United States)",
+            "ror": "https://ror.org/05y7kyx32",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210166701",
+              "https://openalex.org/I47431100"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I196272386",
+            "display_name": "Providence College",
+            "ror": "https://ror.org/00rxpqe74",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I196272386"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yingchen Zhang",
+        "raw_affiliation_strings": [
+          "Product Solutions, Utilidata Inc., Providence, RI, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Product Solutions, Utilidata Inc., Providence, RI, USA",
+            "institution_ids": [
+              "https://openalex.org/I196272386",
+              "https://openalex.org/I4210166701"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.2442655,
+    "has_fulltext": false,
+    "cited_by_count": 5,
+    "citation_normalized_percentile": {
+      "value": 0.77628811,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 95,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "15",
+      "issue": "2",
+      "first_page": "2146",
+      "last_page": "2163"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10917",
+      "display_name": "Smart Grid Security and Resilience",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10917",
+        "display_name": "Smart Grid Security and Resilience",
+        "score": 0.9994000196456909,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2207",
+          "display_name": "Control and Systems Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11689",
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "score": 0.9966999888420105,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10951",
+        "display_name": "Cryptographic Implementations and Security",
+        "score": 0.9904000163078308,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5981200933456421
+      },
+      {
+        "id": "https://openalex.org/keywords/detector",
+        "display_name": "Detector",
+        "score": 0.5237848162651062
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.4750366508960724
+      },
+      {
+        "id": "https://openalex.org/keywords/matrix",
+        "display_name": "Matrix (chemical analysis)",
+        "score": 0.46891888976097107
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.3915218114852905
+      },
+      {
+        "id": "https://openalex.org/keywords/data-mining",
+        "display_name": "Data mining",
+        "score": 0.321471244096756
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5981200933456421
+      },
+      {
+        "id": "https://openalex.org/C94915269",
+        "wikidata": "https://www.wikidata.org/wiki/Q1834857",
+        "display_name": "Detector",
+        "level": 2,
+        "score": 0.5237848162651062
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.4750366508960724
+      },
+      {
+        "id": "https://openalex.org/C106487976",
+        "wikidata": "https://www.wikidata.org/wiki/Q685816",
+        "display_name": "Matrix (chemical analysis)",
+        "level": 2,
+        "score": 0.46891888976097107
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.3915218114852905
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.321471244096756
+      },
+      {
+        "id": "https://openalex.org/C76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C192562407",
+        "wikidata": "https://www.wikidata.org/wiki/Q228736",
+        "display_name": "Materials science",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C159985019",
+        "wikidata": "https://www.wikidata.org/wiki/Q181790",
+        "display_name": "Composite material",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/tsg.2023.3308339",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tsg.2023.3308339",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S59604973",
+          "display_name": "IEEE Transactions on Smart Grid",
+          "issn_l": "1949-3053",
+          "issn": [
+            "1949-3053",
+            "1949-3061"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Smart Grid",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.6399999856948853,
+        "display_name": "Peace, Justice and strong institutions"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G6662488201",
+        "display_name": null,
+        "funder_award_id": "1929147",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G2180165011",
+        "display_name": null,
+        "funder_award_id": "N00014-23-1-2777",
+        "funder_id": "https://openalex.org/F4320337345",
+        "funder_display_name": "Office of Naval Research"
+      },
+      {
+        "id": "https://openalex.org/G5311275766",
+        "display_name": null,
+        "funder_award_id": "2146156",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320337345",
+        "display_name": "Office of Naval Research",
+        "ror": "https://ror.org/00rk2pe57"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 51,
+    "referenced_works": [
+      "https://openalex.org/W2984195658",
+      "https://openalex.org/W3130070946",
+      "https://openalex.org/W2550453031",
+      "https://openalex.org/W2828496772",
+      "https://openalex.org/W2893065897",
+      "https://openalex.org/W2033939184",
+      "https://openalex.org/W2536887809",
+      "https://openalex.org/W2230317998",
+      "https://openalex.org/W2122559297",
+      "https://openalex.org/W2167242948",
+      "https://openalex.org/W3011476783",
+      "https://openalex.org/W2119740108",
+      "https://openalex.org/W1996092706",
+      "https://openalex.org/W2886826115",
+      "https://openalex.org/W3052095468",
+      "https://openalex.org/W2002254092",
+      "https://openalex.org/W2332912277",
+      "https://openalex.org/W2979727854",
+      "https://openalex.org/W2928142670",
+      "https://openalex.org/W2996221078",
+      "https://openalex.org/W3175029602",
+      "https://openalex.org/W3003712625",
+      "https://openalex.org/W2029725686",
+      "https://openalex.org/W2494827994",
+      "https://openalex.org/W2611328865",
+      "https://openalex.org/W2038651258",
+      "https://openalex.org/W2787894218",
+      "https://openalex.org/W2921677088",
+      "https://openalex.org/W2022810949",
+      "https://openalex.org/W2075565671",
+      "https://openalex.org/W1998285730",
+      "https://openalex.org/W2800178455",
+      "https://openalex.org/W2113642685",
+      "https://openalex.org/W6696497002",
+      "https://openalex.org/W3166427495",
+      "https://openalex.org/W3008059000",
+      "https://openalex.org/W3160096520",
+      "https://openalex.org/W2066909550",
+      "https://openalex.org/W2783169723",
+      "https://openalex.org/W3044175764",
+      "https://openalex.org/W4292998168",
+      "https://openalex.org/W4317743654",
+      "https://openalex.org/W2949160428",
+      "https://openalex.org/W6675354045",
+      "https://openalex.org/W4252316495",
+      "https://openalex.org/W2037263319",
+      "https://openalex.org/W2106424475",
+      "https://openalex.org/W4239875977",
+      "https://openalex.org/W4297825594",
+      "https://openalex.org/W2101234009",
+      "https://openalex.org/W2944367642"
+    ],
+    "related_works": [
+      "https://openalex.org/W2961085424",
+      "https://openalex.org/W4306674287",
+      "https://openalex.org/W3046775127",
+      "https://openalex.org/W4394896187",
+      "https://openalex.org/W3170094116",
+      "https://openalex.org/W4386462264",
+      "https://openalex.org/W3107602296",
+      "https://openalex.org/W4364306694",
+      "https://openalex.org/W4312192474",
+      "https://openalex.org/W4283697347"
+    ],
+    "abstract_inverted_index": {
+      "False": [
+        0
+      ],
+      "data": [
+        1
+      ],
+      "injection": [
+        2
+      ],
+      "(FDI)": [
+        3
+      ],
+      "attacks": [
+        4,
+        34,
+        56,
+        80,
+        132,
+        177
+      ],
+      "can": [
+        5,
+        22
+      ],
+      "manipulate": [
+        6
+      ],
+      "power": [
+        7,
+        61,
+        118
+      ],
+      "system": [
+        8,
+        12,
+        119
+      ],
+      "measurements,": [
+        9,
+        99
+      ],
+      "leading": [
+        10
+      ],
+      "to": [
+        11,
+        31,
+        90,
+        110,
+        127,
+        140,
+        146,
+        178
+      ],
+      "economic": [
+        13
+      ],
+      "losses": [
+        14
+      ],
+      "and": [
+        15,
+        59,
+        75,
+        100,
+        150,
+        167,
+        183
+      ],
+      "security": [
+        16
+      ],
+      "issues.": [
+        17
+      ],
+      "Although": [
+        18
+      ],
+      "machine-learning": [
+        19
+      ],
+      "(ML)": [
+        20
+      ],
+      "detectors": [
+        21,
+        185
+      ],
+      "effectively": [
+        23
+      ],
+      "detect": [
+        24,
+        128
+      ],
+      "FDI": [
+        25,
+        33,
+        54
+      ],
+      "attacks,": [
+        26
+      ],
+      "the": [
+        27,
+        40,
+        70,
+        82,
+        86,
+        92,
+        97,
+        103,
+        106,
+        117,
+        129,
+        134,
+        143,
+        148,
+        154,
+        158,
+        164,
+        172,
+        175,
+        180,
+        189,
+        195
+      ],
+      "current": [
+        28
+      ],
+      "methods": [
+        29
+      ],
+      "used": [
+        30
+      ],
+      "construct": [
+        32
+      ],
+      "do": [
+        35
+      ],
+      "not": [
+        36
+      ],
+      "take": [
+        37
+      ],
+      "into": [
+        38
+      ],
+      "account": [
+        39
+      ],
+      "presence": [
+        41
+      ],
+      "of": [
+        42,
+        85,
+        105,
+        153,
+        174,
+        191
+      ],
+      "ML": [
+        43,
+        184
+      ],
+      "detectors.": [
+        44
+      ],
+      "To": [
+        45
+      ],
+      "tackle": [
+        46
+      ],
+      "this": [
+        47
+      ],
+      "problem,": [
+        48
+      ],
+      "we": [
+        49
+      ],
+      "propose": [
+        50
+      ],
+      "novel": [
+        51
+      ],
+      "convex": [
+        52
+      ],
+      "matrix-completion-based": [
+        53
+      ],
+      "(MC-FDI)": [
+        55
+      ],
+      "on": [
+        57,
+        116,
+        163
+      ],
+      "DC": [
+        58
+      ],
+      "AC": [
+        60
+      ],
+      "flow": [
+        62
+      ],
+      "models": [
+        63
+      ],
+      "from": [
+        64,
+        133
+      ],
+      "an": [
+        65
+      ],
+      "attacker's": [
+        66
+      ],
+      "perspective,": [
+        67
+      ],
+      "accounting": [
+        68
+      ],
+      "for": [
+        69
+      ],
+      "temporal": [
+        71,
+        151
+      ],
+      "correlation": [
+        72,
+        152
+      ],
+      "between": [
+        73
+      ],
+      "compromised": [
+        74,
+        87,
+        93,
+        155
+      ],
+      "historical": [
+        76,
+        98
+      ],
+      "measurements.": [
+        77
+      ],
+      "The": [
+        78,
+        137
+      ],
+      "proposed": [
+        79,
+        126,
+        130,
+        176
+      ],
+      "minimize": [
+        81
+      ],
+      "nuclear": [
+        83
+      ],
+      "norm": [
+        84
+      ],
+      "measurement": [
+        88,
+        94
+      ],
+      "matrix": [
+        89
+      ],
+      "make": [
+        91
+      ],
+      "consistent": [
+        95
+      ],
+      "with": [
+        96
+      ],
+      "also": [
+        101
+      ],
+      "maximize": [
+        102
+      ],
+      "L1-norm": [
+        104
+      ],
+      "incremental": [
+        107
+      ],
+      "voltage": [
+        108
+      ],
+      "angle": [
+        109
+      ],
+      "ensure": [
+        111
+      ],
+      "a": [
+        112
+      ],
+      "sufficient": [
+        113
+      ],
+      "negative": [
+        114
+      ],
+      "impact": [
+        115
+      ],
+      "operation.": [
+        120
+      ],
+      "Moving": [
+        121
+      ],
+      "target": [
+        122
+      ],
+      "defense": [
+        123
+      ],
+      "(MTD)": [
+        124
+      ],
+      "is": [
+        125,
+        139
+      ],
+      "MC-FDI": [
+        131,
+        159,
+        196
+      ],
+      "defender's": [
+        135
+      ],
+      "standpoint.": [
+        136
+      ],
+      "idea": [
+        138
+      ],
+      "actively": [
+        141
+      ],
+      "change": [
+        142
+      ],
+      "line": [
+        144
+      ],
+      "impedance": [
+        145
+      ],
+      "corrupt": [
+        147
+      ],
+      "spatial": [
+        149
+      ],
+      "measurements": [
+        156
+      ],
+      "in": [
+        157,
+        193
+      ],
+      "attacks.": [
+        160,
+        197
+      ],
+      "Numerical": [
+        161
+      ],
+      "results": [
+        162
+      ],
+      "IEEE": [
+        165,
+        168
+      ],
+      "14-bus": [
+        166
+      ],
+      "118-bus": [
+        169
+      ],
+      "systems": [
+        170
+      ],
+      "show": [
+        171
+      ],
+      "stealthiness": [
+        173
+      ],
+      "both": [
+        179
+      ],
+      "Chi-square": [
+        181
+      ],
+      "detector": [
+        182
+      ],
+      "as": [
+        186,
+        188
+      ],
+      "well": [
+        187
+      ],
+      "efficacy": [
+        190
+      ],
+      "MTD": [
+        192
+      ],
+      "detecting": [
+        194
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2025-12-18T14:23:04Z",
+      "timestamp": 1766067784415,
+      "version": "3.37.3"
+    },
+    "reference-count": 53,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2024-03-01T00:00:00Z",
+          "timestamp": 1709251200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2024-03-01T00:00:00Z",
+          "timestamp": 1709251200000
+        },
+        "content-version": "am",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2024-03-01T00:00:00Z",
+          "timestamp": 1709251200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2024-03-01T00:00:00Z",
+          "timestamp": 1709251200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "U.S. National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1929147",
+          "2146156"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1929147",
+              "2146156"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000001",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000006",
+        "name": "United States Office of Naval Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N00014-23-1-2777"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N00014-23-1-2777"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000006",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Smart Grid"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1109/tsg.2023.3308339",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          28
+        ]
+      ],
+      "date-time": "2023-08-28T17:59:06Z",
+      "timestamp": 1693245546000
+    },
+    "page": "2146-2163",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": [
+      "Matrix-Completion-Based False Data Injection Attacks Against Machine Learning Detectors"
+    ],
+    "prefix": "10.1109",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2965-7714",
+        "authenticated-orcid": false,
+        "given": "Bo",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Kansas State University, Manhattan, KS, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5223-6635",
+        "authenticated-orcid": false,
+        "given": "Hongyu",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Kansas State University, Manhattan, KS, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3215-3645",
+        "authenticated-orcid": false,
+        "given": "Qihui",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Kansas State University, Manhattan, KS, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6697-2214",
+        "authenticated-orcid": false,
+        "given": "Hang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information Engineering, Henan University of Science and Technology, Luoyang, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5467-5976",
+        "authenticated-orcid": false,
+        "given": "Yajing",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Mathematics, Colorado State University, Fort Collins, CO, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5559-0971",
+        "authenticated-orcid": false,
+        "given": "Yingchen",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Product Solutions, Utilidata Inc., Providence, RI, USA"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSG.2019.2949998"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2021.3058628"
+      },
+      {
+        "volume-title": "Analysis of the cyber attack on the Ukrainian power grid",
+        "year": "2019",
+        "key": "ref3"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPWRS.2016.2631891"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TAC.2018.2852774"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2018/8045909"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SMARTGRID.2010.5622045"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCNS.2016.2620807"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPWRS.2015.2504950"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSG.2011.2123925"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSG.2011.2165090"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIA.2020.2979793"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSG.2012.2227342"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPWRS.2013.2240706"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3212687.3212874"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.epsr.2020.106796"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2015.2404803"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSYST.2014.2341597"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SEGE.2019.8859946"
+      },
+      {
+        "volume-title": "A survey on matrix completion: Perspective of signal processing",
+        "year": "2022",
+        "author": "Li",
+        "key": "ref20"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24251/HICSS.2019.429"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSG.2019.2956906"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSG.2021.3058609"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PESGM40551.2019.8973881"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPWRS.2015.2413935"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMC.2016.2595569"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10208-009-9045-5"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1952982.1952995"
+      },
+      {
+        "volume-title": "Deep Learning",
+        "year": "2016",
+        "author": "Goodfellow",
+        "key": "ref29"
+      },
+      {
+        "volume-title": "Pattern Classification",
+        "year": "2001",
+        "author": "Duda",
+        "key": "ref30"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-0-387-84858-7"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TII.2018.2863256"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSG.2012.2195338"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSG.2014.2382714"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSP.2014.2385670"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICASSP.2018.8461493"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-84800-155-8_7"
+      },
+      {
+        "issue": "83",
+        "key": "ref38",
+        "first-page": "1",
+        "article-title": "CVXPY: A python-embedded modeling language for convex optimization",
+        "volume": "17",
+        "author": "Diamond",
+        "year": "2016",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSG.2021.3076824"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSG.2020.2977207"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/cps2.12012"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2663474.2663482"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSG.2018.2791512"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPWRS.2020.3010365"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSG.2022.3170839"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/pr11020348"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TII.2019.2922215"
+      },
+      {
+        "issue": "85",
+        "key": "ref48",
+        "first-page": "2825",
+        "article-title": "Scikit-learn: Machine learning in Python",
+        "volume": "12",
+        "author": "Pedregosa",
+        "year": "2011"
+      },
+      {
+        "volume-title": "Electric reliability council of Texas",
+        "year": "2023",
+        "key": "ref49"
+      },
+      {
+        "volume-title": "WECC—Western Electricity Coordinating Council",
+        "year": "2023",
+        "key": "ref50"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9780367801700"
+      },
+      {
+        "issue": "12",
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "first-page": "445",
+        "DOI": "10.1007/s00894-001-0058-5",
+        "article-title": "New quantitative descriptors of amino acids based on multidimensional scaling of a large number of physical–chemical properties",
+        "volume": "7",
+        "author": "Venkatarajan",
+        "year": "2001",
+        "journal-title": "Mol. Model. Annu."
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPWRS.2010.2051168"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Smart Grid"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://ieeexplore.ieee.org/ielam/5165411/10440375/10231128-aam.pdf",
+        "content-type": "application/pdf",
+        "content-version": "am",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/5165411/10440375/10231128.pdf?arnumber=10231128",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2024-03-01T22:17:41Z",
+      "timestamp": 1709331461000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10231128/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    },
+    "references-count": 53,
+    "journal-issue": {
+      "issue": "2"
+    },
+    "URL": "https://doi.org/10.1109/tsg.2023.3308339",
+    "relation": {},
+    "ISSN": [
+      "1949-3053",
+      "1949-3061"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1949-3053"
+      },
+      {
+        "type": "electronic",
+        "value": "1949-3061"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3
+        ]
+      ]
+    }
+  }
+}

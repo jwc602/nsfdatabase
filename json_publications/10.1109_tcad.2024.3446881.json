@@ -1,0 +1,1395 @@
+{
+  "doi": "10.1109/tcad.2024.3446881",
+  "openalex": {
+    "id": "https://openalex.org/W4404103080",
+    "doi": "https://doi.org/10.1109/tcad.2024.3446881",
+    "title": "CaBaFL: Asynchronous Federated Learning via Hierarchical Cache and Feature Balance",
+    "display_name": "CaBaFL: Asynchronous Federated Learning via Hierarchical Cache and Feature Balance",
+    "publication_year": 2024,
+    "publication_date": "2024-11-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4404103080",
+      "doi": "https://doi.org/10.1109/tcad.2024.3446881"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tcad.2024.3446881",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tcad.2024.3446881",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S100835903",
+        "display_name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+        "issn_l": "0278-0070",
+        "issn": [
+          "0278-0070",
+          "1937-4151"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5029784038",
+          "display_name": "Zeke Xia",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I66867065",
+            "display_name": "East China Normal University",
+            "ror": "https://ror.org/02n96ep67",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I66867065"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I36399199",
+            "display_name": "Nanjing University of Science and Technology",
+            "ror": "https://ror.org/00xp9wg62",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36399199"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zeke Xia",
+        "raw_affiliation_strings": [
+          "MoE Engineering Research Center of HW/SW Co-Design Technology and Application, East China Normal University, Shanghai, China",
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I36399199"
+            ]
+          },
+          {
+            "raw_affiliation_string": "MoE Engineering Research Center of HW/SW Co-Design Technology and Application, East China Normal University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I66867065"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5017425520",
+          "display_name": "Ming Hu",
+          "orcid": "https://orcid.org/0000-0002-5058-4660"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I36399199",
+            "display_name": "Nanjing University of Science and Technology",
+            "ror": "https://ror.org/00xp9wg62",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36399199"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I79891267",
+            "display_name": "Singapore Management University",
+            "ror": "https://ror.org/050qmg959",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79891267"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ming Hu",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China",
+          "School of Computing and Information Systems, Singapore Management University, Bras Basah, Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computing and Information Systems, Singapore Management University, Bras Basah, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I79891267"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I36399199"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5112987720",
+          "display_name": "Dengke Yan",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I66867065",
+            "display_name": "East China Normal University",
+            "ror": "https://ror.org/02n96ep67",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I66867065"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I36399199",
+            "display_name": "Nanjing University of Science and Technology",
+            "ror": "https://ror.org/00xp9wg62",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36399199"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Dengke Yan",
+        "raw_affiliation_strings": [
+          "MoE Engineering Research Center of HW/SW Co-Design Technology and Application, East China Normal University, Shanghai, China",
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I36399199"
+            ]
+          },
+          {
+            "raw_affiliation_string": "MoE Engineering Research Center of HW/SW Co-Design Technology and Application, East China Normal University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I66867065"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5084396416",
+          "display_name": "Xiaofei Xie",
+          "orcid": "https://orcid.org/0000-0002-1288-6502"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I36399199",
+            "display_name": "Nanjing University of Science and Technology",
+            "ror": "https://ror.org/00xp9wg62",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36399199"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I79891267",
+            "display_name": "Singapore Management University",
+            "ror": "https://ror.org/050qmg959",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I79891267"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaofei Xie",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China",
+          "School of Computing and Information Systems, Singapore Management University, Bras Basah, Singapore"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I36399199"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Computing and Information Systems, Singapore Management University, Bras Basah, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I79891267"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101674538",
+          "display_name": "Tianlin Li",
+          "orcid": "https://orcid.org/0000-0002-2207-1622"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I36399199",
+            "display_name": "Nanjing University of Science and Technology",
+            "ror": "https://ror.org/00xp9wg62",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36399199"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I172675005",
+            "display_name": "Nanyang Technological University",
+            "ror": "https://ror.org/02e7b5302",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "SG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tianlin Li",
+        "raw_affiliation_strings": [
+          "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore",
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I36399199"
+            ]
+          },
+          {
+            "raw_affiliation_string": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore",
+            "institution_ids": [
+              "https://openalex.org/I172675005"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5000173131",
+          "display_name": "Anran Li",
+          "orcid": "https://orcid.org/0000-0002-3592-4153"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I66867065",
+            "display_name": "East China Normal University",
+            "ror": "https://ror.org/02n96ep67",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I66867065"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I36399199",
+            "display_name": "Nanjing University of Science and Technology",
+            "ror": "https://ror.org/00xp9wg62",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36399199"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Anran Li",
+        "raw_affiliation_strings": [
+          "MoE Engineering Research Center of HW/SW Co-Design Technology and Application, East China Normal University, Shanghai, China",
+          "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "MoE Engineering Research Center of HW/SW Co-Design Technology and Application, East China Normal University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I66867065"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Nanjing University of Science and Technology, Nanjing, China",
+            "institution_ids": [
+              "https://openalex.org/I36399199"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5102905745",
+          "display_name": "Junlong Zhou",
+          "orcid": "https://orcid.org/0000-0002-7734-4077"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I32971472",
+            "display_name": "Yale University",
+            "ror": "https://ror.org/03v76x132",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I32971472"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Junlong Zhou",
+        "raw_affiliation_strings": [
+          "Department of Biomedical Informatics and Data Science, School of Medicine, Yale University, New Haven, CT, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biomedical Informatics and Data Science, School of Medicine, Yale University, New Haven, CT, USA",
+            "institution_ids": [
+              "https://openalex.org/I32971472"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5025413633",
+          "display_name": "Mingsong Chen",
+          "orcid": "https://orcid.org/0000-0002-3922-0989"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I66867065",
+            "display_name": "East China Normal University",
+            "ror": "https://ror.org/02n96ep67",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I66867065"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mingsong Chen",
+        "raw_affiliation_strings": [
+          "MoE Engineering Research Center of HW/SW Co-Design Technology and Application, East China Normal University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "MoE Engineering Research Center of HW/SW Co-Design Technology and Application, East China Normal University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I66867065"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.2775571,
+    "has_fulltext": false,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.80836602,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 95
+    },
+    "biblio": {
+      "volume": "43",
+      "issue": "11",
+      "first_page": "4057",
+      "last_page": "4068"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.9797000288963318,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.9797000288963318,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11478",
+        "display_name": "Caching and Content Delivery",
+        "score": 0.9625999927520752,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10796",
+        "display_name": "Cooperative Communication and Network Coding",
+        "score": 0.9550999999046326,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.7552379369735718
+      },
+      {
+        "id": "https://openalex.org/keywords/cache",
+        "display_name": "Cache",
+        "score": 0.7191858291625977
+      },
+      {
+        "id": "https://openalex.org/keywords/asynchronous-communication",
+        "display_name": "Asynchronous communication",
+        "score": 0.6748999357223511
+      },
+      {
+        "id": "https://openalex.org/keywords/asynchronous-learning",
+        "display_name": "Asynchronous learning",
+        "score": 0.5902910232543945
+      },
+      {
+        "id": "https://openalex.org/keywords/feature",
+        "display_name": "Feature (linguistics)",
+        "score": 0.546805739402771
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.35338616371154785
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-network",
+        "display_name": "Computer network",
+        "score": 0.2606393098831177
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.08845105767250061
+      },
+      {
+        "id": "https://openalex.org/keywords/synchronous-learning",
+        "display_name": "Synchronous learning",
+        "score": 0.05548584461212158
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7552379369735718
+      },
+      {
+        "id": "https://openalex.org/C115537543",
+        "wikidata": "https://www.wikidata.org/wiki/Q165596",
+        "display_name": "Cache",
+        "level": 2,
+        "score": 0.7191858291625977
+      },
+      {
+        "id": "https://openalex.org/C151319957",
+        "wikidata": "https://www.wikidata.org/wiki/Q752739",
+        "display_name": "Asynchronous communication",
+        "level": 2,
+        "score": 0.6748999357223511
+      },
+      {
+        "id": "https://openalex.org/C2777072894",
+        "wikidata": "https://www.wikidata.org/wiki/Q4812204",
+        "display_name": "Asynchronous learning",
+        "level": 5,
+        "score": 0.5902910232543945
+      },
+      {
+        "id": "https://openalex.org/C2776401178",
+        "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+        "display_name": "Feature (linguistics)",
+        "level": 2,
+        "score": 0.546805739402771
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.35338616371154785
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.2606393098831177
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.08845105767250061
+      },
+      {
+        "id": "https://openalex.org/C19122763",
+        "wikidata": "https://www.wikidata.org/wiki/Q7662215",
+        "display_name": "Synchronous learning",
+        "level": 4,
+        "score": 0.05548584461212158
+      },
+      {
+        "id": "https://openalex.org/C19417346",
+        "wikidata": "https://www.wikidata.org/wiki/Q7922",
+        "display_name": "Pedagogy",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C41895202",
+        "wikidata": "https://www.wikidata.org/wiki/Q8162",
+        "display_name": "Linguistics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C88610354",
+        "wikidata": "https://www.wikidata.org/wiki/Q1813494",
+        "display_name": "Teaching method",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C51672120",
+        "wikidata": "https://www.wikidata.org/wiki/Q303446",
+        "display_name": "Cooperative learning",
+        "level": 3,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1109/tcad.2024.3446881",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tcad.2024.3446881",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S100835903",
+          "display_name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+          "issn_l": "0278-0070",
+          "issn": [
+            "0278-0070",
+            "1937-4151"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G7487885919",
+        "display_name": null,
+        "funder_award_id": "62272170",
+        "funder_id": "https://openalex.org/F4320309612",
+        "funder_display_name": "Natural Science Foundation of Shanghai"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320309612",
+        "display_name": "Natural Science Foundation of Shanghai",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320320671",
+        "display_name": "National Research Foundation",
+        "ror": "https://ror.org/05s0g1g46"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "referenced_works_count": 46,
+    "referenced_works": [
+      "https://openalex.org/W6787782495",
+      "https://openalex.org/W4206944626",
+      "https://openalex.org/W4364322486",
+      "https://openalex.org/W3117482727",
+      "https://openalex.org/W6728757088",
+      "https://openalex.org/W6850358828",
+      "https://openalex.org/W4400909710",
+      "https://openalex.org/W4393156150",
+      "https://openalex.org/W6858998968",
+      "https://openalex.org/W4404133619",
+      "https://openalex.org/W6858165790",
+      "https://openalex.org/W3169044395",
+      "https://openalex.org/W4386260424",
+      "https://openalex.org/W3090930411",
+      "https://openalex.org/W6755368796",
+      "https://openalex.org/W2989289980",
+      "https://openalex.org/W2995022099",
+      "https://openalex.org/W6840065948",
+      "https://openalex.org/W3154335119",
+      "https://openalex.org/W6759238902",
+      "https://openalex.org/W6773817997",
+      "https://openalex.org/W4313531483",
+      "https://openalex.org/W6760214840",
+      "https://openalex.org/W4309872119",
+      "https://openalex.org/W2978709794",
+      "https://openalex.org/W3203503583",
+      "https://openalex.org/W4320478019",
+      "https://openalex.org/W3137605545",
+      "https://openalex.org/W4313022127",
+      "https://openalex.org/W4211124002",
+      "https://openalex.org/W4319663761",
+      "https://openalex.org/W4393156655",
+      "https://openalex.org/W4386071762",
+      "https://openalex.org/W6767676916",
+      "https://openalex.org/W6766978945",
+      "https://openalex.org/W6787972765",
+      "https://openalex.org/W6756756286",
+      "https://openalex.org/W6605479355",
+      "https://openalex.org/W4322717061",
+      "https://openalex.org/W3106416029",
+      "https://openalex.org/W4289147229",
+      "https://openalex.org/W3118608800",
+      "https://openalex.org/W4388963456",
+      "https://openalex.org/W4389072440",
+      "https://openalex.org/W2972570881",
+      "https://openalex.org/W2921434559"
+    ],
+    "related_works": [
+      "https://openalex.org/W4226047841",
+      "https://openalex.org/W2156559761",
+      "https://openalex.org/W3020208395",
+      "https://openalex.org/W2496167052",
+      "https://openalex.org/W1956936791",
+      "https://openalex.org/W2041343407",
+      "https://openalex.org/W4401821536",
+      "https://openalex.org/W2058515809",
+      "https://openalex.org/W4295242624",
+      "https://openalex.org/W2946278724"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          3
+        ]
+      ],
+      "date-time": "2025-08-03T23:07:19Z",
+      "timestamp": 1754262439479,
+      "version": "3.37.3"
+    },
+    "reference-count": 38,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "11",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2024-11-01T00:00:00Z",
+          "timestamp": 1730419200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100007219",
+        "name": "Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62272170"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62272170"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100007219",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "“Digital Silk Road” Shanghai International Joint Lab of Trustworthy Intelligent Software",
+        "award": [
+          "22510750100"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "22510750100"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001321",
+        "name": "National Research Foundation, Singapore",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001321",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "Cyber Security Agency through its National Cybersecurity Research and Development Programme",
+        "award": [
+          "NCRP25-P04-TAICeN"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NCRP25-P04-TAICeN"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Comput.-Aided Des. Integr. Circuits Syst."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1109/tcad.2024.3446881",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2024-11-06T18:40:50Z",
+      "timestamp": 1730918450000
+    },
+    "page": "4057-4068",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "CaBaFL: Asynchronous Federated Learning via Hierarchical Cache and Feature Balance"
+    ],
+    "prefix": "10.1109",
+    "volume": "43",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7052-4721",
+        "authenticated-orcid": false,
+        "given": "Zeke",
+        "family": "Xia",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "MoE Engineering Research Center of HW/SW Co-Design Technology and Application, East China Normal University, Shanghai, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5058-4660",
+        "authenticated-orcid": false,
+        "given": "Ming",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computing and Information Systems, Singapore Management University, Bras Basah, Singapore"
+          }
+        ]
+      },
+      {
+        "given": "Dengke",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MoE Engineering Research Center of HW/SW Co-Design Technology and Application, East China Normal University, Shanghai, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1288-6502",
+        "authenticated-orcid": false,
+        "given": "Xiaofei",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computing and Information Systems, Singapore Management University, Bras Basah, Singapore"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2207-1622",
+        "authenticated-orcid": false,
+        "given": "Tianlin",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "College of Computing and Data Science, Nanyang Technological University, Jurong West, Singapore"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3592-4153",
+        "authenticated-orcid": false,
+        "given": "Anran",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MoE Engineering Research Center of HW/SW Co-Design Technology and Application, East China Normal University, Shanghai, China"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7734-4077",
+        "authenticated-orcid": false,
+        "given": "Junlong",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biomedical Informatics and Data Science, School of Medicine, Yale University, New Haven, CT, USA"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3922-0989",
+        "authenticated-orcid": false,
+        "given": "Mingsong",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "MoE Engineering Research Center of HW/SW Co-Design Technology and Application, East China Normal University, Shanghai, China"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "first-page": "26",
+        "article-title": "Challenges for building a cloud native scalable and trustable multi-tenant AIoT platform",
+        "volume-title": "Proc. Int. Conf. Comput.-Aided Design (ICCAD)",
+        "author": "Xiong"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TITS.2021.3122906"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCAD.2023.3264786"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCAD.2020.3046665"
+      },
+      {
+        "key": "ref5",
+        "first-page": "1273",
+        "article-title": "Communication-efficient learning of deep networks from decentralized data",
+        "volume-title": "Proc. Int. Conf. Artif. Intell. Stat. (AISTATS)",
+        "author": "McMahan"
+      },
+      {
+        "key": "ref6",
+        "article-title": "Towards interpretable federated learning",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "arXiv:2302.13473"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDE60146.2024.00170"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i11.29146"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Have your cake and eat it too: Toward efficient and accurate split federated learning",
+        "author": "Yan",
+        "year": "2023",
+        "journal-title": "arXiv:2311.13163"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3649329.3655917"
+      },
+      {
+        "key": "ref11",
+        "article-title": "AdapterFL: Adaptive heterogeneous federated learning for resource-constrained mobile computing systems",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "arXiv:2311.14037"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00107"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/INFOCOMWKSHPS57453.2023.10225917"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCAD.2020.3012843"
+      },
+      {
+        "key": "ref15",
+        "first-page": "7202",
+        "article-title": "Distributed learning over unreliable networks",
+        "volume-title": "Proc. Int. Conf. Mach. Learn. (ICML)",
+        "author": "Yu"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2019.2944481"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/2200000083"
+      },
+      {
+        "key": "ref18",
+        "first-page": "10997",
+        "article-title": "Federated reinforcement learning: Linear speedup under Markovian sampling",
+        "volume-title": "Proc. Int. Conf. Mach. Learn. (ICML)",
+        "author": "Khodadadian"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/INFOCOM42981.2021.9488723"
+      },
+      {
+        "key": "ref20",
+        "first-page": "429",
+        "article-title": "Federated optimization in heterogeneous networks",
+        "volume-title": "Proc. Mach. Learn. Syst. (MLSys)",
+        "volume": "2",
+        "author": "Li"
+      },
+      {
+        "key": "ref21",
+        "first-page": "5132",
+        "article-title": "SCAFFOLD: Stochastic controlled averaging for federated learning",
+        "volume-title": "Proc. Int. Conf. Mach. Learn. (ICML)",
+        "author": "Karimireddy"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11432-020-3419-4"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Asynchronous federated optimization",
+        "author": "Xie",
+        "year": "2019",
+        "journal-title": "arXiv:1903.03934"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/RTSS59052.2023.00022"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TC.2020.2994391"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSAC.2021.3118435"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPDS.2023.3237752"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/BigData50022.2020.9377960"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPDS.2022.3225185"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPDS.2022.3150579"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSAC.2023.3242719"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i15.29603"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMC.2023.3307610"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Measuring the effects of non-identical data distribution for federated visual classification",
+        "author": "Hsu",
+        "year": "2019",
+        "journal-title": "arXiv:1909.06335"
+      },
+      {
+        "key": "ref35",
+        "first-page": "1",
+        "article-title": "PyTorch: An imperative style, high-performance deep learning library",
+        "volume-title": "Proc. Annu. Conf. Neural Inf. Process. Syst. (NeurIPS)",
+        "author": "Paszke"
+      },
+      {
+        "article-title": "Learning multiple layers of features from tiny images",
+        "year": "2009",
+        "author": "Krizhevsky",
+        "key": "ref36"
+      },
+      {
+        "key": "ref37",
+        "article-title": "LEAF: A benchmark for federated settings",
+        "author": "Caldas",
+        "year": "2018",
+        "journal-title": "arXiv:1812.01097"
+      },
+      {
+        "key": "ref38",
+        "first-page": "437",
+        "article-title": "A public domain dataset for human activity recognition using smartphones",
+        "volume-title": "Proc. Eur. Symp. Artif. Neural Netw. (ESANN)",
+        "author": "Anguita"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/43/10745760/10745831.pdf?arnumber=10745831",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          12
+        ]
+      ],
+      "date-time": "2024-12-12T19:16:11Z",
+      "timestamp": 1734030971000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10745831/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    },
+    "references-count": 38,
+    "journal-issue": {
+      "issue": "11"
+    },
+    "URL": "https://doi.org/10.1109/tcad.2024.3446881",
+    "relation": {},
+    "ISSN": [
+      "0278-0070",
+      "1937-4151"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0278-0070"
+      },
+      {
+        "type": "electronic",
+        "value": "1937-4151"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11
+        ]
+      ]
+    }
+  }
+}

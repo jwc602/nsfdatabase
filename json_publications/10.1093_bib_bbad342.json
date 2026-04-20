@@ -1,0 +1,1992 @@
+{
+  "doi": "10.1093/bib/bbad342",
+  "openalex": {
+    "id": "https://openalex.org/W4387381514",
+    "doi": "https://doi.org/10.1093/bib/bbad342",
+    "title": "Interpretable modeling of time-resolved single-cell gene–protein expression with CrossmodalNet",
+    "display_name": "Interpretable modeling of time-resolved single-cell gene–protein expression with CrossmodalNet",
+    "publication_year": 2023,
+    "publication_date": "2023-09-22",
+    "ids": {
+      "openalex": "https://openalex.org/W4387381514",
+      "doi": "https://doi.org/10.1093/bib/bbad342",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/37798250"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1093/bib/bbad342",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/bib/bbad342",
+      "pdf_url": "https://academic.oup.com/bib/article-pdf/24/6/bbad342/51895214/bbad342.pdf",
+      "source": {
+        "id": "https://openalex.org/S91767247",
+        "display_name": "Briefings in Bioinformatics",
+        "issn_l": "1467-5463",
+        "issn": [
+          "1467-5463",
+          "1477-4054"
+        ],
+        "is_oa": false,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Briefings in Bioinformatics",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://academic.oup.com/bib/article-pdf/24/6/bbad342/51895214/bbad342.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5014958505",
+          "display_name": "Yongjian Yang",
+          "orcid": "https://orcid.org/0000-0002-4135-5014"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I91045830",
+            "display_name": "Texas A&M University",
+            "ror": "https://ror.org/01f5ytq51",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I91045830"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Yongjian Yang",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, Texas A&M University , College Station, TX , USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, Texas A&M University , College Station, TX , USA",
+            "institution_ids": [
+              "https://openalex.org/I91045830"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5054789072",
+          "display_name": "Yu-Te Lin",
+          "orcid": "https://orcid.org/0000-0002-0313-0906"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16733864",
+            "display_name": "National Taiwan University",
+            "ror": "https://ror.org/05bqach95",
+            "country_code": "TW",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16733864"
+            ]
+          }
+        ],
+        "countries": [
+          "TW"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yu-Te Lin",
+        "raw_affiliation_strings": [
+          "Graduate Institute of Biomedical Electronics and Bioinformatics, National Taiwan University , Taipei , Taiwan"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Graduate Institute of Biomedical Electronics and Bioinformatics, National Taiwan University , Taipei , Taiwan",
+            "institution_ids": [
+              "https://openalex.org/I16733864"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5017280970",
+          "display_name": "Guanxun Li",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I91045830",
+            "display_name": "Texas A&M University",
+            "ror": "https://ror.org/01f5ytq51",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I91045830"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Guanxun Li",
+        "raw_affiliation_strings": [
+          "Department of Statistics, Texas A&M University , College Station, TX , USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Statistics, Texas A&M University , College Station, TX , USA",
+            "institution_ids": [
+              "https://openalex.org/I91045830"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5066519862",
+          "display_name": "Yan Zhong",
+          "orcid": "https://orcid.org/0000-0003-2412-043X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I66867065",
+            "display_name": "East China Normal University",
+            "ror": "https://ror.org/02n96ep67",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I66867065"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yan Zhong",
+        "raw_affiliation_strings": [
+          "East China Normal University , School of Statistics, , Shanghai , China",
+          "Key Laboratory of Advanced Theory and Application in Statistics and Data Science-MOE, School of Statistics, East China Normal University, Shanghai, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "East China Normal University , School of Statistics, , Shanghai , China",
+            "institution_ids": [
+              "https://openalex.org/I66867065"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Key Laboratory of Advanced Theory and Application in Statistics and Data Science-MOE, School of Statistics, East China Normal University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I66867065"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100685889",
+          "display_name": "Qian Xu",
+          "orcid": "https://orcid.org/0000-0002-9180-3487"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I91045830",
+            "display_name": "Texas A&M University",
+            "ror": "https://ror.org/01f5ytq51",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I91045830"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Qian Xu",
+        "raw_affiliation_strings": [
+          "Department of Veterinary Integrative Biosciences, Texas A&M University , College Station, TX , USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Veterinary Integrative Biosciences, Texas A&M University , College Station, TX , USA",
+            "institution_ids": [
+              "https://openalex.org/I91045830"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5059360459",
+          "display_name": "James J. Cai",
+          "orcid": "https://orcid.org/0000-0002-8081-6725"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I91045830",
+            "display_name": "Texas A&M University",
+            "ror": "https://ror.org/01f5ytq51",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I91045830"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "James J Cai",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, Texas A&M University , College Station, TX , USA",
+          "Department of Veterinary Integrative Biosciences, Texas A&M University , College Station, TX , USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, Texas A&M University , College Station, TX , USA",
+            "institution_ids": [
+              "https://openalex.org/I91045830"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Veterinary Integrative Biosciences, Texas A&M University , College Station, TX , USA",
+            "institution_ids": [
+              "https://openalex.org/I91045830"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5014958505"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I91045830"
+    ],
+    "apc_list": {
+      "value": 4011,
+      "currency": "USD",
+      "value_usd": 4011
+    },
+    "apc_paid": null,
+    "fwci": 0.18567041,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.60655216,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 94
+    },
+    "biblio": {
+      "volume": "24",
+      "issue": "6",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11289",
+      "display_name": "Single-cell and spatial transcriptomics",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11289",
+        "display_name": "Single-cell and spatial transcriptomics",
+        "score": 0.9998999834060669,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10604",
+        "display_name": "RNA Research and Splicing",
+        "score": 0.9884999990463257,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10521",
+        "display_name": "RNA and protein synthesis mechanisms",
+        "score": 0.9577000141143799,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/interpretability",
+        "display_name": "Interpretability",
+        "score": 0.9473625421524048
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6208723783493042
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.5436394214630127
+      },
+      {
+        "id": "https://openalex.org/keywords/expression",
+        "display_name": "Expression (computer science)",
+        "score": 0.5398248434066772
+      },
+      {
+        "id": "https://openalex.org/keywords/benchmarking",
+        "display_name": "Benchmarking",
+        "score": 0.4712669849395752
+      },
+      {
+        "id": "https://openalex.org/keywords/function",
+        "display_name": "Function (biology)",
+        "score": 0.46794572472572327
+      },
+      {
+        "id": "https://openalex.org/keywords/data-mining",
+        "display_name": "Data mining",
+        "score": 0.44841495156288147
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.44136494398117065
+      },
+      {
+        "id": "https://openalex.org/keywords/gene-expression",
+        "display_name": "Gene expression",
+        "score": 0.42730221152305603
+      },
+      {
+        "id": "https://openalex.org/keywords/gene",
+        "display_name": "Gene",
+        "score": 0.4263908863067627
+      },
+      {
+        "id": "https://openalex.org/keywords/rna-seq",
+        "display_name": "RNA-Seq",
+        "score": 0.41703081130981445
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.4044167101383209
+      },
+      {
+        "id": "https://openalex.org/keywords/pattern-recognition",
+        "display_name": "Pattern recognition (psychology)",
+        "score": 0.32881057262420654
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.28752318024635315
+      },
+      {
+        "id": "https://openalex.org/keywords/genetics",
+        "display_name": "Genetics",
+        "score": 0.15257364511489868
+      },
+      {
+        "id": "https://openalex.org/keywords/transcriptome",
+        "display_name": "Transcriptome",
+        "score": 0.08440971374511719
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2781067378",
+        "wikidata": "https://www.wikidata.org/wiki/Q17027399",
+        "display_name": "Interpretability",
+        "level": 2,
+        "score": 0.9473625421524048
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6208723783493042
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.5436394214630127
+      },
+      {
+        "id": "https://openalex.org/C90559484",
+        "wikidata": "https://www.wikidata.org/wiki/Q778379",
+        "display_name": "Expression (computer science)",
+        "level": 2,
+        "score": 0.5398248434066772
+      },
+      {
+        "id": "https://openalex.org/C86251818",
+        "wikidata": "https://www.wikidata.org/wiki/Q816754",
+        "display_name": "Benchmarking",
+        "level": 2,
+        "score": 0.4712669849395752
+      },
+      {
+        "id": "https://openalex.org/C14036430",
+        "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+        "display_name": "Function (biology)",
+        "level": 2,
+        "score": 0.46794572472572327
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.44841495156288147
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.44136494398117065
+      },
+      {
+        "id": "https://openalex.org/C150194340",
+        "wikidata": "https://www.wikidata.org/wiki/Q26972",
+        "display_name": "Gene expression",
+        "level": 3,
+        "score": 0.42730221152305603
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.4263908863067627
+      },
+      {
+        "id": "https://openalex.org/C107397762",
+        "wikidata": "https://www.wikidata.org/wiki/Q2542347",
+        "display_name": "RNA-Seq",
+        "level": 5,
+        "score": 0.41703081130981445
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.4044167101383209
+      },
+      {
+        "id": "https://openalex.org/C153180895",
+        "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+        "display_name": "Pattern recognition (psychology)",
+        "level": 2,
+        "score": 0.32881057262420654
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.28752318024635315
+      },
+      {
+        "id": "https://openalex.org/C54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "level": 1,
+        "score": 0.15257364511489868
+      },
+      {
+        "id": "https://openalex.org/C162317418",
+        "wikidata": "https://www.wikidata.org/wiki/Q252857",
+        "display_name": "Transcriptome",
+        "level": 4,
+        "score": 0.08440971374511719
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C199360897",
+        "wikidata": "https://www.wikidata.org/wiki/Q9143",
+        "display_name": "Programming language",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C162853370",
+        "wikidata": "https://www.wikidata.org/wiki/Q39809",
+        "display_name": "Marketing",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D020869",
+        "descriptor_name": "Gene Expression Profiling",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D017423",
+        "descriptor_name": "Sequence Analysis, RNA",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059010",
+        "descriptor_name": "Single-Cell Analysis",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008565",
+        "descriptor_name": "Membrane Proteins",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D020869",
+        "descriptor_name": "Gene Expression Profiling",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D017423",
+        "descriptor_name": "Sequence Analysis, RNA",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D059010",
+        "descriptor_name": "Single-Cell Analysis",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008565",
+        "descriptor_name": "Membrane Proteins",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1093/bib/bbad342",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1093/bib/bbad342",
+        "pdf_url": "https://academic.oup.com/bib/article-pdf/24/6/bbad342/51895214/bbad342.pdf",
+        "source": {
+          "id": "https://openalex.org/S91767247",
+          "display_name": "Briefings in Bioinformatics",
+          "issn_l": "1467-5463",
+          "issn": [
+            "1467-5463",
+            "1477-4054"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Briefings in Bioinformatics",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:37798250",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37798250",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Briefings in bioinformatics",
+        "raw_type": null
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1093/bib/bbad342",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/bib/bbad342",
+      "pdf_url": "https://academic.oup.com/bib/article-pdf/24/6/bbad342/51895214/bbad342.pdf",
+      "source": {
+        "id": "https://openalex.org/S91767247",
+        "display_name": "Briefings in Bioinformatics",
+        "issn_l": "1467-5463",
+        "issn": [
+          "1467-5463",
+          "1477-4054"
+        ],
+        "is_oa": false,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Briefings in Bioinformatics",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G8624615794",
+        "display_name": null,
+        "funder_award_id": "GW200026",
+        "funder_id": "https://openalex.org/F4320306078",
+        "funder_display_name": "U.S. Department of Defense"
+      },
+      {
+        "id": "https://openalex.org/G8156429214",
+        "display_name": null,
+        "funder_award_id": "RP230204",
+        "funder_id": "https://openalex.org/F4320308129",
+        "funder_display_name": "Cancer Prevention and Research Institute of Texas"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306078",
+        "display_name": "U.S. Department of Defense",
+        "ror": "https://ror.org/0447fe631"
+      },
+      {
+        "id": "https://openalex.org/F4320308129",
+        "display_name": "Cancer Prevention and Research Institute of Texas",
+        "ror": "https://ror.org/0003xa228"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 39,
+    "referenced_works": [
+      "https://openalex.org/W3196855488",
+      "https://openalex.org/W2900387735",
+      "https://openalex.org/W4213344226",
+      "https://openalex.org/W3097075523",
+      "https://openalex.org/W4225426244",
+      "https://openalex.org/W6849546967",
+      "https://openalex.org/W4378640029",
+      "https://openalex.org/W6853560567",
+      "https://openalex.org/W6810055804",
+      "https://openalex.org/W4224310212",
+      "https://openalex.org/W2739492614",
+      "https://openalex.org/W2021552734",
+      "https://openalex.org/W4292560509",
+      "https://openalex.org/W3164692211",
+      "https://openalex.org/W3129866267",
+      "https://openalex.org/W4307407679",
+      "https://openalex.org/W6638545294",
+      "https://openalex.org/W6739139180",
+      "https://openalex.org/W4375955255",
+      "https://openalex.org/W6839012619",
+      "https://openalex.org/W6755310813",
+      "https://openalex.org/W6745995898",
+      "https://openalex.org/W6753505025",
+      "https://openalex.org/W6685133223",
+      "https://openalex.org/W2602848567",
+      "https://openalex.org/W4296767449",
+      "https://openalex.org/W4225731526",
+      "https://openalex.org/W6745609711",
+      "https://openalex.org/W6766978945",
+      "https://openalex.org/W1602702667",
+      "https://openalex.org/W6850480899",
+      "https://openalex.org/W4320487182",
+      "https://openalex.org/W2962851944",
+      "https://openalex.org/W2883265831",
+      "https://openalex.org/W2612690371",
+      "https://openalex.org/W4321611267",
+      "https://openalex.org/W2621350877",
+      "https://openalex.org/W2990138404",
+      "https://openalex.org/W4297779039"
+    ],
+    "related_works": [
+      "https://openalex.org/W4238897586",
+      "https://openalex.org/W2905433371",
+      "https://openalex.org/W435179959",
+      "https://openalex.org/W2619091065",
+      "https://openalex.org/W2059640416",
+      "https://openalex.org/W1490753184",
+      "https://openalex.org/W2284465472",
+      "https://openalex.org/W4390569940",
+      "https://openalex.org/W2291782699",
+      "https://openalex.org/W3002447856"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Cell-surface": [
+        1
+      ],
+      "proteins": [
+        2
+      ],
+      "play": [
+        3
+      ],
+      "a": [
+        4,
+        18,
+        95,
+        126
+      ],
+      "critical": [
+        5
+      ],
+      "role": [
+        6
+      ],
+      "in": [
+        7,
+        125
+      ],
+      "cell": [
+        8
+      ],
+      "function": [
+        9
+      ],
+      "and": [
+        10,
+        27,
+        36,
+        67,
+        129,
+        159,
+        170
+      ],
+      "are": [
+        11,
+        64,
+        110
+      ],
+      "primary": [
+        12
+      ],
+      "targets": [
+        13
+      ],
+      "for": [
+        14,
+        186
+      ],
+      "therapeutics.": [
+        15
+      ],
+      "CITE-seq": [
+        16,
+        143,
+        184
+      ],
+      "is": [
+        17,
+        32,
+        130
+      ],
+      "single-cell": [
+        19,
+        56
+      ],
+      "technique": [
+        20
+      ],
+      "that": [
+        21,
+        166
+      ],
+      "enables": [
+        22
+      ],
+      "simultaneous": [
+        23
+      ],
+      "measurement": [
+        24
+      ],
+      "of": [
+        25,
+        150,
+        183
+      ],
+      "gene": [
+        26,
+        50
+      ],
+      "surface": [
+        28,
+        46,
+        86,
+        101,
+        173,
+        191
+      ],
+      "protein": [
+        29,
+        47,
+        87,
+        102,
+        174
+      ],
+      "expression.": [
+        30
+      ],
+      "It": [
+        31
+      ],
+      "powerful": [
+        33
+      ],
+      "but": [
+        34
+      ],
+      "costly": [
+        35
+      ],
+      "technically": [
+        37
+      ],
+      "challenging.": [
+        38
+      ],
+      "Computational": [
+        39
+      ],
+      "methods": [
+        40,
+        62,
+        158
+      ],
+      "have": [
+        41
+      ],
+      "been": [
+        42
+      ],
+      "developed": [
+        43
+      ],
+      "to": [
+        44,
+        71,
+        84,
+        122,
+        132
+      ],
+      "predict": [
+        45,
+        85
+      ],
+      "expression": [
+        48,
+        51,
+        88,
+        175
+      ],
+      "using": [
+        49,
+        176
+      ],
+      "information": [
+        52,
+        116
+      ],
+      "such": [
+        53
+      ],
+      "as": [
+        54
+      ],
+      "from": [
+        55,
+        89,
+        106
+      ],
+      "RNA": [
+        57
+      ],
+      "sequencing": [
+        58
+      ],
+      "(scRNA-seq)": [
+        59
+      ],
+      "data.": [
+        60,
+        91
+      ],
+      "Existing": [
+        61
+      ],
+      "however": [
+        63
+      ],
+      "computationally": [
+        65
+      ],
+      "demanding": [
+        66
+      ],
+      "lack": [
+        68
+      ],
+      "the": [
+        69,
+        148,
+        181
+      ],
+      "interpretability": [
+        70
+      ],
+      "reveal": [
+        72
+      ],
+      "underlying": [
+        73
+      ],
+      "biological": [
+        74
+      ],
+      "processes.": [
+        75
+      ],
+      "We": [
+        76
+      ],
+      "propose": [
+        77
+      ],
+      "CrossmodalNet,": [
+        78
+      ],
+      "an": [
+        79,
+        118
+      ],
+      "interpretable": [
+        80
+      ],
+      "machine": [
+        81
+      ],
+      "learning": [
+        82
+      ],
+      "model,": [
+        83
+      ],
+      "scRNA-seq": [
+        90,
+        177
+      ],
+      "Our": [
+        92
+      ],
+      "model": [
+        93,
+        113,
+        152
+      ],
+      "with": [
+        94,
+        156
+      ],
+      "customized": [
+        96
+      ],
+      "adaptive": [
+        97
+      ],
+      "loss": [
+        98
+      ],
+      "accurately": [
+        99,
+        169
+      ],
+      "predicts": [
+        100
+      ],
+      "abundances.": [
+        103
+      ],
+      "When": [
+        104
+      ],
+      "samples": [
+        105
+      ],
+      "multiple": [
+        107
+      ],
+      "time": [
+        108,
+        120
+      ],
+      "points": [
+        109
+      ],
+      "given,": [
+        111
+      ],
+      "our": [
+        112,
+        151,
+        167
+      ],
+      "encodes": [
+        114
+      ],
+      "temporal": [
+        115
+      ],
+      "into": [
+        117
+      ],
+      "easy-to-interpret": [
+        119
+      ],
+      "embedding": [
+        121
+      ],
+      "make": [
+        123
+      ],
+      "prediction": [
+        124
+      ],
+      "time-point-specific": [
+        127
+      ],
+      "manner,": [
+        128
+      ],
+      "able": [
+        131
+      ],
+      "uncover": [
+        133
+      ],
+      "noise-free": [
+        134
+      ],
+      "causal": [
+        135
+      ],
+      "gene–protein": [
+        136
+      ],
+      "relationships.": [
+        137
+      ],
+      "Using": [
+        138
+      ],
+      "three": [
+        139
+      ],
+      "publicly": [
+        140
+      ],
+      "available": [
+        141
+      ],
+      "time-resolved": [
+        142
+      ],
+      "data": [
+        144
+      ],
+      "sets,": [
+        145
+      ],
+      "we": [
+        146,
+        164
+      ],
+      "validate": [
+        147
+      ],
+      "performance": [
+        149
+      ],
+      "by": [
+        153
+      ],
+      "comparing": [
+        154
+      ],
+      "it": [
+        155
+      ],
+      "benchmarking": [
+        157
+      ],
+      "evaluate": [
+        160
+      ],
+      "its": [
+        161
+      ],
+      "interpretability.": [
+        162
+      ],
+      "Together,": [
+        163
+      ],
+      "show": [
+        165
+      ],
+      "method": [
+        168
+      ],
+      "interpretably": [
+        171
+      ],
+      "profiles": [
+        172
+      ],
+      "data,": [
+        178
+      ],
+      "thereby": [
+        179
+      ],
+      "expanding": [
+        180
+      ],
+      "capacity": [
+        182
+      ],
+      "experiments": [
+        185
+      ],
+      "investigating": [
+        187
+      ],
+      "molecular": [
+        188
+      ],
+      "mechanisms": [
+        189
+      ],
+      "involving": [
+        190
+      ],
+      "proteins.": [
+        192
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-12-22T23:10:17.713674",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          30
+        ]
+      ],
+      "date-time": "2025-07-30T11:43:31Z",
+      "timestamp": 1753875811208,
+      "version": "3.41.2"
+    },
+    "reference-count": 33,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              5
+            ]
+          ],
+          "date-time": "2023-10-05T00:00:00Z",
+          "timestamp": 1696464000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 13,
+        "URL": "https://academic.oup.com/pages/standard-publication-reuse-rights"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000005",
+        "name": "U.S. Department of Defense",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "GW200026"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "GW200026"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000005",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100004917",
+        "name": "Cancer Prevention and Research Institute of Texas",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "RP230204"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RP230204"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100004917",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p>Cell-surface proteins play a critical role in cell function and are primary targets for therapeutics. CITE-seq is a single-cell technique that enables simultaneous measurement of gene and surface protein expression. It is powerful but costly and technically challenging. Computational methods have been developed to predict surface protein expression using gene expression information such as from single-cell RNA sequencing (scRNA-seq) data. Existing methods however are computationally demanding and lack the interpretability to reveal underlying biological processes. We propose CrossmodalNet, an interpretable machine learning model, to predict surface protein expression from scRNA-seq data. Our model with a customized adaptive loss accurately predicts surface protein abundances. When samples from multiple time points are given, our model encodes temporal information into an easy-to-interpret time embedding to make prediction in a time-point-specific manner, and is able to uncover noise-free causal gene–protein relationships. Using three publicly available time-resolved CITE-seq data sets, we validate the performance of our model by comparing it with benchmarking methods and evaluate its interpretability. Together, we show that our method accurately and interpretably profiles surface protein expression using scRNA-seq data, thereby expanding the capacity of CITE-seq experiments for investigating molecular mechanisms involving surface proteins.</jats:p>",
+    "DOI": "10.1093/bib/bbad342",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2023-10-06T01:38:28Z",
+      "timestamp": 1696556308000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Interpretable modeling of time-resolved single-cell gene–protein expression with CrossmodalNet"
+    ],
+    "prefix": "10.1093",
+    "volume": "24",
+    "author": [
+      {
+        "given": "Yongjian",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Texas A&M University , College Station, TX ,",
+            "place": [
+              "USA"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Yu-Te",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graduate Institute of Biomedical Electronics and Bioinformatics, National Taiwan University , Taipei ,",
+            "place": [
+              "Taiwan"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Guanxun",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Statistics, Texas A&M University , College Station, TX ,",
+            "place": [
+              "USA"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Yan",
+        "family": "Zhong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Key Laboratory of Advanced Theory and Application in Statistics and Data Science-MOE , School of Statistics, , Shanghai ,",
+            "place": [
+              "China"
+            ]
+          },
+          {
+            "name": "East China Normal University , School of Statistics, , Shanghai ,",
+            "place": [
+              "China"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "Qian",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Veterinary Integrative Biosciences, Texas A&M University , College Station, TX ,",
+            "place": [
+              "USA"
+            ]
+          }
+        ]
+      },
+      {
+        "given": "James J",
+        "family": "Cai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Texas A&M University , College Station, TX ,",
+            "place": [
+              "USA"
+            ]
+          },
+          {
+            "name": "Department of Veterinary Integrative Biosciences, Texas A&M University , College Station, TX ,",
+            "place": [
+              "USA"
+            ]
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "12",
+        "key": "2024100500013301500_ref1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1064",
+        "DOI": "10.1016/j.tig.2021.08.003",
+        "article-title": "The cell as a bag of rna",
+        "volume": "37",
+        "author": "Quake",
+        "year": "2021",
+        "journal-title": "Trends Genet"
+      },
+      {
+        "issue": "1",
+        "key": "2024100500013301500_ref2",
+        "doi-asserted-by": "crossref",
+        "first-page": "4719",
+        "DOI": "10.1038/s41467-018-07234-6",
+        "article-title": "Discovery of rare cells from voluminous single cell expression data",
+        "volume": "9",
+        "author": "Jindal",
+        "year": "2018",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "issue": "2",
+        "key": "2024100500013301500_ref3",
+        "doi-asserted-by": "crossref",
+        "first-page": "371",
+        "DOI": "10.3390/genes13020371",
+        "article-title": "Scintime: a computational method leveraging single-cell trajectory and gene regulatory networks to identify master regulators of cellular differentiation",
+        "volume": "13",
+        "author": "Qian",
+        "year": "2022",
+        "journal-title": "Genes"
+      },
+      {
+        "issue": "9",
+        "key": "2024100500013301500_ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "100139",
+        "DOI": "10.1016/j.patter.2020.100139",
+        "article-title": "Sctenifoldnet: a machine learning workflow for constructing and comparing transcriptome-wide gene regulatory networks from single-cell data",
+        "volume": "1",
+        "author": "Osorio",
+        "year": "2020",
+        "journal-title": "Patterns"
+      },
+      {
+        "issue": "3",
+        "key": "2024100500013301500_ref5",
+        "doi-asserted-by": "crossref",
+        "first-page": "100434",
+        "DOI": "10.1016/j.patter.2022.100434",
+        "article-title": "Sctenifoldknk: an efficient virtual knockout tool for gene function predictions via single-cell gene regulatory network perturbation",
+        "volume": "3",
+        "author": "Osorio",
+        "year": "2022",
+        "journal-title": "Patterns"
+      },
+      {
+        "key": "2024100500013301500_ref6",
+        "article-title": "Sctenifoldxct: a semi-supervised method for predicting cell-cell interactions and mapping cellular communication graphs",
+        "volume": "14",
+        "author": "Yang",
+        "year": "2023",
+        "journal-title": "Cell Syst"
+      },
+      {
+        "key": "2024100500013301500_ref7",
+        "doi-asserted-by": "crossref",
+        "first-page": "6578",
+        "DOI": "10.1093/nar/gkad450",
+        "article-title": "Gene knockout inference with variational graph autoencoder learning single-cell gene regulatory networks",
+        "volume": "51",
+        "author": "Yang",
+        "year": "2023",
+        "journal-title": "Nucleic Acids Res"
+      },
+      {
+        "key": "2024100500013301500_ref8",
+        "article-title": "Graph mixup with soft alignments",
+        "volume-title": "International Conference on Machine Learning",
+        "author": "Ling",
+        "year": "2023"
+      },
+      {
+        "key": "2024100500013301500_ref9",
+        "article-title": "G-mixup: Graph data augmentation for graph classification",
+        "volume-title": "International Conference on Machine Learning",
+        "author": "Han",
+        "year": "2022"
+      },
+      {
+        "key": "2024100500013301500_ref10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1226",
+        "DOI": "10.1145/3485447.3512170",
+        "article-title": "Geometric graph representation learning via maximizing rate reduction",
+        "author": "Han",
+        "year": "2022",
+        "journal-title": "In Proceedings of the ACM Web Conference 2022"
+      },
+      {
+        "issue": "9",
+        "key": "2024100500013301500_ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "865",
+        "DOI": "10.1038/nmeth.4380",
+        "article-title": "Simultaneous epitope and transcriptome measurement in single cells",
+        "volume": "14",
+        "author": "Stoeckius",
+        "year": "2017",
+        "journal-title": "Nat Methods"
+      },
+      {
+        "issue": "6",
+        "key": "2024100500013301500_ref12",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1016/S1081-1206(10)62116-3",
+        "article-title": "Cross-reactivity between mammalian proteins",
+        "volume": "89",
+        "author": "Restani",
+        "year": "2002",
+        "journal-title": "Ann Allergy Asthma Immunol"
+      },
+      {
+        "key": "2024100500013301500_ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "977968",
+        "DOI": "10.3389/fgene.2022.977968",
+        "article-title": "Clustering cite-seq data with a canonical correlation-based deep learning method",
+        "volume": "13",
+        "author": "Yuan",
+        "year": "2022",
+        "journal-title": "Front Genet"
+      },
+      {
+        "issue": "13",
+        "key": "2024100500013301500_ref14",
+        "doi-asserted-by": "crossref",
+        "first-page": "3573",
+        "DOI": "10.1016/j.cell.2021.04.048",
+        "article-title": "Integrated analysis of multimodal single-cell data",
+        "volume": "184",
+        "author": "Hao",
+        "year": "2021",
+        "journal-title": "Cell"
+      },
+      {
+        "issue": "3",
+        "key": "2024100500013301500_ref15",
+        "doi-asserted-by": "crossref",
+        "first-page": "272",
+        "DOI": "10.1038/s41592-020-01050-x",
+        "article-title": "Joint probabilistic modeling of single-cell multi-omic data with totalvi",
+        "volume": "18",
+        "author": "Gayoso",
+        "year": "2021",
+        "journal-title": "Nat Methods"
+      },
+      {
+        "key": "2024100500013301500_ref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "940",
+        "DOI": "10.1038/s42256-022-00545-w",
+        "article-title": "A multi-use deep learning method for cite-seq and single-cell rna-seq data integration with cell surface protein prediction and imputation",
+        "volume": "4",
+        "author": "Lakkis",
+        "year": "2022",
+        "journal-title": "Nature Mach Intell"
+      },
+      {
+        "key": "2024100500013301500_ref17",
+        "first-page": "1310",
+        "article-title": "On the difficulty of training recurrent neural networks",
+        "volume-title": "International conference on machine learning",
+        "author": "Pascanu",
+        "year": "2013"
+      },
+      {
+        "key": "2024100500013301500_ref18",
+        "article-title": "Fader networks: manipulating images by sliding attributes",
+        "volume": "30",
+        "author": "Lample",
+        "year": "2017",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "2024100500013301500_ref19",
+        "doi-asserted-by": "crossref",
+        "first-page": "e11517",
+        "DOI": "10.15252/msb.202211517",
+        "article-title": "Predicting cellular responses to complex perturbations in high-throughput screens",
+        "volume": "19",
+        "author": "Lotfollahi",
+        "year": "2023",
+        "journal-title": "Mol Syst Biol"
+      },
+      {
+        "key": "2024100500013301500_ref20",
+        "first-page": "2022",
+        "article-title": "Multicpa: multimodal compositional perturbation autoencoder",
+        "volume-title": "bioRxiv",
+        "author": "Inecik",
+        "year": "2022"
+      },
+      {
+        "key": "2024100500013301500_ref21",
+        "article-title": "How does batch normalization help optimization?",
+        "volume": "31",
+        "author": "Santurkar",
+        "year": "2018",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "2024100500013301500_ref22",
+        "first-page": "794",
+        "article-title": "Gradnorm: Gradient normalization for adaptive loss balancing in deep multitask networks",
+        "volume-title": "International conference on machine learning",
+        "author": "Chen",
+        "year": "2018"
+      },
+      {
+        "article-title": "Tune: a research platform for distributed model selection and training",
+        "year": "2018",
+        "author": "Liaw",
+        "key": "2024100500013301500_ref23"
+      },
+      {
+        "article-title": "Deep inside convolutional networks: visualising image classification models and saliency maps",
+        "year": "2013",
+        "author": "Simonyan",
+        "key": "2024100500013301500_ref24"
+      },
+      {
+        "volume-title": "Open problems in single-cell analysis",
+        "year": "2022",
+        "author": "Cellarity",
+        "key": "2024100500013301500_ref25"
+      },
+      {
+        "issue": "4",
+        "key": "2024100500013301500_ref26",
+        "doi-asserted-by": "crossref",
+        "first-page": "271",
+        "DOI": "10.1038/ncb3493",
+        "article-title": "Human haematopoietic stem cell lineage commitment is a continuous process",
+        "volume": "19",
+        "author": "Velten",
+        "year": "2017",
+        "journal-title": "Nat Cell Biol"
+      },
+      {
+        "issue": "12",
+        "key": "2024100500013301500_ref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "111384",
+        "DOI": "10.1016/j.celrep.2022.111384",
+        "article-title": "Circulating monocytes associated with anti-pd-1 resistance in human biliary cancer induce t cell paralysis",
+        "volume": "40",
+        "author": "Keenan",
+        "year": "2022",
+        "journal-title": "Cell Rep"
+      },
+      {
+        "issue": "1",
+        "key": "2024100500013301500_ref28",
+        "doi-asserted-by": "crossref",
+        "first-page": "2099",
+        "DOI": "10.1038/s41467-022-29356-8",
+        "article-title": "Normalizing and denoising protein expression data from droplet-based single cell profiling",
+        "volume": "13",
+        "author": "Mulè",
+        "year": "2022",
+        "journal-title": "Nat Commun"
+      },
+      {
+        "key": "2024100500013301500_ref29",
+        "article-title": "LightGBM: A highly efficient gradient boosting decision tree",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "author": "Ke",
+        "year": "2017"
+      },
+      {
+        "key": "2024100500013301500_ref30",
+        "first-page": "8024",
+        "article-title": "Pytorch: An imperative style, high-performance deep learning library",
+        "volume-title": "Advances in Neural Information Processing Systems 32",
+        "author": "Paszke",
+        "year": "2019"
+      },
+      {
+        "key": "2024100500013301500_ref31",
+        "article-title": "Pytorch lightning",
+        "volume-title": "GitHub",
+        "author": "Falcon",
+        "year": "2019"
+      },
+      {
+        "issue": "7561",
+        "key": "2024100500013301500_ref32",
+        "doi-asserted-by": "crossref",
+        "first-page": "486",
+        "DOI": "10.1038/nature14590",
+        "article-title": "Single-cell chromatin accessibility reveals principles of regulatory variation",
+        "volume": "523",
+        "author": "Buenrostro",
+        "year": "2015",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2024100500013301500_ref33",
+        "first-page": "1",
+        "article-title": "High-plex protein and whole transcriptome co-mapping at cellular resolution with spatial cite-seq",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "Nat Biotechnol"
+      }
+    ],
+    "container-title": [
+      "Briefings in Bioinformatics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://academic.oup.com/bib/article-pdf/24/6/bbad342/51895214/bbad342.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://academic.oup.com/bib/article-pdf/24/6/bbad342/51895214/bbad342.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2024-10-05T00:01:55Z",
+      "timestamp": 1728086515000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/bib/article/doi/10.1093/bib/bbad342/7291995"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          22
+        ]
+      ]
+    },
+    "references-count": 33,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            22
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1093/bib/bbad342",
+    "relation": {},
+    "ISSN": [
+      "1467-5463",
+      "1477-4054"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1467-5463"
+      },
+      {
+        "type": "electronic",
+        "value": "1477-4054"
+      }
+    ],
+    "subject": [],
+    "published-other": {
+      "date-parts": [
+        [
+          2023,
+          11,
+          1
+        ]
+      ]
+    },
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          22
+        ]
+      ]
+    },
+    "article-number": "bbad342"
+  }
+}

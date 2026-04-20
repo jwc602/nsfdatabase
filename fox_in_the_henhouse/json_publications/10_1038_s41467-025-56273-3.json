@@ -1,0 +1,2563 @@
+{
+  "doi": "10.1038/s41467-025-56273-3",
+  "openalex": {
+    "id": "https://openalex.org/W4407009368",
+    "doi": "https://doi.org/10.1038/s41467-025-56273-3",
+    "title": "STICI: Split-Transformer with integrated convolutions for genotype imputation",
+    "display_name": "STICI: Split-Transformer with integrated convolutions for genotype imputation",
+    "publication_year": 2025,
+    "publication_date": "2025-01-31",
+    "ids": {
+      "openalex": "https://openalex.org/W4407009368",
+      "doi": "https://doi.org/10.1038/s41467-025-56273-3",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39890780"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s41467-025-56273-3",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41467-025-56273-3",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-56273-3.pdf",
+      "source": {
+        "id": "https://openalex.org/S64187185",
+        "display_name": "Nature Communications",
+        "issn_l": "2041-1723",
+        "issn": [
+          "2041-1723"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Communications",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41467-025-56273-3.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5059575255",
+          "display_name": "Mohammad Erfan Mowlaei",
+          "orcid": "https://orcid.org/0000-0002-7601-0550"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I84392919",
+            "display_name": "Temple University",
+            "ror": "https://ror.org/00kx1jb78",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mohammad Erfan Mowlaei",
+        "raw_affiliation_strings": [
+          "Computer & Information Sciences, College of Science and Technology, Temple University, Philadelphia, PA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Computer & Information Sciences, College of Science and Technology, Temple University, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5066769108",
+          "display_name": "Chong Li",
+          "orcid": "https://orcid.org/0000-0003-1949-4074"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I84392919",
+            "display_name": "Temple University",
+            "ror": "https://ror.org/00kx1jb78",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chong Li",
+        "raw_affiliation_strings": [
+          "Computer & Information Sciences, College of Science and Technology, Temple University, Philadelphia, PA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Computer & Information Sciences, College of Science and Technology, Temple University, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5011745084",
+          "display_name": "Oveis Jamialahmadi",
+          "orcid": "https://orcid.org/0000-0001-7139-4738"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I881427289",
+            "display_name": "University of Gothenburg",
+            "ror": "https://ror.org/01tm6cn81",
+            "country_code": "SE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I881427289"
+            ]
+          }
+        ],
+        "countries": [
+          "SE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Oveis Jamialahmadi",
+        "raw_affiliation_strings": [
+          "Department of Molecular and Clinical Medicine, Institute of Medicine, Sahlgrenska Academy, Wallenberg Laboratory, University of Gothenburg, Gothenburg, Sweden"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Molecular and Clinical Medicine, Institute of Medicine, Sahlgrenska Academy, Wallenberg Laboratory, University of Gothenburg, Gothenburg, Sweden",
+            "institution_ids": [
+              "https://openalex.org/I881427289"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5044545913",
+          "display_name": "Raquel Dias",
+          "orcid": "https://orcid.org/0000-0002-8387-1324"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I33213144",
+            "display_name": "University of Florida",
+            "ror": "https://ror.org/02y3ad647",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Raquel Dias",
+        "raw_affiliation_strings": [
+          "Department of Microbiology and Cell Science, University of Florida, Gainesville, FL, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Microbiology and Cell Science, University of Florida, Gainesville, FL, USA",
+            "institution_ids": [
+              "https://openalex.org/I33213144"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100365536",
+          "display_name": "Junjie Chen",
+          "orcid": "https://orcid.org/0000-0002-0483-303X"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204983213",
+            "display_name": "Harbin Institute of Technology",
+            "ror": "https://ror.org/01yqg2h08",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204983213"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Junjie Chen",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen, Guangdong, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Technology, Harbin Institute of Technology, Shenzhen, Guangdong, China",
+            "institution_ids": [
+              "https://openalex.org/I204983213"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5044451411",
+          "display_name": "Benyamin Jamialahmadi",
+          "orcid": null
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I151746483",
+            "display_name": "University of Waterloo",
+            "ror": "https://ror.org/01aff2v68",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I151746483"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Benyamin Jamialahmadi",
+        "raw_affiliation_strings": [
+          "David R. Cheriton School of Computer Science, University of Waterloo, Waterloo, ON, Canada"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "David R. Cheriton School of Computer Science, University of Waterloo, Waterloo, ON, Canada",
+            "institution_ids": [
+              "https://openalex.org/I151746483"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5074868327",
+          "display_name": "Timothy R. Rebbeck",
+          "orcid": "https://orcid.org/0000-0002-4799-1900"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210117453",
+            "display_name": "Dana-Farber Cancer Institute",
+            "ror": "https://ror.org/02jzgtq86",
+            "country_code": "US",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4210117453"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I136199984",
+            "display_name": "Harvard University",
+            "ror": "https://ror.org/03vek6s52",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I136199984"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Timothy Richard Rebbeck",
+        "raw_affiliation_strings": [
+          "Department of Epidemiology, Harvard T. H. Chan School of Public Health, Boston, MA, USA",
+          "Division of Population Sciences, Dana-Farber Cancer Institute, Boston, MA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Division of Population Sciences, Dana-Farber Cancer Institute, Boston, MA, USA",
+            "institution_ids": [
+              "https://openalex.org/I4210117453"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Epidemiology, Harvard T. H. Chan School of Public Health, Boston, MA, USA",
+            "institution_ids": [
+              "https://openalex.org/I136199984"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103020066",
+          "display_name": "Vincenzo Carnevale",
+          "orcid": "https://orcid.org/0000-0002-1918-8280"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I84392919",
+            "display_name": "Temple University",
+            "ror": "https://ror.org/00kx1jb78",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Vincenzo Carnevale",
+        "raw_affiliation_strings": [
+          "Institute for Computational Molecular Science, Temple University, Philadelphia, PA, USA",
+          "Institute for Genomics and Evolutionary Medicine, Temple University, Philadelphia, PA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Genomics and Evolutionary Medicine, Temple University, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I84392919"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Computational Molecular Science, Temple University, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100680948",
+          "display_name": "Sudhir Kumar",
+          "orcid": "https://orcid.org/0000-0002-9918-8212"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I84392919",
+            "display_name": "Temple University",
+            "ror": "https://ror.org/00kx1jb78",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sudhir Kumar",
+        "raw_affiliation_strings": [
+          "Department of Biology, Temple University, Philadelphia, PA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Biology, Temple University, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5103054154",
+          "display_name": "Xinghua Shi",
+          "orcid": "https://orcid.org/0000-0003-4662-3177"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I84392919",
+            "display_name": "Temple University",
+            "ror": "https://ror.org/00kx1jb78",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xinghua Shi",
+        "raw_affiliation_strings": [
+          "Computer & Information Sciences, College of Science and Technology, Temple University, Philadelphia, PA, USA",
+          "Institute for Genomics and Evolutionary Medicine, Temple University, Philadelphia, PA, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute for Genomics and Evolutionary Medicine, Temple University, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I84392919"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Computer & Information Sciences, College of Science and Technology, Temple University, Philadelphia, PA, USA",
+            "institution_ids": [
+              "https://openalex.org/I84392919"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 4,
+    "institutions_distinct_count": 10,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 3920,
+      "currency": "GBP",
+      "value_usd": 4808
+    },
+    "apc_paid": {
+      "value": 3920,
+      "currency": "GBP",
+      "value_usd": 4808
+    },
+    "fwci": 10.73177851,
+    "has_fulltext": false,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.9410621,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "16",
+      "issue": "1",
+      "first_page": "1218",
+      "last_page": "1218"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10885",
+      "display_name": "Gene expression and cancer classification",
+      "score": 0.9979000091552734,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10885",
+        "display_name": "Gene expression and cancer classification",
+        "score": 0.9979000091552734,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1312",
+          "display_name": "Molecular Biology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11468",
+        "display_name": "Genetic Mapping and Diversity in Plants and Animals",
+        "score": 0.9926999807357788,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10261",
+        "display_name": "Genetic Associations and Epidemiology",
+        "score": 0.9916999936103821,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/imputation",
+        "display_name": "Imputation (statistics)",
+        "score": 0.685502827167511
+      },
+      {
+        "id": "https://openalex.org/keywords/genotype",
+        "display_name": "Genotype",
+        "score": 0.5515718460083008
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.4942355453968048
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-biology",
+        "display_name": "Computational biology",
+        "score": 0.35426265001296997
+      },
+      {
+        "id": "https://openalex.org/keywords/biology",
+        "display_name": "Biology",
+        "score": 0.24423852562904358
+      },
+      {
+        "id": "https://openalex.org/keywords/genetics",
+        "display_name": "Genetics",
+        "score": 0.21641120314598083
+      },
+      {
+        "id": "https://openalex.org/keywords/missing-data",
+        "display_name": "Missing data",
+        "score": 0.18884772062301636
+      },
+      {
+        "id": "https://openalex.org/keywords/gene",
+        "display_name": "Gene",
+        "score": 0.12913039326667786
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.06615275144577026
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C58041806",
+        "wikidata": "https://www.wikidata.org/wiki/Q1660484",
+        "display_name": "Imputation (statistics)",
+        "level": 3,
+        "score": 0.685502827167511
+      },
+      {
+        "id": "https://openalex.org/C135763542",
+        "wikidata": "https://www.wikidata.org/wiki/Q106016",
+        "display_name": "Genotype",
+        "level": 3,
+        "score": 0.5515718460083008
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.4942355453968048
+      },
+      {
+        "id": "https://openalex.org/C70721500",
+        "wikidata": "https://www.wikidata.org/wiki/Q177005",
+        "display_name": "Computational biology",
+        "level": 1,
+        "score": 0.35426265001296997
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.24423852562904358
+      },
+      {
+        "id": "https://openalex.org/C54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "level": 1,
+        "score": 0.21641120314598083
+      },
+      {
+        "id": "https://openalex.org/C9357733",
+        "wikidata": "https://www.wikidata.org/wiki/Q6878417",
+        "display_name": "Missing data",
+        "level": 2,
+        "score": 0.18884772062301636
+      },
+      {
+        "id": "https://openalex.org/C104317684",
+        "wikidata": "https://www.wikidata.org/wiki/Q7187",
+        "display_name": "Gene",
+        "level": 2,
+        "score": 0.12913039326667786
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.06615275144577026
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005838",
+        "descriptor_name": "Genotype",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015810",
+        "descriptor_name": "Linkage Disequilibrium",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015894",
+        "descriptor_name": "Genome, Human",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D020641",
+        "descriptor_name": "Polymorphism, Single Nucleotide",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D023281",
+        "descriptor_name": "Genomics",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D055106",
+        "descriptor_name": "Genome-Wide Association Study",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012984",
+        "descriptor_name": "Software",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000483",
+        "descriptor_name": "Alleles",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005838",
+        "descriptor_name": "Genotype",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015810",
+        "descriptor_name": "Linkage Disequilibrium",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015894",
+        "descriptor_name": "Genome, Human",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D020641",
+        "descriptor_name": "Polymorphism, Single Nucleotide",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D023281",
+        "descriptor_name": "Genomics",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D055106",
+        "descriptor_name": "Genome-Wide Association Study",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012984",
+        "descriptor_name": "Software",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000483",
+        "descriptor_name": "Alleles",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005838",
+        "descriptor_name": "Genotype",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015810",
+        "descriptor_name": "Linkage Disequilibrium",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015894",
+        "descriptor_name": "Genome, Human",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D020641",
+        "descriptor_name": "Polymorphism, Single Nucleotide",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D023281",
+        "descriptor_name": "Genomics",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D055106",
+        "descriptor_name": "Genome-Wide Association Study",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D012984",
+        "descriptor_name": "Software",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000483",
+        "descriptor_name": "Alleles",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005838",
+        "descriptor_name": "Genotype",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D015810",
+        "descriptor_name": "Linkage Disequilibrium",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D015894",
+        "descriptor_name": "Genome, Human",
+        "qualifier_ui": "Q000235",
+        "qualifier_name": "genetics",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D020641",
+        "descriptor_name": "Polymorphism, Single Nucleotide",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D023281",
+        "descriptor_name": "Genomics",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D012984",
+        "descriptor_name": "Software",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D055106",
+        "descriptor_name": "Genome-Wide Association Study",
+        "qualifier_ui": "Q000379",
+        "qualifier_name": "methods",
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008957",
+        "descriptor_name": "Models, Genetic",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1038/s41467-025-56273-3",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41467-025-56273-3",
+        "pdf_url": "https://www.nature.com/articles/s41467-025-56273-3.pdf",
+        "source": {
+          "id": "https://openalex.org/S64187185",
+          "display_name": "Nature Communications",
+          "issn_l": "2041-1723",
+          "issn": [
+            "2041-1723"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Communications",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:39890780",
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39890780",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature communications",
+        "raw_type": null
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:dcd7ac33d3ef481a9763a66e811c2b55",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/dcd7ac33d3ef481a9763a66e811c2b55",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Nature Communications, Vol 16, Iss 1, Pp 1-14 (2025)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11785734",
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11785734",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Nat Commun",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1038/s41467-025-56273-3",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41467-025-56273-3",
+      "pdf_url": "https://www.nature.com/articles/s41467-025-56273-3.pdf",
+      "source": {
+        "id": "https://openalex.org/S64187185",
+        "display_name": "Nature Communications",
+        "issn_l": "2041-1723",
+        "issn": [
+          "2041-1723"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Communications",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": true
+    },
+    "referenced_works_count": 64,
+    "referenced_works": [
+      "https://openalex.org/W3028329270",
+      "https://openalex.org/W3131627068",
+      "https://openalex.org/W4308417785",
+      "https://openalex.org/W2804307951",
+      "https://openalex.org/W2290129914",
+      "https://openalex.org/W2081872599",
+      "https://openalex.org/W1963543400",
+      "https://openalex.org/W1920357508",
+      "https://openalex.org/W2949884285",
+      "https://openalex.org/W2104549677",
+      "https://openalex.org/W4214821232",
+      "https://openalex.org/W2157235443",
+      "https://openalex.org/W3100788068",
+      "https://openalex.org/W2970900727",
+      "https://openalex.org/W2510973425",
+      "https://openalex.org/W2166501262",
+      "https://openalex.org/W4382631675",
+      "https://openalex.org/W3104299286",
+      "https://openalex.org/W2952113787",
+      "https://openalex.org/W2115837368",
+      "https://openalex.org/W4382631461",
+      "https://openalex.org/W2949625879",
+      "https://openalex.org/W4296808098",
+      "https://openalex.org/W3091024782",
+      "https://openalex.org/W4400015106",
+      "https://openalex.org/W4390339704",
+      "https://openalex.org/W3133645762",
+      "https://openalex.org/W4401258240",
+      "https://openalex.org/W6739901393",
+      "https://openalex.org/W2118615399",
+      "https://openalex.org/W1923211482",
+      "https://openalex.org/W3177828909",
+      "https://openalex.org/W4327550249",
+      "https://openalex.org/W2529241974",
+      "https://openalex.org/W1912672559",
+      "https://openalex.org/W3037441421",
+      "https://openalex.org/W2951641704",
+      "https://openalex.org/W4213070432",
+      "https://openalex.org/W3024796143",
+      "https://openalex.org/W6977673223",
+      "https://openalex.org/W1992436001",
+      "https://openalex.org/W2922767806",
+      "https://openalex.org/W2163705275",
+      "https://openalex.org/W2082704080",
+      "https://openalex.org/W3126160703",
+      "https://openalex.org/W4205170775",
+      "https://openalex.org/W6931311163",
+      "https://openalex.org/W2088054167",
+      "https://openalex.org/W1982401463",
+      "https://openalex.org/W2099085143",
+      "https://openalex.org/W2150131459",
+      "https://openalex.org/W1969511229",
+      "https://openalex.org/W2981354404",
+      "https://openalex.org/W2119279196",
+      "https://openalex.org/W2950285143",
+      "https://openalex.org/W6713134421",
+      "https://openalex.org/W2141908685",
+      "https://openalex.org/W2097117768",
+      "https://openalex.org/W4311415873",
+      "https://openalex.org/W2056155495",
+      "https://openalex.org/W4206670953",
+      "https://openalex.org/W6912051432",
+      "https://openalex.org/W2114493739",
+      "https://openalex.org/W3099884890"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W4391913857",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W4211215373",
+      "https://openalex.org/W4396701345",
+      "https://openalex.org/W3217094455",
+      "https://openalex.org/W2376932109"
+    ],
+    "abstract_inverted_index": {
+      "Despite": [
+        0
+      ],
+      "advances": [
+        1
+      ],
+      "in": [
+        2,
+        29,
+        83,
+        156,
+        172
+      ],
+      "sequencing": [
+        3
+      ],
+      "technologies,": [
+        4
+      ],
+      "genome-scale": [
+        5
+      ],
+      "datasets": [
+        6
+      ],
+      "often": [
+        7
+      ],
+      "contain": [
+        8
+      ],
+      "missing": [
+        9,
+        170
+      ],
+      "bases": [
+        10
+      ],
+      "and": [
+        11,
+        22,
+        31,
+        52,
+        98,
+        124,
+        164
+      ],
+      "genomic": [
+        12,
+        32,
+        50
+      ],
+      "segments,": [
+        13
+      ],
+      "hindering": [
+        14
+      ],
+      "downstream": [
+        15
+      ],
+      "analyses.": [
+        16
+      ],
+      "Genotype": [
+        17
+      ],
+      "imputation": [
+        18,
+        81,
+        90,
+        107,
+        114
+      ],
+      "addresses": [
+        19
+      ],
+      "this": [
+        20
+      ],
+      "issue": [
+        21
+      ],
+      "has": [
+        23
+      ],
+      "been": [
+        24,
+        38
+      ],
+      "a": [
+        25,
+        59
+      ],
+      "cornerstone": [
+        26
+      ],
+      "pre-processing": [
+        27
+      ],
+      "step": [
+        28
+      ],
+      "genetic": [
+        30,
+        128
+      ],
+      "studies.": [
+        33
+      ],
+      "Although": [
+        34
+      ],
+      "various": [
+        35,
+        125
+      ],
+      "methods": [
+        36
+      ],
+      "have": [
+        37
+      ],
+      "widely": [
+        39
+      ],
+      "adopted": [
+        40
+      ],
+      "for": [
+        41,
+        64,
+        134
+      ],
+      "genotype": [
+        42,
+        66,
+        113
+      ],
+      "imputation,": [
+        43
+      ],
+      "it": [
+        44
+      ],
+      "remains": [
+        45
+      ],
+      "challenging": [
+        46
+      ],
+      "to": [
+        47,
+        110,
+        120,
+        162,
+        168
+      ],
+      "impute": [
+        48,
+        121,
+        169
+      ],
+      "certain": [
+        49
+      ],
+      "regions": [
+        51,
+        84
+      ],
+      "large": [
+        53
+      ],
+      "structural": [
+        54
+      ],
+      "variants.": [
+        55,
+        88,
+        129
+      ],
+      "Here,": [
+        56
+      ],
+      "we": [
+        57
+      ],
+      "present": [
+        58
+      ],
+      "transformer-based": [
+        60
+      ],
+      "framework,": [
+        61
+      ],
+      "named": [
+        62
+      ],
+      "STICI,": [
+        63
+      ],
+      "accurate": [
+        65
+      ],
+      "imputation.": [
+        67
+      ],
+      "STICI": [
+        68,
+        103,
+        130,
+        143,
+        167
+      ],
+      "models": [
+        69
+      ],
+      "automatically": [
+        70,
+        139
+      ],
+      "learn": [
+        71
+      ],
+      "genome-wide": [
+        72
+      ],
+      "patterns": [
+        73,
+        155
+      ],
+      "of": [
+        74,
+        127,
+        137,
+        158,
+        166
+      ],
+      "linkage": [
+        75
+      ],
+      "disequilibrium,": [
+        76
+      ],
+      "evidenced": [
+        77
+      ],
+      "by": [
+        78
+      ],
+      "much": [
+        79
+      ],
+      "higher": [
+        80
+      ],
+      "accuracy": [
+        82,
+        108
+      ],
+      "with": [
+        85,
+        116
+      ],
+      "highly": [
+        86
+      ],
+      "linked": [
+        87
+      ],
+      "Our": [
+        89
+      ],
+      "results": [
+        91
+      ],
+      "on": [
+        92
+      ],
+      "the": [
+        93,
+        111,
+        117,
+        153
+      ],
+      "human": [
+        94
+      ],
+      "1000": [
+        95
+      ],
+      "Genomes": [
+        96
+      ],
+      "Project": [
+        97
+      ],
+      "non-human": [
+        99,
+        159
+      ],
+      "genomes": [
+        100,
+        138
+      ],
+      "show": [
+        101
+      ],
+      "that": [
+        102
+      ],
+      "can": [
+        104,
+        131
+      ],
+      "achieve": [
+        105
+      ],
+      "high": [
+        106
+      ],
+      "comparable": [
+        109
+      ],
+      "state-of-the-art": [
+        112
+      ],
+      "methods,": [
+        115
+      ],
+      "additional": [
+        118
+      ],
+      "capability": [
+        119
+      ],
+      "multi-allelic": [
+        122
+      ],
+      "variants": [
+        123
+      ],
+      "types": [
+        126
+      ],
+      "be": [
+        132
+      ],
+      "trained": [
+        133
+      ],
+      "any": [
+        135,
+        149,
+        173
+      ],
+      "collection": [
+        136
+      ],
+      "using": [
+        140
+      ],
+      "self-supervision.": [
+        141
+      ],
+      "Moreover,": [
+        142
+      ],
+      "shows": [
+        144
+      ],
+      "excellent": [
+        145
+      ],
+      "performance": [
+        146
+      ],
+      "without": [
+        147
+      ],
+      "needing": [
+        148
+      ],
+      "special": [
+        150
+      ],
+      "presuppositions": [
+        151
+      ],
+      "about": [
+        152
+      ],
+      "underlying": [
+        154
+      ],
+      "collections": [
+        157
+      ],
+      "genomes,": [
+        160
+      ],
+      "pointing": [
+        161
+      ],
+      "adaptability": [
+        163
+      ],
+      "applications": [
+        165
+      ],
+      "genotypes": [
+        171
+      ],
+      "species.": [
+        174
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 4
+      }
+    ],
+    "updated_date": "2025-12-31T23:11:33.660297",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          9
+        ]
+      ],
+      "date-time": "2025-12-09T11:41:19Z",
+      "timestamp": 1765280479201,
+      "version": "3.35.0"
+    },
+    "reference-count": 66,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              31
+            ]
+          ],
+          "date-time": "2025-01-31T00:00:00Z",
+          "timestamp": 1738281600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              31
+            ]
+          ],
+          "date-time": "2025-01-31T00:00:00Z",
+          "timestamp": 1738281600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat Commun"
+    ],
+    "DOI": "10.1038/s41467-025-56273-3",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          31
+        ]
+      ],
+      "date-time": "2025-01-31T15:32:42Z",
+      "timestamp": 1738337562000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "STICI: Split-Transformer with integrated convolutions for genotype imputation"
+    ],
+    "prefix": "10.1038",
+    "volume": "16",
+    "author": [
+      {
+        "given": "Mohammad Erfan",
+        "family": "Mowlaei",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1949-4074",
+        "authenticated-orcid": false,
+        "given": "Chong",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7139-4738",
+        "authenticated-orcid": false,
+        "given": "Oveis",
+        "family": "Jamialahmadi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Raquel",
+        "family": "Dias",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Junjie",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Benyamin",
+        "family": "Jamialahmadi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4799-1900",
+        "authenticated-orcid": false,
+        "given": "Timothy Richard",
+        "family": "Rebbeck",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1918-8280",
+        "authenticated-orcid": false,
+        "given": "Vincenzo",
+        "family": "Carnevale",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9918-8212",
+        "authenticated-orcid": false,
+        "given": "Sudhir",
+        "family": "Kumar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4662-3177",
+        "authenticated-orcid": false,
+        "given": "Xinghua",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          31
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "56273_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1186/s13073-020-00742-5",
+        "volume": "12",
+        "author": "CM Lewis",
+        "year": "2020",
+        "unstructured": "Lewis, C. M. & Vassos, E. Polygenic risk scores: from research tools to clinical instruments. Genome Med. 12, 1–11 (2020).",
+        "journal-title": "Genome Med."
+      },
+      {
+        "key": "56273_CR2",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Torkamaneh, D., Belzile, F. Accurate imputation of untyped variants from deep sequencing data. Methods Mol. Biol. 271–281 https://doi.org/10.1007/978-1-0716-1103-6_13 (2021).",
+        "DOI": "10.1007/978-1-0716-1103-6_13"
+      },
+      {
+        "key": "56273_CR3",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Song, M. et al. An autoencoder-based deep learning method for genotype imputation. Front. Artif. Intell. 5, https://doi.org/10.3389/frai.2022.1028978 (2022).",
+        "DOI": "10.3389/frai.2022.1028978"
+      },
+      {
+        "key": "56273_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "73",
+        "DOI": "10.1146/annurev-genom-083117-021602",
+        "volume": "19",
+        "author": "S Das",
+        "year": "2018",
+        "unstructured": "Das, S., Abecasis, G. R. & Browning, B. L. Genotype imputation from large reference panels. Annu. Rev. Genomics Hum. Genet. 19, 73–96 (2018).",
+        "journal-title": "Annu. Rev. Genomics Hum. Genet."
+      },
+      {
+        "key": "56273_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "2365",
+        "DOI": "10.1534/g3.115.022111",
+        "volume": "5",
+        "author": "J Graffelman",
+        "year": "2015",
+        "unstructured": "Graffelman, J., Nelson, S., Gogarten, S. & Weir, B. Exact inference for hardy-weinberg proportions with missing genotypes: Single and multiple imputation. G3 5, 2365–2373 (2015).",
+        "journal-title": "G3"
+      },
+      {
+        "key": "56273_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "887",
+        "DOI": "10.1086/429864",
+        "volume": "76",
+        "author": "JE Wigginton",
+        "year": "2005",
+        "unstructured": "Wigginton, J. E., Cutler, D. J. & Abecasis, G. R. A note on exact tests of hardy-weinberg equilibrium. Am. J. Human Genet. 76, 887–893 (2005).",
+        "journal-title": "Am. J. Human Genet."
+      },
+      {
+        "key": "56273_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "3551",
+        "DOI": "10.1371/journal.pone.0003551",
+        "volume": "3",
+        "author": "Y-F Pei",
+        "year": "2008",
+        "unstructured": "Pei, Y.-F., Li, J., Zhang, L., Papasian, C. J. & Deng, H.-W. Analyses and comparison of accuracy of different genotype imputation methods. PloS ONE 3, 3551 (2008).",
+        "journal-title": "PloS ONE"
+      },
+      {
+        "key": "56273_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "529",
+        "DOI": "10.1002/gepi.21736",
+        "volume": "37",
+        "author": "PL Auer",
+        "year": "2013",
+        "unstructured": "Auer, P. L., Wang, G., Project, N. E. S. & Leal, S. M. Testing for rare variant associations in the presence of missing data. Genet. Epidemiol. 37, 529–538 (2013).",
+        "journal-title": "Genet. Epidemiol."
+      },
+      {
+        "key": "56273_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "692",
+        "DOI": "10.1038/ng.3834",
+        "volume": "49",
+        "author": "C Chiang",
+        "year": "2017",
+        "unstructured": "Chiang, C. et al. The impact of structural variation on human gene expression. Nat. Genet. 49, 692–699 (2017).",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "56273_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "68",
+        "DOI": "10.1038/nature15393",
+        "volume": "526",
+        "author": "GP Consortium",
+        "year": "2015",
+        "unstructured": "Consortium, G. P. et al. A global reference for human genetic variation. Nature 526, 68 (2015).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "56273_CR11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1186/s13059-022-02636-8",
+        "volume": "23",
+        "author": "Z Liu",
+        "year": "2022",
+        "unstructured": "Liu, Z. et al. Towards accurate and reliable resolution of structural variants for clinical diagnosis. Genome Biol. 23, 68 (2022).",
+        "journal-title": "Genome Biol."
+      },
+      {
+        "key": "56273_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "462",
+        "DOI": "10.1177/0962280214521348",
+        "volume": "24",
+        "author": "JW Bartlett",
+        "year": "2015",
+        "unstructured": "Bartlett, J. W., Seaman, S. R., White, I. R., Carpenter, J. R. & Initiative*, A.D.N. Multiple imputation of covariates by fully conditional specification: accommodating the substantive model. Stat. Methods Med. Res. 24, 462–487 (2015).",
+        "journal-title": "Stat. Methods Med. Res."
+      },
+      {
+        "key": "56273_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "570255",
+        "DOI": "10.3389/fgene.2020.570255",
+        "volume": "11",
+        "author": "M Song",
+        "year": "2020",
+        "unstructured": "Song, M. et al. A review of integrative imputation for multi-omics datasets. Front. Genet. 11, 570255 (2020).",
+        "journal-title": "Front. Genet."
+      },
+      {
+        "key": "56273_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "652",
+        "DOI": "10.3390/genes10090652",
+        "volume": "10",
+        "author": "J Chen",
+        "year": "2019",
+        "unstructured": "Chen, J. & Shi, X. Sparse convolutional denoising autoencoders for genotype imputation. Genes 10, 652 (2019).",
+        "journal-title": "Genes"
+      },
+      {
+        "key": "56273_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1284",
+        "DOI": "10.1038/ng.3656",
+        "volume": "48",
+        "author": "S Das",
+        "year": "2016",
+        "unstructured": "Das, S. et al. Next-generation genotype imputation service and methods. Nat. Genet. 48, 1284–1287 (2016).",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "56273_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "816",
+        "DOI": "10.1002/gepi.20533",
+        "volume": "34",
+        "author": "Y Li",
+        "year": "2010",
+        "unstructured": "Li, Y., Willer, C. J., Ding, J., Scheet, P. & Abecasis, G. R. Mach: using sequence and genotype data to estimate haplotypes and unobserved genotypes. Genet. Epidemiol. 34, 816–834 (2010).",
+        "journal-title": "Genet. Epidemiol."
+      },
+      {
+        "key": "56273_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "1243",
+        "DOI": "10.1038/s41588-023-01415-w",
+        "volume": "55",
+        "author": "RJ Hofmeister",
+        "year": "2023",
+        "unstructured": "Hofmeister, R. J., Ribeiro, D. M., Rubinacci, S. & Delaneau, O. Accurate rare variant phasing of whole-genome and whole-exome sequencing data in the uk biobank. Nat. Genet. 55, 1243–1249 (2023).",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "56273_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "1009049",
+        "DOI": "10.1371/journal.pgen.1009049",
+        "volume": "16",
+        "author": "S Rubinacci",
+        "year": "2020",
+        "unstructured": "Rubinacci, S., Delaneau, O. & Marchini, J. Genotype imputation using the positional burrows wheeler transform. PLoS Genet. 16, 1009049 (2020).",
+        "journal-title": "PLoS Genet."
+      },
+      {
+        "key": "56273_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "338",
+        "DOI": "10.1016/j.ajhg.2018.07.015",
+        "volume": "103",
+        "author": "BL Browning",
+        "year": "2018",
+        "unstructured": "Browning, B. L., Zhou, Y. & Browning, S. R. A one-penny imputed genome from next-generation reference panels. Am. J. Hum. Genet. 103, 338–348 (2018).",
+        "journal-title": "Am. J. Hum. Genet."
+      },
+      {
+        "key": "56273_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "629",
+        "DOI": "10.1086/502802",
+        "volume": "78",
+        "author": "P Scheet",
+        "year": "2006",
+        "unstructured": "Scheet, P. & Stephens, M. A fast and flexible statistical model for large-scale population genotype data: applications to inferring missing genotypes and haplotypic phase. Am. J. Hum. Genet. 78, 629–644 (2006).",
+        "journal-title": "Am. J. Hum. Genet."
+      },
+      {
+        "key": "56273_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "1088",
+        "DOI": "10.1038/s41588-023-01438-3",
+        "volume": "55",
+        "author": "S Rubinacci",
+        "year": "2023",
+        "unstructured": "Rubinacci, S., Hofmeister, R. J., Mota, B. & Delaneau, O. Imputation of low-coverage sequencing data from 150,119 uk biobank genomes. Nat. Genet. 55, 1088–1090 (2023).",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "56273_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/ncomms9712",
+        "volume": "6",
+        "author": "JS Bloom",
+        "year": "2015",
+        "unstructured": "Bloom, J. S. et al. Genetic interactions contribute less than additive effects to quantitative trait variation in yeast. Nat. Commun. 6, 1–6 (2015).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "56273_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "75600",
+        "DOI": "10.7554/eLife.75600",
+        "volume": "11",
+        "author": "R Dias",
+        "year": "2022",
+        "unstructured": "Dias, R. et al. Rapid, reference-free human genotype imputation with denoising autoencoders. Elife 11, 75600 (2022).",
+        "journal-title": "Elife"
+      },
+      {
+        "key": "56273_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1008207",
+        "DOI": "10.1371/journal.pcbi.1008207",
+        "volume": "16",
+        "author": "K Kojima",
+        "year": "2020",
+        "unstructured": "Kojima, K. et al. A genotype imputation method for de-identified haplotype reference information by using recurrent neural network. PLoS Comput. Biol. 16, 1008207 (2020).",
+        "journal-title": "PLoS Comput. Biol."
+      },
+      {
+        "key": "56273_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kojima, K., Tadaka, S., Okamura, Y., Kinoshita, K. Two-stage strategy using denoising autoencoders for robust reference-free genotype imputation with missing input genotypes. J. Hum. Genet. 69, 511–518 (2024)",
+        "DOI": "10.1038/s10038-024-01261-6"
+      },
+      {
+        "key": "56273_CR26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41598-023-50086-4",
+        "volume": "13",
+        "author": "V Chi Duong",
+        "year": "2023",
+        "unstructured": "Chi Duong, V. et al. A rapid and reference-free imputation method for low-cost genotyping platforms. Sci.c Rep. 13, 23083 (2023).",
+        "journal-title": "Sci.c Rep."
+      },
+      {
+        "key": "56273_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1038/s41467-021-21975-x",
+        "volume": "12",
+        "author": "T Naito",
+        "year": "2021",
+        "unstructured": "Naito, T. et al. A deep learning method for hla imputation and trans-ethnic mhc fine-mapping of type 1 diabetes. Nat. Commun. 12, 1–14 (2021).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "56273_CR28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tanaka, K., Kato, K., Nonaka, N. & Seita, J. Efficient HLA imputation from sequential SNPs data by transformer. J. Hum. Genet. 69, 533–540 (2024).",
+        "DOI": "10.1038/s10038-024-01278-x"
+      },
+      {
+        "key": "56273_CR29",
+        "unstructured": "Vaswani, A. et al. Attention is all you need. In Advances in Neural Information Processing Systems 30, (2017)."
+      },
+      {
+        "key": "56273_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "193",
+        "DOI": "10.1146/annurev.ne.18.030195.001205",
+        "volume": "18",
+        "author": "R Desimone",
+        "year": "1995",
+        "unstructured": "Desimone, R. & Duncan, J. Neural mechanisms of selective visual attention. Annu. Rev. Neurosci. 18, 193–222 (1995).",
+        "journal-title": "Annu. Rev. Neurosci."
+      },
+      {
+        "key": "56273_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "1875",
+        "DOI": "10.1109/TMM.2015.2477044",
+        "volume": "17",
+        "author": "K Cho",
+        "year": "2015",
+        "unstructured": "Cho, K., Courville, A. & Bengio, Y. Describing multimedia content using attention-based encoder-decoder networks. IEEE Trans. Multimedia 17, 1875–1886 (2015).",
+        "journal-title": "IEEE Trans. Multimedia"
+      },
+      {
+        "key": "56273_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "583",
+        "DOI": "10.1038/s41586-021-03819-2",
+        "volume": "596",
+        "author": "J Jumper",
+        "year": "2021",
+        "unstructured": "Jumper, J. et al. Highly accurate protein structure prediction with alphafold. Nature 596, 583–589 (2021).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "56273_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "1123",
+        "DOI": "10.1126/science.ade2574",
+        "volume": "379",
+        "author": "Z Lin",
+        "year": "2023",
+        "unstructured": "Lin, Z. et al. Evolutionary-scale prediction of atomic-level protein structure with a language model. Science 379, 1123–1130 (2023).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "56273_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "1443",
+        "DOI": "10.1038/ng.3679",
+        "volume": "48",
+        "author": "P-R Loh",
+        "year": "2016",
+        "unstructured": "Loh, P.-R. et al. Reference-based phasing using the haplotype reference consortium panel. Nat. Genet. 48, 1443–1448 (2016).",
+        "journal-title": "Nat. Genet."
+      },
+      {
+        "key": "56273_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "75",
+        "DOI": "10.1038/nature15394",
+        "volume": "526",
+        "author": "PH Sudmant",
+        "year": "2015",
+        "unstructured": "Sudmant, P. H. et al. An integrated map of structural variation in 2,504 human genomes. Nature 526, 75–81 (2015).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "56273_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "54967",
+        "DOI": "10.7554/eLife.54967",
+        "volume": "9",
+        "author": "JR Adrion",
+        "year": "2020",
+        "unstructured": "Adrion, J. R. et al. A community-maintained standard library of population genetic models. Elife 9, 54967 (2020).",
+        "journal-title": "Elife"
+      },
+      {
+        "key": "56273_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "1004842",
+        "DOI": "10.1371/journal.pcbi.1004842",
+        "volume": "12",
+        "author": "J Kelleher",
+        "year": "2016",
+        "unstructured": "Kelleher, J., Etheridge, A. M. & McVean, G. Efficient coalescent simulation and genealogical analysis for large sample sizes. PLoS Comput. Biol. 12, 1004842 (2016).",
+        "journal-title": "PLoS Comput. Biol."
+      },
+      {
+        "key": "56273_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "790566",
+        "DOI": "10.3389/fpsyt.2022.790566",
+        "volume": "13",
+        "author": "MH Gunturkun",
+        "year": "2022",
+        "unstructured": "Gunturkun, M. H. et al. Genome-wide association study on three behaviors tested in an open field in heterogeneous stock rats identifies multiple loci implicated in psychiatric disorders. Front. Psychiatry 13, 790566 (2022).",
+        "journal-title": "Front. Psychiatry"
+      },
+      {
+        "key": "56273_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "2195",
+        "DOI": "10.1534/g3.120.401325",
+        "volume": "10",
+        "author": "AF Gileta",
+        "year": "2020",
+        "unstructured": "Gileta, A. F. et al. Adapting genotyping-by-sequencing and variant calling for heterogeneous stock rats. G3 10, 2195–2205 (2020).",
+        "journal-title": "G3"
+      },
+      {
+        "key": "56273_CR40",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Morris, K.M. et al. Genotype data of Sasso chicken. University of Edinburgh. Centre For Tropical Livestock Genetics and Health https://doi.org/10.7488/ds/7718 (2024).",
+        "DOI": "10.7488/ds/7718"
+      },
+      {
+        "key": "56273_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "1000529",
+        "DOI": "10.1371/journal.pgen.1000529",
+        "volume": "5",
+        "author": "BN Howie",
+        "year": "2009",
+        "unstructured": "Howie, B. N., Donnelly, P. & Marchini, J. A flexible and accurate genotype imputation method for the next generation of genome-wide association studies. PLoS Genet. 5, 1000529 (2009).",
+        "journal-title": "PLoS Genet."
+      },
+      {
+        "key": "56273_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bolormaa, S., Chamberlain, A., Werf, J., Daetwyler, H. & MacLeod, I. Evaluating the accuracy of imputed whole genome sequence in sheep. In Proceedings of the World Congress on Genetics Applied to Livestock Production (2018).",
+        "DOI": "10.1186/s12711-018-0443-5"
+      },
+      {
+        "key": "56273_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "975",
+        "DOI": "10.1038/ejhg.2014.216",
+        "volume": "23",
+        "author": "G Pistis",
+        "year": "2015",
+        "unstructured": "Pistis, G. et al. Rare variant genotype imputation with thousands of study-specific whole-genome sequences: implications for cost-effective study designs. Eur. J. Hum. Genet. 23, 975–983 (2015).",
+        "journal-title": "Eur. J. Hum. Genet."
+      },
+      {
+        "key": "56273_CR44",
+        "doi-asserted-by": "publisher",
+        "first-page": "1001779",
+        "DOI": "10.1371/journal.pmed.1001779",
+        "volume": "12",
+        "author": "C Sudlow",
+        "year": "2015",
+        "unstructured": "Sudlow, C. et al. Uk biobank: an open access resource for identifying the causes of a wide range of complex diseases of middle and old age. PLoS Med. 12, 1001779 (2015).",
+        "journal-title": "PLoS Med."
+      },
+      {
+        "key": "56273_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "290",
+        "DOI": "10.1038/s41586-021-03205-y",
+        "volume": "590",
+        "author": "D Taliun",
+        "year": "2021",
+        "unstructured": "Taliun, D. et al. Sequencing of 53,831 diverse genomes from the nhlbi topmed program. Nature 590, 290–299 (2021).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "56273_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "668",
+        "DOI": "10.1056/NEJMsr1809937",
+        "volume": "381",
+        "author": "A Us Research Program Investigators",
+        "year": "2019",
+        "unstructured": "Us Research Program Investigators, A. The “all of us” research program. N. Engl. J. Med. 381, 668–676 (2019).",
+        "journal-title": "N. Engl. J. Med."
+      },
+      {
+        "key": "56273_CR47",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Miles, A. et al. Cggh/scikit-allel: V1.3.3. https://doi.org/10.5281/zenodo.4759368 (2021).",
+        "DOI": "10.5281/zenodo.4759368"
+      },
+      {
+        "key": "56273_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "15",
+        "DOI": "10.1002/ana.410360706",
+        "volume": "36",
+        "author": "J Hillert",
+        "year": "1994",
+        "unstructured": "Hillert, J. Human leukocyte antigen studies in multiple sclerosis. Ann. Neurol. 36, 15–17 (1994).",
+        "journal-title": "Ann. Neurol."
+      },
+      {
+        "key": "56273_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "377",
+        "DOI": "10.1097/TP.0b013e31817c4cb8",
+        "volume": "86",
+        "author": "PI Terasaki",
+        "year": "2008",
+        "unstructured": "Terasaki, P. I. & Cai, J. Human leukocyte antigen antibodies and chronic rejection: from association to causation. Transplantation 86, 377–383 (2008).",
+        "journal-title": "Transplantation"
+      },
+      {
+        "key": "56273_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "13742",
+        "DOI": "10.1186/s13742-015-0047-8",
+        "volume": "4",
+        "author": "CC Chang",
+        "year": "2015",
+        "unstructured": "Chang, C. C. et al. Second-generation plink: rising to the challenge of larger and richer datasets. Gigascience 4, 13742–015 (2015).",
+        "journal-title": "Gigascience"
+      },
+      {
+        "key": "56273_CR51",
+        "doi-asserted-by": "publisher",
+        "first-page": "2987",
+        "DOI": "10.1093/bioinformatics/btr509",
+        "volume": "27",
+        "author": "H Li",
+        "year": "2011",
+        "unstructured": "Li, H. A statistical framework for snp calling, mutation discovery, association mapping and population genetical parameter estimation from sequencing data. Bioinformatics 27, 2987–2993 (2011).",
+        "journal-title": "Bioinformatics"
+      },
+      {
+        "key": "56273_CR52",
+        "first-page": "2",
+        "volume": "10",
+        "author": "N Takahata",
+        "year": "1993",
+        "unstructured": "Takahata, N. Allelic genealogy and human evolution. Mol. Biol. Evol. 10, 2–22 (1993).",
+        "journal-title": "Mol. Biol. Evol."
+      },
+      {
+        "key": "56273_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "651",
+        "DOI": "10.1086/302770",
+        "volume": "66",
+        "author": "M Tremblay",
+        "year": "2000",
+        "unstructured": "Tremblay, M. & Vézina, H. New estimates of intergenerational time intervals for the calculation of age and origins of mutations. Am. J. Hum. Genet. 66, 651–658 (2000).",
+        "journal-title": "Am. J. Hum. Genet."
+      },
+      {
+        "key": "56273_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "9206",
+        "DOI": "10.1126/sciadv.aaw9206",
+        "volume": "5",
+        "author": "JP Spence",
+        "year": "2019",
+        "unstructured": "Spence, J. P. & Song, Y. S. Inference and analysis of population-specific fine-scale recombination maps across 26 diverse human populations. Sci. Adv. 5, 9206 (2019).",
+        "journal-title": "Sci. Adv."
+      },
+      {
+        "key": "56273_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "851",
+        "DOI": "10.1038/nature06258",
+        "volume": "449",
+        "author": "IH Consortium",
+        "year": "2007",
+        "unstructured": "Consortium, I. H. et al. A second generation human haplotype map of over 3.1 million snps. Nature 449, 851 (2007).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "56273_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "1549",
+        "DOI": "10.1534/genetics.117.200493",
+        "volume": "206",
+        "author": "J Jouganous",
+        "year": "2017",
+        "unstructured": "Jouganous, J., Long, W., Ragsdale, A. P. & Gravel, S. Inferring the joint demographic history of multiple populations: beyond the diffusion approximation. Genetics 206, 1549–1567 (2017).",
+        "journal-title": "Genetics"
+      },
+      {
+        "key": "56273_CR57",
+        "unstructured": "Abadi, M. et al. TensorFlow: a system for large-scale machine learning. In Proceedings of the 12th USENIX conference on Operating Systems Design and Implementation (OSDI'16). 265–283 (USENIX Association, USA, 2016)."
+      },
+      {
+        "key": "56273_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "129",
+        "DOI": "10.1146/annurev.genom.9.081307.164347",
+        "volume": "9",
+        "author": "B Weir",
+        "year": "2008",
+        "unstructured": "Weir, B. Linkage disequilibrium and association mapping. Annu. Rev. Genom. Hum. Genet. 9, 129–142 (2008).",
+        "journal-title": "Annu. Rev. Genom. Hum. Genet."
+      },
+      {
+        "key": "56273_CR59",
+        "unstructured": "Dosovitskiy, A. et al. An image is worth 16 × 16 words: Transformers for image recognition at scale. International Conference on Learning Representations. https://openreview.net/forum?id=YicbFdNTTy (2021)."
+      },
+      {
+        "key": "56273_CR60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Szegedy, C. et al. Going deeper with convolutions. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 1–9 (2015).",
+        "DOI": "10.1109/CVPR.2015.7298594"
+      },
+      {
+        "key": "56273_CR61",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Kingma, D. P. & Welling, M. Auto-encoding variational bayes. Preprint at https://doi.org/10.48550/arXiv.1312.6114 (2013).",
+        "DOI": "10.48550/arXiv.1312.6114"
+      },
+      {
+        "key": "56273_CR62",
+        "unstructured": "Das, S. Minimac3 Info File. https://genome.sph.umich.edu/wiki/Minimac3_Info_File. (2024)."
+      },
+      {
+        "key": "56273_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "9697",
+        "DOI": "10.1371/journal.pone.0009697",
+        "volume": "5",
+        "author": "P Lin",
+        "year": "2010",
+        "unstructured": "Lin, P. et al. A new statistic to evaluate imputation reliability. PloS ONE 5, 9697 (2010).",
+        "journal-title": "PloS ONE"
+      },
+      {
+        "key": "56273_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "704118",
+        "DOI": "10.3389/fgene.2021.704118",
+        "volume": "12",
+        "author": "T Deng",
+        "year": "2022",
+        "unstructured": "Deng, T. et al. Comparison of genotype imputation for snp array and low-coverage whole-genome sequencing data. Front. Genet. 12, 704118 (2022).",
+        "journal-title": "Front. Genet."
+      },
+      {
+        "key": "56273_CR65",
+        "unstructured": "Mowlaei, M. E. et al. Split-transformer with integrated convolutions for genotype imputation (STICI) SOURCE DATA FILES. https://zenodo.org/records/14649993 (2024)."
+      },
+      {
+        "key": "56273_CR66",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Mowlaei, M. E. et al. shilab/STICI: STICI-V1.1.2. https://doi.org/10.5281/zenodo.14451462 (2024).",
+        "DOI": "10.5281/zenodo.14451462"
+      }
+    ],
+    "container-title": [
+      "Nature Communications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41467-025-56273-3.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-025-56273-3",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-025-56273-3.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          31
+        ]
+      ],
+      "date-time": "2025-01-31T15:32:57Z",
+      "timestamp": 1738337577000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41467-025-56273-3"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          31
+        ]
+      ]
+    },
+    "references-count": 66,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "56273"
+    ],
+    "URL": "https://doi.org/10.1038/s41467-025-56273-3",
+    "relation": {},
+    "ISSN": [
+      "2041-1723"
+    ],
+    "issn-type": [
+      {
+        "value": "2041-1723",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          31
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "23 April 2024",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "8 January 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "31 January 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "1218"
+  }
+}

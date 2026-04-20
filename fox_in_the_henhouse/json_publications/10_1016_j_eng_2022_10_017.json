@@ -1,0 +1,1920 @@
+{
+  "doi": "10.1016/j.eng.2022.10.017",
+  "openalex": {
+    "id": "https://openalex.org/W4362471316",
+    "doi": "https://doi.org/10.1016/j.eng.2022.10.017",
+    "title": "Communicative Learning: A Unified Learning Formalism",
+    "display_name": "Communicative Learning: A Unified Learning Formalism",
+    "publication_year": 2023,
+    "publication_date": "2023-03-31",
+    "ids": {
+      "openalex": "https://openalex.org/W4362471316",
+      "doi": "https://doi.org/10.1016/j.eng.2022.10.017"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.eng.2022.10.017",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.eng.2022.10.017",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210192142",
+        "display_name": "Engineering",
+        "issn_l": "2095-8099",
+        "issn": [
+          "2095-8099",
+          "2096-0026"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Engineering",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1016/j.eng.2022.10.017",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5052478712",
+          "display_name": "Luyao Yuan",
+          "orcid": "https://orcid.org/0000-0001-6624-1227"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210100255",
+            "display_name": "Beijing Academy of Artificial Intelligence",
+            "ror": "https://ror.org/016a74861",
+            "country_code": "CN",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I4210100255"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4392738278",
+            "display_name": "Beijing Institute for General Artificial Intelligence",
+            "ror": "https://ror.org/02kw1ws04",
+            "country_code": null,
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4392738278"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I161318765",
+            "display_name": "University of California, Los Angeles",
+            "ror": "https://ror.org/046rm7j60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ],
+        "countries": [
+          "CN",
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Luyao Yuan",
+        "raw_affiliation_strings": [
+          "Beijing Institute for General Artificial Intelligence, Beijing 100086, China",
+          "Department of Computer Science, University of California, Los Angeles, Los Angeles, CA 90024, USA"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beijing Institute for General Artificial Intelligence, Beijing 100086, China",
+            "institution_ids": [
+              "https://openalex.org/I4210100255",
+              "https://openalex.org/I4392738278"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Computer Science, University of California, Los Angeles, Los Angeles, CA 90024, USA",
+            "institution_ids": [
+              "https://openalex.org/I161318765"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5034228010",
+          "display_name": "Song‐Chun Zhu",
+          "orcid": "https://orcid.org/0009-0008-0876-8117"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210100255",
+            "display_name": "Beijing Academy of Artificial Intelligence",
+            "ror": "https://ror.org/016a74861",
+            "country_code": "CN",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I4210100255"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4392738278",
+            "display_name": "Beijing Institute for General Artificial Intelligence",
+            "ror": "https://ror.org/02kw1ws04",
+            "country_code": null,
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4392738278"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I20231570",
+            "display_name": "Peking University",
+            "ror": "https://ror.org/02v51f717",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I20231570"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I99065089",
+            "display_name": "Tsinghua University",
+            "ror": "https://ror.org/03cve4549",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I99065089"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Song-Chun Zhu",
+        "raw_affiliation_strings": [
+          "Beijing Institute for General Artificial Intelligence, Beijing 100086, China",
+          "Department of Automation, Tsinghua University, Beijing 100084, China",
+          "Institute for Artificial Intelligence, Peking University, Beijing 100871, China"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Beijing Institute for General Artificial Intelligence, Beijing 100086, China",
+            "institution_ids": [
+              "https://openalex.org/I4210100255",
+              "https://openalex.org/I4392738278"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Automation, Tsinghua University, Beijing 100084, China",
+            "institution_ids": [
+              "https://openalex.org/I99065089"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Artificial Intelligence, Peking University, Beijing 100871, China",
+            "institution_ids": [
+              "https://openalex.org/I4210100255",
+              "https://openalex.org/I20231570"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5052478712",
+      "https://openalex.org/A5034228010"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210100255",
+      "https://openalex.org/I4392738278",
+      "https://openalex.org/I161318765",
+      "https://openalex.org/I20231570",
+      "https://openalex.org/I99065089"
+    ],
+    "apc_list": {
+      "value": 1000,
+      "currency": "USD",
+      "value_usd": 1000
+    },
+    "apc_paid": {
+      "value": 1000,
+      "currency": "USD",
+      "value_usd": 1000
+    },
+    "fwci": 2.80987176,
+    "has_fulltext": false,
+    "cited_by_count": 11,
+    "citation_normalized_percentile": {
+      "value": 0.88852952,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "25",
+      "issue": null,
+      "first_page": "77",
+      "last_page": "100"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12072",
+      "display_name": "Machine Learning and Algorithms",
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12072",
+        "display_name": "Machine Learning and Algorithms",
+        "score": 0.9984999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12002",
+        "display_name": "Computability, Logic, AI Algorithms",
+        "score": 0.9901000261306763,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1703",
+          "display_name": "Computational Theory and Mathematics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10456",
+        "display_name": "Multi-Agent Systems and Negotiation",
+        "score": 0.9883999824523926,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/formalism",
+        "display_name": "Formalism (music)",
+        "score": 0.7574276924133301
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.6312835812568665
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "Artificial intelligence",
+        "score": 0.5842382907867432
+      },
+      {
+        "id": "https://openalex.org/keywords/cooperative-learning",
+        "display_name": "Cooperative learning",
+        "score": 0.42916300892829895
+      },
+      {
+        "id": "https://openalex.org/keywords/collaborative-learning",
+        "display_name": "Collaborative learning",
+        "score": 0.4128914475440979
+      },
+      {
+        "id": "https://openalex.org/keywords/machine-learning",
+        "display_name": "Machine learning",
+        "score": 0.356076180934906
+      },
+      {
+        "id": "https://openalex.org/keywords/cognitive-science",
+        "display_name": "Cognitive science",
+        "score": 0.3200969398021698
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-management",
+        "display_name": "Knowledge management",
+        "score": 0.2216891348361969
+      },
+      {
+        "id": "https://openalex.org/keywords/psychology",
+        "display_name": "Psychology",
+        "score": 0.18490657210350037
+      },
+      {
+        "id": "https://openalex.org/keywords/teaching-method",
+        "display_name": "Teaching method",
+        "score": 0.17800754308700562
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics-education",
+        "display_name": "Mathematics education",
+        "score": 0.1779913306236267
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C73301696",
+        "wikidata": "https://www.wikidata.org/wiki/Q5469984",
+        "display_name": "Formalism (music)",
+        "level": 3,
+        "score": 0.7574276924133301
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6312835812568665
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.5842382907867432
+      },
+      {
+        "id": "https://openalex.org/C51672120",
+        "wikidata": "https://www.wikidata.org/wiki/Q303446",
+        "display_name": "Cooperative learning",
+        "level": 3,
+        "score": 0.42916300892829895
+      },
+      {
+        "id": "https://openalex.org/C138020889",
+        "wikidata": "https://www.wikidata.org/wiki/Q2349659",
+        "display_name": "Collaborative learning",
+        "level": 2,
+        "score": 0.4128914475440979
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.356076180934906
+      },
+      {
+        "id": "https://openalex.org/C188147891",
+        "wikidata": "https://www.wikidata.org/wiki/Q147638",
+        "display_name": "Cognitive science",
+        "level": 1,
+        "score": 0.3200969398021698
+      },
+      {
+        "id": "https://openalex.org/C56739046",
+        "wikidata": "https://www.wikidata.org/wiki/Q192060",
+        "display_name": "Knowledge management",
+        "level": 1,
+        "score": 0.2216891348361969
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.18490657210350037
+      },
+      {
+        "id": "https://openalex.org/C88610354",
+        "wikidata": "https://www.wikidata.org/wiki/Q1813494",
+        "display_name": "Teaching method",
+        "level": 2,
+        "score": 0.17800754308700562
+      },
+      {
+        "id": "https://openalex.org/C145420912",
+        "wikidata": "https://www.wikidata.org/wiki/Q853077",
+        "display_name": "Mathematics education",
+        "level": 1,
+        "score": 0.1779913306236267
+      },
+      {
+        "id": "https://openalex.org/C558565934",
+        "wikidata": "https://www.wikidata.org/wiki/Q2743",
+        "display_name": "Musical",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C153349607",
+        "wikidata": "https://www.wikidata.org/wiki/Q36649",
+        "display_name": "Visual arts",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.eng.2022.10.017",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.eng.2022.10.017",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210192142",
+          "display_name": "Engineering",
+          "issn_l": "2095-8099",
+          "issn": [
+            "2095-8099",
+            "2096-0026"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Engineering",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:e085bf1b2060444faf909132bd4c3ca2",
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/e085bf1b2060444faf909132bd4c3ca2",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Engineering, Vol 25, Iss , Pp 77-100 (2023)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1016/j.eng.2022.10.017",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.eng.2022.10.017",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210192142",
+        "display_name": "Engineering",
+        "issn_l": "2095-8099",
+        "issn": [
+          "2095-8099",
+          "2096-0026"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Engineering",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 101,
+    "referenced_works": [
+      "https://openalex.org/W3007580291",
+      "https://openalex.org/W2153000380",
+      "https://openalex.org/W2194321275",
+      "https://openalex.org/W2141538250",
+      "https://openalex.org/W1995875735",
+      "https://openalex.org/W4238893454",
+      "https://openalex.org/W6693199996",
+      "https://openalex.org/W2002206192",
+      "https://openalex.org/W6736953512",
+      "https://openalex.org/W2963648280",
+      "https://openalex.org/W6729863922",
+      "https://openalex.org/W3198350258",
+      "https://openalex.org/W2108598243",
+      "https://openalex.org/W2618530766",
+      "https://openalex.org/W2102605133",
+      "https://openalex.org/W1536680647",
+      "https://openalex.org/W2963150697",
+      "https://openalex.org/W6637967152",
+      "https://openalex.org/W2257979135",
+      "https://openalex.org/W2194775991",
+      "https://openalex.org/W4252861488",
+      "https://openalex.org/W1986014385",
+      "https://openalex.org/W2148886952",
+      "https://openalex.org/W6714580625",
+      "https://openalex.org/W6761948256",
+      "https://openalex.org/W2182055801",
+      "https://openalex.org/W6738103085",
+      "https://openalex.org/W6748208641",
+      "https://openalex.org/W2885593519",
+      "https://openalex.org/W2803237185",
+      "https://openalex.org/W2091310756",
+      "https://openalex.org/W6624675530",
+      "https://openalex.org/W4234313254",
+      "https://openalex.org/W2145980380",
+      "https://openalex.org/W2075359029",
+      "https://openalex.org/W2893209883",
+      "https://openalex.org/W6681710348",
+      "https://openalex.org/W2165377048",
+      "https://openalex.org/W2758442112",
+      "https://openalex.org/W2063294759",
+      "https://openalex.org/W4205969993",
+      "https://openalex.org/W2798622261",
+      "https://openalex.org/W2575870198",
+      "https://openalex.org/W2565552376",
+      "https://openalex.org/W2772920485",
+      "https://openalex.org/W2771075179",
+      "https://openalex.org/W2263753396",
+      "https://openalex.org/W2902955360",
+      "https://openalex.org/W1920293286",
+      "https://openalex.org/W6770555722",
+      "https://openalex.org/W2029731972",
+      "https://openalex.org/W2020764470",
+      "https://openalex.org/W6745026867",
+      "https://openalex.org/W2151516755",
+      "https://openalex.org/W2525032226",
+      "https://openalex.org/W2996108195",
+      "https://openalex.org/W3002559132",
+      "https://openalex.org/W32403112",
+      "https://openalex.org/W2119717200",
+      "https://openalex.org/W6681581317",
+      "https://openalex.org/W6802142829",
+      "https://openalex.org/W2181849516",
+      "https://openalex.org/W6696485244",
+      "https://openalex.org/W2286601327",
+      "https://openalex.org/W2098774185",
+      "https://openalex.org/W6754756046",
+      "https://openalex.org/W3094369551",
+      "https://openalex.org/W3089374415",
+      "https://openalex.org/W4285392457",
+      "https://openalex.org/W3177001938",
+      "https://openalex.org/W3138984732",
+      "https://openalex.org/W2154952480",
+      "https://openalex.org/W1538170657",
+      "https://openalex.org/W6728853783",
+      "https://openalex.org/W6694903485",
+      "https://openalex.org/W6658626235",
+      "https://openalex.org/W2106622011",
+      "https://openalex.org/W2022205872",
+      "https://openalex.org/W2118508845",
+      "https://openalex.org/W1544404019",
+      "https://openalex.org/W2126160338",
+      "https://openalex.org/W2535584654",
+      "https://openalex.org/W3105592015",
+      "https://openalex.org/W1994335990",
+      "https://openalex.org/W4230674625",
+      "https://openalex.org/W4245973528",
+      "https://openalex.org/W2144874553",
+      "https://openalex.org/W2146250995",
+      "https://openalex.org/W2146938707",
+      "https://openalex.org/W2559655401",
+      "https://openalex.org/W2171033594",
+      "https://openalex.org/W2326556783",
+      "https://openalex.org/W3025436085",
+      "https://openalex.org/W3034344071",
+      "https://openalex.org/W1723619723",
+      "https://openalex.org/W1979017459",
+      "https://openalex.org/W230484034",
+      "https://openalex.org/W1544323190",
+      "https://openalex.org/W607505555",
+      "https://openalex.org/W238001728",
+      "https://openalex.org/W2763110165"
+    ],
+    "related_works": [
+      "https://openalex.org/W2952002389",
+      "https://openalex.org/W2231510842",
+      "https://openalex.org/W2740949427",
+      "https://openalex.org/W2466909816",
+      "https://openalex.org/W2739584557",
+      "https://openalex.org/W2993407327",
+      "https://openalex.org/W3084279499",
+      "https://openalex.org/W3137277498",
+      "https://openalex.org/W2738303290",
+      "https://openalex.org/W2994076959"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2026-01-16T18:14:12Z",
+      "timestamp": 1768587252823,
+      "version": "3.49.0"
+    },
+    "reference-count": 125,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2023-06-01T00:00:00Z",
+          "timestamp": 1685577600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2023-06-01T00:00:00Z",
+          "timestamp": 1685577600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              23
+            ]
+          ],
+          "date-time": "2023-03-23T00:00:00Z",
+          "timestamp": 1679529600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000185",
+        "name": "Defense Advanced Research Projects Agency",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N66001-17-2-4029"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N66001-17-2-4029"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000185",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100014036",
+        "name": "Office of Naval Research Multidisciplinary University Research Initiative",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "N00014-16-1-2007"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "N00014-16-1-2007"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100014036",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2022ZD0114900"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2022ZD0114900"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Engineering"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.eng.2022.10.017",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          31
+        ]
+      ],
+      "date-time": "2023-03-31T21:00:12Z",
+      "timestamp": 1680296412000
+    },
+    "page": "77-100",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "special_numbering": "C",
+    "title": [
+      "Communicative Learning: A Unified Learning Formalism"
+    ],
+    "prefix": "10.1016",
+    "volume": "25",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-6624-1227",
+        "authenticated-orcid": false,
+        "given": "Luyao",
+        "family": "Yuan",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Song-Chun",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "3",
+        "key": "10.1016/j.eng.2022.10.017_b0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "310",
+        "DOI": "10.1016/j.eng.2020.01.011",
+        "article-title": "Dark, beyond deep: a paradigm shift to cognitive AI with humanlike common sense",
+        "volume": "6",
+        "author": "Zhu",
+        "year": "2020",
+        "journal-title": "Engineering"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eng.2022.10.017_b0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.17763/haer.57.1.j463w79r56455411",
+        "article-title": "Knowledge and teaching: foundations of the new reform",
+        "volume": "57",
+        "author": "Shulman",
+        "year": "1987",
+        "journal-title": "Harv Educ Rev"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0015",
+        "series-title": "Origins of human communication",
+        "author": "Tomasello",
+        "year": "2010"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0020",
+        "series-title": "Mental leaps: analogy in creative thought",
+        "author": "Holyoak",
+        "year": "1995"
+      },
+      {
+        "issue": "6266",
+        "key": "10.1016/j.eng.2022.10.017_b0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "1332",
+        "DOI": "10.1126/science.aab3050",
+        "article-title": "Human-level concept learning through probabilistic program induction",
+        "volume": "350",
+        "author": "Lake",
+        "year": "2015",
+        "journal-title": "Science"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.eng.2022.10.017_b0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "515",
+        "DOI": "10.1017/S0140525X00076512",
+        "article-title": "Does the chimpanzee have a theory of mind?",
+        "volume": "1",
+        "author": "Premack",
+        "year": "1978",
+        "journal-title": "Behav Brain Sci"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0035",
+        "series-title": "Using language",
+        "author": "Clark",
+        "year": "1996"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.eng.2022.10.017_b0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1002/j.1538-7305.1948.tb01338.x",
+        "article-title": "A mathematical theory of communication",
+        "volume": "27",
+        "author": "Shannon",
+        "year": "1948",
+        "journal-title": "Bell Syst Tech J"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.eng.2022.10.017_b0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "1134",
+        "DOI": "10.1145/1968.1972",
+        "article-title": "A theory of the learnable",
+        "volume": "27",
+        "author": "Valiant",
+        "year": "1984",
+        "journal-title": "Commun ACM"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0050",
+        "series-title": "Syntax and semantics: speech acts",
+        "article-title": "Logic and conversation",
+        "author": "Grice",
+        "year": "1975"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0055",
+        "series-title": "Presumptive meanings: the theory of generalized conversational implicature",
+        "author": "Levinson",
+        "year": "2000"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "173",
+        "DOI": "10.1111/tops.12007",
+        "article-title": "Knowledge and implicature: modeling language understanding as social cognition",
+        "volume": "5",
+        "author": "Goodman",
+        "year": "2013",
+        "journal-title": "Top Cogn Sci"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0065",
+        "series-title": "Big data in cognitive science",
+        "article-title": "Tractable Bayesian teaching",
+        "author": "Eaves",
+        "year": "2015"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.eng.2022.10.017_b0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "758",
+        "DOI": "10.1037/rev0000031",
+        "article-title": "Infant-directed speech is consistent with teaching",
+        "volume": "123",
+        "author": "Eaves",
+        "year": "2016",
+        "journal-title": "Psychol Rev"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0075",
+        "series-title": "Advances in neural information processing systems",
+        "article-title": "Showing versus doing: teaching by demonstration",
+        "author": "Ho",
+        "year": "2016"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.eng.2022.10.017_b0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "210",
+        "DOI": "10.1147/rd.33.0210",
+        "article-title": "Some studies in machine learning using the game of checkers",
+        "volume": "3",
+        "author": "Samuel",
+        "year": "1959",
+        "journal-title": "IBM J Res Dev"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0085",
+        "series-title": "Pattern recognition and machine learning",
+        "author": "Bishop",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0090",
+        "series-title": "Understanding machine learning: from theory to algorithms",
+        "author": "Shalev-Shwartz",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0095",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng J, Dong W, Socher R, Li LJ, Li K, Li FF. Imagenet: a large-scale hierarchical image database. In: Proceedings of 2009 IEEE Conference on Computer Vision and Pattern Recognition; 2009 Jun 20–25; Miami, FL, USA; 2009.",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.eng.2022.10.017_b0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "84",
+        "DOI": "10.1145/3065386",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "volume": "60",
+        "author": "Krizhevsky",
+        "year": "2017",
+        "journal-title": "Commun ACM"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0105",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Girshick R, Donahue J, Darrell T, Malik J. Rich feature hierarchies for accurate object detection and semantic segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition; 2014 Jun 23–28; Columbus, OH, USA; 2014.",
+        "DOI": "10.1109/CVPR.2014.81"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0110",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Girshick R. Fast R-CNN. In: Proceedings of the IEEE International Conference on Computer Vision; 2015 Dec 11–18; Santiago, Chile; 2015.",
+        "DOI": "10.1109/ICCV.2015.169"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0115",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He K, Gkioxari G, Dollár P, Girshick R. Mask R-CNN. In: Proceedings of the IEEE International Conference on Computer Vision; 2017 Oct 22–29; Venice, Italy; 2017.",
+        "DOI": "10.1109/ICCV.2017.322"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0120",
+        "unstructured": "Devlin J, Chang MW, Lee K, Toutanova K. BERT: pre-training of deep bidirectional transformers for language understanding. 2018. arXiv:1810.04805."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0125",
+        "unstructured": "Mnih V, Kavukcuoglu K, Silver D, Graves A, Antonoglou I, Wierstra D, et al. Playing Atari with deep reinforcement learning. 2013. arXiv:1312.5602."
+      },
+      {
+        "issue": "7587",
+        "key": "10.1016/j.eng.2022.10.017_b0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "484",
+        "DOI": "10.1038/nature16961",
+        "article-title": "Mastering the game of Go with deep neural networks and tree search",
+        "volume": "529",
+        "author": "Silver",
+        "year": "2016",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0135",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He K, Zhang X, Ren S, Sun J. Deep residual learning for image recognition. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition; 2016 Jun 27–30; Las Vegas, NV, USA; 2016.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.eng.2022.10.017_b0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "319",
+        "DOI": "10.1023/A:1022821128753",
+        "article-title": "Queries and concept learning",
+        "volume": "2",
+        "author": "Angluin",
+        "year": "1988",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0145",
+        "series-title": "Active learning literature survey. Technical report",
+        "author": "Settles",
+        "year": "2010"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.eng.2022.10.017_b0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "469",
+        "DOI": "10.1016/j.robot.2008.10.024",
+        "article-title": "A survey of robot learning from demonstration",
+        "volume": "57",
+        "author": "Argall",
+        "year": "2009",
+        "journal-title": "Robot Auton Syst"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1016/j.cogpsych.2013.12.004",
+        "article-title": "A rational account of pedagogical reasoning: teaching by, and learning from, examples",
+        "volume": "71",
+        "author": "Shafto",
+        "year": "2014",
+        "journal-title": "Cogn Psychol"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0160",
+        "unstructured": "Milli S, Abbeel P, Mordatch I. Interpretable and pedagogical examples. 2017. arXiv:1711.00694."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0165",
+        "unstructured": "Yang SCH, Yu Y, Givchi A, Wang P, Vong WK, Shafto P. Optimal cooperative inference. In: Proceedings of the 21st International Conference on Artificial Intelligence and Statistics; 2018 Apr 9–11; Lanzarote, Spain; 2018."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0170",
+        "unstructured": "Chen Y, Aodha OM, Su S, Perona P, Yue Y. Near-optimal machine teaching via explanatory teaching sets. In: Proceedings of the 21st International Conference on Artificial Intelligence and Statistics; 2018 Apr 9–11; Lanzarote, Spain; 2018."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0175",
+        "unstructured": "Chen Y, Singla A, Aodha OM, Perona P, Yue Y. Understanding the role of adaptivity in machine teaching: the case of version space learners. 2018. arXiv:1802.05190."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0180",
+        "series-title": "Advances in neural information processing systems",
+        "article-title": "Cooperative inverse reinforcement learning",
+        "author": "Hadfield-Menell",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0185",
+        "unstructured": "Ho MK, Littman ML, Cushman F, Austerweil JL. Effectively learning from pedagogical demonstrations. In: Proceedings of the Annual Conference of the Cognitive Science Society; 2018 Jul 25–28; Madison, WI, USA; 2018."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0190",
+        "unstructured": "Cakmak M, Lopes M. Algorithmic and human teaching of sequential decision tasks. In: Proceedings of the Twenty-Sixth AAAI Conference on Artificial Intelligence; 2012 Jul 22–26; Toronto, ON, Canada; 2012."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0195",
+        "unstructured": "Zhu X. Machine teaching for Bayesian learners in the exponential family. In: Proceedings of the 27th International Conference on Neural Information Processing Systems; 2013 Dec 9–12; Lake Tahoe, NV, USA; 2013."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0200",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu X. Machine teaching: an inverse problem to machine learning and an approach toward optimal education. In: Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence; 2015 Jan 25–30; Austin, TX, USA; 2015.",
+        "DOI": "10.1609/aaai.v29i1.9761"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0205",
+        "unstructured": "Liu W, Dai B, Humayun A, Tay C, Yu C, Smith LB, et al. Iterative machine teaching. In: Proceedings of the 34th International Conference on Machine Learning; 2017 Aug 6–11; Sydney, NSW, Australia; 2017."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0210",
+        "unstructured": "Fan Y, Tian F, Qin T, Li XY, Liu TY. Learning to teach. In: Proceedings of the 6th International Conference on Learning Representations; 2018 Apr 30–May 3; Vancouver, BC, Canada; 2018."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0215",
+        "unstructured": "Jiang L, Zhou Z, Leung T, Li LJ, Li FF. MentorNet: learning data-driven curriculum for very deep neural networks on corrupted labels. In: Proceedings of the 35th International Conference on Machine Learning; 2018 Jul 10–15; Stockholm, Sweden; 2018."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0220",
+        "unstructured": "Han B, Yao Q, Yu X, Niu G, Xu M, Hu W, et al. Co-teaching: robust training of deep neural networks with extremely noisy labels. In: Proceedings of the 32th Conference on Neural Information Processing Systems; 2018 Dec 3–8; Montreal, QC, Canada; 2018."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0225",
+        "unstructured": "Wang P, Wang J, Paranamana P, Shafto P. A mathematical theory of cooperative communication. In: Proceedings of the 34th Conference on Neural Information Processing Systems; 2020 Dec 6–12; Vancouver, BC, Canada; 2020."
+      },
+      {
+        "issue": "20",
+        "key": "10.1016/j.eng.2022.10.017_b0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "9066",
+        "DOI": "10.1073/pnas.1003095107",
+        "article-title": "Infants consider both the sample and the sampling process in inductive generalization",
+        "volume": "107",
+        "author": "Gweon",
+        "year": "2010",
+        "journal-title": "Proc Natl Acad Sci USA"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0235",
+        "series-title": "Processes of change in brain and cognitive development—attention and performance XXI",
+        "article-title": "Social learning and social cognition: the case for pedagogy",
+        "author": "Csibra",
+        "year": "2006"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.eng.2022.10.017_b0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "148",
+        "DOI": "10.1016/j.tics.2009.01.005",
+        "article-title": "Natural pedagogy",
+        "volume": "13",
+        "author": "Csibra",
+        "year": "2009",
+        "journal-title": "Trends Cogn Sci"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eng.2022.10.017_b0245",
+        "doi-asserted-by": "crossref",
+        "first-page": "97",
+        "DOI": "10.1016/j.cognition.2009.04.006",
+        "article-title": "Statistical inference and sensitivity to sampling in 11-month-old infants",
+        "volume": "112",
+        "author": "Xu",
+        "year": "2009",
+        "journal-title": "Cognition"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.eng.2022.10.017_b0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "288",
+        "DOI": "10.1111/j.1467-7687.2007.00590.x",
+        "article-title": "Sensitivity to sampling in Bayesian word learning",
+        "volume": "10",
+        "author": "Xu",
+        "year": "2007",
+        "journal-title": "Dev Sci"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.eng.2022.10.017_b0255",
+        "doi-asserted-by": "crossref",
+        "first-page": "2113",
+        "DOI": "10.1037/dev0000580",
+        "article-title": "Development of children’s sensitivity to overinformativeness in learning and teaching",
+        "volume": "54",
+        "author": "Gweon",
+        "year": "2018",
+        "journal-title": "Dev Psychol"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0260",
+        "series-title": "Relevance: communication and cognition",
+        "author": "Sperber",
+        "year": "1986"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0265",
+        "unstructured": "Peltola T, Çelikok MM, Daee P, Kaski S. Machine teaching of active sequential learners. In: Proceedings of the 33th Conference on Neural Information Processing Systems; 2019 Dec 8–14; Vancouver, BC, Canada; 2019."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0270",
+        "unstructured": "Shafto P, Goodman N. Teaching games: statistical sampling assumptions for learning in pedagogical situations. In: Proceedings of the 30th Annual Conference of the Cognitive Science Society; 2008 Jul 23–26; Washiton, DC, USA; 2008."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0275",
+        "unstructured": "Wang J, Wang P, Shafto P. Sequential cooperative Bayesian inference. In: Proceedings of the 37th International Conference on Machine Learning; 2020 Jul 13–18; Vienna, Austria; 2020."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0280",
+        "series-title": "The elements of statistical learning: data mining, inference, and prediction",
+        "author": "Hastie",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0285",
+        "series-title": "The nature of statistical learning theory",
+        "author": "Vapnik",
+        "year": "1999"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0290",
+        "unstructured": "Rivest RL. Cryptography and machine learning. In: Proceedings of the International Conference on the Theory and Applications of Cryptology: Advances in Cryptology; 1991 Nov 11–14; Fujiyoshida, Japan; 1991."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0295",
+        "first-page": "349",
+        "article-title": "Models of cooperative teaching and learning",
+        "volume": "12",
+        "author": "Zilles",
+        "year": "2011",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.eng.2022.10.017_b0300",
+        "first-page": "261",
+        "article-title": "Recent contributions to the mathematical theory of communication",
+        "volume": "10",
+        "author": "Weaver",
+        "year": "1953",
+        "journal-title": "ETC Rev Gen Semant"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0305",
+        "series-title": "Reasoning about knowledge",
+        "author": "Fagin",
+        "year": "2003"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1613/jair.2630",
+        "article-title": "Monte Carlo sampling methods for approximating interactive POMDPs",
+        "volume": "34",
+        "author": "Doshi",
+        "year": "2009",
+        "journal-title": "J Artif Intell Res"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0315",
+        "doi-asserted-by": "crossref",
+        "first-page": "66",
+        "DOI": "10.1016/j.artint.2018.01.002",
+        "article-title": "Autonomous agents modelling other agents: a comprehensive survey and open problems",
+        "volume": "258",
+        "author": "Albrecht",
+        "year": "2018",
+        "journal-title": "Artif Intell"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0320",
+        "unstructured": "Foerster J, Chen RY, Al-Shedivat M, Whiteson S, Abbeel P, Mordatch I. Learning with opponent-learning awareness. In: Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems; 2018 Jul 10–15; Stockholm, Sweden; 2018."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0325",
+        "unstructured": "De Weerd H, Verbrugge R, Verheij B. Theory of mind in the Mod game: an agent-based model of strategic reasoning. In: Proceedings of the European Conference on Social Intelligence; 2014 Nov 3–5; Barcelona, Spain; 2014."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0330",
+        "first-page": "10",
+        "article-title": "Higher-order theory of mind in the Tacit Communication Game",
+        "volume": "11",
+        "author": "De Weerd",
+        "year": "2015",
+        "journal-title": "Biol Inspired Cogn Archit"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.eng.2022.10.017_b0335",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1561/0600000018",
+        "article-title": "A stochastic grammar of images",
+        "volume": "2",
+        "author": "Zhu",
+        "year": "2007",
+        "journal-title": "Found Trends Comput Graph Vis"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0340",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qi S, Zhu Y, Huang S, Jiang C, Zhu SC. Human-centric indoor scene synthesis using stochastic grammar. In: Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR); 2018 Jun 18–22; Salt Lake City, UT, USA; 2018.",
+        "DOI": "10.1109/CVPR.2018.00618"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0345",
+        "unstructured": "Liu C, Chai JY, Shukla N, Zhu SC. Task learning through visual demonstration and situated dialogue. In: Workshops at the Thirtieth AAAI Conference on Artificial Intelligence; 2016 Feb 12–17; Phoenix, AZ, USA; 2016."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0350",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu C, Yang S, Saba-Sadiya S, Shukla N, He Y, Zhu SC, et al. Jointly learning grounded task structures from language instruction and visual demonstration. In: Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing; 2016 Nov 1–5; Austin, TX, USA; 2016.",
+        "DOI": "10.18653/v1/D16-1155"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0355",
+        "unstructured": "Shukla N, He Y, Chen F, Zhu SC. Learning human utility from video demonstrations for deductive planning in robotics. In: Proceedings of Conference on Robot Learning; 2017 Nov 13–15; Mountain View, CA, USA; 2017."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0360",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Edmonds M, Gao F, Xie X, Liu H, Qi S, Zhu Y, et al. Feeling the force: integrating force and pose for fluent discovery through imitation learning to open medicine bottles. In: Proceedings of 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS); 2017 Sep 24–28; Vancouver, BC, Canada. New York City: IEEE; 2017. p. 3530–7.",
+        "DOI": "10.1109/IROS.2017.8206196"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.eng.2022.10.017_b0365",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/2809782",
+        "article-title": "Learning perceptual causality from video",
+        "volume": "7",
+        "author": "Fire",
+        "year": "2015",
+        "journal-title": "ACM Trans Intell Syst Technol"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0370",
+        "unstructured": "Zhao Y, Holtzen S, Tao G, Zhu SC. Represent and infer human theory of mind for human–robot interaction. In: AAAI Fall Symposia; 2015 Nov 12–14; Arlington, VA, USA; 2015."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0375",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu Y, Zhao Y, Zhu SC. Understanding tools: task-oriented object modeling, learning and recognition. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition; 2015 Jun 7–12; Boston, MA, USA; 2015.",
+        "DOI": "10.1109/CVPR.2015.7298903"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0380",
+        "unstructured": "Huang SH, Huang I, Pandya R, Dragan AD. Nonverbal robot feedback for human teachers. 2019. arXiv:1911.02320."
+      },
+      {
+        "issue": "1–3",
+        "key": "10.1016/j.eng.2022.10.017_b0385",
+        "doi-asserted-by": "crossref",
+        "first-page": "94",
+        "DOI": "10.1016/j.tcs.2008.02.025",
+        "article-title": "Measuring teachability using variants of the teaching dimension",
+        "volume": "397",
+        "author": "Balbach",
+        "year": "2008",
+        "journal-title": "Theor Comput Sci"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eng.2022.10.017_b0390",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.1006/jcss.1995.1003",
+        "article-title": "On the complexity of teaching",
+        "volume": "50",
+        "author": "Goldman",
+        "year": "1995",
+        "journal-title": "J Comput Syst Sci"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0395",
+        "series-title": "Causality",
+        "author": "Pearl",
+        "year": "2009"
+      },
+      {
+        "issue": "3–4",
+        "key": "10.1016/j.eng.2022.10.017_b0400",
+        "first-page": "324",
+        "article-title": "Rank analysis of incomplete block designs: I. the method of paired comparisons",
+        "volume": "39",
+        "author": "Bradley",
+        "year": "1952",
+        "journal-title": "Biometrika"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0405",
+        "unstructured": "Ramachandran D, Amir E. Bayesian inverse reinforcement learning. In: Proceedings of International Joint Conference on Artificial Intelligence; 2007 Jan 6–12; Hyderabad, India; 2007."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.eng.2022.10.017_b0410",
+        "doi-asserted-by": "crossref",
+        "first-page": "329",
+        "DOI": "10.1016/j.cognition.2009.07.005",
+        "article-title": "Action understanding as inverse planning",
+        "volume": "113",
+        "author": "Baker",
+        "year": "2009",
+        "journal-title": "Cognition"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.eng.2022.10.017_b0415",
+        "doi-asserted-by": "crossref",
+        "first-page": "818",
+        "DOI": "10.1016/j.tics.2016.08.005",
+        "article-title": "Pragmatic language interpretation as probabilistic inference",
+        "volume": "20",
+        "author": "Goodman",
+        "year": "2016",
+        "journal-title": "Trends Cogn Sci"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0420",
+        "unstructured": "Yu X, Han B, Yao J, Niu G, Tsang I, Sugiyama M. How does disagreement help generalization against label corruption? In: Proceedings of the 36th International Conference on Machine Learning; 2019 Jun 10–15; Long Beach, CA, USA; 2019."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0425",
+        "unstructured": "Li J, Socher R, Hoi SCH. DivideMix: learning with noisy labels as semi-supervised learning. 2020. arXiv:2002.07394."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0430",
+        "unstructured": "Berthelot D, Roelofs R, Sohn K, Carlini N, Kurakin A. AdaMatch: a unified approach to semi-supervised learning and domain adaptation. In: Proceedings of International Conference on Learning Representations; 2022 Apr 25–29; online; 2022."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0435",
+        "unstructured": "Yuan L, Fu Z, Shen J, Xu L, Shen J, Zhu SC. Emergence of pragmatics from referential game between theory of mind agents. In: Emergent Communication Workshop, 33rd Conference on Neural Information Processing Systems; 2019 Dec 8–14; Vancouver, BC, Canada; 2019."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0440",
+        "unstructured": "Lazaridou A, Peysakhovich A, Baroni M. Multi-agent cooperation and the emergence of (natural) language. In: International Conference on Learning Representations; 2017 Apr 24–26; Toulon, France; 2017."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0445",
+        "unstructured": "Lazaridou A, Hermann KM, Tuyls K, Clark S. Emergence of linguistic communication from referential games with symbolic and pixel input. In: International Conference on Learning Representations; 2018 Apr 30–May 3; Vancouver, BC, Canada; 2018."
+      },
+      {
+        "issue": "3–4",
+        "key": "10.1016/j.eng.2022.10.017_b0450",
+        "first-page": "279",
+        "article-title": "Q-learning",
+        "volume": "8",
+        "author": "Watkins",
+        "year": "1992",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "issue": "3–4",
+        "key": "10.1016/j.eng.2022.10.017_b0455",
+        "doi-asserted-by": "crossref",
+        "first-page": "229",
+        "DOI": "10.1023/A:1022672621406",
+        "article-title": "Simple statistical gradient-following algorithms for connectionist reinforcement learning",
+        "volume": "8",
+        "author": "Williams",
+        "year": "1992",
+        "journal-title": "Mach Learn"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0460",
+        "unstructured": "Chen X, Cheng Y, Tang B. On the recursive teaching dimension of VC classes. In: Proceedings of the 30th International Conference on Neural Information Processing Systems; 2016 Dec 5–10; Barcelona, Spain; 2016."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0465",
+        "first-page": "3107",
+        "article-title": "Recursive teaching dimension, VC-dimension and sample compression",
+        "volume": "15",
+        "author": "Doliwa",
+        "year": "2014",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0470",
+        "series-title": "Machine learning",
+        "author": "Mitchell",
+        "year": "1997"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0475",
+        "unstructured": "Yuan L, Zhou D, Shen J, Gao J, Chen JL, Gu Q, et al. Iterative teacher-aware learning. In: Proceedings of the 35th International Conference on Neural Information Processing Systems; 2021 Dec 6–14; online; 2021."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0480",
+        "unstructured": "Babes M, Marivate V, Subramanian K, Littman ML. Apprenticeship learning about multiple intentions. In: Proceedings of the 28th International Conference on Machine Learning (ICML-11); 2011 Jun 28–Jul 2; Bellevue, WA, USA; 2011."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0485",
+        "unstructured": "MacGlashan J, Littman ML. Between imitation and intention learning. In: Proceedings of the 24th International Joint Conference on Artificial Intelligence; 2015 Jul 25–Aug 1; Buenos Aires, Argentina; 2015."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.eng.2022.10.017_b0490",
+        "doi-asserted-by": "crossref",
+        "first-page": "250",
+        "DOI": "10.1007/s10458-015-9317-1",
+        "article-title": "Negotiating with other minds: the role of recursive theory of mind in negotiation with incomplete information",
+        "volume": "31",
+        "author": "De Weerd",
+        "year": "2017",
+        "journal-title": "Auton Agent Multi-Ag"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0495",
+        "unstructured": "Ziebart BD, Maas AL, Bagnell JA, Dey AK. Maximum entropy inverse reinforcement learning. In: Proceedings of the 23rd AAAI Conference on Artificial Intelligence (AAAI); 2008 Jul 13–17; Chicago, IL, USA; 2008."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0500",
+        "series-title": "Maximum likelihood inverse reinforcement learning [dissertation]",
+        "author": "Vroman",
+        "year": "2014"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0505",
+        "unstructured": "Liu W, Dai B, Li X, Liu Z, Rehg J, Song L. Towards black-box iterative machine teaching. In: Proceedings of the 35th International Conference on Machine Learning; 2018 Jul 10–15; Stockholm, Sweden; 2018."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0510",
+        "unstructured": "Wu L, Tian F, Xia Y, Fan Y, Qin T,Lai J, et al. Learning to teach with dynamic loss functions. In: Proceedings of the 32th Conference on Neural Information Processing Systems; 2018 Dec 3–8; Montreal, QC, Canada; 2018."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0515",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gao X, Gong R, Zhao Y, Wang S, Shu T, Zhu SC. Joint mind modeling for explanation generation in complex human–robot collaborative tasks. In: Proceedings of 2020 29th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN); 2020 Aug 31–Sep 4; Naples, Italy; 2020.",
+        "DOI": "10.1109/RO-MAN47096.2020.9223595"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0520",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yuan T, Liu H, Fan L, Zheng Z, Gao T, Zhu Y, et al. Joint inference of states, robot knowledge, and human (false-) beliefs. In: Proceedings of 2020 IEEE International Conference on Robotics and Automation (ICRA); 2020 May 31–Aug 31; Paris, France; 2020.",
+        "DOI": "10.1109/ICRA40945.2020.9197355"
+      },
+      {
+        "issue": "68",
+        "key": "10.1016/j.eng.2022.10.017_b0525",
+        "doi-asserted-by": "crossref",
+        "first-page": "eabm4183",
+        "DOI": "10.1126/scirobotics.abm4183",
+        "article-title": "In situ bidirectional human–robot value alignment",
+        "volume": "7",
+        "author": "Yuan",
+        "year": "2022",
+        "journal-title": "Sci Robot"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0530",
+        "series-title": "Human compatible: artificial intelligence and the problem of control",
+        "author": "Russell",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0535",
+        "unstructured": "Tang N, Stacy S, Zhao M, Marquez G, Gao T. Bootstrapping an Imagined We for cooperation. In: Proceedings of the Annual Meeting of the Cognitive Science Society (CogSci); 2020 Jul 29–Aug 1; online; 2020."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0540",
+        "unstructured": "Stacy S, Zhao Q, Zhao M, Kleiman-Weiner M, Gao T. Intuitive signaling through an “Imagined We”. In: Proceedings of the Annual Meeting of the Cognitive Science Society (CogSci); 2020 Jul 29–Aug 1; online; 2020."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0545",
+        "unstructured": "Bara CP, Ch-Wang S, Chai J. MindCraft: theory of mind modeling for situated dialogue in collaborative tasks. In: Proceedings of the conference on Empirical Methods in Natural Language Processing (EMNLP); 2018 Nov 2–4; Brussels, Belgium; 2018."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0550",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan L, Qiu S, Zheng Z, Gao T, Zhu SC, Zhu Y. Learning triadic belief dynamics in nonverbal communication from videos. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR); 2021 Jun 20–25; Nashville, TN, USA; 2021.",
+        "DOI": "10.1109/CVPR46437.2021.00723"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0555",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.artint.2021.103500",
+        "article-title": "A survey of inverse reinforcement learning: challenges, methods and progress",
+        "volume": "297",
+        "author": "Arora",
+        "year": "2021",
+        "journal-title": "Artif Intell"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.eng.2022.10.017_b0560",
+        "doi-asserted-by": "crossref",
+        "first-page": "929",
+        "DOI": "10.1145/76359.76371",
+        "article-title": "Learnability and the Vapnik–Chervonenkis dimension",
+        "volume": "36",
+        "author": "Blumer",
+        "year": "1989",
+        "journal-title": "J ACM"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0565",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bartlett PL, Bousquet O, Mendelson S. Localized Rademacher complexities. In: Proceedings of International Conference on Computational Learning Theory; 2022 Jul 2–5; London, UK; 2002.",
+        "DOI": "10.1007/3-540-45435-7_4"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0570",
+        "series-title": "Semi-supervised learning",
+        "article-title": "An augmented PAC model for semi-supervised learning",
+        "author": "Chapelle",
+        "year": "2006"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0575",
+        "unstructured": "Barbu A, Pavlovskaia M, Zhu SC. Rates for inductive learning of compositional models. In: Workshops at the Twenty-Seventh AAAI Conference on Artificial Intelligence; 2013 Jul 14–18; Bellevue, WA, USA; 2013."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0580",
+        "first-page": "119",
+        "article-title": "Knowledge and belief: an introduction to the logic of the two notions",
+        "volume": "16",
+        "author": "Hintikka",
+        "year": "1962",
+        "journal-title": "Stud Log"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.eng.2022.10.017_b0585",
+        "doi-asserted-by": "crossref",
+        "first-page": "1236",
+        "DOI": "10.1214/aos/1176343654",
+        "article-title": "Agreeing to disagree",
+        "volume": "4",
+        "author": "Aumann",
+        "year": "1976",
+        "journal-title": "Ann Stat"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.eng.2022.10.017_b0590",
+        "doi-asserted-by": "crossref",
+        "first-page": "549",
+        "DOI": "10.1145/79147.79161",
+        "article-title": "Knowledge and common knowledge in a distributed environment",
+        "volume": "37",
+        "author": "Halpern",
+        "year": "1990",
+        "journal-title": "J ACM"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0595",
+        "unstructured": "Smith NJ, Goodman ND, Frank MC. Learning and using language via recursive pragmatic reasoning about other agents. In: Proceedings of the 26th International Conference on Neural Information Processing Systems; 2013 Dec 5–10; Lake Tahoe, NV, USA; 2013."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0600",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1075/pbns.37.11car",
+        "article-title": "Informativeness, relevance and scalar implicature",
+        "volume": "37",
+        "author": "Carston",
+        "year": "1998",
+        "journal-title": "Pragmat Beyond New Ser"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0605",
+        "unstructured": "Vogel A, Bodoia M, Potts C, Jurafsky D. Emergence of Gricean maxims from multi-agent decision theory. In: Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies; 2013 Jun 9–14; Atlanta, GA, USA; 2013."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.eng.2022.10.017_b0610",
+        "doi-asserted-by": "crossref",
+        "first-page": "230",
+        "DOI": "10.1112/plms/s2-42.1.230",
+        "article-title": "On computable numbers, with an application to the Entscheidungsproblem",
+        "volume": "2",
+        "author": "Turing",
+        "year": "1937",
+        "journal-title": "Proc Lond Math Soc"
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0615",
+        "unstructured": "Stone P, Kraus S. To teach or not to teach? Decision making under uncertainty in ad hoc teams. In: Proceedings of the Ninth International Conference on Autonomous Agents and Multiagent Systems; 2010 May 10–14; Toronto, ON, Canada; 2010."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0620",
+        "unstructured": "Zhang A, Sodhani S, Khetarpal K, Pineau J. Learning robust state abstractions for hidden-parameter block MDPs. In: Proceedings of the International Conference on Learning Representations; 2020 Apr 26–May 1; online; 2020."
+      },
+      {
+        "key": "10.1016/j.eng.2022.10.017_b0625",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1016/j.artint.2016.10.005",
+        "article-title": "Making friends on the fly: cooperating with new teammates",
+        "volume": "242",
+        "author": "Barrett",
+        "year": "2017",
+        "journal-title": "Artif Intell"
+      }
+    ],
+    "container-title": [
+      "Engineering"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2095809923001339?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S2095809923001339?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          30
+        ]
+      ],
+      "date-time": "2025-10-30T23:31:56Z",
+      "timestamp": 1761867116000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2095809923001339"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "references-count": 125,
+    "alternative-id": [
+      "S2095809923001339"
+    ],
+    "URL": "https://doi.org/10.1016/j.eng.2022.10.017",
+    "relation": {},
+    "ISSN": [
+      "2095-8099"
+    ],
+    "issn-type": [
+      {
+        "value": "2095-8099",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Communicative Learning: A Unified Learning Formalism",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Engineering",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.eng.2022.10.017",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2023 The AUTHORS. Published by Elsevier LTD on behalf of Chinese Academy of Engineering and Higher Education Press Limited Company.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

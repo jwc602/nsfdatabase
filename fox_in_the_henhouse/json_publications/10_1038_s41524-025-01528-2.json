@@ -1,0 +1,2071 @@
+{
+  "doi": "10.1038/s41524-025-01528-2",
+  "openalex": {
+    "id": "https://openalex.org/W4407857358",
+    "doi": "https://doi.org/10.1038/s41524-025-01528-2",
+    "title": "Efficient GPU-computing simulation platform JAX-CPFEM for differentiable crystal plasticity finite element method",
+    "display_name": "Efficient GPU-computing simulation platform JAX-CPFEM for differentiable crystal plasticity finite element method",
+    "publication_year": 2025,
+    "publication_date": "2025-02-22",
+    "ids": {
+      "openalex": "https://openalex.org/W4407857358",
+      "doi": "https://doi.org/10.1038/s41524-025-01528-2"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s41524-025-01528-2",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41524-025-01528-2",
+      "pdf_url": "https://www.nature.com/articles/s41524-025-01528-2.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210232664",
+        "display_name": "npj Computational Materials",
+        "issn_l": "2057-3960",
+        "issn": [
+          "2057-3960"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "npj Computational Materials",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41524-025-01528-2.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5071787600",
+          "display_name": "Fanglei Hu",
+          "orcid": "https://orcid.org/0000-0001-5507-6115"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Fanglei Hu",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5016190350",
+          "display_name": "Stephen R. Niezgoda",
+          "orcid": "https://orcid.org/0000-0002-7123-466X"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Stephen Niezgoda",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5069417521",
+          "display_name": "Tianju Xue",
+          "orcid": "https://orcid.org/0000-0002-2710-9802"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Tianju Xue",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5013478040",
+          "display_name": "Jian Cao",
+          "orcid": "https://orcid.org/0000-0003-1023-5244"
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jian Cao",
+        "raw_affiliation_strings": [],
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 2890,
+      "currency": "USD",
+      "value_usd": 2890
+    },
+    "apc_paid": {
+      "value": 2890,
+      "currency": "USD",
+      "value_usd": 2890
+    },
+    "fwci": 8.28388956,
+    "has_fulltext": false,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.92271469,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "11",
+      "issue": "1",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11201",
+      "display_name": "Metallurgy and Material Forming",
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11201",
+        "display_name": "Metallurgy and Material Forming",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2211",
+          "display_name": "Mechanics of Materials"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10204",
+        "display_name": "Microstructure and mechanical properties",
+        "score": 0.9983000159263611,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2505",
+          "display_name": "Materials Chemistry"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/25",
+          "display_name": "Materials Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10700",
+        "display_name": "Metal Forming Simulation Techniques",
+        "score": 0.9973000288009644,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2210",
+          "display_name": "Mechanical Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/finite-element-method",
+        "display_name": "Finite element method",
+        "score": 0.6301153898239136
+      },
+      {
+        "id": "https://openalex.org/keywords/computer-science",
+        "display_name": "Computer science",
+        "score": 0.5884949564933777
+      },
+      {
+        "id": "https://openalex.org/keywords/parallel-computing",
+        "display_name": "Parallel computing",
+        "score": 0.5111971497535706
+      },
+      {
+        "id": "https://openalex.org/keywords/differentiable-function",
+        "display_name": "Differentiable function",
+        "score": 0.4974541962146759
+      },
+      {
+        "id": "https://openalex.org/keywords/computational-science",
+        "display_name": "Computational science",
+        "score": 0.4580468535423279
+      },
+      {
+        "id": "https://openalex.org/keywords/crystal-plasticity",
+        "display_name": "Crystal plasticity",
+        "score": 0.444446325302124
+      },
+      {
+        "id": "https://openalex.org/keywords/structural-engineering",
+        "display_name": "Structural engineering",
+        "score": 0.20897141098976135
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematics",
+        "display_name": "Mathematics",
+        "score": 0.15851524472236633
+      },
+      {
+        "id": "https://openalex.org/keywords/engineering",
+        "display_name": "Engineering",
+        "score": 0.12023606896400452
+      },
+      {
+        "id": "https://openalex.org/keywords/mathematical-analysis",
+        "display_name": "Mathematical analysis",
+        "score": 0.11041691899299622
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C135628077",
+        "wikidata": "https://www.wikidata.org/wiki/Q220184",
+        "display_name": "Finite element method",
+        "level": 2,
+        "score": 0.6301153898239136
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5884949564933777
+      },
+      {
+        "id": "https://openalex.org/C173608175",
+        "wikidata": "https://www.wikidata.org/wiki/Q232661",
+        "display_name": "Parallel computing",
+        "level": 1,
+        "score": 0.5111971497535706
+      },
+      {
+        "id": "https://openalex.org/C202615002",
+        "wikidata": "https://www.wikidata.org/wiki/Q783507",
+        "display_name": "Differentiable function",
+        "level": 2,
+        "score": 0.4974541962146759
+      },
+      {
+        "id": "https://openalex.org/C459310",
+        "wikidata": "https://www.wikidata.org/wiki/Q117801",
+        "display_name": "Computational science",
+        "level": 1,
+        "score": 0.4580468535423279
+      },
+      {
+        "id": "https://openalex.org/C2993173162",
+        "wikidata": "https://www.wikidata.org/wiki/Q107087877",
+        "display_name": "Crystal plasticity",
+        "level": 3,
+        "score": 0.444446325302124
+      },
+      {
+        "id": "https://openalex.org/C66938386",
+        "wikidata": "https://www.wikidata.org/wiki/Q633538",
+        "display_name": "Structural engineering",
+        "level": 1,
+        "score": 0.20897141098976135
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.15851524472236633
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.12023606896400452
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.11041691899299622
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1038/s41524-025-01528-2",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41524-025-01528-2",
+        "pdf_url": "https://www.nature.com/articles/s41524-025-01528-2.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210232664",
+          "display_name": "npj Computational Materials",
+          "issn_l": "2057-3960",
+          "issn": [
+            "2057-3960"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "npj Computational Materials",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:0f876c525bde4d209aa442eac08d8bd0",
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/0f876c525bde4d209aa442eac08d8bd0",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "npj Computational Materials, Vol 11, Iss 1, Pp 1-16 (2025)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:repository.hkust.edu.hk:1783.1-151506",
+        "is_oa": false,
+        "landing_page_url": "http://repository.hkust.edu.hk/ir/Record/1783.1-151506",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1038/s41524-025-01528-2",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41524-025-01528-2",
+      "pdf_url": "https://www.nature.com/articles/s41524-025-01528-2.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210232664",
+        "display_name": "npj Computational Materials",
+        "issn_l": "2057-3960",
+        "issn": [
+          "2057-3960"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "npj Computational Materials",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": true
+    },
+    "referenced_works_count": 79,
+    "referenced_works": [
+      "https://openalex.org/W4386746424",
+      "https://openalex.org/W3035239038",
+      "https://openalex.org/W2889393096",
+      "https://openalex.org/W4293240006",
+      "https://openalex.org/W2039309494",
+      "https://openalex.org/W4399321325",
+      "https://openalex.org/W3199766214",
+      "https://openalex.org/W3214431600",
+      "https://openalex.org/W3161119170",
+      "https://openalex.org/W4382364643",
+      "https://openalex.org/W4380182431",
+      "https://openalex.org/W4281485129",
+      "https://openalex.org/W4362718360",
+      "https://openalex.org/W4214814726",
+      "https://openalex.org/W2087292325",
+      "https://openalex.org/W1558894608",
+      "https://openalex.org/W4392881472",
+      "https://openalex.org/W4387297308",
+      "https://openalex.org/W4210318435",
+      "https://openalex.org/W3036897063",
+      "https://openalex.org/W2902212920",
+      "https://openalex.org/W122459190",
+      "https://openalex.org/W2046660839",
+      "https://openalex.org/W1966090781",
+      "https://openalex.org/W4283368355",
+      "https://openalex.org/W3213005854",
+      "https://openalex.org/W2974075102",
+      "https://openalex.org/W2971919600",
+      "https://openalex.org/W2927409383",
+      "https://openalex.org/W4392631000",
+      "https://openalex.org/W2807950499",
+      "https://openalex.org/W3191492236",
+      "https://openalex.org/W3139168436",
+      "https://openalex.org/W2078280945",
+      "https://openalex.org/W3161424953",
+      "https://openalex.org/W4310012185",
+      "https://openalex.org/W4200400542",
+      "https://openalex.org/W3137095192",
+      "https://openalex.org/W4401787086",
+      "https://openalex.org/W4221026945",
+      "https://openalex.org/W4379196907",
+      "https://openalex.org/W2169181913",
+      "https://openalex.org/W3204232975",
+      "https://openalex.org/W2767210245",
+      "https://openalex.org/W2149144745",
+      "https://openalex.org/W2007784672",
+      "https://openalex.org/W4292671739",
+      "https://openalex.org/W4386133393",
+      "https://openalex.org/W2947585519",
+      "https://openalex.org/W3194599364",
+      "https://openalex.org/W4309576654",
+      "https://openalex.org/W3212128066",
+      "https://openalex.org/W2985958607",
+      "https://openalex.org/W2953854697",
+      "https://openalex.org/W2908779202",
+      "https://openalex.org/W1982053161",
+      "https://openalex.org/W2018281371",
+      "https://openalex.org/W2020609646",
+      "https://openalex.org/W2494516016",
+      "https://openalex.org/W1492420425",
+      "https://openalex.org/W4293775970",
+      "https://openalex.org/W2171303908",
+      "https://openalex.org/W4220849599",
+      "https://openalex.org/W4283220886",
+      "https://openalex.org/W2948920787",
+      "https://openalex.org/W2050236324",
+      "https://openalex.org/W3003257820",
+      "https://openalex.org/W2162221417",
+      "https://openalex.org/W2086219369",
+      "https://openalex.org/W4382243573",
+      "https://openalex.org/W4390323163",
+      "https://openalex.org/W2000359198",
+      "https://openalex.org/W2005490094",
+      "https://openalex.org/W1978958855",
+      "https://openalex.org/W4293569737",
+      "https://openalex.org/W4401987811",
+      "https://openalex.org/W4233102218",
+      "https://openalex.org/W3167630251",
+      "https://openalex.org/W3105271077"
+    ],
+    "related_works": [
+      "https://openalex.org/W4285277090",
+      "https://openalex.org/W4327738859",
+      "https://openalex.org/W2348722996",
+      "https://openalex.org/W2334570605",
+      "https://openalex.org/W3181683615",
+      "https://openalex.org/W4286826125",
+      "https://openalex.org/W1633485514",
+      "https://openalex.org/W1604739066",
+      "https://openalex.org/W2115878407",
+      "https://openalex.org/W1980454230"
+    ],
+    "abstract_inverted_index": {
+      "We": [
+        0
+      ],
+      "present": [
+        1
+      ],
+      "the": [
+        2,
+        23,
+        61,
+        77
+      ],
+      "formulation": [
+        3
+      ],
+      "and": [
+        4,
+        11,
+        35,
+        119,
+        135,
+        140
+      ],
+      "applications": [
+        5
+      ],
+      "of": [
+        6,
+        49,
+        98,
+        113,
+        128
+      ],
+      "JAX-CPFEM,": [
+        7
+      ],
+      "an": [
+        8,
+        90,
+        132
+      ],
+      "open-source,": [
+        9
+      ],
+      "GPU-accelerated,": [
+        10
+      ],
+      "differentiable": [
+        12,
+        129
+      ],
+      "3-D": [
+        13
+      ],
+      "crystal": [
+        14
+      ],
+      "plasticity": [
+        15
+      ],
+      "finite": [
+        16
+      ],
+      "element": [
+        17
+      ],
+      "method": [
+        18
+      ],
+      "(CPFEM)": [
+        19
+      ],
+      "software": [
+        20
+      ],
+      "package.": [
+        21
+      ],
+      "Leveraging": [
+        22
+      ],
+      "modern": [
+        24
+      ],
+      "computing": [
+        25
+      ],
+      "architecture": [
+        26
+      ],
+      "JAX,": [
+        27
+      ],
+      "JAX-CPFEM": [
+        28,
+        59,
+        85,
+        114,
+        130
+      ],
+      "features": [
+        29
+      ],
+      "high": [
+        30
+      ],
+      "performance": [
+        31
+      ],
+      "through": [
+        32
+      ],
+      "array": [
+        33
+      ],
+      "programming": [
+        34
+      ],
+      "GPU": [
+        36
+      ],
+      "acceleration,": [
+        37
+      ],
+      "achieving": [
+        38
+      ],
+      "a": [
+        39,
+        43
+      ],
+      "39×": [
+        40
+      ],
+      "speedup": [
+        41
+      ],
+      "in": [
+        42,
+        89,
+        147
+      ],
+      "polycrystal": [
+        44,
+        99
+      ],
+      "case": [
+        45
+      ],
+      "with": [
+        46,
+        54
+      ],
+      "~52,000": [
+        47
+      ],
+      "degrees": [
+        48
+      ],
+      "freedom": [
+        50
+      ],
+      "compared": [
+        51
+      ],
+      "to": [
+        52,
+        67,
+        103
+      ],
+      "MOOSE": [
+        53
+      ],
+      "MPI": [
+        55
+      ],
+      "(8": [
+        56
+      ],
+      "cores).": [
+        57
+      ],
+      "Furthermore,": [
+        58
+      ],
+      "utilizes": [
+        60
+      ],
+      "automatic": [
+        62,
+        116
+      ],
+      "differentiation": [
+        63
+      ],
+      "technique,": [
+        64
+      ],
+      "enabling": [
+        65
+      ],
+      "users": [
+        66
+      ],
+      "handle": [
+        68
+      ],
+      "complex,": [
+        69
+      ],
+      "non-linear": [
+        70
+      ],
+      "constitutive": [
+        71
+      ],
+      "materials": [
+        72
+      ],
+      "laws": [
+        73
+      ],
+      "without": [
+        74
+      ],
+      "manually": [
+        75
+      ],
+      "deriving": [
+        76
+      ],
+      "case-specific": [
+        78
+      ],
+      "Jacobian": [
+        79
+      ],
+      "matrix.": [
+        80
+      ],
+      "Beyond": [
+        81
+      ],
+      "solving": [
+        82
+      ],
+      "forward": [
+        83
+      ],
+      "problems,": [
+        84
+      ],
+      "demonstrates": [
+        86
+      ],
+      "its": [
+        87
+      ],
+      "potential": [
+        88
+      ],
+      "inverse": [
+        91,
+        121,
+        145
+      ],
+      "design": [
+        92,
+        122,
+        146
+      ],
+      "pipeline,": [
+        93
+      ],
+      "where": [
+        94
+      ],
+      "initial": [
+        95
+      ],
+      "crystallographic": [
+        96
+      ],
+      "orientations": [
+        97
+      ],
+      "copper": [
+        100
+      ],
+      "are": [
+        101
+      ],
+      "optimized": [
+        102
+      ],
+      "achieve": [
+        104
+      ],
+      "targeted": [
+        105
+      ],
+      "mechanical": [
+        106
+      ],
+      "properties": [
+        107
+      ],
+      "under": [
+        108
+      ],
+      "deformations.": [
+        109
+      ],
+      "The": [
+        110,
+        126,
+        151
+      ],
+      "end-to-end": [
+        111
+      ],
+      "differentiability": [
+        112
+      ],
+      "allows": [
+        115
+      ],
+      "sensitivity": [
+        117
+      ],
+      "calculations": [
+        118
+      ],
+      "high-dimensional": [
+        120
+      ],
+      "using": [
+        123
+      ],
+      "gradient-based": [
+        124
+      ],
+      "optimization.": [
+        125
+      ],
+      "concept": [
+        127
+      ],
+      "provides": [
+        131
+      ],
+      "affordable,": [
+        133
+      ],
+      "flexible,": [
+        134
+      ],
+      "multi-purpose": [
+        136
+      ],
+      "tool,": [
+        137
+      ],
+      "advancing": [
+        138
+      ],
+      "efficient": [
+        139
+      ],
+      "accessible": [
+        141
+      ],
+      "computational": [
+        142
+      ],
+      "tools": [
+        143
+      ],
+      "for": [
+        144
+      ],
+      "smart": [
+        148
+      ],
+      "manufacturing.": [
+        149
+      ],
+      "©": [
+        150
+      ],
+      "Author(s)": [
+        152
+      ],
+      "2025.": [
+        153
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2025-12-22T23:10:17.713674",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2025-12-18T20:07:01Z",
+      "timestamp": 1766088421717,
+      "version": "3.37.3"
+    },
+    "reference-count": 92,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              22
+            ]
+          ],
+          "date-time": "2025-02-22T00:00:00Z",
+          "timestamp": 1740182400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              2,
+              22
+            ]
+          ],
+          "date-time": "2025-02-22T00:00:00Z",
+          "timestamp": 1740182400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "npj Comput Mater"
+    ],
+    "DOI": "10.1038/s41524-025-01528-2",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          22
+        ]
+      ],
+      "date-time": "2025-02-22T12:56:01Z",
+      "timestamp": 1740228961000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "Efficient GPU-computing simulation platform JAX-CPFEM for differentiable crystal plasticity finite element method"
+    ],
+    "prefix": "10.1038",
+    "volume": "11",
+    "author": [
+      {
+        "given": "Fanglei",
+        "family": "Hu",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7123-466X",
+        "authenticated-orcid": false,
+        "given": "Stephen",
+        "family": "Niezgoda",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2710-9802",
+        "authenticated-orcid": false,
+        "given": "Tianju",
+        "family": "Xue",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1023-5244",
+        "authenticated-orcid": false,
+        "given": "Jian",
+        "family": "Cao",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "1528_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "18",
+        "DOI": "10.1016/j.cirpj.2023.08.005",
+        "volume": "47",
+        "author": "A Bernard",
+        "year": "2023",
+        "unstructured": "Bernard, A. et al. Vision on metal additive manufacturing: developments, challenges and future trends. CIRP J. Manuf. Sci. Technol. 47, 18–58 (2023).",
+        "journal-title": "CIRP J. Manuf. Sci. Technol."
+      },
+      {
+        "key": "1528_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "100706",
+        "DOI": "10.1016/j.pmatsci.2020.100706",
+        "volume": "115",
+        "author": "X Meng",
+        "year": "2021",
+        "unstructured": "Meng, X., Huang, Y., Cao, J., Shen, J. & dos Santos, J. F. Recent progress on control strategies for inherent issues in friction stir welding. Prog. Mater. Sci. 115, 100706 (2021).",
+        "journal-title": "Prog. Mater. Sci."
+      },
+      {
+        "key": "1528_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "157",
+        "DOI": "10.1007/s40192-018-0117-8",
+        "volume": "7",
+        "author": "DM Dimiduk",
+        "year": "2018",
+        "unstructured": "Dimiduk, D. M., Holm, E. A. & Niezgoda, S. R. Perspectives on the impact of machine learning, deep learning, and artificial intelligence on materials, processes, and structures engineering. Integr. Mater. Manuf. Innov. 7, 157–172 (2018).",
+        "journal-title": "Integr. Mater. Manuf. Innov."
+      },
+      {
+        "key": "1528_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "93",
+        "DOI": "10.1038/s41524-022-00764-0",
+        "volume": "8",
+        "author": "JR Mianroodi",
+        "year": "2022",
+        "unstructured": "Mianroodi, J. R. et al. Modeling and simulation of microstructure in metallic systems based on multi-physics approaches. npj Comput. Mater. 8, 93 (2022).",
+        "journal-title": "npj Comput. Mater."
+      },
+      {
+        "key": "1528_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Allison, J. Integrated computational materials engineering: a perspective on progress and future steps. J. Min. Metals Mater. Soc. (TMS) 63 (2011).",
+        "DOI": "10.1007/s11837-011-0053-y"
+      },
+      {
+        "key": "1528_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cao, J., Bambach, M., Merklein, M., Mozaffar, M., Xue, T. Artificial intelligence in metal forming, CIRP Ann. (2024).",
+        "DOI": "10.1016/j.cirp.2024.04.102"
+      },
+      {
+        "key": "1528_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "100868",
+        "DOI": "10.1016/j.pmatsci.2021.100868",
+        "volume": "124",
+        "author": "LQ Chen",
+        "year": "2022",
+        "unstructured": "Chen, L. Q. & Zhao, Y. H. From classical thermodynamics to phase-field method. Prog. Mater. Sci. 124, 100868 (2022).",
+        "journal-title": "Prog. Mater. Sci."
+      },
+      {
+        "key": "1528_CR8",
+        "volume": "49",
+        "author": "K McNamara",
+        "year": "2022",
+        "unstructured": "McNamara, K. et al. Predicting phase transformation kinetics during metal additive manufacturing using non-isothermal Johnson-Mehl-Avrami models: Application to Inconel 718 and Ti-6Al-4V. Addit. Manuf. 49, 102478 (2022).",
+        "journal-title": "Addit. Manuf."
+      },
+      {
+        "key": "1528_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "103019",
+        "DOI": "10.1016/j.ijplas.2021.103019",
+        "volume": "143",
+        "author": "X Hu",
+        "year": "2021",
+        "unstructured": "Hu, X. et al. Spectral phase-field model of deformation twinning and plastic deformation. Int. J. Plast. 143, 103019 (2021).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, F., Han, G., Fu, B., Shi, T., Huang, X. An elastoplastic phase-field study of the precipitation behaviors of Mg17Al12 phase in Mg-Al-based alloys: Part II. Precipitation under various loadings, J. Alloy. Compd. 171178 (2023).",
+        "DOI": "10.1016/j.jallcom.2023.171178"
+      },
+      {
+        "key": "1528_CR11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chakraborty, S. Patil, C. S. Niezgoda, S. R. Understanding the mechanisms behind the development of cube orientation in the non-cube grains during plane strain compression of medium to high stacking-fault energy FCC metals, Acta Mater. 119080 (2023).",
+        "DOI": "10.1016/j.actamat.2023.119080"
+      },
+      {
+        "key": "1528_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "103343",
+        "DOI": "10.1016/j.ijplas.2022.103343",
+        "volume": "156",
+        "author": "J Kang",
+        "year": "2022",
+        "unstructured": "Kang, J., Liu, X. & Niezgoda, S. R. Crystal plasticity modeling of ultrasonic softening effect considering anisotropy in the softening of slip systems. Int. J. Plast. 156, 103343 (2022).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "112182",
+        "DOI": "10.1016/j.commatsci.2023.112182",
+        "volume": "224",
+        "author": "A Patra",
+        "year": "2023",
+        "unstructured": "Patra, A. et al. Ρ-cp: Open source dislocation density based crystal plasticity framework for simulating temperature-and strain rate-dependent deformation. Comput. Mater. Sci. 224, 112182 (2023).",
+        "journal-title": "Comput. Mater. Sci."
+      },
+      {
+        "key": "1528_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "103254",
+        "DOI": "10.1016/j.ijplas.2022.103254",
+        "volume": "153",
+        "author": "M Pinz",
+        "year": "2022",
+        "unstructured": "Pinz, M., Benzing, J., Pilchak, A. & Ghosh, S. A microstructure-based porous crystal plasticity FE model for additively manufactured Ti-6Al-4V alloys. Int. J. Plast. 153, 103254 (2022).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "4",
+        "DOI": "10.1016/j.cad.2012.06.006",
+        "volume": "45",
+        "author": "JH Panchal",
+        "year": "2013",
+        "unstructured": "Panchal, J. H., Kalidindi, S. R. & McDowell, D. L. Key computational modeling issues in integrated computational materials engineering. Comput.-Aided Des. 45, 4–25 (2013).",
+        "journal-title": "Comput.-Aided Des."
+      },
+      {
+        "key": "1528_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1843",
+        "DOI": "10.1016/S0749-6419(03)00039-1",
+        "volume": "19",
+        "author": "A Staroselsky",
+        "year": "2003",
+        "unstructured": "Staroselsky, A. & Anand, L. A constitutive model for hcp materials deforming by slip and twinning: application to magnesium alloy AZ31B. Int. J. Plast. 19, 1843–1864 (2003).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu, K.-Y., Dai, S., Zou, S.-H., Yu, Y.-J., Deng, Z.-C. Experimental study and crystal plasticity modeling of additive manufacturing IN718 superalloy considering negative strain rate sensitivity behavior. Eur. J. Mech. A Solids 105304 (2024).",
+        "DOI": "10.1016/j.euromechsol.2024.105304"
+      },
+      {
+        "key": "1528_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, W. et al. Quantitatively assessing the contributions of temperature-dependent deformation-induced martensitic transformation to uniform elongation and work hardening of TRIP-assisted duplex stainless steel via crystal plasticity, Mater. Sci. Eng. A 145758 (2023).",
+        "DOI": "10.1016/j.msea.2023.145758"
+      },
+      {
+        "key": "1528_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "103249",
+        "DOI": "10.1016/j.ijplas.2022.103249",
+        "volume": "152",
+        "author": "D Agius",
+        "year": "2022",
+        "unstructured": "Agius, D. et al. A crystal plasticity model that accounts for grain size effects and slip system interactions on the deformation of austenitic stainless steels. Int. J. Plast. 152, 103249 (2022).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "138",
+        "DOI": "10.1016/j.jmst.2020.03.079",
+        "volume": "59",
+        "author": "Y Zhou",
+        "year": "2020",
+        "unstructured": "Zhou, Y. et al. Multi-scale crystal plasticity finite element simulations of the microstructural evolution and formation mechanism of adiabatic shear bands in dual-phase Ti20C alloy under complex dynamic loading. J. Mater. Sci. Technol. 59, 138–148 (2020).",
+        "journal-title": "J. Mater. Sci. Technol."
+      },
+      {
+        "key": "1528_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "420",
+        "DOI": "10.1016/j.commatsci.2018.04.030",
+        "volume": "158",
+        "author": "F Roters",
+        "year": "2019",
+        "unstructured": "Roters, F. et al. DAMASK–the Düsseldorf Advanced Material Simulation Kit for modeling multi-physics crystal plasticity, thermal, and damage phenomena from the single crystal up to the component scale. Comput. Mater. Sci. 158, 420–478 (2019).",
+        "journal-title": "Comput. Mater. Sci."
+      },
+      {
+        "key": "1528_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Roters, F., Eisenlohr, P., Bieler, T., Raabe, D. Crystal Plasticity Finite Element Methods: in Materials Science and Engineering (WILEY-VCH Verlag, 2011).",
+        "DOI": "10.1002/9783527631483"
+      },
+      {
+        "key": "1528_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "1152",
+        "DOI": "10.1016/j.actamat.2009.10.058",
+        "volume": "58",
+        "author": "F Roters",
+        "year": "2010",
+        "unstructured": "Roters, F. et al. Overview of constitutive laws, kinematics, homogenization and multiscale methods in crystal plasticity finite-element modeling: Theory, experiments, applications. Acta Mater. 58, 1152–1211 (2010).",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "1528_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1087",
+        "DOI": "10.1016/0001-6160(82)90005-0",
+        "volume": "30",
+        "author": "D Peirce",
+        "year": "1982",
+        "unstructured": "Peirce, D., Asaro, R. & Needleman, A. An analysis of nonuniform and localized deformation in ductile single crystals. Acta Met. 30, 1087–1119 (1982).",
+        "journal-title": "Acta Met."
+      },
+      {
+        "key": "1528_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "103292",
+        "DOI": "10.1016/j.ijplas.2022.103292",
+        "volume": "153",
+        "author": "S Daroju",
+        "year": "2022",
+        "unstructured": "Daroju, S. et al. Experimental characterization and crystal plasticity modeling for predicting load reversals in AA6016-T4 and AA7021-T79. Int. J. Plast. 153, 103292 (2022).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "76",
+        "DOI": "10.1016/j.jmst.2021.09.030",
+        "volume": "111",
+        "author": "D Wang",
+        "year": "2022",
+        "unstructured": "Wang, D. et al. Texture evolution and slip mode of a Ti-5.5 Mo-7.2 Al-4.5 Zr-2.6 Sn-2.1 Cr dual-phase alloy during cold rolling based on multiscale crystal plasticity finite element model. J. Mater. Sci. Technol. 111, 76–87 (2022).",
+        "journal-title": "J. Mater. Sci. Technol."
+      },
+      {
+        "key": "1528_CR27",
+        "doi-asserted-by": "publisher",
+        "first-page": "125",
+        "DOI": "10.1016/j.jmst.2019.07.051",
+        "volume": "38",
+        "author": "J Zhao",
+        "year": "2020",
+        "unstructured": "Zhao, J., Lv, L., Wang, K. & Liu, G. Effects of strain state and slip mode on the texture evolution of a near-α TA15 titanium alloy during hot deformation based on crystal plasticity method. J. Mater. Sci. Technol. 38, 125–134 (2020).",
+        "journal-title": "J. Mater. Sci. Technol."
+      },
+      {
+        "key": "1528_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "63",
+        "DOI": "10.1016/j.ijplas.2019.09.002",
+        "volume": "125",
+        "author": "S Ghorbanpour",
+        "year": "2020",
+        "unstructured": "Ghorbanpour, S. et al. Experimental characterization and crystal plasticity modeling of anisotropy, tension-compression asymmetry, and texture evolution of additively manufactured Inconel 718 at room and elevated temperatures. Int. J. Plast. 125, 63–79 (2020).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.ijplas.2019.03.010",
+        "volume": "120",
+        "author": "T Park",
+        "year": "2019",
+        "unstructured": "Park, T. et al. Crystal plasticity modeling of 3rd generation multi-phase AHSS with martensitic transformation. Int. J. Plast. 120, 1–46 (2019).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "103931",
+        "DOI": "10.1016/j.ijplas.2024.103931",
+        "volume": "175",
+        "author": "B Xu",
+        "year": "2024",
+        "unstructured": "Xu, B. et al. Effect of pore on the deformation behaviors of NiTi shape memory alloys: a crystal-plasticity-based phase field modeling. Int. J. Plast. 175, 103931 (2024).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "153",
+        "DOI": "10.1016/j.ijplas.2018.06.002",
+        "volume": "109",
+        "author": "P Zhao",
+        "year": "2018",
+        "unstructured": "Zhao, P., Shen, C., Niezgoda, S. R. & Wang, Y. Heterogeneous γ′ microstructures in nickel-base superalloys and their influence on tensile and creep performance. Int. J. Plast. 109, 153–168 (2018).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "110015",
+        "DOI": "10.1016/j.matdes.2021.110015",
+        "volume": "210",
+        "author": "Q Zhao",
+        "year": "2021",
+        "unstructured": "Zhao, Q., Wahab, M. A., Ling, Y. & Liu, Z. Fatigue crack propagation within Al-Cu-Mg single crystals based on crystal plasticity and XFEM combined with cohesive zone model. Mater. Des. 210, 110015 (2021).",
+        "journal-title": "Mater. Des."
+      },
+      {
+        "key": "1528_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "113748",
+        "DOI": "10.1016/j.cma.2021.113748",
+        "volume": "379",
+        "author": "S Chakraborty",
+        "year": "2021",
+        "unstructured": "Chakraborty, S. & Ghosh, S. A concurrent atomistic-crystal plasticity multiscale model for crack propagation in crystalline metallic materials. Comput. Methods Appl. Mech. Eng. 379, 113748 (2021).",
+        "journal-title": "Comput. Methods Appl. Mech. Eng."
+      },
+      {
+        "key": "1528_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "206",
+        "DOI": "10.1016/j.ijplas.2014.08.013",
+        "volume": "65",
+        "author": "J Mayeur",
+        "year": "2015",
+        "unstructured": "Mayeur, J., Beyerlein, I., Bronkhorst, C. & Mourad, H. Incorporating interface affected zones into crystal plasticity. Int. J. Plast. 65, 206–225 (2015).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "121",
+        "DOI": "10.1038/s41524-023-01080-x",
+        "volume": "9",
+        "author": "H Liu",
+        "year": "2023",
+        "unstructured": "Liu, H. et al. End-to-end differentiability and tensor processing unit computing to accelerate materials’ inverse design. npj Comput. Mater. 9, 121 (2023).",
+        "journal-title": "npj Comput. Mater."
+      },
+      {
+        "key": "1528_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "104958",
+        "DOI": "10.1016/j.mtcomm.2022.104958",
+        "volume": "33",
+        "author": "T Shiraiwa",
+        "year": "2022",
+        "unstructured": "Shiraiwa, T., Briffod, F., Enoki, M. & Yamazaki, K. Inverse analysis of the relationship between three-dimensional microstructures and tensile properties of dual-phase steels. Mater. Today Commun. 33, 104958 (2022).",
+        "journal-title": "Mater. Today Commun."
+      },
+      {
+        "key": "1528_CR37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmatprotec.2021.117485",
+        "volume": "302",
+        "author": "M Mozaffar",
+        "year": "2022",
+        "unstructured": "Mozaffar, M. et al. Mechanistic artificial intelligence (mechanistic-AI) for modeling, design, and control of advanced manufacturing processes: Current state and perspectives. J. Mater. Process. Technol. 302, 117485 (2022).",
+        "journal-title": "J. Mater. Process. Technol."
+      },
+      {
+        "key": "1528_CR38",
+        "unstructured": "Goldberg, D. E. Genetic Algorithms (Pearson Education India, 2013)."
+      },
+      {
+        "key": "1528_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "113747",
+        "DOI": "10.1016/j.cma.2021.113747",
+        "volume": "379",
+        "author": "DJ Savage",
+        "year": "2021",
+        "unstructured": "Savage, D. J., Feng, Z. & Knezevic, M. Identification of crystal plasticity model parameters by multi-objective optimization integrating microstructural evolution and mechanical data. Comput. Methods Appl. Mech. Eng. 379, 113747 (2021).",
+        "journal-title": "Comput. Methods Appl. Mech. Eng."
+      },
+      {
+        "key": "1528_CR40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tran, A., H. Lim, H. An asynchronous parallel high-throughput model calibration framework for crystal plasticity finite element constitutive models, Comput. Mech. 1–14. (2023).",
+        "DOI": "10.2172/2431545"
+      },
+      {
+        "key": "1528_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "132",
+        "DOI": "10.1007/s00158-021-03102-y",
+        "volume": "65",
+        "author": "A Tran",
+        "year": "2022",
+        "unstructured": "Tran, A. et al. aphBO-2GP-3B: a budgeted asynchronous parallel multi-acquisition functions for constrained Bayesian optimization on high-performing computing architecture. Struct. Multidiscip. Optim. 65, 132 (2022).",
+        "journal-title": "Struct. Multidiscip. Optim."
+      },
+      {
+        "key": "1528_CR42",
+        "unstructured": "Bernardo, J. M., Smith, A. F. Bayesian Theory (John Wiley & Sons, 2009)."
+      },
+      {
+        "key": "1528_CR43",
+        "first-page": "103337",
+        "volume": "61",
+        "author": "M Mozaffar",
+        "year": "2023",
+        "unstructured": "Mozaffar, M., Liao, S., Jeong, J., Xue, T. & Cao, J. Differentiable simulation for material thermal response design in additive manufacturing processes. Addit. Manuf. 61, 103337 (2023).",
+        "journal-title": "Addit. Manuf."
+      },
+      {
+        "key": "1528_CR44",
+        "unstructured": "Mozaffar, M., Cao, J. Additive manufacturing process design with differentiable simulations, arXiv preprint arXiv:2107.10919 (2021)."
+      },
+      {
+        "key": "1528_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "108802",
+        "DOI": "10.1016/j.cpc.2023.108802",
+        "volume": "291",
+        "author": "T Xue",
+        "year": "2023",
+        "unstructured": "Xue, T. et al. JAX-FEM: a differentiable GPU-accelerated 3D finite element solver for automatic inverse design and mechanistic data science. Comput. Phys. Commun. 291, 108802 (2023).",
+        "journal-title": "Comput. Phys. Commun."
+      },
+      {
+        "key": "1528_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "617",
+        "DOI": "10.1007/s00466-012-0741-7",
+        "volume": "51",
+        "author": "K Chockalingam",
+        "year": "2013",
+        "unstructured": "Chockalingam, K. et al. Crystal plasticity with Jacobian-free Newton–Krylov. Comput. Mech. 51, 617–627 (2013).",
+        "journal-title": "Comput. Mech."
+      },
+      {
+        "key": "1528_CR47",
+        "unstructured": "Huang, Y. A User-Material Subroutine Incroporating Single Crystal Plasticity in the ABAQUS Finite Element Program (Harvard University, 1991)."
+      },
+      {
+        "key": "1528_CR48",
+        "unstructured": "Bradbury, J. et al, JAX: Composable Transformations of Python+ NumPy programs (2018)."
+      },
+      {
+        "key": "1528_CR49",
+        "doi-asserted-by": "publisher",
+        "first-page": "69",
+        "DOI": "10.1002/nme.6843",
+        "volume": "123",
+        "author": "DT Seidl",
+        "year": "2022",
+        "unstructured": "Seidl, D. T. & Granzow, B. N. Calibration of elastoplastic constitutive model parameters from full‐field data with automatic differentiation‐based sensitivities. Int. J. Numer. Methods Eng. 123, 69–100 (2022).",
+        "journal-title": "Int. J. Numer. Methods Eng."
+      },
+      {
+        "key": "1528_CR50",
+        "doi-asserted-by": "publisher",
+        "first-page": "323",
+        "DOI": "10.1007/s00466-017-1499-8",
+        "volume": "62",
+        "author": "Z Li",
+        "year": "2018",
+        "unstructured": "Li, Z., Bloomfield, M. O. & Oberai, A. A. Simulation of finite-strain inelastic phenomena governed by creep and plasticity. Comput. Mech. 62, 323–345 (2018).",
+        "journal-title": "Comput. Mech."
+      },
+      {
+        "key": "1528_CR51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, Q., Ostien, J.T., Hansen, G. Automatic differentiation for numerically exact computation of tangent operators in small-and large-deformation computational inelasticity. In: Proc. 143rd Annual Meeting & Exhibition: Annual Meeting Supplemental Proceedings, 289–296 (Springer, 2016).",
+        "DOI": "10.1007/978-3-319-48237-8_38"
+      },
+      {
+        "key": "1528_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "1103",
+        "DOI": "10.1007/s00419-014-0939-6",
+        "volume": "85",
+        "author": "S Rothe",
+        "year": "2015",
+        "unstructured": "Rothe, S. & Hartmann, S. Automatic differentiation for stress and consistent tangent computation. Arch. Appl. Mech. 85, 1103–1125 (2015).",
+        "journal-title": "Arch. Appl. Mech."
+      },
+      {
+        "key": "1528_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "477",
+        "DOI": "10.1016/j.pmatsci.2009.08.002",
+        "volume": "55",
+        "author": "DT Fullwood",
+        "year": "2010",
+        "unstructured": "Fullwood, D. T., Niezgoda, S. R., Adams, B. L. & Kalidindi, S. R. Microstructure sensitive design for performance optimization. Prog. Mater. Sci. 55, 477–562 (2010).",
+        "journal-title": "Prog. Mater. Sci."
+      },
+      {
+        "key": "1528_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "112425",
+        "DOI": "10.1016/j.commatsci.2023.112425",
+        "volume": "230",
+        "author": "SS Kulkarni",
+        "year": "2023",
+        "unstructured": "Kulkarni, S. S., Venkatraman, A., Senor, D. J. & Devanathan, R. A sensitivity analysis of twinning crystal plasticity finite element model using single crystal and poly crystal Zircaloy. Comput. Mater. Sci. 230, 112425 (2023).",
+        "journal-title": "Comput. Mater. Sci."
+      },
+      {
+        "key": "1528_CR55",
+        "doi-asserted-by": "publisher",
+        "first-page": "296",
+        "DOI": "10.1016/j.ijplas.2019.05.008",
+        "volume": "120",
+        "author": "S Kotha",
+        "year": "2019",
+        "unstructured": "Kotha, S., Ozturk, D. & Ghosh, S. Parametrically homogenized constitutive models (PHCMs) from micromechanical crystal plasticity FE simulations, part I: Sensitivity analysis and parameter identification for Titanium alloys. Int. J. Plast. 120, 296–319 (2019).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR56",
+        "unstructured": "Ogden, R. W. Non-Linear Elastic Deformations (Courier Corporation, 1997)."
+      },
+      {
+        "key": "1528_CR57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kuhn, J., Spitz, J., Sonnweber-Ribic, P., Schneider, M., Böhlke, T. Identifying material parameters in crystal plasticity by Bayesian optimization. Optim. Eng. 23,1489–1523 (2021).",
+        "DOI": "10.1007/s11081-021-09663-7"
+      },
+      {
+        "key": "1528_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "115740",
+        "DOI": "10.1016/j.cma.2022.115740",
+        "volume": "403",
+        "author": "K Veasna",
+        "year": "2023",
+        "unstructured": "Veasna, K., Feng, Z., Zhang, Q. & Knezevic, M. Machine learning-based multi-objective optimization for efficient identification of crystal plasticity model parameters. Comput. Methods Appl. Mech. Eng. 403, 115740 (2023).",
+        "journal-title": "Comput. Methods Appl. Mech. Eng."
+      },
+      {
+        "key": "1528_CR59",
+        "doi-asserted-by": "publisher",
+        "first-page": "104117",
+        "DOI": "10.1016/j.mechmat.2021.104117",
+        "volume": "164",
+        "author": "K Sedighiani",
+        "year": "2022",
+        "unstructured": "Sedighiani, K. et al. Determination and analysis of the constitutive parameters of temperature-dependent dislocation-density-based crystal plasticity models. Mech. Mater. 164, 104117 (2022).",
+        "journal-title": "Mech. Mater."
+      },
+      {
+        "key": "1528_CR60",
+        "doi-asserted-by": "publisher",
+        "first-page": "100430",
+        "DOI": "10.1016/j.softx.2020.100430",
+        "volume": "11",
+        "author": "CJ Permann",
+        "year": "2020",
+        "unstructured": "Permann, C. J. et al. MOOSE: enabling massively parallel multiphysics simulation. SoftwareX 11, 100430 (2020).",
+        "journal-title": "SoftwareX"
+      },
+      {
+        "key": "1528_CR61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yaghoobi, M. et al, PRISMS-plasticity: an open-source crystal plasticity finite element software. Comput. Mater. Sci. 169, 109708 (2019).",
+        "DOI": "10.1016/j.commatsci.2019.109078"
+      },
+      {
+        "key": "1528_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "149",
+        "DOI": "10.1016/j.commatsci.2018.12.051",
+        "volume": "160",
+        "author": "W Sun",
+        "year": "2019",
+        "unstructured": "Sun, W., Yan, R., Zhang, Y., Dong, H. & Jing, T. GPU-accelerated three-dimensional large-scale simulation of dendrite growth for Ti6Al4V alloy based on multi-component phase-field model. Comput. Mater. Sci. 160, 149–158 (2019).",
+        "journal-title": "Comput. Mater. Sci."
+      },
+      {
+        "key": "1528_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "309",
+        "DOI": "10.1016/0022-5096(77)90001-1",
+        "volume": "25",
+        "author": "RJ Asaro",
+        "year": "1977",
+        "unstructured": "Asaro, R. J. & Rice, J. Strain localization in ductile single crystals. J. Mech. Phys. Solids 25, 309–338 (1977).",
+        "journal-title": "J. Mech. Phys. Solids"
+      },
+      {
+        "key": "1528_CR64",
+        "doi-asserted-by": "publisher",
+        "first-page": "267",
+        "DOI": "10.1016/S0022-5096(97)00051-3",
+        "volume": "46",
+        "author": "SR Kalidindi",
+        "year": "1998",
+        "unstructured": "Kalidindi, S. R. Incorporation of deformation twinning in crystal plasticity models. J. Mech. Phys. Solids 46, 267–290 (1998).",
+        "journal-title": "J. Mech. Phys. Solids"
+      },
+      {
+        "key": "1528_CR65",
+        "doi-asserted-by": "publisher",
+        "first-page": "537",
+        "DOI": "10.1016/0022-5096(92)80003-9",
+        "volume": "40",
+        "author": "SR Kalidindi",
+        "year": "1992",
+        "unstructured": "Kalidindi, S. R., Bronkhorst, C. A. & Anand, L. Crystallographic texture evolution in bulk deformation processing of FCC metals. J. Mech. Phys. Solids 40, 537–569 (1992).",
+        "journal-title": "J. Mech. Phys. Solids"
+      },
+      {
+        "key": "1528_CR66",
+        "doi-asserted-by": "publisher",
+        "first-page": "140",
+        "DOI": "10.1016/j.actamat.2016.07.032",
+        "volume": "118",
+        "author": "SL Wong",
+        "year": "2016",
+        "unstructured": "Wong, S. L., Madivala, M., Prahl, U., Roters, F. & Raabe, D. A crystal plasticity model for twinning-and transformation-induced plasticity. Acta Mater. 118, 140–151 (2016).",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "1528_CR67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Raabe, D. Roters, F. Barlat, F. Chen, L.-Q. Continuum Scale Simulation of Engineering Materials: Fundamentals-Microstructures-process Applications (John Wiley & Sons, 2004).",
+        "DOI": "10.1002/3527603786"
+      },
+      {
+        "key": "1528_CR68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nocedal, J., Wright, S. J. Numerical Optimization (Springer, 1999).",
+        "DOI": "10.1007/b98874"
+      },
+      {
+        "key": "1528_CR69",
+        "unstructured": "Frostig, R. Johnson, M. J. Leary, C. Compiling machine learning programs via high-level tracing. Syst. Mach. Learn. 4 (2018)."
+      },
+      {
+        "key": "1528_CR70",
+        "doi-asserted-by": "publisher",
+        "first-page": "357",
+        "DOI": "10.1016/j.jcp.2003.08.010",
+        "volume": "193",
+        "author": "DA Knoll",
+        "year": "2004",
+        "unstructured": "Knoll, D. A. & Keyes, D. E. Jacobian-free Newton–Krylov methods: a survey of approaches and applications. J. Comput. Phys. 193, 357–397 (2004).",
+        "journal-title": "J. Comput. Phys."
+      },
+      {
+        "key": "1528_CR71",
+        "doi-asserted-by": "publisher",
+        "first-page": "114831",
+        "DOI": "10.1016/j.cma.2022.114831",
+        "volume": "393",
+        "author": "T Mánik",
+        "year": "2022",
+        "unstructured": "Mánik, T., Asadkandi, H. & Holmedal, B. A robust algorithm for rate-independent crystal plasticity. Comput. Methods Appl. Mech. Eng. 393, 114831 (2022).",
+        "journal-title": "Comput. Methods Appl. Mech. Eng."
+      },
+      {
+        "key": "1528_CR72",
+        "doi-asserted-by": "publisher",
+        "first-page": "5155",
+        "DOI": "10.1002/nme.7059",
+        "volume": "123",
+        "author": "M Vieira de Carvalho",
+        "year": "2022",
+        "unstructured": "Vieira de Carvalho, M., Cardoso Coelho, R. P. & Pires, F. M. A. On the computational treatment of fully coupled crystal plasticity slip and martensitic transformation constitutive models at finite strains. Int. J. Numer. Methods Eng. 123, 5155–5200 (2022).",
+        "journal-title": "Int. J. Numer. Methods Eng."
+      },
+      {
+        "key": "1528_CR73",
+        "doi-asserted-by": "publisher",
+        "first-page": "101",
+        "DOI": "10.1016/j.ijplas.2019.06.001",
+        "volume": "121",
+        "author": "H Lim",
+        "year": "2019",
+        "unstructured": "Lim, H., Battaile, C. C., Bishop, J. E. & Foulk, J. W. III, Investigating mesh sensitivity and polycrystalline RVEs in crystal plasticity finite element simulations. Int. J. Plast. 121, 101–115 (2019).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR74",
+        "doi-asserted-by": "publisher",
+        "first-page": "1729",
+        "DOI": "10.1016/j.cma.2011.01.002",
+        "volume": "200",
+        "author": "R Quey",
+        "year": "2011",
+        "unstructured": "Quey, R., Dawson, P. R. & Barbe, F. Large-scale 3D random polycrystals for the finite element method: generation, meshing and remeshing. Comput. Methods Appl. Mech. Eng. 200, 1729–1745 (2011).",
+        "journal-title": "Comput. Methods Appl. Mech. Eng."
+      },
+      {
+        "key": "1528_CR75",
+        "doi-asserted-by": "publisher",
+        "first-page": "261",
+        "DOI": "10.1038/s41592-019-0686-2",
+        "volume": "17",
+        "author": "P Virtanen",
+        "year": "2020",
+        "unstructured": "Virtanen, P. et al. SciPy 1.0: fundamental algorithms for scientific computing in Python. Nat. Methods 17, 261–272 (2020).",
+        "journal-title": "Nat. Methods"
+      },
+      {
+        "key": "1528_CR76",
+        "unstructured": "Henderson, A., Ahrens, J., Law, C. The ParaView Guide (ParaView Developers2004)."
+      },
+      {
+        "key": "1528_CR77",
+        "doi-asserted-by": "publisher",
+        "first-page": "271",
+        "DOI": "10.1137/080727154",
+        "volume": "32",
+        "author": "T Rees",
+        "year": "2010",
+        "unstructured": "Rees, T., Dollar, H. S. & Wathen, A. J. Optimal solvers for PDE-constrained optimization. SIAM J. Sci. Comput. 32, 271–298 (2010).",
+        "journal-title": "SIAM J. Sci. Comput."
+      },
+      {
+        "key": "1528_CR78",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.ijplas.2014.02.001",
+        "volume": "57",
+        "author": "V Herrera-Solaz",
+        "year": "2014",
+        "unstructured": "Herrera-Solaz, V., LLorca, J., Dogan, E., Karaman, I. & Segurado, J. An inverse optimization strategy to determine single crystal mechanical behavior from polycrystal tests: application to AZ31 Mg alloy. Int. J. Plast. 57, 1–15 (2014).",
+        "journal-title": "Int. J. Plast."
+      },
+      {
+        "key": "1528_CR79",
+        "first-page": "25",
+        "volume": "174",
+        "author": "NJ Petch",
+        "year": "1953",
+        "unstructured": "Petch, N. J. The cleavage strength of polycrystals. J. Iron Steel Inst. 174, 25–28 (1953).",
+        "journal-title": "J. Iron Steel Inst."
+      },
+      {
+        "key": "1528_CR80",
+        "doi-asserted-by": "publisher",
+        "first-page": "4445",
+        "DOI": "10.1016/j.jma.2023.05.008",
+        "volume": "11",
+        "author": "A Lakshmanan",
+        "year": "2023",
+        "unstructured": "Lakshmanan, A. et al. A combined experimental and crystal plasticity study of grain size effects in magnesium alloys. J. Magnes. Alloy. 11, 4445–4467 (2023).",
+        "journal-title": "J. Magnes. Alloy."
+      },
+      {
+        "key": "1528_CR81",
+        "doi-asserted-by": "publisher",
+        "first-page": "119631",
+        "DOI": "10.1016/j.actamat.2023.119631",
+        "volume": "266",
+        "author": "Y Gu",
+        "year": "2024",
+        "unstructured": "Gu, Y., Stiles, C. D. & El-Awady, J. A. A statistical perspective for predicting the strength of metals: Revisiting the Hall–Petch relationship using machine learning. Acta Mater. 266, 119631 (2024).",
+        "journal-title": "Acta Mater."
+      },
+      {
+        "key": "1528_CR82",
+        "doi-asserted-by": "publisher",
+        "first-page": "1190",
+        "DOI": "10.1137/0916069",
+        "volume": "16",
+        "author": "RH Byrd",
+        "year": "1995",
+        "unstructured": "Byrd, R. H., Lu, P., Nocedal, J. & Zhu, C. A limited memory algorithm for bound constrained optimization. SIAM J. Sci. Comput. 16, 1190–1208 (1995).",
+        "journal-title": "SIAM J. Sci. Comput."
+      },
+      {
+        "key": "1528_CR83",
+        "doi-asserted-by": "publisher",
+        "first-page": "185",
+        "DOI": "10.1137/S0895479897326432",
+        "volume": "21",
+        "author": "GH Golub",
+        "year": "1999",
+        "unstructured": "Golub, G. H., Hansen, P. C. & O’Leary, D. P. Tikhonov regularization and total least squares. SIAM J. Matrix Anal. Appl. 21, 185–194 (1999).",
+        "journal-title": "SIAM J. Matrix Anal. Appl."
+      },
+      {
+        "key": "1528_CR84",
+        "doi-asserted-by": "publisher",
+        "first-page": "489",
+        "DOI": "10.1088/0266-5611/15/2/009",
+        "volume": "15",
+        "author": "A Louis",
+        "year": "1999",
+        "unstructured": "Louis, A. A unified approach to regularization methods for linear ill-posed problems. Inverse Probl. 15, 489 (1999).",
+        "journal-title": "Inverse Probl."
+      },
+      {
+        "key": "1528_CR85",
+        "unstructured": "Wilkinson, P. Parallel Programming: Techniques and Applications Using Networked Workstations and Parallel Computers, 2 Ed. (Pearson Education India, 2006)."
+      },
+      {
+        "key": "1528_CR86",
+        "unstructured": "Cook, S. CUDA Programming: A Developer’s Guide to Parallel Computing with GPUs (Newnes, 2012)."
+      },
+      {
+        "key": "1528_CR87",
+        "doi-asserted-by": "publisher",
+        "first-page": "111943",
+        "DOI": "10.1016/j.ijsolstr.2022.111943",
+        "volume": "256",
+        "author": "OL Kafka",
+        "year": "2022",
+        "unstructured": "Kafka, O. L. et al. X-ray computed tomography analysis of pore deformation in IN718 made with directed energy deposition via in-situ tensile testing. Int. J. Solids Struct. 256, 111943 (2022).",
+        "journal-title": "Int. J. Solids Struct."
+      },
+      {
+        "key": "1528_CR88",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, G., Zha, R., Wang, Y., Cao, J., Guo, P. Digital fringe projection for interlayer print defect characterization in directed energy deposition. In: Proc. International Symposium on Flexible Automation, p. V001T01A002 (American Society of Mechanical Engineers, 2024).",
+        "DOI": "10.1115/ISFA2024-141314"
+      },
+      {
+        "key": "1528_CR89",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Asaro, R. J. Crystal plasticity. J. Appl. Mech. 50, 921–934 (1983).",
+        "DOI": "10.1115/1.3167205"
+      },
+      {
+        "key": "1528_CR90",
+        "unstructured": "Griewank, A. Walther, A. Evaluating Derivatives: Principles and Techniques of Algorithmic Differentiation (SIAM Publications, 20080."
+      },
+      {
+        "key": "1528_CR91",
+        "unstructured": "Bonnans, J. F. Shapiro, A. Perturbation Analysis of Optimization Problems (Springer Science & Business Media, 2013)."
+      },
+      {
+        "key": "1528_CR92",
+        "first-page": "5230",
+        "volume": "35",
+        "author": "M Blondel",
+        "year": "2022",
+        "unstructured": "Blondel, M. et al. Efficient and modular implicit differentiation. Adv. Neural Inf. Process. Syst. 35, 5230–5242 (2022).",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      }
+    ],
+    "container-title": [
+      "npj Computational Materials"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41524-025-01528-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41524-025-01528-2",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41524-025-01528-2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          22
+        ]
+      ],
+      "date-time": "2025-02-22T12:56:10Z",
+      "timestamp": 1740228970000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41524-025-01528-2"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          22
+        ]
+      ]
+    },
+    "references-count": 92,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "1528"
+    ],
+    "URL": "https://doi.org/10.1038/s41524-025-01528-2",
+    "relation": {},
+    "ISSN": [
+      "2057-3960"
+    ],
+    "issn-type": [
+      {
+        "value": "2057-3960",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          22
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "27 September 2024",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "17 January 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "22 February 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "46"
+  }
+}
